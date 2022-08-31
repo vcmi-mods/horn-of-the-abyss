@@ -1,0 +1,36 @@
+{
+	"bidley" : {
+		"army" : [
+			{ "creature" : "seadog", "max" : 3, "min" : 1 },
+			{ "creature" : "corsair", "max" : 7, "min" : 4 },
+			{ "creature" : "seadog", "max" : 3, "min" : 1 }
+		],
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/heroes/bidley/portraitlarge.png",
+			"small" : "hota/heroes/bidley/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/bidley/speclarge.png",
+			"specialtySmall" : "hota/heroes/bidley/specsmall.png"
+		},
+		"skills" : [ { "level" : "advanced", "skill" : "offence" } ],
+		"specialty" : {
+			"base" : {
+				"addInfo" : "creature.seadog",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"pirate2seadog" : { "subtype" : "creature.pirate" },
+				"corsair2seadog" : { "subtype" : "creature.corsair" }
+			}
+		},
+		"texts" : {
+			"biography" : "Bidley is one of the most successful pirates operating near Erathia shores. He is ready to accept any challenge and is able to emerge unscathed from any situation. It seems like he has a rival in every world's corner, but he is always able to escape the trouble. Apart from being an excellent warrior, having artisan skills in both pistol and sabre wielding, he also trains his crew personally.",
+			"name" : "Bidley",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Sea Dogs",
+				"name" : "Sea Dogs",
+				"description" : "{Sea Dogs}\r\n\r\nCan upgrade Pirates or Corsairs to Sea Dogs."
+			}
+		}
+	}
+}

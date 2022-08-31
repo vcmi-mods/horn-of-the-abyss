@@ -1,0 +1,18 @@
+{
+	"capeOfSilence" : {
+		"bonuses" : [
+			{ "effectRange" : "ONLY_ENEMY_ARMY", "type" : "LEVEL_SPELL_IMMUNITY", "val" : 1 },
+			{ "type" : "LEVEL_SPELL_IMMUNITY", "val" : 1 }
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "hota/artifacts/capeOfSilence", "large" : "hota/artifacts/ABon159p", "map" : "hota/artifacts/capeOfSilence" },
+		"slot" : "SHOULDERS",
+		"text" : {
+			"description" : "{Cape of Silence}\r\n\r\nWhile wearing this cape, neither you nor your opponent will be able to cast level 1-2 spells during combat.",
+			"event" : "As you pass the graveyard, you notice an old man mourning over his wife. As you approach him, the old man falls dead. After burying him, you decide to take his cape.",
+			"name" : "Cape of Silence"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7500
+	}
+}

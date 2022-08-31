@@ -1,0 +1,81 @@
+{
+	"satyr":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 16,
+			"min" : 10
+		},
+			"name" :
+		{
+			"plural" : "Satyrs",
+			"singular" : "Satyr"
+		},
+		"faction" : "neutral",
+		"aiValue" : 550,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 10,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 500,
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "hota/battle/CSATYR.def",
+			"map" : "hota/map/AvWSatyr.def",
+			"iconSmall" : "hota/iconsSmall/CPrSm169.bmp",
+			"iconLarge" : "hota/iconsBig/TwCrP169.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 35,
+		"level" : 4,
+
+
+		"sound" :
+		{
+			"attack": "hota/satyr/SATYATTK.wav",
+			"defend": "hota/satyr/SATYDFND.wav",
+			"killed": "hota/satyr/SATYKILL.wav",
+			"move": "hota/satyr/SATYMOVE.wav",
+			"wince": "hota/satyr/SATYWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities" :
+		{
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 600
+			},
+			"mirth" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.mirth",
+				"val" : 2
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+		}
+	}
+}
+
+

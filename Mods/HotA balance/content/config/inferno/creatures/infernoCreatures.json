@@ -1,0 +1,29 @@
+{
+	"core:efreet" :
+	{
+		"graphics" :
+		{
+			"animation" : "inferno/creatures/battle/cefree.def",
+			"map" : 	  "inferno/creatures/map/AVWefre0.def",
+		}
+	},
+	"core:efreetSultan" :
+	{
+		"graphics" :
+		{
+			"animation" : "inferno/creatures/battle/cefres.def"
+		}
+	},
+	"core:archDevil" :
+	{
+		"abilities" :
+		{
+			"descreaseLuck" :
+			{
+				"type" : "LUCK",
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"val" : -2
+			}
+		}
+	}	
+}

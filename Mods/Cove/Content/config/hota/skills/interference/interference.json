@@ -1,0 +1,63 @@
+{
+	"interference" : {
+		"name" : "Interference",
+//		"defaultGainChance" : 4,
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 0
+		},
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.spellpower",
+					"valueType" : "PERCENT_TO_ALL",
+					"propagator" : "BATTLE_WIDE",
+					"val": -10
+				},
+				"extra" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.spellpower",
+					"valueType" : "PERCENT_TO_ALL",
+					"val": 10
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "hota/skills/interference/interferenceSmallBasic",
+				"medium" : "hota/skills/interference/interferenceMediumBasic",
+				"large" : "hota/skills/interference/interferenceLargeBasic"
+			},
+			"description" : "{Basic Interference}\n\nReduces enemy hero spell power during combat by 10%.",
+			"effects" : {
+				"main" : { "val" : -10 },
+				"extra" : { "val" : 10 }
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "hota/skills/interference/interferenceSmallAdvanced",
+				"medium" : "hota/skills/interference/interferenceMediumAdvanced",
+				"large" : "hota/skills/interference/interferenceLargeAdvanced"
+			},
+			"description" : "{Advanced Interference}\n\nReduces enemy hero spell power during combat by 20%.",
+			"effects" : {
+				"main" : { "val" : -20 },
+				"extra" : { "val" : 20 }
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "hota/skills/interference/interferenceSmallExpert",
+				"medium" : "hota/skills/interference/interferenceMediumExpert",
+				"large" : "hota/skills/interference/interferenceLargeExpert"
+			},
+			"description" : "{Expert Interference}\n\nReduces enemy hero spell power during combat by 30%.",
+			"effects" : {
+				"main" : { "val" : -30 },
+				"extra" : { "val" : 30 }
+			}
+		}
+	}
+}

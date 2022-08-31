@@ -1,0 +1,125 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"mansion" : 
+			{
+				"name" : "Mansion",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/avmnsion.def", 
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBAB"],
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"] 							
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPMANS.wav"],
+					"visit": ["banks/mansionv.wav"]
+				},
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 50
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "vampireLord" },
+							{ "amount": 5, "type" : "vampireLord" },
+							{ "amount": 5, "type" : "vampireLord"},
+							{ "amount": 5, "type" : "vampireLord" },
+							{ "amount": 5, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 2500,
+								"mercury": 2,
+								"sulfur": 2,
+								"gems" : 2,
+								"crystal" : 2		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "vampireLord" },
+							{ "amount": 10, "type" : "vampireLord" },
+							{ "amount": 10, "type" : "vampireLord"},
+							{ "amount": 10, "type" : "vampireLord" },
+							{ "amount": 10, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 5000,
+								"mercury": 3,
+								"sulfur": 3,
+								"gems" : 3,
+								"crystal" : 3		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "vampireLord" },
+							{ "amount": 15, "type" : "vampireLord" },
+							{ "amount": 15, "type" : "vampireLord"},
+							{ "amount": 15, "type" : "vampireLord" },
+							{ "amount": 15, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 7500,
+								"mercury": 4,
+								"sulfur": 4,
+								"gems" : 4,
+								"crystal" : 4		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord"},
+							{ "amount": 20, "type" : "vampireLord" },
+							{ "amount": 20, "type" : "vampireLord" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"resources": 
+							{
+								"gold" : 10000,
+								"mercury": 5,
+								"sulfur": 5,
+								"gems" : 5,
+								"crystal" : 5		
+							},
+							"artifacts": [ { "class" : "MAJOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

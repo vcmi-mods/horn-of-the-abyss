@@ -1,0 +1,64 @@
+{
+	"friendlyFireball" : 
+	{
+		"type": "ability",
+		"name": "Fireball",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "LOCATION",
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["C13SPF"] //C13SPF0 ???
+		},
+		"sounds": {
+			"cast": "SPONTCOMB"
+		},
+		"levels" : {
+			"base":{
+				"range" : "0,1",
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage"}
+				},
+				"targetModifier":{"smart":true},
+				"description" : "Stacks in target hex and it's surrounding hexes take damage",
+				"cost": 15,
+				"power": 15,
+				"aiValue": 70,
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+			},
+			"advanced":
+			{
+			},
+			"expert":
+			{
+			}
+		},
+		"flags" : {
+			"damage": true,
+			"negative": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+			}
+		},
+		"graphics":
+		{
+		}
+	}
+}

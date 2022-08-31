@@ -1,0 +1,47 @@
+{
+	"hotaWaterfalls" : {
+	"handler": "static",
+	"name" : "Waterfalls",
+	"types" : {
+		"hotaWaterfalls" : {
+			"name" : "Waterfall",
+			"base" : { "allowedTerrains": ["water"] },
+			"sounds": {
+				"ambient": ["LOOPWATR.wav"]
+			},			
+			"templates" : {
+					"h4wt1f" : { "animation" : "h4wt1f",
+					"mask" : ["VV","VB"]
+					},					
+					"h4wt2f" : { "animation" : "h4wt2f", 
+					"mask" : ["VVV","VBV", "VBB"]
+					},
+					"h4wt3f" : { "animation" : "h4wt3f",
+					"mask" : ["VV", "VB"]
+					}
+			}
+		},
+		
+		"hotaHighlandWaterfalls" : {
+			"name" : "Highland Waterfall",
+			"base" : {"allowedTerrains": ["grass", "swamp"]},
+			"sounds": {
+				"ambient": ["LOOPWATR.wav"]
+			},			
+			"templates" : {					
+					"AVLwtf00" : { "animation" : "AVLwtf00",
+					"mask" : ["VVBVV", "VVBBV", "VBBBV", "VVVVV"]
+					},
+					
+					"AVLwtf01" : { "animation" : "AVLwtf01",
+					"mask" : ["VVBVV", "VBBBV", "VBBBV", "VVVVV"]
+					},
+					
+					"AVLwtf02" : { "animation" : "AVLwtf02", 
+					"mask" : ["VVBVV", "VBBBV", "VBBBV", "VVVVV"]
+					}			
+				}
+			}			
+		}	
+	}
+}

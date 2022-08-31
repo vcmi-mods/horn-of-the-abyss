@@ -1,0 +1,867 @@
+{
+	"cove" : {
+		"alignment" : "neutral",
+		"creatureBackground" : { "120px" : "hota/creaturebg120px", "130px" : "hota/creaturebg130px" },
+		"name" : "Cove",
+		"nativeTerrain" : "swamp",
+		"puzzleMap" : {
+			"pieces" : [
+				{ "index" : 28, "x" : 68, "y" : 396 },
+				{ "index" : 2, "x" : 8, "y" : 358 },
+				{ "index" : 9, "x" : 47, "y" : 397 },
+				{ "index" : 15, "x" : 116, "y" : 453 },
+				{ "index" : 11, "x" : 142, "y" : 469 },
+				{ "index" : 12, "x" : 354, "y" : 481 },
+				{ "index" : 31, "x" : 252, "y" : 403 },
+				{ "index" : 1, "x" : 468, "y" : 421 },
+				{ "index" : 27, "x" : 64, "y" : 350 },
+				{ "index" : 37, "x" : 145, "y" : 288 },
+				{ "index" : 42, "x" : 244, "y" : 358 },
+				{ "index" : 38, "x" : 178, "y" : 374 },
+				{ "index" : 40, "x" : 199, "y" : 318 },
+				{ "index" : 44, "x" : 332, "y" : 316 },
+				{ "index" : 36, "x" : 399, "y" : 357 },
+				{ "index" : 34, "x" : 420, "y" : 307 },
+				{ "index" : 39, "x" : 373, "y" : 267 },
+				{ "index" : 35, "x" : 118, "y" : 269 },
+				{ "index" : 47, "x" : 254, "y" : 291 },
+				{ "index" : 46, "x" : 267, "y" : 270 },
+				{ "index" : 22, "x" : 471, "y" : 335 },
+				{ "index" : 10, "x" : 557, "y" : 273 },
+				{ "index" : 18, "x" : 535, "y" : 220 },
+				{ "index" : 26, "x" : 461, "y" : 216 },
+				{ "index" : 32, "x" : 396, "y" : 180 },
+				{ "index" : 13, "x" : 521, "y" : 69 },
+				{ "index" : 17, "x" : 438, "y" : 64 },
+				{ "index" : 3, "x" : 483, "y" : 8 },
+				{ "index" : 6, "x" : 393, "y" : 8 },
+				{ "index" : 16, "x" : 294, "y" : 8 },
+				{ "index" : 20, "x" : 251, "y" : 84 },
+				{ "index" : 29, "x" : 286, "y" : 114 },
+				{ "index" : 41, "x" : 284, "y" : 177 },
+				{ "index" : 45, "x" : 252, "y" : 198 },
+				{ "index" : 30, "x" : 189, "y" : 117 },
+				{ "index" : 43, "x" : 188, "y" : 222 },
+				{ "index" : 33, "x" : 146, "y" : 84 },
+				{ "index" : 21, "x" : 8, "y" : 287 },
+				{ "index" : 19, "x" : 8, "y" : 226 },
+				{ "index" : 23, "x" : 64, "y" : 132 },
+				{ "index" : 4, "x" : 324, "y" : 8 },
+				{ "index" : 7, "x" : 188, "y" : 8 },
+				{ "index" : 5, "x" : 48, "y" : 8 },
+				{ "index" : 24, "x" : 152, "y" : 20 },
+				{ "index" : 25, "x" : 66, "y" : 61 },
+				{ "index" : 14, "x" : 8, "y" : 172 },
+				{ "index" : 8, "x" : 19, "y" : 60 },
+				{ "index" : 0, "x" : 8, "y" : 8 }
+			],
+			"prefix" : "hota/puzzle-map/"
+		},
+		"town" : {
+			"buildings" : {
+				"blacksmith" : {
+					"cost" : { "gold" : 1000, "wood" : 5 },
+					"description" : "The Blacksmith provides your armies with Cannons.",
+					"id" : 16,
+					"name" : "Blacksmith"
+				},
+				"capitol" : {
+					"cost" : { "gold" : 10000 },
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"id" : 13,
+					"name" : "Capitol",
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"castle" : {
+					"cost" : { "gold" : 5000, "ore" : 10, "wood" : 10 },
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"id" : 9,
+					"name" : "Castle",
+					"upgrades" : "citadel"
+				},
+				"citadel" : {
+					"cost" : { "gold" : 2500, "ore" : 5 },
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"id" : 8,
+					"name" : "Citadel",
+					"upgrades" : "fort"
+				},
+				"cityHall" : {
+					"cost" : { "gold" : 5000 },
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"id" : 12,
+					"name" : "City Hall",
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"upgrades" : "townHall"
+				},
+				"shipyard" : {
+					"cost" : { "gold" : 2000, "wood" : 20 },
+					"description" : "The Shipyard allows you to purchase ships.",
+					"id" : 6,
+					"name" : "Shipyard"
+				},
+				"dwellingLvl1" : {
+					"cost" : { "gold" : 500 },
+					"description" : "The Waterfall allows you to recruite Nymphs.",
+					"id" : 30,
+					"name" : "Waterfall",
+					"requires" : [ "fort" ]
+				},
+				"dwellingLvl2" : {
+					"cost" : { "gold" : 1000, "ore" : 5, "wood" : 5 },
+					"description" : "The Shack allows you to recruite Crew Mates.",
+					"id" : 31,
+					"name" : "Shack",
+					"requires" : [ "dwellingLvl1" ]
+				},
+				"dwellingLvl3" : {
+					"cost" : { "gold" : 1000, "wood" : 10 },
+					"description" : "The Frigate allows you to recruite Pirates.",
+					"id" : 32,
+					"name" : "Frigate",
+					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "blacksmith" ] ]
+				},
+				"dwellingLvl4" : {
+					"cost" : { "gems" : 4, "gold" : 2500, "ore" : 5 },
+					"description" : "The Nest allows you to recruite Stormbirds.",
+					"id" : 33,
+					"name" : "Nest",
+					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
+				},
+				"dwellingLvl5" : {
+					"cost" : { "crystal" : 4, "gold" : 3000, "ore" : 5 },
+					"description" : "The Tower of the Seas allows you to recruite Sea Witches.",
+					"id" : 34,
+					"name" : "Tower of the Seas",
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl1" ], [ "dwellingLvl2" ] ]
+				},
+				"dwellingLvl6" : {
+					"cost" : { "gold" : 4000, "ore" : 10, "wood" : 5 },
+					"description" : "The Nix Fort allows you to recruite Nix.",
+					"id" : 35,
+					"name" : "Nix Fort",
+					"requires" : [ "dwellingLvl4" ]
+				},
+				"dwellingLvl7" : {
+					"cost" : { "gold" : 17500, "ore" : 10, "sulfur" : 15 },
+					"description" : "The Whirlpool allows you to recruite Sea Serpents.",
+					"id" : 36,
+					"name" : "Whirlpool",
+					"requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ] ]
+				},
+				"dwellingUpLvl1" : {
+					"cost" : { "gold" : 1000, "ore" : 5 },
+					"description" : "The Upg. Waterfall allows you to recruite Oceanids.",
+					"id" : 37,
+					"name" : "Upg. Waterfall",
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" : {
+					"cost" : { "gold" : 1200, "wood" : 5 },
+					"description" : "The Upg. Shack allows you to recruite Seamen.",
+					"id" : 38,
+					"name" : "Upg. Shack",
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" : {
+					"cost" : { "gold" : 1500, "wood" : 5 },
+					"description" : "The Upg. Frigate allows you to recruite Corsairs.",
+					"id" : 39,
+					"name" : "Upg. Frigate",
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" : {
+					"cost" : { "crystal" : 10, "gold" : 2500, "ore" : 10 },
+					"description" : "The Upg. Nest allows you to recruite Ayssids.",
+					"id" : 40,
+					"name" : "Upg. Nest",
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" : {
+					"cost" : { "crystal" : 5, "gold" : 2000, "sulfur" : 5 },
+					"description" : "The Upg. Tower of the Seas allows you to recruite Sorceresses.",
+					"id" : 41,
+					"name" : "Upg. Tower of the Seas",
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" : {
+					"cost" : { "gold" : 3000, "ore" : 10, "sulfur" : 5, "wood" : 5 },
+					"description" : "The Upg. Nix Fort allows you to recruite Nix Warriors.",
+					"id" : 42,
+					"name" : "Upg. Nix Fort",
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" : {
+					"cost" : { "gems" : 5, "gold" : 20000, "ore" : 15, "sulfur" : 20 },
+					"description" : "The Upg. Whirlpool allows you to recruite Haspids.",
+					"id" : 43,
+					"name" : "Upg. Whirlpool",
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl7"
+				},
+				"fort" : {
+					"cost" : { "gold" : 5000, "ore" : 20, "wood" : 20 },
+					"description" : "The Fort provides your town with defensive walls.",
+					"id" : 7,
+					"name" : "Fort"
+				},
+				"grail" : {
+					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
+					"id" : 26,
+					"mode" : "grail",
+					"name" : "Lodestar"
+				},
+				"horde1" : {
+					"cost" : { "gold" : 1000 },
+					"description" : "The Pub increases Crew Mates production by 4 per week.",
+					"id" : 18,
+					"name" : "Pub",
+					"upgrades" : "dwellingLvl2"
+				},
+				"horde1Upgr" : {
+					"cost" : { "gold" : 1000 },
+					"description" : "The Pub increases Seamen production by 4 per week.",
+					"id" : 19,
+					"mode" : "auto",
+					"name" : "Pub",
+					"requires" : [ "horde1" ],
+					"upgrades" : "dwellingUpLvl2"
+				},
+				"horde2" : {
+					"cost" : { "gems" : 2, "gold" : 1500 },
+					"description" : "The Roost increases Stormbirds production by 3 per week.",
+					"id" : 24,
+					"name" : "Roost",
+					"upgrades" : "dwellingLvl4"
+				},
+				"horde2Upgr" : {
+					"cost" : { "gems" : 2, "gold" : 1500 },
+					"description" : "The Roost increases Ayssids production by 3 per week.",
+					"id" : 25,
+					"mode" : "auto",
+					"name" : "Roost",
+					"requires" : [ "horde2" ],
+					"upgrades" : "dwellingUpLvl4"
+				},
+				"mageGuild1" : {
+					"cost" : { "gold" : 2000, "ore" : 5, "wood" : 5 },
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"id" : 0,
+					"name" : "Mage Guild Level 1"
+				},
+				"mageGuild2" : {
+					"cost" : {
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"id" : 1,
+					"name" : "Mage Guild Level 2",
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" : {
+					"cost" : {
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"id" : 2,
+					"name" : "Mage Guild Level 3",
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" : {
+					"cost" : {
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"wood" : 5
+					},
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"id" : 3,
+					"name" : "Mage Guild Level 4",
+					"upgrades" : "mageGuild3"
+				},
+				"marketplace" : {
+					"cost" : { "gold" : 500, "wood" : 5 },
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"id" : 14,
+					"name" : "Marketplace"
+				},
+				"resourceSilo" : {
+					"cost" : { "gold" : 5000, "ore" : 5 },
+					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
+					"id" : 15,
+					"name" : "Resource Silo",
+					"requires" : [ "marketplace" ]
+				},
+				"ship" : {
+					"cost" : null,
+					"description" : "The Shipyard allows you to purchase ships.",
+					"id" : 20,
+					"name" : "Shipyard"
+				},
+				"dwellingUp2Lvl3" : {
+					"cost" : {
+						"crystal" : 5,
+						"gems" : 5,
+						"gold" : 3000,
+						"mercury" : 5,
+						"ore" : 5,
+						"sulfur" : 5,
+						"wood" : 5
+					},
+					"description" : "The Gunpowder Warehouse allows you to recruite Sea Dogs.",
+					"id" : 46,
+					"name" : "Gunpowder Warehouse",
+					"upgrades" : "dwellingUpLvl3"
+				},
+				"special3" : {
+					"cost" : { "gold" : 600, "wood" : 3 },
+					"description" : "The Thief's Guild reveals additional information about the foes in the tavern.",
+					"id" : 22,
+					"name" : "Thieves' Guild",
+					"requires" : [ "tavern" ]
+				},
+				"special4" : {
+					"cost" : { "gold" : 7500, "ore" : 15, "wood" : 15 },
+					"description" : "The Grotto allows you to sacrifice creatures or artifacts in exchange for experience.",
+					"id" : 23,
+					"name" : "Grotto",
+					"requires" : [ "marketplace" ]
+				},
+				"tavern" : {
+					"cost" : { "gold" : 500, "wood" : 5 },
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"id" : 5,
+					"name" : "Tavern"
+				},
+				"townHall" : {
+					"cost" : { "gold" : 2500 },
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"id" : 11,
+					"name" : "Town Hall",
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"villageHall" : {
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto",
+					"name" : "Village Hall"
+				}
+			},
+			"buildingsIcons" : "hota/townhall.def",
+			"creatures" : [
+				[ "nymph", "oceanid" ],
+				[ "crewmate", "seaman" ],
+				[ "pirate", "corsair", "seadog" ],
+				[ "stormbird", "ayssid" ],
+				[ "seaWitch", "sorceress" ],
+				[ "nix", "nixWarrior" ],
+				[ "seaserpent", "haspid" ]
+			],
+			"defaultTavern" : 5,
+			"guildBackground" : "TPMAGE.bmp",
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 6,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8
+			},
+			"guildWindow" : "hota/town/mageguild",
+			"hallBackground" : "TPTHBKDG",
+			"hallSlots" : [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ],
+					[ "special3" ],
+					[ "shipyard" ]
+				],
+				[ [ "horde1", "horde1Upgr" ], [ "special4" ], [ "horde2", "horde2Upgr" ] ],
+				[
+					[ "dwellingLvl1", "dwellingUpLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ]
+				]
+			],
+			"horde" : [ 1, 3 ],
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "hota/icons/fortbuildedlarge.bmp",
+						"small" : "hota/icons/fortbuildedsmall.bmp"
+					},
+					"normal" : { "large" : "hota/icons/fortlarge.bmp", "small" : "hota/icons/fortsmall.bmp" }
+				},
+				"village" : {
+					"built" : {
+						"large" : "hota/icons/hallbuildedlarge.bmp",
+						"small" : "hota/icons/hallbuildedsmall.bmp"
+					},
+					"normal" : { "large" : "hota/icons/halllarge.bmp", "small" : "hota/icons/hallsmall.bmp" }
+				}
+			},
+			"mageGuild" : 4,
+			"mapObject" : {
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "hota/map/capitol.def" },
+					"castle" : { "animation" : "hota/map/castle.def" },
+					"citadel" : { "animation" : "hota/map/citadel.def" },
+					"fort" : { "animation" : "hota/map/fort.def" },
+					"village" : { "animation" : "hota/map/village.def" }
+				}
+			},
+			"moatDamage" : 70,
+			"musicTheme" : "music/factions/cove",
+			"names" : [
+				"Tartaglia",
+				"Lewindale",
+				"Port Evendore",
+				"Rotunda",
+				"Watergate",
+				"Brown's Bay",
+				"Nithenes",
+				"Downhaven",
+				"Lakenshire",
+				"Noral",
+				"Westland Pier",
+				"Walendale",
+				"Port Crowland",
+				"Jordanhall",
+				"Sleepy Creek",
+				"Hitchgrove"
+			],
+			"primaryResource" : "sulfur",
+			"siege" : {
+				"gate" : { "arch" : { "x" : 477, "y" : 228 }, "gate" : { "x" : 447, "y" : 282 } },
+				"imagePrefix" : "hota/siege/SGCV",
+				"moat" : { "bank" : { "x" : 414, "y" : 79 }, "moat" : { "x" : 434, "y" : 99 } },
+				"shooter" : "corsair",
+				"static" : {
+					"background" : { "x" : 582, "y" : 48 },
+					"bottom" : { "x" : 521, "y" : 356 },
+					"top" : { "x" : 491, "y" : 112 }
+				},
+				"towers" : {
+					"bottom" : {
+						"battlement" : { "x" : 630, "y" : 516 },
+						"creature" : { "x" : 395, "y" : 310 },
+						"tower" : { "x" : 630, "y" : 516 }
+					},
+					"keep" : {
+						"battlement" : { "x" : 727, "y" : 180 },
+						"creature" : { "x" : 518, "y" : -20 },
+						"tower" : { "x" : 727, "y" : 180 }
+					},
+					"top" : {
+						"battlement" : { "x" : 575, "y" : 35 },
+						"creature" : { "x" : 340, "y" : -165 },
+						"tower" : { "x" : 575, "y" : 35 }
+					}
+				},
+				"walls" : {
+					"bottom" : { "x" : 542, "y" : 401 },
+					"bottomMid" : { "x" : 490, "y" : 320 },
+					"upper" : { "x" : 532, "y" : 72 },
+					"upperMid" : { "x" : 481, "y" : 149 }
+				}
+			},
+			"structures" : {
+				"animatedWater" : {
+					"animation" : "hota/buildings/animatedWater",
+					"x" : 0,
+					"y" : 211,
+					"z" : -1
+				},
+				"blacksmith" : {
+					"animation" : "hota/buildings/blacksmith",
+					"area" : "hota/town/area/blacksmith",
+					"border" : "hota/town/border/blacksmith",
+					"x" : 608,
+					"y" : 274
+				},
+				"capitol" : {
+					"animation" : "hota/buildings/capitol",
+					"area" : "hota/town/area/capitol",
+					"border" : "hota/town/border/capitol",
+					"x" : 0,
+					"y" : 85,
+					"z" : 1
+				},
+				"castle" : {
+					"animation" : "hota/buildings/castle",
+					"area" : "hota/town/area/castle",
+					"border" : "hota/town/border/castle",
+					"x" : 438,
+					"y" : 109,
+					"z" : 2,
+				},
+				"citadel" : {
+					"animation" : "hota/buildings/citadel",
+					"area" : "hota/town/area/citadel",
+					"border" : "hota/town/border/citadel",
+					"x" : 438,
+					"y" : 109
+				},
+				"cityHall" : {
+					"animation" : "hota/buildings/cityHall",
+					"area" : "hota/town/area/cityHall",
+					"border" : "hota/town/border/cityHall",
+					"x" : 0,
+					"y" : 148,
+					"z" : 1
+				},
+				"dwellingLvl1" : {
+					"animation" : "hota/buildings/dwellingLvl1",
+					"area" : "hota/town/area/dwellingLvl1",
+					"border" : "hota/town/border/dwellingLvl1",
+					"x" : 282,
+					"y" : 106,
+					"z" : 2
+				},
+				"dwellingLvl2" : {
+					"animation" : "hota/buildings/dwellingLvl2",
+					"area" : "hota/town/area/dwellingLvl2",
+					"border" : "hota/town/border/dwellingLvl2",
+					"x" : 84,
+					"y" : 65
+				},
+				"dwellingLvl3" : {
+					"animation" : "hota/buildings/dwellingLvl3",
+					"area" : "hota/town/area/dwellingLvl3",
+					"border" : "hota/town/border/dwellingLvl3",
+					"x" : 588,
+					"y" : 191,
+					"z" : 2
+				},
+				"dwellingLvl4" : {
+					"animation" : "hota/buildings/dwellingLvl4",
+					"area" : "hota/town/area/dwellingLvl4",
+					"border" : "hota/town/border/dwellingLvl4",
+					"x" : 696,
+					"y" : 43
+				},
+				"dwellingLvl5" : {
+					"animation" : "hota/buildings/dwellingLvl5",
+					"area" : "hota/town/area/dwellingLvl5",
+					"border" : "hota/town/border/dwellingLvl5",
+					"x" : 370,
+					"y" : 38
+				},
+				"dwellingLvl6" : {
+					"animation" : "hota/buildings/dwellingLvl6",
+					"area" : "hota/town/area/dwellingLvl6",
+					"border" : "hota/town/border/dwellingLvl6",
+					"x" : 663,
+					"y" : 149,
+					"z" : 1
+				},
+				"dwellingLvl7" : {
+					"animation" : "hota/buildings/dwellingLvl7",
+					"area" : "hota/town/area/dwellingLvl7",
+					"border" : "hota/town/border/dwellingLvl7",
+					"x" : 303,
+					"y" : 248,
+					"z" : 3
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "hota/buildings/dwellingUpLvl1",
+					"area" : "hota/town/area/dwellingUpLvl1",
+					"border" : "hota/town/border/dwellingUpLvl1",
+					"x" : 254,
+					"y" : 42,
+					"z" : 2
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "hota/buildings/dwellingUpLvl2",
+					"area" : "hota/town/area/dwellingUpLvl2",
+					"border" : "hota/town/border/dwellingUpLvl2",
+					"x" : 84,
+					"y" : 33
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "hota/buildings/dwellingUpLvl3",
+					"area" : "hota/town/area/dwellingUpLvl3",
+					"border" : "hota/town/border/dwellingUpLvl3",
+					"x" : 588,
+					"y" : 64,
+					"z" : 2
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "hota/buildings/dwellingUpLvl4",
+					"area" : "hota/town/area/dwellingUpLvl4",
+					"border" : "hota/town/border/dwellingUpLvl4",
+					"x" : 696,
+					"y" : 12
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "hota/buildings/dwellingUpLvl5",
+					"area" : "hota/town/area/dwellingUpLvl5",
+					"border" : "hota/town/border/dwellingUpLvl5",
+					"x" : 370,
+					"y" : 0
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "hota/buildings/dwellingUpLvl6",
+					"area" : "hota/town/area/dwellingUpLvl6",
+					"border" : "hota/town/border/dwellingUpLvl6",
+					"x" : 663,
+					"y" : 98,
+					"z" : 1
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "hota/buildings/dwellingUpLvl7",
+					"area" : "hota/town/area/dwellingUpLvl7",
+					"border" : "hota/town/border/dwellingUpLvl7",
+					"x" : 291,
+					"y" : 236,
+					"z" : 3
+				},
+				"fort" : {
+					"animation" : "hota/buildings/fort",
+					"area" : "hota/town/area/fort",
+					"border" : "hota/town/border/fort",
+					"x" : 438,
+					"y" : 109
+				},
+				"grail" : {
+					"animation" : "hota/buildings/grail",
+					"area" : "hota/town/area/grail",
+					"border" : "hota/town/border/grail",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1
+				},
+				"horde1" : {
+					"animation" : "hota/buildings/horde1",
+					"area" : "hota/town/area/horde1",
+					"border" : "hota/town/border/horde1",
+					"hidden" : true,
+					"x" : 84,
+					"y" : 65
+				},
+				"horde1Upgr" : {
+					"animation" : "hota/buildings/horde1Upgr",
+					"area" : "hota/town/area/horde1Upgr",
+					"border" : "hota/town/border/horde1Upgr",
+					"builds" : "horde1",
+					"hidden" : true,
+					"x" : 84,
+					"y" : 33
+				},
+				"horde2" : {
+					"animation" : "hota/buildings/horde2",
+					"area" : "hota/town/area/horde2",
+					"border" : "hota/town/border/horde2",
+					"hidden" : true,
+					"x" : 674,
+					"y" : 43
+				},
+				"horde2Upgr" : {
+					"animation" : "hota/buildings/horde2Upgr",
+					"area" : "hota/town/area/horde2Upgr",
+					"border" : "hota/town/border/horde2Upgr",
+					"builds" : "horde2",
+					"hidden" : true,
+					"x" : 674,
+					"y" : 12
+				},
+				"mageGuild1" : {
+					"animation" : "hota/buildings/mageGuild1",
+					"area" : "hota/town/area/mageGuild1",
+					"border" : "hota/town/border/mageGuild1",
+					"x" : 337,
+					"y" : 110,
+					"z" : 1
+				},
+				"mageGuild2" : {
+					"animation" : "hota/buildings/mageGuild2",
+					"area" : "hota/town/area/mageGuild2",
+					"border" : "hota/town/border/mageGuild2",
+					"x" : 319,
+					"y" : 85,
+					"z" : 1
+				},
+				"mageGuild3" : {
+					"animation" : "hota/buildings/mageGuild3",
+					"area" : "hota/town/area/mageGuild3",
+					"border" : "hota/town/border/mageGuild3",
+					"x" : 300,
+					"y" : 61,
+					"z" : 1
+				},
+				"mageGuild4" : {
+					"animation" : "hota/buildings/mageGuild4",
+					"area" : "hota/town/area/mageGuild4",
+					"border" : "hota/town/border/mageGuild4",
+					"x" : 281,
+					"y" : 39,
+					"z" : 1
+				},
+				"marketplace" : {
+					"animation" : "hota/buildings/marketplace",
+					"area" : "hota/town/area/marketplace",
+					"border" : "hota/town/border/marketplace",
+					"x" : 157,
+					"y" : 289,
+					"z" : 3
+				},
+				"resourceSilo" : {
+					"animation" : "hota/buildings/resourceSilo",
+					"area" : "hota/town/area/resourceSilo",
+					"border" : "hota/town/border/resourceSilo",
+					"x" : 320,
+					"y" : 346,
+					"z" : 4
+				},
+				"ship" : {
+					"animation" : "hota/buildings/ship",
+					"area" : "hota/town/area/ship",
+					"border" : "hota/town/border/ship",
+					"x" : 436,
+					"y" : 164,
+					"z" : 1
+				},
+				"shipyard" : {
+					"animation" : "hota/buildings/shipyard",
+					"area" : "hota/town/area/shipyard",
+					"border" : "hota/town/border/shipyard",
+					"x" : 436,
+					"y" : 164,
+					"z" : 1
+				},
+				"dwellingUp2Lvl3" : {
+					"animation" : "hota/buildings/dwellingUp2Lvl3",
+					"area" : "hota/town/area/dwellingUp2Lvl3",
+					"border" : "hota/town/border/dwellingUp2Lvl3",
+					"x" : 588,
+					"y" : 64,
+					"z" : 2
+				},
+				"special3" : {
+					"animation" : "hota/buildings/special3",
+					"area" : "hota/town/area/special3",
+					"border" : "hota/town/border/special3",
+					"x" : 0,
+					"y" : 87
+				},
+				"special4" : {
+					"animation" : "hota/buildings/special4",
+					"area" : "hota/town/area/special4",
+					"border" : "hota/town/border/special4",
+					"x" : 236,
+					"y" : 147
+				},
+				"tavern" : {
+					"animation" : "hota/buildings/tavern",
+					"area" : "hota/town/area/tavern",
+					"border" : "hota/town/border/tavern",
+					"x" : 12,
+					"y" : 247,
+					"z" : 2
+				},
+				"townHall" : {
+					"animation" : "hota/buildings/townHall",
+					"area" : "hota/town/area/townHall",
+					"border" : "hota/town/border/townHall",
+					"x" : 0,
+					"y" : 176,
+					"z" : 1
+				},
+				"villageHall" : {
+					"animation" : "hota/buildings/villageHall",
+					"area" : "hota/town/area/villageHall",
+					"border" : "hota/town/border/villageHall",
+					"x" : 0,
+					"y" : 176,
+					"z" : 1
+				}
+			},
+			"tavernVideo" : "tvrncove.BIK",
+			"townBackground" : "hota/town/background",
+			"warMachine" : "cannon"
+		}
+	}
+}

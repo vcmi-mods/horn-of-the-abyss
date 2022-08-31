@@ -1,0 +1,24 @@
+{
+	"core:deadVegetation" :{
+		"types" : {
+			"hotaDeadVegetation" : {
+				"templates" : {
+					"AVLDEAD8" : { "animation" : "AVLDEAD8",
+					"mask" : ["VV","VB"], 
+                    "allowedTerrains": ["lava","subterra","swamp"]
+					},
+					
+					"AVLDEAD9" : { "animation" : "AVLDEAD9",
+					"mask" : ["VV","VB"], 
+                    "allowedTerrains": ["lava","subterra","swamp"]
+					},
+					
+					"swddtree" : { "animation" : "swddtree", 
+					"mask" : ["VV","VV","BB"], 
+					"allowedTerrains": ["swamp"]					
+					}					
+				}
+			}			
+		}	
+	}
+}

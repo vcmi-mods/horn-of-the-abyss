@@ -1,0 +1,155 @@
+{
+	"core:castle" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/castlefort.def" },
+					"citadel" : { "animation" : "hota/castlecitadel.def" },
+					"castle" : { "animation" : "hota/castlecastle.def" },
+					"capitol" : { "animation" : "hota/castlecapitol.def" }
+				}
+			}
+		}
+	},
+	"core:rampart" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/rampartfort.def" },
+					"citadel" : { "animation" : "hota/rampartcitadel.def" },
+					"castle" : { "animation" : "hota/rampartcastle.def" },
+					"capitol" : { "animation" : "hota/rampartcapitol.def" }
+				}
+			}
+		}
+	},
+	"core:tower" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/towerfort.def" },
+					"citadel" : { "animation" : "hota/towercitadel.def" },
+					"castle" : { "animation" : "hota/towercastle.def" },
+					"capitol" : { "animation" : "hota/towercapitol.def" }
+				}
+			}
+		}
+	},
+	"core:inferno" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/infernofort.def" },
+					"citadel" : { "animation" : "hota/infernocitadel.def" },
+					"castle" : { "animation" : "hota/infernocastle.def" },
+					"capitol" : { "animation" : "hota/infernocapitol.def" }
+				}
+			}
+		}
+	},
+	"core:necropolis" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/necrofort.def" },
+					"citadel" : { "animation" : "hota/necrocitadel.def" },
+					"castle" : { "animation" : "hota/necrocastle.def" },
+					"capitol" : { "animation" : "hota/necrocapitol.def" }
+				}
+			}
+		}
+	},
+	"core:dungeon" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/dungeonfort.def" },
+					"citadel" : { "animation" : "hota/dungeoncitadel.def" },
+					"castle" : { "animation" : "hota/dungeoncastle.def" },
+					"capitol" : { "animation" : "hota/dungeoncapitol.def" }
+				}
+			}
+		}
+	},
+	"core:stronghold" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/strongholdfort.def" },
+					"citadel" : { "animation" : "hota/strongholdcitadel.def" },
+					"castle" : { "animation" : "hota/strongholdcastle.def" },
+					"capitol" : { "animation" : "hota/strongholdcapitol.def" }
+				}
+			}
+		}
+	},
+	"core:fortress" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/fortressfort.def" },
+					"citadel" : { "animation" : "hota/fortresscitadel.def" },
+					"castle" : { "animation" : "hota/fortresscastle.def" },
+					"capitol" : { "animation" : "hota/fortresscapitol.def" }
+				}
+			}
+		}
+	},
+	"core:conflux" : {
+		"town" : {
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/confluxfort.def" },
+					"citadel" : { "animation" : "hota/confluxcitadel.def" },
+					"castle" : { "animation" : "hota/confluxcastle.def" },
+					"capitol" : { "animation" : "hota/confluxcapitol.def" }
+				}
+			}
+		}
+	},
+}

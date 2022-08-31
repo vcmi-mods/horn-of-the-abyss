@@ -1,0 +1,24 @@
+{
+	"core:tower" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "tower/TPCASTOW.bmp",
+			"130px" : "tower/CRBKGTOW.bmp"
+		},
+	
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":           { "animation" : "tower/town-screen/buildings/TBTWCSTL.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS1.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS1.bmp" },
+				"citadel":        { "animation" : "tower/town-screen/buildings/TBTWCAS2.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS2.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS2.bmp" },
+				"castle":         { "animation" : "tower/town-screen/buildings/TBTWCAS3.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS3.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS3.bmp" },
+				"special2":       { "animation" : "tower/town-screen/buildings/TBTWEXT0.def", "x" : 409, "y" : 82,  "border" : "tower/town-screen/buildings-border/TOTCASW.bmp",  "area" : "tower/town-screen/buildings-area/TZTCASW.bmp" },
+			},
+			
+			"buildingsIcons": "tower/HALLTOWR.DEF",
+			"townBackground": "tower/TBTWBACK.bmp"
+		}
+	}
+}

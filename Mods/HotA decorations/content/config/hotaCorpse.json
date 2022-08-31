@@ -1,0 +1,26 @@
+{
+	"core:corpse" :{	
+		"types" : {	
+			"hotaCorpse" : {
+				"index" : 0,
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 100
+				},
+				"templates" : {
+					"AVXskds1" : { "animation" : "AVXskds1", 
+					"mask" : [ "BA"], 
+					"visitableFrom" : [ "+++", "-++", "+++" ],
+					"allowedTerrains": [ "sand" ]
+					},
+					
+					"AVXskds2" : { "animation" : "AVXskds2",
+					"visitableFrom" : [ "+++", "+++", "+++" ],					
+					"mask" : [ "VA" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

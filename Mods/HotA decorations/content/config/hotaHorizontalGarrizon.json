@@ -1,0 +1,38 @@
+{
+	"core:garrisonHorizontal" : {
+		"types" : {
+			"hotaHorizontalGarrizon" : {
+				"index" : 0,
+				"sounds" : {
+					"ambient" : ["LOOPSWAR"]
+				},
+				"templates" : {			
+					"AVCGARW1" : { "animation" : "AVCGARW1", 
+					"mask" : [ "VBVB", "VBAB" ], 
+					"visitableFrom" : [ "+++", "-+-", "+++" ],
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avgtzab2" : { "animation" : "avgtzab2", 
+					"mask" : [ "VBVB", "VBAB" ], 
+					"visitableFrom" : [ "+++", "-+-", "+++" ],
+					"allowedTerrains": [ "snow" ]
+					},
+					
+					"avgtzab1" : { "animation" : "avgtzab1",
+					"mask" : [ "VBVB", "VBAB" ], 
+					"visitableFrom" : [ "+++", "-+-", "+++" ],
+					"allowedTerrains": [ "dirt", "rough", "grass", "sand", "swamp", "subterra", "lava" ]
+					},
+					
+					"AVCGARE" : { "animation" : "AVCGARE", 
+					"mask" : [ "VVVV", "VBVB", "VBAB" ], 
+					"visitableFrom" : [ "+++", "-+-", "+++" ],
+					"allowedTerrains": [ "dirt", "rough", "grass", "sand", "swamp", "snow", "subterra", "lava" ]
+					}
+				}
+			}		
+		}
+	}		
+}
+

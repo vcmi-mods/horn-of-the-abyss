@@ -1,0 +1,63 @@
+{
+	"gogFireball" : 
+	{
+		"type": "ability",
+		"name": "Ice",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["friendlyFireball/Expl_01"]
+		},
+		"flags" : {
+			"offensive": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "gogfireb"
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : 
+				{
+				},
+				"description": ""
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

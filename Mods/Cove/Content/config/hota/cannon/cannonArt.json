@@ -1,0 +1,22 @@
+{
+	"cannon":
+	{
+		"type" : ["HERO"],
+		"warMachine" : "cannon",
+		"class" : "SPECIAL",
+		"slot" : "MACH1",
+		"value": 4000,		
+		"text":
+		{
+			"name": "Cannon",
+			"description": "{Cannon}\r\n\r\nUse this war machine to target your enemy troops and fortifications in combat.",
+			"event": "Lucky you, you've found a shiny and unused cannon :)"
+		},
+		"graphics":
+		{
+			"image": "hota/iconsSmall/ArtIm150.bmp",
+			"large" : "hota/iconsBig/ABon146p",
+			"map": "hota/map/cannonMap.def"
+		}
+	}
+}

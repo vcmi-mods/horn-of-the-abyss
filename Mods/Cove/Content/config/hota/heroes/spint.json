@@ -1,0 +1,38 @@
+{
+	"spint" : {
+		"army" : [
+			{ "creature" : "nymph", "max" : 30, "min" : 20 },
+			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
+			{ "creature" : "pirate", "max" : 7, "min" : 4 }
+		],
+		"class" : "navigator",
+		"images" : {
+			"large" : "hota/heroes/spint/portraitlarge.png",
+			"small" : "hota/heroes/spint/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/spint/speclarge.png",
+			"specialtySmall" : "hota/heroes/spint/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "sorcery" } ],
+		"specialty" : {
+			"bonuses" : {
+				"sorcery" : {
+					"subtype" : "skill.sorcery",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"spellbook" : [ "iceBolt" ],
+		"texts" : {
+			"biography" : "Spint once was a very talented apprentice mage learning at the academy in Bracada. He was caught by the Krewlod barbarians and sold as a slave on galley. The galley captain noticed his magical power and offered him a boatswain position. Now Spint is a captain himself. He sinks the ships near the shores of Krewlod and enjoys his new life.",
+			"name" : "Spint",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Sorcery",
+				"name" : "Sorcery",
+				"description" : "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage."
+			}
+		}
+	}
+}

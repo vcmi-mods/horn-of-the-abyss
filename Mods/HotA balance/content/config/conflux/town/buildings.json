@@ -1,0 +1,43 @@
+{
+	"core:conflux" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{	
+				"dwellingUpLvl1": 
+				{ 
+					"requires" : [ "allOf", [ "mageGuild1" ], ["special2"] ]		
+				},
+				"hordePhoenix": 
+				{ 
+					"description" : "The Vault of Ashes increases Firebirds production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"requires" : [ "dwellingLvl7" ],
+					"id" : 24		
+				},
+				"hordePhoenixUpgr": 
+				{ 
+					"description" : "The Vault of Ashes increases Phoenixes production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"upgrades" : "hordePhoenix",
+					"requires" : [ "dwellingUpLvl7" ],
+					"mode" : "auto",
+					"id" : 25
+				}
+			}
+		}
+	}	
+}

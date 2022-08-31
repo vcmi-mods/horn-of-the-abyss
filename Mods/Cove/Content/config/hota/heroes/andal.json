@@ -1,0 +1,36 @@
+{
+	"andal" : {
+		"army" : [
+			{ "creature" : "nymph", "max" : 30, "min" : 20 },
+			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
+			{ "creature" : "pirate", "max" : 7, "min" : 4 }
+		],
+		"class" : "navigator",
+		"images" : {
+			"large" : "hota/heroes/andal/portraitlarge.png",
+			"small" : "hota/heroes/andal/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/andal/speclarge.png",
+			"specialtySmall" : "hota/heroes/andal/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" } ],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.crystal",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		},
+		"spellbook" : [ "weakness" ],
+		"texts" : {
+			"biography" : "While being an experienced pirate, Andal did not always consider himself as a mage or a rogue. He was an ordinary merchant until bankrupting and getting too many debts one day. He started searching for a way to get fast and easy money. After leaving his home, he shortly returned as a known smuggler. He usually trades gems and mountain crystals. It is a mystery where he gets them from, however.",
+			"name" : "Andal",
+			"specialty" : {
+				"tooltip" : "+1 Crystal each day",
+				"name" : "+1 Crystal",
+				"description" : "{Crystal}\r\n\r\nIncreases kingdom's crystal production by 1 per day."
+			}
+		}
+	}
+}

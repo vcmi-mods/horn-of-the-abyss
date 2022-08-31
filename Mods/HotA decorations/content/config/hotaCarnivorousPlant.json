@@ -1,0 +1,25 @@
+{
+	"carnivorousPlant" : {
+		"name" : "Carnivorous Plant",
+		"handler": "static",	
+		"types" : {
+			"hotaCarnivorousPlant" : {
+				"rmg": {					
+//				"zoneLimit"	: 12,
+				"value"		: 100,
+				"rarity"	: 150
+				},
+				"templates" : {
+					"avswplnt" : { "animation" : "avswplnt",
+					"mask" : ["VBB","VBB"], 
+                    "allowedTerrains": ["swamp"]
+					}
+				}	
+			}					
+		}
+	}
+}	
+	
+
+
+	

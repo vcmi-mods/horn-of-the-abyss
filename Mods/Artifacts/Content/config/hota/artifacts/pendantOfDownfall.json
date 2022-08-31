@@ -1,0 +1,19 @@
+{
+	"pendantOfDownfall" : {
+		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "MORALE", "val" : -2 } ],
+		"class" : "MAJOR",
+		"graphics" : {
+			"image" : "hota/artifacts/pendantOfDownfall",
+			"large" : "hota/artifacts/ABon157p",
+			"map" : "hota/artifacts/pendantOfDownfall"
+		},
+		"slot" : "NECK",
+		"text" : {
+			"description" : "{Pendant of Downfall}\r\n\r\nWorn about the neck, this item decreases enemy's Morale by 2.",
+			"event" : "You visit the jeweler's shop. You land your eyes on a bracelet, but the shopkeeper immediately warns you that it is cursed. You fear no curses, and put the bracelet on immediately. The bracelet vanishes in a flash. Enraged, you are about to kill the shopkeeper, but he offers you Pendant of Downfall in return. You agree.",
+			"name" : "Pendant of Downfall"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7000
+	}
+}

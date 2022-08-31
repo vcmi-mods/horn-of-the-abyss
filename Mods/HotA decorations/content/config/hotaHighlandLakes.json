@@ -1,0 +1,36 @@
+{
+	"core:lake" : {
+		"types" : {
+			"hotaHighanLakes" : {
+			"name" : "Highland Lake",
+			"templates" : {
+			
+					"avlhll00" : { "animation" : "avlhll00",  
+					"mask" : [ "VBBBBBB", "BBBBBBB","VBBBBBV" ],
+                    "allowedTerrains": [ "grass", "swamp" ]
+					},						
+					
+					"avlhll01" : { "animation" : "avlhll01", 					 
+					"mask" : [ "BBBBB", "BBBBB", "BBBBV" ], 
+                    "allowedTerrains": [ "grass", "swamp" ]
+					},
+					
+					"avlhll02" : { "animation" : "avlhll02", 					 
+					"mask" : [ "VVVVV", "BBBBB", "BBBBB"], 
+                    "allowedTerrains": [ "grass", "swamp" ]
+					},
+					
+					"avlhll03" : { "animation" : "avlhll03", 
+					"mask" : [ "VVVV", "VBBB", "VVVV"], 
+                    "allowedTerrains": [ "grass", "swamp" ]
+					}		
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

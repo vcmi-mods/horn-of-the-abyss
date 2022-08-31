@@ -1,0 +1,33 @@
+{
+	"seaman" : {
+		"advMapAmount" : { "max" : 25, "min" : 16 },
+		"aiValue" : 174,
+		"attack" : 8,
+		"cost" : { "gold" : 140 },
+		"damage" : { "max" : 4, "min" : 3 },
+		"defense" : 6,
+		"faction" : "cove",
+		"fightValue" : 174,
+		"graphics" : {
+			"animation" : "hota/battle/seaman.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/seaman.png",
+			"iconSmall" : "hota/iconsSmall/seaman.png",
+			"map" : "hota/map/seaman.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 9,
+		"hitPoints" : 15,
+		"horde" : 4,
+		"level" : 2,
+		"name" : { "plural" : "Seamen", "singular" : "Seaman" },
+		"sound" : {
+			"attack" : "hota/crewmate/SAYLATTK.wav",
+			"defend" : "hota/crewmate/SAYLDFND.wav",
+			"killed" : "hota/crewmate/SAYLKILL.wav",
+			"move" : "hota/crewmate/SAYLMOVE.wav",
+			"wince" : "hota/crewmate/SAYLWNCE.wav"
+		},
+		"speed" : 6
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"tridentOfDominion" : {
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : {
+			"image" : "hota/artifacts/tridentOfDominion",
+			"large" : "hota/artifacts/ABon147p",
+			"map" : "hota/artifacts/tridentOfDominion"
+		},
+		"slot" : "RIGHT_HAND",
+		"text" : {
+			"description" : "{Trident of Dominion}\r\n\r\nThis right-handed weapon increases your Attack skill by +7.",
+			"event" : "You finally found a well after a long search. Your soldiers could not get the bucket of water out, however. Something was preventing it from coming out. Your banner carrier had to descend in the well himself. It appeared that a trident was blocking the way.",
+			"name" : "Trident of Dominion"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7000
+	}
+}

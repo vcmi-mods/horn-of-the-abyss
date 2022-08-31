@@ -1,0 +1,32 @@
+{
+	"core:orc" :
+	{
+		"graphics" :
+		{
+			"animation" : "stronghold/creatures/battle/CORC.def",
+			"map" : 	  "stronghold/creatures/map/AVWORC0.def",
+			"iconSmall" : "stronghold/creatures/iconsSmall/CPrS088S.bmp",
+			"iconLarge" : "stronghold/creatures/iconsBig/CPrL088S.bmp"
+		},
+		"sound" :
+		{
+			"killed": "stronghold/OORCKILL.wav",
+			"wince": "stronghold/OORCWNCE.wav"
+		}
+	},
+	"core:orcChieftain" :
+	{
+		"graphics" :
+		{
+			"animation" : "stronghold/creatures/battle/CORCCH.def",
+			"map" : 	  "stronghold/creatures/map/AVWORCX0.def",
+			"iconSmall" : "stronghold/creatures/iconsSmall/CPrS089S.bmp",
+			"iconLarge" : "stronghold/creatures/iconsBig/CPrL089S.bmp"
+		},
+		"sound" :
+		{
+			"killed": "stronghold/ORCCKILL.wav",
+			"wince": "stronghold/ORCCWNCE.wav"
+		}
+	}
+}

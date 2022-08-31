@@ -1,0 +1,20 @@
+{
+	"core:necropolis" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "necropolis/TPCASNEC.bmp",
+			"130px" : "necropolis/CRBKGNEC.bmp"
+		},
+	
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":           { "animation" : "necropolis/town-screen/buildings/TBNCCSTL.def", "x" : 138, "y" : 66,  "border" : "necropolis/town-screen/buildings-border/TONCAS1.bmp",  "area" : "necropolis/town-screen/buildings-area/TZNCAS1.bmp" },
+				"citadel":        { "animation" : "necropolis/town-screen/buildings/TBNCCAS2.def", "x" :  34, "y" : 18,  "border" : "necropolis/town-screen/buildings-border/TONCAS2.bmp",  "area" : "necropolis/town-screen/buildings-area/TZNCAS2.bmp" }		  
+			},
+			"buildingsIcons": "necropolis/hallnecr.def"
+		}
+	}
+}

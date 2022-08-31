@@ -1,0 +1,38 @@
+{
+	"oceanid" : {
+		"abilities" : {
+			"immuneToWater" : { "subtype" : 2, "type" : "WATER_IMMUNITY" },
+			"teleports" : { "subtype" : 1, "type" : "FLYING" }
+		},
+		"advMapAmount" : { "max" : 30, "min" : 20 },
+		"aiValue" : 75,
+		"attack" : 6,
+		"cost" : { "gold" : 45 },
+		"damage" : { "max" : 3, "min" : 1 },
+		"defense" : 2,
+		"faction" : "cove",
+		"fightValue" : 60,
+		"graphics" : {
+			"animation" : "hota/battle/oceanid.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/oceanid.png",
+			"iconSmall" : "hota/iconsSmall/oceanid.png",
+			"map" : "hota/map/oceanid.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 16,
+		"hitPoints" : 4,
+		"level" : 1,
+		"name" : { "plural" : "Oceanids", "singular" : "Oceanid" },
+		"sound" : {
+			"attack" : "hota/nymph/NIMPATTK.wav",
+			"defend" : "hota/nymph/NIMPDFND.wav",
+			"killed" : "hota/nymph/NIMPKILL.wav",
+			"move" : "hota/nymph/NIMPMOVE.wav",
+			"startMoving": "hota/nymph/NIMPEXT1.wav",
+			"endMoving": "hota/nymph/NIMPEXT2.wav",
+			"wince" : "hota/nymph/NIMPWNCE.wav"
+		},
+		"speed" : 8
+	}
+}

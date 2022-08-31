@@ -1,0 +1,63 @@
+{
+	"hotaLightGlobe" : 
+	{
+		"type": "ability",
+		"name": "Light Globe",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["powerMonks/expl_06"]
+		},
+		"flags" : {
+			"offensive": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "MAGICBLT"
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : 
+				{
+				},
+				"description": ""
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"core:treesDUPLICATE" :{
+		"types" : {
+			"hotaYuccaTrees" : {
+				"name" : "Yucca Trees",
+				"templates" : {
+					"avlyuc40" : { "animation" : "avlyuc40", 
+					"mask" : [ "B" ], 
+					"allowedTerrains": [ "sand" ]
+					},
+					
+					"avlyuc50" : { "animation" : "avlyuc50", 
+					"mask" : [ "B" ], 
+					"allowedTerrains": [ "snad" ]
+					},
+					
+					"avlyuc60" : { "animation" : "avlyuc60", 
+					"mask" : [ "VB" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

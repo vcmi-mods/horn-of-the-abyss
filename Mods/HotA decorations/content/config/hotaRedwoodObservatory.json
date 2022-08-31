@@ -1,0 +1,22 @@
+{
+	"core:redwoodObservatory"	: {
+		"types" : {
+			"hotaRedwoodObservatory" : {
+			"index" : 0,
+			"aiValue" : 750,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 750,
+					"rarity"	: 100
+				},
+				"templates" : {				
+					"avwtobtw" : { "animation" : "avwtobtw", 
+						"mask" : [ "VBV","VBV","VBA" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}			
+				}
+			}
+		}
+	}		
+}

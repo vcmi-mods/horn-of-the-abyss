@@ -1,0 +1,27 @@
+{
+	"pendantOfReflection" : {
+		"bonuses" : [
+			{
+				"subtype" : 0,
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"class" : "RELIC",
+		"components" : [ "garnitureOfInterference", "surcoatOfCounterpoise", "bootsOfPolarity" ],
+		"graphics" : {
+			"image" : "hota/artifacts/pendantOfReflection",
+			"large" : "hota/artifacts/ABon142p",
+			"map" : "hota/artifacts/pendantOfReflection"
+		},
+		"slot" : "NECK",
+		"text" : {
+			"description" : "{Pendant of Reflection}\r\n\r\nIncreases your Magic Resistance additionally by 30%.",
+			"event" : "Soldiers approach you with talks about a miracle. You are intrigued and follow them. You see a strange sight indeed; a wanderer sitting on top of the fire trap, without any harm. You offer him money in exchange for the secret, but he laughs and vanishes in the air. You see a strange pendant left in the middle of the trap.",
+			"name" : "Pendant of Reflection"
+		},
+		"type" : [ "HERO" ],
+		"value" : 12000
+	}
+}

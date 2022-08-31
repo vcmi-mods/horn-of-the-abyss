@@ -1,0 +1,55 @@
+{
+	"ringOfOblivion" : {
+		"bonuses" : [
+			{
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"subtype" : "spell.sacrifice",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"subtype" : "spell.animateDead",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"effectRange" : "ONLY_ENEMY_ARMY",
+				"subtype" : "spell.resurrection",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.sacrifice",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.animateDead",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.resurrection",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "hota/artifacts/ringOfOblivion", "large" : "hota/artifacts/ABon158p", "map" : "hota/artifacts/ringOfOblivion" },
+		"slot" : "RING",
+		"text" : {
+			"description" : "{Ring of Oblivion}\r\n\r\nWhen worn, makes all losses in the battle irrevocable. But this effect is not implemented in VCMI yet.",
+			"event" : "You stand on a field, where a large battle was fought not so long ago. You are troubled by the complete absence of corpses. Amongst the broken swords and armors you discover a ring.",
+			"name" : "Ring of Oblivion"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7500
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"ayssid" : {
+		"abilities" : {
+			"canFly" : { "type" : "FLYING" },
+			"doubleAttack" : { "type" : "ADDITIONAL_ATTACK", "val" : 1 }
+		},
+		"advMapAmount" : { "max" : 16, "min" : 10 },
+		"aiValue" : 645,
+		"attack" : 11,
+		"cost" : { "gold" : 325 },
+		"damage" : { "max" : 10, "min" : 6 },
+		"defense" : 8,
+		"doubleWide" : true,
+		"faction" : "cove",
+		"fightValue" : 478,
+		"graphics" : {
+			"animation" : "hota/battle/ayssid.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/ayssid.png",
+			"iconSmall" : "hota/iconsSmall/ayssid.png",
+			"map" : "hota/map/ayssid.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hitPoints" : 30,
+		"horde" : 3,
+		"level" : 4,
+		"name" : { "plural" : "Ayssids", "singular" : "Ayssid" },
+		"sound" : {
+			"attack" : "hota/stormbird/ASSIATTK.wav",
+			"defend" : "hota/stormbird/ASSIDFND.wav",
+			"killed" : "hota/stormbird/ASSIKILL.wav",
+			"move" : "hota/stormbird/ASSIMOVE.wav",
+			"wince" : "hota/stormbird/ASSIWNCE.wav"
+		},
+		"speed" : 11
+	}
+}

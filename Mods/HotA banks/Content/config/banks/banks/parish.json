@@ -1,0 +1,58 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"parish" : 
+			{
+				"name" : "Parish",
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "banks/map/banks/avcmetry.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBAB"],							
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+					},
+					"snow" :
+					{
+						"animation" : "banks/map/banks/avcmetrs.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBAB"],
+						"allowedTerrains":["snow"] 
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPCMTR.wav"],
+					"visit": ["banks/CEMETRY.wav"]
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels":[
+					{
+						"chance": 100,
+						"guards": [
+							{ "amount": 20, "type" : "walkingDead" },
+							{ "amount": 20, "type" : "walkingDead" },
+							{ "amount": 20, "type" : "walkingDead"},
+							{ "amount": 20, "type" : "walkingDead" },
+							{ "amount": 20, "type" : "walkingDead" }
+						],
+						"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"gold" : 2500
+							},
+							"artifacts": [ { "class" : "TREASURE" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

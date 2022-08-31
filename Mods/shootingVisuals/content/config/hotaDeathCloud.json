@@ -1,0 +1,63 @@
+{
+	"hotaDeathCloud" : 
+	{
+		"type": "ability",
+		"name": "Death Cloud",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "CREATURE",
+		"level": 1,
+		"power": 1,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["cloudyLiches/Expl_05"]
+		},
+		"flags" : {
+			"offensive": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "DEATHCLS"
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects" : 
+				{
+				},
+				"description": ""
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

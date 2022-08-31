@@ -1,0 +1,99 @@
+{
+	"leprechaun":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 25,
+			"min" : 16
+		},
+			"name" :
+		{
+			"plural" : "Leprechauns",
+			"singular" : "Leprechaun"
+		},
+		"faction" : "neutral",
+		"aiValue" : 208,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 100
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 3
+		},
+		"defense" : 5,
+		"fightValue" : 208,
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "hota/battle/CLEPRCHN.def",
+			"map" : "hota/map/AVWlepr.def",
+			"iconSmall" : "hota/iconsSmall/CPrSm171",
+			"iconLarge" : "hota/iconsBig/TwCrP171",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"growth" : 9,
+		"hitPoints" : 15,
+		"level" : 2,
+
+
+		"sound" :
+		{
+			"attack": "hota/leprechaun/LEPRATTK.wav",
+			"defend": "hota/leprechaun/LEPRDFND.wav",
+			"killed": "hota/leprechaun/LEPRKILL.wav",
+			"move": "hota/leprechaun/LEPRMOVE.wav",
+			"shoot": "hota/leprechaun/LEPRSHOT.wav",
+			"wince": "hota/leprechaun/LEPRWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"castLength" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
+			}, 	
+			"castsFortune" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.fortune",
+				"val" : 2
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"unbelievalbeLuck":
+            {
+                "type": "LUCK",
+                "val": 100,
+                "valueType": "PERCENT_TO_ALL",
+                "limiters": 
+                [
+                    {
+                        "type": "HAS_ANOTHER_BONUS_LIMITER",
+                        "parameters":
+                        [
+                            "LUCK"
+
+                        ]
+                    }
+                ]
+            }
+		}
+	}
+}
+
+

@@ -1,0 +1,30 @@
+{
+	"anabel" : {
+		"army" : [
+			{ "creature" : "nymph", "max" : 30, "min" : 20 },
+			{ "creature" : "pirate", "max" : 7, "min" : 4 },
+			{ "creature" : "pirate", "max" : 7, "min" : 4 }
+		],
+		"class" : "captain",
+		"female" : true,
+		"images" : {
+			"large" : "hota/heroes/anabel/portraitlarge.png",
+			"small" : "hota/heroes/anabel/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/anabel/speclarge.png",
+			"specialtySmall" : "hota/heroes/anabel/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "offence" }, { "level" : "basic", "skill" : "archery" } ],
+		"specialty" : {
+			"creature" : "pirate"
+		},
+		"texts" : {
+			"biography" : "To anger the daughter of Earless Nylse means to sign a death pact. Every pirate understands that there is no woman more deadly and insidious than Anabel. Her father was one of the cruelest corsairs, and his daughter follows his steps. Her grace and skill encourages men to fight at their limits.",
+			"name" : "Anabel",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Pirates",
+				"name" : "Pirates",
+				"description" : "{Pirates, Corsairs and Sea Dogs}\r\n\r\nIncreases Speed of any Pirates, Corsairs or Sea Dogs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
+			}
+		}
+	}
+}

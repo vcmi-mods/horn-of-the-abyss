@@ -1,0 +1,37 @@
+{
+	"stormbird" : {
+		"abilities" : { "canFly" : { "type" : "FLYING" } },
+		"advMapAmount" : { "max" : 20, "min" : 10 },
+		"aiValue" : 502,
+		"attack" : 10,
+		"cost" : { "gold" : 275 },
+		"damage" : { "max" : 9, "min" : 6 },
+		"defense" : 8,
+		"doubleWide" : true,
+		"faction" : "cove",
+		"fightValue" : 386,
+		"graphics" : {
+			"animation" : "hota/battle/stormbird.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/stormbird.png",
+			"iconSmall" : "hota/iconsSmall/stormbird.png",
+			"map" : "hota/map/stormbird.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 30,
+		"horde" : 3,
+		"level" : 4,
+		"name" : { "plural" : "Stormbirds", "singular" : "Stormbird" },
+		"sound" : {
+			"attack" : "hota/stormbird/ASSIATTK.wav",
+			"defend" : "hota/stormbird/ASSIDFND.wav",
+			"killed" : "hota/stormbird/ASSIKILL.wav",
+			"move" : "hota/stormbird/ASSIMOVE.wav",
+			"wince" : "hota/stormbird/ASSIWNCE.wav"
+		},
+		"speed" : 9,
+		"upgrades" : [ "ayssid" ]
+	}
+}

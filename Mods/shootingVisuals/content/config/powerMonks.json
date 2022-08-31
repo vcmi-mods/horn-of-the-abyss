@@ -1,0 +1,26 @@
+{
+	"core:monk" :
+	{
+		"abilities" :
+		{
+			"lightningIsComing" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.hotaLightGlobe",
+				"val" : 1
+			}
+		}	
+	},
+	"core:zealot" :
+	{
+		"abilities" :
+		{
+			"lightningIsComing" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.hotaLightGlobe",
+				"val" : 1
+			}
+		}
+	}
+}

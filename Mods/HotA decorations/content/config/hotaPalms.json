@@ -1,0 +1,24 @@
+{
+	"hotaPalms" : {
+	"name" : "Palms",
+	"handler": "static",
+		"types" : {
+			"hotaPalms" : {
+			"templates" : {
+					"AVLswn01" : { "animation" : "AVLswn01",
+					"mask" : ["VBV","VBV"],
+                    "allowedTerrains": ["swamp"]
+					},
+					"AVLswn02" : { "animation" : "AVLswn02",
+					"mask" : ["VVVV","VBBV","BBBV","VBVV"],
+                    "allowedTerrains": ["swamp"]
+					},
+					"AVLswn03" : { "animation" : "AVLswn03",
+					"mask" : ["VBV","VBV","VBV","VBV"],
+                    "allowedTerrains": ["swamp"]
+					}					
+				}
+			}			
+		}	
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"plateOfDyingLight" : {
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"valueType" : "PERCENT_TO_ALL",
+				"propagator" : "BATTLE_WIDE",
+				"val": -25
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"valueType" : "PERCENT_TO_ALL",
+				"val": 25
+			}
+		],
+		"class" : "RELIC",
+		"graphics" : { "image" : "hota/artifacts/ava0164", "map" : "hota/artifacts/ava0164" },
+		"slot" : "TORSO",
+		"text" : {
+			"description" : "{Plate of Dying Light}\r\n\r\nWorn on a torso, this item reduces the Power skill of enemy hero by 25% during combat.",
+			"event" : "The goblin you met at the tavern is acting incredibly brazenly, and the reason for that is obviously the luxurious armor on his chest. It becomes apparent quickly that the armor offers poor protection from a good kick in the ass, yet it still is good for something — but how would a dumb goblin know that?",
+			"name" : "Plate of Dying Light"
+		},
+		"type" : [ "HERO" ],
+		"value" : 10000
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"core:dendroidSoldier" :
+	{
+		"graphics" :
+		{
+			"animation" : "rampart/creatures/battle/CBTREE.def",
+			"map" : 	  "rampart/creatures/map/AVWTREX0.def",
+			"iconSmall" : "rampart/creatures/iconsSmall/CPrS023R.bmp",
+			"iconLarge" : "rampart/creatures/iconsBig/CPrL023R.bmp",
+		}
+	}
+}

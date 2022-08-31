@@ -1,0 +1,94 @@
+{
+	"core:mine" : {
+		"types" : {
+			"hotaCrystalCavern" : { 
+				"index" : 4,
+				"aiValue" : 3500,
+				"rmg" : {
+					"value" : 3500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPCRYS"]
+				},
+				"templates": {
+					"avmcrdn0" : { "animation" : "avmcrdn0", //hota sand
+					"mask" : ["VVVV","VBBB","VBAB"],
+					"visitableFrom" : [ "---", "-+-", "+++" ],						
+					"allowedTerrains":["sand"] 
+					},
+					"mntswpcr" : { "animation" : "mntswpcr", //hota swamp
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains":["swamp"] 
+					}
+				}
+			},
+			"hotaGoldMine" : {
+				"index" : 6,
+				"aiValue" : 7000,
+				"rmg" : {
+					"value" : 7000
+				},
+				"sounds" : {
+					"ambient" : ["LOOPMINE"]
+				},		
+				"templates": {
+
+					"avmgddn0" : { "animation" : "avmgddn0",  //hota sand 
+					"mask" : ["VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains":["sand"] 
+					},
+			
+					"mntswpgl" : { "animation" : "mntswpgl",  //hota swamp
+					"mask" : ["VBBV", "VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains":["swamp"] 
+					}
+				}
+			},
+	
+			"hotaSawmill" : { 
+				"index" : 0,
+				"aiValue" : 1500,
+				"rmg" : {
+					"value" : 1500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPLUMB"]
+				},
+				"templates" : {
+			
+					"AVMsaws0" : { "animation" : "AVMsaws0",  //hota swamp
+					"mask" : ["VVVVV", "VBBBB", "VBBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains":["swamp"] 
+					}
+				}	
+			},
+			
+			"hotaAbandoned" : {
+				"index" : 7,
+				"aiValue" : 3500,
+				"sounds" : {
+					"ambient" : ["LOOPCAVE"],
+					"visit" : ["MYSTERY"]
+				},
+				"templates" : {
+ 
+					"avxamdn" : { "animation" : "avxamdn", //hota sand 
+					"mask" : [ "VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains": ["sand"]
+					},
+					
+					"mntswpab" : { "animation" : "mntswpab", //hota swamp
+					"mask" : [ "VVVV","VBBB","VBAB"],
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+                    "allowedTerrains": ["swamp"]
+					}					
+				}
+			}
+		}	
+	}
+}	

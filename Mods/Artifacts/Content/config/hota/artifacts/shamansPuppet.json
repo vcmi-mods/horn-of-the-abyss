@@ -1,0 +1,15 @@
+{
+	"shamansPuppet" : {
+		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "LUCK", "val" : -2 } ],
+		"class" : "MINOR",
+		"graphics" : { "image" : "hota/artifacts/shamansPuppet", "large" : "hota/artifacts/ABon154p", "map" : "hota/artifacts/shamansPuppet" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Shaman's Puppet}\r\n\r\nDecreases enemy's Luck by 2.",
+			"event" : "The day looked not so great from the beginning. You walked under the ladder, met a woman with an empty bucket and stepped on a black cat. Apparently, it is not your misfortune, but the guy in rugs who has been following you. You order to seize the loser, but he runs away. As he vanishes, you notice a strange doll that he dropped.",
+			"name" : "Shaman's Puppet"
+		},
+		"type" : [ "HERO" ],
+		"value" : 4000
+	}
+}

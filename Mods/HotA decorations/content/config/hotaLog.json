@@ -1,0 +1,15 @@
+{
+	"core:log"	: {
+		"types" : {
+			"hotaLog" : {
+				"templates" : {
+
+					"AVLlogdrt1" : { "animation" : "AVLlogdrt1", 
+					"mask" : [ "VB" ], 
+					"allowedTerrains": [ "dirt","grass","rough" ] 
+					}						
+				}
+			}				
+		}
+	}	
+}

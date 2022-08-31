@@ -1,0 +1,10 @@
+{
+	"name" : "HotA Interference Heroes",
+	"description" : "Changes with heroes due to new secondary skill Interference.", 
+	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
+	"version" : "1.3.5",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"modType" : "Mechanics",
+	"depends" : [ "hota.cove" ],
+	"heroes" : [ "config/interferenceHeroes.json" ]
+}

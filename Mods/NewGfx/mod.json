@@ -1,0 +1,11 @@
+{
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"description" : "This option enables new graphical objects added by HotA Crew. As of now, this mod consist of new animations for towns on map",
+	"factions" : [ "config/hota/newTownAnimations" ],
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Graphical",
+	"name" : "New towns for map",
+	"version" : "1.3.5"
+}

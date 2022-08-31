@@ -1,0 +1,24 @@
+{
+	"core:fortress" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "fortress/TPCASFOR.bmp",
+			"130px" : "fortress/CRBKGFOR.bmp"
+		},
+	
+		"town" :
+		{
+			"structures" :
+			{	
+				"tavern":         { "animation" : "fortress/town-screen/buildings/TBFRTVRN.def", "x" : 634, "y" : 219, "z" : 3,  "border" : "TOFTAVA.bmp",  "area" : "TZFTAVA.bmp" },
+				"shipyard":       { "animation" : "fortress/town-screen/buildings/TBFRDOCK.def", "x" : 197, "y" : 294, "border" : "TOFDCK2.bmp",  "area" : "TZFDCK2.bmp" },
+				"ship":           { "animation" : "fortress/town-screen/buildings/TBFRBOAT.def", "x" : 197, "y" : 294, "z" : 1,  "border" : "TOFDCK1.bmp",  "area" : "TZFDCK1.bmp", "hidden" : true },
+				"dwellingLvl7":   { "animation" : "fortress/town-screen/buildings/TBFRDW_6.def", "x" : 612, "y" : 291, "z" : 5,  "border" : "TOFHYD1A.bmp", "area" : "TZFHYD1A.bmp" },
+				"dwellingUpLvl5": { "animation" : "fortress/town-screen/buildings/TBFRUP_2.def", "x" : 15,  "y" : 69,  "z" : -2, "border" : "TOFGOR2.bmp",  "area" : "TZFGOR2.bmp" },
+				"dwellingUpLvl6": { "animation" : "fortress/town-screen/buildings/TBFRUP_5.def", "x" : 0,   "y" : 4,   "border" : "TOFWYV2.bmp",  "area" : "TZFWYV2.bmp" }
+
+			}
+		}
+	}
+}

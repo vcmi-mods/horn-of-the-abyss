@@ -1,0 +1,75 @@
+{
+	"steelGolem":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 16,
+			"min" : 10
+		},
+			"name" :
+		{
+			"plural" : "Steel Golems",
+			"singular" : "Steel Golem"
+		},
+		"faction" : "neutral",
+		"aiValue" : 597,
+		"attack" : 10,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 8,
+			"min" : 6
+		},
+		"defense" : 11,
+		"fightValue" : 597,
+		"hasDoubleWeek": false,
+		"graphics" :
+		{
+			"animation" : "hota/battle/cstlgole.def",
+			"map" : "hota/map/avwslgl0.def",
+			"iconSmall" : "hota/iconsSmall/CPrSm172.bmp",
+			"iconLarge" : "hota/iconsBig/TwCrP172.png",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+
+
+		"sound" :
+		{
+			"attack": "hota/steelGolem/SLGLATTK.wav",
+			"defend": "hota/steelGolem/SLGLDFND.wav",
+			"killed": "hota/steelGolem/SLGLKILL.wav",
+			"move": "hota/steelGolem/SLGLMOVE.wav",
+			"wince": "hota/steelGolem/SLGLWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 80
+			},
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			}
+		}
+	}
+}
+
+

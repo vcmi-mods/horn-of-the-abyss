@@ -1,0 +1,22 @@
+{
+	"core:wagon" : {
+		"types" : {
+			"hotaWagon" : {
+//				"index" : 0,
+				"aiValue" : 500,				
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 50,
+					"mapLimit"	: 32
+				},
+				"templates" : {
+					"HATel" : { "animation" : "HATel", 
+					"mask" : [ "VV", "BA" ],
+					"visitableFrom" : [ "---", "-++", "+++" ],
+                    "allowedTerrains": [ "grass", "dirt", "rough", "sand", "swamp" ]
+					}	
+				}
+			}
+		}
+	}		
+}

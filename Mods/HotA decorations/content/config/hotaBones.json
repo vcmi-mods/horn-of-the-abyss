@@ -1,0 +1,53 @@
+{
+	"core:skull" :{
+		"types" : {
+			"hotaBones" : {
+				"name": "Bone",
+//				"index" : 1,
+//				"rmg" : {
+//					"value"		: 500,
+//					"rarity"	: 70
+//				},
+				"templates" : {
+					"AVLbon00" : { "animation" : "AVLbon00", 
+					"mask" : [ "VB" ], 
+					"allowedTerrains": [ "sand" ]
+					},
+					
+					"AVLbon01" : { "animation" : "AVLbon01", 
+					"mask" : [ "BB" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			},
+			"hotaJaw" : {
+				"name": "Jaw",
+//				"index" : 2,
+//				"rmg" : {
+//					"value"		: 500,
+//					"rarity"	: 70
+//				},
+				"templates" : {
+					"jaws" : { "animation" : "jaws", 
+					"mask" : [ "BB" ], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			},
+			"hotaSkulls" : {
+				"name": "Skull",
+				"templates" : {
+					"AVLskul1" : { "animation" : "AVLskul1",
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand" ]
+					},
+					
+					"AVLskul2" : { "animation" : "AVLskul2",				 
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand" ]
+					}					
+				}
+			}				
+		}	
+	}
+}

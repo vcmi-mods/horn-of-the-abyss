@@ -1,0 +1,26 @@
+{
+	"shieldOfNavalGlory" : {
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : {
+			"image" : "hota/artifacts/shieldOfNavalGlory",
+			"large" : "hota/artifacts/ABon148p",
+			"map" : "hota/artifacts/shieldOfNavalGlory"
+		},
+		"slot" : "LEFT_HAND",
+		"text" : {
+			"description" : "{Shield of Naval Glory}\r\n\r\nThis left-handed item increases your Defense skill by +7.",
+			"event" : "You meet an old admiral at the tavern. After a couple of hours full of tales about glorious battles and days long passed he gifts you his parade shield.",
+			"name" : "Shield of Naval Glory"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7000
+	}
+}

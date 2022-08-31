@@ -1,0 +1,115 @@
+{
+	"core:ufretin":
+	{
+		"skills":
+		[
+			{ "skill" : "luck", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:clancy":
+	{
+		"skills":
+		[
+			{ "skill" : "pathfinding", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:fafner":
+	{
+		"skills":
+		[
+			{ "skill" : "scholar", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:ignatius":
+	{
+		"skills":
+		[
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:straker":
+	{
+		"skills":
+		[
+			{ "skill" : "necromancy", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:ajit":
+	{
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:krellion":
+	{
+		"skills":
+		[
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:saurug":
+	{
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	"core:bron":
+	{
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "basic" },
+			{ "skill" : "interference", "level": "basic" }
+		]
+	},
+	
+	"giselle" : {
+		"army" : [
+			{ "creature" : "centaur", "max" : 24, "min" : 12 },
+			{ "creature" : "dwarf", "max" : 5, "min" : 3 },
+			{ "creature" : "woodElf", "max" : 4, "min" : 2 }
+		],
+		"class" : "ranger",
+		"female" : true,
+		"images" : {
+			"large" : "giselle/giselleLarge.png",
+			"small" : "giselle/giselleSmall.png",
+			"specialtyLarge" : "giselle/speclarge.png",
+			"specialtySmall" : "giselle/specsmall.png"
+		},
+		"skills" : [ { "level" : "advanced", "skill" : "interference" } ],
+		"specialty" : {
+			"bonuses" : {
+				"interference" : {
+					"effectRange" : "ONLY_ENEMY_ARMY",
+					"subtype" : "primSkill.spellpower",
+					"type" : "PRIMARY_SKILL",
+					"val" : -15,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+					   "parameters" : [ -10 ],
+					   "type" : "GROWS_WITH_LEVEL"
+					}
+				}
+			}
+		},
+		"texts" : {
+			"biography" : "A fair took place once in the village where Giselle lived. An old druid from a nearby grove agreed to show the villagers a few simple magic tricks. Nothing he tried seemed to work out, but the old man was able to accurately pinpoint the grinning girl in the front row as the cause of his woes.",
+			"name" : "Giselle",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Interference",
+				"name" : "Interference",
+				"description" : "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage."
+			}
+		}
+	}
+}

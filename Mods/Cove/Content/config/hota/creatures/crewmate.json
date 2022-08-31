@@ -1,0 +1,35 @@
+{
+	"crewmate" : {
+		"advMapAmount" : { "max" : 30, "min" : 16 },
+		"aiValue" : 155,
+		"attack" : 7,
+		"cost" : { "gold" : 110 },
+		"damage" : { "max" : 4, "min" : 2 },
+		"defense" : 4,
+		"faction" : "cove",
+		"fightValue" : 155,
+		"graphics" : {
+			"animation" : "hota/battle/crewmate.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/crewmate.png",
+			"iconSmall" : "hota/iconsSmall/crewmate.png",
+			"map" : "hota/map/crewmate.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 9,
+		"hasDoubleWeek" : true,
+		"hitPoints" : 15,
+		"horde" : 4,
+		"level" : 2,
+		"name" : { "plural" : "Crew Mates", "singular" : "Crew Mate" },
+		"sound" : {
+			"attack" : "hota/crewmate/SAYLATTK.wav",
+			"defend" : "hota/crewmate/SAYLDFND.wav",
+			"killed" : "hota/crewmate/SAYLKILL.wav",
+			"move" : "hota/crewmate/SAYLMOVE.wav",
+			"wince" : "hota/crewmate/SAYLWNCE.wav"
+		},
+		"speed" : 5,
+		"upgrades" : [ "seaman" ]
+	}
+}

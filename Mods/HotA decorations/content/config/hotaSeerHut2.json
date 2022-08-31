@@ -1,0 +1,41 @@
+{
+	"core:seerHut" : {
+		"types" : {
+			"hotaSeerHut1" : {
+				"index" : 0,
+				"rmg" : {
+//					"zoneLimit"	: 1,
+					"value"		: 2500,
+					"rarity"	: 100
+				},			
+				"templates" : {
+					"AVXseec0" : { "animation" : "AVXseec0", 
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],					
+//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ] 
+					}
+				}
+			},
+			"hotaSeerHut2" : {
+				"index" : 0,
+				"rmg" : {
+//					"zoneLimit"	: 1,
+					"value"		: 2500,
+					"rarity"	: 100
+				},			
+				"templates" : {
+					"AVXseee0" : { "animation" : "AVXseee0", 
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],					
+//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ] 
+					},
+					"wt_seerh" : { "animation" : "wt_seerh", 
+						"mask" : [ "VVV","BBB", "ABV" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ] 
+					}
+				}
+			}				
+		}
+	}	
+}

@@ -1,0 +1,32 @@
+{
+	"derek" : {
+		"army" : [
+			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
+			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
+			{ "creature" : "crewmate", "max" : 9, "min" : 6 }
+		],
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/heroes/derek/portraitlarge.png",
+			"small" : "hota/heroes/derek/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/derek/speclarge.png",
+			"specialtySmall" : "hota/heroes/derek/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "leadership" }
+		],
+		"specialty" : {
+			"creature" : "crewmate"
+		},
+		"texts" : {
+			"biography" : "Derek was one of the slaves on the galleys. He started the riot once with other captives, and after killing the owners, captured the ship. Since then, Derek and his crew joined the Regna pirates. He is different from other captains in his will to work with other crewmen. He also never inflicts physical punishment.",
+			"name" : "Derek",
+			"specialty" : {
+				"tooltip" : "Creature Bonus: Crew Mates",
+				"name" : "Crew Mates",
+				"description" : "{Crew Mates and Seamen}\r\n\r\nIncreases Speed of any Crew Mates or Seamen by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)."
+			}
+		}
+	}
+}

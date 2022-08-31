@@ -1,0 +1,70 @@
+{
+	"captain" : {
+		"affinity" : "might",
+		"animation" : { "battle" : { "female" : "hota/heroes/CH18.DEF", "male" : "hota/heroes/CH18B.DEF" } },
+		"commander" : "blackbeard",
+		"defaultTavern" : 5,
+		"faction" : "cove",
+		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
+		"lowLevelChance" : { "attack" : 45, "defence" : 25, "knowledge" : 10, "spellpower" : 20 },
+//		"mapObject" : { "templates" : { "default" : { "animation" : "hota/heroes/mapCaptain" } } },
+		"mapObject" : {
+			"templates" : { 
+				"female" : 
+				{ 
+					"animation" : "hota/heroes/AH18_.def",
+					"editorAnimation": "hota/heroes/AH18_e.def"					
+				}, 
+				"male" : 
+				{ 
+					"animation" : "hota/heroes/AH18b_.def",
+					"editorAnimation": "hota/heroes/AH18b_E.def"
+				} 
+			} 
+		},
+		"name" : "Captain",
+		"primarySkills" : { "attack" : 3, "defence" : 0, "knowledge" : 1, "spellpower" : 2 },
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 9,
+			"armorer" : 2,
+			"artillery" : 5,
+			"ballistics" : 5,
+			"diplomacy" : 5,
+			"eagleEye" : 4,
+			"earthMagic" : 4,
+			"estates" : 4,
+			"fireMagic" : 2,
+			"intelligence" : 3,
+			"leadership" : 6,
+			"learning" : 2,
+			"logistics" : 6,
+			"luck" : 7,
+			"mysticism" : 1,
+			"navigation" : 6,
+			"necromancy" : 0,
+			"offence" : 9,
+			"pathfinding" : 8,
+			"resistance" : 3,
+			"scholar" : 1,
+			"scouting" : 4,
+			"sorcery" : 2,
+			"tactics" : 6,
+			"waterMagic" : 2,
+			"wisdom" : 1,
+			"interference" : 3
+		},
+		"tavern" : {
+			"castle" : 2,
+			"conflux" : 5,
+			"cove" : 6,
+			"dungeon" : 5,
+			"fortress" : 6,
+			"inferno" : 6,
+			"necropolis" : 5,
+			"rampart" : 6,
+			"stronghold" : 6,
+			"tower" : 6
+		}
+	}
+}

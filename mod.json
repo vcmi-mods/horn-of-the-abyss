@@ -1,0 +1,16 @@
+{
+	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"description" : "Work-in-progress port of Horn of the Abyss expansion for made by Hota Crew",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Expansion",
+	"name" : "Horn of the Abyss",
+	"version" : "1.3.5",
+	"changelog" :
+    {
+        "1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
+		"1.3.22"   : [ "New hero specialty format" ],
+		"1.3.21"   : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
+    }
+}

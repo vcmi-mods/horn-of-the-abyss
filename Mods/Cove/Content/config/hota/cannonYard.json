@@ -1,0 +1,22 @@
+{
+ "core:warMachineFactory" : {
+        "types" : {
+            "object1" : {
+                "name" : "Cannon Yard",
+                "creatures" : [[ "cannon" ]],
+                "templates" : {
+                    "base" : {
+                        "animation" : "hota/map/avcnbksm",
+                        "visitableFrom" : [ "+++", "+-+", "+++" ], 
+                        "mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"]
+                    }
+                },
+                "rmg" : {
+                    "zoneLimit"    : 1,
+                    "value"        : 3000,
+                    "rarity"    : 20
+                }
+            }
+        }
+    }
+}	

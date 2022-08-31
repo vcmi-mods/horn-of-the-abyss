@@ -1,0 +1,31 @@
+{
+	"iceBlocks" : {
+		"name": "Ice Block",
+		"handler": "static",
+		"types" : {		
+			"hotaIceBlock" : {	
+				"base" : {
+				"mask" : [ "VV","BB" ],
+				"allowedTerrains": [ "snow" ]
+				},			
+//				"rmg": {					
+//				"zoneLimit"	: 12,
+//				"value"		: 100,
+//				"rarity"	: 150
+//				},
+				"templates" : {
+				
+					"TPICECR1" : { "animation" : "TPICECR1"
+					},
+					"TPICECR2" : { "animation" : "TPICECR2"
+					},
+					"TPICECR3" : { "animation" : "TPICECR3"
+					},
+					"TPICECR4" : { "animation" : "TPICECR4",  
+					"mask" : [ "VV","VB" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"core:tavern" :{
+		"types" : {
+			"hotaTavern" : {
+				"index" : 0,
+				"aiValue" : 100,
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 100,
+					"rarity"	: 20
+				},
+				"templates" : {
+					"wt_tvrn01" : { "animation" : "wt_tvrn01", 
+						"mask" : [ "VVVV","VBBV","VBBB","VBAB" ], 
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "water" ]			 
+					},
+					
+					"AVXtvrS0" : { "animation" : "AVXtvrS0", 
+						"mask" : [ "VVV","VVV","VVV","VAB" ], 
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "snow"	]			 
+					}					
+				}
+			}
+		}	
+	}
+}

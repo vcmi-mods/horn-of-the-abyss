@@ -1,0 +1,42 @@
+{
+	"ironfistOfTheOgre" : {
+		"class" : "RELIC",
+		"components" : [ "crownOfTheSupremeMagi", "ogresClubOfHavoc", "tunicOfTheCyclopsKing", "targOfTheRampagingOgre" ],
+		"graphics" : { "image" : "hota/artifacts/ironfistOfTheOgre", "large" : "hota/artifacts/ABon143p", "map" : "hota/artifacts/ironfistOfTheOgre" },
+		"slot" : "RIGHT_HAND",
+		"text" : {
+			"description" : "{Ironfist Of The Ogre}\r\n\r\nAt the beginning of every combat casts Haste, Bloodlust, Fire Shield and Counterstrike spells on expert level on all of your creatures for fifty rounds.",
+			"event" : "On passing by a small cave you hear deep thumping. You enter the cave and see a juvenile Cyclops cracking nuts with an enormous hammer. Every strike ends in shells and nut pieces being scattered all over the cave. You teach the Cyclops to crack nuts more sparingly by crushing them against each other. Overjoyed with this dicovery, the youth gifts you the hammer.",
+			"name" : "Ironfist Of The Ogre"
+		},
+		"bonuses" : [
+			{
+				"subtype" : "spell.haste",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.bloodlust",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.fireShield",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 50
+//				"valueType" : "BASE_NUMBER"
+			},
+			{
+				"subtype" : "spell.counterstrike",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 50,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+
+		"type" : [ "HERO" ],
+		"value" : 0
+	}
+}

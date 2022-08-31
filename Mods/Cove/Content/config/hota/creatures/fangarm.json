@@ -1,0 +1,93 @@
+{
+	"fangarm":
+	{
+		"advMapAmount" :
+		{
+
+			"max" : 12,
+			"min" : 8
+		},
+			"name" :
+		{
+			"plural" : "Fangarms",
+			"singular" : "Fangarm"
+		},
+		"faction" : "neutral",
+		"aiValue" : 900,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 8
+		},
+		"defense" : 12,
+		"fightValue" : 850,
+		"hasDoubleWeek": true,
+		"graphics" :
+		{
+			"animation" : "hota/battle/CFANGARM.def",
+			"map" : "hota/map/AvWFNGRM.def",
+			"iconSmall" : "hota/iconsSmall/CPrSm170.bmp",
+			"iconLarge" : "hota/iconsBig/TwCrP170.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.20,
+				"idle" : 10.00,
+				"attack" : 1,
+				"flight" : 1
+			}
+		},
+		"growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+
+
+		"sound" :
+		{
+			"attack": "hota/Fangarm/FNGRATTK.wav",
+			"defend": "hota/Fangarm/FNGRDFND.wav",
+			"killed": "hota/Fangarm/FNGRKILL.wav",
+			"move": "hota/Fangarm/FNGRMOVE.wav",
+			"wince": "hota/Fangarm/FNGRWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 600
+			}, 	
+			"hypnotize" : {
+				"addInfo" : 0,
+				"subtype" : "spell.hypnotize",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 33
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			},
+			"canFly" : 
+			{
+				"type" : "FLYING"
+			},
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"immuneToMind" : 
+			{
+				"type" : "MIND_IMMUNITY"
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,10 @@
+{
+	"core:dungeon" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "dungeon/TPCASDUN.bmp",
+			"130px" : "dungeon/CRBKGDUN.bmp"
+		}
+	}
+}

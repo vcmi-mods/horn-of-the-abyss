@@ -1,0 +1,23 @@
+{
+	"core:castle" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "castle/TPCASCAS.bmp",
+			"130px" : "castle/CRBKGCAS.bmp"
+		},
+	
+		"town" :
+		
+		{
+			"structures" :
+			{
+				"fort":           { "animation" : "castle/town-screen/buildings/TBCSCSTL.def", "x" : 595, "y" : 66, "z" : -2, "border" : "castle/town-screen/buildings-border/TOCSCAS1.bmp", "area" : "castle/town-screen/buildings-area/TZCSCAS1.bmp" },
+				"capitol":        { "animation" : "castle/town-screen/buildings/TBCSHAL4.def", "x" : 0,   "y" : 154, "border" : "TOCSH401.bmp", "area" : "TZCSH401.bmp" },
+				
+			},
+			"buildingsIcons": "castle/HALLCSTL.DEF",
+			"townBackground": "castle/TBcsback.bmp"
+		}
+	}
+}

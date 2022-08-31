@@ -1,0 +1,38 @@
+{
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"special2": 
+				{ 
+					"cost" :
+						{
+							"sulfur" : 4
+						}
+				},
+				"dwellingUpLvl2": 
+				{ 
+					"cost" :
+						{
+							"mercury" : 4
+						}
+				},
+			
+				"dwellingUpLvl3": 
+				{ 
+					"cost" :
+						{
+							"sulfur": 4
+						}
+				},	
+
+				"dwellingUpLvl5": 
+				{ 
+					"requires" : [ "mageGuild1" ]
+				}
+			}
+		}
+	}
+}

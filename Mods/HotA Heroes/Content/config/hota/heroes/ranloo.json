@@ -1,0 +1,33 @@
+{
+	"ranloo" : {
+		"army" : [
+			{ "creature" : "skeleton", "max" : 30, "min" : 20 },
+			{ "creature" : "ballista", "max" : 1, "min" : 1 },
+			{ "creature" : "wight", "max" : 6, "min" : 4 }
+		],
+		"class" : "deathknight",
+		"images" : {
+			"large" : "hota/heroes/ranloo/portraitlarge.png",
+			"small" : "hota/heroes/ranloo/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/ranloo/speclarge.png",
+			"specialtySmall" : "hota/heroes/ranloo/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "necromancy" },
+			{ "level" : "basic", "skill" : "artillery" }
+		],
+		"specialty" : {
+			"creature" : "ballista"
+		},
+		"spellbook" : [ "haste" ],
+		"texts" : {
+			"biography" : "Folowing the dream of his childhood Ranloo bound himself as an apprentice to a local farrier - master Mestley. But instead of ancient blacksmith's lore he got a bite to his neck and a gaping pit somewhere in the forest of Talon.\r\nNobody can imagine how Ranloo got out of that forest. However, everyone knows well that his diadem of a Master Blacksmith Ranloo has taken from a dead body of his mentor, after a precise shot with self-made ballista.",
+			"name" : "Ranloo",
+			"specialty" : {
+				"description" : "Artillery Bonus: Ballista",
+				"name" : "Ballista",
+				"tooltip" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"sealOfSunset" : {
+		"bonuses" : [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"valueType" : "PERCENT_TO_ALL",
+				"propagator" : "BATTLE_WIDE",
+				"val": -10
+			},
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.spellpower",
+				"valueType" : "PERCENT_TO_ALL",
+				"val": 10
+			}
+		],
+		"class" : "MINOR",
+		"graphics" : { "image" : "hota/artifacts/ava0163", "map" : "hota/artifacts/ava0163" },
+		"slot" : "RING",
+		"text" : {
+			"description" : "{Seal of Sunset}\r\n\r\nWorn on a finger, this item reduces the Power skill of enemy hero by 10% during combat.",
+			"event" : "It's never nice to get hit in the noggin by a fist with a heavy ring on the finger. Still, that's what happened to you in a friendly sparring with an old hero acquaintance, and after that, you couldn't manage the simplest spell to relieve dizziness for quite a while. During the booze-up after the sparring, the ring migrated over to your digit.",
+			"name" : "Seal of Sunset"
+		},
+		"type" : [ "HERO" ],
+		"value" : 5000
+	}
+}

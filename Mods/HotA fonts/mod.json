@@ -1,0 +1,13 @@
+{
+	"name" : "HotA fonts",
+	"description" : "HotA fonts with additional polish diactric marks.", 
+	"author": "",
+	"version" : "1.3.5",
+	"contact": "",
+	"modType" : "",
+	"conflicts" :
+	[
+		"TrueTypeFonts"
+	]
+	
+}

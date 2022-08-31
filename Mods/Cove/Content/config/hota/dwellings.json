@@ -1,0 +1,181 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"waterfall" : {
+				"name" : "Waterfall",
+				"creatures" : [[ "nymph" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPWTFL.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/waterfall",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"shack" : {
+				"name" : "Shack",
+				"creatures" : [[ "crewmate" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPMATR.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/shack",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"frigate" : {
+				"name" : "Frigate",
+				"creatures" : [[ "pirate" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPFRIG.wav"]
+				},
+				"templates" : {
+					"default" : {	
+						"animation" : "hota/map/frigate",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"nest" : {
+				"name" : "Nest",
+				"creatures" : [[ "stormbird" ]],
+				"sounds": {
+					"ambient": ["LOOPBIRD.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/nest",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"towerOfTheSeas" : {
+				"name" : "Tower of the Seas",
+				"creatures" : [[ "seaWitch" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPSORC.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/tower",
+						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
+					}
+				}
+			},
+			"nixFort" : {
+				"name" : "Nix Fort",
+				"creatures" : [[ "nix" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPNIXF.wav"]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/FORTNIXR",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+					}
+				}
+			},
+			"whirpool" : {
+				"name" : "Whirpool",
+				"creatures" : [[ "seaserpent" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPHASP.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/HASPHTPL",
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
+					}
+				}
+			},
+			"wineyard" :
+             {
+				"name" : "Wineyard",
+				"creatures" : [[ "satyr" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPLEPR.wav"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "hota/map/AVGsaty0.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+             },
+			 "ziggurat" :
+             {
+				"name" : "Ziggurat",
+				"creatures" : [[ "fangarm" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPBEHD.wav"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "hota/map/AVGfngrm.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+             },
+			 "alehouse" :
+             {
+				"name" : "Alehouse",
+				"creatures" : [[ "leprechaun" ]],
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPGARD.wav"]
+				},
+				"templates" : 
+                {
+					"default" : 
+                    {
+						"animation" : "hota/map/AVGlprch.def",
+						"mask" : [ "VVV", "VVB", "VBA" ]
+					}
+				}
+            } 			 
+		}		
+	},
+
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"nixFortLarge" : {
+				"name" : "Nix Fort",
+				"creatures" : [[ "nix" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPNIXF.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/FORTNIX",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ]
+					}
+				}
+			},
+			"whirpoolLarge" : {
+				"name" : "Whirpool",
+				"creatures" : [[ "seaserpent" ]],
+				"guards" : true,
+				"sounds": {
+					"ambient": ["hota/dwellings/LOOPHASP.wav"]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/map/HASPWTPL.DEF",
+						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
+					}
+				}
+			}
+		}
+	}
+}

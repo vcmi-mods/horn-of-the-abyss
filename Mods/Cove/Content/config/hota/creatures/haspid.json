@@ -1,0 +1,75 @@
+{
+	"haspid" : {
+		"abilities" : {
+			"basicSlayer" : { "type" : "KING1" },
+			"dragonNature" : { "type" : "DRAGON_NATURE" },
+			"poisonous" : {
+				"addInfo" : 0,
+				"subtype" : "spell.poison",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 50
+			}
+		},
+		"advMapAmount" : { "max" : 8, "min" : 3 },
+		"aiValue" : 7220,
+		"attack" : 29,
+		"cost" : { "gold" : 4000, "sulfur" : 2 },
+		"damage" : { "max" : 55, "min" : 30 },
+		"defense" : 20,
+		"doubleWide" : true,
+		"faction" : "cove",
+		"fightValue" : 5554,
+		"graphics" : {
+			"animation" : "hota/battle/haspid.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/haspid.png",
+			"iconSmall" : "hota/iconsSmall/haspid.png",
+			"map" : "hota/map/haspid.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+		"name" : { "plural" : "Haspids", "singular" : "Haspid" },
+		"sound" : {
+			"attack" : "hota/seaserpent/ASPIATTK.wav",
+			"defend" : "hota/seaserpent/ASPIDFND.wav",
+			"killed" : "hota/seaserpent/ASPIKILL.wav",
+			"move" : "hota/seaserpent/ASPIMOVE.wav",
+			"wince" : "hota/seaserpent/ASPIWNCE.wav"
+		},
+		"speed" : 12,
+		"stackExperience" : [
+			{
+				"bonus" : { "type" : "HP_REGENERATION" },
+				"values" : [
+					15,
+					30,
+					45,
+					60,
+					75,
+					90,
+					105,
+					120,
+					135,
+					150
+				]
+			},
+			{
+				"bonus" : { "type" : "JOUSTING" },
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			}
+		]
+	}
+}

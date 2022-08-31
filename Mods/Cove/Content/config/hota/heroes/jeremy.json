@@ -1,0 +1,32 @@
+{
+	"jeremy" : {
+		"army" : [
+			{ "creature" : "nymph", "max" : 30, "min" : 20 },
+			{ "creature" : "cannon", "max" : 1, "min" : 1 },
+			{ "creature" : "pirate", "max" : 7, "min" : 4 }
+		],
+		"class" : "captain",
+		"images" : {
+			"large" : "hota/heroes/jeremy/portraitlarge.png",
+			"small" : "hota/heroes/jeremy/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/jeremy/speclarge.png",
+			"specialtySmall" : "hota/heroes/jeremy/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "offence" },
+			{ "level" : "basic", "skill" : "artillery" }
+		],
+		"specialty" : {
+			"creature" : "cannon"
+		},
+		"texts" : {
+			"biography" : "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages and beautiful women. He has a thing for weapons, and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
+			"name" : "Jeremy",
+			"specialty" : {
+				"tooltip" : "Artillery Bonus: Cannon",
+				"name" : "Cannon",
+				"description" : "{Cannon}\r\n\r\nIncreases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up)."
+			}
+		}
+	}
+}

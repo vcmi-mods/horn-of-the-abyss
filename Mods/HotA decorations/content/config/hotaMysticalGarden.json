@@ -1,0 +1,22 @@
+{
+	"core:mysticalGarden" : {
+		"types" : {
+			"hotaMysticalGarden" : {
+				"index" : 0,
+				"aiValue" : 500,
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 50,
+					"mapLimit"	: 32
+				},
+				"templates" : {
+					"avtmystd" : { "animation" : "avtmystd", 
+					"mask" : [ "VBV","BAB" ], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains": [ "dirt" ] 
+					}
+				}	
+			}
+		}
+	}
+}

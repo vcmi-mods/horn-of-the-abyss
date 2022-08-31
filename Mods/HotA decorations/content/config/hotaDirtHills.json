@@ -1,0 +1,40 @@
+{
+	"core:dirtHills" :{
+		"types" : {
+			"hotaDirtHills" : {
+				"templates" : {
+					
+					"avlndt01" : { "animation" : "avlndt01", 
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt02" : { "animation" : "avlndt02",  
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt03" : { "animation" : "avlndt03", 
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt04" : { "animation" : "avlndt04",  
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt05" : { "animation" : "avlndt05", 
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt06" : { "animation" : "avlndt06", 
+					"mask" : [ "VV","BB" ], 
+					"allowedTerrains": [ "dirt" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

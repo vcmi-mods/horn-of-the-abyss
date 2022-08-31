@@ -1,0 +1,17 @@
+{
+	"core:pandoraBox" :{
+		"types" : {
+			"hotaPandoraBox" : {
+//				"index" : 0,
+				"aiValue" : 10000,			
+				"templates" : {
+					"ava0128w" : { "animation" : "ava0128w", 
+					"mask" : [ "VA"],
+					"visitableFrom" : [ "+++", "+++", "+++" ],
+                    "allowedTerrains": [ "water" ]
+					}				
+				}
+			}			
+		}	
+	}
+}

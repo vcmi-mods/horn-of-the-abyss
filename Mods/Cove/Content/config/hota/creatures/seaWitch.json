@@ -1,0 +1,63 @@
+{
+	"seaWitch" : {
+		"abilities" : {
+			"canShoot" : { "type" : "SHOOTER" },
+			"castsDisruptingRay" : {
+				"addInfo" : 1000,
+				"subtype" : "spell.disruptingRay",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 30
+			},
+			"castsWeakness" : {
+				"addInfo" : 1000,
+				"subtype" : "spell.weakness",
+				"type" : "SPELL_AFTER_ATTACK",
+				"val" : 30
+			}
+		},
+		"advMapAmount" : { "max" : 16, "min" : 8 },
+		"aiValue" : 790,
+		"attack" : 12,
+		"cost" : { "gold" : 515 },
+		"damage" : { "max" : 14, "min" : 10 },
+		"defense" : 7,
+		"faction" : "cove",
+		"fightValue" : 608,
+		"graphics" : {
+			"animation" : "hota/battle/seaWitch.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/seaWitch.png",
+			"iconSmall" : "hota/iconsSmall/seaWitch.png",
+			"map" : "hota/map/seaWitch.def",
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "hota/battle/projectile/sorceress.def"
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 3,
+		"hitPoints" : 35,
+		"level" : 5,
+		"name" : { "plural" : "Sea Witches", "singular" : "Sea Witch" },
+		"shots" : 12,
+		"sound" : {
+			"attack" : "hota/seaWitch/SORCATTK.wav",
+			"defend" : "hota/seaWitch/SORCDFND.wav",
+			"killed" : "hota/seaWitch/SORCKILL.wav",
+			"move" : "hota/seaWitch/SORCMOVE.wav",
+			"shoot" : "hota/seaWitch/SORCSHOT.wav",
+			"wince" : "hota/seaWitch/SORCWNCE.wav"
+		},
+		"speed" : 6,
+		"upgrades" : [ "sorceress" ]
+	}
+}

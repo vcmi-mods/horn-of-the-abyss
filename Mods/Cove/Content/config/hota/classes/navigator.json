@@ -1,0 +1,70 @@
+{
+	"navigator" : {
+		"affinity" : "magic",
+		"animation" : { "battle" : { "female" : "hota/heroes/CH19B", "male" : "hota/heroes/CH19" } },
+		"commander" : "blackbeard",
+		"defaultTavern" : 5,
+		"faction" : "cove",
+		"highLevelChance" : { "attack" : 30, "defence" : 20, "knowledge" : 30, "spellpower" : 20 },
+		"lowLevelChance" : { "attack" : 15, "defence" : 10, "knowledge" : 35, "spellpower" : 40 },
+//		"mapObject" : { "templates" : { "default" : { "animation" : "hota/heroes/mapNavigator" } } },
+		"mapObject" : {
+			"templates" : { 
+				"female" : 
+				{ 
+					"animation" : "hota/heroes/AH19B_.def",
+					"editorAnimation": "hota/heroes/AH19B_e.def"					
+				}, 
+				"male" : 
+				{ 
+					"animation" : "hota/heroes/AH19_.def",
+					"editorAnimation": "hota/heroes/AH19_E.def"
+				} 
+			} 
+		},
+		"name" : "Navigator",
+		"primarySkills" : { "attack" : 2, "defence" : 0, "knowledge" : 2, "spellpower" : 1 },
+		"secondarySkills" : {
+			"airMagic" : 6,
+			"archery" : 6,
+			"armorer" : 1,
+			"artillery" : 1,
+			"ballistics" : 2,
+			"diplomacy" : 2,
+			"eagleEye" : 2,
+			"earthMagic" : 5,
+			"estates" : 2,
+			"fireMagic" : 2,
+			"intelligence" : 8,
+			"leadership" : 2,
+			"learning" : 4,
+			"logistics" : 3,
+			"luck" : 4,
+			"mysticism" : 3,
+			"navigation" : 6,
+			"necromancy" : 0,
+			"offence" : 4,
+			"pathfinding" : 6,
+			"resistance" : 5,
+			"scholar" : 5,
+			"scouting" : 2,
+			"sorcery" : 6,
+			"tactics" : 4,
+			"waterMagic" : 9,
+			"wisdom" : 8,
+			"interference" : 1
+		},
+		"tavern" : {
+			"castle" : 4,
+			"conflux" : 6,
+			"cove" : 6,
+			"dungeon" : 5,
+			"fortress" : 6,
+			"inferno" : 6,
+			"necropolis" : 5,
+			"rampart" : 6,
+			"stronghold" : 6,
+			"tower" : 6
+		}
+	}
+}

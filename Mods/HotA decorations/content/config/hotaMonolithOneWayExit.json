@@ -1,0 +1,46 @@
+{
+	"core:monolithOneWayExit" : {	
+		"types" : {
+			"hotaMonoliths01Ex" : {
+				"index" : 8,
+				"templates" : {
+					"AVXmx1g0" : { "animation" : "AVXmx1g0", 
+					"mask" : [ "V", "A" ],  
+					"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}	
+			},
+			
+			"hotaMonoliths02Ex" : {
+				"index" : 9,
+				"templates" : {
+					"AVXMX1T0" : { "animation" : "AVXMX1T0", 
+					"mask" : [ "V", "A" ],
+					"visitableFrom" : [ "---", "+++", "+++" ]
+					}	
+				}			
+			},
+			
+			"hotaMonoliths03Ex" : { 
+				"index" : 10,
+				"templates" : {
+					"AVXMX1V0" : { "animation" : "AVXMX1V0", 
+					"mask" : [ "V", "A" ],
+					"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			
+			"hotaMonoliths04Ex" : { 
+				"index" : 11,
+				"templates" : {	
+					"AVXmx1w0" : { "animation" : "AVXmx1w0", 
+					"mask" : [ "V", "A" ],
+					"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}	
+// what about AVXmx1y0.def ??			
+		}			
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"demonsHorseshoe" : {
+		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "LUCK", "val" : -1 } ],
+		"class" : "TREASURE",
+		"graphics" : { "image" : "hota/artifacts/demonsHorseshoe", "large" : "hota/artifacts/ABon153p", "map" : "hota/artifacts/demonsHorseshoe" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Demon's Horseshoe}\r\n\r\nDecreases enemy's Luck by 1.",
+			"event" : "During your overnight stay you hear hooves clatter nearby. You look around in darkness and notice a demon's figure, ready to stab you with its horns. You barely survive the attack and keep his horseshoe as a trophy.",
+			"name" : "Demon's Horseshoe"
+		},
+		"type" : [ "HERO" ],
+		"value" : 2000
+	}
+}

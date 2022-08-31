@@ -1,0 +1,22 @@
+{
+	"core:shrineOfMagicLevel1"	: {
+		"types" : {
+			"hotaShrineOfMagicLevel1" : {
+				"index" : 0,
+				"aiValue" : 500,
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 100,
+					"mapLimit"	: 32
+				},
+				"templates" : {
+					"AVXl1sh0w" : { "animation" : "AVXl1sh0w", 
+					"mask" : [ "VB","VA" ], 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"allowedTerrains": [ "water" ]
+					}	
+				}
+			}
+		}
+	}		
+}

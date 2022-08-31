@@ -1,0 +1,76 @@
+{
+	"core:tradingPost": {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"value"		: 3000
+				}
+			}
+		}
+	},
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit"	: 1,
+					"value"		: 350
+				}
+			}
+		}
+	},
+	"core:shrineOfMagicLevel1" : {//incantation
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"rarity"	: 50
+				}
+			}
+		}
+	},
+	"core:shrineOfMagicLevel3" : {//thinking
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"rarity"	: 50
+				}
+			}
+		}
+	},
+	"core:freelancersGuild" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"rarity"	: 50
+				}
+			}
+		}
+	},
+	"core: creatureGeneratorSpecial" : {
+		"types" : {
+			"golemFactory" : {
+				"rmg" : {
+					"rarity"	: 20,
+					"value"		: 4500
+				}	
+			},
+			
+			"elementalConflux" : {
+				"rmg" : {
+					"rarity"	: 20,
+					"value"		: 6000
+				}
+			}
+		}
+	},
+
+	"creatureGeneratorCommon" : {
+		"types" : {
+			"estate": {
+				"rmg" : {
+					"value"		: 9000
+				}
+			}
+//hovel is multiplied by 3 also, fing rmg value
+		}
+	}	
+}

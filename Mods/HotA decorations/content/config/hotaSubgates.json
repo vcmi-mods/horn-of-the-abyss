@@ -1,0 +1,26 @@
+{
+	"core:subterraneanGate" : {
+		"types" : {
+			"hotaSubterreanGate" : {
+//			"index"	: 0,
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 80
+				},
+				"templates" : {
+					"HAExit01" : { "animation" : "HAExit01",  
+					"mask" : [ "VVVV","VBBB","VBAB" ], 
+                    "allowedTerrains": [ "subterra" ],
+					"visitableFrom" : [ "---", "-+-", "+++" ]
+					},
+					
+					"AvTCave2" : { "animation" : "AvTCave2", 
+					"mask" : [ "VVBV","VBBB","VBAB" ], 
+                    "allowedTerrains": [ "snow" ],
+					"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

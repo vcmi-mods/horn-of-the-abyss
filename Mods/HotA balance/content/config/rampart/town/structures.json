@@ -1,0 +1,21 @@
+{
+	"core:rampart" :
+	{
+		"creatureBackground" :
+		{
+			"120px" : "rampart/TPCASRAM.bmp",
+			"130px" : "rampart/CRBKGRAM.bmp"
+		},
+	
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":           { "animation" : "TBRMCSTL.def", "x" : 79,  "y" : 31,  "z" : -2, "border" : "TORCAS1.bmp",  "area" : "TZRCAS1.bmp" },
+				"citadel":        { "animation" : "TBRMCAS2.def", "x" : 79,  "y" : 18,  "z" : -2, "border" : "TORCAS3.bmp",  "area" : "TZRCAS3.bmp" },
+				"castle":         { "animation" : "TBRMCAS3.def", "x" : 79,  "y" : 18,  "z" : -2, "border" : "TORCAS2.bmp",  "area" : "TZRCAS2.bmp" }	
+			},
+			"buildingsIcons": "rampart/HALLRAMP.DEF"
+		}
+	}
+}

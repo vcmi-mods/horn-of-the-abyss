@@ -1,0 +1,22 @@
+{
+	"core:shrineOfMagicLevel3" : {
+		"types" : {
+			"hotaShrineOfMagicLevel3" : {
+				"index" : 0,
+				"aiValue" : 3000,
+				"rmg" : {
+					"value"		: 3000,
+					"rarity"	: 100,
+					"mapLimit"	: 32
+				},
+				"templates" : {
+					"AVXl3sh0w" : { "animation" : "AVXl3sh0w", 
+					"mask" : [ "VB"," VA" ], 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"allowedTerrains": [ "water"]
+					}	
+				}
+			}
+		}
+	}		
+}

@@ -1,0 +1,50 @@
+{
+	"core:rock" :{
+		"types" : {		
+			"hotaRock" : {
+				"templates" : {
+		
+					"avlrfx01" : { "animation" : "avlrfx01", 
+					"mask" : [ "VB", "VB" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx02" : { "animation" : "avlrfx02", 
+					"mask" : [ "VVV","BBV","VBB" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx03" : { "animation" : "avlrfx03", 
+					"mask" : [ "VVV","VBB","BBV" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx04" : { "animation" : "avlrfx04", 
+					"mask" : [ "VV","VB" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx05" : { "animation" : "avlrfx05", 
+					"mask" : [ "VBV","BBB" ], 
+                    "allowedTerrains": [ "water" ]
+					},	
+					
+					"avlrfx06" : { "animation" : "avlrfx06", 
+					"mask" : [ "VB","VB" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx07" : { "animation" : "avlrfx07",  
+					"mask" : [ "VVVVV","VBBVV","VBBBV","VVBBV" ], 
+                    "allowedTerrains": [ "water" ]
+					},
+					
+					"avlrfx08" : { "animation" : "avlrfx08",  
+					"mask" : [ "VVVVV","VVBBV","VBBBV","VBBVV" ], 
+                    "allowedTerrains": [ "water" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

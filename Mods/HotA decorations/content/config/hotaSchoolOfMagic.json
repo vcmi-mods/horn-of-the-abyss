@@ -1,0 +1,22 @@
+{
+	"core:schoolOfMagic" : {
+		"types" : {
+			"hotaSchoolOfMagic" : {
+				"index" : 0,
+				"aiValue" : 1000,
+				"rmg" : {
+					"value"		: 1000,
+					"rarity"	: 50,
+					"mapLimit"	: 32
+				},
+				"templates" : {
+					"AVSSCHM1" : { "animation" : "AVSSCHM1", 
+					"mask" : [ "VBV", "VBB", "VAB" ], 
+					"visitableFrom" : [ "---", "-++", "+++" ],
+					"allowedTerrains": [ "water" ] 
+					}
+				}	
+			}
+		}
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"core:pixie" :
+	{
+		"sound" :
+		{
+			"defend": "conflux/PIXIDFND.wav"
+		}
+	},
+	"core:sprite" :
+	{
+		"sound" :
+		{
+			"defend": "conflux/SPRTDFND.wav"
+		}
+	},
+	"core:stormElemental" :
+	{
+		"sound" :
+		{
+			"shoot": "conflux/STORMELM.wav"
+		}
+	},
+	"core:waterElemental" :
+	{
+		"graphics" :
+					{
+						"map" : "conflux/creatures/map/AVWelmw0.def"
+					}
+	},
+	"core:fireElemental" :
+	{
+		"graphics" :
+					{
+						"animation" : "conflux/creatures/battle/CFELEM.def",
+						"map" : "conflux/creatures/map/AVWelmf0.def"
+					}
+	},				
+	"core:earthElemental" :
+	{
+		"graphics" :
+					{
+						"map" : "conflux/creatures/map/AVWelme0.def"
+					}
+	},				
+	"core:psychicElemental" :
+	{
+		"graphics" :
+					{
+						"animation" : "conflux/creatures/battle/Cpsyel.def"
+					},
+		"cost" :
+		{
+			"gold" : 950
+		},			
+	},
+	"core:magicElemental" :
+	{
+		"cost" :
+		{
+			"gold" : 1200
+		},
+	},
+	"core:firebird" :
+	{
+		"aiValue" :4336,
+		"fightValue" : 3097,
+		"horde" : 1,
+		"growth" : 1,
+		"graphics" :
+					{
+						"animation" : "conflux/creatures/battle/cfbird.def"
+					},
+		"cost" :
+		{
+			"gold" : 2000,
+		},	
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : 1,
+				"val" : 50
+			},
+			"immuneToFire" : null
+		}
+	},
+	"core:phoenix" :
+	{	
+		"horde" : 1,
+		"growth" : 1,
+		"graphics" :
+					{
+						"animation" : "conflux/creatures/battle/Cphx.def",
+						"map" : "conflux/creatures/map/AVWphx.def"
+					},
+		"cost" :
+		{
+			"gold" : 3000
+		}			
+	}
+}

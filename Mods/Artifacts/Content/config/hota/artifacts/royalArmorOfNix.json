@@ -1,0 +1,22 @@
+{
+	"royalArmorOfNix" : {
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "hota/artifacts/royalArmorOfNix", "large" : "hota/artifacts/ABon149p", "map" : "hota/artifacts/royalArmorOfNix" },
+		"slot" : "TORSO",
+		"text" : {
+			"description" : "{Royal Armor of Nix}\r\n\r\nWorn on the torso, this item increases your Power skill by +6.",
+			"event" : "You see a fight on a hill nearby. As you get closer, you see two nix. One is winning, and as he is about to land a finishing blow, you intervene. The defeated nix thanks you for your help, and gifts you with his armor. He believes you deserve it more than he does.",
+			"name" : "Royal Armor of Nix"
+		},
+		"type" : [ "HERO" ],
+		"value" : 7000
+	}
+}

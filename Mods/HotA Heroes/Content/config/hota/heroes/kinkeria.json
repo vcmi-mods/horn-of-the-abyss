@@ -1,0 +1,39 @@
+{
+	"kinkeria" : {
+		"army" : [
+			{ "creature" : "gnoll", "max" : 25, "min" : 15 },
+			{ "creature" : "lizardman", "max" : 7, "min" : 4 },
+			{ "creature" : "serpentFly", "max" : 4, "min" : 3 }
+		],
+		"class" : "witch",
+		"female" : true,
+		"images" : {
+			"large" : "hota/heroes/kinkeria/portraitlarge.png",
+			"small" : "hota/heroes/kinkeria/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/kinkeria/speclarge.png",
+			"specialtySmall" : "hota/heroes/kinkeria/specsmall.png"
+		},
+		"skills" : [ { "level" : "basic", "skill" : "wisdom" }, { "level" : "basic", "skill" : "learning" } ],
+		"specialty" : {
+			"bonuses" : {
+				"learning" : {
+					"subtype" : "skill.learning",
+					"type" : "SECONDARY_SKILL_PREMY",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"spellbook" : [ "slow" ],
+		"texts" : {
+			"biography" : "Kinkeria was one of the most respected witches of her tribe. She was always seeking for knowledge, and it was easy for her to comprehend the essence of any phenomena. She has been given such tasks over which many wisemen remained puzzled for years.\r\nWith that being said, it was no surprise when she offered her service to the king of Tatalia.",
+			"name" : "Kinkeria",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Learning",
+				"name" : "Learning",
+				"description" : "{Learning}\r\n\r\nReceives a 5% per level bonus to Learning skill percentage."
+			}
+		}
+	}
+}

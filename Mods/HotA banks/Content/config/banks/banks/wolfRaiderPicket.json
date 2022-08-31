@@ -1,0 +1,92 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"wolfRaiderPicket" : 
+			{
+				"name" : "Wolf Raider Picket",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/AVXbnk80.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VAV"],
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"] 			
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPPICK.wav"]
+				},
+				"rmg" : {
+					"value"		: 9500,
+					"rarity"	: 70
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "hobgoblinWolfRider" },
+							{ "amount": 10, "type" : "hobgoblinWolfRider" },
+							{ "amount": 10, "type" : "hobgoblinWolfRider"},
+							{ "amount": 10, "type" : "hobgoblinWolfRider" },
+							{ "amount": 10, "type" : "hobgoblinWolfRider" }
+						],
+						"combat_value": 5000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 4, "type": "cyclop" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "hobgoblinWolfRider" },
+							{ "amount": 15, "type" : "hobgoblinWolfRider" },
+							{ "amount": 15, "type" : "hobgoblinWolfRider"},
+							{ "amount": 15, "type" : "hobgoblinWolfRider" },
+							{ "amount": 15, "type" : "hobgoblinWolfRider" }
+						],
+						"combat_value": 5000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 6, "type": "cyclop" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "hobgoblinWolfRider" },
+							{ "amount": 20, "type" : "hobgoblinWolfRider" },
+							{ "amount": 20, "type" : "hobgoblinWolfRider"},
+							{ "amount": 20, "type" : "hobgoblinWolfRider" },
+							{ "amount": 20, "type" : "hobgoblinWolfRider" }
+						],
+						"combat_value": 5000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 8, "type": "cyclop" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 30, "type" : "hobgoblinWolfRider" },
+							{ "amount": 30, "type" : "hobgoblinWolfRider" },
+							{ "amount": 30, "type" : "hobgoblinWolfRider"},
+							{ "amount": 30, "type" : "hobgoblinWolfRider" },
+							{ "amount": 30, "type" : "hobgoblinWolfRider" }
+						],
+						"combat_value": 5000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 12, "type": "cyclop" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

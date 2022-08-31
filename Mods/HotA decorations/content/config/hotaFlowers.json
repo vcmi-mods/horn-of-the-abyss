@@ -1,0 +1,45 @@
+{
+	"core:flowers" : {
+		"types" : {
+			"hotaFlowers" : {
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+			"templates" : {
+				
+					"swvflw01" : { "animation" : "swvflw01", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "swamp" ]
+					},
+					
+					"swvflw02" : { "animation" : "swvflw02", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "swamp" ]
+					},
+					
+					"swvflw03" : { "animation" : "swvflw03", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "swamp" ]
+					},
+					
+					"swvflw04" : { "animation" : "swvflw04",  
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "swamp" ]
+					},
+					
+					"swvflw05" : { "animation" : "swvflw05", 
+					"mask" : [ "VVVV" ,"VBBB" ], 
+                    "allowedTerrains": [ "swamp" ]
+					}					
+				}
+			}		
+		}
+	}
+}
+	
+	
+	
+
+
+	

@@ -1,0 +1,40 @@
+{
+	"core:pikeman" :
+	{
+		"graphics" :
+		{
+			"animation" : "castle/creatures/battle/CPKMAN.def",
+			"map" : 	  "castle/creatures/map/AVWPIKE.def",
+			"iconSmall" : "castle/creatures/iconsSmall/CPrS000C.bmp",
+			"iconLarge" : "castle/creatures/iconsBig/CPrL001B.bmp",
+		}
+	},
+	"core:halberdier" :
+	{
+		"graphics" :
+		{
+			"animation" : "castle/creatures/battle/CHALBD.def",
+			"map" : 	  "castle/creatures/map/AVWPIKX0.def",
+			"iconSmall" : "castle/creatures/iconsSmall/CPrS001C.bmp",
+			"iconLarge" : "castle/creatures/iconsBig/CPrL001C.bmp",
+		}
+	},
+	"core:griffin" :
+	{
+		"graphics" :
+		{
+			"animation" : "castle/creatures/battle/CGRIFF.def"
+		}
+	},
+	"core:royalGriffin" :
+	{
+		"graphics" :
+		{
+			"animation" : "castle/creatures/battle/Crgrif.def"
+		}
+	},
+	"core:monk" :
+	{
+		"aiValue" : 582
+	}
+}

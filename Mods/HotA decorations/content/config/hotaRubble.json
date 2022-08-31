@@ -1,0 +1,45 @@
+{
+	"hotaRubble" : {
+	"handler": "static",
+	"name" : "Rubble",
+	"types" : {
+		"hotaRubble" : {
+			"base" : { "allowedTerrains": [ "water" ]		
+			},
+			"templates" : {
+					"AVLpilr0" : { "animation" : "AVLpilr0",
+					"mask" : [ "VV", "VB" ]
+					},
+					
+					"AVLpilr1" : { "animation" : "AVLpilr1", 
+					"mask" : [ "VV", "VB" ]
+					},
+					
+					"AVLpilr2" : { "animation" : "AVLpilr2",
+					"mask" : [ "VV", "VV", "VB" ]
+					},
+					
+					"AVLpilr3" : { "animation" : "AVLpilr3",
+					"mask" : [ "VV", "VB" ]
+					},
+					
+					"AVLpilr4" : { "animation" : "AVLpilr4",
+					"mask" : [ "VVVV", "VVVV", "VBBB" ]
+					},
+					
+					"AVLpilr5" : { "animation" : "AVLpilr5", 
+					"mask" : [ "B" ]
+					},
+					
+					"AVLpilr6" : { "animation" : "AVLpilr6",
+					"mask" : [ "B" ]
+					},
+					
+					"AVLpilr7" : { "animation" : "AVLpilr7", 
+					"mask" : [ "VB" ]
+					}			
+				}
+			}			
+		}	
+	}
+}

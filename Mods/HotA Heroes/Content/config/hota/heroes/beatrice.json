@@ -1,0 +1,42 @@
+{
+	"beatrice" : {
+		"army" : [
+			{ "creature" : "pikeman", "max" : 20, "min" : 10 },
+			{ "creature" : "archer", "max" : 7, "min" : 4 },
+			{ "creature" : "griffin", "max" : 3, "min" : 2 }
+		],
+		"class" : "knight",
+		"female" : true,
+		"images" : {
+			"large" : "hota/heroes/beatrice/portraitlarge.png",
+			"small" : "hota/heroes/beatrice/portraitsmall.png",
+			"specialtyLarge" : "hota/heroes/beatrice/speclarge.png",
+			"specialtySmall" : "hota/heroes/beatrice/specsmall.png"
+		},
+		"skills" : [
+			{ "level" : "basic", "skill" : "leadership" },
+			{ "level" : "basic", "skill" : "scouting" }
+		],
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+                    "valueType" : "BASE_NUMBER",
+                    "type" : "SIGHT_RADIOUS",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		},
+		"texts" : {
+			"biography" : "Beatrice was a talented follower of Erathian scouts - not yielding much to famous elven pathfinders. Talents of the girl had been noticed by Catherine herself and thence former scout became a general. \r\nHowever, her skills are still with her, she is one of the best at her cause.",
+			"name" : "Beatrice",
+			"specialty" : {
+				"tooltip" : "Secondary Skill Bonus: Scouting",
+				"name" : "Scouting",
+				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill percentage (rounded up)."
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"core:seerHut" : {
+		"types" : {
+			"hotaSeerHuts" : {
+				"index" : 0,
+//				"rmg" : {
+//					"zoneLimit"	: 1,
+//					"value"		: 2500,
+//					"rarity"	: 50
+//				},
+				"templates" : {
+					"AVXseec0" : { "animation" : "AVXseec0", 
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],					
+//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ] 
+					},
+					"AVXseee0" : { "animation" : "AVXseee0", 
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],					
+//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ] 
+					},
+					"wt_seerh" : { "animation" : "wt_seerh", 
+						"mask" : [ "VVV","BBB", "ABV" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ] 
+					}		
+				}
+			}				
+		}
+	}	
+}

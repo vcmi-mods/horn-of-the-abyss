@@ -1,0 +1,14 @@
+{
+	"core:stronghold" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingUpLvl2": { "requires" : [ "dwellingLvl2" ]  },
+				"dwellingLvl6": { "cost": {"crystal": null } },
+				"dwellingUpLvl6": { "cost": {"crystal": 10 } }
+			}
+		}
+	}	
+}

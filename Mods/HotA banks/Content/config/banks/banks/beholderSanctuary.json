@@ -1,0 +1,108 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"beholderSanctuary" : 
+			{
+				"name" : "Beholder Sanctuary",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/SANCT_WT.def", 
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVV", "VBB", "VBA"],
+						"allowedTerrains":["water"] 							
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPBEHD.wav"]
+				},
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "beholder" },
+							{ "amount": 10, "type" : "beholder" },
+							{ "amount": 10, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "beholder" },
+							{ "amount": 10, "type" : "beholder" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 3000
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "beholder" },
+							{ "amount": 15, "type" : "beholder" },
+							{ "amount": 15, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 15, "type" : "beholder" },
+							{ "amount": 15, "type" : "beholder" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 4500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "beholder" },
+							{ "amount": 20, "type" : "beholder" },
+							{ "amount": 20, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "beholder" },
+							{ "amount": 20, "type" : "beholder" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 6000
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 30, "type" : "beholder" },
+							{ "amount": 30, "type" : "beholder" },
+							{ "amount": 30, "type" : "beholder", "upgradeChance": 50 },
+							{ "amount": 30, "type" : "beholder" },
+							{ "amount": 30, "type" : "beholder" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 9000
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

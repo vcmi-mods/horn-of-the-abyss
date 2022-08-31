@@ -1,0 +1,52 @@
+{
+	"hotaRuinedSubterreanGate" : {
+		"handler": "static",
+		"name" : "Ruined Subterranean Gate",
+		"types" : {
+			"hotaRuinedSubterreanGate" : {
+				"templates" : {
+					"avtcvrui" : { "animation" : "avtcvrui",
+					"mask" : ["VVVV","VBVV","VBBB"], 
+                    "allowedTerrains": [ "dirt "]
+					}
+				}
+			}
+		}
+	},	
+	
+	"hotaRuinedFountain" : {
+		"name" : "Ruined Fountain",
+		"handler" : "static",
+		"types" : {
+			"hotaRuinedFountain" : {
+				"templates" : {
+		
+					"TPDESTR2" : { "animation" : "TPDESTR2",
+					"mask" : ["VVV","VVV","VBB"], 
+                    "allowedTerrains": [ "dirt" ]
+					},
+					
+					"TPDESTR4" : { "animation" : "TPDESTR4",
+					"mask" : ["VV","VB"], 
+                    "allowedTerrains": [ "dirt" ]
+					}
+				}
+			}
+		}
+	},
+			
+	"hotaRuinedCamp" : {
+		"name" : "Ruined Camp",
+		"handler" : "static",
+		"types" : {
+			"hotaRuinedCamp" : {		
+				"templates" : {
+					"TPDESTR3" : { "animation" : "TPDESTR3",
+					"mask" : ["VVV","BBB"],
+                    "allowedTerrains": [ "dirt" ]
+					}
+				}
+			}
+		}
+	}
+}

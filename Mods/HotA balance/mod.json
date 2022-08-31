@@ -1,0 +1,45 @@
+{
+	"name" : "HotA balance mod",
+	"description" : "Graphic and balance improvements made by HotA Crew for Horn of The Abbys expansion.", 
+	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
+	"version" : "1.3.5",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"modType" : "Mechanics",
+	
+	"factions" :
+	[
+		"config/castle/town/structures.json",		
+		"config/rampart/town/structures.json",
+		"config/conflux/town/structures.json",
+		"config/conflux/town/buildings.json",
+		"config/conflux/town/faction.json",
+		"config/dungeon/town/structures.json",
+		"config/inferno/town/structures.json",
+		"config/inferno/town/buildings.json",
+		"config/necropolis/town/structures.json",
+		"config/necropolis/town/buildings.json",
+		"config/tower/town/structures.json",
+		"config/tower/town/buildings.json",
+		"config/fortress/town/structures.json",
+		"config/stronghold/town/structures.json",
+		"config/stronghold/town/buildings.json"
+	],
+	
+	"creatures" :
+	[
+		"config/castle/creatures/castleCreatures.json",
+		"config/rampart/creatures/rampartCreatures.json",
+		"config/inferno/creatures/infernoCreatures.json",
+		"config/dungeon/creatures/dungeonCreatures.json",
+		"config/necropolis/creatures/necropolisCreatures.json",
+		"config/stronghold/creatures/strongholdCreatures.json",
+		"config/fortress/creatures/fortressCreatures.json",
+		"config/conflux/creatures/confluxCreatures.json",
+		"config/neutralCreatures/creatures/neutralCreatures.json"
+	],
+	"artifacts" :
+	[
+	"config/artifacts/artifacts.json"
+	]
+	
+}

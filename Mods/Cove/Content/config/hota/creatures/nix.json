@@ -1,0 +1,34 @@
+{
+	"nix" : {
+		"abilities" : { "shield" : { "subtype" : 0, "type" : "GENERAL_DAMAGE_REDUCTION", "val" : 30 } },
+		"advMapAmount" : { "max" : 12, "min" : 5 },
+		"aiValue" : 1415,
+		"attack" : 13,
+		"cost" : { "gold" : 1000 },
+		"damage" : { "max" : 22, "min" : 18 },
+		"defense" : 16,
+		"faction" : "cove",
+		"fightValue" : 1415,
+		"graphics" : {
+			"animation" : "hota/battle/nix.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/nix.png",
+			"iconSmall" : "hota/iconsSmall/nix.png",
+			"map" : "hota/map/nix.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 2,
+		"hitPoints" : 80,
+		"level" : 6,
+		"name" : { "plural" : "Nix", "singular" : "Nix" },
+		"sound" : {
+			"attack" : "hota/nix/NIXXATTK.wav",
+			"defend" : "hota/nix/NIXXDFND.wav",
+			"killed" : "hota/nix/NIXXKILL.wav",
+			"move" : "hota/nix/NIXXMOVE.wav",
+			"wince" : "hota/nix/NIXXWNCE.wav"
+		},
+		"speed" : 6,
+		"upgrades" : [ "nixWarrior" ]
+	}
+}

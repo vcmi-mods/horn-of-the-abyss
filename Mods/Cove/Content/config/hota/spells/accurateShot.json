@@ -1,0 +1,66 @@
+{
+	"accurateShot" : 
+	{
+		"type": "ability",
+		"name": "Accurate Shot",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},	
+		"targetType": "NO_TARGET",
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"hit":["hota/spells/SP14"]
+		},
+		"flags" : {
+			"indifferent": true
+		},
+		"targetCondition" : {
+		},
+		"sounds": {
+			"cast": "hota/spells/PIRTABIL"
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+			"base":{
+				"range": "0",
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 0,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+					"destruction":{
+						"type":"core:damage",
+						"killByCount": true
+					}
+				},
+				"description": ""
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+			},
+			"advanced":
+			{	 
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

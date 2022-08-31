@@ -1,0 +1,39 @@
+{
+	"nymph" : {
+		"abilities" : {
+			"immuneToWater" : { "subtype" : 2, "type" : "WATER_IMMUNITY" },
+			"teleports" : { "subtype" : 1, "type" : "FLYING" }
+		},
+		"advMapAmount" : { "max" : 50, "min" : 20 },
+		"aiValue" : 57,
+		"attack" : 5,
+		"cost" : { "gold" : 35 },
+		"damage" : { "max" : 2, "min" : 1 },
+		"defense" : 2,
+		"faction" : "cove",
+		"fightValue" : 52,
+		"graphics" : {
+			"animation" : "hota/battle/nymph.def",
+			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"iconLarge" : "hota/iconsBig/nymph.png",
+			"iconSmall" : "hota/iconsSmall/nymph.png",
+			"map" : "hota/map/nymph.def",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 16,
+		"hitPoints" : 4,
+		"level" : 1,
+		"name" : { "plural" : "Nymphs", "singular" : "Nymph" },
+		"sound" : {
+			"attack" : "hota/nymph/NIMPATTK.wav",
+			"defend" : "hota/nymph/NIMPDFND.wav",
+			"killed" : "hota/nymph/NIMPKILL.wav",
+			"move" : "hota/nymph/NIMPMOVE.wav",
+			"startMoving": "hota/nymph/NIMPEXT1.wav",
+			"endMoving": "hota/nymph/NIMPEXT2.wav",
+			"wince" : "hota/nymph/NIMPWNCE.wav"
+		},
+		"speed" : 6,
+		"upgrades" : [ "oceanid" ]
+	}
+}

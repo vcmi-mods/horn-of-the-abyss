@@ -1,0 +1,51 @@
+{
+	"core:tower" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", ["fort"], ["dwellingLvl1"], ["dwellingLvl2"], ["dwellingLvl3" ] ], "cost" : { "gold": 2500 }},
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl5" ] },
+				"dwellingLvl7":   { "id" : 36, "requires" : [ "dwellingLvl6" ] },
+				
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild1" ]  },
+				"dwellingLvl3": 
+				{
+					"cost" : 
+							{ 
+								"gold":	1500 
+							},
+				},
+				"dwellingUpLvl3": 
+				{
+					"cost" : 
+							{ 
+								"gold":	1500 
+							},
+				},
+				"dwellingLvl4": 
+				{
+					"cost" : 
+							{ 
+								"gold":	2000 
+							},
+				},
+				"dwellingUpLvl6": 
+				{
+					"cost" : 
+							{ 
+								"gold":	2000 
+							},
+				},
+				"dwellingUpLvl7": 
+				{ 
+					"cost" : 
+							{ 
+								"gold":	20000 
+							}
+				}
+			}
+		}
+	}
+}

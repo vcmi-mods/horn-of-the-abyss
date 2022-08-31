@@ -1,0 +1,17 @@
+{
+	"core:lich" :
+	{
+		"abilities#override":
+		{
+			"deathCloud2" :
+			{
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "spell.hotaDeathCloud"
+			},
+			"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

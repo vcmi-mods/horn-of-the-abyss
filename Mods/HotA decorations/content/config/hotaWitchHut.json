@@ -1,0 +1,23 @@
+{
+	"core:witchHut"	: {
+		"types" : {
+			"hotaWitchHut" : {
+				"index" : 0,
+				"aiValue" : 1500,			
+				"rmg" : {
+					"zoneLimit"	: 3,
+					"mapLimit" : 32,
+					"value"		: 1500,
+					"rarity"	: 80
+				},
+				"templates" : {
+					"AVSwtcS0" : { "animation" : "AVSwtcS0", 
+					"mask" : [ "VVV","VVV","VAV" ], 
+					"visitableFrom" : [ "---", "+++", "+++" ],
+					"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}
