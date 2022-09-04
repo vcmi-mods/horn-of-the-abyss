@@ -210,6 +210,7 @@
 				"grail" : {
 					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
 					"id" : 26,
+					"bonuses" : [ { "type" : "NO_TERRAIN_PENALTY", "propagator" : "ALL_CREATURES", "limiters" : "CREATURE_FACTION" } ],
 					"mode" : "grail",
 					"name" : "Lodestar"
 				},
@@ -332,14 +333,14 @@
 				},
 				"special3" : {
 					"cost" : { "gold" : 600, "wood" : 3 },
-					"description" : "The Thief's Guild reveals additional information about the foes in the tavern.",
+					"description" : "**NOT WORKING YET\r\nThe Thief's Guild reveals additional information about the foes in the tavern.\r\nNOT WORKING YET***",
 					"id" : 22,
 					"name" : "Thieves' Guild",
 					"requires" : [ "tavern" ]
 				},
 				"special4" : {
 					"cost" : { "gold" : 7500, "ore" : 15, "wood" : 15 },
-					"description" : "The Grotto allows you to sacrifice creatures or artifacts in exchange for experience.",
+					"description" : "**NOT WORKING YET\r\nThe Grotto allows you to sacrifice creatures or artifacts in exchange for experience.\r\nNOT WORKING YET***",
 					"id" : 23,
 					"name" : "Grotto",
 					"requires" : [ "marketplace" ]

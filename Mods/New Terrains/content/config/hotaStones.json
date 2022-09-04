@@ -1,0 +1,99 @@
+{
+	"core:rock" : {
+		"types" : {
+			"hotaPuddle" : {
+				"name" : "Stone",
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+				"templates" : {
+				
+					"avlrhl00" : { "animation" : "avlrhl00", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlrhl01" : { "animation" : "avlrhl01", 
+					"mask" : [ "VV", "VB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlrhl02" : { "animation" : "avlrhl02", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlrhl03" : { "animation" : "avlrhl03", 
+					"mask" : [ "VV", "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlrhl04" : { "animation" : "avlrhl04", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlrhl05" : { "animation" : "avlrhl05", 
+					"mask" : [ "B" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlrhl06" : { "animation" : "avlrhl06", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlrhl07" : { "animation" : "avlrhl07", 
+					"mask" : [ "B" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlrhl08" : { "animation" : "avlrhl08", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					}					
+				}
+			},
+			"hotaW1Stones" : {
+				"name" : "Stone",
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+				"templates" : {
+				
+					"AVLrws01" : { "animation" : "AVLrws01", 
+					"mask" : [ "VVV", "VBB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLrws03" : { "animation" : "AVLrws03", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}
+				}
+			},
+			"hotaW2Stones" : {
+				"name" : "Rock",
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+				"templates" : {
+					
+					"AVLrws02" : { "animation" : "AVLrws02", 
+					"mask" : [ "VVV", "VBB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}			
+		}
+	}
+}
+	
+	
+	
+
+
+	

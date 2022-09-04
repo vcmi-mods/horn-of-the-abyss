@@ -6,6 +6,7 @@
 			{ "creature" : "nix", "max" : 1, "min" : 1 }
 		],
 		"class" : "captain",
+		"special" : true,
 		"images" : {
 			"large" : "hota/heroes/tark/portraitlarge.png",
 			"small" : "hota/heroes/tark/portraitsmall.png",

@@ -1,5 +1,5 @@
 {
-	"zilare" : {
+	"14zilare" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
@@ -19,9 +19,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"forgetfulness" : {
-					"addInfo" : 0,
+					"updater" : {
+						"parameters" : [ 8, 2 ],
+						"type" : "GROWS_WITH_LEVEL"
+					},
 					"subtype" : "spell.forgetfulness",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
+					"type" : "SPELL_DURATION"
 				}
 			}
 		},

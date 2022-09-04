@@ -1,0 +1,32 @@
+{
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "https://slack.vcmi.eu/",
+	"description" : "This option enables new terrains added by HotA Crew.",
+	"factions" : [ "config/confluxTerrain" ],
+	"objects" : [
+		"config/hotaHWLakes",
+		"config/hotaHWMountain",
+		"config/hotaHWaterfalls",
+		"config/hotaHFlowers",
+		"config/hotaPuddles",
+		"config/hotaSpruces",
+		"config/hotaStones",
+		"config/hotaCrater",
+		"config/hotaHole",
+		"config/hotaHWMines",
+		"config/churchyardHL",
+		"config/ruins",
+		"config/obeliskOrange",
+		"config/hotaHWShrub",
+		"config/hotaHWCactus",
+		"config/hotaWHBones",
+		"config/hotaWDeadVegetation",
+		"config/hotaWTrees",
+		"config/hotaHWsigns"
+	],
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Mechanical",
+	"name" : "New terrains",
+	"version" : "0.0.1"
+}

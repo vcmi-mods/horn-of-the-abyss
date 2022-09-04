@@ -1,0 +1,85 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"hotaHighlandMountains" : {
+				"name" : "Mountain",
+				"templates" : {
+					"AVLMHS00" : { "animation" : "AVLMHS00", 
+					"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 		
+                    "allowedTerrains": [ "highlands" ]
+					},						
+					
+					"AVLMHS01" : { "animation" : "AVLMHS01", 
+					"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"AVLMHS02" : { "animation" : "AVLMHS02", 
+					"mask" : [ "VVVVV","VBBBV","VBBVV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"AVLMHS03" : { "animation" : "AVLMHS03", 
+					"mask" : [ "VVVVV", "VBBBV","VVBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"AVLMHS04" : { "animation" : "AVLMHS04", 
+					"mask" : [ "VVVVV", "VVBBV","VBBVV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"AVLMHS05" : { "animation" : "AVLMHS05", 
+					"mask" : [ "VVVVV", "VBBVV","VVBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					}			
+				}
+			},
+			
+			"hotaWastelandMountains" : {
+				"name" : "Mountain",
+				"templates" : {
+					"AVLMtWL1" : { "animation" : "AVLMtWL1", 
+					"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 		
+                    "allowedTerrains": [ "wasteland" ]
+					},						
+					
+					"AVLMtWL2" : { "animation" : "AVLMtWL2", 
+					"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLMtWL3" : { "animation" : "AVLMtWL3", 
+					"mask" : [ "VVVV","VBBB","VVBB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLMtWL4" : { "animation" : "AVLMtWL4", 
+					"mask" : [ "VVVV", "VBBB","VBBV" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLMtWL5" : { "animation" : "AVLMtWL5", 
+					"mask" : [ "VVVV", "VBBV","VVBB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLMtWL6" : { "animation" : "AVLMtWL6", 
+					"mask" : [ "VVVV", "VVBB","VBBV" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLMtWL7" : { "animation" : "AVLMtWL7", 
+					"mask" : [ "VVVV", "VVVV","VBVB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

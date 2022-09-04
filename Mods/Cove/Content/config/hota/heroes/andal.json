@@ -1,5 +1,5 @@
 {
-	"andal" : {
+	"12andal" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "crewmate", "max" : 9, "min" : 6 },

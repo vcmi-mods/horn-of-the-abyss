@@ -1,0 +1,17 @@
+{
+	"core:riverDelta" : {
+		"types" : { 
+			"templates" : {
+				"object" : {
+					"allowedTerrains": [ "highlands", "dirt", "sand", "grass", "snow", "swamp", "rough", "subterra", "lava"]
+				}
+			}
+		}
+	}
+}
+	
+	
+	
+
+
+	

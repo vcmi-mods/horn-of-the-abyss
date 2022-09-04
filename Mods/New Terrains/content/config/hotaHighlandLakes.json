@@ -7,22 +7,22 @@
 			
 					"avlhll00" : { "animation" : "avlhll00",  
 					"mask" : [ "VBBBBBB", "BBBBBBB","VBBBBBV" ],
-                    "allowedTerrains": [ "grass", "swamp" ]
+                    "allowedTerrains": [ "highlands" ]
 					},						
 					
 					"avlhll01" : { "animation" : "avlhll01", 					 
 					"mask" : [ "BBBBB", "BBBBB", "BBBBV" ], 
-                    "allowedTerrains": [ "grass", "swamp" ]
+                    "allowedTerrains": [ "highlands" ]
 					},
 					
 					"avlhll02" : { "animation" : "avlhll02", 					 
 					"mask" : [ "VVVVV", "BBBBB", "BBBBB"], 
-                    "allowedTerrains": [ "grass", "swamp" ]
+                    "allowedTerrains": [ "highlands" ]
 					},
 					
 					"avlhll03" : { "animation" : "avlhll03", 
 					"mask" : [ "VVVV", "VBBB", "VVVV"], 
-                    "allowedTerrains": [ "grass", "swamp" ]
+                    "allowedTerrains": [ "highlands" ]
 					}		
 				}
 			}

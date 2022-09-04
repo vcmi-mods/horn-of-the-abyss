@@ -1,0 +1,34 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"hotaHighlandWaterfalls" : {
+				"name" : "Waterfall",
+				"rmg" : {
+					"zoneLimit" : 5
+				},
+				"base" : {
+					"allowedTerrains": ["highlands"]
+				},
+				"sounds": {
+					"ambient": ["LOOPWATR.wav"]
+				},			
+				"templates" : {					
+					"AVLwtf00" : { "animation" : "AVLwtf00",
+					"mask" : ["VVBVV", "VVBBV", "VBBBV", "VVVVV"],
+					"zIndex": 50
+					},
+					
+					"AVLwtf01" : { "animation" : "AVLwtf01",
+					"mask" : ["VVBVV", "VBBBV", "VBBBV", "VVVVV"],
+					"zIndex": 50
+					},
+					
+					"AVLwtf02" : { "animation" : "AVLwtf02", 
+					"mask" : ["VVBVV", "VBBBV", "VBBBV", "VVVVV"],
+					"zIndex": 50
+					}
+				}
+			}
+		}	
+	}
+}

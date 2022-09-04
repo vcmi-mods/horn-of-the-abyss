@@ -2,7 +2,7 @@
 	"core:monolithOneWayExit" : {	
 		"types" : {
 			"hotaMonoliths01Ex" : {
-				"index" : 8,
+				"index" : 1,
 				"templates" : {
 					"AVXmx1g0" : { "animation" : "AVXmx1g0", 
 					"mask" : [ "V", "A" ],  
@@ -12,7 +12,7 @@
 			},
 			
 			"hotaMonoliths02Ex" : {
-				"index" : 9,
+				"index" : 2,
 				"templates" : {
 					"AVXMX1T0" : { "animation" : "AVXMX1T0", 
 					"mask" : [ "V", "A" ],
@@ -22,7 +22,7 @@
 			},
 			
 			"hotaMonoliths03Ex" : { 
-				"index" : 10,
+				"index" : 3,
 				"templates" : {
 					"AVXMX1V0" : { "animation" : "AVXMX1V0", 
 					"mask" : [ "V", "A" ],
@@ -32,7 +32,7 @@
 			},
 			
 			"hotaMonoliths04Ex" : { 
-				"index" : 11,
+				"index" : 4,
 				"templates" : {	
 					"AVXmx1w0" : { "animation" : "AVXmx1w0", 
 					"mask" : [ "V", "A" ],

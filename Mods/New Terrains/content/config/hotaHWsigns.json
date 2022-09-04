@@ -1,0 +1,24 @@
+{
+	"core:sign" : {
+		"types" : {
+			"hotaHWsigns" : {	
+				"templates" : {			
+					"avxsnhl" : { "animation" : "avxsnhl", 
+                    "allowedTerrains": [ "highlands" ],				
+					"mask" : [ "A" ] 
+					},
+					
+					"avxsnwst" : { "animation" : "avxsnwst", 
+                    "allowedTerrains": [ "wasteland" ],				
+					"mask" : [ "A" ] 
+					}			
+				}
+			}
+		}	
+	}		
+}
+	
+	
+
+
+	

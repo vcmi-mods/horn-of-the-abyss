@@ -1,0 +1,196 @@
+{
+	"core:mine" : {
+		"types" : {
+			"hotaHWCrystalCavern" : { 
+				"aiValue" : 3500,
+				"index" : 4,
+				"rmg" : {
+					"value" : 3500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPCRYS"]
+				},
+				"battleground": "subterranean",
+				"templates": {
+					"AVMcrhl1" : { "animation" : "AVMcrhl1", //hota highlands
+					"mask" : ["VVVV","VVVV","VBAB"],
+					"visitableFrom" : [ "---", "-+-", "+++" ],					
+					"allowedTerrains" : ["highlands"] 
+					},
+					"AVMcrwl1" : { "animation" : "AVMcrwl1", //hota wasteland
+					"mask" : ["VVVV","VVVV","VBAB"],
+					"visitableFrom" : [ "---", "-+-", "+++" ],					
+					"allowedTerrains" : ["wasteland"] 
+					}
+				}
+			},
+			"hotaHWGoldMine" : {
+				"aiValue" : 7000,
+				"index" : 6,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 7000
+				},
+				"sounds" : {
+					"ambient" : ["LOOPMINE"]
+				},		
+				"templates": {
+
+					"AVMgohl1" : { "animation" : "AVMgohl1",  //hota highlands 
+					"mask" : ["VVVV","VVVV","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"] 
+					},
+					"AVMgoWL0" : { "animation" : "AVMgoWL0",  //hota wasteland
+					"mask" : ["VVVV","VVVV","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"] 
+					}
+				}
+			},
+	
+			"hotaHWSawmill" : { 
+				"index" : 0,
+				"aiValue" : 1500,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 1500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPLUMB"]
+				},
+				"templates" : {
+			
+					"AVMswhl1" : { "animation" : "AVMswhl1",  //hota highlands
+					"mask" : ["VVVVV", "VVVBB", "VBBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"] 
+					},
+					"AVMsawl0" : { "animation" : "AVMsawl0",  //hota wasteland but standard graphics
+					"mask" : ["VVVVV", "VVVBB", "VBBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"] 
+					},
+					"AVMsawr0" : { "animation" : "AVMsawr0",  //hota wasteland but standard graphics
+					"mask" : ["VVVVV", "VVVBB", "VBBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"] 
+					}
+				}	
+			},
+			
+			"hotaHWAbandoned" : {
+				"index" : 7,
+				"aiValue" : 3500,
+				"battleground": "subterranean",
+				"sounds" : {
+					"ambient" : ["LOOPCAVE"],
+					"visit" : ["MYSTERY"]
+				},
+				"templates" : {
+ 
+					"AVXamH1" : { "animation" : "AVXamH1", //hota highlands
+					"mask" : [ "VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"]
+					},
+					"AVXamWL" : { "animation" : "AVXamWL", //hota wasteland
+					"mask" : [ "VVVV","VVBV","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+
+			"hotaHWAlchemistLab" : { 
+				"index" : 1,
+				"aiValue" : 3500,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 3500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSTAR"]
+				},
+				"templates" : {
+			
+					"AVMalch0" : { "animation" : "AVMalch0",  //hota highlands but standard graphic
+					"mask" : ["VVV", "VVV", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands", "wasteland"] 
+					}
+				}	
+			},
+			
+			"hotaHWOrePit" : { 
+				"index" : 2,
+				"aiValue" : 1500,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 1500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSULF"]
+				},
+				"templates" : {
+			
+					"AVMORhl1" : { "animation" : "AVMORhl1",  //hota highlands
+					"mask" : ["BBB", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"] 
+					},
+					"AVMorwl1" : { "animation" : "AVMorwl1",  //hota wasteland
+					"mask" : ["BBB", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"] 
+					}
+				}	
+			},
+			
+			"hotaHWSulfurDune" : { 
+				"index" : 3,
+				"aiValue" : 3500,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 3500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSULF"]
+				},
+				"templates" : {
+			
+					"AVMsulf0" : { "animation" : "AVMsulf0",  //hota highlands but standard graphic
+					"mask" : ["VVV", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands", "wasteland"] 
+					}
+				}	
+			},
+			
+			"hotaHWGemPond" : { 
+				"index" : 5,
+				"aiValue" : 3500,
+				"battleground": "subterranean",
+				"rmg" : {
+					"value" : 3500
+				},
+				"sounds" : {
+					"ambient" : ["LOOPGEMP"]
+				},
+				"templates" : {
+			
+					"AVMgehl1" : { "animation" : "AVMgehl1",  //hota highlands
+					"mask" : ["BBB", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"] 
+					},
+					"AVMgewl1" : { "animation" : "AVMgewl1",  //hota highlands
+					"mask" : ["BBB", "BAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"] 
+					}
+				}	
+			}
+		}	
+	}
+}	

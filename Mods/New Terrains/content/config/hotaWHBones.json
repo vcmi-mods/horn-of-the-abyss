@@ -1,0 +1,65 @@
+{
+	"core:skull" :{
+		"types" : {
+			"hotaBones" : {
+				"name": "Bone",
+				"templates" : {
+					
+					"AVLbon00" : { "animation" : "AVLbon00", 
+					"mask" : [ "VB" ], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					
+					"AVLbon01" : { "animation" : "AVLbon01", 
+					"mask" : [ "BB" ], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					"AVLbon02" : { "animation" : "AVLbon02", 
+					"mask" : [ "BB" ], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					
+					"AVLbon03" : { "animation" : "AVLbon03", 
+					"mask" : [ "VVVVV", "VBBBV", "VVVVV"  ], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					}					
+				}
+			},
+			"hotaJaw" : {
+				"name": "Jaw",
+				"templates" : {
+					"jaws" : { "animation" : "jaws", 
+					"mask" : [ "BB" ], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					}					
+				}
+			},
+			
+			"hotaSkulls" : {
+				"name": "Skull",
+				"templates" : {
+					
+					"AVLskul0" : { "animation" : "AVLskul0",				 
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					
+					"AVLskul1" : { "animation" : "AVLskul1",
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					
+					"AVLskul2" : { "animation" : "AVLskul2",				 
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					},
+
+					"AVLwcsk0" : { "animation" : "AVLwcsk0",				 
+					"mask" : ["B"], 
+					"allowedTerrains": [ "sand", "wasteland" ]
+					}						
+				}
+			}				
+		}	
+	}
+}

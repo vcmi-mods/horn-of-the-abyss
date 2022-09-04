@@ -3,7 +3,8 @@
 		"types" : {
 			"hotaAbandonedMine" : {
 //			"mine" : {
-				"index" : 11,
+				"index" : 7,
+				"battleground": "subterranean",
 				"templates" : {
 					"avxamdn" : { "animation" : "avxamdn", //hota sand 
 					"mask" : [ "VVVV","VBBB","VBAB"], 

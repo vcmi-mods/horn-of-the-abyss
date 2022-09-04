@@ -8,13 +8,6 @@
 				"name" : "Churchyard",
 				"templates" :
 				{
-					"grass" :
-					{
-						"animation" : "banks/map/banks/avcmetrh.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VBAB"],							
-						"allowedTerrains":[ "grass" ] 
-					},
 					"normal" :
 					{
 						"animation" : "banks/map/banks/avcmetry.def",

@@ -1,0 +1,28 @@
+{
+	"core:hole" : {
+		"index" :124,
+		"types" : {
+			"hotaHole" : {
+				"index" :124,
+				"templates" : {
+				
+					"avlhlhl" : { "animation" : "avlhlhl", 
+					"mask" : [ "B" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+					
+					"avlhlws0" : { "animation" : "avlhlws0", 
+					"mask" : [ "B" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}				
+				}
+			}		
+		}
+	}
+}
+	
+	
+	
+
+
+	

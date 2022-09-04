@@ -1,5 +1,5 @@
 {
-	"jeremy" : {
+	"02jeremy" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "cannon", "max" : 1, "min" : 1 },

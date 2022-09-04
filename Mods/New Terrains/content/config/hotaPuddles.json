@@ -1,0 +1,87 @@
+{
+	"hotaPuddles" : {
+		"handler" : "static",
+		"name" : "Puddle",
+//highlands puddles
+		"types" : {
+			"hotaPuddle" : {
+				"sounds": {
+					"ambient": [""] // has any?
+				},
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+			"templates" : {
+				
+					"avlhml00" : { "animation" : "avlhml00", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml01" : { "animation" : "avlhml01", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml02" : { "animation" : "avlhml02", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml03" : { "animation" : "avlhml03", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml04" : { "animation" : "avlhml04", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml05" : { "animation" : "avlhml05", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlhml06" : { "animation" : "avlhml06", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlhml07" : { "animation" : "avlhml07", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					}					
+				}
+			}		
+		}
+	},
+	
+	"hotaLPuddles" : {
+		"handler" : "static",
+		"name" : "Limestone Puddles",
+//highlands puddles
+		"types" : {
+			"hotaLPuddle" : {
+//			"rmg":{					
+//					"zoneLimit"	:15,
+//					"value"		: 100,
+//					"rarity"	: 150},
+				"templates" : {
+				
+					"AVLwml00" : { "animation" : "AVLwml00", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+				}
+			}	
+		}
+	}					
+}
+	
+	
+	
+
+
+	

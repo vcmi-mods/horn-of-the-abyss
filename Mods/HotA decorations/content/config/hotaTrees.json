@@ -2,73 +2,8 @@
 	"core:trees" : {
 		"types" : {
 			"hotaTrees" : {
-				"templates" : {
+				"templates" : {	
 				
-					"AVLswt20" : { "animation" : "AVLswt20", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt21" : { "animation" : "AVLswt21", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt22" : { "animation" : "AVLswt22", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt23" : { "animation" : "AVLswt23", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt24" : { "animation" : "AVLswt24", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt25" : { "animation" : "AVLswt25",
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"AVLswt26" : { "animation" : "AVLswt26", 
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"avrdtr01" : { "animation" : "avrdtr01", 
-					"mask" : ["VVVV","VVBB","VBBB","VBBV"],  
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"avrdtr02" : { "animation" : "avrdtr02", 
-					"mask" : ["VVVV","VBBV","VBBB","VVBB"], 					
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},	
-					
-					"avrdtr03" : { "animation" : "avrdtr03", 
-					"mask" : ["VVVV","VBBB","VBBV"],  
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"avrdtr04" : { "animation" : "avrdtr04", 
-					"mask" : ["VVVV","VBBB","VBBV"],  
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"avrdtr05" : { "animation" : "avrdtr05", 
-					"mask" : ["VVVV","VBBV","VVBB"], 					
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
-					"avrdtr06" : { "animation" : "avrdtr06", 
-					"mask" : ["VVVV","VBBV","VVBB"], 
-                    "allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
-					},
-					
 					"avlspl01" : { "animation" : "avlspl01",  
 					"mask" : ["VV","VB"], 
 					"allowedTerrains": [ "sand" ]
@@ -167,16 +102,6 @@
 					"TPMTREE6" : { "animation" : "TPMTREE6", 
 					"mask" : ["VV","VV","VB"], 
 					"allowedTerrains": [ "swamp" ]					
-					},
-					
-					"AVLtRro8" : { "animation" : "AVLtRro8", 
-					"mask" : ["VVVV","VBBV","VBBB","VVBB"], 
-					"allowedTerrains": [ "rough" ]					
-					},
-					
-					"AVLtRro9" : { "animation" : "AVLtRro9", 
-					"mask" : ["VVVV","VVBB","VBBB","VBBV"], 
-					"allowedTerrains": [ "rough" ]					
 					},
 					
 					"avlmxf01" : { "animation" : "avlmxf01", 

@@ -9,10 +9,10 @@
 	
 		"objects" :
 	[
-		"config/hotaAbandonedMine.json", //
+		"config/hotaAbandonedMine.json",
 		"config/hotaCorpse.json",
 		"config/hotaFountainOfYouth.json",
-//		"config/hotaMines.json", //
+		"config/hotaMines.json",
 		"config/hotaSchoolOfMagic.json",
 		"config/hotaSeerHut.json",
 		"config/hotaSubgates.json", 
@@ -23,6 +23,7 @@
 		"config/hotaRedwoodObservatory.json",
 		"config/hotaFlowers.json",
 		"config/hotaTrees",
+		"config/hotaRedTrees",
 		"config/hotaDeadVegetation",
 		"config/hotaDenOfThieves",
 		"config/hotaLearningStone",
@@ -39,7 +40,6 @@
 		"config/hotaShrineOfMagicThought",
 		"config/hotaReef",
 		"config/hotaRock",
-		"config/hotaBones",
 		"config/hotaBarchanDunes",
 		"config/hotaMushroom",  
 		"config/hotaIceBlock",
@@ -50,20 +50,17 @@
 		"config/hotaMound",
 		"config/hotaShrub",
 		"config/hotaDirtHills",
-		"config/hotaYuccaTrees", //są tylko 3 z 6?
+		"config/hotaYuccaTrees", //only 3 of 6?
 		"config/hotaLog",
-		"config/hotaDeadVegetation",
 		"config/hotaPalms",
 		"config/hotaFence",
 		"config/hotaCarnivorousPlant",
 		"config/hotaAnimals",
 		"config/hotaRuinedObjects",
-		"config/hotaHighlandLakes",
-		"config/hotaHighlandMountain",
 		"config/hotaRubble",
 		"config/hotaWaterfalls",
 //		"config/hotaWarehouses" //
-//		"config/hotaMonolithTwoWay", //
+		"config/hotaMonolithTwoWay",
 		"config/hotaMonolithOneWayEntrance",
 		"config/hotaMonolithOneWayExit"
 	] 
