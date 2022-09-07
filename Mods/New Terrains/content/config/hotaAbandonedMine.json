@@ -1,0 +1,28 @@
+{
+	"core:abandonedMine": {
+
+		"types": {
+			"hotaHWAbandoned": {
+				"name":"Abandoned Mine",
+				"aiValue" : 3500,
+				"battleground": "subterranean",
+				"sounds" : {
+					"ambient" : ["LOOPCAVE"],
+					"visit" : ["MYSTERY"]
+				},
+				"templates": {
+					"AVXamH1" : { "animation" : "AVXamH1", //hota highlands
+					"mask" : [ "VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["highlands"]
+
+					},
+					"AVXamWL" : { "animation" : "AVXamWL", //hota wasteland
+					"mask" : [ "VVVV","VVBV","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
+					"allowedTerrains" : ["wasteland"]
+					}
+				}
+			}
+		}
+	}

@@ -22,11 +22,12 @@
 		"config/hotaWHBones",
 		"config/hotaWDeadVegetation",
 		"config/hotaWTrees",
-		"config/hotaHWsigns"
+		"config/hotaHWsigns",
+		"config/hotaAbandonedMine"
 	],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Mechanical",
 	"name" : "New terrains",
-	"version" : "0.0.1"
+	"version" : "0.0.2"
 }

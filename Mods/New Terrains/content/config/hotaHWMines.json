@@ -1,16 +1,7 @@
 {
 	"core:mine" : {
 		"types" : {
-			"hotaHWCrystalCavern" : { 
-				"aiValue" : 3500,
-				"index" : 4,
-				"rmg" : {
-					"value" : 3500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPCRYS"]
-				},
-				"battleground": "subterranean",
+			"crystalCavern" : { 
 				"templates": {
 					"AVMcrhl1" : { "animation" : "AVMcrhl1", //hota highlands
 					"mask" : ["VVVV","VVVV","VBAB"],
@@ -24,16 +15,7 @@
 					}
 				}
 			},
-			"hotaHWGoldMine" : {
-				"aiValue" : 7000,
-				"index" : 6,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 7000
-				},
-				"sounds" : {
-					"ambient" : ["LOOPMINE"]
-				},		
+			"goldMine" : {
 				"templates": {
 
 					"AVMgohl1" : { "animation" : "AVMgohl1",  //hota highlands 
@@ -49,16 +31,7 @@
 				}
 			},
 	
-			"hotaHWSawmill" : { 
-				"index" : 0,
-				"aiValue" : 1500,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 1500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPLUMB"]
-				},
+			"sawmill" : { 
 				"templates" : {
 			
 					"AVMswhl1" : { "animation" : "AVMswhl1",  //hota highlands
@@ -78,40 +51,8 @@
 					}
 				}	
 			},
-			
-			"hotaHWAbandoned" : {
-				"index" : 7,
-				"aiValue" : 3500,
-				"battleground": "subterranean",
-				"sounds" : {
-					"ambient" : ["LOOPCAVE"],
-					"visit" : ["MYSTERY"]
-				},
-				"templates" : {
- 
-					"AVXamH1" : { "animation" : "AVXamH1", //hota highlands
-					"mask" : [ "VVVV","VBBB","VBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains" : ["highlands"]
-					},
-					"AVXamWL" : { "animation" : "AVXamWL", //hota wasteland
-					"mask" : [ "VVVV","VVBV","VBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains" : ["wasteland"]
-					}
-				}
-			},
 
-			"hotaHWAlchemistLab" : { 
-				"index" : 1,
-				"aiValue" : 3500,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 3500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPSTAR"]
-				},
+			"alchemistLab" : { 
 				"templates" : {
 			
 					"AVMalch0" : { "animation" : "AVMalch0",  //hota highlands but standard graphic
@@ -122,16 +63,7 @@
 				}	
 			},
 			
-			"hotaHWOrePit" : { 
-				"index" : 2,
-				"aiValue" : 1500,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 1500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPSULF"]
-				},
+			"orePit" : { 
 				"templates" : {
 			
 					"AVMORhl1" : { "animation" : "AVMORhl1",  //hota highlands
@@ -147,16 +79,7 @@
 				}	
 			},
 			
-			"hotaHWSulfurDune" : { 
-				"index" : 3,
-				"aiValue" : 3500,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 3500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPSULF"]
-				},
+			"sulfurDune" : { 
 				"templates" : {
 			
 					"AVMsulf0" : { "animation" : "AVMsulf0",  //hota highlands but standard graphic
@@ -167,16 +90,7 @@
 				}	
 			},
 			
-			"hotaHWGemPond" : { 
-				"index" : 5,
-				"aiValue" : 3500,
-				"battleground": "subterranean",
-				"rmg" : {
-					"value" : 3500
-				},
-				"sounds" : {
-					"ambient" : ["LOOPGEMP"]
-				},
+			"gemPond" : { 
 				"templates" : {
 			
 					"AVMgehl1" : { "animation" : "AVMgehl1",  //hota highlands
