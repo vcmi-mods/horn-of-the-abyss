@@ -4,11 +4,6 @@
 			"hotaPrisons" : {
 				"aiValue" : 5000,
 				"index" : 0,
-				"rmg" : {
-					"mapLimit"	: 144,
-					"value"		: 2500,
-					"rarity"	: 30
-				},
 				"templates" : {	
 					"avwtprsn" : { "animation" : "avwtprsn", 
 						"mask" : [ "VVVV","VVBV","VBAB" ], 
