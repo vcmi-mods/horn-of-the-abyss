@@ -2,11 +2,6 @@
 	"core:prison"	: {
 		"types" : {
 			"prisonHot" : {
-			    "rmg" : {
-//                        "zoneLimit"	: 10,
-                       "value"		: 2500,
-                       "rarity"	: 30
-                },
 				"templates" : {	
 					"AVXprsn1" : { "animation" : "AVXprsn1", 
 					"mask" : [ "VVV","VAV" ],
@@ -18,11 +13,6 @@
 			"waterprison" : {
                 "aiValue" : 5000,
                 "index" : 1,
-                    "rmg" : {
-//                        "zoneLimit"	: 10,
-                        "value"		: 2500,
-                        "rarity"	: 30
-                    },
                     "templates" : {	
                         "avwtprsn" : { "animation" : "avwtprsn", 
                             "mask" : [ "VVVV","VVBV","VBAB" ], 
