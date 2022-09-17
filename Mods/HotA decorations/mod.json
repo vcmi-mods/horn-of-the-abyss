@@ -2,7 +2,7 @@
 	"name" : "Hota new objects",
 	"description" : "New objects that have the same properties as the old ones.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.5.0",
+	"version" : "1.4.3",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
