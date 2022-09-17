@@ -1,25 +1,23 @@
 {
-	"core:corpse" :{	
-		"types" : {	
+	"core:corpse" :{
+		"types" : {
 			"hotaCorpse" : {
-//				"rmg" : {
-//					"value"		: 500,
-//					"rarity"	: 100
-//				},
 				"templates" : {
-					"AVXskds1" : { "animation" : "corpse/AVXskds1", 
-					"mask" : [ "BA"], 
-					"visitableFrom" : [ "+++", "-++", "+++" ],
-					"allowedTerrains": [ "sand" ]
+					"AVXskds1" : {
+						"animation" : "corpse/AVXskds1",
+						"mask" : [ "BA"],
+						"visitableFrom" : [ "+++", "-++", "+++" ],
+						"allowedTerrains": [ "sand" ]
 					},
 					
-					"AVXskds2" : { "animation" : "corpse/AVXskds2",
-					"visitableFrom" : [ "+++", "+++", "+++" ],					
-					"mask" : [ "VA" ], 
-					"allowedTerrains": [ "sand" ]
-					}					
+					"AVXskds2" : {
+						"animation" : "corpse/AVXskds2",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "VA" ],
+						"allowedTerrains": [ "sand" ]
+					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }
