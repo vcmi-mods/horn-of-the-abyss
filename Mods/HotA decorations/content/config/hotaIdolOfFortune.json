@@ -1,8 +1,7 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"hotaIdolofFortune" : {
-				"index" : 0,
+			"idolofFortune" : {
 				"rmg" : {
 					"zoneLimit"	: 1,
 					"value"		: 100,

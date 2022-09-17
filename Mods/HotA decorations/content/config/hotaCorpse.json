@@ -1,8 +1,7 @@
 {
 	"core:corpse" :{	
 		"types" : {	
-			"hotaCorpse" : {
-				"index" : 0,
+			"corpse" : {
 				"rmg" : {
 					"value"		: 500,
 					"rarity"	: 100

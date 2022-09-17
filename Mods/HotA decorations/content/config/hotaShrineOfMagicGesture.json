@@ -1,8 +1,7 @@
 {
 	"core:shrineOfMagicLevel2"	: {
 		"types" : {
-			"hotaShrineOfMagicLevel2" : {
-				"index" : 0,
+			"shrineOfMagicLevel2" : {
 				"aiValue" : 2000,
 				"rmg" : {
 					"value"		: 2000,

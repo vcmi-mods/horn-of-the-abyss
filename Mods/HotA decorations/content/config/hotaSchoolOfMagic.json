@@ -1,8 +1,7 @@
 {
 	"core:schoolOfMagic" : {
 		"types" : {
-			"hotaSchoolOfMagic" : {
-				"index" : 0,
+			"schoolOfMagic" : {
 				"aiValue" : 1000,
 				"rmg" : {
 					"value"		: 1000,

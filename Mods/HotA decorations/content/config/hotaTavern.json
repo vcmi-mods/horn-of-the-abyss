@@ -1,8 +1,7 @@
 {
 	"core:tavern" :{
 		"types" : {
-			"hotaTavern" : {
-				"index" : 0,
+			"tavern" : {
 				"aiValue" : 100,
 				"rmg" : {
 					"zoneLimit"	: 1,

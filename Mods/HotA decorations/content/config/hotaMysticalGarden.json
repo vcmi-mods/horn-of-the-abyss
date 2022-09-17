@@ -1,8 +1,7 @@
 {
 	"core:mysticalGarden" : {
 		"types" : {
-			"hotaMysticalGarden" : {
-				"index" : 0,
+			"mysticalGarden" : {
 				"aiValue" : 500,
 				"rmg" : {
 					"value"		: 500,

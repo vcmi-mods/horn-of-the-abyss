@@ -1,8 +1,7 @@
 {
 	"core:hillFort"		: {
 		"types" : {
-			"hotaHillFort" : {
-				"index" : 0,
+			"hillFort" : {
 				"rmg" : {
 					"zoneLimit"	: 1,
 					"value"		: 7000,

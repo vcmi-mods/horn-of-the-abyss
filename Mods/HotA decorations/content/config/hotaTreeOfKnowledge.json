@@ -1,8 +1,7 @@
 {
 	"core:treeOfKnowledge"	: {
 		"types" : {
-			"hotaTreeOfKnowledge" : {
-				"index" : 0,
+			"treeOfKnowledge" : {
 				"aiValue" : 2500,
 				"rmg" : {
 					"mapLimit"	: 32,

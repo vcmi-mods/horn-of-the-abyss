@@ -1,8 +1,7 @@
 {
 	"core:wagon" : {
 		"types" : {
-			"hotaWagon" : {
-//				"index" : 0,
+			"wagon" : {
 				"aiValue" : 500,				
 				"rmg" : {
 					"value"		: 500,

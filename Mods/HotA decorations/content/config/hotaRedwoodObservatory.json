@@ -1,8 +1,7 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"hotaRedwoodObservatory" : {
-			"index" : 0,
+			"redwoodObservatory" : {
 			"aiValue" : 750,
 				"rmg" : {
 					"zoneLimit"	: 1,

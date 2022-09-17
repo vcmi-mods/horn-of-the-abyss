@@ -1,8 +1,7 @@
 {
 	"core:fountainOfYouth"	: {
 		"types" : {
-			"hotaFountainOfYouth" : {
-				"index" : 0,
+			"fountainOfYouth" : {
 				"rmg" : {
 					"zoneLimit"	: 1,
 					"value"		: 100,

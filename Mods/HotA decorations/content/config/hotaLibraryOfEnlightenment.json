@@ -1,8 +1,7 @@
 {
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"hotaLibraryOfEnlightenment" : {
-				"index" : 0,
+			"libraryOfEnlightenment" : {
 				"aiValue" : 12000,
 				"rmg" : {
 					"value"		: 12000,
