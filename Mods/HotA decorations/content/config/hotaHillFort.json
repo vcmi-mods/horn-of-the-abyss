@@ -2,15 +2,14 @@
 	"core:hillFort"		: {
 		"types" : {
 			"hotaHillFort" : {
-				"index" : 0,
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 7000,
-					"rarity"	: 20
-				},
+//				"rmg" : {
+//					"zoneLimit"	: 1,
+//					"value"		: 7000,
+//					"rarity"	: 20
+//				},
 				"aiValue" : 7000,
 				"templates" : {
-					"AVXhilS0" : { "animation" : "AVXhilS0",
+					"AVXhilS0" : { "animation" : "hillFort/AVXhilS0",
 					"mask" : [ "VVV", "VVV", "VBA" ], 
 					"visitableFrom" : [ "---", "-++", "+++" ],
 					"allowedTerrains":[ "snow" ] 

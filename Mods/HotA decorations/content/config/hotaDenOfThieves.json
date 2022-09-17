@@ -2,17 +2,16 @@
 	"core:denOfThieves"	: {
 		"types" : {
 			"hotaDenOfThieves" : {
-			"index" : 0,
-				"rmg" : {
-				"zoneLimit": 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+//				"rmg" : {
+//				"zoneLimit": 1,
+//					"value"		: 100,
+//					"rarity"	: 100
+//				},
 				"templates" : {
-					"avxdens0" : { "animation" : "avxdens0",
+					"avxdens0" : { "animation" : "denOfThieves/avxdens0",
 					"mask" : [ "VV", "VV", "BA" ], 
 					"allowedTerrains": [ "snow" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]					
+					"visitableFrom" : [ "---", "-++", "+++" ]					
 					}						
 				}
 			}				

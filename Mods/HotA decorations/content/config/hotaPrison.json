@@ -4,21 +4,15 @@
 			"hotaPrisons" : {
 				"aiValue" : 5000,
 				"index" : 0,
-				"rmg" : {
-					"mapLimit"	: 144,
-					"value"		: 2500,
-					"rarity"	: 30
-				},
 				"templates" : {	
-					"avwtprsn" : { "animation" : "avwtprsn", 
+					"avwtprsn" : { "animation" : "prison/avwtprsn", 
 						"mask" : [ "VVVV","VVBV","VBAB" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": [ "water" ]
 					},
-					"AVXprsn1" : { "animation" : "AVXprsn1", 
+					"AVXprsn1" : { "animation" : "prison/AVXprsn1", 
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ]
 					}
 				}
 			}
