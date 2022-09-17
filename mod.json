@@ -6,9 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.4.0",
+	"version" : "1.4.3",
 	"changelog" :
     {
+    	"1.4.3"   : [ "Added warehouses", "Added ancient lamp", "Added magic colosseum", "Added sea barrel", "Update obstacles config to be compatible with 1.1.0" ],
     	"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
     	"1.4.1"   : [ "Fixes for mine types" ],
         "1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
@@ -18,6 +19,6 @@
     },
     "compatibility" :
     {
-    	"min" : "1.0.0"
+    	"min" : "1.1.0"
     }
 }

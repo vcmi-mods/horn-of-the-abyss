@@ -2,7 +2,11 @@
 	"name" : "Hota new objects",
 	"description" : "New objects that have the same properties as the old ones.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.4.0",
+	"version" : "1.5.0",
+	"compatibility" :
+	{
+		"min" : "1.1.0"
+	},
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Graphic",
 	"keepDisabled" : true,
@@ -61,11 +65,11 @@
 		"config/hotaWaterfalls",
 		"config/hotaMonolithTwoWay",
 		"config/hotaMonolithOneWayEntrance",
-		"config/hotaMonolithOneWayExit"
-//		"config/hotaWarehouses",
-//		"config/hotaAncientLamp",
-//		"config/hotaColosseum"
-//		"config/hotaSeaBarrel"
+		"config/hotaMonolithOneWayExit",
+		"config/hotaWarehouses",
+		"config/hotaAncientLamp",
+		"config/hotaColosseum",
+		"config/hotaSeaBarrel"
 	] 
 	
 }
