@@ -1,0 +1,101 @@
+{
+	"derrick" :{	
+		"name": "Derrick",
+		"handler": "configurable",
+		"types" : {
+			"gazebo" : 
+			{
+				"name": "Derrick (+500 gold on Monday, 1000 gold rest days)",
+				"rmg" : {
+					"value"		: 500, //750
+					"rarity"	: 70, //30
+				},
+				"sounds" : {
+					"visit" : ["GENIE"],
+					"ambient" : ["LOOPDRRK"]
+				},
+				"rewards" :
+				[
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 1,
+							"numOfGrants": 1		
+						},
+						"resources": {"gold" : 500},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 2,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 3,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 4,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 5,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 6,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					},
+					{
+						"limiter":
+						{
+							"dayOfWeek" : 7,
+							"numOfGrants": 1							
+						},
+						"resources": {"gold" : 1000},
+						"message": "{Derrick}"
+					}
+				],
+				"onSelectMessage" : "{Derrick}",
+				"onVisitedMessage": "{Derrick}\r\n\r\nThe drilling foreman is very busy. You are able to decipher his muttering as a claim that he has nothing to show yet. You've got to drop by again next week.",
+				"resetDuration" : 7,
+				"visitMode" : "hero",
+//				"selectMode" : "selectFirst",
+				"templates" : 
+				{
+					"avmoilpm" : 
+					{
+						"animation" : "derrick/avmoilpm", 
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"], 
+//						"allowedTerrains": ["wasteland"]
+					}					
+				}
+			}
+		}	
+	}
+}

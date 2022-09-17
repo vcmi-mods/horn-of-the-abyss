@@ -1,0 +1,44 @@
+{
+	"colosseumOfTheMagi" :{	
+		"name": "Colosseum Of The Magi",
+		"handler": "configurable",
+		"types" : {
+			"gazebo" : 
+			{
+				"name": "Colosseum Of The Magi (+2 spellpower or knowledge once per hero)",
+				"rmg" : {
+					"value"		: 3000,
+					"rarity"	: 50,
+					"mapLimit" : 32
+				},
+				"sounds" : {
+					"visit" : ["GAZEBO"],
+					"ambient" : ["IVORTWLO"]
+				},
+				"rewards" :
+				[
+					{
+						"primary": {"spellpower" : 2}
+					},
+					{
+						"primary": {"knowledge" : 2}
+					}
+				],
+				"onSelectMessage" : "{Derrick}",
+				"onVisitedMessage": "{Colosseum Of The Magi}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : 
+				{
+					"avsmgarn." : 
+					{
+						"animation" : "colosseumOftheMagi/avsmgarn", 
+						"visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : ["VVVV", "VBBB", "VBAB"]
+					}					
+				}
+			}
+		}	
+	}
+}

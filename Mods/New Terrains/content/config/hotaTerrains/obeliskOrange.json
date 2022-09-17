@@ -2,16 +2,14 @@
 	"core:obelisk" : {
 		"types" : {
 			"obeliskOrange" : { 
-//				"index" : 8,
 				"aiValue" : 350,
 				"rmg" : {
-//					"mapLimit"	: 10,
 					"value"		: 3500,
 					"rarity"	: 200
 				},
 				"templates" : { 
 					"AvXOblOr" : { 
-						"animation" : "AvXOblOr", 
+						"animation" : "obelisk/AvXOblOr", 
 						"visitableFrom" : [ "---", "+-+", "+++" ], 
 						"mask" : [ "VV", "VA" ], 
 						"allowedTerrains": [ "highlands" ] 
