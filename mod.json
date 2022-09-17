@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.4.0",
+	"version" : "1.4.2",
 	"changelog" :
 	{
 		"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
