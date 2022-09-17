@@ -1,0 +1,20 @@
+{
+	"name" : "Hota campaign Heroes",
+	"description" : "Unlock Bidley and Tark on random mapa",
+	"author" : "avatar",
+	"version" : "1.0",
+	"contact" : "",
+	"modType" : "Heroes",
+	"changelog" :
+    {
+		"1.0"   : [ "Initial release" ]
+    }, 
+	"depends" :
+	[
+		"hota.cove"
+	],
+	"heroes" :
+	[
+		"config/hotaCampaignHeroes.json"		
+	]	
+}

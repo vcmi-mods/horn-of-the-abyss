@@ -1,0 +1,58 @@
+{
+	"ancientLamp" :{	
+		"name": "Ancient Lamp",
+		"handler": "configurable",
+		"types" : {
+			"ancient Lamp" : 
+			{
+				"name": "Ancient Lamp",
+				"rmg" : {
+					"value"		: 500, //5000 in HotA
+					"rarity"	: 70, //200 in HotA
+//					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"visit" : ["LAMPVIST"]
+				},
+				"rewards" :
+				[
+					{ //reward 1
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 2400}
+						},
+						"message": "Recruit Master Genies",
+						"creatures": [ {"type": "masterGenie", "amount": 4} ],
+						"resources": {"gold" : -2400},
+//						"removeObject" : true,
+						"selectChance": 50
+					},
+					{ //reward 2
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 4200}
+						},
+						"message": "Recruit Master Genies",
+						"creatures": [ {"type": "masterGenie", "amount": 7} ],
+						"resources": {"gold" : -4200},
+//						"removeObject" : true,
+						"selectChance": 50
+					},
+				],
+				"onEmptyMessage": "It's nothing to seek there",
+				"canRefuse": true,
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avtglam" : 
+					{
+						"animation" : "ancientLamp/avtglam", 
+						"visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : ["VAV"], 
+						//"allowedTerrains": ["sand, "snow"]
+					}					
+				}
+			}
+		}	
+	}
+}
