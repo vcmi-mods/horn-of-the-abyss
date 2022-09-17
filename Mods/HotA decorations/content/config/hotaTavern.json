@@ -3,23 +3,20 @@
 		"types" : {
 			"hotaTavern" : {
 				"aiValue" : 100,
-//				"rmg" : {
-//					"zoneLimit"	: 1,
-//					"value"		: 100,
-//					"rarity"	: 20
-//				},
 				"templates" : {
-					"wt_tvrn01" : { "animation" : "tavern/wt_tvrn01", 
+					"wt_tvrn01" : {
+						"animation" : "tavern/wt_tvrn01",
 						"mask" : [ "VVVV","VBBV","VBBB","VBAB" ], 
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": [ "water" ]			 
+						"allowedTerrains": [ "water" ]
 					},
 					
-					"AVXtvrS0" : { "animation" : "tavern/AVXtvrS0", 
+					"AVXtvrS0" : {
+						"animation" : "tavern/AVXtvrS0",
 						"mask" : [ "VVV","VVV","VVV","VAB" ], 
 						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains": [ "snow"	]			 
-					}					
+						"allowedTerrains": [ "snow"	]
+					}
 				}
 			}
 		}	

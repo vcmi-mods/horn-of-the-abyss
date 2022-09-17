@@ -1,7 +1,7 @@
 {
 	"warehouses" :{	
 		"name": "Warehouses",
-		"handler": "configurable", //THE KEY PROPERTY: means that object has constomizable rewards
+		"handler": "configurable",
 		"types" : {
 			"crystalWarehouse" : 
 			{
@@ -17,49 +17,18 @@
 				},
 				"rewards" :
 				[
-					{ //reward 1
-						//"appearChance": 
-						//{
-						//	"dice": 1, dice id, will be value 1-100
-						//	"min" : 20, dice should be between those values
-						//	"max" : 100
-						//},
-						"limiter": //condition to get reward
+					{
+						"limiter":
 						{
-							"numOfGrants": 1 //how many times can be visited (by player/hero/etc)
-							//"dayOfWeek" - on which day reward should be granted
-							//"minLevel" - min hero level
-							//"resources" - taking resources?
-							//"primary": {"attack" : 10, "defence" : 5, "spellpower", "knowledge" } - minimal primary skills
-							//"secondary": - I don't know how to use it
-							//"artifacts": ["art1"] - artifacts required
-							//"creatures": [ ] - array of creatures, don't know how to use
+							"numOfGrants": 1
 						},
 						"resources": {"crystal" : 6},
 						"message": "{Warehouse of Crystal}"
-						//"gainedExp" : 1000,
-						//"gainedLevels" : 1,
-						//"manaPoints": -10,
-						//"manaPercentage": 50,
-						//"movePoints": 200,
-						//"movePercentage": 50,
-						//"primary": {"attack" : 1},
-						//"secondary":
-						//"artifacts":
-						//"spells":,
-						//"creatures":
-						//"selectChance": 80 - is a chance to select this reward
 					}
-					//{ reward2...
-					//}
 				],
 				"onEmptyMessage": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
-				//"onSelectMessage"
-				//"onVisitedMessage"
-				//"canRefuse": true/false - if player can refuse from reward
 				"resetDuration" : 7,
-				"visitMode" : "unlimited", //"once", "hero", "player", "bonus"
-				//"selectMods" : selectFirst", "selectPlayer", "selectRandom"
+				"visitMode" : "unlimited",
 				"templates" : 
 				{
 					"avwrhscr" : 
@@ -67,7 +36,7 @@
 						"animation" : "warehouses/avwrhscr", 
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"gemsWarehouse" : 
@@ -103,7 +72,7 @@
 						"animation" : "warehouses/avwrhsgm",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"sulfurWarehouse" : 
@@ -139,7 +108,7 @@
 						"animation" : "warehouses/avwrhssf",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"mercuryWarehouse" : 
@@ -175,7 +144,7 @@
 						"animation" : "warehouses/avwrhsmc",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"woodWarehouse" : 
@@ -211,7 +180,7 @@
 						"animation" : "warehouses/avwrhswd",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"oreWarehouse" : 
@@ -247,7 +216,7 @@
 						"animation" : "warehouses/avwrhsor",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			},
 			"goldWarehouse" : 
@@ -283,7 +252,7 @@
 						"animation" : "warehouses/avwrhsgl",
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV","VVV","VBA"]
-					}					
+					}
 				}
 			}
 		}	

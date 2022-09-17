@@ -2,17 +2,12 @@
 	"core:fountainOfYouth"	: {
 		"types" : {
 			"hotaFountainOfYouth" : {
-//				"rmg" : {
-//					"zoneLimit"	: 1,
-//					"value"		: 100,
-//					"rarity"	: 50
-//				},
 				"templates" : {
-				
-					"watermag" : { "animation" : "fountainOfYouth/watermag",
-					"mask" : [ "VBV","VAV","VVV" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
-                    "allowedTerrains": [ "water" ]
+					"watermag" : {
+						"animation" : "fountainOfYouth/watermag",
+						"mask" : [ "VBV","VAV","VVV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
 					}
 				}
 			}

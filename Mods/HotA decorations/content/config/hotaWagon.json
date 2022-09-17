@@ -2,19 +2,15 @@
 	"core:wagon" : {
 		"types" : {
 			"hotaWagon" : {
-				"aiValue" : 500,				
-//				"rmg" : {
-//					"value"		: 500,
-//					"rarity"	: 50,
-//					"mapLimit"	: 32
-//				},
+				"aiValue" : 500,
 				"templates" : {
-					"HATel" : { "animation" : "wagon/HATel", 
-					"mask" : [ "VV", "BA" ],
-					"visitableFrom" : [ "---", "-++", "+++" ]
-					}	
+					"HATel" : {
+						"animation" : "wagon/HATel",
+						"mask" : [ "VV", "BA" ],
+						"visitableFrom" : [ "---", "-++", "+++" ]
+					}
 				}
 			}
 		}
-	}		
+	}
 }
