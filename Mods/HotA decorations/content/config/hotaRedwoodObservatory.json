@@ -1,7 +1,7 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"hotaRedwoodObservatory" : {
+			"redwoodObservatory" : {
 			"aiValue" : 750,
 				"templates" : {
 					"avwtobtw" : {

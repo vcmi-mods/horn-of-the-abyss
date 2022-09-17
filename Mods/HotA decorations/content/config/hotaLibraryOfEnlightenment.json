@@ -1,7 +1,7 @@
 {
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"hotaLibraryOfEnlightenment" : {
+			"libraryOfEnlightenment" : {
 				"aiValue" : 12000,
 				"templates" : {
 					"AVSlibS0" : {

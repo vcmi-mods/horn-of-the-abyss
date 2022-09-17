@@ -1,7 +1,7 @@
 {
 	"core:tavern" :{
 		"types" : {
-			"hotaTavern" : {
+			"tavern" : {
 				"aiValue" : 100,
 				"templates" : {
 					"wt_tvrn01" : {
