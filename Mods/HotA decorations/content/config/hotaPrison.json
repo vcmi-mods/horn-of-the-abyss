@@ -1,9 +1,7 @@
 {
 	"core:prison"	: {
 		"types" : {
-			"hotaPrisons" : {
-				"aiValue" : 5000,
-				"index" : 0,
+			"prison" : {
 				"templates" : {	
 					"avwtprsn" : { "animation" : "prison/avwtprsn", 
 						"mask" : [ "VVVV","VVBV","VBAB" ], 
