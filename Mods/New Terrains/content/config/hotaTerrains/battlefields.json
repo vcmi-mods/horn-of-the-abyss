@@ -1,0 +1,4 @@
+{
+	"highlands_flowers": { "graphics" : "battlefields/CMBKHL.BMP" },
+	"wasteland_rocks": { "graphics" : "battlefields/CmBkWstp.BMP" }
+}

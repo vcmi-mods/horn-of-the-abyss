@@ -3,12 +3,12 @@
 		"types" : {
 			"hotaHWsigns" : {	
 				"templates" : {			
-					"avxsnhl" : { "animation" : "avxsnhl", 
+					"avxsnhl" : { "animation" : "sign/avxsnhl", 
                     "allowedTerrains": [ "highlands" ],				
 					"mask" : [ "A" ] 
 					},
 					
-					"avxsnwst" : { "animation" : "avxsnwst", 
+					"avxsnwst" : { "animation" : "sign/avxsnwst", 
                     "allowedTerrains": [ "wasteland" ],				
 					"mask" : [ "A" ] 
 					}			

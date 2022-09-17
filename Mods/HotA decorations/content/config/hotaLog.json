@@ -4,7 +4,7 @@
 			"hotaLog" : {
 				"templates" : {
 
-					"AVLlogdrt1" : { "animation" : "AVLlogdrt1", 
+					"AVLlogdrt1" : { "animation" : "log/AVLlogdrt1", 
 					"mask" : [ "VB" ], 
 					"allowedTerrains": [ "dirt","grass","rough" ] 
 					}						

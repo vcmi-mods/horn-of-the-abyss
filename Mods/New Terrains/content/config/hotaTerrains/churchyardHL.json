@@ -10,7 +10,7 @@
 				{
 					"highlands" :
 					{
-						"animation" : "avcmetrh.def",
+						"animation" : "banks/avcmetrh.def",
 						"visitableFrom" : [ "---", "-+-", "+++" ], 
 						"mask" : [ "VVVV", "VVVV", "VBAB"],							
 						"allowedTerrains":[ "highlands" ] 

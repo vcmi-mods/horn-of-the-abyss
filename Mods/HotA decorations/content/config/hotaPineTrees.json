@@ -3,12 +3,12 @@
 		"types" : {
 			"hotaPineTrees" : {
 			"templates" : {			
-					"avlpntr8" : { "animation" : "avlpntr8",  
+					"avlpntr8" : { "animation" : "trees/avlpntr8",  
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "grass", "dirt" ]
 					},
 					
-					"avlpntr9" : { "animation" : "avlpntr9", 
+					"avlpntr9" : { "animation" : "trees/avlpntr9", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "grass", "dirt" ]
 					}

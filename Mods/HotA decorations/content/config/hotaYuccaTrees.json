@@ -1,20 +1,20 @@
 {
-	"core:treesDUPLICATE" :{
+	"core:trees" :{
 		"types" : {
 			"hotaYuccaTrees" : {
 				"name" : "Yucca Trees",
 				"templates" : {
-					"avlyuc40" : { "animation" : "avlyuc40", 
+					"avlyuc40" : { "animation" : "trees/avlyuc40", 
 					"mask" : [ "B" ], 
 					"allowedTerrains": [ "sand" ]
 					},
 					
-					"avlyuc50" : { "animation" : "avlyuc50", 
+					"avlyuc50" : { "animation" : "trees/avlyuc50", 
 					"mask" : [ "B" ], 
 					"allowedTerrains": [ "snad" ]
 					},
 					
-					"avlyuc60" : { "animation" : "avlyuc60", 
+					"avlyuc60" : { "animation" : "trees/avlyuc60", 
 					"mask" : [ "VB" ], 
 					"allowedTerrains": [ "sand" ]
 					}					

@@ -2,7 +2,6 @@
 	"core:shrineOfMagicLevel2"	: {
 		"types" : {
 			"hotaShrineOfMagicLevel2" : {
-				"index" : 0,
 				"aiValue" : 2000,
 				"rmg" : {
 					"value"		: 2000,
@@ -10,7 +9,7 @@
 					"mapLimit"	: 32
 				},
 				"templates" : {
-					"AVXl2sh0w" : { "animation" : "AVXl2sh0w",  
+					"AVXl2sh0w" : { "animation" : "shrines/AVXl2sh0w",  
 					"mask" : [ "VB","VA" ], 
 					"visitableFrom" : [ "---", "+++", "+++" ],
                     "allowedTerrains": [ "water" ]

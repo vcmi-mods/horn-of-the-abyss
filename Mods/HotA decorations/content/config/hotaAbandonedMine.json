@@ -2,17 +2,18 @@
 	"core:abandonedMine" : {
 		"types" : {
 			"hotaAbandonedMine" : {
-//			"mine" : {
 				"index" : 7,
 				"battleground": "subterranean",
 				"templates" : {
-					"avxamdn" : { "animation" : "avxamdn", //hota sand 
+					"avxamdn" : { "animation" : "mines/avxamdn", //hota sand 
 					"mask" : [ "VVVV","VBBB","VBAB"], 
+					"visitableFrom" : [ "---", "-+-", "+++" ],
 					"allowedTerrains": ["sand"]
 					},
 					
-					"mntswpab" : { "animation" : "mntswpab", //hota swamp
+					"mntswpab" : { "animation" : "mines/mntswpab", //hota swamp
 					"mask" : [ "VVVV","VBBB","VBAB"],
+					"visitableFrom" : [ "---", "-+-", "+++" ],
                     "allowedTerrains": ["swamp"]
 					}					
 				}

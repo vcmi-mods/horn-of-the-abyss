@@ -2,33 +2,29 @@
 	"core:flowers" : {
 		"types" : {
 			"hotaFlowers" : {
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
-			"templates" : {
+				"templates" : {
 				
-					"swvflw01" : { "animation" : "swvflw01", 
+					"swvflw01" : { "animation" : "flowers/swvflw01", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "swamp" ]
 					},
 					
-					"swvflw02" : { "animation" : "swvflw02", 
+					"swvflw02" : { "animation" : "flowers/swvflw02", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "swamp" ]
 					},
 					
-					"swvflw03" : { "animation" : "swvflw03", 
+					"swvflw03" : { "animation" : "flowers/swvflw03", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "swamp" ]
 					},
 					
-					"swvflw04" : { "animation" : "swvflw04",  
+					"swvflw04" : { "animation" : "flowers/swvflw04",  
 					"mask" : [ "BB" ], 
                     "allowedTerrains": [ "swamp" ]
 					},
 					
-					"swvflw05" : { "animation" : "swvflw05", 
+					"swvflw05" : { "animation" : "flowers/swvflw05", 
 					"mask" : [ "VVVV" ,"VBBB" ], 
                     "allowedTerrains": [ "swamp" ]
 					}					

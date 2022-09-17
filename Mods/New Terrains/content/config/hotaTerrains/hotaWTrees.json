@@ -4,26 +4,26 @@
 			"hotaWTrees" : {
 				"templates" : {
 					
-					"AVLtRro0" : { "animation" : "AVLtRro0", 
+					"AVLtRro0" : { "animation" : "trees/AVLtRro0",
 					"mask" : ["VVVV","VBBV","VVBB"], 
 					"allowedTerrains": [ "rough", "wasteland" ]					
 					},
 					
-					"AVLtRro1" : { "animation" : "AVLtRro1", 
+					"AVLtRro1" : { "animation" : "trees/AVLtRro1",
 					"mask" : ["VVVV","VVBB","VBBV"], 
 					"allowedTerrains": [ "rough", "wasteland" ]					
 					},
-					"AVLtRro4" : { "animation" : "AVLtRro4", 
+					"AVLtRro4" : { "animation" : "trees/AVLtRro4", 
 					"mask" : ["VVVV","VBBV","VVBB"], 
 					"allowedTerrains": [ "rough", "wasteland" ]					
 					},
 
-					"AVLtRro8" : { "animation" : "AVLtRro8", 
+					"AVLtRro8" : { "animation" : "trees/AVLtRro8", 
 					"mask" : ["VVVV","VBBV","VBBB","VVBB"], 
 					"allowedTerrains": [ "rough", "wasteland" ]					
 					},
 					
-					"AVLtRro9" : { "animation" : "AVLtRro9", 
+					"AVLtRro9" : { "animation" : "trees/AVLtRro9", 
 					"mask" : ["VVVV","VVBB","VBBB","VBBV"], 
 					"allowedTerrains": [ "rough", "wasteland" ]					
 					},

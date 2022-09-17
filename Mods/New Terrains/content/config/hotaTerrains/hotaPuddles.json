@@ -6,50 +6,46 @@
 		"types" : {
 			"hotaPuddle" : {
 				"sounds": {
-					"ambient": [""] // has any?
+
 				},
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
 			"templates" : {
 				
-					"avlhml00" : { "animation" : "avlhml00", 
+					"avlhml00" : { "animation" : "puddles/avlhml00", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlhml01" : { "animation" : "avlhml01", 
+					"avlhml01" : { "animation" : "puddles/avlhml01", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlhml02" : { "animation" : "avlhml02", 
+					"avlhml02" : { "animation" : "puddles/avlhml02", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlhml03" : { "animation" : "avlhml03", 
+					"avlhml03" : { "animation" : "puddles/avlhml03", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlhml04" : { "animation" : "avlhml04", 
+					"avlhml04" : { "animation" : "puddles/avlhml04", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlhml05" : { "animation" : "avlhml05", 
+					"avlhml05" : { "animation" : "puddles/avlhml05", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlhml06" : { "animation" : "avlhml06", 
+					"avlhml06" : { "animation" : "puddles/avlhml06", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlhml07" : { "animation" : "avlhml07", 
+					"avlhml07" : { "animation" : "puddles/avlhml07", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					}					
@@ -64,16 +60,12 @@
 //highlands puddles
 		"types" : {
 			"hotaLPuddle" : {
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
 				"templates" : {
 				
-					"AVLwml00" : { "animation" : "AVLwml00", 
+					"AVLwml00" : { "animation" : "puddles/AVLwml00", 
 					"mask" : [ "V" ], 
                     "allowedTerrains": [ "wasteland" ]
-					},
+					}
 				}
 			}	
 		}

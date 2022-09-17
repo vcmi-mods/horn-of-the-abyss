@@ -3,7 +3,7 @@
 		"types" : {
 			"hotaVolcano" : {
 				"templates" : {
-					"AVLvol60" : { "animation" : "AVLvol60", 
+					"AVLvol60" : { "animation" : "volcano/AVLvol60", 
 					"mask" : [ "VVVV","VBBB","VBBB" ], 
                     "allowedTerrains": [ "lava" ]
 					}		
