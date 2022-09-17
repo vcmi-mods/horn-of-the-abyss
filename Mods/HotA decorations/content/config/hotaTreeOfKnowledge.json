@@ -1,7 +1,7 @@
 {
 	"core:treeOfKnowledge"	: {
 		"types" : {
-			"hotaTreeOfKnowledge" : {
+			"treeOfKnowledge" : {
 				"aiValue" : 2500,
 				"templates" : {
 					"AVXtrkS0" : { "animation" : "treeOfKnowledge/AVXtrkS0", 

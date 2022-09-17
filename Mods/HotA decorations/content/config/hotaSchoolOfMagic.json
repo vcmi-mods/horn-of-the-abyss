@@ -1,7 +1,7 @@
 {
 	"core:schoolOfMagic" : {
 		"types" : {
-			"hotaSchoolOfMagic" : {
+			"schoolOfMagic" : {
 				"aiValue" : 1000,
 				"templates" : {
 					"AVSSCHM1" : {

@@ -1,7 +1,7 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"hotaIdolofFortune" : {
+			"idolofFortune" : {
 				"templates" : {
 					"AVSidlS0" : {
 						"animation" : "idolOfFortune/AVSidlS0",

@@ -1,7 +1,7 @@
 {
 	"core:learningStone"	: {
 		"types" : {
-			"hotaLearningStone" : {
+			"learningStone" : {
 				"templates" : {
 					"AVSgzbS0" : {
 						"animation" : "learningStone/AVSgzbS0",

@@ -1,7 +1,7 @@
 {
-	"core:corpse" :{
-		"types" : {
-			"hotaCorpse" : {
+	"core:corpse" :{	
+		"types" : {	
+			"corpse" : {
 				"templates" : {
 					"AVXskds1" : {
 						"animation" : "corpse/AVXskds1",
