@@ -35,5 +35,9 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Mechanical",
 	"name" : "New terrains",
-	"version" : "1.0"
+	"version" : "1.0",
+	"compatibility" :
+	{
+		"min" : "1.0.0"
+	}
 }
