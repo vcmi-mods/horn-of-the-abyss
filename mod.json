@@ -8,17 +8,17 @@
 	"name" : "Horn of the Abyss",
 	"version" : "1.4.3",
 	"changelog" :
-    {
-    	"1.4.3"   : [ "Added warehouses", "Added ancient lamp", "Added magic colosseum", "Added sea barrel", "Update obstacles config to be compatible with 1.1.0" ],
-    	"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
-    	"1.4.1"   : [ "Fixes for mine types" ],
-        "1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
-        "1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
+	{
+		"1.4.3"   : [ "Added warehouses", "Added ancient lamp", "Added magic colosseum", "Added sea barrel", "Update obstacles config to be compatible with 1.1.0" ],
+		"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
+		"1.4.1"   : [ "Fixes for mine types" ],
+		"1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
+		"1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
 		"1.3.22"   : [ "New hero specialty format" ],
 		"1.3.21"   : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
-    },
-    "compatibility" :
-    {
-    	"min" : "1.1.0"
-    }
+	},
+	"compatibility" :
+	{
+		"min" : "1.1.0"
+	}
 }
