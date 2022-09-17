@@ -7,8 +7,8 @@
 	"grass_hills": { "graphics" : "CMBKGRMT.BMP" },
 	"grass_pines": { "graphics" : "CMBKGRTR.BMP" },
 	"lava":  { "graphics" :"CMBKLAVA.BMP" },
-	"highlands_flowers": { "graphics" : "CMBKHL.BMP" },
-	"wasteland_rocks": { "graphics" : "CmBkWstp.BMP" },
+	"highlands_flowers": { "graphics" : "battlefields/CMBKHL.BMP" },
+	"wasteland_rocks": { "graphics" : "battlefields/CmBkWstp.BMP" },
 	"magic_plains": {
 		"graphics": "CMBKMAG.BMP",
 		"isSpecial" : true,

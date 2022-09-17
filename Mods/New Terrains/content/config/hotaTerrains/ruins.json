@@ -10,7 +10,7 @@
 				{
 					"base" :
 					{
-						"animation" : "avxruins.def", 
+						"animation" : "ruins/avxruins.def", 
 						"visitableFrom" : [ "---", "-+-", "+++" ], 
 						"mask" : [ "VVVV", "VVBV", "VBAB"],
 						"allowedTerrains":["highlands"] 							

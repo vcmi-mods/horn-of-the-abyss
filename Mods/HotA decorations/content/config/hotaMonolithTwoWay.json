@@ -5,7 +5,7 @@
 				"name" : "Black Two Way Monolith",
 				"index" : 1,
 				"templates" : {
-					"AVXmn2b0" : { "animation" : "AVXmn2b0", 
+					"AVXmn2b0" : { "animation" : "monoliths/AVXmn2b0", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -16,7 +16,7 @@
 				"name" : "Blue Two Way Monolith",
 				"index" : 2,
 				"templates" : {
-					"AVXmn2bl" : { "animation" : "AVXmn2bl",
+					"AVXmn2bl" : { "animation" : "monoliths/AVXmn2bl",
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}			
@@ -27,7 +27,7 @@
 				"name" : "Pink Two Way Monolith",
 				"index" : 3,
 				"templates" : {
-					"AVXMN2Pink0" : { "animation" : "AVXMN2Pink0",  
+					"AVXMN2Pink0" : { "animation" : "monoliths/AVXMN2Pink0",  
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -38,7 +38,7 @@
 				"name" : "Red Two Way Monolith",
 				"index" : 4,
 				"templates" : {
-					"AVXmn2rd" : { "animation" : "AVXmn2rd", 
+					"AVXmn2rd" : { "animation" : "monoliths/AVXmn2rd", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					}
@@ -49,7 +49,7 @@
 				"name" : "Turquoise Two Way Monolith",
 				"index" : 5,
 				"templates" : {
-					"AVXMN2T0" : { "animation" : "AVXMN2T0", 
+					"AVXMN2T0" : { "animation" : "monoliths/AVXMN2T0", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -60,7 +60,7 @@
 				"name" : "Yellow Two Way Monolith",
 				"index" : 6,
 				"templates" : {
-					"AVXMN2Y0" : { "animation" : "AVXMN2Y0", 
+					"AVXMN2Y0" : { "animation" : "monoliths/AVXMN2Y0", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -71,9 +71,9 @@
 				"name" : "Blue Two Way Portal",
 				"index" : 7,
 				"templates" : {
-					"AVXmn20b" : { "animation" : "AVXmn20b", 
+					"AVXmn20b" : { "animation" : "monoliths/AVXmn20b", 
 					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ]
+					"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},	
@@ -82,9 +82,9 @@
 				"name" : "Chartreuse Two Way Portal",
 				"index" : 8,
 				"templates" : {					
-					"AVXmn9b0" : { "animation" : "AVXmn9b0", 
+					"AVXmn9b0" : { "animation" : "monoliths/AVXmn9b0", 
 					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ]
+					"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},
@@ -93,9 +93,9 @@
 				"name" : "Turquoise Two Way Portal",
 				"index" : 5,
 				"templates" : {
-					"AVXmn10b" : { "animation" : "AVXmn10b", 
+					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
 					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ]
+					"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
@@ -104,9 +104,9 @@
 				"name" : "Violet Two Way Portal",
 				"index" : 6,
 				"templates" : {
-					"AVXmn10b" : { "animation" : "AVXmn10b", 
+					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
 					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ]
+					"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
@@ -115,7 +115,7 @@
 				"name" : "Orange Two Way Portal",			
 				"index" : 7,
 				"templates" : {
-					"AVXmn12b" : { "animation" : "AVXmn12b", 
+					"AVXmn12b" : { "animation" : "monoliths/AVXmn12b", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -125,9 +125,9 @@
 			"hotaMonoliths12" : { 
 				"index" : 8,
 				"templates" : {
-					"AVXmn19p" : { "animation" : "AVXmn19p", 
+					"AVXmn19p" : { "animation" : "monoliths/AVXmn19p", 
 					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ]
+					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
@@ -135,7 +135,7 @@
 			"hotaMonoliths13" : { 
 				"index" : 1,
 				"templates" : {
-					"AVXptw_0" : { "animation" : "AVXptw_0", 
+					"AVXptw_0" : { "animation" : "monoliths/AVXptw_0", 
 					"mask" : [ "VVV", "VVV", "BAB" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
@@ -146,7 +146,7 @@
 			"hotaMonoliths14" : { 
 				"index" : 2,
 				"templates" : {
-					"AVXptw_1" : { "animation" : "AVXptw_1", 
+					"AVXptw_1" : { "animation" : "monoliths/AVXptw_1", 
 					"mask" : [ "VVV", "VVV", "BAB" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
@@ -157,7 +157,7 @@
 			"hotaMonoliths15" : { 
 				"index" : 3,
 				"templates" : {
-					"AVXptw_2" : { "animation" : "AVXptw_2", 
+					"AVXptw_2" : { "animation" : "monoliths/AVXptw_2", 
 					"mask" : [ "VVV", "VVV", "BAB" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
@@ -168,7 +168,7 @@
 			"hotaMonoliths16" : { 
 				"index" : 4,
 				"templates" : {
-					"AVXptw_3" : { "animation" : "AVXptw_3", 
+					"AVXptw_3" : { "animation" : "monoliths/AVXptw_3", 
 					"mask" : [ "VVV", "VVV", "BAB" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
@@ -180,7 +180,7 @@
 				"name" : "Water Two Way Portal",
 				"index" : 5,
 				"templates" : {	
-					"AVXMN9BW" : { "animation" : "AVXMN9BW", 
+					"AVXMN9BW" : { "animation" : "monoliths/AVXMN9BW", 
 					"mask" : [ "VVV", "BAB" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
                      "allowedTerrains": [ "water" ]					

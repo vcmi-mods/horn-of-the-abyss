@@ -4,43 +4,43 @@
 			"hotaWDeadVegetation" : {
 				"templates" : {
 
-					"AVLDEAD0" : { "animation" : "AVLDEAD0",
+					"AVLDEAD0" : { "animation" : "deadVegetation/AVLDEAD0",
 					"mask" : ["VV","VB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},			
-					"AVLDEAD1" : { "animation" : "AVLDEAD1",
+					"AVLDEAD1" : { "animation" : "deadVegetation/AVLDEAD1",
 					"mask" : ["VV","VB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},
-					"AVLDEAD2" : { "animation" : "AVLDEAD2",
+					"AVLDEAD2" : { "animation" : "deadVegetation/AVLDEAD2",
 					"mask" : ["VVVV","VBBV", "VVBB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},				
-					"AVLDEAD3" : { "animation" : "AVLDEAD3",
+					"AVLDEAD3" : { "animation" : "deadVegetation/AVLDEAD3",
 					"mask" : ["VVVV","VVBB", "VBBV"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},
-					"AVLDEAD4" : { "animation" : "AVLDEAD4",
+					"AVLDEAD4" : { "animation" : "deadVegetation/AVLDEAD4",
 					"mask" : ["VVVV","VBBV", "VVBB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},				
-					"AVLDEAD5" : { "animation" : "AVLDEAD5",
+					"AVLDEAD5" : { "animation" : "deadVegetation/AVLDEAD5",
 					"mask" : ["VVVV","VVBB", "VBBV"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},
-					"AVLDEAD6" : { "animation" : "AVLDEAD6",
+					"AVLDEAD6" : { "animation" : "deadVegetation/AVLDEAD6",
 					"mask" : ["VVVV","VBBV", "VBBB", "VVBB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},				
-					"AVLDEAD7" : { "animation" : "AVLDEAD7",
+					"AVLDEAD7" : { "animation" : "deadVegetation/AVLDEAD7",
 					"mask" : ["VVVV","VVBB", "VBBB", "VBBV"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},
-					"AVLDEAD8" : { "animation" : "AVLDEAD8",
+					"AVLDEAD8" : { "animation" : "deadVegetation/AVLDEAD8",
 					"mask" : ["VV","VB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					},				
-					"AVLDEAD9" : { "animation" : "AVLDEAD9",
+					"AVLDEAD9" : { "animation" : "deadVegetation/AVLDEAD9",
 					"mask" : ["VV","VB"], 
                     "allowedTerrains": ["lava","subterra","swamp", "wasteland"]
 					}			

@@ -11,13 +11,13 @@
 					"visit" : ["MYSTERY"]
 				},
 				"templates": {
-					"AVXamH1" : { "animation" : "AVXamH1", //hota highlands
+					"AVXamH1" : { "animation" : "mines/AVXamH1", //hota highlands
 					"mask" : [ "VVVV","VBBB","VBAB"], 
 					"visitableFrom" : [ "---", "-+-", "+++" ],
 					"allowedTerrains" : ["highlands"]
 
 					},
-					"AVXamWL" : { "animation" : "AVXamWL", //hota wasteland
+					"AVXamWL" : { "animation" : "mines/AVXamWL", //hota wasteland
 					"mask" : [ "VVVV","VVBV","VBAB"], 
 					"visitableFrom" : [ "---", "-+-", "+++" ],
 					"allowedTerrains" : ["wasteland"]
@@ -26,3 +26,4 @@
 			}
 		}
 	}
+}

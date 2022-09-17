@@ -2,29 +2,24 @@
 	"core:cactus" : {
 		"types" : {
 			"hotaCactus" : {
-
-//					"rmg":{
-//					"zoneLimit":	10,
-//					"value"		: 100,
-//					"rarity"	: 100},
-			"templates" : {
+				"templates" : {
 				
-					"AVcact01" : { "animation" : "AVcact01", 
+					"AVcact01" : { "animation" : "cactus/AVcact01", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "sand" ]
 					},
 					
-					"AVcact02" : { "animation" : "AVcact02",  
+					"AVcact02" : { "animation" : "cactus/AVcact02",  
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "sand" ]
 					},
 					
-					"AVcact03" : { "animation" : "AVcact03", 
+					"AVcact03" : { "animation" : "cactus/AVcact03", 
 					"mask" : [ "VB","VB" ], 
                     "allowedTerrains": [ "sand" ]
 					},
 					
-					"AVcact04" : { "animation" : "AVcact04", 
+					"AVcact04" : { "animation" : "cactus/AVcact04", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "sand" ]
 					}

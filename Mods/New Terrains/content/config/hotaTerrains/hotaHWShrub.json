@@ -4,61 +4,61 @@
 			"hotaHWShrub" : {
 				"templates" : {	
 
-					"AVlshl00" : { "animation" : "AVlshl00", 
+					"AVlshl00" : { "animation" : "shrub/AVlshl00", 
 					"mask" : [ "VB" ], 
 					"allowedTerrains": [ "highlands" ]
 					},
 
-					"AVlshl01" : { "animation" : "AVlshl01", 
+					"AVlshl01" : { "animation" : "shrub/AVlshl01", 
 					"mask" : [ "VB" ], 
 					"allowedTerrains": [ "highlands" ]
 					},						
 				
-					"AVLwsb01" : { "animation" : "AVLwsb01", 
+					"AVLwsb01" : { "animation" : "shrub/AVLwsb01", 
 					"mask" : [ "V" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwsb02" : { "animation" : "AVLwsb02", 
+					"AVLwsb02" : { "animation" : "shrub/AVLwsb02", 
 					"mask" : [ "V" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
-					"AVLwsb03" : { "animation" : "AVLwsb03", 
+					"AVLwsb03" : { "animation" : "shrub/AVLwsb03", 
 					"mask" : [ "V" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwsb04" : { "animation" : "AVLwsb04", 
+					"AVLwsb04" : { "animation" : "shrub/AVLwsb04", 
 					"mask" : [ "V" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 
-					"AVLwsh01" : { "animation" : "AVLwsh01", 
+					"AVLwsh01" : { "animation" : "shrub/AVLwsh01", 
 					"mask" : [ "VV", "VB" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwsh02" : { "animation" : "AVLwsh02", 
+					"AVLwsh02" : { "animation" : "shrub/AVLwsh02", 
 					"mask" : [ "VV", "VB" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 
-					"AVLsh1rw" : { "animation" : "AVLsh1rw", 
+					"AVLsh1rw" : { "animation" : "shrub/AVLsh1rw", 
 					"mask" : [ "B" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLsh6rw" : { "animation" : "AVLsh6rw", 
+					"AVLsh6rw" : { "animation" : "shrub/AVLsh6rw", 
 					"mask" : [ "BB" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLsh9rw" : { "animation" : "AVLsh9rw", 
+					"AVLsh9rw" : { "animation" : "shrub/AVLsh9rw", 
 					"mask" : [ "BB" ], 
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLsh9xw" : { "animation" : "AVLsh9xw", 
+					"AVLsh9xw" : { "animation" : "shrub/AVLsh9xw", 
 					"mask" : [ "VBB" ], 
 					"allowedTerrains": [ "wasteland" ]
 					}					

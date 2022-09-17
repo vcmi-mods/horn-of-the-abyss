@@ -10,7 +10,7 @@
 				"rarity"	: 150
 				},
 				"templates" : {
-					"avswplnt" : { "animation" : "avswplnt",
+					"avswplnt" : { "animation" : "carnivorousPlant/avswplnt",
 					"mask" : ["VBB","VBB"], 
                     "allowedTerrains": ["swamp"]
 					}

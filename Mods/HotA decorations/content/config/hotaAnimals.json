@@ -9,7 +9,7 @@
 					"ambient": ["PIGSND.wav"]
 				},			
 				"templates" : {
-					"pig" : { "animation" : "pig",
+					"pig" : { "animation" : "animals/pig",
 						"mask" : ["VB"], 
 						"allowedTerrains": [ "grass", "dirt", "rough" ]
 					}
@@ -26,7 +26,7 @@
 					"ambient": ["CHICK.wav"]
 				},
 				"templates" : {			
-					"rooster_01" : { "animation" : "rooster_01",					
+					"rooster_01" : { "animation" : "animals/rooster_01",					
 					"mask" : ["VB"], 
 					"allowedTerrains": [ "grass", "dirt", "rough" ]
 					}
@@ -43,7 +43,7 @@
 					"ambient": ["COCK.wav"]
 				},
 				"templates" : {	
-					"rooster_02" : { "animation" : "rooster_02", 
+					"rooster_02" : { "animation" : "animals/rooster_02", 
 					"mask" : ["VB"], 
 					"allowedTerrains": [ "grass", "dirt", "rough" ]
 					}					
@@ -60,7 +60,7 @@
 					"ambient": ["FROGS01.wav"]
 				},
 				"templates" : {	
-					"frog_01" : { "animation" : "frog_01", 
+					"frog_01" : { "animation" : "animals/frog_01", 
 					"mask" : ["BB"], 
 					"allowedTerrains": [ "swamp" ]
 					}
@@ -77,11 +77,11 @@
 					"ambient": ["FROGS02.wav"]
 				},
 				"templates" : {
-					"frog_02" : { "animation" : "frog_02", 
+					"frog_02" : { "animation" : "animals/frog_02", 
 					"mask" : ["VB"], 
 					"allowedTerrains": [ "swamp" ]
 					},
-					"frog_03" : { "animation" : "frog_03", 
+					"frog_03" : { "animation" : "animals/frog_03", 
 					"mask" : ["VB"], 
 					"allowedTerrains": [ "swamp" ]
 					}				

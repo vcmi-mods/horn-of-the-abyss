@@ -5,52 +5,52 @@
 
 			"templates" : {
 				
-					"AVLwct01" : { "animation" : "AVLwct01", 
+					"AVLwct01" : { "animation" : "cactus/AVLwct01", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct02" : { "animation" : "AVLwct02", 
+					"AVLwct02" : { "animation" : "cactus/AVLwct02", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct03" : { "animation" : "AVLwct03", 
+					"AVLwct03" : { "animation" : "cactus/AVLwct03", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct04" : { "animation" : "AVLwct04", 
+					"AVLwct04" : { "animation" : "cactus/AVLwct04", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct05" : { "animation" : "AVLwct05", 
+					"AVLwct05" : { "animation" : "cactus/AVLwct05", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct06" : { "animation" : "AVLwct06", 
+					"AVLwct06" : { "animation" : "cactus/AVLwct06", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct07" : { "animation" : "AVLwct07", 
+					"AVLwct07" : { "animation" : "cactus/AVLwct07", 
 					"mask" : [ "VV","VB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct08" : { "animation" : "AVLwct08", 
+					"AVLwct08" : { "animation" : "cactus/AVLwct08", 
 					"mask" : [ "VVV","VBV" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct09" : { "animation" : "AVLwct09", 
+					"AVLwct09" : { "animation" : "cactus/AVLwct09", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLwct10" : { "animation" : "AVLwct10", 
+					"AVLwct10" : { "animation" : "cactus/AVLwct10", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},

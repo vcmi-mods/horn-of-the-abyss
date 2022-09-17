@@ -3,7 +3,7 @@
 		"types" : {
 			"hotaDeadVegetation" : {
 				"templates" : {					
-					"swddtree" : { "animation" : "swddtree", 
+					"swddtree" : { "animation" : "deadVegetation/swddtree", 
 					"mask" : ["VV","VV","BB"], 
 					"allowedTerrains": ["swamp"]					
 					}					

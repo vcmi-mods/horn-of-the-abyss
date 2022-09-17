@@ -4,7 +4,7 @@
 			"hotaMonoliths01Ex" : {
 				"index" : 1,
 				"templates" : {
-					"AVXmx1g0" : { "animation" : "AVXmx1g0", 
+					"AVXmx1g0" : { "animation" : "monoliths/AVXmx1g0", 
 					"mask" : [ "V", "A" ],  
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -14,7 +14,7 @@
 			"hotaMonoliths02Ex" : {
 				"index" : 2,
 				"templates" : {
-					"AVXMX1T0" : { "animation" : "AVXMX1T0", 
+					"AVXMX1T0" : { "animation" : "monoliths/AVXMX1T0", 
 					"mask" : [ "V", "A" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}	
@@ -24,7 +24,7 @@
 			"hotaMonoliths03Ex" : { 
 				"index" : 3,
 				"templates" : {
-					"AVXMX1V0" : { "animation" : "AVXMX1V0", 
+					"AVXMX1V0" : { "animation" : "monoliths/AVXMX1V0", 
 					"mask" : [ "V", "A" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}
@@ -34,7 +34,7 @@
 			"hotaMonoliths04Ex" : { 
 				"index" : 4,
 				"templates" : {	
-					"AVXmx1w0" : { "animation" : "AVXmx1w0", 
+					"AVXmx1w0" : { "animation" : "monoliths/AVXmx1w0", 
 					"mask" : [ "V", "A" ],
 					"visitableFrom" : [ "---", "+++", "+++" ]
 					}

@@ -3,7 +3,7 @@
 		"types" : { 
 			"templates" : {
 				"object" : {
-					"allowedTerrains": [ "highlands", "dirt", "sand", "grass", "snow", "swamp", "rough", "subterra", "lava"]
+					"allowedTerrains": [ "highlands", "wasteland", "dirt", "sand", "grass", "snow", "swamp", "rough", "subterra", "lava"]
 				}
 			}
 		}

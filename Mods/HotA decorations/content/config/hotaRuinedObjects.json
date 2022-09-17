@@ -5,7 +5,7 @@
 		"types" : {
 			"hotaRuinedSubterreanGate" : {
 				"templates" : {
-					"avtcvrui" : { "animation" : "avtcvrui",
+					"avtcvrui" : { "animation" : "ruinedObjects/avtcvrui",
 					"mask" : ["VVVV","VBVV","VBBB"], 
                     "allowedTerrains": [ "dirt "]
 					}
@@ -21,12 +21,12 @@
 			"hotaRuinedFountain" : {
 				"templates" : {
 		
-					"TPDESTR2" : { "animation" : "TPDESTR2",
+					"TPDESTR2" : { "animation" : "ruinedObjects/TPDESTR2",
 					"mask" : ["VVV","VVV","VBB"], 
                     "allowedTerrains": [ "dirt" ]
 					},
 					
-					"TPDESTR4" : { "animation" : "TPDESTR4",
+					"TPDESTR4" : { "animation" : "ruinedObjects/TPDESTR4",
 					"mask" : ["VV","VB"], 
                     "allowedTerrains": [ "dirt" ]
 					}
@@ -41,7 +41,7 @@
 		"types" : {
 			"hotaRuinedCamp" : {		
 				"templates" : {
-					"TPDESTR3" : { "animation" : "TPDESTR3",
+					"TPDESTR3" : { "animation" : "ruinedObjects/TPDESTR3",
 					"mask" : ["VVV","BBB"],
                     "allowedTerrains": [ "dirt" ]
 					}

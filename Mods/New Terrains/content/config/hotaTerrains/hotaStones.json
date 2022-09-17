@@ -3,53 +3,49 @@
 		"types" : {
 			"hotaPuddle" : {
 				"name" : "Stone",
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
 				"templates" : {
 				
-					"avlrhl00" : { "animation" : "avlrhl00", 
+					"avlrhl00" : { "animation" : "stones/avlrhl00", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl01" : { "animation" : "avlrhl01", 
+					"avlrhl01" : { "animation" : "stones/avlrhl01", 
 					"mask" : [ "VV", "VB" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl02" : { "animation" : "avlrhl02", 
+					"avlrhl02" : { "animation" : "stones/avlrhl02", 
 					"mask" : [ "BB" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl03" : { "animation" : "avlrhl03", 
+					"avlrhl03" : { "animation" : "stones/avlrhl03", 
 					"mask" : [ "VV", "BB" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl04" : { "animation" : "avlrhl04", 
+					"avlrhl04" : { "animation" : "stones/avlrhl04", 
 					"mask" : [ "VBV" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl05" : { "animation" : "avlrhl05", 
+					"avlrhl05" : { "animation" : "stones/avlrhl05", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl06" : { "animation" : "avlrhl06", 
+					"avlrhl06" : { "animation" : "stones/avlrhl06", 
 					"mask" : [ "VB" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl07" : { "animation" : "avlrhl07", 
+					"avlrhl07" : { "animation" : "stones/avlrhl07", 
 					"mask" : [ "B" ], 
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl08" : { "animation" : "avlrhl08", 
+					"avlrhl08" : { "animation" : "stones/avlrhl08", 
 					"mask" : [ "VBV" ], 
                     "allowedTerrains": [ "highlands" ]
 					}					
@@ -57,18 +53,14 @@
 			},
 			"hotaW1Stones" : {
 				"name" : "Stone",
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
 				"templates" : {
 				
-					"AVLrws01" : { "animation" : "AVLrws01", 
+					"AVLrws01" : { "animation" : "stones/AVLrws01", 
 					"mask" : [ "VVV", "VBB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLrws03" : { "animation" : "AVLrws03", 
+					"AVLrws03" : { "animation" : "stones/AVLrws03", 
 					"mask" : [ "VBV" ], 
                     "allowedTerrains": [ "wasteland" ]
 					}
@@ -76,13 +68,9 @@
 			},
 			"hotaW2Stones" : {
 				"name" : "Rock",
-//			"rmg":{					
-//					"zoneLimit"	:15,
-//					"value"		: 100,
-//					"rarity"	: 150},
 				"templates" : {
 					
-					"AVLrws02" : { "animation" : "AVLrws02", 
+					"AVLrws02" : { "animation" : "stones/AVLrws02", 
 					"mask" : [ "VVV", "VBB" ], 
                     "allowedTerrains": [ "wasteland" ]
 					}
