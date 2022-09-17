@@ -6,11 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.4.1 pre-beta",
+	"version" : "1.4.0",
 	"changelog" :
     {
-    	"1.4.1"   : [ "Fixes for mine types" ],
-        "1.4.0"   : [ "Added higlands and wastelands terrains" ],
+        "1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
         "1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
 		"1.3.22"   : [ "New hero specialty format" ],
 		"1.3.21"   : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
