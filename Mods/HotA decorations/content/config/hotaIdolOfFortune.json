@@ -2,15 +2,14 @@
 	"core:idolOfFortune" : {
 		"types" : {
 			"hotaIdolofFortune" : {
-				"index" : 0,
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+//				"rmg" : {
+//					"zoneLimit"	: 1,
+//					"value"		: 100,
+//					"rarity"	: 100
+//				},
 				"templates" : {
 				
-					"AVSidlS0" : { "animation" : "AVSidlS0", 
+					"AVSidlS0" : { "animation" : "idolOfFortune/AVSidlS0", 
 					"mask" : [ "VV", "VA" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
                     "allowedTerrains": [ "snow" ]

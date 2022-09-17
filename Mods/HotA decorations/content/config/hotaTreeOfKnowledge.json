@@ -2,15 +2,9 @@
 	"core:treeOfKnowledge"	: {
 		"types" : {
 			"hotaTreeOfKnowledge" : {
-				"index" : 0,
 				"aiValue" : 2500,
-				"rmg" : {
-					"mapLimit"	: 32,
-					"value"		: 2500,
-					"rarity"	: 50
-				},
 				"templates" : {
-					"AVXtrkS0" : { "animation" : "AVXtrkS0", 
+					"AVXtrkS0" : { "animation" : "treeOfKnowledge/AVXtrkS0", 
 					"mask" : [ "VBV","VBV","VAV" ],
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "snow" ]

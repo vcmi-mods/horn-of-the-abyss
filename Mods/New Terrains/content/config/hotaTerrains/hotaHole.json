@@ -6,13 +6,13 @@
 				"index" : 0,
 				"templates" : {
 				
-					"avlhlhl" : { "animation" : "avlhlhl", 
-					"mask" : [ "V" ], 
+					"avlhlhl" : { "animation" : "hole/avlhlhl", 
+					"mask" : [ "B" ], 
                     "allowedTerrains": [ "highlands" ]
 					},	
 					
-					"avlhlws0" : { "animation" : "avlhlws0", 
-					"mask" : [ "V" ], 
+					"avlhlws0" : { "animation" : "hole/avlhlws0", 
+					"mask" : [ "B" ], 
                     "allowedTerrains": [ "wasteland" ]
 					}				
 				}

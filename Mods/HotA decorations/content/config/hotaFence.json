@@ -5,48 +5,44 @@
 	"types" : {
 		"hotaFences" : {
 			"base" : {"mask" : ["VV","VB"]},			
-			"rmg": {					
-			"zoneLimit"	: 1,
-			"value"		: 10,
-			"rarity"	: 1
-			},
 			"templates" : {
-					"avzabr01" : { "animation" : "avzabr01",
+				
+					"avzabr01" : { "animation" : "fence/avzabr01",
                     "allowedTerrains": ["grass"]
 					},					
-					"avzabr02" : { "animation" : "avzabr02", 
+					"avzabr02" : { "animation" : "fence/avzabr02", 
 					"mask" : ["VB","VB"],
                     "allowedTerrains": ["grass"]
 					},
-					"avzabr03" : { "animation" : "avzabr03",
+					"avzabr03" : { "animation" : "fence/avzabr03",
                     "allowedTerrains": ["grass"]
 					},
-					"avzabr04" : { "animation" : "avzabr04",
+					"avzabr04" : { "animation" : "fence/avzabr04",
                     "allowedTerrains": ["grass"]
 					},
-					"avzabr05" : { "animation" : "avzabr05",
+					"avzabr05" : { "animation" : "fence/avzabr05",
                     "allowedTerrains": ["grass"]
 					},
-					"avzabr06" : { "animation" : "avzabr06", 
+					"avzabr06" : { "animation" : "fence/avzabr06", 
                     "allowedTerrains": ["grass"]
 					},
-					"avzbrs01" : { "animation" : "avzbrs01",
+					"avzbrs01" : { "animation" : "fence/avzbrs01",
                     "allowedTerrains": ["snow"]
 					},					
-					"avzbrs02" : { "animation" : "avzbrs02", 
+					"avzbrs02" : { "animation" : "fence/avzbrs02", 
 					"mask" : ["VB","VB"],
                     "allowedTerrains": ["snow"]
 					},
-					"avzbrs03" : { "animation" : "avzbrs03",
+					"avzbrs03" : { "animation" : "fence/avzbrs03",
                     "allowedTerrains": ["snow"]
 					},
-					"avzbrs04" : { "animation" : "avzbrs04", 
+					"avzbrs04" : { "animation" : "fence/avzbrs04", 
                     "allowedTerrains": ["snow"]
 					},
-					"avzbrs05" : { "animation" : "avzbrs05",
+					"avzbrs05" : { "animation" : "fence/avzbrs05",
                     "allowedTerrains": ["snow"]
 					},
-					"avzbrs06" : { "animation" : "avzbrs06",
+					"avzbrs06" : { "animation" : "fence/avzbrs06",
                     "allowedTerrains": ["snow"]
 					}					
 				}

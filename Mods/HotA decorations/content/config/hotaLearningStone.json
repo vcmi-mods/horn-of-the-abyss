@@ -2,13 +2,12 @@
 	"core:learningStone"	: {
 		"types" : {
 			"hotaLearningStone" : {
-				"index" : 0,
-				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 200
-				},
+//				"rmg" : {
+//					"value"		: 1500,
+//					"rarity"	: 200
+//				},
 				"templates" : {
-					"AVSgzbS0" : { "animation" : "AVSgzbS0", 
+					"AVSgzbS0" : { "animation" : "learningStone/AVSgzbS0", 
 					"mask" : [ "VV", "VA" ], 
 					"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "snow" ]

@@ -2,27 +2,25 @@
 	"core:garrisonVertical"	: {
 		"types" : {
 			"hotaVerticalGarrizon" : {
-				"index" : 0,
 				"sounds" : {
 					"ambient" : ["LOOPSWAR"]
 				},
 				"templates" : {
 				
-					"avgtzab3" : { "animation" : "avgtzab3", 
+					"avgtzab3" : { "animation" : "garrizons/avgtzab3", 
 					"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
-					"visitableFrom" : [ "+-+", "+++", "+-+" ],
-					"allowedTerrains": [ "dirt", "rough", "grass", "sand", "swamp", "subterra", "lava" ]
+					"visitableFrom" : [ "---", "+++", "+-+" ]
 					},
 					
-					"avgtzab4" : { "animation" : "avgtzab4", 
+					"avgtzab4" : { "animation" : "garrizons/avgtzab4", 
 					"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
-					"visitableFrom" : [ "+-+", "+++", "+-+" ],
+					"visitableFrom" : [ "---", "+++", "+-+" ],
 					"allowedTerrains": [ "snow" ]
 					},
 					
-					"AVCVGRW" : { "animation" : "AVCVGRW",
+					"AVCVGRW" : { "animation" : "garrizons/AVCVGRW",
 					"mask" : [ "VV","VB","VA","VB" ],
-					"visitableFrom" : [ "+-+", "+++", "+-+" ],
+					"visitableFrom" : [ "---", "+++", "+-+" ],
 					"allowedTerrains": [ "water" ]
 					}					
 				}

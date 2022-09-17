@@ -1,24 +1,291 @@
 {
 	"warehouses" :{	
 		"name": "Warehouses",
-		"handler": "oncePerWeek",
+		"handler": "configurable", //THE KEY PROPERTY: means that object has constomizable rewards
 		"types" : {
-			"crystalWarehouse" : {
+			"crystalWarehouse" : 
+			{
 				"name": "Warehouse of Crystal",
-				"producedResources" : "crystal",
-				"producedValue" : 6,
 				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 70
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
 				},
-				"templates" : {
-					"avwrhscr" : { "animation" : "avwrhscr", 
-					"visitableFrom" : [ "---", "+++", "+++" ], 
-					"mask" : ["VVV","VVV","VBA"], 
-//					"allowedTerrains": ["sand"]
+				"sounds": {
+					"ambient": ["WRHSCRST"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ //reward 1
+						//"appearChance": 
+						//{
+						//	"dice": 1, dice id, will be value 1-100
+						//	"min" : 20, dice should be between those values
+						//	"max" : 100
+						//},
+						"limiter": //condition to get reward
+						{
+							"numOfGrants": 1 //how many times can be visited (by player/hero/etc)
+							//"dayOfWeek" - on which day reward should be granted
+							//"minLevel" - min hero level
+							//"resources" - taking resources?
+							//"primary": {"attack" : 10, "defence" : 5, "spellpower", "knowledge" } - minimal primary skills
+							//"secondary": - I don't know how to use it
+							//"artifacts": ["art1"] - artifacts required
+							//"creatures": [ ] - array of creatures, don't know how to use
+						},
+						"resources": {"crystal" : 6},
+						"message": "{Warehouse of Crystal}"
+						//"gainedExp" : 1000,
+						//"gainedLevels" : 1,
+						//"manaPoints": -10,
+						//"manaPercentage": 50,
+						//"movePoints": 200,
+						//"movePercentage": 50,
+						//"primary": {"attack" : 1},
+						//"secondary":
+						//"artifacts":
+						//"spells":,
+						//"creatures":
+						//"selectChance": 80 - is a chance to select this reward
+					}
+					//{ reward2...
+					//}
+				],
+				"onEmptyMessage": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
+				//"onSelectMessage"
+				//"onVisitedMessage"
+				//"canRefuse": true/false - if player can refuse from reward
+				"resetDuration" : 7,
+				"visitMode" : "unlimited", //"once", "hero", "player", "bonus"
+				//"selectMods" : selectFirst", "selectPlayer", "selectRandom"
+				"templates" : 
+				{
+					"avwrhscr" : 
+					{
+						"animation" : "warehouses/avwrhscr", 
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
 					}					
 				}
-			}			
+			},
+			"gemsWarehouse" : 
+			{
+				"name": "Warehouse of Gem",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSGEMS"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"gems" : 6},
+						"message": "{Warehouse of Gem}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Gem}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gems here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhsgm" :
+					{
+						"animation" : "warehouses/avwrhsgm",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			},
+			"sulfurWarehouse" : 
+			{
+				"name": "Warehouse of Sulfur",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSSULF"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"sulfur" : 6},
+						"message": "{Warehouse of Sulfur}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no sulfur here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhssf" :
+					{
+						"animation" : "warehouses/avwrhssf",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			},
+			"mercuryWarehouse" : 
+			{
+				"name": "Warehouse of Mercury",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSMERC"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"mercury" : 6},
+						"message": "{Warehouse of Mercury}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mercury here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhsmc" :
+					{
+						"animation" : "warehouses/avwrhsmc",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			},
+			"woodWarehouse" : 
+			{
+				"name": "Warehouse of Wood",
+				"rmg" : {
+					"value"		: 2250,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSWOOD"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"wood" : 10},
+						"message": "{Warehouse of Wood}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Wood}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no wood here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhswd" :
+					{
+						"animation" : "warehouses/avwrhswd",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			},
+			"oreWarehouse" : 
+			{
+				"name": "Warehouse of Ore",
+				"rmg" : {
+					"value"		: 2250,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSOREM"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"ore" : 10},
+						"message": "{Warehouse of Ore}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Ore}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no ore here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhsor" :
+					{
+						"animation" : "warehouses/avwrhsor",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			},
+			"goldWarehouse" : 
+			{
+				"name": "Warehouse of Gold",
+				"rmg" : {
+					"value"		: 6000,
+					"rarity"	: 15,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["WRHSGOLD"],
+					"visit" : ["WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"gold" : 2000},
+						"message": "{Warehouse of Gold}"
+					}
+				],
+				"onEmptyMessage": "{Warehouse of Gold}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gold here. Please, return next week!'",
+				"resetDuration" : 7,
+				"visitMode" : "unlimited",
+				"templates" : 
+				{
+					"avwrhsgl" :
+					{
+						"animation" : "warehouses/avwrhsgl",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}					
+				}
+			}
 		}	
 	}
 }
