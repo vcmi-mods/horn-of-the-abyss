@@ -7,12 +7,12 @@
 				"templates" : {
 				
 					"avlhlhl" : { "animation" : "hole/avlhlhl", 
-					"mask" : [ "B" ], 
+					"mask" : [ "V" ], 
                     "allowedTerrains": [ "highlands" ]
 					},	
 					
 					"avlhlws0" : { "animation" : "hole/avlhlws0", 
-					"mask" : [ "B" ], 
+					"mask" : [ "V" ], 
                     "allowedTerrains": [ "wasteland" ]
 					}				
 				}
