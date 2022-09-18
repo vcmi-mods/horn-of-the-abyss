@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.4.2",
+	"version" : "1.4.3",
 	"changelog" :
 	{
 		"1.4.3"   : [ "Fix battlefield obstacles" ],
