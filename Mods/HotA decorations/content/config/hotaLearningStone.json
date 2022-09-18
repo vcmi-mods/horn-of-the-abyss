@@ -1,7 +1,7 @@
 {
 	"core:learningStone"	: {
 		"types" : {
-			"learningStone" : {
+			"object" : {
 				"templates" : {
 					"AVSgzbS0" : {
 						"animation" : "learningStone/AVSgzbS0",

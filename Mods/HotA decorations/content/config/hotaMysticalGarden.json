@@ -1,8 +1,7 @@
 {
 	"core:mysticalGarden" : {
 		"types" : {
-			"mysticalGarden" : {
-				"aiValue" : 500,
+			"object" : {
 				"templates" : {
 					"avtmystd" : {
 						"animation" : "mysticalGarden/avtmystd", 

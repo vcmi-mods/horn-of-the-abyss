@@ -1,7 +1,7 @@
 {
 	"core:wagon" : {
 		"types" : {
-			"wagon" : {
+			"object" : {
 				"aiValue" : 500,
 				"templates" : {
 					"HATel" : {

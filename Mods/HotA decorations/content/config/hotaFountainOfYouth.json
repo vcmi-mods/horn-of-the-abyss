@@ -1,7 +1,7 @@
 {
 	"core:fountainOfYouth"	: {
 		"types" : {
-			"fountainOfYouth" : {
+			"object" : {
 				"templates" : {
 					"watermag" : {
 						"animation" : "fountainOfYouth/watermag",

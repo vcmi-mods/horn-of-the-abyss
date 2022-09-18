@@ -1,10 +1,7 @@
 {
 	"core:garrisonVertical"	: {
 		"types" : {
-			"hotaVerticalGarrizon" : {
-				"sounds" : {
-					"ambient" : ["LOOPSWAR"]
-				},
+			"normal" : {
 				"templates" : {
 				
 					"avgtzab3" : { "animation" : "garrizons/avgtzab3", 

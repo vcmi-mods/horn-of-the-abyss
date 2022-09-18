@@ -1,8 +1,7 @@
 {
 	"core:schoolOfMagic" : {
 		"types" : {
-			"schoolOfMagic" : {
-				"aiValue" : 1000,
+			"object" : {
 				"templates" : {
 					"AVSSCHM1" : {
 						"animation" : "schoolOfMagic/AVSSCHM1",

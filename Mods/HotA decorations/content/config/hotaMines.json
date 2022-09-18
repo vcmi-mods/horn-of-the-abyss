@@ -1,47 +1,48 @@
 {
 	"core:mine" : {
 		"types" : {
-			"crystalCavern" : { 
+			"crystalCavern" : {
 				"templates": {
-					"avmcrdn0" : { "animation" : "mines/avmcrdn0", //hota sand
-					"mask" : ["VVVV","VBBB","VBAB"],
-					"visitableFrom" : [ "---", "-+-", "+++" ],						
-					"allowedTerrains":["sand"] 
+					"avmcrdn0" : {
+						"animation" : "mines/avmcrdn0", //hota sand
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["sand"]
 					},
-					"mntswpcr" : { "animation" : "mines/mntswpcr", //hota swamp
-					"mask" : ["VVVV","VBBB","VBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains":["swamp"] 
+					"mntswpcr" : {
+						"animation" : "mines/mntswpcr", //hota swamp
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
 					}
 				}
 			},
-			"goldMine" : {		
+			"goldMine" : {
 				"templates": {
-
-					"avmgddn0" : { "animation" : "mines/avmgddn0",  //hota sand 
-					"mask" : ["VVVV","VBBB","VBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains":["sand"] 
+					"avmgddn0" : {
+						"animation" : "mines/avmgddn0",  //hota sand
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["sand"]
 					},
-			
-					"mntswpgl" : { "animation" : "mines/mntswpgl",  //hota swamp
-					"mask" : ["VBBV", "VBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains":["swamp"] 
+					"mntswpgl" : {
+						"animation" : "mines/mntswpgl",  //hota swamp
+						"mask" : ["VBBV", "VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
 					}
 				}
 			},
-	
-			"sawmill" : { 
+			"sawmill" : {
 				"templates" : {
-			
-					"AVMsaws0" : { "animation" : "mines/AVMsaws0",  //hota swamp
-					"mask" : ["VVVVV", "VBBBB", "VBBAB"], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains":["swamp"] 
+					"AVMsaws0" : {
+						"animation" : "mines/AVMsaws0",  //hota swamp
+						"mask" : ["VVVVV", "VBBBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
 					}
-				}	
+				}
 			}
-		}	
+		}
 	}
 }	

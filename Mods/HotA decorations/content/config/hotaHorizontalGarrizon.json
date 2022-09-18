@@ -1,35 +1,36 @@
 {
 	"core:garrisonHorizontal" : {
 		"types" : {
-			"hotaHorizontalGarrizon" : {
-				"sounds" : {
-					"ambient" : ["LOOPSWAR"]
-				},
-				"templates" : {			
-					"AVCGARW1" : { "animation" : "garrizons/AVCGARW1", 
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-                    "allowedTerrains": [ "water" ]
+			"normal" : {
+				"templates" : {
+					"AVCGARW1" : {
+						"animation" : "garrizons/AVCGARW1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
 					},
 					
-					"avgtzab2" : { "animation" : "garrizons/avgtzab2", 
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-					"allowedTerrains": [ "snow" ]
+					"avgtzab2" : {
+						"animation" : "garrizons/avgtzab2",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					},
 					
-					"avgtzab1" : { "animation" : "garrizons/avgtzab1",
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ]
+					"avgtzab1" : {
+						"animation" : "garrizons/avgtzab1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
 					},
 					
-					"AVCGARE" : { "animation" : "garrizons/AVCGARE", 
-					"mask" : [ "VVVV", "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ]
+					"AVCGARE" : {
+						"animation" : "garrizons/AVCGARE",
+						"mask" : [ "VVVV", "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
 					}
 				}
-			}		
+			}
 		}
-	}		
+	}
 }
 

@@ -1,8 +1,7 @@
 {
 	"core:hillFort" : {
 		"types" : {
-			"hotaHillFort" : {
-				"aiValue" : 7000,
+			"object" : {
 				"templates" : {
 					"AVXhilS0" : { "animation" : "hillFort/AVXhilS0",
 					"mask" : [ "VVV", "VVV", "VBA" ], 
