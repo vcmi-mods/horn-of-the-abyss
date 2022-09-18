@@ -1,28 +1,18 @@
 {
 	"core:hole" : {
-		"index" :124,
 		"types" : {
-			"hotaHole" : {
-				"index" : 0,
+			"hole" : {
 				"templates" : {
-				
 					"avlhlhl" : { "animation" : "hole/avlhlhl", 
 					"mask" : [ "V" ], 
-                    "allowedTerrains": [ "highlands" ]
-					},	
-					
+					"allowedTerrains": [ "highlands" ]
+					},
 					"avlhlws0" : { "animation" : "hole/avlhlws0", 
 					"mask" : [ "V" ], 
-                    "allowedTerrains": [ "wasteland" ]
-					}				
+					"allowedTerrains": [ "wasteland" ]
+					}
 				}
-			}		
+			}
 		}
 	}
 }
-	
-	
-	
-
-
-	
