@@ -1,9 +1,12 @@
 {
-	"core:mountain" : {
+	"core:hotaHighlandWaterfalls" : {
+		"handler" : "generic",
 		"types" : {
 			"hotaHighlandWaterfalls" : {
 				"name" : "Waterfall",
 				"rmg" : {
+					"value" : 100,
+					"rarity" : 500,
 					"zoneLimit" : 5
 				},
 				"base" : {

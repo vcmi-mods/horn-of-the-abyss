@@ -2,14 +2,7 @@
 	"core:abandonedMine": {
 
 		"types": {
-			"hotaHWAbandoned": {
-				"name":"Abandoned Mine",
-				"aiValue" : 3500,
-				"battleground": "subterranean",
-				"sounds" : {
-					"ambient" : ["LOOPCAVE"],
-					"visit" : ["MYSTERY"]
-				},
+			"mine": {
 				"templates": {
 					"AVXamH1" : { "animation" : "mines/AVXamH1", //hota highlands
 					"mask" : [ "VVVV","VBBB","VBAB"], 

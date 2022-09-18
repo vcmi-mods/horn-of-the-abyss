@@ -1,7 +1,7 @@
 {
 	"core:tavern" :{
 		"types" : {
-			"tavern" : {
+			"object" : {
 				"aiValue" : 100,
 				"templates" : {
 					"wt_tvrn01" : {

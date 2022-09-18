@@ -1,8 +1,7 @@
 {
 	"core:seerHut" : {
 		"types" : {
-			"hotaSeerHuts" : {
-				"name": "Seer Hut",
+			"hotaSeerHut" : {
 				"templates" : {
 					"AVXseec0H" : { "animation" : "seerHut/AVXseec0", 
 						"mask" : [ "VVV", "VBV", "VAV" ],
@@ -16,9 +15,9 @@
 						"mask" : [ "VVV","BBB", "BAB" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": [ "water" ] 
-					}		
+					}
 				}
-			}				
+			}
 		}
 	}	
 }

@@ -1,12 +1,7 @@
 {	
 	"core:obelisk" : {
 		"types" : {
-			"obeliskOrange" : { 
-				"aiValue" : 350,
-				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 200
-				},
+			"object" : {
 				"templates" : { 
 					"AvXOblOr" : { 
 						"animation" : "obelisk/AvXOblOr", 

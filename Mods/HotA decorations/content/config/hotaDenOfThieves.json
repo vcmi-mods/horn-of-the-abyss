@@ -1,7 +1,7 @@
 {
 	"core:denOfThieves"	: {
 		"types" : {
-			"hotaDenOfThieves" : {
+			"object" : {
 				"templates" : {
 					"avxdens0" : {
 						"animation" : "denOfThieves/avxdens0",

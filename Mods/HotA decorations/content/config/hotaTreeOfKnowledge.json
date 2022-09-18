@@ -1,13 +1,13 @@
 {
 	"core:treeOfKnowledge"	: {
 		"types" : {
-			"treeOfKnowledge" : {
-				"aiValue" : 2500,
+			"object" : {
 				"templates" : {
-					"AVXtrkS0" : { "animation" : "treeOfKnowledge/AVXtrkS0", 
-					"mask" : [ "VBV","VBV","VAV" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
-					"allowedTerrains": [ "snow" ]
+					"AVXtrkS0" : {
+						"animation" : "treeOfKnowledge/AVXtrkS0", 
+						"mask" : [ "VBV","VBV","VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}

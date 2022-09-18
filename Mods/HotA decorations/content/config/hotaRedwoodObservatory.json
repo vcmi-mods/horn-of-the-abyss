@@ -1,8 +1,7 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"redwoodObservatory" : {
-			"aiValue" : 750,
+			"object" : {
 				"templates" : {
 					"avwtobtw" : {
 						"animation" : "redwoodObservatory/avwtobtw",

@@ -1,24 +1,26 @@
 {
 	"core:sign" : {
 		"types" : {
-			"hotaHWsigns" : {	
-				"templates" : {			
-					"avxsnhl" : { "animation" : "sign/avxsnhl", 
-                    "allowedTerrains": [ "highlands" ],				
-					"mask" : [ "A" ] 
+			"object" : {
+				"templates" : {
+					"avxsnhl" : {
+						"animation" : "sign/avxsnhl",
+						"allowedTerrains": [ "highlands" ],
+						"mask" : [ "A" ]
 					},
 					
-					"avxsnwst" : { "animation" : "sign/avxsnwst", 
-                    "allowedTerrains": [ "wasteland" ],				
-					"mask" : [ "A" ] 
-					}			
+					"avxsnwst" : {
+						"animation" : "sign/avxsnwst",
+						"allowedTerrains": [ "wasteland" ],
+						"mask" : [ "A" ]
+					}
 				}
 			}
-		}	
-	}		
+		}
+	}
 }
-	
-	
 
 
-	
+
+
+
