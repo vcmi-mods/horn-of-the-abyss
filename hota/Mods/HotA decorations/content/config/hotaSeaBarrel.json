@@ -1,7 +1,7 @@
 {
 	"seaBarrel"	: {
 		"name" : "Sea Barrel",
-		"handler": "configurable",
+		"handler": "configurable",		
 		"types" : {
 			"hotaSeaBarrel" : {
 				"name":"Sea Barrel",
@@ -48,19 +48,17 @@
 						"message": "",
 					}
 				],
-				"onEmptyMessage": "Go away, jerk!",
+				"onEmptyMessage": "Go away, jerk!",	
 				"visitMode" : "once",
-				"selectMode": "selectPlayer",
-				"templates" : {
-					"AVAbrrlw" :
-					{
-						"animation" : "seaBarrel/AVAbrrlw",
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "A"],
-						"allowedTerrains": [ "water" ]
-					}
+				"selectMode": "selectPlayer",			
+				"templates" : {		
+					"AVAbrrlw" : { "animation" : "seaBarrel/AVAbrrlw", 
+					"visitableFrom" : [ "+++", "+++", "+++" ], 
+					"mask" : [ "A"], 
+ //                   "allowedTerrains": [ "water" ]
+					}	
 				}
 			}
 		}
-	}
+	}		
 }

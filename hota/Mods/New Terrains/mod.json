@@ -1,5 +1,5 @@
 {
-	"author" : "Hota Crew, ported by VCMI Team",
+	"author" : "Hota Crew, ported by avatar",
 	"contact" : "https://slack.vcmi.eu/",
 	"description" : "This option enables new terrains added by HotA Crew.",
 	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
@@ -24,20 +24,21 @@
 		"config/hotaTerrains/hotaWDeadVegetation",
 		"config/hotaTerrains/hotaWTrees",
 		"config/hotaTerrains/hotaHWsigns",
-		"config/hotaTerrains/hotaGazebo",
-		"config/hotaTerrains/hotaDerrick"
+//		"config/hotaTerrains/hotaGazebo",
+//		"config/hotaTerrains/hotaDerrick"
 	],
 	"battlefields":
 	[
-		"config/hotaTerrains/battlefields.json"
+	"config/hotaTerrains/battlefields.json"
 	],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Mechanical",
 	"name" : "New terrains",
-	"version" : "1.1.0",
+	"version" : "1.0",
 	"compatibility" :
 	{
-		"min" : "1.1.0"
+		"min" : "1.0.0",
+		"max" : "1.0.0"
 	}
 }
