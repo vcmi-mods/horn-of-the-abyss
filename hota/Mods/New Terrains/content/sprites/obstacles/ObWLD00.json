@@ -1,0 +1,13 @@
+{
+    "basepath" : "obstacles/frames/",
+    "sequences" :
+    [
+        {
+            "group" : 0,
+            "frames" :
+            [
+                "ObWLD00.png"
+            ]
+        }
+    ]
+}

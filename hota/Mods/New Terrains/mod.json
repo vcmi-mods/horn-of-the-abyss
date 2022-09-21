@@ -31,6 +31,10 @@
 	[
 		"config/hotaTerrains/battlefields.json"
 	],
+	"obstacles":
+	[
+		"config/hotaTerrains/obstacles.json"
+	],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Mechanical",
