@@ -1,7 +1,7 @@
 {
 	"core:hole" : {
 		"types" : {
-			"hole" : {
+			"object" : {
 				"templates" : {
 					"avlhlhl" : { "animation" : "hole/avlhlhl", 
 					"mask" : [ "V" ], 
