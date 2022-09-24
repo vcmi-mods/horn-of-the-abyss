@@ -7,7 +7,7 @@
 		"minimapBlocked"   : [ 41, 106, 20 ],
 		"music" : "HIGHLANDS.mp3",
 		"tiles" : "terrain/HGHLL",
-		"type":"LAND",
+		"type": ["LAND", "SURFACE"], //default values
 		"horseSoundId" : 2,
 		"river" : "rw",
 		"rockTerrain":"rock",
@@ -23,7 +23,7 @@
 		"minimapBlocked"   : [ 164, 86, 29 ],
 		"music" : "WASTELAND.mp3",
 		"tiles" : "terrain/WSTLD",
-		"type":"LAND",
+		"type": ["LAND", "SURFACE"], //default values
 		"code":"ws",
 		"river" : "rm",
 		"rockTerrain":"rock",
