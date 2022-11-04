@@ -3,7 +3,7 @@
 // * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
 //
 // Their properties:
-// * "allowedTerrain" vector of terrain types (TT format) where obstacle is appropriate
+// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
 // * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored. 
 // * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
 // * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
@@ -12,7 +12,7 @@
 
 {
 	"hotaHLD00" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 3,
@@ -22,7 +22,7 @@
 		"absolute" : false
 	},
 	"hotaHLD01" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 3,
@@ -32,7 +32,7 @@
 		"absolute" : false
 	},
 	"hotaHLD02" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 2,
@@ -42,7 +42,7 @@
 		"absolute" : false
 	},
 	"hotaHLD03" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 3,
@@ -52,7 +52,7 @@
 		"absolute" : false
 	},
 	"hotaHLD04" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 3,
@@ -62,7 +62,7 @@
 		"absolute" : false
 	},
 	"hotaHLD05" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -72,7 +72,7 @@
 		"absolute" : false
 	},
 	"hotaHLD06" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -82,7 +82,7 @@
 		"absolute" : false
 	},
 	"hotaHLD07" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -92,7 +92,7 @@
 		"absolute" : false
 	},
 	"hotaHLD08" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -102,7 +102,7 @@
 		"absolute" : false
 	},
 	"hotaHLD09" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 1,
@@ -112,7 +112,7 @@
 		"absolute" : false
 	},
 	"hotaHLD10" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -122,7 +122,7 @@
 		"absolute" : false
 	},
 	"hotaHLD11" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -132,7 +132,7 @@
 		"absolute" : false
 	},
 	"hotaHLD12" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 1,
@@ -142,7 +142,7 @@
 		"absolute" : false
 	},
 	"hotaHLD13" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 2,
@@ -152,7 +152,7 @@
 		"absolute" : false
 	},
 	"hotaHLD14" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 8,
 		"height" : 4,
@@ -162,7 +162,7 @@
 		"absolute" : false
 	},
 	"hotaHLD15" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 10,
 		"height" : 3,
@@ -172,7 +172,7 @@
 		"absolute" : false
 	},
 	"hotaHLD16" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 8,
 		"height" : 5,
@@ -182,7 +182,7 @@
 		"absolute" : false
 	},
 	"hotaHLD17" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 11,
 		"height" : 2,
@@ -192,7 +192,7 @@
 		"absolute" : false
 	},
 	"hotaHLD19" : {
-		"allowedTerrain" : ["highlands"],
+		"allowedTerrains" : ["highlands"],
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 2,
@@ -202,7 +202,7 @@
 		"absolute" : false
 	},
 	"hotaWLD00" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 3,
@@ -212,7 +212,7 @@
 		"absolute" : false
 	},
 	"hotaWLD01" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 3,
@@ -222,7 +222,7 @@
 		"absolute" : false
 	},
 	"hotaWLD02" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 2,
@@ -232,7 +232,7 @@
 		"absolute" : false
 	},
 	"hotaWLD03" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 3,
@@ -242,7 +242,7 @@
 		"absolute" : false
 	},
 	"hotaWLD04" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 3,
@@ -252,7 +252,7 @@
 		"absolute" : false
 	},
 	"hotaWLD05" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 3,
@@ -262,7 +262,7 @@
 		"absolute" : false
 	},
 	"hotaWLD06" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 3,
@@ -272,7 +272,7 @@
 		"absolute" : false
 	},
 	"hotaWLD07" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 3,
@@ -282,7 +282,7 @@
 		"absolute" : false
 	},
 	"hotaWLD08" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 3,
@@ -292,7 +292,7 @@
 		"absolute" : false
 	},
 	"hotaWLD09" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 3,
@@ -302,7 +302,7 @@
 		"absolute" : false
 	},
 	"hotaWLD10" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 6,
 		"height" : 2,
@@ -312,7 +312,7 @@
 		"absolute" : false
 	},
 	"hotaWLD11" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 4,
@@ -322,7 +322,7 @@
 		"absolute" : false
 	},
 	"hotaWLD12" : {
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 2,
@@ -333,7 +333,7 @@
 	},
 	"ObWLD13" :
 	{
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 163,
 		"height" : 302,
@@ -344,7 +344,7 @@
 	},
 	"ObWLD14" :
 	{
-		"allowedTerrain" : ["wasteland"],
+		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 104,
 		"height" : 126,
