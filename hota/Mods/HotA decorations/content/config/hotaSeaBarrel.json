@@ -26,9 +26,7 @@
 						{
 							"numOfGrants": 1
 						},
-						"resources": [
-							{ "crystal" : { "min": 3, "max" : 6} }
-						],
+						"resources": { "crystal" : { "min": 3, "max" : 6} },
 						"message": "",
 					},
 					{
@@ -42,9 +40,7 @@
 						{
 							"numOfGrants": 1
 						},
-						"resources": [
-							{ "gems" : { "min": 3, "max" : 6} },
-						],
+						"resources": { "gems" : { "min": 3, "max" : 6} },
 						"message": "",
 					}
 				],

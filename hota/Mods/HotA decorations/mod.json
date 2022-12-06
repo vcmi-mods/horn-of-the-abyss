@@ -67,9 +67,9 @@
 		"config/hotaMonolithOneWayEntrance",
 		"config/hotaMonolithOneWayExit",
 		"config/hotaWarehouses",
-		"config/hotaAncientLamp",
+		//"config/hotaAncientLamp",
 		"config/hotaColosseum",
-		"config/hotaSeaBarrel"
+		//"config/hotaSeaBarrel"
 	] 
 	
 }
