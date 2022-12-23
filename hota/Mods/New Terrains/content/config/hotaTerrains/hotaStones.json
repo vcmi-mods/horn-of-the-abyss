@@ -48,12 +48,7 @@
 					"avlrhl08" : { "animation" : "stones/avlrhl08", 
 					"mask" : [ "VBV" ], 
                     "allowedTerrains": [ "highlands" ]
-					}					
-				}
-			},
-			"hotaW1Stones" : {
-				"name" : "Stone",
-				"templates" : {
+					},				
 				
 					"AVLrws01" : { "animation" : "stones/AVLrws01", 
 					"mask" : [ "VVV", "VBB" ], 

@@ -3,7 +3,7 @@
 		"handler": "generic",
 		"name" : "Fence",
 		"types" : {
-			"hotaFences" : {
+			"object" : {
 				"base" : {"mask" : ["VV","VB"]},
 				"templates" : {
 					"avzabr01" : {

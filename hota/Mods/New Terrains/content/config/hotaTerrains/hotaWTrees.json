@@ -1,7 +1,7 @@
 {
 	"core:trees" : {
 		"types" : {
-			"hotaWTrees" : {
+			"object" : {
 				"templates" : {
 					
 					"AVLtRro0" : { "animation" : "trees/AVLtRro0",

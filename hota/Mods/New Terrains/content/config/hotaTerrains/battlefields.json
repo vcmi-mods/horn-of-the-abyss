@@ -1,4 +1,4 @@
 {
-	"highlands_flowers": { "graphics" : "battlefields/CMBKHL.BMP" },
-	"wasteland_rocks": { "graphics" : "battlefields/CmBkWstp.BMP" }
+	"core:highlands_flowers": { "graphics" : "battlefields/CMBKHL.BMP" },
+	"core:wasteland_rocks": { "graphics" : "battlefields/CmBkWstp.BMP" }
 }

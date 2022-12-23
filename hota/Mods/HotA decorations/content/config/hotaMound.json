@@ -1,27 +1,27 @@
 {
 	"core:mound" :{
 		"types" : {		
-			"hotaMound" : {
+			"object" : {
 				"templates" : {
 				
 					"avlsnh01" : { "animation" : "mound/avlsnh01", 
-					"mask" : [ "VB" ], 
-					"allowedTerrains": [ "snow" ]
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "snow" ]
 					},
 					
 					"avlsnh02" : { "animation" : "mound/avlsnh02", 
-					"mask" : [ "BB" ], 
-					"allowedTerrains": [ "snow" ]
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
 					},
 					
 					"avlsnh03" : { "animation" : "mound/avlsnh03", 
-					"mask" : [ "BB" ], 
-					"allowedTerrains": [ "snow" ]
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
 					},
 					
 					"avlsnh04" : { "animation" : "mound/avlsnh04", 
-					"mask" : [ "BB" ], 
-					"allowedTerrains": [ "snow" ]
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
 					}					
 				}
 			}			

@@ -4,9 +4,9 @@
 			"object" : {
 				"templates" : {
 					"AVXhilS0" : { "animation" : "hillFort/AVXhilS0",
-					"mask" : [ "VVV", "VVV", "VBA" ], 
-					"visitableFrom" : [ "---", "-++", "+++" ],
-					"allowedTerrains":[ "snow" ] 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains":[ "snow" ] 
 					}
 				}
 			}

@@ -3,16 +3,11 @@
 		"name" : "Carnivorous Plant",
 		"handler": "static",	
 		"types" : {
-			"hotaCarnivorousPlant" : {
-				"rmg": {					
-//				"zoneLimit"	: 12,
-				"value"		: 100,
-				"rarity"	: 150
-				},
+			"object" : {
 				"templates" : {
 					"avswplnt" : { "animation" : "carnivorousPlant/avswplnt",
-					"mask" : ["VBB","VBB"], 
-                    "allowedTerrains": ["swamp"]
+						"mask" : ["VBB","VBB"],
+						"allowedTerrains": ["swamp"]
 					}
 				}	
 			}					

@@ -331,7 +331,7 @@
 		"unknown" : 1,
 		"absolute" : false
 	},
-	"ObWLD13" :
+	"hotaWLD13" :
 	{
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
@@ -342,7 +342,7 @@
 		"unknown" : 1,
 		"absolute" : true
 	},
-	"ObWLD14" :
+	"hotaWLD14" :
 	{
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],

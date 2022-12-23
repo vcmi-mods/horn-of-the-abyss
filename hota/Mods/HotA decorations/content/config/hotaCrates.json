@@ -1,0 +1,107 @@
+{
+	"abandonedBoat" : {
+		"name": "Abandoned Boat",
+		"handler": "static",
+		"types" : {		
+			"object" : {	
+				"base" : {
+					"mask" : [ "BB" ],
+					"allowedTerrains": [ "sand" ]
+				},			
+				"templates" : {				
+					"crates08" : { "animation" : "crates/crates08"
+					},
+					"crates09" : { "animation" : "crates/crates09"
+					}				
+				}
+			}			
+		}	
+	},
+	
+	"barrels" : {
+		"name": "Barrels",
+		"handler": "static",
+		"types" : {		
+			"object" : {	
+				"base" : {
+					"mask" : [ "VB" ],
+					"allowedTerrains": [ "sand" ]
+				},			
+				"templates" : {				
+					"crates02" : { "animation" : "crates/crates02"
+					},
+					"crates03" : { "animation" : "crates/crates03"
+					}				
+				}
+			}			
+		}	
+	},
+	
+	"ropes" : {
+		"name": "Rope",
+		"handler": "static",
+		"types" : {		
+			"object" : {	
+				"base" : {
+					"mask" : [ "VB" ],
+					"allowedTerrains": [ "sand" ]
+				},			
+				"templates" : {				
+					"crates06" : { "animation" : "crates/crates06"
+					},
+					"crates07" : { "animation" : "crates/crates07"
+					}				
+				}
+			}			
+		}	
+	},
+	
+	"crates" : {
+		"name": "Crates",
+		"handler": "static",
+		"types" : {		
+			"object" : {	
+				"base" : {					
+					"allowedTerrains": [ "sand" ]
+				},			
+				"templates" : {				
+					"crates01" : { "animation" : "crates/crates01",
+					"mask" : [ "VB" ],
+					},
+					"crates04" : { "animation" : "crates/crates04",
+					"mask" : [ "VB" ],
+					},
+					"crates11" : { "animation" : "crates/crates11",
+					"mask" : [ "VV", "VB" ],
+					},
+					"crates12" : { "animation" : "crates/crates12",
+					"mask" : [ "VV", "VB" ],
+					},	
+					"crates13" : { "animation" : "crates/crates13",
+					"mask" : [ "VV", "BB" ],
+					}				
+				}
+			}			
+		}	
+	},
+
+	"sacks" : {
+		"name": "Sack",
+		"handler": "static",
+		"types" : {		
+			"object" : {	
+				"base" : {					
+					"allowedTerrains": [ "sand" ]
+				},			
+				"templates" : {				
+					"crates05" : { "animation" : "crates/crates05",
+					"mask" : [ "VB" ],
+					},
+					"crates10" : { "animation" : "crates/crates10",
+					"mask" : [ "VV", "BB" ],
+					}				
+				}
+			}			
+		}	
+	}
+}

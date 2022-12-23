@@ -1,49 +1,47 @@
 {
-	"hotaRuinedSubterreanGate" : {
-		"handler": "static",
+	"ruinedSubterreanGate" : {
+		"handler": "generic",
 		"name" : "Ruined Subterranean Gate",
 		"types" : {
-			"hotaRuinedSubterreanGate" : {
+			"object" : {
 				"templates" : {
 					"avtcvrui" : { "animation" : "ruinedObjects/avtcvrui",
-					"mask" : ["VVVV","VBVV","VBBB"], 
-                    "allowedTerrains": [ "dirt "]
+						"mask" : ["VVVV","VBVV","VBBB"], 
+						"allowedTerrains": [ "dirt"]
 					}
 				}
 			}
 		}
 	},	
 	
-	"hotaRuinedFountain" : {
+	"ruinedFountain" : {
 		"name" : "Ruined Fountain",
 		"handler" : "static",
 		"types" : {
-			"hotaRuinedFountain" : {
-				"templates" : {
-		
+			"object" : {
+				"templates" : {	
 					"TPDESTR2" : { "animation" : "ruinedObjects/TPDESTR2",
-					"mask" : ["VVV","VVV","VBB"], 
-                    "allowedTerrains": [ "dirt" ]
-					},
-					
+						"mask" : ["VVV","VVV","VBB"], 
+						"allowedTerrains": [ "dirt" ]
+					},				
 					"TPDESTR4" : { "animation" : "ruinedObjects/TPDESTR4",
-					"mask" : ["VV","VB"], 
-                    "allowedTerrains": [ "dirt" ]
+						"mask" : ["VV","VB"], 
+						"allowedTerrains": [ "dirt" ]
 					}
 				}
 			}
 		}
 	},
 			
-	"hotaRuinedCamp" : {
+	"ruinedCamp" : {
 		"name" : "Ruined Camp",
 		"handler" : "static",
 		"types" : {
-			"hotaRuinedCamp" : {		
+			"object" : {		
 				"templates" : {
 					"TPDESTR3" : { "animation" : "ruinedObjects/TPDESTR3",
-					"mask" : ["VVV","BBB"],
-                    "allowedTerrains": [ "dirt" ]
+						"mask" : ["VVV","BBB"],
+						"allowedTerrains": [ "dirt" ]
 					}
 				}
 			}

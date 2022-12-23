@@ -2,7 +2,7 @@
 	"core:flowers" : {
 		"types" : {
 //highlands flowers
-			"hotaHFlowers" : {
+			"object" : {
 				"templates" : {
 				
 					"avgflh00" : { "animation" : "flowers/avgflh00", 

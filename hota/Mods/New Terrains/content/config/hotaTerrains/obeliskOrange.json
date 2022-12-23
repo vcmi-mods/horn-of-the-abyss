@@ -8,6 +8,12 @@
 						"visitableFrom" : [ "---", "+-+", "+++" ], 
 						"mask" : [ "VV", "VA" ], 
 						"allowedTerrains": [ "highlands" ] 
+					},
+					"AvXOblT" : { 
+						"animation" : "obelisk/AvXOblT", 
+						"visitableFrom" : [ "---", "+-+", "+++" ], 
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "wasteland" ] 
 					}
 				}
 			}

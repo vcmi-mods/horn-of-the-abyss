@@ -1,7 +1,7 @@
 {
 	"core:deadVegetation" :{
 		"types" : {
-			"hotaWDeadVegetation" : {
+			"object" : {
 				"templates" : {
 
 					"AVLDEAD0" : { "animation" : "deadVegetation/AVLDEAD0",

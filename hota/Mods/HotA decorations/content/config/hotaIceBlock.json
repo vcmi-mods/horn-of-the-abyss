@@ -3,10 +3,10 @@
 		"name": "Ice Block",
 		"handler": "static",
 		"types" : {		
-			"hotaIceBlock" : {	
+			"object" : {	
 				"base" : {
-				"mask" : [ "VV","BB" ],
-				"allowedTerrains": [ "snow" ]
+					"mask" : [ "VV","BB" ],
+					"allowedTerrains": [ "snow" ]
 				},			
 				"templates" : {
 				
@@ -17,7 +17,7 @@
 					"TPICECR3" : { "animation" : "iceBlock/TPICECR3"
 					},
 					"TPICECR4" : { "animation" : "iceBlock/TPICECR4",  
-					"mask" : [ "VV","VB" ]
+						"mask" : [ "VV","VB" ]
 					}					
 				}
 			}			

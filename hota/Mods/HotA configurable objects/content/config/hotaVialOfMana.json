@@ -1,0 +1,34 @@
+{
+	"vialOfMana" : {
+		"handler":"configurable",
+		"name" : "Vial of Mana",
+		"sounds" : {
+			"visit" : ["BOTTLVIS"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 3000,
+//					"rarity" : 50
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Vial of Mana}\r\n\r\n",
+				"onVisitedMessage": "{Vial of Mana}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"AVAmnbtw" : { "animation" : "vialOfMana/AVAmnbtw", 
+						"mask" : [ "A" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"allowedTerrains": [ "water"]
+					}
+				}
+			}
+		}
+	}		
+}

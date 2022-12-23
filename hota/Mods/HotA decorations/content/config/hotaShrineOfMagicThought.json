@@ -1,19 +1,13 @@
 {
 	"core:shrineOfMagicLevel3" : {
 		"types" : {
-			"shrineOfMagicLevel3" : {
-				"aiValue" : 3000,
-				"rmg" : {
-					"value"		: 3000,
-					"rarity"	: 100,
-					"mapLimit"	: 32
-				},
+			"object" : {
 				"templates" : {
 					"AVXl3sh0w" : { "animation" : "shrines/AVXl3sh0w", 
-					"mask" : [ "VB"," VA" ], 
-					"visitableFrom" : [ "---", "+++", "+++" ],
-					"allowedTerrains": [ "water"]
-					}	
+						"mask" : [ "VB"," VA" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water"]
+					}
 				}
 			}
 		}

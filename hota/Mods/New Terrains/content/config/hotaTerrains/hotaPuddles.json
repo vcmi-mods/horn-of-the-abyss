@@ -8,7 +8,7 @@
 				"sounds": {
 
 				},
-			"templates" : {
+				"templates" : {
 				
 					"avlhml00" : { "animation" : "puddles/avlhml00", 
 					"mask" : [ "V" ], 
@@ -56,7 +56,7 @@
 	
 	"hotaLPuddles" : {
 		"handler" : "static",
-		"name" : "Limestone Puddles",
+		"name" : "Limestone Puddle",
 //highlands puddles
 		"types" : {
 			"hotaLPuddle" : {

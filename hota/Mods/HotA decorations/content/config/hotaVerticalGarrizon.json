@@ -5,20 +5,20 @@
 				"templates" : {
 				
 					"avgtzab3" : { "animation" : "garrizons/avgtzab3", 
-					"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
-					"visitableFrom" : [ "---", "+++", "+-+" ]
+						"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
+						"visitableFrom" : [ "---", "+++", "+-+" ]
 					},
 					
 					"avgtzab4" : { "animation" : "garrizons/avgtzab4", 
-					"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
-					"visitableFrom" : [ "---", "+++", "+-+" ],
-					"allowedTerrains": [ "snow" ]
+						"mask" : [ "VVV","VVV","VVB","VVA","VVB" ], 
+						"visitableFrom" : [ "---", "+++", "+-+" ],
+						"allowedTerrains": [ "snow" ]
 					},
 					
 					"AVCVGRW" : { "animation" : "garrizons/AVCVGRW",
-					"mask" : [ "VV","VB","VA","VB" ],
-					"visitableFrom" : [ "---", "+++", "+-+" ],
-					"allowedTerrains": [ "water" ]
+						"mask" : [ "VV","VB","VA","VB" ],
+						"visitableFrom" : [ "---", "+++", "+-+" ],
+						"allowedTerrains": [ "water" ]
 					}					
 				}
 			}	

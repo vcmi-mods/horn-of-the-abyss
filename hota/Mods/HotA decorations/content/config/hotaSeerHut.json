@@ -1,16 +1,24 @@
 {
 	"core:seerHut" : {
 		"types" : {
-			"hotaSeerHut" : {
+			"0" : {
 				"templates" : {
 					"AVXseec0H" : { "animation" : "seerHut/AVXseec0", 
 						"mask" : [ "VVV", "VBV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-					},
+					}
+				}
+			},
+			"1": {
+				"templates" : {
 					"AVXseee0H" : { "animation" : "seerHut/AVXseee0", 
 						"mask" : [ "VVV", "VVV", "VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],		
-					},
+					}
+				}
+			},
+			"2" : {
+				"templates" : {
 					"wt_seerh" : { "animation" : "seerHut/wt_seerh", 
 						"mask" : [ "VVV","BBB", "BAB" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ],

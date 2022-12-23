@@ -3,7 +3,7 @@
 		"handler": "generic",
 		"name" : "Waterfalls",
 		"types" : {
-			"hotaWaterfalls" : {
+			"object" : {
 				"name" : "Waterfall",
 				"base" : { "allowedTerrains": ["water"] },
 				"sounds": {
@@ -11,13 +11,13 @@
 				},			
 				"templates" : {
 					"h4wt1f" : { "animation" : "waterfall/h4wt1f",
-					"mask" : ["VV","VB"]
+						"mask" : ["VV","VB"]
 					},					
 					"h4wt2f" : { "animation" : "waterfall/h4wt2f", 
-					"mask" : ["VVV","VBV", "VBB"]
+						"mask" : ["VVV","VBV", "VBB"]
 					},
 					"h4wt3f" : { "animation" : "waterfall/h4wt3f",
-					"mask" : ["VV", "VB"]
+						"mask" : ["VV", "VB"]
 					}
 				}
 			}		

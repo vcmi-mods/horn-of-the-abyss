@@ -1,32 +1,27 @@
 {
 	"core:flowers" : {
 		"types" : {
-			"hotaFlowers" : {
+			"object" : {
 				"templates" : {
-				
 					"swvflw01" : { "animation" : "flowers/swvflw01", 
-					"mask" : [ "VB" ], 
-                    "allowedTerrains": [ "swamp" ]
-					},
-					
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},				
 					"swvflw02" : { "animation" : "flowers/swvflw02", 
-					"mask" : [ "VB" ], 
-                    "allowedTerrains": [ "swamp" ]
-					},
-					
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},	
 					"swvflw03" : { "animation" : "flowers/swvflw03", 
-					"mask" : [ "VB" ], 
-                    "allowedTerrains": [ "swamp" ]
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
 					},
-					
 					"swvflw04" : { "animation" : "flowers/swvflw04",  
-					"mask" : [ "BB" ], 
-                    "allowedTerrains": [ "swamp" ]
-					},
-					
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "swamp" ]
+					},			
 					"swvflw05" : { "animation" : "flowers/swvflw05", 
-					"mask" : [ "VVVV" ,"VBBB" ], 
-                    "allowedTerrains": [ "swamp" ]
+						"mask" : [ "VVVV" ,"VBBB" ],
+						"allowedTerrains": [ "swamp" ]
 					}					
 				}
 			}		

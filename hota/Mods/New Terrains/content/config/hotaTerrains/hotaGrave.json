@@ -1,0 +1,32 @@
+{
+	"grave" : {
+		"handler":"configurable",
+		"name" : "Grave",
+		"types" : {
+			"object" : {
+				"name": "Grave (Digging gives 500-5000 gold, a random Treasure of Minor artifact, and -3 morale until the next battle.)",
+//				"rmg" : {
+//					"value"	: 500,
+//					"rarity" : 30
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
+				"onVisitedMessage": "{Grave}\r\n\r\nGrave Digging -3",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"avxgravw" : { "animation" : "grave/avxgravw", 
+						"mask" : [ "A" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ], //disabled for not spawning at random maps
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}		
+}

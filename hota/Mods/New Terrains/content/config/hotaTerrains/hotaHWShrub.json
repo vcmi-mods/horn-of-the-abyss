@@ -1,7 +1,7 @@
 {
 	"core:shrub" :{
 		"types" : {		
-			"hotaHWShrub" : {
+			"object" : {
 				"templates" : {	
 
 					"AVlshl00" : { "animation" : "shrub/AVlshl00", 

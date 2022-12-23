@@ -2,6 +2,15 @@
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "https://slack.vcmi.eu/",
 	"description" : "This option enables new terrains added by HotA Crew.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Mechanical",
+	"name" : "New terrains",
+	"version" : "1.1.0",
+	"compatibility" :
+	{
+		"min" : "1.1.0"
+	},
 	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
 	"objects" : [
 		"config/hotaTerrains/hotaHWLakes",
@@ -14,6 +23,7 @@
 		"config/hotaTerrains/hotaCrater",
 		"config/hotaTerrains/hotaHole",
 		"config/hotaTerrains/hotaHWMines",
+		"config/hotaTerrains/hotaHillForts",
 		"config/hotaTerrains/hotaWHAbandonedMine",
 		"config/hotaTerrains/churchyardHL",
 		"config/hotaTerrains/ruins",
@@ -25,7 +35,14 @@
 		"config/hotaTerrains/hotaWTrees",
 		"config/hotaTerrains/hotaHWsigns",
 		"config/hotaTerrains/hotaGazebo",
-		"config/hotaTerrains/hotaDerrick"
+//		"config/hotaTerrains/hotaDerrick",
+//		"config/hotaTerrains/hotaTrailblazer", //doesn't work
+//		"config/hotaTerrains/hotaProspector", //doesn't work
+//		"config/hotaTerrains/hotaGrave", //doesn't work
+//		"config/hotaTerrains/hotaMineralSpring", //doesn't work
+//		"config/hotaTerrains/hotaWarlocksLab", //doesn't work
+//		"config/hotaTerrains/hotaHermitsShack" //doesn't work,
+//		"config/hotaTerrains/hotaJunkman //doesn't work
 	],
 	"battlefields":
 	[
@@ -34,14 +51,5 @@
 	"obstacles":
 	[
 		"config/hotaTerrains/obstacles.json"
-	],
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Mechanical",
-	"name" : "New terrains",
-	"version" : "1.1.0",
-	"compatibility" :
-	{
-		"min" : "1.1.0"
-	}
+	]
 }

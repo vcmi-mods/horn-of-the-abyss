@@ -1,0 +1,34 @@
+{
+	"observatory" : {
+		"handler":"configurable",
+		"name" : "Observatoryr",
+		"sounds" : {
+			"visit" : ["LIGHTHOUSE"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 750,
+//					"rarity" : 100
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Observatory}\r\n\r\n",
+				"onVisitedMessage": "{Observatory}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"avxwobs" : { "animation" : "observatory/avxwobs", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,7 +1,6 @@
 {
 	"core:conflux" :
 	{
-//		"nativeTerrain": "wasteland"
 		"nativeTerrain": "highlands"
 	}
 }

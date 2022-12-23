@@ -1,32 +1,32 @@
 {
 	"core:reef" :{
 		"types" : {		
-			"hotaReef" : {
+			"object" : {
 				"templates" : {
 				
 					"ZREEF1" : { "animation" : "reef/ZREEF1", 
-					"mask" : [ "BB" ], 
-                    "allowedTerrains": ["water" ]
+						"mask" : [ "BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
 					"ZREEF2" : { "animation" : "reef/ZREEF2", 
-					"mask" : [ "VB" ], 
-                    "allowedTerrains": ["water" ]
+						"mask" : [ "VB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
 					"ZREEF3" : { "animation" : "reef/ZREEF3", 
-					"mask" : [ "BV","BB" ], 
-                    "allowedTerrains": ["water" ]
+						"mask" : [ "BV","BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
 					"ZREEF4" : { "animation" : "reef/ZREEF4", 
-					"mask" : [ "VB","BB" ], 
-                    "allowedTerrains": ["water" ]
+						"mask" : [ "VB","BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
 					"ZREEF5" : { "animation" : "reef/ZREEF5", 
-					"mask" : [ "VVV","VBB","BBB" ],
-                    "allowedTerrains": ["water" ]
+						"mask" : [ "VVV","VBB","BBB" ],
+						"allowedTerrains": ["water" ]
 					}						
 				}
 			}			

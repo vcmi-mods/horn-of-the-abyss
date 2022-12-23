@@ -2,7 +2,7 @@
 	"name" : "Hota new objects",
 	"description" : "New objects that have the same properties as the old ones.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.4.3",
+	"version" : "1.5.1",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
@@ -15,6 +15,7 @@
 	[
 		"config/hotaAbandonedMine.json",
 		"config/hotaCorpse.json",
+		"config/hotaCrates.json",
 		"config/hotaFountainOfYouth.json",
 		"config/hotaMines.json",
 		"config/hotaSchoolOfMagic.json",
@@ -54,7 +55,7 @@
 		"config/hotaMound",
 		"config/hotaShrub",
 		"config/hotaDirtHills",
-		"config/hotaYuccaTrees", //only 3 of 6?
+		"config/hotaYuccaTrees",
 		"config/hotaLog",
 		"config/hotaPalms",
 		"config/hotaFence",
@@ -66,10 +67,16 @@
 		"config/hotaMonolithTwoWay",
 		"config/hotaMonolithOneWayEntrance",
 		"config/hotaMonolithOneWayExit",
-		"config/hotaWarehouses",
-		//"config/hotaAncientLamp",
-		"config/hotaColosseum",
-		//"config/hotaSeaBarrel"
+		"config/hotaBorderGates",
+		"config/hotaBorderGuards",
+		"config/hotaQuestGuard",
+		"config/hotaJetsam",
+		"config/hotaStones",
+		"config/hotaFires",
+		"config/hotaBridges",
+		"config/hotaWaterball",
+		"config/hotaBluebottle",
+		"config/hotaCampaignObject",
 	] 
 	
 }

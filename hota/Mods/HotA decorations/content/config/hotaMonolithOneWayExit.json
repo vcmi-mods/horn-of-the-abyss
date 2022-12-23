@@ -5,8 +5,8 @@
 				"index" : 1,
 				"templates" : {
 					"AVXmx1g0" : { "animation" : "monoliths/AVXmx1g0", 
-					"mask" : [ "V", "A" ],  
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "V", "A" ],  
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},
@@ -15,8 +15,8 @@
 				"index" : 2,
 				"templates" : {
 					"AVXMX1T0" : { "animation" : "monoliths/AVXMX1T0", 
-					"mask" : [ "V", "A" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}	
 				}			
 			},
@@ -25,8 +25,8 @@
 				"index" : 3,
 				"templates" : {
 					"AVXMX1V0" : { "animation" : "monoliths/AVXMX1V0", 
-					"mask" : [ "V", "A" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
@@ -35,8 +35,8 @@
 				"index" : 4,
 				"templates" : {	
 					"AVXmx1w0" : { "animation" : "monoliths/AVXmx1w0", 
-					"mask" : [ "V", "A" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}	

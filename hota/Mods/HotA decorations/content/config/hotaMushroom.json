@@ -1,7 +1,7 @@
 {
 	"core:mushrooms": {
 		"types" : {
-			"hotaMushroom" : {
+			"object" : {
 				"templates" : {
 
 					"AVLMS130" : { "animation" : "mushrooms/AVLMS130", 

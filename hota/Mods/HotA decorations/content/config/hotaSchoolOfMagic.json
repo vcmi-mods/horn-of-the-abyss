@@ -5,9 +5,9 @@
 				"templates" : {
 					"AVSSCHM1" : {
 						"animation" : "schoolOfMagic/AVSSCHM1",
-						"mask" : [ "VBV", "VBB", "VAB" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "water" ] 
+							"mask" : [ "VBV", "VBB", "VAB" ],
+							"visitableFrom" : [ "---", "-++", "+++" ],
+							"allowedTerrains": [ "water" ] 
 					}
 				}
 			}

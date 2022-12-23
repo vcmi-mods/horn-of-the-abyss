@@ -520,6 +520,8 @@
 				"imagePrefix" : "hota/siege/SGCV",
 				"moat" : { "bank" : { "x" : 414, "y" : 79 }, "moat" : { "x" : 434, "y" : 99 } },
 				"shooter" : "corsair",
+				"towerIconSmall" : "hota/icons/arrowtowerssmall",
+				"towerIconLarge" : "hota/icons/arrowtowerslarge",
 				"static" : {
 					"background" : { "x" : 582, "y" : 48 },
 					"bottom" : { "x" : 521, "y" : 356 },

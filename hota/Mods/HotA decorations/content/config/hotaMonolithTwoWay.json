@@ -6,8 +6,8 @@
 				"index" : 1,
 				"templates" : {
 					"AVXmn2b0" : { "animation" : "monoliths/AVXmn2b0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+							"mask" : [ "VV", "VA" ],
+							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
@@ -17,8 +17,8 @@
 				"index" : 2,
 				"templates" : {
 					"AVXmn2bl" : { "animation" : "monoliths/AVXmn2bl",
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}			
 				}	
 			},	
@@ -28,8 +28,8 @@
 				"index" : 3,
 				"templates" : {
 					"AVXMN2Pink0" : { "animation" : "monoliths/AVXMN2Pink0",  
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
@@ -39,8 +39,8 @@
 				"index" : 4,
 				"templates" : {
 					"AVXmn2rd" : { "animation" : "monoliths/AVXmn2rd", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					}
 				}	
 			},	
@@ -50,8 +50,8 @@
 				"index" : 5,
 				"templates" : {
 					"AVXMN2T0" : { "animation" : "monoliths/AVXMN2T0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
@@ -61,8 +61,8 @@
 				"index" : 6,
 				"templates" : {
 					"AVXMN2Y0" : { "animation" : "monoliths/AVXMN2Y0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
@@ -72,8 +72,8 @@
 				"index" : 7,
 				"templates" : {
 					"AVXmn20b" : { "animation" : "monoliths/AVXmn20b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "---", "++-", "+++" ]
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},	
@@ -83,8 +83,8 @@
 				"index" : 8,
 				"templates" : {					
 					"AVXmn9b0" : { "animation" : "monoliths/AVXmn9b0", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "---", "++-", "+++" ]
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},
@@ -94,8 +94,8 @@
 				"index" : 5,
 				"templates" : {
 					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "---", "++-", "+++" ]
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
@@ -105,8 +105,8 @@
 				"index" : 6,
 				"templates" : {
 					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "---", "++-", "+++" ]
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
@@ -116,8 +116,8 @@
 				"index" : 7,
 				"templates" : {
 					"AVXmn12b" : { "animation" : "monoliths/AVXmn12b", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
@@ -126,8 +126,8 @@
 				"index" : 8,
 				"templates" : {
 					"AVXmn19p" : { "animation" : "monoliths/AVXmn19p", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ]
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
@@ -136,8 +136,8 @@
 				"index" : 1,
 				"templates" : {
 					"AVXptw_0" : { "animation" : "monoliths/AVXptw_0", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
@@ -147,8 +147,8 @@
 				"index" : 2,
 				"templates" : {
 					"AVXptw_1" : { "animation" : "monoliths/AVXptw_1", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
@@ -158,8 +158,8 @@
 				"index" : 3,
 				"templates" : {
 					"AVXptw_2" : { "animation" : "monoliths/AVXptw_2", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
@@ -169,8 +169,8 @@
 				"index" : 4,
 				"templates" : {
 					"AVXptw_3" : { "animation" : "monoliths/AVXptw_3", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
@@ -181,8 +181,8 @@
 				"index" : 5,
 				"templates" : {	
 					"AVXMN9BW" : { "animation" : "monoliths/AVXMN9BW", 
-					"mask" : [ "VVV", "BAB" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
+						"mask" : [ "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
                      "allowedTerrains": [ "water" ]					
 					}
 				}	

@@ -1,0 +1,34 @@
+{
+	"prospector" : {
+		"handler":"configurable",
+		"name" : "Prospector",
+		"sounds" : {
+			"visit" : ["Expernce"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 500,
+//					"rarity" : 30
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Prospector}\r\n\r\n",
+				"onVisitedMessage": "{Prospector}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"avtprosp" : { "animation" : "prospector/avtprosp", 
+						"mask" : [ "VVVV", "VBAB" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,9 +1,9 @@
 {
 	"core:cactus" : {
 		"types" : {
-			"hotaHWCactus" : {
+			"object" : {
 
-			"templates" : {
+				"templates" : {
 				
 					"AVLwct01" : { "animation" : "cactus/AVLwct01", 
 					"mask" : [ "B" ], 

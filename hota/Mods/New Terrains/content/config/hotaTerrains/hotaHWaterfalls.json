@@ -1,7 +1,7 @@
 {
 	"core:mountain" : {
 		"types" : {
-			"hotaHighlandWaterfalls" : {
+			"hotaWaterfalls" : {
 				"name" : "Waterfall",
 				"rmg" : {
 					"zoneLimit" : 5

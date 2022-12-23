@@ -1,7 +1,7 @@
 {
 	"core:crater" : {
 		"types" : {
-			"hotaHWCraters" : {
+			"object" : {
 			"templates" : {
 				
 					"AVLcthl0" : { "animation" : "craters/AVLcthl0", 
@@ -30,7 +30,7 @@
 	
 	"core:canyon" : {
 		"types" : {
-			"hotaHWCanyons" : {
+			"object" : {
 			"templates" : {
 				
 					"AVLwcr04" : { "animation" : "craters/AVLwcr04", 

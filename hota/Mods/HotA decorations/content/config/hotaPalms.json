@@ -1,21 +1,21 @@
 {
-	"hotaPalms" : {
-	"name" : "Palms",
-	"handler": "static",
+	"palms" : {
+		"name" : "Palms",
+		"handler": "static",
 		"types" : {
-			"hotaPalms" : {
-			"templates" : {
+			"object" : {
+				"templates" : {
 					"AVLswn01" : { "animation" : "trees/AVLswn01",
 					"mask" : ["VBV","VBV"],
-                    "allowedTerrains": ["swamp"]
+					"allowedTerrains": ["swamp"]
 					},
 					"AVLswn02" : { "animation" : "trees/AVLswn02",
 					"mask" : ["VVVV","VBBV","BBBV","VBVV"],
-                    "allowedTerrains": ["swamp"]
+					"allowedTerrains": ["swamp"]
 					},
 					"AVLswn03" : { "animation" : "trees/AVLswn03",
 					"mask" : ["VBV","VBV","VBV","VBV"],
-                    "allowedTerrains": ["swamp"]
+					"allowedTerrains": ["swamp"]
 					}					
 				}
 			}			

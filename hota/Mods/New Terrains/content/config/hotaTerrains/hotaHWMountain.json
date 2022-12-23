@@ -1,8 +1,7 @@
 {
 	"core:mountain" : {
 		"types" : {
-			"hotaHighlandMountains" : {
-				"name" : "Mountain",
+			"object" : {
 				"templates" : {
 					"AVLMHS00" : { "animation" : "mountains/AVLMHS00", 
 					"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 		
@@ -32,13 +31,8 @@
 					"AVLMHS05" : { "animation" : "mountains/AVLMHS05", 
 					"mask" : [ "VVVVV", "VBBVV","VVBBV" ], 
                     "allowedTerrains": [ "highlands" ]
-					}			
-				}
-			},
-			
-			"hotaWastelandMountains" : {
-				"name" : "Mountain",
-				"templates" : {
+					},
+					
 					"AVLMtWL1" : { "animation" : "mountains/AVLMtWL1", 
 					"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ], 		
                     "allowedTerrains": [ "wasteland" ]

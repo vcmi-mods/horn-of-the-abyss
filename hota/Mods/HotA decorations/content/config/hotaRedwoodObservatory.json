@@ -1,7 +1,13 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"object" : {
+			"hotaObservationTower" : {
+				"name" : "Observation Tower",
+				"rmg" : {
+					"value"		: 750,
+					"rarity"	: 100,
+					"zoneLimit" : 1
+				},
 				"templates" : {
 					"avwtobtw" : {
 						"animation" : "redwoodObservatory/avwtobtw",

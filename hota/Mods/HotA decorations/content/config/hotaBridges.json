@@ -1,0 +1,36 @@
+{
+	"bridges" : {
+		"handler":"generic",
+		"name" : "Bridge",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"TPBRIDG1" : { "animation" : "bridges/TPBRIDG1", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"TPBRIDG2" : { "animation" : "bridges/TPBRIDG2", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"TPBRIDG3" : { "animation" : "bridges/TPBRIDG3", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"TPBRIDG4" : { "animation" : "bridges/TPBRIDG4", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"TPBRIDG5" : { "animation" : "bridges/TPBRIDG5", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					},
+					"TPBRIDG6" : { "animation" : "bridges/TPBRIDG6", 
+						"mask" : [ "VVV", "VVV", "VVV" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}		
+}

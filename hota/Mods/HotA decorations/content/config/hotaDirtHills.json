@@ -1,37 +1,37 @@
 {
 	"core:dirtHills" :{
 		"types" : {
-			"hotaDirtHills" : {
+			"object" : {
 				"templates" : {
 					
 					"avlndt01" : { "animation" : "dirtHills/avlndt01", 
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					},
 					
 					"avlndt02" : { "animation" : "dirtHills/avlndt02",  
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					},
 					
 					"avlndt03" : { "animation" : "dirtHills/avlndt03", 
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					},
 					
 					"avlndt04" : { "animation" : "dirtHills/avlndt04",  
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					},
 					
 					"avlndt05" : { "animation" : "dirtHills/avlndt05", 
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					},
 					
 					"avlndt06" : { "animation" : "dirtHills/avlndt06", 
-					"mask" : [ "VV","BB" ], 
-					"allowedTerrains": [ "dirt" ]
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
 					}					
 				}
 			}			
