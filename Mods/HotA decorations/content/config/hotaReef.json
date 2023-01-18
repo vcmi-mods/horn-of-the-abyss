@@ -1,32 +1,32 @@
 {
 	"core:reef" :{
 		"types" : {		
-			"hotaReef" : {
+			"object" : {
 				"templates" : {
 				
-					"ZREEF1" : { "animation" : "ZREEF1", 
-					"mask" : [ "BB" ], 
-                    "allowedTerrains": ["water" ]
+					"ZREEF1" : { "animation" : "reef/ZREEF1", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
-					"ZREEF2" : { "animation" : "ZREEF2", 
-					"mask" : [ "VB" ], 
-                    "allowedTerrains": ["water" ]
+					"ZREEF2" : { "animation" : "reef/ZREEF2", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
-					"ZREEF3" : { "animation" : "ZREEF3", 
-					"mask" : [ "BV","BB" ], 
-                    "allowedTerrains": ["water" ]
+					"ZREEF3" : { "animation" : "reef/ZREEF3", 
+						"mask" : [ "BV","BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
-					"ZREEF4" : { "animation" : "ZREEF4", 
-					"mask" : [ "VB","BB" ], 
-                    "allowedTerrains": ["water" ]
+					"ZREEF4" : { "animation" : "reef/ZREEF4", 
+						"mask" : [ "VB","BB" ], 
+						"allowedTerrains": ["water" ]
 					},
 					
-					"ZREEF5" : { "animation" : "ZREEF5", 
-					"mask" : [ "VVV","VBB","BBB" ],
-                    "allowedTerrains": ["water" ]
+					"ZREEF5" : { "animation" : "reef/ZREEF5", 
+						"mask" : [ "VVV","VBB","BBB" ],
+						"allowedTerrains": ["water" ]
 					}						
 				}
 			}			

@@ -1,38 +1,36 @@
 {
 	"core:garrisonHorizontal" : {
 		"types" : {
-			"hotaHorizontalGarrizon" : {
-				"index" : 0,
-				"sounds" : {
-					"ambient" : ["LOOPSWAR"]
-				},
-				"templates" : {			
-					"AVCGARW1" : { "animation" : "AVCGARW1", 
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-                    "allowedTerrains": [ "water" ]
+			"normal" : {
+				"templates" : {
+					"AVCGARW1" : {
+						"animation" : "garrizons/AVCGARW1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
 					},
 					
-					"avgtzab2" : { "animation" : "avgtzab2", 
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-					"allowedTerrains": [ "snow" ]
+					"avgtzab2" : {
+						"animation" : "garrizons/avgtzab2",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					},
 					
-					"avgtzab1" : { "animation" : "avgtzab1",
-					"mask" : [ "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-					"allowedTerrains": [ "dirt", "rough", "grass", "sand", "swamp", "subterra", "lava" ]
+					"avgtzab1" : {
+						"animation" : "garrizons/avgtzab1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
 					},
 					
-					"AVCGARE" : { "animation" : "AVCGARE", 
-					"mask" : [ "VVVV", "VBVB", "VBAB" ], 
-					"visitableFrom" : [ "+++", "-+-", "+++" ],
-					"allowedTerrains": [ "dirt", "rough", "grass", "sand", "swamp", "snow", "subterra", "lava" ]
+					"AVCGARE" : {
+						"animation" : "garrizons/AVCGARE",
+						"mask" : [ "VVVV", "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
 					}
 				}
-			}		
+			}
 		}
-	}		
+	}
 }
 

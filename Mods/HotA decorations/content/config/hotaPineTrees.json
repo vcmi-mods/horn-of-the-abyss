@@ -1,16 +1,64 @@
 {
 	"core:pineTrees" : {
 		"types" : {
-			"hotaPineTrees" : {
-			"templates" : {			
-					"avlpntr8" : { "animation" : "avlpntr8",  
-					"mask" : [ "VV","VB" ], 
-                    "allowedTerrains": [ "grass", "dirt" ]
+			"object" : {
+				"templates" : {			
+					"avlpntr8" : { "animation" : "pineTrees/avlpntr8",  
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},				
+					"avlpntr9" : { "animation" : "pineTrees/avlpntr9", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},				
+					"avlhspr0" : { "animation" : "pineTrees/avlhspr0", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr1" : { "animation" : "pineTrees/avlhspr1", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr8" : { "animation" : "pineTrees/avlhspr8", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr9" : { "animation" : "pineTrees/avlhspr9", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr2" : { "animation" : "pineTrees/avlhspr2", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr3" : { "animation" : "pineTrees/avlhspr3", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr4" : { "animation" : "pineTrees/avlhspr4", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr5" : { "animation" : "pineTrees/avlhspr5", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr6" : { "animation" : "pineTrees/avlhspr6", 
+						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr7" : { "animation" : "pineTrees/avlhspr7", 
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
 					},
 					
-					"avlpntr9" : { "animation" : "avlpntr9", 
-					"mask" : [ "VV","VB" ], 
-                    "allowedTerrains": [ "grass", "dirt" ]
+					"avlsntr8" : { "animation" : "pineTrees/avlsntr8", 
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					"avlsntr9" : { "animation" : "pineTrees/avlsntr9", 
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "snow" ]
 					}
 				}	
 			}					

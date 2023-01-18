@@ -1,0 +1,31 @@
+{
+	"miniHillFort" : {
+		"handler":"generic",
+		"name" : "Hill Fort",
+		"sounds" : {
+			"ambient" : ["LOOPSWAR"],
+			"visit" : ["MILITARY"]
+		},
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"value"	: 7000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
+				"templates" : {
+					"minifthl" : { "animation" : "hillFort/minifthl", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"miniftws" : { "animation" : "hillFort/miniftws", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}		
+}

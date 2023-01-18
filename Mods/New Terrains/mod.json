@@ -1,0 +1,65 @@
+{
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "https://slack.vcmi.eu/",
+	"description" : "This option enables new terrains added by HotA Crew.",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Mechanical",
+	"name" : "New terrains",
+	"version" : "1.2.0",
+	"changelog" :
+	{
+		"1.2.0"   : [ "Mod rewritten for new format" ],
+		"1.1.0"   : [ "Some map objects added and special terrains" ],
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
+	"objects" : [
+		"config/hotaTerrains/hotaHWLakes",
+		"config/hotaTerrains/hotaHWMountain",
+		"config/hotaTerrains/hotaHWaterfalls",
+		"config/hotaTerrains/hotaHFlowers",
+		"config/hotaTerrains/hotaPuddles",
+		"config/hotaTerrains/hotaSpruces",
+		"config/hotaTerrains/hotaStones",
+		"config/hotaTerrains/hotaCrater",
+		"config/hotaTerrains/hotaHole",
+		"config/hotaTerrains/hotaHWMines",
+		"config/hotaTerrains/hotaHillForts",
+		"config/hotaTerrains/hotaWHAbandonedMine",
+		"config/hotaTerrains/churchyardHL",
+		"config/hotaTerrains/ruins",
+		"config/hotaTerrains/obeliskOrange",
+		"config/hotaTerrains/hotaHWShrub",
+		"config/hotaTerrains/hotaHWCactus",
+		"config/hotaTerrains/hotaWHBones",
+		"config/hotaTerrains/hotaWDeadVegetation",
+		"config/hotaTerrains/hotaWTrees",
+		"config/hotaTerrains/hotaHWsigns",
+		"config/hotaTerrains/hotaGazebo",
+//		"config/hotaTerrains/hotaDerrick",
+//		"config/hotaTerrains/hotaTrailblazer", //doesn't work
+//		"config/hotaTerrains/hotaProspector", //doesn't work
+//		"config/hotaTerrains/hotaGrave", //doesn't work
+//		"config/hotaTerrains/hotaMineralSpring", //doesn't work
+//		"config/hotaTerrains/hotaWarlocksLab", //doesn't work
+//		"config/hotaTerrains/hotaHermitsShack" //doesn't work,
+//		"config/hotaTerrains/hotaJunkman //doesn't work
+	],
+	"battlefields":
+	[
+		"config/hotaTerrains/battlefields.json"
+	],
+	"obstacles":
+	[
+		"config/hotaTerrains/obstacles.json"
+	],
+	"terrains" :
+	[
+		"config/hotaTerrains/terrains.json"
+	]
+}

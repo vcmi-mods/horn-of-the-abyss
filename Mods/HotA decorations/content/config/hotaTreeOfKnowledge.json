@@ -1,18 +1,13 @@
 {
 	"core:treeOfKnowledge"	: {
 		"types" : {
-			"treeOfKnowledge" : {
-				"aiValue" : 2500,
-				"rmg" : {
-					"mapLimit"	: 32,
-					"value"		: 2500,
-					"rarity"	: 50
-				},
+			"object" : {
 				"templates" : {
-					"AVXtrkS0" : { "animation" : "AVXtrkS0", 
-					"mask" : [ "VBV","VBV","VAV" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
-					"allowedTerrains": [ "snow" ]
+					"AVXtrkS0" : {
+						"animation" : "treeOfKnowledge/AVXtrkS0", 
+						"mask" : [ "VBV","VBV","VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}

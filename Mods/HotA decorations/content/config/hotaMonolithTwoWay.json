@@ -1,193 +1,176 @@
 {
 	"core:monolithTwoWay" : {	
-		"index": 45,	
-		"handler": "monolith",
 		"types" : {				
 			"hotaMonoliths01" : { 
 				"name" : "Black Two Way Monolith",
-				"index" : 9,
-//				"rmg" : {
-//					"mapLimit"	: 30
-//				},
+				"index" : 1,
 				"templates" : {
-					"AVXmn2b0" : { "animation" : "AVXmn2b0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn2b0" : { "animation" : "monoliths/AVXmn2b0", 
+							"mask" : [ "VV", "VA" ],
+							"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
 				
 			"hotaMonoliths02" : { 
 				"name" : "Blue Two Way Monolith",
-				"index" : 10,
+				"index" : 2,
 				"templates" : {
-					"AVXmn2bl" : { "animation" : "AVXmn2bl",
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn2bl" : { "animation" : "monoliths/AVXmn2bl",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}			
 				}	
 			},	
 			
 			"hotaMonoliths03" : { 
 				"name" : "Pink Two Way Monolith",
-				"index" : 11,
+				"index" : 3,
 				"templates" : {
-					"AVXMN2Pink0" : { "animation" : "AVXMN2Pink0",  
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXMN2Pink0" : { "animation" : "monoliths/AVXMN2Pink0",  
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
 			
 			"hotaMonoliths04" : { 
 				"name" : "Red Two Way Monolith",
-				"index" : 12,
+				"index" : 4,
 				"templates" : {
-					"AVXmn2rd" : { "animation" : "AVXmn2rd", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn2rd" : { "animation" : "monoliths/AVXmn2rd", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					}
 				}	
 			},	
 			
 			"hotaMonoliths05" : { 
 				"name" : "Turquoise Two Way Monolith",
-				"index" : 13,
+				"index" : 5,
 				"templates" : {
-					"AVXMN2T0" : { "animation" : "AVXMN2T0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXMN2T0" : { "animation" : "monoliths/AVXMN2T0", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}	
 			},	
 			
 			"hotaMonoliths06" : { 
 				"name" : "Yellow Two Way Monolith",
-				"index" : 14,
+				"index" : 6,
 				"templates" : {
-					"AVXMN2Y0" : { "animation" : "AVXMN2Y0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXMN2Y0" : { "animation" : "monoliths/AVXMN2Y0", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
 			
 			"hotaMonoliths07" : { 
 				"name" : "Blue Two Way Portal",
-				"index" : 15,
+				"index" : 7,
 				"templates" : {
-					"AVXmn20b" : { "animation" : "AVXmn20b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn20b" : { "animation" : "monoliths/AVXmn20b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},	
 			
 			"hotaMonoliths08" : { 
 				"name" : "Chartreuse Two Way Portal",
-				"index" : 16,
+				"index" : 8,
 				"templates" : {					
-					"AVXmn9b0" : { "animation" : "AVXmn9b0", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn9b0" : { "animation" : "monoliths/AVXmn9b0", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}	
 			},
 			
 			"hotaMonoliths09" : { 
 				"name" : "Turquoise Two Way Portal",
-				"index" : 17,
+				"index" : 5,
 				"templates" : {
-					"AVXmn10b" : { "animation" : "AVXmn10b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
 
 			"hotaMonoliths10" : { 
 				"name" : "Violet Two Way Portal",
-				"index" : 18,
+				"index" : 6,
 				"templates" : {
-					"AVXmn10b" : { "animation" : "AVXmn10b", 
-					"mask" : [ "VV", "AB" ],
-					"visitableFrom" : [ "+++", "+--", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
 					}
 				}
 			},
 			
 			"hotaMonoliths11" : {
 				"name" : "Orange Two Way Portal",			
-				"index" : 19,
+				"index" : 7,
 				"templates" : {
-					"AVXmn12b" : { "animation" : "AVXmn12b", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]					
+					"AVXmn12b" : { "animation" : "monoliths/AVXmn12b", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
 						
 			"hotaMonoliths12" : { 
-				"index" : 20,
+				"index" : 8,
 				"templates" : {
-					"AVXmn19p" : { "animation" : "AVXmn19p", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
-//					"allowedTerrains": [ "dirt", "grass", "rough", "snow", "lava", "subterra", "swamp", "sand" ]
+					"AVXmn19p" : { "animation" : "monoliths/AVXmn19p", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			},
 
 			"hotaMonoliths13" : { 
-				"index" : 21,
+				"index" : 1,
 				"templates" : {
-					"AVXptw_0" : { "animation" : "AVXptw_0", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXptw_0" : { "animation" : "monoliths/AVXptw_0", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
 			},
 
 			"hotaMonoliths14" : { 
-				"index" : 22,
+				"index" : 2,
 				"templates" : {
-					"AVXptw_1" : { "animation" : "AVXptw_1", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXptw_1" : { "animation" : "monoliths/AVXptw_1", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
 			},
 			
 			"hotaMonoliths15" : { 
-				"index" : 23,
+				"index" : 3,
 				"templates" : {
-					"AVXptw_2" : { "animation" : "AVXptw_2", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXptw_2" : { "animation" : "monoliths/AVXptw_2", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
 			},
 			
 			"hotaMonoliths16" : { 
-				"index" : 24,
+				"index" : 4,
 				"templates" : {
-					"AVXptw_3" : { "animation" : "AVXptw_3", 
-					"mask" : [ "VVV", "VVV", "BAB" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXptw_3" : { "animation" : "monoliths/AVXptw_3", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					"allowedTerrains": [ "water" ]
 					}
 				}
@@ -195,11 +178,11 @@
 			
 			"hotaMonolithsWater" : {
 				"name" : "Water Two Way Portal",
-				"index" : 25,
+				"index" : 5,
 				"templates" : {	
-					"AVXMN9BW" : { "animation" : "AVXMN9BW", 
-					"mask" : [ "VVV", "BAB" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXMN9BW" : { "animation" : "monoliths/AVXMN9BW", 
+						"mask" : [ "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
                      "allowedTerrains": [ "water" ]					
 					}
 				}	

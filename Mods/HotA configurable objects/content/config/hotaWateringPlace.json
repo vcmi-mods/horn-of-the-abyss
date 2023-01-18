@@ -1,0 +1,36 @@
+{
+	"wateringPlace" : {
+		"handler":"configurable",
+		"name" : "Watering Place",
+		"sounds" : {
+			"visit" : ["STORE"]
+		},
+		"types" : {
+			"object" : {
+//				"aiValue" : 3000,
+//				"rmg" : {
+//					"value"		: 500,
+//					"rarity" 	: 50,
+//					"zoneLimit" : 1
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Watering Place}\r\n\r\n",
+				"onVisitedMessage": "{Watering Place}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"avwtplce" : { "animation" : "wateringPlace/avwtplce", 
+						"mask" : [ "VV", "VA" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "rough"]
+					}
+				}
+			}
+		}
+	}		
+}

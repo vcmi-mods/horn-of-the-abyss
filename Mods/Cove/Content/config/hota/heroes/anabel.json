@@ -1,5 +1,5 @@
 {
-	"anabel" : {
+	"06anabel" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "pirate", "max" : 7, "min" : 4 },

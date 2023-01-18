@@ -1,0 +1,79 @@
+{
+	"hotaPuddles" : {
+		"handler" : "static",
+		"name" : "Puddle",
+//highlands puddles
+		"types" : {
+			"hotaPuddle" : {
+				"sounds": {
+
+				},
+				"templates" : {
+				
+					"avlhml00" : { "animation" : "puddles/avlhml00", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml01" : { "animation" : "puddles/avlhml01", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml02" : { "animation" : "puddles/avlhml02", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml03" : { "animation" : "puddles/avlhml03", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml04" : { "animation" : "puddles/avlhml04", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhml05" : { "animation" : "puddles/avlhml05", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlhml06" : { "animation" : "puddles/avlhml06", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+
+					"avlhml07" : { "animation" : "puddles/avlhml07", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "highlands" ]
+					}					
+				}
+			}		
+		}
+	},
+	
+	"hotaLPuddles" : {
+		"handler" : "static",
+		"name" : "Limestone Puddle",
+//highlands puddles
+		"types" : {
+			"hotaLPuddle" : {
+				"templates" : {
+				
+					"AVLwml00" : { "animation" : "puddles/AVLwml00", 
+					"mask" : [ "V" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}	
+		}
+	}					
+}
+	
+	
+	
+
+
+	

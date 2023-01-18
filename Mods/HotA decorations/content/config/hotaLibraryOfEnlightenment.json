@@ -1,22 +1,17 @@
 {
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"libraryOfEnlightenment" : {
-				"aiValue" : 12000,
-				"rmg" : {
-					"value"		: 12000,
-					"rarity"	: 20,
-					"mapLimit"	: 32
-				},
-				"templates" : {				
-					"AVSlibS0" : { "animation" : "AVSlibS0", 
-					"mask" : [ "VVVVV", "VBBBB", "VBBAB" ],
-					"visitableFrom" : [ "---", "-+-", "+++" ],					
-					"allowedTerrains": [ "snow" ]
+			"object" : {
+				"templates" : {
+					"AVSlibS0" : {
+						"animation" : "libraryOfEnlightenment/AVSlibS0",
+						"mask" : [ "VVVVV", "VBBBB", "VBBAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}
 		}
-	}		
+	}
 }
 

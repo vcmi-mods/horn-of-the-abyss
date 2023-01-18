@@ -1,0 +1,107 @@
+{
+	"specialClone" : 
+	{
+		"type": "combat",
+		"name": "Special Clone",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": true
+		},	
+		"targetType" : "CREATURE",
+		"level": 4,
+		"power": 0,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{
+			"cast":[2]
+		},
+		"flags" : {
+			"positive": true,
+			"special": true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute"
+			}
+		},
+		"sounds": {
+			"cast": "CLONE"
+		},
+		"graphics":
+		{
+			"iconImmune":"hota/spells/specialCloneSpell.bmp",
+			"iconScenarioBonus": "hota/spells/specialCloneSpell.bmp",
+			"iconEffect": "hota/spells/specialCloneSpell.bmp",
+			"iconBook": "hota/spells/specialCloneSpell.bmp",
+			"iconScroll": "hota/spells/specialCloneSpell.bmp"
+ 
+		},	
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"battleEffects":{
+					"clone1":{
+						"maxTier":5,
+						"type":"core:clone"
+					},
+					
+					"clone2":{
+						"maxTier":5,
+						"type":"core:clone"
+					}
+				},
+				"targetModifier":{"smart":true},
+				"power": 10,
+				"aiValue": 20,
+				"cost" : 36,
+				"description": "{Specialist's Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nClones creatures of levels 1-5.\n"
+			},
+			"none":
+			{	 
+			},
+			"basic":
+			{	 
+				"cost" : 32,
+				"description": "{Specialist's Basic Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nClones creatures of levels 1-5.\n"
+
+			},
+			"advanced":
+			{	
+				"cost" : 32,
+				"description": "{Specialist's Advanced Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nClones creatures of levels 1-6.\n",
+				"battleEffects":{
+					"clone1":{
+						"maxTier":6,
+						"type":"core:clone"
+					},
+					
+					"clone2":{
+						"maxTier":6,
+						"type":"core:clone"
+					}
+				}
+			},
+			"expert":
+			{
+				"cost" : 32,
+				"description": "{Specialist's Expert Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nClones creatures of any level.\n",
+				"battleEffects":{
+					"clone1":{
+						"maxTier":1000,
+						"type":"core:clone"
+					},
+					
+					"clone2":{
+						"maxTier":1000,
+						"type":"core:clone"
+					}
+				}
+			}
+		}
+	}
+}

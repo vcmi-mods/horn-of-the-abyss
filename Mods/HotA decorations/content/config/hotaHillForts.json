@@ -1,0 +1,61 @@
+{
+	"miniHillFort" : {
+		"handler":"generic",
+		"name" : "Hill Fort",
+		"sounds" : {
+			"ambient" : ["LOOPSWAR"],
+			"visit" : ["MILITARY"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 7000,
+//					"rarity" : 20,
+//					"zoneLimit" : 1
+//				},
+				"templates" : {
+					"minifort" : { "animation" : "hillFort/minifort", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "grass" ]
+					},
+					"miniftdr" : { "animation" : "hillFort/miniftdr", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "dirt" ]
+					},
+					"miniftlv" : { "animation" : "hillFort/miniftlv", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"miniftrg" : { "animation" : "hillFort/miniftrg", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "rough" ]
+					},
+					"miniftsb" : { "animation" : "hillFort/miniftdr", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "subterra" ]
+					},
+					"miniftsd" : { "animation" : "hillFort/miniftsd", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"miniftsn" : { "animation" : "hillFort/miniftsn", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					"miniftsw" : { "animation" : "hillFort/miniftsw", 
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	}		
+}

@@ -1,5 +1,5 @@
 {
-	"eovacius" : {
+	"10eovacius" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
@@ -19,11 +19,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"clone" : {
-					"addInfo" : 0,
-					"subtype" : "spell.clone",
-					"type" : "SPECIAL_BLESS_DAMAGE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+					"subtype" : "spell.specialClone",
+					"type" : "SPELL"
 				}
 			}
 		},

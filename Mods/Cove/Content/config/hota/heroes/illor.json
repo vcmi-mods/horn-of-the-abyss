@@ -1,5 +1,5 @@
 {
-	"illor" : {
+	"03illor" : {
 		"army" : [
 			{ "creature" : "nymph", "max" : 30, "min" : 20 },
 			{ "creature" : "stormbird", "max" : 5, "min" : 3 },

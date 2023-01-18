@@ -1,0 +1,9 @@
+{
+	"name" : "Cove theme",
+	"description" : "Orchestral tracks of Heroes III towns and combat, arranged by Heroes Orchestra",
+	"version" : "1.0",
+	"author" : "Heroes Orchestra",
+	"contact" : "",
+	"modType" : "Music",
+	"depends" : [ "hota.cove" ]
+}

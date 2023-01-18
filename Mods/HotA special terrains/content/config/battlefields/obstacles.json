@@ -1,0 +1,147 @@
+{
+	"ob_ci001":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["cracked_ice"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/crackedIce/ob_ci001.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_ci002":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["cracked_ice"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/crackedIce/ob_ci002.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_ci003":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["cracked_ice"],
+		"width" : 4,
+		"height" : 2,
+		"blockedTiles" :  [1, 2, 3],
+		"animation" : "obstacles/crackedIce/ob_ci003.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	
+	"ob_du001":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["dunes"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/dunes/ob_du001.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_du002":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["dunes"],
+		"width" : 4,
+		"height" : 2,
+		"blockedTiles" :  [0, 1, 2, 3],
+		"animation" : "obstacles/dunes/ob_du002.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_du003":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["dunes"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/dunes/ob_du003.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_du004":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["dunes"],
+		"width" : 3,
+		"height" : 2,
+		"blockedTiles" :  [0, 1, 2],
+		"animation" : "obstacles/dunes/ob_du004.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	
+	"ob_fg001":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 216,
+		"height" : 266,
+		"blockedTiles" :  [72, 90, 91, 92, 93, 94, 111],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg001.bmp",
+		"unknown" : 1,
+		"absolute" : true
+	},
+	"ob_fg002":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 2,
+		"height" : 1,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg002.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_fg003":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 6,
+		"height" : 3,
+		"blockedTiles" :  [0, 1, 2, 3, -13, -12],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg003.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_fg004":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [1],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg004.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_fg005":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" :  [0, 1],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg005.def",
+		"unknown" : 1,
+		"absolute" : false
+	},
+	"ob_fg006":
+	{
+		"allowedTerrains" : [],
+		"specialBattlefields" : ["fields_of_glory"],
+		"width" : 3,
+		"height" : 2,
+		"blockedTiles" :  [1, 2, -16],
+		"animation" : "obstacles/fieldsOfGlory/ob_fg006.def",
+		"unknown" : 1,
+		"absolute" : false
+	}
+}

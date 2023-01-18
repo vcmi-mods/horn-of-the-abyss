@@ -1,14 +1,15 @@
 {
 	"core:learningStone"	: {
 		"types" : {
-			"learningStone" : {
+			"object" : {
 				"templates" : {
-					"AVSgzbS0" : { "animation" : "AVSgzbS0", 
-					"mask" : [ "VV", "VA" ], 
-					"visitableFrom" : [ "---", "+++", "+++" ],
-					"allowedTerrains": [ "snow" ]
-					}	
-				}					
+					"AVSgzbS0" : {
+						"animation" : "learningStone/AVSgzbS0",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
 			}
 		}
 	}

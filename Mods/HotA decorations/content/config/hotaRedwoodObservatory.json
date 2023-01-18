@@ -1,19 +1,20 @@
 {
 	"core:redwoodObservatory"	: {
 		"types" : {
-			"redwoodObservatory" : {
-			"aiValue" : 750,
+			"hotaObservationTower" : {
+				"name" : "Observation Tower",
 				"rmg" : {
-					"zoneLimit"	: 1,
 					"value"		: 750,
-					"rarity"	: 100
+					"rarity"	: 100,
+					"zoneLimit" : 1
 				},
-				"templates" : {				
-					"avwtobtw" : { "animation" : "avwtobtw", 
+				"templates" : {
+					"avwtobtw" : {
+						"animation" : "redwoodObservatory/avwtobtw",
 						"mask" : [ "VBV","VBV","VBA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
-					}			
+					}
 				}
 			}
 		}

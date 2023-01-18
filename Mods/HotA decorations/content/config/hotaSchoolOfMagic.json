@@ -1,20 +1,15 @@
 {
 	"core:schoolOfMagic" : {
 		"types" : {
-			"schoolOfMagic" : {
-				"aiValue" : 1000,
-				"rmg" : {
-					"value"		: 1000,
-					"rarity"	: 50,
-					"mapLimit"	: 32
-				},
+			"object" : {
 				"templates" : {
-					"AVSSCHM1" : { "animation" : "AVSSCHM1", 
-					"mask" : [ "VBV", "VBB", "VAB" ], 
-					"visitableFrom" : [ "---", "-++", "+++" ],
-					"allowedTerrains": [ "water" ] 
+					"AVSSCHM1" : {
+						"animation" : "schoolOfMagic/AVSSCHM1",
+							"mask" : [ "VBV", "VBB", "VAB" ],
+							"visitableFrom" : [ "---", "-++", "+++" ],
+							"allowedTerrains": [ "water" ] 
 					}
-				}	
+				}
 			}
 		}
 	}

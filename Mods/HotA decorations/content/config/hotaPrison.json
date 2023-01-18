@@ -3,15 +3,14 @@
 		"types" : {
 			"prison" : {
 				"templates" : {	
-					"avwtprsn" : { "animation" : "avwtprsn", 
+					"avwtprsn" : { "animation" : "prison/avwtprsn", 
 						"mask" : [ "VVVV","VVBV","VBAB" ], 
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": [ "water" ]
 					},
-					"AVXprsn1" : { "animation" : "AVXprsn1", 
+					"AVXprsn1" : { "animation" : "prison/AVXprsn1", 
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-//						"allowedTerrains":[ "grass", "dirt", "swamp", "lava", "subterra", "sand", "rough" ]
 					}
 				}
 			}

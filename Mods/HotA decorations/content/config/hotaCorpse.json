@@ -1,25 +1,23 @@
 {
 	"core:corpse" :{	
 		"types" : {	
-			"corpse" : {
-				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 100
-				},
+			"object" : {
 				"templates" : {
-					"AVXskds1" : { "animation" : "AVXskds1", 
-					"mask" : [ "BA"], 
-					"visitableFrom" : [ "+++", "-++", "+++" ],
-					"allowedTerrains": [ "sand" ]
+					"AVXskds1" : {
+						"animation" : "corpse/AVXskds1",
+						"mask" : [ "BA"],
+						"visitableFrom" : [ "+++", "-++", "+++" ],
+						"allowedTerrains": [ "sand" ]
 					},
 					
-					"AVXskds2" : { "animation" : "AVXskds2",
-					"visitableFrom" : [ "+++", "+++", "+++" ],					
-					"mask" : [ "VA" ], 
-					"allowedTerrains": [ "sand" ]
-					}					
+					"AVXskds2" : {
+						"animation" : "corpse/AVXskds2",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "VA" ],
+						"allowedTerrains": [ "sand" ]
+					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }

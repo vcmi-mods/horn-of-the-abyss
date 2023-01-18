@@ -1,0 +1,90 @@
+{
+	"core:trees" : {
+		"types" : {
+			"hotaHighlandsSpruces" : {
+				"name" : "Spruces",
+				"templates" : {
+
+					"avlhpn00" : { "animation" : "spruces/avlhpn00", 
+					"mask" : ["VV","VB"], 
+					"allowedTerrains": ["highlands"]						
+					},
+					
+					"avlhpn01" : { "animation" : "spruces/avlhpn01", 
+					"mask" : ["VV","VB"], 
+					"allowedTerrains": ["highlands"]						
+					},
+					
+					"avlhpn02" : { "animation" : "spruces/avlhpn02", 
+					"mask" : ["VV","VB"], 
+					"allowedTerrains": ["highlands"]						
+					},
+					
+					"avlhpn04" : { "animation" : "spruces/avlhpn04", 
+					"mask" : ["VV","VB"], 
+					"allowedTerrains": ["highlands"]						
+					},
+					
+					"avlhpn05" : { "animation" : "spruces/avlhpn05", 
+					"mask" : ["VVV","VBV"], 
+					"allowedTerrains": ["highlands"]						
+					},
+
+					"avlhpn06" : { "animation" : "spruces/avlhpn06", 
+					"mask" : ["VVV","VBV", "VBV"], 
+					"allowedTerrains": ["highlands"]						
+					},
+
+					"avlhpn07" : { "animation" : "spruces/avlhpn07", 
+					"mask" : ["VVVVV","VVBBV", "VBBVV"], 
+					"allowedTerrains": ["highlands"]						
+					},
+
+					"avlhpn08" : { "animation" : "spruces/avlhpn08", 
+					"mask" : ["VVVVV","VVBBV", "VBBVV"], 
+					"allowedTerrains": ["highlands"]						
+					},
+
+					"avlhpn09" : { "animation" : "spruces/avlhpn09", 
+					"mask" : ["VVVVV","VBBVV", "VVBBV"], 
+					"allowedTerrains": ["highlands"]
+					},
+
+					"avlhpn10" : { "animation" : "spruces/avlhpn10", 
+					"mask" : ["VVVVV","VBBVV", "VVBBV"], 
+					"allowedTerrains": ["highlands"]						
+					},	
+
+					"avlhpn11" : { "animation" : "spruces/avlhpn11", 
+					"mask" : ["VVVVV","VBBVV", "VBBBV", "VVBBV"], 
+					"allowedTerrains": ["highlands"]						
+					},
+
+					"avlhpn12" : { "animation" : "spruces/avlhpn12", 
+					"mask" : ["VVVVV","VVBBV", "VVBBBV", "VBBVV"], 
+					"allowedTerrains": ["highlands"]
+					},
+
+					"avlhpn13" : { "animation" : "spruces/avlhpn13", 
+					"mask" : ["VVV","VBV"], 
+					"allowedTerrains": ["highlands"]						
+					}			
+				}
+			},
+		
+			"hotaHighlandsTree" : {
+				"name" : "Trees",
+				"templates" : {
+					"avlhpn03" : { "animation" : "spruces/avlhpn03", 
+					"mask" : ["VV","VB"], 
+					"allowedTerrains": ["highlands"]
+					}
+				}
+			}
+		}
+	}	
+}	
+	
+
+
+	

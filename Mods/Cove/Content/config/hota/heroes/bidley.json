@@ -6,6 +6,7 @@
 			{ "creature" : "seadog", "max" : 3, "min" : 1 }
 		],
 		"class" : "captain",
+		"special" : true,
 		"images" : {
 			"large" : "hota/heroes/bidley/portraitlarge.png",
 			"small" : "hota/heroes/bidley/portraitsmall.png",

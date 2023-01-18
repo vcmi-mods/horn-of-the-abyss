@@ -1,41 +1,41 @@
 {
-	"hotaRubble" : {
-	"handler": "static",
-	"name" : "Rubble",
-	"types" : {
-		"hotaRubble" : {
-			"base" : { "allowedTerrains": [ "water" ]		
-			},
-			"templates" : {
-					"AVLpilr0" : { "animation" : "AVLpilr0",
+	"rubble" : {
+		"handler": "static",
+		"name" : "Rubble",
+		"types" : {
+			"object" : {
+				"base" : { "allowedTerrains": [ "water" ]		
+				},
+				"templates" : {
+					"AVLpilr0" : { "animation" : "rubble/AVLpilr0",
 					"mask" : [ "VV", "VB" ]
 					},
 					
-					"AVLpilr1" : { "animation" : "AVLpilr1", 
+					"AVLpilr1" : { "animation" : "rubble/AVLpilr1", 
 					"mask" : [ "VV", "VB" ]
 					},
 					
-					"AVLpilr2" : { "animation" : "AVLpilr2",
+					"AVLpilr2" : { "animation" : "rubble/AVLpilr2",
 					"mask" : [ "VV", "VV", "VB" ]
 					},
 					
-					"AVLpilr3" : { "animation" : "AVLpilr3",
+					"AVLpilr3" : { "animation" : "rubble/AVLpilr3",
 					"mask" : [ "VV", "VB" ]
 					},
 					
-					"AVLpilr4" : { "animation" : "AVLpilr4",
+					"AVLpilr4" : { "animation" : "rubble/AVLpilr4",
 					"mask" : [ "VVVV", "VVVV", "VBBB" ]
 					},
 					
-					"AVLpilr5" : { "animation" : "AVLpilr5", 
+					"AVLpilr5" : { "animation" : "rubble/AVLpilr5", 
 					"mask" : [ "B" ]
 					},
 					
-					"AVLpilr6" : { "animation" : "AVLpilr6",
+					"AVLpilr6" : { "animation" : "rubble/AVLpilr6",
 					"mask" : [ "B" ]
 					},
 					
-					"AVLpilr7" : { "animation" : "AVLpilr7", 
+					"AVLpilr7" : { "animation" : "rubble/AVLpilr7", 
 					"mask" : [ "VB" ]
 					}			
 				}

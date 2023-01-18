@@ -3,35 +3,30 @@
 		"types" : {
 			"hotaBarchanDunes" : {
 			"name" : "Barchan Dunes",
-			"templates" : {
-					"AVLmtdn1" : { "animation" : "AVLmtdn1",  
-					"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VVVBBB"],
-                    "allowedTerrains": [ "sand" ]
-					},						
-					
-					"AVLmtdn2" : { "animation" : "AVLmtdn2", 					 
-					"mask" : [ "VVBBBV", "VBBBBB","VBBBBB","VBBBVV"], 
-                    "allowedTerrains": [ "sand" ]
+				"templates" : {
+					"AVLmtdn1" : { "animation" : "dunes/AVLmtdn1",  
+						"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VVVBBB"],
+						"allowedTerrains": [ "sand" ]
+					},							
+					"AVLmtdn2" : { "animation" : "dunes/AVLmtdn2", 					 
+						"mask" : [ "VVBBBV", "VBBBBB","VBBBBB","VBBBVV"],
+						"allowedTerrains": [ "sand" ]
+					},			
+					"AVLmtdn3" : { "animation" : "dunes/AVLmtdn3", 					 
+						"mask" : [ "VBBV","VBBB", "VVBB"],
+						"allowedTerrains": [ "sand" ]
+					},				
+					"AVLmtdn4" : { "animation" : "dunes/AVLmtdn4", 
+						"mask" : [ "VVBB","VBBB", "VBBV"],
+						"allowedTerrains": [ "sand" ]
 					},
-					
-					"AVLmtdn3" : { "animation" : "AVLmtdn3", 					 
-					"mask" : [ "VBBV","VBBB", "VVBB"], 
-                    "allowedTerrains": [ "sand" ]
-					},
-					
-					"AVLmtdn4" : { "animation" : "AVLmtdn4", 
-					"mask" : [ "VVBB","VBBB", "VBBV"], 
-                    "allowedTerrains": [ "sand" ]
-					},
-					
-					"AVLmtdn5" : { "animation" : "AVLmtdn5", 
-					"mask" : [ "VBBV","VVBB"], 
-                    "allowedTerrains": [ "sand" ]
-					},					
-					
-					"AVLmtdn6" : { "animation" : "AVLmtdn6",  
-					"mask" : [ "VVBB","VBBV"], 
-                    "allowedTerrains": [ "sand" ]
+					"AVLmtdn5" : { "animation" : "dunes/AVLmtdn5", 
+						"mask" : [ "VBBV","VVBB"],
+						"allowedTerrains": [ "sand" ]
+					},									
+					"AVLmtdn6" : { "animation" : "dunes/AVLmtdn6",  
+						"mask" : [ "VVBB","VBBV"],
+						"allowedTerrains": [ "sand" ]
 					}		
 				}
 			}

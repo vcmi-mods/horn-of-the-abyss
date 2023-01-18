@@ -1,18 +1,13 @@
 {
 	"core:idolOfFortune" : {
 		"types" : {
-			"idolofFortune" : {
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 100
-				},
+			"object" : {
 				"templates" : {
-				
-					"AVSidlS0" : { "animation" : "AVSidlS0", 
-					"mask" : [ "VV", "VA" ],
-					"visitableFrom" : [ "---", "+++", "+++" ],
-                    "allowedTerrains": [ "snow" ]
+					"AVSidlS0" : {
+						"animation" : "idolOfFortune/AVSidlS0",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
 					}
 				}
 			}	

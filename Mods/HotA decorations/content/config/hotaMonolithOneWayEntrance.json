@@ -2,41 +2,41 @@
 	"core:monolithOneWayEntrance" : {		
 		"types" : {
 			"hotaMonoliths01En" : {
-				"index" : 8,
+				"index" : 1,
 				"templates" : {		
-					"avxmn1g0" : { "animation" : "avxmn1g0", 
-					"mask" : [ "V", "A" ],
-					"visitableFrom" : [ "+++", "+++", "+++" ]				
+					"avxmn1g0" : { "animation" : "monoliths/Avxmn1g0", 
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]				
 					}
 				}
 			},
 			
 			"hotaMonoliths02En" : {			
-				"index" : 9,
+				"index" : 2,
 				"templates" : {	
-					"AVXMN1T0" : { "animation" : "AVXMN1T0",
-					"mask" : [ "V", "A" ],  
-					"visitableFrom" : [ "+++", "+++", "+++" ]
+					"AVXMN1T0" : { "animation" : "monoliths/AVXMN1T0",
+						"mask" : [ "V", "A" ],  
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}			
 				}
 			},
 			
 			"hotaMonoliths03En" : {
-				"index" : 10,
+				"index" : 3,
 				"templates" : {
-					"AVXMN1V0" : { "animation" : "AVXMN1V0",
-					"mask" : [ "V", "A" ], 
-					"visitableFrom" : [ "+++", "+++", "+++" ],					
+					"AVXMN1V0" : { "animation" : "monoliths/AVXMN1V0",
+						"mask" : [ "V", "A" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],					
 					}
 				}
 			},	
 			
 			"hotaMonoliths04En" : {
-				"index" : 11,
+				"index" : 4,
 				"templates" : {	
-					"AVXMN1w0" : { "animation" : "AVXMN1w0", 
-					"mask" : [ "V", "A" ],  
-					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"AVXMN1w0" : { "animation" : "monoliths/AVXMN1w0", 
+						"mask" : [ "V", "A" ],  
+						"visitableFrom" : [ "---", "+++", "+++" ],
 					}
 				}	
 			}

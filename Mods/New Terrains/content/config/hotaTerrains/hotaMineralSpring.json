@@ -1,0 +1,35 @@
+{
+	"mineralSpring" : {
+		"handler":"configurable",
+		"name" : "Mineral Spring",
+		"sounds" : {
+			"visit" : ["LUCK"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 500,
+//					"rarity" : 50,
+//					"zoneLimit" : 1
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Mineral Spring}\r\n\r\n",
+				"onVisitedMessage": "{Mineral Spring}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"AVXmspr0" : { "animation" : "mineralSpring/AVXmspr0", 
+						"mask" : [ "VVV", "VBV", "VBA" ], 
+						"visitableFrom" : [ "---", "--+", "+++" ],
+						"allowedTerrains": [ "highlands"]
+					}
+				}
+			}
+		}
+	}		
+}

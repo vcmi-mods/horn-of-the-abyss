@@ -1,0 +1,105 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"hotaRuins" : 
+			{
+				"name" : "Ruins",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "ruins/avxruins.def", 
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVBV", "VBAB"],
+						"allowedTerrains":["highlands"] 							
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPRUIN.wav"],
+					"visit": ["RUINSVIS.wav"]
+				},
+				"rmg" : {
+					"value"		: 1000,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "skeleton" },
+							{ "amount": 3, "type" : "wight" },
+							{ "amount": 3, "type" : "wraith"},
+							{ "amount": 10, "type" : "skeletonWarrior" },
+							{ "amount": 1, "type" : "powerLich" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 1000	
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 30, "type" : "skeleton" },
+							{ "amount": 5, "type" : "wight" },
+							{ "amount": 5, "type" : "wraith"},
+							{ "amount": 10, "type" : "skeletonWarrior" },
+							{ "amount": 1, "type" : "powerLich" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 2000		
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 40, "type" : "skeleton" },
+							{ "amount": 7, "type" : "wight" },
+							{ "amount": 7, "type" : "wraith"},
+							{ "amount": 20, "type" : "skeletonWarrior" },
+							{ "amount": 2, "type" : "powerLich" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 3000	
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 50, "type" : "skeleton" },
+							{ "amount": 9, "type" : "wight" },
+							{ "amount": 9, "type" : "wraith"},
+							{ "amount": 20, "type" : "skeletonWarrior" },
+							{ "amount": 3, "type" : "powerLich" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 4000	
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}

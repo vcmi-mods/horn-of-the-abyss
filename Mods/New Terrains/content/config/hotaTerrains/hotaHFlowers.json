@@ -1,0 +1,122 @@
+{
+	"core:flowers" : {
+		"types" : {
+//highlands flowers
+			"object" : {
+				"templates" : {
+				
+					"avgflh00" : { "animation" : "flowers/avgflh00", 
+					"mask" : [ "B" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avgflh01" : { "animation" : "flowers/avgflh01", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avgflh02" : { "animation" : "flowers/avgflh02", 
+					"mask" : [ "VB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avgflh03" : { "animation" : "flowers/avgflh03", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avgflh04" : { "animation" : "flowers/avgflh04", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+					
+					"avgflh05" : { "animation" : "flowers/avgflh05", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh06" : { "animation" : "flowers/avgflh06", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh07" : { "animation" : "flowers/avgflh07", 
+					"mask" : [ "VBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},		
+
+					"avgflh08" : { "animation" : "flowers/avgflh08", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh09" : { "animation" : "flowers/avgflh09", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh10" : { "animation" : "flowers/avgflh10", 
+					"mask" : [ "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh11" : { "animation" : "flowers/avgflh11", 
+					"mask" : [ "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avgflh12" : { "animation" : "flowers/avgflh12", 
+					"mask" : [ "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh13" : { "animation" : "flowers/avgflh13", 
+					"mask" : [ "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh14" : { "animation" : "flowers/avgflh14", 
+					"mask" : [ "VBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh15" : { "animation" : "flowers/avgflh15", 
+					"mask" : [ "VBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},				
+
+					"avgflh16" : { "animation" : "flowers/avgflh16", 
+					"mask" : [ "VBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh17" : { "animation" : "flowers/avgflh17", 
+					"mask" : [ "VBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh18" : { "animation" : "flowers/avgflh18", 
+					"mask" : [ "VVV", "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh19" : { "animation" : "flowers/avgflh19", 
+					"mask" : [ "VVV", "BBB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},	
+
+					"avgflh20" : { "animation" : "flowers/avgflh20", 
+					"mask" : [ "BB" ], 
+                    "allowedTerrains": [ "highlands" ]
+					}				
+				}
+			}		
+		}
+	}
+}
+	
+	
+	
+
+
+	

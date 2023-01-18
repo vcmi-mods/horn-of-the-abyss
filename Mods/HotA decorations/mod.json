@@ -2,17 +2,22 @@
 	"name" : "Hota new objects",
 	"description" : "New objects that have the same properties as the old ones.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.3.6",
+	"version" : "1.5.1",
+	"compatibility" :
+	{
+		"min" : "1.1.0"
+	},
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Graphic",
 	"keepDisabled" : true,
 	
 		"objects" :
 	[
-		"config/hotaAbandonedMine.json", //
+		"config/hotaAbandonedMine.json",
 		"config/hotaCorpse.json",
+		"config/hotaCrates.json",
 		"config/hotaFountainOfYouth.json",
-//		"config/hotaMines.json", //
+		"config/hotaMines.json",
 		"config/hotaSchoolOfMagic.json",
 		"config/hotaSeerHut.json",
 		"config/hotaSubgates.json", 
@@ -23,6 +28,7 @@
 		"config/hotaRedwoodObservatory.json",
 		"config/hotaFlowers.json",
 		"config/hotaTrees",
+		"config/hotaRedTrees",
 		"config/hotaDeadVegetation",
 		"config/hotaDenOfThieves",
 		"config/hotaLearningStone",
@@ -39,7 +45,6 @@
 		"config/hotaShrineOfMagicThought",
 		"config/hotaReef",
 		"config/hotaRock",
-		"config/hotaBones",
 		"config/hotaBarchanDunes",
 		"config/hotaMushroom",  
 		"config/hotaIceBlock",
@@ -50,22 +55,28 @@
 		"config/hotaMound",
 		"config/hotaShrub",
 		"config/hotaDirtHills",
-		"config/hotaYuccaTrees", //są tylko 3 z 6?
+		"config/hotaYuccaTrees",
 		"config/hotaLog",
-		"config/hotaDeadVegetation",
 		"config/hotaPalms",
 		"config/hotaFence",
 		"config/hotaCarnivorousPlant",
 		"config/hotaAnimals",
 		"config/hotaRuinedObjects",
-		"config/hotaHighlandLakes",
-		"config/hotaHighlandMountain",
 		"config/hotaRubble",
 		"config/hotaWaterfalls",
-//		"config/hotaWarehouses" //
-//		"config/hotaMonolithTwoWay", //
+		"config/hotaMonolithTwoWay",
 		"config/hotaMonolithOneWayEntrance",
-		"config/hotaMonolithOneWayExit"
+		"config/hotaMonolithOneWayExit",
+		"config/hotaBorderGates",
+		"config/hotaBorderGuards",
+		"config/hotaQuestGuard",
+		"config/hotaJetsam",
+		"config/hotaStones",
+		"config/hotaFires",
+		"config/hotaBridges",
+		"config/hotaWaterball",
+		"config/hotaBluebottle",
+		"config/hotaCampaignObject",
 	] 
 	
 }

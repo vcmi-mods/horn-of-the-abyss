@@ -1,0 +1,20 @@
+{
+	"core:flotsam" :{
+		"types" : {
+			"hotaObject" : {
+				"name" : "Jetsam",
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 600
+				},
+				"templates" : {
+					"AVAcratw" : { "animation" : "jetsam/AVAcratw",
+						"mask" : [ "VV", "VA" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"allowedTerrains":[ "water" ] 
+					}
+				}
+			}
+		}
+	}
+}

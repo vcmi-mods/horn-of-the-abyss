@@ -1,18 +1,13 @@
 {
 	"core:fountainOfYouth"	: {
 		"types" : {
-			"fountainOfYouth" : {
-				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 100,
-					"rarity"	: 50
-				},
+			"object" : {
 				"templates" : {
-				
-					"watermag" : { "animation" : "watermag",
-					"mask" : [ "VBV","VAV","VVV" ],
-					"visitableFrom" : [ "+-+", "+++", "+++" ],
-                    "allowedTerrains": [ "water" ]
+					"watermag" : {
+						"animation" : "fountainOfYouth/watermag",
+						"mask" : [ "VBV","VAV","VVV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
 					}
 				}
 			}

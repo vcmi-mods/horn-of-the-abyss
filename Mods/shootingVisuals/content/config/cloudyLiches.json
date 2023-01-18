@@ -11,6 +11,10 @@
 			"shooter" :
 			{
 				"type" : "SHOOTER"
+			},
+			"IS_UNDEAD" : 
+			{
+				"type" : "UNDEAD"
 			}
 		}
 	}

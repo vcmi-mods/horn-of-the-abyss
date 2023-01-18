@@ -1,0 +1,26 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avxsnhl" : {
+						"animation" : "sign/avxsnhl",
+						"allowedTerrains": [ "highlands" ],
+						"mask" : [ "A" ]
+					},
+					
+					"avxsnwst" : {
+						"animation" : "sign/avxsnwst",
+						"allowedTerrains": [ "wasteland" ],
+						"mask" : [ "A" ]
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

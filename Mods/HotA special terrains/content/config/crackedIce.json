@@ -1,0 +1,45 @@
+{
+	"core:lucidPools" : {
+		"types" : {
+			"cracked_ice" : {
+				"name" : "Cracked Ice",
+				"base" : { "zIndex": 100 },
+				"battleground": "cracked_ice",
+				"templates" : {
+					"zice01" : {
+						"animation" : "zice01",				
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
+					},				
+					"zice02" : {
+						"animation" : "zice02",						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ]
+					},
+					"zice03" : {
+						"animation" : "zice03",					
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
+					},				
+					"zice04" : {
+						"animation" : "zice04",						
+						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"]
+					},				
+					"zice05" : {
+						"animation" : "zice05",					
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"]						
+					},					
+					"zice06" : {
+						"animation" : "zice06",						
+						"mask" : [ "VVV", "VVV","VVV" ]
+					},					
+					"zice07" : {
+						"animation" : "zice07",					
+						"mask" : [ "VVVVV", "VVVVV" ]
+					},					
+					"zice08" : {
+						"animation" : "zice08",				
+						"mask" : [ "VV", "VV","VV", "VV","VV"  ]
+					}
+				}
+			}
+		}
+	}
+}

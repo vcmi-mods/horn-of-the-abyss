@@ -1,0 +1,18 @@
+{
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avlhlhl" : { "animation" : "hole/avlhlhl", 
+					"mask" : [ "V" ], 
+					"allowedTerrains": [ "highlands" ]
+					},
+					"avlhlws0" : { "animation" : "hole/avlhlws0", 
+					"mask" : [ "V" ], 
+					"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"AVMcrhl1" : {
+						"animation" : "mines/AVMcrhl1", //hota highlands
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands"]
+					},
+					"AVMcrwl1" : {
+						"animation" : "mines/AVMcrwl1", //hota wasteland
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					
+					"AVMgohl1" : {
+						"animation" : "mines/AVMgohl1",  //hota highlands
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands"]
+					},
+					"AVMgoWL0" : {
+						"animation" : "mines/AVMgoWL0",  //hota wasteland
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			
+			"sawmill" : {
+				"templates" : {
+					
+					"AVMswhl1" : {
+						"animation" : "mines/AVMswhl1",  //hota highlands
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands"]
+					},
+					"AVMsawl0h" : {
+						"animation" : "mines/AVMsawl0",  //hota wasteland but standard graphics
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					},
+					"AVMsawr0h" : {
+						"animation" : "mines/AVMsawr0",  //hota wasteland but standard graphics
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			
+			"alchemistLab" : {
+				"templates" : {
+					"AVMalch0h" : {
+						"animation" : "mines/AVMalch0",  //hota highlands but standard graphic
+						"mask" : ["VVV", "VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands", "wasteland"]
+					}
+				}
+			},
+			
+			"orePit" : {
+				"templates" : {
+					"AVMORhl1" : {
+						"animation" : "mines/AVMORhl1",  //hota highlands
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands"]
+					},
+					"AVMorwl1" : {
+						"animation" : "mines/AVMorwl1",  //hota wasteland
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			
+			"sulfurDune" : {
+				"templates" : {
+					"AVMsulf0" : {
+						"animation" : "AVMsulf0",  //hota highlands but standard graphic
+						"mask" : ["VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands", "wasteland"]
+					}
+				}
+			},
+			
+			"gemPond" : {
+				"templates" : {
+					"AVMgehl1" : {
+						"animation" : "mines/AVMgehl1",  //hota highlands
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["highlands"]
+					},
+					"AVMgewl1" : {
+						"animation" : "mines/AVMgewl1",  //hota highlands
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			}
+		}
+	}
+}	

@@ -1,20 +1,15 @@
 {
 	"core:mysticalGarden" : {
 		"types" : {
-			"mysticalGarden" : {
-				"aiValue" : 500,
-				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 50,
-					"mapLimit"	: 32
-				},
+			"object" : {
 				"templates" : {
-					"avtmystd" : { "animation" : "avtmystd", 
-					"mask" : [ "VBV","BAB" ], 
-					"visitableFrom" : [ "---", "-+-", "+++" ],
-					"allowedTerrains": [ "dirt" ] 
+					"avtmystd" : {
+						"animation" : "mysticalGarden/avtmystd", 
+						"mask" : [ "VBV","BAB" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "dirt" ]
 					}
-				}	
+				}
 			}
 		}
 	}

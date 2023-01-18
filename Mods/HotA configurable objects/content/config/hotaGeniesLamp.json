@@ -1,0 +1,34 @@
+{
+	"geniesLamp" : {
+		"handler": "configurable",
+		"name" : "Genie's Lamp",
+		"sounds" : {
+			"visit" : ["LAMPVIST"]
+		},
+		"types" : {
+			"object" : {
+//				"rmg" : {
+//					"value"	: 100,
+//					"rarity" : 20,
+//					"zoneLimit" : 1
+//				},
+				"rewards" :
+				[
+					{
+					}
+				],
+				"onSelectMessage" : "{Genie's Lamp}\r\n\r\n",
+				"onVisitedMessage": "{Genie's Lamp}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"ZGENLAM" : { "animation" : "ancientLamp/ZGENLAM", 
+						"mask" : [ "VA" ], 
+						"visitableFrom" : [ "+++", "+-+", "+++" ]
+					}
+				}
+			}
+		}
+	}		
+}

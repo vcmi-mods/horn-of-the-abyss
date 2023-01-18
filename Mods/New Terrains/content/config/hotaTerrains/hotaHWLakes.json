@@ -1,0 +1,89 @@
+{
+	"core:lake" : {
+		"types" : {
+			"hotaHLakes" : {
+				"name" : "Lake",
+				"templates" : {
+			
+					"avlhll00" : { "animation" : "lakes/avlhll00",  
+					"mask" : [ "VBBBBBB", "BBBBBBB","VBBBBBV" ],
+                    "allowedTerrains": [ "highlands" ]
+					},						
+					
+					"avlhll01" : { "animation" : "lakes/avlhll01", 					 
+					"mask" : [ "BBBBB", "BBBBB", "BBBBV" ], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhll02" : { "animation" : "lakes/avlhll02", 					 
+					"mask" : [ "VVVVV", "BBBBB", "BBBBB"], 
+                    "allowedTerrains": [ "highlands" ]
+					},
+					
+					"avlhll03" : { "animation" : "lakes/avlhll03", 
+					"mask" : [ "VVVV", "VBBB", "VVVV"], 
+                    "allowedTerrains": [ "highlands" ]
+					}		
+				}
+			},
+			"hotaW1Lakes" : {
+				"name" : "Limestone Lake",
+				"templates" : {
+			
+					"AVLwll00" : { "animation" : "lakes/AVLwll00",  
+					"mask" : [ "VBBBVV", "VBBBBV" ],
+                    "allowedTerrains": [ "wasteland" ]
+					},						
+					
+					"AVLwll01" : { "animation" : "lakes/AVLwll01", 					 
+					"mask" : [ "BBB" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLwll02" : { "animation" : "lakes/AVLwll02", 					 
+					"mask" : [ "VBBV" ], 
+                    "allowedTerrains": [ "wasteland" ]
+					}	
+				}
+			},
+			"hotaW2Lakes" : {
+				"name" : "Tar Pit",
+				"templates" : {
+			
+					"AVLwloi1" : { "animation" : "lakes/AVLwloi1",  
+					"mask" : [ "VBBBBV", "VBBBBV" ],
+                    "allowedTerrains": [ "wasteland" ],
+					"zIndex": 100
+					},						
+					
+					"AVLwloi2" : { "animation" : "lakes/AVLwloi2", 					 
+					"mask" : [ "VVVVV", "VBBBV", "VVVVV" ], 
+                    "allowedTerrains": [ "wasteland" ],
+					"zIndex": 100
+					},
+					
+					"AVLwloi3" : { "animation" : "lakes/AVLwloi3", 					 
+					"mask" : [ "VVVVVVV", "VBBBBBV", "VBBBBBV" ],
+                    "allowedTerrains": [ "wasteland" ],
+					"zIndex": 100
+					},
+					"AVLwloi4" : { "animation" : "lakes/AVLwloi4",  
+					"mask" : [ "VVVV", "VBBV", "VVVV" ],
+                    "allowedTerrains": [ "wasteland" ],
+					"zIndex": 100
+					},	
+					"AVLwloi5" : { "animation" : "lakes/AVLwloi5",  
+					"mask" : [ "VVVVVVV", "VBBBBBV", "VBBBBBV" ],
+                    "allowedTerrains": [ "wasteland" ],
+					"zIndex": 100
+					}					
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

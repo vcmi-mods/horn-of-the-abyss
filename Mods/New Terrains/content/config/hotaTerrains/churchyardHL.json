@@ -1,0 +1,52 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"churchyardHL" : 
+			{
+				"name" : "Churchyard",
+				"templates" :
+				{
+					"highlands" :
+					{
+						"animation" : "banks/avcmetrh.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VBAB"],							
+						"allowedTerrains":[ "highlands" ] 
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPCMTR.wav"],
+					"visit": ["CEMETRY.wav"]
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels":[
+					{
+						"chance": 100,
+						"guards": [
+							{ "amount": 15, "type" : "zombieLord" },
+							{ "amount": 15, "type" : "zombieLord" },
+							{ "amount": 15, "type" : "zombieLord"},
+							{ "amount": 15, "type" : "zombieLord" },
+							{ "amount": 15, "type" : "zombieLord" },
+							{ "amount": 15, "type" : "zombieLord" }
+						],
+						"combat_value": 2000,
+						"reward" : {
+							"value": 3000,
+							"resources": 
+							{
+								"gold" : 2500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}
