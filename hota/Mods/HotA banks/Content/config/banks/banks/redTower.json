@@ -1,0 +1,94 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"redTowerTower" : 
+			{
+				"name" : "Red Tower",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/avredtwr.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVBVV", "VVAVV"],
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"] 						
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/REDTWRLO.wav"],
+					"visit": ["banks/REDTWRVS.wav"]
+				},
+				"rmg" : {
+					"value"		: 4000,
+					"rarity"	: 20,
+					"zoneLimit" : 1
+				},
+				"levels":
+				[	
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 12, "type" : "energyElemental" },
+							{ "amount": 12, "type" : "energyElemental" },
+							{ "amount": 12, "type" : "energyElemental"},
+							{ "amount": 12, "type" : "energyElemental" },
+							{ "amount": 12, "type" : "energyElemental" }
+						],
+						"combat_value": 6000,
+						"reward" : {
+							"value": 4000,
+							"creatures": [ { "amount": 2, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 18, "type" : "energyElemental" },
+							{ "amount": 18, "type" : "energyElemental" },
+							{ "amount": 18, "type" : "energyElemental"},
+							{ "amount": 18, "type" : "energyElemental" },
+							{ "amount": 18, "type" : "energyElemental" }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 3, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 24, "type" : "energyElemental" },
+							{ "amount": 24, "type" : "energyElemental" },
+							{ "amount": 24, "type" : "energyElemental"},
+							{ "amount": 24, "type" : "energyElemental" },
+							{ "amount": 24, "type" : "energyElemental" }
+						],
+						"combat_value": 12000,
+						"reward" : {
+							"value": 8000,
+							"creatures": [ { "amount": 4, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 30, "type" : "energyElemental" },
+							{ "amount": 30, "type" : "energyElemental" },
+							{ "amount": 30, "type" : "energyElemental"},
+							{ "amount": 30, "type" : "energyElemental" },
+							{ "amount": 30, "type" : "energyElemental" }
+						],
+						"combat_value": 15000,
+						"reward" : {
+							"value": 10000,
+							"creatures": [ { "amount": 5, "type": "firebird" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

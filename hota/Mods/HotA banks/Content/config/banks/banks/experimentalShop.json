@@ -1,0 +1,99 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"experimentalShop" : 
+			{
+				"name" : "Experimental Shop",
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "banks/map/banks/AVXbnk90.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"], 							
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+					},
+					"snow" :
+					{
+						"animation" : "banks/map/banks/AVXbnk9s.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"], 							
+						"allowedTerrains":["snow"] 
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPEXSH.wav"]
+				},
+				"rmg" : {
+					"value"		: 3500,
+					"rarity"	: 80
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" },
+							{ "amount": 5, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 1, "type": "giant" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" },
+							{ "amount": 10, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 2, "type": "giant" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" },
+							{ "amount": 15, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 3, "type": "giant" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" },
+							{ "amount": 20, "type" : "steelGolem" }
+						],
+						"combat_value": 3500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 4, "type": "giant" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

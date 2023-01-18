@@ -1,0 +1,117 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"templeOfTheSea" : 
+			{
+				"name" : "Temple Of The Sea",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/AVSutopW.def", 
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVVV", "VVVVV", "VBBBV", "VBBBV", "VBABV"],
+						"allowedTerrains":["water"] 							
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPSTPL.wav"],
+					"visit": ["banks/SEATEMPL.wav"]
+				},
+				"rmg" : {
+					"value"		: 10000,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "hydra" },
+							{ "amount": 6, "type" : "seaserpent"},
+							{ "amount": 3, "type" : "chaosHydra" },
+							{ "amount": 2, "type" : "haspid" }
+						],
+						"combat_value": 50000,
+						"reward" : {
+							"value": 30000,
+							"resources": 
+							{
+								"gold" : 10000
+							},
+							"artifacts": [ { "class" : "TREASURE" },
+											{ "class" : "MINOR" },
+											{ "class" : "MINOR" },
+											{ "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "hydra" },
+							{ "amount": 7, "type" : "seaserpent"},
+							{ "amount": 4, "type" : "chaosHydra" },
+							{ "amount": 3, "type" : "haspid" }
+						],
+						"combat_value": 50000,
+						"reward" : {
+							"value": 30000,
+							"resources": 
+							{
+								"gold" : 15000
+							},
+							"artifacts": [ { "class" : "TREASURE" },
+											{ "class" : "MINOR" },
+											{ "class" : "MAJOR" },
+											{ "class" : "MAJOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "hydra" },
+							{ "amount": 7, "type" : "seaserpent"},
+							{ "amount": 5, "type" : "chaosHydra" },
+							{ "amount": 4, "type" : "haspid" }
+						],
+						"combat_value": 50000,
+						"reward" : {
+							"value": 30000,
+							"resources": 
+							{
+								"gold" : 20000
+							},
+							"artifacts": [ { "class" : "MINOR" },
+											{ "class" : "MAJOR" },
+											{ "class" : "MAJOR" },
+											{ "class" : "RELIC" }]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 10, "type" : "hydra" },
+							{ "amount": 9, "type" : "seaserpent"},
+							{ "amount": 6, "type" : "chaosHydra" },
+							{ "amount": 5, "type" : "haspid" }
+						],
+						"combat_value": 50000,
+						"reward" : {
+							"value": 30000,
+							"resources": 
+							{
+								"gold" : 30000
+							},
+							"artifacts": [ { "class" : "MAJOR" },
+											{ "class" : "MAJOR" },
+											{ "class" : "RELIC" },
+											{ "class" : "RELIC" }]
+						}
+					}
+				]
+			}
+		}
+	}
+}

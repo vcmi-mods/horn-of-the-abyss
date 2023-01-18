@@ -1,0 +1,100 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"blackTower" : 
+			{
+				"name" : "Black Tower",
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "banks/map/banks/avblktgr.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"], 							
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+					},
+					"snow" :
+					{
+						"animation" : "banks/map/banks/avblktsn.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"], 							
+						"allowedTerrains":["snow"] 
+					}	
+				},
+				"sounds": {
+					"ambient": ["banks/BLCKTWRL.wav"],
+					"visit": ["banks/BLCKTWRS.wav"]
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "greenDragon" }
+						],
+						"combat_value": 1500,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 2000
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "redDragon" }
+						],
+						"combat_value": 1500,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 2250
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 1, "type" : "goldDragon" }
+						],
+						"combat_value": 1500,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 3500
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 1, "type" : "blackDragon" }
+						],
+						"combat_value": 1500,
+						"reward" : {
+							"value": 2000,
+							"resources": 
+							{
+								"gold" : 3750
+							},
+							"artifacts": [ { "class" : "MINOR" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

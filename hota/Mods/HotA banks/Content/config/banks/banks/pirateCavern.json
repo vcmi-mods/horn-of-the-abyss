@@ -1,0 +1,92 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"pirateCavern" : 
+			{
+				"name" : "Pirate Cavern",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/HAPCAVE.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : ["VVVV", "VBBB", "VBAB"],
+						"allowedTerrains":["rough", "sand"] 						
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPPCAV.wav"]
+				},
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "pirate" },
+							{ "amount": 10, "type" : "pirate" },
+							{ "amount": 10, "type" : "corsair", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "pirate" },
+							{ "amount": 10, "type" : "corsair" }
+						],
+						"combat_value": 1250,
+						"reward" : {
+							"value": 1500,
+							"creatures": [ { "amount": 1, "type": "seaserpent" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 20, "type" : "pirate" },
+							{ "amount": 20, "type" : "pirate" },
+							{ "amount": 20, "type" : "corsair", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "pirate" },
+							{ "amount": 20, "type" : "corsair" }
+						],
+						"combat_value": 2500,
+						"reward" : {
+							"value": 3000,
+							"creatures": [ { "amount": 2, "type": "seaserpent" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 30, "type" : "pirate" },
+							{ "amount": 30, "type" : "pirate" },
+							{ "amount": 30, "type" : "corsair", "upgradeChance": 50 },
+							{ "amount": 30, "type" : "pirate" },
+							{ "amount": 30, "type" : "corsair" }
+						],
+						"combat_value": 3750,
+						"reward" : {
+							"value": 4500,
+							"creatures": [ { "amount": 3, "type": "seaserpent" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 40, "type" : "pirate" },
+							{ "amount": 40, "type" : "pirate" },
+							{ "amount": 40, "type" : "corsair", "upgradeChance": 50 },
+							{ "amount": 40, "type" : "pirate" },
+							{ "amount": 40, "type" : "corsair" }
+						],
+						"combat_value": 5000,
+						"reward" : {
+							"value": 6000,
+							"creatures": [ { "amount": 4, "type": "seaserpent" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

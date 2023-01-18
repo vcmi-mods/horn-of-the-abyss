@@ -1,0 +1,88 @@
+{
+	"cannon":
+	{
+		"name" :
+		{
+			"plural" : "Cannons",
+			"singular" : "Cannon"
+		},
+		"faction" : "cove",
+		"level": 6,
+		"aiValue" : 1637,
+		"special" : true,
+		"attack" : 20,
+        "cost": 
+            {
+              "gold": 4000
+            },
+		"damage" :
+		{
+			 "max" : 7,
+			 "min" : 4
+		},
+		"defense" : 10,
+		"fightValue" : 1360,
+		"graphics" :
+		{
+			"animation" : "hota/battle/SMCANNON.def",
+			"iconSmall" : "hota/iconsSmall/ArtIm150.bmp",
+			"iconLarge" : "hota/iconsbig/cannonBig.png",
+			"map" : "hota/map/cannonMap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "hota/battle/projectile/SMCANX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 250,
+        "shots" : 8,
+		"sound" :
+		{
+			"killed": "hota/cannon/CANNKILL.wav",
+			"shoot" : "hota/cannon/CANNSHOT.wav",
+			"wince": "hota/cannon/CANNWNCE.wav"
+		},
+		"speed" : 0,
+		"abilities" :
+		{
+        	"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"canshootwalls" :
+			{
+				"type" : "CATAPULT"
+			},
+			"warmachine" :
+			{
+				"type" : "SIEGE_WEAPON"
+			},
+			"noRetaliation" : 
+			{
+                "val" : 0,
+                "type" : "NO_RETALIATION"
+            }
+		}
+	}
+}

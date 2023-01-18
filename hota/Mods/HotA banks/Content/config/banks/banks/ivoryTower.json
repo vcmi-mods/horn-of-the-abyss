@@ -1,0 +1,100 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"ivoryTower" : 
+			{
+				"name" : "Ivory Tower",
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "banks/map/banks/avivtow2.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VVV", "VBA"], 						
+						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+					},
+					"snow" :
+					{
+						"animation" : "banks/map/banks/avivtow1.def",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVV", "VVV", "VVV", "VBA"],						
+						"allowedTerrains":["snow"] 
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/IVORTWLO.wav"],
+					"visit": ["banks/IVORYTOW.wav"]
+				},
+				"rmg" : {
+					"value"		: 7000,
+					"rarity"	: 10
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 7, "type" : "archMage" },
+							{ "amount": 7, "type" : "archMage" },
+							{ "amount": 7, "type" : "archMage" },
+							{ "amount": 7, "type" : "archMage" },
+							{ "amount": 7, "type" : "archMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 3, "type": "enchanter" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "archMage" },
+							{ "amount": 10, "type" : "archMage" },
+							{ "amount": 10, "type" : "archMage" },
+							{ "amount": 10, "type" : "archMage" },
+							{ "amount": 10, "type" : "archMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 6, "type": "enchanter" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 13, "type" : "archMage" },
+							{ "amount": 13, "type" : "archMage" },
+							{ "amount": 13, "type" : "archMage" },
+							{ "amount": 13, "type" : "archMage" },
+							{ "amount": 13, "type" : "archMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 9, "type": "enchanter" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 16, "type" : "archMage" },
+							{ "amount": 16, "type" : "archMage" },
+							{ "amount": 16, "type" : "archMage" },
+							{ "amount": 16, "type" : "archMage" },
+							{ "amount": 16, "type" : "archMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 12, "type": "enchanter" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

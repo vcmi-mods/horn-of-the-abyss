@@ -1,0 +1,26 @@
+{
+	"name" : "HoTA banks",
+	"description" : "All creature banks from HoTA for RMG",
+	
+	"author" : "HoTA crew, ported by VCMI team",
+	"contact" : "http://forum.vcmi.eu/viewforum.php?f=15",
+	"version" : "1.3.5",
+	"modType" : "Objects",
+
+	"depends" : ["hota.cove"],
+	
+    "objects" :
+    [ 
+		"config/banks/banks/ivoryTower.json",
+		"config/banks/banks/blackTower.json",
+		"config/banks/banks/redTower.json",
+		"config/banks/banks/wolfRaiderPicket.json",
+		"config/banks/banks/mansion.json",
+		"config/banks/banks/experimentalShop.json",
+		"config/banks/banks/spit.json",
+		"config/banks/banks/pirateCavern.json",
+		"config/banks/banks/beholderSanctuary.json",
+		"config/banks/banks/templeOfTheSea.json",
+		"config/banks/banks/churchyard.json"
+    ]
+}

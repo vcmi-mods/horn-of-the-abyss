@@ -1,0 +1,94 @@
+{
+	"blackbeard":
+	{
+		"name" :
+		{
+			"plural" : "Blackbeards",
+			"singular" : "Blackbeard"
+		},
+		"faction" : "cove",
+		"level": 0,
+		"aiValue" : 5931,
+		"special" : true,
+		"attack" : 5,
+		"shots" : 24,
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 7
+		},
+		"defense" : 5,
+		"fightValue" : 5272,
+		"graphics" :
+		{
+			"animation" : "hota/battle/BlackB_L.def",
+			"map" : "hota/map/BlackB_s.def",
+			"iconSmall" : "hota/iconsSmall/BlackB_s.bmp",
+			"iconLarge" : "hota/iconsBig/BlackB_L.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 12.00,
+				"attack" : 1.00,
+				"flight" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "hota/battle/projectile/pirate.def"
+			}, 
+		},
+		"doubleWide" : false,
+		"growth" : 1,
+		"hitPoints" : 60,
+		"sound" :
+		{
+			"attack" : "hota/pirate/PIRTATTK.wav",
+			"defend" : "hota/pirate/PIRTDFND.wav",
+			"killed" : "hota/pirate/PIRTKILL.wav",
+			"shoot" : "hota/pirate/PIRTSHOT.wav",
+			"move" : "hota/pirate/PIRTMOVE.wav",
+			"wince" : "hota/pirate/PIRTWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"canShoot" : { "type" : "SHOOTER" },
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectWater",
+				"val" : 3
+			}
+		}
+	}
+}

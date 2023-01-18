@@ -1,0 +1,31 @@
+{
+	"author" : "",
+	"contact" : "",
+	"creatures" : 
+	[
+		"config/friendlyMagogs",
+		"config/stormyElemental",
+		"config/icyElemental",
+		"config/lightningyTitan",
+		"config/powerMonks",
+		"config/fieryBeholders",
+		"config/cloudyLiches"
+	],
+	"spells" : 
+	[
+		"config/friendlyFireball",
+		"config/hotaStorm",
+		"config/hotaIce",
+		"config/hotaLightning",
+		"config/hotaLightGlobe",
+		"config/gogFireball",
+		"config/hotaRay",
+		"config/hotaDeathCloud"
+	],
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"description" : "Visuals additions for shooting creatures made by Hota Team",
+	"modType" : "Mechanics",
+	"name" : "Shooting visuals",
+	"version" : "1.3.5"
+}

@@ -1,0 +1,112 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"spit" : 
+			{
+				"name" : "Spit",
+				"templates" :
+				{
+					"base" :
+					{
+						"animation" : "banks/map/banks/avbone02.def", 
+						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"mask" : [ "VVVV", "VVBB", "VBAB"],
+						"allowedTerrains":["grass", "swamp"] 							
+					}
+				},
+				"sounds": {
+					"ambient": ["banks/LOOPBASI.wav"]
+				},
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 5, "type" : "basilisk" },
+							{ "amount": 5, "type" : "basilisk" },
+							{ "amount": 5, "type" : "basilisk", "upgradeChance": 50 },
+							{ "amount": 5, "type" : "basilisk" },
+							{ "amount": 5, "type" : "basilisk" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 2000,
+								"wood" : 10,
+								"ore" : 10
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 6, "type" : "basilisk" },
+							{ "amount": 6, "type" : "basilisk" },
+							{ "amount": 6, "type" : "basilisk", "upgradeChance": 50 },
+							{ "amount": 6, "type" : "basilisk" },
+							{ "amount": 6, "type" : "basilisk" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 2500,
+								"wood" : 12,
+								"ore" : 12
+							}
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 8, "type" : "basilisk" },
+							{ "amount": 8, "type" : "basilisk" },
+							{ "amount": 8, "type" : "basilisk", "upgradeChance": 50 },
+							{ "amount": 8, "type" : "basilisk" },
+							{ "amount": 8, "type" : "basilisk" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 4000,
+								"wood" : 15,
+								"ore" : 15
+							}
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 10, "type" : "basilisk" },
+							{ "amount": 10, "type" : "basilisk" },
+							{ "amount": 10, "type" : "basilisk", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "basilisk" },
+							{ "amount": 10, "type" : "basilisk" }
+						],
+						"combat_value": 3000,
+						"reward" : {
+							"value": 4000,
+							"resources": 
+							{
+								"gold" : 5000,
+								"wood" : 20,
+								"ore" : 20
+							}
+						}
+					}
+				]
+			}
+		}
+	}
+}
