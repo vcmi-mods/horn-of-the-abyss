@@ -5,7 +5,7 @@
 		"types" : {
 			"ancient Lamp" : 
 			{
-				"name": "Ancient Lamp",
+				"name": "Ancient Lamp (allows you to recruit 4-7 Master Genie once)",
 				"rmg" : {
 					"value"		: 5000,
 					"rarity"	: 200,
@@ -82,6 +82,7 @@
 						"animation" : "ancientLamp/avtglam", 
 						"visitableFrom" : [ "+++", "+++", "+++" ],
 						"mask" : ["VAV"]
+//						"allowedTerrains": [ "snow", "sand" ] //hota jebus cross conditions
 					}					
 				}
 			}

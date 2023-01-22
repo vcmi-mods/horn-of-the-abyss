@@ -5,7 +5,7 @@
 		"types" : {
 			"shrineOfMagicMystery" :
 			{
-				"name" : "Shrine of Magic Mystery",
+				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
 				"rmg" : {
 					"value"		: 7000,
 					"rarity"	: 100,

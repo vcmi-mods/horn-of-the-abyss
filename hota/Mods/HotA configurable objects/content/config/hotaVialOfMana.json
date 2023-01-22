@@ -7,6 +7,7 @@
 		},
 		"types" : {
 			"object" : {
+				"name": "Vial of Mana (grants 30-60 spell points)",
 				"rmg" : {
 					"value"	: 3000,
 					"rarity" : 50
