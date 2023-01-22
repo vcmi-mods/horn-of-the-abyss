@@ -5,10 +5,10 @@
 		"types" : {
 			"hotaSeaBarrel" : {
 				"name":"Sea Barrel",
-//				"rmg" : {
-//					"value"		: 500,
-//					"rarity"	: 400
-//				},
+				"rmg" : {
+					"value"		: 500,
+					"rarity"	: 400
+				},
 				"sounds" : {
 					"visit" : ["GENIE"],
 					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
@@ -16,41 +16,67 @@
 				"rewards" :
 				[
 					{
-						"appearChance":
+						"appearChance": 
 						{
-							"dice": 1,
-							"min": 0,
-							"max": 50,
+							"max" : 20
 						},
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
-						"resources": [
-							{ "crystal" : { "min": 3, "max" : 6} }
-						],
-						"message": "",
+						"message": "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
+						"removeObject": true
 					},
 					{
-						"appearChance":
+						"appearChance": 
 						{
-							"dice": 1,
-							"min": 51,
-							"max": 100
+							"min" : 21,
+							"max" : 40
 						},
-						"limiter":
+						"resources":
 						{
-							"numOfGrants": 1
+							"mercury": {"min": 3, "max" : 6}
 						},
-						"resources": [
-							{ "gems" : { "min": 3, "max" : 6} },
-						],
 						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 41,
+							"max" : 60
+						},
+						"resources":
+						{
+							"sulfur": {"min": 3, "max" : 6}
+						},
+						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 61,
+							"max" : 80
+						},
+						"resources":
+						{
+							"crystal": {"min": 3, "max" : 6}
+						},
+						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 81
+						},
+						"resources":
+						{
+							"gems": {"min": 3, "max" : 6}
+						},
+						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"removeObject": true
 					}
 				],
-				"onEmptyMessage": "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
 				"visitMode" : "once",
-				"selectMode": "selectPlayer",
+				"selectMode": "selectRandom",
 				"templates" : {
 					"AVAbrrlw" :
 					{
