@@ -8,8 +8,8 @@
 				"name" : "Shrine of Magic Mystery",
 				"rmg" : {
 					"value"		: 7000,
-					"rarity"	: 10000,
-					"zoneLimit" : 100
+					"rarity"	: 100,
+					"zoneLimit" : 1
 				},
 				"sounds" : {
 					"ambient" : ["LOOPSHRIN"],
