@@ -2,7 +2,7 @@
 	"name" : "Hota new objects",
 	"description" : "New objects that have the same properties as the old ones.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.5.1",
+	"version" : "1.5.2",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
@@ -70,13 +70,12 @@
 		"config/hotaBorderGates",
 		"config/hotaBorderGuards",
 		"config/hotaQuestGuard",
-		"config/hotaJetsam",
 		"config/hotaStones",
 		"config/hotaFires",
 		"config/hotaBridges",
 		"config/hotaWaterball",
 		"config/hotaBluebottle",
-		"config/hotaCampaignObject",
+		"config/hotaCampaignObject"
 	] 
 	
 }
