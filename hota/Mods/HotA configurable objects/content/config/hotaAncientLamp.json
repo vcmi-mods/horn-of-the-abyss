@@ -5,52 +5,84 @@
 		"types" : {
 			"ancient Lamp" : 
 			{
-				"name": "Ancient Lamp",
-//				"rmg" : {
-//					"value"		: 500, //5000 in HotA
-//					"rarity"	: 70, //200 in HotA
-//					"zoneLimit" : 1
-//				},
+				"name": "Ancient Lamp (allows you to recruit 4-7 Master Genie once)",
+				"rmg" : {
+					"value"		: 5000,
+					"rarity"	: 200,
+					"zoneLimit" : 1
+				},
 				"sounds" : {
 					"visit" : ["LAMPVIST"]
 				},
 				"rewards" :
 				[
-					{ //reward 1
+					{
+						"appearChance": 
+						{
+							"max" : 30
+						},
 						"limiter": //condition to get reward
 						{
 							"resources" : {"gold" : 2400}
 						},
-						"message": "Recruit Master Genies",
 						"creatures": [ {"type": "masterGenie", "amount": 4} ],
 						"resources": {"gold" : -2400},
-//						"removeObject" : true,
-						"selectChance": 50
+						"removeObject": true
 					},
-					{ //reward 2
+					{
+						"appearChance": 
+						{
+							"min": 31,
+							"max" : 60
+						},
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 3000}
+						},
+						"creatures": [ {"type": "masterGenie", "amount": 5} ],
+						"resources": {"gold" : -3000},
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min": 61,
+							"max" : 90
+						},
+						"limiter": //condition to get reward
+						{
+							"resources" : {"gold" : 3600}
+						},
+						"creatures": [ {"type": "masterGenie", "amount": 6} ],
+						"resources": {"gold" : -3600},
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min": 91
+						},
 						"limiter": //condition to get reward
 						{
 							"resources" : {"gold" : 4200}
 						},
-						"message": "Recruit Master Genies",
 						"creatures": [ {"type": "masterGenie", "amount": 7} ],
 						"resources": {"gold" : -4200},
-//						"removeObject" : true,
-						"selectChance": 50
-					},
+						"removeObject": true
+					}
 				],
 				"onSelectMessage" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. 'Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.",
 				"onEmptyMessage": "It's nothing to seek there",
 				"canRefuse": true,
-				"visitMode" : "once",
+				"visitMode" : "unlimited",
 				"templates" : 
 				{
 					"avtglam" : 
 					{
 						"animation" : "ancientLamp/avtglam", 
-//						"visitableFrom" : [ "+++", "+++", "+++" ], //disabled for not spawning at random maps
-						"mask" : ["VAV"], 
-						//"allowedTerrains": ["sand, "snow"]
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : ["VAV"]
+//						"allowedTerrains": [ "snow", "sand" ] //hota jebus cross conditions
 					}					
 				}
 			}

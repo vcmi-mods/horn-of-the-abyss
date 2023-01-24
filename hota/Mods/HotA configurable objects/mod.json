@@ -2,10 +2,10 @@
 	"name" : "Hota configurable objects",
 	"description" : "HotA new visitable objects.", 
 	"author": "Graphics: HotA Crew, mod: avatar",
-	"version" : "1.0.0",
+	"version" : "1.2.0",
 	"compatibility" :
 	{
-		"min" : "1.1.0"
+		"min" : "1.2.0"
 	},
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Graphic",
@@ -14,9 +14,8 @@
 		"config/hotaWarehouses",
 		"config/hotaColosseum",
 		"config/hotaObservatory",
-//		"config/hotaShrineOfMagicMystery", //doesn't work
-//		"config/hotaAncientLamp", //doesn't work
-//		"config/hotaVialOfMana", //doesn't wotk
+		"config/hotaShrineOfMagicMystery",
+		"config/hotaVialOfMana",
 //		"config/hotaTempleOfLoyalty", //doesn't work
 //		"config/hotaSeafaringAcademy", //doesn't work
 //		"config/hotaWateringPlace", //doesn't work
@@ -24,8 +23,9 @@
 //		"config/hotaQuestGates", //doesn't work
 //		"config/hotaSkeletonTransformer", //doesn't work
 //		"config/hotaTownGate", //doesn't work
-//		"config/hotaGeniesLamp", //doesn't work
-//		"config/hotaSeaBarrel", //doesn't work
+		"config/hotaAncientLamp",
+		"config/hotaSeaBarrel",
+		"config/hotaJetsam"
 //		"config/hotaHillForts", //doesn't work
 	] 
 	

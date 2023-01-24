@@ -1,37 +1,48 @@
 {
 	"shrineOfMagicMystery" : {
-		"handler":"configurable",
 		"name" : "Shrine of Magic Mystery",
-		"sounds" : {
-			"ambient" : ["LOOPSHRIN"],
-			"visit" : ["TEMPLE"]
-		},
+		"handler": "configurable",
 		"types" : {
-			"shrineOfMagicMystery" : {
-//				"aiValue" : 3000,
-//				"rmg" : {
-//					"value"		: 7000,
-//					"rarity"	: 100,
-//					"zoneLimit"	: 1,
-//					"mapLimit" : 32
-//				},
+			"shrineOfMagicMystery" :
+			{
+				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+				"rmg" : {
+					"value"		: 7000,
+					"rarity"	: 100,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSHRIN"],
+					"visit" : ["TEMPLE"]
+				},
 				"rewards" :
-				[
+				[	
 					{
-					},
+						"limiter": //condition to get reward
+						{
+							"artifacts": ["spellBook"],
+							"secondary" : {"wisdom" : 2}
+						},
+						"spells" : [ { "level" : 4 } ],
+						"message": "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell."
+					}
 				],
-				"onSelectMessage" : "{Shrine of Magic Mystery}\r\n\r\n",
-				"onVisitedMessage": "{Shrine of Magic Mystery}\r\n\r\n",
-//				"canRefuse": true,
+				"onVisitedMessage": "{Shrine of Magic Mystery}\r\n\r\nYou already know that spell.",
+				//TODO: Reuse the texts from OH3 shrines automatically
+				"onEmptyMessage": "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell. Unfiortunately, you have no Spell Book to record the spell with.",
 				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
-				"templates" : {
-					"AVXl4sh0" : { "animation" : "shrines/AVXl4sh0", 
+				"templates" :
+				{
+					"water" :
+					{
+						"animation" : "shrines/AVXl4sh0", 
 						"mask" : [ "VV"," VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
 					},	
-					"4lvlxshrn" : { "animation" : "shrines/4lvlxshrn", 
+					"land" :
+					{
+						"animation" : "shrines/4lvlxshrn", 
 						"mask" : [ "VV","VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}

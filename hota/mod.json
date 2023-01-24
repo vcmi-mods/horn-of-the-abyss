@@ -6,9 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.5.4",
+	"version" : "1.5.5",
 	"changelog" : 
 	{
+		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],
 		"1.5.4"   : [ "Submod New Terrains was rewritten for new format" ],
 		"1.5.3"   : [ "Added 3 special terrains, added some missing decorations" ],
 		"1.5.2"   : [ "Disable unconfigured objects" ],
