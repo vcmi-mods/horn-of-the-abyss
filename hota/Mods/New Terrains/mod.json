@@ -29,7 +29,6 @@
 		"config/hotaTerrains/hotaCrater",
 		"config/hotaTerrains/hotaHole",
 		"config/hotaTerrains/hotaHWMines",
-		"config/hotaTerrains/hotaHillForts",
 		"config/hotaTerrains/hotaWHAbandonedMine",
 		"config/hotaTerrains/churchyardHL",
 		"config/hotaTerrains/ruins",
@@ -41,6 +40,7 @@
 		"config/hotaTerrains/hotaWTrees",
 		"config/hotaTerrains/hotaHWsigns",
 		"config/hotaTerrains/hotaGazebo",
+//		"config/hotaTerrains/hotaHillForts",
 //		"config/hotaTerrains/hotaDerrick",
 //		"config/hotaTerrains/hotaTrailblazer", //doesn't work
 //		"config/hotaTerrains/hotaProspector", //doesn't work

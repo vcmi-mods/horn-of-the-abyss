@@ -6,13 +6,15 @@
 					"avxsnhl" : {
 						"animation" : "sign/avxsnhl",
 						"allowedTerrains": [ "highlands" ],
-						"mask" : [ "A" ]
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					},
 					
 					"avxsnwst" : {
 						"animation" : "sign/avxsnwst",
 						"allowedTerrains": [ "wasteland" ],
-						"mask" : [ "A" ]
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}

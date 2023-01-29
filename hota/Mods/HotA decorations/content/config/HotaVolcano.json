@@ -1,7 +1,7 @@
 {
 	"core:volcano" : {
 		"types" : {
-			"types" : {
+			"object" : {
 				"templates" : {
 					"AVLvol60" : { "animation" : "volcano/AVLvol60",
 						"mask" : [ "VVVV","VBBB","VBBB" ],

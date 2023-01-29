@@ -8,8 +8,8 @@
 		"music" : "HIGHLANDS.mp3",
 		"tiles" : "terrain/HGHLL",
 		"type": ["LAND", "SURFACE"], //default values
-		"horseSound" : "horse02",
-		"horseSoundPenalty" : "horse22",
+		"horseSound" : "horse30",
+		"horseSoundPenalty" : "horse20",
 		"river" : "waterRiver",
 		"rockTerrain":"rock",
 		"shortIdentifier" : "hl",
@@ -28,8 +28,8 @@
 		"shortIdentifier":"ws",
 		"river" : "mudRiver",
 		"rockTerrain":"rock",
-		"horseSound" : "horse06",
-		"horseSoundPenalty" : "horse26",
+		"horseSound" : "horse31",
+		"horseSoundPenalty" : "horse20",
 //		"terrainViewPatterns" : "wasteland",
 		"battleFields" : ["wasteland_rocks"]
 	}

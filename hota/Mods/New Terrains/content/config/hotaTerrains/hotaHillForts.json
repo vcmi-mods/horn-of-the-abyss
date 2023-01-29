@@ -2,16 +2,16 @@
 	"miniHillFort" : {
 		"handler":"generic",
 		"name" : "Hill Fort",
-		"sounds" : {
-			"ambient" : ["LOOPSWAR"],
-			"visit" : ["MILITARY"]
-		},
 		"types" : {
 			"object" : {
-				"rmg" : {
-					"value"	: 7000,
-					"rarity" : 20,
-					"zoneLimit" : 1
+//				"rmg" : {
+//					"value"	: 7000,
+//					"rarity" : 20,
+//					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"ambient" : ["LOOPSWAR"],
+					"visit" : ["MILITARY"]
 				},
 				"templates" : {
 					"minifthl" : { "animation" : "hillFort/minifthl", 

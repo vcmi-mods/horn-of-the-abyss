@@ -3,7 +3,6 @@
 		"types" : {				
 			"hotaMonoliths01" : { 
 				"name" : "Black Two Way Monolith",
-				"index" : 1,
 				"templates" : {
 					"AVXmn2b0" : { "animation" : "monoliths/AVXmn2b0", 
 							"mask" : [ "VV", "VA" ],
@@ -14,7 +13,6 @@
 				
 			"hotaMonoliths02" : { 
 				"name" : "Blue Two Way Monolith",
-				"index" : 2,
 				"templates" : {
 					"AVXmn2bl" : { "animation" : "monoliths/AVXmn2bl",
 						"mask" : [ "VV", "VA" ],
@@ -25,7 +23,6 @@
 			
 			"hotaMonoliths03" : { 
 				"name" : "Pink Two Way Monolith",
-				"index" : 3,
 				"templates" : {
 					"AVXMN2Pink0" : { "animation" : "monoliths/AVXMN2Pink0",  
 						"mask" : [ "VV", "VA" ],
@@ -36,7 +33,6 @@
 			
 			"hotaMonoliths04" : { 
 				"name" : "Red Two Way Monolith",
-				"index" : 4,
 				"templates" : {
 					"AVXmn2rd" : { "animation" : "monoliths/AVXmn2rd", 
 						"mask" : [ "VV", "VA" ],
@@ -47,7 +43,6 @@
 			
 			"hotaMonoliths05" : { 
 				"name" : "Turquoise Two Way Monolith",
-				"index" : 5,
 				"templates" : {
 					"AVXMN2T0" : { "animation" : "monoliths/AVXMN2T0", 
 						"mask" : [ "VV", "VA" ],
@@ -58,7 +53,6 @@
 			
 			"hotaMonoliths06" : { 
 				"name" : "Yellow Two Way Monolith",
-				"index" : 6,
 				"templates" : {
 					"AVXMN2Y0" : { "animation" : "monoliths/AVXMN2Y0", 
 						"mask" : [ "VV", "VA" ],
@@ -69,7 +63,6 @@
 			
 			"hotaMonoliths07" : { 
 				"name" : "Blue Two Way Portal",
-				"index" : 7,
 				"templates" : {
 					"AVXmn20b" : { "animation" : "monoliths/AVXmn20b", 
 						"mask" : [ "VV", "AB" ],
@@ -80,7 +73,6 @@
 			
 			"hotaMonoliths08" : { 
 				"name" : "Chartreuse Two Way Portal",
-				"index" : 8,
 				"templates" : {					
 					"AVXmn9b0" : { "animation" : "monoliths/AVXmn9b0", 
 						"mask" : [ "VV", "AB" ],
@@ -91,7 +83,6 @@
 			
 			"hotaMonoliths09" : { 
 				"name" : "Turquoise Two Way Portal",
-				"index" : 5,
 				"templates" : {
 					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
 						"mask" : [ "VV", "AB" ],
@@ -102,7 +93,6 @@
 
 			"hotaMonoliths10" : { 
 				"name" : "Violet Two Way Portal",
-				"index" : 6,
 				"templates" : {
 					"AVXmn10b" : { "animation" : "monoliths/AVXmn10b", 
 						"mask" : [ "VV", "AB" ],
@@ -113,7 +103,6 @@
 			
 			"hotaMonoliths11" : {
 				"name" : "Orange Two Way Portal",			
-				"index" : 7,
 				"templates" : {
 					"AVXmn12b" : { "animation" : "monoliths/AVXmn12b", 
 						"mask" : [ "VV", "VA" ],
@@ -123,7 +112,6 @@
 			},
 						
 			"hotaMonoliths12" : { 
-				"index" : 8,
 				"templates" : {
 					"AVXmn19p" : { "animation" : "monoliths/AVXmn19p", 
 						"mask" : [ "VV", "VA" ],
@@ -133,7 +121,6 @@
 			},
 
 			"hotaMonoliths13" : { 
-				"index" : 1,
 				"templates" : {
 					"AVXptw_0" : { "animation" : "monoliths/AVXptw_0", 
 						"mask" : [ "VVV", "VVV", "BAB" ],
@@ -144,7 +131,6 @@
 			},
 
 			"hotaMonoliths14" : { 
-				"index" : 2,
 				"templates" : {
 					"AVXptw_1" : { "animation" : "monoliths/AVXptw_1", 
 						"mask" : [ "VVV", "VVV", "BAB" ],
@@ -155,7 +141,6 @@
 			},
 			
 			"hotaMonoliths15" : { 
-				"index" : 3,
 				"templates" : {
 					"AVXptw_2" : { "animation" : "monoliths/AVXptw_2", 
 						"mask" : [ "VVV", "VVV", "BAB" ],
@@ -166,7 +151,6 @@
 			},
 			
 			"hotaMonoliths16" : { 
-				"index" : 4,
 				"templates" : {
 					"AVXptw_3" : { "animation" : "monoliths/AVXptw_3", 
 						"mask" : [ "VVV", "VVV", "BAB" ],
@@ -178,7 +162,6 @@
 			
 			"hotaMonolithsWater" : {
 				"name" : "Water Two Way Portal",
-				"index" : 5,
 				"templates" : {	
 					"AVXMN9BW" : { "animation" : "monoliths/AVXMN9BW", 
 						"mask" : [ "VVV", "BAB" ],

@@ -1,7 +1,7 @@
 {
 	"core:libraryOfEnlightenment" : {
 		"types" : {
-			"object" : {
+			"libraryOfEnlightenment" : {
 				"templates" : {
 					"AVSlibS0" : {
 						"animation" : "libraryOfEnlightenment/AVSlibS0",

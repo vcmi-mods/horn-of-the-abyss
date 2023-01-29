@@ -1,7 +1,7 @@
 {
 	"core:treeOfKnowledge"	: {
 		"types" : {
-			"object" : {
+			"treeOfKnowledge" : {
 				"templates" : {
 					"AVXtrkS0" : {
 						"animation" : "treeOfKnowledge/AVXtrkS0", 

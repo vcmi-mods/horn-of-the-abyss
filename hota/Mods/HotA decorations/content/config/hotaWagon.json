@@ -1,8 +1,7 @@
 {
 	"core:wagon" : {
 		"types" : {
-			"object" : {
-				"aiValue" : 500,
+			"wagon" : {
 				"templates" : {
 					"HATel" : {
 						"animation" : "wagon/HATel",
