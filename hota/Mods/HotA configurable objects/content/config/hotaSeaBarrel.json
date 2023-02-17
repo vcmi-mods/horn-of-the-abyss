@@ -26,7 +26,7 @@
 					{
 						"appearChance": 
 						{
-							"min" : 21,
+							"min" : 20,
 							"max" : 40
 						},
 						"resources":
@@ -39,7 +39,7 @@
 					{
 						"appearChance": 
 						{
-							"min" : 41,
+							"min" : 40,
 							"max" : 60
 						},
 						"resources":
@@ -52,7 +52,7 @@
 					{
 						"appearChance": 
 						{
-							"min" : 61,
+							"min" : 60,
 							"max" : 80
 						},
 						"resources":
@@ -65,7 +65,7 @@
 					{
 						"appearChance": 
 						{
-							"min" : 81
+							"min" : 80
 						},
 						"resources":
 						{
