@@ -32,7 +32,7 @@
 					{
 						"appearChance": 
 						{
-							"min": 31,
+							"min" : 30,
 							"max" : 60
 						},
 						"limiter": //condition to get reward
@@ -46,7 +46,7 @@
 					{
 						"appearChance": 
 						{
-							"min": 61,
+							"min":  60,
 							"max" : 90
 						},
 						"limiter": //condition to get reward
@@ -60,7 +60,7 @@
 					{
 						"appearChance": 
 						{
-							"min": 91
+							"min": 90
 						},
 						"limiter": //condition to get reward
 						{
