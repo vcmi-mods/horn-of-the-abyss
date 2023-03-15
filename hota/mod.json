@@ -32,7 +32,7 @@
 		"modType" : "Erweiterung",
 		
 		"translations" : [
-			"config/translation/german.json"
+			"config/translation/hota/german.json"
 		]
 	}
 }
