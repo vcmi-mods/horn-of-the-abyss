@@ -27,5 +27,14 @@
 	"compatibility" :
 	{
 		"min" : "1.2.0"
+	},
+	"german" : {
+		"name" : "Horn of the Abyss",
+		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
+		"modType" : "Erweiterung",
+		
+		"translations" : [
+			"config/translation/hota/german.json"
+		]
 	}
 }
