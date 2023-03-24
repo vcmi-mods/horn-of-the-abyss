@@ -14,7 +14,7 @@
 		"fightValue" : 52,
 		"graphics" : {
 			"animation" : "hota/battle/nymph.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/nymph.png",
 			"iconSmall" : "hota/iconsSmall/nymph.png",
 			"map" : "hota/map/nymph.def",

@@ -1,17 +1,10 @@
 {
 	"core:stronghold" :
 	{
-		"creatureBackground" :
-		{
-			"120px" : "stronghold/TPCASSTR.bmp",
-			"130px" : "stronghold/CRBKGSTR.bmp"
-		},
-		
 		"town" :
 		{
 			"structures" :
 			{
-
 				"capitol":        { "animation" : "stronghold/town-screen/buildings/TBSTHAL4.def", "x" : 0,   "y" : 148, "border" : "TOSHAL4A.bmp", "area" : "TZSHAL4A.bmp" },
 
 				"grail":          { "animation" : "stronghold/town-screen/buildings/TBSTHOLY.def", "x" : 321, "y" : 105, "z" : 2,  "border" : "TOSHOLYA.bmp", "area" : "TZSHOLYA.bmp" },

@@ -5,7 +5,7 @@
 		{
 			"structures" :
 			{
-				"special3":       { "animation" : "TBINEXT1.def", "x" : 208, "y" : 144, "z" : -1,  "border" : "TOICASGA.bmp", "area" : "TZICASGA.bmp" },
+				"special3": { "animation" : "inferno/town-screen/buildings/TBINEXT1.def", "x" : 208, "y" : 144, "z" : -1,  "border" : "inferno/town-screen/buildings-border/TOICASGA.bmp", "area" : "inferno/town-screen/buildings-area/TZICASGA.bmp" },
 				"dwellingUpLvl5": { "animation" : "TBINUP_4.def", "x" : 359, "y" : 245 }
 			}
 		}

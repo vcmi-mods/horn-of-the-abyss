@@ -2,39 +2,21 @@
 	"ringOfOblivion" : {
 		"bonuses" : [
 			{
-				"effectRange" : "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
 				"subtype" : "spell.sacrifice",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"effectRange" : "ONLY_ENEMY_ARMY",
+				"propagator": "BATTLE_WIDE",
 				"subtype" : "spell.animateDead",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
 			{
-				"effectRange" : "ONLY_ENEMY_ARMY",
-				"subtype" : "spell.resurrection",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.sacrifice",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
-				"subtype" : "spell.animateDead",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
-			},
-			{
+				"propagator": "BATTLE_WIDE",
 				"subtype" : "spell.resurrection",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,

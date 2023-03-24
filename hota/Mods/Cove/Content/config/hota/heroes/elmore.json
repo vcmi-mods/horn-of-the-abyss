@@ -16,11 +16,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"navigation" : {
-					"subtype" : "skill.navigation",
-					"type" : "SECONDARY_SKILL_PREMY",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : 0,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MOVEMENT",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		},

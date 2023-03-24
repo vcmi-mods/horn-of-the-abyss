@@ -30,8 +30,7 @@
 			{
 				"walk" : 1.00,
 				"idle" : 12.00,
-				"attack" : 1.00,
-				"flight" : 1.00
+				"attack" : 1.00
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,

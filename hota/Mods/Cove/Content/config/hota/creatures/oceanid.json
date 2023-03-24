@@ -14,7 +14,7 @@
 		"fightValue" : 60,
 		"graphics" : {
 			"animation" : "hota/battle/oceanid.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/oceanid.png",
 			"iconSmall" : "hota/iconsSmall/oceanid.png",
 			"map" : "hota/map/oceanid.def",

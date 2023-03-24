@@ -17,8 +17,9 @@
 		"specialty" : {
 			"bonuses" : {
                 "sight" : {
-                    "valueType" : "BASE_NUMBER",
-                    "type" : "SIGHT_RADIOUS",
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
                     "updater" : {
                         "parameters" : [ 6 ],
                         "type" : "GROWS_WITH_LEVEL"

@@ -1,7 +1,7 @@
 {
 	"seaserpent" : {
 		"abilities" : {
-			"basicSlayer" : { "type" : "KING1" },
+			"basicSlayer" : { "type" : "KING", "val" : 0, "valueType" : "ADDITIVE_VALUE" },
 			"dragonNature" : { "type" : "DRAGON_NATURE" },
 			"poisonous" : {
 				"addInfo" : 0,
@@ -21,7 +21,7 @@
 		"fightValue" : 3162,
 		"graphics" : {
 			"animation" : "hota/battle/seaserpent.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/seaserpent.png",
 			"iconSmall" : "hota/iconsSmall/seaserpent.png",
 			"map" : "hota/map/seaserpent.def",

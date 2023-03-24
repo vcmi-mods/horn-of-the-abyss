@@ -1,9 +1,0 @@
-{
-	"core:troglodyte" :
-	{
-		"graphics" :
-		{
-			"animation" : "dungeon/creatures/battle/Ctrogl.def"
-		}
-	}
-}

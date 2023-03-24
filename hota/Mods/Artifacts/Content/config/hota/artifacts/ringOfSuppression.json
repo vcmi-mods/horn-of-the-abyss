@@ -1,6 +1,14 @@
 {
 	"ringOfSuppression" : {
-		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "MORALE", "val" : -1 } ],
+		"bonuses" : [ 
+			{ 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "MORALE", 
+				"val" : -1 
+			} 
+		],
 		"class" : "TREASURE",
 		"graphics" : {
 			"image" : "hota/artifacts/ringOfSuppression",

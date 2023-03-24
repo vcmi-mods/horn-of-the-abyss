@@ -1,28 +1,7 @@
 {
-	"core:goldGolem" :
-	{
-		"graphics" :
-		{
-			"animation" : "neutralCreatures/creatures/battle/CGGOLE.def"
-		}
-	},
-	"core:diamondGolem" :
-	{
-		"graphics" :
-		{
-			"animation" : "neutralCreatures/creatures/battle/CDGOLE.def"
-		}
-	},
 	"core:fairieDragon" :
 	{
-		"aiValue" :30501,
-	},
-	"core:rustDragon" :
-	{
-		"sound" :
-		{
-			"attack": "neutralCreatures/RUSTATTK.wav"
-		}	
+		"aiValue" :30501
 	},
 	"core:troll" :
 	{

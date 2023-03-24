@@ -12,7 +12,7 @@
 		"fightValue" : 386,
 		"graphics" : {
 			"animation" : "hota/battle/stormbird.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/stormbird.png",
 			"iconSmall" : "hota/iconsSmall/stormbird.png",
 			"map" : "hota/map/stormbird.def",

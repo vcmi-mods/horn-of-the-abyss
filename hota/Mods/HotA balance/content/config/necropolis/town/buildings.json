@@ -8,27 +8,26 @@
 				"dwellingLvl5": 
 				{ 
 					"cost" :
-						{
-							"sulfur": 4,
-							"ore" : 5
-
-						}
+					{
+						"sulfur": 4,
+						"ore" : 5
+					}
 				},
 			
 				"dwellingUpLvl3": 
 				{ 
 					"cost" :
-						{
-							"mercury" : 4
-						}
+					{
+						"mercury" : 4
+					}
 				},	
 
 				"dwellingUpLvl5": 
 				{ 
 					"cost" :
-						{
-							"sulfur": 4
-						}
+					{
+						"sulfur": 4
+					}
 				}
 			}
 		}

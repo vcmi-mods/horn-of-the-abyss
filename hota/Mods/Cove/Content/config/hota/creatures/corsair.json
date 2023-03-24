@@ -15,7 +15,7 @@
 		"fightValue" : 344,
 		"graphics" : {
 			"animation" : "hota/battle/corsair.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/corsair.png",
 			"iconSmall" : "hota/iconsSmall/corsair.png",
 			"map" : "hota/map/corsair.def",

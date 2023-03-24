@@ -25,7 +25,7 @@
 		"fightValue" : 608,
 		"graphics" : {
 			"animation" : "hota/battle/seaWitch.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/seaWitch.png",
 			"iconSmall" : "hota/iconsSmall/seaWitch.png",
 			"map" : "hota/map/seaWitch.def",
