@@ -1,6 +1,14 @@
 {
 	"shamansPuppet" : {
-		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "LUCK", "val" : -2 } ],
+		"bonuses" : [ 
+			{ 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "LUCK", 
+				"val" : -2 
+			} 
+		],
 		"class" : "MINOR",
 		"graphics" : { "image" : "hota/artifacts/shamansPuppet", "large" : "hota/artifacts/ABon154p", "map" : "hota/artifacts/shamansPuppet" },
 		"slot" : "MISC",

@@ -1,7 +1,7 @@
 {
 	"haspid" : {
 		"abilities" : {
-			"basicSlayer" : { "type" : "KING1" },
+			"basicSlayer" : { "type" : "KING", "val" : 0, "valueType" : "ADDITIVE_VALUE" },
 			"dragonNature" : { "type" : "DRAGON_NATURE" },
 			"poisonous" : {
 				"addInfo" : 0,
@@ -21,7 +21,7 @@
 		"fightValue" : 5554,
 		"graphics" : {
 			"animation" : "hota/battle/haspid.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/haspid.png",
 			"iconSmall" : "hota/iconsSmall/haspid.png",
 			"map" : "hota/map/haspid.def",

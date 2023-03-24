@@ -11,7 +11,7 @@
 		"fightValue" : 306,
 		"graphics" : {
 			"animation" : "hota/battle/pirate.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/pirate.png",
 			"iconSmall" : "hota/iconsSmall/pirate.png",
 			"map" : "hota/map/pirate.def",

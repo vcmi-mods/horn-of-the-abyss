@@ -3,39 +3,30 @@
 	{
 		"bonuses" : [
 			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 2.5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
-		"index" : 54,
-		"type" : ["HERO"]
+		]
 	},
 	"core:vampiresCowl":
 	{
 		"bonuses" : [
 			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
-		"index" : 55,
-		"type" : ["HERO"]
+		]
 	},
 	"core:deadMansBoots":
 	{
 		"bonuses" : [
 			{
-				"subtype" : 12,
-				"type" : "SECONDARY_SKILL_PREMY",
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"val" : 7.5,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		],
-		"index" : 56,
-		"type" : ["HERO"]
+		]
 	}
 }

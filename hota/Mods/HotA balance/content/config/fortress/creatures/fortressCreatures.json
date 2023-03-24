@@ -1,9 +1,0 @@
-{
-	"core:gnoll" :
-	{
-		"graphics" :
-		{
-			"animation" : "fortress/creatures/battle/CGNOLL.def"
-		}
-	}
-}

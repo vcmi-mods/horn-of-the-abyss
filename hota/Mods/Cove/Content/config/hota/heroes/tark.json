@@ -15,7 +15,56 @@
 		},
 		"skills" : [ { "level" : "basic", "skill" : "offence" }, { "level" : "basic", "skill" : "armorer" } ],
 		"specialty" : {
-			"creature" : "nix"
+			"base" : {
+				"duration" : [ "PERMANENT" ],
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" },
+				"sourceID" : 180,
+				"sourceType" : "HERO_SPECIAL",
+				"targetSourceType" : "ARTIFACT"
+			},
+			"bonuses" : {
+				"attack" : {
+					"limiters" : { "parameters" : [ "hota.cove:nix", false ] },
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 13, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"attack2" : {
+					"limiters" : { "parameters" : [ "hota.cove:nixWarrior", false ] },
+					"subtype" : "primSkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 14, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence" : {
+					"limiters" : { "parameters" : [ "hota.cove:nix", false ] },
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 16, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"defence2" : {
+					"limiters" : { "parameters" : [ "hota.cove:nixWarrior", false ] },
+					"subtype" : "primSkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"updater" : {
+						"parameters" : [ 17, 6 ],
+						"type" : "GROWS_WITH_LEVEL"
+					}
+				},
+				"speed" : {
+					"limiters" : { "parameters" : [ "hota.cove:nix", true ] },
+					"type" : "STACKS_SPEED",
+					"val" : 1
+				}
+			}
 		},
 		"texts" : {
 			"biography" : "He is a king of a half-legendary sea kin that was counted extinct. Tark realized that in order for his people to return he has to get help from powerful allies. Pirates became his new brothers in arms. As all nix, he is a powerful warrior, able to fight on land and sea. Other nix praise him and hold as a great example.",

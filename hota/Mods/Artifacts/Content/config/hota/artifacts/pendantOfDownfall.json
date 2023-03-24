@@ -1,6 +1,14 @@
 {
 	"pendantOfDownfall" : {
-		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "MORALE", "val" : -2 } ],
+				"bonuses" : [ 
+			{ 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "MORALE", 
+				"val" : -2 
+			} 
+		],
 		"class" : "MAJOR",
 		"graphics" : {
 			"image" : "hota/artifacts/pendantOfDownfall",

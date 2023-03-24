@@ -6,9 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.5.5",
+	"version" : "1.5.6",
 	"changelog" : 
 	{
+		"1.5.6"   : [ "Mod updated for new bunus system" ],
 		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],
 		"1.5.4"   : [ "Submod New Terrains was rewritten for new format" ],
 		"1.5.3"   : [ "Added 3 special terrains, added some missing decorations" ],
@@ -28,11 +29,15 @@
 	{
 		"min" : "1.2.0"
 	},
+	"settings" : {
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ]
+		}
+	},
 	"german" : {
 		"name" : "Horn of the Abyss",
 		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
 		"modType" : "Erweiterung",
-		
 		"translations" : [
 			"config/translation/hota/german.json"
 		]

@@ -10,7 +10,7 @@
 		"fightValue" : 174,
 		"graphics" : {
 			"animation" : "hota/battle/seaman.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/seaman.png",
 			"iconSmall" : "hota/iconsSmall/seaman.png",
 			"map" : "hota/map/seaman.def",

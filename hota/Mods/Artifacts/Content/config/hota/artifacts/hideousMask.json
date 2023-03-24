@@ -1,6 +1,14 @@
 {
 	"hideousMask" : {
-		"bonuses" : [ { "effectRange" : "ONLY_ENEMY_ARMY", "type" : "MORALE", "val" : -1 } ],
+		"bonuses" : [ 
+			{ 
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ],
+				"type" : "MORALE", 
+				"val" : -1 
+			} 
+		],
 		"class" : "MINOR",
 		"graphics" : { "image" : "hota/artifacts/hideousMask", "large" : "hota/artifacts/ABon155p", "map" : "hota/artifacts/hideousMask" },
 		"slot" : "MISC",

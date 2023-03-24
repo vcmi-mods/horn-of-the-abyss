@@ -11,7 +11,7 @@
 		"fightValue" : 1415,
 		"graphics" : {
 			"animation" : "hota/battle/nix.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/nix.png",
 			"iconSmall" : "hota/iconsSmall/nix.png",
 			"map" : "hota/map/nix.def",

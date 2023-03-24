@@ -15,7 +15,7 @@
 		"fightValue" : 478,
 		"graphics" : {
 			"animation" : "hota/battle/ayssid.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/ayssid.png",
 			"iconSmall" : "hota/iconsSmall/ayssid.png",
 			"map" : "hota/map/ayssid.def",

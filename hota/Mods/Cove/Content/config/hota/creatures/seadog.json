@@ -22,7 +22,7 @@
 		"fightValue" : 379,
 		"graphics" : {
 			"animation" : "hota/battle/seadog.def",
-			"animationTime" : { "attack" : 1, "flight" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/seadog.png",
 			"iconSmall" : "hota/iconsSmall/seadog.png",
 			"map" : "hota/map/seadog.def",

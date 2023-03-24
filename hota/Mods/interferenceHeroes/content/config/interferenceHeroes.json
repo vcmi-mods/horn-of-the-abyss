@@ -90,13 +90,15 @@
 		"specialty" : {
 			"bonuses" : {
 				"interference" : {
-					"effectRange" : "ONLY_ENEMY_ARMY",
+					"propagator": "BATTLE_WIDE",
+//					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [ "OPPOSITE_SIDE" ],
 					"subtype" : "primSkill.spellpower",
 					"type" : "PRIMARY_SKILL",
 					"val" : -15,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : {
-					   "parameters" : [ -10 ],
+					   "parameters" : [ 10 ],
 					   "type" : "GROWS_WITH_LEVEL"
 					}
 				}
