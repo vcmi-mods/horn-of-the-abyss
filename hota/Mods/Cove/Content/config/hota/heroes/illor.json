@@ -16,10 +16,7 @@
 		"specialty" : {
 			"base" : {
 				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" },
-				"sourceID" : 174,
-				"sourceType" : "HERO_SPECIAL",
-				"targetSourceType" : "ARTIFACT"
+				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
 			},
 			"bonuses" : {
 				"attack" : {
