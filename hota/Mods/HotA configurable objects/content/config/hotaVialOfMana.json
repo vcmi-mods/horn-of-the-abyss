@@ -2,12 +2,12 @@
 	"vialOfMana" : {
 		"handler":"configurable",
 		"name" : "Vial of Mana",
-		"sounds" : {
-			"visit" : ["BOTTLVIS"]
-		},
 		"types" : {
 			"object" : {
 				"name": "Vial of Mana (grants 30-60 spell points)",
+				"sounds" : {
+					"visit" : ["BOTTLVIS"]
+				},
 				"rmg" : {
 					"value"	: 3000,
 					"rarity" : 50

@@ -1,6 +1,6 @@
 {
 	"wayfarerBoots" : {
-		"bonuses" : [ { "subtype" : "skill.pathfinding", "type" : "SECONDARY_SKILL_PREMY", "val" : 100 } ],
+		"bonuses" : [ {"type" : "ROUGH_TERRAIN_DISCOUNT", "val" : 100, "valueType" : "ADDITIVE_VALUE"} ],
 		"class" : "MAJOR",
 		"graphics" : { "image" : "hota/artifacts/wayfarerBoots", "large" : "hota/artifacts/ABon151p", "map" : "hota/artifacts/wayfarerBoots" },
 		"slot" : "FEET",

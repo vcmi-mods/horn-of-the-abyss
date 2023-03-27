@@ -2,11 +2,11 @@
 	"observatory" : {
 		"handler":"configurable",
 		"name" : "Observatory",
-		"sounds" : {
-			"visit" : ["LIGHTHOUSE"]
-		},
 		"types" : {
 			"object" : {
+				"sounds" : {
+					"visit" : ["LIGHTHOUSE"]
+				},
 //				"rmg" : {
 //					"value"	: 750,
 //					"rarity" : 100
