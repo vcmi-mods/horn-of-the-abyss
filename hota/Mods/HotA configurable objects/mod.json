@@ -8,7 +8,7 @@
 		"min" : "1.2.0"
 	},
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"modType" : "Graphic",
+	"modType" : "Objects",
 	"objects" :
 	[
 		"config/hotaWarehouses",

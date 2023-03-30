@@ -4,7 +4,7 @@
 	"author": "avatar",
 	"version" : "1.0",
 	"contact": "https://forum.vcmi.eu/",
-	"modType" : "Mechanic",
+	"modType" : "Mechanics",
 	"compatibility" :
 	{
 		"min" : "1.2"

@@ -217,7 +217,7 @@
 							"limiters" : [
 							{ 
 								"type": "CREATURE_FACTION_LIMITER", 
-									"parameters" : ["hota:cove"] 
+									"parameters" : ["cove"] 
 							}]
 					}],
 					"mode" : "grail",
