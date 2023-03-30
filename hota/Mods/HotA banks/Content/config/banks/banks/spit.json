@@ -13,7 +13,7 @@
 						"animation" : "banks/map/banks/avbone02.def", 
 						"visitableFrom" : [ "---", "-+-", "+++" ], 
 						"mask" : [ "VVVV", "VVBB", "VBAB"],
-						"allowedTerrains":["grass", "swamp"]
+						"allowedTerrains":["swamp"]
 					}
 				},
 				"sounds": {
