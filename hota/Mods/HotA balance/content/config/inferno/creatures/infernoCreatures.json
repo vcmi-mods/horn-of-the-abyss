@@ -8,5 +8,9 @@
 				"val" : -2
 			}
 		}
-	}	
+	},
+	"core:efreetSultan" :
+	{
+		"aiValue" : 2343
+	}
 }
