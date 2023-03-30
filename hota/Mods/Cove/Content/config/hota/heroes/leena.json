@@ -13,7 +13,10 @@
 			"specialtyLarge" : "hota/heroes/leena/speclarge.png",
 			"specialtySmall" : "hota/heroes/leena/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "estates" } ],
+		"skills" : [
+			{ "level" : "basic", "skill" : "estates" },
+			{ "level" : "basic", "skill" : "pathfinding" }
+		],
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
