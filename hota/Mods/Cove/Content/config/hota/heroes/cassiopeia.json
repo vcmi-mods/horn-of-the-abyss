@@ -15,53 +15,7 @@
 		},
 		"skills" : [ { "level" : "basic", "skill" : "offence" }, { "level" : "basic", "skill" : "tactics" } ],
 		"specialty" : {
-			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
-			},
-			"bonuses" : {
-				"attack" : {
-					"limiters" : { "parameters" : [ "hota.cove:nymph", false ] },
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 5 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"attack2" : {
-					"limiters" : { "parameters" : [ "hota.cove:oceanid", false ] },
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 6 ],
-					"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"defence" : {
-					"limiters" : { "parameters" : [ "hota.cove:nymph", false ] },
-					"subtype" : "primSkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 2 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"defence2" : {
-					"limiters" : { "parameters" : [ "hota.cove:oceanid", false ] },
-					"subtype" : "primSkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 2 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"speed" : {
-					"limiters" : { "parameters" : [ "hota.cove:nymph", true ] },
-					"type" : "STACKS_SPEED",
-				"val" : 1
-				}
-			}
+			"creature" : "hota.cove:nymph"
 		},
 		"texts" : {
 			"biography" : "It is said that Cassiopeia was the lover of some Regnan mage, and fell victim to one of his unsuccessful experiments.  It is unknown if it is truly possible to turn an alive soul into a nymph. All that is known is that other nymphs accept Cassiopeia for more than an equal kind. They gladly follow her into the battle.",

@@ -14,53 +14,7 @@
 		},
 		"skills" : [ { "level" : "basic", "skill" : "armorer" }, { "level" : "basic", "skill" : "tactics" } ],
 		"specialty" : {
-			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
-			},
-			"bonuses" : {
-				"attack" : {
-					"limiters" : { "parameters" : [ "hota.cove:stormbird", false ] },
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 10, 4 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"attack2" : {
-					"limiters" : { "parameters" : [ "hota.cove:ayssid", false ] },
-					"subtype" : "primSkill.attack",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 11, 4 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"defence" : {
-					"limiters" : { "parameters" : [ "hota.cove:stormbird", false ] },
-					"subtype" : "primSkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 8, 4 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"defence2" : {
-					"limiters" : { "parameters" : [ "hota.cove:ayssid", false ] },
-					"subtype" : "primSkill.defence",
-					"type" : "PRIMARY_SKILL",
-					"updater" : {
-						"parameters" : [ 8, 4 ],
-						"type" : "GROWS_WITH_LEVEL"
-					}
-				},
-				"speed" : {
-					"limiters" : { "parameters" : [ "hota.cove:stormbird", true ] },
-					"type" : "STACKS_SPEED",
-					"val" : 1
-				}
-			}
+			"creature" : "hota.cove:stormbird"
 		},
 		"texts" : {
 			"biography" : "Illor fled from AvLee after his kin was fed up with such a heavily proud spirit. He couldn't bare anyone to be higher than himself. This obsession with high position in the society led him to studying sky creatures eventually. After lengthy roaming across seas he understood his lousiness as a pirate. The crew doesn't respect him, and the prey always escapes. Lonely and abandoned, he descended upon an island where giant birds were nesting. Illor spent some time on the island, taming the birds to his command.",
