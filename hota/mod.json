@@ -1,14 +1,15 @@
 {
 	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"description" : "Work-in-progress port of Horn of the Abyss expansion for made by Hota Crew",
+	"description" : "Work-in-progress VCMI port of Horn of the Abyss expansion made by Hota Crew",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.5.6",
+	"version" : "1.5.7",
 	"changelog" : 
 	{
+		"1.5.7"   : [ "Fixed configuration of several creature banks", "Added Ukrainian translation" ],
 		"1.5.6"   : [ "Mod updated for new bunus system" ],
 		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],
 		"1.5.4"   : [ "Submod New Terrains was rewritten for new format" ],
@@ -37,9 +38,16 @@
 	"german" : {
 		"name" : "Horn of the Abyss",
 		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
-		"modType" : "Erweiterung",
 		"translations" : [
 			"config/translation/hota/german.json"
 		]
+	},
+	"ukrainian" : {
+		"name" : "Horn of the Abyss / Ріг Безодні",
+		"description" : "Поточна версія доповнення Horn of the Abyss (від команди Hota Crew)",
+		"translations" : [
+			"config/translation/hota/ukrainian.json"
+		]
 	}
+
 }
