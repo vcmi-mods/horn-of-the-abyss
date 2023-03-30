@@ -12,7 +12,10 @@
 			"specialtyLarge" : "hota/heroes/corkes/speclarge.png",
 			"specialtySmall" : "hota/heroes/corkes/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "offence" } ],
+		"skills" : [ 
+			{ "level" : "basic", "skill" : "offence" }
+			{ "level" : "basic", "skill" : "pathfinding" }
+		],
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
