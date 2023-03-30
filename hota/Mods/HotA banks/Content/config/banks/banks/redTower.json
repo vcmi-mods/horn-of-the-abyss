@@ -30,61 +30,61 @@
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 12, "type" : "energyElemental" },
-							{ "amount": 12, "type" : "energyElemental" },
-							{ "amount": 12, "type" : "energyElemental"},
-							{ "amount": 12, "type" : "energyElemental" },
-							{ "amount": 12, "type" : "energyElemental" }
+							{ "amount": 12, "type" : "fireElemental" },
+							{ "amount": 12, "type" : "fireElemental" },
+							{ "amount": 12, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 12, "type" : "fireElemental" },
+							{ "amount": 12, "type" : "fireElemental" }
 						],
 						"combat_value": 6000,
 						"reward" : {
 							"value": 4000,
+							"creatures": [ { "amount": 1, "type": "firebird" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 18, "type" : "fireElemental" },
+							{ "amount": 18, "type" : "fireElemental" },
+							{ "amount": 18, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 18, "type" : "fireElemental" },
+							{ "amount": 18, "type" : "fireElemental" }
+						],
+						"combat_value": 9000,
+						"reward" : {
+							"value": 6000,
 							"creatures": [ { "amount": 2, "type": "firebird" } ]
 						}
 					},
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 18, "type" : "energyElemental" },
-							{ "amount": 18, "type" : "energyElemental" },
-							{ "amount": 18, "type" : "energyElemental"},
-							{ "amount": 18, "type" : "energyElemental" },
-							{ "amount": 18, "type" : "energyElemental" }
-						],
-						"combat_value": 9000,
-						"reward" : {
-							"value": 6000,
-							"creatures": [ { "amount": 3, "type": "firebird" } ]
-						}
-					},
-					{
-						"chance": 30,
-						"guards": [
-							{ "amount": 24, "type" : "energyElemental" },
-							{ "amount": 24, "type" : "energyElemental" },
-							{ "amount": 24, "type" : "energyElemental"},
-							{ "amount": 24, "type" : "energyElemental" },
-							{ "amount": 24, "type" : "energyElemental" }
+							{ "amount": 24, "type" : "fireElemental" },
+							{ "amount": 24, "type" : "fireElemental" },
+							{ "amount": 24, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 24, "type" : "fireElemental" },
+							{ "amount": 24, "type" : "fireElemental" }
 						],
 						"combat_value": 12000,
 						"reward" : {
 							"value": 8000,
-							"creatures": [ { "amount": 4, "type": "firebird" } ]
+							"creatures": [ { "amount": 3, "type": "firebird" } ]
 						}
 					},
 					{
 						"chance": 10,
 						"guards": [
-							{ "amount": 30, "type" : "energyElemental" },
-							{ "amount": 30, "type" : "energyElemental" },
-							{ "amount": 30, "type" : "energyElemental"},
-							{ "amount": 30, "type" : "energyElemental" },
-							{ "amount": 30, "type" : "energyElemental" }
+							{ "amount": 30, "type" : "fireElemental" },
+							{ "amount": 30, "type" : "fireElemental" },
+							{ "amount": 30, "type" : "fireElemental", "upgradeChance": 50 },
+							{ "amount": 30, "type" : "fireElemental" },
+							{ "amount": 30, "type" : "fireElemental" }
 						],
 						"combat_value": 15000,
 						"reward" : {
 							"value": 10000,
-							"creatures": [ { "amount": 5, "type": "firebird" } ]
+							"creatures": [ { "amount": 4, "type": "firebird" } ]
 						}
 					}
 				]

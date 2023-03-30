@@ -13,14 +13,14 @@
 						"animation" : "banks/map/banks/HAPCAVE.def",
 						"visitableFrom" : [ "---", "+++", "+++" ], 
 						"mask" : ["VVVV", "VBBB", "VBAB"],
-						"allowedTerrains":["rough", "sand"] 						
+						"allowedTerrains":["rough", "sand"]
 					}
 				},
 				"sounds": {
 					"ambient": ["banks/LOOPPCAV.wav"]
 				},
 				"rmg" : {
-					"value"		: 2500,
+					"value"		: 3500,
 					"rarity"	: 100
 				},
 				"levels":
@@ -28,11 +28,10 @@
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 10, "type" : "pirate" },
-							{ "amount": 10, "type" : "pirate" },
-							{ "amount": 10, "type" : "corsair", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "pirate" },
-							{ "amount": 10, "type" : "corsair" }
+							{ "amount": 10, "type" : "pirate", "upgradeChance": 50 },
+							{ "amount": 10, "type" : "corsair" },
+							{ "amount": 10, "type" : "corsair" },
+							{ "amount": 10, "type" : "pirate" }
 						],
 						"combat_value": 1250,
 						"reward" : {
@@ -43,11 +42,10 @@
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 20, "type" : "pirate" },
-							{ "amount": 20, "type" : "pirate" },
-							{ "amount": 20, "type" : "corsair", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "pirate" },
-							{ "amount": 20, "type" : "corsair" }
+							{ "amount": 20, "type" : "pirate", "upgradeChance": 50 },
+							{ "amount": 20, "type" : "corsair" },
+							{ "amount": 20, "type" : "corsair" },
+							{ "amount": 20, "type" : "pirate" }
 						],
 						"combat_value": 2500,
 						"reward" : {
@@ -58,11 +56,10 @@
 					{
 						"chance": 30,
 						"guards": [
-							{ "amount": 30, "type" : "pirate" },
-							{ "amount": 30, "type" : "pirate" },
-							{ "amount": 30, "type" : "corsair", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "pirate" },
-							{ "amount": 30, "type" : "corsair" }
+							{ "amount": 30, "type" : "pirate", "upgradeChance": 50 },
+							{ "amount": 30, "type" : "corsair" },
+							{ "amount": 30, "type" : "corsair" },
+							{ "amount": 30, "type" : "pirate" }
 						],
 						"combat_value": 3750,
 						"reward" : {
@@ -73,11 +70,10 @@
 					{
 						"chance": 10,
 						"guards": [
-							{ "amount": 40, "type" : "pirate" },
-							{ "amount": 40, "type" : "pirate" },
-							{ "amount": 40, "type" : "corsair", "upgradeChance": 50 },
-							{ "amount": 40, "type" : "pirate" },
-							{ "amount": 40, "type" : "corsair" }
+							{ "amount": 40, "type" : "pirate", "upgradeChance": 50 },
+							{ "amount": 40, "type" : "corsair" },
+							{ "amount": 40, "type" : "corsair" },
+							{ "amount": 40, "type" : "pirate" }
 						],
 						"combat_value": 5000,
 						"reward" : {

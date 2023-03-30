@@ -12,7 +12,10 @@
 			"specialtyLarge" : "hota/heroes/andal/speclarge.png",
 			"specialtySmall" : "hota/heroes/andal/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "wisdom" } ],
+		"skills" : [ 
+			{ "level" : "basic", "skill" : "wisdom" },
+			{ "level" : "basic", "skill" : "pathfinding" }
+		],
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
