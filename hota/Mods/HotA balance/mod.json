@@ -6,6 +6,13 @@
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
 	
+	"settings" : {
+		"dwellings" :
+		{
+			"accumulateWhenOwned" : true
+		}
+	},
+
 	"factions" :
 	[
 		"config/castle/town/structures.json",		
@@ -21,6 +28,12 @@
 		"config/tower/town/buildings.json",
 		"config/stronghold/town/buildings.json"
 	],
+	
+	"skills" :
+	[
+		"config/skills/skills.json"
+	],
+
 	
 	"creatures" :
 	[

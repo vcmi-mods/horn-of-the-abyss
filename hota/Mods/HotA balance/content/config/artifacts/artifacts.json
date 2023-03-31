@@ -1,16 +1,22 @@
 {
 	"core:amuletOfTheUndertaker":
 	{
+		"text" : {
+			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
+		},
 		"bonuses" : [
 			{
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 2.5,
+				"val" : 3, // NOTE: should be 2.5%
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		]
 	},
 	"core:vampiresCowl":
 	{
+		"text" : {
+			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%.",
+		},
 		"bonuses" : [
 			{
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
@@ -21,12 +27,47 @@
 	},
 	"core:deadMansBoots":
 	{
+		"text" : {
+			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%.",
+		},
 		"bonuses" : [
 			{
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 7.5,
+				"val" : 7, // NOTE: should be 7.5%
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		]
-	}
+	},
+	"core:bootsOfSpeed":
+	{
+		"bonuses" : [
+			{
+				"type" : "MOVEMENT",
+				"subtype" : 1,
+				"val" : 400,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:equestriansGloves":
+	{
+		"bonuses" : [
+			{
+				"type" : "MOVEMENT",
+				"subtype" : 1,
+				"val" : 200,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	},
+	"core:badgeOfCourage":
+	{
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	},
 }

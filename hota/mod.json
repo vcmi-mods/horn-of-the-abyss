@@ -6,9 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.5.7",
+	"version" : "1.5.8",
 	"changelog" : 
 	{
+		"1.5.8"   : [ "Updated HotA balance changes" ],
 		"1.5.7"   : [ "Fixed configuration of several creature banks", "Added Ukrainian translation" ],
 		"1.5.6"   : [ "Mod updated for new bunus system" ],
 		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],

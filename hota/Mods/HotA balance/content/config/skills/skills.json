@@ -1,0 +1,124 @@
+{
+	"core:logistics" : {
+		"basic" : {
+			"description" : "{Basic Logistics}\n\nBasic Logistics increases your hero's movement points over land by 5%.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Logistics}\n\nAdvanced Logistics increases your hero's movement points over land by 10%.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Logistics}\n\nExpert Logistics increases your hero's movement points over land by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		}
+	},
+	"core:scouting" : {
+		"basic" : {
+			"description" : "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 3 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		}
+	},
+	"core:mysticism" : {
+		"basic" : {
+			"description" : "{Basic Mysticism}\n\nBasic Mysticism allows your hero to regenerate 5 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 4 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 10 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 9 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mysticism}\n\nExpert Mysticism allows your hero to regenerate 15 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 14 }
+			}
+		}
+	},
+	"core:necromancy" : {
+		"basic" : {
+			"description" : "{Basic Necromancy}\n\nBasic Necromancy allows 5% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Necromancy}\n\nAdvanced Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Necromancy}\n\nExpert Necromancy allows 15% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		}
+	},
+
+	"core:estates" : {
+		"basic" : {
+			"description" : "{Basic Estates}\n\nYour hero contributes 250 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 250 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Estates}\n\nYour hero contributes 500 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 500 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Estates}\n\nYour hero contributes 1000 gold per day to your cause.",
+			"effects" : {
+				"main" : { "val" : 1000 }
+			}
+		}
+	},
+	
+	"core:intelligence" : {
+		"basic" : {
+			"description" : "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 35%.",
+			"effects" : {
+				"main" : { "val" : 35 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 50%.",
+			"effects" : {
+				"main" : { "val" : 50 }
+			}
+		}
+	}
+}

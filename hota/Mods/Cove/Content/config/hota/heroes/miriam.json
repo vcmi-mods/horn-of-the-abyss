@@ -33,7 +33,7 @@
 			"specialty" : {
 				"tooltip" : "Secondary Skill Bonus: Scouting",
 				"name" : "Scouting",
-				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill percentage (rounded up)."
+				"description" : "{Scouting}\r\n\r\nIncreases the scouting range by 1 for every 6 levels of the hero."
 			}
 		}
 	}
