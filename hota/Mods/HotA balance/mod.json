@@ -29,6 +29,12 @@
 		"config/stronghold/town/buildings.json"
 	],
 	
+	"skills" :
+	[
+		"config/skills/skills.json"
+	],
+
+	
 	"creatures" :
 	[
 		"config/castle/creatures/castleCreatures.json",
