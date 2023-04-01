@@ -210,15 +210,16 @@
 				"grail" : {
 					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
 					"id" : 26,
-					"bonuses" : [ 
-					{ 
-						"type" : "NO_TERRAIN_PENALTY", 
-							"propagator" : "ALL_CREATURES", 
-							"limiters" : [
-							{ 
-								"type": "CREATURE_FACTION_LIMITER", 
-									"parameters" : ["cove"] 
-							}]
+					"bonuses" : [
+					{
+						"type" : "NO_TERRAIN_PENALTY",
+						"subtype" : -3, //any
+						"propagator" : "ALL_CREATURES",
+						"limiters" : [
+						{
+							"type": "CREATURE_FACTION_LIMITER",
+								"parameters" : ["cove"]
+						}]
 					}],
 					"mode" : "grail",
 					"name" : "Lodestar"
