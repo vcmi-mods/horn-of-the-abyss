@@ -63,15 +63,10 @@
 				"val" : 600
 			}, 	
 			"hypnotize" : {
-				"addInfo" : 0,
+				"addInfo" : [ 2, 2 ],
 				"subtype" : "spell.hypnotize",
 				"type" : "SPELL_AFTER_ATTACK",
 				"val" : 33
-			},
-			"spellpoints" :
-			{
-				"type" : "CASTS",
-				"val" : 3
 			},
 			"canFly" : 
 			{
