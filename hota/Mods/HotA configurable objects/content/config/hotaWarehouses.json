@@ -26,9 +26,12 @@
 						"message": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all crystals from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhscr" : 
@@ -62,9 +65,12 @@
 						"message": "{Warehouse of Gem}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gems from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Gem}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gems here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Gem}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gems here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhsgm" :
@@ -98,9 +104,12 @@
 						"message": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all sulfur from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no sulfur here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no sulfur here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhssf" :
@@ -134,9 +143,12 @@
 						"message": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all mercury from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mercury here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mercury here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhsmc" :
@@ -170,9 +182,12 @@
 						"message": "{Warehouse of Wood}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all wood from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Wood}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no wood here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Wood}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no wood here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhswd" :
@@ -206,9 +221,12 @@
 						"message": "{Warehouse of Ore}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all ore from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Ore}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no ore here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Ore}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no ore here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhsor" :
@@ -242,9 +260,12 @@
 						"message": "{Warehouse of Gold}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gold from the nearby production points for you. Come next week for the new portion!'"
 					}
 				],
-				"onEmptyMessage": "{Warehouse of Gold}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gold here. Please, return next week!'",
-				"resetDuration" : 7,
-				"visitMode" : "unlimited",
+				"onVisitedMessage": "{Warehouse of Gold}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gold here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
 				"templates" : 
 				{
 					"avwrhsgl" :

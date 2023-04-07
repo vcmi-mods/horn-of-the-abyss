@@ -11,23 +11,22 @@
 	"modType" : "Objects",
 	"objects" :
 	[
-		"config/hotaWarehouses",
+		"config/hotaAncientLamp",
 		"config/hotaColosseum",
+		"config/hotaJetsam",
 		"config/hotaObservatory",
+		"config/hotaSeaBarrel",
 		"config/hotaShrineOfMagicMystery",
 		"config/hotaVialOfMana",
-//		"config/hotaTempleOfLoyalty", //doesn't work
-//		"config/hotaSeafaringAcademy", //doesn't work
-//		"config/hotaWateringPlace", //doesn't work
+		"config/hotaWarehouses",
+		"config/hotaWateringPlace"
 //		"config/hotaAltarOfMana", //doesn't work
-//		"config/hotaQuestGates", //doesn't work
-//		"config/hotaSkeletonTransformer", //doesn't work
-//		"config/hotaTownGate", //doesn't work
-		"config/hotaAncientLamp",
-		"config/hotaSeaBarrel",
-		"config/hotaJetsam"
 //		"config/hotaHillForts", //doesn't work
-	] 
-	
+//		"config/hotaQuestGates", //doesn't work
+//		"config/hotaSeafaringAcademy", //doesn't work
+//		"config/hotaSkeletonTransformer", //doesn't work
+//		"config/hotaTempleOfLoyalty", //doesn't work
+//		"config/hotaTownGate", //doesn't work
+	]
 }
 

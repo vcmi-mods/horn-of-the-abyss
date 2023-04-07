@@ -19,36 +19,36 @@
 	},
 	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
 	"objects" : [
-		"config/hotaTerrains/hotaHWLakes",
-		"config/hotaTerrains/hotaHWMountain",
-		"config/hotaTerrains/hotaHWaterfalls",
+		"config/hotaTerrains/churchyardHL",
+		"config/hotaTerrains/hotaCrater",
+		"config/hotaTerrains/hotaDerrick",
+		"config/hotaTerrains/hotaGazebo",
 		"config/hotaTerrains/hotaHFlowers",
+		"config/hotaTerrains/hotaHWCactus",
+		"config/hotaTerrains/hotaHWLakes",
+		"config/hotaTerrains/hotaHWMines",
+		"config/hotaTerrains/hotaHWMountain",
+		"config/hotaTerrains/hotaHWShrub",
+		"config/hotaTerrains/hotaHWaterfalls",
+		"config/hotaTerrains/hotaHWsigns",
+		"config/hotaTerrains/hotaHole",
+		"config/hotaTerrains/hotaMineralSpring",
+		"config/hotaTerrains/hotaProspector",
 		"config/hotaTerrains/hotaPuddles",
 		"config/hotaTerrains/hotaSpruces",
 		"config/hotaTerrains/hotaStones",
-		"config/hotaTerrains/hotaCrater",
-		"config/hotaTerrains/hotaHole",
-		"config/hotaTerrains/hotaHWMines",
-		"config/hotaTerrains/hotaWHAbandonedMine",
-		"config/hotaTerrains/churchyardHL",
-		"config/hotaTerrains/ruins",
-		"config/hotaTerrains/obeliskOrange",
-		"config/hotaTerrains/hotaHWShrub",
-		"config/hotaTerrains/hotaHWCactus",
-		"config/hotaTerrains/hotaWHBones",
 		"config/hotaTerrains/hotaWDeadVegetation",
+		"config/hotaTerrains/hotaWHAbandonedMine",
+		"config/hotaTerrains/hotaWHBones",
 		"config/hotaTerrains/hotaWTrees",
-		"config/hotaTerrains/hotaHWsigns",
-		"config/hotaTerrains/hotaGazebo",
-//		"config/hotaTerrains/hotaHillForts",
-//		"config/hotaTerrains/hotaDerrick",
-//		"config/hotaTerrains/hotaTrailblazer", //doesn't work
-//		"config/hotaTerrains/hotaProspector", //doesn't work
-//		"config/hotaTerrains/hotaGrave", //doesn't work
-//		"config/hotaTerrains/hotaMineralSpring", //doesn't work
-//		"config/hotaTerrains/hotaWarlocksLab", //doesn't work
+		"config/hotaTerrains/obeliskOrange",
+		"config/hotaTerrains/ruins"
+//		"config/hotaTerrains/hotaGrave",
 //		"config/hotaTerrains/hotaHermitsShack" //doesn't work,
+//		"config/hotaTerrains/hotaHillForts",
 //		"config/hotaTerrains/hotaJunkman //doesn't work
+//		"config/hotaTerrains/hotaTrailblazer", //doesn't work
+//		"config/hotaTerrains/hotaWarlocksLab", //doesn't work
 	],
 	"battlefields":
 	[

@@ -12,6 +12,7 @@
 					"value"	: 3000,
 					"rarity" : 50
 				},
+				"blockedVisitable" : true,
 				"rewards" :
 				[
 					{

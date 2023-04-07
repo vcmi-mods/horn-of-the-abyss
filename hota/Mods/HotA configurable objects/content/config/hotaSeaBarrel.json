@@ -13,6 +13,7 @@
 					"visit" : ["GENIE"],
 					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
 				},
+				"blockedVisitable" : true,
 				"rewards" :
 				[
 					{
@@ -26,50 +27,12 @@
 					{
 						"appearChance": 
 						{
-							"min" : 20,
-							"max" : 40
+							"min" : 20
 						},
 						"resources":
 						{
-							"mercury": {"min": 3, "max" : 6}
-						},
-						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
-						"removeObject": true
-					},
-					{
-						"appearChance": 
-						{
-							"min" : 40,
-							"max" : 60
-						},
-						"resources":
-						{
-							"sulfur": {"min": 3, "max" : 6}
-						},
-						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
-						"removeObject": true
-					},
-					{
-						"appearChance": 
-						{
-							"min" : 60,
-							"max" : 80
-						},
-						"resources":
-						{
-							"crystal": {"min": 3, "max" : 6}
-						},
-						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
-						"removeObject": true
-					},
-					{
-						"appearChance": 
-						{
-							"min" : 80
-						},
-						"resources":
-						{
-							"gems": {"min": 3, "max" : 6}
+							"list" : [ "mercury", "sulfur", "crystal", "gems" ],
+							"amount" : {"min": 3, "max" : 6}
 						},
 						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
 						"removeObject": true

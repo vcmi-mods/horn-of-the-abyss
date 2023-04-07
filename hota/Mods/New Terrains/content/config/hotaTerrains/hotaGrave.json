@@ -12,7 +12,15 @@
 				"rewards" :
 				[
 					{
+						"appearChance" : { "max" : 50 },
+						"amount" : [ 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000 ],
+						"artifacts" : [ { "class" : "TREASURE" } ]
 					},
+					{
+						"appearChance" : { "min" : 50 },
+						"amount" : [ 500, 1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000 ],
+						"artifacts" : [ { "class" : "MINOR" } ]
+					}
 				],
 				"onSelectMessage" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
 				"onVisitedMessage": "{Grave}\r\n\r\nGrave Digging -3",
