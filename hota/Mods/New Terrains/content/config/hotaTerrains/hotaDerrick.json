@@ -5,86 +5,33 @@
 		"types" : {
 			"gazebo" : 
 			{
-				"name": "Derrick (+500 gold on Monday, 1000 gold rest days)",
+				"name": "Derrick (+500 gold on first week, 1000 gold on every other week)",
 				"rmg" : {
-					"value"		: 500, //750
-					"rarity"	: 70, //30
+					"value" : 750,
+					"rarity" : 30
 				},
 				"sounds" : {
 					"visit" : ["GENIE"],
 					"ambient" : ["LOOPDRRK"]
 				},
-				"rewards" :
-				[
+				"rewards" : [
 					{
-						"limiter":
-						{
-							"dayOfWeek" : 1,
-							"numOfGrants": 1		
-						},
-						"resources": {"gold" : 500},
-						"message": "{Derrick}"
+						"limiter" : { "daysPassed" : 8 },
+						"message" : "{Derrick}\r\n\r\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time — come for your share in a week.\"",
+						"resources" : { "gold" : 1000 }
 					},
 					{
-						"limiter":
-						{
-							"dayOfWeek" : 2,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
-					},
-					{
-						"limiter":
-						{
-							"dayOfWeek" : 3,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
-					},
-					{
-						"limiter":
-						{
-							"dayOfWeek" : 4,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
-					},
-					{
-						"limiter":
-						{
-							"dayOfWeek" : 5,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
-					},
-					{
-						"limiter":
-						{
-							"dayOfWeek" : 6,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
-					},
-					{
-						"limiter":
-						{
-							"dayOfWeek" : 7,
-							"numOfGrants": 1							
-						},
-						"resources": {"gold" : 1000},
-						"message": "{Derrick}"
+						"message" : "{Derrick}\r\n\r\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time — come for your share in a week.\"",
+						"resources" : { "gold" : 500 }
 					}
 				],
-				"onSelectMessage" : "{Derrick}",
 				"onVisitedMessage": "{Derrick}\r\n\r\nThe drilling foreman is very busy. You are able to decipher his muttering as a claim that he has nothing to show yet. You've got to drop by again next week.",
-				"resetDuration" : 7,
-				"visitMode" : "hero",
-//				"selectMode" : "selectFirst",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
 				"templates" : 
 				{
 					"avmoilpm" : 
@@ -92,8 +39,8 @@
 						"animation" : "derrick/avmoilpm", 
 						"visitableFrom" : [ "---", "-++", "+++" ], 
 						"mask" : ["VVV", "VVV", "VBA"], 
-//						"allowedTerrains": ["wasteland"]
-					}					
+						"allowedTerrains": ["wasteland"]
+					}
 				}
 			}
 		}	
