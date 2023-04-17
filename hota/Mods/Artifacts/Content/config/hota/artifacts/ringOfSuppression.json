@@ -14,9 +14,9 @@
 			} 
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/ringOfSuppression",
-			"large" : "hota/artifacts/ABon156p",
-			"map" : "hota/artifacts/ringOfSuppression"
+			"image" : "hota/artifacts/images/ringOfSuppression",
+			"large" : "hota/artifacts/bonusImages/ABon156p",
+			"map" : "hota/artifacts/images/ringOfSuppression"
 		},
 		"text" : {
 			"name" : "Ring of Suppression",

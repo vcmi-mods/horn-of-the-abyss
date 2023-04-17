@@ -14,9 +14,9 @@
 			} 
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/pendantOfDownfall",
-			"large" : "hota/artifacts/ABon157p",
-			"map" : "hota/artifacts/pendantOfDownfall"
+			"image" : "hota/artifacts/images/pendantOfDownfall",
+			"large" : "hota/artifacts/bonusImages/ABon157p",
+			"map" : "hota/artifacts/images/pendantOfDownfall"
 		},
 		"text" : {
 			"name" : "Pendant of Downfall",

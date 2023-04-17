@@ -37,9 +37,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/ironfistOfTheOgre",
-			"large" : "hota/artifacts/ABon143p",
-			"map" : "hota/artifacts/ironfistOfTheOgre"
+			"image" : "hota/artifacts/images/ironfistOfTheOgre",
+			"large" : "hota/artifacts/bonusImages/ABon143p",
+			"map" : "hota/artifacts/images/ironfistOfTheOgre"
 		},
 		"text" : {
 			"name" : "Ironfist Of The Ogre",

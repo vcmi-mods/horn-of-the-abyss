@@ -28,9 +28,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/ringOfOblivion",
-			"large" : "hota/artifacts/ABon158p",
-			"map" : "hota/artifacts/ringOfOblivion"
+			"image" : "hota/artifacts/images/ringOfOblivion",
+			"large" : "hota/artifacts/bonusImages/ABon158p",
+			"map" : "hota/artifacts/images/ringOfOblivion"
 		},
 		"text" : {
 			"name" : "Ring of Oblivion",

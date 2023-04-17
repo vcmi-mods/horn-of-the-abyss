@@ -13,9 +13,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/shieldOfNavalGlory",
-			"large" : "hota/artifacts/ABon148p",
-			"map" : "hota/artifacts/shieldOfNavalGlory"
+			"image" : "hota/artifacts/images/shieldOfNavalGlory",
+			"large" : "hota/artifacts/bonusImages/ABon148p",
+			"map" : "hota/artifacts/images/shieldOfNavalGlory"
 		},
 		"text" : {
 			"name" : "Shield of Naval Glory",

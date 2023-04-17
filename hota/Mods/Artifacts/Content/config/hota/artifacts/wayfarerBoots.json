@@ -12,9 +12,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/wayfarerBoots",
-			"large" : "hota/artifacts/ABon151p",
-			"map" : "hota/artifacts/wayfarerBoots"
+			"image" : "hota/artifacts/images/wayfarerBoots",
+			"large" : "hota/artifacts/bonusImages/ABon151p",
+			"map" : "hota/artifacts/images/wayfarerBoots"
 		},
 		"text" : {
 			"name" : "Wayfarer's Boots",

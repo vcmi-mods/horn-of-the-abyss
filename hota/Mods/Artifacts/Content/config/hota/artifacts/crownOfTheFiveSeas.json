@@ -13,9 +13,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/crownOfTheFiveSeas",
-			"large" : "hota/artifacts/ABon150p",
-			"map" : "hota/artifacts/crownOfTheFiveSeas"
+			"image" : "hota/artifacts/images/crownOfTheFiveSeas",
+			"large" : "hota/artifacts/bonusImages/ABon150p",
+			"map" : "hota/artifacts/images/crownOfTheFiveSeas"
 		},
 		"text" : {
 			"name" : "Crown of the Five Seas",

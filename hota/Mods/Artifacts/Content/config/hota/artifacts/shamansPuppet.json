@@ -14,9 +14,9 @@
 			} 
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/shamansPuppet",
-			"large" : "hota/artifacts/ABon154p",
-			"map" : "hota/artifacts/shamansPuppet"
+			"image" : "hota/artifacts/images/shamansPuppet",
+			"large" : "hota/artifacts/bonusImages/ABon154p",
+			"map" : "hota/artifacts/images/shamansPuppet"
 		},
 		"text" : {
 			"name" : "Shaman's Puppet",

@@ -14,9 +14,9 @@
             } 
         ],
         "graphics" : {
-            "image" : "hota/artifacts/hideousMask",
-            "large" : "hota/artifacts/ABon155p",
-            "map" : "hota/artifacts/hideousMask"
+            "image" : "hota/artifacts/images/hideousMask",
+            "large" : "hota/artifacts/bonusImages/ABon155p",
+            "map" : "hota/artifacts/images/hideousMask"
         },
         "text" : {
             "name" : "Hideous Mask",

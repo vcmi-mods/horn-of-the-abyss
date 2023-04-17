@@ -18,9 +18,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/goldenGoose",
-			"large" : "hota/artifacts/ABon160p",
-			"map" : "hota/artifacts/goldenGoose"
+			"image" : "hota/artifacts/images/goldenGoose",
+			"large" : "hota/artifacts/bonusImages/ABon160p",
+			"map" : "hota/artifacts/images/goldenGoose"
 		},
 		"text" : {
 			"name" : "Golden Goose",
