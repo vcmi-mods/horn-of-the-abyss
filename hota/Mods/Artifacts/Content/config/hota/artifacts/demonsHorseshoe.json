@@ -17,7 +17,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/demonsHorseshoe",
 			"large" : "hota/artifacts/bonusImages/demonsHorseshoe",
-			"map" : "hota/artifacts/images/demonsHorseshoe"
+			"map" : "hota/artifacts/adventureMap/demonsHorseshoe"
 		},
 		"text" : {
 			"name" : "Demon's Horseshoe",

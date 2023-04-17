@@ -15,7 +15,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/shieldOfNavalGlory",
 			"large" : "hota/artifacts/bonusImages/shieldOfNavalGlory",
-			"map" : "hota/artifacts/images/shieldOfNavalGlory"
+			"map" : "hota/artifacts/adventureMap/shieldOfNavalGlory"
 		},
 		"text" : {
 			"name" : "Shield of Naval Glory",

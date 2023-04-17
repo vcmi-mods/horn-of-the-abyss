@@ -20,7 +20,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/goldenGoose",
 			"large" : "hota/artifacts/bonusImages/goldenGoose",
-			"map" : "hota/artifacts/images/goldenGoose"
+			"map" : "hota/artifacts/adventureMap/goldenGoose"
 		},
 		"text" : {
 			"name" : "Golden Goose",

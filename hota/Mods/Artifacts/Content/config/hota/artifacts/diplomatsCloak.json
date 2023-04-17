@@ -12,7 +12,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/diplomatsCloak",
 			"large" : "hota/artifacts/bonusImages/diplomatsCloak",
-			"map" : "hota/artifacts/images/diplomatsCloak"
+			"map" : "hota/artifacts/adventureMap/diplomatsCloak"
 		},
 		"text" : {
 			"name" : "Diplomat's Cloak",

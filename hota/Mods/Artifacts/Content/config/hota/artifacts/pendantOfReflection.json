@@ -20,7 +20,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/pendantOfReflection",
 			"large" : "hota/artifacts/bonusImages/pendantOfReflection",
-			"map" : "hota/artifacts/images/pendantOfReflection"
+			"map" : "hota/artifacts/adventureMap/pendantOfReflection"
 		},
 		"text" : {
 			"name" : "Pendant of Reflection",

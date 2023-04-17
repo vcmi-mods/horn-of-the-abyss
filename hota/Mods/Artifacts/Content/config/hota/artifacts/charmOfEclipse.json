@@ -17,7 +17,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/charmOfEclipse",
-			"map" : "hota/artifacts/images/charmOfEclipse"
+			"map" : "hota/artifacts/adventureMap/charmOfEclipse"
 		},
 		"text" : {
 			"name" : "Charm of Eclipse",

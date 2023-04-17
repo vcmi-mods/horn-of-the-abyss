@@ -30,7 +30,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/ringOfOblivion",
 			"large" : "hota/artifacts/bonusImages/ringOfOblivion",
-			"map" : "hota/artifacts/images/ringOfOblivion"
+			"map" : "hota/artifacts/adventureMap/ringOfOblivion"
 		},
 		"text" : {
 			"name" : "Ring of Oblivion",

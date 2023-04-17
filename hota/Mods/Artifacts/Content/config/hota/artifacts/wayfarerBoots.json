@@ -14,7 +14,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/wayfarerBoots",
 			"large" : "hota/artifacts/bonusImages/wayfarerBoots",
-			"map" : "hota/artifacts/images/wayfarerBoots"
+			"map" : "hota/artifacts/adventureMap/wayfarerBoots"
 		},
 		"text" : {
 			"name" : "Wayfarer's Boots",

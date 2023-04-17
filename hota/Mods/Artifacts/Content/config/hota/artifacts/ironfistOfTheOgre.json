@@ -39,7 +39,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/ironfistOfTheOgre",
 			"large" : "hota/artifacts/bonusImages/ironfistOfTheOgre",
-			"map" : "hota/artifacts/images/ironfistOfTheOgre"
+			"map" : "hota/artifacts/adventureMap/ironfistOfTheOgre"
 		},
 		"text" : {
 			"name" : "Ironfist Of The Ogre",

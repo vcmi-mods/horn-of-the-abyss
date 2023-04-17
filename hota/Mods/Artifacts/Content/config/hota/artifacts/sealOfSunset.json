@@ -17,7 +17,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/sealOfSunset",
-			"map" : "hota/artifacts/images/sealOfSunset"
+			"map" : "hota/artifacts/adventureMap/sealOfSunset"
 		},
 		"text" : {
 			"name" : "Seal of Sunset",

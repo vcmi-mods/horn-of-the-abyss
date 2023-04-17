@@ -17,7 +17,7 @@
 		"graphics" : {
 			"image" : "hota/artifacts/images/runesOfImminency",
 			"large" : "hota/artifacts/bonusImages/runesOfImminency",
-			"map" : "hota/artifacts/images/runesOfImminency"
+			"map" : "hota/artifacts/adventureMap/runesOfImminency"
 		},
 		"text" : {
 			"name" : "Runes of Imminency",

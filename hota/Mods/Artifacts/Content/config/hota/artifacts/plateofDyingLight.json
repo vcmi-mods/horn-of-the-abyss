@@ -17,7 +17,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/plateofDyingLight",
-			"map" : "hota/artifacts/images/plateofDyingLight"
+			"map" : "hota/artifacts/adventureMap/plateofDyingLight"
 		},
 		"text" : {
 			"name" : "Plate of Dying Light",
