@@ -19,7 +19,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/pendantOfReflection",
-			"large" : "hota/artifacts/bonusImages/ABon142p",
+			"large" : "hota/artifacts/bonusImages/pendantOfReflection",
 			"map" : "hota/artifacts/images/pendantOfReflection"
 		},
 		"text" : {

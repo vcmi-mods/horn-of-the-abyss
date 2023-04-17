@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/royalArmorOfNix",
-			"large" : "hota/artifacts/bonusImages/ABon149p",
+			"large" : "hota/artifacts/bonusImages/royalArmorOfNix",
 			"map" : "hota/artifacts/images/royalArmorOfNix"
 		},
 		"text" : {

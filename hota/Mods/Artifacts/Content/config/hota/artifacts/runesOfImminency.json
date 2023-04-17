@@ -16,7 +16,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/runesOfImminency",
-			"large" : "hota/artifacts/bonusImages/ABon152p",
+			"large" : "hota/artifacts/bonusImages/runesOfImminency",
 			"map" : "hota/artifacts/images/runesOfImminency"
 		},
 		"text" : {

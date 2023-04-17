@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/shieldOfNavalGlory",
-			"large" : "hota/artifacts/bonusImages/ABon148p",
+			"large" : "hota/artifacts/bonusImages/shieldOfNavalGlory",
 			"map" : "hota/artifacts/images/shieldOfNavalGlory"
 		},
 		"text" : {

@@ -29,7 +29,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/ringOfOblivion",
-			"large" : "hota/artifacts/bonusImages/ABon158p",
+			"large" : "hota/artifacts/bonusImages/ringOfOblivion",
 			"map" : "hota/artifacts/images/ringOfOblivion"
 		},
 		"text" : {

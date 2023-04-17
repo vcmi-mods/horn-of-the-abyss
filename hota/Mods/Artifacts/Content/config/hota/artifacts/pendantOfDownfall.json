@@ -15,7 +15,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/pendantOfDownfall",
-			"large" : "hota/artifacts/bonusImages/ABon157p",
+			"large" : "hota/artifacts/bonusImages/pendantOfDownfall",
 			"map" : "hota/artifacts/images/pendantOfDownfall"
 		},
 		"text" : {

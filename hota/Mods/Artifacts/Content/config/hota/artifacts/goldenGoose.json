@@ -19,7 +19,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/goldenGoose",
-			"large" : "hota/artifacts/bonusImages/ABon160p",
+			"large" : "hota/artifacts/bonusImages/goldenGoose",
 			"map" : "hota/artifacts/images/goldenGoose"
 		},
 		"text" : {

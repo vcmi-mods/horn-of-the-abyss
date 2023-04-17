@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/crownOfTheFiveSeas",
-			"large" : "hota/artifacts/bonusImages/ABon150p",
+			"large" : "hota/artifacts/bonusImages/crownOfTheFiveSeas",
 			"map" : "hota/artifacts/images/crownOfTheFiveSeas"
 		},
 		"text" : {

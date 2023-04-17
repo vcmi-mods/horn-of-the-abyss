@@ -16,7 +16,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/demonsHorseshoe",
-			"large" : "hota/artifacts/bonusImages/ABon153p",
+			"large" : "hota/artifacts/bonusImages/demonsHorseshoe",
 			"map" : "hota/artifacts/images/demonsHorseshoe"
 		},
 		"text" : {

@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/capeOfSilence",
-			"large" : "hota/artifacts/bonusImages/ABon159p",
+			"large" : "hota/artifacts/bonusImages/capeOfSilence",
 			"map" : "hota/artifacts/images/capeOfSilence"
 		},
 		"text" : {

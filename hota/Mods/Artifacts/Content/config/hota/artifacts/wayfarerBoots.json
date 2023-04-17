@@ -13,7 +13,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/wayfarerBoots",
-			"large" : "hota/artifacts/bonusImages/ABon151p",
+			"large" : "hota/artifacts/bonusImages/wayfarerBoots",
 			"map" : "hota/artifacts/images/wayfarerBoots"
 		},
 		"text" : {
