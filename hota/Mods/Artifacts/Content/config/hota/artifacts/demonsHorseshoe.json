@@ -1,23 +1,28 @@
 {
 	"demonsHorseshoe" : {
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+
+		"class" : "TREASURE",
+		"value" : 2000,
 		"bonuses" : [ 
 			{ 
+				"type" : "LUCK", 
+				"val" : -1,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "LUCK", 
-				"val" : -1 
+				"limiters" : [ "OPPOSITE_SIDE" ]
 			} 
 		],
-		"class" : "TREASURE",
-		"graphics" : { "image" : "hota/artifacts/demonsHorseshoe", "large" : "hota/artifacts/ABon153p", "map" : "hota/artifacts/demonsHorseshoe" },
-		"slot" : "MISC",
-		"text" : {
-			"description" : "{Demon's Horseshoe}\r\n\r\nDecreases enemy's Luck by 1.",
-			"event" : "During your overnight stay you hear hooves clatter nearby. You look around in darkness and notice a demon's figure, ready to stab you with its horns. You barely survive the attack and keep his horseshoe as a trophy.",
-			"name" : "Demon's Horseshoe"
+		"graphics" : {
+			"image" : "hota/artifacts/demonsHorseshoe",
+			"large" : "hota/artifacts/ABon153p",
+			"map" : "hota/artifacts/demonsHorseshoe"
 		},
-		"type" : [ "HERO" ],
-		"value" : 2000
+		"text" : {
+			"name" : "Demon's Horseshoe",
+			"description" : "{Demon's Horseshoe}\r\n\r\nDecreases enemy's Luck by 1.",
+			"event" : "During your overnight stay you hear hooves clatter nearby. You look around in darkness and notice a demon's figure, ready to stab you with its horns. You barely survive the attack and keep his horseshoe as a trophy."
+		}
 	}
 }

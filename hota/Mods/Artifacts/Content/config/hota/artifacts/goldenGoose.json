@@ -1,23 +1,31 @@
 {
 	"goldenGoose" : {
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+		"class" : "RELIC",
+		"value" : 0,
+		"components" : [
+			"endlessSackOfGold",
+			"endlessBagOfGold",
+			"endlessPurseOfGold"
+		],
 		"bonuses" : [
 			{
-				"subtype" : "resource.gold",
 				"type" : "GENERATE_RESOURCE",
-				"val" : 4750,
-				"valueType" : "BASE_NUMBER"
+				"subtype" : "resource.gold",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4750
 			}
 		],
-		"class" : "RELIC",
-		"components" : [ "endlessSackOfGold", "endlessBagOfGold", "endlessPurseOfGold" ],
-		"graphics" : { "image" : "hota/artifacts/goldenGoose", "large" : "hota/artifacts/ABon160p", "map" : "hota/artifacts/goldenGoose" },
-		"slot" : "MISC",
-		"text" : {
-			"description" : "{Golden Goose}\r\n\r\nWhen equipped, the Golden Goose increases your income by 4750 gold per day.",
-			"event" : "You wander on an abandoned house of a collector in search for a camp place. Most of the goods were long stolen by the marauders, but you were able to find a couple of dusty pet statues. You vaguely recognize one of them. You rub the dust off one of them, and discover a golden goose.",
-			"name" : "Golden Goose"
+		"graphics" : {
+			"image" : "hota/artifacts/goldenGoose",
+			"large" : "hota/artifacts/ABon160p",
+			"map" : "hota/artifacts/goldenGoose"
 		},
-		"type" : [ "HERO" ],
-		"value" : 0
+		"text" : {
+			"name" : "Golden Goose",
+			"description" : "{Golden Goose}\r\n\r\nWhen equipped, the Golden Goose increases your income by 4750 gold per day.",
+			"event" : "You wander on an abandoned house of a collector in search for a camp place. Most of the goods were long stolen by the marauders, but you were able to find a couple of dusty pet statues. You vaguely recognize one of them. You rub the dust off one of them, and discover a golden goose."
+		}
 	}
 }
