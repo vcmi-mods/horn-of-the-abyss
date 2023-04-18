@@ -15,7 +15,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/pendantOfDownfall",
-			"large" : "hota/artifacts/bonusImages/pendantOfDownfall",
+			"large" : "hota/artifacts/campaignBonusImages/pendantOfDownfall",
 			"map" : "hota/artifacts/adventureMap/pendantOfDownfall"
 		},
 		"text" : {

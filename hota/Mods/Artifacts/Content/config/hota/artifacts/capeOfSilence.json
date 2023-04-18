@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/capeOfSilence",
-			"large" : "hota/artifacts/bonusImages/capeOfSilence",
+			"large" : "hota/artifacts/campaignBonusImages/capeOfSilence",
 			"map" : "hota/artifacts/adventureMap/capeOfSilence"
 		},
 		"text" : {

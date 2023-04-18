@@ -19,7 +19,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/pendantOfReflection",
-			"large" : "hota/artifacts/bonusImages/pendantOfReflection",
+			"large" : "hota/artifacts/campaignBonusImages/pendantOfReflection",
 			"map" : "hota/artifacts/adventureMap/pendantOfReflection"
 		},
 		"text" : {

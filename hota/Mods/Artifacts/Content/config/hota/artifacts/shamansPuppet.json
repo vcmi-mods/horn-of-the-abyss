@@ -15,7 +15,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/shamansPuppet",
-			"large" : "hota/artifacts/bonusImages/shamansPuppet",
+			"large" : "hota/artifacts/campaignBonusImages/shamansPuppet",
 			"map" : "hota/artifacts/adventureMap/shamansPuppet"
 		},
 		"text" : {

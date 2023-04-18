@@ -11,7 +11,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/diplomatsCloak",
-			"large" : "hota/artifacts/bonusImages/diplomatsCloak",
+			"large" : "hota/artifacts/campaignBonusImages/diplomatsCloak",
 			"map" : "hota/artifacts/adventureMap/diplomatsCloak"
 		},
 		"text" : {

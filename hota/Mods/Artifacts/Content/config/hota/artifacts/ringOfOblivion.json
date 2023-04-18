@@ -29,7 +29,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/ringOfOblivion",
-			"large" : "hota/artifacts/bonusImages/ringOfOblivion",
+			"large" : "hota/artifacts/campaignBonusImages/ringOfOblivion",
 			"map" : "hota/artifacts/adventureMap/ringOfOblivion"
 		},
 		"text" : {

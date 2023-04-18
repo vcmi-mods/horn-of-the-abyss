@@ -38,7 +38,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/ironfistOfTheOgre",
-			"large" : "hota/artifacts/bonusImages/ironfistOfTheOgre",
+			"large" : "hota/artifacts/campaignBonusImages/ironfistOfTheOgre",
 			"map" : "hota/artifacts/adventureMap/ironfistOfTheOgre"
 		},
 		"text" : {
