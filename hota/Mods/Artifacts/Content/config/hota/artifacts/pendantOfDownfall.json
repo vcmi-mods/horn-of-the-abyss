@@ -14,9 +14,9 @@
 			} 
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/pendantOfDownfall",
+			"image" : "hota/artifacts/icons/pendantOfDownfall",
 			"map" : "hota/artifacts/adventureMap/pendantOfDownfall",
-			"large" : "hota/artifacts/campaignBonusImages/pendantOfDownfall"
+			"large" : "hota/artifacts/campaignBonusIcons/pendantOfDownfall"
 		},
 		"text" : {
 			"name" : "Pendant of Downfall",

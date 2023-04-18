@@ -13,9 +13,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/tridentOfDominion",
+			"image" : "hota/artifacts/icons/tridentOfDominion",
 			"map" : "hota/artifacts/adventureMap/tridentOfDominion",
-			"large" : "hota/artifacts/campaignBonusImages/tridentOfDominion"
+			"large" : "hota/artifacts/campaignBonusIcons/tridentOfDominion"
 		},
 		"text" : {
 			"name" : "Trident of Dominion",

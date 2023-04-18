@@ -14,9 +14,9 @@
             } 
         ],
         "graphics" : {
-            "image" : "hota/artifacts/images/hideousMask",
+            "image" : "hota/artifacts/icons/hideousMask",
             "map" : "hota/artifacts/adventureMap/hideousMask",
-            "large" : "hota/artifacts/campaignBonusImages/hideousMask"
+            "large" : "hota/artifacts/campaignBonusIcons/hideousMask"
         },
         "text" : {
             "name" : "Hideous Mask",

@@ -28,9 +28,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/ringOfOblivion",
+			"image" : "hota/artifacts/icons/ringOfOblivion",
 			"map" : "hota/artifacts/adventureMap/ringOfOblivion",
-			"large" : "hota/artifacts/campaignBonusImages/ringOfOblivion"
+			"large" : "hota/artifacts/campaignBonusIcons/ringOfOblivion"
 		},
 		"text" : {
 			"name" : "Ring of Oblivion",

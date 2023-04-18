@@ -18,9 +18,9 @@
 			"bootsOfPolarity"
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/pendantOfReflection",
+			"image" : "hota/artifacts/icons/pendantOfReflection",
 			"map" : "hota/artifacts/adventureMap/pendantOfReflection",
-			"large" : "hota/artifacts/campaignBonusImages/pendantOfReflection"
+			"large" : "hota/artifacts/campaignBonusIcons/pendantOfReflection"
 		},
 		"text" : {
 			"name" : "Pendant of Reflection",

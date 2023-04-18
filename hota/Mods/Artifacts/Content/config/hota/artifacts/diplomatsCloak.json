@@ -10,9 +10,9 @@
 			"ambassadorsSash"
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/diplomatsCloak",
+			"image" : "hota/artifacts/icons/diplomatsCloak",
 			"map" : "hota/artifacts/adventureMap/diplomatsCloak",
-			"large" : "hota/artifacts/campaignBonusImages/diplomatsCloak"
+			"large" : "hota/artifacts/campaignBonusIcons/diplomatsCloak"
 		},
 		"text" : {
 			"name" : "Diplomat's Cloak",

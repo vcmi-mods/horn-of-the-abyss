@@ -14,9 +14,9 @@
 			} 
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/ringOfSuppression",
+			"image" : "hota/artifacts/icons/ringOfSuppression",
 			"map" : "hota/artifacts/adventureMap/ringOfSuppression",
-			"large" : "hota/artifacts/campaignBonusImages/ringOfSuppression"
+			"large" : "hota/artifacts/campaignBonusIcons/ringOfSuppression"
 		},
 		"text" : {
 			"name" : "Ring of Suppression",

@@ -13,9 +13,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/royalArmorOfNix",
+			"image" : "hota/artifacts/icons/royalArmorOfNix",
 			"map" : "hota/artifacts/adventureMap/royalArmorOfNix",
-			"large" : "hota/artifacts/campaignBonusImages/royalArmorOfNix"
+			"large" : "hota/artifacts/campaignBonusIcons/royalArmorOfNix"
 		},
 		"text" : {
 			"name" : "Royal Armor of Nix",

@@ -16,7 +16,7 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/plateOfDyingLight",
+			"image" : "hota/artifacts/icons/plateOfDyingLight",
 			"map" : "hota/artifacts/adventureMap/plateOfDyingLight"
 		},
 		"text" : {

@@ -13,9 +13,9 @@
 			}
 		],
 		"graphics" : {
-			"image" : "hota/artifacts/images/crownOfTheFiveSeas",
+			"image" : "hota/artifacts/icons/crownOfTheFiveSeas",
 			"map" : "hota/artifacts/adventureMap/crownOfTheFiveSeas",
-			"large" : "hota/artifacts/campaignBonusImages/crownOfTheFiveSeas"
+			"large" : "hota/artifacts/campaignBonusIcons/crownOfTheFiveSeas"
 		},
 		"text" : {
 			"name" : "Crown of the Five Seas",
