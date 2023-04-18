@@ -15,8 +15,8 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/shamansPuppet",
-			"large" : "hota/artifacts/campaignBonusImages/shamansPuppet",
-			"map" : "hota/artifacts/adventureMap/shamansPuppet"
+			"map" : "hota/artifacts/adventureMap/shamansPuppet",
+			"large" : "hota/artifacts/campaignBonusImages/shamansPuppet"
 		},
 		"text" : {
 			"name" : "Shaman's Puppet",

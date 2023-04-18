@@ -19,8 +19,8 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/goldenGoose",
-			"large" : "hota/artifacts/campaignBonusImages/goldenGoose",
-			"map" : "hota/artifacts/adventureMap/goldenGoose"
+			"map" : "hota/artifacts/adventureMap/goldenGoose",
+			"large" : "hota/artifacts/campaignBonusImages/goldenGoose"
 		},
 		"text" : {
 			"name" : "Golden Goose",

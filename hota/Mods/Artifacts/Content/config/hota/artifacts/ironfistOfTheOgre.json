@@ -38,8 +38,8 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/ironfistOfTheOgre",
-			"large" : "hota/artifacts/campaignBonusImages/ironfistOfTheOgre",
-			"map" : "hota/artifacts/adventureMap/ironfistOfTheOgre"
+			"map" : "hota/artifacts/adventureMap/ironfistOfTheOgre",
+			"large" : "hota/artifacts/campaignBonusImages/ironfistOfTheOgre"
 		},
 		"text" : {
 			"name" : "Ironfist Of The Ogre",

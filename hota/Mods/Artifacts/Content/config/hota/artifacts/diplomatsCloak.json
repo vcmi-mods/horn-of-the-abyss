@@ -11,8 +11,8 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/diplomatsCloak",
-			"large" : "hota/artifacts/campaignBonusImages/diplomatsCloak",
-			"map" : "hota/artifacts/adventureMap/diplomatsCloak"
+			"map" : "hota/artifacts/adventureMap/diplomatsCloak",
+			"large" : "hota/artifacts/campaignBonusImages/diplomatsCloak"
 		},
 		"text" : {
 			"name" : "Diplomat's Cloak",

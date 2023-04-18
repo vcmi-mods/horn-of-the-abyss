@@ -16,8 +16,8 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifacts/images/demonsHorseshoe",
-			"large" : "hota/artifacts/campaignBonusImages/demonsHorseshoe",
-			"map" : "hota/artifacts/adventureMap/demonsHorseshoe"
+			"map" : "hota/artifacts/adventureMap/demonsHorseshoe",
+			"large" : "hota/artifacts/campaignBonusImages/demonsHorseshoe"
 		},
 		"text" : {
 			"name" : "Demon's Horseshoe",
