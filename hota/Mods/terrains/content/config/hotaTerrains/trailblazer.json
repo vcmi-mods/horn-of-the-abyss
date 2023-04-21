@@ -1,0 +1,36 @@
+{
+	"trailblazer" : {
+		"handler":"generic",
+		"name" : "Trailblazer",
+		"sounds" : {
+			"visit" : ["STORE"]
+		},
+		"types" : {
+			"object" : {
+//				"aiValue" : 3000,
+//				"rmg" : {
+//					"value"		: 200,
+//					"rarity" 	: 40,
+//					"zoneLimit" : 1
+//				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Trailblazer}\r\n\r\n",
+				"onVisitedMessage": "{Trailblazer}\r\n\r\n",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"avstrblz" : { "animation" : "hota/trailblazer/avstrblz", 
+						"mask" : [ "VVV","VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}		
+}

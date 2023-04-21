@@ -12,33 +12,33 @@
 	"modType" : "Objects",
 	"objects" :
 	[
-		"config/hota/ancientLamp.json",
-		"config/hota/beholderSanctuary.json",
-		"config/hota/blackTower.json",
-		"config/hota/churchyard.json",
-		"config/hota/colosseum.json",
-		"config/hota/experimentalShop.json",
-		"config/hota/ivoryTower.json",
-		"config/hota/jetsam.json",
-		"config/hota/mansion.json",
-		"config/hota/observatory.json",
-		"config/hota/pirateCavern.json",
-		"config/hota/redTower.json",
-		"config/hota/seaBarrel.json",
-		"config/hota/shrineOfMagicMystery.json",
-		"config/hota/spit.json",
-		"config/hota/templeOfTheSea.json",
-		"config/hota/vialOfMana.json",
-		"config/hota/warehouse.json",
-		"config/hota/wateringPlace.json",
-		"config/hota/wolfRaiderPicket.json",
-//		"config/hota/altarOfMana.json", //doesn't work
-//		"config/hota/hillFort.json", //doesn't work
-//		"config/hota/questGate.json", //doesn't work
-//		"config/hota/seafaringAcademy", //doesn't work
-//		"config/hota/skeletonTransformer", //doesn't work
-//		"config/hota/templeOfLoyalty", //doesn't work
-//		"config/hota/townGate", //doesn't work
+		"config/hotaMapObjects/ancientLamp.json",
+		"config/hotaMapObjects/beholderSanctuary.json",
+		"config/hotaMapObjects/blackTower.json",
+		"config/hotaMapObjects/churchyard.json",
+		"config/hotaMapObjects/colosseum.json",
+		"config/hotaMapObjects/experimentalShop.json",
+		"config/hotaMapObjects/ivoryTower.json",
+		"config/hotaMapObjects/jetsam.json",
+		"config/hotaMapObjects/mansion.json",
+		"config/hotaMapObjects/observatory.json",
+		"config/hotaMapObjects/pirateCavern.json",
+		"config/hotaMapObjects/redTower.json",
+		"config/hotaMapObjects/seaBarrel.json",
+		"config/hotaMapObjects/shrineOfMagicMystery.json",
+		"config/hotaMapObjects/spit.json",
+		"config/hotaMapObjects/templeOfTheSea.json",
+		"config/hotaMapObjects/vialOfMana.json",
+		"config/hotaMapObjects/warehouse.json",
+		"config/hotaMapObjects/wateringPlace.json",
+		"config/hotaMapObjects/wolfRaiderPicket.json",
+//		"config/hotaMapObjects/altarOfMana.json", //doesn't work
+//		"config/hotaMapObjects/hillFort.json", //doesn't work
+//		"config/hotaMapObjects/questGate.json", //doesn't work
+//		"config/hotaMapObjects/seafaringAcademy", //doesn't work
+//		"config/hotaMapObjects/skeletonTransformer", //doesn't work
+//		"config/hotaMapObjects/templeOfLoyalty", //doesn't work
+//		"config/hotaMapObjects/townGate", //doesn't work
 	]
 }
 
