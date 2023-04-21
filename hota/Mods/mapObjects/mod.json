@@ -1,0 +1,44 @@
+{
+	"name" : "HotA map objects",
+	"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps", 
+	"author": "Graphics: HotA Crew, mod: avatar",
+	"version" : "1.2.0",
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"depends" : ["hota.cove"],
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"modType" : "Objects",
+	"objects" :
+	[
+		"config/hota/ancientLamp.json",
+		"config/hota/beholderSanctuary.json",
+		"config/hota/blackTower.json",
+		"config/hota/churchyard.json",
+		"config/hota/colosseum.json",
+		"config/hota/experimentalShop.json",
+		"config/hota/ivoryTower.json",
+		"config/hota/jetsam.json",
+		"config/hota/mansion.json",
+		"config/hota/observatory.json",
+		"config/hota/pirateCavern.json",
+		"config/hota/redTower.json",
+		"config/hota/seaBarrel.json",
+		"config/hota/shrineOfMagicMystery.json",
+		"config/hota/spit.json",
+		"config/hota/templeOfTheSea.json",
+		"config/hota/vialOfMana.json",
+		"config/hota/warehouse.json",
+		"config/hota/wateringPlace.json",
+		"config/hota/wolfRaiderPicket.json",
+//		"config/hota/altarOfMana.json", //doesn't work
+//		"config/hota/hillFort.json", //doesn't work
+//		"config/hota/questGate.json", //doesn't work
+//		"config/hota/seafaringAcademy", //doesn't work
+//		"config/hota/skeletonTransformer", //doesn't work
+//		"config/hota/templeOfLoyalty", //doesn't work
+//		"config/hota/townGate", //doesn't work
+	]
+}
+
