@@ -1,0 +1,17 @@
+{
+	"core:fountainOfYouth"	: {
+		"types" : {
+			"fountainOfYouth" : {
+				"templates" : {
+					"watermag" : {
+						"animation" : "hota/fountainOfYouth/watermag",
+						"mask" : [ "VBV","VAV","VVV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}		
+}
+

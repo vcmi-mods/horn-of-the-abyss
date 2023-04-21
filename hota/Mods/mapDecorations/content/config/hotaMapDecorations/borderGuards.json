@@ -1,0 +1,86 @@
+{	
+	"core:borderGuard" : {
+		"types" : {
+			"lblue" :  { 
+				"templates" : {
+					"avxwbor0" : {
+						"animation" : "hota/borderGates/avxwbor0",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"avxwbor1" :  { 
+				"templates" : {
+					"avxwgtgr" : {
+						"animation" : "hota/borderGates/avxwbor1",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"red" :    {
+				"templates" : {
+					"avxwbor2" : {
+						"animation" : "hota/borderGates/avxwbor2",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}				
+			},
+			"dblue" :  { 				
+				"templates" : {
+					"avxwbor3" : {
+						"animation" : "hota/borderGates/avxwbor3",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				} 
+			},
+			"brown" :  { 				
+				"templates" : {
+					"avxwbor4" : {
+						"animation" : "hota/borderGates/avxwbor4",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				} 
+			},
+			"purple" : { 
+				"templates" : {
+					"avxwbor5" : {
+						"animation" : "hota/borderGates/avxwbor5",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}			
+			},
+			"white" :  { 
+				"templates" : {
+					"avxwbor6" : {
+						"animation" : "hota/borderGates/avxwbor6",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}			
+			},
+			"black" :  { 
+				"templates" : {
+					"avxwbor7" : {
+						"animation" : "hota/borderGates/avxwbor7",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}			
+			}
+		}
+	}
+}

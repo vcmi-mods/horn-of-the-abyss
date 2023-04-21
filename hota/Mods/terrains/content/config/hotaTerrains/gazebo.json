@@ -12,7 +12,7 @@
 					"mapLimit" : 32
 				},
 				"sounds" : {
-					"visit" : ["hota/GAZEBO"]
+					//"visit" : ["hota/GAZEBO"] //TODO: missing sound!
 				},
 				"rewards" :
 				[

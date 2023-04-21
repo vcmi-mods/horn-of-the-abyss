@@ -1,0 +1,24 @@
+{
+	"core:tavern" :{
+		"types" : {
+			"object" : {
+				"aiValue" : 100,
+				"templates" : {
+					"wt_tvrn01" : {
+						"animation" : "hota/tavern/wt_tvrn01",
+						"mask" : [ "VVVV","VBBV","VBBB","VBAB" ], 
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					},
+					
+					"AVXtvrS0" : {
+						"animation" : "hota/tavern/AVXtvrS0",
+						"mask" : [ "VVV","VVV","VVV","VAB" ], 
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "snow"	]
+					}
+				}
+			}
+		}	
+	}
+}

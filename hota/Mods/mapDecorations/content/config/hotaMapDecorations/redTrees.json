@@ -1,0 +1,79 @@
+{
+	"core:trees" : {
+		"types" : {
+			"hotaRedTrees" : {
+				"templates" : {
+				
+					"AVLswt20" : { "animation" : "hota/trees/AVLswt20", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt21" : { "animation" : "hota/trees/AVLswt21", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt22" : { "animation" : "hota/trees/AVLswt22", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt23" : { "animation" : "hota/trees/AVLswt23", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt24" : { "animation" : "hota/trees/AVLswt24", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt25" : { "animation" : "hota/trees/AVLswt25",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"AVLswt26" : { "animation" : "hota/trees/AVLswt26", 
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"avrdtr01" : { "animation" : "hota/trees/Avrdtr01", 
+						"mask" : ["VVVV","VVBB","VBBB","VBBV"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"avrdtr02" : { "animation" : "hota/trees/Avrdtr02", 
+						"mask" : ["VVVV","VBBV","VBBB","VVBB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},	
+					
+					"avrdtr03" : { "animation" : "hota/trees/Avrdtr03", 
+						"mask" : ["VVVV","VBBB","VBBV"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"avrdtr04" : { "animation" : "hota/trees/Avrdtr04", 
+						"mask" : ["VVVV","VBBB","VBBV"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"avrdtr05" : { "animation" : "hota/trees/Avrdtr05", 
+						"mask" : ["VVVV","VBBV","VVBB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					},
+					
+					"avrdtr06" : { "animation" : "hota/trees/Avrdtr06", 
+						"mask" : ["VVVV","VBBV","VVBB"],
+						"allowedTerrains": [ "rough", "grass", "swamp", "dirt" ]
+					}
+				}
+			}
+		}
+	}
+}	
+	
+
+
+	

@@ -1,0 +1,24 @@
+{
+	"palms" : {
+		"name" : "Palms",
+		"handler": "static",
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLswn01" : { "animation" : "hota/trees/AVLswn01",
+					"mask" : ["VBV","VBV"],
+					"allowedTerrains": ["swamp"]
+					},
+					"AVLswn02" : { "animation" : "hota/trees/AVLswn02",
+					"mask" : ["VVVV","VBBV","BBBV","VBVV"],
+					"allowedTerrains": ["swamp"]
+					},
+					"AVLswn03" : { "animation" : "hota/trees/AVLswn03",
+					"mask" : ["VBV","VBV","VBV","VBV"],
+					"allowedTerrains": ["swamp"]
+					}					
+				}
+			}			
+		}	
+	}
+}

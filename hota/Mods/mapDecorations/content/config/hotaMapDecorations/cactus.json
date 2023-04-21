@@ -1,0 +1,30 @@
+{
+	"core:cactus" : {
+		"types" : {
+			"object" : {
+				"templates" : {			
+					"AVcact01" : { "animation" : "hota/cactus/AVcact01", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "sand" ]
+					},				
+					"AVcact02" : { "animation" : "hota/cactus/AVcact02",  
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "sand" ]
+					},				
+					"AVcact03" : { "animation" : "hota/cactus/AVcact03", 
+						"mask" : [ "VB","VB" ],
+						"allowedTerrains": [ "sand" ]
+					},				
+					"AVcact04" : { "animation" : "hota/cactus/AVcact04", 
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"AVLca090" : { "animation" : "hota/cactus/AVLca090", 
+						"mask" : [ "V", "B" ],
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	}
+}

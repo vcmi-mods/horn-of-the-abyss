@@ -1,0 +1,23 @@
+{
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"HAExit01" : {
+						"animation" : "hota/subgates/HAExit01",
+						"mask" : [ "VVVV","VBBB","VBAB" ],
+						"allowedTerrains": [ "subterra" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					},
+					
+					"AvTCave2" : {
+						"animation" : "hota/subgates/AvTCave2",
+						"mask" : [ "VVBV","VBBB","VBAB" ],
+						"allowedTerrains": [ "snow" ],
+						"visitableFrom" : [ "---", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

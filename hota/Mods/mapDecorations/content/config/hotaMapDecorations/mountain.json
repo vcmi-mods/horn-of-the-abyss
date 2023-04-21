@@ -1,0 +1,59 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"grsmnt00" : { "animation" : "hota/mountains/grsmnt00", 
+						"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VBBBVV" ],
+						"allowedTerrains": ["grass" ]
+					},											
+					"grsmnt01" : { "animation" : "hota/mountains/grsmnt01", 
+						"mask" : [ "VBBBBV","VBBBBB","VBBBBB","VVVBBB" ],
+						"allowedTerrains": ["grass" ]
+					},					
+					"grsmnt02" : { "animation" : "hota/mountains/grsmnt02", 
+						"mask" : [ "VVBB","VBBB","VBBV" ],
+						"allowedTerrains": ["grass" ]
+					},					
+					"grsmnt03" : { "animation" : "hota/mountains/grsmnt03", 
+						"mask" : [ "VBBV", "VBBB","VVBB" ],
+						"allowedTerrains": ["grass" ]
+					},					
+					"grsmnt05" : { "animation" : "hota/mountains/grsmnt05", 
+						"mask" : [ "VBBB","VVBB" ],
+						"allowedTerrains": ["grass" ]
+					},				
+					"grsmnt04" : { "animation" : "hota/mountains/grsmnt04", 
+						"mask" : [ "VVBB","VBBV" ],
+						"allowedTerrains": ["grass" ]
+					},	
+					
+					"MNTSWP01" : { "animation" : "hota/mountains/MNTSWP01", 
+						"mask" : [ "VVVV", "VBBV","VVBB" ],
+						"allowedTerrains": [ "swamp" ]
+					},					
+					"MNTSWP02" : { "animation" : "hota/mountains/MNTSWP02", 
+						"mask" : [ "VVVB","VBBB","VBBV" ],
+						"allowedTerrains": [ "swamp" ]
+					},				
+					"MNTSWP03" : { "animation" : "hota/mountains/MNTSWP03", 
+						"mask" : [ "VBBV", "VBBB","VVBB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"MNTSWP04" : { "animation" : "hota/mountains/MNTSWP04", 
+						"mask" : [ "VBBB","VBBB","VBBV" ],
+						"allowedTerrains": [ "swamp" ]
+					},				
+					"MNTSWP05" : { "animation" : "hota/mountains/MNTSWP05", 
+						"mask" : [ "VVBBBB","VBBBBB","VBBBBB","BBBBVV" ],
+						"allowedTerrains": [ "swamp" ]
+					},										
+					"MNTSWP06" : { "animation" : "hota/mountains/MNTSWP06", 
+						"mask" : [ "VBBBBV","VBBBBV","VBBBBB","VVVBBB" ],
+						"allowedTerrains": [ "swamp" ]
+					}					
+				}
+			}
+		}	
+	}	
+}

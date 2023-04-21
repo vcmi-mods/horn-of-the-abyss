@@ -1,0 +1,48 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"avmcrdn0" : {
+						"animation" : "hota/mines/avmcrdn0", //hota sand
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["sand"]
+					},
+					"mntswpcr" : {
+						"animation" : "hota/mines/mntswpcr", //hota swamp
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					"avmgddn0" : {
+						"animation" : "hota/mines/avmgddn0",  //hota sand
+						"mask" : ["VVVV","VBBB","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["sand"]
+					},
+					"mntswpgl" : {
+						"animation" : "hota/mines/mntswpgl",  //hota swamp
+						"mask" : ["VBBV", "VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
+					}
+				}
+			},
+			"sawmill" : {
+				"templates" : {
+					"AVMsaws0" : {
+						"animation" : "hota/mines/AVMsaws0",  //hota swamp
+						"mask" : ["VVVVV", "VBBBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains":["swamp"]
+					}
+				}
+			}
+		}
+	}
+}	

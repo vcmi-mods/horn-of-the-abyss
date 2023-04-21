@@ -1,0 +1,71 @@
+{
+	"core:pineTrees" : {
+		"types" : {
+			"object" : {
+				"templates" : {			
+					"avlpntr8" : { "animation" : "hota/pineTrees/avlpntr8",  
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},				
+					"avlpntr9" : { "animation" : "hota/pineTrees/avlpntr9", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},				
+					"avlhspr0" : { "animation" : "hota/pineTrees/avlhspr0", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr1" : { "animation" : "hota/pineTrees/avlhspr1", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr8" : { "animation" : "hota/pineTrees/avlhspr8", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr9" : { "animation" : "hota/pineTrees/avlhspr9", 
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr2" : { "animation" : "hota/pineTrees/avlhspr2", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr3" : { "animation" : "hota/pineTrees/avlhspr3", 
+						"mask" : [ "VVVV", "VVBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr4" : { "animation" : "hota/pineTrees/avlhspr4", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr5" : { "animation" : "hota/pineTrees/avlhspr5", 
+						"mask" : [ "VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr6" : { "animation" : "hota/pineTrees/avlhspr6", 
+						"mask" : [ "VVVV", "VBBV", "VBBB", "VVBB" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					"avlhspr7" : { "animation" : "hota/pineTrees/avlhspr7", 
+						"mask" : [ "VVVV", "VVBB", "VBBB", "VBBV" ],
+						"allowedTerrains": [ "grass", "dirt" ]
+					},
+					
+					"avlsntr8" : { "animation" : "hota/pineTrees/avlsntr8", 
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					"avlsntr9" : { "animation" : "hota/pineTrees/avlsntr9", 
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}	
+			}					
+		}
+	}
+}	
+	
+
+
+	

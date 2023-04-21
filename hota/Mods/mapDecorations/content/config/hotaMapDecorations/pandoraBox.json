@@ -1,0 +1,15 @@
+{
+	"core:pandoraBox" :{
+		"types" : {
+			"object" : {
+				"templates" : {
+					"ava0128w" : { "animation" : "hota/pandoraBox/ava0128w", 
+					"mask" : [ "VA"],
+					"visitableFrom" : [ "+++", "+++", "+++" ],
+					"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}	
+	}
+}

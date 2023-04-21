@@ -1,0 +1,15 @@
+{
+	"core:shrineOfMagicLevel1"	: {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVXl1sh0w" : { "animation" : "hota/shrines/AVXl1sh0w", 
+						"mask" : [ "VB","VA" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}		
+}

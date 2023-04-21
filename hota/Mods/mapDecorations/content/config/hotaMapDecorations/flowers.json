@@ -1,0 +1,36 @@
+{
+	"core:flowers" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"swvflw01" : { "animation" : "hota/flowers/swvflw01", 
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},				
+					"swvflw02" : { "animation" : "hota/flowers/swvflw02", 
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},	
+					"swvflw03" : { "animation" : "hota/flowers/swvflw03", 
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"swvflw04" : { "animation" : "hota/flowers/swvflw04",  
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "swamp" ]
+					},			
+					"swvflw05" : { "animation" : "hota/flowers/swvflw05", 
+						"mask" : [ "VVVV" ,"VBBB" ],
+						"allowedTerrains": [ "swamp" ]
+					}					
+				}
+			}		
+		}
+	}
+}
+	
+	
+	
+
+
+	

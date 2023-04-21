@@ -11,7 +11,7 @@
 					"rarity" : 30
 				},
 				"sounds" : {
-					"visit" : ["hota/GENIE"],
+					"visit" : ["GENIE"],
 					"ambient" : ["hota/LOOPDRRK"]
 				},
 				"rewards" : [

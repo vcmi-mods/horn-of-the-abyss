@@ -38,27 +38,27 @@
 				"name": "Skull",
 				"templates" : {
 					
-					"AVLskul0" : { "animation" : "hota/bones/AVLskul0"
-						"mask" : ["B"], 
+					"AVLskul0" : { "animation" : "hota/bones/AVLskul0",
+						"mask" : ["B"],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 					
 					"AVLskul1" : { "animation" : "hota/bones/AVLskul1",
-						"mask" : ["B"], 
+						"mask" : ["B"],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 					
-					"AVLskul2" : { "animation" : "hota/bones/AVLskul2"
-						"mask" : ["B"], 
+					"AVLskul2" : { "animation" : "hota/bones/AVLskul2",
+						"mask" : ["B"],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 
-					"AVLwcsk0" : { "animation" : "hota/bones/AVLwcsk0"
-						"mask" : ["B"], 
+					"AVLwcsk0" : { "animation" : "hota/bones/AVLwcsk0",
+						"mask" : ["B"],
 						"allowedTerrains": [ "sand", "wasteland" ]
-					}						
+					}
 				}
-			}				
+			}
 		}	
 	}
 }

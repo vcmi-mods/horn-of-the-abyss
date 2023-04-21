@@ -100,7 +100,7 @@
 				"name" : "Wineyard",
 				"creatures" : [[ "satyr" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPLEPR.wav"]
+					"ambient": ["LOOPLEPR.wav"]
 				},
 				"templates" : 
                 {
@@ -132,7 +132,7 @@
 				"name" : "Alehouse",
 				"creatures" : [[ "leprechaun" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPGARD.wav"]
+					"ambient": ["LOOPGARD.wav"]
 				},
 				"templates" : 
                 {
