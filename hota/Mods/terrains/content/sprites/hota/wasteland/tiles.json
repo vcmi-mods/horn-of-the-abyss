@@ -1,0 +1,105 @@
+{
+	"basepath" : "hota/wasteland/",
+ 
+	"sequences" :
+	[
+		{
+			"group" : 0,
+ 
+			"frames" : // TODO: quite a lot of tiles are unused as of right now
+			[
+				"wstlt000.bmp",
+				"wstlt001.bmp",
+				"wstlt002.bmp",
+				"wstlt003.bmp",
+				"wstlt008.bmp",
+				"wstlt009.bmp",
+				
+				"wstlt010.bmp",
+				"wstlt011.bmp",
+				"wstlt014.bmp",
+				"wstlt015.bmp",
+				"wstlt016.bmp",
+				"wstlt017.bmp",
+
+				"wstlt022.bmp",
+				"wstlt023.bmp",
+				"wstlt024.bmp",
+				"wstlt025.bmp",
+				"wstlt028.bmp",
+				"wstlt029.bmp",
+				
+				"wstlt031.bmp",
+				"wstlt032.bmp",
+				"wstlt034.bmp",
+				"wstlt035.bmp",
+				"wstlt036.bmp",
+				"wstlt037.bmp",
+
+				"wstlt040.bmp",
+				"wstlt041.bmp",
+				"wstlt042.bmp",
+				"wstlt043.bmp",
+				"wstlt048.bmp",
+				"wstlt049.bmp",
+
+				"wstlt050.bmp",
+				"wstlt051.bmp",
+				"wstlt056.bmp",
+				"wstlt057.bmp",
+				"wstlt058.bmp",
+				"wstlt059.bmp",
+
+				"wstlt062.bmp",
+				"wstlt063.bmp",
+				"wstlt065.bmp",
+				"wstlt066.bmp",
+				"wstlt068.bmp",
+				"wstlt069.bmp",
+				
+				"wstlt070.bmp",
+				"wstlt071.bmp",
+				"wstlt072.bmp",
+				"wstlt073.bmp",
+				"wstlt074.bmp",
+				"wstlt075.bmp",
+				"wstlt076.bmp",
+				"wstlt077.bmp",
+				"wstlt078.bmp",
+				"wstlt079.bmp",
+
+				"wstlt080.bmp",
+				"wstlt081.bmp",
+				"wstlt082.bmp",
+				"wstlt083.bmp",
+				"wstlt084.bmp",
+				"wstlt085.bmp",
+				"wstlt086.bmp",
+				"wstlt087.bmp",
+				"wstlt088.bmp",
+				"wstlt089.bmp",
+			
+				"wstlt090.bmp",
+				"wstlt091.bmp",
+				"wstlt092.bmp",
+				"wstlt093.bmp",
+				"wstlt094.bmp",
+				"wstlt095.bmp",
+				"wstlt096.bmp",
+
+				"wstlt102.bmp",
+				"wstlt103.bmp",
+				"wstlt104.bmp",
+				"wstlt105.bmp",
+
+				"wstlt118.bmp",
+				"wstlt119.bmp",
+
+				"wstlt120.bmp",
+				"wstlt121.bmp",
+				"wstlt122.bmp",
+				"wstlt123.bmp"
+			]
+		}
+	]
+}

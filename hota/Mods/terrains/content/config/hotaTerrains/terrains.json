@@ -6,7 +6,7 @@
 		"minimapUnblocked" : [  84, 121, 26 ],
 		"minimapBlocked"   : [ 41, 106, 20 ],
 		"music" : "hota/HIGHLANDS.mp3",
-		"tiles" : "hota/terrain/HGHLL",
+		"tiles" : "hota/highland/tiles",
 		"type": ["LAND", "SURFACE"], //default values
 		"horseSound" : "horse30",
 		"horseSoundPenalty" : "horse20",
@@ -23,7 +23,7 @@
 		"minimapUnblocked" : [ 180, 105, 39 ],
 		"minimapBlocked"   : [ 164, 86, 29 ],
 		"music" : "hota/WASTELAND.mp3",
-		"tiles" : "hota/terrain/WSTLD",
+		"tiles" : "hota/wasteland/tiles",
 		"type": ["LAND", "SURFACE"], //default values
 		"shortIdentifier":"ws",
 		"river" : "mudRiver",

@@ -8,20 +8,28 @@
 				"name" : "Black Tower",
 				"templates" :
 				{
+
 					"normal" :
 					{
 						"animation" : "hota/banks/avblktgr.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"], 							
-						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
+						"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+					},
+					"grass" :
+					{
+						"animation" : "hota/banks/avblktgr.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
+						"allowedTerrains":["grass", "swamp"] 
 					},
 					"snow" :
 					{
 						"animation" : "hota/banks/avblktsn.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"], 							
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
 						"allowedTerrains":["snow"] 
-					}	
+					}
 				},
 				"sounds": {
 					"ambient": ["hota/BLCKTWRL.wav"],

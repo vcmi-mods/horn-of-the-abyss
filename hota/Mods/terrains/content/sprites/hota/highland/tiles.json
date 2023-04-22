@@ -1,0 +1,105 @@
+{
+	"basepath" : "hota/highland/",
+ 
+	"sequences" :
+	[
+		{
+			"group" : 0,
+ 
+			"frames" : // TODO: quite a lot of tiles are unused as of right now
+			[
+				"HGLNT000.bmp",
+				"HGLNT001.bmp",
+				"HGLNT002.bmp",
+				"HGLNT003.bmp",
+				"HGLNT008.bmp",
+				"HGLNT009.bmp",
+				
+				"HGLNT010.bmp",
+				"HGLNT011.bmp",
+				"HGLNT014.bmp",
+				"HGLNT015.bmp",
+				"HGLNT016.bmp",
+				"HGLNT017.bmp",
+
+				"HGLNT022.bmp",
+				"HGLNT023.bmp",
+				"HGLNT024.bmp",
+				"HGLNT025.bmp",
+				"HGLNT028.bmp",
+				"HGLNT029.bmp",
+				
+				"HGLNT031.bmp",
+				"HGLNT032.bmp",
+				"HGLNT034.bmp",
+				"HGLNT035.bmp",
+				"HGLNT036.bmp",
+				"HGLNT037.bmp",
+
+				"HGLNT040.bmp",
+				"HGLNT041.bmp",
+				"HGLNT042.bmp",
+				"HGLNT043.bmp",
+				"HGLNT048.bmp",
+				"HGLNT049.bmp",
+
+				"HGLNT050.bmp",
+				"HGLNT051.bmp",
+				"HGLNT056.bmp",
+				"HGLNT057.bmp",
+				"HGLNT058.bmp",
+				"HGLNT059.bmp",
+
+				"HGLNT062.bmp",
+				"HGLNT063.bmp",
+				"HGLNT065.bmp",
+				"HGLNT066.bmp",
+				"HGLNT068.bmp",
+				"HGLNT069.bmp",
+				
+				"HGLNT070.bmp",
+				"HGLNT071.bmp",
+				"HGLNT072.bmp",
+				"HGLNT073.bmp",
+				"HGLNT074.bmp",
+				"HGLNT075.bmp",
+				"HGLNT076.bmp",
+				"HGLNT077.bmp",
+				"HGLNT078.bmp",
+				"HGLNT079.bmp",
+
+				"HGLNT080.bmp",
+				"HGLNT081.bmp",
+				"HGLNT082.bmp",
+				"HGLNT083.bmp",
+				"HGLNT084.bmp",
+				"HGLNT085.bmp",
+				"HGLNT086.bmp",
+				"HGLNT087.bmp",
+				"HGLNT088.bmp",
+				"HGLNT089.bmp",
+			
+				"HGLNT090.bmp",
+				"HGLNT091.bmp",
+				"HGLNT092.bmp",
+				"HGLNT093.bmp",
+				"HGLNT094.bmp",
+				"HGLNT095.bmp",
+				"HGLNT096.bmp",
+
+				"HGLNT102.bmp",
+				"HGLNT103.bmp",
+				"HGLNT104.bmp",
+				"HGLNT105.bmp",
+
+				"HGLNT118.bmp",
+				"HGLNT119.bmp",
+
+				"HGLNT120.bmp",
+				"HGLNT121.bmp",
+				"HGLNT122.bmp",
+				"HGLNT123.bmp"
+			]
+		}
+	]
+}
