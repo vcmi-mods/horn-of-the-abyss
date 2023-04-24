@@ -90,7 +90,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/HASPHTPL",
+						"animation" : "hota/map/whirpool",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
@@ -171,7 +171,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/HASPWTPL.DEF",
+						"animation" : "hota/map/whirpoolLarge.DEF",
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
 					}
 				}

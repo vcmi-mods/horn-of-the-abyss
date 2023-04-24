@@ -34,7 +34,6 @@
 					}
 				}
 			},
-			
 			"sawmill" : {
 				"templates" : {
 					
@@ -45,7 +44,7 @@
 						"allowedTerrains" : ["highlands"]
 					},
 					"AVMsawl0h" : {
-						"animation" : "hota/mines/AVMsawl0",  //hota wasteland but standard graphics
+						"animation" : "AVMsawl0",  //hota wasteland but standard graphics
 						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" : ["wasteland"]
@@ -58,18 +57,16 @@
 					}
 				}
 			},
-			
 			"alchemistLab" : {
 				"templates" : {
 					"AVMalch0h" : {
-						"animation" : "hota/mines/AVMalch0",  //hota highlands but standard graphic
+						"animation" : "AVMalch0",  //hota highlands but standard graphic
 						"mask" : ["VVV", "VVV", "BAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains" : ["highlands", "wasteland"]
 					}
 				}
 			},
-			
 			"orePit" : {
 				"templates" : {
 					"AVMORhl1" : {
@@ -86,7 +83,6 @@
 					}
 				}
 			},
-			
 			"sulfurDune" : {
 				"templates" : {
 					"AVMsulf0" : {
@@ -97,7 +93,6 @@
 					}
 				}
 			},
-			
 			"gemPond" : {
 				"templates" : {
 					"AVMgehl1" : {

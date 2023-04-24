@@ -13,7 +13,7 @@
 				},
 				"sounds" : {
 					"visit" : ["GAZEBO"],
-					"ambient" : ["IVORTWLO"]
+					"ambient" : ["hota/IVORTWLO"]
 				},
 				"rewards" :
 				[

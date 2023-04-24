@@ -1,0 +1,58 @@
+{
+	"core:rampart" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"fort": { "animation" : "TBRMCSTL.def", "x" : 79,  "y" : 31,  "z" : -2, "border" : "TORCAS1.bmp",  "area" : "TZRCAS1.bmp" }
+			}
+		}
+	},
+	"core:tower" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":           { "animation" : "tower/town-screen/buildings/TBTWCSTL.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS1.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS1.bmp" },
+				"citadel":        { "animation" : "tower/town-screen/buildings/TBTWCAS2.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS2.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS2.bmp" },
+				"castle":         { "animation" : "tower/town-screen/buildings/TBTWCAS3.def", "x" : 301, "y" : 0,   "border" : "tower/town-screen/buildings-border/TOTCAS3.bmp",  "area" : "tower/town-screen/buildings-area/TZTCAS3.bmp" },
+			}
+		}
+	},
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"special3": { "animation" : "inferno/town-screen/buildings/TBINEXT1.def", "x" : 208, "y" : 144, "z" : -1,  "border" : "inferno/town-screen/buildings-border/TOICASGA.bmp", "area" : "inferno/town-screen/buildings-area/TZICASGA.bmp" },
+				"dwellingUpLvl5": { "animation" : "TBINUP_4.def", "x" : 359, "y" : 245 }
+			}
+		}
+	},
+	"core:necropolis" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"citadel": { "animation" : "necropolis/town-screen/buildings/TBNCCAS2.def", "x" :  34, "y" : 18,  "border" : "necropolis/town-screen/buildings-border/TONCAS2.bmp",  "area" : "necropolis/town-screen/buildings-area/TZNCAS2.bmp" }		  
+			}
+		}
+	},
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"structures" :
+			{
+				"villageHall":     { "animation" : "conflux/town-screen/buildings/TBELHALL.def", "x" : 0,  "y" : 164 },
+				"capitol":         { "animation" : "conflux/town-screen/buildings/TBELHAL4.def", "x" : 0,  "y" : 165 },
+				"extraTownHall":   { "animation" : "conflux/town-screen/buildings/TBELEXT2.def", "x" : 132, "y" : 205 },
+				"extraCityHall":   { "animation" : "conflux/town-screen/buildings/TBELEXT3.def", "x" : 486, "y" : 203, "z" : 1 }
+			}
+		}
+	}
+}

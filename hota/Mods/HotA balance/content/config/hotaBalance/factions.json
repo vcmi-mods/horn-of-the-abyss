@@ -1,0 +1,198 @@
+{
+	"core:tower" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", ["fort"], ["dwellingLvl1"], ["dwellingLvl2"], ["dwellingLvl3" ] ], "cost" : { "gold": 2500 }},
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl5" ] },
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild1" ]  },
+				"dwellingLvl3": 
+				{
+					"cost" : 
+					{ 
+						"gold":	1500 
+					},
+				},
+				"dwellingUpLvl3": 
+				{
+					"cost" : 
+					{		 
+						"gold":	1500 
+					}
+				},
+				"dwellingLvl4": 
+				{
+					"cost" : 
+					{ 
+						"gold":	2000 
+					}
+				},
+				"dwellingUpLvl7": 
+				{ 
+					"cost" : 
+					{ 
+						"gold":	20000 
+					}
+				}
+			}
+		}
+	},
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"special2": 
+				{ 
+					"cost" :
+					{
+						"sulfur" : 4
+					}
+				},
+				"dwellingUpLvl2": 
+				{ 
+					"cost" :
+					{
+						"mercury" : 4
+					}
+				},	
+				"dwellingUpLvl3": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4
+					}
+				},	
+				"dwellingUpLvl5": 
+				{ 
+					"requires" : [ "mageGuild1" ]
+				}
+			}
+		}
+	},
+	"core:necropolis" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl5": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4,
+						"ore" : 5
+					}
+				},
+			
+				"dwellingUpLvl3": 
+				{ 
+					"cost" :
+					{
+						"mercury" : 4
+					}
+				},	
+
+				"dwellingUpLvl5": 
+				{ 
+					"cost" :
+					{
+						"sulfur": 4
+					}
+				}
+			}
+		}
+	},
+	"core:stronghold" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"dwellingLvl6": { "cost": { "crystal": null } },
+				"dwellingUpLvl6": { "cost": { "crystal": 10 } }
+			}
+		}
+	},
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"structures" :
+			{
+				"hordePhoenix": {
+					"animation" : "hota/phoenixHorde.def",
+					"border" : "hota/phoenixHordeBorder.png",
+					"area" : "hota/phoenixHordeArea.png",
+					"x" : 684, 
+					"y" : 105, 
+					"z" : 1
+				 },
+				"hordePhoenixUpgr": {
+					"animation" : "hota/phoenixHordeUpgraded.def",
+					"border" : "hota/phoenixHordeUpgradedBorder.png",
+					"area" : "hota/phoenixHordeUpgradedArea.png",
+					"x" : 684, 
+					"y" : 105, 
+					"z" : 1
+				}
+			},
+			"horde" : [ 0, 6 ],
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "hordePhoenix", "hordePhoenixUpgr" ], [ "horde1", "horde1Upgr" ] ], 
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"hallBackground": "TPTHBKTW.BMP",
+			"buildings" :
+			{	
+				"dwellingUpLvl1": 
+				{ 
+					"requires" : [ "allOf", [ "mageGuild1" ], ["special2"] ]
+				},
+				"dwellingLvl7": 
+				{ 
+					"cost" : 
+					{ 
+						"gold":	15000,
+						"mercury" : 20
+					}
+				},
+				"hordePhoenix": 
+				{ 
+					"description" : "The Vault of Ashes increases Firebirds production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"requires" : [ "dwellingLvl7" ],
+					"id" : 24
+				},
+				"hordePhoenixUpgr": 
+				{ 
+					"description" : "The Vault of Ashes increases Phoenixes production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"upgrades" : "hordePhoenix",
+					"requires" : [ "dwellingUpLvl7" ],
+					"mode" : "auto",
+					"id" : 25
+				}
+			}
+		}
+	}
+}

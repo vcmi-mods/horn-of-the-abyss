@@ -6,7 +6,7 @@
 			"object" : {
 				"name": "Vial of Mana (grants 30-60 spell points)",
 				"sounds" : {
-					"visit" : ["BOTTLVIS"]
+					"visit" : ["hota/BOTTLVIS"]
 				},
 				"rmg" : {
 					"value"	: 3000,

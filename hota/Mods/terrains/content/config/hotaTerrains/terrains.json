@@ -8,7 +8,7 @@
 		"music" : "hota/HIGHLANDS.mp3",
 		"tiles" : "hota/highland/tiles",
 		"type": ["LAND", "SURFACE"], //default values
-		"horseSound" : "horse30",
+		"horseSound" : "hota/horse30",
 		"horseSoundPenalty" : "horse20",
 		"river" : "waterRiver",
 		"rockTerrain":"rock",
@@ -28,7 +28,7 @@
 		"shortIdentifier":"ws",
 		"river" : "mudRiver",
 		"rockTerrain":"rock",
-		"horseSound" : "horse31",
+		"horseSound" : "hota/horse31",
 		"horseSoundPenalty" : "horse20",
 //		"terrainViewPatterns" : "wasteland",
 		"battleFields" : ["wasteland_rocks"]

@@ -12,8 +12,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSCRST"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSCRST"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -51,8 +51,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSGEMS"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSGEMS"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -90,8 +90,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSSULF"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSSULF"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -129,8 +129,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSMERC"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSMERC"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -168,8 +168,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSWOOD"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSWOOD"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -207,8 +207,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSOREM"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSOREM"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[
@@ -246,8 +246,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds": {
-					"ambient": ["WRHSGOLD"],
-					"visit" : ["WERHOUSE"]
+					"ambient": ["hota/WRHSGOLD"],
+					"visit" : ["hota/WERHOUSE"]
 				},
 				"rewards" :
 				[

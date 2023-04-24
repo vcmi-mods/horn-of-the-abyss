@@ -12,7 +12,7 @@
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["LAMPVIST"]
+					"visit" : ["hota/LAMPVIST"]
 				},
 				"blockedVisitable" : true,
 				"rewards" :

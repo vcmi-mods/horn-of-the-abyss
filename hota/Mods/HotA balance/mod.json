@@ -15,38 +15,18 @@
 
 	"factions" :
 	[
-		"config/castle/town/structures.json",		
-		"config/rampart/town/structures.json",
-		"config/conflux/town/structures.json",
-		"config/conflux/town/buildings.json",
-		"config/conflux/town/faction.json",
-		"config/inferno/town/structures.json",
-		"config/inferno/town/buildings.json",
-		"config/necropolis/town/structures.json",
-		"config/necropolis/town/buildings.json",
-		"config/tower/town/structures.json",
-		"config/tower/town/buildings.json",
-		"config/stronghold/town/buildings.json"
+		"config/hotaBalance/factions.json"
 	],
-	
 	"skills" :
 	[
-		"config/skills/skills.json"
+		"config/hotaBalance/skills.json"
 	],
-
-	
 	"creatures" :
 	[
-		"config/castle/creatures/castleCreatures.json",
-		"config/rampart/creatures/rampartCreatures.json",
-		"config/inferno/creatures/infernoCreatures.json",
-		"config/stronghold/creatures/strongholdCreatures.json",
-		"config/conflux/creatures/confluxCreatures.json",
-		"config/neutralCreatures/creatures/neutralCreatures.json"
+		"config/hotaBalance/creatures.json"
 	],
 	"artifacts" :
 	[
-	"config/artifacts/artifacts.json"
+		"config/hotaBalance/artifacts.json"
 	]
-	
 }
