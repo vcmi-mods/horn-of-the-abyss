@@ -5,10 +5,10 @@
 		"class" : "RELIC",
 		"value" : 0,
 		"components" : [
-			"crownOfTheSupremeMagi",
 			"ogresClubOfHavoc",
+			"targOfTheRampagingOgre",
 			"tunicOfTheCyclopsKing",
-			"targOfTheRampagingOgre"
+			"crownOfTheSupremeMagi"
 		],
 		"bonuses" : [
 			{
