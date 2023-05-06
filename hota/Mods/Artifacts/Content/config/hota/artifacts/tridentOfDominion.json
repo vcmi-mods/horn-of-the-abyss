@@ -19,7 +19,7 @@
 		},
 		"text" : {
 			"name" : "Trident of Dominion",
-			"description" : "{Trident of Dominion}\r\n\r\nThis right-handed weapon increases your Attack skill by +7.",
+			"description" : "{Trident of Dominion}\r\n\r\nThis right-handed weapon increases your Attack skill by 7.",
 			"event" : "You finally found a well after a long search. Your soldiers could not get the bucket of water out, however. Something was preventing it from coming out. Your banner carrier had to descend in the well himself. It appeared that a trident was blocking the way."
 		}
 	}

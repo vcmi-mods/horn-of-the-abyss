@@ -19,7 +19,7 @@
 		},
 		"text" : {
 			"name" : "Shield of Naval Glory",
-			"description" : "{Shield of Naval Glory}\r\n\r\nThis left-handed item increases your Defense skill by +7.",
+			"description" : "{Shield of Naval Glory}\r\n\r\nThis left-handed item increases your Defense skill by 7.",
 			"event" : "You meet an old admiral at the tavern. After a couple of hours full of tales about glorious battles and days long passed he gifts you his parade shield."
 		}
 	}
