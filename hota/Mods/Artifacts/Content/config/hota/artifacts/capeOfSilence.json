@@ -7,7 +7,7 @@
 		"bonuses" : [
 			{
 				"type" : "LEVEL_SPELL_IMMUNITY", 
-				"val" : 1,
+				"val" : 2,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			}
