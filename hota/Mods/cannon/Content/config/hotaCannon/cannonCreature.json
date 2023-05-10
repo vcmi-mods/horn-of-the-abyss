@@ -37,7 +37,7 @@
 			},
 			"missile" :
 			{
-				"projectile" : "hota/battle/projectile/SMCANX.def",
+				"projectile" : "hota/battle/SMCANX.def",
 				"attackClimaxFrame" : 4,
 				"offset" :
 				{

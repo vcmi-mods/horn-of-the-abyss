@@ -26,6 +26,7 @@
 		"config/hota/cannon/cannon.json"
 	],
 	"description" : "New town made by HotA Crew as part of Horn of the Abyss addon",
+	"depends" : [ "hota.cannon" ]
 	"factions" : [ "config/hota/town" ],
 	"heroClasses" : [ "config/hota/classes/captain", "config/hota/classes/navigator" ],
 	"artifacts" : [ "config/hota/cannon/cannonArt.json" ],
