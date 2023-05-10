@@ -50,9 +50,6 @@
 		"config/hota/heroes/tark",
 		"config/hota/heroes/zilare"
 	],
-	"skills" : [
-		"config/hota/skills/interference/interference"
-	],
 	"spells" : [
 		"config/hota/spells/accurateShot",
 		"config/hota/spells/specialClone"
@@ -63,8 +60,8 @@
 	"name" : "Cove town",
 	"objects" : 
 	[ 
-	"config/hota/dwellings",
-	"config/hota/cannonYard"	
+		"config/hota/dwellings",
+		"config/hota/cannonYard"
 	],
 	"version" : "1.3.61"
 }

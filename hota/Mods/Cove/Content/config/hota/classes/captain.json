@@ -51,8 +51,7 @@
 			"sorcery" : 2,
 			"tactics" : 6,
 			"waterMagic" : 2,
-			"wisdom" : 1,
-			"interference" : 3
+			"wisdom" : 1
 		},
 		"tavern" : {
 			"castle" : 2,

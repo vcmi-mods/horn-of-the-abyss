@@ -124,5 +124,19 @@
 		{
 			"interference" : 0
 		}
+	},
+	"hota.cove:captain" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 3
+		}
+	},
+	"hota.cove:navigator" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 1
+		}
 	}
 }
