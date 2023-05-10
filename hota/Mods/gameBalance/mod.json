@@ -1,7 +1,7 @@
 {
 	"name" : "HotA balance mod",
-	"description" : "Graphic and balance improvements made by HotA Crew for Horn of The Abbys expansion.", 
-	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
+	"description" : "Balance improvements made by HotA Crew for Horn of The Abbys expansion.", 
+	"author": "Kuririn & avatar",
 	"version" : "1.3.6",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
@@ -18,18 +18,18 @@
 
 	"factions" :
 	[
-		"config/hotaBalance/factions.json"
+		"config/hotaGameBalance/factions.json"
 	],
 	"skills" :
 	[
-		"config/hotaBalance/skills.json"
+		"config/hotaGameBalance/skills.json"
 	],
 	"creatures" :
 	[
-		"config/hotaBalance/creatures.json"
+		"config/hotaGameBalance/creatures.json"
 	],
 	"artifacts" :
 	[
-		"config/hotaBalance/artifacts.json"
+		"config/hotaGameBalance/artifacts.json"
 	]
 }

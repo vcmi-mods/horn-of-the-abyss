@@ -53,9 +53,7 @@
 		}
 	},
 	"core:phoenix" :
-	{	
-		"horde" : 1,
-		"growth" : 1,
+	{
 		"cost" :
 		{
 			"gold" : 3000
