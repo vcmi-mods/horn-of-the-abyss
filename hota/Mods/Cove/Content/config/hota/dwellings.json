@@ -94,56 +94,8 @@
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
-			},
-			"wineyard" :
-             {
-				"name" : "Wineyard",
-				"creatures" : [[ "satyr" ]],
-				"sounds": {
-					"ambient": ["LOOPLEPR.wav"]
-				},
-				"templates" : 
-                {
-					"default" : 
-                    {
-						"animation" : "hota/map/AVGsaty0.def",
-						"mask" : [ "VVV", "VBB", "VAB" ]
-					}
-				}
-             },
-			 "ziggurat" :
-             {
-				"name" : "Ziggurat",
-				"creatures" : [[ "fangarm" ]],
-				"sounds": {
-					"ambient": ["hota/dwellings/LOOPBEHD.wav"]
-				},
-				"templates" : 
-                {
-					"default" : 
-                    {
-						"animation" : "hota/map/AVGfngrm.def",
-						"mask" : [ "VVV", "VBB", "VBA" ]
-					}
-				}
-             },
-			 "alehouse" :
-             {
-				"name" : "Alehouse",
-				"creatures" : [[ "leprechaun" ]],
-				"sounds": {
-					"ambient": ["LOOPGARD.wav"]
-				},
-				"templates" : 
-                {
-					"default" : 
-                    {
-						"animation" : "hota/map/AVGlprch.def",
-						"mask" : [ "VVV", "VVB", "VBA" ]
-					}
-				}
-            } 			 
-		}		
+			}
+		}
 	},
 
 	"core:creatureGeneratorSpecial" : {
