@@ -1,15 +1,23 @@
 {
 	"diplomatsCloak" : {
-		"class" : "RELIC",
-		"components" : [ "statesmansMedal", "diplomatsRing", "ambassadorsSash" ],
-		"graphics" : { "image" : "hota/artifacts/diplomatsCloak", "large" : "hota/artifacts/ABon141p", "map" : "hota/artifacts/diplomatsCloak" },
-		"slot" : "SHOULDERS",
-		"text" : {
-			"description" : "{Diplomat's Cloak}\r\n\r\nAllows your hero to retreat or surrender when battling neutral monsters or defending a town. Multiplies your hero army strength by 3 (for neutral armies and Thieves guild). **NOT IMPLEMENTED in VCMI yet**",
-			"event" : "You met an unusual scarecrow today. Instead of scaring the, well, crows, it was intelligently persuading them to leave the field. You agreed to help the scarecrow to find the closest seer in exchange for the secret. The scarecrow gives you its cloak.",
-			"name" : "Diplomat's Cloak"
-		},
 		"type" : [ "HERO" ],
-		"value" : 0
+		"slot" : "SHOULDERS",
+		"class" : "RELIC",
+		"value" : 0,
+		"components" : [
+			"statesmansMedal",
+			"diplomatsRing",
+			"ambassadorsSash"
+		],
+		"graphics" : {
+			"image" : "hota/artifacts/icons/diplomatsCloak",
+			"map" : "hota/artifacts/adventureMap/diplomatsCloak",
+			"large" : "hota/artifacts/campaignBonusIcons/diplomatsCloak"
+		},
+		"text" : {
+			"name" : "Diplomat's Cloak",
+			"description" : "{Diplomat's Cloak}\r\n\r\nAllows your hero to retreat or surrender when battling neutral monsters or defending a town. Multiplies your hero army strength by 3 (for neutral armies and Thieves guild). **NOT IMPLEMENTED in VCMI yet**",
+			"event" : "You met an unusual scarecrow today. Instead of scaring the, well, crows, it was intelligently persuading them to leave the field. You agreed to help the scarecrow to find the closest seer in exchange for the secret. The scarecrow gives you its cloak."
+		}
 	}
 }

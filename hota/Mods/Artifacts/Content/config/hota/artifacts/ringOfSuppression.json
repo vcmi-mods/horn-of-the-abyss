@@ -1,27 +1,27 @@
 {
 	"ringOfSuppression" : {
+		"type" : [ "HERO" ],
+		"slot" : "RING",
+		"class" : "TREASURE",
+		"value" : 4000,
 		"bonuses" : [ 
 			{ 
+				"type" : "MORALE",
+				"val" : -1,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "MORALE", 
-				"val" : -1 
+				"limiters" : [ "OPPOSITE_SIDE" ]
 			} 
 		],
-		"class" : "TREASURE",
 		"graphics" : {
-			"image" : "hota/artifacts/ringOfSuppression",
-			"large" : "hota/artifacts/ABon156p",
-			"map" : "hota/artifacts/ringOfSuppression"
+			"image" : "hota/artifacts/icons/ringOfSuppression",
+			"map" : "hota/artifacts/adventureMap/ringOfSuppression",
+			"large" : "hota/artifacts/campaignBonusIcons/ringOfSuppression"
 		},
-		"slot" : "RING",
 		"text" : {
+			"name" : "Ring of Suppression",
 			"description" : "{Ring of Suppression}\r\n\r\nWorn on the finger, this ring decreases enemy's Morale by 1.",
-			"event" : "You ordered fried eggs for breakfast. The cook managed to find the eggs for you. He also found a ring in the bird's nest that he passed to you.",
-			"name" : "Ring of Suppression"
-		},
-		"type" : [ "HERO" ],
-		"value" : 4000
+			"event" : "You ordered fried eggs for breakfast. The cook managed to find the eggs for you. He also found a ring in the bird's nest that he passed to you."
+		}
 	}
 }

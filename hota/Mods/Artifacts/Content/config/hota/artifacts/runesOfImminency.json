@@ -1,23 +1,28 @@
 {
 	"runesOfImminency" : {
+		"type" : [ "HERO" ],
+		"slot" : "MISC",
+		"class" : "TREASURE",
+		"value" : 2000,
 		"bonuses" : [ 
 			{ 
+				"type" : "LUCK", 
+				"val" : -1,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ],
-				"type" : "LUCK", 
-				"val" : -1 
+				"limiters" : [ "OPPOSITE_SIDE" ]
+
 			} 
 		],
-		"class" : "TREASURE",
-		"graphics" : { "image" : "hota/artifacts/runesOfImminency", "large" : "hota/artifacts/ABon152p", "map" : "hota/artifacts/runesOfImminency" },
-		"slot" : "MISC",
-		"text" : {
-			"description" : "{Runes of Imminency}\r\n\r\nDecrease enemy's Luck by 1.",
-			"event" : "Close by, on a mountain edge you see a mage trying to cast a spell. Fiery symbols are already flashing in the sky, when he, while blinded by the light, trips and falls down. The mage perishes, and you gather the chain of mysterious stones in your backpack.",
-			"name" : "Runes of Imminency"
+		"graphics" : {
+			"image" : "hota/artifacts/icons/runesOfImminency",
+			"map" : "hota/artifacts/adventureMap/runesOfImminency",
+			"large" : "hota/artifacts/campaignBonusIcons/runesOfImminency"
 		},
-		"type" : [ "HERO" ],
-		"value" : 2000
+		"text" : {
+			"name" : "Runes of Imminency",
+			"description" : "{Runes of Imminency}\r\n\r\nDecrease enemy's Luck by 1.",
+			"event" : "Close by, on a mountain edge you see a mage trying to cast a spell. Fiery symbols are already flashing in the sky, when he, while blinded by the light, trips and falls down. The mage perishes, and you gather the chain of mysterious stones in your backpack."
+		}
 	}
 }
