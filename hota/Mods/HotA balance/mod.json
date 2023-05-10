@@ -10,6 +10,9 @@
 		"dwellings" :
 		{
 			"accumulateWhenOwned" : true
+		},
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ]
 		}
 	},
 

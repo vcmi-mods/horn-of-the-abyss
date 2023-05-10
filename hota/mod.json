@@ -33,11 +33,6 @@
 	{
 		"min" : "1.2.0"
 	},
-	"settings" : {
-		"combat": {
-			"badLuckDice" : [ 12, 6, 4 ]
-		}
-	},
 	"german" : {
 		"name" : "Horn of the Abyss",
 		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
