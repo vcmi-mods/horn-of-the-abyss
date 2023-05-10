@@ -23,7 +23,7 @@
 			},
 			"bonuses" : {
 				"attack" : {
-					"limiters" : { "parameters" : [ "hota.cove:cannon", false ] },
+					"limiters" : { "parameters" : [ "cannon", false ] },
 					"subtype" : "primSkill.attack",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
@@ -32,7 +32,7 @@
 					}
 				},
 				"defence" : {
-					"limiters" : { "parameters" : [ "hota.cove:cannon", false ] },
+					"limiters" : { "parameters" : [ "cannon", false ] },
 					"subtype" : "primSkill.defence",
 					"type" : "PRIMARY_SKILL",
 					"updater" : {
@@ -41,7 +41,7 @@
 					}
 				},
 				"speed" : {
-					"limiters" : { "parameters" : [ "hota.cove:cannon", true ] },
+					"limiters" : { "parameters" : [ "cannon", true ] },
 					"type" : "STACKS_SPEED",
 					"val" : 1
 				}

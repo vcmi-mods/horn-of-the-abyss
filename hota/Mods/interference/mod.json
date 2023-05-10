@@ -6,12 +6,12 @@
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
 	"skills" : [
-		"config/hota/skills/interference/interference"
+		"config/hotaInterference/interference"
 	],
-	"heroes" : [ "config/interferenceHeroes" ],
+	"heroes" : [ "config/hotaInterference/interferenceHeroes" ],
 	"heroClasses" : 
 	[
-		"config/interferenceChances"
+		"config/hotaInterference/interferenceChances"
 	],
 	"changelog" :
     {
