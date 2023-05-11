@@ -1,0 +1,41 @@
+{
+	"ringOfOblivion" : {
+		"type" : [ "HERO" ],
+		"slot" : "RING",
+		"class" : "MAJOR",
+		"value" : 7500,
+		"bonuses" : [
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.sacrifice",
+				"valueType" : "BASE_NUMBER",
+				"val" : 0,
+				"propagator": "BATTLE_WIDE"
+			},
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.animateDead",
+				"valueType" : "BASE_NUMBER",
+				"val" : 0,
+				"propagator": "BATTLE_WIDE"
+			},
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.resurrection",
+				"valueType" : "BASE_NUMBER",
+				"val" : 0,
+				"propagator": "BATTLE_WIDE"
+			}
+		],
+		"graphics" : {
+			"image" : "hota/artifactsIcons/ringOfOblivion",
+			"map" : "hota/artifactsMap/ringOfOblivion",
+			"large" : "hota/artifactsCampaignBonuses/ringOfOblivion"
+		},
+		"text" : {
+			"name" : "Ring of Oblivion",
+			"description" : "{Ring of Oblivion}\r\n\r\nWhen worn, makes all losses in the battle irrevocable. **PARTIALLY IMPLEMENTED in VCMI**.",
+			"event" : "You stand on a field, where a large battle was fought not so long ago. You are troubled by the complete absence of corpses. Amongst the broken swords and armors you discover a ring."
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"ringOfSuppression" : {
+		"type" : [ "HERO" ],
+		"slot" : "RING",
+		"class" : "TREASURE",
+		"value" : 4000,
+		"bonuses" : [ 
+			{ 
+				"type" : "MORALE",
+				"val" : -1,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			} 
+		],
+		"graphics" : {
+			"image" : "hota/artifactsIcons/ringOfSuppression",
+			"map" : "hota/artifactsMap/ringOfSuppression",
+			"large" : "hota/artifactsCampaignBonuses/ringOfSuppression"
+		},
+		"text" : {
+			"name" : "Ring of Suppression",
+			"description" : "{Ring of Suppression}\r\n\r\nWorn on the finger, this ring decreases enemy's Morale by 1.",
+			"event" : "You ordered fried eggs for breakfast. The cook managed to find the eggs for you. He also found a ring in the bird's nest that he passed to you."
+		}
+	}
+}

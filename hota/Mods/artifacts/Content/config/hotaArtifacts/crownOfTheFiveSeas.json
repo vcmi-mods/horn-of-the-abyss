@@ -1,0 +1,26 @@
+{
+	"crownOfTheFiveSeas" : {
+		"type" : [ "HERO" ],
+		"slot" : "HEAD",
+		"class" : "MAJOR",
+		"value" : 7000,
+		"bonuses" : [
+			{
+				"subtype" : "primSkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 6
+			}
+		],
+		"graphics" : {
+			"image" : "hota/artifactsIcons/crownOfTheFiveSeas",
+			"map" : "hota/artifactsMap/crownOfTheFiveSeas",
+			"large" : "hota/artifactsCampaignBonuses/crownOfTheFiveSeas"
+		},
+		"text" : {
+			"name" : "Crown of the Five Seas",
+			"description" : "{Crown of the Five Seas}\r\n\r\nWorn on the head, this item increases your Knowledge skill by 6.",
+			"event" : "You hardly set a camp, leaving the saddle for the first time for the day, as some critter sneaked up on you and pulled one of your boots in his hole. Swearing silently, you search the hole with your hand. Instead of a boot, you touch something sharp. Amazed, you pull out a crown."
+		}
+	}
+}

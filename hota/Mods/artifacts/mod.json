@@ -1,0 +1,32 @@
+{
+	"artifacts" : [
+		"config/hotaArtifacts/capeOfSilence",
+		"config/hotaArtifacts/crownOfTheFiveSeas",
+		"config/hotaArtifacts/demonsHorseshoe",
+		"config/hotaArtifacts/diplomatsCloak",
+		"config/hotaArtifacts/goldenGoose",
+		"config/hotaArtifacts/hideousMask",
+		"config/hotaArtifacts/pendantOfDownfall",
+		"config/hotaArtifacts/pendantOfReflection",
+		"config/hotaArtifacts/ringOfOblivion",
+		"config/hotaArtifacts/ringOfSuppression",
+		"config/hotaArtifacts/royalArmorOfNix",
+		"config/hotaArtifacts/runesOfImminency",
+		"config/hotaArtifacts/shamansPuppet",
+		"config/hotaArtifacts/shieldOfNavalGlory",
+		"config/hotaArtifacts/tridentOfDominion",
+		"config/hotaArtifacts/wayfarerBoots",
+		"config/hotaArtifacts/ironfistOfTheOgre",
+		"config/hotaArtifacts/charmOfEclipse",
+		"config/hotaArtifacts/sealOfSunset",
+		"config/hotaArtifacts/plateofDyingLight"
+	],
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"description" : "Set of artifacts made by Hota Crew for Horn of the Abyss add-on",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Artifacts",
+	"name" : "New artifacts",
+	"version" : "1.3.5"
+}
