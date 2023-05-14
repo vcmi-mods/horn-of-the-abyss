@@ -4,6 +4,9 @@
 	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
 	"version" : "1.3.5",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"modType" : "Graphical"
-	
+	"modType" : "Graphical",
+	"factions" :
+	[
+		"config/hotaGraphicalFixes/structures.json"
+	]
 }

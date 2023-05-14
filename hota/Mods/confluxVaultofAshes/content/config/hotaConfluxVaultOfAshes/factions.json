@@ -9,7 +9,7 @@
 					"animation" : "hota/phoenixHorde.def",
 					"border" : "hota/phoenixHordeBorder.png",
 					"area" : "hota/phoenixHordeArea.png",
-					"x" : 684, 
+					"x" : 685, 
 					"y" : 105, 
 					"z" : 1
 				 },
@@ -17,7 +17,7 @@
 					"animation" : "hota/phoenixHordeUpgraded.def",
 					"border" : "hota/phoenixHordeUpgradedBorder.png",
 					"area" : "hota/phoenixHordeUpgradedArea.png",
-					"x" : 684, 
+					"x" : 685, 
 					"y" : 105, 
 					"z" : 1
 				}
