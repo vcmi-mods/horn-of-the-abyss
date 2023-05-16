@@ -1,4 +1,4 @@
 {
-	"core:highlands_flowers": { "graphics" : "hota/battleBackgroundHighlands.png" },
-	"core:wasteland_rocks": { "graphics" : "hota/battleBackgroundWastelands.png" }
+	"highlands_flowers": { "graphics" : "hota/battleBackgroundHighlands.png" },
+	"wasteland_rocks": { "graphics" : "hota/battleBackgroundWastelands.png" }
 }
