@@ -1,4 +1,4 @@
 {
-	"core:highlands_flowers": { "graphics" : "hota/CMBKHL.BMP" },
-	"core:wasteland_rocks": { "graphics" : "hota/CmBkWstp.BMP" }
+	"core:highlands_flowers": { "graphics" : "hota/battleBackgroundHighlands.png" },
+	"core:wasteland_rocks": { "graphics" : "hota/battleBackgroundWastelands.png" }
 }
