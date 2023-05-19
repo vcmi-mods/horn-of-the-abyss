@@ -1,0 +1,41 @@
+{
+	"wateringPlace" : {
+		"handler":"configurable",
+		"name" : "Watering Place",
+		"types" : {
+			"object" : {
+				"aiValue" : 3000,
+				"rmg" : {
+					"value"		: 500,
+					"rarity" 	: 50,
+					"zoneLimit" : 1
+				},
+				"sounds" : {
+					"visit" : ["STORE"]
+				},
+				"rewards" : [
+					{
+						"message" : "{Watering Place}\r\n\r\nLooks like a nice place for an overnight stop. Tomorrow your troops will be as fresh as they never were. Would you like to call it a day?",
+						"movePercentage" : 0,
+						"bonuses" : [ { "type" : "MOVEMENT", "subtype" : 1,  "val" : 1000, "valueType" : "ADDITIVE_VALUE", "duration" : "N_DAYS", "turns" : 2} ],
+					}
+				],
+				"onVisitedMessage": "{Watering Place}\r\n\r\nWatering place can be used only once a week, and someone has already been here this week.",
+//				"onXXXMessage" : "{Watering Place}\r\n\r\nTroops are in a full blown recuperation mode. No chance of getting them into marching mood until tomorrow.",// TODO: when this message is used?
+				"canRefuse": true,
+				"visitMode" : "once",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"templates" : {
+					"avwtplce" : { "animation" : "hota/wateringPlace/avwtplce", 
+						"mask" : [ "A" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "rough"]
+					}
+				}
+			}
+		}
+	}		
+}

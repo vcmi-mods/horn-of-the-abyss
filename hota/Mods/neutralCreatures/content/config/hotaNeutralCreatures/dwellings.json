@@ -1,0 +1,54 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"wineyard" :
+			{
+				"name" : "Wineyard",
+				"creatures" : [[ "satyr" ]],
+				"sounds": {
+					"ambient": ["LOOPLEPR.wav"]
+				},
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "hota/mapDwellings/AVGsaty0.def",
+						"mask" : [ "VVV", "VBB", "VAB" ]
+					}
+				}
+			},
+			"ziggurat" :
+			{
+				"name" : "Ziggurat",
+				"creatures" : [[ "fangarm" ]],
+				"sounds": {
+					"ambient": ["hota/LOOPBEHD.wav"]
+				},
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "hota/mapDwellings/AVGfngrm.def",
+						"mask" : [ "VVV", "VBB", "VBA" ]
+					}
+				}
+			},
+			"alehouse" :
+			{
+				"name" : "Alehouse",
+				"creatures" : [[ "leprechaun" ]],
+				"sounds": {
+					"ambient": ["LOOPGARD.wav"]
+				},
+				"templates" : 
+				{
+					"default" : 
+					{
+						"animation" : "hota/mapDwellings/AVGlprch.def",
+						"mask" : [ "VVV", "VVB", "VBA" ]
+					}
+				}
+			}
+		}
+	}
+}

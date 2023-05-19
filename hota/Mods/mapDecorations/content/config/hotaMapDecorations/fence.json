@@ -1,0 +1,63 @@
+{
+	"hotaFence" : {
+		"handler": "generic",
+		"name" : "Fence",
+		"types" : {
+			"object" : {
+				"base" : {"mask" : ["VV","VB"]},
+				"templates" : {
+					"avzabr01" : {
+						"animation" : "hota/fence/avzabr01",
+						"allowedTerrains": ["grass"]
+					},
+					"avzabr02" : {
+						"animation" : "hota/fence/avzabr02",
+						"mask" : ["VB","VB"],
+						"allowedTerrains": ["grass"]
+					},
+					"avzabr03" : {
+						"animation" : "hota/fence/avzabr03",
+						"allowedTerrains": ["grass"]
+					},
+					"avzabr04" : {
+						"animation" : "hota/fence/avzabr04",
+						"allowedTerrains": ["grass"]
+					},
+					"avzabr05" : {
+						"animation" : "hota/fence/avzabr05",
+						"allowedTerrains": ["grass"]
+					},
+					"avzabr06" : {
+						"animation" : "hota/fence/avzabr06",
+						"allowedTerrains": ["grass"]
+					},
+					"avzbrs01" : {
+						"animation" : "hota/fence/avzbrs01",
+						"allowedTerrains": ["snow"]
+					},
+					"avzbrs02" : {
+						"animation" : "hota/fence/avzbrs02",
+						"mask" : ["VB","VB"],
+						"allowedTerrains": ["snow"]
+					},
+					"avzbrs03" : {
+						"animation" : "hota/fence/avzbrs03",
+						"allowedTerrains": ["snow"]
+					},
+					"avzbrs04" : {
+						"animation" : "hota/fence/avzbrs04",
+						"allowedTerrains": ["snow"]
+					},
+					"avzbrs05" : {
+						"animation" : "hota/fence/avzbrs05",
+						"allowedTerrains": ["snow"]
+					},
+					"avzbrs06" : {
+						"animation" : "hota/fence/avzbrs06",
+						"allowedTerrains": ["snow"]
+					}
+				}
+			}
+		}
+	}
+}

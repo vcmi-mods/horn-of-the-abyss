@@ -1,0 +1,36 @@
+{
+	"core:garrisonHorizontal" : {
+		"types" : {
+			"normal" : {
+				"templates" : {
+					"AVCGARW1" : {
+						"animation" : "hota/garrizons/AVCGARW1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					},
+					
+					"avgtzab2" : {
+						"animation" : "hota/garrizons/avgtzab2",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					},
+					
+					"avgtzab1" : {
+						"animation" : "hota/garrizons/avgtzab1",
+						"mask" : [ "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
+					},
+					
+					"AVCGARE" : {
+						"animation" : "hota/garrizons/AVCGARE",
+						"mask" : [ "VVVV", "VBVB", "VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}
+

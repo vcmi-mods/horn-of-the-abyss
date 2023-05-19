@@ -1,0 +1,95 @@
+{
+	"pig" :{
+		"handler" : "static",
+		"name" : "Pig",
+		"types" : {
+			"object" : {
+				"sounds": {
+					"ambient": ["hota/PIGSND"]
+				},
+				"templates" : {
+					"pig" : { "animation" : "hota/animals/pig",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "grass", "dirt", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"chicken" :{
+		"handler" : "static",
+		"name" : "Chicken",
+		"types": {
+			"object" : {
+				"sounds": {
+					"ambient": ["hota/CHICK"]
+				},
+				"templates" : {
+					"rooster_01" : { "animation" : "hota/animals/rooster_01",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "grass", "dirt", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"rooster" :{
+		"handler" : "static",
+		"name" : "Rooster",
+		"types" : {
+			"object" : {
+				"sounds": {
+					"ambient": ["hota/COCK"]
+				},
+				"templates" : {
+					"rooster_02" : { "animation" : "hota/animals/rooster_02",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "grass", "dirt", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"frogs" :{
+		"handler" : "static",
+		"name" : "Frogs",
+		"types" : {
+			"hotaFrogs" : {
+				"sounds": {
+					"ambient": ["hota/FROGS01"]
+				},
+				"templates" : {
+					"frog_01" : { "animation" : "hota/animals/frog_01",
+						"mask" : ["BB"],
+						"allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	},
+
+	"frog" :{
+		"handler" : "static",
+		"name" : "Frog",
+		"types" : {
+			"hotaFrog" : {			
+				"sounds": {
+					"ambient": ["hota/FROGS02"]
+				},
+				"templates" : {
+					"frog_02" : { "animation" : "hota/animals/frog_02",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "swamp" ]
+					},
+					"frog_03" : { "animation" : "hota/animals/frog_03",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	}
+}

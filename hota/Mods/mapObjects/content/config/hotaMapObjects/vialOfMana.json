@@ -1,0 +1,73 @@
+{
+	"vialOfMana" : {
+		"handler":"configurable",
+		"name" : "Vial of Mana",
+		"types" : {
+			"object" : {
+				"name": "Vial of Mana (grants 30-60 spell points)",
+				"sounds" : {
+					"visit" : ["hota/BOTTLVIS"]
+				},
+				"rmg" : {
+					"value"	: 3000,
+					"rarity" : 50
+				},
+				"blockedVisitable" : true,
+				"rewards" :
+				[
+					{
+						"appearChance": 
+						{
+							"max" : 30
+						},
+						"manaPoints": 30,
+						"manaOverflowFactor" : 50,
+						"message": "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 30,
+							"max" : 60
+						},
+						"manaPoints": 40,
+						"manaOverflowFactor" : 50,
+						"message": "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 60,
+							"max" : 90
+						},
+						"manaPoints": 50,
+						"manaOverflowFactor" : 50,
+						"message": "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
+						"removeObject": true
+					},
+					{
+						"appearChance": 
+						{
+							"min" : 90,
+							"max" : 100
+						},
+						"manaPoints": 60,
+						"manaOverflowFactor" : 50,
+						"message": "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
+						"removeObject": true
+					}
+				],
+				"visitMode" : "once",
+				"templates" : {
+					"AVAmnbtw" : { "animation" : "hota/vialOfMana/AVAmnbtw", 
+						"mask" : [ "A" ], 
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"allowedTerrains": [ "water"]
+					}
+				}
+			}
+		}
+	}		
+}

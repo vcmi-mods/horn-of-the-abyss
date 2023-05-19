@@ -1,0 +1,40 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"hotaBarchanDunes" : {
+			"name" : "Barchan Dunes",
+				"templates" : {
+					"hotaAVLmtdn1" : { "animation" : "hota/dunes/AVLmtdn1",  
+						"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VVVBBB"],
+						"allowedTerrains": [ "sand" ]
+					},							
+					"hotaAVLmtdn2" : { "animation" : "hota/dunes/AVLmtdn2", 					 
+						"mask" : [ "VVBBBV", "VBBBBB","VBBBBB","VBBBVV"],
+						"allowedTerrains": [ "sand" ]
+					},			
+					"hotaAVLmtdn3" : { "animation" : "hota/dunes/AVLmtdn3", 					 
+						"mask" : [ "VBBV","VBBB", "VVBB"],
+						"allowedTerrains": [ "sand" ]
+					},				
+					"hotaAVLmtdn4" : { "animation" : "hota/dunes/AVLmtdn4", 
+						"mask" : [ "VVBB","VBBB", "VBBV"],
+						"allowedTerrains": [ "sand" ]
+					},
+					"hotaAVLmtdn5" : { "animation" : "hota/dunes/AVLmtdn5", 
+						"mask" : [ "VBBV","VVBB"],
+						"allowedTerrains": [ "sand" ]
+					},									
+					"hotaAVLmtdn6" : { "animation" : "hota/dunes/AVLmtdn6",  
+						"mask" : [ "VVBB","VBBV"],
+						"allowedTerrains": [ "sand" ]
+					}		
+				}
+			}
+		}	
+	}	
+}
+	
+	
+
+
+	

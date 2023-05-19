@@ -1,0 +1,22 @@
+{	
+	"core:questGuard" : {
+		"types" : {
+			"object" :  { 
+				"templates" : {
+					"avxwgtqu" : {
+						"animation" : "hota/questGuard/avxwgtqu",
+						"mask" : [ "VVVV","VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"avxwbor8" : {
+						"animation" : "hota/questGuard/avxwbor8",
+						"mask" : [ "VV","VA" ],
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}
+}

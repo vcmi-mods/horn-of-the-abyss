@@ -1,0 +1,67 @@
+{
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "https://slack.vcmi.eu/",
+	"description" : "Adds Highlands and Wasteland terrains as well as several map objects unique to these terrains",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Mechanics",
+	"name" : "Map Terrains",
+	"version" : "1.2.0",
+	"changelog" :
+	{
+		"1.2.0"   : [ "Mod rewritten for new format" ],
+		"1.1.0"   : [ "Some map objects added and special terrains" ],
+		"1.0.0"   : [ "Initial release" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},
+	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
+	"objects" : [
+		"config/hotaTerrains/abandonedMine.json",
+		"config/hotaTerrains/bones.json",
+		"config/hotaTerrains/cactus.json",
+		"config/hotaTerrains/churchyard.json",
+		"config/hotaTerrains/crater.json",
+		"config/hotaTerrains/deadVegetation.json",
+		"config/hotaTerrains/derrick.json",
+		"config/hotaTerrains/flowers.json",
+		"config/hotaTerrains/gazebo.json",
+		"config/hotaTerrains/hole.json",
+		"config/hotaTerrains/lakes.json",
+		"config/hotaTerrains/mineralSpring.json",
+		"config/hotaTerrains/mines.json",
+		"config/hotaTerrains/mountain.json",
+		"config/hotaTerrains/obelisk.json",
+		"config/hotaTerrains/prospector.json",
+		"config/hotaTerrains/puddles.json",
+		"config/hotaTerrains/ruins.json",
+		"config/hotaTerrains/shrub.json",
+		"config/hotaTerrains/signs.json",
+		"config/hotaTerrains/spruces.json",
+		"config/hotaTerrains/stones.json",
+		"config/hotaTerrains/trees.json",
+		"config/hotaTerrains/waterfalls.json"
+
+//		NOT SUPPORTED
+//		"config/hotaTerrains/grave.json",
+//		"config/hotaTerrains/hermitsShack.json",
+//		"config/hotaTerrains/hillFort.json",
+//		"config/hotaTerrains/junkman.json",
+//		"config/hotaTerrains/trailblazer.json",
+//		"config/hotaTerrains/warlocksLab.json",
+	],
+	"battlefields":
+	[
+		"config/hotaTerrains/battlefields.json"
+	],
+	"obstacles":
+	[
+		"config/hotaTerrains/obstacles.json"
+	],
+	"terrains" :
+	[
+		"config/hotaTerrains/terrains.json"
+	]
+}

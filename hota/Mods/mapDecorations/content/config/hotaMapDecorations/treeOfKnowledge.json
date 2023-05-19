@@ -1,0 +1,16 @@
+{
+	"core:treeOfKnowledge"	: {
+		"types" : {
+			"treeOfKnowledge" : {
+				"templates" : {
+					"AVXtrkS0" : {
+						"animation" : "hota/treeOfKnowledge/AVXtrkS0", 
+						"mask" : [ "VBV","VBV","VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}

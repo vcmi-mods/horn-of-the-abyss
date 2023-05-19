@@ -1,0 +1,36 @@
+{
+	"junkman" : {
+		"handler":"configurable",
+		"name" : "Junkman",
+		"types" : {
+			"object" : {
+				"name": "Junkman (Artifacts except Spell Scrolls may be sold to Junkman (at the efficiency of 7 markets)).",
+//				"rmg" : {
+//					"value"	: 200,
+//					"rarity" : 40,
+//					"zoneLimit" : 1,
+//				},
+				"sounds" : {
+					"visit" : ["hota/JUNKVIST"]
+				},
+				"rewards" :
+				[
+					{
+					},
+				],
+				"onSelectMessage" : "{Junkman}\r\n\r\nDo kindly keep the papers. I don't trade in scrap parchment.",
+				"onVisitedMessage": "{Junkman}",
+//				"canRefuse": true,
+				"visitMode" : "hero",
+				"selectMode" : "selectPlayer",
+				"templates" : {
+					"AVXjnkmn" : { "animation" : "hota/junkman/AVXjnkmn", 
+						"mask" : [ "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "++-", "+++" ],
+						"allowedTerrains": [ "highlands"]
+					}
+				}
+			}
+		}
+	}		
+}

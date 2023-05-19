@@ -1,0 +1,39 @@
+{
+	"cracked_ice": {
+		"graphics": "CmBkIce.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : -5,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	},
+	"dunes": {
+		"graphics": "CmBkDun.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.quicksand",
+				"val" : 4,
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	},
+	"fields_of_glory": {
+		"graphics": "cmbkflgl.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "LUCK",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"core:rampart" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"fort": { "x" : 79,  "y" : 31 }
+			}
+		}
+	},
+	"core:tower" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":           { "x" : 301, "y" : 0 },
+				"citadel":        { "x" : 301, "y" : 0 },
+				"castle":         { "x" : 301, "y" : 0 },
+			}
+		}
+	},
+	"core:inferno" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"resourceSilo":   { "x" : 496, "y" : 337 },
+				"special3":       { "x" : 208, "y" : 143 },
+				"dwellingUpLvl4": { "x" : 414, "y" : 203 },
+				"dwellingUpLvl5": { "x" : 359, "y" : 244 },
+				"dwellingUpLvl6": { "x" : 220, "y" : 283 }
+			}
+		}
+	},
+	"core:necropolis" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"citadel": { "x" :  34, "y" : 18 }
+			}
+		}
+	},
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"structures" :
+			{
+				"extraTownHall":   { "x" : 132, "y" : 205 },
+				"extraCityHall":   { "x" : 486, "y" : 203 }
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"core:corpse" :{	
+		"types" : {	
+			"corpse" : {
+				"templates" : {
+					"AVXskds1" : {
+						"animation" : "hota/corpse/AVXskds1",
+						"mask" : [ "BA"],
+						"visitableFrom" : [ "+++", "-++", "+++" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					
+					"AVXskds2" : {
+						"animation" : "hota/corpse/AVXskds2",
+						"visitableFrom" : [ "+++", "+++", "+++" ],
+						"mask" : [ "VA" ],
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	}
+}

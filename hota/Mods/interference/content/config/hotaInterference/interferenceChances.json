@@ -1,0 +1,142 @@
+{
+	"core:knight":
+	{
+		"secondarySkills" :
+		{
+			"interference" : 5
+		}
+	},
+	"core:cleric" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:ranger" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 9
+		}
+	},
+	"core:druid" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:alchemist" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 5
+		}
+	},
+	"core:wizard" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:demoniac" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 6
+		}
+	},
+	"core:heretic" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:deathknight" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 5
+		}
+	},
+	"core:necromancer" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:warlock" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:overlord" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 6
+		}
+	},
+	"core:barbarian" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 6
+		}
+	},
+	"core:battlemage" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:beastmaster" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 5
+		}
+	},
+	"core:witch" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"core:planeswalker" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 2
+		}
+	},
+	"core:elementalist" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 0
+		}
+	},
+	"hota.cove:captain" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 3
+		}
+	},
+	"hota.cove:navigator" :
+	{
+		"secondarySkills" :
+		{
+			"interference" : 1
+		}
+	}
+}

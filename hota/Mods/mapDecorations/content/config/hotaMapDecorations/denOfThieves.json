@@ -1,0 +1,16 @@
+{
+	"core:denOfThieves"	: {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avxdens0" : {
+						"animation" : "hota/denOfThieves/avxdens0",
+						"mask" : [ "VV", "VV", "BA" ],
+						"allowedTerrains": [ "snow" ],
+						"visitableFrom" : [ "---", "-++", "+++" ]
+					}
+				}
+			}
+		}
+	}	
+}

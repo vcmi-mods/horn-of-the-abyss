@@ -1,0 +1,41 @@
+{
+	"core:monolithOneWayEntrance" : {
+		"types" : {
+			"hotaMonoliths01En" : {
+				"templates" : {		
+					"avxmn1g0" : { "animation" : "hota/monoliths/Avxmn1g0", 
+						"mask" : [ "V", "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			
+			"hotaMonoliths02En" : {			
+				"templates" : {	
+					"AVXMN1T0" : { "animation" : "hota/monoliths/AVXMN1T0",
+						"mask" : [ "V", "A" ],  
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}			
+				}
+			},
+			
+			"hotaMonoliths03En" : {
+				"templates" : {
+					"AVXMN1V0" : { "animation" : "hota/monoliths/AVXMN1V0",
+						"mask" : [ "V", "A" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},	
+			
+			"hotaMonoliths04En" : {
+				"templates" : {	
+					"AVXMN1w0" : { "animation" : "hota/monoliths/AVXMN1w0", 
+						"mask" : [ "V", "A" ],  
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

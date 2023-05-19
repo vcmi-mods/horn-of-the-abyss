@@ -1,0 +1,27 @@
+{
+	"hideousMask" : {
+        "type" : [ "HERO" ],
+        "slot" : "MISC",
+        "class" : "MINOR",
+        "value" : 4000,
+        "bonuses" : [ 
+            { 
+                "type" : "MORALE",
+                "val" : -1,
+                "propagator": "BATTLE_WIDE",
+                "propagationUpdater" : "BONUS_OWNER_UPDATER",
+                "limiters" : [ "OPPOSITE_SIDE" ]
+            } 
+        ],
+        "graphics" : {
+            "image" : "hota/artifactsIcons/hideousMask",
+            "map" : "hota/artifactsMap/hideousMask",
+            "large" : "hota/artifactsCampaignBonuses/hideousMask"
+        },
+        "text" : {
+            "name" : "Hideous Mask",
+            "description" : "{Hideous Mask}\r\n\r\nDecreases enemy's Morale by 1.",
+            "event" : "You meet a traveling circus on your way. One of the artists had such a deft disguise that you have drawn a sword, ready to defend yourself. It appeared that a pretty actress was hiding behind the mask. Laughing, she gifts you the mask."
+        }
+    }
+}

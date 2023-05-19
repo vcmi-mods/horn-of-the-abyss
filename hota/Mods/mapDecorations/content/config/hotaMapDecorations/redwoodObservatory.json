@@ -1,0 +1,22 @@
+{
+	"core:redwoodObservatory"	: {
+		"types" : {
+			"hotaObservationTower" : {
+				"name" : "Observation Tower",
+				"rmg" : {
+					"value"		: 750,
+					"rarity"	: 100,
+					"zoneLimit" : 1
+				},
+				"templates" : {
+					"avwtobtw" : {
+						"animation" : "hota/redwoodObservatory/avwtobtw",
+						"mask" : [ "VBV","VBV","VBA" ], 
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}		
+}

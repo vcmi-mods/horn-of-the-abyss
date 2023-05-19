@@ -1,0 +1,68 @@
+{
+	"core:conflux" :
+	{	
+		"town" :
+		{
+			"structures" :
+			{
+				"hordePhoenix": {
+					"animation" : "hota/phoenixHorde.def",
+					"border" : "hota/phoenixHordeBorder.png",
+					"area" : "hota/phoenixHordeArea.png",
+					"x" : 685, 
+					"y" : 105, 
+					"z" : 1
+				 },
+				"hordePhoenixUpgr": {
+					"animation" : "hota/phoenixHordeUpgraded.def",
+					"border" : "hota/phoenixHordeUpgradedBorder.png",
+					"area" : "hota/phoenixHordeUpgradedArea.png",
+					"x" : 685, 
+					"y" : 105, 
+					"z" : 1
+				}
+			},
+			"horde" : [ 0, 6 ],
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special2" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "hordePhoenix", "hordePhoenixUpgr" ], [ "horde1", "horde1Upgr" ] ], 
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"hallBackground" : "TPTHBKNC.pcx"
+			"buildings" :
+			{
+				"hordePhoenix": 
+				{ 
+					"description" : "The Vault of Ashes increases Firebirds production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"requires" : [ "dwellingLvl7" ],
+					"id" : 24
+				},
+				"hordePhoenixUpgr": 
+				{ 
+					"description" : "The Vault of Ashes increases Phoenixes production by 1 per week.",
+					"name" : "Vault of Ashes",
+				
+					"cost" :
+					{
+						"mercury" : 5,
+						"gold":	5000
+					},
+					"upgrades" : "hordePhoenix",
+					"requires" : [ "dwellingUpLvl7" ],
+					"mode" : "auto",
+					"id" : 25
+				}
+			}
+		}
+	}
+}

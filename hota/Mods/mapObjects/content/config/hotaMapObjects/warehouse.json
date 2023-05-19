@@ -1,0 +1,281 @@
+{
+	"warehouses" :{	
+		"name": "Warehouses",
+		"handler": "configurable",
+		"types" : {
+			"crystalWarehouse" : 
+			{
+				"name": "Warehouse of Crystal",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSCRST"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"crystal" : 6},
+						"message": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all crystals from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhscr" : 
+					{
+						"animation" : "hota/warehouses/avwrhscr", 
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"gemsWarehouse" : 
+			{
+				"name": "Warehouse of Gem",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSGEMS"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"gems" : 6},
+						"message": "{Warehouse of Gem}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gems from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Gem}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gems here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhsgm" :
+					{
+						"animation" : "hota/warehouses/avwrhsgm",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"sulfurWarehouse" : 
+			{
+				"name": "Warehouse of Sulfur",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSSULF"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"sulfur" : 6},
+						"message": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all sulfur from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no sulfur here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhssf" :
+					{
+						"animation" : "hota/warehouses/avwrhssf",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"mercuryWarehouse" : 
+			{
+				"name": "Warehouse of Mercury",
+				"rmg" : {
+					"value"		: 2500,
+					"rarity"	: 25,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSMERC"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"mercury" : 6},
+						"message": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all mercury from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mercury here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhsmc" :
+					{
+						"animation" : "hota/warehouses/avwrhsmc",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"woodWarehouse" : 
+			{
+				"name": "Warehouse of Wood",
+				"rmg" : {
+					"value"		: 2250,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSWOOD"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"wood" : 10},
+						"message": "{Warehouse of Wood}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all wood from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Wood}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no wood here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhswd" :
+					{
+						"animation" : "hota/warehouses/avwrhswd",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"oreWarehouse" : 
+			{
+				"name": "Warehouse of Ore",
+				"rmg" : {
+					"value"		: 2250,
+					"rarity"	: 30,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSOREM"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"ore" : 10},
+						"message": "{Warehouse of Ore}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all ore from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Ore}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no ore here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhsor" :
+					{
+						"animation" : "hota/warehouses/avwrhsor",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			},
+			"goldWarehouse" : 
+			{
+				"name": "Warehouse of Gold",
+				"rmg" : {
+					"value"		: 6000,
+					"rarity"	: 15,
+					"zoneLimit" : 1
+				},
+				"sounds": {
+					"ambient": ["hota/WRHSGOLD"],
+					"visit" : ["hota/WERHOUSE"]
+				},
+				"rewards" :
+				[
+					{ 
+						"limiter":
+						{
+							"numOfGrants": 1
+						},
+						"resources": {"gold" : 2000},
+						"message": "{Warehouse of Gold}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gold from the nearby production points for you. Come next week for the new portion!'"
+					}
+				],
+				"onVisitedMessage": "{Warehouse of Gold}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gold here. Please, return next week!'",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"visitMode" : "once",
+				"templates" : 
+				{
+					"avwrhsgl" :
+					{
+						"animation" : "hota/warehouses/avwrhsgl",
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV","VVV","VBA"]
+					}
+				}
+			}
+		}	
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avxsnhl" : {
+						"animation" : "hota/sign/avxsnhl",
+						"allowedTerrains": [ "highlands" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					},
+					
+					"avxsnwst" : {
+						"animation" : "hota/sign/avxsnwst",
+						"allowedTerrains": [ "wasteland" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+

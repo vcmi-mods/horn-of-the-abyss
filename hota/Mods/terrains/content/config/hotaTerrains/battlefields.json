@@ -1,0 +1,4 @@
+{
+	"highlands_flowers": { "graphics" : "hota/battleBackgroundHighlands.png" },
+	"wasteland_rocks": { "graphics" : "hota/battleBackgroundWastelands.png" }
+}

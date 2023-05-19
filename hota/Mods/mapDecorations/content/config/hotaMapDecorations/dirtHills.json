@@ -1,0 +1,40 @@
+{
+	"core:dirtHills" :{
+		"types" : {
+			"object" : {
+				"templates" : {
+					
+					"avlndt01" : { "animation" : "hota/dirtHills/avlndt01", 
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt02" : { "animation" : "hota/dirtHills/avlndt02",  
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt03" : { "animation" : "hota/dirtHills/avlndt03", 
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt04" : { "animation" : "hota/dirtHills/avlndt04",  
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt05" : { "animation" : "hota/dirtHills/avlndt05", 
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					},
+					
+					"avlndt06" : { "animation" : "hota/dirtHills/avlndt06", 
+						"mask" : [ "VV","BB" ], 
+						"allowedTerrains": [ "dirt" ]
+					}					
+				}
+			}			
+		}	
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"wayfarerBoots" : {
+		"type" : [ "HERO" ],
+		"slot" : "FEET",
+		"class" : "MAJOR",
+		"value" : 5000,
+		"bonuses" : [
+			{
+				"type" : "ROUGH_TERRAIN_DISCOUNT",
+				"valueType" : "ADDITIVE_VALUE",
+				"val" : 100
+			}
+		],
+		"graphics" : {
+			"image" : "hota/artifactsIcons/wayfarerBoots",
+			"map" : "hota/artifactsMap/wayfarerBoots",
+			"large" : "hota/artifactsCampaignBonuses/wayfarerBoots"
+		},
+		"text" : {
+			"name" : "Wayfarer's Boots",
+			"description" : "{Wayfarer's Boots}\r\n\r\nWorn on the feet, these boots allow your hero to move over rough terrain without penalty.",
+			"event" : "You meet a wanderer in rugs on a shallow path. He offers you to exchange your cape for his old boots. You agree without much of enthusiasm. As he disappears over the horizon you realize the advantage of the transaction."
+		}
+	}
+}

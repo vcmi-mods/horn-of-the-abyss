@@ -1,0 +1,20 @@
+{
+	"core:prison"	: {
+		"types" : {
+			"prison" : {
+				"templates" : {	
+					"avwtprsn" : { "animation" : "hota/prison/avwtprsn", 
+						"mask" : [ "VVVV","VVBV","VBAB" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					},
+					"AVXprsn1" : { "animation" : "hota/prison/AVXprsn1", 
+						"mask" : [ "VVV","VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+					}
+				}
+			}
+		}
+	}		
+}
+

@@ -1,0 +1,16 @@
+{
+	"core:learningStone"	: {
+		"types" : {
+			"learningStone" : {
+				"templates" : {
+					"AVSgzbS0" : {
+						"animation" : "hota/learningStone/AVSgzbS0",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "snow" ]
+					}
+				}
+			}
+		}
+	}
+}			

@@ -1,0 +1,66 @@
+{
+	"core:monk" :
+	{
+		"aiValue" : 582
+	},
+	"core:archDevil" :
+	{
+		"abilities" :
+		{
+			"descreaseLuck" :
+			{
+				"val" : -2
+			}
+		}
+	},
+	"core:efreetSultan" :
+	{
+		"aiValue" : 2343
+	},
+	"core:psychicElemental" :
+	{
+		"cost" :
+		{
+			"gold" : 950
+		}
+	},
+	"core:magicElemental" :
+	{
+		"cost" :
+		{
+			"gold" : 1200
+		}
+	},
+	"core:firebird" :
+	{
+		"aiValue" :4336,
+		"fightValue" : 3097,
+		"horde" : 1,
+		"growth" : 1,
+		"cost" :
+		{
+			"gold" : 2000
+		},	
+		"abilities":
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : 1,
+				"val" : 50
+			},
+			"immuneToFire" : null
+		}
+	},
+	"core:phoenix" :
+	{
+		"cost" :
+		{
+			"gold" : 3000
+		}
+	},
+	"core:fairieDragon" :
+	{
+		"aiValue" :30501
+	}
+}

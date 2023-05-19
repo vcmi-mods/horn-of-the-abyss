@@ -1,0 +1,48 @@
+{
+	"derrick" :{	
+		"name": "Derrick",
+		"handler": "configurable",
+		"types" : {
+			"gazebo" : 
+			{
+				"name": "Derrick (+500 gold on first week, 1000 gold on every other week)",
+				"rmg" : {
+					"value" : 750,
+					"rarity" : 30
+				},
+				"sounds" : {
+					"visit" : ["GENIE"],
+					"ambient" : ["hota/LOOPDRRK"]
+				},
+				"rewards" : [
+					{
+						"limiter" : { "daysPassed" : 8 },
+						"message" : "{Derrick}\r\n\r\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time — come for your share in a week.\"",
+						"resources" : { "gold" : 1000 }
+					},
+					{
+						"message" : "{Derrick}\r\n\r\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time — come for your share in a week.\"",
+						"resources" : { "gold" : 500 }
+					}
+				],
+				"onVisitedMessage": "{Derrick}\r\n\r\nThe drilling foreman is very busy. You are able to decipher his muttering as a claim that he has nothing to show yet. You've got to drop by again next week.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true
+				},
+				"templates" : 
+				{
+					"avmoilpm" : 
+					{
+						"animation" : "hota/derrick/avmoilpm", 
+						"visitableFrom" : [ "---", "-++", "+++" ], 
+						"mask" : ["VVV", "VVV", "VBA"], 
+						"allowedTerrains": ["wasteland"]
+					}
+				}
+			}
+		}	
+	}
+}

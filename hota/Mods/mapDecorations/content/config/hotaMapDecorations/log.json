@@ -1,0 +1,14 @@
+{
+	"core:log"	: {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLlogdrt1" : { "animation" : "hota/log/AVLlogdrt1", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "dirt","grass","rough" ] 
+					}						
+				}
+			}				
+		}
+	}	
+}

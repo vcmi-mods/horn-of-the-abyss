@@ -1,0 +1,15 @@
+{
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVXhilS0" : { "animation" : "hota/hillFort/AVXhilS0",
+						"mask" : [ "VVV", "VVV", "VBA" ], 
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains":[ "snow" ] 
+					}
+				}
+			}
+		}
+	}	
+}

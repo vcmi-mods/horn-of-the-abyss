@@ -1,0 +1,30 @@
+{
+	"core:mound" :{
+		"types" : {		
+			"object" : {
+				"templates" : {
+				
+					"avlsnh01" : { "animation" : "hota/mound/avlsnh01", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "snow" ]
+					},
+					
+					"avlsnh02" : { "animation" : "hota/mound/avlsnh02", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
+					},
+					
+					"avlsnh03" : { "animation" : "hota/mound/avlsnh03", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
+					},
+					
+					"avlsnh04" : { "animation" : "hota/mound/avlsnh04", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "snow" ]
+					}					
+				}
+			}			
+		}	
+	}
+}
