@@ -1,0 +1,253 @@
+{
+	"name" : "New maps",
+	"description" : "This mod contains all new maps added by HotA as well as support for loading such maps in VCMI", 
+	"author": "Ivan",
+	"version" : "1.0",
+	"contact": "https://forum.vcmi.eu/",
+	"modType" : "Other",
+	"depends" : [ 
+		"hota.artifacts",
+		"hota.cannon",
+		"hota.confluxvaultofashes",
+		"hota.cove",
+		"hota.heroes",
+		"hota.interference",
+		"hota.mapobjects",
+		"hota.neutralcreatures",
+		"hota.terrainoverlays",
+		"hota.terrains"
+	],
+
+	"compatibility" : {
+		"min" : "1.3"
+	},
+	"settings": {
+		"mapFormat" : {
+			"hornOfTheAbyss" : {
+				"supported" : true,
+				"iconIndex" : 5,
+				
+				"factions" : {
+					"cove" : 9
+				},
+				"buildings" : {
+					"cove" : {
+						//"dwellingUp2Lvl3" : 10,
+						//"special3" : 18 // thievesGuild
+						//"special4" : 19 // grotto
+					}
+				},
+				"creatures" : {
+					"cannon" : 150,
+					"seadog" : 151,
+					// Nothing? : 152
+					"nymph" : 153,
+					"oceanid" : 154,
+					"crewmate" : 155,
+					"seaman" : 156,
+					"pirate" : 157,
+					"corsair" : 158,
+					"stormbird" : 159,
+					"ayssid" : 160,
+					"seaWitch" : 161,
+					"sorceress" : 162,
+					"nix" : 163,
+					"nixWarrior" : 164,
+					"seaserpent" : 165,
+					"haspid" : 166,
+					"satyr" : 167,
+					"fangarm" : 168,
+					"leprechaun" : 169,
+					"steelGolem" : 170
+				},
+				"heroes" : {
+					"01corkes" : 156,
+					"02jeremy" : 157,
+					"03illor" : 158,
+					"09casmetra" : 159,
+					"derek" : 160,
+					"05leena" : 161,
+					"10eovacius" : 162,
+					"11spint" : 163,
+					"12andal" : 164,
+					"13manfred" : 165,
+					"14zilare" : 166,
+					"15astra" : 167,
+					"06anabel" : 168,
+					"16dargem" : 169,
+					"07cassiopeia" : 170,
+					"08miriam" : 171,
+					"04elmore" : 172,
+					"beatrice" : 173,
+					"kinkeria" : 174,
+					"ranloo" : 175,
+					"giselle" : 176,
+				},
+				"artifacts" : {
+					"diplomatsCloak" : 141,
+					"pendantOfReflection" : 142,
+					"ironfistOfTheOgre" : 143,
+					"cannon" : 146,
+					"tridentOfDominion" : 147,
+					"shieldOfNavalGlory" : 148,
+					"royalArmorOfNix" : 149,
+					"crownOfTheFiveSeas" : 150,
+					"wayfarerBoots" : 151,
+					"runesOfImminency" : 152,
+					"demonsHorseshoe" : 153,
+					"shamansPuppet" : 154,
+					"hideousMask" : 155,
+					"ringOfSuppression" : 156,
+					"pendantOfDownfall" : 157,
+					"ringOfOblivion" : 158,
+					"capeOfSilence" : 159,
+					"goldenGoose" : 160,
+					//"hornOfTheAbyss" : 161,
+					"charmOfEclipse" : 162,
+					"sealOfSunset" : 163,
+					"plateOfDyingLight" : 164
+				},
+				"heroClasses" : {
+					"captain" : 18,
+					"navigator" : 19,
+				},
+				"skills" : {
+					"interference" : 28
+				},
+				"terrains" : {
+					"highlands" : 10,
+					"wasteland" : 11
+				},
+//					"objects" : {
+//						"boat" : {
+//							// boat 0 - Necropolis
+//							// boat 1 - Castle
+//							// boat 2 - Fortress
+//							"hotaBoatCove" : 3,
+//							"hotaBoatNeutral" : 4,
+//							"hotaBoatConflux" : 5
+//						},
+//						"hillFort" : {
+//							"hotaHillFort" : 1
+//						},
+//						"schoolOfMagic" : {
+//							"hotaSchoolOfMagic" : 47,
+//						},
+//						"creatureBank" : {
+//							"hotaBeholderSanctuary" : 21,
+//							"hotaTempleOfTheSea" : 22,
+//							"hotaPirateCave" : 23,
+//							"hotaMansion" : 24,
+//							"hotaSpit" : 25,
+//							"hotaRedTower" : 26
+//						},
+//						"hotaIce" : {
+//							"hotaIce0" : [40, 0],
+//							"hotaIce1" : [40, 1],
+//							"hotaIce2" : [40, 2],
+//							"hotaIce3" : [40, 3],
+//							"hotaIce4" : [40, 4],
+//							"hotaIce5" : [40, 5],
+//							"hotaIce6" : [40, 6],
+//							"hotaIce7" : [40, 7]
+//						},
+//						"hotaStatic" : {
+//							"hotaCrates0" : [139, 0],
+//							"hotaCrates1" : [139, 1],
+//							"hotaBag" : [139, 2],
+//							"hotaCrates3" : [139, 3],
+//							"hotaJaws" : [139, 4],
+//							"hotaRopesPile" : [139, 5],
+//							"hotaFrog" : [139, 6],
+//							"hotaFrogs" : [139, 7],
+//							"hotaHen" : [139, 8],
+//							"hotaRooster" : [139, 9],
+//							"hotaPortu" : [139, 10],
+//							"hotaDestroyedMercenaryCamp" : [139, 11],
+//							"hotaDestroyedFountain" : [139, 12],
+//							"hotaPig" : [139, 13],
+//							"hotaHornAltar" : [139, 14],
+//							"hotaBoatWreckage" : [139, 15],
+//							"hotaPalisade" : [139, 16],
+//							"hotaWaterfall" : [139, 17],
+//							"hotaFlames" : [139, 18],
+//							"hotaDestroyedUndegroundGate" : [139, 19],
+//							"hotaPredatoryPlant" : [139, 20],
+//							"hotaBridge" : [139, 21],
+//							"hotaBones" : [139, 22],
+//							// 23 - unknown / unused
+//							"hotaPond" : [139, 24],
+//							"hotaPillar" : [139, 25],
+//							"hotaPond2" : [139, 26]
+//						},
+//						"hotaNature" : {
+//							"hotaWaterball" : [140, 0],
+//							"hotaRock" : [140, 1],
+//							"hotaTreesTropical" : [140, 2],
+//							"hotaIce" : [140, 3],
+//							"hotaMissing" : [140, 4],
+//							"hotaSnowHill" : [140, 5],
+//							"hotaMountains" : [140, 6],
+//							"hotaTrees" : [140, 7],
+//							"hotaLakeWater" : [140, 8]
+//						},
+//						"hotaTerrains" : {
+//							"hotaIce" : [141, 0],
+//							"hotaDunes" : [141, 1],
+//							"hotaFieldsOfGlory" : [141, 2]
+//						},
+//
+//						"hotaWarehouses" : {
+//							"hotaWarehouseWood" : [142, 0],
+//							"hotaWarehouseMercury" : [142, 1],
+//							"hotaWarehouseOre" : [142, 2],
+//							"hotaWarehouseSulfur" : [142, 3],
+//							"hotaWarehouseCrystal" : [142, 4],
+//							"hotaWarehouseGems" : [142, 5],
+//							"hotaWarehouseGold" : [142, 6]
+//						},
+//
+//						"hotaInteractive" : {
+//							"hotaTempleOfLoyalty" : [144, 0],
+//							"hotaSkeletonTransformer" : [144, 1],
+//							"hotaMagicArena" : [144, 2],
+//							"hotaWateringPlace" : [144, 3],
+//							"hotaMineralSpring" : [144, 4],
+//							"hotaHermitShack" : [144, 5],
+//							"hotaGazebo" : [144, 6],
+//							"hotaJunkman" : [144, 7],
+//							"hotaDerrick" : [144, 8],
+//							"hotaWarlockLab" : [144, 9],
+//							"hotaProspector" : [144, 10],
+//							"hotaTrailblazer" : [144, 11]
+//						},
+//
+//						"hotaWaterObjects" : {
+//							"hotaGenieBottle" : [145, 0],
+//							"hotaBarrelWater" : [145, 1],
+//							"hotaCrateWater" : [145, 2],
+//							"hotaManaBottle" : [145, 3]
+//						},
+//
+//						"hotaInteractive2" : {
+//							"hotaWarAcademy" : [146, 0],
+//							"hotaObservatory" : [146, 1],
+//							"hotaAltarOfMana" : [146, 2],
+//							"hotaTownGates" : [146, 3],
+//						},
+//						"hotaOilLake" : {
+//							"hotaOilLake" : [154, 0]
+//						},
+//
+//						"hotaLyuc" : {
+//							"hotaLyuc" : [160, 0]
+//						},
+//
+//						"hotaLyuc2" : {
+//							"hotaLyuc2" : [204, 0]
+//						}
+//					}
+			}
+		}
+	}
+}

@@ -6,9 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Expansion",
 	"name" : "Horn of the Abyss",
-	"version" : "1.6.0",
+	"version" : "1.6.1",
 	"changelog" : 
 	{
+		"1.6.1"   : [ "Added support for HotA maps", "Added HotA maps" ],
 		"1.6.0"   : [ "Mod updated with data from latest HotA release", "Reorganized submods to more logical scheme", "Updated Cove puzzle map", "Updated portraits of Cove heroes" ],
 		"1.5.10"  : [ "Implemented new map objects", "Fixes to existing map objects" ],
 		"1.5.9"   : [ "Removed HotA fonts submod due to issues with different localizations" ],
