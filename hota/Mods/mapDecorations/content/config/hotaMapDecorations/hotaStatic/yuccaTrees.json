@@ -1,0 +1,36 @@
+{
+	"yuccaTrees" :{
+		"name" : "Yucca Trees",
+		"handler":"generic",
+		"types" : {
+			"yuccaTrees1" : {
+				"templates" : {
+					"avlyuc20" : { "animation" : "hota/trees/avlyuc20", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"avlyuc30" : { "animation" : "hota/trees/avlyuc30", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			},
+			"yuccaTrees2" : {
+				"templates" : {
+					"avlyuc40" : { "animation" : "hota/trees/avlyuc40", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"avlyuc50" : { "animation" : "hota/trees/avlyuc50", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "sand" ]
+					},
+					"avlyuc60" : { "animation" : "hota/trees/avlyuc60", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"templeOfLoyalty" : {
-		"handler":"configurable",
+		"handler":"generic",
 		"name" : "Temple of Loyalty",
 		"sounds" : {
 			"visit" : ["TEMPLE"]
@@ -13,16 +13,6 @@
 //					"rarity"	: 20,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Temple of Loyalty}\r\n\r\n",
-				"onVisitedMessage": "{Temple of Loyalty}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
 				"templates" : {
 					"AVStmplt" : { "animation" : "hota/templeOfLoyalty/AVStmplt", 
 						"mask" : [ "VVV","VVV", "VBA" ], 

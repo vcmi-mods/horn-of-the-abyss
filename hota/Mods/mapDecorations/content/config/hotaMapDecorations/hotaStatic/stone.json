@@ -1,0 +1,40 @@
+{
+	"stone" : {
+		"name" : "Stone",
+		"handler":"generic",
+		"types" : {
+			"stone" : {
+				"templates" : {
+					"AVLrk6s0" : { "animation" : "hota/stones/AVLrk6s0", 
+						"mask" : [ "B" ], 
+						"allowedTerrains": [ "swamp" ]
+					},
+					"udrock02" : { "animation" : "hota/rock/udrock02", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock03" : { "animation" : "hota/rock/udrock03", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock04" : { "animation" : "hota/rock/udrock04", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock05" : { "animation" : "hota/rock/udrock05", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock06" : { "animation" : "hota/rock/udrock06", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock07" : { "animation" : "hota/rock/udrock07", 
+						"mask" : [ "VV", "BB" ], 
+						"allowedTerrains": [ "subterra" ]
+					}
+				}
+			}
+		}
+	}
+}

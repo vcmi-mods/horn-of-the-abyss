@@ -3,7 +3,7 @@
 		"handler":"configurable",
 		"name" : "Vial of Mana",
 		"types" : {
-			"object" : {
+			"vialOfMana" : {
 				"name": "Vial of Mana (grants 30-60 spell points)",
 				"sounds" : {
 					"visit" : ["hota/BOTTLVIS"]

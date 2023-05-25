@@ -1,0 +1,25 @@
+{
+	"hota.terrains:waterfalls" : {
+		"types" : {
+			"waterfalls" : {
+				"templates" : {
+					"h4wt1f" : { 
+						"animation" : "hota/waterfall/h4wt1f",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": ["water"]
+					},
+					"h4wt2f" : { 
+						"animation" : "hota/waterfall/h4wt2f", 
+						"mask" : ["VVV","VBV", "VBB"],
+						"allowedTerrains": ["water"]
+					},
+					"h4wt3f" : {
+						"animation" : "hota/waterfall/h4wt3f",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": ["water"]
+					}
+				}
+			}
+		}
+	}
+}

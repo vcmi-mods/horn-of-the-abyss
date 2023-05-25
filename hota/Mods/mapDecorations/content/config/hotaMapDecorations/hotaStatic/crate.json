@@ -1,0 +1,17 @@
+{
+	"crate" : {
+		"name": "Crate",
+		"handler": "static",
+		"types" : {
+			"crate" : {
+				"templates" : {
+					"crates04" : {
+						"animation" : "hota/crates/crates04",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	}
+}

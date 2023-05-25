@@ -1,27 +1,17 @@
 {
 	"townGate" : {
-		"handler":"configurable",
+		"handler":"generic",
 		"name" : "Town Gate",
 		"sounds" : {
 			"visit" : ["MYSTERY"]
 		},
 		"types" : {
-			"object" : {
+			"townGate" : {
 //				"rmg" : {
 //					"value"	: 10000,
 //					"rarity" : 20,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Town Gate}\r\n\r\n",
-				"onVisitedMessage": "{Town Gate}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
 				"templates" : {
 					"avxtwngt" : { "animation" : "hota/townGate/avxtwngt", 
 						"mask" : [ "VVV", "VVV", "BAB" ], 

@@ -1,0 +1,43 @@
+{
+	"prospector" : {
+		"handler":"configurable",
+		"name" : "Prospector",
+		"types" : {
+			"prospector" : {
+				"rmg" : {
+					"value"	: 500,
+					"rarity" : 30
+				},
+				"sounds" : {
+					"visit" : ["Expernce"]
+				},
+				"resetParameters" : {
+					"period" : 7,
+					"visitors" : true,
+					"rewards" : true
+				},
+				"visitMode" : "once",
+				"rewards" : [
+					{
+						"message" : "{Prospector}\r\n\r\nThe tired prospector makes an effort to look tough, but you can see he is afraid of you after all. He is willing to pay you a small sum regularly for the permission to continue mining here.",
+						"appearChance" : { "max" : 50 },
+						"resources" : { "sulfur" : 5 }
+					},
+					{
+						"message" : "{Prospector}\r\n\r\nThe tired prospector makes an effort to look tough, but you can see he is afraid of you after all. He is willing to pay you a small sum regularly for the permission to continue mining here.",
+						"appearChance" : { "min" : 50 },
+						"resources" : { "gold" : 500 }
+					}
+				],
+				"onVisitedMessage": "{Prospector}\r\n\r\nThe prospector curses the depleted vein, then wails and begs. Obviously, there's nothing else he can do for you this week.",
+				"templates" : {
+					"avtprosp" : { "animation" : "hota/prospector/avtprosp", 
+						"mask" : [ "VVVV", "VBAB" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}		
+}

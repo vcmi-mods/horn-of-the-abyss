@@ -1,41 +1,88 @@
 {
-	"core:lucidPools" : {
+	"crackedIce" : {
+		"handler": "terrain",
+		"name" : "Cracked Ice",
+		"base" : {
+			"battleground": "cracked_ice"
+		},
 		"types" : {
-			"cracked_ice" : {
-				"name" : "Cracked Ice",
-				"base" : { "zIndex": 100 },
-				"battleground": "cracked_ice",
+			"crackedIce" : {
 				"templates" : {
 					"zice01" : {
-						"animation" : "zice01",				
+						"animation" : "zice01",
+						"zIndex": 100,
 						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
-					},				
+					},
+				}
+			},
+			"crackedIce01" : {
+				"templates" : {
+					"zice01" : {
+						"animation" : "zice01",
+						"zIndex": 100,
+						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
+					},
+				}
+			},
+			"crackedIce02" : {
+				"templates" : {
 					"zice02" : {
-						"animation" : "zice02",						
+						"animation" : "zice02",
+						"zIndex": 100,
 						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ]
 					},
+				}
+			},
+			"crackedIce03" : {
+				"templates" : {
 					"zice03" : {
-						"animation" : "zice03",					
+						"animation" : "zice03",
+						"zIndex": 100,
 						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
-					},				
+					},
+				}
+			},
+			"crackedIce04" : {
+				"templates" : {
 					"zice04" : {
-						"animation" : "zice04",						
+						"animation" : "zice04",
+						"zIndex": 100,
 						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"]
-					},				
+					},
+				}
+			},
+			"crackedIce05" : {
+				"templates" : {
 					"zice05" : {
-						"animation" : "zice05",					
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"]						
-					},					
+						"animation" : "zice05",
+						"zIndex": 100,
+						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"]
+					},
+				}
+			},
+			"crackedIce06" : {
+				"templates" : {
 					"zice06" : {
-						"animation" : "zice06",						
+						"animation" : "zice06",
+						"zIndex": 100,
 						"mask" : [ "VVV", "VVV","VVV" ]
-					},					
+					},
+				}
+			},
+			"crackedIce07" : {
+				"templates" : {
 					"zice07" : {
-						"animation" : "zice07",					
+						"animation" : "zice07",
+						"zIndex": 100,
 						"mask" : [ "VVVVV", "VVVVV" ]
-					},					
+					},
+				}
+			},
+			"crackedIce08" : {
+				"templates" : {
 					"zice08" : {
-						"animation" : "zice08",				
+						"animation" : "zice08",
+						"zIndex": 100,
 						"mask" : [ "VV", "VV","VV", "VV","VV"  ]
 					}
 				}

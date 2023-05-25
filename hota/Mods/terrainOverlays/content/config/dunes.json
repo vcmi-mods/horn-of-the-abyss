@@ -1,5 +1,6 @@
 {
-	"core:rocklands" : {
+	"dunes" : {
+		"handler": "terrain",
 		"types" : {
 			"dunes" : {
 				"name" : "Dunes",

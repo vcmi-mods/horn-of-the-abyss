@@ -3,7 +3,7 @@
 		"name": "Ancient Lamp",
 		"handler": "configurable",
 		"types" : {
-			"ancient Lamp" : 
+			"ancientLamp" : 
 			{
 				"name": "Ancient Lamp (allows you to recruit 4-7 Master Genie once)",
 				"rmg" : {

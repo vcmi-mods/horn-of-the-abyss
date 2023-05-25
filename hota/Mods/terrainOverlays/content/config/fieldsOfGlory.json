@@ -1,7 +1,8 @@
 {
-	"core:fieryFields" : {
+	"fieldsOfGlory" : {
+		"handler": "terrain",
 		"types" : {
-			"fields_of_glory" : {
+			"fieldsOfGlory" : {
 				"name" : "Fields of Glory",
 				"base" : { "zIndex": 100 },
 				"battleground": "fields_of_glory",

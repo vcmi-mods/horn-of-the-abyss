@@ -3,7 +3,7 @@
 		"handler": "configurable",
 		"name" : "Altar of Mana",
 		"types" : {
-			"object" : {
+			"altarOfMana" : {
 				"name" : "Altar of Mana (Heroes may sacrifice creatures for spell points, up to 4x the normal cap).",
 				"sounds" : {
 					"visit" : ["MYSTERY"]
@@ -13,16 +13,6 @@
 //					"rarity" : 20,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Altar of Mana}\r\n\r\nNot yet implemented",
-				"onVisitedMessage": "{Altar of Mana}\r\n\r\nNot yet implemented",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
 				"templates" : {
 					"AVXMALTW" : { "animation" : "hota/altarOfMana/AVXMALTW", 
 						"mask" : [ "VVV", "VBV", "VAA" ], 

@@ -7,7 +7,7 @@
 			"visit" : ["MILITARY"]
 		},
 		"types" : {
-			"object" : {
+			"miniHillFort" : {
 //				"rmg" : {
 //					"value"	: 7000,
 //					"rarity" : 20,

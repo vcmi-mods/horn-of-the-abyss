@@ -1,0 +1,26 @@
+{
+	"snowHills" : {
+		"name" : "Snow Hills",
+		"handler":"generic",
+		"types" : {
+			"snowHills" : {
+				"templates" : {
+					"avlxsn01" : { "animation" : "hota/trees/avlxsn01", 
+						"mask" : ["VBB","VBB"], 
+						"allowedTerrains": ["snow" ]						
+					},
+					
+					"avlxsn02" : { "animation" : "hota/trees/avlxsn02", 
+						"mask" : ["VBB","VBB"], 
+						"allowedTerrains": ["snow" ]						
+					},
+					
+					"avlxsn03" : { "animation" : "hota/trees/avlxsn03",  
+						"mask" : ["VVV","VBB","VBB"], 
+						"allowedTerrains": ["snow" ]					
+					}
+				}
+			}
+		}
+	}
+}
