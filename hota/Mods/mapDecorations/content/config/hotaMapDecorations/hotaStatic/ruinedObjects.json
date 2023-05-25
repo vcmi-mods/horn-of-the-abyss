@@ -1,6 +1,6 @@
 {
 	"ruinedSubterraneanGate" : {
-		"handler": "generic",
+		"handler": "static",
 		"name" : "Ruined Subterranean Gate",
 		"types" : {
 			"ruinedSubterraneanGate" : {

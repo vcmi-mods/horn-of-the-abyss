@@ -13,16 +13,6 @@
 //					"rarity" 	: 40,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Trailblazer}\r\n\r\n",
-				"onVisitedMessage": "{Trailblazer}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
 				"templates" : {
 					"avstrblz" : { "animation" : "hota/trailblazer/avstrblz", 
 						"mask" : [ "VVV","VVV", "VBA" ], 

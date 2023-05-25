@@ -1,8 +1,9 @@
 {
 	"pileOfStones" : {
+		"handler" : "static",
+		"name" : "Pile of Stones",
 		"types" : {
 			"pileOfStones" : {
-				"name" : "Pile of Stones",
 				"templates" : {
 					"AVLrk5s0" : { "animation" : "hota/stones/AVLrk5s0", 
 						"mask" : [ "BB" ], 

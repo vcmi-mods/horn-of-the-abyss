@@ -1,6 +1,6 @@
 {
 	"altarOfMana" : {
-		"handler": "configurable",
+		"handler": "generic",
 		"name" : "Altar of Mana",
 		"types" : {
 			"altarOfMana" : {

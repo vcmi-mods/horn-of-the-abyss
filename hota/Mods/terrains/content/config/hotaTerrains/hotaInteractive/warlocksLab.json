@@ -1,6 +1,6 @@
 {
 	"warlocksLab" : {
-		"handler":"configurable",
+		"handler":"generic",
 		"name" : "Warlock's Lab",
 		"sounds" : {
 			"visit" : ["STORE"]

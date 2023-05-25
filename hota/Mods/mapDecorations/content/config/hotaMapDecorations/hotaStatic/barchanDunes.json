@@ -1,7 +1,7 @@
 {
 	"barchanDunes" : {
 		"name" : "Barchan Dunes",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"barchanDunes" : {
 				"templates" : {

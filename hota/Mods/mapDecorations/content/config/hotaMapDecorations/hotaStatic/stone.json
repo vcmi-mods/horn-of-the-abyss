@@ -1,7 +1,7 @@
 {
 	"stone" : {
 		"name" : "Stone",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"stone" : {
 				"templates" : {

@@ -1,6 +1,6 @@
 {
 	"ancientAltar" : {
-		"handler":"generic",
+		"handler":"static",
 		"name" : "Ancient Altar",
 		"types" : {
 			"ancientAltar" : {

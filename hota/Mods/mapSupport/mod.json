@@ -221,7 +221,7 @@
 					
 					// Terrain overlays
 					"dunes" : [141, 1],
-					"fieldsOfGlory" : [141, 2]
+					"fieldsOfGlory" : [141, 2],
 					"crackedIce" : {
 						"crackedIce" : [141, 0],
 						"crackedIce01" : [40, 0],

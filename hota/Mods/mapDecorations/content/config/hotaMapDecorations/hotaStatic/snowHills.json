@@ -1,7 +1,7 @@
 {
 	"snowHills" : {
 		"name" : "Snow Hills",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"snowHills" : {
 				"templates" : {

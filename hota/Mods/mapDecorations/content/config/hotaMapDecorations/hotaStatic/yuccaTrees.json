@@ -1,7 +1,7 @@
 {
 	"yuccaTrees" :{
 		"name" : "Yucca Trees",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"yuccaTrees1" : {
 				"templates" : {
