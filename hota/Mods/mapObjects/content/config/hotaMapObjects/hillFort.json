@@ -2,10 +2,6 @@
 	"miniHillFort" : {
 		"handler":"generic",
 		"name" : "Hill Fort",
-		"sounds" : {
-			"ambient" : ["LOOPSWAR"],
-			"visit" : ["MILITARY"]
-		},
 		"types" : {
 			"miniHillFort" : {
 //				"rmg" : {
@@ -13,6 +9,10 @@
 //					"rarity" : 20,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"ambient" : ["LOOPSWAR"],
+					"visit" : ["MILITARY"]
+				},
 				"templates" : {
 					"minifort" : { "animation" : "hota/hillFort/minifort", 
 						"mask" : [ "VVV", "VVV", "VBA" ], 

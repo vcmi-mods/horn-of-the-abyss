@@ -12,7 +12,7 @@
 //					"mapLimit" : 32
 //				},
 				"sounds" : {
-					"visit" : ["hota/GAZEBO"]
+					"visit" : ["GAZEBO"]
 				},
 //				"onSelectMessage" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace. (Random secondary skill upgrade once per hero)",
 //				"onVisitedMessage": "{Hermit's Shack}\r\n\r\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",

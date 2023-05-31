@@ -2,9 +2,6 @@
 	"skeletonTransformer" : {
 		"handler":"generic",
 		"name" : "Skeleton Transformer",
-		"sounds" : {
-			"visit" : ["MYSTERY"]
-		},
 		"types" : {
 			"skeletonTransformer" : {
 //				"rmg" : {
@@ -12,6 +9,9 @@
 //					"rarity" : 15,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["MYSTERY"]
+				},
 				"templates" : {
 					"AVXsktrs" : { "animation" : "hota/skeletonTransformer/AVXsktrs", 
 						"mask" : [ "VVV", "VVV", "VBA" ], 

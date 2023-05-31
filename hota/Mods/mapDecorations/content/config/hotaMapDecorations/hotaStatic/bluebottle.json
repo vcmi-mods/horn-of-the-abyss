@@ -1,6 +1,6 @@
 {
 	"bluebottle" : {
-		"handler":"static",
+		"handler":"generic",
 		"name" : "Bluebottle",
 		"types" : {
 			"bluebottle" : {

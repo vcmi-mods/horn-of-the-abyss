@@ -9,27 +9,27 @@
 						"mask" : [ "B" ], 
 						"allowedTerrains": [ "swamp" ]
 					},
-					"udrock02" : { "animation" : "hota/rock/udrock02", 
+					"udrock02" : { "animation" : "hota/stone/udrock02", 
 						"mask" : [ "VB" ], 
 						"allowedTerrains": [ "subterra" ]
 					},
-					"udrock03" : { "animation" : "hota/rock/udrock03", 
+					"udrock03" : { "animation" : "hota/stone/udrock03", 
 						"mask" : [ "VB" ], 
 						"allowedTerrains": [ "subterra" ]
 					},
-					"udrock04" : { "animation" : "hota/rock/udrock04", 
+					"udrock04" : { "animation" : "hota/stone/udrock04", 
 						"mask" : [ "VB" ], 
 						"allowedTerrains": [ "subterra" ]
 					},
-					"udrock05" : { "animation" : "hota/rock/udrock05", 
+					"udrock05" : { "animation" : "hota/stone/udrock05", 
 						"mask" : [ "BB" ], 
 						"allowedTerrains": [ "subterra" ]
 					},
-					"udrock06" : { "animation" : "hota/rock/udrock06", 
+					"udrock06" : { "animation" : "hota/stone/udrock06", 
 						"mask" : [ "BB" ], 
 						"allowedTerrains": [ "subterra" ]
 					},
-					"udrock07" : { "animation" : "hota/rock/udrock07", 
+					"udrock07" : { "animation" : "hota/stone/udrock07", 
 						"mask" : [ "VV", "BB" ], 
 						"allowedTerrains": [ "subterra" ]
 					}

@@ -1,6 +1,6 @@
 {
 	"stonySphere" : {
-		"handler":"static",
+		"handler":"generic",
 		"name" : "Stony Sphere",
 		"types" : {
 			"stonySphere" : {

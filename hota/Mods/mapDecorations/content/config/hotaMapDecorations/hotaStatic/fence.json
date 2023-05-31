@@ -1,6 +1,6 @@
 {
 	"fence" : {
-		"handler": "static",
+		"handler": "generic",
 		"name" : "Fence",
 		"types" : {
 			"fence" : {

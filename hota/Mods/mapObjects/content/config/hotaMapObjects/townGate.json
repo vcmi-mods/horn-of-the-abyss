@@ -2,9 +2,6 @@
 	"townGate" : {
 		"handler":"generic",
 		"name" : "Town Gate",
-		"sounds" : {
-			"visit" : ["MYSTERY"]
-		},
 		"types" : {
 			"townGate" : {
 //				"rmg" : {
@@ -12,6 +9,9 @@
 //					"rarity" : 20,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["MYSTERY"]
+				},
 				"templates" : {
 					"avxtwngt" : { "animation" : "hota/townGate/avxtwngt", 
 						"mask" : [ "VVV", "VVV", "BAB" ], 

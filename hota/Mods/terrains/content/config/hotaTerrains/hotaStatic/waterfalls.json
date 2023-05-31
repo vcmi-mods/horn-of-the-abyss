@@ -1,7 +1,5 @@
 {
 	"hota.mapDecorations:waterfalls" : {
-		"name" : "Waterfalls",
-		"handler":"generic",
 		"types" : {
 			"waterfalls" : {
 				"sounds": {

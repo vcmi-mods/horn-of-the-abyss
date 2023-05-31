@@ -1,11 +1,11 @@
 {
 	"ancientAltar" : {
-		"handler":"static",
+		"handler":"generic",
 		"name" : "Ancient Altar",
 		"types" : {
 			"ancientAltar" : {
 				"sounds": {
-					"ambient": ["HORNALTR"]
+					"ambient": ["hota/HORNALTR"]
 				},
 				"templates" : {
 					"avchrnal" : { 

@@ -1,6 +1,6 @@
 {
 	"fire" : {
-		"handler":"static",
+		"handler":"generic",
 		"name" : "Fire",
 		"types" : {
 			"fire" : {

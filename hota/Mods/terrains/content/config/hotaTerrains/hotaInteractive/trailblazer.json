@@ -2,9 +2,6 @@
 	"trailblazer" : {
 		"handler":"generic",
 		"name" : "Trailblazer",
-		"sounds" : {
-			"visit" : ["STORE"]
-		},
 		"types" : {
 			"trailblazer" : {
 //				"aiValue" : 3000,
@@ -13,6 +10,9 @@
 //					"rarity" 	: 40,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["STORE"]
+				},
 				"templates" : {
 					"avstrblz" : { "animation" : "hota/trailblazer/avstrblz", 
 						"mask" : [ "VVV","VVV", "VBA" ], 

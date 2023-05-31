@@ -2,9 +2,6 @@
 	"warlocksLab" : {
 		"handler":"generic",
 		"name" : "Warlock's Lab",
-		"sounds" : {
-			"visit" : ["STORE"]
-		},
 		"types" : {
 			"warlocksLab" : {
 //				"rmg" : {
@@ -12,6 +9,9 @@
 //					"rarity" : 100,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["STORE"]
+				},
 				"templates" : {
 					"avxtrmtw" : { "animation" : "hota/warlocksLab/avxtrmtw", 
 						"mask" : [ "VVVV", "VVVV", "VBAB" ], 

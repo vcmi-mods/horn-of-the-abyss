@@ -5,11 +5,11 @@
 		"types" : {
 			"yuccaTrees1" : {
 				"templates" : {
-					"avlyuc20" : { "animation" : "hota/trees/avlyuc20", 
+					"avlyuc20" : { "animation" : "avlyuc20", 
 						"mask" : [ "B" ], 
 						"allowedTerrains": [ "sand" ]
 					},
-					"avlyuc30" : { "animation" : "hota/trees/avlyuc30", 
+					"avlyuc30" : { "animation" : "avlyuc30", 
 						"mask" : [ "B" ], 
 						"allowedTerrains": [ "sand" ]
 					}

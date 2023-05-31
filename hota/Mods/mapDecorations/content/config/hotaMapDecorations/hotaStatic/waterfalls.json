@@ -1,5 +1,7 @@
 {
-	"hota.terrains:waterfalls" : {
+	"waterfalls" : {
+		"name" : "Waterfalls",
+		"handler":"static",
 		"types" : {
 			"waterfalls" : {
 				"templates" : {

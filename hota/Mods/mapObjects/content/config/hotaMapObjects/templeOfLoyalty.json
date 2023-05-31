@@ -2,9 +2,6 @@
 	"templeOfLoyalty" : {
 		"handler":"generic",
 		"name" : "Temple of Loyalty",
-		"sounds" : {
-			"visit" : ["TEMPLE"]
-		},
 		"types" : {
 			"templeOfLoyalty" : {
 //				"aiValue" : 1000,
@@ -13,6 +10,9 @@
 //					"rarity"	: 20,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["TEMPLE"]
+				},
 				"templates" : {
 					"AVStmplt" : { "animation" : "hota/templeOfLoyalty/AVStmplt", 
 						"mask" : [ "VVV","VVV", "VBA" ], 

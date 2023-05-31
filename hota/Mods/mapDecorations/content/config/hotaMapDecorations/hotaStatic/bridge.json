@@ -1,6 +1,6 @@
 {
 	"bridge" : {
-		"handler":"static",
+		"handler":"generic",
 		"name" : "Bridge",
 		"types" : {
 			"bridge" : {

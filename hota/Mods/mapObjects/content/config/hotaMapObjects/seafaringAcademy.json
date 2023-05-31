@@ -2,9 +2,6 @@
 	"seafaringAcademy" : {
 		"handler":"generic",
 		"name" : "Seafaring Academy",
-		"sounds" : {
-			"visit" : ["ACADEMYV"]
-		},
 		"types" : {
 			"seafaringAcademy" : {
 //				"aiValue" : 1000,
@@ -13,6 +10,9 @@
 //					"rarity"	: 20,
 //					"zoneLimit" : 1
 //				},
+				"sounds" : {
+					"visit" : ["hota/ACADEMYV"]
+				},
 				"templates" : {
 					"avswacad" : { "animation" : "hota/seafaringAcademy/avswacad", 
 						"mask" : [ "VVVV","VVVV", "VBBV", "VABB" ], 

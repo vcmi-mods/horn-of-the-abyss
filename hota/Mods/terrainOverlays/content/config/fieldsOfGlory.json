@@ -1,9 +1,9 @@
 {
 	"fieldsOfGlory" : {
 		"handler": "terrain",
+		"name" : "Fields of Glory",
 		"types" : {
 			"fieldsOfGlory" : {
-				"name" : "Fields of Glory",
 				"base" : { "zIndex": 100 },
 				"battleground": "fields_of_glory",
 				"templates" : {
