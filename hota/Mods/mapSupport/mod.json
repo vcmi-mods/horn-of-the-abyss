@@ -125,7 +125,6 @@
 					// Unique interactive objects
 					"miniHillFort" : [35, 1],
 					"schoolOfMagic" : [47, 1],
-				//	"shrineOfMagicMystery" : [ 88, 3], //TODO
 					"templeOfLoyalty" : [144, 0],
 					"skeletonTransformer" : [144, 1],
 					"colosseumOfTheMagi" : [144, 2],
@@ -146,20 +145,34 @@
 					"observatory" : [146, 1],
 					"altarOfMana" : [146, 2],
 					"townGate" : [146, 3],
-					//"grave" : [ 212, 1001], //TODO
-					//"questGate" : [ 212, 1000], //TODO
+					"grave" : [ 212, 1001],
 					
+					"shrineOfMagicLevel1" : {
+						"shrineOfMagicMystery" : [ 88, 3],
+					},
+					
+					"shrineOfMagicLevel2" : {
+						"object" : [ 89, 1] // hota water shrine
+					}
+					
+					"shrineOfMagicLevel3" : {
+						"object" : [ 90, 1] // hota water shrine
+					},
+
 					// Common interactive objects
 					"boat" : {
 						"boatCove" : [8, 3],
 						"boatNeutral" : [8, 4],
 						"boatConflux" : [8, 5]
 					},
-//					"seerHut" : {
-//						"seerHut3" : [83, 3],
-//						"seerHut4" : [83, 4],
-//						"seerHut5" : [83, 5]
-//					},
+					"seerHut" : {
+						"seerHutHota1" : [83, 3],
+						"seerHutHota2" : [83, 4],
+						"seerHutHota3" : [83, 5]
+					},
+					"questGuard" : {
+						"questGate" : [ 212, 1000]
+					},
 					"creatureBank" : {
 						"beholderSanctuary" : [16, 21],
 						"templeOfTheSea" : [16, 22],

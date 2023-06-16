@@ -1,5 +1,5 @@
 {
-	"questGate" : {
+	"core:questGuard" : {
 		"handler":"generic",
 		"name" : "Quest Gate",
 		"types" : {

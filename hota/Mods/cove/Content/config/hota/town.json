@@ -874,7 +874,8 @@
 			},
 			"tavernVideo" : "tvrncove.BIK",
 			"townBackground" : "hota/town/background",
-			"warMachine" : "cannon"
+			"warMachine" : "cannon",
+			"boat" : "boatCove"
 		}
 	}
 }

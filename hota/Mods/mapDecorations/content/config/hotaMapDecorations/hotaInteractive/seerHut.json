@@ -1,7 +1,7 @@
 {
-	"core:seerHut" : { //TODO: should be new types, not new templates for existing types
+	"core:seerHut" : {
 		"types" : {
-			"0" : {
+			"seerHutHota1" : {
 				"templates" : {
 					"AVXseec0H" : { "animation" : "hota/seerHut/AVXseec0", 
 						"mask" : [ "VVV", "VBV", "VAV" ],
@@ -9,7 +9,7 @@
 					}
 				}
 			},
-			"1": {
+			"seerHutHota2": {
 				"templates" : {
 					"AVXseee0H" : { "animation" : "hota/seerHut/AVXseee0", 
 						"mask" : [ "VVV", "VVV", "VAV" ],
@@ -17,7 +17,7 @@
 					}
 				}
 			},
-			"2" : {
+			"seerHutHota3" : {
 				"templates" : {
 					"wt_seerh" : { "animation" : "hota/seerHut/wt_seerh", 
 						"mask" : [ "VVV","BBB", "BAB" ], 
