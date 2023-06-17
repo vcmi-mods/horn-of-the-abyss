@@ -16,6 +16,7 @@
 			"iconLarge" : "hota/iconsBig/stormbird.png",
 			"iconSmall" : "hota/iconsSmall/stormbird.png",
 			"map" : "hota/map/stormbird.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 4,

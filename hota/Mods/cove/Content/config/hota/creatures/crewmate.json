@@ -14,6 +14,7 @@
 			"iconLarge" : "hota/iconsBig/crewmate.png",
 			"iconSmall" : "hota/iconsSmall/crewmate.png",
 			"map" : "hota/map/crewmate.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 9,

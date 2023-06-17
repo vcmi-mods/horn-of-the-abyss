@@ -15,6 +15,7 @@
 			"iconLarge" : "hota/iconsBig/nix.png",
 			"iconSmall" : "hota/iconsSmall/nix.png",
 			"map" : "hota/map/nix.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 2,

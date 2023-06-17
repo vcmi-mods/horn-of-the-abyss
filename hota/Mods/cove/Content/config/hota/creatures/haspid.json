@@ -25,6 +25,7 @@
 			"iconLarge" : "hota/iconsBig/haspid.png",
 			"iconSmall" : "hota/iconsSmall/haspid.png",
 			"map" : "hota/map/haspid.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 1,

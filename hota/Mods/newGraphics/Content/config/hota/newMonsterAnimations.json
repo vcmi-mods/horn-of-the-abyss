@@ -1,0 +1,848 @@
+{
+	"core:airElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelma0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ancientBehemoth" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbhmx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:angel" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWAngl.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archDevil" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdevx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archMage" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmagx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archangel" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWArch.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archer" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWLCrs.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:azureDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWazure.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:basilisk" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWBasl.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:battleDwarf" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdwrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:behemoth" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbhmt0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:beholder" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbehl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:blackDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWddrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:blackKnight" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbkni0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:boar" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWboar.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:boneDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbone0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cavalier" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcvlr0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:centaur" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcent0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:centaurCaptain" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcenx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cerberus" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWhoux0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:champion" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcvlx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:chaosHydra" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWhydx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:crusader" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWswrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:crystalDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcdrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cyclop" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcycl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cyclopKing" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWcycx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:demon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdemn0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:dendroidGuard" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtree0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:dendroidSoldier" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtrex0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:devil" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdevl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:diamondGolem" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWglmd0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:dreadKnight" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbknx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:dwarf" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdwrf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:earthElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelme0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:efreet" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWefre0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:efreetSultan" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWefrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:enchanter" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWench.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:energyElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWnrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:evilEye" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbehx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:fairieDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWfdrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:familiar" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWimpx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:fireDragonFly" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWDFir.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:fireElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelmf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:firebird" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWfbird.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:genie" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgeni0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ghostDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWbonx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:giant" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtitn0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:gnoll" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgnll0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:gnollMarauder" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgnlx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:goblin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgobl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:goblinWolfRider" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWwolf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:gog" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgog0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:goldDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdrax0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:goldGolem" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWglmg0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:gorgon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWGorg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:grandElf" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelfx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:greaterBasilisk" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWGBas.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:greenDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdrag0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:gremlin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgrem0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:griffin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWGrif.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:halberdier" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpikx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:halfling" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWhalf.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:harpy" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWharp0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:harpyHag" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWharx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hellHound" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWhoun0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hobgoblin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgobx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hobgoblinWolfRider" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWwolx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hornedDemon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWdemx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hydra" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWHydr.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:iceElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWicee.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:imp" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWimp0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:infernalTroglodyte" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWInfr.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ironGolem" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgolm0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:lich" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWlich0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:lizardWarrior" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWlizx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:lizardman" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWLizr.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:mage" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmage0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:magicElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmagel.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:magmaElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWstone.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:magog" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgogx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:manticore" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmant0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:marksman" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWHCrs.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:masterGenie" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgenx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:masterGremlin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgrex0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:medusa" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWMeds.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:medusaQueen" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmedx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:mightyGorgon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgorx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:minotaur" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWMino.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:minotaurKing" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWminx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:monk" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWMonk.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:mummy" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmumy.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:naga" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWnaga0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:nagaQueen" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWnagx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:nomad" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWnomd.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:obsidianGargoyle" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgarx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ogre" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWogre0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ogreMage" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWogrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:orc" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWorc0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:orcChieftain" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWorcx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:peasant" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpeas.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:pegasus" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpega0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:phoenix" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWphx.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:pikeman" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWPike.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:pitFiend" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpitf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:pitLord" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpitx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:pixie" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpixie.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:powerLich" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWlicx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:psychicElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpsye.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:redDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWRDrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:roc" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWroc0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:rogue" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWrog.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:royalGriffin" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgrix0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:rustDragon" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWrust.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:scorpicore" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmanx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:serpentFly" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWDFly.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:sharpshooter" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWsharp.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:silverPegasus" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWpegx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:skeleton" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWskel0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:skeletonWarrior" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWskex0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:sprite" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWsprit.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:stoneGargoyle" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgarg0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:stoneGolem" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWgolx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:stormElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWstorm.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:swordsman" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWswrd0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:thunderbird" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWrocx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:titan" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtitx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:troglodyte" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtrog0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:troll" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWtrll.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:unicorn" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWunic0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:vampire" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWvamp0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:vampireLord" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWvamx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:walkingDead" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWzomb0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:warUnicorn" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWunix0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:waterElemental" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelmw0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:wight" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWWigh.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:woodElf" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWelfw0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:wraith" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWwigx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:wyvern" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AvWWyvr.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:wyvernMonarch" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWwyvx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:zealot" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWmonx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:zombieLord" : {
+		"graphics" : {
+			"map" : "hota/mapCreatures/AVWzomx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}
