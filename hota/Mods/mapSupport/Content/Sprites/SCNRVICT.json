@@ -1,0 +1,7 @@
+{
+	"images" :
+	[
+		{ "frame" : 12, "file" : "hota/ScnrVLcr.png"},
+		{ "frame" : 13, "file" : "hota/ScnrVLtm.png"}
+	]
+}
