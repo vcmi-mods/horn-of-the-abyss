@@ -12,7 +12,7 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
-				"visitText" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell: %s.",
+				"visitText" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ",
 				"spell" : {
 					"level" : 4
 				},
