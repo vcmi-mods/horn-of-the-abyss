@@ -4,6 +4,7 @@
 		"creatureBackground" : { "120px" : "hota/creaturebg120px", "130px" : "hota/creaturebg130px" },
 		"name" : "Cove",
 		"nativeTerrain" : "swamp",
+		"boat" : "boatCove",
 		"puzzleMap" : {
 			"pieces" : [
 				{ "index" : 45, "x" :   8, "y" :   8 },
@@ -874,8 +875,7 @@
 			},
 			"tavernVideo" : "tvrncove.BIK",
 			"townBackground" : "hota/town/background",
-			"warMachine" : "cannon",
-			"boat" : "boatCove"
+			"warMachine" : "cannon"
 		}
 	}
 }

@@ -1,14 +1,24 @@
 {
 	"miniHillFort" : {
-		"handler":"generic",
+		"handler":"hillFort",
 		"name" : "Hill Fort",
 		"types" : {
 			"miniHillFort" : {
-//				"rmg" : {
-//					"value"	: 7000,
-//					"rarity" : 20,
-//					"zoneLimit" : 1
-//				},
+				"rmg" : {
+					"value"	: 7000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
+
+				"upgradeCostFactor" : [
+					200,  // level 1
+					200,
+					200,
+					200,
+					200,
+					-1 // level 6+
+				],
+
 				"sounds" : {
 					"ambient" : ["LOOPSWAR"],
 					"visit" : ["MILITARY"]
