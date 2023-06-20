@@ -34,9 +34,9 @@
 				},
 				"buildings" : {
 					"cove" : {
-						//"dwellingUp2Lvl3" : 10,
-						//"special3" : 18 // thievesGuild
-						//"special4" : 19 // grotto
+						"special3" : 18, // thievesGuild
+						"special4" : 19, // grotto
+						"dwellingUp2Lvl3" : 20
 					}
 				},
 				"creatures" : {
@@ -180,7 +180,7 @@
 					
 					"shrineOfMagicLevel2" : {
 						"object" : [ 89, 1] // hota water shrine
-					}
+					},
 					
 					"shrineOfMagicLevel3" : {
 						"object" : [ 90, 1] // hota water shrine
