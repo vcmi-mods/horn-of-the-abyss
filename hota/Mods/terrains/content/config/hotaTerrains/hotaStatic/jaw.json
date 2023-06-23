@@ -1,0 +1,17 @@
+{
+	"jaw" :{
+		"name" : "Jaw",
+		"handler":"generic",
+		"types" : {
+			"jaw" : {
+				"templates" : {
+					"jaws" : {
+						"animation" : "hota/bones/jaws", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "sand", "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

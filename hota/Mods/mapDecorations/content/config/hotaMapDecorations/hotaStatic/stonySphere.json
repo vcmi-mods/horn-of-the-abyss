@@ -1,0 +1,20 @@
+{
+	"stonySphere" : {
+		"handler":"generic",
+		"name" : "Stony Sphere",
+		"types" : {
+			"stonySphere" : {
+				"templates" : {
+					"WATERBALL" : { "animation" : "hota/stonySphere/WATERBALL", 
+						"mask" : [ "VV", "BB" ], 
+						"allowedTerrains":[ "water" ]
+					},
+					"udrock01" : { "animation" : "hota/stonySphere/udrock01", 
+						"mask" : [ "VB" ], 
+						"allowedTerrains": [ "subterra" ]
+					},
+				}
+			}
+		}
+	}
+}

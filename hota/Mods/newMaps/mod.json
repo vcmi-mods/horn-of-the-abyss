@@ -1,0 +1,15 @@
+{
+	"name" : "New maps",
+	"description" : "This mod contains all new maps added by HotA Crew", 
+	"author": "Ivan",
+	"version" : "1.0",
+	"contact": "https://forum.vcmi.eu/",
+	"modType" : "Other",
+	"depends" : [ 
+		"hota.mapsupport"
+	],
+
+	"compatibility" : {
+		"min" : "1.3"
+	}
+}

@@ -3,7 +3,7 @@
 		"handler":"configurable",
 		"name" : "Observatory",
 		"types" : {
-			"object" : {
+			"observatory" : {
 				"sounds" : {
 					"visit" : ["LIGHTHOUSE"]
 				},

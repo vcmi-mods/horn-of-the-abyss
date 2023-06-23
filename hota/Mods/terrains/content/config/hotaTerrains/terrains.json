@@ -13,7 +13,7 @@
 		"river" : "waterRiver",
 		"rockTerrain":"rock",
 		"shortIdentifier" : "hl",
-//		"terrainViewPatterns" : "highlands",	
+		"terrainViewPatterns" : "hota",
 		"battleFields" : ["highlands_flowers"]
 	},
 	"wasteland" :
@@ -30,7 +30,7 @@
 		"rockTerrain":"rock",
 		"horseSound" : "hota/horse31",
 		"horseSoundPenalty" : "horse20",
-//		"terrainViewPatterns" : "wasteland",
+		"terrainViewPatterns" : "hota",
 		"battleFields" : ["wasteland_rocks"]
 	}
 }

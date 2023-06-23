@@ -31,6 +31,7 @@
 		{
 			"animation" : "hota/battle/CLEPRCHN.def",
 			"map" : "hota/map/AVWlepr.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "hota/iconsSmall/CPrSm171",
 			"iconLarge" : "hota/iconsBig/TwCrP171",
 			"timeBetweenFidgets" : 1,

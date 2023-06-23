@@ -1,0 +1,181 @@
+{
+	"core:monolithTwoWay" : {
+		"types" : {
+			"hotaPortalWaterWhite" : {
+				"name" : "White Two Way Sea Portal",
+				"templates" : {
+					"AVXMN9BW" : { 
+						"animation" : "hota/monoliths/AVXMN9BW", 
+						"mask" : [ "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"hotaMonolithsPink" : { 
+				"name" : "Pink Two Way Monolith",
+				"templates" : {
+					"AVXMN2Pink0" : { 
+						"animation" : "hota/monoliths/AVXMN2Pink0",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaMonolithsTurquoise" : { 
+				"name" : "Turquoise Two Way Monolith",
+				"templates" : {
+					"AVXMN2T0" : { 
+						"animation" : "hota/monoliths/AVXMN2T0", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaMonolithsYellow" : { 
+				"name" : "Yellow Two Way Monolith",
+				"templates" : {
+					"AVXMN2Y0" : { 
+						"animation" : "hota/monoliths/AVXMN2Y0", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaMonolithsBlack" : { 
+				"name" : "Black Two Way Monolith",
+				"templates" : {
+					"AVXmn2b0" : { 
+						"animation" : "hota/monoliths/AVXmn2b0", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaPortalChartreuse" : { 
+				"name" : "Chartreuse Two Way Portal",
+				"templates" : {
+					"AVXmn9b0" : { 
+						"animation" : "hota/monoliths/AVXmn9b0", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					}
+				}
+			},
+			"hotaPortalTurquoise" : { 
+				"name" : "Turquoise Two Way Portal",
+				"templates" : {
+					"AVXmn10b" : { 
+						"animation" : "hota/monoliths/AVXmn10b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					}
+				}
+			},
+			"hotaPortalViolet" : { 
+				"name" : "Violet Two Way Portal",
+				"templates" : {
+					"AVXmn11b" : { 
+						"animation" : "hota/monoliths/AVXmn11b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					}
+				}
+			},
+			"hotaPortalOrange" : {
+				"name" : "Orange Two Way Portal",
+				"templates" : {
+					"AVXmn12b" : { 
+						"animation" : "hota/monoliths/AVXmn12b", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaMonolithsBlue" : { 
+				"name" : "Blue Two Way Monolith",
+				"templates" : {
+					"AVXmn2bl" : { 
+						"animation" : "hota/monoliths/AVXmn2bl",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaMonolithsRed" : { 
+				"name" : "Red Two Way Monolith",
+				"templates" : {
+					"AVXmn2rd" : { 
+						"animation" : "hota/monoliths/AVXmn2rd",
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaPortalPink" : { 
+				"name" : "Pink Two Way Portal",
+				"templates" : {
+					"AVXmn19p" : {
+						"animation" : "hota/monoliths/AVXmn19p", 
+						"mask" : [ "VV", "VA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			},
+			"hotaPortalBlue" : { 
+				"name" : "Blue Two Way Portal",
+				"templates" : {
+					"AVXmn20b" : { 
+						"animation" : "hota/monoliths/AVXmn20b", 
+						"mask" : [ "VV", "AB" ],
+						"visitableFrom" : [ "---", "++-", "+++" ]
+					}
+				}
+			},
+			"hotaPortalWaterRed" : {
+				"name" : "Red Two Way Sea Portal",
+				"templates" : {
+					"AVXptw_0" : { 
+						"animation" : "hota/monoliths/AVXptw_0", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"hotaPortalWaterBlue" : { 
+				"name" : "Blue Two Way Sea Portal",
+				"templates" : {
+					"AVXptw_1" : { 
+						"animation" : "hota/monoliths/AVXptw_1", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"hotaPortalWaterGreen" : { 
+				"name" : "Green Two Way Sea Portal",
+				"templates" : {
+					"AVXptw_2" : { 
+						"animation" : "hota/monoliths/AVXptw_2", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"hotaPortalWaterYellow" : { 
+				"name" : "Yellow Two Way Sea Portal",
+				"templates" : {
+					"AVXptw_3" : { 
+						"animation" : "hota/monoliths/AVXptw_3", 
+						"mask" : [ "VVV", "VVV", "BAB" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"core:seerHut" : {
+		"types" : {
+			"seerHutHota1" : {
+				"templates" : {
+					"AVXseec0H" : { "animation" : "hota/seerHut/AVXseec0", 
+						"mask" : [ "VVV", "VBV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+					}
+				}
+			},
+			"seerHutHota2": {
+				"templates" : {
+					"AVXseee0H" : { "animation" : "hota/seerHut/AVXseee0", 
+						"mask" : [ "VVV", "VVV", "VAV" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],		
+					}
+				}
+			},
+			"seerHutHota3" : {
+				"templates" : {
+					"wt_seerh" : { "animation" : "hota/seerHut/wt_seerh", 
+						"mask" : [ "VVV","BBB", "BAB" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ] 
+					}
+				}
+			}
+		}
+	}	
+}

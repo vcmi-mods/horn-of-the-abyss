@@ -1,0 +1,17 @@
+{
+	"carnivorousPlant" : {
+		"name" : "Carnivorous Plant",
+		"handler": "static",
+		"types" : {
+			"carnivorousPlant" : {
+				"templates" : {
+					"avswplnt" : {
+						"animation" : "hota/carnivorousPlant/avswplnt",
+						"mask" : ["VBB","VBB"],
+						"allowedTerrains": ["swamp"]
+					}
+				}
+			}
+		}
+	}
+}

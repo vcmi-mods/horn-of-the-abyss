@@ -15,6 +15,7 @@
 			"iconLarge" : "hota/iconsBig/pirate.png",
 			"iconSmall" : "hota/iconsSmall/pirate.png",
 			"map" : "hota/map/pirate.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"missile" : {
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],

@@ -15,6 +15,7 @@
 			"iconLarge" : "hota/iconsBig/nixWarrior.png",
 			"iconSmall" : "hota/iconsSmall/nixWarrior.png",
 			"map" : "hota/map/nixWarrior.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 2,

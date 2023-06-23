@@ -14,6 +14,7 @@
 			"iconLarge" : "hota/iconsBig/seaman.png",
 			"iconSmall" : "hota/iconsSmall/seaman.png",
 			"map" : "hota/map/seaman.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 9,

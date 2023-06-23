@@ -1,0 +1,22 @@
+{
+	"rope" : {
+		"name": "Rope",
+		"handler": "static",
+		"types" : {
+			"rope" : {
+				"templates" : {
+					"crates06" : {
+						"animation" : "hota/crates/crates06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "sand" ]
+					},
+					"crates07" : {
+						"animation" : "hota/crates/crates07",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "sand" ]
+					}
+				}
+			}
+		}
+	}
+}

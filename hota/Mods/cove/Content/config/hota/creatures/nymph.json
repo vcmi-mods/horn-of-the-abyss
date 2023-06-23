@@ -18,6 +18,7 @@
 			"iconLarge" : "hota/iconsBig/nymph.png",
 			"iconSmall" : "hota/iconsSmall/nymph.png",
 			"map" : "hota/map/nymph.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 16,

@@ -3,7 +3,7 @@
 		"name": "Colosseum Of The Magi",
 		"handler": "configurable",
 		"types" : {
-			"object" : 
+			"colosseumOfTheMagi" : 
 			{
 				"name": "Colosseum Of The Magi (+2 spellpower or knowledge once per hero)",
 				"rmg" : {

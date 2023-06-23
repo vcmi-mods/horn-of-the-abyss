@@ -26,6 +26,7 @@
 			"iconLarge" : "hota/iconsBig/seadog.png",
 			"iconSmall" : "hota/iconsSmall/seadog.png",
 			"map" : "hota/map/seadog.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"missile" : {
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],

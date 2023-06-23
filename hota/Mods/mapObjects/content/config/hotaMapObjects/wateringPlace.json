@@ -3,7 +3,7 @@
 		"handler":"configurable",
 		"name" : "Watering Place",
 		"types" : {
-			"object" : {
+			"wateringPlace" : {
 				"aiValue" : 3000,
 				"rmg" : {
 					"value"		: 500,

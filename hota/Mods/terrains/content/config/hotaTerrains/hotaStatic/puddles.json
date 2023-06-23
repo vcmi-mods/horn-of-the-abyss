@@ -1,0 +1,52 @@
+{
+	"puddles" : {
+		"handler" : "static",
+		"name" : "Puddles",
+		"types" : {
+			"puddles" : {
+				"templates" : {
+					"avlhml00" : {
+						"animation" : "hota/puddles/avlhml00", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml01" : {
+						"animation" : "hota/puddles/avlhml01", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml02" : {
+						"animation" : "hota/puddles/avlhml02", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml03" : {
+						"animation" : "hota/puddles/avlhml03", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml04" : {
+						"animation" : "hota/puddles/avlhml04", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml05" : {
+						"animation" : "hota/puddles/avlhml05", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml06" : {
+						"animation" : "hota/puddles/avlhml06", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhml07" : {
+						"animation" : "hota/puddles/avlhml07", 
+						"mask" : [ "V" ], 
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

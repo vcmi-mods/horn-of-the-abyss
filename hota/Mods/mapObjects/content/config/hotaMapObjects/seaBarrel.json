@@ -3,7 +3,7 @@
 		"name" : "Sea Barrel",
 		"handler": "configurable",
 		"types" : {
-			"hotaSeaBarrel" : {
+			"seaBarrel" : {
 				"name":"Sea Barrel",
 				"rmg" : {
 					"value"		: 500,

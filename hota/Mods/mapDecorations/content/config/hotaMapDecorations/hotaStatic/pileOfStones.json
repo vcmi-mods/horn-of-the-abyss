@@ -1,0 +1,16 @@
+{
+	"pileOfStones" : {
+		"handler" : "static",
+		"name" : "Pile of Stones",
+		"types" : {
+			"pileOfStones" : {
+				"templates" : {
+					"AVLrk5s0" : { "animation" : "hota/stones/AVLrk5s0", 
+						"mask" : [ "BB" ], 
+						"allowedTerrains": [ "swamp" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -18,7 +18,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2, -15],
 		"animation" : "hota/obstacles/ObHLD00.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD01" : {
@@ -28,7 +27,6 @@
 		"height" : 3,
 		"blockedTiles" :  [0, 1, 2, -15, -16],
 		"animation" : "hota/obstacles/ObHLD01.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD02" : {
@@ -38,7 +36,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, -16],
 		"animation" : "hota/obstacles/ObHLD02.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD03" : {
@@ -48,7 +45,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
 		"animation" : "hota/obstacles/ObHLD03.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD04" : {
@@ -58,7 +54,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2, -15],
 		"animation" : "hota/obstacles/ObHLD04.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD05" : {
@@ -68,7 +63,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD05.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD06" : {
@@ -78,7 +72,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD06.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD07" : {
@@ -88,7 +81,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD07.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD08" : {
@@ -98,7 +90,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD08.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD09" : {
@@ -108,7 +99,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD09.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD10" : {
@@ -118,7 +108,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD10.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD11" : {
@@ -128,7 +117,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD11.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD12" : {
@@ -138,7 +126,6 @@
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD12.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD13" : {
@@ -148,7 +135,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObHLD13.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD14" : {
@@ -158,7 +144,6 @@
 		"height" : 4,
 		"blockedTiles" :  [-15, -14, -13, -12, 1, 2, 3, 4],
 		"animation" : "hota/obstacles/ObHLD14.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD15" : {
@@ -168,7 +153,6 @@
 		"height" : 3,
 		"blockedTiles" :  [-9, -10, -11, -12, -13, -14, -15, -16, -27, -28, -29, -30, -31, -32, -33, 1, 2, 3, 4, 5, 6, 7, 8],
 		"animation" : "hota/obstacles/ObHLD15.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD16" : {
@@ -178,7 +162,6 @@
 		"height" : 5,
 		"blockedTiles" :  [0, 1, 2, 3, 4, 5, -11, -12, -13, -14, -15, -16, -30, -31],
 		"animation" : "hota/obstacles/ObHLD16.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD17" : {
@@ -188,7 +171,6 @@
 		"height" : 2,
 		"blockedTiles" :  [1, 2, 3, 4, 5, 6, 7, 8, 9, -9, -8, -7, -10, -11, -12, -13, -14, -15],
 		"animation" : "hota/obstacles/ObHLD17.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaHLD19" : {
@@ -198,7 +180,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
 		"animation" : "hota/obstacles/ObHLD19.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD00" : {
@@ -208,7 +189,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/obstacles/ObWLD00.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD01" : {
@@ -218,7 +198,6 @@
 		"height" : 3,
 		"blockedTiles" :  [0, 1],
 		"animation" : "hota/obstacles/ObWLD01.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD02" : {
@@ -228,7 +207,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
 		"animation" : "hota/obstacles/ObWLD02.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD03" : {
@@ -238,7 +216,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
 		"animation" : "hota/obstacles/ObWLD03.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD04" : {
@@ -248,7 +225,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/obstacles/ObWLD04.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD05" : {
@@ -258,7 +234,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/obstacles/ObWLD05.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD06" : {
@@ -268,7 +243,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/obstacles/ObWLD06.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD07" : {
@@ -278,7 +252,6 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
 		"animation" : "hota/obstacles/ObWLD07.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD08" : {
@@ -288,7 +261,6 @@
 		"height" : 3,
 		"blockedTiles" :  [0, 1, 2, 3, -14, -15, -16],
 		"animation" : "hota/obstacles/ObWLD08.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD09" : {
@@ -298,7 +270,6 @@
 		"height" : 3,
 		"blockedTiles" :  [-14, -15, -16],
 		"animation" : "hota/obstacles/ObWLD09.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD10" : {
@@ -308,7 +279,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13],
 		"animation" : "hota/obstacles/ObWLD10.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD11" : {
@@ -318,7 +288,6 @@
 		"height" : 4,
 		"blockedTiles" :  [0, 1, 2, 3, -13, -14, -15, -16],
 		"animation" : "hota/obstacles/ObWLD11.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD12" : {
@@ -328,7 +297,6 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13, -12],
 		"animation" : "hota/obstacles/ObWLD12.def",
-		"unknown" : 1,
 		"absolute" : false
 	},
 	"hotaWLD13" :
@@ -339,7 +307,6 @@
 		"height" : 302,
 		"blockedTiles" :  [106, 107, 108, 109, 110, 111, 128, 129, 130, 146, 147, 148],
 		"animation" : "hota/obstacles/frames/ObWLD13.png",
-		"unknown" : 1,
 		"absolute" : true
 	},
 	"hotaWLD14" :
@@ -350,7 +317,6 @@
 		"height" : 126,
 		"blockedTiles" :  [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 60, 61, 62, 63, 76, 77, 78, 79, 80, 81],
 		"animation" : "hota/obstacles/frames/ObWLD14.png",
-		"unknown" : 1,
 		"absolute" : true
 	}
 }

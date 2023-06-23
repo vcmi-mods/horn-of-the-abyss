@@ -18,6 +18,7 @@
 			"iconLarge" : "hota/iconsBig/oceanid.png",
 			"iconSmall" : "hota/iconsSmall/oceanid.png",
 			"map" : "hota/map/oceanid.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 16,

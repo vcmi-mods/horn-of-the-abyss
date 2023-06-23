@@ -1,28 +1,24 @@
 {
-	"questGate" : {
-		"handler":"configurable",
+	"core:questGuard" : {
+		"handler":"generic",
 		"name" : "Quest Gate",
 		"types" : {
-			"object" : {
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Quest Gate}\r\n\r\n",
-				"onVisitedMessage": "{Quest Gate}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
+			"questGate" : {
 				"templates" : {
 					"avxqgt" : { "animation" : "hota/questGate/avxqgt", 
 						"mask" : [ "VVVV", "VBAB" ], 
 						"visitableFrom" : [ "+++", "-+-", "+++" ]
 					},
-					"avxqgtv" : { "animation" : "hota/questGate/avxqgtv", 
+					"avxqgtv" : { "animation" : "hota/questGate/avxqgtv",
 						"mask" : [ "VV", "VB", "VA", "VB" ], 
 						"visitableFrom" : [ "---", "+++", "---" ]
-					}					
+					},
+					"avxwgtqu" : {
+						"animation" : "hota/questGuard/avxwgtqu",
+						"mask" : [ "VVVV","VBAB" ],
+						"visitableFrom" : [ "+++", "-+-", "+++" ],
+						"allowedTerrains": [ "water" ]
+					}
 				}
 			}
 		}

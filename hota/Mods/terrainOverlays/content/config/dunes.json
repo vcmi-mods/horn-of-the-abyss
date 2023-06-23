@@ -1,8 +1,9 @@
 {
-	"core:rocklands" : {
+	"dunes" : {
+		"handler": "terrain",
+		"name" : "Dunes",
 		"types" : {
 			"dunes" : {
-				"name" : "Dunes",
 				"base" : { "zIndex": 100 },
 				"battleground": "dunes",
 				"templates" : {

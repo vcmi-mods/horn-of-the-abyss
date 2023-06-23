@@ -1,28 +1,18 @@
 {
 	"seafaringAcademy" : {
-		"handler":"configurable",
+		"handler":"generic",
 		"name" : "Seafaring Academy",
-		"sounds" : {
-			"visit" : ["ACADEMYV"]
-		},
 		"types" : {
-			"object" : {
+			"seafaringAcademy" : {
 //				"aiValue" : 1000,
 //				"rmg" : {
 //					"value"		: 8000,
 //					"rarity"	: 20,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Seafaring Academy}\r\n\r\nT",
-				"onVisitedMessage": "{Seafaring Academy}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
+				"sounds" : {
+					"visit" : ["hota/ACADEMYV"]
+				},
 				"templates" : {
 					"avswacad" : { "animation" : "hota/seafaringAcademy/avswacad", 
 						"mask" : [ "VVVV","VVVV", "VBBV", "VABB" ], 

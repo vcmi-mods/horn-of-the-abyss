@@ -31,6 +31,7 @@
 		{
 			"animation" : "hota/battle/CSATYR.def",
 			"map" : "hota/map/AvWSatyr.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "hota/iconsSmall/CPrSm169.bmp",
 			"iconLarge" : "hota/iconsBig/TwCrP169.bmp",
 			"timeBetweenFidgets" : 1,

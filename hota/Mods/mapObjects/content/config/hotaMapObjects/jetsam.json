@@ -3,7 +3,7 @@
 		"name" : "Jetsam",
 		"handler": "configurable",
 		"types" : {
-			"hotaJetsam" : {
+			"jetsam" : {
 				"name" : "Jetsam",
 				"rmg" : {
 					"value"		: 500,

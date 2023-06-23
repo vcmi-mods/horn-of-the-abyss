@@ -25,6 +25,7 @@
 			"iconLarge" : "hota/iconsBig/seaserpent.png",
 			"iconSmall" : "hota/iconsSmall/seaserpent.png",
 			"map" : "hota/map/seaserpent.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 1,

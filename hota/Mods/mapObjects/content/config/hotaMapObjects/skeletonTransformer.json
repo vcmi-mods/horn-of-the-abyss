@@ -1,27 +1,17 @@
 {
 	"skeletonTransformer" : {
-		"handler":"configurable",
+		"handler":"generic",
 		"name" : "Skeleton Transformer",
-		"sounds" : {
-			"visit" : ["MYSTERY"]
-		},
 		"types" : {
-			"object" : {
+			"skeletonTransformer" : {
 //				"rmg" : {
 //					"value"	: 500,
 //					"rarity" : 15,
 //					"zoneLimit" : 1
 //				},
-				"rewards" :
-				[
-					{
-					},
-				],
-				"onSelectMessage" : "{Skeleton Transformer}\r\n\r\n",
-				"onVisitedMessage": "{Skeleton Transformer}\r\n\r\n",
-//				"canRefuse": true,
-				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
+				"sounds" : {
+					"visit" : ["MYSTERY"]
+				},
 				"templates" : {
 					"AVXsktrs" : { "animation" : "hota/skeletonTransformer/AVXsktrs", 
 						"mask" : [ "VVV", "VVV", "VBA" ], 

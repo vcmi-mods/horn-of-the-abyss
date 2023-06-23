@@ -19,6 +19,7 @@
 			"iconLarge" : "hota/iconsBig/ayssid.png",
 			"iconSmall" : "hota/iconsSmall/ayssid.png",
 			"map" : "hota/map/ayssid.def",
+			"mapMask" : [ "VVV", "VAV"],
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 4,

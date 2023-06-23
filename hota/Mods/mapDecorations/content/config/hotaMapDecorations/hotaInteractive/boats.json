@@ -1,0 +1,30 @@
+{
+	"core:boat" : {
+		"types" : {
+			"boatNeutral" : {
+				"actualAnimation" : "hota/boats/AB05_.def",
+				"overlayAnimation" : "ABM01_.def",
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates" : {
+					"default" : {
+						"animation" : "hota/boats/AVXBOAT5",
+						"mask" : [ "VVV", "VAV" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			},
+			"boatConflux" : {
+				"actualAnimation" : "hota/boats/AB06_.def",
+				"overlayAnimation" : "hota/boats/ABM06_.def",
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates" : {
+					"default" : {
+						"animation" : "hota/boats/AVXBOAT6",
+						"mask" : [ "VVV", "VAV" ],
+						"allowedTerrains": [ "water" ]
+					}
+				}
+			}
+		}
+	}
+}
