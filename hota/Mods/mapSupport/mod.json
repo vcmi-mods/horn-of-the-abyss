@@ -1,6 +1,6 @@
 {
-	"name" : "New maps",
-	"description" : "This mod contains all new maps added by HotA as well as support for loading such maps in VCMI", 
+	"name" : "Map format support",
+	"description" : "This mod contains support files needed for loading maps in 'Horn of the Abyss' format in VCMI", 
 	"author": "Ivan",
 	"version" : "1.0",
 	"contact": "https://forum.vcmi.eu/",
