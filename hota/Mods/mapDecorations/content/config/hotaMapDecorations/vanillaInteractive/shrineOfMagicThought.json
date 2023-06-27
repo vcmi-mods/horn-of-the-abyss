@@ -4,7 +4,7 @@
 			"object" : {
 				"templates" : {
 					"AVXl3sh0w" : { "animation" : "hota/shrines/AVXl3sh0w", 
-						"mask" : [ "VB"," VA" ], 
+						"mask" : [ "VB", "VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
 					}
