@@ -5,13 +5,18 @@
 	"version" : "1.4.0",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
-	"skills" : [
+	"skills" :
+	[
 		"config/hotaInterference/interference"
 	],
-	"heroes" : [ "config/hotaInterference/interferenceHeroes" ],
 	"heroClasses" : 
 	[
 		"config/hotaInterference/interferenceChances"
+	],
+	"heroes" :
+	[
+		"config/hotaInterference/heroStartingSkillChanges",
+		"config/hotaInterference/rampart/heroes/giselle"
 	],
 	"changelog" :
     {
