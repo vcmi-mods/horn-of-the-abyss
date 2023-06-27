@@ -1,0 +1,62 @@
+{
+	"kinkeria" :
+	{
+		"class" : "witch",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "hota/fortress/heroes/kinkeria/icons/speciality/small.png",
+			"specialtyLarge" : "hota/fortress/heroes/kinkeria/icons/speciality/large.png",
+			"small" : "hota/fortress/heroes/kinkeria/icons/portrait/small.png",
+			"large" : "hota/fortress/heroes/kinkeria/icons/portrait/large.png"
+		},
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "learning",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"learning" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "HERO_EXPERIENCE_GAIN_PERCENT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : "TIMES_HERO_LEVEL"
+				}
+			}
+		},
+		"spellbook" : [ "slow" ],
+		"texts" : {
+			"name" : "Kinkeria",
+			"biography" : "Kinkeria was one of the most respected witches of her tribe. She was always seeking for knowledge, and it was easy for her to comprehend the essence of any phenomena. She has been given such tasks over which many wisemen remained puzzled for years.\r\nWith that being said, it was no surprise when she offered her service to the king of Tatalia.",
+			"specialty" : {
+				"name" : "Learning",
+				"description" : "{Learning}\r\n\r\nReceives a 5% per level bonus to Learning skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Learning"
+			}
+		}
+	}
+}
