@@ -61,7 +61,8 @@
 	"spells" :
 	[
 		"config/hota/spells/accurateShot",
-		"config/hota/spells/specialClone"
+		"config/hota/spells/specialClone",
+		"config/hota/spells/moat"
 	],
 	"objects" : 
 	[ 

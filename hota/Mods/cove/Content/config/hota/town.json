@@ -505,7 +505,7 @@
 					"village" : { "animation" : "hota/map/village.def" }
 				}
 			},
-			"moatDamage" : 70,
+			"moatAbility" : "coveMoat",
 			"musicTheme" : "music/factions/cove",
 			"names" : [
 				"Tartaglia",
