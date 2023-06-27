@@ -18,7 +18,7 @@
 	"heroes" :
 	[
 		"config/hotaInterference/heroStartingSkillChanges",
-		"config/hotaInterference/rampart/heroes/giselle"
+		"config/rampart/heroes/giselle"
 	],
 	"skills" :
 	[
