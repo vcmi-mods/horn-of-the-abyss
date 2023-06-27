@@ -1,14 +1,14 @@
 {
 	"name" : "Map decorations",
-	"description" : "New objects that have the same properties as the old ones.", 
+	"description" : "New objects that have the same properties as the old ones.",
+	"modType" : "Graphical",
 	"author": "Graphics: HotA Crew, mod: avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.5.1",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
 	},
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"modType" : "Graphical",
 	"objects" :
 	[
 		"config/hotaMapDecorations/hotaInteractive/boats.json",

@@ -1,20 +1,22 @@
 {
 	"name" : "Cannon",
-	"modType" : "Artifacts",
 	"description" : "This mod adds new war machine: Cannon, purchasable in new map object: Cannon Yard",
-	"version" : "1.3.61",
+	"modType" : "Artifacts",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	
-	"artifacts" : [
+	"version" : "1.3.61",
+	"artifacts" :
+	[
 		"config/hotaCannon/cannonArtifact.json" 
 	],
-	"creatures" : [
+	"creatures" :
+	[
 		"config/hotaCannon/cannonCreature.json"
 	],
-	"objects" : [
+	"objects" :
+	[
 		"config/hotaCannon/cannonYard.json"
 	]
 }

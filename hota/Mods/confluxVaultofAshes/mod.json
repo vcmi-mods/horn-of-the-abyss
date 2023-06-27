@@ -1,11 +1,10 @@
 {
 	"name" : "Conflux - Vault of Ashes",
 	"description" : "This mod adds a new building to Confulx: Vault of Ashes, that increases growth of Firebird and Phoenix by 1", 
-	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
-	"version" : "1.3.6",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
-	
+	"author": "Graphics: HotA Crew, mod: Kuririn & avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.3.6",
 	"factions" :
 	[
 		"config/hotaConfluxVaultOfAshes/factions.json"

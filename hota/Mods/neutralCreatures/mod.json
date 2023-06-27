@@ -1,15 +1,16 @@
 {
 	"name" : "Neutral creatures",
 	"description" : "Adds new neutral creatures to game: Fangarm, Leprechaun, Satyr, Steel Golem",
-	"author" : "Ivan",
-	"version" : "1.0",
-	"contact" : "",
 	"modType" : "Creatures",
+	"author" : "Ivan",
+	"contact" : "",
+	"version" : "1.0",
 	"changelog" :
 	{
 		"1.0"   : [ "Initial release" ]
 	},
-	"creatures" : [
+	"creatures" :
+	[
 		"config/hotaNeutralCreatures/satyr",
 		"config/hotaNeutralCreatures/fangarm",
 		"config/hotaNeutralCreatures/leprechaun",

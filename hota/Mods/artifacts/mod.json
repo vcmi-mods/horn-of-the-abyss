@@ -1,5 +1,14 @@
 {
-	"artifacts" : [
+	"name" : "New artifacts",
+	"description" : "Set of artifacts made by Hota Crew for Horn of the Abyss add-on",
+	"modType" : "Artifacts",
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.3.5",
+	"artifacts" :
+	[
 		"config/hotaArtifacts/capeOfSilence",
 		"config/hotaArtifacts/crownOfTheFiveSeas",
 		"config/hotaArtifacts/demonsHorseshoe",
@@ -20,13 +29,5 @@
 		"config/hotaArtifacts/charmOfEclipse",
 		"config/hotaArtifacts/sealOfSunset",
 		"config/hotaArtifacts/plateofDyingLight"
-	],
-	"author" : "Hota Crew, ported by VCMI Team",
-	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"description" : "Set of artifacts made by Hota Crew for Horn of the Abyss add-on",
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Artifacts",
-	"name" : "New artifacts",
-	"version" : "1.3.5"
+	]
 }

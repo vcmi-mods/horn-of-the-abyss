@@ -1,7 +1,19 @@
 {
+	"name" : "Cove town",
+	"description" : "New town made by HotA Crew as part of Horn of the Abyss addon",
+	"modType" : "Town",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"creatures" : [
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.3.61",
+	"depends" : [ "hota.cannon" ],
+	"factions" :
+	[
+		"config/hota/town"
+	],
+	"creatures" :
+	[
 		"config/hota/creatures/ayssid",
 		"config/hota/creatures/corsair",
 		"config/hota/creatures/crewmate",
@@ -20,11 +32,12 @@
 		"config/hota/creatures/stack_exp",
 		"config/hota/commander/blackbeard"
 	],
-	"description" : "New town made by HotA Crew as part of Horn of the Abyss addon",
-	"depends" : [ "hota.cannon" ],
-	"factions" : [ "config/hota/town" ],
-	"heroClasses" : [ "config/hota/classes/captain", "config/hota/classes/navigator" ],
-	"heroes" : [
+	"heroClasses" :
+	[
+		"config/hota/classes/captain", "config/hota/classes/navigator"
+	],
+	"heroes" :
+	[
 		"config/hota/heroes/anabel",
 		"config/hota/heroes/andal",
 		"config/hota/heroes/astra",
@@ -45,18 +58,14 @@
 		"config/hota/heroes/tark",
 		"config/hota/heroes/zilare"
 	],
-	"spells" : [
+	"spells" :
+	[
 		"config/hota/spells/accurateShot",
 		"config/hota/spells/specialClone"
 	],
-	"licenseName" : "Creative Commons Attribution-ShareAlike",
-	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Town",
-	"name" : "Cove town",
 	"objects" : 
 	[ 
 		"config/hota/dwellings",
 		"config/hota/boats"
-	],
-	"version" : "1.3.61"
+	]
 }
