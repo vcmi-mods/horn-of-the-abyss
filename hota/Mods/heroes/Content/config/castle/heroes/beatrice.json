@@ -1,0 +1,63 @@
+{
+	"beatrice" :
+	{
+		"class" : "knight",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "hota/castle/heroes/beatrice/icons/speciality/small.png",
+			"specialtyLarge" : "hota/castle/heroes/beatrice/icons/speciality/large.png",
+			"small" : "hota/castle/heroes/beatrice/icons/portrait/small.png",
+			"large" : "hota/castle/heroes/beatrice/icons/portrait/large.png"
+		},
+		"army" : [
+			{
+				"creature" : "pikeman",
+				"min" : 10,
+				"max" : 20
+			},
+			{
+				"creature" : "archer",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "griffin",
+				"min" : 2,
+				"max" : 3
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+                "sight" : {
+					"type" : "SIGHT_RADIUS",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+                    "updater" : {
+                        "parameters" : [6],
+                        "type" : "GROWS_WITH_LEVEL"
+                    }
+				}	
+			}
+		},
+		"texts" : {
+			"name" : "Beatrice",
+			"biography" : "Beatrice was a talented follower of Erathian scouts - not yielding much to famous elven pathfinders. Talents of the girl had been noticed by Catherine herself and thence former scout became a general. \r\nHowever, her skills are still with her, she is one of the best at her cause.",
+			"specialty" : {
+				"name" : "Scouting",
+				"description" : "{Scouting}\r\n\r\nIncreases the scouting range by 1 for every 6 levels of the hero.",
+				"tooltip" : "Secondary Skill Bonus: Scouting"
+			}
+		}
+	}
+}

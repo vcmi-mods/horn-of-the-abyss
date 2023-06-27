@@ -2,12 +2,16 @@
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"description" : "New heroes by HoTA Crew",
-	"heroes" : [
-		"config/hota/heroes/beatrice",
+	"heroClasses" : 
+	[
+		"config/hota/heroes/sexes"
+	],
+	"heroes" :
+	[
+		"config/castle/heroes/beatrice",
 		"config/hota/heroes/kinkeria",
 		"config/hota/heroes/ranloo"
 	],
-	"heroClasses" : [ "config/hota/heroes/sexes" ],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Heroes",
