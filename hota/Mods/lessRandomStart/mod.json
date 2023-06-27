@@ -1,5 +1,5 @@
 {
-	"name" : "Unrandomized start",
+	"name" : "Less random start",
 	"description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.", 
 	"author": "avatar",
 	"version" : "1.0",
