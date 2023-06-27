@@ -7,10 +7,6 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.5",
-	"heroClasses" : 
-	[
-		"config/hota/heroClasses/classAndGenderDependentGraphics"
-	],
 	"heroes" :
 	[
 		"config/castle/heroes/beatrice",

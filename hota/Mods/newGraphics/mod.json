@@ -14,5 +14,9 @@
 	"creatures" :
 	[
 		"config/hota/newMonsterAnimations"
+	],
+	"heroClasses" : 
+	[
+		"config/hota/genderedHeroGraphics"
 	]
 }
