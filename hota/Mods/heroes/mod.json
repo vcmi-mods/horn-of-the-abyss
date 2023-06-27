@@ -9,8 +9,8 @@
 	"heroes" :
 	[
 		"config/castle/heroes/beatrice",
-		"config/hota/heroes/kinkeria",
-		"config/hota/heroes/ranloo"
+		"config/necropolis/heroes/ranloo",
+		"config/hota/heroes/kinkeria"
 	],
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
