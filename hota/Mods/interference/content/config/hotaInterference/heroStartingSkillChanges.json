@@ -1,0 +1,128 @@
+{
+	"core:ufretin":
+	{
+		"skills":
+		[
+			{
+				"skill" : "luck",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:clancy":
+	{
+		"skills":
+		[
+			{
+				"skill" : "pathfinding",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:fafner":
+	{
+		"skills":
+		[
+			{
+				"skill" : "scholar",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:ignatius":
+	{
+		"skills":
+		[
+			{
+				"skill" : "tactics",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:straker":
+	{
+		"skills":
+		[
+			{
+				"skill" : "necromancy",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:ajit":
+	{
+		"skills":
+		[
+			{
+				"skill" : "leadership",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:krellion":
+	{
+		"skills":
+		[
+			{
+				"skill" : "offence",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:saurug":
+	{
+		"skills":
+		[
+			{
+				"skill" : "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	},
+	"core:bron":
+	{
+		"skills":
+		[
+			{
+				"skill" : "armorer",
+				"level": "basic"
+			},
+			{
+				"skill" : "interference",
+				"level": "basic"
+			}
+		]
+	}
+}

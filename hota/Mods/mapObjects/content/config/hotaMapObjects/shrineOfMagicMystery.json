@@ -22,7 +22,7 @@
 					"water" :
 					{
 						"animation" : "hota/shrines/AVXl4sh0", 
-						"mask" : [ "VV"," VA" ], 
+						"mask" : [ "VV", "VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
 					},	

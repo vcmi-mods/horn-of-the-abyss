@@ -1,0 +1,63 @@
+{
+	"giselle" :
+	{
+		"class" : "ranger",
+		"female" : true,
+		"images" :
+		{
+			"specialtySmall" : "hota/rampart/heroes/giselle/icons/speciality/small.png",
+			"specialtyLarge" : "hota/rampart/heroes/giselle/icons/speciality/large.png",
+			"small" : "hota/rampart/heroes/giselle/icons/portrait/small.png",
+			"large" : "hota/rampart/heroes/giselle/icons/portrait/large.png"
+		},
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "interference",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"interference" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.spellpower",
+					"val" : -15,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+					   "parameters" : [ 10 ]
+					},
+					"propagator": "BATTLE_WIDE",
+					"limiters" : [ "OPPOSITE_SIDE" ]
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Giselle",
+			"biography" : "A fair took place once in the village where Giselle lived. An old druid from a nearby grove agreed to show the villagers a few simple magic tricks. Nothing he tried seemed to work out, but the old man was able to accurately pinpoint the grinning girl in the front row as the cause of his woes.",
+			"specialty" : {
+				"name" : "Interference",
+				"description" : "{Interference}\r\n\r\nReceives a 5% per level bonus to Interference skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Interference"
+			}
+		}
+	}
+}
+

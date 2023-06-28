@@ -1,22 +1,27 @@
 {
 	"name" : "Interference Skill",
 	"description" : "This mod adds new skill, 'Interference', a new hero, Giselle, with specialty in interference skill and changes heroes with resistance skill to use interference instead", 
-	"author": "avatar",
-	"version" : "1.4.0",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
-	"skills" : [
-		"config/hotaInterference/interference"
-	],
-	"heroes" : [ "config/hotaInterference/interferenceHeroes" ],
-	"heroClasses" : 
-	[
-		"config/hotaInterference/interferenceChances"
-	],
+	"author": "avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.4.0",
 	"changelog" :
     {
 		"1.4.0"   : [ "Mod now also contains interference skill itself" ],
 		"1.3.6"   : [ "Added chances for OH3 factions" ],
 		"1.3.5"   : [ "Release version" ]
-    }
+    },
+	"heroClasses" : 
+	[
+		"config/hotaInterference/interferenceChances"
+	],
+	"heroes" :
+	[
+		"config/hotaInterference/heroStartingSkillChanges",
+		"config/rampart/heroes/giselle"
+	],
+	"skills" :
+	[
+		"config/hotaInterference/interference"
+	]
 }

@@ -1,11 +1,11 @@
 {
+	"name" : "Map Terrains",
+	"description" : "Adds Highlands and Wasteland terrains as well as several map objects unique to these terrains",
+	"modType" : "Mechanics",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "https://slack.vcmi.eu/",
-	"description" : "Adds Highlands and Wasteland terrains as well as several map objects unique to these terrains",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Mechanics",
-	"name" : "Map Terrains",
 	"version" : "1.2.0",
 	"changelog" :
 	{
@@ -17,8 +17,12 @@
 	{
 		"min" : "1.2.0"
 	},
-	"factions" : [ "config/hotaTerrains/confluxTerrain" ],
-	"objects" : [
+	"factions" :
+	[
+		"config/hotaTerrains/confluxTerrain"
+	],
+	"objects" :
+	[
 		"config/hotaTerrains/hotaInteractive/churchyard.json",
 		"config/hotaTerrains/hotaInteractive/derrick.json",
 		"config/hotaTerrains/hotaInteractive/gazebo.json",

@@ -1,25 +1,26 @@
 {
+	"name" : "New battle terrains",
+	"description" : "This option adds three new special terrains: Cracked Ice, Dunes and Fields of Glory.",
+	"modType" : "Graphical",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"description" : "This option adds three new special terrains: Cracked Ice, Dunes and Fields of Glory.",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Graphical",
-	"name" : "New battle terrains",
 	"version" : "1.0",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
 	},
-	"objects" : [ 
+	"objects" :
+	[ 
 		"config/crackedIce.json",
 		"config/dunes.json",
 		"config/favorableWinds.json",
 		"config/fieldsOfGlory.json"
 	],
-	"battlefields":
+	"battlefields" :
 	[
-	"config/battlefields/battlefields.json"
+		"config/battlefields/battlefields.json"
 	],
 	"obstacles" :
 	[

@@ -1,15 +1,15 @@
 {
 	"name" : "HotA map objects",
 	"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps", 
+	"modType" : "Objects",
 	"author": "Graphics: HotA Crew, mod: avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.2.0",
 	"compatibility" :
 	{
 		"min" : "1.2.0"
 	},
-	"depends" : ["hota.cove", "hota.neutralcreatures"],
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"modType" : "Objects",
+	"depends" : [ "hota.cove", "hota.neutralcreatures" ],
 	"objects" :
 	[
 		"config/hotaMapObjects/ancientLamp.json",

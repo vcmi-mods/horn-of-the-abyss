@@ -1,28 +1,21 @@
 {
 	"name" : "HotA balance mod",
 	"description" : "Balance improvements made by HotA Crew for Horn of The Abbys expansion.", 
-	"author": "Kuririn & avatar",
-	"version" : "1.3.6",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"modType" : "Mechanics",
-	
+	"author": "Kuririn & avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.3.6",
 	"settings" : {
-		"dwellings" :
-		{
+		"dwellings" : {
 			"accumulateWhenOwned" : true
 		},
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
 		}
 	},
-
 	"factions" :
 	[
 		"config/hotaGameBalance/factions.json"
-	],
-	"skills" :
-	[
-		"config/hotaGameBalance/skills.json"
 	],
 	"creatures" :
 	[
@@ -31,5 +24,9 @@
 	"artifacts" :
 	[
 		"config/hotaGameBalance/artifacts.json"
+	],
+	"skills" :
+	[
+		"config/hotaGameBalance/skills.json"
 	]
 }

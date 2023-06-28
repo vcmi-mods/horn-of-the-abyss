@@ -1,11 +1,11 @@
 {
+	"name" : "Horn of the Abyss",
+	"description" : "Work-in-progress VCMI port of Horn of the Abyss expansion made by Hota Crew",
+	"modType" : "Expansion",
 	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"description" : "Work-in-progress VCMI port of Horn of the Abyss expansion made by Hota Crew",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"modType" : "Expansion",
-	"name" : "Horn of the Abyss",
 	"version" : "1.6.1",
 	"changelog" : 
 	{

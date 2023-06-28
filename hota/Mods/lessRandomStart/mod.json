@@ -1,0 +1,23 @@
+{
+	"name" : "Less random start",
+	"description" : "Heroes with a starting army always have all troops (and a war machine), without the possibility of absence of any of them. Towns with Fort always have level 2 dwelling built by default.", 
+	"modType" : "Mechanics",
+	"author": "avatar",
+	"contact": "https://forum.vcmi.eu/",
+	"version" : "1.0",
+	"compatibility" :
+	{
+		"min" : "1.2"
+	},
+	"settings":
+	{
+		"heroes":
+		{
+			"startingStackChances": [ 100, 100, 100 ]
+		},
+		"towns":
+		{
+			"startingDwellingChances": [ 100, 100 ] 
+		}
+	}
+}
