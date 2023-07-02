@@ -1,0 +1,86 @@
+{
+    "core:sprite" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWsprit.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:pixie" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWpixie.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:airElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWelma0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:stormElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWstorm.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:waterElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWelmw0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:iceElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWicee.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:fireElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWelmf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:earthElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWelme0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:magmaElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWstone.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:energyElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWnrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:psychicElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWpsye.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:magicElemental" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWmagel.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:firebird" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWfbird.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:phoenix" : {
+		"graphics" : {
+			"map" : "hota/conflux/adventureMap/creatures/AVWphx.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}

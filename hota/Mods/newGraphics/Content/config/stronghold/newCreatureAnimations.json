@@ -1,0 +1,86 @@
+{
+    "core:goblin" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWgobl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:hobgoblin" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWgobx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:goblinWolfRider" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWwolf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:hobgoblinWolfRider" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWwolx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:orc" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWorc0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:orcChieftain" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWorcx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:ogre" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWogre0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:ogreMage" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWogrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:roc" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWroc0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:thunderbird" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWrocx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:cyclop" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWcycl0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cyclopKing" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWcycx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:behemoth" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWbhmt0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:ancientBehemoth" : {
+		"graphics" : {
+			"map" : "hota/stronghold/adventureMap/creatures/AVWbhmx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}

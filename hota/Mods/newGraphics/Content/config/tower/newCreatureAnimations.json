@@ -1,0 +1,80 @@
+{
+    "core:gremlin" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgrem0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:masterGremlin" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgrex0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:stoneGargoyle" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgarg0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:obsidianGargoyle" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgarx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:stoneGolem" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgolx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:ironGolem" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgolm0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:mage" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWmage0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:genie" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgeni0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:masterGenie" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWgenx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:naga" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWnaga0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:nagaQueen" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWnagx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:giant" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWtitn0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:titan" : {
+		"graphics" : {
+			"map" : "hota/tower/adventureMap/creatures/AVWtitx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}

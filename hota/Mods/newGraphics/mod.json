@@ -13,7 +13,16 @@
 	],
 	"creatures" :
 	[
-		"config/hota/newMonsterAnimations"
+		"config/castle/newCreatureAnimations",
+		"config/rampart/newCreatureAnimations",
+		"config/tower/newCreatureAnimations",
+		"config/inferno/newCreatureAnimations",
+		"config/necropolis/newCreatureAnimations",
+		"config/dungeon/newCreatureAnimations",
+		"config/stronghold/newCreatureAnimations",
+		"config/fortress/newCreatureAnimations",
+		"config/conflux/newCreatureAnimations",
+		"config/neutrals/newCreatureAnimations"
 	],
 	"heroClasses" : 
 	[

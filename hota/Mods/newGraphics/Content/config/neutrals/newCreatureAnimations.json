@@ -1,0 +1,92 @@
+{
+    "core:peasant" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWpeas.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:halfling" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWhalf.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:boar" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWboar.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:rogue" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWrog.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:troll" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWtrll.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:mummy" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWmumy.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:nomad" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWnomd.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:goldGolem" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWglmg0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:diamondGolem" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWglmd0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:sharpshooter" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWsharp.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:enchanter" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWench.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:azureDragon" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWazure.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:crystalDragon" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWcdrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:fairieDragon" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWfdrg.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:rustDragon" : {
+		"graphics" : {
+			"map" : "hota/neutrals/adventureMap/creatures/AVWrust.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}
