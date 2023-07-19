@@ -3,6 +3,7 @@
 	{
 		"class" : "witch",
 		"female" : true,
+		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
 			"specialtySmall" : "hota/fortress/heroes/kinkeria/icons/speciality/small.png",

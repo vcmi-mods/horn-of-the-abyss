@@ -1,5 +1,6 @@
 {
 	"derek" : {
+		"onlyOnMapWithoutWater" : true,
 		"army" : [
 			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
 			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
