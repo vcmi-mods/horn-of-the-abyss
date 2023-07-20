@@ -1,17 +1,29 @@
 {
 	"townGate" : {
-		"handler":"generic",
+		"handler":"configurable",
 		"name" : "Town Gate",
 		"types" : {
 			"townGate" : {
-//				"rmg" : {
-//					"value"	: 10000,
-//					"rarity" : 20,
-//					"zoneLimit" : 1
-//				},
+				"name": "Town Gate (teleport hero to any allied town)",
+				"rmg" : {
+					"value"	: 10000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
 				"sounds" : {
 					"visit" : ["MYSTERY"]
 				},
+				"onVisitedMessage": "{Town Gate}\r\n\r\nSelect a destination", //TODO: In HoTA there is no extra message, but custom icon
+				"visitMode" : "unlimited",
+				"rewards":
+				[
+					{
+						"spellCast" : {
+							"spell" : "townPortal",
+							"schoolLevel": 3
+						}
+					}
+				],
 				"templates" : {
 					"avxtwngt" : { "animation" : "hota/townGate/avxtwngt", 
 						"mask" : [ "VVV", "VVV", "BAB" ], 
