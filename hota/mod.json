@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.1",
+	"version" : "1.6.2",
 	"changelog" : 
 	{
+		"1.6.2"   : [ "Added Town Gate object", "Banned heroes with starting navigation skill" ],
 		"1.6.1"   : [ "Added support for HotA maps", "Added HotA maps" ],
 		"1.6.0"   : [ "Mod updated with data from latest HotA release", "Reorganized submods to more logical scheme", "Updated Cove puzzle map", "Updated portraits of Cove heroes" ],
 		"1.5.10"  : [ "Implemented new map objects", "Fixes to existing map objects" ],
