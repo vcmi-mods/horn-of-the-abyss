@@ -9,23 +9,23 @@
 	"version" : "1.3.6",
 	"factions" :
 	[
-		"config/hota/newTownAnimations"
+		"config/hota/newGraphics/newTownAnimations"
 	],
 	"creatures" :
 	[
-		"config/castle/newCreatureAnimations",
-		"config/rampart/newCreatureAnimations",
-		"config/tower/newCreatureAnimations",
-		"config/inferno/newCreatureAnimations",
-		"config/necropolis/newCreatureAnimations",
-		"config/dungeon/newCreatureAnimations",
-		"config/stronghold/newCreatureAnimations",
-		"config/fortress/newCreatureAnimations",
-		"config/conflux/newCreatureAnimations",
-		"config/neutrals/newCreatureAnimations"
+		"config/hota/newGraphics/castle/newCreatureAnimations",
+		"config/hota/newGraphics/rampart/newCreatureAnimations",
+		"config/hota/newGraphics/tower/newCreatureAnimations",
+		"config/hota/newGraphics/inferno/newCreatureAnimations",
+		"config/hota/newGraphics/necropolis/newCreatureAnimations",
+		"config/hota/newGraphics/dungeon/newCreatureAnimations",
+		"config/hota/newGraphics/stronghold/newCreatureAnimations",
+		"config/hota/newGraphics/fortress/newCreatureAnimations",
+		"config/hota/newGraphics/conflux/newCreatureAnimations",
+		"config/hota/newGraphics/neutrals/newCreatureAnimations"
 	],
 	"heroClasses" : 
 	[
-		"config/hota/genderedHeroGraphics"
+		"config/hota/newGraphics/genderedHeroGraphics"
 	]
 }
