@@ -3,6 +3,7 @@
 	{
 		"class" : "knight",
 		"female" : true,
+		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
 			"specialtySmall" : "hota/castle/heroes/beatrice/icons/speciality/small.png",

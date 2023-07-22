@@ -3,6 +3,7 @@
 	{
 		"class" : "deathknight",
 		"female" : false,
+		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
 			"specialtySmall" : "hota/necropolis/heroes/ranloo/icons/speciality/small.png",
