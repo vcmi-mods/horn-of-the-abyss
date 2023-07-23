@@ -6,10 +6,10 @@
 		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
-			"specialtySmall" : "hota/fortress/heroes/kinkeria/icons/speciality/small.png",
-			"specialtyLarge" : "hota/fortress/heroes/kinkeria/icons/speciality/large.png",
-			"small" : "hota/fortress/heroes/kinkeria/icons/portrait/small.png",
-			"large" : "hota/fortress/heroes/kinkeria/icons/portrait/large.png"
+			"large" : "hota/fortress/heroes/kinkeria/icons/portraitLarge.png",
+			"small" : "hota/fortress/heroes/kinkeria/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/fortress/heroes/kinkeria/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/fortress/heroes/kinkeria/icons/specialtySmall.png"
 		},
 		"army" : [
 			{

@@ -34,29 +34,30 @@
 	],
 	"heroClasses" :
 	[
-		"config/hota/classes/captain", "config/hota/classes/navigator"
+		"config/hota/cove/heroClasses/captain",
+		"config/hota/cove/heroClasses/navigator"
 	],
 	"heroes" :
 	[
-		"config/hota/heroes/anabel",
-		"config/hota/heroes/andal",
-		"config/hota/heroes/astra",
-		"config/hota/heroes/bidley",
-		"config/hota/heroes/casmetra",
-		"config/hota/heroes/cassiopeia",
-		"config/hota/heroes/corkes",
-		"config/hota/heroes/dargem",
-		"config/hota/heroes/derek",
-		"config/hota/heroes/elmore",
-		"config/hota/heroes/eovacius",
-		"config/hota/heroes/illor",
-		"config/hota/heroes/jeremy",
-		"config/hota/heroes/leena",
-		"config/hota/heroes/manfred",
-		"config/hota/heroes/miriam",
-		"config/hota/heroes/spint",
-		"config/hota/heroes/tark",
-		"config/hota/heroes/zilare"
+		"config/hota/cove/heroes/anabel",
+		"config/hota/cove/heroes/andal",
+		"config/hota/cove/heroes/astra",
+		"config/hota/cove/heroes/bidley",
+		"config/hota/cove/heroes/casmetra",
+		"config/hota/cove/heroes/cassiopeia",
+		"config/hota/cove/heroes/corkes",
+		"config/hota/cove/heroes/dargem",
+		"config/hota/cove/heroes/derek",
+		"config/hota/cove/heroes/elmore",
+		"config/hota/cove/heroes/eovacius",
+		"config/hota/cove/heroes/illor",
+		"config/hota/cove/heroes/jeremy",
+		"config/hota/cove/heroes/leena",
+		"config/hota/cove/heroes/manfred",
+		"config/hota/cove/heroes/miriam",
+		"config/hota/cove/heroes/spint",
+		"config/hota/cove/heroes/tark",
+		"config/hota/cove/heroes/zilare"
 	],
 	"spells" :
 	[

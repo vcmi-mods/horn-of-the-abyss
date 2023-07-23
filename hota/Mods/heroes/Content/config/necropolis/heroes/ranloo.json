@@ -6,10 +6,10 @@
 		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
-			"specialtySmall" : "hota/necropolis/heroes/ranloo/icons/speciality/small.png",
-			"specialtyLarge" : "hota/necropolis/heroes/ranloo/icons/speciality/large.png",
-			"small" : "hota/necropolis/heroes/ranloo/icons/portrait/small.png",
-			"large" : "hota/necropolis/heroes/ranloo/icons/portrait/large.png"
+			"large" : "hota/necropolis/heroes/ranloo/icons/portraitLarge.png",
+			"small" : "hota/necropolis/heroes/ranloo/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/necropolis/heroes/ranloo/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/necropolis/heroes/ranloo/icons/specialtySmall.png"
 		},
 		"army" : [
 			{

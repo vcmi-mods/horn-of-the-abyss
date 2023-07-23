@@ -6,10 +6,10 @@
 		"onlyOnMapWithoutWater" : true,
 		"images" :
 		{
-			"specialtySmall" : "hota/castle/heroes/beatrice/icons/speciality/small.png",
-			"specialtyLarge" : "hota/castle/heroes/beatrice/icons/speciality/large.png",
-			"small" : "hota/castle/heroes/beatrice/icons/portrait/small.png",
-			"large" : "hota/castle/heroes/beatrice/icons/portrait/large.png"
+			"large" : "hota/castle/heroes/beatrice/icons/portraitLarge.png",
+			"small" : "hota/castle/heroes/beatrice/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/castle/heroes/beatrice/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/castle/heroes/beatrice/icons/specialtySmall.png"
 		},
 		"army" : [
 			{
