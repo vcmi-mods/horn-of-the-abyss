@@ -30,7 +30,7 @@
 		"config/hota/creatures/sorceress",
 		"config/hota/creatures/stormbird",
 		"config/hota/creatures/stack_exp",
-		"config/hota/commander/blackbeard"
+		"config/hota/cove/commander/blackbeard"
 	],
 	"heroClasses" :
 	[
