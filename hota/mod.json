@@ -45,6 +45,15 @@
 			"config/translation/hota/chinese/maps.json"
 		]
 	},
+	"czech" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Rozpracovaný port rozšíření Horn of the Abyss vytvořený týmem Hota Crew",
+		"translations" : [
+			"config/translation/hota/czech/game.json",
+			"config/translation/hota/czech/campaigns.json",
+			"config/translation/hota/czech/maps.json"
+		]
+	},
 	"german" : {
 		"name" : "Horn of the Abyss",
 		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
