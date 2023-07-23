@@ -29,7 +29,7 @@
 		"config/hota/cove/creatures/seaserpent",
 		"config/hota/cove/creatures/sorceress",
 		"config/hota/cove/creatures/stormbird",
-		"config/hota/cove/creatures/stack_exp",
+		"config/hota/cove/creatures/stackExperience",
 		"config/hota/cove/commander/blackbeard"
 	],
 	"heroClasses" :

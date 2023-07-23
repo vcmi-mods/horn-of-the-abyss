@@ -1,8 +1,8 @@
 {
 	"crewmate" : {
 		"name" : {
-			"plural" : "Crew Mates",
-			"singular" : "Crew Mate"
+			"singular" : "Crew Mate",
+			"plural" : "Crew Mates"
 		},
 		"faction" : "cove",
 		"level" : 2,
