@@ -1,38 +1,55 @@
 {
 	"04elmore" : {
-		"onlyOnWaterMap" : true,
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
-			{ "creature" : "pirate", "max" : 7, "min" : 4 }
-		],
 		"class" : "captain",
+		"onlyOnWaterMap" : true,
 		"images" : {
 			"large" : "hota/heroes/elmore/portraitlarge.png",
 			"small" : "hota/heroes/elmore/portraitsmall.png",
 			"specialtyLarge" : "hota/heroes/elmore/speclarge.png",
 			"specialtySmall" : "hota/heroes/elmore/specsmall.png"
 		},
-		"skills" : [ { "level" : "advanced", "skill" : "navigation" } ],
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "crewmate",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "navigation",
+				"level": "advanced"
+			}
+		],
 		"specialty" : {
 			"bonuses" : {
 				"navigation" : {
-					"subtype" : 0,
-					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MOVEMENT",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"subtype" : 0,
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
 					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Since young age Elmore has dreamt about becoming a great sailor. Spending years far from the shore, he has put a lot of effort to make his dream come true. Many pirate captains are famous for their skill of navigation, but Elmore is capable of true magic even onboard the poorest junk.",
-			"name" : "Elmore",
-			"specialty" : {
-				"tooltip" : "Secondary Skill Bonus: Navigation",
-				"name" : "Navigation",
-				"description" : "{Navigation}\r\n\r\nReceives a 5% per level bonus to movement points at sea."
+		"texts": {
+			"name": "Elmore",
+			"biography": "Since a young age, Elmore has dreamt about becoming a great sailor. Spending years far from the shore, he has put a lot of effort to make his dream come true. Many pirate captains are famous for their skill of navigation, but Elmore is capable of true magic even onboard the poorest junk.",
+			"specialty": {
+				"name": "Navigation",
+				"description": "{Navigation}\r\n\r\nReceives a 5% per level bonus to movement points at sea.",
+				"tooltip": "Secondary Skill Bonus: Navigation"
 			}
 		}
 	}

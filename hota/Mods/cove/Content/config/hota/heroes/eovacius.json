@@ -1,10 +1,5 @@
 {
 	"10eovacius" : {
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
-			{ "creature" : "pirate", "max" : 7, "min" : 4 }
-		],
 		"class" : "navigator",
 		"images" : {
 			"large" : "hota/heroes/eovacius/portraitlarge.png",
@@ -12,26 +7,49 @@
 			"specialtyLarge" : "hota/heroes/eovacius/speclarge.png",
 			"specialtySmall" : "hota/heroes/eovacius/specsmall.png"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "intelligence" }
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "crewmate",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "intelligence",
+				"level": "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
 				"clone" : {
-					"subtype" : "spell.specialClone",
-					"type" : "SPELL"
+					"type" : "SPELL",
+					"subtype" : "spell.specialClone"
 				}
 			}
 		},
 		"spellbook" : [ "clone" ],
-		"texts" : {
-			"biography" : "Eovacius never learnt magic. All his magical talent was inborn. He was raised in a maritime city where he used his talent to steal on the markets. He became a prosperous and influential man until he got too many annoying and powerful rivals in the government. After that the natural born mage left his homeland and chose the life of a pirate.",
-			"name" : "Eovacius",
-			"specialty" : {
-				"tooltip" : "Spell Bonus: Clone",
-				"name" : "Clone",
-				"description" : "{Clone}\r\n\r\nEach battle the first cast of Clone spell summons 2 clones of target unit."
+		"texts": {
+			"name": "Eovacius",
+			"biography": "Eovacius never learned magic. All his magical talent was inborn. He was raised in a maritime city where he used his talent to steal on the markets. He became a prosperous and influential man until he got too many annoying and powerful rivals in the government. After that, the natural born mage left his homeland and chose the life of a pirate.",
+			"specialty": {
+				"name": "Clone",
+				"description": "{Clone}\r\n\r\nEach battle the first cast of Clone spell summons 2 clones of the target unit.",
+				"tooltip": "Spell Bonus: Clone"
 			}
 		}
 	}

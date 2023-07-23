@@ -1,10 +1,5 @@
 {
 	"02jeremy" : {
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "cannon", "max" : 1, "min" : 1 },
-			{ "creature" : "pirate", "max" : 7, "min" : 4 }
-		],
 		"class" : "captain",
 		"images" : {
 			"large" : "hota/heroes/jeremy/portraitlarge.png",
@@ -12,9 +7,32 @@
 			"specialtyLarge" : "hota/heroes/jeremy/speclarge.png",
 			"specialtySmall" : "hota/heroes/jeremy/specsmall.png"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "offence" },
-			{ "level" : "basic", "skill" : "artillery" }
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "cannon",
+				"min": 1,
+				"max": 1
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "artillery",
+				"level": "basic"
+			}
 		],
 		"specialty" : {
 			"base" : {
@@ -23,37 +41,37 @@
 			},
 			"bonuses" : {
 				"attack" : {
-					"limiters" : { "parameters" : [ "cannon", false ] },
-					"subtype" : "primSkill.attack",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.attack",
+					"limiters" : { "parameters" : [ "cannon", false ] },
 					"updater" : {
-						"parameters" : [ 20, 6 ],
-						"type" : "GROWS_WITH_LEVEL"
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 20, 6 ]
 					}
 				},
 				"defence" : {
-					"limiters" : { "parameters" : [ "cannon", false ] },
-					"subtype" : "primSkill.defence",
 					"type" : "PRIMARY_SKILL",
+					"subtype" : "primSkill.defence",
+					"limiters" : { "parameters" : [ "cannon", false ] },
 					"updater" : {
-						"parameters" : [ 10, 6 ],
-						"type" : "GROWS_WITH_LEVEL"
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 10, 6 ]
 					}
 				},
 				"speed" : {
-					"limiters" : { "parameters" : [ "cannon", true ] },
 					"type" : "STACKS_SPEED",
-					"val" : 1
+					"val" : 1,
+					"limiters" : { "parameters" : [ "cannon", true ] }
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages and beautiful women. He has a thing for weapons, and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
-			"name" : "Jeremy",
-			"specialty" : {
-				"tooltip" : "Artillery Bonus: Cannon",
-				"name" : "Cannon",
-				"description" : "{Cannon}\r\n\r\nIncreases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up)."
+		"texts": {
+			"name": "Jeremy",
+			"biography": "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages, and beautiful women. He has a thing for weapons and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
+			"specialty": {
+				"name": "Cannon",
+				"description": "{Cannon}\r\n\r\nIncreases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
+				"tooltip": "Artillery Bonus: Cannon"
 			}
 		}
 	}

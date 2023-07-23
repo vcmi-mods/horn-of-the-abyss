@@ -1,10 +1,5 @@
 {
 	"07cassiopeia" : {
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "nymph", "max" : 30, "min" : 20 }
-		],
 		"class" : "captain",
 		"female" : true,
 		"images" : {
@@ -13,17 +8,43 @@
 			"specialtyLarge" : "hota/heroes/cassiopeia/speclarge.png",
 			"specialtySmall" : "hota/heroes/cassiopeia/specsmall.png"
 		},
-		"skills" : [ { "level" : "basic", "skill" : "offence" }, { "level" : "basic", "skill" : "tactics" } ],
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			}
+		],
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
 		"specialty" : {
 			"creature" : "hota.cove:nymph"
 		},
-		"texts" : {
-			"biography" : "It is said that Cassiopeia was the lover of some Regnan mage, and fell victim to one of his unsuccessful experiments.  It is unknown if it is truly possible to turn an alive soul into a nymph. All that is known is that other nymphs accept Cassiopeia for more than an equal kind. They gladly follow her into the battle.",
-			"name" : "Cassiopeia",
-			"specialty" : {
-				"tooltip" : "Creature Bonus: Nymphs",
-				"name" : "Nymphs",
-				"description" : "{Nymphs and Oceanids}\r\n\r\nIncreases Speed of any Nymphs or Oceanids by 1 and their Attack and Defense skills by 5% for every level (rounded up)."
+		"texts": {
+			"name": "Cassiopeia",
+			"biography": "It is said that Cassiopeia was the lover of some Regnan mage, and fell victim to one of his unsuccessful experiments. It is unknown if it is truly possible to turn an alive soul into a nymph. All that is known is that other nymphs accept Cassiopeia for more than an equal kind. They gladly follow her into the battle.",
+			"specialty": {
+				"name": "Nymphs",
+				"description": "{Nymphs and Oceanids}\r\n\r\nIncreases Speed of any Nymphs or Oceanids by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip": "Creature Bonus: Nymphs"
 			}
 		}
 	}

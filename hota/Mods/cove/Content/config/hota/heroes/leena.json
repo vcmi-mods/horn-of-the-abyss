@@ -1,10 +1,5 @@
 {
 	"05leena" : {
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
-			{ "creature" : "pirate", "max" : 7, "min" : 4 }
-		],
 		"class" : "captain",
 		"female" : true,
 		"images" : {
@@ -13,26 +8,49 @@
 			"specialtyLarge" : "hota/heroes/leena/speclarge.png",
 			"specialtySmall" : "hota/heroes/leena/specsmall.png"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "estates" },
-			{ "level" : "basic", "skill" : "pathfinding" }
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "crewmate",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "estates",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
 				"gold" : {
-					"subtype" : "resource.gold",
 					"type" : "GENERATE_RESOURCE",
+					"subtype" : "resource.gold",
 					"val" : 350
 				}
 			}
 		},
-		"texts" : {
-			"biography" : "Leena was a daughter of a noble from one of the maritime cities of Erathia. Having a wild spirit since childhood, she escaped on a stolen family caravel when her father attempted to marry her off. Surprisingly, she was able to find common language with the pirates of Regna. She is probably valued for her spirit and numerous connections on the land that she uses to operate her smuggling.",
-			"name" : "Leena",
-			"specialty" : {
-				"tooltip" : "+350 Gold each day",
-				"name" : "+350 Gold",
-				"description" : "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+		"texts": {
+			"name": "Leena",
+			"biography": "Leena was a daughter of a noble from one of the maritime cities of Erathia. Having a wild spirit since childhood, she escaped on a stolen family caravel when her father attempted to marry her off. Surprisingly, she was able to find a common language with the pirates of Regna. She is probably valued for her spirit and numerous connections on the land that she uses to operate her smuggling.",
+			"specialty": {
+				"name": "+350 Gold",
+				"description": "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"tooltip": "+350 Gold each day"
 			}
 		}
 	}

@@ -1,10 +1,5 @@
 {
 	"14zilare" : {
-		"army" : [
-			{ "creature" : "nymph", "max" : 30, "min" : 20 },
-			{ "creature" : "crewmate", "max" : 9, "min" : 6 },
-			{ "creature" : "pirate", "max" : 7, "min" : 4 }
-		],
 		"class" : "navigator",
 		"images" : {
 			"large" : "hota/heroes/zilare/portraitlarge.png",
@@ -12,30 +7,53 @@
 			"specialtyLarge" : "hota/heroes/zilare/speclarge.png",
 			"specialtySmall" : "hota/heroes/zilare/specsmall.png"
 		},
-		"skills" : [
-			{ "level" : "basic", "skill" : "wisdom" },
-			{ "level" : "basic", "skill" : "resistance" }
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "crewmate",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "resistance",
+				"level": "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
 				"forgetfulness" : {
-					"updater" : {
-						"parameters" : [ 8, 2 ],
-						"type" : "GROWS_WITH_LEVEL"
-					},
+					"type" : "SPELL_DURATION",
 					"subtype" : "spell.forgetfulness",
-					"type" : "SPELL_DURATION"
+					"updater" : {
+						"type" : "GROWS_WITH_LEVEL",
+						"parameters" : [ 8, 2 ]
+					}
 				}
 			}
 		},
 		"spellbook" : [ "forgetfulness" ],
-		"texts" : {
-			"biography" : "Zilare was the Keeper of the Library somewhere in Erathia. He dedicated his life to books and learning, living the life of a true archivist. Zilare could not keep everything in his head, however. Sometimes he would forget more than he learned during the day. Once he was accused of stealing an especially rare book, and was forced to flee.  He served as a cook on a pirate ship for some time, but later got a fame of a proficient mage. They say that due to constant training in spirit and will, he learned to control the memory of both allies and enemies.",
-			"name" : "Zilare",
-			"specialty" : {
-				"tooltip" : "Spell Bonus: Forgetfulness",
-				"name" : "Forgetfulness",
-				"description" : "{Forgetfulness}\r\n\r\nCasts Forgetfulness with double duration."
+		"texts": {
+			"name": "Zilare",
+			"biography": "Zilare was the Keeper of the Library somewhere in Erathia. He dedicated his life to books and learning, living the life of a true archivist. Zilare could not keep everything in his head, however. Sometimes he would forget more than he learned during the day. Once he was accused of stealing an especially rare book and was forced to flee. He served as a cook on a pirate ship for some time but later gained fame as a proficient mage. They say that due to constant training in spirit and will, he learned to control the memory of both allies and enemies.",
+			"specialty": {
+				"name": "Forgetfulness",
+				"description": "{Forgetfulness}\r\n\r\nCasts Forgetfulness with double duration.",
+				"tooltip": "Spell Bonus: Forgetfulness"
 			}
 		}
 	}
