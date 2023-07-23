@@ -44,7 +44,7 @@
 					"upperY" : -98
 				},
 				"projectile" : "hota/battle/projectile/pirate.def"
-			}, 
+			}
 		},
 		"doubleWide" : false,
 		"growth" : 1,
