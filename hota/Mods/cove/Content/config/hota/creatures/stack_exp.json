@@ -6,40 +6,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -60,40 +60,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -114,40 +114,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -159,7 +159,9 @@
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : { "type" : "DOUBLE_DAMAGE_CHANCE" },
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
 				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			}
 		]
@@ -172,40 +174,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -217,7 +219,9 @@
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
 			},
 			{
-				"bonus" : { "type" : "DOUBLE_DAMAGE_CHANCE" },
+				"bonus" : {
+					"type" : "DOUBLE_DAMAGE_CHANCE"
+				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}			
 		]
@@ -230,40 +234,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 2, 2, 2, 3, 3, 4, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 1, 1, 1, 1, 3, 3, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 2, 2, 4, 4, 4, 5, 6, 6 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 4, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -291,40 +295,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 2, 2, 3, 3, 3, 4, 4, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 3, 3, 3, 4, 4, 5, 5, 6 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 3, 4, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 0, 2, 2, 3, 3, 4, 5, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -359,40 +363,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 2, 2, 3, 3, 3, 4, 4, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 3, 3, 3, 4, 4, 5, 5, 6 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 3, 4, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 0, 2, 2, 3, 3, 4, 5, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -406,15 +410,15 @@
 			{
 				"bonus" : 
 				{ 
-					"subtype" : 0, 
-					"type" : "DEATH_STARE" 
+					"type" : "DEATH_STARE",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" : 
 				{ 
-					"type" : "NO_DISTANCE_PENALTY" 
+					"type" : "NO_DISTANCE_PENALTY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			}			
@@ -428,8 +432,8 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 
 				},
 				"values" : [ 2, 2, 2, 2, 3, 4, 5, 6, 7, 8 ]
@@ -437,32 +441,32 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 1, 3, 3, 4, 4, 5, 5, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 2, 2, 2, 2, 3, 3, 4, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -483,40 +487,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 2, 2, 2, 4, 4, 5, 7, 7 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 2, 2, 2, 3, 3, 4, 4, 5, 5, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 2, 2, 2, 4, 4, 4, 5, 5, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 1, 1, 2, 2, 4, 4, 5, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -537,40 +541,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -584,18 +588,18 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1000, 
-					"subtype" : 45, 
-					"type" : "SPELL_AFTER_ATTACK" 
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 45,
+					"addInfo" : 1000
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1000, 
-					"subtype" : 47, 
-					"type" : "SPELL_AFTER_ATTACK" 
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 47,
+					"addInfo" : 1000
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			}
@@ -609,40 +613,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -656,18 +660,18 @@
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
-					"subtype" : 45, 
-					"type" : "SPELL_AFTER_ATTACK" 
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 45,
+					"addInfo" : 1001
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{
 				"bonus" : 
 				{ 
-					"addInfo" : 1001, 
-					"subtype" : 47, 
-					"type" : "SPELL_AFTER_ATTACK" 
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : 47,
+					"addInfo" : 1001
 				},
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			}
@@ -681,40 +685,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -728,8 +732,8 @@
 			{
 				"bonus" : 
 				{ 
-					"subtype" : 1, 
-					"type" : "GENERAL_DAMAGE_REDUCTION" 
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : 1
 				},
 				"values" : [ 3, 6, 9, 12, 15, 18, 21, 24, 27, 30 ]
 			}
@@ -743,40 +747,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -790,8 +794,8 @@
 			{
 				"bonus" : 
 				{ 
-					"subtype" : 1, 
-					"type" : "GENERAL_DAMAGE_REDUCTION" 
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : 1
 				},
 				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 ]
 			}
@@ -805,40 +809,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -873,40 +877,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
