@@ -1,30 +1,51 @@
 {
 	"nymph" : {
-		"abilities" : {
-			"immuneToWater" : { "subtype" : 2, "type" : "WATER_IMMUNITY" },
-			"teleports" : { "subtype" : 1, "type" : "FLYING" }
+		"name" : {
+			"singular" : "Nymph",
+			"plural" : "Nymphs"
 		},
-		"advMapAmount" : { "max" : 50, "min" : 20 },
-		"aiValue" : 57,
-		"attack" : 5,
-		"cost" : { "gold" : 35 },
-		"damage" : { "max" : 2, "min" : 1 },
-		"defense" : 2,
 		"faction" : "cove",
+		"level" : 1,
+		"upgrades" : [ "oceanid" ],
+		"cost" : { "gold" : 35 },
+		"speed" : 6,
+		"hitPoints" : 4,
+		"attack" : 5,
+		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
 		"fightValue" : 52,
+		"aiValue" : 57,
+		"growth" : 16,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"immuneToWater" : {
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
+			}
+		},
 		"graphics" : {
-			"animation" : "hota/battle/nymph.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/nymph.png",
 			"iconSmall" : "hota/iconsSmall/nymph.png",
 			"map" : "hota/map/nymph.def",
 			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/battle/nymph.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"timeBetweenFidgets" : 1
 		},
-		"growth" : 16,
-		"hitPoints" : 4,
-		"level" : 1,
-		"name" : { "plural" : "Nymphs", "singular" : "Nymph" },
 		"sound" : {
 			"attack" : "hota/nymph/NIMPATTK.wav",
 			"defend" : "hota/nymph/NIMPDFND.wav",
@@ -33,8 +54,6 @@
 			"startMoving": "hota/nymph/NIMPEXT1.wav",
 			"endMoving": "hota/nymph/NIMPEXT2.wav",
 			"wince" : "hota/nymph/NIMPWNCE.wav"
-		},
-		"speed" : 6,
-		"upgrades" : [ "oceanid" ]
+		}
 	}
 }

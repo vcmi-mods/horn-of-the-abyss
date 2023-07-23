@@ -1,30 +1,50 @@
 {
 	"oceanid" : {
-		"abilities" : {
-			"immuneToWater" : { "subtype" : 2, "type" : "WATER_IMMUNITY" },
-			"teleports" : { "subtype" : 1, "type" : "FLYING" }
+		"name" : {
+			"singular" : "Oceanid",
+			"plural" : "Oceanids"
 		},
-		"advMapAmount" : { "max" : 30, "min" : 20 },
-		"aiValue" : 75,
-		"attack" : 6,
-		"cost" : { "gold" : 45 },
-		"damage" : { "max" : 3, "min" : 1 },
-		"defense" : 2,
 		"faction" : "cove",
+		"level" : 1,
+		"cost" : { "gold" : 45 },
+		"speed" : 8,
+		"hitPoints" : 4,
+		"attack" : 6,
+		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 3
+		},
 		"fightValue" : 60,
+		"aiValue" : 75,
+		"growth" : 16,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 30
+		},
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"immuneToWater" : {
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
+			}
+		},
 		"graphics" : {
-			"animation" : "hota/battle/oceanid.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
 			"iconLarge" : "hota/iconsBig/oceanid.png",
 			"iconSmall" : "hota/iconsSmall/oceanid.png",
 			"map" : "hota/map/oceanid.def",
 			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/battle/oceanid.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"timeBetweenFidgets" : 1
 		},
-		"growth" : 16,
-		"hitPoints" : 4,
-		"level" : 1,
-		"name" : { "plural" : "Oceanids", "singular" : "Oceanid" },
 		"sound" : {
 			"attack" : "hota/nymph/NIMPATTK.wav",
 			"defend" : "hota/nymph/NIMPDFND.wav",
@@ -33,7 +53,6 @@
 			"startMoving": "hota/nymph/NIMPEXT1.wav",
 			"endMoving": "hota/nymph/NIMPEXT2.wav",
 			"wince" : "hota/nymph/NIMPWNCE.wav"
-		},
-		"speed" : 8
+		}
 	}
 }
