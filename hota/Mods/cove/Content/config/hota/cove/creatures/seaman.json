@@ -37,11 +37,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "hota/crewmate/SAYLATTK.wav",
-			"defend" : "hota/crewmate/SAYLDFND.wav",
-			"killed" : "hota/crewmate/SAYLKILL.wav",
-			"move" : "hota/crewmate/SAYLMOVE.wav",
-			"wince" : "hota/crewmate/SAYLWNCE.wav"
+			"attack" : "hota/cove/creatures/crewmate/SAYLATTK.wav",
+			"defend" : "hota/cove/creatures/crewmate/SAYLDFND.wav",
+			"killed" : "hota/cove/creatures/crewmate/SAYLKILL.wav",
+			"move" : "hota/cove/creatures/crewmate/SAYLMOVE.wav",
+			"wince" : "hota/cove/creatures/crewmate/SAYLWNCE.wav"
 		}
 	}
 }

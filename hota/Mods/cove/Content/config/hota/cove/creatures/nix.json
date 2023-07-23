@@ -44,11 +44,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "hota/nix/NIXXATTK.wav",
-			"defend" : "hota/nix/NIXXDFND.wav",
-			"killed" : "hota/nix/NIXXKILL.wav",
-			"move" : "hota/nix/NIXXMOVE.wav",
-			"wince" : "hota/nix/NIXXWNCE.wav"
+			"attack" : "hota/cove/creatures/nix/NIXXATTK.wav",
+			"defend" : "hota/cove/creatures/nix/NIXXDFND.wav",
+			"killed" : "hota/cove/creatures/nix/NIXXKILL.wav",
+			"move" : "hota/cove/creatures/nix/NIXXMOVE.wav",
+			"wince" : "hota/cove/creatures/nix/NIXXWNCE.wav"
 		}
 	}
 }

@@ -59,12 +59,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "hota/pirate/PIRTATTK.wav",
-			"defend" : "hota/pirate/PIRTDFND.wav",
-			"killed" : "hota/pirate/PIRTKILL.wav",
-			"move" : "hota/pirate/PIRTMOVE.wav",
-			"shoot" : "hota/pirate/PIRTSHOT.wav",
-			"wince" : "hota/pirate/PIRTWNCE.wav"
+			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
+			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
+			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",
+			"move" : "hota/cove/creatures/pirate/PIRTMOVE.wav",
+			"shoot" : "hota/cove/creatures/pirate/PIRTSHOT.wav",
+			"wince" : "hota/cove/creatures/pirate/PIRTWNCE.wav"
 		}
 	}
 }

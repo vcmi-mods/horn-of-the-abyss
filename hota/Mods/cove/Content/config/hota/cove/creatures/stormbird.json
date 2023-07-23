@@ -45,11 +45,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "hota/stormbird/ASSIATTK.wav",
-			"defend" : "hota/stormbird/ASSIDFND.wav",
-			"killed" : "hota/stormbird/ASSIKILL.wav",
-			"move" : "hota/stormbird/ASSIMOVE.wav",
-			"wince" : "hota/stormbird/ASSIWNCE.wav"
+			"attack" : "hota/cove/creatures/stormbird/ASSIATTK.wav",
+			"defend" : "hota/cove/creatures/stormbird/ASSIDFND.wav",
+			"killed" : "hota/cove/creatures/stormbird/ASSIKILL.wav",
+			"move" : "hota/cove/creatures/stormbird/ASSIMOVE.wav",
+			"wince" : "hota/cove/creatures/stormbird/ASSIWNCE.wav"
 		}
 	}
 }

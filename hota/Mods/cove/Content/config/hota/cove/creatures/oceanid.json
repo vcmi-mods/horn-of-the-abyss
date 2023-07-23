@@ -46,13 +46,13 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "hota/nymph/NIMPATTK.wav",
-			"defend" : "hota/nymph/NIMPDFND.wav",
-			"killed" : "hota/nymph/NIMPKILL.wav",
-			"move" : "hota/nymph/NIMPMOVE.wav",
-			"startMoving": "hota/nymph/NIMPEXT1.wav",
-			"endMoving": "hota/nymph/NIMPEXT2.wav",
-			"wince" : "hota/nymph/NIMPWNCE.wav"
+			"attack" : "hota/cove/creatures/nymph/NIMPATTK.wav",
+			"defend" : "hota/cove/creatures/nymph/NIMPDFND.wav",
+			"killed" : "hota/cove/creatures/nymph/NIMPKILL.wav",
+			"move" : "hota/cove/creatures/nymph/NIMPMOVE.wav",
+			"startMoving": "hota/cove/creatures/nymph/NIMPEXT1.wav",
+			"endMoving": "hota/cove/creatures/nymph/NIMPEXT2.wav",
+			"wince" : "hota/cove/creatures/nymph/NIMPWNCE.wav"
 		}
 	}
 }

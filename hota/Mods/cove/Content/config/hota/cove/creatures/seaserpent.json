@@ -57,11 +57,11 @@
 			"timeBetweenFidgets" : 1
 		},
 		"sound" : {
-			"attack" : "hota/seaserpent/ASPIATTK.wav",
-			"defend" : "hota/seaserpent/ASPIDFND.wav",
-			"killed" : "hota/seaserpent/ASPIKILL.wav",
-			"move" : "hota/seaserpent/ASPIMOVE.wav",
-			"wince" : "hota/seaserpent/ASPIWNCE.wav"
+			"attack" : "hota/cove/creatures/seaserpent/ASPIATTK.wav",
+			"defend" : "hota/cove/creatures/seaserpent/ASPIDFND.wav",
+			"killed" : "hota/cove/creatures/seaserpent/ASPIKILL.wav",
+			"move" : "hota/cove/creatures/seaserpent/ASPIMOVE.wav",
+			"wince" : "hota/cove/creatures/seaserpent/ASPIWNCE.wav"
 		}
 	}
 }

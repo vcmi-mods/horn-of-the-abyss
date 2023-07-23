@@ -67,12 +67,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "hota/seaWitch/SORCATTK.wav",
-			"defend" : "hota/seaWitch/SORCDFND.wav",
-			"killed" : "hota/seaWitch/SORCKILL.wav",
-			"move" : "hota/seaWitch/SORCMOVE.wav",
-			"shoot" : "hota/seaWitch/SORCSHOT.wav",
-			"wince" : "hota/seaWitch/SORCWNCE.wav"
+			"attack" : "hota/cove/creatures/seaWitch/SORCATTK.wav",
+			"defend" : "hota/cove/creatures/seaWitch/SORCDFND.wav",
+			"killed" : "hota/cove/creatures/seaWitch/SORCKILL.wav",
+			"move" : "hota/cove/creatures/seaWitch/SORCMOVE.wav",
+			"shoot" : "hota/cove/creatures/seaWitch/SORCSHOT.wav",
+			"wince" : "hota/cove/creatures/seaWitch/SORCWNCE.wav"
 		}
 	}
 }
