@@ -31,11 +31,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/nix.png",
-			"iconSmall" : "hota/iconsSmall/nix.png",
-			"map" : "hota/map/nix.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/nix.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/nix.png",
+			"map" : "hota/cove/creatures/adventureMap/nix.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/nix.def",
+			"animation" : "hota/cove/creatures/battle/nix.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

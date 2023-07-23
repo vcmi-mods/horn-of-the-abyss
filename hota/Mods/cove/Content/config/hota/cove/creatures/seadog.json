@@ -42,11 +42,11 @@
 //			"preciseShot" : { "subtype" : 0, "type" : "DEATH_STARE", "val" : 3 }
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/seadog.png",
-			"iconSmall" : "hota/iconsSmall/seadog.png",
-			"map" : "hota/map/seadog.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/seadog.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/seadog.png",
+			"map" : "hota/cove/creatures/adventureMap/seadog.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/seadog.def",
+			"animation" : "hota/cove/creatures/battle/seadog.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -54,7 +54,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "hota/battle/projectile/pirate.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {

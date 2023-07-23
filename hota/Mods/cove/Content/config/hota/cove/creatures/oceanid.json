@@ -33,11 +33,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/oceanid.png",
-			"iconSmall" : "hota/iconsSmall/oceanid.png",
-			"map" : "hota/map/oceanid.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/oceanid.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/oceanid.png",
+			"map" : "hota/cove/creatures/adventureMap/oceanid.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/oceanid.def",
+			"animation" : "hota/cove/creatures/battle/oceanid.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

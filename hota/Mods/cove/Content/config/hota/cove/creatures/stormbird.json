@@ -32,11 +32,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/stormbird.png",
-			"iconSmall" : "hota/iconsSmall/stormbird.png",
-			"map" : "hota/map/stormbird.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/stormbird.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/stormbird.png",
+			"map" : "hota/cove/creatures/adventureMap/stormbird.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/stormbird.def",
+			"animation" : "hota/cove/creatures/battle/stormbird.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

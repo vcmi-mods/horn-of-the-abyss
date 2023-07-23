@@ -41,11 +41,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/sorceress.png",
-			"iconSmall" : "hota/iconsSmall/sorceress.png",
-			"map" : "hota/map/sorceress.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/sorceress.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/sorceress.png",
+			"map" : "hota/cove/creatures/adventureMap/sorceress.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/sorceress.def",
+			"animation" : "hota/cove/creatures/battle/sorceress.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -53,7 +53,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "hota/battle/projectile/sorceress.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/sorceress.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {

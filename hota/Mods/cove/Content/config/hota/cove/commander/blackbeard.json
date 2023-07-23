@@ -80,7 +80,7 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "hota/battle/projectile/pirate.def"
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def"
 			}
 		},
 		"sound" :

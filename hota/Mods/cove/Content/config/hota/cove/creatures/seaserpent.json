@@ -44,11 +44,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/seaserpent.png",
-			"iconSmall" : "hota/iconsSmall/seaserpent.png",
-			"map" : "hota/map/seaserpent.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/seaserpent.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/seaserpent.png",
+			"map" : "hota/cove/creatures/adventureMap/seaserpent.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/seaserpent.def",
+			"animation" : "hota/cove/creatures/battle/seaserpent.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

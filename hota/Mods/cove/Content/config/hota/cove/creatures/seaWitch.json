@@ -42,11 +42,11 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/seaWitch.png",
-			"iconSmall" : "hota/iconsSmall/seaWitch.png",
-			"map" : "hota/map/seaWitch.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/seaWitch.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/seaWitch.png",
+			"map" : "hota/cove/creatures/adventureMap/seaWitch.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/seaWitch.def",
+			"animation" : "hota/cove/creatures/battle/seaWitch.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -54,7 +54,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "hota/battle/projectile/sorceress.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/sorceress.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {

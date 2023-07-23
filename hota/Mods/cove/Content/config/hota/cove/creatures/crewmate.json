@@ -26,11 +26,11 @@
 		"horde" : 4,
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"iconLarge" : "hota/iconsBig/crewmate.png",
-			"iconSmall" : "hota/iconsSmall/crewmate.png",
-			"map" : "hota/map/crewmate.def",
+			"iconLarge" : "hota/cove/creatures/iconsBig/crewmate.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/crewmate.png",
+			"map" : "hota/cove/creatures/adventureMap/crewmate.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/crewmate.def",
+			"animation" : "hota/cove/creatures/battle/crewmate.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
