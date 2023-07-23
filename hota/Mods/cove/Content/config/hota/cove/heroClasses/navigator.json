@@ -1,28 +1,36 @@
 {
 	"navigator" : {
-		"affinity" : "magic",
-		"animation" : { "battle" : { "female" : "hota/cove/heroClasses/navigator/battle/CH19B", "male" : "hota/cove/heroClasses/navigator/battle/CH19" } },
-		"commander" : "blackbeard",
-		"defaultTavern" : 5,
+		"name" : "Navigator",
 		"faction" : "cove",
-		"highLevelChance" : { "attack" : 30, "defence" : 20, "knowledge" : 30, "spellpower" : 20 },
-		"lowLevelChance" : { "attack" : 15, "defence" : 10, "knowledge" : 35, "spellpower" : 40 },
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "blackbeard",
+		"animation" : {
+			"battle" : {
+				"female" : "hota/cove/heroClasses/navigator/battle/CH19B",
+				"male" : "hota/cove/heroClasses/navigator/battle/CH19"
+			}
+		},
 		"mapObject" : {
-			"templates" : { 
-				"female" : 
-				{ 
+			"templates" : {
+				"female" :
+				{
 					"animation" : "hota/cove/heroClasses/navigator/adventureMap/AH19B_.def",
-					"editorAnimation": "hota/cove/heroClasses/navigator/adventureMap/AH19B_e.def"					
-				}, 
-				"male" : 
-				{ 
+					"editorAnimation": "hota/cove/heroClasses/navigator/adventureMap/AH19B_e.def"
+				},
+				"male" :
+				{
 					"animation" : "hota/cove/heroClasses/navigator/adventureMap/AH19_.def",
 					"editorAnimation": "hota/cove/heroClasses/navigator/adventureMap/AH19_E.def"
-				} 
-			} 
+				}
+			}
 		},
-		"name" : "Navigator",
-		"primarySkills" : { "attack" : 2, "defence" : 0, "knowledge" : 2, "spellpower" : 1 },
+		"primarySkills" : {
+			"attack" : 2,
+			"defence" : 0,
+			"spellpower" : 1,
+			"knowledge" : 2
+		},
 		"secondarySkills" : {
 			"airMagic" : 6,
 			"archery" : 6,
@@ -51,6 +59,18 @@
 			"tactics" : 4,
 			"waterMagic" : 9,
 			"wisdom" : 8
+		},
+		"lowLevelChance" : {
+			"attack" : 15,
+			"defence" : 10,
+			"spellpower" : 40,
+			"knowledge" : 35
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 20,
+			"spellpower" : 20,
+			"knowledge" : 30
 		},
 		"tavern" : {
 			"castle" : 4,

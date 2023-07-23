@@ -1,18 +1,22 @@
 {
 	"captain" : {
-		"affinity" : "might",
-		"animation" : { "battle" : { "female" : "hota/cove/heroClasses/captain/battle/CH18.DEF", "male" : "hota/cove/heroClasses/captain/battle/CH18B.DEF" } },
-		"commander" : "blackbeard",
-		"defaultTavern" : 5,
+		"name" : "Captain",
 		"faction" : "cove",
-		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
-		"lowLevelChance" : { "attack" : 45, "defence" : 25, "knowledge" : 10, "spellpower" : 20 },
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "blackbeard",
+		"animation" : {
+			"battle" : {
+				"female" : "hota/cove/heroClasses/captain/battle/CH18.DEF",
+				"male" : "hota/cove/heroClasses/captain/battle/CH18B.DEF"
+			}
+		},
 		"mapObject" : {
 			"templates" : { 
 				"female" : 
 				{ 
 					"animation" : "hota/cove/heroClasses/captain/adventureMap/AH18_.def",
-					"editorAnimation": "hota/cove/heroClasses/captain/adventureMap/AH18_e.def"					
+					"editorAnimation": "hota/cove/heroClasses/captain/adventureMap/AH18_e.def"
 				}, 
 				"male" : 
 				{ 
@@ -21,8 +25,12 @@
 				} 
 			} 
 		},
-		"name" : "Captain",
-		"primarySkills" : { "attack" : 3, "defence" : 0, "knowledge" : 1, "spellpower" : 2 },
+		"primarySkills" : {
+			"attack" : 3,
+			"defence" : 0,
+			"spellpower" : 2,
+			"knowledge" : 1
+		},
 		"secondarySkills" : {
 			"airMagic" : 3,
 			"archery" : 9,
@@ -51,6 +59,18 @@
 			"tactics" : 6,
 			"waterMagic" : 2,
 			"wisdom" : 1
+		},
+		"lowLevelChance" : {
+			"attack" : 45,
+			"defence" : 25,
+			"spellpower" : 20,
+			"knowledge" : 10
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
+			"spellpower" : 20,
+			"knowledge" : 20
 		},
 		"tavern" : {
 			"castle" : 2,
