@@ -320,8 +320,8 @@
 				},
 				"templates" : {
 					"hota/shrines/4lvlxshrn.def" : "4lvlxshrn.def",
-					"hota/heroes/AH18_e.def" : "ah18_e.def",
-					"hota/heroes/AH19_e.def" : "ah19_e.def",
+					"hota/cove/heroClasses/captain/adventureMap/AH18_e.def" : "ah18_e.def",
+					"hota/cove/heroClasses/navigator/adventureMap/AH19_e.def" : "ah19_e.def",
 					"hota/pandoraBox/ava0128w.def" : "AVA0128w.def",
 					"hota/artifactsMap/diplomatsCloak.def" : "AVA0142.def",
 					"hota/artifactsMap/pendantOfReflection.def" : "AVA0143.def",
