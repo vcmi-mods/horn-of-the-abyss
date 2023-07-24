@@ -10,9 +10,9 @@
 	"depends" : [ "hota.cannon" ],
 	"factions" :
 	[
-		"config/hota/town",
-		"config/hota/cove/town/buildings.json",
-		"config/hota/cove/puzzleMap.json"
+		"config/hota/cove/town/town",
+		"config/hota/cove/town/buildings",
+		"config/hota/cove/puzzleMap"
 	],
 	"creatures" :
 	[
