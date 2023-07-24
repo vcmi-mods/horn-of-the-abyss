@@ -1,0 +1,13 @@
+{
+	"cove" :
+	{
+		"name" : "cove",
+		"alignment" : "neutral",
+		"nativeTerrain" : "swamp",
+		"boat" : "boatCove",
+		"creatureBackground" : {
+			"120px" : "hota/creaturebg120px",
+			"130px" : "hota/creaturebg130px"
+		}
+	}
+}

@@ -1,10 +1,5 @@
 {
 	"cove" : {
-		"alignment" : "neutral",
-		"creatureBackground" : { "120px" : "hota/creaturebg120px", "130px" : "hota/creaturebg130px" },
-		"name" : "Cove",
-		"nativeTerrain" : "swamp",
-		"boat" : "boatCove",
 		"town" : {
 			"buildingsIcons" : "hota/townhall.def",
 			"creatures" : [
