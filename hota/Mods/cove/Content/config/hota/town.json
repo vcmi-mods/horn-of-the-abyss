@@ -102,6 +102,54 @@
 					[ "dwellingLvl7", "dwellingUpLvl7" ]
 				]
 			],
+			"buildings" : {
+				"villageHall":    { "id" : 10, "mode" : "auto" },
+				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
+				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ] },
+				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
+				"marketplace":    { "id" : 14 },
+				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
+				"shipyard":       { "id" : 6 },
+				"ship":           { "id" : 20, "upgrades" : "shipyard" },
+
+				"special3":       { "id" : 22, "requires" : [ "tavern" ] },
+				"special4":       { "id" : 23, "requires" : [ "marketplace" ] },
+				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
+				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },
+				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl4" },
+				"horde2Upgr":     { "id" : 25, "upgrades" : "dwellingUpLvl4", "requires" : [ "horde2" ] },
+				"grail":          { "id" : 26 },
+				
+				"mageGuild1":     { "id" : 0 },
+				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
+				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
+				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
+
+				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
+				"dwellingLvl2":   { "id" : 31, "requires" : [ "dwellingLvl1" ] },
+				"dwellingLvl3":   { "id" : 32, "requires" : [ "allOf", [ "dwellingLvl2" ], [ "blacksmith" ] ] },
+				"dwellingLvl4":   { "id" : 33, "requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ] },
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl1" ], [ "dwellingLvl2" ] ] },
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl4" ] },
+				"dwellingLvl7":   { "id" : 36, "requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ] ] },
+
+				"dwellingUpLvl1": { "id" : 37, "upgrades" : "dwellingLvl1" },
+				"dwellingUpLvl2": { "id" : 38, "upgrades" : "dwellingLvl2" },
+				"dwellingUpLvl3": { "id" : 39, "upgrades" : "dwellingLvl3" },
+				"dwellingUpLvl4": { "id" : 40, "upgrades" : "dwellingLvl4" },
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild2" ] },
+				"dwellingUpLvl6": { "id" : 42, "upgrades" : "dwellingLvl6" },
+				"dwellingUpLvl7": { "id" : 43, "upgrades" : "dwellingLvl7", "requires" : [ "mageGuild2" ] },
+
+				"dwellingUp2Lvl3": { "id" : 46, "upgrades" : "dwellingUpLvl3" }
+			},
 			"horde" : [ 1, 3 ],
 			"icons" : {
 				"fort" : {
