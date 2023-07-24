@@ -11,6 +11,7 @@
 	"factions" :
 	[
 		"config/hota/town",
+		"config/hota/cove/town/buildings.json",
 		"config/hota/cove/puzzleMap.json"
 	],
 	"creatures" :
