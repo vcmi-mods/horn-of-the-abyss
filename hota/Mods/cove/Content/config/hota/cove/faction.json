@@ -6,8 +6,8 @@
 		"nativeTerrain" : "swamp",
 		"boat" : "boatCove",
 		"creatureBackground" : {
-			"120px" : "hota/creaturebg120px",
-			"130px" : "hota/creaturebg130px"
+			"120px" : "hota/cove/creaturebg120px",
+			"130px" : "hota/cove/creaturebg130px"
 		}
 	}
 }

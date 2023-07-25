@@ -1,0 +1,324 @@
+{
+	"cove" : {
+		"town" : {
+			"structures" : {
+				"villageHall" : {
+					"animation" : "hota/cove/town/buildings/villageHall",
+					"area" : "hota/cove/town/area/villageHall",
+					"border" : "hota/cove/town/border/villageHall",
+					"x" : 0,
+					"y" : 176,
+					"z" : 1
+				},
+				"townHall" : {
+					"animation" : "hota/cove/town/buildings/townHall",
+					"area" : "hota/cove/town/area/townHall",
+					"border" : "hota/cove/town/border/townHall",
+					"x" : 0,
+					"y" : 176,
+					"z" : 1
+				},
+				"cityHall" : {
+					"animation" : "hota/cove/town/buildings/cityHall",
+					"area" : "hota/cove/town/area/cityHall",
+					"border" : "hota/cove/town/border/cityHall",
+					"x" : 0,
+					"y" : 148,
+					"z" : 1
+				},
+				"capitol" : {
+					"animation" : "hota/cove/town/buildings/capitol",
+					"area" : "hota/cove/town/area/capitol",
+					"border" : "hota/cove/town/border/capitol",
+					"x" : 0,
+					"y" : 85,
+					"z" : 1
+				},
+
+				"fort" : {
+					"animation" : "hota/cove/town/buildings/fort",
+					"area" : "hota/cove/town/area/fort",
+					"border" : "hota/cove/town/border/fort",
+					"x" : 438,
+					"y" : 109
+				},
+				"citadel" : {
+					"animation" : "hota/cove/town/buildings/citadel",
+					"area" : "hota/cove/town/area/citadel",
+					"border" : "hota/cove/town/border/citadel",
+					"x" : 438,
+					"y" : 109
+				},
+				"castle" : {
+					"animation" : "hota/cove/town/buildings/castle",
+					"area" : "hota/cove/town/area/castle",
+					"border" : "hota/cove/town/border/castle",
+					"x" : 438,
+					"y" : 109,
+					"z" : 2
+				},
+
+				"tavern" : {
+					"animation" : "hota/cove/town/buildings/tavern",
+					"area" : "hota/cove/town/area/tavern",
+					"border" : "hota/cove/town/border/tavern",
+					"x" : 12,
+					"y" : 247,
+					"z" : 2
+				},
+				"blacksmith" : {
+					"animation" : "hota/cove/town/buildings/blacksmith",
+					"area" : "hota/cove/town/area/blacksmith",
+					"border" : "hota/cove/town/border/blacksmith",
+					"x" : 608,
+					"y" : 274
+				},
+				"marketplace" : {
+					"animation" : "hota/cove/town/buildings/marketplace",
+					"area" : "hota/cove/town/area/marketplace",
+					"border" : "hota/cove/town/border/marketplace",
+					"x" : 157,
+					"y" : 289,
+					"z" : 3
+				},
+				"resourceSilo" : {
+					"animation" : "hota/cove/town/buildings/resourceSilo",
+					"area" : "hota/cove/town/area/resourceSilo",
+					"border" : "hota/cove/town/border/resourceSilo",
+					"x" : 320,
+					"y" : 346,
+					"z" : 4
+				},
+				"shipyard" : {
+					"animation" : "hota/cove/town/buildings/shipyard",
+					"area" : "hota/cove/town/area/shipyard",
+					"border" : "hota/cove/town/border/shipyard",
+					"x" : 436,
+					"y" : 164,
+					"z" : 1
+				},
+				"ship" : {
+					"animation" : "hota/cove/town/buildings/ship",
+					"area" : "hota/cove/town/area/ship",
+					"border" : "hota/cove/town/border/ship",
+					"x" : 436,
+					"y" : 164,
+					"z" : 1
+				},
+
+				"special3" : {
+					"animation" : "hota/cove/town/buildings/special3",
+					"area" : "hota/cove/town/area/special3",
+					"border" : "hota/cove/town/border/special3",
+					"x" : 0,
+					"y" : 87
+				},
+				"special4" : {
+					"animation" : "hota/cove/town/buildings/special4",
+					"area" : "hota/cove/town/area/special4",
+					"border" : "hota/cove/town/border/special4",
+					"x" : 236,
+					"y" : 147
+				},
+				"horde1" : {
+					"animation" : "hota/cove/town/buildings/horde1",
+					"area" : "hota/cove/town/area/horde1",
+					"border" : "hota/cove/town/border/horde1",
+					"hidden" : true,
+					"x" : 84,
+					"y" : 65
+				},
+				"horde1Upgr" : {
+					"animation" : "hota/cove/town/buildings/horde1Upgr",
+					"area" : "hota/cove/town/area/horde1Upgr",
+					"border" : "hota/cove/town/border/horde1Upgr",
+					"builds" : "horde1",
+					"hidden" : true,
+					"x" : 84,
+					"y" : 33
+				},
+				"horde2" : {
+					"animation" : "hota/cove/town/buildings/horde2",
+					"area" : "hota/cove/town/area/horde2",
+					"border" : "hota/cove/town/border/horde2",
+					"hidden" : true,
+					"x" : 674,
+					"y" : 43
+				},
+				"horde2Upgr" : {
+					"animation" : "hota/cove/town/buildings/horde2Upgr",
+					"area" : "hota/cove/town/area/horde2Upgr",
+					"border" : "hota/cove/town/border/horde2Upgr",
+					"builds" : "horde2",
+					"hidden" : true,
+					"x" : 674,
+					"y" : 12
+				},
+				"grail" : {
+					"animation" : "hota/cove/town/buildings/grail",
+					"area" : "hota/cove/town/area/grail",
+					"border" : "hota/cove/town/border/grail",
+					"x" : 0,
+					"y" : 0,
+					"z" : -1
+				},
+				"animatedWater" : {
+					"animation" : "hota/cove/town/buildings/animatedWater",
+					"x" : 0,
+					"y" : 211,
+					"z" : -1
+				},
+
+				"mageGuild1" : {
+					"animation" : "hota/cove/town/buildings/mageGuild1",
+					"area" : "hota/cove/town/area/mageGuild1",
+					"border" : "hota/cove/town/border/mageGuild1",
+					"x" : 337,
+					"y" : 110,
+					"z" : 1
+				},
+				"mageGuild2" : {
+					"animation" : "hota/cove/town/buildings/mageGuild2",
+					"area" : "hota/cove/town/area/mageGuild2",
+					"border" : "hota/cove/town/border/mageGuild2",
+					"x" : 319,
+					"y" : 85,
+					"z" : 1
+				},
+				"mageGuild3" : {
+					"animation" : "hota/cove/town/buildings/mageGuild3",
+					"area" : "hota/cove/town/area/mageGuild3",
+					"border" : "hota/cove/town/border/mageGuild3",
+					"x" : 300,
+					"y" : 61,
+					"z" : 1
+				},
+				"mageGuild4" : {
+					"animation" : "hota/cove/town/buildings/mageGuild4",
+					"area" : "hota/cove/town/area/mageGuild4",
+					"border" : "hota/cove/town/border/mageGuild4",
+					"x" : 281,
+					"y" : 39,
+					"z" : 1
+				},
+
+				"dwellingLvl1" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl1",
+					"area" : "hota/cove/town/area/dwellingLvl1",
+					"border" : "hota/cove/town/border/dwellingLvl1",
+					"x" : 282,
+					"y" : 106,
+					"z" : 2
+				},
+				"dwellingLvl2" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl2",
+					"area" : "hota/cove/town/area/dwellingLvl2",
+					"border" : "hota/cove/town/border/dwellingLvl2",
+					"x" : 84,
+					"y" : 65
+				},
+				"dwellingLvl3" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl3",
+					"area" : "hota/cove/town/area/dwellingLvl3",
+					"border" : "hota/cove/town/border/dwellingLvl3",
+					"x" : 588,
+					"y" : 191,
+					"z" : 2
+				},
+				"dwellingLvl4" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl4",
+					"area" : "hota/cove/town/area/dwellingLvl4",
+					"border" : "hota/cove/town/border/dwellingLvl4",
+					"x" : 696,
+					"y" : 43
+				},
+				"dwellingLvl5" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl5",
+					"area" : "hota/cove/town/area/dwellingLvl5",
+					"border" : "hota/cove/town/border/dwellingLvl5",
+					"x" : 370,
+					"y" : 38
+				},
+				"dwellingLvl6" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl6",
+					"area" : "hota/cove/town/area/dwellingLvl6",
+					"border" : "hota/cove/town/border/dwellingLvl6",
+					"x" : 663,
+					"y" : 149,
+					"z" : 1
+				},
+				"dwellingLvl7" : {
+					"animation" : "hota/cove/town/buildings/dwellingLvl7",
+					"area" : "hota/cove/town/area/dwellingLvl7",
+					"border" : "hota/cove/town/border/dwellingLvl7",
+					"x" : 303,
+					"y" : 248,
+					"z" : 3
+				},
+
+				"dwellingUpLvl1" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl1",
+					"area" : "hota/cove/town/area/dwellingUpLvl1",
+					"border" : "hota/cove/town/border/dwellingUpLvl1",
+					"x" : 254,
+					"y" : 42,
+					"z" : 2
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl2",
+					"area" : "hota/cove/town/area/dwellingUpLvl2",
+					"border" : "hota/cove/town/border/dwellingUpLvl2",
+					"x" : 84,
+					"y" : 33
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl3",
+					"area" : "hota/cove/town/area/dwellingUpLvl3",
+					"border" : "hota/cove/town/border/dwellingUpLvl3",
+					"x" : 588,
+					"y" : 64,
+					"z" : 2
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl4",
+					"area" : "hota/cove/town/area/dwellingUpLvl4",
+					"border" : "hota/cove/town/border/dwellingUpLvl4",
+					"x" : 696,
+					"y" : 12
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl5",
+					"area" : "hota/cove/town/area/dwellingUpLvl5",
+					"border" : "hota/cove/town/border/dwellingUpLvl5",
+					"x" : 370,
+					"y" : 0
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl6",
+					"area" : "hota/cove/town/area/dwellingUpLvl6",
+					"border" : "hota/cove/town/border/dwellingUpLvl6",
+					"x" : 663,
+					"y" : 98,
+					"z" : 1
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "hota/cove/town/buildings/dwellingUpLvl7",
+					"area" : "hota/cove/town/area/dwellingUpLvl7",
+					"border" : "hota/cove/town/border/dwellingUpLvl7",
+					"x" : 291,
+					"y" : 236,
+					"z" : 3
+				},
+
+				"dwellingUp2Lvl3" : {
+					"animation" : "hota/cove/town/buildings/dwellingUp2Lvl3",
+					"area" : "hota/cove/town/area/dwellingUp2Lvl3",
+					"border" : "hota/cove/town/border/dwellingUp2Lvl3",
+					"x" : 588,
+					"y" : 64,
+					"z" : 2
+				}
+			}
+		}
+	}
+}
