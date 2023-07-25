@@ -5,11 +5,11 @@
 				"name" : "Waterfall",
 				"creatures" : [[ "nymph" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPWTFL.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPWTFL.wav"]
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/waterfall",
+						"animation" : "hota/cove/mapObjects/dwellings/waterfall",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				}
@@ -18,11 +18,11 @@
 				"name" : "Shack",
 				"creatures" : [[ "crewmate" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPMATR.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPMATR.wav"]
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/shack",
+						"animation" : "hota/cove/mapObjects/dwellings/shack",
 						"mask" : [ "VVV", "VBV", "VAB" ]
 					}
 				}
@@ -31,11 +31,11 @@
 				"name" : "Frigate",
 				"creatures" : [[ "pirate" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPFRIG.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPFRIG.wav"]
 				},
 				"templates" : {
 					"default" : {	
-						"animation" : "hota/map/frigate",
+						"animation" : "hota/cove/mapObjects/dwellings/frigate",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -48,7 +48,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/nest",
+						"animation" : "hota/cove/mapObjects/dwellings/nest",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -57,12 +57,12 @@
 				"name" : "Tower of the Seas",
 				"creatures" : [[ "seaWitch" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPSORC.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPSORC.wav"]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/tower",
+						"animation" : "hota/cove/mapObjects/dwellings/tower",
 						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
 					}
 				}
@@ -71,12 +71,12 @@
 				"name" : "Nix Fort",
 				"creatures" : [[ "nix" ]],
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPNIXF.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPNIXF.wav"]
 				},
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/FORTNIXR",
+						"animation" : "hota/cove/mapObjects/dwellings/FORTNIXR",
 						"mask" : [ "VVV", "VVV", "VAB" ]
 					}
 				}
@@ -86,11 +86,11 @@
 				"creatures" : [[ "seaserpent" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPHASP.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPHASP.wav"]
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/whirpool",
+						"animation" : "hota/cove/mapObjects/dwellings/whirpool",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
@@ -105,11 +105,11 @@
 				"creatures" : [[ "nix" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPNIXF.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPNIXF.wav"]
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/FORTNIX",
+						"animation" : "hota/cove/mapObjects/dwellings/FORTNIX",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ]
 					}
 				}
@@ -119,11 +119,11 @@
 				"creatures" : [[ "seaserpent" ]],
 				"guards" : true,
 				"sounds": {
-					"ambient": ["hota/dwellings/LOOPHASP.wav"]
+					"ambient": ["hota/cove/dwellings/LOOPHASP.wav"]
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/map/whirpoolLarge.DEF",
+						"animation" : "hota/cove/mapObjects/dwellings/whirpoolLarge.DEF",
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
 					}
 				}

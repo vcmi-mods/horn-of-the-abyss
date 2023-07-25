@@ -165,16 +165,16 @@
 			"mageGuild" : 4,
 			"mapObject" : {
 				"filters" : {
-					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
 					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
-					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
 				},
 				"templates" : {
-					"capitol" : { "animation" : "hota/map/capitol.def" },
-					"castle" : { "animation" : "hota/map/castle.def" },
-					"citadel" : { "animation" : "hota/map/citadel.def" },
-					"fort" : { "animation" : "hota/map/fort.def" },
-					"village" : { "animation" : "hota/map/village.def" }
+					"fort" : { "animation" : "hota/cove/mapObjects/town/fort.def" },
+					"citadel" : { "animation" : "hota/cove/mapObjects/town/citadel.def" },
+					"castle" : { "animation" : "hota/cove/mapObjects/town/castle.def" },
+					"village" : { "animation" : "hota/cove/mapObjects/town/village.def" },
+					"capitol" : { "animation" : "hota/cove/mapObjects/town/capitol.def" }
 				}
 			},
 			"moatAbility" : "coveMoat",
