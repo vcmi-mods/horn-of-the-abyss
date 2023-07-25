@@ -1,5 +1,5 @@
 {
-	"basepath" : "hota/townhall/",
+	"basepath" : "hota/cove/town/townhall/",
 	"images" :
 	[
 		{ "frame" : 0, "file" :  "1.png" },
