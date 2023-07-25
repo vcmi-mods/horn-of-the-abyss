@@ -34,11 +34,11 @@
 		},
 		"graphics":
 		{
-			"iconImmune":"hota/spells/specialCloneSpell.bmp",
-			"iconScenarioBonus": "hota/spells/specialCloneSpell.bmp",
-			"iconEffect": "hota/spells/specialCloneSpell.bmp",
-			"iconBook": "hota/spells/specialCloneSpell.bmp",
-			"iconScroll": "hota/spells/specialCloneSpell.bmp"
+			"iconImmune":"hota/cove/spells/specialCloneSpell.bmp",
+			"iconScenarioBonus": "hota/cove/spells/specialCloneSpell.bmp",
+			"iconEffect": "hota/cove/spells/specialCloneSpell.bmp",
+			"iconBook": "hota/cove/spells/specialCloneSpell.bmp",
+			"iconScroll": "hota/cove/spells/specialCloneSpell.bmp"
  
 		},	
 		"levels" : {

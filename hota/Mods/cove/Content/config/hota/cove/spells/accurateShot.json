@@ -18,7 +18,7 @@
 		{
 		},
 		"animation":{
-			"hit":["hota/spells/SP14"]
+			"hit":["hota/cove/spells/SP14"]
 		},
 		"flags" : {
 			"indifferent": true
@@ -26,7 +26,7 @@
 		"targetCondition" : {
 		},
 		"sounds": {
-			"cast": "hota/spells/PIRTABIL"
+			"cast": "hota/cove/spells/PIRTABIL"
 		},
 		"graphics":
 		{

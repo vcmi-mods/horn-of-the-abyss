@@ -742,7 +742,7 @@
 					"hota/banks/AVXbnk80.def" : "AVXbnk80.def",
 					"hota/banks/AVXbnk90.def" : "AVXbnk90.def",
 					"hota/banks/AVXbnk9s.def" : "AVXbnk9s.def",
-					"hota/boats/AVXboat4.def" : "AVXboat4.def",
+					"hota/cove/boats/AVXboat4.def" : "AVXboat4.def",
 					"hota/boats/AVXboat5.def" : "AVXboat5.def",
 					"hota/boats/AVXboat6.def" : "AVXboat6.def",
 					"hota/denOfThieves/avxdens0.def" : "AvXDenS0.def",

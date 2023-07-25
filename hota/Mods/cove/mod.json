@@ -66,13 +66,13 @@
 	],
 	"spells" :
 	[
-		"config/hota/spells/accurateShot",
-		"config/hota/spells/specialClone",
-		"config/hota/spells/moat"
+		"config/hota/cove/spells/accurateShot",
+		"config/hota/cove/spells/specialClone",
+		"config/hota/cove/spells/moat"
 	],
 	"objects" : 
 	[ 
 		"config/hota/cove/dwellings",
-		"config/hota/boats"
+		"config/hota/cove/boats"
 	]
 }
