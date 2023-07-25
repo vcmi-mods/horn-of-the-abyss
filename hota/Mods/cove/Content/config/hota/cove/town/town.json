@@ -149,17 +149,23 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "hota/icons/fortbuildedlarge.bmp",
-						"small" : "hota/icons/fortbuildedsmall.bmp"
+						"large" : "hota/cove/town/icons/fortbuildedlarge.bmp",
+						"small" : "hota/cove/town/icons/fortbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "hota/icons/fortlarge.bmp", "small" : "hota/icons/fortsmall.bmp" }
+					"normal" : {
+						"large" : "hota/cove/town/icons/fortlarge.bmp",
+						"small" : "hota/cove/town/icons/fortsmall.bmp"
+					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "hota/icons/hallbuildedlarge.bmp",
-						"small" : "hota/icons/hallbuildedsmall.bmp"
+						"large" : "hota/cove/town/icons/hallbuildedlarge.bmp",
+						"small" : "hota/cove/town/icons/hallbuildedsmall.bmp"
 					},
-					"normal" : { "large" : "hota/icons/halllarge.bmp", "small" : "hota/icons/hallsmall.bmp" }
+					"normal" : {
+						"large" : "hota/cove/town/icons/halllarge.bmp",
+						"small" : "hota/cove/town/icons/hallsmall.bmp"
+					}
 				}
 			},
 			"mageGuild" : 4,
@@ -198,42 +204,6 @@
 				"Hitchgrove"
 			],
 			"primaryResource" : "sulfur",
-			"siege" : {
-				"gate" : { "arch" : { "x" : 477, "y" : 228 }, "gate" : { "x" : 447, "y" : 282 } },
-				"imagePrefix" : "hota/siege/SGCV",
-				"moat" : { "bank" : { "x" : 414, "y" : 79 }, "moat" : { "x" : 434, "y" : 99 } },
-				"shooter" : "corsair",
-				"towerIconSmall" : "hota/icons/arrowtowerssmall",
-				"towerIconLarge" : "hota/icons/arrowtowerslarge",
-				"static" : {
-					"background" : { "x" : 582, "y" : 48 },
-					"bottom" : { "x" : 521, "y" : 356 },
-					"top" : { "x" : 491, "y" : 112 }
-				},
-				"towers" : {
-					"bottom" : {
-						"battlement" : { "x" : 630, "y" : 516 },
-						"creature" : { "x" : 395, "y" : 310 },
-						"tower" : { "x" : 630, "y" : 516 }
-					},
-					"keep" : {
-						"battlement" : { "x" : 727, "y" : 180 },
-						"creature" : { "x" : 518, "y" : -20 },
-						"tower" : { "x" : 727, "y" : 180 }
-					},
-					"top" : {
-						"battlement" : { "x" : 575, "y" : 35 },
-						"creature" : { "x" : 340, "y" : -165 },
-						"tower" : { "x" : 575, "y" : 35 }
-					}
-				},
-				"walls" : {
-					"bottom" : { "x" : 542, "y" : 401 },
-					"bottomMid" : { "x" : 490, "y" : 320 },
-					"upper" : { "x" : 532, "y" : 72 },
-					"upperMid" : { "x" : 481, "y" : 149 }
-				}
-			},
 			"structures" : {
 				"animatedWater" : {
 					"animation" : "hota/buildings/animatedWater",

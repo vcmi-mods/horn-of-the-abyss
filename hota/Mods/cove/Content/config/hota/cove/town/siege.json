@@ -1,0 +1,48 @@
+{
+	"cove" : {
+		"town" : {
+			"siege" : {
+				"shooter" : "corsair",
+				"imagePrefix" : "hota/cove/town/siege/SGCV",
+				"towerIconSmall" : "hota/cove/town/icons/arrowtowerssmall",
+				"towerIconLarge" : "hota/cove/town/icons/arrowtowerslarge",
+				"gate" : {
+					"arch" : { "x" : 477, "y" : 228 },
+					"gate" : { "x" : 447, "y" : 282 }
+				},
+				"moat" : {
+					"bank" : { "x" : 414, "y" : 79 },
+					"moat" : { "x" : 434, "y" : 99 }
+				},
+				"static" : {
+					"background" : { "x" : 582, "y" : 48 },
+					"bottom" : { "x" : 521, "y" : 356 },
+					"top" : { "x" : 491, "y" : 112 }
+				},
+				"towers" : {
+					"bottom" : {
+						"battlement" : { "x" : 630, "y" : 516 },
+						"creature" : { "x" : 395, "y" : 310 },
+						"tower" : { "x" : 630, "y" : 516 }
+					},
+					"keep" : {
+						"battlement" : { "x" : 727, "y" : 180 },
+						"creature" : { "x" : 518, "y" : -20 },
+						"tower" : { "x" : 727, "y" : 180 }
+					},
+					"top" : {
+						"battlement" : { "x" : 575, "y" : 35 },
+						"creature" : { "x" : 340, "y" : -165 },
+						"tower" : { "x" : 575, "y" : 35 }
+					}
+				},
+				"walls" : {
+					"bottom" : { "x" : 542, "y" : 401 },
+					"bottomMid" : { "x" : 490, "y" : 320 },
+					"upper" : { "x" : 532, "y" : 72 },
+					"upperMid" : { "x" : 481, "y" : 149 }
+				}
+			}
+		}
+	}
+}
