@@ -60,11 +60,11 @@
 		},
 		"graphics" :
 		{
-			"iconSmall" : "hota/iconsSmall/CPrSm171",
-			"iconLarge" : "hota/iconsLarge/TwCrP171",
-			"map" : "hota/map/AVWlepr.def",
+			"iconSmall" : "hota/creatures/iconsSmall/CPrSm171",
+			"iconLarge" : "hota/creatures/iconsLarge/TwCrP171",
+			"map" : "hota/creatures/adventureMap/AVWlepr.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/CLEPRCHN.def",
+			"animation" : "hota/creatures/battle/CLEPRCHN.def",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

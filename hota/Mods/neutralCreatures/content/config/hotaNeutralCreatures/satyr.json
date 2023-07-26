@@ -48,11 +48,11 @@
 		},
 		"graphics" :
 		{
-			"iconSmall" : "hota/iconsSmall/CPrSm169.bmp",
-			"iconLarge" : "hota/iconsLarge/TwCrP169.bmp",
-			"map" : "hota/map/AvWSatyr.def",
+			"iconSmall" : "hota/creatures/iconsSmall/CPrSm169.bmp",
+			"iconLarge" : "hota/creatures/iconsLarge/TwCrP169.bmp",
+			"map" : "hota/creatures/adventureMap/AvWSatyr.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/battle/CSATYR.def",
+			"animation" : "hota/creatures/battle/CSATYR.def",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

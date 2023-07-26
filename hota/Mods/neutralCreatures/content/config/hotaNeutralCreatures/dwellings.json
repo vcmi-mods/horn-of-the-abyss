@@ -12,7 +12,7 @@
 				{
 					"default" : 
 					{
-						"animation" : "hota/mapDwellings/AVGsaty0.def",
+						"animation" : "hota/dwellings/AVGsaty0.def",
 						"mask" : [ "VVV", "VBB", "VAB" ]
 					}
 				}
@@ -28,7 +28,7 @@
 				{
 					"default" : 
 					{
-						"animation" : "hota/mapDwellings/AVGfngrm.def",
+						"animation" : "hota/dwellings/AVGfngrm.def",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -44,7 +44,7 @@
 				{
 					"default" : 
 					{
-						"animation" : "hota/mapDwellings/AVGlprch.def",
+						"animation" : "hota/dwellings/AVGlprch.def",
 						"mask" : [ "VVV", "VVB", "VBA" ]
 					}
 				}
