@@ -61,7 +61,8 @@
 	],
 	"battlefields":
 	[
-		"config/hotaTerrains/battlefields.json"
+		"config/hota/highlands/battlefields.json",
+		"config/hota/wasteland/battlefields.json"
 	],
 	"obstacles":
 	[
