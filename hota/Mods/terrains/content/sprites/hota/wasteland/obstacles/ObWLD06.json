@@ -1,12 +1,12 @@
 {
-    "basepath" : "obstacles/frames/",
+    "basepath" : "hota/wasteland/obstacles/frames/",
     "sequences" :
     [
         {
             "group" : 0,
             "frames" :
             [
-                "ObWLD10.png"
+                "ObWLD06.png"
             ]
         }
     ]

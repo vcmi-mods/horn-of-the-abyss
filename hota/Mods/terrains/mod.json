@@ -66,7 +66,8 @@
 	],
 	"obstacles":
 	[
-		"config/hotaTerrains/obstacles.json"
+		"config/hota/highlands/obstacles.json",
+		"config/hota/wasteland/obstacles.json"
 	],
 	"terrains" :
 	[

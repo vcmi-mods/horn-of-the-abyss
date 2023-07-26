@@ -17,7 +17,7 @@
 		"width" : 3,
 		"height" : 3,
 		"blockedTiles" :  [1, 2, -15],
-		"animation" : "hota/obstacles/ObHLD00.def",
+		"animation" : "hota/highlands/obstacles/ObHLD00.def",
 		"absolute" : false
 	},
 	"hotaHLD01" : {
@@ -26,7 +26,7 @@
 		"width" : 4,
 		"height" : 3,
 		"blockedTiles" :  [0, 1, 2, -15, -16],
-		"animation" : "hota/obstacles/ObHLD01.def",
+		"animation" : "hota/highlands/obstacles/ObHLD01.def",
 		"absolute" : false
 	},
 	"hotaHLD02" : {
@@ -35,7 +35,7 @@
 		"width" : 2,
 		"height" : 2,
 		"blockedTiles" :  [0, 1, -16],
-		"animation" : "hota/obstacles/ObHLD02.def",
+		"animation" : "hota/highlands/obstacles/ObHLD02.def",
 		"absolute" : false
 	},
 	"hotaHLD03" : {
@@ -44,7 +44,7 @@
 		"width" : 4,
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
-		"animation" : "hota/obstacles/ObHLD03.def",
+		"animation" : "hota/highlands/obstacles/ObHLD03.def",
 		"absolute" : false
 	},
 	"hotaHLD04" : {
@@ -53,7 +53,7 @@
 		"width" : 4,
 		"height" : 3,
 		"blockedTiles" :  [1, 2, -15],
-		"animation" : "hota/obstacles/ObHLD04.def",
+		"animation" : "hota/highlands/obstacles/ObHLD04.def",
 		"absolute" : false
 	},
 	"hotaHLD05" : {
@@ -62,7 +62,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD05.def",
+		"animation" : "hota/highlands/obstacles/ObHLD05.def",
 		"absolute" : false
 	},
 	"hotaHLD06" : {
@@ -71,7 +71,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD06.def",
+		"animation" : "hota/highlands/obstacles/ObHLD06.def",
 		"absolute" : false
 	},
 	"hotaHLD07" : {
@@ -80,7 +80,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD07.def",
+		"animation" : "hota/highlands/obstacles/ObHLD07.def",
 		"absolute" : false
 	},
 	"hotaHLD08" : {
@@ -89,7 +89,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD08.def",
+		"animation" : "hota/highlands/obstacles/ObHLD08.def",
 		"absolute" : false
 	},
 	"hotaHLD09" : {
@@ -98,7 +98,7 @@
 		"width" : 3,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD09.def",
+		"animation" : "hota/highlands/obstacles/ObHLD09.def",
 		"absolute" : false
 	},
 	"hotaHLD10" : {
@@ -107,7 +107,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD10.def",
+		"animation" : "hota/highlands/obstacles/ObHLD10.def",
 		"absolute" : false
 	},
 	"hotaHLD11" : {
@@ -116,7 +116,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD11.def",
+		"animation" : "hota/highlands/obstacles/ObHLD11.def",
 		"absolute" : false
 	},
 	"hotaHLD12" : {
@@ -125,7 +125,7 @@
 		"width" : 2,
 		"height" : 1,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD12.def",
+		"animation" : "hota/highlands/obstacles/ObHLD12.def",
 		"absolute" : false
 	},
 	"hotaHLD13" : {
@@ -134,7 +134,7 @@
 		"width" : 3,
 		"height" : 2,
 		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObHLD13.def",
+		"animation" : "hota/highlands/obstacles/ObHLD13.def",
 		"absolute" : false
 	},
 	"hotaHLD14" : {
@@ -143,7 +143,7 @@
 		"width" : 8,
 		"height" : 4,
 		"blockedTiles" :  [-15, -14, -13, -12, 1, 2, 3, 4],
-		"animation" : "hota/obstacles/ObHLD14.def",
+		"animation" : "hota/highlands/obstacles/ObHLD14.def",
 		"absolute" : false
 	},
 	"hotaHLD15" : {
@@ -152,7 +152,7 @@
 		"width" : 10,
 		"height" : 3,
 		"blockedTiles" :  [-9, -10, -11, -12, -13, -14, -15, -16, -27, -28, -29, -30, -31, -32, -33, 1, 2, 3, 4, 5, 6, 7, 8],
-		"animation" : "hota/obstacles/ObHLD15.def",
+		"animation" : "hota/highlands/obstacles/ObHLD15.def",
 		"absolute" : false
 	},
 	"hotaHLD16" : {
@@ -161,7 +161,7 @@
 		"width" : 8,
 		"height" : 5,
 		"blockedTiles" :  [0, 1, 2, 3, 4, 5, -11, -12, -13, -14, -15, -16, -30, -31],
-		"animation" : "hota/obstacles/ObHLD16.def",
+		"animation" : "hota/highlands/obstacles/ObHLD16.def",
 		"absolute" : false
 	},
 	"hotaHLD17" : {
@@ -170,7 +170,7 @@
 		"width" : 11,
 		"height" : 2,
 		"blockedTiles" :  [1, 2, 3, 4, 5, 6, 7, 8, 9, -9, -8, -7, -10, -11, -12, -13, -14, -15],
-		"animation" : "hota/obstacles/ObHLD17.def",
+		"animation" : "hota/highlands/obstacles/ObHLD17.def",
 		"absolute" : false
 	},
 	"hotaHLD19" : {
@@ -179,144 +179,7 @@
 		"width" : 4,
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
-		"animation" : "hota/obstacles/ObHLD19.def",
+		"animation" : "hota/highlands/obstacles/ObHLD19.def",
 		"absolute" : false
-	},
-	"hotaWLD00" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 2,
-		"height" : 3,
-		"blockedTiles" :  [1],
-		"animation" : "hota/obstacles/ObWLD00.def",
-		"absolute" : false
-	},
-	"hotaWLD01" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 2,
-		"height" : 3,
-		"blockedTiles" :  [0, 1],
-		"animation" : "hota/obstacles/ObWLD01.def",
-		"absolute" : false
-	},
-	"hotaWLD02" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 3,
-		"height" : 2,
-		"blockedTiles" :  [0, 1, 2],
-		"animation" : "hota/obstacles/ObWLD02.def",
-		"absolute" : false
-	},
-	"hotaWLD03" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 3,
-		"height" : 3,
-		"blockedTiles" :  [1, 2],
-		"animation" : "hota/obstacles/ObWLD03.def",
-		"absolute" : false
-	},
-	"hotaWLD04" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 2,
-		"height" : 3,
-		"blockedTiles" :  [1],
-		"animation" : "hota/obstacles/ObWLD04.def",
-		"absolute" : false
-	},
-	"hotaWLD05" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 2,
-		"height" : 3,
-		"blockedTiles" :  [1],
-		"animation" : "hota/obstacles/ObWLD05.def",
-		"absolute" : false
-	},
-	"hotaWLD06" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 3,
-		"height" : 3,
-		"blockedTiles" :  [1],
-		"animation" : "hota/obstacles/ObWLD06.def",
-		"absolute" : false
-	},
-	"hotaWLD07" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 3,
-		"height" : 3,
-		"blockedTiles" :  [1, 2],
-		"animation" : "hota/obstacles/ObWLD07.def",
-		"absolute" : false
-	},
-	"hotaWLD08" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 5,
-		"height" : 3,
-		"blockedTiles" :  [0, 1, 2, 3, -14, -15, -16],
-		"animation" : "hota/obstacles/ObWLD08.def",
-		"absolute" : false
-	},
-	"hotaWLD09" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 5,
-		"height" : 3,
-		"blockedTiles" :  [-14, -15, -16],
-		"animation" : "hota/obstacles/ObWLD09.def",
-		"absolute" : false
-	},
-	"hotaWLD10" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 6,
-		"height" : 2,
-		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13],
-		"animation" : "hota/obstacles/ObWLD10.def",
-		"absolute" : false
-	},
-	"hotaWLD11" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 5,
-		"height" : 4,
-		"blockedTiles" :  [0, 1, 2, 3, -13, -14, -15, -16],
-		"animation" : "hota/obstacles/ObWLD11.def",
-		"absolute" : false
-	},
-	"hotaWLD12" : {
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 4,
-		"height" : 2,
-		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13, -12],
-		"animation" : "hota/obstacles/ObWLD12.def",
-		"absolute" : false
-	},
-	"hotaWLD13" :
-	{
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 163,
-		"height" : 302,
-		"blockedTiles" :  [106, 107, 108, 109, 110, 111, 128, 129, 130, 146, 147, 148],
-		"animation" : "hota/obstacles/frames/ObWLD13.png",
-		"absolute" : true
-	},
-	"hotaWLD14" :
-	{
-		"allowedTerrains" : ["wasteland"],
-		"specialBattlefields" : [],
-		"width" : 104,
-		"height" : 126,
-		"blockedTiles" :  [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 60, 61, 62, 63, 76, 77, 78, 79, 80, 81],
-		"animation" : "hota/obstacles/frames/ObWLD14.png",
-		"absolute" : true
 	}
 }
