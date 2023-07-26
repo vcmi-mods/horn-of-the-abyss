@@ -1,61 +1,32 @@
 {
 	"steelGolem":
 	{
-		"advMapAmount" :
+		"name" :
 		{
-
-			"max" : 16,
-			"min" : 10
-		},
-			"name" :
-		{
-			"plural" : "Steel Golems",
-			"singular" : "Steel Golem"
+			"singular" : "Steel Golem",
+			"plural" : "Steel Golems"
 		},
 		"faction" : "neutral",
-		"aiValue" : 597,
+		"level" : 4,
+		"cost" : { "gold" : 400 },
+		"speed" : 6,
+		"hitPoints" : 45,
 		"attack" : 10,
-		"cost" :
-		{
-			"gold" : 400
-		},
+		"defense" : 11,
 		"damage" :
 		{
-			"max" : 8,
-			"min" : 6
+			"min" : 6,
+			"max" : 8
 		},
-		"defense" : 11,
 		"fightValue" : 597,
-		"hasDoubleWeek": false,
-		"graphics" :
+		"aiValue" : 597,
+		"advMapAmount" :
 		{
-			"animation" : "hota/battle/cstlgole.def",
-			"map" : "hota/map/avwslgl0.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall" : "hota/iconsSmall/CPrSm172.bmp",
-			"iconLarge" : "hota/iconsLarge/TwCrP172.png",
-			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1,
-				"idle" : 10.00,
-				"attack" : 1
-			}
+			"min" : 10,
+			"max" : 16
 		},
 		"growth" : 4,
-		"hitPoints" : 45,
-		"level" : 4,
-
-
-		"sound" :
-		{
-			"attack": "hota/steelGolem/SLGLATTK.wav",
-			"defend": "hota/steelGolem/SLGLDFND.wav",
-			"killed": "hota/steelGolem/SLGLKILL.wav",
-			"move": "hota/steelGolem/SLGLMOVE.wav",
-			"wince": "hota/steelGolem/SLGLWNCE.wav"
-		},
-		"speed" : 6,
+		"hasDoubleWeek": false,
 		"abilities" :
 		{
 			"magicResistance" :
@@ -68,6 +39,29 @@
 			{
 				"type" : "NON_LIVING"
 			}
+		},
+		"graphics" :
+		{
+			"iconSmall" : "hota/iconsSmall/CPrSm172.bmp",
+			"iconLarge" : "hota/iconsLarge/TwCrP172.png",
+			"map" : "hota/map/avwslgl0.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/battle/cstlgole.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1,
+				"idle" : 10.00,
+				"attack" : 1
+			}
+		},
+		"sound" :
+		{
+			"attack": "hota/steelGolem/SLGLATTK.wav",
+			"defend": "hota/steelGolem/SLGLDFND.wav",
+			"killed": "hota/steelGolem/SLGLKILL.wav",
+			"move": "hota/steelGolem/SLGLMOVE.wav",
+			"wince": "hota/steelGolem/SLGLWNCE.wav"
 		}
 	}
 }
