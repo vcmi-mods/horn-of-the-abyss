@@ -1,19 +1,19 @@
 {
-	"core:creatureBank" : 
+	"core:creatureBank" :
 	{
-		"types" : 
+		"types" :
 		{
-			"ruins" : 
+			"ruins" :
 			{
 				"name" : "Ruins",
 				"templates" :
 				{
 					"base" :
 					{
-						"animation" : "hota/ruins/avxruins.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"animation" : "hota/ruins/avxruins.def",
+						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"mask" : [ "VVVV", "VVBV", "VBAB"],
-						"allowedTerrains":["highlands"] 							
+						"allowedTerrains":["highlands"]
 					}
 				},
 				"sounds": {
@@ -21,8 +21,8 @@
 					"visit": ["hota/RUINSVIS.wav"]
 				},
 				"rmg" : {
-					"value"		: 1000,
-					"rarity"	: 100
+					"value" : 1000,
+					"rarity" : 100
 				},
 				"levels":
 				[
@@ -38,9 +38,9 @@
 						"combat_value": 3000,
 						"reward" : {
 							"value": 4000,
-							"resources": 
+							"resources":
 							{
-								"gold" : 1000	
+								"gold" : 1000
 							}
 						}
 					},
@@ -56,9 +56,9 @@
 						"combat_value": 3000,
 						"reward" : {
 							"value": 4000,
-							"resources": 
+							"resources":
 							{
-								"gold" : 2000		
+								"gold" : 2000
 							}
 						}
 					},
@@ -74,9 +74,9 @@
 						"combat_value": 3000,
 						"reward" : {
 							"value": 4000,
-							"resources": 
+							"resources":
 							{
-								"gold" : 3000	
+								"gold" : 3000
 							}
 						}
 					},
@@ -92,9 +92,9 @@
 						"combat_value": 3000,
 						"reward" : {
 							"value": 4000,
-							"resources": 
+							"resources":
 							{
-								"gold" : 4000	
+								"gold" : 4000
 							}
 						}
 					}

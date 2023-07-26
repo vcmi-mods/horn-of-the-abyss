@@ -7,22 +7,22 @@
 				"templates" : {
 					"AVLbon00" : {
 						"animation" : "hota/bones/AVLbon00",
-						"mask" : [ "VB" ], 
+						"mask" : [ "VB" ],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 					"AVLbon01" : {
 						"animation" : "hota/bones/AVLbon01",
-						"mask" : [ "BB" ], 
+						"mask" : [ "BB" ],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 					"AVLbon02" : {
 						"animation" : "hota/bones/AVLbon02",
-						"mask" : [ "BB" ], 
+						"mask" : [ "BB" ],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					},
 					"AVLbon03" : {
 						"animation" : "hota/bones/AVLbon03",
-						"mask" : [ "VVVVV", "VBBBV", "VVVVV"  ],
+						"mask" : [ "VVVVV", "VBBBV", "VVVVV" ],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					}
 				}

@@ -31,8 +31,8 @@
 				],
 				"onVisitedMessage": "{Prospector}\r\n\r\nThe prospector curses the depleted vein, then wails and begs. Obviously, there's nothing else he can do for you this week.",
 				"templates" : {
-					"avtprosp" : { "animation" : "hota/prospector/avtprosp", 
-						"mask" : [ "VVVV", "VBAB" ], 
+					"avtprosp" : { "animation" : "hota/prospector/avtprosp",
+						"mask" : [ "VVVV", "VBAB" ],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"allowedTerrains": [ "wasteland"]
 					}

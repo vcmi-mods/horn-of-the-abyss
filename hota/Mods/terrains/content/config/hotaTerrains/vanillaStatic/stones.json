@@ -5,58 +5,58 @@
 				"name" : "Stone",
 				"templates" : {
 				
-					"avlrhl00" : { "animation" : "hota/stones/avlrhl00", 
-					"mask" : [ "VB" ], 
+					"avlrhl00" : { "animation" : "hota/stones/avlrhl00",
+					"mask" : [ "VB" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl01" : { "animation" : "hota/stones/avlrhl01", 
-					"mask" : [ "VV", "VB" ], 
+					"avlrhl01" : { "animation" : "hota/stones/avlrhl01",
+					"mask" : [ "VV", "VB" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl02" : { "animation" : "hota/stones/avlrhl02", 
-					"mask" : [ "BB" ], 
+					"avlrhl02" : { "animation" : "hota/stones/avlrhl02",
+					"mask" : [ "BB" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl03" : { "animation" : "hota/stones/avlrhl03", 
-					"mask" : [ "VV", "BB" ], 
+					"avlrhl03" : { "animation" : "hota/stones/avlrhl03",
+					"mask" : [ "VV", "BB" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl04" : { "animation" : "hota/stones/avlrhl04", 
-					"mask" : [ "VBV" ], 
+					"avlrhl04" : { "animation" : "hota/stones/avlrhl04",
+					"mask" : [ "VBV" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 					
-					"avlrhl05" : { "animation" : "hota/stones/avlrhl05", 
-					"mask" : [ "B" ], 
+					"avlrhl05" : { "animation" : "hota/stones/avlrhl05",
+					"mask" : [ "B" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl06" : { "animation" : "hota/stones/avlrhl06", 
-					"mask" : [ "VB" ], 
+					"avlrhl06" : { "animation" : "hota/stones/avlrhl06",
+					"mask" : [ "VB" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl07" : { "animation" : "hota/stones/avlrhl07", 
-					"mask" : [ "B" ], 
+					"avlrhl07" : { "animation" : "hota/stones/avlrhl07",
+					"mask" : [ "B" ],
                     "allowedTerrains": [ "highlands" ]
 					},
 
-					"avlrhl08" : { "animation" : "hota/stones/avlrhl08", 
-					"mask" : [ "VBV" ], 
+					"avlrhl08" : { "animation" : "hota/stones/avlrhl08",
+					"mask" : [ "VBV" ],
                     "allowedTerrains": [ "highlands" ]
-					},				
+					},
 				
-					"AVLrws01" : { "animation" : "hota/stones/AVLrws01", 
-					"mask" : [ "VVV", "VBB" ], 
+					"AVLrws01" : { "animation" : "hota/stones/AVLrws01",
+					"mask" : [ "VVV", "VBB" ],
                     "allowedTerrains": [ "wasteland" ]
 					},
 					
-					"AVLrws03" : { "animation" : "hota/stones/AVLrws03", 
-					"mask" : [ "VBV" ], 
+					"AVLrws03" : { "animation" : "hota/stones/AVLrws03",
+					"mask" : [ "VBV" ],
                     "allowedTerrains": [ "wasteland" ]
 					}
 				}
@@ -65,18 +65,12 @@
 				"name" : "Rock",
 				"templates" : {
 					
-					"AVLrws02" : { "animation" : "hota/stones/AVLrws02", 
-					"mask" : [ "VVV", "VBB" ], 
+					"AVLrws02" : { "animation" : "hota/stones/AVLrws02",
+					"mask" : [ "VVV", "VBB" ],
                     "allowedTerrains": [ "wasteland" ]
 					}
 				}
-			}			
+			}
 		}
 	}
 }
-	
-	
-	
-
-
-	

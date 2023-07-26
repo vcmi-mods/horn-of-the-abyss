@@ -14,8 +14,8 @@
 					"visit" : ["STORE"]
 				},
 				"templates" : {
-					"avstrblz" : { "animation" : "hota/trailblazer/avstrblz", 
-						"mask" : [ "VVV","VVV", "VBA" ], 
+					"avstrblz" : { "animation" : "hota/trailblazer/avstrblz",
+						"mask" : [ "VVV","VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "wasteland"]
 					}

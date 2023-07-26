@@ -6,8 +6,8 @@
 			"jaw" : {
 				"templates" : {
 					"jaws" : {
-						"animation" : "hota/bones/jaws", 
-						"mask" : [ "BB" ], 
+						"animation" : "hota/bones/jaws",
+						"mask" : [ "BB" ],
 						"allowedTerrains": [ "sand", "wasteland" ]
 					}
 				}

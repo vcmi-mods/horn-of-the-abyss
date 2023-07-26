@@ -12,12 +12,12 @@
 					},
 					
 					"AVLwll01" : { "animation" : "hota/lakes/AVLwll01",
-					"mask" : [ "BBB" ], 
+					"mask" : [ "BBB" ],
 					"allowedTerrains": [ "wasteland" ]
 					},
 					
 					"AVLwll02" : { "animation" : "hota/lakes/AVLwll02",
-					"mask" : [ "VBBV" ], 
+					"mask" : [ "VBBV" ],
 					"allowedTerrains": [ "wasteland" ]
 					}
 				}

@@ -3,7 +3,7 @@
 		"name": "Derrick",
 		"handler": "configurable",
 		"types" : {
-			"derrick" : 
+			"derrick" :
 			{
 				"name": "Derrick (+500 gold on first week, 1000 gold on every other week)",
 				"rmg" : {
@@ -32,17 +32,17 @@
 					"period" : 7,
 					"visitors" : true
 				},
-				"templates" : 
+				"templates" :
 				{
-					"avmoilpm" : 
+					"avmoilpm" :
 					{
-						"animation" : "hota/derrick/avmoilpm", 
-						"visitableFrom" : [ "---", "-++", "+++" ], 
-						"mask" : ["VVV", "VVV", "VBA"], 
+						"animation" : "hota/derrick/avmoilpm",
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"mask" : ["VVV", "VVV", "VBA"],
 						"allowedTerrains": ["wasteland"]
 					}
 				}
 			}
-		}	
+		}
 	}
 }

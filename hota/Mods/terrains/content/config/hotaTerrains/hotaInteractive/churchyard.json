@@ -1,9 +1,9 @@
 {
-	"core:creatureBank" : 
+	"core:creatureBank" :
 	{
-		"types" : 
+		"types" :
 		{
-			"churchyard" : 
+			"churchyard" :
 			{
 				"name" : "Churchyard",
 				"templates" :
@@ -11,9 +11,9 @@
 					"highlands" :
 					{
 						"animation" : "hota/banks/avcmetrh.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
+						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"mask" : [ "VVVV", "VVVV", "VBAB"],
-						"allowedTerrains":[ "highlands" ] 
+						"allowedTerrains":[ "highlands" ]
 					}
 				},
 				"sounds": {
@@ -21,8 +21,8 @@
 					"visit": ["hota/CEMETRY.wav"]
 				},
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 100
+					"value" : 1500,
+					"rarity" : 100
 				},
 				"levels":[
 					{
@@ -30,7 +30,7 @@
 						"guards": [
 							{ "amount": 15, "type" : "zombieLord" },
 							{ "amount": 15, "type" : "zombieLord" },
-							{ "amount": 15, "type" : "zombieLord"},
+							{ "amount": 15, "type" : "zombieLord" },
 							{ "amount": 15, "type" : "zombieLord" },
 							{ "amount": 15, "type" : "zombieLord" },
 							{ "amount": 15, "type" : "zombieLord" }
@@ -38,7 +38,7 @@
 						"combat_value": 2000,
 						"reward" : {
 							"value": 3000,
-							"resources": 
+							"resources":
 							{
 								"gold" : 2500
 							},

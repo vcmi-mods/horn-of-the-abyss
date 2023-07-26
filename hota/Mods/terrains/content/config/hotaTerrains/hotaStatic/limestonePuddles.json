@@ -6,8 +6,8 @@
 			"limestonePuddles" : {
 				"templates" : {
 					"AVLwml00" : {
-						"animation" : "hota/puddles/AVLwml00", 
-						"mask" : [ "V" ], 
+						"animation" : "hota/puddles/AVLwml00",
+						"mask" : [ "V" ],
 						"allowedTerrains": [ "wasteland" ]
 					}
 				}

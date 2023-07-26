@@ -2,18 +2,18 @@
 	"core:obelisk" : {
 		"types" : {
 			"object" : {
-				"templates" : { 
-					"AvXOblOr" : { 
-						"animation" : "hota/obelisk/AvXOblOr", 
-						"visitableFrom" : [ "---", "+-+", "+++" ], 
-						"mask" : [ "VV", "VA" ], 
-						"allowedTerrains": [ "highlands" ] 
+				"templates" : {
+					"AvXOblOr" : {
+						"animation" : "hota/obelisk/AvXOblOr",
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "highlands" ]
 					},
 					"AvXOblT" : { 
-						"animation" : "hota/obelisk/AvXOblT", 
-						"visitableFrom" : [ "---", "+-+", "+++" ], 
+						"animation" : "hota/obelisk/AvXOblT",
+						"visitableFrom" : [ "---", "+-+", "+++" ],
 						"mask" : [ "VV", "VA" ],
-						"allowedTerrains": [ "wasteland" ] 
+						"allowedTerrains": [ "wasteland" ]
 					}
 				}
 			}

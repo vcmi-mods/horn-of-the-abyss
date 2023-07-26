@@ -3,12 +3,12 @@
 		"name": "Gazebo",
 		"handler": "configurable",
 		"types" : {
-			"gazebo" : 
+			"gazebo" :
 			{
 				"name": "Gazebo (+2000 experience for 1000 gold once per hero)",
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 50,
+					"value" : 1500,
+					"rarity" : 50,
 					"mapLimit" : 32
 				},
 				"sounds" : {
@@ -16,7 +16,7 @@
 				},
 				"rewards" :
 				[
-					{ 
+					{
 						"limiter":
 						{
 							"resources" : {"gold" : 1000}
@@ -30,12 +30,12 @@
 				"onEmptyMessage" : "{Gazebo}\r\n\r\nAn old Knight appears on the steps of the gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. Come back when you scrape up a thousand gold.\"",
 				"canRefuse": true,
 				"visitMode" : "once",
-				"templates" : 
+				"templates" :
 				{
-					"avxgazeb" : 
+					"avxgazeb" :
 					{
-						"animation" : "hota/gazebo/avxgazeb", 
-						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"animation" : "hota/gazebo/avxgazeb",
+						"visitableFrom" : [ "---", "+++", "+++" ],
 						"mask" : ["VVV", "VAV"], 
 						"allowedTerrains": ["highlands"]
 					}
