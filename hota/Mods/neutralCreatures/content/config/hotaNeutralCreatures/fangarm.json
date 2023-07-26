@@ -70,11 +70,11 @@
 		},
 		"sound" :
 		{
-			"attack": "hota/Fangarm/FNGRATTK.wav",
-			"defend": "hota/Fangarm/FNGRDFND.wav",
-			"killed": "hota/Fangarm/FNGRKILL.wav",
-			"move": "hota/Fangarm/FNGRMOVE.wav",
-			"wince": "hota/Fangarm/FNGRWNCE.wav"
+			"attack": "hota/creatures/Fangarm/FNGRATTK.wav",
+			"defend": "hota/creatures/Fangarm/FNGRDFND.wav",
+			"killed": "hota/creatures/Fangarm/FNGRKILL.wav",
+			"move": "hota/creatures/Fangarm/FNGRMOVE.wav",
+			"wince": "hota/creatures/Fangarm/FNGRWNCE.wav"
 		}
 	}
 }

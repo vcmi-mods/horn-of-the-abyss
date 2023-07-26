@@ -75,12 +75,12 @@
 		},
 		"sound" :
 		{
-			"attack": "hota/leprechaun/LEPRATTK.wav",
-			"defend": "hota/leprechaun/LEPRDFND.wav",
-			"killed": "hota/leprechaun/LEPRKILL.wav",
-			"move": "hota/leprechaun/LEPRMOVE.wav",
-			"shoot": "hota/leprechaun/LEPRSHOT.wav",
-			"wince": "hota/leprechaun/LEPRWNCE.wav"
+			"attack": "hota/creatures/leprechaun/LEPRATTK.wav",
+			"defend": "hota/creatures/leprechaun/LEPRDFND.wav",
+			"killed": "hota/creatures/leprechaun/LEPRKILL.wav",
+			"move": "hota/creatures/leprechaun/LEPRMOVE.wav",
+			"shoot": "hota/creatures/leprechaun/LEPRSHOT.wav",
+			"wince": "hota/creatures/leprechaun/LEPRWNCE.wav"
 		}
 	}
 }

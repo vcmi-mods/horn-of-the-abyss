@@ -57,11 +57,11 @@
 		},
 		"sound" :
 		{
-			"attack": "hota/steelGolem/SLGLATTK.wav",
-			"defend": "hota/steelGolem/SLGLDFND.wav",
-			"killed": "hota/steelGolem/SLGLKILL.wav",
-			"move": "hota/steelGolem/SLGLMOVE.wav",
-			"wince": "hota/steelGolem/SLGLWNCE.wav"
+			"attack": "hota/creatures/steelGolem/SLGLATTK.wav",
+			"defend": "hota/creatures/steelGolem/SLGLDFND.wav",
+			"killed": "hota/creatures/steelGolem/SLGLKILL.wav",
+			"move": "hota/creatures/steelGolem/SLGLMOVE.wav",
+			"wince": "hota/creatures/steelGolem/SLGLWNCE.wav"
 		}
 	}
 }

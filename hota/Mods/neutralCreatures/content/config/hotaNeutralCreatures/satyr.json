@@ -63,11 +63,11 @@
 		},
 		"sound" :
 		{
-			"attack": "hota/satyr/SATYATTK.wav",
-			"defend": "hota/satyr/SATYDFND.wav",
-			"killed": "hota/satyr/SATYKILL.wav",
-			"move": "hota/satyr/SATYMOVE.wav",
-			"wince": "hota/satyr/SATYWNCE.wav"
+			"attack": "hota/creatures/satyr/SATYATTK.wav",
+			"defend": "hota/creatures/satyr/SATYDFND.wav",
+			"killed": "hota/creatures/satyr/SATYKILL.wav",
+			"move": "hota/creatures/satyr/SATYMOVE.wav",
+			"wince": "hota/creatures/satyr/SATYWNCE.wav"
 		}
 	}
 }

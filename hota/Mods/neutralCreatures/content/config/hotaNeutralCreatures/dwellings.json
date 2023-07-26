@@ -22,7 +22,7 @@
 				"name" : "Ziggurat",
 				"creatures" : [[ "fangarm" ]],
 				"sounds": {
-					"ambient": ["hota/LOOPBEHD.wav"]
+					"ambient": ["hota/dwellings/LOOPBEHD.wav"]
 				},
 				"templates" : 
 				{
