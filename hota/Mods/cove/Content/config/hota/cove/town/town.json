@@ -132,11 +132,11 @@
 					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
 				},
 				"templates" : {
-					"fort" : { "animation" : "hota/cove/mapObjects/town/fort.def" },
-					"citadel" : { "animation" : "hota/cove/mapObjects/town/citadel.def" },
-					"castle" : { "animation" : "hota/cove/mapObjects/town/castle.def" },
-					"village" : { "animation" : "hota/cove/mapObjects/town/village.def" },
-					"capitol" : { "animation" : "hota/cove/mapObjects/town/capitol.def" }
+					"fort" : { "animation" : "hota/cove/town/adventureMap/fort.def" },
+					"citadel" : { "animation" : "hota/cove/town/adventureMap/citadel.def" },
+					"castle" : { "animation" : "hota/cove/town/adventureMap/castle.def" },
+					"village" : { "animation" : "hota/cove/town/adventureMap/village.def" },
+					"capitol" : { "animation" : "hota/cove/town/adventureMap/capitol.def" }
 				}
 			},
 
