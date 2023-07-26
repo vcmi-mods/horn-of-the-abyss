@@ -69,6 +69,7 @@
 	],
 	"terrains" :
 	[
-		"config/hotaTerrains/terrains.json"
+		"config/hota/highlands/terrains.json",
+		"config/hota/wasteland/terrains.json"
 	]
 }

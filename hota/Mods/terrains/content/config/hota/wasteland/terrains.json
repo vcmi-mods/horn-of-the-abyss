@@ -1,0 +1,19 @@
+{
+	"wasteland" :
+	{
+		"text":"Wasteland",
+		"moveCost" : 125,
+		"minimapUnblocked" : [ 180, 105, 39 ],
+		"minimapBlocked"   : [ 164, 86, 29 ],
+		"music" : "hota/WASTELAND.mp3",
+		"tiles" : "hota/wasteland/tiles",
+		"type": ["LAND", "SURFACE"], //default values
+		"shortIdentifier":"ws",
+		"river" : "mudRiver",
+		"rockTerrain":"rock",
+		"horseSound" : "hota/horse31",
+		"horseSoundPenalty" : "horse20",
+		"terrainViewPatterns" : "hota",
+		"battleFields" : ["wasteland_rocks"]
+	}
+}
