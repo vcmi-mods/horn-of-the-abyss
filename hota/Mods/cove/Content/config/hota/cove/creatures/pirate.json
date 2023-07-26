@@ -33,7 +33,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/pirate.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/pirate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/pirate.png",
 			"map" : "hota/cove/creatures/adventureMap/pirate.def",
 			"mapMask" : [ "VVV", "VAV"],

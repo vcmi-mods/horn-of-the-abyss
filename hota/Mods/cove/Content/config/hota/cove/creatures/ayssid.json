@@ -34,7 +34,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/ayssid.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/ayssid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/ayssid.png",
 			"map" : "hota/cove/creatures/adventureMap/ayssid.def",
 			"mapMask" : [ "VVV", "VAV"],

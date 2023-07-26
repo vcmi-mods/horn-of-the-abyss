@@ -24,7 +24,7 @@
 			"max" : 25
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/seaman.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seaman.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaman.png",
 			"map" : "hota/cove/creatures/adventureMap/seaman.def",
 			"mapMask" : [ "VVV", "VAV"],

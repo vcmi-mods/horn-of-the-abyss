@@ -42,7 +42,7 @@
 //			"preciseShot" : { "subtype" : 0, "type" : "DEATH_STARE", "val" : 3 }
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/seadog.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seadog.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seadog.png",
 			"map" : "hota/cove/creatures/adventureMap/seadog.def",
 			"mapMask" : [ "VVV", "VAV"],

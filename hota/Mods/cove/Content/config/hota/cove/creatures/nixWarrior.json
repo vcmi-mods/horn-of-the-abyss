@@ -30,7 +30,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/nixWarrior.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/nixWarrior.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nixWarrior.png",
 			"map" : "hota/cove/creatures/adventureMap/nixWarrior.def",
 			"mapMask" : [ "VVV", "VAV"],

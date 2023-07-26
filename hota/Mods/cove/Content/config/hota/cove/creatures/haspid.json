@@ -43,7 +43,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/haspid.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/haspid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/haspid.png",
 			"map" : "hota/cove/creatures/adventureMap/haspid.def",
 			"mapMask" : [ "VVV", "VAV"],

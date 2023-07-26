@@ -36,7 +36,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/corsair.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/corsair.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/corsair.png",
 			"map" : "hota/cove/creatures/adventureMap/corsair.def",
 			"mapMask" : [ "VVV", "VAV"],

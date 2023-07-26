@@ -42,7 +42,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/seaWitch.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seaWitch.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaWitch.png",
 			"map" : "hota/cove/creatures/adventureMap/seaWitch.def",
 			"mapMask" : [ "VVV", "VAV"],

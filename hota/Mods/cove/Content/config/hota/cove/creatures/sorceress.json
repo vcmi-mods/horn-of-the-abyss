@@ -41,7 +41,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/sorceress.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/sorceress.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/sorceress.png",
 			"map" : "hota/cove/creatures/adventureMap/sorceress.def",
 			"mapMask" : [ "VVV", "VAV"],

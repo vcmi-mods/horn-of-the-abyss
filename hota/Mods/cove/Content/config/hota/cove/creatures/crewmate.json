@@ -26,7 +26,7 @@
 		"horde" : 4,
 		"hasDoubleWeek" : true,
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/crewmate.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/crewmate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/crewmate.png",
 			"map" : "hota/cove/creatures/adventureMap/crewmate.def",
 			"mapMask" : [ "VVV", "VAV"],

@@ -33,7 +33,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/oceanid.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/oceanid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/oceanid.png",
 			"map" : "hota/cove/creatures/adventureMap/oceanid.def",
 			"mapMask" : [ "VVV", "VAV"],

@@ -34,7 +34,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/nymph.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/nymph.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nymph.png",
 			"map" : "hota/cove/creatures/adventureMap/nymph.def",
 			"mapMask" : [ "VVV", "VAV"],

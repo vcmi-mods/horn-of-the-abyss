@@ -33,7 +33,7 @@
 			"map" : "hota/map/avwslgl0.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall" : "hota/iconsSmall/CPrSm172.bmp",
-			"iconLarge" : "hota/iconsBig/TwCrP172.png",
+			"iconLarge" : "hota/iconsLarge/TwCrP172.png",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{

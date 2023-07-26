@@ -44,7 +44,7 @@
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/cove/creatures/iconsBig/seaserpent.png",
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seaserpent.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaserpent.png",
 			"map" : "hota/cove/creatures/adventureMap/seaserpent.def",
 			"mapMask" : [ "VVV", "VAV"],
