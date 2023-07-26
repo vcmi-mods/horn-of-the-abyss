@@ -17,8 +17,8 @@
 					}
 				},
 				"sounds": {
-					"ambient": ["hota/LOOPRUIN.wav"],
-					"visit": ["hota/RUINSVIS.wav"]
+					"ambient": ["hota/highlands/LOOPRUIN.wav"],
+					"visit": ["hota/highlands/RUINSVIS.wav"]
 				},
 				"rmg" : {
 					"value" : 1000,

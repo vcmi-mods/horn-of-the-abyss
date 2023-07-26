@@ -11,7 +11,7 @@
 //					"zoneLimit" : 1,
 //				},
 				"sounds" : {
-					"visit" : ["hota/JUNKVIST"]
+					"visit" : ["hota/highlands/JUNKVIST"]
 				},
 				"templates" : {
 					"AVXjnkmn" : { "animation" : "hota/junkman/AVXjnkmn",

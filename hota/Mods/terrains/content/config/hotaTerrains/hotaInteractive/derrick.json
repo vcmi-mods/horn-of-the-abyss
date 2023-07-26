@@ -12,7 +12,7 @@
 				},
 				"sounds" : {
 					"visit" : ["GENIE"],
-					"ambient" : ["hota/LOOPDRRK"]
+					"ambient" : ["hota/wasteland/LOOPDRRK"]
 				},
 				"rewards" : [
 					{

@@ -3,7 +3,7 @@
 		"types" : {
 			"waterfalls" : {
 				"sounds": {
-					"ambient": ["hota/LOOPWATR.wav"]
+					"ambient": ["hota/highlands/LOOPWATR.wav"]
 				},
 				"templates" : {
 					"hotaAVLwtf00" : {

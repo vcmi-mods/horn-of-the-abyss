@@ -11,7 +11,7 @@
 		"shortIdentifier":"ws",
 		"river" : "mudRiver",
 		"rockTerrain":"rock",
-		"horseSound" : "hota/horse31",
+		"horseSound" : "hota/wasteland/horse31",
 		"horseSoundPenalty" : "horse20",
 		"terrainViewPatterns" : "hota",
 		"battleFields" : ["wasteland_rocks"]

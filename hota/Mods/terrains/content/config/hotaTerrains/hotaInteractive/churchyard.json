@@ -17,8 +17,8 @@
 					}
 				},
 				"sounds": {
-					"ambient": ["hota/LOOPCMTR.wav"],
-					"visit": ["hota/CEMETRY.wav"]
+					"ambient": ["hota/highlands/LOOPCMTR.wav"],
+					"visit": ["hota/highlands/CEMETRY.wav"]
 				},
 				"rmg" : {
 					"value" : 1500,
