@@ -34,6 +34,8 @@
 		"config/hota/highlands/hotaStatic/puddles.json",
 		"config/hota/highlands/hotaStatic/spruces.json",
 		"config/hota/highlands/hotaStatic/waterfalls.json",
+		"config/hota/highlands/vanillaInteractive/abandonedMine.json",
+		"config/hota/highlands/vanillaInteractive/mines.json",
 
 		// Wasteland
 		"config/hota/wasteland/vanillaStatic/bones.json",
@@ -50,6 +52,8 @@
 		"config/hota/wasteland/hotaStatic/limestoneLake.json",
 		"config/hota/wasteland/hotaStatic/limestonePuddles.json",
 		"config/hota/wasteland/hotaStatic/tarPit.json",
+		"config/hota/wasteland/vanillaInteractive/abandonedMine.json",
+		"config/hota/wasteland/vanillaInteractive/mines.json",
 
 		"config/hotaTerrains/hotaInteractive/churchyard.json",
 		"config/hotaTerrains/hotaInteractive/derrick.json",
@@ -64,8 +68,6 @@
 		"config/hotaTerrains/hotaInteractive/trailblazer.json",
 		"config/hotaTerrains/hotaInteractive/warlocksLab.json",
 
-		"config/hotaTerrains/vanillaInteractive/abandonedMine.json",
-		"config/hotaTerrains/vanillaInteractive/mines.json",
 		"config/hotaTerrains/vanillaInteractive/obelisk.json",
 		"config/hotaTerrains/vanillaInteractive/signs.json"
 	],
