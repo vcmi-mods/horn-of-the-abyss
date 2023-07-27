@@ -39,11 +39,11 @@
 			},
 			"alchemistLab" : {
 				"templates" : {
-					"AVMalch0h" : {
+					"AVMalwl0h" : {
 						"animation" : "AVMalch0",  // standard graphic
 						"mask" : ["VVV", "VVV", "BAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands", "wasteland"]
+						"allowedTerrains" : ["wasteland"]
 					}
 				}
 			},
@@ -59,11 +59,11 @@
 			},
 			"sulfurDune" : {
 				"templates" : {
-					"AVMsulf0" : {
+					"AVMsuwl0" : {
 						"animation" : "AVMsulf0",  // standard graphic
 						"mask" : ["VVV", "BAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands", "wasteland"]
+						"allowedTerrains" : ["wasteland"]
 					}
 				}
 			},

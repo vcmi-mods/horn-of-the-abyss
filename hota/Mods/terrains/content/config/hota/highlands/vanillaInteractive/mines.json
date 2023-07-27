@@ -23,7 +23,6 @@
 			},
 			"sawmill" : {
 				"templates" : {
-					
 					"AVMswhl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMswhl1",
 						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
@@ -34,11 +33,11 @@
 			},
 			"alchemistLab" : {
 				"templates" : {
-					"AVMalch0h" : {
+					"AVMalhl0h" : {
 						"animation" : "AVMalch0", // standard graphic
 						"mask" : ["VVV", "VVV", "BAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands", "wasteland"]
+						"allowedTerrains" : ["highlands"]
 					}
 				}
 			},
@@ -54,11 +53,11 @@
 			},
 			"sulfurDune" : {
 				"templates" : {
-					"AVMsulf0" : {
+					"AVMsuhl0" : {
 						"animation" : "AVMsulf0",  // standard graphic
 						"mask" : ["VVV", "BAB"],
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands", "wasteland"]
+						"allowedTerrains" : ["highlands"]
 					}
 				}
 			},
