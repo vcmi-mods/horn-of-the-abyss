@@ -1,0 +1,44 @@
+{
+	"tarPit" : {
+		"name" : "Tar Pit",
+		"handler":"generic",
+		"types" : {
+			"tarPit" : {
+				"templates" : {
+					"AVLwloi1" : {
+						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi1",
+						"mask" : [ "VBBBBV", "VBBBBV" ],
+						"allowedTerrains": [ "wasteland" ],
+						"zIndex": 100
+					},
+					
+					"AVLwloi2" : {
+						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi2",
+						"mask" : [ "VVVVV", "VBBBV", "VVVVV" ],
+						"allowedTerrains": [ "wasteland" ],
+						"zIndex": 100
+					},
+					
+					"AVLwloi3" : {
+						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi3",
+						"mask" : [ "VVVVVVV", "VBBBBBV", "VBBBBBV" ],
+						"allowedTerrains": [ "wasteland" ],
+						"zIndex": 100
+					},
+					"AVLwloi4" : {
+						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi4",
+						"mask" : [ "VVVV", "VBBV", "VVVV" ],
+						"allowedTerrains": [ "wasteland" ],
+						"zIndex": 100
+					},
+					"AVLwloi5" : {
+						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi5",
+						"mask" : [ "VVVVVVV", "VBBBBBV", "VBBBBBV" ],
+						"allowedTerrains": [ "wasteland" ],
+						"zIndex": 100
+					}
+				}
+			}
+		}	
+	}	
+}

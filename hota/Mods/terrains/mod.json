@@ -31,6 +31,9 @@
 		"config/hota/highlands/vanillaStatic/mountain.json",
 		"config/hota/highlands/vanillaStatic/shrub.json",
 		"config/hota/highlands/vanillaStatic/stones.json",
+		"config/hota/highlands/hotaStatic/puddles.json",
+		"config/hota/highlands/hotaStatic/spruces.json",
+		"config/hota/highlands/hotaStatic/waterfalls.json",
 
 		// Wasteland
 		"config/hota/wasteland/vanillaStatic/bones.json",
@@ -42,8 +45,11 @@
 		"config/hota/wasteland/vanillaStatic/shrub.json",
 		"config/hota/wasteland/vanillaStatic/stones.json",
 		"config/hota/wasteland/vanillaStatic/trees.json",
-
-
+		"config/hota/wasteland/hotaStatic/bones.json",
+		"config/hota/wasteland/hotaStatic/jaw.json",
+		"config/hota/wasteland/hotaStatic/limestoneLake.json",
+		"config/hota/wasteland/hotaStatic/limestonePuddles.json",
+		"config/hota/wasteland/hotaStatic/tarPit.json",
 
 		"config/hotaTerrains/hotaInteractive/churchyard.json",
 		"config/hotaTerrains/hotaInteractive/derrick.json",
@@ -57,14 +63,7 @@
 		"config/hotaTerrains/hotaInteractive/ruins.json",
 		"config/hotaTerrains/hotaInteractive/trailblazer.json",
 		"config/hotaTerrains/hotaInteractive/warlocksLab.json",
-		"config/hotaTerrains/hotaStatic/bones.json",
-		"config/hotaTerrains/hotaStatic/jaw.json",
-		"config/hotaTerrains/hotaStatic/limestoneLake.json",
-		"config/hotaTerrains/hotaStatic/limestonePuddles.json",
-		"config/hotaTerrains/hotaStatic/puddles.json",
-		"config/hotaTerrains/hotaStatic/spruces.json",
-		"config/hotaTerrains/hotaStatic/tarPit.json",
-		"config/hotaTerrains/hotaStatic/waterfalls.json",
+
 		"config/hotaTerrains/vanillaInteractive/abandonedMine.json",
 		"config/hotaTerrains/vanillaInteractive/mines.json",
 		"config/hotaTerrains/vanillaInteractive/obelisk.json",
