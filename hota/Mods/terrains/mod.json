@@ -36,6 +36,8 @@
 		"config/hota/highlands/hotaStatic/waterfalls.json",
 		"config/hota/highlands/vanillaInteractive/abandonedMine.json",
 		"config/hota/highlands/vanillaInteractive/mines.json",
+		"config/hota/highlands/vanillaInteractive/obelisk.json",
+		"config/hota/highlands/vanillaInteractive/signs.json",
 
 		// Wasteland
 		"config/hota/wasteland/vanillaStatic/bones.json",
@@ -54,6 +56,8 @@
 		"config/hota/wasteland/hotaStatic/tarPit.json",
 		"config/hota/wasteland/vanillaInteractive/abandonedMine.json",
 		"config/hota/wasteland/vanillaInteractive/mines.json",
+		"config/hota/wasteland/vanillaInteractive/obelisk.json",
+		"config/hota/wasteland/vanillaInteractive/signs.json",
 
 		"config/hotaTerrains/hotaInteractive/churchyard.json",
 		"config/hotaTerrains/hotaInteractive/derrick.json",
@@ -66,10 +70,7 @@
 		"config/hotaTerrains/hotaInteractive/prospector.json",
 		"config/hotaTerrains/hotaInteractive/ruins.json",
 		"config/hotaTerrains/hotaInteractive/trailblazer.json",
-		"config/hotaTerrains/hotaInteractive/warlocksLab.json",
-
-		"config/hotaTerrains/vanillaInteractive/obelisk.json",
-		"config/hotaTerrains/vanillaInteractive/signs.json"
+		"config/hotaTerrains/hotaInteractive/warlocksLab.json"
 	],
 	"battlefields":
 	[

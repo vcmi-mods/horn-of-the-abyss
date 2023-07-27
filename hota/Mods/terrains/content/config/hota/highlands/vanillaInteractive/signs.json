@@ -1,0 +1,16 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avxsnhl" : {
+						"animation" : "hota/highlands/vanillaInteractive/sign/avxsnhl",
+						"allowedTerrains": [ "highlands" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}
