@@ -10,7 +10,7 @@
 				{
 					"highlands" :
 					{
-						"animation" : "hota/banks/avcmetrh.def",
+						"animation" : "hota/highlands/hotaInteractive/banks/avcmetrh.def",
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"mask" : [ "VVVV", "VVVV", "VBAB"],
 						"allowedTerrains":[ "highlands" ]

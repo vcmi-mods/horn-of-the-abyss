@@ -36,7 +36,7 @@
 				{
 					"avmoilpm" :
 					{
-						"animation" : "hota/derrick/avmoilpm",
+						"animation" : "hota/wasteland/hotaInteractive/derrick/avmoilpm",
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"mask" : ["VVV", "VVV", "VBA"],
 						"allowedTerrains": ["wasteland"]

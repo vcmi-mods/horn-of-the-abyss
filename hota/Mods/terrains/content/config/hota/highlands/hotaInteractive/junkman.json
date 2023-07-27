@@ -14,7 +14,8 @@
 					"visit" : ["hota/highlands/JUNKVIST"]
 				},
 				"templates" : {
-					"AVXjnkmn" : { "animation" : "hota/junkman/AVXjnkmn",
+					"AVXjnkmn" : {
+						"animation" : "hota/highlands/hotaInteractive/junkman/AVXjnkmn",
 						"mask" : [ "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "++-", "+++" ],
 						"allowedTerrains": [ "highlands"]

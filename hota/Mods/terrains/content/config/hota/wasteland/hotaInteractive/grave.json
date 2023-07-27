@@ -33,7 +33,8 @@
 
 				"visitMode" : "hero",
 				"templates" : {
-					"avxgravw" : { "animation" : "hota/grave/avxgravw",
+					"avxgravw" : {
+						"animation" : "hota/wasteland/hotaInteractive/grave/avxgravw",
 						"mask" : [ "A" ],
 						"visitableFrom" : [ "+++", "+++", "+++" ], //disabled for not spawning at random maps
 						"allowedTerrains": [ "wasteland"]

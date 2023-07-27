@@ -1,0 +1,16 @@
+{
+	"hota.mapObjects:miniHillFort" : {
+		"types" : {
+			"miniHillFort" : {
+				"templates" : {
+					"minifthl" : {
+						"animation" : "hota/highlands/hotaInteractive/hillFort/minifthl",
+						"mask" : [ "VVV", "VVV", "VBA" ],
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -20,7 +20,8 @@
 				"visitMode" : "hero",
 				"selectMode" : "selectPlayer",
 				"templates" : {
-					"AVShrmit" : { "animation" : "hota/hermitsShack/AVShrmit",
+					"AVShrmit" : {
+						"animation" : "hota/highlands/hotaInteractive/hermitsShack/AVShrmit",
 						"mask" : [ "VVV", "VVV", "VAB" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "highlands"]

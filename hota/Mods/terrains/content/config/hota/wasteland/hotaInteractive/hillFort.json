@@ -3,12 +3,8 @@
 		"types" : {
 			"miniHillFort" : {
 				"templates" : {
-					"minifthl" : { "animation" : "hillFort/minifthl",
-						"mask" : [ "VVV", "VVV", "VBA" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "highlands" ]
-					},
-					"miniftws" : { "animation" : "hillFort/miniftws",
+					"miniftws" : {
+						"animation" : "hota/wasteland/hotaInteractive/hillFort/miniftws",
 						"mask" : [ "VVV", "VVV", "VBA" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "wasteland" ]

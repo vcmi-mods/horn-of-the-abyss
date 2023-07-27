@@ -34,7 +34,7 @@
 				{
 					"avxgazeb" :
 					{
-						"animation" : "hota/gazebo/avxgazeb",
+						"animation" : "hota/highlands/hotaInteractive/gazebo/avxgazeb",
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"mask" : ["VVV", "VAV"], 
 						"allowedTerrains": ["highlands"]

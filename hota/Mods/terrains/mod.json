@@ -38,6 +38,13 @@
 		"config/hota/highlands/vanillaInteractive/mines.json",
 		"config/hota/highlands/vanillaInteractive/obelisk.json",
 		"config/hota/highlands/vanillaInteractive/signs.json",
+		"config/hota/highlands/hotaInteractive/churchyard.json",
+		"config/hota/highlands/hotaInteractive/gazebo.json",
+		"config/hota/highlands/hotaInteractive/hermitsShack.json",
+		"config/hota/highlands/hotaInteractive/hillFort.json",
+		"config/hota/highlands/hotaInteractive/junkman.json",
+		"config/hota/highlands/hotaInteractive/mineralSpring.json",
+		"config/hota/highlands/hotaInteractive/ruins.json",
 
 		// Wasteland
 		"config/hota/wasteland/vanillaStatic/bones.json",
@@ -58,19 +65,12 @@
 		"config/hota/wasteland/vanillaInteractive/mines.json",
 		"config/hota/wasteland/vanillaInteractive/obelisk.json",
 		"config/hota/wasteland/vanillaInteractive/signs.json",
-
-		"config/hotaTerrains/hotaInteractive/churchyard.json",
-		"config/hotaTerrains/hotaInteractive/derrick.json",
-		"config/hotaTerrains/hotaInteractive/gazebo.json",
-		"config/hotaTerrains/hotaInteractive/grave.json",
-		"config/hotaTerrains/hotaInteractive/hermitsShack.json",
-		"config/hotaTerrains/hotaInteractive/hillFort.json",
-		"config/hotaTerrains/hotaInteractive/junkman.json",
-		"config/hotaTerrains/hotaInteractive/mineralSpring.json",
-		"config/hotaTerrains/hotaInteractive/prospector.json",
-		"config/hotaTerrains/hotaInteractive/ruins.json",
-		"config/hotaTerrains/hotaInteractive/trailblazer.json",
-		"config/hotaTerrains/hotaInteractive/warlocksLab.json"
+		"config/hota/wasteland/hotaInteractive/derrick.json",
+		"config/hota/wasteland/hotaInteractive/grave.json",
+		"config/hota/wasteland/hotaInteractive/hillFort.json",
+		"config/hota/wasteland/hotaInteractive/prospector.json",
+		"config/hota/wasteland/hotaInteractive/trailblazer.json",
+		"config/hota/wasteland/hotaInteractive/warlocksLab.json"
 	],
 	"battlefields":
 	[

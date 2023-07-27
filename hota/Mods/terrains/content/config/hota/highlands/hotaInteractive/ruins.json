@@ -10,7 +10,7 @@
 				{
 					"base" :
 					{
-						"animation" : "hota/ruins/avxruins.def",
+						"animation" : "hota/highlands/hotaInteractive/ruins/avxruins.def",
 						"visitableFrom" : [ "---", "-+-", "+++" ],
 						"mask" : [ "VVVV", "VVBV", "VBAB"],
 						"allowedTerrains":["highlands"]

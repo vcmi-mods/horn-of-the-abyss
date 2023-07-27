@@ -13,13 +13,15 @@
 					"visit" : ["STORE"]
 				},
 				"templates" : {
-					"avxtrmtw" : { "animation" : "hota/warlocksLab/avxtrmtw",
+					"avxtrmtw" : {
+						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmtw",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "wasteland"]
 					},
 					
-					"avxtrmts" : { "animation" : "hota/warlocksLab/avxtrmts",
+					"avxtrmts" : {
+						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmts",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "snow"]
