@@ -19,7 +19,7 @@
 	},
 	"factions" :
 	[
-		"config/hotaTerrains/confluxTerrain"
+		"config/hota/confluxTerrain"
 	],
 	"objects" :
 	[
