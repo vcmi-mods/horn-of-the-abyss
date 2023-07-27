@@ -1,0 +1,15 @@
+{
+	"core:crater" : {
+		"types" : {
+			"object" : {
+			"templates" : {
+					"AVLcthl0" : {
+						"animation" : "hota/highlands/vanillaStatic/craters/AVLcthl0",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

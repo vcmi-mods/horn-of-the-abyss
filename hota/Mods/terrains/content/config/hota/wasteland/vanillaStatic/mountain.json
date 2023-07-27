@@ -1,0 +1,45 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLMtWL1" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL1",
+						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL2" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL2",
+						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ], 
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL3" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL3",
+						"mask" : [ "VVVV","VBBB","VVBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL4" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL4",
+						"mask" : [ "VVVV", "VBBB","VBBV" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL5" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL5",
+						"mask" : [ "VVVV", "VBBV","VVBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL6" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL6",
+						"mask" : [ "VVVV", "VVBB","VBBV" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLMtWL7" : {
+						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL7",
+						"mask" : [ "VVVV", "VVVV","VBVB" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

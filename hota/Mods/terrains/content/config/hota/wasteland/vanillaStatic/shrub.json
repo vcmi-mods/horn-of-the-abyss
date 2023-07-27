@@ -1,0 +1,60 @@
+{
+	"core:shrub" :{
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLwsb01" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsb01",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwsb02" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsb02",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwsb03" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsb03",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwsb04" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsb04",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwsh01" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsh01",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwsh02" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLwsh02",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLsh1rw" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLsh1rw",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLsh6rw" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLsh6rw",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLsh9rw" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLsh9rw",
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLsh9xw" : {
+						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLsh9xw",
+						"mask" : [ "VBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -23,6 +23,28 @@
 	],
 	"objects" :
 	[
+		// Highlands
+		"config/hota/highlands/vanillaStatic/crater.json",
+		"config/hota/highlands/vanillaStatic/flowers.json",
+		"config/hota/highlands/vanillaStatic/hole.json",
+		"config/hota/highlands/vanillaStatic/lakes.json",
+		"config/hota/highlands/vanillaStatic/mountain.json",
+		"config/hota/highlands/vanillaStatic/shrub.json",
+		"config/hota/highlands/vanillaStatic/stones.json",
+
+		// Wasteland
+		"config/hota/wasteland/vanillaStatic/bones.json",
+		"config/hota/wasteland/vanillaStatic/cactus.json",
+		"config/hota/wasteland/vanillaStatic/crater.json",
+		"config/hota/wasteland/vanillaStatic/deadVegetation.json",
+		"config/hota/wasteland/vanillaStatic/hole.json",
+		"config/hota/wasteland/vanillaStatic/mountain.json",
+		"config/hota/wasteland/vanillaStatic/shrub.json",
+		"config/hota/wasteland/vanillaStatic/stones.json",
+		"config/hota/wasteland/vanillaStatic/trees.json",
+
+
+
 		"config/hotaTerrains/hotaInteractive/churchyard.json",
 		"config/hotaTerrains/hotaInteractive/derrick.json",
 		"config/hotaTerrains/hotaInteractive/gazebo.json",
@@ -46,18 +68,7 @@
 		"config/hotaTerrains/vanillaInteractive/abandonedMine.json",
 		"config/hotaTerrains/vanillaInteractive/mines.json",
 		"config/hotaTerrains/vanillaInteractive/obelisk.json",
-		"config/hotaTerrains/vanillaInteractive/signs.json",
-		"config/hotaTerrains/vanillaStatic/bones.json",
-		"config/hotaTerrains/vanillaStatic/cactus.json",
-		"config/hotaTerrains/vanillaStatic/crater.json",
-		"config/hotaTerrains/vanillaStatic/deadVegetation.json",
-		"config/hotaTerrains/vanillaStatic/flowers.json",
-		"config/hotaTerrains/vanillaStatic/hole.json",
-		"config/hotaTerrains/vanillaStatic/lakes.json",
-		"config/hotaTerrains/vanillaStatic/mountain.json",
-		"config/hotaTerrains/vanillaStatic/shrub.json",
-		"config/hotaTerrains/vanillaStatic/stones.json",
-		"config/hotaTerrains/vanillaStatic/trees.json"
+		"config/hotaTerrains/vanillaInteractive/signs.json"
 	],
 	"battlefields":
 	[

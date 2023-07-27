@@ -1,0 +1,31 @@
+{
+	"core:rock" : {
+		"types" : {
+			"hotaPuddle" : {
+				"name" : "Stone",
+				"templates" : {
+					"AVLrws01" : {
+						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws01",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLrws03" : {
+						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws03",
+						"mask" : [ "VBV" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			},
+			"hotaW2Stones" : {
+				"name" : "Rock",
+				"templates" : {
+					"AVLrws02" : {
+						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws02",
+						"mask" : [ "VVV", "VBB" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

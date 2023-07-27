@@ -1,0 +1,15 @@
+{
+	"core:hole" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avlhlhl" : {
+						"animation" : "hota/highlands/vanillaStatic/hole/avlhlhl",
+						"mask" : [ "V" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

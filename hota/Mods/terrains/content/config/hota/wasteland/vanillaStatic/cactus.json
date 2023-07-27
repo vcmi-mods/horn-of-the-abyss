@@ -1,0 +1,80 @@
+{
+	"core:cactus" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLwct01" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct01",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct02" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct02",
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct03" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct03",
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct04" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct04",
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct05" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct05",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct06" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct06",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct07" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct07",
+						"mask" : [ "VV","VB" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct08" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct08",
+						"mask" : [ "VVV","VBV" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct09" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct09",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLwct10" : {
+						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct10",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLca060" : {
+						"animation" : "AVLca060",
+						"mask" : [ "V","B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLca090" : {
+						"animation" : "AVLca090",
+						"mask" : [ "V","B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLca100" : {
+						"animation" : "AVLca100",
+						"mask" : [ "V", "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"AVLca130" : {
+						"animation" : "AVLca130",
+						"mask" : [ "B" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}
