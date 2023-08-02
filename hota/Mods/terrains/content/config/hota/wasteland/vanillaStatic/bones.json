@@ -1,0 +1,31 @@
+{
+	"core:skull" :{
+		"types" : {
+			"hotaSkulls" : {
+				"name": "Skull",
+				"templates" : {
+					"AVLskul0" : {
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul0",
+						"mask" : ["B"],
+						"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					"AVLskul1" : {
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul1",
+						"mask" : ["B"],
+						"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					"AVLskul2" : {
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul2",
+						"mask" : ["B"],
+						"allowedTerrains": [ "sand", "wasteland" ]
+					},
+					"AVLwcsk0" : {
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLwcsk0",
+						"mask" : ["B"],
+						"allowedTerrains": [ "sand", "wasteland" ]
+					}
+				}
+			}
+		}	
+	}
+}

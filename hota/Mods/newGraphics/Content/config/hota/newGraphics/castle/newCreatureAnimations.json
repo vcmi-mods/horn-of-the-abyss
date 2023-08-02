@@ -1,0 +1,86 @@
+{
+	"core:pikeman" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWPike.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:halberdier" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWpikx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archer" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWLCrs.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:marksman" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWHCrs.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:griffin" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWGrif.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:royalGriffin" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWgrix0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:swordsman" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWswrd0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:crusader" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWswrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:monk" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWMonk.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:zealot" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWmonx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:cavalier" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWcvlr0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:champion" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AVWcvlx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:angel" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWAngl.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:archangel" : {
+		"graphics" : {
+			"map" : "hota/castle/adventureMap/creatures/AvWArch.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}

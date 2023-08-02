@@ -1,0 +1,16 @@
+{	
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AvXOblOr" : {
+						"animation" : "hota/highlands/vanillaInteractive/obelisk/AvXOblOr",
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

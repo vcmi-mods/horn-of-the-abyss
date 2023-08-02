@@ -19,56 +19,72 @@
 	},
 	"factions" :
 	[
-		"config/hotaTerrains/confluxTerrain"
+		"config/hota/confluxTerrain"
 	],
 	"objects" :
 	[
-		"config/hotaTerrains/hotaInteractive/churchyard.json",
-		"config/hotaTerrains/hotaInteractive/derrick.json",
-		"config/hotaTerrains/hotaInteractive/gazebo.json",
-		"config/hotaTerrains/hotaInteractive/grave.json",
-		"config/hotaTerrains/hotaInteractive/hermitsShack.json",
-		"config/hotaTerrains/hotaInteractive/hillFort.json",
-		"config/hotaTerrains/hotaInteractive/junkman.json",
-		"config/hotaTerrains/hotaInteractive/mineralSpring.json",
-		"config/hotaTerrains/hotaInteractive/prospector.json",
-		"config/hotaTerrains/hotaInteractive/ruins.json",
-		"config/hotaTerrains/hotaInteractive/trailblazer.json",
-		"config/hotaTerrains/hotaInteractive/warlocksLab.json",
-		"config/hotaTerrains/hotaStatic/bones.json",
-		"config/hotaTerrains/hotaStatic/jaw.json",
-		"config/hotaTerrains/hotaStatic/limestoneLake.json",
-		"config/hotaTerrains/hotaStatic/limestonePuddles.json",
-		"config/hotaTerrains/hotaStatic/puddles.json",
-		"config/hotaTerrains/hotaStatic/spruces.json",
-		"config/hotaTerrains/hotaStatic/tarPit.json",
-		"config/hotaTerrains/hotaStatic/waterfalls.json",
-		"config/hotaTerrains/vanillaInteractive/abandonedMine.json",
-		"config/hotaTerrains/vanillaInteractive/mines.json",
-		"config/hotaTerrains/vanillaInteractive/obelisk.json",
-		"config/hotaTerrains/vanillaInteractive/signs.json",
-		"config/hotaTerrains/vanillaStatic/bones.json",
-		"config/hotaTerrains/vanillaStatic/cactus.json",
-		"config/hotaTerrains/vanillaStatic/crater.json",
-		"config/hotaTerrains/vanillaStatic/deadVegetation.json",
-		"config/hotaTerrains/vanillaStatic/flowers.json",
-		"config/hotaTerrains/vanillaStatic/hole.json",
-		"config/hotaTerrains/vanillaStatic/lakes.json",
-		"config/hotaTerrains/vanillaStatic/mountain.json",
-		"config/hotaTerrains/vanillaStatic/shrub.json",
-		"config/hotaTerrains/vanillaStatic/stones.json",
-		"config/hotaTerrains/vanillaStatic/trees.json"
+		// Highlands
+		"config/hota/highlands/vanillaStatic/crater.json",
+		"config/hota/highlands/vanillaStatic/flowers.json",
+		"config/hota/highlands/vanillaStatic/hole.json",
+		"config/hota/highlands/vanillaStatic/lakes.json",
+		"config/hota/highlands/vanillaStatic/mountain.json",
+		"config/hota/highlands/vanillaStatic/shrub.json",
+		"config/hota/highlands/vanillaStatic/stones.json",
+		"config/hota/highlands/hotaStatic/puddles.json",
+		"config/hota/highlands/hotaStatic/spruces.json",
+		"config/hota/highlands/hotaStatic/waterfalls.json",
+		"config/hota/highlands/vanillaInteractive/abandonedMine.json",
+		"config/hota/highlands/vanillaInteractive/mines.json",
+		"config/hota/highlands/vanillaInteractive/obelisk.json",
+		"config/hota/highlands/vanillaInteractive/signs.json",
+		"config/hota/highlands/hotaInteractive/churchyard.json",
+		"config/hota/highlands/hotaInteractive/gazebo.json",
+		"config/hota/highlands/hotaInteractive/hermitsShack.json",
+		"config/hota/highlands/hotaInteractive/hillFort.json",
+		"config/hota/highlands/hotaInteractive/junkman.json",
+		"config/hota/highlands/hotaInteractive/mineralSpring.json",
+		"config/hota/highlands/hotaInteractive/ruins.json",
+
+		// Wasteland
+		"config/hota/wasteland/vanillaStatic/bones.json",
+		"config/hota/wasteland/vanillaStatic/cactus.json",
+		"config/hota/wasteland/vanillaStatic/crater.json",
+		"config/hota/wasteland/vanillaStatic/deadVegetation.json",
+		"config/hota/wasteland/vanillaStatic/hole.json",
+		"config/hota/wasteland/vanillaStatic/mountain.json",
+		"config/hota/wasteland/vanillaStatic/shrub.json",
+		"config/hota/wasteland/vanillaStatic/stones.json",
+		"config/hota/wasteland/vanillaStatic/trees.json",
+		"config/hota/wasteland/hotaStatic/bones.json",
+		"config/hota/wasteland/hotaStatic/jaw.json",
+		"config/hota/wasteland/hotaStatic/limestoneLake.json",
+		"config/hota/wasteland/hotaStatic/limestonePuddles.json",
+		"config/hota/wasteland/hotaStatic/tarPit.json",
+		"config/hota/wasteland/vanillaInteractive/abandonedMine.json",
+		"config/hota/wasteland/vanillaInteractive/mines.json",
+		"config/hota/wasteland/vanillaInteractive/obelisk.json",
+		"config/hota/wasteland/vanillaInteractive/signs.json",
+		"config/hota/wasteland/hotaInteractive/derrick.json",
+		"config/hota/wasteland/hotaInteractive/grave.json",
+		"config/hota/wasteland/hotaInteractive/hillFort.json",
+		"config/hota/wasteland/hotaInteractive/prospector.json",
+		"config/hota/wasteland/hotaInteractive/trailblazer.json",
+		"config/hota/wasteland/hotaInteractive/warlocksLab.json"
 	],
 	"battlefields":
 	[
-		"config/hotaTerrains/battlefields.json"
+		"config/hota/highlands/battlefields.json",
+		"config/hota/wasteland/battlefields.json"
 	],
 	"obstacles":
 	[
-		"config/hotaTerrains/obstacles.json"
+		"config/hota/highlands/obstacles.json",
+		"config/hota/wasteland/obstacles.json"
 	],
 	"terrains" :
 	[
-		"config/hotaTerrains/terrains.json"
+		"config/hota/highlands/terrains.json",
+		"config/hota/wasteland/terrains.json"
 	]
 }

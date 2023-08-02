@@ -1,0 +1,27 @@
+{
+	"limestoneLake" : {
+		"name" : "Limestone Lake",
+		"handler":"generic",
+		"types" : {
+			"limestoneLake" : {
+				"templates" : {
+			
+					"AVLwll00" : { "animation" : "hota/wasteland/hotaStatic/lakes/AVLwll00",
+					"mask" : [ "VBBBVV", "VBBBBV" ],
+					"allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLwll01" : { "animation" : "hota/wasteland/hotaStatic/lakes/AVLwll01",
+					"mask" : [ "BBB" ],
+					"allowedTerrains": [ "wasteland" ]
+					},
+					
+					"AVLwll02" : { "animation" : "hota/wasteland/hotaStatic/lakes/AVLwll02",
+					"mask" : [ "VBBV" ],
+					"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

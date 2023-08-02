@@ -1,0 +1,16 @@
+{
+	"core:sign" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"avxsnwst" : {
+						"animation" : "hota/wasteland/vanillaInteractive/sign/avxsnwst",
+						"allowedTerrains": [ "wasteland" ],
+						"mask" : [ "A" ],
+						"visitableFrom" : [ "---", "+++", "+++" ]
+					}
+				}
+			}
+		}
+	}
+}

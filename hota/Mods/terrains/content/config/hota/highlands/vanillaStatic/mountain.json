@@ -1,0 +1,40 @@
+{
+	"core:mountain" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLMHS00" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS00",
+						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"AVLMHS01" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS01",
+						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"AVLMHS02" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS02",
+						"mask" : [ "VVVVV","VBBBV","VBBVV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"AVLMHS03" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS03",
+						"mask" : [ "VVVVV", "VBBBV","VVBBV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"AVLMHS04" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS04",
+						"mask" : [ "VVVVV", "VVBBV","VBBVV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"AVLMHS05" : {
+						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS05",
+						"mask" : [ "VVVVV", "VBBVV","VVBBV" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,348 @@
+{
+	"cove" : {
+		"town" : {
+			"buildings" : {
+				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" : "auto"
+				},
+				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" : { "gold" : 2500 }
+				},
+				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" : { "gold" : 5000 }
+				},
+				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" : { "gold" : 10000 }
+				},
+
+				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 20,
+						"ore" : 20
+					}
+				},
+				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 5
+					}
+				},
+				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" : {
+						"gold" : 5000,
+						"wood" : 10,
+						"ore" : 10
+					}
+				},
+
+				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					}
+				},
+				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Cannons.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					}
+				},
+				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					}
+				},
+				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					}
+				},
+				"shipyard" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 20
+					}
+				},
+				"ship" : {
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" : null
+				},
+
+				"special3" : {
+					"name" : "Thieves' Guild",
+					"description" : "**NOT WORKING YET\r\nThe Thief's Guild reveals additional information about the foes in the tavern.\r\nNOT WORKING YET***",
+					"cost" : {
+						"gold" : 600,
+						"wood" : 3
+					}
+				},
+				"special4" : {
+					"name" : "Grotto",
+					"description" : "**NOT WORKING YET\r\nThe Grotto allows you to sacrifice creatures or artifacts in exchange for experience.\r\nNOT WORKING YET***",
+					"cost" : {
+						"gold" : 7500,
+						"wood" : 15,
+						"ore" : 15
+					}
+				},
+				"horde1" : {
+					"name" : "Pub",
+					"description" : "The Pub increases Crew Mates production by 4 per week.",
+					"cost" : { "gold" : 1000 }
+				},
+				"horde1Upgr" : {
+					"name" : "Pub",
+					"description" : "The Pub increases Seamen production by 4 per week.",
+					"cost" : { "gold" : 1000 },
+					"mode" : "auto"
+				},
+				"horde2" : {
+					"name" : "Roost",
+					"description" : "The Roost increases Stormbirds production by 3 per week.",
+					"cost" : {
+						"gold" : 1500,
+						"gems" : 2
+					}
+				},
+				"horde2Upgr" : {
+					"name" : "Roost",
+					"description" : "The Roost increases Ayssids production by 3 per week.",
+					"cost" : {
+						"gold" : 1500,
+						"gems" : 2
+					},
+					"mode" : "auto"
+				},
+				"grail" : {
+					"name" : "Lodestar",
+					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
+					"bonuses" : [
+						{
+							"type" : "NO_TERRAIN_PENALTY",
+							"subtype" : -3, //any
+							"propagator" : "GLOBAL_EFFECT",
+							"limiters" : [
+								{
+									"type": "CREATURE_FACTION_LIMITER",
+									"parameters" : ["cove"]
+								}
+							]
+						}
+					],
+					"mode" : "grail"
+				},
+
+				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"gold" : 2000,
+						"wood" : 5,
+						"ore" : 5
+					}
+				},
+				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 4,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4
+					}
+				},
+				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 6,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6
+					}
+				},
+				"mageGuild4" : {
+					"name" : "Mage Guild Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 8,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8
+					}
+				},
+
+				"dwellingLvl1" : {
+					"name" : "Waterfall",
+					"description" : "The Waterfall allows you to recruite Nymphs.",
+					"cost" : { "gold" : 500 }
+				},
+				"dwellingLvl2" : {
+					"name" : "Shack",
+					"description" : "The Shack allows you to recruite Crew Mates.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					}
+				},
+				"dwellingLvl3" : {
+					"name" : "Frigate",
+					"description" : "The Frigate allows you to recruite Pirates.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 10
+					}
+				},
+				"dwellingLvl4" : {
+					"name" : "Nest",
+					"description" : "The Nest allows you to recruite Stormbirds.",
+					"cost" : {
+						"gold" : 2500,
+						"gems" : 4,
+						"ore" : 5
+					}
+				},
+				"dwellingLvl5" : {
+					"name" : "Tower of the Seas",
+					"description" : "The Tower of the Seas allows you to recruite Sea Witches.",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"crystal" : 4
+					}
+				},
+				"dwellingLvl6" : {
+					"name" : "Nix Fort",
+					"description" : "The Nix Fort allows you to recruite Nix.",
+					"cost" : {
+						"gold" : 4000,
+						"wood" : 5,
+						"ore" : 10
+					}
+				},
+				"dwellingLvl7" : {
+					"name" : "Whirlpool",
+					"description" : "The Whirlpool allows you to recruite Sea Serpents.",
+					"cost" : {
+						"gold" : 17500,
+						"ore" : 10,
+						"sulfur" : 15
+					}
+				},
+				"dwellingUpLvl1" : {
+					"name" : "Upg. Waterfall",
+					"description" : "The Upg. Waterfall allows you to recruite Oceanids.",
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					}
+				},
+				"dwellingUpLvl2" : {
+					"name" : "Upg. Shack",
+					"description" : "The Upg. Shack allows you to recruite Seamen.",
+					"cost" : {
+						"gold" : 1200,
+						"wood" : 5
+					}
+				},
+				"dwellingUpLvl3" : {
+					"name" : "Upg. Frigate",
+					"description" : "The Upg. Frigate allows you to recruite Corsairs.",
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5
+					}
+				},
+				"dwellingUpLvl4" : {
+					"name" : "Upg. Nest",
+					"description" : "The Upg. Nest allows you to recruite Ayssids.",
+					"cost" : {
+						"gold" : 2500,
+						"ore" : 10,
+						"crystal" : 10
+					}
+				},
+				"dwellingUpLvl5" : {
+					"name" : "Upg. Tower of the Seas",
+					"description" : "The Upg. Tower of the Seas allows you to recruite Sorceresses.",
+					"cost" : {
+						"gold" : 2000,
+						"sulfur" : 5,
+						"crystal" : 5
+					}
+				},
+				"dwellingUpLvl6" : {
+					"name" : "Upg. Nix Fort",
+					"description" : "The Upg. Nix Fort allows you to recruite Nix Warriors.",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 5,
+						"ore" : 10,
+						"sulfur" : 5
+					}
+				},
+				"dwellingUpLvl7" : {
+					"name" : "Upg. Whirlpool",
+					"description" : "The Upg. Whirlpool allows you to recruite Haspids.",
+					"cost" : {
+						"gold" : 20000,
+						"ore" : 15,
+						"sulfur" : 20,
+						"gems" : 5
+					}
+				},
+				"dwellingUp2Lvl3" : {
+					"name" : "Gunpowder Warehouse",
+					"description" : "The Gunpowder Warehouse allows you to recruite Sea Dogs.",
+					"cost" : {
+						"gold" : 3000,
+						"wood" : 5,
+						"ore" : 5,
+						"mercury" : 5,
+						"sulfur" : 5,
+						"crystal" : 5,
+						"gems" : 5
+					}
+				}
+			}
+		}
+	}
+}

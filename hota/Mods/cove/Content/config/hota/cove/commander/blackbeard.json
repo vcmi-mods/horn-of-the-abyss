@@ -1,0 +1,96 @@
+{
+	"blackbeard":
+	{
+		"name" :
+		{
+			"singular" : "Blackbeard",
+			"plural" : "Blackbeards"
+		},
+		"faction" : "cove",
+		"level": 0,
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			"min" : 7,
+			"max" : 15
+		},
+		"growth" : 1,
+		"aiValue" : 5931,
+		"fightValue" : 5272,
+		"doubleWide" : false,
+		"special" : true,
+		"shots" : 24,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectWater",
+				"val" : 3
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			}
+		},
+		"graphics" :
+		{
+			"iconSmall" : "hota/cove/commander/icons/blackBeardSmall.bmp",
+			"iconLarge" : "hota/cove/commander/icons/blackBeardLarge.bmp",
+			"map" : "hota/cove/commander/adventureMap/blackBeard.def",
+			"animation" : "hota/cove/commander/battle/blackBeard.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 12.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def"
+			}
+		},
+		"sound" :
+		{
+			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
+			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
+			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",
+			"shoot" : "hota/cove/creatures/pirate/PIRTSHOT.wav",
+			"move" : "hota/cove/creatures/pirate/PIRTMOVE.wav",
+			"wince" : "hota/cove/creatures/pirate/PIRTWNCE.wav"
+		}
+	}
+}

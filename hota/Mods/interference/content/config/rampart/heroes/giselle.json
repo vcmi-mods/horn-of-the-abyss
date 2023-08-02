@@ -5,10 +5,10 @@
 		"female" : true,
 		"images" :
 		{
-			"specialtySmall" : "hota/rampart/heroes/giselle/icons/speciality/small.png",
-			"specialtyLarge" : "hota/rampart/heroes/giselle/icons/speciality/large.png",
-			"small" : "hota/rampart/heroes/giselle/icons/portrait/small.png",
-			"large" : "hota/rampart/heroes/giselle/icons/portrait/large.png"
+			"large" : "hota/rampart/heroes/giselle/icons/portraitLarge.png",
+			"small" : "hota/rampart/heroes/giselle/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/rampart/heroes/giselle/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/rampart/heroes/giselle/icons/specialtySmall.png"
 		},
 		"army" : [
 			{

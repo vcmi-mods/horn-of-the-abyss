@@ -15,7 +15,7 @@
 		"graphics":
 		{
 			"image": "hota/iconsSmall/cannonArtifact.png",
-			"large" : "hota/iconsBig/cannonArtifact.png",
+			"large" : "hota/iconsLarge/cannonArtifact.png",
 			"map": "hota/map/cannonMap.def"
 		}
 	}

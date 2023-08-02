@@ -1,0 +1,52 @@
+{
+	"09casmetra" : {
+		"class": "navigator",
+		"female": true,
+		"images" : {
+			"large" : "hota/cove/heroes/casmetra/icons/portraitLarge.png",
+			"small" : "hota/cove/heroes/casmetra/icons/portraitSmall.png",
+			"specialtyLarge" : "hota/cove/heroes/casmetra/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/cove/heroes/casmetra/icons/specialtySmall.png"
+		},
+		"army": [
+			{
+				"creature": "nymph",
+				"min": 20,
+				"max": 30
+			},
+			{
+				"creature": "crewmate",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "pirate",
+				"min": 4,
+				"max": 7
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "waterMagic",
+				"level": "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "hota.cove:seaWitch"
+		},
+		"spellbook" : [ "dispel" ],
+		"texts": {
+			"name": "Casmetra",
+			"biography": "The leader of the mysterious priestesses' cult that worships the sea has stepped out from the shadows not so long ago. Nobody knows whom this woman was and where did she came from. However, everyone who met Casmetra mentions her beauty and her power in magic. Many believed that she joined the pirates in pursuit of her own goals. However, with years to pass the priestesses and the corsairs became closest allies.",
+			"specialty": {
+				"name": "Sea Witches",
+				"description": "{Sea Witches and Sorceress}\r\n\r\nIncreases Speed of any Sea Witches or Sorceress by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
+				"tooltip": "Creature Bonus: Sea Witches"
+			}
+		}
+	}
+}

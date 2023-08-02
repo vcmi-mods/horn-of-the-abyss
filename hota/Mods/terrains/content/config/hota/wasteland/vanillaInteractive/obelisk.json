@@ -1,0 +1,16 @@
+{	
+	"core:obelisk" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AvXOblT" : { 
+						"animation" : "hota/wasteland/vanillaInteractive/obelisk/AvXOblT",
+						"visitableFrom" : [ "---", "+-+", "+++" ],
+						"mask" : [ "VV", "VA" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

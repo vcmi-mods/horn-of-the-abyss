@@ -10,63 +10,69 @@
 	"depends" : [ "hota.cannon" ],
 	"factions" :
 	[
-		"config/hota/town"
+		"config/hota/cove/faction",
+		"config/hota/cove/town/town",
+		"config/hota/cove/town/buildings",
+		"config/hota/cove/town/structures",
+		"config/hota/cove/town/siege",
+		"config/hota/cove/puzzleMap"
 	],
 	"creatures" :
 	[
-		"config/hota/creatures/ayssid",
-		"config/hota/creatures/corsair",
-		"config/hota/creatures/crewmate",
-		"config/hota/creatures/haspid",
-		"config/hota/creatures/nix",
-		"config/hota/creatures/nixWarrior",
-		"config/hota/creatures/nymph",
-		"config/hota/creatures/oceanid",
-		"config/hota/creatures/pirate",
-		"config/hota/creatures/seaWitch",
-		"config/hota/creatures/seadog",
-		"config/hota/creatures/seaman",
-		"config/hota/creatures/seaserpent",
-		"config/hota/creatures/sorceress",
-		"config/hota/creatures/stormbird",
-		"config/hota/creatures/stack_exp",
-		"config/hota/commander/blackbeard"
+		"config/hota/cove/creatures/ayssid",
+		"config/hota/cove/creatures/corsair",
+		"config/hota/cove/creatures/crewmate",
+		"config/hota/cove/creatures/haspid",
+		"config/hota/cove/creatures/nix",
+		"config/hota/cove/creatures/nixWarrior",
+		"config/hota/cove/creatures/nymph",
+		"config/hota/cove/creatures/oceanid",
+		"config/hota/cove/creatures/pirate",
+		"config/hota/cove/creatures/seaWitch",
+		"config/hota/cove/creatures/seadog",
+		"config/hota/cove/creatures/seaman",
+		"config/hota/cove/creatures/seaserpent",
+		"config/hota/cove/creatures/sorceress",
+		"config/hota/cove/creatures/stormbird",
+		"config/hota/cove/creatures/stackExperience",
+		"config/hota/cove/commander/blackbeard"
 	],
 	"heroClasses" :
 	[
-		"config/hota/classes/captain", "config/hota/classes/navigator"
+		"config/hota/cove/heroClasses/captain",
+		"config/hota/cove/heroClasses/navigator"
 	],
 	"heroes" :
 	[
-		"config/hota/heroes/anabel",
-		"config/hota/heroes/andal",
-		"config/hota/heroes/astra",
-		"config/hota/heroes/bidley",
-		"config/hota/heroes/casmetra",
-		"config/hota/heroes/cassiopeia",
-		"config/hota/heroes/corkes",
-		"config/hota/heroes/dargem",
-		"config/hota/heroes/derek",
-		"config/hota/heroes/elmore",
-		"config/hota/heroes/eovacius",
-		"config/hota/heroes/illor",
-		"config/hota/heroes/jeremy",
-		"config/hota/heroes/leena",
-		"config/hota/heroes/manfred",
-		"config/hota/heroes/miriam",
-		"config/hota/heroes/spint",
-		"config/hota/heroes/tark",
-		"config/hota/heroes/zilare"
+		"config/hota/cove/heroes/anabel",
+		"config/hota/cove/heroes/andal",
+		"config/hota/cove/heroes/astra",
+		"config/hota/cove/heroes/bidley",
+		"config/hota/cove/heroes/casmetra",
+		"config/hota/cove/heroes/cassiopeia",
+		"config/hota/cove/heroes/corkes",
+		"config/hota/cove/heroes/dargem",
+		"config/hota/cove/heroes/derek",
+		"config/hota/cove/heroes/elmore",
+		"config/hota/cove/heroes/eovacius",
+		"config/hota/cove/heroes/illor",
+		"config/hota/cove/heroes/jeremy",
+		"config/hota/cove/heroes/leena",
+		"config/hota/cove/heroes/manfred",
+		"config/hota/cove/heroes/miriam",
+		"config/hota/cove/heroes/spint",
+		"config/hota/cove/heroes/tark",
+		"config/hota/cove/heroes/zilare"
 	],
 	"spells" :
 	[
-		"config/hota/spells/accurateShot",
-		"config/hota/spells/specialClone",
-		"config/hota/spells/moat"
+		"config/hota/cove/spells/accurateShot",
+		"config/hota/cove/spells/specialClone",
+		"config/hota/cove/spells/moat"
 	],
 	"objects" : 
 	[ 
-		"config/hota/dwellings",
-		"config/hota/boats"
+		"config/hota/cove/dwellings",
+		"config/hota/cove/boats"
 	]
 }

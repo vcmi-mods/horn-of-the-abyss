@@ -6,40 +6,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -60,40 +60,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -114,40 +114,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},
@@ -168,40 +168,40 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 0
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : 1
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 2
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : 1
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			},

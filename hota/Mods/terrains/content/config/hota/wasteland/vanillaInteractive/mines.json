@@ -1,0 +1,82 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates": {
+					"AVMcrwl1" : {
+						"animation" : "hota/wasteland/vanillaInteractive/mines/AVMcrwl1",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates": {
+					"AVMgoWL0" : {
+						"animation" : "hota/wasteland/vanillaInteractive/mines/AVMgoWL0",
+						"mask" : ["VVVV","VVVV","VBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"sawmill" : {
+				"templates" : {
+					"AVMsawl0h" : {
+						"animation" : "AVMsawl0",  // standard graphics
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					},
+					"AVMsawr0h" : {
+						"animation" : "hota/wasteland/vanillaInteractive/mines/AVMsawr0",
+						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"alchemistLab" : {
+				"templates" : {
+					"AVMalwl0h" : {
+						"animation" : "AVMalch0",  // standard graphic
+						"mask" : ["VVV", "VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"orePit" : {
+				"templates" : {
+					"AVMorwl1" : {
+						"animation" : "hota/wasteland/vanillaInteractive/mines/AVMorwl1",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"sulfurDune" : {
+				"templates" : {
+					"AVMsuwl0" : {
+						"animation" : "AVMsulf0",  // standard graphic
+						"mask" : ["VVV", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			},
+			"gemPond" : {
+				"templates" : {
+					"AVMgewl1" : {
+						"animation" : "hota/wasteland/vanillaInteractive/mines/AVMgewl1",
+						"mask" : ["BBB", "BAB"],
+						"visitableFrom" : [ "---", "-+-", "+++" ],
+						"allowedTerrains" : ["wasteland"]
+					}
+				}
+			}
+		}
+	}
+}	

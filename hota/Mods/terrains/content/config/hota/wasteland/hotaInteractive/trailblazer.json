@@ -1,0 +1,27 @@
+{
+	"trailblazer" : {
+		"handler":"generic",
+		"name" : "Trailblazer",
+		"types" : {
+			"trailblazer" : {
+//				"aiValue" : 3000,
+//				"rmg" : {
+//					"value"		: 200,
+//					"rarity" 	: 40,
+//					"zoneLimit" : 1
+//				},
+				"sounds" : {
+					"visit" : ["STORE"]
+				},
+				"templates" : {
+					"avstrblz" : {
+						"animation" : "hota/wasteland/hotaInteractive/trailblazer/avstrblz",
+						"mask" : [ "VVV","VVV", "VBA" ],
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}		
+}

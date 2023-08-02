@@ -1,0 +1,59 @@
+{
+	"nymph" : {
+		"name" : {
+			"singular" : "Nymph",
+			"plural" : "Nymphs"
+		},
+		"faction" : "cove",
+		"level" : 1,
+		"upgrades" : [ "oceanid" ],
+		"cost" : { "gold" : 35 },
+		"speed" : 6,
+		"hitPoints" : 4,
+		"attack" : 5,
+		"defense" : 2,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"fightValue" : 52,
+		"aiValue" : 57,
+		"growth" : 16,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"abilities" : {
+			"teleports" : {
+				"type" : "FLYING",
+				"subtype" : 1
+			},
+			"immuneToWater" : {
+				"type" : "WATER_IMMUNITY",
+				"subtype" : 2
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/nymph.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/nymph.png",
+			"map" : "hota/cove/creatures/adventureMap/nymph.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/nymph.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/nymph/NIMPATTK.wav",
+			"defend" : "hota/cove/creatures/nymph/NIMPDFND.wav",
+			"killed" : "hota/cove/creatures/nymph/NIMPKILL.wav",
+			"move" : "hota/cove/creatures/nymph/NIMPMOVE.wav",
+			"startMoving": "hota/cove/creatures/nymph/NIMPEXT1.wav",
+			"endMoving": "hota/cove/creatures/nymph/NIMPEXT2.wav",
+			"wince" : "hota/cove/creatures/nymph/NIMPWNCE.wav"
+		}
+	}
+}

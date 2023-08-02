@@ -1,0 +1,55 @@
+{
+	"stormbird" : {
+		"name" : {
+			"singular" : "Stormbird",
+			"plural" : "Stormbirds"
+		},
+		"faction" : "cove",
+		"level" : 4,
+		"upgrades" : [ "ayssid" ],
+		"cost" : { "gold" : 275 },
+		"speed" : 9,
+		"hitPoints" : 30,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {
+			"min" : 6,
+			"max" : 9
+		},
+		"fightValue" : 386,
+		"aiValue" : 502,
+		"doubleWide" : true,
+		"hasDoubleWeek" : true,
+		"growth" : 4,
+		"horde" : 3,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		},
+		"abilities" : {
+			"canFly" : {
+				"type" : "FLYING"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/stormbird.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/stormbird.png",
+			"map" : "hota/cove/creatures/adventureMap/stormbird.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/stormbird.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/stormbird/ASSIATTK.wav",
+			"defend" : "hota/cove/creatures/stormbird/ASSIDFND.wav",
+			"killed" : "hota/cove/creatures/stormbird/ASSIKILL.wav",
+			"move" : "hota/cove/creatures/stormbird/ASSIMOVE.wav",
+			"wince" : "hota/cove/creatures/stormbird/ASSIWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"core:deadVegetation" :{
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLDEAD0" : {
+						"animation" : "AVLDEAD0",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava", "subterra", "swamp", "wasteland" ]
+					},
+					"AVLDEAD1" : {
+						"animation" : "AVLDEAD1",
+						"mask" : [ "VV", "VB" ],
+						"allowedTerrains": [ "lava", "subterra", "swamp", "wasteland" ]
+					},
+					"AVLDEAD2" : {
+						"animation" : "AVLDEAD2",
+						"mask" : ["VVVV", "VBBV", "VVBB"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD3" : {
+						"animation" : "AVLDEAD3",
+						"mask" : ["VVVV","VVBB", "VBBV"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD4" : {
+						"animation" : "AVLDEAD4",
+						"mask" : ["VVVV","VBBV", "VVBB"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD5" : {
+						"animation" : "AVLDEAD5",
+						"mask" : ["VVVV","VVBB", "VBBV"], 
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD6" : {
+						"animation" : "AVLDEAD6",
+						"mask" : ["VVVV","VBBV", "VBBB", "VVBB"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD7" : {
+						"animation" : "AVLDEAD7",
+						"mask" : ["VVVV","VVBB", "VBBB", "VBBV"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD8" : {
+						"animation" : "hota/wasteland/vanillaStatic/deadVegetation/AVLDEAD8",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					},
+					"AVLDEAD9" : {
+						"animation" : "hota/wasteland/vanillaStatic/deadVegetation/AVLDEAD9",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": ["lava", "subterra", "swamp", "wasteland"]
+					}
+				}
+			}
+		}	
+	}
+}

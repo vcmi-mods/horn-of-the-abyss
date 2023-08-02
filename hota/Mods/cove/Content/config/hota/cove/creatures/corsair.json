@@ -1,0 +1,73 @@
+{
+	"corsair" : {
+		"name" : {
+			"singular" : "Corsair",
+			"plural" : "Corsairs"
+		},
+		"faction" : "cove",
+		"level" : 3,
+		"upgrades" : [ "seadog" ],
+		"cost" : { "gold" : 275 },
+		"speed" : 7,
+		"hitPoints" : 15,
+		"shots" : 4,
+		"attack" : 10,
+		"defense" : 8,
+		"damage" : {
+			"min" : 3,
+			"max" : 7
+		},
+		"fightValue" : 344,
+		"aiValue" : 336,
+		"growth" : 7,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noPenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noRetaliation" : {
+				"type" : "BLOCKS_RETALIATION"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/corsair.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/corsair.png",
+			"map" : "hota/cove/creatures/adventureMap/corsair.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/corsair.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
+			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
+			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",
+			"move" : "hota/cove/creatures/pirate/PIRTMOVE.wav",
+			"shoot" : "hota/cove/creatures/pirate/PIRTSHOT.wav",
+			"wince" : "hota/cove/creatures/pirate/PIRTWNCE.wav"
+		}
+	}
+}

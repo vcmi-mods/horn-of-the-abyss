@@ -1,0 +1,18 @@
+{
+	"core:boat" : {
+		"types" : {
+			"boatCove" : {
+				"actualAnimation" : "hota/cove/mapObjects/boats/AB04_.def",
+				"overlayAnimation" : "ABM01_.def",
+				"flagAnimations" : ["ABF01L", "ABF01G", "ABF01R", "ABF01D", "ABF01B", "ABF01P", "ABF01W", "ABF01K"],
+				"templates" : {
+					"default" : {
+						"animation" : "hota/cove/mapObjects/boats/AVXBOAT4",
+						"mask" : [ "VVV", "VAV" ],
+						"allowedTerrains": [ "water" ] 
+					}
+				}
+			}
+		}
+	}
+}

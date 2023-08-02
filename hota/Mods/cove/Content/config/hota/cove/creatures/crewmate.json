@@ -1,0 +1,49 @@
+{
+	"crewmate" : {
+		"name" : {
+			"singular" : "Crew Mate",
+			"plural" : "Crew Mates"
+		},
+		"faction" : "cove",
+		"level" : 2,
+		"upgrades" : [ "seaman" ],
+		"cost" : { "gold" : 110 },
+		"speed" : 5,
+		"hitPoints" : 15,
+		"attack" : 7,
+		"defense" : 4,
+		"damage" : {
+			"min" : 2,
+			"max" : 4
+		},
+		"fightValue" : 155,
+		"aiValue" : 155,
+		"advMapAmount" : {
+			"min" : 16,
+			"max" : 30
+		},
+		"growth" : 9,
+		"horde" : 4,
+		"hasDoubleWeek" : true,
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/crewmate.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/crewmate.png",
+			"map" : "hota/cove/creatures/adventureMap/crewmate.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/crewmate.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/crewmate/SAYLATTK.wav",
+			"defend" : "hota/cove/creatures/crewmate/SAYLDFND.wav",
+			"killed" : "hota/cove/creatures/crewmate/SAYLKILL.wav",
+			"move" : "hota/cove/creatures/crewmate/SAYLMOVE.wav",
+			"wince" : "hota/cove/creatures/crewmate/SAYLWNCE.wav"
+		}
+	}
+}

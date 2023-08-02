@@ -1,0 +1,86 @@
+{
+    "core:centaur" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWcent0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:centaurCaptain" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWcenx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:dwarf" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWdwrf0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:battleDwarf" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWdwrx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:woodElf" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWelfw0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:grandElf" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWelfx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:pegasus" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWpega0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:silverPegasus" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWpegx0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:dendroidGuard" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWtree0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+	"core:dendroidSoldier" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWtrex0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:unicorn" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWunic0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:warUnicorn" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWunix0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:greenDragon" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWdrag0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	},
+    "core:goldDragon" : {
+		"graphics" : {
+			"map" : "hota/rampart/adventureMap/creatures/AVWdrax0.def",
+			"mapMask" : [ "VVV", "VAV"]
+		}
+	}
+}

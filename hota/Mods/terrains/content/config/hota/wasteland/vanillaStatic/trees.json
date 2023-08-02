@@ -1,0 +1,125 @@
+{
+	"core:trees" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"AVLtRro0" : {
+						"animation" : "hota/wasteland/vanillaStatic/trees/AVLtRro0",
+						"mask" : ["VVVV","VBBV","VVBB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRro1" : {
+						"animation" : "hota/wasteland/vanillaStatic/trees/AVLtRro1",
+						"mask" : ["VVVV","VVBB","VBBV"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRro4" : {
+						"animation" : "hota/wasteland/vanillaStatic/trees/AVLtRro4",
+						"mask" : ["VVVV","VBBV","VVBB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRro8" : {
+						"animation" : "hota/wasteland/vanillaStatic/trees/AVLtRro8",
+						"mask" : ["VVVV","VBBV","VBBB","VVBB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRro9" : {
+						"animation" : "hota/wasteland/vanillaStatic/trees/AVLtRro9",
+						"mask" : ["VVVV","VVBB","VBBB","VBBV"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo00" : {
+						"animation" : "AVLtRo00",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo01" : {
+						"animation" : "AVLtRo01",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo02" : {
+						"animation" : "AVLtRo02",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo03" : {
+						"animation" : "AVLtRo03",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo04" : {
+						"animation" : "AVLtRo00",
+						"mask" : ["B"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo05" : {
+						"animation" : "AVLtRo05",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo06" : {
+						"animation" : "AVLtRo06",
+						"mask" : ["B"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo07" : {
+						"animation" : "AVLtRo07",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo08" : {
+						"animation" : "AVLtRo08",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo09" : {
+						"animation" : "AVLtRo09",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo10" : {
+						"animation" : "AVLtRo10",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo11" : {
+						"animation" : "AVLtRo11",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtRo12" : {
+						"animation" : "AVLtRo12",
+						"mask" : ["VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtrRo2" : {
+						"animation" : "AVLtrRo2",
+						"mask" : ["VVVV", "VBBV", "VVBB" ],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtrRo3" : {
+						"animation" : "AVLtrRo3",
+						"mask" : ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtrRo5" : {
+						"animation" : "AVLtrRo5",
+						"mask" : ["VVVV", "VVBB", "VBBV"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtrRo6" : {
+						"animation" : "AVLtrRo6", 
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					},
+					"AVLtrRo7" : {
+						"animation" : "AVLtrRo7",
+						"mask" : ["VV", "VB"],
+						"allowedTerrains": [ "rough", "wasteland" ]
+					}
+				}
+			}
+		}
+	}
+}

@@ -40,7 +40,9 @@
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"rarity"	: 50
+					"rarity"	: 50,
+					"value"		: 100,
+					"zoneLimit"	: 1
 				}
 			}
 		}

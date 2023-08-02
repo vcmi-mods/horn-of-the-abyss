@@ -1,0 +1,70 @@
+{
+	"pirate" : {
+		"name" : {
+			"singular" : "Pirate",
+			"plural" : "Pirates"
+		},
+		"faction" : "cove",
+		"level" : 3,
+		"upgrades" : [ "corsair" ],
+		"cost" : { "gold" : 225 },
+		"speed" : 6,
+		"hitPoints" : 15,
+		"attack" : 8,
+		"defense" : 6,
+		"damage" : {
+			"min" : 3,
+			"max" : 7
+		},
+		"fightValue" : 306,
+		"aiValue" : 299,
+		"shots" : 4,
+		"growth" : 7,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		},
+		"abilities" : {
+			"canShoot" : {
+				"type" : "SHOOTER"
+			},
+			"noPenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/pirate.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/pirate.png",
+			"map" : "hota/cove/creatures/adventureMap/pirate.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/pirate.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"missile" : {
+				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
+			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
+			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",
+			"move" : "hota/cove/creatures/pirate/PIRTMOVE.wav",
+			"shoot" : "hota/cove/creatures/pirate/PIRTSHOT.wav",
+			"wince" : "hota/cove/creatures/pirate/PIRTWNCE.wav"
+		}
+	}
+}

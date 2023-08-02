@@ -1,0 +1,221 @@
+{
+	"cove" : {
+		"town" : {
+			"primaryResource" : "sulfur",
+			"warMachine" : "cannon",
+			"moatAbility" : "coveMoat",
+			"defaultTavern" : 5,
+
+			"townBackground" : "hota/cove/town/background",
+			"hallBackground" : "TPTHBKDG",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildWindow" : "hota/cove/town/mageguild",
+			"buildingsIcons" : "hota/cove/town/townhall",
+
+			"musicTheme" : "music/factions/cove",
+			"tavernVideo" : "tvrncove.BIK",
+
+			"creatures" : [
+				[ "nymph", "oceanid" ],
+				[ "crewmate", "seaman" ],
+				[ "pirate", "corsair", "seadog" ],
+				[ "stormbird", "ayssid" ],
+				[ "seaWitch", "sorceress" ],
+				[ "nix", "nixWarrior" ],
+				[ "seaserpent", "haspid" ]
+			],
+
+			"hallSlots" : [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4" ],
+					[ "special3" ],
+					[ "shipyard" ]
+				],
+				[ [ "horde1", "horde1Upgr" ], [ "special4" ], [ "horde2", "horde2Upgr" ] ],
+				[
+					[ "dwellingLvl1", "dwellingUpLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ]
+				]
+			],
+
+			"buildings" : {
+				"villageHall":    { "id" : 10, "mode" : "auto" },
+				"townHall":       { "id" : 11, "upgrades" : "villageHall", "requires" : [ "tavern" ] },
+				"cityHall":       { "id" : 12, "upgrades" : "townHall", "requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ] },
+				"capitol":        { "id" : 13, "upgrades" : "cityHall", "requires" : [ "castle" ] },
+				
+				"fort":           { "id" : 7 },
+				"citadel":        { "id" : 8,  "upgrades" : "fort" },
+				"castle":         { "id" : 9,  "upgrades" : "citadel" },
+				
+				"tavern":         { "id" : 5 },
+				"blacksmith":     { "id" : 16 },
+				"marketplace":    { "id" : 14 },
+				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
+				"shipyard":       { "id" : 6 },
+				"ship":           { "id" : 20, "upgrades" : "shipyard" },
+
+				"special3":       { "id" : 22, "requires" : [ "tavern" ] },
+				"special4":       { "id" : 23, "requires" : [ "marketplace" ] },
+				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
+				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },
+				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl4" },
+				"horde2Upgr":     { "id" : 25, "upgrades" : "dwellingUpLvl4", "requires" : [ "horde2" ] },
+				"grail":          { "id" : 26 },
+				
+				"mageGuild1":     { "id" : 0 },
+				"mageGuild2":     { "id" : 1,  "upgrades" : "mageGuild1" },
+				"mageGuild3":     { "id" : 2,  "upgrades" : "mageGuild2" },
+				"mageGuild4":     { "id" : 3,  "upgrades" : "mageGuild3" },
+
+				"dwellingLvl1":   { "id" : 30, "requires" : [ "fort" ] },
+				"dwellingLvl2":   { "id" : 31, "requires" : [ "dwellingLvl1" ] },
+				"dwellingLvl3":   { "id" : 32, "requires" : [ "allOf", [ "dwellingLvl2" ], [ "blacksmith" ] ] },
+				"dwellingLvl4":   { "id" : 33, "requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl2" ] ] },
+				"dwellingLvl5":   { "id" : 34, "requires" : [ "allOf", [ "mageGuild1" ], [ "dwellingLvl1" ], [ "dwellingLvl2" ] ] },
+				"dwellingLvl6":   { "id" : 35, "requires" : [ "dwellingLvl4" ] },
+				"dwellingLvl7":   { "id" : 36, "requires" : [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ] ] },
+
+				"dwellingUpLvl1": { "id" : 37, "upgrades" : "dwellingLvl1" },
+				"dwellingUpLvl2": { "id" : 38, "upgrades" : "dwellingLvl2" },
+				"dwellingUpLvl3": { "id" : 39, "upgrades" : "dwellingLvl3" },
+				"dwellingUpLvl4": { "id" : 40, "upgrades" : "dwellingLvl4" },
+				"dwellingUpLvl5": { "id" : 41, "upgrades" : "dwellingLvl5", "requires" : [ "mageGuild2" ] },
+				"dwellingUpLvl6": { "id" : 42, "upgrades" : "dwellingLvl6" },
+				"dwellingUpLvl7": { "id" : 43, "upgrades" : "dwellingLvl7", "requires" : [ "mageGuild2" ] },
+
+				"dwellingUp2Lvl3": { "id" : 46, "upgrades" : "dwellingUpLvl3" }
+			},
+			"horde" : [ 1, 3 ],
+
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "hota/cove/town/icons/fortbuildedlarge.bmp",
+						"small" : "hota/cove/town/icons/fortbuildedsmall.bmp"
+					},
+					"normal" : {
+						"large" : "hota/cove/town/icons/fortlarge.bmp",
+						"small" : "hota/cove/town/icons/fortsmall.bmp"
+					}
+				},
+				"village" : {
+					"built" : {
+						"large" : "hota/cove/town/icons/hallbuildedlarge.bmp",
+						"small" : "hota/cove/town/icons/hallbuildedsmall.bmp"
+					},
+					"normal" : {
+						"large" : "hota/cove/town/icons/halllarge.bmp",
+						"small" : "hota/cove/town/icons/hallsmall.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ]
+				},
+				"templates" : {
+					"fort" : { "animation" : "hota/cove/town/adventureMap/fort.def" },
+					"citadel" : { "animation" : "hota/cove/town/adventureMap/citadel.def" },
+					"castle" : { "animation" : "hota/cove/town/adventureMap/castle.def" },
+					"village" : { "animation" : "hota/cove/town/adventureMap/village.def" },
+					"capitol" : { "animation" : "hota/cove/town/adventureMap/capitol.def" }
+				}
+			},
+
+			"mageGuild" : 4,
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 6,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8
+			},
+
+			"names" : [
+				"Tartaglia",
+				"Lewindale",
+				"Port Evendore",
+				"Rotunda",
+				"Watergate",
+				"Brown's Bay",
+				"Nithenes",
+				"Downhaven",
+				"Lakenshire",
+				"Noral",
+				"Westland Pier",
+				"Walendale",
+				"Port Crowland",
+				"Jordanhall",
+				"Sleepy Creek",
+				"Hitchgrove"
+			]
+		}
+	}
+}

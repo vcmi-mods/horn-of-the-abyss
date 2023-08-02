@@ -26,7 +26,7 @@
 		{
 			"animation" : "hota/battle/SMCANNON.def",
 			"iconSmall" : "hota/iconsSmall/cannonCreature.png",
-			"iconLarge" : "hota/iconsbig/cannonCreature.png",
+			"iconLarge" : "hota/iconslarge/cannonCreature.png",
 			"map" : "hota/map/cannonMap.def",
 			"timeBetweenFidgets" : 1,
 			"animationTime" :

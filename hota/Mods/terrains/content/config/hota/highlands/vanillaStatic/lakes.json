@@ -1,0 +1,31 @@
+{
+	"core:lake" : {
+		"types" : {
+			"hotaHLakes" : {
+				"name" : "Lake",
+				"templates" : {
+					"avlhll00" : {
+						"animation" : "hota/highlands/vanillaStatic/lakes/avlhll00",
+						"mask" : [ "VBBBBBB", "BBBBBBB","VBBBBBV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhll01" : {
+						"animation" : "hota/highlands/vanillaStatic/lakes/avlhll01",
+						"mask" : [ "BBBBB", "BBBBB", "BBBBV" ],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhll02" : {
+						"animation" : "hota/highlands/vanillaStatic/lakes/avlhll02",
+						"mask" : [ "VVVVV", "BBBBB", "BBBBB"],
+						"allowedTerrains": [ "highlands" ]
+					},
+					"avlhll03" : {
+						"animation" : "hota/highlands/vanillaStatic/lakes/avlhll03",
+						"mask" : [ "VVVV", "VBBB", "VVVV"],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	}
+}

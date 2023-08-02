@@ -1,0 +1,67 @@
+{
+	"seaserpent" : {
+		"name" : {
+			"singular" : "Sea Serpent",
+			"plural" : "Sea Serpents"
+		},
+		"faction" : "cove",
+		"level" : 7,
+		"upgrades" : [ "haspid" ],
+		"cost" : {
+			"gold" : 2200,
+			"sulfur" : 1
+		},
+		"speed" : 9,
+		"hitPoints" : 180,
+		"attack" : 22,
+		"defense" : 16,
+		"damage" : {
+			"max" : 55,
+			"min" : 30
+		},
+		"fightValue" : 3162,
+		"aiValue" : 3953,
+		"doubleWide" : true,
+		"growth" : 1,
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
+		},
+		"abilities" : {
+			"basicSlayer" : {
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dragonNature" : {
+				"type" : "DRAGON_NATURE"
+			},
+			"poisonous" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 30,
+				"addInfo" : 0
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/cove/creatures/iconsLarge/seaserpent.png",
+			"iconSmall" : "hota/cove/creatures/iconsSmall/seaserpent.png",
+			"map" : "hota/cove/creatures/adventureMap/seaserpent.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"animation" : "hota/cove/creatures/battle/seaserpent.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1
+		},
+		"sound" : {
+			"attack" : "hota/cove/creatures/seaserpent/ASPIATTK.wav",
+			"defend" : "hota/cove/creatures/seaserpent/ASPIDFND.wav",
+			"killed" : "hota/cove/creatures/seaserpent/ASPIKILL.wav",
+			"move" : "hota/cove/creatures/seaserpent/ASPIMOVE.wav",
+			"wince" : "hota/cove/creatures/seaserpent/ASPIWNCE.wav"
+		}
+	}
+}
