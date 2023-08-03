@@ -1,0 +1,18 @@
+{
+	"basepath" : "images/",
+	"images" :
+	[
+		{
+			"frame": 0,
+			"file" : "sod-normal"
+		},
+		{
+			"frame": 1,
+			"file" : "sod-down"
+		},
+		{
+			"frame": 2,
+			"file" : "sod-hover"
+		}
+	]
+}

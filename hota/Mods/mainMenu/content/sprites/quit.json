@@ -1,0 +1,18 @@
+{
+	"basepath" : "images/",
+	"images" :
+	[
+		{
+			"frame": 0,
+			"file" : "quit-normal"
+		},
+		{
+			"frame": 1,
+			"file" : "quit-down"
+		},
+		{
+			"frame": 2,
+			"file" : "quit-hover"
+		}
+	]
+}
