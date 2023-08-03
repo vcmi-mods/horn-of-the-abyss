@@ -1,0 +1,18 @@
+{
+	"basepath" : "images/",
+	"images" :
+	[
+		{
+			"frame": 0,
+			"file" : "tutor-normal"
+		},
+		{
+			"frame": 1,
+			"file" : "tutor-down"
+		},
+		{
+			"frame": 2,
+			"file" : "tutor-hover"
+		}
+	]
+}
