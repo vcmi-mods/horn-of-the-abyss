@@ -1,6 +1,6 @@
 {
 	//images used in game selection screen
-	"game-select" : ["GamSelB0", "GamSelB1", "gamselb2", "gamselb3", "gamselb4", "gamselb5", "gamselb6", "gamselb7", "gamselb8", "gamselb9", "gamselb10"],
+	"game-select" : ["GamSelB0", "GamSelB1", "gamselb2", "gamselb3", "gamselb4", "gamselb5", "gamselb6", "gamselb7", "gamselb8"],
 
 	"loading" : ["loadbar"],
 
