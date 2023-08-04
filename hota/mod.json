@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.4",
+	"version" : "1.6.5",
 	"changelog" : 
 	{
+		"1.6.5"   : [ "Fixed graphical issues in previous version" ],
 		"1.6.4"   : [ "Added main menu theme", "Added fixed versions of creature icons" ],
 		"1.6.3"   : [ "Adjusted Kinkeria specialty" ],
 		"1.6.2"   : [ "Added Town Gate object", "Banned heroes with starting navigation skill" ],
