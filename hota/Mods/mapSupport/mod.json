@@ -20,7 +20,8 @@
 		"hota.neutralcreatures",
 		"hota.newgraphics",
 		"hota.terrainoverlays",
-		"hota.terrains"
+		"hota.highlandsterrain",
+		"hota.wastelandterrain"
 	],
 	"settings": {
 		"mapFormat" : {
