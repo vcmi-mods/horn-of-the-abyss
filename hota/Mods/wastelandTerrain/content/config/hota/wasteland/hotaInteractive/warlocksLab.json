@@ -1,0 +1,16 @@
+{
+	"hota.mapObjects:warlocksLab" : {
+		"types" : {
+			"warlocksLab" : {
+				"templates" : {
+					"avxtrmtw" : {
+						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmtw",
+						"mask" : [ "VVVV", "VVVV", "VBAB" ],
+						"visitableFrom" : [ "---", "-++", "+++" ],
+						"allowedTerrains": [ "wasteland"]
+					}
+				}
+			}
+		}
+	}
+}

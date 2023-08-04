@@ -12,16 +12,9 @@
 				"sounds" : {
 					"visit" : ["STORE"]
 				},
-				"templates" : {
-					"avxtrmtw" : {
-						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmtw",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "wasteland"]
-					},
-					
+				"templates" : {	
 					"avxtrmts" : {
-						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmts",
+						"animation" : "hota/warlocksLab/avxtrmts",
 						"mask" : [ "VVVV", "VVVV", "VBAB" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
 						"allowedTerrains": [ "snow"]
