@@ -795,7 +795,7 @@
 					"hota/highlands/vanillaInteractive/sign/avxsnhl.def" : "avxsnhl.def",
 					"hota/wasteland/vanillaInteractive/sign/avxsnwst.def" : "AVXsnwst.def",
 					"hota/treeOfKnowledge/AVXtrkS0.def" : "AVXtrkS0.def",
-					"hota/wasteland/hotaInteractive/warlocksLab/avxtrmts.def" : "avxtrmts.def",
+					"hota/warlocksLab/avxtrmts.def" : "avxtrmts.def",
 					"hota/wasteland/hotaInteractive/warlocksLab/avxtrmtw.def" : "avxtrmtw.def",
 					"hota/tavern/AVXtvrS0.def" : "AVXtvrS0.def",
 					"hota/townGate/avxtwngt.def" : "avxtwngt.def",
