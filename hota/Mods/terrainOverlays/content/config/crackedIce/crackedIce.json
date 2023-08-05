@@ -1,7 +1,7 @@
 {
 	"crackedIce" : {
-		"handler": "terrain",
 		"name" : "Cracked Ice",
+		"handler": "terrain",
 		"base" : {
 			"battleground": "cracked_ice"
 		},
@@ -11,8 +11,8 @@
 					"zice01" : {
 						"animation" : "zice01",
 						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
-					},
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					}
 				}
 			},
 			"crackedIce01" : {
@@ -20,8 +20,8 @@
 					"zice01" : {
 						"animation" : "zice01",
 						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
-					},
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					}
 				}
 			},
 			"crackedIce02" : {
@@ -29,8 +29,8 @@
 					"zice02" : {
 						"animation" : "zice02",
 						"zIndex": 100,
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV","VVVVVVVV", "VVVVVVVV" ]
-					},
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					}
 				}
 			},
 			"crackedIce03" : {
@@ -38,8 +38,8 @@
 					"zice03" : {
 						"animation" : "zice03",
 						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV","VVVVVV", "VVVVVV","VVVVVV", "VVVVVV" ]
-					},
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					}
 				}
 			},
 			"crackedIce04" : {
@@ -47,8 +47,8 @@
 					"zice04" : {
 						"animation" : "zice04",
 						"zIndex": 100,
-						"mask" : [ "VVVVVVVV", "VVVVVVVV","VVVVVVVV"]
-					},
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					}
 				}
 			},
 			"crackedIce05" : {
@@ -56,8 +56,8 @@
 					"zice05" : {
 						"animation" : "zice05",
 						"zIndex": 100,
-						"mask" : [ "VVV", "VVV","VVV","VVV", "VVV","VVV"]
-					},
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV" ]
+					}
 				}
 			},
 			"crackedIce06" : {
@@ -65,8 +65,8 @@
 					"zice06" : {
 						"animation" : "zice06",
 						"zIndex": 100,
-						"mask" : [ "VVV", "VVV","VVV" ]
-					},
+						"mask" : [ "VVV", "VVV", "VVV" ]
+					}
 				}
 			},
 			"crackedIce07" : {
@@ -75,7 +75,7 @@
 						"animation" : "zice07",
 						"zIndex": 100,
 						"mask" : [ "VVVVV", "VVVVV" ]
-					},
+					}
 				}
 			},
 			"crackedIce08" : {
@@ -83,7 +83,7 @@
 					"zice08" : {
 						"animation" : "zice08",
 						"zIndex": 100,
-						"mask" : [ "VV", "VV","VV", "VV","VV"  ]
+						"mask" : [ "VV", "VV", "VV", "VV", "VV" ]
 					}
 				}
 			}

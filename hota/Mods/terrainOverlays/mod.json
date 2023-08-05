@@ -6,24 +6,32 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0",
+	"version" : "1.1",
 	"compatibility" :
 	{
 		"min" : "1.1.0"
 	},
+	"changelog" : 
+	{
+		"1.0.0" : [ "Each special terrain has now its own dedicated folder" ]
+	},
 	"objects" :
 	[ 
-		"config/crackedIce.json",
-		"config/dunes.json",
-		"config/favorableWinds.json",
-		"config/fieldsOfGlory.json"
+		"config/crackedIce/crackedIce.json",
+		"config/dunes/dunes.json",
+		"config/fieldsOfGlory/fieldsOfGlory.json",
+		"config/favorableWinds/favorableWinds.json"
 	],
 	"battlefields" :
 	[
-		"config/battlefields/battlefields.json"
+		"config/crackedIce/battlefields.json",
+		"config/dunes/battlefields.json",
+		"config/fieldsOfGlory/battlefields.json"
 	],
 	"obstacles" :
 	[
-		"config/battlefields/obstacles.json"
+		"config/crackedIce/obstacles.json",
+		"config/dunes/obstacles.json",
+		"config/fieldsOfGlory/obstacles.json"
 	]
 }

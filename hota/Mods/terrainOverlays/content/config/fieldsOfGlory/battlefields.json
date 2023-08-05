@@ -1,0 +1,14 @@
+{
+	"fields_of_glory": {
+		"graphics": "cmbkflgl.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "LUCK",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	}
+}
