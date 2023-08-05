@@ -1,0 +1,16 @@
+{
+	"name" : "Heroes III data patch",
+	"description" : "Fixes & improvements to graphics and sounds for some of SoD game assets.",
+	"modType" : "Graphical",
+	"author": "Graphics and sounds: HotA Crew, mod: Kuririn & avatar",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.3.6",
+	"changelog" : 
+	{
+		"1.3.6"   : [ "Added all changed sounds" ]
+	},
+	"factions" :
+	[
+		"config/heroes3DataPatch/structures.json"
+	]
+}
