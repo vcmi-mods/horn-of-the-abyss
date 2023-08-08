@@ -4,10 +4,10 @@
 	"modType" : "Objects",
 	"author": "Graphics: HotA Crew, mod: avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.2.0",
+	"version" : "1.3.0",
 	"compatibility" :
 	{
-		"min" : "1.2.0"
+		"min" : "1.3.0"
 	},
 	"depends" : [ "hota.cove", "hota.neutralcreatures" ],
 	"objects" :
