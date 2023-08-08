@@ -1,0 +1,42 @@
+{
+	"ob_du001":
+	{
+		"specialBattlefields" : ["dunes"],
+		"allowedTerrains" : [],
+		"animation" : "dunes/obstacles/ob_du001.def",
+		"absolute" : false,
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" : [0, 1]
+	},
+	"ob_du002":
+	{
+		"specialBattlefields" : ["dunes"],
+		"allowedTerrains" : [],
+		"animation" : "dunes/obstacles/ob_du002.def",
+		"absolute" : false,
+		"width" : 4,
+		"height" : 2,
+		"blockedTiles" : [0, 1, 2, 3]
+	},
+	"ob_du003":
+	{
+		"specialBattlefields" : ["dunes"],
+		"allowedTerrains" : [],
+		"animation" : "dunes/obstacles/ob_du003.def",
+		"absolute" : false,
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" : [0, 1]
+	},
+	"ob_du004":
+	{
+		"specialBattlefields" : ["dunes"],
+		"allowedTerrains" : [],
+		"animation" : "dunes/obstacles/ob_du004.def",
+		"absolute" : false,
+		"width" : 3,
+		"height" : 2,
+		"blockedTiles" : [0, 1, 2]
+	}
+}

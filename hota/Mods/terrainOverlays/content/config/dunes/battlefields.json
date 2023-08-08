@@ -1,0 +1,14 @@
+{
+	"dunes": {
+		"graphics": "CmBkDun.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "OPENING_BATTLE_SPELL",
+				"subtype" : "spell.quicksand",
+				"val" : 4,
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	}
+}

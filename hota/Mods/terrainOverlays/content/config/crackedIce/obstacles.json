@@ -1,0 +1,32 @@
+{
+	"ob_ci001":
+	{
+		"specialBattlefields" : ["cracked_ice"],
+		"allowedTerrains" : [],
+		"animation" : "crackedIce/obstacles/ob_ci001.def",
+		"absolute" : false,
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" : [0, 1]
+	},
+	"ob_ci002":
+	{
+		"specialBattlefields" : ["cracked_ice"],
+		"allowedTerrains" : [],
+		"animation" : "crackedIce/obstacles/ob_ci002.def",
+		"absolute" : false,
+		"width" : 2,
+		"height" : 2,
+		"blockedTiles" : [0, 1]
+	},
+	"ob_ci003":
+	{
+		"specialBattlefields" : ["cracked_ice"],
+		"allowedTerrains" : [],
+		"animation" : "crackedIce/obstacles/ob_ci003.def",
+		"absolute" : false,
+		"width" : 4,
+		"height" : 2,
+		"blockedTiles" : [1, 2, 3]
+	}
+}

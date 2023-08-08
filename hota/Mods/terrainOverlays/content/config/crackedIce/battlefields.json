@@ -1,0 +1,15 @@
+{
+	"cracked_ice": {
+		"graphics": "CmBkIce.BMP",
+		"isSpecial" : true,
+		"bonuses": [
+			{
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primSkill.defence",
+				"val" : -5,
+				"valueType" : "BASE_NUMBER",
+				"propagator": "BATTLE_WIDE"
+			}
+		]
+	}
+}

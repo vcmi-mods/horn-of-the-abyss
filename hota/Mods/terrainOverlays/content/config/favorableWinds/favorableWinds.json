@@ -1,0 +1,76 @@
+{
+	"core:favorableWinds" : {
+		"types" : {
+			"object" : {
+				"base" : { "zIndex": 100 },
+				"templates" : {
+					"fvwnd00" : {
+						"animation" : "fvwnd00",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					},
+					"fvwnd01" : {
+						"animation" : "fvwnd01",
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					},
+					"fvwnd02" : {
+						"animation" : "fvwnd02",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					},
+					"fvwnd03" : {
+						"animation" : "fvwnd03",
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					},
+					"fvwnd04" : {
+						"animation" : "fvwnd04",
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV" ]
+					},
+					"fvwnd05" : {
+						"animation" : "fvwnd05",
+						"mask" : [ "VVV", "VVV", "VVV" ]
+					},
+					"fvwnd06" : {
+						"animation" : "fvwnd06",
+						"mask" : [ "VVVVV", "VVVVV" ]
+					},
+					"fvwnd07" : {
+						"animation" : "fvwnd07",
+						"mask" : [ "VV", "VV", "VV", "VV", "VV" ]
+					},
+					
+					"zwat00" : {
+						"animation" : "zwat00",
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					},
+					"zwat01" : {
+						"animation" : "zwat01",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					},
+					"zwat02" : {
+						"animation" : "zwat02",
+						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+					},
+					"zwat03" : {
+						"animation" : "zwat03",
+						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+					},
+					"zwat04" : {
+						"animation" : "zwat04",
+						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV" ]
+					},
+					"zwat05" : {
+						"animation" : "zwat05",
+						"mask" : [ "VVV", "VVV", "VVV" ]
+					},
+					"zwat06" : {
+						"animation" : "zwat06",
+						"mask" : [ "VVVVV", "VVVVV" ]
+					},
+					"zwat07" : {
+						"animation" : "zwat07",
+						"mask" : [ "VV", "VV", "VV", "VV", "VV" ]
+					}
+				}
+			}
+		}
+	}
+}
