@@ -14,7 +14,7 @@
 					"visit" : ["hota/ACADEMYV"]
 				},
 				"modes" : ["resource-skill"],
-				"offer" : ["navigation", {}, {}, {}],
+				"offer" : ["navigation", "navigation", {}, {}],
 				"title" : "Seafaring Academy",
 				"efficiency" : 5,
 				"speech" : "Flapping sails and screeching ropes are music for the ears of those who graduated this ancient Academy. A midshipman can master the following skills here.",
