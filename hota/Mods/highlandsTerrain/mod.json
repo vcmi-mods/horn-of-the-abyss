@@ -6,9 +6,10 @@
 	"contact" : "https://slack.vcmi.eu/",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.0.0",
+	"version" : "1.1.0",
 	"changelog" :
 	{
+		"1.0.1"   : [ "Configured behavior for Junkman, (scrolls are tradable, unlike HotA)" ],
 		"1.0.0"   : [ "Initial release" ]
 	},
 	"compatibility" :
