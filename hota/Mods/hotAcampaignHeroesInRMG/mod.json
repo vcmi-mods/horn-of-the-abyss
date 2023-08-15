@@ -1,5 +1,5 @@
 {
-	"name" : "Hota campaign Heroes in RMG",
+	"name" : "HotA campaign heroes in RMG",
 	"description" : "Unlock Bidley and Tark on random maps",
 	"modType" : "Heroes",
 	"author" : "avatar",
@@ -15,6 +15,6 @@
 	],
 	"heroes" :
 	[
-		"config/hotaCampaignHeroesInRMG.json"		
+		"config/hotaCampaignHeroesInRMG.json"
 	]	
 }
