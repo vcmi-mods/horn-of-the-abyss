@@ -9,10 +9,7 @@
 	"version" : "1.2.1",
 	"changelog" :
 	{
-		"1.2.1"   : [ "Small fixes in decorative objects" ]
-	},
-	"changelog" :
-	{
+		"1.2.1"   : [ "Small fixes in decorative objects" ],
 		"1.0.0"   : [ "Initial release" ]
 	},
 	"compatibility" :
