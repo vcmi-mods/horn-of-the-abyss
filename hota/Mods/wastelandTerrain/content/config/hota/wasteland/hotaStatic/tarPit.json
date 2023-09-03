@@ -1,7 +1,7 @@
 {
 	"tarPit" : {
 		"name" : "Tar Pit",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"tarPit" : {
 				"templates" : {

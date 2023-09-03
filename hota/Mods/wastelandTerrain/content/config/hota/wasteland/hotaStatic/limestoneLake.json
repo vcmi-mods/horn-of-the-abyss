@@ -1,7 +1,7 @@
 {
 	"limestoneLake" : {
 		"name" : "Limestone Lake",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"limestoneLake" : {
 				"templates" : {

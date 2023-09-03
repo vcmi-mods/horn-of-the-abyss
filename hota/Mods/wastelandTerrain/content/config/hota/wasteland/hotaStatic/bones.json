@@ -1,7 +1,7 @@
 {
 	"bones" : {
 		"name" : "Bones",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"bones" : {
 				"templates" : {

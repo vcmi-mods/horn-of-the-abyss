@@ -1,7 +1,7 @@
 {
 	"spruces" : {
 		"name" : "Spruces",
-		"handler":"generic",
+		"handler":"static",
 		"types" : {
 			"spruces" : {
 				"templates" : {
