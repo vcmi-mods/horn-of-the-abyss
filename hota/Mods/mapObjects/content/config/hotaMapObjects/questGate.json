@@ -1,6 +1,6 @@
 {
 	"core:questGuard" : {
-		"handler":"generic",
+		"handler":"questGuard",
 		"name" : "Quest Gate",
 		"types" : {
 			"questGate" : {
