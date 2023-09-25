@@ -27,9 +27,15 @@
 				"type" : "FLYING",
 				"subtype" : 1
 			},
-			"immuneToWater" : {
-				"type" : "WATER_IMMUNITY",
-				"subtype" : 2
+			"iceBoltImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.iceBolt"
+			},
+			"frostRingImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.frostRing"
 			}
 		},
 		"graphics" : {
