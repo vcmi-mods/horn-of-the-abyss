@@ -6,10 +6,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.12",
+	"version" : "1.6.13",
 	"downloadSize" : 114.9,
 	"changelog" : 
 	{
+		"1.6.13"   : [ "Removed unavailable LAND type from terrains." ],
 		"1.6.12"   : [ "Normalized submod names, to be more clear and look more consistent" ],
 		"1.6.11"  : [ "WoG MainMenu mod name updated in Conflicts section" ],
 		"1.6.10"  : [ "Fixed Water Spells damage imunity for Nymphs and Oceanids" ],
