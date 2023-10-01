@@ -1,5 +1,13 @@
 {
-	"core:shrineOfMagicLevel1" : {
+	"shrineOfMagicLevel4" : {
+		"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+		"handler" : "shrine",
+		"base" : {
+			"sounds" : {
+				"ambient" : ["LOOPSHRIN"],
+				"visit" : ["TEMPLE"]
+			}
+		},
 		"types" : {
 			"shrineOfMagicMystery" : {
 				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
@@ -16,24 +24,23 @@
 				"spell" : {
 					"level" : 4
 				},
-
 				"templates" :
 				{
 					"water" :
 					{
-						"animation" : "hota/shrines/AVXl4sh0", 
+						"animation" : "hota/shrines/AVXl4sh0",
 						"mask" : [ "VV", "VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
 					},	
 					"land" :
 					{
-						"animation" : "hota/shrines/4lvlxshrn", 
+						"animation" : "hota/shrines/4lvlxshrn",
 						"mask" : [ "VV","VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ]
 					}
 				}
 			}
 		}
-	}		
+	}
 }
