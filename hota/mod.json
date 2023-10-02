@@ -10,7 +10,7 @@
 	"downloadSize" : 114.9,
 	"changelog" : 
 	{
-		"1.6.15"  : [ "Fixed miniHillFort templates for wasteland and highlands" ],
+		"1.6.15"  : [ "Fixed miniHillFort templates for wasteland and highlands. Fixed warlocks lab template" ],
 		"1.6.12"  : [ "Normalized submod names, to be more clear and look more consistent" ],
 		"1.6.11"  : [ "WoG MainMenu mod name updated in Conflicts section" ],
 		"1.6.10"  : [ "Fixed Water Spells damage imunity for Nymphs and Oceanids" ],
