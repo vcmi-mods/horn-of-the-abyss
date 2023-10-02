@@ -1,15 +1,17 @@
 {
-	"core:shrineOfMagicLevel2"	: {
+	"core:shrineOfMagicLevel2" : {
+		"name" : "Shrine of Magic Gesture (teaches a level 2 spell)",
 		"types" : {
 			"object" : {
+				"name" : "Shrine of Magic Gesture (teaches a level 2 spell)",
 				"templates" : {
-					"AVXl2sh0w" : { "animation" : "hota/shrines/AVXl2sh0w",  
-						"mask" : [ "VB","VA" ], 
+					"AVXl2sh0w" : { "animation" : "hota/shrines/AVXl2sh0w",
+						"mask" : [ "VB","VA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
-					}	
+					}
 				}
 			}
 		}
-	}		
+	}
 }

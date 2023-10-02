@@ -1,6 +1,6 @@
 {
 	"shrineOfMagicLevel4" : {
-		"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+		"name" : "Shrine of Magic Mystery (teaches a level 4 spell)",
 		"handler" : "shrine",
 		"base" : {
 			"sounds" : {
@@ -10,7 +10,7 @@
 		},
 		"types" : {
 			"shrineOfMagicMystery" : {
-				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+				"name" : "Shrine of Magic Mystery (teaches a level 4 spell)",
 				"rmg" : {
 					"value"		: 7000,
 					"rarity"	: 100,

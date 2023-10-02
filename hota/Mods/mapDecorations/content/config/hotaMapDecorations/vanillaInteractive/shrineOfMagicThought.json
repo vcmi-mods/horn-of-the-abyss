@@ -1,15 +1,17 @@
 {
 	"core:shrineOfMagicLevel3" : {
+		"name" : "Shrine of Magic Incantation (teaches a level 3 spell)",
 		"types" : {
 			"object" : {
+				"name" : "Shrine of Magic Thought (teaches a level 3 spell)",
 				"templates" : {
-					"AVXl3sh0w" : { "animation" : "hota/shrines/AVXl3sh0w", 
-						"mask" : [ "VB", "VA" ], 
+					"AVXl3sh0w" : { "animation" : "hota/shrines/AVXl3sh0w",
+						"mask" : [ "VB", "VA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

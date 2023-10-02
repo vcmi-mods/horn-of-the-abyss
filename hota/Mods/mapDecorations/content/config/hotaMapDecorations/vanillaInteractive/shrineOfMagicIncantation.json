@@ -1,15 +1,17 @@
 {
-	"core:shrineOfMagicLevel1"	: {
+	"core:shrineOfMagicLevel1" : {
+		"name" : "Shrine of Magic Incantation (teaches a level 1 spell)",
 		"types" : {
 			"object" : {
+				"name" : "Shrine of Magic Incantation (teaches a level 1 spell)",
 				"templates" : {
-					"AVXl1sh0w" : { "animation" : "hota/shrines/AVXl1sh0w", 
-						"mask" : [ "VB","VA" ], 
+					"AVXl1sh0w" : { "animation" : "hota/shrines/AVXl1sh0w",
+						"mask" : [ "VB","VA" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water" ]
 					}
 				}
 			}
 		}
-	}		
+	}
 }
