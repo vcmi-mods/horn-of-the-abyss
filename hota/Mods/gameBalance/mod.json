@@ -1,10 +1,11 @@
 {
 	"name" : "Game balance",
-	"description" : "Balance improvements made by HotA Crew for Horn of The Abbys expansion.", 
+	"description" : "Balance improvements made by HotA Crew for Horn of The Abbys expansion.",
 	"modType" : "Mechanics",
 	"author": "Kuririn & avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.6",
+	"depends" : [ "hota.mapobjects" ],
 	"settings" : {
 		"dwellings" : {
 			"accumulateWhenOwned" : true
@@ -28,5 +29,9 @@
 	"skills" :
 	[
 		"config/hotaGameBalance/skills.json"
+	],
+	"objects" :
+	[
+		"config/hotaGameBalance/objects.json"
 	]
 }

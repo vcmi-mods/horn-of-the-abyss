@@ -47,32 +47,121 @@
 			}
 		}
 	},
-	"core: creatureGeneratorSpecial" : {
-		"types" : {
-			"golemFactory" : {
-				"rmg" : {
-					"rarity"	: 20,
-					"value"		: 4500
-				}	
-			},
+	// chainging RMG values for creatureGenerator will lead to crashes
+	// "core:creatureGeneratorSpecial" : {
+	// 	"types" : {
+	// 		"golemFactory" : {
+	// 			"rmg" : {
+	// 				"rarity"	: 20,
+	// 				"value"		: 4500
+	// 			}
+	// 		},
 			
-			"elementalConflux" : {
+	// 		"elementalConflux" : {
+	// 			"rmg" : {
+	// 				"rarity"	: 20,
+	// 				"value"		: 6000
+	// 			}
+	// 		}
+	// 	}
+	// },
+	// "core:creatureGeneratorCommon" : {
+	// 	"types" : {
+	// 		"estate": {
+	// 			"rmg" : {
+	// 				"rarity"	: 20,
+	// 				"value"		: 9000
+	// 			}
+	// 		}
+	// 	}
+	// },
+	//hovel is multiplied by 3 also, find rmg value
+
+	// HotA disables the following objects in rmg
+	"core:coverOfDarkness" : {
+		"types" : {
+			"object" : {
 				"rmg" : {
-					"rarity"	: 20,
-					"value"		: 6000
+					"zoneLimit" : 0
 				}
 			}
 		}
 	},
-
-	"creatureGeneratorCommon" : {
+	"core:eyeOfTheMagi" : {
 		"types" : {
-			"estate": {
+			"object" : {
 				"rmg" : {
-					"value"		: 9000
+					"zoneLimit" : 0
 				}
 			}
-//hovel is multiplied by 3 also, fing rmg value
 		}
-	}	
+	},
+	"core:hutOfTheMagi" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	// "core:keymasterTent" disabled by default
+	"core:cartographer" : {
+		"types" : {
+			"land" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"water" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"subterra" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	"core:creatureBank" : {
+		"types" : {
+			"pirateCavern" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"spit" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"ivoryTower" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	"hota.mapobjects:ancientLamp" : {
+		"types" : {
+			"ancientLamp" : {
+				"object" : {
+					"rmg" : {
+						"zoneLimit" : 0
+					}
+				}
+			}
+		}
+	}
 }
