@@ -6,10 +6,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.13",
+	"version" : "1.6.14",
 	"downloadSize" : 114.9,
 	"changelog" : 
 	{
+		"1.6.14"   : [ "Polish translation by Dru" ],
 		"1.6.13"   : [ "Removed unavailable LAND type from terrains.", "Fixed Magic Shrine level 4 definitions", "Fixed miniHillFort templates for wasteland and highlands", "Fixed warlocks lab template" ],
 		"1.6.12"   : [ "Normalized submod names, to be more clear and look more consistent" ],
 		"1.6.11"  : [ "WoG MainMenu mod name updated in Conflicts section" ],
@@ -73,6 +74,13 @@
 			"config/translation/hota/german/game.json",
 			"config/translation/hota/german/campaigns.json",
 			"config/translation/hota/german/maps.json"
+		]
+	},
+	"polish" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Trwają prace nad portem dodatku Horn of the Abyss stworzonego przez Hota Crew",
+		"translations" : [
+			"config/translation/hota/polish/game.json"
 		]
 	},
 	"ukrainian" : {
