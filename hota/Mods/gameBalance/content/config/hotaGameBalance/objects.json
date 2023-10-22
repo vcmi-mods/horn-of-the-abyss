@@ -105,6 +105,15 @@
 			}
 		}
 	},
+	"core:sanctuary" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
 	// "core:keymasterTent" disabled by default
 	"core:cartographer" : {
 		"types" : {
