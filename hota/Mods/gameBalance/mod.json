@@ -18,6 +18,10 @@
 	[
 		"config/hotaGameBalance/factions.json"
 	],
+	"heroes" :
+	[
+		"config/hotaGameBalance/rampartStartingArmies.json"
+	],
 	"creatures" :
 	[
 		"config/hotaGameBalance/creatures.json"
