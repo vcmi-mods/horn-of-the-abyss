@@ -41,6 +41,7 @@
 	],
 	"objects" :
 	[
-		"config/hotaGameBalance/objects.json"
+		"config/hotaGameBalance/objectsRmgValues.json",
+		"config/hotaGameBalance/creatureBanks.json"
 	]
 }

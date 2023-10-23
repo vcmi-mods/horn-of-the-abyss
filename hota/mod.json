@@ -6,10 +6,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.17",
+	"version" : "1.6.19",
 	"downloadSize" : 114.9,
 	"changelog" : 
 	{
+		"1.6.19"  : [ "Naga Bank gives gems instead of sulfur as a reward" ],
+		"1.6.18"  : [ "Deemer and Uland no longer start with advanced skills" ],
 		"1.6.17"  : [ "Cahnged Starting armies for heroes" ],
 		"1.6.16"  : [ "Added missing first aid probabilities to hero classes" ],
 		"1.6.15"  : [ "Removed some objects from RMG. Cartographer, hill fort, etc" ],
