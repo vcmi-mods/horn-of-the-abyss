@@ -21,6 +21,7 @@
 	"heroes" :
 	[
 		"config/hotaGameBalance/rampartStartingArmies.json",
+		"config/hotaGameBalance/infernoStartingArmies.json",
 		"config/hotaGameBalance/towerStartingArmies.json"
 	],
 	"creatures" :
