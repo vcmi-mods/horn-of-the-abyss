@@ -20,6 +20,7 @@
 	],
 	"heroes" :
 	[
+		"config/hotaGameBalance/heroes.json",
 		"config/hotaGameBalance/rampartStartingArmies.json",
 		"config/hotaGameBalance/towerStartingArmies.json",
 		"config/hotaGameBalance/infernoStartingArmies.json",

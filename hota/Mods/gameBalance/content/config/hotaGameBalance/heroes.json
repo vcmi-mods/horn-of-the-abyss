@@ -1,0 +1,28 @@
+{
+	"core:uland":
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "ballistics",
+				"level" : "basic"
+			}
+		]
+	},
+	"core:deemer":
+	{
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		]
+	}
+}
