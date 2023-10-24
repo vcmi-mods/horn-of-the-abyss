@@ -111,5 +111,9 @@
 				}
 			}
 		}
+	},
+	// The damage of Armageddon spell reduced form 50*(spell power) + 30/30/60/120 to 40*(spell power) + 30/30/60/120
+	"core:armageddon" : {
+		"power" : 40
 	}
 }
