@@ -1,0 +1,115 @@
+{
+	// The effect of Protection from Air, Protection from Fire, Protection from Water, and Protection from Earth spells increased from 30%30%50%50% to 50%50%75%75%
+	"core:protectAir" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.air",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectEarth" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.earth",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectFire" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.fire",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectWater" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.water",
+						"duration" : "N_TURNS",
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	}
+}

@@ -6,10 +6,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.19",
+	"version" : "1.6.20",
 	"downloadSize" : 114.9,
 	"changelog" : 
 	{
+		"1.6.20"  : [ "The effect of Protection from Air, Protection from Fire, Protection from Water, and Protection from Earth spells increased from 30%30%50%50% to 50%50%75%75%" ],
 		"1.6.19"  : [ "Naga Bank gives gems instead of sulfur as a reward" ],
 		"1.6.18"  : [ "Deemer and Uland no longer start with advanced skills" ],
 		"1.6.17"  : [ "Cahnged Starting armies for heroes" ],
