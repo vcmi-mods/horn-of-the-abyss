@@ -6,20 +6,20 @@
 				"male" : [ "anyOf", ["orrin"], ["edric"], ["lordHaart"], ["christian"], ["sirMullich"], ["roland"] ],
 				"female" : [ "noneOf", ["orrin"], ["edric"], ["lordHaart"], ["christian"], ["sirMullich"], ["roland"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/castle/heroClasses/knight/AH00b_.def",
-					"editorAnimation": "hota/castle/heroClasses/knight/AH00b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/castle/heroClasses/knight/AH00b_e.def"
+				},
+				"male" : {
 					"animation" : "AH00_.def",
 					"editorAnimation": "AH00_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/castle/heroClasses/knight/AH00_.def",
 					"editorAnimation": "AH00_E.def"
-				} 				
-			} 
+				}
+			}
 		},
 		"animation" : {
 			"battle" : {
@@ -34,21 +34,21 @@
 			"filters" : {
 				"male" : [ "anyOf", ["cuthbert"], ["ingham"], ["loynis"], ["rion"] ],
 				"female" : [ "noneOf", ["cuthbert"], ["ingham"], ["loynis"], ["rion"] ]
-			}, 
-			"templates" : { 
-				"female" : { 
+			},
+			"templates" : {
+				"female" : {
 					"animation" : "AH01_.def",
-					"editorAnimation": "AH01_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH01_e.def"
+				},
+				"male" : {
 					"animation" : "hota/castle/heroClasses/cleric/AH01b_.def",
 					"editorAnimation": "hota/castle/heroClasses/cleric/AH01b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/castle/heroClasses/cleric/AH01b_.def",
 					"editorAnimation": "hota/castle/heroClasses/cleric/AH01b_E.def"
-				} 				
-			} 
+				}
+			}
 		},
 		"animation" : {
 			"battle" : {
@@ -64,20 +64,20 @@
 				"male" : [ "anyOf", ["ufretin"], ["ryland"], ["thorgrim"], ["ivor"], ["clancy"], ["kyrre"], ["gelu"] ],
 				"female" : [ "noneOf", ["ufretin"], ["ryland"], ["thorgrim"], ["ivor"], ["clancy"], ["kyrre"], ["gelu"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/rampart/heroClasses/ranger/AH02b_.def",
-					"editorAnimation": "hota/rampart/heroClasses/ranger/AH02b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/rampart/heroClasses/ranger/AH02b_e.def"
+				},
+				"male" : {
 					"animation" : "AH02_.def",
 					"editorAnimation": "AH02_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH02_.def",
 					"editorAnimation": "AH02_E.def"
-				} 				
-			} 
+				}
+			}
 		},
 		"animation" : {
 			"battle" : {
@@ -92,21 +92,21 @@
 			"filters" : {
 				"male" : [ "anyOf", ["coronius"], ["uland"], ["elleshar"], ["malcom"], ["alagar"], ["aeris"] ],
 				"female" : [ "noneOf", ["coronius"], ["uland"], ["elleshar"], ["malcom"], ["alagar"], ["aeris"] ]
-			},		
-			"templates" : { 
-				"female" : { 
+			},
+			"templates" : {
+				"female" : {
 					"animation" : "AH03_.def",
-					"editorAnimation": "AH03_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH03_e.def"
+				},
+				"male" : {
 					"animation" : "hota/rampart/heroClasses/druid/AH03b_.def",
 					"editorAnimation": "hota/rampart/heroClasses/druid/AH03b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/rampart/heroClasses/druid/AH03b_.def",
 					"editorAnimation": "hota/rampart/heroClasses/druid/AH03b_E.def"
-				} 				
-			} 
+				}
+			}
 		},
 		"animation" : {
 			"battle" : {
@@ -119,23 +119,23 @@
 	{
 		"mapObject" : {
 			"filters" : {
-				"male" : [ "anyOf", ["piquedram"], ["thane"], ["torosar "], ["fafner"] ],
-				"female" : [ "noneOf", ["piquedram"], ["thane"], ["torosar "], ["fafner"] ]
+				"male" : [ "anyOf", ["piquedram"], ["thane"], ["torosar"], ["fafner"] ],
+				"female" : [ "noneOf", ["piquedram"], ["thane"], ["torosar"], ["fafner"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "AH04_.def",
-					"editorAnimation": "AH04_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH04_e.def"
+				},
+				"male" : {
 					"animation" : "hota/tower/heroClasses/alchemist/AH04b_.def",
 					"editorAnimation": "hota/tower/heroClasses/alchemist/AH04b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/tower/heroClasses/alchemist/AH04b_.def",
 					"editorAnimation": "hota/tower/heroClasses/alchemist/AH04b_E.def"
-				} 				
-			} 
+				}
+			}
 		},
 		"animation" : {
 			"battle" : {
@@ -151,21 +151,21 @@
 				"male" : [ "anyOf", ["astral"], ["halon"], ["theodorus"], ["solmyr"], ["dracon"] ],
 				"female" : [ "noneOf", ["astral"], ["halon"], ["theodorus"], ["solmyr"], ["dracon"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/tower/heroClasses/wizard/AH05b_.def",
-					"editorAnimation": "hota/tower/heroClasses/wizard/AH05b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/tower/heroClasses/wizard/AH05b_e.def"
+				},
+				"male" : {
 					"animation" : "AH05_.def",
 					"editorAnimation": "AH05_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH05_.def", 
 					"editorAnimation": "AH05_E.def" 
 				}
 			}
-		},	
+		},
 		"animation" : {
 			"battle" : {
 				"male" : "CH05.DEF",
@@ -181,18 +181,18 @@
 				"female" : [ "noneOf", ["rashka"], ["ignatius"], ["calh"], ["xeron"] ]
 			},
 			"templates" : {
-				"female" : { 
+				"female" : {
 					"animation" : "hota/inferno/heroClasses/demoniac/AH06b_.def",
-					"editorAnimation": "hota/inferno/heroClasses/demoniac/AH06b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/inferno/heroClasses/demoniac/AH06b_e.def"
+				},
+				"male" : {
 					"animation" : "AH06_.def",
 					"editorAnimation": "AH06_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH06_.def", 
 					"editorAnimation": "AH06_E.def" 
-				}						
+				}
 			}
 		},
 		"animation" : {
@@ -209,19 +209,19 @@
 				"male" : [ "anyOf", ["ayden"], ["xyron"], ["axsis"], ["calid"], ["zydar"], ["xarfax"] ],
 				"female" : [ "noneOf", ["ayden"], ["xyron"], ["axsis"], ["calid"], ["zydar"], ["xarfax"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "AH07_.def",
-					"editorAnimation": "AH07_e.def"					
+					"editorAnimation": "AH07_e.def"
 				}, 
-				"male" : { 
+				"male" : {
 					"animation" : "hota/inferno/heroClasses/heretic/AH07b_.def",
 					"editorAnimation": "hota/inferno/heroClasses/heretic/AH07b_E.def"
 				}, 
-				"default" : { 
-					"animation" : "AH07_.def", 
+				"default" : {
+					"animation" : "AH07_.def",
 					"editorAnimation": "AH07_E.def"
-				}					
+				}
 			}
 		},
 		"animation" : {
@@ -238,19 +238,19 @@
 				"male" : [ "anyOf", ["straker"], ["vokial"], ["moandor"], ["clavius"], ["galthran"], ["undeadHaart"] ],
 				"female" : [ "noneOf", ["straker"], ["vokial"], ["moandor"], ["clavius"], ["galthran"], ["undeadHaart"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/necropolis/heroClasses/deathknight/AH08b_.def",
-					"editorAnimation": "hota/necropolis/heroClasses/deathknight/AH08b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/necropolis/heroClasses/deathknight/AH08b_e.def"
+				},
+				"male" : {
 					"animation" : "AH08_.def",
 					"editorAnimation": "AH08_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH08_.def",
 					"editorAnimation": "AH08_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -267,19 +267,19 @@
 				"male" : [ "anyOf", ["sandro"], ["nimbus"], ["thant"], ["nagash"] ],
 				"female" : [ "noneOf", ["sandro"], ["nimbus"], ["thant"], ["nagash"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "AH09_.def",
-					"editorAnimation": "AH09_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH09_e.def"
+				},
+				"male" : {
 					"animation" : "hota/necropolis/heroClasses/necromancer/AH09b_.def",
 					"editorAnimation": "hota/necropolis/heroClasses/necromancer/AH09b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/necropolis/heroClasses/necromancer/AH09b_.def",
 					"editorAnimation": "hota/necropolis/heroClasses/necromancer/AH09b_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -296,19 +296,19 @@
 				"male" : [ "anyOf", ["arlach"], ["dace"], ["ajit"], ["damacon"], ["gunnar"], ["shakti"] ],
 				"female" : [ "noneOf", ["arlach"], ["dace"], ["ajit"], ["damacon"], ["gunnar"], ["shakti"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/dungeon/heroClasses/warlock/AH10b_.def",
-					"editorAnimation": "hota/dungeon/heroClasses/warlock/AH10b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/dungeon/heroClasses/warlock/AH10b_e.def"
+				},
+				"male" : {
 					"animation" : "AH10_.def",
 					"editorAnimation": "AH10_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH10_.def",
 					"editorAnimation": "AH10_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -325,19 +325,19 @@
 				"male" : [ "anyOf", ["alamar"], ["jaegar"], ["malekith"], ["geon"], ["deemer"], ["darkstorn"] ],
 				"female" : [ "noneOf", ["alamar"], ["jaegar"], ["malekith"], ["geon"], ["deemer"], ["darkstorn"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "AH11_.def",
-					"editorAnimation": "AH11_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH11_e.def"
+				},
+				"male" : {
 					"animation" : "hota/dungeon/heroClasses/overlord/AH11b_.def",
 					"editorAnimation": "hota/dungeon/heroClasses/overlord/AH11b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/dungeon/heroClasses/overlord/AH11b_.def",
 					"editorAnimation": "hota/dungeon/heroClasses/overlord/AH11b_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -354,19 +354,19 @@
 				"male" : [ "anyOf", ["yog"], ["gurnisson"], ["jabarkas"], ["krellion"], ["cragHack"], ["tyraxor"], ["kilgor"], ["boragus"] ],
 				"female" : [ "noneOf", ["yog"], ["gurnisson"], ["jabarkas"], ["krellion"], ["cragHack"], ["tyraxor"], ["kilgor"], ["boragus"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "AH12_.def",
-					"editorAnimation": "AH12_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "AH12_e.def"
+				},
+				"male" : {
 					"animation" : "AH13_.def",
 					"editorAnimation": "AH13_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH13_.def",
 					"editorAnimation": "AH13_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -383,19 +383,19 @@
 				"male" : [ "anyOf", ["vey"], ["terek"], ["zubin"], ["saurug"] ],
 				"female" : [ "noneOf", ["vey"], ["terek"], ["zubin"], ["saurug"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/stronghold/heroClasses/battlemage/AH12b_.def",
-					"editorAnimation": "hota/stronghold/heroClasses/battlemage/AH12b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/stronghold/heroClasses/battlemage/AH12b_e.def"
+				},
+				"male" : {
 					"animation" : "hota/stronghold/heroClasses/battlemage/AH13b_.def",
 					"editorAnimation": "hota/stronghold/heroClasses/battlemage/AH13b_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "hota/stronghold/heroClasses/battlemage/AH13b_.def",
 					"editorAnimation": "hota/stronghold/heroClasses/battlemage/AH13b_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -412,7 +412,7 @@
 				"default" : {
 					"animation" : "AH14_.def",
 					"editorAnimation": "AH14_E.def"
-				}	
+				}
 			}
 		},
 		"animation" : {
@@ -446,19 +446,19 @@
 				"male" : [ "anyOf", ["monere"], ["erdamon"], ["fiur"], ["kalt"] ],
 				"female" : [ "noneOf", ["monere"], ["erdamon"], ["fiur"], ["kalt"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/conflux/heroClasses/planeswalker/AH16b_.def",
-					"editorAnimation": "hota/conflux/heroClasses/planeswalker/AH16b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/conflux/heroClasses/planeswalker/AH16b_e.def"
+				},
+				"male" : {
 					"animation" : "AH16_.def",
 					"editorAnimation": "AH16_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH16_.def",
 					"editorAnimation": "AH16_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
@@ -475,19 +475,19 @@
 				"male" : [ "anyOf", ["inteus"], ["aenain"], ["gelare"], ["grindan"] ],
 				"female" : [ "noneOf", ["inteus"], ["aenain"], ["gelare"], ["grindan"] ]
 			},
-			"templates" : { 
-				"female" : { 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/conflux/heroClasses/elementalist/AH17b_.def",
-					"editorAnimation": "hota/conflux/heroClasses/elementalist/AH17b_e.def"					
-				}, 
-				"male" : { 
+					"editorAnimation": "hota/conflux/heroClasses/elementalist/AH17b_e.def"
+				},
+				"male" : {
 					"animation" : "AH17_.def",
 					"editorAnimation": "AH17_E.def"
 				},
-				"default" : { 
+				"default" : {
 					"animation" : "AH17_.def",
 					"editorAnimation": "AH17_E.def"
-				} 				
+				}
 			}
 		},
 		"animation" : {
