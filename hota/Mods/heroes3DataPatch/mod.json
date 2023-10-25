@@ -9,6 +9,7 @@
 	{
 		"1.3.6"   : [ "Added all changed sounds" ]
 	},
+	"depends" : [ "hota.mapdecorations" ],
 	"factions" :
 	[
 		"config/heroes3DataPatch/structures.json",
