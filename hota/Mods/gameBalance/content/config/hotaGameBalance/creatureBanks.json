@@ -1,0 +1,147 @@
+{
+	// Naga Bank gives gems instead of sulfur as a reward
+	"core:creatureBank" : {
+		"types" : {
+			"nagaBank" : {
+				"levels" : [
+					{
+						"chance" : 30,
+						"combat_value" : 403,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							},
+							{
+								"type" : "naga",
+								"amount" : 2
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 4000,
+								"gems" : 8
+							},
+							"value" : 8000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 605,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							},
+							{
+								"type" : "naga",
+								"amount" : 3
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 6000,
+								"gems" : 12
+							},
+							"value" : 12000
+						}
+					},
+					{
+						"chance" : 30,
+						"combat_value" : 806,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							},
+							{
+								"type" : "naga",
+								"amount" : 4
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 8000,
+								"gems" : 16
+							},
+							"value" : 16000
+						}
+					},
+					{
+						"chance" : 10,
+						"combat_value" : 1210,
+						"guards" : [
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6,
+								"upgradeChance" : 50
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							},
+							{
+								"type" : "naga",
+								"amount" : 6
+							}
+						],
+						"reward" : {
+							"resources" : {
+								"gold" : 12000,
+								"gems" : 24
+							},
+							"value" : 24000
+						}
+					}
+				]
+			}
+		}
+	}
+}

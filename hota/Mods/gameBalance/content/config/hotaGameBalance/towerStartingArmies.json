@@ -1,0 +1,325 @@
+{
+	// Amount of Stone Gargoyles increased from 3–5 to 5–7
+	// Amount of Stone Golems increased from 2–3 to 4–5
+	// correct ID is stoneGolem, unchangeable due to HOTRAITS.TXT
+	"core:aine" :
+	{
+		"army" : [
+			{
+				"creature" : "apprenticeGremlin",
+				"min" : 30,
+				"max" : 40
+			},
+			{
+				"creature" : "stoneGargoyle",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ironGolem",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"core:astral":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:cyra":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:daremyth":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:fafner":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:halon":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:iona":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:josephine":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:neela":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:piquedram":
+	{
+		"army": [
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			}
+		]
+	},
+	"core:rissa":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:serena":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:solmyr":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:thane":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:theodorus":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature": "stoneGargoyle",
+				"min": 5,
+				"max": 7
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	},
+	"core:torosar":
+	{
+		"army": [
+			{
+				"creature": "apprenticeGremlin",
+				"min": 30,
+				"max": 40
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature": "ironGolem",
+				"min": 4,
+				"max": 5
+			}
+		]
+	}
+}

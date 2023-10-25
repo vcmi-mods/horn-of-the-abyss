@@ -20,7 +20,12 @@
 	],
 	"heroes" :
 	[
-		"config/hotaGameBalance/rampartStartingArmies.json"
+		"config/hotaGameBalance/heroes.json",
+		"config/hotaGameBalance/rampartStartingArmies.json",
+		"config/hotaGameBalance/towerStartingArmies.json",
+		"config/hotaGameBalance/infernoStartingArmies.json",
+		"config/hotaGameBalance/dungeonStartingArmies.json",
+		"config/hotaGameBalance/fortressStartingArmies.json"
 	],
 	"creatures" :
 	[
@@ -34,8 +39,13 @@
 	[
 		"config/hotaGameBalance/skills.json"
 	],
+	"spells" :
+	[
+		"config/hotaGameBalance/spells.json"
+	],
 	"objects" :
 	[
-		"config/hotaGameBalance/objects.json"
+		"config/hotaGameBalance/objectsRmgValues.json",
+		"config/hotaGameBalance/creatureBanks.json"
 	]
 }
