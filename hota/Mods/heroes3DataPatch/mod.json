@@ -11,6 +11,11 @@
 	},
 	"factions" :
 	[
-		"config/heroes3DataPatch/structures.json"
+		"config/heroes3DataPatch/structures.json",
+		"config/heroes3DataPatch/boats.json"
+	],
+	"objects" :
+	[
+		"config/heroes3DataPatch/objects.json"
 	]
 }

@@ -1,0 +1,9 @@
+{
+	"core:shipyard" : {
+		"types" : {
+			"object" : {
+				"boat" : "boatNeutral"
+			}
+		}
+	}
+}
