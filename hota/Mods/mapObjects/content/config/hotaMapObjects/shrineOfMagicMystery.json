@@ -1,7 +1,7 @@
 {
 	"shrineOfMagicLevel4" : {
-		"name" : "Shrine of Magic Mystery (learn level 4 spell)",
-		"handler" : "shrine",
+		"name" : "Shrine of Magic Mystery",
+		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
 				"ambient" : ["LOOPSHRIN"],
@@ -10,7 +10,8 @@
 		},
 		"types" : {
 			"shrineOfMagicMystery" : {
-				"name" : "Shrine of Magic Mystery (learn level 4 spell)",
+				"name" : "Shrine of Magic Mystery",
+				// "aiValue" : 500,
 				"rmg" : {
 					"value"		: 7000,
 					"rarity"	: 100,
@@ -20,10 +21,56 @@
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
 				},
-				"visitText" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ",
 				"spell" : {
 					"level" : 4
 				},
+				"compatibilityIdentifiers" : [ "object" ],
+				"visitMode" : "limiter",
+				"visitedTooltip" : 354,
+				"description" : "(Learn 4th level spell)",
+				"showScoutedPreview" : true,
+				"variables" : {
+					"spell" : {
+						"gainedSpell" : { // Note: this variable name is used by engine for H3M loading
+							"level": 4
+						}
+					}
+				},
+				"visitLimiter" : {
+					"spells" : [
+						"@gainedSpell"
+					]
+				},
+				"rewards" : [
+					{
+						"limiter" : {
+							"canLearnSpells" : [
+								"@gainedSpell"
+							]
+						},
+						"spells" : [
+							"@gainedSpell"
+						],
+						"description" : "@core.genrltxt.355",
+						"message" : [ "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ", "%s." ] // You learn new spell
+					}
+				],
+				"onVisitedMessage" : [ "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ", "%s.", 174 ], // You already known this spell
+				"onEmpty" : [
+					{
+						"limiter" : {
+							"artifacts" : [
+								{
+									"type" : "spellBook"
+								}
+							]
+						},
+						"message" : [ "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ", "%s.", 130 ] // No Wisdom
+					},
+					{
+						"message" : [ "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - ", "%s.", 131 ] // No spellbook
+					}
+				],
 				"templates" :
 				{
 					"water" :
@@ -32,7 +79,7 @@
 						"mask" : [ "VV", "VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "water"]
-					},	
+					},
 					"land" :
 					{
 						"animation" : "hota/shrines/4lvlxshrn",
