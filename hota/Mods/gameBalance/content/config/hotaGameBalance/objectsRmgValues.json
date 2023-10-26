@@ -20,7 +20,7 @@
 	},
 	"core:shrineOfMagicLevel1" : {//incantation
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel1" : {
 				"rmg" : {
 					"rarity"	: 50
 				}
@@ -29,7 +29,7 @@
 	},
 	"core:shrineOfMagicLevel3" : {//thinking
 		"types" : {
-			"object" : {
+			"shrineOfMagicLevel3" : {
 				"rmg" : {
 					"rarity"	: 50
 				}
@@ -117,17 +117,17 @@
 	// "core:keymasterTent" disabled by default
 	"core:cartographer" : {
 		"types" : {
-			"land" : {
+			"cartographerLand" : {
 				"rmg" : {
 					"zoneLimit" : 0
 				}
 			},
-			"water" : {
+			"cartographerWater" : {
 				"rmg" : {
 					"zoneLimit" : 0
 				}
 			},
-			"subterra" : {
+			"cartographerSubterranean" : {
 				"rmg" : {
 					"zoneLimit" : 0
 				}

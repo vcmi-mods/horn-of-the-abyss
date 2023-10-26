@@ -46,6 +46,7 @@
 	"objects" :
 	[
 		"config/hotaGameBalance/objectsRmgValues.json",
-		"config/hotaGameBalance/creatureBanks.json"
+		"config/hotaGameBalance/creatureBanks.json",
+		"config/hotaGameBalance/objectsRefusable.json"
 	]
 }
