@@ -146,7 +146,7 @@
 					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
 					"bonuses" : [
 						{
-							"type" : "NO_TERRAIN_PENALTY",
+							"type" : "TERRAIN_NATIVE",
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [
 								{
