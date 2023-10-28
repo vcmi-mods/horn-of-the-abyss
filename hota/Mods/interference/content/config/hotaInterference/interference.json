@@ -9,14 +9,14 @@
 			"effects" : {
 				"main" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.spellpower",
+					"subtype" : "primarySkill.spellpower",
 					"val": -10,
 					"valueType" : "PERCENT_TO_ALL",
 					"propagator" : "BATTLE_WIDE"
 				},
 				"extra" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.spellpower",
+					"subtype" : "primarySkill.spellpower",
 					"val": 10,
 					"valueType" : "PERCENT_TO_ALL"
 				}

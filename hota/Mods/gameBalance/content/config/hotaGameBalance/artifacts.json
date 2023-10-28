@@ -15,7 +15,7 @@
 	"core:vampiresCowl":
 	{
 		"text" : {
-			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%.",
+			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
 		},
 		"bonuses" : [
 			{
@@ -28,7 +28,7 @@
 	"core:deadMansBoots":
 	{
 		"text" : {
-			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%.",
+			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
 		},
 		"bonuses" : [
 			{
@@ -43,7 +43,7 @@
 		"bonuses" : [
 			{
 				"type" : "MOVEMENT",
-				"subtype" : 1,
+				"subtype" : "heroMovementLand",
 				"val" : 400,
 				"valueType" : "ADDITIVE_VALUE"
 			}
@@ -54,7 +54,7 @@
 		"bonuses" : [
 			{
 				"type" : "MOVEMENT",
-				"subtype" : 1,
+				"subtype" : "heroMovementLand",
 				"val" : 200,
 				"valueType" : "ADDITIVE_VALUE"
 			}

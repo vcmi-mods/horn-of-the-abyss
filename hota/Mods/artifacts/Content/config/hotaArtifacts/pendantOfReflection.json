@@ -7,9 +7,8 @@
 		"bonuses" : [
 			{
 				"type" : "MAGIC_RESISTANCE",
-				"subtype" : 0,
-				"valueType" : "BASE_NUMBER",
-				"val" : 20
+				"val" : 20,
+				"valueType" : "BASE_NUMBER"
 			}
 		],
 		"components" : [

@@ -46,7 +46,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : 1,
+				"subtype" : "spellSchool.fire",
 				"val" : 50
 			},
 			"immuneToFire" : null

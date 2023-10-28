@@ -7,7 +7,7 @@
 		"bonuses" : [
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.spellpower",
+				"subtype" : "primarySkill.spellpower",
 				"valueType" : "PERCENT_TO_ALL",
 				"val": -10,
 				"propagator" : "BATTLE_WIDE",

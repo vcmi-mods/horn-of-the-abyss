@@ -80,7 +80,7 @@
 	// HotA disables the following objects in rmg
 	"core:coverOfDarkness" : {
 		"types" : {
-			"object" : {
+			"coverOfDarkness" : {
 				"rmg" : {
 					"zoneLimit" : 0
 				}

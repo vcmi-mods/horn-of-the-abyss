@@ -25,7 +25,7 @@
 		"abilities" : {
 			"teleports" : {
 				"type" : "FLYING",
-				"subtype" : 1
+				"subtype" : "movementTeleporting"
 			},
 			"iceBoltImmunity" :
 			{
