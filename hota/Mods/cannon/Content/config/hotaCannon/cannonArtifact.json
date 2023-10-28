@@ -5,7 +5,7 @@
 		"warMachine" : "cannon",
 		"class" : "SPECIAL",
 		"slot" : "MACH1",
-		"value": 4000,		
+		"value": 4000,
 		"text":
 		{
 			"name": "Cannon",

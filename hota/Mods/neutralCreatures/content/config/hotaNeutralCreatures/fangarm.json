@@ -33,14 +33,14 @@
 			{
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 600
-			}, 	
+			},
 			"hypnotize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.hypnotize",
 				"val" : 33,
 				"addInfo" : [ 2, 2 ]
 			},
-			"canFly" : 
+			"canFly" :
 			{
 				"type" : "FLYING"
 			},
@@ -48,7 +48,7 @@
 			{
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"immuneToMind" : 
+			"immuneToMind" :
 			{
 				"type" : "MIND_IMMUNITY"
 			}

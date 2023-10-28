@@ -38,8 +38,8 @@
 			"bonuses" : {
 				"offence" : {
 					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeMelee",
 					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : 0,
 					"val" : 5,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : "TIMES_HERO_LEVEL"

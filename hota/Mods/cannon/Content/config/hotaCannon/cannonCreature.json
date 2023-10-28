@@ -11,10 +11,10 @@
 		"aiValue" : 1637,
 		"special" : true,
 		"attack" : 20,
-        "cost": 
-            {
-              "gold": 4000
-            },
+		"cost": 
+		{
+			"gold": 4000
+		},
 		"damage" :
 		{
 			 "max" : 7,
@@ -55,7 +55,7 @@
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 250,
-        "shots" : 8,
+		"shots" : 8,
 		"sound" :
 		{
 			"killed": "hota/cannon/CANNKILL.wav",
@@ -65,7 +65,7 @@
 		"speed" : 0,
 		"abilities" :
 		{
-        	"shooter" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
@@ -77,51 +77,51 @@
 			{
 				"type" : "SIEGE_WEAPON"
 			},
-			"noRetaliation" : 
+			"noRetaliation" :
 			{
-                "val" : 0,
-                "type" : "NO_RETALIATION"
-            }
+				"type" : "NO_RETALIATION",
+				"val" : 0
+			}
 		},
 		"stackExperience" :
 		[
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack"
 				},
 				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
-			},	
+			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL"
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence"
 				},
 				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "CREATURE_DAMAGE"
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
 				},
 				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
 			},
 			{
 				"bonus" :
 				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
 			}

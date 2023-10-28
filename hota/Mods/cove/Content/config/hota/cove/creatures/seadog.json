@@ -33,7 +33,7 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"preciseShot" : { 				
+			"preciseShot" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.accurateShot",
 				"val" : 2,
