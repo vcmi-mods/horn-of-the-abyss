@@ -5,7 +5,7 @@
 		"bonuses": [
 			{
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primSkill.defence",
+				"subtype" : "primarySkill.defence",
 				"val" : -5,
 				"valueType" : "BASE_NUMBER",
 				"propagator": "BATTLE_WIDE"

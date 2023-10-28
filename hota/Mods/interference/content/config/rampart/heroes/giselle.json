@@ -37,7 +37,7 @@
 			"bonuses" : {
 				"interference" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primSkill.spellpower",
+					"subtype" : "primarySkill.spellpower",
 					"val" : -15,
 					"valueType" : "PERCENT_TO_BASE",
 					"updater" : {

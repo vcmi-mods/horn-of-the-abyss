@@ -6,7 +6,7 @@
 		"value" : 7000,
 		"bonuses" : [
 			{
-				"subtype" : "primSkill.attack",
+				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"valueType" : "BASE_NUMBER",
 				"val" : 7
