@@ -6,10 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.22",
-	"downloadSize" : 114.9,
+	"version" : "1.6.23",
 	"changelog" : 
 	{
+		"1.6.23"  : [ "Fixed loading of hota h3m maps in vcmi 1.4" ],
 		"1.6.22"  : [ "The new boats for Conflux and Neutrals are now actually used" ],
 		"1.6.21"  : [ "The damage of Armageddon spell reduced form 50*(spell power) + 30/30/60/120 to 40*(spell power) + 30/30/60/120" ],
 		"1.6.20"  : [ "The effect of Protection from Air, Protection from Fire, Protection from Water, and Protection from Earth spells increased from 30%30%50%50% to 50%50%75%75%" ],
