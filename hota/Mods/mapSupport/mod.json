@@ -174,17 +174,13 @@
 					"townGate" : [146, 3],
 					"grave" : [ 212, 1001],
 					
-					"shrineOfMagicLevel4" : {
+					"shrineOfMagicLevel1" : {
+						"shrineOfMagicLevel1" : [ 88, 1], // hota water shrine
 						"shrineOfMagicMystery" : [ 88, 3]
 					},
-					
-					"shrineOfMagicLevel2" : {
-						"object" : [ 89, 1] // hota water shrine
-					},
-					
-					"shrineOfMagicLevel3" : {
-						"object" : [ 90, 1] // hota water shrine
-					},
+
+					"shrineOfMagicLevel2" : [ 89, 1], // hota water shrine
+					"shrineOfMagicLevel3" : [ 90, 1], // hota water shrine
 
 					// Common interactive objects
 					"boat" : {

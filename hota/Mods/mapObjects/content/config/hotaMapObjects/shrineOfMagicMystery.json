@@ -1,5 +1,5 @@
 {
-	"shrineOfMagicLevel4" : {
+	"core:shrineOfMagicLevel1" : { // Warning: lvl1 required for proper h3m loading. Do not change.
 		"name" : "Shrine of Magic Mystery",
 		"handler" : "configurable",
 		"base" : {
