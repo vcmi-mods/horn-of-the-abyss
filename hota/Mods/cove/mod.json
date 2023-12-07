@@ -68,6 +68,9 @@
 	[
 		"config/hota/cove/spells/accurateShot",
 		"config/hota/cove/spells/specialClone",
+		"config/hota/cove/spells/sorceressRay",
+		"config/hota/cove/spells/seaWitchRay",
+		"config/hota/cove/spells/revhota",
 		"config/hota/cove/spells/moat"
 	],
 	"objects" : 

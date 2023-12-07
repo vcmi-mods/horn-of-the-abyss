@@ -35,11 +35,19 @@
 			"dragonNature" : {
 				"type" : "DRAGON_NATURE"
 			},
+			"revenger" :
+			{
+				"type": "SPELL_BEFORE_ATTACK",
+				"subtype" : "spell.revhota",
+				"val" : 100,
+				"addInfo" : [0, 2]
+//				"propagator" : "BATTLE_WIDE"
+			},
 			"poisonous" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 50,
-				"addInfo" : 0
+				"addInfo" : [0, 2]
 			}
 		},
 		"graphics" : {

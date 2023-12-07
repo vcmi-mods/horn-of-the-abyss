@@ -30,14 +30,14 @@
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.disruptingRay",
-				"val" : 30,
+				"subtype" : "spell.seaWitchRay",
+				"val" : 100,
 				"addInfo" : 1000
 			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
-				"val" : 30,
+				"val" : 100,
 				"addInfo" : 1000
 			}
 		},

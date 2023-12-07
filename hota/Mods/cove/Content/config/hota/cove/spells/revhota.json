@@ -1,0 +1,80 @@
+{
+	"revhota" : {
+		"type": "ability",
+		"name": "Revenge",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"targetType": "CREATURE",
+		"targetCondition" : {
+			"anyOf" : {
+				"hota.cove:creature.haspid":"absolute"}
+		},
+		"level": 1,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"animation":{},
+		"flags" : {
+			"indifferent": true,
+			"nonMagical": true
+					},
+		"sounds": {},
+		"graphics":
+		{
+			"iconEffect": "hota/cove/spells/haspideffect"
+		},
+		"levels" : {
+			"base":{
+		
+				"range": "0",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"lifeEater" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"lifeEffect":
+                    {
+                        "type": "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageBoth",
+                        "val" : 15, 
+						"valueType": "PERCENT_TO_ALL",
+                        "duration": "PERMANENT"
+					}
+				}
+			}
+				},
+				"description": "Revenge effects."
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+			},
+			"advanced":
+			{
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}
+

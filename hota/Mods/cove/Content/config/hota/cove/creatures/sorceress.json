@@ -29,15 +29,15 @@
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.disruptingRay",
-				"val" : 30,
-				"addInfo" : 1001
+				"subtype" : "spell.sorceressRay",
+				"val" : 100,
+				"addInfo" : [1, 0]
 			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
-				"val" : 30,
-				"addInfo" : 1001
+				"val" : 100,
+				"addInfo" : [1, 0]
 			}
 		},
 		"graphics" : {
