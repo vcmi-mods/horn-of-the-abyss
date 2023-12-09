@@ -23,6 +23,7 @@
 					"value"		: 2500,
 					"rarity"	: 100
 				},
+				"blockedVisitable": true,
 				"levels":
 				[
 					{

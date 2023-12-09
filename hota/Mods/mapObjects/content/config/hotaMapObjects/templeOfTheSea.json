@@ -20,6 +20,7 @@
 					"ambient": ["hota/LOOPSTPL.wav"],
 					"visit": ["hota/SEATEMPL.wav"]
 				},
+				"blockVisitable": true,
 				"rmg" : {
 					"value"		: 10000,
 					"rarity"	: 100

@@ -14,6 +14,7 @@
 					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
 				},
 				"blockedVisitable" : true,
+				"removable": true,
 				"rewards" :
 				[
 					{
