@@ -5,6 +5,8 @@
 		"types" : {
 			"ancientLamp" : 
 			{
+				"blockVisitable": true,
+				"removable": true,
 				"name": "Ancient Lamp (allows you to recruit 4-7 Master Genie once)",
 				"rmg" : {
 					"value"		: 5000,

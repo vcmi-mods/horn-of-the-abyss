@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.25",
+	"version" : "1.6.26",
 	"changelog" : 
 	{
+		"1.6.26"  : [ "Added blockedVisitable / removable flags to some objects, especially on water" ],
 		"1.6.25"  : [ "Adjusted Sea Withces/Sorceresses/Haspids abilities" ],
 		"1.6.24"  : [ "Fixed unit selection highligh in exchange window" ],
 		"1.6.23"  : [ "Fixed loading of hota h3m maps in vcmi 1.4" ],

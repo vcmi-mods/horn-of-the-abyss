@@ -8,6 +8,7 @@
 				"sounds" : {
 					"visit" : ["MYSTERY"]
 				},
+				"blockVisitable": true,
 //				"rmg" : {
 //					"value"	: 100,
 //					"rarity" : 20,

@@ -15,6 +15,7 @@
 					"rarity"	: 20,
 					"zoneLimit" : 1
 				},
+				"blockVisitable": true,
 				"sounds" : {
 					"visit" : ["hota/ACADEMYV"]
 				},
