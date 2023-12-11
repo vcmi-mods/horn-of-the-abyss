@@ -1,0 +1,78 @@
+{
+	"hornSpell":
+	{
+		"type": "combat",
+		"targetType" : "CREATURE",
+		"name": "Summon Fangarms",
+		"school":
+			{
+				"air": false,
+				"earth": false,
+				"fire": false,
+				"water": true
+			},		
+	"level": 5,
+	"power": 30,
+	"defaultGainChance": 0, 
+	"gainChance":
+	{
+	},
+	"animation":{
+			"affect":["C13SPF0"]
+		},
+		"sounds": {
+			"cast": "ANIMDEAD"
+		},
+	"flags" : {
+		"rising": true,
+		"special": true
+	},
+	"graphics":
+	{
+		"iconBook": "hota/artifactsCampaignBonuses/fakehornEffect.bmp",
+		"iconScroll": "hota/artifactsCampaignBonuses/fakehornScroll.bmp",
+		"iconScenarioBonus": "hota/artifactsCampaignBonuses/fakehornScene.bmp",
+		"iconImmune":"hota/artifactsCampaignBonuses/fakehornImmune.bmp",
+		"iconEffect": "hota/artifactsCampaignBonuses/fakehornEffect.bmp"
+	},
+	"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
+		},
+
+	"levels":
+	{
+		"base": {
+				"description" : "{Summon Fangarms}\r\n\r\nRise Fangarms from any corpses from both side, except non-living creatures.",
+				"aiValue" : 0,
+				"power" : 40,
+				"cost" : 0,
+				"targetModifier":{"smart":false},
+				"range" : "0",
+				"battleEffects":{
+					"demonSummon":{
+						"id":"hota.neutralcreatures:fangarm",
+						"permanent":true,
+						"type":"core:demonSummon"
+					}
+				}
+			},
+		"none":
+		{ 			
+		},
+		"basic":
+		{
+		},
+		"advanced":
+		{	
+		},
+		"expert":
+		{	
+		}
+	}
+  }
+}

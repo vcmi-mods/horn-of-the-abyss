@@ -48,6 +48,12 @@
 			{
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
+			"spellImmunity" :
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.hornSpell",
+				"addInfo" : 1
+			},
 			"immuneToMind" :
 			{
 				"type" : "MIND_IMMUNITY"

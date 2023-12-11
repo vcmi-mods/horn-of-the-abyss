@@ -1,0 +1,25 @@
+{
+	"hornOfTheAbyss" : {
+		"class" : "RELIC",
+		//"special" : true,
+		//"components" : [ "crownOfTheFiveSeas", "royalArmorOfNix", "tridentOfDominion", "shieldOfNavalGlory" ],
+		"graphics" : { "image" : "hota/artifactsIcons/hornOfTheAbyss", "map" : "hota/artifactsMap/hornOfTheAbyss","large" : "hota/artifactsCampaignBonuses/hornOfTheAbyss" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Horn of the Abyss}\r\n\r\nUsing the spell of Horn of the Abyss, you can rise Fangarms from any corpses from both side, except non-living creatures.",
+			"event" : "This waterfall sounds and looks exactly like a waterfall should. On closer inspection, though, you are amazed to find out the flow is headed upwards. You wonder what it took for such an impressive phenomenon to come into being. Surely a powerful artifact has to be in play? And indeed, an ornate horn is soon found levitating above the crest.",
+			"name" : "Horn of the Abyss"
+		},
+		"bonuses":
+		[
+			{
+				"type": "SPELL",
+				"subtype" : "spell.HornSpell"
+//				"val": 3
+			}
+		],
+
+		"type" : [ "HERO" ],
+		"value" : 10000
+	}
+}
