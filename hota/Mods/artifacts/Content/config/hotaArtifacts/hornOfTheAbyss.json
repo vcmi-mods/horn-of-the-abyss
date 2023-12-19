@@ -1,8 +1,7 @@
 {
 	"hornOfTheAbyss" : {
 		"class" : "RELIC",
-		//"special" : true,
-		//"components" : [ "crownOfTheFiveSeas", "royalArmorOfNix", "tridentOfDominion", "shieldOfNavalGlory" ],
+		"special" : true,
 		"graphics" : { "image" : "hota/artifactsIcons/hornOfTheAbyss", "map" : "hota/artifactsMap/hornOfTheAbyss","large" : "hota/artifactsCampaignBonuses/hornOfTheAbyss" },
 		"slot" : "MISC",
 		"text" : {
@@ -14,8 +13,7 @@
 		[
 			{
 				"type": "SPELL",
-				"subtype" : "spell.HornSpell"
-//				"val": 3
+				"subtype" : "spell.hornSpell"
 			}
 		],
 

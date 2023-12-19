@@ -13,8 +13,7 @@
 					{
 						"animation" : "hota/banks/avblktgr.def",
 						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
-						"allowedTerrains":["subterra", "rough", "dirt", "sand", "lava"] 
+						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"]
 					},
 					"grass" :
 					{

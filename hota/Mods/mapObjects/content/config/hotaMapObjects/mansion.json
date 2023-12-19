@@ -12,8 +12,7 @@
 					{
 						"animation" : "hota/banks/avmnsion.def", 
 						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VBAB"],
-						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"] 							
+						"mask" : [ "VVVV", "VVVV", "VBAB"]						
 					}
 				},
 				"sounds": {

@@ -12,8 +12,7 @@
 					{
 						"animation" : "hota/banks/AVXbnk90.def",
 						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : ["VVV", "VVV", "VBA"],
-						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+						"mask" : ["VVV", "VVV", "VBA"]
 					},
 					"snow" :
 					{

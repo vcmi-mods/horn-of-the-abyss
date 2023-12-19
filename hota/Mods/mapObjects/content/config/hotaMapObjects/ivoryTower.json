@@ -12,8 +12,7 @@
 					{
 						"animation" : "hota/banks/avivtow2.def",
 						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VVV", "VBA"],
-						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava"] 
+						"mask" : [ "VVV", "VVV", "VVV", "VBA"]
 					},
 					"snow" :
 					{

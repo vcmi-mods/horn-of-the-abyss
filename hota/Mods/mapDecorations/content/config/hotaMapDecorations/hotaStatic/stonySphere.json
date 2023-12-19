@@ -12,7 +12,7 @@
 					"udrock01" : { "animation" : "hota/stonySphere/udrock01", 
 						"mask" : [ "VB" ], 
 						"allowedTerrains": [ "subterra" ]
-					},
+					}
 				}
 			}
 		}

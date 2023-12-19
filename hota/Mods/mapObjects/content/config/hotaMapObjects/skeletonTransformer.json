@@ -19,7 +19,7 @@
 					"AVXsktrs" : { "animation" : "hota/skeletonTransformer/AVXsktrs", 
 						"mask" : [ "VVV", "VVV", "VBA" ], 
 						"visitableFrom" : [ "---", "--+", "+++" ],
-						"allowedTerrains": [ "subterra"]
+						"allowedTerrains": [ "subterra", "dirt"]
 					}
 				}
 			}

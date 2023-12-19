@@ -12,8 +12,7 @@
 					{
 						"animation" : "hota/banks/avredtwr.def",
 						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVBVV", "VVAVV"],
-						"allowedTerrains":["grass", "swamp", "subterra", "rough", "dirt", "sand", "lava", "snow"] 						
+						"mask" : [ "VVVVV", "VVVVV", "VVVVV", "VVBVV", "VVAVV"]						
 					}
 				},
 				"sounds": {
