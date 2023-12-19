@@ -12,8 +12,8 @@
 					{
 						"animation" : "hota/banks/HAPCAVE.def",
 						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : ["VVVV", "VBBB", "VBAB"]
-//check						"allowedTerrains":["rough", "sand"]
+						"mask" : ["VVVV", "VBBB", "VBAB"],
+						"allowedTerrains":["rough"]
 					}
 				},
 				"sounds": {
