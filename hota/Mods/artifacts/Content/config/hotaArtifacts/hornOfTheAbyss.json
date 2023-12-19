@@ -1,7 +1,6 @@
 {
 	"hornOfTheAbyss" : {
-		"class" : "RELIC",
-		"special" : true,
+		"class" : "SPECIAL",
 		"graphics" : { "image" : "hota/artifactsIcons/hornOfTheAbyss", "map" : "hota/artifactsMap/hornOfTheAbyss","large" : "hota/artifactsCampaignBonuses/hornOfTheAbyss" },
 		"slot" : "MISC",
 		"text" : {
