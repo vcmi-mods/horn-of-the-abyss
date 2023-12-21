@@ -22,7 +22,7 @@
 							"resources" : {"gold" : 1000}
 						},
 						"message" : "{Gazebo}\r\n\r\nAnd old Knight appears on the steps of gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. A thousand gold will suffice.\"",
-						"gainedExp" : 2000,
+						"heroExperience" : 2000,
 						"resources": {"gold" : -1000}
 					}
 				],

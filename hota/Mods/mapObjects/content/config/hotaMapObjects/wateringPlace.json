@@ -30,7 +30,7 @@
 				},
 				"templates" : {
 					"avwtplce" : { "animation" : "hota/wateringPlace/avwtplce", 
-						"mask" : [ "A" ], 
+						"mask" : [ "VV", "VA" ], 
 						"visitableFrom" : [ "---", "+++", "+++" ],
 						"allowedTerrains": [ "rough"]
 					}
