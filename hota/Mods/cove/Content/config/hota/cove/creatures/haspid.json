@@ -40,7 +40,7 @@
 				"type": "SPELL_BEFORE_ATTACK",
 				"subtype" : "spell.revhota",
 				"val" : 100,
-				"addInfo" : [0, 2],
+				"addInfo" : [0, 0],
 				"propagator" : "BATTLE_WIDE"
 			},
 			"poisonous" : {
