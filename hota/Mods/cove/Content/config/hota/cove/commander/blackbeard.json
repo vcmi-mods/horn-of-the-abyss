@@ -8,14 +8,14 @@
 		},
 		"faction" : "cove",
 		"level": 0,
-		"speed" : 5,
-		"hitPoints" : 60,
+		"speed" : 4,
+		"hitPoints" : 40,
 		"attack" : 5,
 		"defense" : 5,
 		"damage" :
 		{
-			"min" : 7,
-			"max" : 15
+			"min" : 6,
+			"max" : 12
 		},
 		"growth" : 1,
 		"aiValue" : 5931,
@@ -25,10 +25,6 @@
 		"shots" : 24,
 		"abilities" :
 		{
-			"canShoot" :
-			{
-				"type" : "SHOOTER"
-			},
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
