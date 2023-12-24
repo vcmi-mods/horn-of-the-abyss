@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.30",
+	"version" : "1.6.31",
 	"changelog" : 
 	{
+		"1.6.31"  : [ "Removed Aine having inferno creatures in balance submod" ],
 		"1.6.30"  : [ "Adjusted Commanders stats" ],
 		"1.6.29"  : [ "Fix for Gazebo and Watering Place" ],
 		"1.6.28"  : [ "Fix some objects and banks apperances" ],
