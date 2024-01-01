@@ -20,7 +20,7 @@
 					}
 				],
 				"onVisitedMessage": "{Mineral Spring}\r\n\r\nEverybody's belly is chock full of bubbly water. That's enough hydration for today.",
-				"visitMode" : "hero",
+				"visitMode" : "bonus",
 				"templates" : {
 					"AVXmspr0" : {
 						"animation" : "hota/highlands/hotaInteractive/mineralSpring/AVXmspr0",
