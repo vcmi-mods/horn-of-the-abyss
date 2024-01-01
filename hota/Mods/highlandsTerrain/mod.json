@@ -6,9 +6,10 @@
 	"contact" : "https://slack.vcmi.eu/",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.1.1",
+	"version" : "1.1.2",
 	"changelog" :
 	{
+		"1.1.2"   : [ "Fix Mineral Spring revisit logic" ],
 		"1.1.1"   : [ "Small fixes in decorative objects" ],
 		"1.0.1"   : [ "Configured behavior for Junkman, (scrolls are tradable, unlike HotA)" ],
 		"1.0.0"   : [ "Initial release" ]
