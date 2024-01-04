@@ -10,8 +10,8 @@
 			"biography" : "Floribert is regarded as one of Enroth's finest field surgeons, having introduced numerous new tools that speed up manipulations and therefore alleviate the suffering of the wounded. Floribert gets a steady supply of practicing material from his girlfriend Victoria's experiments.",
 			"specialty" :
 			{
-				"description" : "Receives a 5% per level bonus to First Aid skill.",
-				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+				"description" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
+				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid Tent healing efficiency.",
 				"name" : "First Aid"
 			}
 		},
