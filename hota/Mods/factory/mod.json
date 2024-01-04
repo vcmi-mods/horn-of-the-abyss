@@ -1,68 +1,113 @@
 {
-	"name" : "Factory Town",
-	"description" : "New town from HotA 1.7",
-	
-	"author" : "HotA Crew, transplanted by Ben",
-	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
-	"modType" : "Town",	
-	
-	"depends" : ["hota.wastelandTerrain"], 
-	
-    "factions" : [ "config/factory/town" ],
-	
-	"creatures" :
-	[
-		"config/factory/creatures/factorylv1.json",
-		"config/factory/creatures/factorylv1up.json",
-		"config/factory/creatures/factorylv2.json",
-		"config/factory/creatures/factorylv2up.json",
-		"config/factory/creatures/factorylv3.json",
-		"config/factory/creatures/factorylv3up.json",
-		"config/factory/creatures/factorylv4.json",
-		"config/factory/creatures/factorylv4up.json",
-		"config/factory/creatures/factorylv5.json",
-		"config/factory/creatures/factorylv5up.json",
-		"config/factory/creatures/factorylv6.json",
-		"config/factory/creatures/factorylv6up.json",
-		"config/factory/creatures/factorylv7-1.json",
-		"config/factory/creatures/factorylv7-1up.json",
-		"config/factory/creatures/factorylv7-2.json",
-		"config/factory/creatures/factorylv7-2up.json",
-		"config/factory/creatures/factoryCommander.json"
-	],
-	
-	"heroClasses" :
-	[
-		"config/factory/classes/classMagic.json",
-		"config/factory/classes/classMight.json"
-	],
+	"name" : "Horn of the Abyss",
+	"description" : "Work-in-progress VCMI port of Horn of the Abyss expansion made by Hota Crew",
+	"modType" : "Expansion",
+	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar. 1.7 ported by Ben Yan & Loki Laufeyjarson",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.7",
+	"changelog" : 
+	{
+		"1.6.34"  : [ "Updated chinese translation by Rindlit" ],
+		"1.6.33"  : [ "Fix revisit mechanics of Mineral Spring object from Highlands submod" ],
+		"1.6.32"  : [ "Updated chinese translation" ],
+		"1.6.31"  : [ "Removed Aine having inferno creatures in balance submod" ],
+		"1.6.30"  : [ "Adjusted Commanders stats" ],
+		"1.6.29"  : [ "Fix for Gazebo and Watering Place" ],
+		"1.6.28"  : [ "Fix some objects and banks apperances" ],
+		"1.6.27"  : [ "Added Horn of the Abyss artifact (Ben Yan)" ],
+		"1.6.26"  : [ "Added blockedVisitable / removable flags to some objects, especially on water" ],
+		"1.6.25"  : [ "Adjusted Sea Withces/Sorceresses/Haspids abilities" ],
+		"1.6.24"  : [ "Fixed unit selection highligh in exchange window" ],
+		"1.6.23"  : [ "Fixed loading of hota h3m maps in vcmi 1.4" ],
+		"1.6.22"  : [ "The new boats for Conflux and Neutrals are now actually used" ],
+		"1.6.21"  : [ "The damage of Armageddon spell reduced form 50*(spell power) + 30/30/60/120 to 40*(spell power) + 30/30/60/120" ],
+		"1.6.20"  : [ "The effect of Protection from Air, Protection from Fire, Protection from Water, and Protection from Earth spells increased from 30%30%50%50% to 50%50%75%75%" ],
+		"1.6.19"  : [ "Naga Bank gives gems instead of sulfur as a reward" ],
+		"1.6.18"  : [ "Deemer and Uland no longer start with advanced skills" ],
+		"1.6.17"  : [ "Cahnged Starting armies for heroes" ],
+		"1.6.16"  : [ "Added missing first aid probabilities to hero classes" ],
+		"1.6.15"  : [ "Removed some objects from RMG. Cartographer, hill fort, etc" ],
+		"1.6.14"  : [ "Polish translation by Dru" ],
+		"1.6.13"  : [ "Removed unavailable LAND type from terrains.", "Fixed Magic Shrine level 4 definitions", "Fixed miniHillFort templates for wasteland and highlands", "Fixed warlocks lab template" ],
+		"1.6.12"  : [ "Normalized submod names, to be more clear and look more consistent" ],
+		"1.6.11"  : [ "WoG MainMenu mod name updated in Conflicts section" ],
+		"1.6.10"  : [ "Fixed Water Spells damage imunity for Nymphs and Oceanids" ],
+		"1.6.9"   : [ "Small changes with some highlands and wastelands decorative objects" ],
+		"1.6.8"   : [ "Configured behavior for Junkman" ],
+		"1.6.7"   : [ "Configured behavior for Seafaring academy and Skeleton transformer" ],
+		"1.6.6"   : [ "Highlands and Wasteland terrain mods are 2 separate mods now" ],
+		"1.6.5"   : [ "Fixed graphical issues in previous version" ],
+		"1.6.4"   : [ "Added main menu theme", "Added fixed versions of creature icons" ],
+		"1.6.3"   : [ "Adjusted Kinkeria specialty" ],
+		"1.6.2"   : [ "Added Town Gate object", "Banned heroes with starting navigation skill" ],
+		"1.6.1"   : [ "Added support for HotA maps", "Added HotA maps" ],
+		"1.6.0"   : [ "Mod updated with data from latest HotA release", "Reorganized submods to more logical scheme", "Updated Cove puzzle map", "Updated portraits of Cove heroes" ],
+		"1.5.10"  : [ "Implemented new map objects", "Fixes to existing map objects" ],
+		"1.5.9"   : [ "Removed HotA fonts submod due to issues with different localizations" ],
+		"1.5.8"   : [ "Updated HotA balance changes" ],
+		"1.5.7"   : [ "Fixed configuration of several creature banks", "Added Ukrainian translation" ],
+		"1.5.6"   : [ "Mod updated for new bunus system" ],
+		"1.5.5"   : [ "Added / fixed Ancient Lamp, Sea Barrel, Shrine of Magic Mystery, Vial of mana and Jetsam." ],
+		"1.5.4"   : [ "Submod New Terrains was rewritten for new format" ],
+		"1.5.3"   : [ "Added 3 special terrains, added some missing decorations" ],
+		"1.5.2"   : [ "Disable unconfigured objects" ],
+		"1.5.1"   : [ "Updated new terrain configuration"],
+		"1.5.0"   : [ "Added warehouses", "Added ancient lamp", "Added magic colosseum", "Added sea barrel", "Update obstacles config to be compatible with 1.1.0" ],
+		"1.4.4"   : [ "Add missing battlefield obstacles" ],
+		"1.4.3"   : [ "Fix battlefield obstacles" ],
+		"1.4.2"   : [ "Update configs and restructure the mod" , "Campaign heroes submod was added" ],
+		"1.4.1"   : [ "Fixes for mine types" ],
+		"1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
+		"1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
+		"1.3.22"   : [ "New hero specialty format" ],
+		"1.3.21"   : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
+	},
+	"compatibility" :
+	{
+		"min" : "1.3.0"
+	},
+	"chinese" : {
+		"name" : "Horn of the Abyss (深渊之角)",
+		"description" : "由 Hota Crew 制作的 Horn of the Abyss 扩充版的进行中移植版本",
+		"translations" : [
+			"config/translation/hota/chinese/game.json",
+			"config/translation/hota/chinese/campaigns.json",
+			"config/translation/hota/chinese/maps.json"
+		]
+	},
+	"czech" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Rozpracovaný port rozšíření Horn of the Abyss vytvořený týmem Hota Crew",
+		"translations" : [
+			"config/translation/hota/czech/game.json",
+			"config/translation/hota/czech/campaigns.json",
+			"config/translation/hota/czech/maps.json"
+		]
+	},
+	"german" : {
+		"name" : "Horn of the Abyss",
+		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
+		"translations" : [
+			"config/translation/hota/german/game.json",
+			"config/translation/hota/german/campaigns.json",
+			"config/translation/hota/german/maps.json"
+		]
+	},
+	"polish" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Trwają prace nad portem dodatku Horn of the Abyss stworzonego przez Hota Crew",
+		"translations" : [
+			"config/translation/hota/polish/game.json"
+		]
+	},
+	"ukrainian" : {
+		"name" : "Horn of the Abyss / Ріг Безодні",
+		"description" : "Поточна версія доповнення Horn of the Abyss (від команди Hota Crew)",
+		"translations" : [
+			"config/translation/hota/ukrainian.json"
+		]
+	}
 
-	"heroes" :
-	[
-		"config/factory/heroes/01_Henrietta.json",
-		"config/factory/heroes/02_Sam.json",
-		"config/factory/heroes/03_Tancred.json",
-		"config/factory/heroes/04_Melchior.json",
-		"config/factory/heroes/05_Floribert.json",
-		"config/factory/heroes/06_Wynona.json",
-		"config/factory/heroes/07_Dury.json",
-		//"config/factory/classes/campaignHeroes.json"
-	],
-	"spells" :
-	[
-		"config/factory/spells/teslaLightning.json",
-		"config/factory/spells/hotaRepair.json",
-		"config/factory/spells/hotaGrenade.json",
-		"config/factory/spells/meditation01.json",
-		"config/factory/spells/meditation02.json"
-	],
-	 "objects":
-    [
-		"config/factory/dwellings.json"
-    ],
-	"changelog" :
-    {
-		"1.0.0"   : [ "Initial release" ]
-    }
 }
