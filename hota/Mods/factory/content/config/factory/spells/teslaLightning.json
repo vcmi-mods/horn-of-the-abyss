@@ -1,0 +1,79 @@
+{	
+	"teslaLightning":
+	{
+		"type": "ability", 
+		"name": "Lightning Storm",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+		"targetType": "CREATURE",
+		"targetCondition" : {
+		},
+
+		"animation":{
+			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		},
+		"sounds": {
+			"cast": "LIGHTBLT"
+		},
+		"flags" : {
+			"damage": true,
+			"negative": true
+		},
+		"graphics":
+		{
+		},
+		"levels" : {
+		"base":{
+				"range" : "X",
+				"power": 100, 
+				"aiValue": 70,
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 0, "valueType": 	"INDEPENDENT_MIN"}
+				},
+				"targetModifier":{"smart":true}
+			},
+		"none":
+			{
+				"description": "Warning! Lightning Storm created!",
+	 
+				"cost": 0,
+				"power": 100
+			},
+			"basic":
+			{
+				"description": "Warning! Lightning Storm created!",
+	 
+				"cost": 0,
+				"power": 100
+			},
+			"advanced":
+			{
+				"description": "Warning! Lightning Storm created!",
+	 
+				"cost": 0,
+				"power": 100
+			},
+			"expert":
+			{
+				"description": "Warning! Lightning Storm created!",
+	 
+				"cost": 0,
+				"power": 100
+			}
+			}
+	}
+}

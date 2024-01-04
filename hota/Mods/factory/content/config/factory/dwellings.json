@@ -1,0 +1,102 @@
+{
+    "core:creatureGeneratorCommon" : {
+        "types" : {
+            "factoryLevel1" : {
+                "name" : "Halfling Adobe",
+                "creatures" : [[ "halfling" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVG2half",
+                        "mask" : ["VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "factoryLevel2" : {
+                "name" : "Foundry",
+                "creatures" : [[ "hotaMechanic" ]],
+
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGmecha",
+                        "mask" : [ "VVV","VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "factoryLevel3" : {
+                "name" : "Ranch",
+                "creatures" : [[ "armadillo" ]],
+
+                "templates" : {
+                    "default" : {   
+                        "animation" : "factory/map/dwellings/AVGarma",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "factoryLevel4" : {
+                "name" : "Manufactory",
+                "creatures" : [[ "automaton" ]],
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGauto",
+                        "mask" : ["VVV","VVV","VVV","VAB" ]
+                    }
+                }
+            },
+            "factoryLevel5" : {
+                "name" : "Catacombs",
+                "creatures" : [[ "sandworm" ]],
+                "guards" : [
+                    { "amount" : 9, "type" : "sandworm" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGworm",
+                        "mask" : [ "VVV","VBA"]
+                    }
+                }
+            },
+            "factoryLevel6" : {
+                "name" : "Watchtower",
+                "creatures" : [[ "hotaGunman" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "hotaGunman" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGguns",
+                        "mask" : ["VVV","VVV","VVV","VBA" ]
+                    }
+                }
+            },
+            "factoryLevel7" : {
+                "name" : "Serpentarium",
+                "creatures" : [[ "hotaCouatl" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "hotaCouatl" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGcoatl",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            },
+			"factoryLevel7-2" : {
+                "name" : "Gantry",
+                "creatures" : [[ "hotaDread" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "hotaDread" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "factory/map/dwellings/AVGdread",
+                        "mask" : ["VVV","VVV","VBA" ]
+                    }
+                }
+            }
+
+        }       
+    }
+} 

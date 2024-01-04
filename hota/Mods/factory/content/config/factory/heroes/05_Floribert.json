@@ -1,0 +1,72 @@
+{
+	"05_Floribert" :
+	{
+    "class": "factoryAClass",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Floribert",
+			"biography" : "Floribert is regarded as one of Enroth's finest field surgeons, having introduced numerous new tools that speed up manipulations and therefore alleviate the suffering of the wounded. Floribert gets a steady supply of practicing material from his girlfriend Victoria's experiments.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to First Aid skill.",
+				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid skill.",
+				"name" : "First Aid"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/05_Floribert/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/05_Floribert/bigS.bmp",
+			"large" : "factory/heroes/05_Floribert/bigP.bmp",
+			"small" : "factory/heroes/05_Floribert/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+

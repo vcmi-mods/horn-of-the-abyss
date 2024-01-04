@@ -1,0 +1,139 @@
+{
+	"hotaEngineer":
+	{
+		"name" :
+		{
+			"plural" : "Engineers",
+			"singular" : "Engineer"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 26,
+			 "min" : 15
+		},
+		"faction" : "factory",
+		"aiValue" : 228,
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 170
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 2
+		},
+		"defense" : 5,
+		"fightValue" : 233,
+    "graphics": {
+      "animation": "factory/battle/creatures/CENGINE.def",
+      "map": "factory/map/creatures/AVWengn.def",
+	  "mapMask" : [ "VVV", "VAV"],
+      "iconSmall": "factory/iconsSmall/creatures/CPrS004F.bmp",
+      "iconLarge": "factory/iconsBig/creatures/CPrL004F.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.25,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+		"growth" : 8,
+		"hitPoints" : 16,
+		"level" : 2,
+		"sound" :
+		{
+			"attack": "factory/MECHATTK.wav",
+			"defend": "factory/MECHDFND.wav",
+			"killed": "factory/MECHKILL.wav",
+			"move": "factory/MECHMOVE.wav",
+			"shoot": "factory/MECHSHOT.wav",
+			"wince": "factory/MECHWNCE.wav"
+		},
+		"speed" : 7,
+		"abilities":
+		{
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"repair" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 2
+			},
+			"castLength" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.hotaRepair",
+				"val" : 20
+			},
+			"spellpoints" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			}	
+		},
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FLYING"
+				},
+				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.airShield"
+				},
+				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
+			}
+		]
+	}
+}

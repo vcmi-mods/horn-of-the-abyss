@@ -1,0 +1,264 @@
+{
+	"meditation02":
+	{
+		"type": "ability", 
+		"name": "Meditation",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 2,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+ 
+		//implosion animation?
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+ 
+		"flags" : {"positive": true, "nonMagical":true, "special" : true },
+ 
+		"targetCondition" : {
+			"anyOf" : {
+				"factory:creature.hotaCoutalUp":"absolute"
+			}
+		},
+ 
+		"graphics":
+		{
+			"iconEffect": "spells/medi001.bmp"
+		},
+		"sounds":
+		{
+			"cast":"ENERMOVE" //fear snd
+		},
+		"targetType": "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"range": "0",
+				"power": 1,
+				"aiValue": 50,
+				"targetModifier":
+				{
+					"smart": true
+				}
+			},
+			"none":
+			{
+				"description": "Meditation",
+	 
+				"cost": 6,
+				"effects" : {
+					"notActive" : {
+						"type" : "BLOCKS_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeMelee",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReductionShots" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeRanged",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"magicDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"levelSpellImmunity":{
+								"addInfo" : 1, //absolute
+								"val" : 5,
+								"type" : "LEVEL_SPELL_IMMUNITY",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+					"nonLiving" : {
+						"type" : "NON_LIVING",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"noRetaliation" : {
+					"type" : "NO_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					}
+				}
+			},
+			"basic":
+			{
+				"description": "Meditation",
+	 
+				"cost": 6,
+	 
+			},
+			"advanced":
+			{
+				"description": "Meditation",
+	 
+				"cost": 6,
+				"effects" : {
+					"notActive" : {
+						"type" : "BLOCKS_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeMelee",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReductionShots" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeRanged",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"magicDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"levelSpellImmunity":{
+								"addInfo" : 1, //absolute
+								"val" : 5,
+								"type" : "LEVEL_SPELL_IMMUNITY",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+					"nonLiving" : {
+						"type" : "NON_LIVING",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"noRetaliation" : {
+					"type" : "NO_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					}
+				}
+			},
+			"expert":
+			{
+				"description": "Meditation",
+	 
+				"cost": 6,
+				"effects" : {
+					"notActive" : {
+						"type" : "BLOCKS_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReduction" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeMelee",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"damageReductionShots" : {
+						"type" : "GENERAL_DAMAGE_REDUCTION",
+						"subtype" : "damageTypeRanged",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"magicDamageReduction" : {
+						"type" : "SPELL_DAMAGE_REDUCTION",
+						"subtype" : "spellSchool.any",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"levelSpellImmunity":{
+								"addInfo" : 1, //absolute
+								"val" : 5,
+								"type" : "LEVEL_SPELL_IMMUNITY",
+								"valueType" : "INDEPENDENT_MAX",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 2
+							},
+					"nonLiving" : {
+						"type" : "NON_LIVING",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					},
+					"noRetaliation" : {
+					"type" : "NO_RETALIATION",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 2
+					}
+				}
+			}
+		}
+	}
+}

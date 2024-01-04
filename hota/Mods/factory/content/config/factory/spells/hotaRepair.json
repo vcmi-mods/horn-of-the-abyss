@@ -1,0 +1,109 @@
+{
+	
+	
+	"hotaRepair":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "Repair",
+		"school":
+		{
+			"air": false,
+			"earth": true,
+			"fire": false,
+			"water": false
+		},
+		"level": 3,
+		"power": 30,
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+
+		},
+
+ 
+		"animation":{
+			"affect":["spells/CSPhea03.def"]
+		},
+ 
+		"flags" : {	"positive": true, "rising" : true},
+"targetCondition" : {
+			"noneOf" : { "bonus.UNDEAD" : "absolute" },
+			"anyOf" : {	"bonus.NON_LIVING" : "absolute", "bonus.GARGOYLE" : "absolute" },
+		},
+ 
+		"graphics":
+		{
+			
+		},
+
+		"sounds": {
+			"cast": "ANIMDEAD"
+		},
+ 
+		"levels":
+		{
+			"base":{
+				"cost": 12,
+				"range": "0",
+				"power": 30,
+				"aiValue": 70,
+				"battleEffects":{
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"resurrect",
+						"healPower":"oneBattle",
+						"minFullUnits" : 1,
+						"val" : 30,
+					},
+					"cure":{
+						"type":"core:dispel",
+						"indirect": true,
+						"optional":true,
+						"dispelNegative":true,
+						"dispelNeutral":false,
+						"dispelPositive":false
+					}
+				},
+				"targetModifier":{"smart":true}
+			},
+			"none":
+			{
+				"description": "Repair ability",
+			},
+			"basic":
+			{
+				"description": "Repair ability",
+				"power": 30,
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent",
+						"val" : 30,
+					}
+				}
+			},
+			"advanced":{
+				"description": "Repair ability",
+				"power": 50,
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent",
+						"val" : 50,
+					}
+				}
+			},
+			"expert":{
+				"description": "Repair ability",
+				"power": 70,
+				"battleEffects":{
+					"heal":{
+						"healPower":"permanent",
+						"val" : 70,
+					}
+				}
+			}
+		}
+	}
+ 
+}
