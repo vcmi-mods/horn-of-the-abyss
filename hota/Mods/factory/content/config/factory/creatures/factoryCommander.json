@@ -1,0 +1,98 @@
+{
+	"facCommander":
+	{
+		"name" :
+		{
+			"singular" : "Cowboy",
+			"plural" : "Cowboy"
+		},
+		"faction" : "factory",
+		"level": 0,
+		"speed" : 5,
+		"hitPoints" : 60,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" :
+		{
+			"min" : 7,
+			"max" : 15
+		},
+		"growth" : 1,
+		"aiValue" : 5931,
+		"fightValue" : 5272,
+		"doubleWide" : false,
+		"special" : true,
+		"shots" : 24,
+		"abilities" :
+		{
+			"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"canCast" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.protectWater",
+				"val" : 3
+			},
+			"castsAmount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 5
+			},
+			"enchant" :
+			{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			}
+		},
+		"graphics" :
+		{
+			"animation": "factory/battle/creatures/CBOUNTHT.def",
+			"map": "factory/map/creatures/AVWbhun.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall": "factory/iconsSmall/creatures/CPrS012F.bmp",
+			"iconLarge": "factory/iconsBig/creatures/CPrL012F.bmp",
+      "timeBetweenFidgets": 1,
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 12.00,
+				"attack" : 1.00
+			},
+			"missile" : {
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				},
+				"projectile" : "PHALF.DEF",
+			}
+		},
+		"sound" :
+		{
+			"attack": "factory/GUNSATTK.wav",
+			"defend": "factory/GUNSDFND.wav",
+			"killed": "factory/GUNSKILL.wav",
+			"move": "factory/GUNSMOVE.wav",
+			 "shoot": "factory/GUNSSHOT.wav",
+			"wince": "factory/GUNSWNCE.wav"
+		}
+	}
+}

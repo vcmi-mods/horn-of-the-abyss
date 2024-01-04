@@ -1,0 +1,59 @@
+{
+	"03_Tancred" :
+	{
+    "class": "factoryAClass",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Tancred",
+			"biography" : "Back in his alchemist days, Tancred discovered an ancient recipe for a concoction that exploded without the use of magic. To his great dismay, the crucial component - saltpeter - was nearly entirely absent from Antagarich. Only in Jadame did Tancred discover vast caves full of this rare element and perfect the design of the arquebus that hurls tiny bullets with this awesome power.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defence of any Gunslingers and Bounty Hunters for each level attained after 6th level.",
+				"tooltip" : "Bonus: creature",
+				"name" : "Gunslinger"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/03_Tancred/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/03_Tancred/bigS.bmp",
+			"large" : "factory/heroes/03_Tancred/bigP.bmp",
+			"small" : "factory/heroes/03_Tancred/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "hotaGunman"
+		}
+	}
+}
+

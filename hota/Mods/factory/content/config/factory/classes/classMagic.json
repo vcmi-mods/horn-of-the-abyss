@@ -1,0 +1,69 @@
+{
+	"factoryMClass" : {
+		"affinity" : "magic",
+		"animation" : { "battle" : { "female" : "factory/battle/heroes/CH21b", "male" : "factory/battle/heroes/CH21" } },
+		"commander" : "facCommander",
+		"defaultTavern" : 5,
+		"faction" : "factory",
+		"highLevelChance" : { "attack" : 20, "defence" : 15, "knowledge" : 30, "spellpower" : 35 },
+		"lowLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
+		"mapObject" : {
+			"templates" : {
+				"female" :
+				{
+					"animation" : "factory/map/heroes/AH21b_",
+					"editorAnimation": "factory/map/heroes/AH21b_e.def"
+				},
+				"male" :
+				{
+					"animation" : "factory/map/heroes/AH21_",
+					"editorAnimation": "factory/map/heroes/AH21_e.def"
+				}
+			}
+		},
+		"name" : "Artificer",
+		"primarySkills" : { "attack" : 0, "defence" : 1, "knowledge" : 2, "spellpower" : 2 },
+		"secondarySkills" : {
+			"pathfinding"  : 3,
+			"archery"      : 6,
+			"logistics"    : 5,
+			"scouting"     : 4,
+			"diplomacy"    : 3,
+			"navigation"   : 4,
+			"leadership"   : 2,
+			"wisdom"       : 8,
+			"mysticism"    : 5,
+			"luck"         : 3,
+			"ballistics"   : 8,
+			"eagleEye"     : 4,
+			"necromancy"   : 0,
+			"estates"      : 2,
+			"fireMagic"    : 4,
+			"airMagic"     : 3,
+			"waterMagic"   : 3,
+			"earthMagic"   : 4,
+			"scholar"      : 5,
+			"tactics"      : 3,
+			"artillery"    : 1,
+			"learning"     : 4,
+			"offence"      : 2,
+			"armorer"      : 3,
+			"intelligence" : 7,
+			"sorcery"      : 7,
+			"resistance"   : 0,
+			"firstAid"     : 6
+		},
+		"tavern" : {
+			"castle" : 2,
+			"conflux" : 5,
+			"dungeon" : 5,
+			"fortress" : 6,
+			"inferno" : 6,
+			"necropolis" : 5,
+			"rampart" : 6,
+			"stronghold" : 6,
+			"tower" : 6,
+			"factory": 6
+		}
+	}
+}

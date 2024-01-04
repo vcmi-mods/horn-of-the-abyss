@@ -1,0 +1,157 @@
+{
+  "hotaGunman": {
+    "name": {
+      "plural": "Gunslingers",
+      "singular": "Gunslinger"
+    },
+    "advMapAmount": {
+ "max" : 12,
+ "min" : 5
+    },
+    "faction": "factory",
+    "aiValue": 1322,
+    "attack": 17,
+    "cost": {
+      "gold": 800
+    },
+    "damage": {
+ "max" : 24,
+ "min" : 14
+    },
+    "defense": 12,
+    "fightValue": 1211,
+    "graphics": {
+      "animation": "factory/battle/creatures/CGNSLING.def",
+      "map": "factory/map/creatures/AVWguns.def",
+	  "mapMask" : [ "VVV", "VAV"],
+      "iconSmall": "factory/iconsSmall/creatures/CPrS011F.bmp",
+      "iconLarge": "factory/iconsBig/creatures/CPrL011F.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1,
+        "attack": 1,
+        "idle": 10
+      },
+      "missile" :
+			{
+				"projectile" : "PHALF.DEF",
+				"attackClimaxFrame" : 10,
+				"offset" :
+				{
+					"upperX" : 38,
+					"upperY" : -65,
+					"middleX" : 36,
+					"middleY" : -59,
+					"lowerX" : 21,
+					"lowerY" : -50
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+    },
+    "growth": 2,
+    "hitPoints": 45,
+    "level": 6,
+    "shots" : 16,
+    "sound": {
+			"attack": "factory/GUNSATTK.wav",
+			"defend": "factory/GUNSDFND.wav",
+			"killed": "factory/GUNSKILL.wav",
+			"move": "factory/GUNSMOVE.wav",
+			 "shoot": "factory/GUNSSHOT.wav",
+			"wince": "factory/GUNSWNCE.wav"
+    },
+    "speed": 7,
+	"upgrades":
+		[
+			"hotaGunmanUp"
+		],
+    "abilities": {
+		"canShoot": {"type": "SHOOTER"},
+		"rangedRetaliation"	:
+			{
+				"type" : "RANGED_RETALIATION"
+			},
+			"firstStrike" :
+			{
+				"type" : "FIRST_STRIKE"
+			}
+    },
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth", //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ENCHANTED",
+					"subtype" : "spell.slayer",
+					"addInfo" : 3
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "FEARLESS"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.goblin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : "creature.hobgoblin"
+				},
+				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+			}
+		]
+  }
+}

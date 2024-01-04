@@ -1,0 +1,71 @@
+{
+	"04_Melchior" :
+	{
+    "class": "factoryAClass",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Melchior",
+			"biography" : "Melchior can see everything that is going on in the deepest recesses of someone else's mind. This secret talent provides a crucial advantage when assessing the foe's strength and intentions and convincing him to agree to terms. Any prince who enlists Melchior's services can be certain of never having to plead for a disgraceful peace.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
+				"tooltip" : "Bonus: creature",
+				"name" : "Diplomacy"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/04_Melchior/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/04_Melchior/bigS.bmp",
+			"large" : "factory/heroes/04_Melchior/bigP.bmp",
+			"small" : "factory/heroes/04_Melchior/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "diplomacy"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+						"targetSourceType" : "SECONDARY_SKILL",
+						"type" : "SURRENDER_DISCOUNT",
+						"val" : 5,
+						"valueType" : "PERCENT_TO_BASE"
+				   }
+					
+				}
+			}
+	}
+}
+
