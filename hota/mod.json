@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.34",
+	"version" : "1.6.35",
 	"changelog" : 
 	{
+		"1.6.35"  : [ "Fixed the translations and the commander bugs" ],
 		"1.6.34"  : [ "Updated chinese translation by Rindlit" ],
 		"1.6.33"  : [ "Fix revisit mechanics of Mineral Spring object from Highlands submod" ],
 		"1.6.32"  : [ "Updated chinese translation" ],
