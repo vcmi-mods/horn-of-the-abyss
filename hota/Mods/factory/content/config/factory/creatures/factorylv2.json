@@ -12,7 +12,7 @@
 			 "min" : 16
 		},
 		"faction" : "factory",
-		"aiValue" : 192,
+		"aiValue" : 186,
 		"attack" : 6,
 		"cost" :
 		{

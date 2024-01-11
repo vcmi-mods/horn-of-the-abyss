@@ -5,8 +5,8 @@
 		"commander" : "facCommander",
 		"defaultTavern" : 5,
 		"faction" : "factory",
-		"highLevelChance" : { "attack" : 20, "defence" : 15, "knowledge" : 30, "spellpower" : 35 },
-		"lowLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
+		"highLevelChance" : { "attack" : 20, "defence" : 20, "knowledge" : 30, "spellpower" : 30 },
+		"lowLevelChance" : { "attack" : 20, "defence" : 15, "knowledge" : 35, "spellpower" : 30 },
 		"mapObject" : {
 			"templates" : {
 				"female" :
@@ -25,7 +25,7 @@
 		"primarySkills" : { "attack" : 0, "defence" : 1, "knowledge" : 2, "spellpower" : 2 },
 		"secondarySkills" : {
 			"pathfinding"  : 3,
-			"archery"      : 6,
+			"archery"      : 4,
 			"logistics"    : 5,
 			"scouting"     : 4,
 			"diplomacy"    : 3,
@@ -44,7 +44,7 @@
 			"earthMagic"   : 4,
 			"scholar"      : 5,
 			"tactics"      : 3,
-			"artillery"    : 1,
+			"artillery"    : 6,
 			"learning"     : 4,
 			"offence"      : 2,
 			"armorer"      : 3,
@@ -54,16 +54,17 @@
 			"firstAid"     : 6
 		},
 		"tavern" : {
-			"castle" : 2,
-			"conflux" : 5,
-			"dungeon" : 5,
-			"fortress" : 6,
-			"inferno" : 6,
-			"necropolis" : 5,
-			"rampart" : 6,
-			"stronghold" : 6,
-			"tower" : 6,
-			"factory": 6
+			"castle" : 4,
+			"conflux" : 1,
+			"dungeon" : 2,
+			"fortress" : 3,
+			"inferno" : 1,
+			"necropolis" : 2,
+			"rampart" : 4,
+			"stronghold" : 2,
+			"tower" : 4,
+			"factory": 6,
+			"cove": 3
 		}
 	}
 }

@@ -1,0 +1,63 @@
+{
+	"08_Morton" :
+	{
+    "class": "factoryAClass",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Morton",
+			"biography" : "Morton, a veteran of Goblin-Ogre Wars and one of the few who survived the assault on Gowdar Deep, vowed vengeance on the "dirtskins" for the massacre that wiped his home off the face of Jadame. He gauges the quality of his ballistae by the number of ogres they can piece with a single shot.",
+			"specialty" :
+			{
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"tooltip" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"name" : "Ballista"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/08_Morton/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/08_Morton/bigS.bmp",
+			"large" : "factory/heroes/08_Morton/bigP.bmp",
+			"small" : "factory/heroes/08_Morton/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "artillery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "ballistics"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "ballista"
+		}
+	}
+}
+

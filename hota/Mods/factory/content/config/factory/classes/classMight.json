@@ -5,8 +5,8 @@
 		"commander" : "facCommander",
 		"defaultTavern" : 5,
 		"faction" : "factory",
-		"highLevelChance" : { "attack" : 35, "defence" : 35, "knowledge" : 15, "spellpower" : 15 },
-		"lowLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
+		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
+		"lowLevelChance" : { "attack" : 35, "defence" : 35, "knowledge" : 15, "spellpower" : 15 },
 		"mapObject" : {
 			"templates" : {
 				"female" :
@@ -54,16 +54,17 @@
 			"firstAid"     : 3
 		},
 		"tavern" : {
-			"castle" : 2,
-			"conflux" : 5,
-			"dungeon" : 5,
-			"fortress" : 6,
-			"inferno" : 6,
-			"necropolis" : 5,
-			"rampart" : 6,
-			"stronghold" : 6,
-			"tower" : 6,
-			"factory": 6
+			"castle" : 4,
+			"conflux" : 1,
+			"dungeon" : 2,
+			"fortress" : 3,
+			"inferno" : 1,
+			"necropolis" : 2,
+			"rampart" : 4,
+			"stronghold" : 2,
+			"tower" : 4,
+			"factory": 6,
+			"cove": 3
 		}
 	}
 }

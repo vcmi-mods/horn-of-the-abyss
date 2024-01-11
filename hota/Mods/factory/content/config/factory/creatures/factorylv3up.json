@@ -13,7 +13,7 @@
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
-		"aiValue" : 381,
+		"aiValue" : 256,
 		"attack" : 6,
 		"cost" :
 		{
