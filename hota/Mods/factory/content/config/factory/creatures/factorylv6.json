@@ -9,7 +9,7 @@
  "min" : 5
     },
     "faction": "factory",
-    "aiValue": 1322,
+    "aiValue": 1351,
     "attack": 17,
     "cost": {
       "gold": 800

@@ -17,9 +17,9 @@
 			"min" : 6,
 			"max" : 12
 		},
-		"growth" : 1,
-		"aiValue" : 5931,
-		"fightValue" : 5272,
+		"growth" : 9,
+		"aiValue" : 156,
+		"fightValue" : 130,
 		"doubleWide" : false,
 		"special" : true,
 		"shots" : 24,
