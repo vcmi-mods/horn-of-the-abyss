@@ -1,0 +1,20 @@
+{
+	"skill.core.estates.description.advanced": "{中级理财术}\n\n中级理财术可使你每日多得到500个金币。",
+	"skill.core.estates.description.basic": "{初级理财术}\n\n初级理财术可使你每日多得到250个金币。",
+	"skill.core.estates.description.expert": "{高级理财术}\n\n高级理财术可使你每日多得到1000个金币。",
+	"skill.core.intelligence.description.advanced": "{中级智力}\n\n中级智力可使英雄的最大魔法值提高35%。",
+	"skill.core.intelligence.description.basic": "{初级智力}\n\n初级智力可使英雄的最大魔法值提高20%。",
+	"skill.core.intelligence.description.expert": "{高级智力}\n\n高级智力可使英雄的最大魔法值提高50%。",
+	"skill.core.logistics.description.advanced": "{中级后勤学}\n\n中级后勤学可使英雄在陆地上的移动点数增加10%。",
+	"skill.core.logistics.description.basic": "{初级后勤学}\n\n初级后勤学可使英雄在陆地上的移动点数增加5%。",
+	"skill.core.logistics.description.expert": "{高级后勤学}\n\n高级后勤学可使英雄在陆地上的移动点数增加20%。",
+	"skill.core.mysticism.description.advanced": "{中级神秘术}\n\n中级神秘术可使英雄每日恢复10点魔法值。",
+	"skill.core.mysticism.description.basic": "{初级神秘术}\n\n初级神秘术可使英雄每日恢复5点魔法值。",
+	"skill.core.mysticism.description.expert": "{高级神秘术}\n\n高级神秘术可使英雄每日恢复15点魔法值。",
+	"skill.core.necromancy.description.advanced": "{中级招魂术}\n\n中级招魂术可使英雄将10%在战斗中死亡的生物变成骷髅兵。",
+	"skill.core.necromancy.description.basic": "{初级招魂术}\n\n初级招魂术可使英雄将5%在战斗中死亡的生物变成骷髅兵。",
+	"skill.core.necromancy.description.expert": "{高级招魂术}\n\n高级招魂术可使英雄将15%在战斗中死亡的生物变成骷髅兵。",
+	"skill.core.scouting.description.advanced": "{中级侦察术}\n\n中级侦察术可使英雄的视野范围增加3格。",
+	"skill.core.scouting.description.basic": "{初级侦察术}\n\n初级侦察术可使英雄的视野范围增加1格。",
+	"skill.core.scouting.description.expert": "{高级侦察术}\n\n高级侦察术可使英雄的视野范围增加5格。"
+}
