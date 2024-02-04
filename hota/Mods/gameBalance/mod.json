@@ -48,5 +48,12 @@
 		"config/hotaGameBalance/objectsRmgValues.json",
 		"config/hotaGameBalance/creatureBanks.json",
 		"config/hotaGameBalance/objectsRefusable.json"
-	]
+	],
+	"chinese" : {
+		"name" : "游戏平衡",
+		"description" : "深渊号角中的平衡性改进。",
+		"translations" : [
+			"translation/chinese.json",
+		]
+	},
 }
