@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.36",
+	"version" : "1.6.37",
 	"changelog" : 
 	{
+		"1.6.37"  : [ "Updated chinese and polish translations" ],
 		"1.6.36"  : [ "Updated chinese maps translations" ],
 		"1.6.35"  : [ "Fixed the translations and the commander bugs" ],
 		"1.6.34"  : [ "Updated chinese translation by Rindlit" ],
