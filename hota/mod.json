@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.38",
+	"version" : "1.6.39",
 	"changelog" : 
 	{
+		"1.6.39"  : [ "Fix broken filepath" ],
 		"1.6.38"  : [ "Add spanish translation by macomarivas" ],
 		"1.6.37"  : [ "Updated chinese and polish translations" ],
 		"1.6.36"  : [ "Updated chinese maps translations" ],
@@ -117,7 +118,7 @@
 		"name" : "Horn of the Abyss",
 		"description" : "Spanish translation made by macomarivas",
 		"translations" : [
-			"config/translation/hota/spanish.json"
+			"config/translation/hota/spanish/game.json"
 		]
 	}
 }
