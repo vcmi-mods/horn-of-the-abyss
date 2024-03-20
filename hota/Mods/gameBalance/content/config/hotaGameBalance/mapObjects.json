@@ -1,0 +1,101 @@
+{
+	"core:cartographer" : {
+		"name": "Cartographer",
+		"handler": "configurable",
+		"base" : {
+			"sounds" : {
+				"visit" : ["LIGHTHOUSE"]
+			}
+		},
+		"types" : {
+			"cartographerWater" : {
+				"aiValue" : 5000,
+				"rmg" : {
+					"zoneLimit" : 1,
+					"value" : 5000,
+					"rarity" : 20
+				},
+				"compatibilityIdentifiers" : [ "water" ],
+				"visitMode" : "unlimited",
+				"canRefuse" : true,
+				"rewards" : [
+					{
+						"limiter" : { "resources" : { "gold" : 10000 } },
+						"message" : 25,
+						"resources" : {
+							"gold" : -10000
+						},
+						"revealTiles" : {
+							"water" : 1
+						}
+					}
+				],
+				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
+				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
+				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
+				
+			},
+			"cartographerLand" : {
+
+				"aiValue": 10000,
+				"rmg" : {
+					"zoneLimit" : 1,
+					"value" : 10000,
+					"rarity" : 2
+				},
+				"compatibilityIdentifiers" : [ "land" ],
+				"visitMode" : "unlimited",
+				"canRefuse" : true,
+				"rewards" : [
+					{
+						"limiter" : { "resources" : { "gold" : 1000 } },
+						"message" : 26,
+						"resources" : {
+							"gold" : -1000
+						},
+						"revealTiles" : {
+							"surface" : 1,
+							"water" : -1,
+							"rock" : -1
+						}
+					}
+				],
+				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
+				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
+				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
+				
+			},
+			"cartographerSubterranean" : {
+				
+				"aiValue" : 7500,
+				"rmg" : {
+					"zoneLimit" : 1,
+					"value" : 7500,
+					"rarity" : 20
+				},
+				"compatibilityIdentifiers" : [ "subterra" ],
+				"visitMode" : "unlimited",
+				"canRefuse" : true,
+				"rewards" : [
+					{
+						"limiter" : { "resources" : { "gold" : 10000 } },
+						"message" : 27,
+						"resources" : {
+							"gold" : -10000
+						},
+						"revealTiles" : {
+							"subterra" : 1,
+							"water" : -1,
+							"rock" : -1,
+							"surface" : -1
+						}
+					}
+				],
+				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
+				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
+				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
+				
+			}
+		}
+	}
+}
