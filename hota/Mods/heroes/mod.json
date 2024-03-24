@@ -6,11 +6,13 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.3.5",
+	"version" : "1.3.6",
 	"heroes" :
 	[
 		"config/castle/heroes/beatrice",
 		"config/necropolis/heroes/ranloo",
-		"config/fortress/heroes/kinkeria"
+		"config/fortress/heroes/kinkeria",
+		"config/bannedOnMapsWithoutWater/heroes/sylvia",
+		"config/bannedOnMapsWithoutWater/heroes/voy"
 	]
 }
