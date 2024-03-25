@@ -21,7 +21,7 @@
 				"rewards" : [
 					{
 						"limiter" : { "resources" : { "gold" : 10000 } },
-						"message" : 25,
+						"message" : "You find an old fisherman who has the most detailed maps of the seas that you have ever seen. Would you like to purchase a set of maps for 10000 gold?",  // originally 25,
 						"resources" : {
 							"gold" : -10000
 						},
@@ -30,9 +30,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
-				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
-				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
+				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
 				
 			},
 			"cartographerLand" : {
@@ -48,10 +47,10 @@
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"limiter" : { "resources" : { "gold" : 1000 } },
-						"message" : 26,
+						"limiter" : { "resources" : { "gold" : 10000 } },
+						"message" : "You find a cartographer who sells maps of the land for 10000 gold. Would you like to buy a map?",  // originally 26,
 						"resources" : {
-							"gold" : -1000
+							"gold" : -10000
 						},
 						"revealTiles" : {
 							"surface" : 1,
@@ -60,10 +59,9 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
-				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
-				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
-				
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
+				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
+
 			},
 			"cartographerSubterranean" : {
 				
@@ -79,7 +77,7 @@
 				"rewards" : [
 					{
 						"limiter" : { "resources" : { "gold" : 10000 } },
-						"message" : 27,
+						"message" : "You discover an old dwarven miner who has kept several sets of maps from his working days. He is willing to sell you a map of the tunnels for 10000 gold. Do you agree?", // originally 27,
 						"resources" : {
 							"gold" : -10000
 						},
@@ -91,10 +89,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "{Cartographer}\r\n\r\n28",
-				"onSelectMessage" : "{Cartographer}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks",
-				"onVisitedMessage": "{Cartographer}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!"
-				
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
+				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
 			}
 		}
 	}
