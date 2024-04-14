@@ -28,17 +28,17 @@
 			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"castsDisruptingRay" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.seaWitchRay",
-				"val" : 100,
-				"addInfo" : 1000
-			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : 1000
+				"addInfo" : [1, 0, 0]
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [1, 0, 1]
 			}
 		},
 		"graphics" : {

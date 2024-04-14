@@ -24,8 +24,7 @@
 		},
 		"abilities" : {
 			"shield" : {
-				"type" : "GENERAL_DAMAGE_REDUCTION",
-				"subtype" : "damageTypeMelee",
+				"type" : "ENEMY_ATTACK_REDUCTION",
 				"val" : 60
 			}
 		},

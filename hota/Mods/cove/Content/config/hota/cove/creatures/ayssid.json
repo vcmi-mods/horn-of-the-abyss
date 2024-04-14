@@ -29,7 +29,7 @@
 				"type" : "FLYING"
 			},
 			"doubleAttack" : {
-				"type" : "ADDITIONAL_ATTACK",
+				"type" : "FEROCITY",
 				"val" : 1
 			}
 		},

@@ -33,13 +33,18 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"preciseShot" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.accurateShot",
+			"accurateShotFullRange" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareNoRangePenalty",
+				"val" : 3,
+				"addInfo" : "spell.accurateShot"
+			},
+			"accurateShotHalfRange" : {
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareRangePenalty",
 				"val" : 2,
-				"addInfo" : [ 0, 1 ] 
+				"addInfo" : "spell.accurateShot"
 			}
-//			"preciseShot" : { "subtype" : 0, "type" : "DEATH_STARE", "val" : 3 }
 		},
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seadog.png",
