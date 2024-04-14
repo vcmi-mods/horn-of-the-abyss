@@ -32,12 +32,12 @@
 			"spellpower" :
 			{
 				"type" : "CREATURE_SPELL_POWER",
-				"val" : 600
+				"val" : 100
 			},
 			"hypnotize" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.hypnotize",
-				"val" : 33,
+				"val" : 100,
 				"addInfo" : [ 2, 2 ]
 			},
 			"canFly" :

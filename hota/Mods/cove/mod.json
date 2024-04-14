@@ -6,7 +6,7 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.3.61",
+	"version" : "1.3.62",
 	"depends" : [ "hota.cannon" ],
 	"factions" :
 	[
@@ -68,9 +68,6 @@
 	[
 		"config/hota/cove/spells/accurateShot",
 		"config/hota/cove/spells/specialClone",
-		"config/hota/cove/spells/sorceressRay",
-		"config/hota/cove/spells/seaWitchRay",
-		"config/hota/cove/spells/revhota",
 		"config/hota/cove/spells/moat"
 	],
 	"objects" : 

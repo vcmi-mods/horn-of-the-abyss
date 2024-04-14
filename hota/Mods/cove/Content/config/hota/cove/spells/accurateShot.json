@@ -26,28 +26,20 @@
 		"targetCondition" : {
 		},
 		"sounds": {
-			"cast": "hota/cove/spells/PIRTABIL"
+			"cast": "hota/spells/PIRTABIL"
 		},
 		"graphics":
 		{
 		},
 		"levels" : {
 			"base":{
-				"range": "0",
-				"power": 1,
-				"aiValue": 20,
-				"cost" : 0,
-				"targetModifier":
-				{
-					"smart": true
-				},
 				"battleEffects":{
 					"destruction":{
 						"type":"core:damage",
 						"killByCount": true
 					}
 				},
-				"description": ""
+				"range" : "0"
 			},
 			"none":
 			{	 

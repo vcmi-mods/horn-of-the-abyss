@@ -27,17 +27,17 @@
 			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"castsDisruptingRay" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.sorceressRay",
-				"val" : 100,
-				"addInfo" : [1, 0]
-			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [1, 0]
+				"addInfo" : [2, 0, 0]
+			},
+			"castsDisruptingRay" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disruptingRay",
+				"val" : 100,
+				"addInfo" : [2, 0, 1]
 			}
 		},
 		"graphics" : {
