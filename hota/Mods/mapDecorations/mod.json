@@ -82,5 +82,10 @@
 		"config/hotaMapDecorations/vanillaStatic/trees.json",
 		"config/hotaMapDecorations/vanillaStatic/volcano.json",
 		"config/hotaMapDecorations/vanillaStatic/wagon.json"
+	],
+	"biomes":
+	[
+		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
+		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
 	]
 }
