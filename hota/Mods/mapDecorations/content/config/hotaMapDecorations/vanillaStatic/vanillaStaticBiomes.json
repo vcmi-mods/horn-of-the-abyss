@@ -1,0 +1,145 @@
+{
+	"cactus" : {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "plant"
+		},
+		"templates": ["AVcact01", "AVcact02", "AVcact03", "AVcact04", "core:AVLca090"]
+	},
+	"corpse" : {
+		"biome": {
+			"terrain": "sand",
+			"objectType": "other"
+		},
+		"templates": ["AVXskds1", "AVXskds2"]
+	},
+	"dirtHills" : {
+		"biome": {
+			"terrain": "dirt",
+			"objectType": "rock"
+		},
+		"templates": ["avlndt01", "avlndt02", "avlndt03", "avlndt04", "avlndt05", "avlndt06"]
+	},
+	"purpleFlowers" : {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["swvflw01", "swvflw02", "swvflw03", "swvflw04", "swvflw05"]
+	},
+	"mound" : {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "rock"
+		},
+		"templates": ["avlsnh01", "avlsnh02", "avlsnh03", "avlsnh04"]
+	},
+	"grassMountains" : {
+		"biome": {
+			"terrain": "grass",
+			"objectType": "mountain"
+		},
+		"templates": [ "grsmnt00", "grsmnt01", "grsmnt02", "grsmnt03", "grsmnt04", "grsmnt05"]
+	},
+	"swampMountains" : {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "rock"
+		},
+		"templates": ["MNTSWP01", "MNTSWP02", "MNTSWP03", "MNTSWP04", "MNTSWP05", "MNTSWP06"]
+	},
+	"subMushroom" : {
+		"biome": {
+			"terrain": "subterra",
+			"objectType": "plant"
+		},
+		"templates": [ "AVLMS130", "AVLMS140", "AVLMS150", "AVLMS160", "AVLMS170"]
+	},
+	"grassMushroom" : {
+		"biome": {
+			"terrain": "grass",
+			"objectType": "plant"
+		},
+		"templates": [ "avrmsh01", "avrmsh02", "avrmsh03", "avrmsh04", "avrmsh05", "avrmsh06", "avrmsh07", "avrmsh08", "avrmsh09", "avrmsh10"]
+	},
+	"swampMushroom" : {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["swpmsh01", "swpmsh02", "swpmsh03", "swpmsh04", "swpmsh05", "swpmsh06"]
+	},
+	"pineTrees":
+	{
+		"biome": {
+			"terrain": ["grass", "dirt"],
+			"objectType": "tree"
+		},
+		"templates": [ "avlpntr8", "avlpntr9", "avlhspr0", "avlhspr1", "avlhspr2", "avlhspr3", "avlhspr4", "avlhspr5", "avlhspr6", "avlhspr8", "avlhspr8", "avlhspr9"]
+	},
+	"snowTrees":
+	{
+		"biome": {
+			"terrain": "snow",
+			"objectType": "tree"
+		},
+		"templates": [ "avlsntr8", "avlsntr9"]
+	},
+	"redTrees" : {
+		"biome": {
+			"terrain": ["dirt", "rough", "grass", "swamp"],
+			"objectType": "tree"
+		},
+		"templates": [ "AVLswt20", "AVLswt21", "AVLswt22", "AVLswt23", "AVLswt24", "AVLswt25", "AVLswt26", "avrdtr01", "avrdtr02", "avrdtr03", "avrdtr04", "avrdtr05", "avrdtr06"]
+	},
+	"reef" : {
+		"biome": {
+			"terrain" : "water",
+			"objectType": "mountain"
+		},
+		"templates": [ "ZREEF1", "ZREEF2", "ZREEF3", "ZREEF4", "ZREEF5"]
+	},
+	"waterRock": {
+		"biome": {
+			"terrain" : "water",
+			"objectType": "rock"
+		},
+		"templates": ["avlrfx01", "avlrfx02", "avlrfx03", "avlrfx04", "avlrfx05", "avlrfx06", "avlrfx07", "avlrfx08"]
+	},
+	"swampShrub" : { // TODO: Merge with original set
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": [ "avls05s1" ]
+	},
+	"roughShrub" : { // TODO: Merge with original set
+		"biome": {
+			"terrain": "rough",
+			"objectType": "plant"
+		},
+		"templates": [ "avlsh9x0" ]
+	},
+	"yellowSwampPlant" : {
+		"biome": {
+			"terrain": "swamp",
+			"objectType": "plant"
+		},
+		"templates": ["TPMTREE1", "TPMTREE2", "TPMTREE3", "TPMTREE4", "TPMTREE5", "TPMTREE6"]
+	},
+	"dirtTree" : {
+		"biome": {
+			"terrain": "dirt",
+			"objectType": "tree"
+		},
+		"templates": ["avlmxf01", "avlmxf02", "avlmxf03", "avlmxf04", "avlmxf05", "avlmxf06", "avlmxf07", "avlmxf08", "avltro13"] 
+	},
+	"core:volcanos" : {
+		"biome": {
+			"terrain" : "lava",
+			"objectType": "mountain"
+		},
+		//"templates": [ "AVLvol60"] // TODO: Append only one
+		"templates" : ["AVLvol10", "AVLvol20", "AVLvol30", "AVLvol40", "AVLvol50", "AVLvol60"]
+	}
+}

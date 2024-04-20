@@ -1,0 +1,115 @@
+{
+	"carnivorousPlant":{
+		"biome":{
+			"terrain" : "swamp",
+			"objectType" : "other"
+		},
+		"templates" : ["avswplnt"]
+	},
+	"abandonedBoat":{
+		"biome":{
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : ["crates08", "crates09"]
+	},
+	"sackRope":{
+		"biome":{
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : ["crates05", "crates06", "crates07", "crates10"]
+	},
+	"barrels":{
+		"biome":{
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : ["crates02", "crates03"]
+	},
+	"crates":{
+		"biome":{
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : ["crates01", "crates11", "crates12", "crates13"]
+	},
+	"chickens":{
+		"biome":{
+			"terrain" : ["grass", "dirt", "rough"], 
+			"objectType" : "animal"
+		},
+		"templates" : ["rooster_01", "rooster_02"]
+	},
+	"frogs":{
+		"biome":{
+			"terrain" : "swamp",
+			"objectType" : "animal"
+		},
+		"templates" : ["frog_01", "frog_02", "frog_03"]
+	},
+	"barchanDunes" : {
+		"biome": {
+			"terrain" : "sand",
+			"objectType": "mountain"
+		},
+		"templates" : ["hotaAVLmtdn1", "hotaAVLmtdn2", "hotaAVLmtdn3", "hotaAVLmtdn4", "hotaAVLmtdn5", "hotaAVLmtdn6"]
+	},
+	"iceBlock" : {	
+		"biome": {
+			"terrain" : "snow",
+			"objectType": "rock"
+		},
+		"templates": ["TPICECR1", "TPICECR2", "TPICECR3", "TPICECR4"]
+	},
+	"core:swampPalms":{
+		"biome" : {
+			"terrain" : "swamp",
+			"objectType" : "tree"
+		},
+		//"templates": ["AVLswn01", "AVLswn02", "AVLswn03"] // Add these 3
+		"templates" : ["avlswtr0", "avlswtr1", "avlswtr2", "avlswtr3", "avlswtr4", "avlswtr5", "avlswtr6", "avlswtr7", "avlswtr8", "avlswtr9", "AVLswn01", "AVLswn02", "AVLswn03"]
+	},
+	"sandPalms" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "tree"
+		},
+		"templates" : ["avlspl01", "avlspl02", "avlspl03", "avlspl04", "avlspl05", "avlspl06", "avlspl07", "avlspl08", "avlspl09", "avlspl10", "avlspl11", "avlspl12", "avlspl13", "avlspl14"]
+	},
+	"rubble" : {
+		"biome": {
+			"terrain" : "water",
+			"objectType": "structure"
+		},
+		"templates": ["AVLpilr0", "AVLpilr1", "AVLpilr2", "AVLpilr3", "AVLpilr4", "AVLpilr5", "AVLpilr5", "AVLpilr7"]
+	},
+	"ruinedObjects" : {
+		"biome" : {
+			"terrain" : "dirt",
+			"objectType" : "structure"
+		},
+		"templates" : ["TPDESTR2", "TPDESTR3", "TPDESTR4"]
+	},
+	"core:sandYucca": {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "plant"
+		},
+		"templates" : ["avlyuc20", "avlyuc30", "avlyuc40", "avlyuc50", "avlyuc60"]
+	},
+	"snowHills" : {
+		"biome": {
+			"terrain": "snow",
+			"objectType": "rock"
+		},
+		"templates" : ["avlxsn01", "avlxsn02", "avlxsn03"],
+	},
+	"hotaStone" : {
+		"biome": {
+			"terrain": "subterra",
+			"objectType": "rock"
+		},
+		"templates" : ["udrock02", "udrock03", "udrock04", "udrock05", "udrock06", "udrock07", "udrock08"]
+	}
+}
