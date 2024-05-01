@@ -1,10 +1,10 @@
 {
 	"name" : "Game balance",
-	"description" : "Balance improvements made by HotA Crew for Horn of The Abbys expansion.",
+	"description" : "Balance improvements made by HotA Crew for Horn of The Abyss expansion.",
 	"modType" : "Mechanics",
 	"author": "Kuririn & avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.3.6",
+	"version" : "1.3.7",
 	"depends" : [ "hota.mapobjects" ],
 	"settings" : {
 		"dwellings" : {
@@ -12,6 +12,13 @@
 		},
 		"combat": {
 			"badLuckDice" : [ 12, 6, 4 ]
+		},
+		"pathfinder" : {
+			"originalFlyRules" : false
+		},
+		"spells": {
+			"dimensionDoorFailureSpendsPoints" : false,
+			"dimensionDoorTriggersGuards" : true
 		}
 	},
 	"factions" :

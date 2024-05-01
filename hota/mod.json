@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.42",
+	"version" : "1.6.43",
 	"changelog" : 
 	{
+		"1.6.43"  : [ "Add dimension door & fly rebalance changes to game balance submod" ],
 		"1.6.42"  : [ "Add config for biomes" ],
 		"1.6.41"  : [ "Fix for banning navigation heroes on maps without water" ],
 		"1.6.40"  : [ "Fix Cove creatures abilities and Fangarm ability" ],
