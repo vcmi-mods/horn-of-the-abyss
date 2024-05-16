@@ -1,7 +1,7 @@
 {
 	"core:witchHut"	: {
 		"types" : {
-			"object" : {
+			"witchHut" : {
 				"templates" : {
 					"AVSwtcS0" : {
 						"animation" : "hota/witchHut/AVSwtcS0",

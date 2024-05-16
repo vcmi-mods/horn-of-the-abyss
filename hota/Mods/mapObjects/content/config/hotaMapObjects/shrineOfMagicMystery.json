@@ -24,7 +24,6 @@
 				"spell" : {
 					"level" : 4
 				},
-				"compatibilityIdentifiers" : [ "object" ],
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
 				"description" : "(Learn 4th level spell)",
