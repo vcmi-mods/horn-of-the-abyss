@@ -30,11 +30,14 @@
 						{
 							"min" : 20
 						},
-						"resources":
-						{
-							"list" : [ "mercury", "sulfur", "crystal", "gems" ],
-							"amount" : {"min": 3, "max" : 6}
-						},
+						"resources": 
+						[
+							{
+								"anyOf" : [ "mercury", "sulfur", "crystal", "gems" ],
+								"min": 3,
+								"max" : 6
+							}
+						],
 						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
 						"removeObject": true
 					}
