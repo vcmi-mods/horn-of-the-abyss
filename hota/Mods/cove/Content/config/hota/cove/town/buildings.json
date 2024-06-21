@@ -98,7 +98,7 @@
 
 				"special3" : {
 					"name" : "Thieves' Guild",
-					"description" : "**NOT WORKING YET\r\nThe Thief's Guild reveals additional information about the foes in the tavern.\r\nNOT WORKING YET***",
+					"description" : "The Thief's Guild reveals additional information about the foes in the tavern.",
 					"cost" : {
 						"gold" : 600,
 						"wood" : 3
