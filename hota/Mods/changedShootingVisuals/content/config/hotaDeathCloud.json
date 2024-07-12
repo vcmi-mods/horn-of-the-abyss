@@ -33,7 +33,7 @@
 		},
 		"levels" : {
 			"base":{
-				"range": "0",
+				"range": "0-1",
 				"power": 10,
 				"aiValue": 20,
 				"cost" : 0,

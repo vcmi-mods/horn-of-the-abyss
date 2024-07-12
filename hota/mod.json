@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.46",
+	"version" : "1.6.47",
 	"changelog" : 
 	{
+		"1.6.47"  : [ "Fix Death Cloud area effect" ],
 		"1.6.46"  : [ "Support Thieves Guild" ],
 		"1.6.45"  : [ "Use regular battle setup for Black Tower" ],
 		"1.6.44"  : [ "Fix configuration of witch hut and magic shrine" ],
