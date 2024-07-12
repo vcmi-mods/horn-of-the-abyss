@@ -2,7 +2,7 @@
 	"gogFireball" : 
 	{
 		"type": "ability",
-		"name": "Ice",
+		"name": "Fireball",
 		"school":
 		{
 			"air": false,

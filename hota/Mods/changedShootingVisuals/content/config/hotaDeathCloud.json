@@ -10,7 +10,7 @@
 			"fire": false,
 			"water": false
 		},	
-		"targetType": "CREATURE",
+		"targetType": "NO_TARGET",
 		"level": 1,
 		"power": 1,
 		"defaultGainChance": 0, 
@@ -21,9 +21,15 @@
 			"hit":["cloudyLiches/Expl_05"]
 		},
 		"flags" : {
-			"offensive": true
+			"indifferent": true
 		},
 		"targetCondition" : {
+			"noneOf" : {
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute",
+				"bonus.GARGOYLE" : "absolute"
+			}
 		},
 		"sounds": {
 			"cast": "DEATHCLS"
@@ -41,8 +47,10 @@
 				{
 					"smart": true
 				},
-				"battleEffects" : 
-				{
+				"battleEffects":{
+					"damage":{
+						"type":"core:damage"
+					}
 				},
 				"description": ""
 			},
