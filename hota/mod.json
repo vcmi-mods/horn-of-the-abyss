@@ -6,9 +6,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.48",
+	"version" : "1.6.49",
 	"changelog" : 
 	{
+		"1.6.49"  : [ "Russian translation by Anton Sergeew" ],
 		"1.6.48"  : [ "Updated polish translation by Dru" ],
 		"1.6.47"  : [ "Fix Death Cloud area effect" ],
 		"1.6.46"  : [ "Support Thieves Guild" ],
@@ -128,6 +129,13 @@
 		"description" : "Spanish translation made by macomarivas",
 		"translations" : [
 			"config/translation/hota/spanish/game.json"
+		]
+	},
+	"russian" : {
+		"name" : "Horn of the Abyss / Рог бездны",
+		"description" : "Дополнение от Hota Crew",
+		"translations" : [
+			"config/translation/hota/russian.json"
 		]
 	}
 }
