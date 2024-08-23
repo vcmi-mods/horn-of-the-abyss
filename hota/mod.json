@@ -133,7 +133,7 @@
 	},
 	"russian" : {
 		"name" : "Horn of the Abyss / Рог бездны",
-		"description" : "Дополнение от Hota Crew",
+		"description" : "Дополнение от Hota Crew, портированное на движок VCMI",
 		"translations" : [
 			"config/translation/hota/russian.json"
 		]
