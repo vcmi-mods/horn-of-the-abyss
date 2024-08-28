@@ -7,7 +7,7 @@
 		"texts" :
 		{
 			"name" : "Morton",
-			"biography" : "Morton, a veteran of Goblin-Ogre Wars and one of the few who survived the assault on Gowdar Deep, vowed vengeance on the "dirtskins" for the massacre that wiped his home off the face of Jadame. He gauges the quality of his ballistae by the number of ogres they can piece with a single shot.",
+			"biography" : "Morton, a veteran of Goblin-Ogre Wars and one of the few who survived the assault on Gowdar Deep, vowed vengeance on the 'dirtskins' for the massacre that wiped his home off the face of Jadame. He gauges the quality of his ballistae by the number of ogres they can piece with a single shot.",
 			"specialty" :
 			{
 				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",

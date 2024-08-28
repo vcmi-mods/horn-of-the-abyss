@@ -59,7 +59,7 @@
 		"speed" : 6,
     "abilities":
       {
-		"basicSlayer" : { "type" : "KING", "val": 2 },
+		"basicSlayer" : { "type" : "KING", "val": 0 },
 			"nonliving": {
 				"type": "NON_LIVING"
 			},

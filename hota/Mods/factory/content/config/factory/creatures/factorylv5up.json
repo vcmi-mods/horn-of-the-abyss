@@ -71,7 +71,18 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.stoneGaze",
 				"addInfo" : 1
-			}
+			},
+			"castsymMeditation" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.summonLarva",
+				"val" : 1
+			},
+		"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 50
+			},
 	    },
 		"stackExperience" :
  

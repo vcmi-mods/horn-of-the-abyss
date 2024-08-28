@@ -1,0 +1,74 @@
+{
+	"16_Ziph" :
+	{
+    "class": "factoryMClass",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Ziph",
+			"biography" : "Ziph had long served as a maid to an old mage who looked down on her and her kin. The wizard had no idea that 'ziph' meant 'freedom' in Gremlish, much less did he suspect that she was listening in on his lectures. One day, Ziph crammed half of her master's lab into a magic bag, hid in a ship's hold, and fled Bracada for good.",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "Lightning Bolt",
+				"description" : "Casts Lightning with damage increased by 3% for every n hero levels, where n is the level of the targeted creature."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/16_Ziph/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/16_Ziph/bigS.bmp",
+			"large" : "factory/heroes/16_Ziph/bigP.bmp",
+			"small" : "factory/heroes/16_Ziph/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"spellbook" :
+		[
+			"lightningBolt"
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "sorcery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.lightningBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}	
+	}
+}
+

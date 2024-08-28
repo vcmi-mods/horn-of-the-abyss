@@ -64,7 +64,6 @@
 			"iconSmall": "factory/iconsSmall/creatures/CPrS012F.bmp",
 			"iconLarge": "factory/iconsBig/creatures/CPrL012F.bmp",
       "timeBetweenFidgets": 1,
-			"timeBetweenFidgets" : 1,
 			"animationTime" :
 			{
 				"walk" : 1.00,

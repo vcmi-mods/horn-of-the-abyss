@@ -13,7 +13,7 @@
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
-		"aiValue" : 947,
+		"aiValue" : 709,
 		"attack" : 12,
 		"cost" :
 		{
@@ -28,7 +28,7 @@
 		"fightValue" : 672,
 		"graphics" :
 		{
-			"animation" : "factory/battle/creatures/CHAUTO.def",
+			"animation" : "factory/battle/creatures/CHAUTO2.def",
 			"map" : "factory/map/creatures/AVWauth.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall": "factory/iconsSmall/creatures/CPrS008F.bmp",
@@ -58,6 +58,23 @@
 		{
 			"nonliving": {
 				"type": "NON_LIVING"
+			},
+			"castsymMeditation" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.detonates02",
+				"val" : 0
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.detonates02",
+				"val" : 25
+			},
+		"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
 			},
 			"blockRetaliation" :
 			{

@@ -4,10 +4,10 @@
 	
 	"author" : "HotA Crew, transplanted by Ben",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.0",
+	"version" : "1.13",
 	"modType" : "Town",	
 	
-	"depends" : ["hota.wastelandTerrain"], 
+	"depends" : ["hota.wastelandTerrain","hota.cove"], 
 	
     "factions" : [ "config/factory/town" ],
 	
@@ -22,6 +22,7 @@
 		"config/factory/creatures/factorylv4.json",
 		"config/factory/creatures/factorylv4up.json",
 		"config/factory/creatures/factorylv5.json",
+		"config/factory/creatures/factorylv5larva.json",
 		"config/factory/creatures/factorylv5up.json",
 		"config/factory/creatures/factorylv6.json",
 		"config/factory/creatures/factorylv6up.json",
@@ -47,13 +48,36 @@
 		"config/factory/heroes/05_Floribert.json",
 		"config/factory/heroes/06_Wynona.json",
 		"config/factory/heroes/07_Dury.json",
-		//"config/factory/classes/campaignHeroes.json"
+		"config/factory/heroes/08_Morton.json",
+		"config/factory/heroes/09_Tavin.json",
+		"config/factory/heroes/10_Murdoch.json",
+		"config/factory/heroes/11_Celestine.json",
+		"config/factory/heroes/12_Todd.json",
+		"config/factory/heroes/13_Agar.json",
+		"config/factory/heroes/14_Bertram.json",
+		"config/factory/heroes/15_Wrathmont.json",
+		"config/factory/heroes/16_Ziph.json",
+		"config/factory/heroes/17_Victoria.json",
+		"config/factory/heroes/18_Eanswythe.json",
+		"config/factory/heroes/19_Frederick.json",
+		"config/factory/heroes/campaignHeroes/s01_Jangaard.json",
+		"config/factory/heroes/campaignHeroes/s02_Stina.json",
+		"config/factory/heroes/campaignHeroes/s03_Valquest.json",
+		"config/factory/heroes/campaignHeroes/s04_Winzells.json",
+		"config/factory/heroes/campaignHeroes/s05_Elderian.json",
+		"config/factory/heroes/campaignHeroes/s06_Umender.json"
 	],
 	"spells" :
 	[
 		"config/factory/spells/teslaLightning.json",
 		"config/factory/spells/hotaRepair.json",
 		"config/factory/spells/hotaGrenade.json",
+		"config/factory/spells/summonLarva.json",
+		"config/factory/spells/sandViguor.json",
+		"config/factory/spells/ephemeralAbility.json",
+		"config/factory/spells/detonates01.json",
+		"config/factory/spells/detonates02.json",
+		"config/factory/spells/detonation.json",
 		"config/factory/spells/meditation01.json",
 		"config/factory/spells/meditation02.json"
 	],
@@ -63,6 +87,11 @@
     ],
 	"changelog" :
     {
-		"1.0.0"   : [ "Initial release" ]
+		"1.0.0"   : [ "Initial release" ],
+		"1.1.0"	  : [ "Update new creatures and heroes" ],
+		"1.1.1"	  : [ "Update new models of couatls and crimson couatls" ],
+		"1.1.2"   : [ "Update new abilities" ],
+		"1.1.3"   : [ "Fix meditation and detonation abilities for relevant creatures" ],
+		"1.1.4"   : [ "Add campaign heroes and dependency of cove" ]
     }
 }

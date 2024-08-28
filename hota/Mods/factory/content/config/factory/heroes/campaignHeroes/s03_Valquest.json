@@ -1,0 +1,72 @@
+{
+	"s03_Valquest" :
+	{
+    "class": "factoryAClass",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Valquest",
+			"biography" : "Valquest is a defender of Burton once Kastore took control.",
+			"specialty" :
+			{
+				"description" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
+				"tooltip" : "{First Aid}\r\n\r\nReceives a 5% per level bonus to First Aid Tent healing efficiency.",
+				"name" : "First Aid"
+			}
+		},
+
+		"images" :
+		{
+			"small" : "factory/heroes/special/HPS204_0.bmp",
+			"large" : "factory/heroes/special/HPL204_0.bmp",
+			"specialtyLarge" : "factory/heroes/05_Floribert/bigS.bmp",
+			"specialtySmall" : "factory/heroes/05_Floribert/smallS.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "firstAidTent",
+				"max" : 1,
+				"min" : 1
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"firstAid" : {
+					"subtype" : "spell.firstAid",
+					"type" : "SPECIFIC_SPELL_POWER",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"targetSourceType" : "SECONDARY_SKILL"
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,77 @@
+{
+ "sandephemeral":
+	{
+		"type": "ability", 
+		"targetType": "CREATURE", 
+		"name": "??",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 1,
+		"power": 1, //this times spell power
+		
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+
+ 
+		"animation":{
+		},
+ 
+		"flags" : { "damage": true, "negative" : true, "special" : true },
+
+ 
+		//graphics - OPTIONAL; object;
+		"graphics":
+		{
+			"iconEffect": "spells/sandEffect.bmp"
+		},
+
+		"sounds": {
+			"cast": "FIREBLST"
+		},
+ 
+		"levels":
+		{
+			"base":
+			{
+				"cost": 5,
+				"range": "0",
+				"power": 1, //base dmg
+				"aiValue": 70,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"description": "IMMOLATION DAMAGE",
+	 
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"},
+				},
+			},
+			"none":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"basic":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"advanced":
+			{
+				"description": "IMMOLATION DAMAGE",
+			},
+			"expert":
+			{
+				"description": "IMMOLATION DAMAGE",
+			}
+		}
+	}
+ 
+ 
+}

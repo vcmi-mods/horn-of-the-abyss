@@ -1,0 +1,90 @@
+{
+	"detonation":
+	{
+		"type": "ability", 
+		"name": "Detonation",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 40,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"hit":["C04SPF0"]
+		},
+ 
+		"flags" : {
+			"damage": true,
+			"nonMagical":true,
+			"negative": true
+		},
+ 
+ 
+		"graphics":
+		{
+		},
+
+		"sounds":
+		{
+			"cast": "FIREBLST"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels" : {
+			"base":{
+				"range" : "0-2",
+				"battleEffects" : {
+					"directDamage" : {
+						"type":"core:damage",
+						"ignoreImmunity" : true
+					}
+				},
+				"targetModifier":{"smart":false}
+			},
+			"none":
+			{
+				"description": "{自爆}\r\n\r\nYour birthday cake！.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 40
+			},
+			"basic":
+			{
+				"description": "{自爆}\r\n\r\nYou cannot see this description.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 40
+			},
+			"advanced":
+			{
+				"description": "{自爆}\r\n\r\nYou cannot see this description.。",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 40
+			},
+			"expert":
+			{
+				"description": "{自爆}\r\n\r\nYou cannot see this description.",
+	 
+				"cost": 0,
+				"aiValue": 12,
+				"power": 40
+			}
+			}
+		}
+	}

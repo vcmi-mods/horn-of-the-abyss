@@ -1,0 +1,74 @@
+{
+	"17_Victoria" :
+	{
+    "class": "factoryMClass",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Victoria",
+			"biography" : "Higher magic can restore the dead, but can a simple infantryman who stepped on a landmine count on having someone work it on him? Victoria's fascination with such an insidious weapon did not earn her colleagues' respect, yet she committed her life to perfecting it. After meeting Floribert, the inventor found another use for her engineering knowledge, designing mechanical limbs for crippled warriors.",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "Land Mine",
+				"description" : "Casts Land Mine with damage increased by 3% for every n hero levels, where n is the level of the targeted creature."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/17_Victoria/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/17_Victoria/bigS.bmp",
+			"large" : "factory/heroes/17_Victoria/bigP.bmp",
+			"small" : "factory/heroes/17_Victoria/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"spellbook" :
+		[
+			"landMine"
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "learning"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"frostRing" : {
+					"subtype" : "spell.landMine",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+				}
+			}
+		}	
+	}
+}
+
