@@ -24,7 +24,7 @@
 			 "min" : 25
 		},
 		"defense" : 21,
-		"fightValue" : 4201,
+		"fightValue" : 5201,
     "graphics": {
       "animation": "factory/battle/creatures/COUATR.def",
       "map": "factory/map/creatures/AVWradc.def",
@@ -54,12 +54,15 @@
 		"speed" : 15,
     "abilities":
       {
-		"basicSlayer" : { "type" : "KING", "val": 2 },
+		"basicSlayer" : { "type" : "KING", "val": 0 },
 		"castsymMeditation" :
 			{
-				"type" : "SPELLCASTER",
+				"type" : "ENCHANTER",
 				"subtype" : "spell.meditation02",
-				"val" : 2
+				"val" : 0
+			},
+			"dragonNature" : {
+				"type" : "DRAGON_NATURE"
 			},
 		"castsCount" :
 			{

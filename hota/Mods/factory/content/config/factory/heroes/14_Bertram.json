@@ -1,0 +1,73 @@
+{
+	"14_Bertram" :
+	{
+    "class": "factoryMClass",
+    "female" : false,
+		
+		"texts" :
+		{
+			"name" : "Bertram",
+			"biography" : "Few dwarves are capable of not just making a fortune, but also of making it work. Bertram left his father's house as soon as his beard grew two fingers long. Wandering around Antagarich, he grew fabulously rich through investing in alchemical and magical ventures. His gold paid for the embodiment of many ideas that today underpin Burton's power.",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "+350 Gold",
+				"description" : "Increases kingdom's income by 350 gold per day."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/14_Bertram/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/14_Bertram/bigS.bmp",
+			"large" : "factory/heroes/14_Bertram/bigP.bmp",
+			"small" : "factory/heroes/14_Bertram/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"spellbook" :
+		[
+			"magicArrow"
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

@@ -31,6 +31,8 @@
 				"factory:creature.hotaCouatl":"absolute"
 			}
 		},
+		
+		"canCastOnSelf" : true,
  
 		"graphics":
 		{
@@ -95,19 +97,66 @@
 						],
 						"turns" : 1
 					},
-					"levelSpellImmunity":{
-								"addInfo" : 1, //absolute
-								"val" : 5,
-								"type" : "LEVEL_SPELL_IMMUNITY",
-								"valueType" : "INDEPENDENT_MAX",
-								"duration" : [
-									"N_TURNS"
-								],
-								"turns" : 1
-							},
-					"nonLiving" : {
-						"type" : "NON_LIVING",
+					"immnunityDispel":
+					{
+						"type" : "SPELL_IMMUNITY",
+						"subtype" : "spell.dispel",
+						"addInfo" : 1,
 						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"immnunityDispelHelpful":
+					{
+						"type" : "SPELL_IMMUNITY",
+						"subtype" : "spell.dispelHelpful",
+						"addInfo" : 1,
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"immuneToFire" :
+					{
+						"subtype" : "spellSchool.fire",
+						"type" : "SPELL_SCHOOL_IMMUNITY",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"immuneToAir" :
+					{
+						"subtype" : "spellSchool.air",
+						"type" : "SPELL_SCHOOL_IMMUNITY",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"immuneToWater" :
+					{
+						"subtype" : "spellSchool.water",
+						"type" : "SPELL_SCHOOL_IMMUNITY",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"immuneToEarth" :
+					{
+						"subtype" : "spellSchool.earth",
+						"type" : "SPELL_SCHOOL_IMMUNITY",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"receptive" :
+					{
+					"type" : "RECEPTIVE",
+					"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1
@@ -172,9 +221,10 @@
 								],
 								"turns" : 1
 							},
-					"nonLiving" : {
-						"type" : "NON_LIVING",
-						"duration" : [
+					"receptive" :
+					{
+					"type" : "RECEPTIVE",
+					"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1

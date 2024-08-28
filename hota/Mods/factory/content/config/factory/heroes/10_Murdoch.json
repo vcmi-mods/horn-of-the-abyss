@@ -1,0 +1,72 @@
+{
+	"10_Murdoch" :
+	{
+    "class": "factoryAClass",
+    "female" : false,
+	"special":false,
+		
+		"texts" :
+		{
+			"name" : "Murdoch",
+			"biography" : "Murdoch is a man to call a professional soldier of fortune. He barely likes anything more than money and fame. That is why Murdoch gathered a company of daredevils of his own kind and went to seek adventures on the landscapes of Jadame. Who knows where his fate will take him next time?",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/10_Murdoch/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/10_Murdoch/bigS.bmp",
+			"large" : "factory/heroes/10_Murdoch/bigP.bmp",
+			"small" : "factory/heroes/10_Murdoch/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "hotaMechanic",
+				"max" : 8,
+				"min" : 6
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "tactics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"archery" : {
+					"subtype" : "damageTypeRanged",
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,119 @@
+{
+	"detonates02":
+	{
+		"type": "ability", 
+		"name": "Ignition",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": true,
+			"water": false
+		},
+		"level": 5,
+		"power": 10,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+			"castle": 0,
+			"rampart": 0,
+			"conflux" : 0
+		},
+ 
+		//forgetfulness animation
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+ 
+		"flags" : {
+			"positive": true,
+			"nonMagical":true,
+			"rising": true
+		},
+		
+		"canCastOnSelf" : true,
+		
+		"targetCondition" : {
+			"anyOf" : {
+				"factory:creature.automatonUp":"absolute"
+			}
+		},
+ 
+ 
+		"graphics":
+		{
+			"iconEffect": "spells/detonates.bmp"
+		},
+
+		"sounds":
+		{
+			"cast": "FIREBLST"
+		},
+		"targetType" : "CREATURE",
+ 
+		"levels":
+		{
+			"base":
+			{
+				"description": "A charm dispelling and blocking benign magic.",
+				"cost": 0,
+				"power": 1,
+				"aiValue": 20,
+				"range" : "0",
+				"targetModifier":{"smart":true},
+
+	 
+				"battleEffects" : {
+					"heal":{
+						"type":"core:heal",
+						"healLevel":"heal",
+						"healPower":"permanent",
+						"optional":true
+					},
+					"blockHelp" : {	
+						"type":"core:timed", 
+						"cumulative": false, 
+						"bonus":  {
+					"afterAttack" : {
+							"type" : "SPELL_AFTER_ATTACK",
+							"subtype" : "spell.detonation",
+							"val" : 100,
+							"duration": "PERMANENT"
+					},
+					"giftStrength" :
+					{
+						"type" : "SPECIFIC_SPELL_POWER",
+						"subtype" : "spell.detonation",
+						"val" : 40,
+						"duration": "PERMANENT"
+					},
+					"immnunityDispel":
+					{
+						"type" : "SPELL_IMMUNITY",
+						"subtype" : "spell.dispel",
+						"addInfo" : 1,
+						"duration": "PERMANENT"
+					},
+					"immnunityDispelHelpful":
+					{
+						"type" : "SPELL_IMMUNITY",
+						"subtype" : "spell.dispelHelpful",
+						"addInfo" : 1,
+						"duration": "PERMANENT"
+					},
+					"redeem2" :{
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"valueType" : "BASE_NUMBER",
+						"duration": "PERMANENT"
+						}
+						},
+					}}
+		},
+					
+			"none":	{},	"basic":{},	"advanced":	{}, "expert":{}	
+	}
+	}
+}

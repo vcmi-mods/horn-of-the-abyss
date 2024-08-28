@@ -13,7 +13,7 @@
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
-		"aiValue" : 669,
+		"aiValue" : 574,
 		"attack" : 12,
 		"cost" :
 		{
@@ -28,7 +28,7 @@
 		"fightValue" : 553,
 		"graphics" :
 		{
-			"animation" : "factory/battle/creatures/CAUTO.def",
+			"animation" : "factory/battle/creatures/CAUTO2.def",
 			"map" : "factory/map/creatures/AVWauto.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall": "factory/iconsSmall/creatures/CPrS007F.bmp",
@@ -59,6 +59,23 @@
 		{
 			"nonliving": {
 				"type": "NON_LIVING"
+			},
+			"castsymMeditation" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.detonates01",
+				"val" : 0
+			},
+			"healPower" : 
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "spell.detonates01",
+				"val" : 25
+			},
+		"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
 			}
 		},
 		"stackExperience" :

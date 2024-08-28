@@ -73,7 +73,8 @@
 			},
 			"firstStrike" :
 			{
-				"type" : "FIRST_STRIKE"
+				"type" : "FIRST_STRIKE",
+				"subtype": "damageTypeRanged"
 			}
     },
 		"stackExperience" :

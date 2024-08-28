@@ -66,7 +66,7 @@
 				{
 					
 					"name" : "Mage Guild Level 1",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -79,7 +79,7 @@
 				{
 					
 					"name" : "Mage Guild Level 2",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -96,7 +96,7 @@
 				"mageGuild3" :
 				{
 					"name" : "Mage Guild Level 3",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :
 					{
 						"wood" : 5,
@@ -113,7 +113,7 @@
 								"mageGuild4" :
 				{
 					"name" : "Mage Guild Level 4",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :
 					{
 						"wood": 5,
@@ -130,7 +130,7 @@
 				"mageGuild5" :
 				{
 					"name" : "Mage Guild Level 5",
-					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within."
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"cost" :
 					{
 						"wood": 5,
@@ -307,8 +307,9 @@
 				},
 				"special1" : 
 				{
-					"description" : "Allows the player to get a loan of 2500 gold, decreasing the town's income by 500 gold for 5 days. Not working yet.",
+					"description" : "Allows the player to get a loan of 2500 gold, decreasing the town's income by 500 gold for 5 days.",
 					"name" : "Bank",
+					"type" : "bank",
 					"cost" : 
 					{
 					"gold" : 500,
@@ -438,7 +439,7 @@
 					"requires" : [ "dwellingLvl5" ],
 					"id" : 36
 				},
-				"dwellingLvl7-2" :
+				"dwellingLvl8" :
 				{
 					"description" : "The Gantry allows you to recruit Dreadnoughts.",
 					"name" : "Gantry",
@@ -449,7 +450,7 @@
 						"crystal" : 20
 					},
 					"requires" : [ "allOf", ["marketplace"],["blacksmith"], ["dwellingLvl4"],["dwellingLvl6" ] ],
-					"id" : 50
+					"id" : 150
 				},
 				"dwellingUpLvl1" :
 				{
@@ -544,7 +545,7 @@
 					"requires" : [ "mageGuild2" ],
 					"upgrades" : "dwellingLvl7"
 				},
-				"dwellingUpLvl7-2" :
+				"dwellingUpLvl8" :
 				{
 					"description" : "The Gantry allows you to recruit Juggernauts.",
 					"name" : "Upg. Gantry",
@@ -554,9 +555,9 @@
 						"ore" : 10,
 						"crystal" : 20
 					},
-					"id" : 57,
+					"id" : 151,
 					"requires" : [ "resourceSilo" ],
-					"upgrades" : "dwellingLvl7-2"
+					"upgrades" : "dwellingLvl8"
 				}
 			},
 			"buildingsIcons" : "factory/town-hall.def",
@@ -567,7 +568,9 @@
 				[ "automaton", "automatonUp" ],
 				[ "sandworm", "olgoiKhorkhoi" ],
 				[ "hotaGunman", "hotaGunmanUp" ],
-				[ "hotaCouatl", "hotaCoutalUp", "hotaDread", "hotaJugger" ],
+				[ "hotaCouatl", "hotaCoutalUp" ],
+				[ "hotaDread", "hotaJugger" ],
+				
 				
 			],
 			"guildBackground" : "TPMAGE.bmp",
@@ -988,7 +991,8 @@
 					"area" : "factory/town-screen/buildings-area/TZFadw_3",
 					"border" : "factory/town-screen/buildings-border/TOFadw_3",
 					"x" : 516,
-					"y" : 211
+					"y" : 211,
+					"z": 1
 				},
 				"dwellingLvl5" :
 				{
@@ -1014,7 +1018,7 @@
 					"x" : 0,
 					"y" : 71
 				},
-				"dwellingLvl7-2" :
+				"dwellingLvl8" :
 				{
 					"animation" : "factory/town-screen/buildings/TBFadw_7",
 					"area" : "factory/town-screen/buildings-area/TZFadw_7",
@@ -1053,7 +1057,8 @@
 					"area" : "factory/town-screen/buildings-area/TZFaup_3",
 					"border" : "factory/town-screen/buildings-border/TOFaup_3",
 					"x" : 516,
-					"y" : 211
+					"y" : 211,
+					"z": 1
 				},
 				"dwellingUpLvl5" :
 				{
@@ -1079,7 +1084,7 @@
 					"x" : 0,
 					"y" : 51
 				},
-				"dwellingUpLvl7-2" :
+				"dwellingUpLvl8" :
 				{
 					"animation" : "factory/town-screen/buildings/TBFaup_7",
 					"area" : "factory/town-screen/buildings-area/TZFaup_7",
@@ -1119,7 +1124,7 @@
 					[ "dwellingLvl5", "dwellingUpLvl5" ],
 					[ "dwellingLvl6", "dwellingUpLvl6" ],
 					[ "dwellingLvl7", "dwellingUpLvl7" ],
-					[ "dwellingLvl7-2", "dwellingUpLvl7-2" ]
+					[ "dwellingLvl8", "dwellingUpLvl8" ]
 				]
 			]
 		}

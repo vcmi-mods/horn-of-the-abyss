@@ -1,0 +1,67 @@
+{
+	"11_Celestine" :
+	{
+    "class": "factoryMClass",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Celestine",
+			"biography" : "The AvLeean druid who had lost his grove traversed the wold, imparting knowledge on anyone who sought it. He left the secrets of natural magic and his daughter Mirlanda in Tatalia, whilst in Eeofol, Celestine was born, inheriting another facet of his talent. Her father taught her how to tame the most violent beasts, offering them friendship, rather than the Tatalian beastmasters' trademark ruthless treatment.",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "Armadillos",
+				"description" : "Increases Speed of any Armadillos or Bellwether Armadillos by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/11_Celestine/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/11_Celestine/bigS.bmp",
+			"large" : "factory/heroes/11_Celestine/bigP.bmp",
+			"small" : "factory/heroes/11_Celestine/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			},
+			{
+				"creature" : "armadillo",
+				"max" : 6,
+				"min" : 4
+			}
+		],
+		"spellbook" :
+		[
+			"haste"
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "armadillo"
+		}
+	}
+}
+

@@ -1,0 +1,95 @@
+{
+	"sandVigour":
+	{
+		"type": "ability", 
+		"name": "Sandworm Vigour",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 2,
+		"power": 10,
+		
+		"defaultGainChance": 10, 
+		"gainChance":
+		{
+			"rampart": 15,
+			"necropolis": 5
+		},
+ 
+		"flags" : {"positive": true,"nonMagical":true},
+
+		"targetCondition" : {
+			"anyOf" : {
+				"factory:creature.olgoiKhorkhoi":"absolute"
+			}
+		},		
+
+		"graphics":
+		{
+			"iconEffect": "spells/sandEffect.bmp"
+		},
+		"sounds":
+		{
+			"cast":"ENERMOVE" //fear snd
+		},
+		
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+		
+		"targetType": "CREATURE",
+ 
+		"levels" : {
+			"base":{
+		
+				"range": "0",
+				"power": 10,
+				"cost": 0,
+				"aiValue": 20,
+				"targetModifier":
+				{
+					"smart": true
+				},
+				"battleEffects":{
+
+					"OneAttackSandworm" :
+					{
+					"type": "core:timed",
+					"cumulative": true,
+					"bonus":
+					{
+					"sandWormEffect":
+                    {
+                        "type": "ADDITIONAL_ATTACK",
+						"val": 1,
+						"duration": [
+							"UNTIL_OWN_ATTACK",
+						]
+					}
+				}
+			}
+				},
+				"description": "Revenge effects."
+			},
+			"none":
+			{
+			},
+			"basic":
+			{
+			},
+			"advanced":
+			{
+			},
+			"expert":
+			{
+			}
+		}
+	}
+ 
+}

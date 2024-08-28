@@ -1,0 +1,68 @@
+{
+	"s06_Umender" :
+	{
+    "class": "factoryMClass",
+    "female" : false,
+	"special": false,
+		
+		"texts" :
+		{
+			"name" : "Umender",
+			"biography" : "Umender is a defender of Burton once Kastore took control.",
+			"specialty" :
+			{
+				"tooltip" : "No description",
+				"name" : "Automatons",
+				"description" : "Increases damage dealt by explosion of Automatons and Sentinel Automatons by 5% for every level (rounded up)."
+			}
+		},
+
+		"images" :
+		{
+			"small" : "factory/heroes/special/HPS202_0.bmp",
+			"large" : "factory/heroes/special/HPL202_0.bmp",
+			"specialtyLarge" : "factory/heroes/19_Frederick/bigS.bmp",
+			"specialtySmall" : "factory/heroes/19_Frederick/smallS.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "automaton",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "automaton",
+				"max" : 5,
+				"min" : 3
+			},
+			{
+				"creature" : "automaton",
+				"max" : 5,
+				"min" : 3
+			}
+		],
+		"spellbook" :
+		[
+			"haste"
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "automaton"
+		}	
+	}
+}
+

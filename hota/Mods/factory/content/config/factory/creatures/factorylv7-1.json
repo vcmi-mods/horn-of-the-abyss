@@ -58,12 +58,15 @@
 		"speed" : 11,
     "abilities":
       {
-		"basicSlayer" : { "type" : "KING", "val": 2 },
+		"basicSlayer" : { "type" : "KING", "val": 0 },
 		"castsymMeditation" :
 			{
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.meditation01",
 				"val" : 1
+			},
+			"dragonNature" : {
+				"type" : "DRAGON_NATURE"
 			},
 		"castsCount" :
 			{
