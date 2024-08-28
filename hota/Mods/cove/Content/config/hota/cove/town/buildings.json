@@ -106,7 +106,7 @@
 				},
 				"special4" : {
 					"name" : "Grotto",
-					"description" : "**NOT WORKING YET\r\nThe Grotto allows you to sacrifice creatures or artifacts in exchange for experience.\r\nNOT WORKING YET***",
+					"description" : "The Grotto allows you to sacrifice creatures or artifacts in exchange for experience.",
 					"cost" : {
 						"gold" : 7500,
 						"wood" : 15,
