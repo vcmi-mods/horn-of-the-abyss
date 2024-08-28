@@ -64,13 +64,13 @@
 				
 				"tavern":         { "id" : 5 },
 				"blacksmith":     { "id" : 16 },
-				"marketplace":    { "id" : 14 },
+				"marketplace":    { "id" : 14, "marketModes" : ["resource-resource", "resource-player"] },
 				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
 				"shipyard":       { "id" : 6 },
 				"ship":           { "id" : 20, "upgrades" : "shipyard" },
 
 				"special3":       { "type" : "thievesGuild", "id" : 22, "requires" : [ "tavern" ] },
-				"special4":       { "id" : 23, "requires" : [ "marketplace" ] },
+				"special4":       { "type" : "altarOfSacrifice", "id" : 23, "requires" : [ "marketplace" ], "marketModes" : ["artifact-experience", "creature-experience"] },
 				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
 				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },
 				"horde2":         { "id" : 24, "upgrades" : "dwellingLvl4" },
