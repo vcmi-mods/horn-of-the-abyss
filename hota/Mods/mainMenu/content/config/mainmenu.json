@@ -9,7 +9,7 @@
 	{
 		"background" : "gamselbk",
 		//"scalable" : true, //background will be scaled to screen size
-		//"video" :    {"x": 347, "y": 143, "name":"CREDITS.smk" },//Floating WoG logo. Disabled due to different position in various versions of H3.
+		"video" :    {"x": 0, "y": 0, "name":"credits.bik" },
 		//"images" : [],//Optioal, contains any additional images in the same format as video
 		"items" : 
 		[

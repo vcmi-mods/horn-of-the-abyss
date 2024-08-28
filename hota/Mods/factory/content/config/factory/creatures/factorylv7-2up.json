@@ -1,0 +1,132 @@
+{
+	"hotaJugger":
+	{
+		"name" :
+		{
+			"plural" : "Juggernauts",
+			"singular" : "Juggernaut"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "factory",
+		"aiValue" : 6433,
+		"attack" : 23,
+		"cost" :
+		{
+      "gold": 4000,
+	  "crystal": 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 40
+		},
+		"defense" : 23,
+		"fightValue" : 4150,
+    "graphics": {
+      "animation": "factory/battle/creatures/CJUGGER.def",
+      "map": "factory/map/creatures/AvWjugg.def",
+	  "mapMask" : [ "VVV", "VAV"],
+      "iconSmall": "factory/iconsSmall/creatures/CPrS016F.bmp",
+      "iconLarge": "factory/iconsBig/creatures/CPrL016F.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.5,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 300,
+    "level": 7,
+		"sound" :
+		{
+			"attack" : "factory/DREDSHOT.wav",
+			"defend" : "factory/DREDDFND.wav",
+			"killed" : "factory/DREDKILL.wav",
+			"move" : "factory/DREDMOVE.wav",
+			"shoot": "factory/DREDSHOT.wav",
+			"wince" : "factory/DREDWNCE.wav"
+ 		},
+		"speed" : 7,
+    "abilities":
+      {
+		"basicSlayer" : { "type" : "KING", "val": 2 },
+			"nonliving": {
+				"type": "NON_LIVING"
+			},
+			"blockRetaliation" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"fireBreath" :
+			{
+				"type" : "WIDE_BREATH"
+			}
+	    },	
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"type" : "HP_REGENERATION" 
+				},
+				"values" : [ 5,10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+
+			},
+			{
+				"bonus" :
+				{
+				"subtype" : "spellSchool.fire",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

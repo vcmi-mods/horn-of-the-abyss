@@ -1,0 +1,68 @@
+{
+	"name" : "Factory Town",
+	"description" : "New town from HotA 1.7",
+	
+	"author" : "HotA Crew, transplanted by Ben",
+	"contact" : "http://forum.vcmi.eu/index.php",
+	"version" : "1.0",
+	"modType" : "Town",	
+	
+	"depends" : ["hota.wastelandTerrain"], 
+	
+    "factions" : [ "config/factory/town" ],
+	
+	"creatures" :
+	[
+		"config/factory/creatures/factorylv1.json",
+		"config/factory/creatures/factorylv1up.json",
+		"config/factory/creatures/factorylv2.json",
+		"config/factory/creatures/factorylv2up.json",
+		"config/factory/creatures/factorylv3.json",
+		"config/factory/creatures/factorylv3up.json",
+		"config/factory/creatures/factorylv4.json",
+		"config/factory/creatures/factorylv4up.json",
+		"config/factory/creatures/factorylv5.json",
+		"config/factory/creatures/factorylv5up.json",
+		"config/factory/creatures/factorylv6.json",
+		"config/factory/creatures/factorylv6up.json",
+		"config/factory/creatures/factorylv7-1.json",
+		"config/factory/creatures/factorylv7-1up.json",
+		"config/factory/creatures/factorylv7-2.json",
+		"config/factory/creatures/factorylv7-2up.json",
+		"config/factory/creatures/factoryCommander.json"
+	],
+	
+	"heroClasses" :
+	[
+		"config/factory/classes/classMagic.json",
+		"config/factory/classes/classMight.json"
+	],
+
+	"heroes" :
+	[
+		"config/factory/heroes/01_Henrietta.json",
+		"config/factory/heroes/02_Sam.json",
+		"config/factory/heroes/03_Tancred.json",
+		"config/factory/heroes/04_Melchior.json",
+		"config/factory/heroes/05_Floribert.json",
+		"config/factory/heroes/06_Wynona.json",
+		"config/factory/heroes/07_Dury.json",
+		//"config/factory/classes/campaignHeroes.json"
+	],
+	"spells" :
+	[
+		"config/factory/spells/teslaLightning.json",
+		"config/factory/spells/hotaRepair.json",
+		"config/factory/spells/hotaGrenade.json",
+		"config/factory/spells/meditation01.json",
+		"config/factory/spells/meditation02.json"
+	],
+	 "objects":
+    [
+		"config/factory/dwellings.json"
+    ],
+	"changelog" :
+    {
+		"1.0.0"   : [ "Initial release" ]
+    }
+}

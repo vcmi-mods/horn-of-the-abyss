@@ -1,0 +1,107 @@
+{
+	"armadillo":
+	{
+		"name" :
+		{
+			"plural" : "Armadillos",
+			"singular" : "Armadillo"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 12
+		},
+		"faction" : "factory",
+		"doubleWide" : true,
+		"aiValue" : 198,
+		"attack" : 5,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 10,
+		"fightValue" : 305,
+		"graphics" :
+		{
+			"animation" : "factory/battle/creatures/CARMADL.def",
+			"map" : "factory/map/creatures/AVWalmd.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall": "factory/iconsSmall/creatures/CPrS005F.bmp",
+			"iconLarge": "factory/iconsBig/creatures/CPrL005F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 6,
+		"horde": 3,
+		"hitPoints" : 25,
+		"level" : 3,
+		"upgrades":
+		[
+			"armadilloUp"
+		],
+		"sound" :
+		{
+			"attack": "factory/ARMAATTK.wav",
+			"defend" : "factory/ARMADFND.wav",
+			"killed" : "factory/ARMAKILL.wav",
+			"move" : "factory/ARMAMOVE.wav",
+			"wince" : "factory/ARMAWNCE.wav"
+		},
+		"speed" : 4,
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}
+		]
+	}
+}

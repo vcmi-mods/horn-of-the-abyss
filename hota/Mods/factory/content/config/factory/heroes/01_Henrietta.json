@@ -1,0 +1,63 @@
+{
+	"01_Henrietta" :
+	{
+    "class": "factoryAClass",
+    "female" : true,
+		
+		"texts" :
+		{
+			"name" : "Henrietta",
+			"biography" : "Even a humble halfling from the Eeofol backwoods is capable of a feat when an unprecedented calamity knocks at the door. The new world, devoid of thatched roofs, carrot beds, or the incessant grumbling of geezers, has changed Henrietta, and she is now ready to change it herself. Kreegan fire reduces her homeland to ashes and scorched her heart, but she used it to forge herself a steel will.",
+			"specialty" :
+			{
+				"description" : "Increases the Speed of any Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"tooltip" : "Bonus: creature",
+				"name" : "Halflings"
+			}
+		},
+
+		"images" :
+		{
+			"specialtySmall" : "factory/heroes/01_Henrietta/smallS.bmp",
+			"specialtyLarge" : "factory/heroes/01_Henrietta/bigS.bmp",
+			"large" : "factory/heroes/01_Henrietta/bigP.bmp",
+			"small" : "factory/heroes/01_Henrietta/smallP.bmp"
+		},
+		
+
+		"army" :
+		[
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			},
+			{
+				"creature" : "halfling",
+				"max" : 25,
+				"min" : 15
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "halfling"
+		}
+	}
+}
+

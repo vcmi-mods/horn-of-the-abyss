@@ -1,0 +1,135 @@
+{
+	"hotaCoutalUp":
+	{
+		"name" :
+		{
+			"plural" : "Crimson Couatls",
+			"singular" : "Crimson Couatl"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 8,
+			 "min" : 3
+		},
+		"faction" : "factory",
+		"aiValue" : 5341,
+		"attack" : 21,
+		"cost" :
+		{
+      "gold": 3500, "crystal": 1
+		},
+		"damage" :
+		{
+			 "max" : 45,
+			 "min" : 25
+		},
+		"defense" : 21,
+		"fightValue" : 4201,
+    "graphics": {
+      "animation": "factory/battle/creatures/COUATR.def",
+      "map": "factory/map/creatures/AVWradc.def",
+	  "mapMask" : [ "VVV", "VAV"],
+      "iconSmall": "factory/iconsSmall/creatures/CPrS014F.bmp",
+      "iconLarge": "factory/iconsBig/creatures/CPrL014F.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.5,
+        "attack": 1,
+        "idle": 10
+      }
+    },
+    "doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+    "level": 7,
+		"sound" :
+		{
+			"attack" : "factory/CCOTATTK.wav",
+			"defend" : "factory/CCOTDFND.wav",
+			"killed" : "factory/CCOTKILL.wav",
+			"move" : "factory/CCOTMOVE.wav",
+			"shoot": "factory/CCOTSHOT.wav",
+			"wince" : "factory/CCOTWNCE.wav"
+ 		},
+		"speed" : 15,
+    "abilities":
+      {
+		"basicSlayer" : { "type" : "KING", "val": 2 },
+		"castsymMeditation" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.meditation02",
+				"val" : 2
+			},
+		"castsCount" :
+			{
+				"type" : "CASTS",
+				"val" : 1
+			},
+		"canFly" : 
+			{
+				"type" : "FLYING"
+			}
+	    },	
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" : 
+				{ 
+					"type" : "HP_REGENERATION" 
+				},
+				"values" : [ 5,10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+
+			},
+			{
+				"bonus" :
+				{
+				"subtype" : "spellSchool.fire",
+				"type" : "SPELL_SCHOOL_IMMUNITY"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, false, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 2 ]
+			}
+		]
+	}
+}

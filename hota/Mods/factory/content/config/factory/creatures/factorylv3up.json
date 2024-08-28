@@ -1,0 +1,103 @@
+{
+	"armadilloUp":
+	{
+		"name" :
+		{
+			"plural" : "Bellwether Armadillos",
+			"singular" : "Bellwether Armadillo"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 20,
+			 "min" : 12
+		},
+		"faction" : "factory",
+		"doubleWide" : true,
+		"aiValue" : 256,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 230
+		},
+		"damage" :
+		{
+			 "max" : 5,
+			 "min" : 3
+		},
+		"defense" : 11,
+		"fightValue" : 374,
+		"graphics" :
+		{
+			"animation" : "factory/battle/creatures/CBLWARM.def",
+			"map" : "factory/map/creatures/AVWalmb.def",
+			"mapMask" : [ "VVV", "VAV"],
+			"iconSmall": "factory/iconsSmall/creatures/CPrS006F.bmp",
+			"iconLarge": "factory/iconsBig/creatures/CPrL006F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			},
+	       },
+		"growth" : 6,
+		"horde": 3,
+		"hitPoints" : 25,
+		"level" : 3,
+		"sound" :
+		{
+			"attack": "factory/ARMAATTK.wav",
+			"defend" : "factory/ARMADFND.wav",
+			"killed" : "factory/ARMAKILL.wav",
+			"move" : "factory/ARMAMOVE.wav",
+			"wince" : "factory/ARMAWNCE.wav"
+		},
+		"speed" : 6,
+		"stackExperience" :
+ 
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "RETURN_AFTER_STRIKE"
+				},
+				"values" : [ false, false, false, true, true, true, true, true, true, true ]
+			}
+		]
+	}
+}

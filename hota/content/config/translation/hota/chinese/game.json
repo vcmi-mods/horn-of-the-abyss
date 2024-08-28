@@ -531,6 +531,17 @@
 	"mapObject.hota.wastelandterrain.skull.hotaSkulls.name" : "头骨",
 	"mapObject.hota.wastelandterrain.rock.hotaPuddle.name" : "岩石",
 	"mapObject.hota.wastelandterrain.rock.hotaW2Stones.name" : "石块",
+	"object.hota.mapobjects.shrineOfMagicLevel1.name" : "神秘魔法圣殿",
+	"object.hota.mapobjects.questGuard.name" : "传送门",
+	"object.hota.highlandsterrain.lake.hotaHLakes.name" : "湖",
+	"object.hota.highlandsterrain.rock.hotaPuddle.name" : "岩石",
+	"object.hota.highlandsterrain.puddles.name" : "水洼",
+	"object.hota.highlandsterrain.spruces.name" : "杉树",
+	"mapObject.hota.wastelandterrain.skull.hotaSkulls.name" : "头骨",
+	"mapObject.hota.wastelandterrain.rock.hotaPuddle.name" : "岩石",
+	"mapObject.hota.wastelandterrain.rock.hotaW2Stones.name" : "石块",
+	"terrain.hota.highlandsterrain.highlands.name" : "高地",
+	"terrain.hota.wastelandterrain.wasteland.name" : "荒地"
 	"terrain.hota.highlandsterrain.highlands.name" : "高地",
 	"terrain.hota.wastelandterrain.wasteland.name" : "荒地"
 }
