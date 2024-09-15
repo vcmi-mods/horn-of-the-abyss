@@ -69,7 +69,7 @@
 				"shipyard":       { "id" : 6 },
 				"ship":           { "id" : 20, "upgrades" : "shipyard" },
 
-				"special3":       { "id" : 22, "requires" : [ "tavern" ] },
+				"special3":       { "type" : "thievesGuild", "id" : 22, "requires" : [ "tavern" ] },
 				"special4":       { "id" : 23, "requires" : [ "marketplace" ] },
 				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
 				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },

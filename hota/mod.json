@@ -6,9 +6,15 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.6.44",
+	"version" : "1.6.50",
 	"changelog" : 
 	{
+		"1.6.50"  : [ "Updated russian translation" ],
+		"1.6.49"  : [ "Russian translation by Anton Sergeew" ],
+		"1.6.48"  : [ "Updated polish translation by Dru" ],
+		"1.6.47"  : [ "Fix Death Cloud area effect" ],
+		"1.6.46"  : [ "Support Thieves Guild" ],
+		"1.6.45"  : [ "Use regular battle setup for Black Tower" ],
 		"1.6.44"  : [ "Fix configuration of witch hut and magic shrine" ],
 		"1.6.43"  : [ "Add dimension door & fly rebalance changes to game balance submod" ],
 		"1.6.42"  : [ "Add config for biomes" ],
@@ -124,6 +130,13 @@
 		"description" : "Spanish translation made by macomarivas",
 		"translations" : [
 			"config/translation/hota/spanish/game.json"
+		]
+	},
+	"russian" : {
+		"name" : "Horn of the Abyss / Рог бездны",
+		"description" : "Дополнение от Hota Crew, портированное на движок VCMI",
+		"translations" : [
+			"config/translation/hota/russian.json"
 		]
 	}
 }

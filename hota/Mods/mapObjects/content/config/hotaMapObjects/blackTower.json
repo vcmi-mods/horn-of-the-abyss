@@ -6,6 +6,7 @@
 			"blackTower" : 
 			{
 				"name" : "Black Tower",
+				"regularUnitPlacement" : true,
 				"templates" :
 				{
 
