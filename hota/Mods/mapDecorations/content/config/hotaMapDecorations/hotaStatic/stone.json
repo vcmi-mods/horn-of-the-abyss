@@ -32,6 +32,10 @@
 					"udrock07" : { "animation" : "hota/stone/udrock07", 
 						"mask" : [ "VV", "BB" ], 
 						"allowedTerrains": [ "subterra" ]
+					},
+					"udrock08" : { "animation" : "hota/stone/udrock08", 
+						"mask" : [ "VV", "BB" ], 
+						"allowedTerrains": [ "subterra" ]
 					}
 				}
 			}
