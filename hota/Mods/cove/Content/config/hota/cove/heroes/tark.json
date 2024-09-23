@@ -43,7 +43,7 @@
 			"biography": "He is a king of a half-legendary sea kin that was counted extinct. Tark realized that in order for his people to return he has to get help from powerful allies. Pirates became his new brothers in arms. As all nix, he is a powerful warrior, able to fight on land and sea. Other nix praise him and hold him as a great example.",
 			"specialty": {
 				"name": "Nix",
-				"description": "{Nix and Nix Warriors}\r\n\r\nIncreases Speed of any Nix or Nix Warriors by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"description": "Increases Speed of any Nix or Nix Warriors by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip": "Creature Bonus: Nix"
 			}
 		}

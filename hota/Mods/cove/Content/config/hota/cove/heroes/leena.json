@@ -49,7 +49,7 @@
 			"biography": "Leena was a daughter of a noble from one of the maritime cities of Erathia. Having a wild spirit since childhood, she escaped on a stolen family caravel when her father attempted to marry her off. Surprisingly, she was able to find a common language with the pirates of Regna. She is probably valued for her spirit and numerous connections on the land that she uses to operate her smuggling.",
 			"specialty": {
 				"name": "+350 Gold",
-				"description": "{Gold}\r\n\r\nIncreases kingdom's income by 350 gold per day.",
+				"description": "Increases kingdom's income by 350 gold per day.",
 				"tooltip": "+350 Gold each day"
 			}
 		}

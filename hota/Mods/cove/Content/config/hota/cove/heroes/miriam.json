@@ -53,7 +53,7 @@
 			"biography": "This girl has a dark past. Once a ranger, she could see the enemies and obstacles from the farthest distance away. After a disagreement with her \"colleagues,\" she joined the pirates. She got the nickname \"Sharp-eye\" amongst the bandits.",
 			"specialty": {
 				"name": "Scouting",
-				"description": "{Scouting}\r\n\r\nIncreases the scouting range by 1 for every 6 levels of the hero.",
+				"description": "Increases the scouting range by 1 for every 6 levels of the hero.",
 				"tooltip": "Secondary Skill Bonus: Scouting"
 			}
 		}

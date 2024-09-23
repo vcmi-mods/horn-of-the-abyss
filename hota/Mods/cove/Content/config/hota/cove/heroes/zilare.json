@@ -52,7 +52,7 @@
 			"biography": "Zilare was the Keeper of the Library somewhere in Erathia. He dedicated his life to books and learning, living the life of a true archivist. Zilare could not keep everything in his head, however. Sometimes he would forget more than he learned during the day. Once he was accused of stealing an especially rare book and was forced to flee. He served as a cook on a pirate ship for some time but later gained fame as a proficient mage. They say that due to constant training in spirit and will, he learned to control the memory of both allies and enemies.",
 			"specialty": {
 				"name": "Forgetfulness",
-				"description": "{Forgetfulness}\r\n\r\nCasts Forgetfulness with double duration.",
+				"description": "Casts Forgetfulness with double duration.",
 				"tooltip": "Spell Bonus: Forgetfulness"
 			}
 		}

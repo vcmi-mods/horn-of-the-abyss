@@ -47,8 +47,8 @@
 			"biography" : "Folowing the dream of his childhood Ranloo bound himself as an apprentice to a local farrier - master Mestley. But instead of ancient blacksmith's lore he got a bite to his neck and a gaping pit somewhere in the forest of Talon.\r\nNobody can imagine how Ranloo got out of that forest. However, everyone knows well that his diadem of a Master Blacksmith Ranloo has taken from a dead body of his mentor, after a precise shot with self-made ballista.",
 			"specialty" : {
 				"name" : "Ballista",
-				"description" : "Artillery Bonus: Ballista",
-				"tooltip" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
+				"tooltip" : "Artillery Bonus: Ballista",
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
 			}
 		}
 	}

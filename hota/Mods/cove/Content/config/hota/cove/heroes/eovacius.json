@@ -48,7 +48,7 @@
 			"biography": "Eovacius never learned magic. All his magical talent was inborn. He was raised in a maritime city where he used his talent to steal on the markets. He became a prosperous and influential man until he got too many annoying and powerful rivals in the government. After that, the natural born mage left his homeland and chose the life of a pirate.",
 			"specialty": {
 				"name": "Clone",
-				"description": "{Clone}\r\n\r\nEach battle the first cast of Clone spell summons 2 clones of the target unit.",
+				"description": "Each battle the first cast of Clone spell summons 2 clones of the target unit.",
 				"tooltip": "Spell Bonus: Clone"
 			}
 		}

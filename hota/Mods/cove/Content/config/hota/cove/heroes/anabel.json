@@ -43,7 +43,7 @@
 			"biography" : "To anger the daughter of Earless Nylse means to sign a death pact. Every pirate understands that there is no woman more deadly and insidious than Anabel. Her father was one of the cruelest corsairs, and his daughter follows his steps. Her grace and skill encourages men to fight at their limits.",
 			"specialty" : {
 				"name" : "Pirates",
-				"description" : "{Pirates, Corsairs and Sea Dogs}\r\n\r\nIncreases Speed of any Pirates, Corsairs or Sea Dogs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
+				"description" : "Increases Speed of any Pirates, Corsairs or Sea Dogs by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Pirates"
 			}
 		}
