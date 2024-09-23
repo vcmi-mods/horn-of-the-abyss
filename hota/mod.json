@@ -87,7 +87,7 @@
 	},
 	"chinese" : {
 		"name" : "深渊号角（HotA）",
-		"description" : "深渊号角（Horn of the Abyss）是《英雄无敌 III》的非官方资料片，由 Hota Crew制作，VCMI Team & edeksumo & avatar导入。该模组对原有的平衡性进行了调整，并增加了全新的阵营“港口”（Cove）和“工厂”（Factory）。",
+		"description" : "深渊号角（Horn of the Abyss）是《英雄无敌 III》的非官方资料片，由 Hota Crew制作，VCMI Team & edeksumo & avatar导入。该模组对原有的平衡性进行了调整，并增加了全新的阵营“港口”（Cove）和“工厂”（Factory），工厂族使用阿土的汉化文本。",
 		"translations" : [
 			"config/translation/hota/chinese/game.json",
 			"config/translation/hota/chinese/campaigns.json",

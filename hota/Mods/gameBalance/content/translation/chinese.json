@@ -1,4 +1,7 @@
 {
+	"artifact.core.amuletOfTheUndertaker.description": "{亡灵护身符}\n\n佩带亡灵护身符可使你的招魂术提高3%。",
+	"artifact.core.deadMansBoots.description": "{吸血鬼披风}\n\n穿上吸血鬼披风可使你的招魂术提高5%。",
+	"artifact.core.vampiresCowl.description": "{死神靴}\n\n穿上死神靴可使你的招魂术提高7%。",
 	"skill.core.estates.description.advanced": "{中级理财术}\n\n中级理财术可使你每日多得到500个金币。",
 	"skill.core.estates.description.basic": "{初级理财术}\n\n初级理财术可使你每日多得到250个金币。",
 	"skill.core.estates.description.expert": "{高级理财术}\n\n高级理财术可使你每日多得到1000个金币。",
