@@ -115,7 +115,7 @@
 		"specialBattlefields" : [],
 		"width" : 6,
 		"height" : 2,
-		"blockedTiles" :  [1, 2, 3, 4, 5 -15, -14, -13, -12,],
+		"blockedTiles" :  [1, 2, 3, 4, 5, -15, -14, -13, -12],
 		"animation" : "hota/wasteland/obstacles/ObWLD10.def",
 		"absolute" : false
 	},
