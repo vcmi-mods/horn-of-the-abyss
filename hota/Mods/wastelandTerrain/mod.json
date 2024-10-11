@@ -54,5 +54,10 @@
 		"config/hota/wasteland/hotaInteractive/prospector.json",
 		"config/hota/wasteland/hotaInteractive/trailblazer.json",
 		"config/hota/wasteland/hotaInteractive/warlocksLab.json"
+	],
+	"biomes":
+	[
+		"config/hota/wasteland/hotaStatic/hotaWastelandStaticBiomes.json",
+		"config/hota/wasteland/vanillaStatic/vanillaWastelandStaticBiomes.json"
 	]
 }

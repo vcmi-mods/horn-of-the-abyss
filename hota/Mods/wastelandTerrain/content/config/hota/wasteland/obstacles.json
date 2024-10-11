@@ -18,16 +18,18 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD00.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD01" : {
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 2,
 		"height" : 3,
-		"blockedTiles" :  [0, 1],
+		"blockedTiles" :  [-33, -34],
 		"animation" : "hota/wasteland/obstacles/ObWLD01.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD02" : {
 		"allowedTerrains" : ["wasteland"],
@@ -36,7 +38,8 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
 		"animation" : "hota/wasteland/obstacles/ObWLD02.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD03" : {
 		"allowedTerrains" : ["wasteland"],
@@ -45,7 +48,8 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
 		"animation" : "hota/wasteland/obstacles/ObWLD03.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD04" : {
 		"allowedTerrains" : ["wasteland"],
@@ -54,7 +58,8 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD04.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD05" : {
 		"allowedTerrains" : ["wasteland"],
@@ -63,7 +68,8 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD05.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD06" : {
 		"allowedTerrains" : ["wasteland"],
@@ -72,14 +78,15 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD06.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD07" : {
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 3,
 		"height" : 3,
-		"blockedTiles" :  [1, 2],
+		"blockedTiles" :  [-33, -32],
 		"animation" : "hota/wasteland/obstacles/ObWLD07.def",
 		"absolute" : false
 	},
@@ -88,25 +95,27 @@
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 3,
-		"blockedTiles" :  [0, 1, 2, 3, -14, -15, -16],
+		"blockedTiles" :  [-32, -33, -34, -35],
 		"animation" : "hota/wasteland/obstacles/ObWLD08.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD09" : {
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 3,
-		"blockedTiles" :  [-14, -15, -16],
+		"blockedTiles" :  [-33, -34],
 		"animation" : "hota/wasteland/obstacles/ObWLD09.def",
-		"absolute" : false
+		"absolute" : false,
+    		"foreground" : true
 	},
 	"hotaWLD10" : {
 		"allowedTerrains" : ["wasteland"],
 		"specialBattlefields" : [],
 		"width" : 6,
 		"height" : 2,
-		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13],
+		"blockedTiles" :  [1, 2, 3, 4, 5, -15, -14, -13, -12],
 		"animation" : "hota/wasteland/obstacles/ObWLD10.def",
 		"absolute" : false
 	},
@@ -115,7 +124,7 @@
 		"specialBattlefields" : [],
 		"width" : 5,
 		"height" : 4,
-		"blockedTiles" :  [0, 1, 2, 3, -13, -14, -15, -16],
+		"blockedTiles" :  [-32, -31],
 		"animation" : "hota/wasteland/obstacles/ObWLD11.def",
 		"absolute" : false
 	},
@@ -124,7 +133,7 @@
 		"specialBattlefields" : [],
 		"width" : 4,
 		"height" : 2,
-		"blockedTiles" :  [0, 1, 2, 3, 4, -16, -15, -14, -13, -12],
+		"blockedTiles" :  [-32, -31, -30, -29, -48, -47, -46],
 		"animation" : "hota/wasteland/obstacles/ObWLD12.def",
 		"absolute" : false
 	},
@@ -134,7 +143,7 @@
 		"specialBattlefields" : [],
 		"width" : 163,
 		"height" : 302,
-		"blockedTiles" :  [106, 107, 108, 109, 110, 111, 128, 129, 130, 146, 147, 148],
+		"blockedTiles" :  [105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 128, 129, 130, 131, 145, 146, 147, 148, 149, 150],
 		"animation" : "hota/wasteland/obstacles/frames/ObWLD13.png",
 		"absolute" : true
 	},
@@ -144,8 +153,9 @@
 		"specialBattlefields" : [],
 		"width" : 104,
 		"height" : 126,
-		"blockedTiles" :  [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 60, 61, 62, 63, 76, 77, 78, 79, 80, 81],
+		"blockedTiles" :  [36, 37, 38, 39, 40, 41, 42, 59, 60, 76, 77, 78],
 		"animation" : "hota/wasteland/obstacles/frames/ObWLD14.png",
 		"absolute" : true
 	}
+
 }

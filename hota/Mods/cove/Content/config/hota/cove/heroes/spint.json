@@ -51,7 +51,7 @@
 			"biography": "Spint once was a very talented apprentice mage learning at the academy in Bracada. He was caught by the Krewlod barbarians and sold as a slave on a galley. The galley captain noticed his magical power and offered him a boatswain position. Now Spint is a captain himself. He sinks the ships near the shores of Krewlod and enjoys his new life.",
 			"specialty": {
 				"name": "Sorcery",
-				"description": "{Sorcery}\r\n\r\nReceives a 5% per level bonus to Sorcery skill percentage.",
+				"description": "Receives a 5% per level bonus to Sorcery skill percentage.",
 				"tooltip": "Secondary Skill Bonus: Sorcery"
 			}
 		}

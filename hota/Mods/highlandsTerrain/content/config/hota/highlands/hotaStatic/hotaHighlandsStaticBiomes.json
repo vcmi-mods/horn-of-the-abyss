@@ -1,0 +1,23 @@
+{
+	"waterfalls":{
+		"biome":{
+			"terrain" : "highlands",
+			"objectType" : "mountain"
+		},
+		"templates" : ["hotaAVLwtf00", "hotaAVLwtf01", "hotaAVLwtf01"]
+	},
+	"spruces":{
+		"biome":{
+			"terrain" : "highlands",
+			"objectType" : "tree"
+		},
+		"templates" : ["avlhpn00", "avlhpn01", "avlhpn02", "avlhpn03", "avlhpn04", "avlhpn05", "avlhpn06", "avlhpn07", "avlhpn08", "avlhpn09", "avlhpn10", "avlhpn11", "avlhpn12", "avlhpn13"]
+	},
+	"puddles":{
+		"biome":{
+			"terrain" : "highlands",
+			"objectType" : "other"
+		},
+		"templates" : ["avlhml00", "avlhml01", "avlhml02", "avlhml03", "avlhml04", "avlhml05", "avlhml06", "avlhml07"]
+	}
+}

@@ -1,12 +1,12 @@
 {
-	"cactus" : {
+	"hotaCactus" : {
 		"biome": {
 			"terrain": "sand",
 			"objectType": "plant"
 		},
 		"templates": ["AVcact01", "AVcact02", "AVcact03", "AVcact04", "core:AVLca090"]
 	},
-	"corpse" : {
+	"core:corpse" : {
 		"biome": {
 			"terrain": "sand",
 			"objectType": "other"
@@ -27,7 +27,7 @@
 		},
 		"templates": ["swvflw01", "swvflw02", "swvflw03", "swvflw04", "swvflw05"]
 	},
-	"mound" : {
+	"hotaMound" : {
 		"biome": {
 			"terrain": "snow",
 			"objectType": "rock"

@@ -51,7 +51,7 @@
 			"biography": "Not many wish to get into Corkes' enemy list. This quick-tempered pirate is one of the most experienced and cruel sea dogs. Many merchants know that it is better to submit the goods willingly than to start a suicidal battle with him. He is easily distinguishable by the eye patch that he never takes off.",
 			"specialty": {
 				"name": "Offense",
-				"description": "{Offense}\r\n\r\nReceives a 5% per level bonus to Offense skill percentage.",
+				"description": "Receives a 5% per level bonus to Offense skill percentage.",
 				"tooltip": "Secondary Skill Bonus: Offense"
 			}
 		}
