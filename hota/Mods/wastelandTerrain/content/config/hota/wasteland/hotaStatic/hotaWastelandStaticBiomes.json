@@ -1,0 +1,30 @@
+{
+	"wastelandTarPit":{
+		"biome":{
+			"terrain" : "wasteland",
+			"objectType" : "lake"
+		},
+		"templates" : ["AVLwloi1", "AVLwloi2", "AVLwloi3", "AVLwloi4", "AVLwloi5"]
+	},
+	"limestoneLake":{
+		"biome":{
+			"terrain" : "wasteland",
+			"objectType" : "lake"
+		},
+		"templates" : ["AVLwll00", "AVLwll01", "AVLwll02"]
+	},
+	"limestonePuddles":{
+		"biome":{
+			"terrain" : "wasteland",
+			"objectType" : "other"
+		},
+		"templates" : ["AVLwml00"]
+	},
+	"core:skull":{
+		"biome":{
+			"terrain" : "wasteland",
+			"objectType" : "other"
+		},
+		"templates" : ["jaws", "AVLbon00", "AVLbon01", "AVLbon02", "AVLbon03"]
+	}
+}

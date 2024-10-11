@@ -43,7 +43,7 @@
 			"biography": "It is said that Cassiopeia was the lover of some Regnan mage, and fell victim to one of his unsuccessful experiments. It is unknown if it is truly possible to turn an alive soul into a nymph. All that is known is that other nymphs accept Cassiopeia for more than an equal kind. They gladly follow her into the battle.",
 			"specialty": {
 				"name": "Nymphs",
-				"description": "{Nymphs and Oceanids}\r\n\r\nIncreases Speed of any Nymphs or Oceanids by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"description": "Increases Speed of any Nymphs or Oceanids by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip": "Creature Bonus: Nymphs"
 			}
 		}

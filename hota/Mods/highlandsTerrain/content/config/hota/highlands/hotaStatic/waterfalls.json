@@ -1,5 +1,7 @@
 {
-	"hota.mapDecorations:waterfalls" : {
+	"highlandsWaterfalls" : {
+		"name" : "Mountain",
+		"handler":"static",
 		"types" : {
 			"waterfalls" : {
 				"sounds": {

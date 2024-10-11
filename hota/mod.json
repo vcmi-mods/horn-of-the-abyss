@@ -6,10 +6,13 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.0",
+	"version" : "1.7.1",
 	"changelog" : 
 	{
+		"1.7.1"   : [ "Reapply changes from 1.6.51 and 1.6.52 that were missing for technical reasons" ],
 		"1.7.0"   : [ "Added factory" ],
+		"1.6.52"  : [ "Added biomes for Highlands and Wasteland terrains", "Small fixes in other biomes" ],
+		"1.6.51"  : [ "Fixed Interference code", "Fixed Wastelands obstacles", "Better specialty texts format" ],
 		"1.6.50"  : [ "Updated russian translation" ],
 		"1.6.49"  : [ "Russian translation by Anton Sergeew" ],
 		"1.6.48"  : [ "Updated polish translation by Dru" ],

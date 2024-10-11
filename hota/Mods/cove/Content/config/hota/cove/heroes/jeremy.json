@@ -70,7 +70,7 @@
 			"biography": "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages, and beautiful women. He has a thing for weapons and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
 			"specialty": {
 				"name": "Cannon",
-				"description": "{Cannon}\r\n\r\nIncreases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
+				"description": "Increases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
 				"tooltip": "Artillery Bonus: Cannon"
 			}
 		}

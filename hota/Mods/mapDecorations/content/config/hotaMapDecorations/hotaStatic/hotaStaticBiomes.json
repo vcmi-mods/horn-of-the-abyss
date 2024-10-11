@@ -70,7 +70,7 @@
 		//"templates": ["AVLswn01", "AVLswn02", "AVLswn03"] // Add these 3
 		"templates" : ["avlswtr0", "avlswtr1", "avlswtr2", "avlswtr3", "avlswtr4", "avlswtr5", "avlswtr6", "avlswtr7", "avlswtr8", "avlswtr9", "AVLswn01", "AVLswn02", "AVLswn03"]
 	},
-	"sandPalms" : {
+	"hotaSandPalms" : {
 		"biome" : {
 			"terrain" : "sand",
 			"objectType" : "tree"

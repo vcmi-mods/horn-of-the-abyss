@@ -56,7 +56,7 @@
 			"biography" : "Beatrice was a talented follower of Erathian scouts - not yielding much to famous elven pathfinders. Talents of the girl had been noticed by Catherine herself and thence former scout became a general. \r\nHowever, her skills are still with her, she is one of the best at her cause.",
 			"specialty" : {
 				"name" : "Scouting",
-				"description" : "{Scouting}\r\n\r\nIncreases the scouting range by 1 for every 6 levels of the hero.",
+				"description" : "Increases the scouting range by 1 for every 6 levels of the hero.",
 				"tooltip" : "Secondary Skill Bonus: Scouting"
 			}
 		}

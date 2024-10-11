@@ -1,7 +1,7 @@
 {
 	"core:rock" : {
 		"types" : {
-			"hotaPuddle" : {
+			"wastelandStones" : {
 				"name" : "Stone",
 				"templates" : {
 					"AVLrws01" : {
@@ -16,7 +16,7 @@
 					}
 				}
 			},
-			"hotaW2Stones" : {
+			"wastelandStones2" : {
 				"name" : "Rock",
 				"templates" : {
 					"AVLrws02" : {

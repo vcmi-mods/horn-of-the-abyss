@@ -54,7 +54,7 @@
 			"biography" : "Kinkeria was one of the most respected witches of her tribe. She was always seeking for knowledge, and it was easy for her to comprehend the essence of any phenomena. She has been given such tasks over which many wisemen remained puzzled for years.\r\nWith that being said, it was no surprise when she offered her service to the king of Tatalia.",
 			"specialty" : {
 				"name" : "Learning",
-				"description" : "{Learning}\r\n\r\nLearning skill percentage is doubled.",
+				"description" : "Learning skill percentage is doubled.",
 				"tooltip" : "Secondary Skill Bonus: Learning"
 			}
 		}

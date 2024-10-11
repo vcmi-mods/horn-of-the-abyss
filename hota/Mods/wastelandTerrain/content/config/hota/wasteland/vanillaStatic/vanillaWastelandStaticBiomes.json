@@ -1,0 +1,72 @@
+{
+	"wastelandTrees" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "tree"
+		},
+		"templates": ["AVLtRro0", "AVLtRro1", "AVLtRro2", "AVLtRro3", "AVLtRro4", "AVLtRro5", "AVLtRro6", "AVLtRro7", "AVLtRro8", "AVLtRro9", "AVLtRo00", "AVLtRo01", "AVLtRo02", "AVLtRo03", "AVLtRo04", "AVLtRo05", "AVLtRo06", "AVLtRo07", "AVLtRo08", "AVLtRo09", "AVLtRo10", "AVLtRo11", "AVLtRo12", "AVLtrRo2", "AVLtrRo3", "AVLtrRo5", "AVLtrRo6", "AVLtrRo7"]
+	},
+	"wastelandStone" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "rock"
+		},
+		"templates": ["AVLrws01", "AVLrws03"]
+	},
+	"wastelandRock" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "rock"
+		},
+		"templates": ["AVLrws02"]
+	},
+	"wastelandShrub" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "plant"
+		},
+		"templates": ["AVLwsb01", "AVLwsb02", "AVLwsb03", "AVLwsb04", "AVLwsh01", "AVLwsh02", "AVLsh1rw", "AVLsh6rw", "AVLsh9rw", "AVLsh9xw"]
+	},
+	"wastelandHole" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "crater"
+		},
+		"templates": ["AVLsh9xw"]
+	},
+	"wastelandMountains" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "mountain"
+		},
+		"templates": ["AVLMtWL1", "AVLMtWL2", "AVLMtWL3", "AVLMtWL4", "AVLMtWL5", "AVLMtWL6", "AVLMtWL7"]
+	},
+	"wastelandDeadVegetations" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "tree"
+		},
+		"templates": ["AVLDEAD0", "AVLDEAD1", "AVLDEAD2", "AVLDEAD3", "AVLDEAD4", "AVLDEAD5", "AVLDEAD6", "AVLDEAD7", "AVLDEAD8", "AVLDEAD9"]
+	},
+	"wastelandCrater" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "crater"
+		},
+		"templates": ["AVLwcr01", "AVLwcr02", "AVLwcr03", "AVLwcr04", "AVLwcr05"]
+	},
+	"wastelandCactus" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "plant"
+		},
+		"templates": ["AVLwct01", "AVLwct02", "AVLwct03", "AVLwct04", "AVLwct05", "AVLwct06", "AVLwct07", "AVLwct08", "AVLwct09", "AVLwct10", "AVLca060", "AVLca090", "AVLca100", "AVLca130"]
+	},
+	"core:skull" : {
+		"biome": {
+			"terrain": "wasteland",
+			"objectType": "other"
+		},
+		"templates": ["AVLskul0", "AVLskul1", "AVLskul2", "AVLwcsk0"]
+	}
+}

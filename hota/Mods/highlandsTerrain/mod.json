@@ -53,5 +53,10 @@
 		"config/hota/highlands/hotaInteractive/junkman.json",
 		"config/hota/highlands/hotaInteractive/mineralSpring.json",
 		"config/hota/highlands/hotaInteractive/ruins.json"
+	],
+	"biomes":
+	[
+		"config/hota/highlands/hotaStatic/hotaHighlandsStaticBiomes.json",
+		"config/hota/highlands/vanillaStatic/vanillaHighlandsStaticBiomes.json"
 	]
 }

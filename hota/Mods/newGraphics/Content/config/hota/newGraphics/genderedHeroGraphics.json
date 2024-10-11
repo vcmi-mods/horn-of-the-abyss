@@ -161,8 +161,8 @@
 					"editorAnimation": "AH05_E.def"
 				},
 				"default" : {
-					"animation" : "AH05_.def", 
-					"editorAnimation": "AH05_E.def" 
+					"animation" : "AH05_.def",
+					"editorAnimation": "AH05_E.def"
 				}
 			}
 		},
@@ -190,8 +190,8 @@
 					"editorAnimation": "AH06_E.def"
 				},
 				"default" : {
-					"animation" : "AH06_.def", 
-					"editorAnimation": "AH06_E.def" 
+					"animation" : "AH06_.def",
+					"editorAnimation": "AH06_E.def"
 				}
 			}
 		},
@@ -213,11 +213,11 @@
 				"female" : {
 					"animation" : "AH07_.def",
 					"editorAnimation": "AH07_e.def"
-				}, 
+				},
 				"male" : {
 					"animation" : "hota/inferno/heroClasses/heretic/AH07b_.def",
 					"editorAnimation": "hota/inferno/heroClasses/heretic/AH07b_E.def"
-				}, 
+				},
 				"default" : {
 					"animation" : "AH07_.def",
 					"editorAnimation": "AH07_E.def"
@@ -289,7 +289,7 @@
 			}
 		}
 	},
-	"core:warlock" :
+	"core:overlord" :
 	{
 		"mapObject" : {
 			"filters" : {
@@ -318,7 +318,7 @@
 			}
 		}
 	},
-	"core:overlord" :
+	"core:warlock" :
 	{
 		"mapObject" : {
 			"filters" : {

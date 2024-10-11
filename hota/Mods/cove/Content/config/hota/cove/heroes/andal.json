@@ -49,7 +49,7 @@
 			"biography" : "While being an experienced pirate, Andal did not always consider himself as a mage or a rogue. He was an ordinary merchant until bankrupting and getting too many debts one day. He started searching for a way to get fast and easy money. After leaving his home, he shortly returned as a known smuggler. He usually trades gems and mountain crystals. It is a mystery where he gets them from, however.",
 			"specialty" : {
 				"name" : "+1 Crystal",
-				"description" : "{Crystal}\r\n\r\nIncreases kingdom's crystal production by 1 per day.",
+				"description" : "Increases kingdom's crystal production by 1 per day.",
 				"tooltip" : "+1 Crystal each day"
 			}
 		}
