@@ -60,7 +60,7 @@
 			"terrain": "wasteland",
 			"objectType": "plant"
 		},
-		"templates": ["AVLwct01", "AVLwct02", "AVLwct03", "AVLwct04", "AVLwct05", "AVLwct06", "AVLwct07", "AVLwct08", "AVLwct09", "AVLwct10", "AVLca060", "AVLca090", "AVLca100", "AVLca130"]
+		"templates": ["AVLwct01", "AVLwct02", "AVLwct03", "AVLwct04", "AVLwct05", "AVLwct06", "AVLwct07", "AVLwct08", "AVLwct09", "AVLwct10", "AVLca060", "wtAVLca090", "AVLca100", "AVLca130"]
 	},
 	"core:skull" : {
 		"biome": {

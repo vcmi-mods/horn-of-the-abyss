@@ -1,6 +1,5 @@
 {
 	"core:shrineOfMagicLevel1" : { // Warning: lvl1 required for proper h3m loading. Do not change.
-		"name" : "Shrine of Magic Mystery",
 		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
@@ -20,9 +19,6 @@
 				"sounds" : {
 					"ambient" : ["LOOPSHRIN"],
 					"visit" : ["TEMPLE"]
-				},
-				"spell" : {
-					"level" : 4
 				},
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,

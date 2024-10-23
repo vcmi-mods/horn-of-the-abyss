@@ -5,7 +5,7 @@
 		"moveCost" : 100,
 		"minimapUnblocked" : [ 84, 121, 26 ],
 		"minimapBlocked"   : [ 41, 106, 20 ],
-		"music" : "hota/HIGHLANDS.mp3",
+		"music" : [ "hota/HIGHLANDS.mp3" ],
 		"tiles" : "hota/highlands/tiles",
 		"type": [ "SURFACE" ], //default values
 		"horseSound" : "hota/highlands/horse30",

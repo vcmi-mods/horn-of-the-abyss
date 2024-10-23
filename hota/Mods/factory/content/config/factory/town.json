@@ -239,44 +239,42 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
-						"wood" : 5,
-						"gold" : 500
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
 					},
-					"id" : 14
+					"id" : 14, 
+					"marketModes" : ["resource-resource", "resource-player"]		
 				},
 				"resourceSilo" :
 				{
 					"name" : "Resource Silo",
-					"description" : "The Resource Silo provides you with an additional +1 sulfur each day.",
-					"cost" :
-					{
-						"ore" : 5,
-						"gold" : 5000
-					},
-					"requires" : [ "marketplace" ],
-					"id" : 15
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},					
+					"produce": { "crystal": 1 },
+					"requires" : [ "marketplace" ]
 				},
 				"blacksmith" :
 				{
 					"name" : "Blacksmith",
-					"description" : "The Blacksmith provides your armies with Ammo Cart.",
-					"cost" :
-					{
-						"wood" : 5,
-						"gold" : 1000
-					},
-					"id" : 16
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},					
+					"warMachine" : "ammoCart"
 				},
 				"special3" :
 				{
 					"description" : "Artifact Merchants allows you to purchase artifacts.",
 					"name" : "Artifact Merchants",
                     "cost" : {
-                                    "gold" : 10000
-                              },
-                    "type" : "artifactMerchant",
+                        "gold" : 10000
+                    },
+                    "marketModes" : ["resource-artifact", "artifact-resource"],
 					"requires" : [ "marketplace" ],
 					"id" : 17
 				},
@@ -312,8 +310,8 @@
 					"type" : "bank",
 					"cost" : 
 					{
-					"gold" : 500,
-					"ore" : 5
+						"gold" : 500,
+						"ore" : 5
 					},
 					"id" : 21
 				},	
@@ -673,7 +671,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/factions/factoryTown",
+			"musicTheme" : [ "music/factions/factoryTown" ],
 			"names" : [
 				"Arcadia",
 				"Ardon",
@@ -1095,7 +1093,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "factory/town-screen/TBFaBack.bmp",
-		"warMachine" : "ammoCart",
 		"moatAbility" : "castleMoat",
 		"hallSlots" : [
 				[

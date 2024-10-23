@@ -17,7 +17,7 @@
 					{
 						"message" : "{Watering Place}\r\n\r\nLooks like a nice place for an overnight stop. Tomorrow your troops will be as fresh as they never were. Would you like to call it a day?",
 						"movePercentage" : 0,
-						"bonuses" : [ { "type" : "MOVEMENT", "subtype" : 1,  "val" : 1000, "valueType" : "ADDITIVE_VALUE", "duration" : "N_DAYS", "turns" : 2} ],
+						"bonuses" : [ { "type" : "MOVEMENT", "subtype" : "heroMovementLand",  "val" : 1000, "valueType" : "ADDITIVE_VALUE", "duration" : "N_DAYS", "turns" : 2} ],
 					}
 				],
 				"onVisitedMessage": "{Watering Place}\r\n\r\nWatering place can be used only once a week, and someone has already been here this week.",

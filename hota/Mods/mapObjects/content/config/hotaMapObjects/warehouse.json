@@ -18,10 +18,6 @@
 				"rewards" :
 				[
 					{
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"crystal" : 6},
 						"message": "{Warehouse of Crystal}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all crystals from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -57,10 +53,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"gems" : 6},
 						"message": "{Warehouse of Gem}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gems from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -96,10 +88,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"sulfur" : 6},
 						"message": "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all sulfur from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -135,10 +123,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"mercury" : 6},
 						"message": "{Warehouse of Mercury}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all mercury from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -174,10 +158,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"wood" : 10},
 						"message": "{Warehouse of Wood}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all wood from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -213,10 +193,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"ore" : 10},
 						"message": "{Warehouse of Ore}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all ore from the nearby production points for you. Come next week for the new portion!'"
 					}
@@ -252,10 +228,6 @@
 				"rewards" :
 				[
 					{ 
-						"limiter":
-						{
-							"numOfGrants": 1
-						},
 						"resources": {"gold" : 2000},
 						"message": "{Warehouse of Gold}\r\n\r\nThe owner of the storage makes haste to tell you: 'My Lord, I`ve gathered all gold from the nearby production points for you. Come next week for the new portion!'"
 					}

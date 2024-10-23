@@ -80,7 +80,8 @@
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
-					}
+					},
+					"produce": { "sulfur": 1 }
 				},
 				"shipyard" : {
 					"name" : "Shipyard",
@@ -102,7 +103,14 @@
 					"cost" : {
 						"gold" : 600,
 						"wood" : 3
-					}
+					},
+					"bonuses": [
+						{
+							"propagator": "PLAYER_PROPAGATOR",
+							"type": "THIEVES_GUILD_ACCESS",
+							"val": 2
+						}
+					]
 				},
 				"special4" : {
 					"name" : "Grotto",

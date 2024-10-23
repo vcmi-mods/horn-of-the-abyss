@@ -5,7 +5,7 @@
 		"types" : {
 			"ancientLamp" : 
 			{
-				"blockVisitable": true,
+				"blockedVisitable": true,
 				"removable": true,
 				"name": "Ancient Lamp (allows you to recruit 4-7 Master Genie once)",
 				"rmg" : {
@@ -16,7 +16,6 @@
 				"sounds" : {
 					"visit" : ["hota/LAMPVIST"]
 				},
-				"blockedVisitable" : true,
 				"rewards" :
 				[
 					{
@@ -81,6 +80,7 @@
 				"onEmptyMessage" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. Come back when you can find some gold to spare.\"",
 				"canRefuse": true,
 				"visitMode" : "unlimited",
+				"compatibilityIdentifiers" : [ "object" ],
 				"templates" : 
 				{
 					"avtglam" : 

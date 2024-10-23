@@ -2,17 +2,15 @@
 	"cove" : {
 		"town" : {
 			"primaryResource" : "sulfur",
-			"warMachine" : "cannon",
 			"moatAbility" : "coveMoat",
 			"defaultTavern" : 5,
-
 			"townBackground" : "hota/cove/town/background",
 			"hallBackground" : "TPTHBKDG",
 			"guildBackground" : "TPMAGE.bmp",
 			"guildWindow" : "hota/cove/town/mageguild",
 			"buildingsIcons" : "hota/cove/town/townhall",
 
-			"musicTheme" : "music/factions/cove",
+			"musicTheme" : [ "music/factions/cove" ],
 			"tavernVideo" : "tvrncove.BIK",
 
 			"creatures" : [
@@ -63,13 +61,14 @@
 				"castle":         { "id" : 9,  "upgrades" : "citadel" },
 				
 				"tavern":         { "id" : 5 },
-				"blacksmith":     { "id" : 16 },
+				"blacksmith":     { "warMachine" : "cannon" },
 				"marketplace":    { "id" : 14, "marketModes" : ["resource-resource", "resource-player"] },
-				"resourceSilo":   { "id" : 15, "requires" : [ "marketplace" ] },
+				"resourceSilo":   { "id" : 15 },
+
 				"shipyard":       { "id" : 6 },
 				"ship":           { "id" : 20, "upgrades" : "shipyard" },
 
-				"special3":       { "type" : "thievesGuild", "id" : 22, "requires" : [ "tavern" ] },
+				"special3":       { "id" : 23, "requires" : [ "tavern" ] },
 				"special4":       { "id" : 23, "requires" : [ "marketplace" ], "marketModes" : ["artifact-experience", "creature-experience"] },
 				"horde1":         { "id" : 18, "upgrades" : "dwellingLvl2" },
 				"horde1Upgr":     { "id" : 19, "upgrades" : "dwellingUpLvl2", "requires" : [ "horde1" ] },

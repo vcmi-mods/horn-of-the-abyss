@@ -165,10 +165,8 @@
 	"hota.mapobjects:ancientLamp" : {
 		"types" : {
 			"ancientLamp" : {
-				"object" : {
-					"rmg" : {
-						"zoneLimit" : 0
-					}
+				"rmg" : {
+					"zoneLimit" : 0
 				}
 			}
 		}

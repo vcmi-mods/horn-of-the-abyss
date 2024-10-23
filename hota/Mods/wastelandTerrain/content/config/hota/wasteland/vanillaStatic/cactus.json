@@ -58,7 +58,7 @@
 						"mask" : [ "V","B" ],
 						"allowedTerrains": [ "wasteland" ]
 					},
-					"AVLca090" : {
+					"wtAVLca090" : {
 						"animation" : "AVLca090",
 						"mask" : [ "V","B" ],
 						"allowedTerrains": [ "wasteland" ]
