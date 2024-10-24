@@ -6,9 +6,10 @@
 	"contact" : "https://slack.vcmi.eu/",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.2.1",
+	"version" : "1.2.2",
 	"changelog" :
 	{
+		"1.2.2"   : [ "Obstacle fix" ],
 		"1.2.1"   : [ "Small fixes in decorative objects" ],
 		"1.0.0"   : [ "Initial release" ]
 	},

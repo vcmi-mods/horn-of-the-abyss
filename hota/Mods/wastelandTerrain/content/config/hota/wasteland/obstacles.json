@@ -18,8 +18,7 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD00.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD01" : {
 		"allowedTerrains" : ["wasteland"],
@@ -28,8 +27,7 @@
 		"height" : 3,
 		"blockedTiles" :  [-33, -34],
 		"animation" : "hota/wasteland/obstacles/ObWLD01.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD02" : {
 		"allowedTerrains" : ["wasteland"],
@@ -38,8 +36,7 @@
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
 		"animation" : "hota/wasteland/obstacles/ObWLD02.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD03" : {
 		"allowedTerrains" : ["wasteland"],
@@ -48,8 +45,7 @@
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
 		"animation" : "hota/wasteland/obstacles/ObWLD03.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD04" : {
 		"allowedTerrains" : ["wasteland"],
@@ -58,8 +54,7 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD04.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD05" : {
 		"allowedTerrains" : ["wasteland"],
@@ -68,8 +63,7 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD05.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD06" : {
 		"allowedTerrains" : ["wasteland"],
@@ -78,8 +72,7 @@
 		"height" : 3,
 		"blockedTiles" :  [1],
 		"animation" : "hota/wasteland/obstacles/ObWLD06.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD07" : {
 		"allowedTerrains" : ["wasteland"],
@@ -97,8 +90,7 @@
 		"height" : 3,
 		"blockedTiles" :  [-32, -33, -34, -35],
 		"animation" : "hota/wasteland/obstacles/ObWLD08.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD09" : {
 		"allowedTerrains" : ["wasteland"],
@@ -107,8 +99,7 @@
 		"height" : 3,
 		"blockedTiles" :  [-33, -34],
 		"animation" : "hota/wasteland/obstacles/ObWLD09.def",
-		"absolute" : false,
-    		"foreground" : true
+		"absolute" : false
 	},
 	"hotaWLD10" : {
 		"allowedTerrains" : ["wasteland"],
