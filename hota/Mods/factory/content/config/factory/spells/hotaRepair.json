@@ -39,7 +39,7 @@
 		},
 
 		"sounds": {
-			"cast": "ANIMDEAD"
+			"cast": "factory/spells/Repair.wav"
 		},
  
 		"levels":

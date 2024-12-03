@@ -4,7 +4,9 @@
             "factoryLevel1" : {
                 "name" : "Halfling Adobe",
                 "creatures" : [[ "halfling" ]],
-
+                "sounds": {
+					"ambient": ["factory/map/dwellings/LOOPHALF.wav"]
+				},
                 "templates" : {
                     "default" : {
                         "animation" : "factory/map/dwellings/AVG2half",
@@ -63,6 +65,9 @@
                 "guards" : [
                     { "amount" : 6, "type" : "gunslinger" }
                 ],
+                "sounds": {
+					"ambient": ["factory/map/dwellings/LOOPGUNS.wav"]
+				},
                 "templates" : {
                     "default" : {
                         "animation" : "factory/map/dwellings/AVGguns",
@@ -76,6 +81,9 @@
                 "guards" : [
                     { "amount" : 3, "type" : "hotaCouatl" }
                 ],
+                "sounds": {
+					"ambient": ["factory/map/dwellings/LOOPCOTL.wav"]
+				},
                 "templates" : {
                     "default" : {
                         "animation" : "factory/map/dwellings/AVGcoatl",

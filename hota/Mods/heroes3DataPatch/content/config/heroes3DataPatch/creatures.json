@@ -1,0 +1,13 @@
+{
+	"core:goldGolem" :
+	{
+		"sound" :
+		{
+			"attack": "GGLMATTK.wav",
+			"defend": "GGLMDFND.wav",
+			"killed": "GGLMDETH.wav",
+			"move": "GGLMMOVE.wav",
+			"wince": "GGLMWNCE.wav"
+		}
+	}
+}

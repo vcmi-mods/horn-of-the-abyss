@@ -15,7 +15,8 @@
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["hota/highlands/JUNKVIST"]
+					"visit" : ["hota/highlands/JUNKVIST"],
+					"ambient" : ["hota/highlands/LOOPJUNK"]
 				},
 				"templates" : {
 					"AVXjnkmn" : {

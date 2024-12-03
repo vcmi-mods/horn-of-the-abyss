@@ -21,8 +21,13 @@
 		"config/heroes3DataPatch/structures.json",
 		"config/heroes3DataPatch/boats.json"
 	],
+	"creatures" :
+	[
+		"config/heroes3DataPatch/creatures.json"
+	],
 	"objects" :
 	[
-		"config/heroes3DataPatch/objects.json"
+		"config/heroes3DataPatch/objects.json",
+		"config/heroes3DataPatch/dwellings"
 	]
 }
