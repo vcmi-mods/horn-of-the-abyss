@@ -65,6 +65,13 @@
 			"translation/mapObjects/ukrainian.json"
 		]
 	},
+	"polish" : {
+	"name" : "Nowe objekty",
+	"description" : "Mod dodaje wiele nowych objektów dodanych przez HotA Crew do VCMI, dostępnych na mapach losowych",
+		"translations" : [
+			"translation/mapObjects/polish.json"
+		]
+	},
 	"settings" : {
 		"combat": {
 			"layouts" : {

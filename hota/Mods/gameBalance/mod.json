@@ -70,6 +70,13 @@
 			"translation/czech.json"
 		]
 	},
+	"polish" : {
+		"name" : "Balans gry",
+		"description" : "Balans gry stworzony przez HotA Crew dla dodatku Horn of The Abyss",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
 	"ukrainian" : {
 		"name" : "Ігровий Баланс",
 		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss",
