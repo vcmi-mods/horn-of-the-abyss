@@ -9,7 +9,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/waterfall",
+						"animation" : "hota/cove/mapObjects/dwellings/NIMPHFO",
 						"mask" : [ "VVV", "VVV", "VBA" ]
 					}
 				}
@@ -22,7 +22,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/shack",
+						"animation" : "hota/cove/mapObjects/dwellings/SWSHCAMP",
 						"mask" : [ "VVV", "VBV", "VAB" ]
 					}
 				}
@@ -35,7 +35,7 @@
 				},
 				"templates" : {
 					"default" : {	
-						"animation" : "hota/cove/mapObjects/dwellings/frigate",
+						"animation" : "hota/cove/mapObjects/dwellings/FREGAT",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -48,7 +48,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/nest",
+						"animation" : "hota/cove/mapObjects/dwellings/NESTAS",
 						"mask" : [ "VVV", "VBB", "VBA" ]
 					}
 				}
@@ -62,7 +62,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/tower",
+						"animation" : "hota/cove/mapObjects/dwellings/TOWERZA",
 						"mask" : [ "VV", "VV", "VVVV", "VVV", "BA" ]
 					}
 				}
@@ -90,7 +90,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/whirpool",
+						"animation" : "hota/cove/mapObjects/dwellings/HASPHTPL",
 						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAB" ]
 					}
 				}
@@ -123,7 +123,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/cove/mapObjects/dwellings/whirpoolLarge.DEF",
+						"animation" : "hota/cove/mapObjects/dwellings/HASPWTPL.DEF",
 						"mask" : [ "VVVV", "VVVV", "VBBB", "VBAB" ]
 					}
 				}
