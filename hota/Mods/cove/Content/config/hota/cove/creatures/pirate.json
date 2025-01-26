@@ -35,9 +35,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/pirate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/pirate.png",
-			"map" : "hota/cove/creatures/adventureMap/pirate.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWPIRAT.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/pirate.def",
+			"animation" : "hota/cove/creatures/battle/CPIRATE.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -45,7 +45,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "hota/cove/creatures/battle/projectile/pirate.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/PPIRATE.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {

@@ -47,9 +47,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seaserpent.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaserpent.png",
-			"map" : "hota/cove/creatures/adventureMap/seaserpent.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWSERPE.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/seaserpent.def",
+			"animation" : "hota/cove/creatures/battle/cserpent.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

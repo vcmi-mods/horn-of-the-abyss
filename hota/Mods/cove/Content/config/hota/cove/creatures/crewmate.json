@@ -28,9 +28,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/crewmate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/crewmate.png",
-			"map" : "hota/cove/creatures/adventureMap/crewmate.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWSEADG.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/crewmate.def",
+			"animation" : "hota/cove/creatures/battle/CSEADOG.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

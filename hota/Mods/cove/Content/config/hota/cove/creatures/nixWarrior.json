@@ -31,9 +31,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/nixWarrior.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nixWarrior.png",
-			"map" : "hota/cove/creatures/adventureMap/nixWarrior.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWNIXUP.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/nixWarrior.def",
+			"animation" : "hota/cove/creatures/battle/CNIXWARR.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

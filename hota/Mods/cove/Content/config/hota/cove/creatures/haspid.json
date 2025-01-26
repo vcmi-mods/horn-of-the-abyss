@@ -52,9 +52,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/haspid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/haspid.png",
-			"map" : "hota/cove/creatures/adventureMap/haspid.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWHASPI.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/haspid.def",
+			"animation" : "hota/cove/creatures/battle/chaspid.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
