@@ -43,7 +43,7 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/sorceress.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/sorceress.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWSORCSS.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWSORCS.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"animation" : "hota/cove/creatures/battle/CSORCSS.def",
 			"animationTime" : {

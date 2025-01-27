@@ -34,7 +34,7 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/stormbird.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/stormbird.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWASSIDUP.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWASSUP.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"animation" : "hota/cove/creatures/battle/CASSIDUP.def",
 			"animationTime" : {
