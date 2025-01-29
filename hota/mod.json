@@ -5,9 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.60",
+	"version" : "1.7.62",
 	"changelog" : 
 	{
+		"1.7.62"  : [ "Necromancy Amplifier nerf in Game Balance submod", "Watering Place now can be visited once per day" ],
+		"1.7.61"  : [ "New Factory commander's graphics by Kurek" ],
 		"1.7.60"  : [ "Fixed typo in Russian translation" ],
 		"1.7.59"  : [ "Updated Polish translation", "Updated Czech translation", "Fixed loading bar in map loading screen", "Improved various descriptions" ],
 		"1.7.58"  : [ "Balfour Interference hotfix and add Zilare to the heroes who have a second secondary skill replaced with Interference" ],

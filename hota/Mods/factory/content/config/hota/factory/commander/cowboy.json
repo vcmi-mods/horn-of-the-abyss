@@ -55,16 +55,16 @@
 		},
 		"graphics" :
 		{
-			"animation": "hota/factory/creatures/battle/CBOUNTHT.def",
-			"map": "hota/factory/creatures/adventureMap/AVWbhun.def",
+			"animation": "hota/factory/creatures/battle/COWBOY.def",
+			"map": "hota/factory/creatures/adventureMap/AVWcwby.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS012F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL012F.bmp",
+			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS000F",
+			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL000F",
       "timeBetweenFidgets": 1,
 			"animationTime" :
 			{
 				"walk" : 1.00,
-				"idle" : 12.00,
+				"idle" : 9.00,
 				"attack" : 1.00
 			},
 			"missile" : {
@@ -78,17 +78,19 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "PHALF.DEF",
+				"projectile" : "hota/factory/creatures/battle/projectile/COWBOYPROJECTILE.def",
 			}
 		},
 		"sound" :
 		{
-			"attack": "hota/factory/creatures/gunslinger/GUNSATTK.wav",
-			"defend": "hota/factory/creatures/gunslinger/GUNSDFND.wav",
-			"killed": "hota/factory/creatures/gunslinger/GUNSKILL.wav",
-			"move": "hota/factory/creatures/gunslinger/GUNSMOVE.wav",
-			 "shoot": "hota/factory/creatures/gunslinger/GUNSSHOT.wav",
-			"wince": "hota/factory/creatures/gunslinger/GUNSWNCE.wav"
+			"attack": "hota/factory/creatures/cowboy/COWBOYATTK.wav",
+			"defend": "hota/factory/creatures/cowboy/COWBOYDFND.wav",
+			"killed": "hota/factory/creatures/cowboy/COWBOYKILL.wav",
+			"move": "hota/factory/creatures/cowboy/COWBOYMOVE.wav",
+			"shoot": "hota/factory/creatures/cowboy/COWBOYSHOOT.wav",
+			"wince": "hota/factory/creatures/cowboy/COWBOYWNCE.wav",
+			"startMoving" : "hota/factory/creatures/cowboy/COWBOYEXT1.wav",
+			"endMoving" : "hota/factory/creatures/cowboy/COWBOYEXT2.wav"
 		}
 	}
 }

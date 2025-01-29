@@ -25,7 +25,7 @@
 				"canRefuse": true,
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 7,
+					"period" : 1,
 					"visitors" : true
 				},
 				"templates" : {
