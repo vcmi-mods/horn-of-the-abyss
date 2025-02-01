@@ -78,6 +78,13 @@
 			"translation/polish.json"
 		]
 	},
+	"swedish" : {
+		"name" : "Spelbalans",
+		"description" : "Förbättrad spelbalans av HotA-teamet för expansionen 'Horn of The Abyss'",
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
 	"ukrainian" : {
 		"name" : "Ігровий Баланс",
 		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss",
