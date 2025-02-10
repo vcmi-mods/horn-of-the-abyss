@@ -19,7 +19,10 @@
 	
 	"chinese" : {
 		"name" : "地图物体",
-		"description" : "模组将HotA团队添加的多个新物体引入VCMI，并在随机地图上可用。"
+		"description" : "模组将HotA团队添加的多个新物体引入VCMI，并在随机地图上可用。",
+		"translations" : [
+			"translation/mapObjects/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Nové objekty",
