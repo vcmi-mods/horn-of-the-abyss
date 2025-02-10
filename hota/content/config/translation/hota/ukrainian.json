@@ -792,7 +792,7 @@
 	"mapObject.hota.neutralcreatures.creatureGeneratorCommon.wineyard.name" : "Склад вина",
 	"mapObject.hota.neutralcreatures.creatureGeneratorCommon.ziggurat.name" : "Зикурат",
 	"mapObject.hota.supplementary.creatureBank.guardTower.name" : "Сторожова башта",
-	"mapObject.hota.supplementary.creatureBank.guardTower.onGuarded" : "{Сторожова башта}\r\n\r\nВи поблукали по сторожовому посту і дізналися, що цю вежу охороняють багато стрільців-найманців. Звичайно, вони були найматі давно і назбирали чимало скарбів. Ви хочете увійти сюди, щоб кинути їм виклик?",
+	"mapObject.hota.supplementary.creatureBank.guardTower.onGuarded" : "{Сторожова башта}\r\n\r\nВи поблукали по сторожовому посту і дізналися, що цю вежу охороняють багато стрільців-найманців. Звичайно, вони були найняті давно і назбирали чимало скарбів. Ви хочете увійти сюди, щоб кинути їм виклик?",
 	"mapObject.hota.supplementary.creatureBank.guardTower.onVisited.0" : "{Сторожова башта}\r\n\r\nВи піднялися на цю безлюдну сторожову вежу і виявили, що там немає нічого цінного, крім порожніх ящиків, столів і стільців. Нарешті ви піднялися на вершину вежі, яка була справді чудовою оглядовою точкою.",
 	"mapObject.hota.supplementary.creatureBank.guardTower.rewards.0" : "Увійшовши у вежу, ви знаходите деякі скарби під керівництвом деяких зрадників, і ці зрадники також приєднаються до вашої армії.",
 	"mapObject.hota.supplementary.creatureBank.guardTower.rewards.1" : "Увійшовши у вежу, ви знаходите деякі скарби під керівництвом деяких зрадників, і ці зрадники також приєднаються до вашої армії.",
