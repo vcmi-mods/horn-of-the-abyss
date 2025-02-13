@@ -5,9 +5,10 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.62",
+	"version" : "1.7.63",
 	"changelog" : 
 	{
+		"1.7.63"  : [ "Updated Ukrainian translation" ],
 		"1.7.62"  : [ "Necromancy Amplifier nerf in Game Balance submod", "Watering Place now can be visited once per day" ],
 		"1.7.61"  : [ "New Factory commander's graphics by Kurek" ],
 		"1.7.60"  : [ "Fixed typo in Russian translation" ],
@@ -115,7 +116,7 @@
 		"1.4.0"   : [ "Added higlands and wastelands terrains", "reworked Eovacius' specialty", "added two submods" ],
 		"1.3.5"   : [ "New features (Interference, new artifacts, Steel Golems)" ],
 		"1.3.22"  : [ "New hero specialty format" ],
-		"1.3.21"  : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ],
+		"1.3.21"  : [ "Added Cannon war machine", "Fixed creature sounds", "Added Ironfist of the Ogre artifact", "Added HotA fonts", "Small fixes" ]
 	},
 	"compatibility" :
 	{
