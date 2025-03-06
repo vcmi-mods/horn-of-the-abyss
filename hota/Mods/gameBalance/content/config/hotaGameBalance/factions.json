@@ -1,4 +1,34 @@
 {
+	"core:castle" :
+	{	
+		"town" :
+		{
+			"buildings" :
+			{	
+				"special2" : {
+				   "configuration" : {
+					   "rewards" : [
+						   {
+							   "bonuses" : [
+								   {
+									   "duration" : "ONE_WEEK",
+									   "stacking" : "stables",
+									   "subtype" : "heroMovementLand",
+									   "type" : "MOVEMENT",
+									   "val" : 300,
+									   "valueType" : "ADDITIVE_VALUE"
+								   }
+							   ],
+							   "message" : "@core.genrltxt.580",
+							   "movePoints" : 300
+						   }
+					   ],
+					   "visitMode" : "bonus"
+				   }
+			   }
+			}
+		}
+	},	
 	"core:tower" :
 	{
 		"town" :
@@ -131,7 +161,7 @@
 			{	
 				"dwellingUpLvl1": 
 				{ 
-					"requires" : [ "allOf", [ "mageGuild1" ], ["special2"] ]
+					"requires" : [ "allOf", [ "mageGuild1" ], ["horde1"] ]
 				},
 				"dwellingLvl7": 
 				{ 

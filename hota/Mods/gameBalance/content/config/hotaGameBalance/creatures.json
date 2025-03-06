@@ -62,5 +62,18 @@
 	"core:fairieDragon" :
 	{
 		"aiValue" :30501
-	}
+	},
+      "core:lizardman":
+	{
+		"fightValue" : 137,
+		"aiValue" : 151
+		
+	},
+	
+      "core:lizardWarrior":
+	{
+		"fightValue" : 174,
+		"aiValue" : 209
+		
+	},
 }
