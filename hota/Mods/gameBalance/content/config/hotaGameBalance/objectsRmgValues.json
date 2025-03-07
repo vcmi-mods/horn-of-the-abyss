@@ -159,6 +159,12 @@
 				"rmg" : {
 					"zoneLimit" : 0
 				}
+			},
+			"impCache" :
+			{		
+				"rmg" : {
+					"value" : 1500
+				}
 			}
 		}
 	},

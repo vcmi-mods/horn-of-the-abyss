@@ -8,7 +8,7 @@
                     "base" : {
                         "animation" : "hota/map/avcnbksm",
                         "visitableFrom" : [ "+++", "+-+", "+++" ], 
-                        "mask" : [ "VVVV", "VBBV", "BBBB", "VBAB"]
+                        "mask" : [ "VVVV", "VVVV", "VVBV", "VBBA"]
                     }
                 },
                 "rmg" : {

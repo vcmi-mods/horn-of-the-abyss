@@ -5,10 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.2.001",
+	"version" : "1.7.2701",
 	"changelog" : 
 	{
-		"1.7.2.001"  : [ "Fixed version number to respect correctly HotA version" ],
+		"1.7.7.001"  : [ "Fixed version number to respect correctly HotA version" ],
+		"1.7.64"     : [ "Updated Game Balance submod with 1.7 changes by wnukos" ],
 		"1.7.63"     : [ "Updated Ukrainian translation" ],
 		"1.7.62"     : [ "Necromancy Amplifier nerf in Game Balance submod", "Watering Place now can be visited once per day" ],
 		"1.7.61"     : [ "New Factory commander's graphics by Kurek" ],
@@ -172,7 +173,7 @@
 		]
 	},
 	"russian" : {
-		"name" : "Horn of the Abyss / Рог бездны",
+		"name" : "Horn of the Abyss / Рог Бездны",
 		"description" : "Дополнение от Hota Crew, портированное на движок VCMI",
 		"translations" : [
 			"config/translation/hota/russian.json"

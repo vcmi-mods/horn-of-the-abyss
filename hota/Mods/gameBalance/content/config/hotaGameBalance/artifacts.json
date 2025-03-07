@@ -75,5 +75,22 @@
 		"text" : {
 			"description" : "{Cloak of the Undead King}\n\n15% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.\nBasic: Zombies\nAdvanced: Wights\nExpert:\nLiches"
 		}
+	},
+	"core:angelicAlliance":
+	{
+		"bonuses" : [
+			{
+				"type" : "MORALE",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"limiters": [ {
+					"type":"CREATURE_ALIGNMENT_LIMITER",
+					"parameters": [ "evil" ]
+				} ]
+			}
+		],
+		"text" : {
+			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, and Factory Horn of the Abyss creatures to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
+		}
 	}
 }
