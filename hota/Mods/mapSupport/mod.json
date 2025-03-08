@@ -13,6 +13,7 @@
 		"hota.cannon",
 		"hota.confluxvaultofashes",
 		"hota.cove",
+		"hota.factory",
 		"hota.heroes",
 		"hota.interference",
 		"hota.mapobjects",
@@ -41,13 +42,18 @@
 				"iconIndex" : 5,
 				
 				"factions" : {
-					"cove" : 9
+					"cove" : 9,
+					"factory" : 10
 				},
 				"buildings" : {
 					"cove" : {
-						"special3" : 18, // thievesGuild
-						"special4" : 19, // grotto
+						"special3" : 		18, // thievesGuild
+						"special4" : 		19, // grotto
 						"dwellingUp2Lvl3" : 20
+					},
+					"factory" : {
+						"dwellingLvl8" : 	21, //factory dreadnoght
+						"dwellingUpLvl8" : 	22  //factory juggernought
 					}
 				},
 				"creatures" : {
@@ -71,13 +77,30 @@
 					"satyr" : 167,
 					"fangarm" : 168,
 					"leprechaun" : 169,
-					"steelGolem" : 170
+					"steelGolem" : 170,
+//factory					
+					"halflingGrenadier" : 171,
+					"hotaMechanic" : 172,
+					"hotaEngineer" : 173,
+					"armadillo" : 174,
+					"bellwetherArmadillo" : 175,
+					"automaton" : 176,
+					"sentinelAutomaton" : 177,
+					"sandworm" : 178,
+					"olgoiKhorkhoi" : 179,
+					"gunslinger" : 180,
+					"bountyHunter" : 181,
+					"hotaCouatl" : 182,
+					"crimsonCouatl" : 183,
+					"hotaDreadnought" : 184,
+					"hotaJuggernaut" : 185
 				},
+				
 				"heroes" : {
 					"01corkes"     : 156,
 					"02jeremy"     : 157,
 					"03illor"      : 158,
-					"05derek"        : 159,
+					"05derek"      : 159,
 					"06leena"      : 160,
 					"07anabel"     : 161,
 					"08cassiopeia" : 162,
@@ -90,19 +113,40 @@
 					"17zilare"     : 169,
 					"18astra"      : 170,
 					"19dargem"     : 171,
-					"10bidley"       : 172,
-					"11tark"         : 173,
+					"10bidley"     : 172,
+					"11tark"       : 173,
 					"04elmore"     : 174,
 					"beatrice"     : 175,
 					"kinkeria"     : 176,
 					"ranloo"       : 177,
-					"giselle"      : 178
+					"giselle"      : 178,
+				//factory
+					"01henrietta"  : 179,
+					"02sam" 	   : 180,
+					"03tancred"    : 181,
+					"04melchior"   : 182,
+					"05floribert"  : 183,
+					"06wynona"     : 184,
+					"07dury" 	   : 185,
+					"08morton"     : 186,
+					"11celestine"  : 187,
+					"12todd"       : 188,
+					"13agar"       : 189,
+					"14bertram"    : 190,
+					"15wrathmont"  : 191,
+					"16ziph"       : 192,
+					"17victoria"   : 193,
+					"18eanswythe"  : 194,
+					"19frederick"   : 195,
+					"09tavin" 	   : 196,
+					"10murdoch"    : 197
 				},
+					
 				"portraits" : {
 					"01corkes"     : 163,
 					"02jeremy"     : 164,
 					"03illor"      : 165,
-					"05derek"        : 166,
+					"05derek"      : 166,
 					"06leena"      : 167,
 					"07anabel"     : 168,
 					"08cassiopeia" : 169,
@@ -115,13 +159,34 @@
 					"17zilare"     : 176,
 					"18astra"      : 177,
 					"19dargem"     : 178,
-					"10bidley"       : 179,
-					"11tark"         : 180,
+					"10bidley"     : 179,
+					"11tark"       : 180,
 					"04elmore"     : 181,
 					"beatrice"     : 182,
 					"kinkeria"     : 183,
 					"ranloo"       : 184,
-					"giselle"      : 186
+					"giselle"      : 186,
+				//factory	
+					"01henrietta"  : 187,
+					"02sam" 	   : 188,
+					"03tancred"    : 189,
+					"04melchior"   : 190,
+					"05floribert"  : 191,
+					"06wynona"     : 192,
+					"07dury"       : 193,
+					"08morton"     : 194,
+					"11celestine"  : 195,
+					"12todd"       : 196,
+					"13agar"       : 197,
+					"14bertram"    : 198,
+					"15wrathmont"  : 199,
+					"16ziph"       : 200,
+					"17victoria"   : 201,
+					"18eanswythe"  : 202,
+					"19frederick"  : 203,
+					//nothing
+					"09tavin"      : 207,
+					"10murdoch"    : 208					
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
@@ -145,11 +210,16 @@
 					//"hornOfTheAbyss" : 161,
 					"charmOfEclipse" : 162,
 					"sealOfSunset" : 163,
-					"plateOfDyingLight" : 164
+					"plateOfDyingLight" : 164,
+					
+					"sleepkeeper" : 165
 				},
 				"heroClasses" : {
 					"captain" : 18,
-					"navigator" : 19
+					"navigator" : 19,
+					
+					"mercenary" : 20,
+					"artificer" : 21
 				},
 				"skills" : {
 					"interference" : 28
@@ -159,7 +229,6 @@
 					"wasteland" : 11
 				},
 				"objects" : {
-
 					// Unique interactive objects
 					"miniHillFort" : [35, 1],
 					"schoolOfMagic" : [47, 1],
@@ -195,7 +264,7 @@
 
 					// Common interactive objects
 					"boat" : {
-						"boatCove" : [8, 3],
+						"boatCove" :    [8, 3],
 						"boatNeutral" : [8, 4],
 						"boatConflux" : [8, 5]
 					},
@@ -231,39 +300,48 @@
 						"whirpool" : [17, 98],
 						"wineyard" : [17, 100],
 						"ziggurat" : [17, 101],
-						"alehouse" : [17, 102]
+						"alehouse" : [17, 102],
+						
+						"factoryLevel1" :   [17, 103],
+						"factoryLevel2" :   [17, 104],
+						"factoryLevel3" :   [17, 105],
+						"factoryLevel4" :   [17, 106],
+						"factoryLevel5" :   [17, 107],
+						"factoryLevel6" :   [17, 108],
+						"factoryLevel7" :   [17, 109],
+						"factoryLevel7-2" : [17, 110]				
 					},
 					"creatureGeneratorSpecial" : {
 						"whirpoolLarge" : [17, 91],
-						"nixFortLarge" : [17, 99]
+						"nixFortLarge" :  [17, 99]
 					},
 					"warehouses" : {
-						"woodWarehouse" : [142, 0],
+						"woodWarehouse" :    [142, 0],
 						"mercuryWarehouse" : [142, 1],
-						"oreWarehouse" : [142, 2],
-						"sulfurWarehouse" : [142, 3],
+						"oreWarehouse" :     [142, 2],
+						"sulfurWarehouse" :  [142, 3],
 						"crystalWarehouse" : [142, 4],
-						"gemsWarehouse" : [142, 5],
-						"goldWarehouse" : [142, 6]
+						"gemsWarehouse" :    [142, 5],
+						"goldWarehouse" :    [142, 6]
 					},
 					"monolithTwoWay" : {
-						"hotaPortalWaterWhite" : [45,8],
-						"hotaMonolithsPink" : [45,9],
+						"hotaPortalWaterWhite" :   [45,8],
+						"hotaMonolithsPink" :      [45,9],
 						"hotaMonolithsTurquoise" : [45,10],
-						"hotaMonolithsYellow" : [45,11],
-						"hotaMonolithsBlack" : [45,12],
-						"hotaPortalChartreuse" : [45,13],
-						"hotaPortalTurquoise" : [45,14],
-						"hotaPortalViolet" : [45,15],
-						"hotaPortalOrange" : [45,16],
-						"hotaMonolithsBlue" : [45,17],
-						"hotaMonolithsRed" : [45,18],
-						"hotaPortalPink" : [45,19],
-						"hotaPortalBlue" : [45,20],
-						"hotaPortalWaterRed" : [45,21],
-						"hotaPortalWaterBlue" : [45,22],
-						"hotaPortalWaterGreen" : [45,23],
-						"hotaPortalWaterYellow" : [45,24]
+						"hotaMonolithsYellow" :    [45,11],
+						"hotaMonolithsBlack" :     [45,12],
+						"hotaPortalChartreuse" :   [45,13],
+						"hotaPortalTurquoise" :    [45,14],
+						"hotaPortalViolet" :       [45,15],
+						"hotaPortalOrange" :       [45,16],
+						"hotaMonolithsBlue" :      [45,17],
+						"hotaMonolithsRed" :       [45,18],
+						"hotaPortalPink" :         [45,19],
+						"hotaPortalBlue" :         [45,20],
+						"hotaPortalWaterRed" :     [45,21],
+						"hotaPortalWaterBlue" :    [45,22],
+						"hotaPortalWaterGreen" :   [45,23],
+						"hotaPortalWaterYellow" :  [45,24]
 					},
 					
 					// Terrain overlays
@@ -723,15 +801,15 @@
 					"hota/cove/creatures/adventureMap/AVWNIXUP.def" : "AVWNIXUP.def",
 					"hota/cove/creatures/adventureMap/AVWSERPE.def" : "AVWSERPE.def",
 					"hota/cove/creatures/adventureMap/AVWHASPI.def" : "AVWHASPI.def",
-					"hota/cove/mapObjects/dwellings/NIMPHFO.def" : "nimphfo.def",
-					"hota/cove/mapObjects/dwellings/SWSHCAMP.def" : "swshcamp.def",
-					"hota/cove/mapObjects/dwellings/FREGAT.def" : "fregat.def",
-					"hota/cove/mapObjects/dwellings/NESTAS.def" : "nestas.def",
-					"hota/cove/mapObjects/dwellings/TOWERZA.def" : "towerza.def",
+					"hota/cove/mapObjects/dwellings/nimphfo.def" : "nimphfo.def",
+					"hota/cove/mapObjects/dwellings/swshcamp.def" : "swshcamp.def",
+					"hota/cove/mapObjects/dwellings/fregat.def" : "fregat.def",
+					"hota/cove/mapObjects/dwellings/nestas.def" : "nestas.def",
+					"hota/cove/mapObjects/dwellings/towerza.def" : "towerza.def",
 					"hota/cove/mapObjects/dwellings/FORTNIX.DEF" : "fortnix.def",
 					"hota/cove/mapObjects/dwellings/FORTNIXR.def" : "fortnixr.def",
-					"hota/cove/mapObjects/dwellings/HASPHTPL.def" : "hasphtpl.def",
-					"hota/cove/mapObjects/dwellings/HASPWTPL.def" : "haspwtpl.def",
+					"hota/cove/mapObjects/dwellings/hasphtpl.def" : "hasphtpl.def",
+					"hota/cove/mapObjects/dwellings/haspwtpl.def" : "haspwtpl.def",
 					"hota/warehouses/avwrhscr.def" : "avwrhscr.def",
 					"hota/warehouses/avwrhsgl.def" : "avwrhsgl.def",
 					"hota/warehouses/avwrhsgm.def" : "avwrhsgm.def",
