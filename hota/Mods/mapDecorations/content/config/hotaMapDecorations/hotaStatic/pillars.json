@@ -102,7 +102,7 @@
 						"allowedTerrains": ["sand"]
 					},
 					"AVLcoM08" : {
-						"animation" : "hota/pillars/AVLcoM07",
+						"animation" : "hota/pillars/AVLcoM08",
 						"mask" : ["VVVV","VVVV","VVVV","VVBB"],
 						"allowedTerrains": ["sand"]
 					},

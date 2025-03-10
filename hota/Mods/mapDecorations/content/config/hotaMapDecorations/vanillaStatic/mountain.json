@@ -51,7 +51,35 @@
 					"MNTSWP06" : { "animation" : "hota/mountains/MNTSWP06", 
 						"mask" : [ "VBBBBV","VBBBBV","VBBBBB","VVVBBB" ],
 						"allowedTerrains": [ "swamp" ]
-					}					
+					},
+					"AvLMtFr1" : { "animation" : "hota/mountains/AvLMtFr1", 
+						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr2" : { "animation" : "hota/mountains/AvLMtFr2", 
+						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr3" : { "animation" : "hota/mountains/AvLMtFr3", 
+						"mask" : [ "VVVV","VBBB","VBBV" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr4" : { "animation" : "hota/mountains/AvLMtFr4", 
+						"mask" : [ "VVVV","VBBB","VVBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr5" : { "animation" : "hota/mountains/AvLMtFr5", 
+						"mask" : [ "VVVV","VVBB","VBBV" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr6" : { "animation" : "hota/mountains/AvLMtFr6", 
+						"mask" : [ "VVVV","VBBV","VVBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AvLMtFr7" : { "animation" : "hota/mountains/AvLMtFr7", 
+						"mask" : [ "VVVV","VVVV","VBBB","VBBB" ],
+						"allowedTerrains": [ "lava" ]
+					}				
 				}
 			}
 		}	

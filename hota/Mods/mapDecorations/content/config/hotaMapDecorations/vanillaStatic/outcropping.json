@@ -1,0 +1,14 @@
+{
+	"core:outcropping" : {
+		"types" : {
+			"object" : {
+				"templates" : {			
+					"AvLVoTr1" : { "animation" : "hota/outcropping/AvLVoTr1", 
+						"mask" : [ "BB" ],
+						"allowedTerrains": [ "lava" ]
+					}
+				}
+			}
+		}
+	}
+}
