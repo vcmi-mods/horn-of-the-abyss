@@ -461,6 +461,13 @@
 					"hota/cove/town/adventureMap/AVCcovf0.def" : "AVCcovf0.def",
 					"hota/cove/town/adventureMap/AVCCOVX0.def" : "AVCCOVX0.def",
 					"hota/cove/town/adventureMap/AVCcovz0.def" : "AVCcovz0.def",
+					
+					"hota/factory/town/adventureMap/citadel.def" : "AVCfacC0.def",
+					"hota/factory/town/adventureMap/village.def" : "AVCfacE0.DEF",
+					"hota/factory/town/adventureMap/AVCfacF0.def" : "AVCfacF0.def",
+					"hota/factory/town/adventureMap/castle.def" : "AVCfacX0.def",
+					"hota/factory/town/adventureMap/capitol.def" : "AVCfacZ0.def",
+					
 					"hota/dungeon/adventureMap/town/citadel.def" : "AVCdunc0.def",
 					"hota/dungeon/adventureMap/town/AVCdunf0.def" : "AVCdunf0.def",
 					"hota/dungeon/adventureMap/town/castle.def" : "AVCdunx0.def",
@@ -818,7 +825,7 @@
 					"hota/cove/creatures/adventureMap/AVWSERPE.def" : "AVWSERPE.def",
 					"hota/cove/creatures/adventureMap/AVWHASPI.def" : "AVWHASPI.def",
 					
-					"hota/factory/creatures/adventureMap/AVWccoat.def" : "AVWccoat.def",
+					"hota/factory/creatures/adventureMap/AVWcoat.def" : "AVWcoat.def",
 					"hota/factory/creatures/adventureMap/AvWjugg.def" : "AvWjugg.def",
 					"hota/factory/creatures/adventureMap/AvWdred.def" : "AvWdred.def",
 					"hota/factory/creatures/adventureMap/AVWworm.def" : "AVWworm.def",
