@@ -56,10 +56,11 @@
 				"name" : "campaign",
 				"buttons":
 				[
-					{"x": -200, "y": 0,   "name":"camp-sod", "hotkey" : 119, "command": "campaigns sod"},
-					{"x": -200, "y": 120, "name":"camp-roe", "hotkey" : 114, "command": "campaigns roe"},
-					{"x": -200, "y": 240, "name":"camp-ab", "hotkey" : 97,  "command": "campaigns ab"},
-					{"x": -200, "y": 360, "name":"camp-custom", "hotkey" : 99,  "command": "start campaign"},
+					{"x": -200, "y": 0,   "name":"camp-roe", "hotkey" : 119, "command": "campaigns roe"},
+					{"x": -200, "y": 120, "name":"camp-ab", "hotkey" : 114, "command": "campaigns ab"},
+					{"x": -200, "y": 240, "name":"camp-sod", "hotkey" : 97,  "command": "campaigns sod"},
+					{"x": -200, "y": 360, "name":"camp-hota", "hotkey" : 120,  "command": "campaigns hota"},
+					{"x": -340, "y": 483, "name":"camp-custom", "hotkey" : 99,  "command": "start campaign"},
 					{"x": -200, "y": 480, "name":"back", "hotkey" : 27,  "command": "to new"}
 				]
 			}
