@@ -35,16 +35,18 @@
 		],
 		"specialty" : {
 			"bonuses" : {
-				"interference" : {
+				"powerEffect" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.spellpower",
-					"val" : -15,
-					"valueType" : "PERCENT_TO_BASE",
+					"val" : 0,
+					"targetSourceType" : "HERO_BASE_SKILL",
+					"valueType" : "PERCENT_TO_ALL",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
-					   "parameters" : [ 10 ]
+					   "parameters" : [ -30 ]
 					},
-					"propagator": "BATTLE_WIDE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [ "OPPOSITE_SIDE" ]
 				}
 			}

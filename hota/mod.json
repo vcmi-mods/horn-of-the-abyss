@@ -9,6 +9,7 @@
 	"changelog" : 
 	{
 		"1.7.7.001"  : [ "Fixed version number to respect correctly HotA version" ],
+		"1.7.65"     : [ "Fix for Giselle's specialty" ],
 		"1.7.64"     : [ "Updated Game Balance submod with 1.7 changes by wnukos" ],
 		"1.7.63"     : [ "Updated Ukrainian translation" ],
 		"1.7.62"     : [ "Necromancy Amplifier nerf in Game Balance submod", "Watering Place now can be visited once per day" ],
