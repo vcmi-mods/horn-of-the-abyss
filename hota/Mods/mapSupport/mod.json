@@ -270,7 +270,7 @@
 						"boatCove" :    [8, 3],
 						"boatNeutral" : [8, 4],
 						"boatConflux" : [8, 5],
-						"airship" : [8, 100]
+						"airship" : 	[8, 100]
 					},
 					"seerHut" : {
 						"seerHutHota1" : [83, 3],
@@ -280,6 +280,12 @@
 					"questGuard" : {
 						"questGate" : [ 212, 1000]
 					},
+					
+					"prison" : {
+						"prison" : [ 62, 0],
+						"heroCamp" : [ 62, 1]
+					},
+					
 					"creatureBank" : {
 						"beholderSanctuary" : [16, 21],
 						"templeOfTheSea" : [16, 22],
@@ -364,6 +370,8 @@
 					},
 
 					// Static decorations
+					"hotaBushes" : [115, 0],
+					"highlandsBushes" : [115, 0],
 					"stonySphere" : [140, 0],
 					"stone" : [140, 1],
 					"palms" : [140, 2],
@@ -380,6 +388,7 @@
 						"yuccaTrees2" : [204, 0]
 					},
 
+					"plant" : [138, 0],
 					"crate" : [139, 0],
 					"crates" : [139, 1],
 					"sack" : [139, 2],
@@ -407,6 +416,11 @@
 					"puddles" : [139, 24],
 					"rubble" : [139, 25],
 					"limestonePuddles" : [139, 26],
+					"reedGrass" : [139, 28],
+					"wastelandsFissures" : [139, 29],
+					"fissures" : [139, 29],
+					"predatoryPlant" : [140, 11],
+					"hotaMaples" : [140, 12],
 					
 					"airshipYard" : [87, 1]
 				},
@@ -881,6 +895,8 @@
 					"hota/cove/mapObjects/boats/AVXboat4.def" : "AVXboat4.def",
 					"hota/boats/AVXboat5.def" : "AVXboat5.def",
 					"hota/boats/AVXboat6.def" : "AVXboat6.def",
+					"hota/boats/avxbtcmp.def" : "avxbtcmp.def",
+					"hota/boats/avxbtrnd.def" : "avxbtrnd.def",
 					"hota/denOfThieves/avxdens0.def" : "AvXDenS0.def",
 					"hota/highlands/hotaInteractive/gazebo/avxgazeb.def" : "AVXgazeb.def",
 					"hota/wasteland/hotaInteractive/grave/avxgravw.def" : "avxgravw.def",
