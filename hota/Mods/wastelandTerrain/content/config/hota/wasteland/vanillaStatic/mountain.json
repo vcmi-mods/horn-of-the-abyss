@@ -32,12 +32,22 @@
 						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL6",
 						"mask" : [ "VVVV", "VVBB","VBBV" ],
 						"allowedTerrains": [ "wasteland" ]
-					},
+					}
+				}
+			}
+		}
+	},
+	"wstNaturalArch" : {
+		"handler" : "static",
+		"name" : "Natural Arch",
+		"types" : {
+			"wstNaturalArch" : {
+				"templates" : {
 					"AVLMtWL7" : {
 						"animation" : "hota/wasteland/vanillaStatic/mountains/AVLMtWL7",
 						"mask" : [ "VVVV", "VVVV","VBVB" ],
 						"allowedTerrains": [ "wasteland" ]
-					}
+					}			
 				}
 			}
 		}

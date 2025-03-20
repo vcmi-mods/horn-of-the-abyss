@@ -67,5 +67,28 @@
 				}
 			}
 		}
-	}
+	},
+	
+	"willowTrees" : {
+		"handler" : "static",
+		"name" : "Willow Trees",
+		"types" : {
+			"willowTrees" : {
+				"templates" : {
+					"AVLwlw10" : { "animation" : "AVLwlw10", 
+						"mask" : ["VVV","BBB"], 
+						"allowedTerrains": [ "grass" ]
+					},
+					"AVLwlw20" : { "animation" : "AVLwlw20", 
+						"mask" : ["VV","BB"], 
+						"allowedTerrains": [ "grass" ]
+					},
+					"AVLwlw30" : { "animation" : "AVLwlw30", 
+						"mask" : ["V","B"], 
+						"allowedTerrains": [ "grass" ]
+					}				
+				}
+			}
+		}
+	}	
 }

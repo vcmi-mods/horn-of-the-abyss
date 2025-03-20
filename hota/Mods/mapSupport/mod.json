@@ -370,8 +370,13 @@
 					},
 
 					// Static decorations
+					"highlandsBrushes" : [114, 0],
 					"hotaBushes" : [115, 0],
 					"highlandsBushes" : [115, 0],
+					"hotaHedges" : [122, 0],
+					"rubble" : [139, 25],
+					"pillars" : [139, 27],
+					"stele" : [139, 31],
 					"stonySphere" : [140, 0],
 					"stone" : [140, 1],
 					"palms" : [140, 2],
@@ -381,6 +386,8 @@
 					"barchanDunes" : [140, 6],
 					"spruces" : [140, 7],
 					"limestoneLake" : [140, 8],
+					"sandWalls" : [140, 9],
+					"sandStairs" : [140, 10],
 					"tarPit" : [154, 0],
 					
 					"yuccaTrees" : {
@@ -400,7 +407,8 @@
 					"chicken" : [139, 8],
 					"rooster" : [139, 9],
 					"bluebottle" : [139, 10],
-					"abandonedHouse" : [139, 11],
+//					"abandonedHouse" : [139, 11],
+					"crumbledCamp" : [139, 11],
 					"abandonedFountains" : [139, 12],
 					"pig" : [139, 13],
 					"ancientAltar" : [139, 14],
@@ -408,20 +416,23 @@
 					"fence" : [139, 16],
 					"waterfalls" : [139, 17],
 					"fire" : [139, 18],
-					"abandonedCamps" : [139, 19],
+					"crumbledEdifice" : [139, 19],
 					"carnivorousPlant" : [139, 20],
 					"bridge" : [139, 21],
 					"bones" : [139, 22],
 					//"sacks" : [139, 23], // unused
 					"puddles" : [139, 24],
-					"rubble" : [139, 25],
 					"limestonePuddles" : [139, 26],
 					"reedGrass" : [139, 28],
 					"wastelandsFissures" : [139, 29],
 					"fissures" : [139, 29],
+					"abandonedHouse" : [139, 30],					
 					"predatoryPlant" : [140, 11],
 					"hotaMaples" : [140, 12],
-					
+					"wstNaturalArch" : [140, 13],
+					"stalagmite" : [152, 0],
+					"volcanicVent" : [157, 0],
+					"willowTrees" : [159, 0],
 					"airshipYard" : [87, 1]
 				},
 				"templates" : {
@@ -522,6 +533,7 @@
 					"hota/stronghold/adventureMap/town/AVCstrf0.def" : "AVCstrf0.def",
 					"hota/stronghold/adventureMap/town/castle.def" : "AVCstrx0.def",
 					"hota/stronghold/adventureMap/town/capitol.def" : "AVCstrz0.def",
+					"hota/stronghold/heroClasses/battlemage/AH13b_E.def" : "AH13b_E",
 					"hota/tower/adventureMap/town/citadel.def" : "AVCtowc0.def",
 					"hota/tower/adventureMap/town/AVCtowf0.def" : "AVCtowf0.def",
 					"hota/tower/adventureMap/town/castle.def" : "AVCtowx0.def",

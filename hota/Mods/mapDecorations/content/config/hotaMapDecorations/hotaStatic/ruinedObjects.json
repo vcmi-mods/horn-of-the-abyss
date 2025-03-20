@@ -41,11 +41,11 @@
 		}
 	},
 	
-	"abandonedCamps" :{
+	"crumbledCamp" :{
 		"handler" : "static",
 		"name" : "Crumbled Camp",
 		"types" : {
-			"abandonedCamps" : {
+			"crumbledCamp" : {
 				"templates" : {
 					"TPDESTR3" : { "animation" : "hota/ruinedObjects/TPDESTR3",
 						"mask" : ["VVV","BBB"],
