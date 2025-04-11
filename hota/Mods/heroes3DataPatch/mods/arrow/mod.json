@@ -20,7 +20,10 @@
         "movement-arrows.hota_yellow",
         "movement-arrows.hota_yellow-orange"
     ],
-
+    "chinese" : {
+		"name" : "英雄移动箭头",
+		"description" : "改变英雄移动箭头样式。"
+	},
 	"czech" : {
 		"name" : "Ukazatel pohybu hrdiny",
 		"description" : "Ukazatel pohybu hrdiny"
