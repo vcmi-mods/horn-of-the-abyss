@@ -21,6 +21,10 @@
 	{
 		"min" : "1.3.0"
 	},
+    	"chinese" : {
+		"name" : "社区扩展",
+		"description" : "这个模组引入了以下新元素：<br/><br/>宝物：<br/>- 末啸之牙<br/>- 神威战弓<br/>- 爬者浩劫<br/>- 空洞之眼<br/><br/>地图物体：<br/>- 哨塔<br/>- 钢魔像工厂<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>其他物体：<br/>- 袋鼠<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>注意：这是由社区创作的非官方内容。"
+	},
 	"czech" : {
 		"name" : "Komunitní rozšíření",
 		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Toto je neoficiální obsah vytvořený komunitou."

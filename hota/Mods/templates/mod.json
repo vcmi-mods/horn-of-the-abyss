@@ -18,6 +18,10 @@
 		"config/hotaNostalgia.json"
 	],
 
+	"chinese" : {
+    "name" : "深渊号角地图模版",
+    "description" : "一些来自深渊号角的地图模版。"
+	},
 	"czech" : {
 		"name" : "Šablony náhodných map",
 		"description" : "Tato modifikace přidává šablony náhodných map z Horn of the Abyss"
