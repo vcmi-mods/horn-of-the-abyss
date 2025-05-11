@@ -5,8 +5,7 @@
 	"author" : "Ivan",
 	"contact" : "",
 	"version" : "1.1",
-	"changelog" :
-	{
+	"changelog" : {
 		"1.0"   : [ "Initial release" ],
 		"1.1"   : [ "Fix Fangarm spell" ]
 	},
@@ -21,16 +20,18 @@
 		"description" : "Tato modifikace přidává nové neutrální jednotky - Chapadlatce, Leprikóny, Satyry a Ocelové golemy"
 	},
 	
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hotaNeutralCreatures/satyr",
 		"config/hotaNeutralCreatures/fangarm",
 		"config/hotaNeutralCreatures/leprechaun",
 		"config/hotaNeutralCreatures/steelGolem",
 		"config/hotaNeutralCreatures/stack_exp"
 	],
-	"objects" : 
-	[ 
+	"objects" : [ 
 		"config/hotaNeutralCreatures/dwellings"
-	]
+	],
+	"polish" : {
+		"name" : "Neutralne jednostki",
+		"description" : "Dodaje nowe jednostki neutralne: Fangarm, Leprekaun, Satyr, Stalowy Golem"
+	}
 }

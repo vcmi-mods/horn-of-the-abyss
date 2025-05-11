@@ -6,12 +6,10 @@
 	"contact" : "",
 	"version" : "1.0",
 	"keepDisabled" : true,
-	"changelog" :
-	{
+	"changelog" : {
 		"1.0" : [ "Initial release" ]
 	},
-	"depends" :
-	[
+	"depends" : [
 		"hota.cove"
 	],
 	"chinese" : {
@@ -22,8 +20,11 @@
 		"name" : "Hrdinové kampaně",
 		"description" : "Tato modifikace odemkne ve hře tyto nové hrdiny z kampaní:<br/><br/>Balfour<br/>Bidley<br/>Tark"
 	},
-	"heroes" :
-	[
+	"heroes" : [
 		"config/hotaCampaignHeroesInMaps.json"
-	]
+	],
+	"polish" : {
+		"name" : "Bohaterowie kampanii Cove na mapach",
+		"description" : "Modyfikacja odblokowuje nowych bohaterów z kampanii:<br/><br/>Balfour<br/>Bidley<br/>Tark"
+	}
 }

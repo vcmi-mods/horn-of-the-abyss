@@ -5,27 +5,27 @@
 	"author": "avatar",
 	"contact": "https://forum.vcmi.eu/",
 	"version" : "1.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.6"
 	},
-	"softDepends" :
-	[
+	"softDepends" : [
 		"vcmi"
 	],
-	"settings":
-	{
-		"towns":
-		{
+	"settings" : {
+		"towns" : {
 			"spellResearch": true
 		}
 	},
 	"chinese" : {
 		"name" : "法术研究",
-		"description" : "这个子mod启用基本的法术研究，以模仿HotA中的类似功能。",
+		"description" : "这个子mod启用基本的法术研究，以模仿HotA中的类似功能。"
 	},
 	"czech" : {
 		"name" : "Výzkum kouzel",
 		"description" : "Tato modifikace aktivuje základní systém výzkumu kouzel ve věži kouzel"
+	},
+	"polish" : {
+		"name" : "Badanie zaklęć",
+		"description" : "Podmoduł włącza podstawowy system badań zaklęć na wzór rozwiązania w HotA"
 	}
 }

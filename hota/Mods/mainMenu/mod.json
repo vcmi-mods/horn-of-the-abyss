@@ -6,8 +6,7 @@
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 
-	"conflicts" :
-	[
+	"conflicts" : [
 		"h3-themes.ab",
 		"h3-themes.beta",
 		"h3-themes.complete",
@@ -43,6 +42,10 @@
 	"czech" : {
 		"name" : "Vzhled hlavního menu",
 		"description" : "Mění vzhled hlavního menu na ikonické menu Horn of the Abyss."
+	},
+	"polish" : {
+		"name" : "Motyw menu głównego",
+		"description" : "Zmienia motyw muzyczny menu głównego na ten z Horn of the Abyss"
 	}
 
 }
