@@ -19,12 +19,10 @@
 		"description" : "Nové město Továrna se steampunkovou tématikou"
 	},
 	
-	"factions" : 
-	[
+	"factions" : [
 		"config/hota/factory/town/town.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hota/factory/creatures/halfling.json",
 		"config/hota/factory/creatures/halflingGrenadier.json",
 		"config/hota/factory/creatures/hotaMechanic.json",
@@ -46,14 +44,12 @@
 		"config/hota/factory/commander/cowboy.json"
 	],
 	
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/hota/factory/heroClasses/mercenary.json",
 		"config/hota/factory/heroClasses/artificer.json"
 	],
 
-	"heroes" :
-	[
+	"heroes" : [
 		"config/hota/factory/heroes/henrietta.json",
 		"config/hota/factory/heroes/sam.json",
 		"config/hota/factory/heroes/tancred.json",
@@ -80,8 +76,7 @@
 		"config/hota/factory/heroes/elderian.json",
 		"config/hota/factory/heroes/umender.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/hota/factory/spells/teslaLightning.json",
 		"config/hota/factory/spells/hotaRepair.json",
 		"config/hota/factory/spells/hotaGrenade.json",
@@ -94,16 +89,13 @@
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json"
 	],
-	 "objects":
-    [
+	 "objects" : [
 		"config/hota/factory/dwellings.json"
     ],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/hota/factory/artifacts/factoryRingOfOblivion"
 	],
-	"changelog" :
-    {
+	"changelog" : {
 		"1.0.0"   : [ "Initial release" ],
 		"1.1.0"	  : [ "Update new creatures and heroes" ],
 		"1.1.1"	  : [ "Update new models of couatls and crimson couatls" ],
@@ -112,5 +104,10 @@
 		"1.1.4"   : [ "Add campaign heroes and dependency of cove" ],
 		"1.1.5"   : [ "Change naming conventions and file directories to fit the cove format" ],
 		"1.1.6"   : [ "New cowboy graphics by Kurek" ]
-    }
+    },
+	
+	"polish" : {
+		"name" : "Fabryka",
+		"description" : "Nowe miasto Fabryka w klimacie steampunkowym"
+	}
 }

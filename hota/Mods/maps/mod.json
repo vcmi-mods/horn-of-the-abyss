@@ -18,5 +18,9 @@
 	"czech" : {
 		"name" : "Mapy",
 		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA"
+	},
+	"polish" : {
+		"name" : "Mapy",
+		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew"
 	}
 }

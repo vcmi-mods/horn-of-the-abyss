@@ -13,12 +13,10 @@
 		"hota.wastelandTerrain",
 		"hota.neutralCreatures" 
 	], 
-	"changelog" :
-	{
+	"changelog" : {
 		"1.0.0"   : [ "Initial release" ]
 	},
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.3.0"
 	},
     	"chinese" : {
@@ -29,15 +27,17 @@
 		"name" : "Komunitní rozšíření",
 		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Toto je neoficiální obsah vytvořený komunitou."
 	},
-	"artifacts" :
-	[
-		"config/hota/supplementary/artifacts/newArtifacts.json",
+	"artifacts" : [
+		"config/hota/supplementary/artifacts/newArtifacts.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/hota/supplementary/newObjects/kangaroo.json",
 		"config/hota/supplementary/newObjects/lightningRod.json",
 		"config/hota/supplementary/newObjects/guardTower.json",
 		"config/hota/supplementary/newObjects/dwellings.json"
-	]
+	],
+	"polish" : {
+		"name" : "Rozszerzenie społeczności",
+		"description" : "Mod wprowadza następujące nowe elementy:<br/><br/>Artefakty:<br/>- Kieł Ostatniego Krzyku<br/>- Wielki Łuk Bitewny<br/>- Wielka Zgroza Pełzaczy<br/>- Puste Oko<br/><br/>Obiekty na mapie:<br/>- Wieża Strażnicza<br/>- Fabryka Stalowych Golemów<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Inne obiekty:<br/>- Kangur<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Uwaga: To nieoficjalna zawartość stworzona przez społeczność."
+	}
 }
