@@ -5,8 +5,9 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.65",
+	"version" : "1.7.66",
 	"changelog" : {
+		"1.7.66"  : [ "Added submod to restore HotA catapult behavior with expert Ballistics", "Polish translation update" ],
 		"1.7.65"  : [ "Fix for Giselle's specialty" ],
 		"1.7.64"  : [ "Updated Game Balance submod with 1.7 changes by wnukos" ],
 		"1.7.63"  : [ "Updated Ukrainian translation" ],
