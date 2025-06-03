@@ -822,7 +822,7 @@
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.1" : "Вы поднимаетесь по куче костей на вершину самой высокой башни, где находите кучу древних монет. У вас также будет время понаблюдать за окружающим ландшафтом.",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.2" : "Вы поднимаетесь по куче костей на вершину самой высокой башни, где находите кучу древних монет. У вас также будет время понаблюдать за окружающим ландшафтом.",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.3" : "Вы поднимаетесь по куче костей на вершину самой высокой башни, где находите кучу древних монет. У вас также будет время понаблюдать за окружающим ландшафтом.",
-	"mapObject.hota.mapobjects.miniHillFort.miniHillFort.description" : "Здесь вы можете модернизировать существ. Улучшения существ уровней с 1 по 5 здесь стоят вдвое дороже, чем в их родном городе.",
-	"mapObject.hota.mapobjects.miniHillFort.miniHillFort.unavailableUpgradeMessage" : "Это здание не может улучшать юниты уровня 6 и выше."
+	"mapObject.hota.mapobjects.miniHillFort.miniHillFort.description" : "Здесь вы можете улучшать существ. Улучшения существ уровней с 1 по 5 здесь стоят вдвое дороже, чем в их родном городе.",
+	"mapObject.hota.mapobjects.miniHillFort.miniHillFort.unavailableUpgradeMessage" : "Это здание не может улучшать юнитов 6 уровня и выше."
 }
 
