@@ -1,10 +1,24 @@
 {
-	"core:volcano" : {
+	"volcanicVent" : {
+		"name" : "Volcanic Vent",
+		"handler": "static",
 		"types" : {
-			"object" : {
+			"volcanicVent" : {
 				"templates" : {
 					"AVLvol60" : { "animation" : "hota/volcano/AVLvol60",
 						"mask" : [ "VVVV","VBBB","VBBB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AVLvol10" : { "animation" : "AVLvol10",
+						"mask" : [ "VV","BB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AVLvol20" : { "animation" : "AVLvol20",
+						"mask" : [ "VV", "BB" ],
+						"allowedTerrains": [ "lava" ]
+					},
+					"AVLvol40" : { "animation" : "AVLvol40",
+						"mask" : [ "VBV","BBB" ],
 						"allowedTerrains": [ "lava" ]
 					}
 				}		

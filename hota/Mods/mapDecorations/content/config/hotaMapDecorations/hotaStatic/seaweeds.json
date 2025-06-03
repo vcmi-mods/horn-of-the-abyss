@@ -1,0 +1,32 @@
+{
+	"seaweeds" : {
+		"name" : "Seasweed",
+		"handler":"static",
+		"types" : {
+			"hotaSeaweeds" : {
+				"templates" : {
+					"AVLklp50" : { 
+						"animation" : "hota/kelps/AVLklp50",
+						"mask" : ["VV","VV"],
+						"allowedTerrains": ["water"]
+					},
+					"AVLklp60" : { 
+						"animation" : "hota/kelps/AVLklp60",
+						"mask" : ["VV","VV"],
+						"allowedTerrains": ["water"]
+					},
+					"AVLklp70" : { 
+						"animation" : "hota/kelps/AVLklp70",
+						"mask" : ["VV","VV"],
+						"allowedTerrains": ["water"]
+					},
+					"AVLklp80" : { 
+						"animation" : "hota/kelps/AVLklp80",
+						"mask" : ["VV","VV"],
+						"allowedTerrains": ["water"]
+					}					
+				}
+			}
+		}
+	}
+}

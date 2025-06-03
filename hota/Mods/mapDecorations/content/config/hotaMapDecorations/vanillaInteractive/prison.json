@@ -1,6 +1,7 @@
 {
 	"core:prison"	: {
 		"types" : {
+			
 			"prison" : {
 				"templates" : {	
 					"avwtprsn" : { "animation" : "hota/prison/avwtprsn", 
@@ -11,13 +12,20 @@
 					"AVXprsn1" : { "animation" : "hota/prison/AVXprsn1", 
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
-					},
+					}
+				}
+			},
+			
+			"heroCamp" : {
+			"name" : "Hero Camp",
+				"templates" : {	
 					"AVXhcamp" : { "animation" : "hota/prison/AVXhcamp", 
 						"mask" : [ "VVV","VAV" ],
 						"visitableFrom" : [ "---", "+++", "+++" ],
 					}
 				}
-				}
 			}
 		}
+	}
 }		
+

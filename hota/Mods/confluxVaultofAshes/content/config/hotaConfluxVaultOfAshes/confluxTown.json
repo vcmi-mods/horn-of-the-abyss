@@ -6,7 +6,7 @@
 			"structures" :
 			{
 				"hordePhoenix": {
-					"animation" : "hota/phoenixHorde.def",
+					"animation" : "hota/TBELHrd3.def",
 					"border" : "hota/phoenixHordeBorder.png",
 					"area" : "hota/phoenixHordeArea.png",
 					"x" : 685, 
@@ -14,7 +14,7 @@
 					"z" : 1
 				 },
 				"hordePhoenixUpgr": {
-					"animation" : "hota/phoenixHordeUpgraded.def",
+					"animation" : "hota/TBELHrd4.def",
 					"border" : "hota/phoenixHordeUpgradedBorder.png",
 					"area" : "hota/phoenixHordeUpgradedArea.png",
 					"x" : 685, 

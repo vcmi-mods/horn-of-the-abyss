@@ -43,9 +43,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/sorceress.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/sorceress.png",
-			"map" : "hota/cove/creatures/adventureMap/sorceress.def",
+			"map" : "hota/cove/creatures/adventureMap/AVWSORCS.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/sorceress.def",
+			"animation" : "hota/cove/creatures/battle/CSORCSS.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
@@ -53,7 +53,7 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"missile" : {
-				"projectile" : "hota/cove/creatures/battle/projectile/sorceress.def",
+				"projectile" : "hota/cove/creatures/battle/projectile/PSORC.def",
 				"attackClimaxFrame" : 5,
 				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
 				"offset" : {

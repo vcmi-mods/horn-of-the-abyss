@@ -1,0 +1,18 @@
+{
+	"core:randomHero" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"water" : {
+						"animation" : "hota/boats/avxbtrnd",
+//						"editorAnimation" : "AHRANDOM",
+						"visitableFrom" : [ "+++", "+-+", "+++" ],
+						"mask" : [ "VVV", "VAV" ],
+						"allowedTerrains":["water"]
+					}
+				}
+			}
+		}
+	}
+}
+

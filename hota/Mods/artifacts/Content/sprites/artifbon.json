@@ -1,0 +1,11 @@
+{
+	"basepath" : "artifbon/",
+	"images" :
+	[
+		{ "frame" : 151, "file" :  "wayfarerBoots.png" },
+		{ "frame" : 153, "file" :  "demonsHorseshoe.png" },
+		{ "frame" : 156, "file" :  "ringOfSuppression.png" },
+		{ "frame" : 159, "file" :  "capeOfSilence.png" }
+
+	]
+}

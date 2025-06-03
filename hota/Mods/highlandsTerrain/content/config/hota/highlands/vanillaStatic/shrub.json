@@ -3,13 +3,24 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AVlshl00" : {
-						"animation" : "hota/highlands/vanillaStatic/shrub/AVlshl00",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "highlands" ]
-					},
 					"AVlshl01" : {
 						"animation" : "hota/highlands/vanillaStatic/shrub/AVlshl01",
+						"mask" : [ "VB" ],
+						"allowedTerrains": [ "highlands" ]
+					}
+				}
+			}
+		}
+	},
+	
+	"highlandsBushes" : {
+		"name" : "Bush",
+		"handler": "static",
+		"types" : {
+			"highlandsBushes" : {
+				"templates" : {
+					"AVlshl00" : {
+						"animation" : "hota/highlands/vanillaStatic/shrub/AVlshl00",
 						"mask" : [ "VB" ],
 						"allowedTerrains": [ "highlands" ]
 					}
