@@ -6,8 +6,7 @@
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.7.1",
 
-	"conflicts" :
-    [
+	"conflicts" : [
         "wake-of-gods.wogGraphicFix.wf_arrow",
 		"small-era-mods.Bubble Arrows",
         "movement-arrows.hota_blue",
@@ -20,10 +19,17 @@
         "movement-arrows.hota_yellow",
         "movement-arrows.hota_yellow-orange"
     ],
-
+    "chinese" : {
+		"name" : "英雄移动箭头",
+		"description" : "改变英雄移动箭头样式。"
+	},
 	"czech" : {
 		"name" : "Ukazatel pohybu hrdiny",
 		"description" : "Ukazatel pohybu hrdiny"
+	},
+	"polish" : {
+		"name" : "Strzałka ruchu bohatera",
+		"description" : "Strzałka ruchu bohatera"
 	}
 
 }

@@ -15,8 +15,7 @@
 		"name" : "Změněné efekty střelby",
 		"description" : "Vizuální vylepšení střelby jednotek vytvořené HotA týmem"
 	},
-	"creatures" : 
-	[
+	"creatures" : [
 		"config/friendlyMagogs",
 		"config/stormyElemental",
 		"config/icyElemental",
@@ -26,8 +25,7 @@
 		"config/cloudyLiches",
 		"config/enchanterArrow"
 	],
-	"spells" : 
-	[
+	"spells" : [
 		"config/friendlyFireball",
 		"config/hotaStorm",
 		"config/hotaIce",
@@ -37,5 +35,9 @@
 		"config/hotaRay",
 		"config/hotaDeathCloud",
 		"config/hotaEnchanterArrow"
-	]
+	],
+	"polish" : {
+		"name" : "Zmiana efektów strzałów",
+		"description" : "Dodatki graficzne do jednostek strzelających wykonane przez HotA Team"
+	}
 }

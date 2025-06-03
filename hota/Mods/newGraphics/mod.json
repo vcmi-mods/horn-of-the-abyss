@@ -7,16 +7,13 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.6",
-	"softDepends" :
-	[
+	"softDepends" : [
 		"ab-bad-ending-assets"
 	],
-	"conflicts" :
-	[
+	"conflicts" : [
 		"hd_version"
 	],
-	"chinese" :
-	{
+	"chinese" : {
 		"name" : "城镇和生物的新冒险地图图像",
 		"description" : "这个选项启用HotA团队新增的新图像，目前，这个模组包含地图上城镇的新动画以及野外怪物的修复动画。"
 	},
@@ -24,12 +21,10 @@
 		"name" : "Nové animace",
 		"description" : "Tato modifikace aktivuje nové animace jednotek a měst."
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/hota/newGraphics/newTownAnimations"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hota/newGraphics/castle/newCreatureAnimations",
 		"config/hota/newGraphics/rampart/newCreatureAnimations",
 		"config/hota/newGraphics/tower/newCreatureAnimations",
@@ -41,8 +36,11 @@
 		"config/hota/newGraphics/conflux/newCreatureAnimations",
 		"config/hota/newGraphics/neutrals/newCreatureAnimations"
 	],
-	"heroClasses" : 
-	[
+	"heroClasses" : [
 		"config/hota/newGraphics/genderedHeroGraphics"
-	]
+	],
+	"polish" : {
+		"name" : "Nowa grafika przygód dla miast i stworzeń",
+		"description" : "Opcja włącza nowe obiekty graficzne dodane przez HotA Crew. Obecnie mod zawiera nowe animacje miast oraz poprawione animacje potworów na mapie przygody"
+	}
 }

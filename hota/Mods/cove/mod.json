@@ -18,8 +18,7 @@
 		"description" : "Nové město Zátoka s pirátskou tématikou"
 	},
 	
-	"factions" :
-	[
+	"factions" : [
 		"config/hota/cove/faction",
 		"config/hota/cove/town/town",
 		"config/hota/cove/town/buildings",
@@ -27,8 +26,7 @@
 		"config/hota/cove/town/siege",
 		"config/hota/cove/puzzleMap"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hota/cove/creatures/ayssid",
 		"config/hota/cove/creatures/corsair",
 		"config/hota/cove/creatures/crewmate",
@@ -48,13 +46,11 @@
 		"config/hota/cove/commander/blackbeard",
 		"config/hota/cove/creatures/wiki"
 	],
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/hota/cove/heroClasses/captain",
 		"config/hota/cove/heroClasses/navigator"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"config/hota/cove/heroes/anabel",
 		"config/hota/cove/heroes/andal",
 		"config/hota/cove/heroes/astra",
@@ -76,15 +72,18 @@
 		"config/hota/cove/heroes/zilare",
 		"config/hota/cove/heroes/balfour"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/hota/cove/spells/accurateShot",
 		"config/hota/cove/spells/specialClone",
 		"config/hota/cove/spells/moat"
 	],
-	"objects" : 
-	[ 
+	"objects" : [ 
 		"config/hota/cove/dwellings",
 		"config/hota/cove/boats"
-	]
+	],
+	
+	"polish" : {
+		"name" : "Cove",
+		"description" : "Nowe miasto Cove o tematyce pirackiej"
+	}
 }

@@ -35,6 +35,10 @@
 		"name": "Podpora formátu map (HotA)",
 		"description": "Tato modifikace přidává podporu načítání map ve formátu 'Horn of the Abyss'"
 	},
+	"polish" : {
+		"name" : "Obsługa formatu map (HotA)",
+		"description" : "Ten mod zawiera pliki niezbędne do wczytywania map w formacie 'Horn of the Abyss' w VCMI"
+	},
 
 	"settings": {
 		"mapFormat" : {

@@ -4,9 +4,8 @@
 	"modType" : "Graphical",
 	"author": "Graphics: HotA Crew, mod: avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.5.1",
-	"compatibility" :
-	{
+	"version" : "1.5.2",
+	"compatibility" : {
 		"min" : "1.1.0"
 	},
 	"chinese" : {
@@ -17,8 +16,7 @@
 		"name" : "Dekorace map",
 		"description" : "Nové objekty pro mapy se stejnými vlastnostmi jako původní objekty, ale v novém kabátě."
 	},
-	"objects" :
-	[
+	"objects" : [
 		"config/hotaMapDecorations/hotaInteractive/boats.json",
 		"config/hotaMapDecorations/hotaInteractive/monolithOneWayEntrance.json",
 		"config/hotaMapDecorations/hotaInteractive/monolithOneWayExit.json",
@@ -102,9 +100,12 @@
 		"config/hotaMapDecorations/vanillaStatic/volcano.json",
 		"config/hotaMapDecorations/vanillaStatic/wagon.json"
 	],
-	"biomes":
-	[
+	"biomes" : [
 		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
 		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
-	]
+	],
+	"polish" : {
+		"name" : "Dekoracje mapy",
+		"description" : "Nowe obiekty mające takie same właściwości jak stare"
+	}
 }

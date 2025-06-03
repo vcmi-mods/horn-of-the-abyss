@@ -22,12 +22,10 @@
 			"dimensionDoorTriggersGuards" : true
 		}
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/hotaGameBalance/factions.json"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"config/hotaGameBalance/heroes.json",
 		"config/hotaGameBalance/rampartStartingArmies.json",
 		"config/hotaGameBalance/towerStartingArmies.json",
@@ -35,24 +33,19 @@
 		"config/hotaGameBalance/dungeonStartingArmies.json",
 		"config/hotaGameBalance/fortressStartingArmies.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hotaGameBalance/creatures.json"
 	],
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/hotaGameBalance/artifacts.json"
 	],
-	"skills" :
-	[
+	"skills" : [
 		"config/hotaGameBalance/skills.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/hotaGameBalance/spells.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/hotaGameBalance/objectsRmgValues.json",
 		"config/hotaGameBalance/objectsRefusable.json",
 		"config/hotaGameBalance/cartographer.json",
@@ -76,7 +69,7 @@
 		"name" : "Balans gry",
 		"description" : "Balans gry stworzony przez HotA Crew dla dodatku Horn of The Abyss",
 		"translations" : [
-			"translation/polish.json"
+			"config/translation/polish.json"
 		]
 	},
 	"swedish" : {

@@ -15,8 +15,7 @@
 		"name" : "Artefakty",
 		"description" : "Sada artefaktů vytvořená týmem Hota Crew pro rozšíření Horn of the Abyss"
 	},
-	"artifacts" :
-	[
+	"artifacts" : [
 		"config/hotaArtifacts/capeOfSilence",
 		"config/hotaArtifacts/crownOfTheFiveSeas",
 		"config/hotaArtifacts/demonsHorseshoe",
@@ -40,8 +39,11 @@
 		"config/hotaArtifacts/sealOfSunset",
 		"config/hotaArtifacts/plateofDyingLight"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/artiSpells/HornSpell"
-	]
+	],
+	"polish" : {
+		"name" : "Artefakty",
+		"description" : "Zestaw artefaktów stworzonych przez Hota Crew do dodatku Horn of the Abyss"
+	}
 }

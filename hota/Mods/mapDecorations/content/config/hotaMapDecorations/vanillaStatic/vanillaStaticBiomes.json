@@ -44,7 +44,7 @@
 	"swampMountains" : {
 		"biome": {
 			"terrain": "swamp",
-			"objectType": "rock"
+			"objectType": "mountain"
 		},
 		"templates": ["MNTSWP01", "MNTSWP02", "MNTSWP03", "MNTSWP04", "MNTSWP05", "MNTSWP06"]
 	},

@@ -15,8 +15,7 @@
 		"name" : "Hrdinové",
 		"description" : "Noví hrdinové pro základní hru - Beatrice, Kinkeria a Ranloo.<br/>Navíc mění chování hrdinů Voy a Sylvia, kteří jsou nyní k dispozici pouze na mapách s vodou."
 	},
-	"heroes" :
-	[
+	"heroes" : [
 		"config/castle/heroes/beatrice",
 		"config/castle/heroes/lordHaart",
 		"config/necropolis/heroes/ranloo",
@@ -32,5 +31,9 @@
 		"config/inferno/heroes/athe",
 		"config/bannedOnMapsWithoutWater/heroes/sylvia",
 		"config/bannedOnMapsWithoutWater/heroes/voy"
-	]
+	],
+	"polish" : {
+		"name" : "Bohaterowie",
+		"description" : "Nowi bohaterowie do podstawowej gry – Beatrice, Kinkeria i Ranloo.<br/>Dodatkowo zmienia działanie bohaterów Voy i Sylvia, którzy są teraz dostępni tylko na mapach z wodą. Opcjonalnie można też włączyć bohaterów z kampanii HotA!"
+	}
 }

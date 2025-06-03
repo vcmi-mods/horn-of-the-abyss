@@ -13,12 +13,14 @@
 		"name" : "Soutok - Síň uren",
 		"description" : "Tato modifikace přidává novou budovu do Soutoku. Síň uren zvyšuje produkci Ohniváků a Fénixů o 1 týdně."
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/hotaConfluxVaultOfAshes/confluxTown.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/hotaConfluxVaultOfAshes/creatures.json"
-	]
+	],
+	"polish" : {
+		"name" : "Conflux – Sanktuarium Popiołów",
+		"description" : "Mod dodaje nowy budynek dla Conflux: Sanktuarium Popiołów, zwiększający przyrost Ognistych Ptaków i Feniksów o 1"
+	}
 }

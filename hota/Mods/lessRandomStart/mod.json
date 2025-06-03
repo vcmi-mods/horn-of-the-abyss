@@ -5,27 +5,27 @@
 	"author": "avatar",
 	"contact": "https://forum.vcmi.eu/",
 	"version" : "1.0",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.2"
 	},
-	"settings":
-	{
-		"heroes":
-		{
+	"settings" : {
+		"heroes" : {
 			"startingStackChances": [ 100, 100, 100 ]
 		},
-		"towns":
-		{
+		"towns" : {
 			"startingDwellingChances": [ 100, 100 ] 
 		}
 	},
 	"chinese" : {
 		"name" : "减少初始随机",
-		"description" : "英雄总是拥有全部的初始军队（包括战争机器），不会缺少任一部队。拥有要塞的城镇总是默认建有二级巢穴。",
+		"description" : "英雄总是拥有全部的初始军队（包括战争机器），不会缺少任一部队。拥有要塞的城镇总是默认建有二级巢穴。"
 	},
 	"czech" : {
 		"name" : "Méně náhodný start",
 		"description" : "Hrdinové s počáteční armádou vždy mají všechny jednotky a bojový stroj, bez možnosti, že by některá z nich chyběla. Města s tvrzí mají vždy automaticky postavené obydlí pro jednotky 2. úrovně."
+	},
+	"polish" : {
+		"name" : "Mniej losowy start",
+		"description" : "Bohaterowie zawsze zaczynają z pełną armią startową (i machiną wojenną), bez ryzyka braku jednostek. Miasta z Fortem mają zawsze zbudowany poziom 2 siedliska stworzeń."
 	}
 }
