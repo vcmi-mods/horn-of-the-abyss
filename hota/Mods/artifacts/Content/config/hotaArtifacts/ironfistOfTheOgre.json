@@ -38,7 +38,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ironfistOfTheOgre",
-			"map" : "hota/artifactsMap/AVA0144",
+			"map" : "hota/artifactsMap/ironfistOfTheOgre",
 			"large" : "hota/artifactsCampaignBonuses/ironfistOfTheOgre"
 		},
 		"text" : {

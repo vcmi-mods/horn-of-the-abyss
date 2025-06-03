@@ -37,7 +37,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ringOfOblivion",
-			"map" : "hota/artifactsMap/AVA0158",
+			"map" : "hota/artifactsMap/ringOfOblivion",
 			"large" : "hota/artifactsCampaignBonuses/ringOfOblivion"
 		},
 		"text" : {

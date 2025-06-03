@@ -41,9 +41,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/oceanid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/oceanid.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWOCEAN.def",
+			"map" : "hota/cove/creatures/adventureMap/oceanid.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/COCEANID.def",
+			"animation" : "hota/cove/creatures/battle/oceanid.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

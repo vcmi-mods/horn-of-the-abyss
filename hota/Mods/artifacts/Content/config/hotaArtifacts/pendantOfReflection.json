@@ -18,7 +18,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/pendantOfReflection",
-			"map" : "hota/artifactsMap/AVA0143",
+			"map" : "hota/artifactsMap/pendantOfReflection",
 			"large" : "hota/artifactsCampaignBonuses/pendantOfReflection"
 		},
 		"text" : {

@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/royalArmorOfNix",
-			"map" : "hota/artifactsMap/AVA0149",
+			"map" : "hota/artifactsMap/royalArmorOfNix",
 			"large" : "hota/artifactsCampaignBonuses/royalArmorOfNix"
 		},
 		"text" : {

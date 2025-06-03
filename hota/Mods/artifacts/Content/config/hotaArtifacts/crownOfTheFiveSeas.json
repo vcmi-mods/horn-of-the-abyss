@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/crownOfTheFiveSeas",
-			"map" : "hota/artifactsMap/AVA0150",
+			"map" : "hota/artifactsMap/crownOfTheFiveSeas",
 			"large" : "hota/artifactsCampaignBonuses/crownOfTheFiveSeas"
 		},
 		"text" : {

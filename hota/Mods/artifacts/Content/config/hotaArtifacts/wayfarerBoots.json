@@ -13,7 +13,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/wayfarerBoots",
-			"map" : "hota/artifactsMap/AVA0151",
+			"map" : "hota/artifactsMap/wayfarerBoots",
 			"large" : "hota/artifactsCampaignBonuses/wayfarerBoots"
 		},
 		"text" : {

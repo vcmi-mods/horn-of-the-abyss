@@ -665,7 +665,7 @@
 					"capitol" : { "animation" : "hota/factory/town/adventureMap/capitol.def" },
 					"castle" : { "animation" : "hota/factory/town/adventureMap/castle.def" },
 					"citadel" : { "animation" : "hota/factory/town/adventureMap/citadel.def" },
-					"fort" : { "animation" : "hota/factory/town/adventureMap/AVCfacF0.def" },
+					"fort" : { "animation" : "hota/factory/town/adventureMap/fort.def" },
 					"village" : { "animation" : "hota/factory/town/adventureMap/village.def" }
 				}
 			},

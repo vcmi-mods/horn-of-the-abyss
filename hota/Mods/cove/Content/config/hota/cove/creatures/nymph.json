@@ -42,9 +42,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/nymph.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nymph.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWNIMPH.def",
+			"map" : "hota/cove/creatures/adventureMap/nymph.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/CNIMPH.def",
+			"animation" : "hota/cove/creatures/battle/nymph.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

@@ -28,7 +28,7 @@
 		"graphics" :
 		{
 			"animation": "hota/factory/creatures/battle/COUATL.def",
-			"map": "hota/factory/creatures/adventureMap/AVWcoat.def",
+			"map": "hota/factory/creatures/adventureMap/AVWccoat.def",
 			"mapMask" : [ "VVV", "VAV"],
 			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS013F.bmp",
 			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL013F.bmp",

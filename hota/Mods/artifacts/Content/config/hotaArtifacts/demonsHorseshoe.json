@@ -15,7 +15,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/demonsHorseshoe",
-			"map" : "hota/artifactsMap/AVA0153",
+			"map" : "hota/artifactsMap/demonsHorseshoe",
 			"large" : "hota/artifactsCampaignBonuses/demonsHorseshoe"
 		},
 		"text" : {

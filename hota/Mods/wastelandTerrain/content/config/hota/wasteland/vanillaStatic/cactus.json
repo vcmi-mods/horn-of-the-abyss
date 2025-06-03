@@ -53,11 +53,6 @@
 						"mask" : [ "B" ],
 						"allowedTerrains": [ "wasteland" ]
 					},
-					"AVLwct11" : {
-						"animation" : "hota/wasteland/vanillaStatic/cactus/AVLwct11",
-						"mask" : [ "VV", "VB" ],
-						"allowedTerrains": [ "wasteland" ]
-					},
 					"AVLca060" : {
 						"animation" : "AVLca060",
 						"mask" : [ "V","B" ],

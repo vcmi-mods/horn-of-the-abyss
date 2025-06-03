@@ -38,24 +38,5 @@
 				}
 			}
 		}
-	},
-	
-	"stalagmite" : {
-		"name" : "Stalagmite",
-		"handler": "static",
-		"types" : {
-			"stalagmite" : {
-				"templates" : {	
-					"AVLr11u0" : { "animation" : "AVLr11u0", 
-						"mask" : [ "V", "B" ], 
-						"allowedTerrains": [ "subterra" ]
-					},
-					"AVLstg40" : { "animation" : "AVLstg40", 
-						"mask" : [ "B" ], 
-						"allowedTerrains": [ "subterra" ]
-					}
-				}
-			}
-		}
-	}	
+	}
 }

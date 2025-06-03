@@ -14,7 +14,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/shieldOfNavalGlory",
-			"map" : "hota/artifactsMap/AVA0148",
+			"map" : "hota/artifactsMap/shieldOfNavalGlory",
 			"large" : "hota/artifactsCampaignBonuses/shieldOfNavalGlory"
 		},
 		"text" : {

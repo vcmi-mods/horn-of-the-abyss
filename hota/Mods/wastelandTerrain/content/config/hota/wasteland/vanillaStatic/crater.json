@@ -1,10 +1,8 @@
 {
-	"wastelandsFissures" : {
-		"name": "Fissures",
-		"handler": "static",
+	"core:crater" : {
 		"types" : {
-			"wastelandsFissures" : {
-				"templates" : {
+			"object" : {
+			"templates" : {
 					"AVLwcr01" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr01",
 						"mask" : [ "BBBB", "BBBB" ],

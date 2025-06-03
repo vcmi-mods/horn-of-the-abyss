@@ -15,7 +15,7 @@
 		],
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ringOfSuppression",
-			"map" : "hota/artifactsMap/AVA0156",
+			"map" : "hota/artifactsMap/ringOfSuppression",
 			"large" : "hota/artifactsCampaignBonuses/ringOfSuppression"
 		},
 		"text" : {

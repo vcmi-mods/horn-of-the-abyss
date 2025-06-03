@@ -26,9 +26,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seaman.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaman.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWSWASH.def",
+			"map" : "hota/cove/creatures/adventureMap/seaman.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/CSWASH.def",
+			"animation" : "hota/cove/creatures/battle/seaman.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

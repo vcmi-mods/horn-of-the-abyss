@@ -36,9 +36,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/ayssid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/ayssid.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWASSID.def",
+			"map" : "hota/cove/creatures/adventureMap/ayssid.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/CASSID.def",
+			"animation" : "hota/cove/creatures/battle/ayssid.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,

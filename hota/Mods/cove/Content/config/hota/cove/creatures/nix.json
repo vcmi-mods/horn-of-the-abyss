@@ -32,9 +32,9 @@
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/nix.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nix.png",
-			"map" : "hota/cove/creatures/adventureMap/AVWNIX.def",
+			"map" : "hota/cove/creatures/adventureMap/nix.def",
 			"mapMask" : [ "VVV", "VAV"],
-			"animation" : "hota/cove/creatures/battle/CNIX.def",
+			"animation" : "hota/cove/creatures/battle/nix.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
