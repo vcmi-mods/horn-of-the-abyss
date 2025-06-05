@@ -69,7 +69,7 @@
 		"name" : "Balans gry",
 		"description" : "Balans gry stworzony przez HotA Crew dla dodatku Horn of The Abyss",
 		"translations" : [
-			"config/translation/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"swedish" : {
