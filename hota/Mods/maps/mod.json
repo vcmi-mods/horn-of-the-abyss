@@ -21,6 +21,6 @@
 	},
 	"polish" : {
 		"name" : "Mapy",
-		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew"
+		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew.<br>Wszystkie tłumaczenia map - o ile nie zaznaczono inaczej - pochodzą z polskiego projektu tłumaczenia <i>https://h3mods.heroes.net.pl/horn-of-the-abyss</i> pod opieką <b>Hellburna</b>. <br>Port dla VCMI-HOTA wykonał <b>baseband5</b> (<i>https://www.forum.acidcave.net/profile.php?UID=5141</i>) za odpowiednią zgodą autora.<br><br>Obecne tłumaczenie nie jest kompletne gdyż pochodzi z map z wersji 1.6<br>Brakujące tłumaczenia:<br><ul><li>A new day tomorrow</li><li>Dead man's tales</li><li>Talent shortage</li></ul>"
 	}
 }
