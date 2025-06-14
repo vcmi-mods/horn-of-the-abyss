@@ -16,24 +16,20 @@
 		"description" : "Vizuální vylepšení střelby jednotek vytvořené HotA týmem"
 	},
 	"creatures" : [
-		"config/friendlyMagogs",
 		"config/stormyElemental",
 		"config/icyElemental",
 		"config/lightningyTitan",
 		"config/powerMonks",
 		"config/fieryBeholders",
-		"config/cloudyLiches",
 		"config/enchanterArrow"
 	],
 	"spells" : [
-		"config/friendlyFireball",
 		"config/hotaStorm",
 		"config/hotaIce",
 		"config/hotaLightning",
 		"config/hotaLightGlobe",
 		"config/gogFireball",
 		"config/hotaRay",
-		"config/hotaDeathCloud",
 		"config/hotaEnchanterArrow"
 	],
 	"polish" : {
