@@ -52,7 +52,6 @@
 			{
 				"range": "0",
 				"power": 1,
-				"aiValue": 50,
 				"targetModifier":
 				{
 					"smart": true
@@ -82,7 +81,6 @@
 					{
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "spell.dispel",
-						"addInfo" : 1,
 						"duration" : [
 							"N_TURNS"
 						],
@@ -92,7 +90,6 @@
 					{
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "spell.dispelHelpful",
-						"addInfo" : 1,
 						"duration" : [
 							"N_TURNS"
 						],
@@ -199,7 +196,6 @@
 						"turns" : 1
 					},
 					"levelSpellImmunity":{
-								"addInfo" : 1, //absolute
 								"val" : 5,
 								"type" : "LEVEL_SPELL_IMMUNITY",
 								"valueType" : "INDEPENDENT_MAX",
@@ -265,7 +261,6 @@
 						"turns" : 1
 					},
 					"levelSpellImmunity":{
-								"addInfo" : 1, //absolute
 								"val" : 5,
 								"type" : "LEVEL_SPELL_IMMUNITY",
 								"valueType" : "INDEPENDENT_MAX",

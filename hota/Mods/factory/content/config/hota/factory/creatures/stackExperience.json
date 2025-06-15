@@ -48,15 +48,14 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -615,15 +614,14 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},
@@ -695,15 +693,14 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer",
-					"addInfo" : 3
+					"subtype" : "spell.slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
 			{
 				"bonus" :
 				{
-					"type" : "FEARLESS"
+					"type" : "FEARFUL"
 				},
 				"values" : [ false, false, false, false, false, false, true, true, true, true ]
 			},

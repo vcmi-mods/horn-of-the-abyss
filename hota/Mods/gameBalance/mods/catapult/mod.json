@@ -1,18 +1,21 @@
 {
-	"name" : "Catapult - expert ballistics",
-	"description" : "This mod gives 100% chance to hit desired fortification target when hero has expert ballistics",
+	"name" : "Catapult",
+	"description" : "This mod gives 100% chance to hit desired fortification target when hero has Expert ballistics",
 	"modType" : "Mechanics",
 	"author" : "Hota Crew, ported by Manfred",
 	"contact" : "VCMI Discord: https://discord.gg/chBT42V",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0",
-	
-    "polish" : {
-		"name" : "Katapulta - ekspercka balistyka",
+	"czech" : {
+		"name" : "Katapult",
+		"description" : "Tato modifikace zaručuje 100% šanci zásahu opevnění, pokud má hrdina expertní balistiku."
+	},
+	"polish" : {
+		"name" : "Katapulta",
 		"description" : "Mod umożliwia wykonywanie ataków katapultą na fortyfikacje z szansą 100% jeśli bohater posiada balistykę na poziomie eksperckim"
 	},
-    "spells": [
-        "config/hotaCatapult/catapultShot.json"
-    ]
+	"spells": [
+		"config/hotaCatapult/catapultShot.json"
+	]
 }

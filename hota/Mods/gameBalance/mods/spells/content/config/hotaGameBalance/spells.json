@@ -124,7 +124,6 @@
 				"targetModifier":{"smart":true},
 				"effects" : {
 					"stacksSpeed" : {
-						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"val" : -25,
 						"valueType" : "PERCENT_TO_ALL",
@@ -132,7 +131,6 @@
 					},
 
 					"hotaNerf" : {
-						"addInfo" : 0,
 						"type" : "STACKS_SPEED",
 						"valueType" : "ADDITIVE_VALUE",
 						"val" : 0,

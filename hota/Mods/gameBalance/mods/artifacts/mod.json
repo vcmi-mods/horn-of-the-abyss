@@ -1,0 +1,12 @@
+{
+	"name" : "Artifacts",
+	"description" : "Balance improvements made by HotA Crew for Horn of The Abyss expansion.",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+	
+	"artifacts" : [
+		"config/hotaGameBalance/artifacts.json"
+	]
+}

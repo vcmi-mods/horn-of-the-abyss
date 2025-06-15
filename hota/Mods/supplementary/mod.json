@@ -36,6 +36,9 @@
 		"config/hota/supplementary/newObjects/guardTower.json",
 		"config/hota/supplementary/newObjects/dwellings.json"
 	],
+	"factions" : [
+		"config/hota/supplementary/factory/town.json"
+	],
 	"polish" : {
 		"name" : "Rozszerzenie społeczności",
 		"description" : "Mod wprowadza następujące nowe elementy:<br/><br/>Artefakty:<br/>- Kieł Ostatniego Krzyku<br/>- Wielki Łuk Bitewny<br/>- Wielka Zgroza Pełzaczy<br/>- Puste Oko<br/><br/>Obiekty na mapie:<br/>- Wieża Strażnicza<br/>- Fabryka Stalowych Golemów<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Inne obiekty:<br/>- Kangur<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Uwaga: To nieoficjalna zawartość stworzona przez społeczność."

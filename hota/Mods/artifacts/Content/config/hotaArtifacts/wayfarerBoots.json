@@ -4,17 +4,17 @@
 		"slot" : "FEET",
 		"class" : "MAJOR",
 		"value" : 5000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"terrain" : {
 				"type" : "ROUGH_TERRAIN_DISCOUNT",
 				"valueType" : "ADDITIVE_VALUE",
 				"val" : 100
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/wayfarerBoots",
 			"map" : "hota/artifactsMap/AVA0151",
-			"large" : "hota/artifactsCampaignBonuses/wayfarerBoots"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/wayfarerBoots"
 		},
 		"text" : {
 			"name" : "Wayfarer's Boots",

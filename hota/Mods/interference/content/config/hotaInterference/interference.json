@@ -5,6 +5,7 @@
 			"might" : 5,
 			"magic" : 0
 		},
+		"specialty" : [], // generic specialty not applicable
 		"base" : {
 			"effects" : {
 				"main" : {
@@ -16,39 +17,30 @@
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [ "OPPOSITE_SIDE" ]
 				}
+			},
+			"images" : {
+				"small" : "hota/skills/interference/icons/small/basic",
+				"medium" : "hota/skills/interference/icons/medium/basic",
+				"large" : "hota/skills/interference/icons/large/basic",
+				"scenarioBonus" : "hota/skills/interference/icons/large/basic"
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Interference}\n\nReduces enemy hero spell power during combat by 10%.",
 			"effects" : {
 				"main" : { "val" : -10 }
-			},
-			"images" : {
-				"small" : "hota/skills/interference/icons/small/basic",
-				"medium" : "hota/skills/interference/icons/medium/basic",
-				"large" : "hota/skills/interference/icons/large/basic"
 			}
 		},
 		"advanced" : {
 			"description" : "{Advanced Interference}\n\nReduces enemy hero spell power during combat by 20%.",
 			"effects" : {
 				"main" : { "val" : -20 }
-			},
-			"images" : {
-				"small" : "hota/skills/interference/icons/small/advanced",
-				"medium" : "hota/skills/interference/icons/medium/advanced",
-				"large" : "hota/skills/interference/icons/large/advanced"
 			}
 		},
 		"expert" : {
 			"description" : "{Expert Interference}\n\nReduces enemy hero spell power during combat by 30%.",
 			"effects" : {
 				"main" : { "val" : -30 }
-			},
-			"images" : {
-				"small" : "hota/skills/interference/icons/small/expert",
-				"medium" : "hota/skills/interference/icons/medium/expert",
-				"large" : "hota/skills/interference/icons/large/expert"
 			}
 		}
 	}

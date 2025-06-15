@@ -4,18 +4,18 @@
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 7000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"skill" : {
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"valueType" : "BASE_NUMBER",
 				"val" : 7
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/shieldOfNavalGlory",
 			"map" : "hota/artifactsMap/AVA0148",
-			"large" : "hota/artifactsCampaignBonuses/shieldOfNavalGlory"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/shieldOfNavalGlory"
 		},
 		"text" : {
 			"name" : "Shield of Naval Glory",

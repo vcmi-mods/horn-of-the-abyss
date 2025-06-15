@@ -7,7 +7,7 @@
 	{
 		"abilities" :
 		{
-			"descreaseLuck" :
+			"decreaseLuck" :
 			{
 				"val" : -2
 			}

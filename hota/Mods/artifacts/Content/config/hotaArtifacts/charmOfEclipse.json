@@ -4,8 +4,8 @@
 		"slot" : "MISC",
 		"class" : "MINOR",
 		"value" : 5000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"skill" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
 				"valueType" : "PERCENT_TO_ALL",
@@ -14,10 +14,11 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/charmOfEclipse",
-			"map" : "hota/artifactsMap/AVA0162"
+			"map" : "hota/artifactsMap/AVA0162",
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/charmOfEclipse"
 		},
 		"text" : {
 			"name" : "Charm of Eclipse",

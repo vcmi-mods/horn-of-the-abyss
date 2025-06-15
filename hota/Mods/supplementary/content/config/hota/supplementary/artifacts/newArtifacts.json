@@ -4,23 +4,23 @@
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"spell" : {
 				"subtype" : "spell.blind",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
+			"scouting" : {
 				"type" : "SIGHT_RADIUS",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/supplementary/artifacts/hollowEye",
 			"map" : "hota/supplementary/artifacts/hollowEyeMap",
-			"large" : "hota/supplementary/artifacts/hollowEyeBonus"
+			"scenarioBonus" : "hota/supplementary/artifacts/hollowEyeBonus"
 		},
 		"text" : {
 			"description" : "{Hollow Eye}\r\n\r\nThe Hollow Eye increases the scouting radius by +2. It also makes hero's troops immune to Blind spell.",
@@ -33,8 +33,8 @@
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"damgeBoost" : {
 				"type" : "PERCENTAGE_DAMAGE_BOOST",
 				"subtype" : "damageTypeRanged",
 				"val" : 15,
@@ -53,11 +53,11 @@
 					}
 				]
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/supplementary/artifacts/greaterBow",
 			"map" : "hota/supplementary/artifacts/greaterBowMap",
-			"large" : "hota/supplementary/artifacts/greaterBowBonus"
+			"scenarioBonus" : "hota/supplementary/artifacts/greaterBowBonus"
 		},
 		"text" : {
 			"description" : "{Great Battle Bow}\r\n\r\nGreat Battle Bow increases hero's Archery skill by +15%.",
@@ -70,23 +70,23 @@
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"skill" : {
 				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
+			"spell" : {
 				"addInfo" : 0,
 				"subtype" : "spell.bloodlust",
 				"type" : "SPECIAL_PECULIAR_ENCHANT"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/supplementary/artifacts/fangScream",
 			"map" : "hota/supplementary/artifacts/fangScreamMap",
-			"large" : "hota/supplementary/artifacts/fangScreamBonus"
+			"scenarioBonus" : "hota/supplementary/artifacts/fangScreamBonus"
 		},
 		"text" : {
 			"description" : "{Fang of the Last Scream}\r\n\r\nHeld with the right hand, Fang of the Last Scream gives +5 to hero's attack skill. It also gives the specialty of Bloodlust to hero who equipped it.",
@@ -100,7 +100,7 @@
 		"graphics" : {
 			"image" : "hota/supplementary/artifacts/crawler",
 			"map" : "hota/supplementary/artifacts/crawlerMap",
-			"large" : "hota/supplementary/artifacts/crawlerBonus"
+			"scenarioBonus" : "hota/supplementary/artifacts/crawlerBonus"
 		},
 		"slot" : "RIGHT_HAND",
 		"text" : {
@@ -109,45 +109,45 @@
 			"name" : "Great Woe of the Crawlers"
 		},
 		"bonuses":
-		[
-			{
+		{
+			"skill1" : {
 				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
+			"skill2" : {
 				"subtype" : "primarySkill.defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
+			"skill3" : {
 				"subtype" : "primarySkill.spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			{
+			"skill4" : {
 				"subtype" : "primarySkill.knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			{ 
+			"skill5" : { 
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth",
 					"valueType" : "PERCENT_TO_BASE",
 					"val" : 30,
 					"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
 			},
-			{
+			"skill6" : {
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER",
 				"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
 			}
-		],
+		},
 
 		"type" : [ "HERO" ],
 		"value" : 10000

@@ -5,85 +5,24 @@
 	"author": "Kuririn, avatar, wnukos",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.11",
-	"depends" : [ "hota.mapobjects" ],
-	"settings" : {
-		"dwellings" : {
-			"accumulateWhenOwned" : true
-		},
-		"combat": {
-			"badLuckDice" : [ 12, 6, 4 ],
-			"areaShotCanTargetEmptyHex" : true
-		},
-		"pathfinder" : {
-			"originalFlyRules" : false
-		},
-		"spells": {
-			"dimensionDoorFailureSpendsPoints" : false,
-			"dimensionDoorTriggersGuards" : true
-		}
-	},
-	"factions" : [
-		"config/hotaGameBalance/factions.json"
-	],
-	"heroes" : [
-		"config/hotaGameBalance/heroes.json",
-		"config/hotaGameBalance/rampartStartingArmies.json",
-		"config/hotaGameBalance/towerStartingArmies.json",
-		"config/hotaGameBalance/infernoStartingArmies.json",
-		"config/hotaGameBalance/dungeonStartingArmies.json",
-		"config/hotaGameBalance/fortressStartingArmies.json"
-	],
-	"creatures" : [
-		"config/hotaGameBalance/creatures.json"
-	],
-	"artifacts" : [
-		"config/hotaGameBalance/artifacts.json"
-	],
-	"skills" : [
-		"config/hotaGameBalance/skills.json"
-	],
-	"spells" : [
-		"config/hotaGameBalance/spells.json"
-	],
-	"objects" : [
-		"config/hotaGameBalance/objectsRmgValues.json",
-		"config/hotaGameBalance/objectsRefusable.json",
-		"config/hotaGameBalance/cartographer.json",
-		"config/hotaGameBalance/stables.json"
-	],
 	"chinese" : {
 		"name" : "游戏平衡",
-		"description" : "深渊号角中的平衡性改进。",
-		"translations" : [
-			"translation/chinese.json"
-		]
+		"description" : "深渊号角中的平衡性改进。"
 	},
 	"czech" : {
 		"name" : "Vyvážení hry",
 		"description" : "Zlepšené vyvážení hry provedené týmem HotA pro rozšíření Horn of The Abyss.",
-		"translations" : [
-			"translation/czech.json"
-		]
 	},
 	"polish" : {
 		"name" : "Balans gry",
-		"description" : "Balans gry stworzony przez HotA Crew dla dodatku Horn of The Abyss",
-		"translations" : [
-			"translation/polish.json"
-		]
+		"description" : "Balans gry stworzony przez HotA Crew dla dodatku Horn of The Abyss"
 	},
 	"swedish" : {
 		"name" : "Spelbalans",
-		"description" : "Förbättrad spelbalans av HotA-teamet för expansionen 'Horn of The Abyss'",
-		"translations" : [
-			"translation/swedish.json"
-		]
+		"description" : "Förbättrad spelbalans av HotA-teamet för expansionen 'Horn of The Abyss'"
 	},
 	"ukrainian" : {
 		"name" : "Ігровий Баланс",
-		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss",
-		"translations" : [
-			"translation/ukrainian.json"
-		]
+		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss"
 	}
 }

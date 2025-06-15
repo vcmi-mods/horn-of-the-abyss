@@ -55,34 +55,29 @@
 			},
 			"none":
 			{
-				"description": "{自爆}\r\n\r\nYour birthday cake！.",
-	 
+				"description": "{Detonation}\r\n\r\nYour birthday cake！.",
 				"cost": 0,
-				"aiValue": 12,
 				"power": 40
 			},
 			"basic":
 			{
-				"description": "{自爆}\r\n\r\nYou cannot see this description.",
-	 
+				"description": "{Detonation}\r\n\r\nYou cannot see this description.",
+	
 				"cost": 0,
-				"aiValue": 12,
 				"power": 40
 			},
 			"advanced":
 			{
-				"description": "{自爆}\r\n\r\nYou cannot see this description.。",
+				"description": "{Detonation}\r\n\r\nYou cannot see this description.。",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 40
 			},
 			"expert":
 			{
-				"description": "{自爆}\r\n\r\nYou cannot see this description.",
+				"description": "{Detonation}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 40
 			}
 			}

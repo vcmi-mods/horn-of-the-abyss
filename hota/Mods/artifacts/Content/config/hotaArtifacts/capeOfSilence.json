@@ -4,18 +4,18 @@
 		"slot" : "SHOULDERS",
 		"class" : "MAJOR",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"spell" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 2,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/capeOfSilence",
 			"map" : "hota/artifactsMap/AVA0159",
-			"large" : "hota/artifactsCampaignBonuses/capeOfSilence"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/capeOfSilence"
 		},
 		"text" : {
 			"name" : "Cape of Silence",

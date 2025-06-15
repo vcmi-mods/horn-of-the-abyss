@@ -1,0 +1,25 @@
+{
+	"core:arena" : {
+		"types" : {
+			"arena" : {
+				"canRefuse" : true
+			}
+		}
+	},
+	
+	"core:witchHut" : {
+		"types" : {
+			"witchHut" : {
+				"canRefuse" : true
+			}
+		}
+	},
+	
+	"core:scholar" : {
+		"types" : {
+			"scholar" : {
+				"canRefuse" : true
+			}
+		}
+	}
+}

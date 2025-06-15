@@ -1,7 +1,7 @@
 {
 	"name" : "Interference skill",
 	"description" : "This mod adds new skill, 'Interference', a new hero, Giselle, with specialty in interference skill and changes heroes with resistance skill to use interference instead", 
-	"modType" : "Mechanics",
+	"modType" : "Skills",
 	"author": "avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.4.0",

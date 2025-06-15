@@ -1,0 +1,23 @@
+{
+	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet Grabarza}\n\nNoszony na szyi, ten amulet zwiększa umiejętność Nekromancji o 3%.",
+	"artifact.core.deadMansBoots.description" : "{Buty Trupa}\n\nNoszone na stopach, te buty zwiększają umiejętność Nekromancji o 7%.",
+	"artifact.core.vampiresCowl.description" : "{Kaptur Wampira}\n\nNoszony na ramionach, ten kaptur zwiększa umiejętność Nekromancji o 5%.",
+	"skill.core.estates.description.advanced" : "{Zaawansowane Finanse}\n\nTwój bohater wnosi 500 złota dziennie na rzecz sprawy.",
+	"skill.core.estates.description.basic" : "{Podstawowe Finanse}\n\nTwój bohater wnosi 250 złota dziennie na rzecz sprawy.",
+	"skill.core.estates.description.expert" : "{Eksperckie Finanse}\n\nTwój bohater wnosi 1000 złota dziennie na rzecz sprawy.",
+	"skill.core.intelligence.description.advanced" : "{Zaawansowana Inteligencja}\n\nZaawansowana Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 35%.",
+	"skill.core.intelligence.description.basic" : "{Podstawowa Inteligencja}\n\nPodstawowa Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 20%.",
+	"skill.core.intelligence.description.expert" : "{Ekspercka Inteligencja}\n\nEkspercka Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 50%.",
+	"skill.core.logistics.description.advanced" : "{Zaawansowana Logistyka}\n\nZaawansowana Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 10%.",
+	"skill.core.logistics.description.basic" : "{Podstawowa Logistyka}\n\nPodstawowa Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 5%.",
+	"skill.core.logistics.description.expert" : "{Ekspercka Logistyka}\n\nEkspercka Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 20%.",
+	"skill.core.mysticism.description.advanced" : "{Zaawansowany Mistycyzm}\n\nZaawansowany Mistycyzm pozwala bohaterowi regenerować 10 punktów magii dziennie.",
+	"skill.core.mysticism.description.basic" : "{Podstawowy Mistycyzm}\n\nPodstawowy Mistycyzm pozwala bohaterowi regenerować 5 punktów magii dziennie.",
+	"skill.core.mysticism.description.expert" : "{Ekspercki Mistycyzm}\n\nEkspercki Mistycyzm pozwala bohaterowi regenerować 15 punktów magii dziennie.",
+	"skill.core.necromancy.description.advanced" : "{Zaawansowana Nekromancja}\n\nZaawansowana Nekromancja pozwala na ożywienie 10% zabitych stworzeń jako Szkielety.",
+	"skill.core.necromancy.description.basic" : "{Podstawowa Nekromancja}\n\nPodstawowa Nekromancja pozwala na ożywienie 5% zabitych stworzeń jako Szkielety.",
+	"skill.core.necromancy.description.expert" : "{Ekspercka Nekromancja}\n\nEkspercka Nekromancja pozwala na ożywienie 15% zabitych stworzeń jako Szkielety.",
+	"skill.core.scouting.description.advanced" : "{Zaawansowane Odkrywanie}\n\nZaawansowane Odkrywanie pozwala bohaterowi widzieć 3 pola dalej przez mgłę.",
+	"skill.core.scouting.description.basic" : "{Podstawowe Odkrywanie}\n\nPodstawowe Odkrywanie pozwala bohaterowi widzieć 1 pole dalej przez mgłę.",
+	"skill.core.scouting.description.expert" : "{Ekspercke Odkrywanie}\n\nEkspercke Odkrywanie pozwala bohaterowi widzieć 5 pól dalej przez mgłę."
+}

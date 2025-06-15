@@ -5,12 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.7.002",
-	"changelog" : 
-	{
-		"1.7.7.002"  : [ "Fixed version number to respect correctly HotA version" ],
+	"version" : "1.7.7.003",
+	"changelog" : {
+		"1.7.7.003"  : [ "Added Hermit's Shack", "Updated to 1.7 format", "Partialy updated with 1.7.3 source files", "Updated Czech translation" ],
+		"1.7.7.002"  : [ "Updated with 1.7.2 DEFs", "Updated maps and added campaigns" ],
 		"1.7.7.001"  : [ "Fixed version number to respect correctly HotA version" ],
-		"1.7.67"  	 : [ "Fix blockmap of swamp mountains. Also promote their biome type to mountains." ],
+		"1.7.67"     : [ "Fix blockmap of swamp mountains. Also promote their biome type to mountains." ],
 		"1.7.66"     : [ "Added submod to restore HotA catapult behavior with expert Ballistics", "Polish translation update" ],
 		"1.7.65"     : [ "Fix for Giselle's specialty" ],
 		"1.7.64"     : [ "Updated Game Balance submod with 1.7 changes by wnukos" ],

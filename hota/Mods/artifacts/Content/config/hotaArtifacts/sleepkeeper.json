@@ -4,17 +4,17 @@
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"immunity" : {
 				"type" : "MIND_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/sleepkeeper",
 			"map" : "hota/artifactsMap/AVA0165",
-			"large" : "hota/artifactsCampaignBonuses/sleepkeeper"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/sleepkeeper"
 		},
 		"text" : {
 			"description" : "{Sleepkeeper}\r\n\r\nWhile equipped, the artifact provides the hero's creatures with immunity to Mind spells.",

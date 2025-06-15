@@ -35,7 +35,6 @@
 			"base":{
 				"range": "0",
 				"power": 10,
-				"aiValue": 20,
 				"cost" : 0,
 				"targetModifier":
 				{

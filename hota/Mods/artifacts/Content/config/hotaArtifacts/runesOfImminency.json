@@ -4,8 +4,8 @@
 		"slot" : "MISC",
 		"class" : "TREASURE",
 		"value" : 2000,
-		"bonuses" : [ 
-			{ 
+		"bonuses" : {
+			"luck" : { 
 				"type" : "LUCK", 
 				"val" : -1,
 				"propagator": "BATTLE_WIDE",
@@ -13,11 +13,11 @@
 				"limiters" : [ "OPPOSITE_SIDE" ]
 
 			} 
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/runesOfImminency",
 			"map" : "hota/artifactsMap/AVA0152",
-			"large" : "hota/artifactsCampaignBonuses/runesOfImminency"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/runesOfImminency"
 		},
 		"text" : {
 			"name" : "Runes of Imminency",

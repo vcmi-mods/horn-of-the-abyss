@@ -43,7 +43,8 @@
 					"valueType" : "PERCENT_TO_ALL",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
-					   "parameters" : [ -30 ]
+						"valPer20" : 6,
+						"stepSize" : 2
 					},
 					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",

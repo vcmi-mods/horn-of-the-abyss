@@ -43,7 +43,6 @@
 				"cost": 5,
 				"range": "0",
 				"power": 1, //base dmg
-				"aiValue": 70,
 				"targetModifier":
 				{
 					"smart": true

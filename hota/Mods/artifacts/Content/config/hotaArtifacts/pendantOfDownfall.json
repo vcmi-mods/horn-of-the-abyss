@@ -4,19 +4,19 @@
 		"slot" : "NECK",
 		"class" : "MAJOR",
 		"value" : 7000,
-		"bonuses" : [ 
-			{ 
+		"bonuses" : {
+			"morale" : { 
 				"type" : "MORALE", 
 				"val" : -2,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			} 
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/pendantOfDownfall",
 			"map" : "hota/artifactsMap/AVA0157",
-			"large" : "hota/artifactsCampaignBonuses/pendantOfDownfall"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/pendantOfDownfall"
 		},
 		"text" : {
 			"name" : "Pendant of Downfall",

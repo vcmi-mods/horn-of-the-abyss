@@ -32,8 +32,7 @@
 				"targetModifier":{"smart":true},
 				"description" : "Stacks in target hex and it's surrounding hexes take damage",
 				"cost": 15,
-				"power": 15,
-				"aiValue": 70,
+				"power": 15
 			},
 			"none":
 			{

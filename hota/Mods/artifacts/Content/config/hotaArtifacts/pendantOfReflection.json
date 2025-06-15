@@ -4,13 +4,13 @@
 		"slot" : "NECK",
 		"class" : "RELIC",
 		"value" : 12000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 20,
 				"valueType" : "BASE_NUMBER"
 			}
-		],
+		},
 		"components" : [
 			"garnitureOfInterference",
 			"surcoatOfCounterpoise",
@@ -19,7 +19,7 @@
 		"graphics" : {
 			"image" : "hota/artifactsIcons/pendantOfReflection",
 			"map" : "hota/artifactsMap/AVA0143",
-			"large" : "hota/artifactsCampaignBonuses/pendantOfReflection"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/pendantOfReflection"
 		},
 		"text" : {
 			"name" : "Pendant of Reflection",
