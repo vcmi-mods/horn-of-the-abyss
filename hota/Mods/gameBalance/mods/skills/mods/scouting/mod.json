@@ -1,0 +1,53 @@
+{
+	"name" : "Scouting",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+	"settings" : {
+		"pathfinder" : {
+			"originalFlyRules" : false
+		}
+	},
+
+	"skills" : [
+		"config/hotaGameBalance/skills.json"
+	],
+	
+	"chinese" : {
+		"name" : "Scouting",
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Průzkumník",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Scouting",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"swedish" : {
+		"name" : "Scouting",
+		"description" : "",
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"ukrainian" : {
+		"name" : "Scouting",
+		"description" : "",
+		"translations" : [
+			"translation/ukrainian.json"
+		]
+	}
+}

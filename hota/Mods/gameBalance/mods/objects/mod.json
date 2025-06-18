@@ -1,6 +1,6 @@
 {
 	"name" : "Objects",
-	"description" : "Balance improvements made by HotA Crew for Horn of The Abyss expansion.",
+	"description" : "",
 	"modType" : "Mechanics",
 	"author": "Kuririn, avatar, wnukos",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
@@ -12,10 +12,14 @@
 		}
 	},
 	"objects" : [
-		"config/hotaGameBalance/objectsRmgValues.json",
 		"config/hotaGameBalance/objectsRefusable.json",
 		"config/hotaGameBalance/creatureBanks.json",
 		"config/hotaGameBalance/cartographer.json",
 		"config/hotaGameBalance/stables.json"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Objekty",
+		"description" : ""
+	}
 }

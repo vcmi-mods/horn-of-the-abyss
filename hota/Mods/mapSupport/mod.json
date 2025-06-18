@@ -40,6 +40,66 @@
 		"description" : "Ten mod zawiera pliki niezbędne do wczytywania map w formacie 'Horn of the Abyss' w VCMI"
 	},
 
+
+	"campaignRegions" : {
+		"hotaRegion21" : {
+			"prefix": "UA",
+			"colorSuffixLength": 2,
+			"desc": [
+				{ "infix": "A", "x": 157, "y": 409 },
+				{ "infix": "B", "x": 62, "y": 346 },
+				{ "infix": "C", "x": 8, "y": 8 }
+			]
+		},
+		"hotaRegion22" : {
+			"prefix": "UA",
+			"colorSuffixLength": 2,
+			"desc": [
+				{ "infix": "A", "x": 157, "y": 409 },
+				{ "infix": "B", "x": 62, "y": 346 },
+				{ "infix": "C", "x": 8, "y": 8 },
+				{ "infix": "D", "x": 206, "y": 1 },
+				{ "infix": "E", "x": 132, "y": 357 },
+				{ "infix": "F", "x": 184, "y": 83 }
+			]
+		},
+		"hotaRegion23" : {
+			"prefix": "UA",
+			"colorSuffixLength": 2,
+			"desc": [
+				{ "infix": "A", "x": 157, "y": 409 },
+				{ "infix": "B", "x": 62, "y": 346 },
+				{ "infix": "C", "x": 8, "y": 8 },
+				{ "infix": "D", "x": 206, "y": 1 }
+			]
+		},
+		"hotaRegion24" : {
+			"prefix": "UA",
+			"colorSuffixLength": 2,
+			"desc": [
+				{ "infix": "A", "x": 157, "y": 409 },
+				{ "infix": "B", "x": 62, "y": 346 },
+				{ "infix": "C", "x": 8, "y": 8 },
+				{ "infix": "D", "x": 206, "y": 1 },
+				{ "infix": "E", "x": 132, "y": 357 },
+				{ "infix": "F", "x": 184, "y": 83 },
+				{ "infix": "G", "x": 159, "y": 263 },
+				{ "infix": "H", "x": 108, "y": 173 }
+			]
+		},
+		"hotaRegion26" : {
+			"prefix": "UA",
+			"colorSuffixLength": 2,
+			"desc": [
+				{ "infix": "A", "x": 157, "y": 409 },
+				{ "infix": "B", "x": 62, "y": 346 },
+				{ "infix": "C", "x": 8, "y": 8 },
+				{ "infix": "D", "x": 206, "y": 1 },
+				{ "infix": "E", "x": 132, "y": 357 }
+			]
+		}
+	},
+
 	"settings": {
 		"mapFormat" : {
 			"hornOfTheAbyss" : {
@@ -1189,6 +1249,95 @@
 					"hota/pillars/AVLwaV07.def" : "AVLwaV07.def",
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
 					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
+				},
+			
+				"campaignRegions" : {
+					"hotaRegion21" : 21, // H1ROGER
+					"hotaRegion22" : 22, // H2TERROR
+					"hotaRegion23" : 23, // H3HORN
+					"hotaRegion24" : 24, // H4FACT
+					// 25 - unused? Or only for custom campaigns?
+					"hotaRegion26" : 26  // H5ALLIN
+				},
+				
+				"campaignMusic" : {
+					// unused?
+					// "HotaMusic49" : 49,
+					// "HotaMusic50" : 50,
+					// "HotaMusic51" : 51,
+					// "HotaMusic52" : 52,
+					
+					"HotaMusic53" : 53, // H4FACT main theme
+					"HotaMusic54" : 54, // H4FACT Hota0402.h3m epilog
+					"HotaMusic55" : 55, // H4FACT Hota0403.h3m prolog
+					"HotaMusic56" : 56, // H4FACT Hota0403.h3m epilog
+					"HotaMusic57" : 57, // H4FACT Hota0404.h3m prolog
+					"HotaMusic58" : 58, // H4FACT Hota0405.h3m prolog
+					"HotaMusic59" : 59, // H4FACT Hota0405.h3m epilog & Hota0405.h3m epilog alt
+					"HotaMusic60" : 60, // H4FACT Hota0408.h3m epilog
+					"HotaMusic61" : 61, // H4FACT Hota0406.h3m prolog
+					"HotaMusic62" : 62, // H4FACT Hota0405.h3m prolog alt
+
+					"HotaMusic63" : 63, // H5ALLIN main theme
+					"HotaMusic64" : 64, // H5ALLIN HotA0501.h3m prolog
+					"HotaMusic65" : 65, // H5ALLIN HotA0502.h3m prolog
+					"HotaMusic66" : 66, // H5ALLIN HotA0503.h3m prolog
+					"HotaMusic67" : 67, // H5ALLIN HotA0504.h3m prolog
+					"HotaMusic68" : 68, // H5ALLIN HotA0505.h3m prolog
+					"HotaMusic69" : 69  // H5ALLIN HotA0505.h3m epilog
+				},
+				
+				"campaignVideo" : {
+					"HotaVideo101" : "ROGERA.bik", // H1ROGER Hota0101.h3m.prolog
+					"HotaVideo102" : "ROGERB.bik", // H1ROGER Hota0102.h3m.prolog
+					"HotaVideo103" : "ROGERC.bik", // H1ROGER Hota0103.h3m.prolog
+					"HotaVideo104" : "ROGERD.bik", // H1ROGER Hota0103.h3m.epilog
+					
+					"HotaVideo105" : "TERROR1.bik", // H2TERROR Hota0201.h3m.prolog
+					"HotaVideo106" : "TERROR2.bik", // H2TERROR Hota0202.h3m.prolog
+					"HotaVideo107" : "TERROR3.bik", // H2TERROR Hota0203.h3m.prolog
+					"HotaVideo108" : "TERROR4.bik", // H2TERROR Hota0204.h3m.prolog
+					"HotaVideo109" : "TERROR5.bik", // H2TERROR Hota0205.h3m.prolog
+					"HotaVideo110" : "TERROR6.bik", // H2TERROR Hota0206.h3m.prolog
+					"HotaVideo111" : "TERROR7.bik", // H2TERROR Hota0206.h3m.epilog
+
+					"HotaVideo112" : "HORN1.bik", // H3HORN Hota0301.h3m.prolog
+					"HotaVideo113" : "HORN2.bik", // H3HORN Hota0302.h3m.prolog
+					"HotaVideo114" : "HORN3.bik", // H3HORN Hota0303.h3m.prolog
+					"HotaVideo115" : "HORN4.bik", // H3HORN Hota0304.h3m.prolog
+					"HotaVideo116" : "HORN5.bik", // H3HORN Hota0304.h3m.epilog
+
+					// unused? 
+					// "HotaVideo117" : 117,
+					// "HotaVideo118" : 118,
+					// "HotaVideo119" : 119,
+					// "HotaVideo120" : 120,
+
+					"HotaVideo121" : "Factory1A.bik", // H4FACT Hota0401.h3m.prolog
+					"HotaVideo122" : "Factory1B.bik", // H4FACT Hota0401.h3m.epilog
+					"HotaVideo123" : "Factory2A.bik", // H4FACT Hota0402.h3m.prolog
+					"HotaVideo124" : "Factory2B.bik", // H4FACT Hota0402.h3m.epilog
+					"HotaVideo125" : "Factory3A.bik", // H4FACT Hota0403.h3m.prolog
+					"HotaVideo126" : "Factory3B.bik", // H4FACT Hota0403.h3m.epilog
+					"HotaVideo127" : "Factory4A.bik", // H4FACT Hota0404.h3m.prolog
+					"HotaVideo128" : "Factory4B.bik", // H4FACT Hota0404.h3m.epilog
+					"HotaVideo129" : "Factory5A1.bik", // H4FACT Hota0405.h3m.prolog alt
+					"HotaVideo130" : "Factory5A2.bik", // H4FACT Hota0405.h3m.epilog alt
+					"HotaVideo131" : "Factory5B1.bik", // H4FACT Hota0405.h3m.prolog
+					"HotaVideo132" : "Factory5B1.bik", // H4FACT Hota0405.h3m.epilog
+					"HotaVideo133" : "Factory6A.bik", // H4FACT Hota0406.h3m.prolog
+					"HotaVideo134" : "Factory6B.bik", // H4FACT Hota0406.h3m.epilog
+					"HotaVideo135" : "Factory7A.bik", // H4FACT Hota0407.h3m.prolog
+					"HotaVideo136" : "Factory7B.bik", // H4FACT Hota0407.h3m.epilog
+					"HotaVideo137" : "Factory8A.bik", // H4FACT Hota0408.h3m.prolog
+					"HotaVideo138" : "Factory8B.bik", // H4FACT Hota0408.h3m.epilog
+
+					"HotaVideo139" : "Allin1.bik", // H5ALLIN HotA0501.h3m.prolog
+					"HotaVideo140" : "Allin2.bik", // H5ALLIN HotA0502.h3m.prolog
+					"HotaVideo141" : "Allin3.bik", // H5ALLIN HotA0503.h3m.prolog
+					"HotaVideo142" : "Allin4.bik", // H5ALLIN HotA0504.h3m.prolog
+					"HotaVideo143" : "Allin5A.bik", // H5ALLIN HotA0505.h3m.prolog
+					"HotaVideo144" : "AllinAB.bik", // H5ALLIN HotA0505.h3m.epilog
 				}
 			}
 		}

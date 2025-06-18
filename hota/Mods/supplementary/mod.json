@@ -34,7 +34,7 @@
 		"config/hota/supplementary/newObjects/kangaroo.json",
 		"config/hota/supplementary/newObjects/lightningRod.json",
 		"config/hota/supplementary/newObjects/guardTower.json",
-		"config/hota/supplementary/newObjects/dwellings.json"
+		//"config/hota/supplementary/newObjects/dwellings.json"
 	],
 	"factions" : [
 		"config/hota/supplementary/factory/town.json"

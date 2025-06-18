@@ -1,0 +1,22 @@
+{
+	"core:scouting" : {
+		"basic" : {
+			"description" : "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 3 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		}
+	}
+}

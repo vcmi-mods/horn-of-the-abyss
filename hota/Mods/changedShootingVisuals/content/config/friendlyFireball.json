@@ -51,9 +51,14 @@
 			"damage": true,
 			"negative": true
 		},
+		//"targetCondition" : {
+		//	"noneOf" : {
+		//		"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"  // Replaced by SPELL_DAMAGE_REDUCTION in VCMI 1.4
+		//	}
+		//},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+				"bonus.SPELL_DAMAGE_REDUCTION" : 100
 			}
 		},
 		"graphics":

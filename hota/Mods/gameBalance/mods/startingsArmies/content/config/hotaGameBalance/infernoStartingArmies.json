@@ -1,5 +1,11 @@
 {
+	// 1.7.3
+	// [+] Gog count in starting armies: 4-7 -> 5-7
+	// [+] Hell Hound count in starting armies: 3-4 -> 4-5
+
+	// ?????
 	// Amount of Imps increased from 15–25 to 20–30
+
 	"core:axsis" :
 	{
 		"army" : [
@@ -10,13 +16,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -30,13 +36,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -45,17 +51,17 @@
 		"army" : [
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			}
 		]
@@ -70,13 +76,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -90,13 +96,13 @@
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -130,13 +136,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -150,13 +156,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -170,13 +176,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -190,13 +196,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -215,8 +221,8 @@
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -230,13 +236,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -250,13 +256,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -270,13 +276,13 @@
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -290,13 +296,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	},
@@ -310,13 +316,13 @@
 			},
 			{
 				"creature" : "gog",
-				"min" : 4,
+				"min" : 5,
 				"max" : 7
 			},
 			{
 				"creature" : "hellHound",
-				"min" : 3,
-				"max" : 4
+				"min" : 4,
+				"max" : 5
 			}
 		]
 	}

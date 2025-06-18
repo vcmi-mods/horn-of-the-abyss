@@ -1,6 +1,6 @@
 {
 	"name" : "Heroes",
-	"description" : "Balance improvements made by HotA Crew for Horn of The Abyss expansion.",
+	"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
 	"modType" : "Mechanics",
 	"author": "Kuririn, avatar, wnukos",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
@@ -8,5 +8,10 @@
 
 	"heroes" : [
 		"config/hotaGameBalance/heroes.json"
-	]
+	],
+	
+	"czech" : {
+		"name" : "Hrdinové",
+		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem"
+	}
 }

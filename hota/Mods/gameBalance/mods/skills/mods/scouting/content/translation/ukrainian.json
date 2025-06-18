@@ -1,0 +1,5 @@
+{
+	"skill.core.scouting.description.advanced" : "{Розвідка 2-го рівня}\n\nДозволяє герою бачити на 3 клітини далі.",
+	"skill.core.scouting.description.basic" : "{Розвідка 1-го рівня}\n\nДозволяє герою бачити на 1 клітину далі.",
+	"skill.core.scouting.description.expert" : "{Розвідка 3-го рівня}\n\nДозволяє герою бачити на 5 клітин далі."
+}

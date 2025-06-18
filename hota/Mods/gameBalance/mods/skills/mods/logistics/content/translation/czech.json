@@ -1,0 +1,5 @@
+{
+	"skill.core.logistics.description.advanced" : "{Lepší logistika}\n\nLepší logistika zvyšuje o 10% rychlost pohybu hrdiny po zemi.",
+	"skill.core.logistics.description.basic" : "{Základní logistika}\n\nZákladní logistika zvyšuje o 5% rychlost pohybu hrdiny po zemi.",
+	"skill.core.logistics.description.expert" : "{Expert logistika}\n\nExpert logistika zvyšuje o 20% rychlost pohybu hrdiny po zemi."
+}

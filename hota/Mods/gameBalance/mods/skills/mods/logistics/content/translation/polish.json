@@ -1,0 +1,5 @@
+{
+	"skill.core.logistics.description.advanced" : "{Zaawansowana Logistyka}\n\nZaawansowana Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 10%.",
+	"skill.core.logistics.description.basic" : "{Podstawowa Logistyka}\n\nPodstawowa Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 5%.",
+	"skill.core.logistics.description.expert" : "{Ekspercka Logistyka}\n\nEkspercka Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 20%."
+}

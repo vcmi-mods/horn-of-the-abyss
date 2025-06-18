@@ -1,0 +1,48 @@
+{
+	"name" : "Eagle Eye",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+
+	"skills" : [
+		"config/hotaGameBalance/skills.json"
+	],
+	
+	"chinese" : {
+		"name" : "Eagle Eye",
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Orlí oko",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Eagle Eye",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"swedish" : {
+		"name" : "Eagle Eye",
+		"description" : "",
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"ukrainian" : {
+		"name" : "Eagle Eye",
+		"description" : "",
+		"translations" : [
+			"translation/ukrainian.json"
+		]
+	}
+}

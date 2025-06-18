@@ -12,6 +12,10 @@
 		"config/hotaGameBalance/infernoStartingArmies.json",
 		"config/hotaGameBalance/dungeonStartingArmies.json",
 		"config/hotaGameBalance/fortressStartingArmies.json"
-	]
-	
+	],
+
+	"czech" : {
+		"name" : "Počáteční armády",
+		"description" : ""
+	}	
 }

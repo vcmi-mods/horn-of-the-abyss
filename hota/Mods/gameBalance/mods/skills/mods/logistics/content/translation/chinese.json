@@ -1,0 +1,6 @@
+{
+
+	"skill.core.logistics.description.advanced" : "{中级后勤学}\n\n中级后勤学可使英雄在陆地上的移动点数增加10%。",
+	"skill.core.logistics.description.basic" : "{初级后勤学}\n\n初级后勤学可使英雄在陆地上的移动点数增加5%。",
+	"skill.core.logistics.description.expert" : "{高级后勤学}\n\n高级后勤学可使英雄在陆地上的移动点数增加20%。"
+}

@@ -1,0 +1,45 @@
+{
+    "basepath": "AVGerth0/",
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVGerth0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVGerth0A001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVGerth0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVGerth0A003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVGerth0A004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVGerth0A005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVGerth0A006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVGerth0A007.png"
+        }
+    ]
+}

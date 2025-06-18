@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Інтелект 2-го рівня}\n\nЗбільшує максимальну кількість очок магії героя на 35%.",
+	"skill.core.intelligence.description.basic" : "{Інтелект 1-го рівня}\n\nЗбільшує максимальну кількість очок магії героя на 20%.",
+	"skill.core.intelligence.description.expert" : "{Інтелект 3-го рівня}\n\nЗбільшує максимальну кількість очок магії героя на 50%."
+}

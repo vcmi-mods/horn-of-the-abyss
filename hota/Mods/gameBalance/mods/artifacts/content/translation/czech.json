@@ -1,0 +1,7 @@
+{
+	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet hrobníka}\n\nPo umístění amuletu na krk se zvýší tvá druhotná schopnost nekromancie o 3%.",
+	"artifact.core.angelicAlliance.description" : "{Andělská aliance}\n\nDovoluje kombinovat armádu z jednotek hradů typu Hrad, Bašta, Věž, Pevnost, Tvrz, Soutok, Zátoka a Továrna bez ztráty morálky. Na začátku boje dostávají pak všechny oddíly kouzlo modlitba na expertní úrovni. Pokud má hrdina v armádě jakoukoli zlou jednotku, morálka se sníží o 1.",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Plášť nemrtvého krále}\n\nOživuje 15% padlých nepřátelských bojovníků jako kostlivce. Pokud má hrdina druhotnou schopnost nekromancie, pak se procenta přidávají k už dosažené úrovni. Úroveň schopnosti nekromancie určuje, jaký typ bojovníků bude oživen. Základní: Zombie\nLepší: Duchové \nExpertní: Lichové",
+	"artifact.core.deadMansBoots.description" : "{Boty mrtvého muže}\n\nPokud si nasadíš na nohy tyto boty, zvýší se tvá druhotná schopnost nekromancie o 7%.",
+	"artifact.core.vampiresCowl.description" : "{Upíří kutna}\n\nS touto kutnou přes ramena vzroste tvá druhotná schopnost nekromancie o 5%."
+}

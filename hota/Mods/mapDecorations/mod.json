@@ -1,6 +1,6 @@
 {
 	"name" : "Map decorations",
-	"description" : "New objects that have the same properties as the old ones.",
+	"description" : "New objects for maps.",
 	"modType" : "Graphical",
 	"author": "Graphics: HotA Crew, mod: avatar",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
@@ -8,13 +8,14 @@
 	"compatibility" : {
 		"min" : "1.1.0"
 	},
+	"depends" : [ "hota.cove", "hota.artifacts" ],
 	"chinese" : {
 		"name" : "地图装饰",
 		"description" : "新增和原有物体属性一致的新物体。"
 	},
 	"czech" : {
 		"name" : "Dekorace map",
-		"description" : "Nové objekty pro mapy se stejnými vlastnostmi jako původní objekty, ale v novém kabátě."
+		"description" : "Nové objekty pro mapy."
 	},
 	"objects" : [
 		"config/hotaMapDecorations/hotaInteractive/boats.json",
