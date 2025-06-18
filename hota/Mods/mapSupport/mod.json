@@ -1250,7 +1250,7 @@
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
 					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
 				},
-			
+
 				"campaignRegions" : {
 					"hotaRegion21" : 21, // H1ROGER
 					"hotaRegion22" : 22, // H2TERROR
@@ -1288,24 +1288,24 @@
 				},
 				
 				"campaignVideo" : {
-					"HotaVideo101" : "ROGERA.bik", // H1ROGER Hota0101.h3m.prolog
-					"HotaVideo102" : "ROGERB.bik", // H1ROGER Hota0102.h3m.prolog
-					"HotaVideo103" : "ROGERC.bik", // H1ROGER Hota0103.h3m.prolog
-					"HotaVideo104" : "ROGERD.bik", // H1ROGER Hota0103.h3m.epilog
+					"ROGERA.bik" : 101, // H1ROGER Hota0101.h3m.prolog
+					"ROGERB.bik" : 102, // H1ROGER Hota0102.h3m.prolog
+					"ROGERC.bik" : 103, // H1ROGER Hota0103.h3m.prolog
+					"ROGERD.bik" : 104, // H1ROGER Hota0103.h3m.epilog
 					
-					"HotaVideo105" : "TERROR1.bik", // H2TERROR Hota0201.h3m.prolog
-					"HotaVideo106" : "TERROR2.bik", // H2TERROR Hota0202.h3m.prolog
-					"HotaVideo107" : "TERROR3.bik", // H2TERROR Hota0203.h3m.prolog
-					"HotaVideo108" : "TERROR4.bik", // H2TERROR Hota0204.h3m.prolog
-					"HotaVideo109" : "TERROR5.bik", // H2TERROR Hota0205.h3m.prolog
-					"HotaVideo110" : "TERROR6.bik", // H2TERROR Hota0206.h3m.prolog
-					"HotaVideo111" : "TERROR7.bik", // H2TERROR Hota0206.h3m.epilog
+					"TERROR1.bik" : 105, // H2TERROR Hota0201.h3m.prolog
+					"TERROR2.bik" : 106, // H2TERROR Hota0202.h3m.prolog
+					"TERROR3.bik" : 107, // H2TERROR Hota0203.h3m.prolog
+					"TERROR4.bik" : 108, // H2TERROR Hota0204.h3m.prolog
+					"TERROR5.bik" : 109, // H2TERROR Hota0205.h3m.prolog
+					"TERROR6.bik" : 110, // H2TERROR Hota0206.h3m.prolog
+					"TERROR7.bik" : 111, // H2TERROR Hota0206.h3m.epilog
 
-					"HotaVideo112" : "HORN1.bik", // H3HORN Hota0301.h3m.prolog
-					"HotaVideo113" : "HORN2.bik", // H3HORN Hota0302.h3m.prolog
-					"HotaVideo114" : "HORN3.bik", // H3HORN Hota0303.h3m.prolog
-					"HotaVideo115" : "HORN4.bik", // H3HORN Hota0304.h3m.prolog
-					"HotaVideo116" : "HORN5.bik", // H3HORN Hota0304.h3m.epilog
+					"HORN1.bik" : 112, // H3HORN Hota0301.h3m.prolog
+					"HORN2.bik" : 113, // H3HORN Hota0302.h3m.prolog
+					"HORN3.bik" : 114, // H3HORN Hota0303.h3m.prolog
+					"HORN4.bik" : 115, // H3HORN Hota0304.h3m.prolog
+					"HORN5.bik" : 116, // H3HORN Hota0304.h3m.epilog
 
 					// unused? 
 					// "HotaVideo117" : 117,
@@ -1313,31 +1313,31 @@
 					// "HotaVideo119" : 119,
 					// "HotaVideo120" : 120,
 
-					"HotaVideo121" : "Factory1A.bik", // H4FACT Hota0401.h3m.prolog
-					"HotaVideo122" : "Factory1B.bik", // H4FACT Hota0401.h3m.epilog
-					"HotaVideo123" : "Factory2A.bik", // H4FACT Hota0402.h3m.prolog
-					"HotaVideo124" : "Factory2B.bik", // H4FACT Hota0402.h3m.epilog
-					"HotaVideo125" : "Factory3A.bik", // H4FACT Hota0403.h3m.prolog
-					"HotaVideo126" : "Factory3B.bik", // H4FACT Hota0403.h3m.epilog
-					"HotaVideo127" : "Factory4A.bik", // H4FACT Hota0404.h3m.prolog
-					"HotaVideo128" : "Factory4B.bik", // H4FACT Hota0404.h3m.epilog
-					"HotaVideo129" : "Factory5A1.bik", // H4FACT Hota0405.h3m.prolog alt
-					"HotaVideo130" : "Factory5A2.bik", // H4FACT Hota0405.h3m.epilog alt
-					"HotaVideo131" : "Factory5B1.bik", // H4FACT Hota0405.h3m.prolog
-					"HotaVideo132" : "Factory5B1.bik", // H4FACT Hota0405.h3m.epilog
-					"HotaVideo133" : "Factory6A.bik", // H4FACT Hota0406.h3m.prolog
-					"HotaVideo134" : "Factory6B.bik", // H4FACT Hota0406.h3m.epilog
-					"HotaVideo135" : "Factory7A.bik", // H4FACT Hota0407.h3m.prolog
-					"HotaVideo136" : "Factory7B.bik", // H4FACT Hota0407.h3m.epilog
-					"HotaVideo137" : "Factory8A.bik", // H4FACT Hota0408.h3m.prolog
-					"HotaVideo138" : "Factory8B.bik", // H4FACT Hota0408.h3m.epilog
+					"Factory1A.bik" : 121, // H4FACT Hota0401.h3m.prolog
+					"Factory1B.bik" : 122, // H4FACT Hota0401.h3m.epilog
+					"Factory2A.bik" : 123, // H4FACT Hota0402.h3m.prolog
+					"Factory2B.bik" : 124, // H4FACT Hota0402.h3m.epilog
+					"Factory3A.bik" : 125, // H4FACT Hota0403.h3m.prolog
+					"Factory3B.bik" : 126, // H4FACT Hota0403.h3m.epilog
+					"Factory4A.bik" : 127, // H4FACT Hota0404.h3m.prolog
+					"Factory4B.bik" : 128, // H4FACT Hota0404.h3m.epilog
+					"Factory5A1.bik" : 129, // H4FACT Hota0405.h3m.prolog alt
+					"Factory5A2.bik" : 130, // H4FACT Hota0405.h3m.epilog alt
+					"Factory5B1.bik" : 131, // H4FACT Hota0405.h3m.prolog
+					"Factory5B2.bik" : 132, // H4FACT Hota0405.h3m.epilog
+					"Factory6A.bik" : 133, // H4FACT Hota0406.h3m.prolog
+					"Factory6B.bik" : 134, // H4FACT Hota0406.h3m.epilog
+					"Factory7A.bik" : 135, // H4FACT Hota0407.h3m.prolog
+					"Factory7B.bik" : 136, // H4FACT Hota0407.h3m.epilog
+					"Factory8A.bik" : 137, // H4FACT Hota0408.h3m.prolog
+					"Factory8B.bik" : 138, // H4FACT Hota0408.h3m.epilog
 
-					"HotaVideo139" : "Allin1.bik", // H5ALLIN HotA0501.h3m.prolog
-					"HotaVideo140" : "Allin2.bik", // H5ALLIN HotA0502.h3m.prolog
-					"HotaVideo141" : "Allin3.bik", // H5ALLIN HotA0503.h3m.prolog
-					"HotaVideo142" : "Allin4.bik", // H5ALLIN HotA0504.h3m.prolog
-					"HotaVideo143" : "Allin5A.bik", // H5ALLIN HotA0505.h3m.prolog
-					"HotaVideo144" : "AllinAB.bik", // H5ALLIN HotA0505.h3m.epilog
+					"Allin1.bik" : 139, // H5ALLIN HotA0501.h3m.prolog
+					"Allin2.bik" : 140, // H5ALLIN HotA0502.h3m.prolog
+					"Allin3.bik" : 141, // H5ALLIN HotA0503.h3m.prolog
+					"Allin4.bik" : 142, // H5ALLIN HotA0504.h3m.prolog
+					"Allin5A.bik" : 143, // H5ALLIN HotA0505.h3m.prolog
+					"Allin5B.bik" : 144, // H5ALLIN HotA0505.h3m.epilog
 				}
 			}
 		}
