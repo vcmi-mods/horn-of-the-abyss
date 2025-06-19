@@ -5,6 +5,12 @@
 	"author": "Kuririn, avatar, wnukos",
 	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.11",
+	"settings" : {
+		"combat": {
+			"badLuckDice" : [ 12, 6, 4 ],
+			"areaShotCanTargetEmptyHex" : true
+		}
+	},
 	"chinese" : {
 		"name" : "游戏平衡",
 		"description" : "深渊号角中的平衡性改进。"
