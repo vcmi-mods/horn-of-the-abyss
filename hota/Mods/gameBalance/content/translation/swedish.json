@@ -1,8 +1,8 @@
 {
-	"artifact.core.amuletOfTheUndertaker.description": "{Dödgrävarens amulett}\n\nNär en hjälte bär denna kring sin hals höjs hjältens nekromantikfärdighet med tre procent (+3% nekromantik).",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{Den odöda kungens mantel}\n\nÅteruppväcker femton procent av de stupade fiendekrigarna som 'Skelett' (15% 'Skelett' uppväcks utan nekromantikfärdigheten). Om din hjälte har nekromantikfärdigheten adderas procenten till den färdigheten och du kan återuppväcka varelser som är starkare än 'Skelett' (baserat på vilken nivå din nekromantikfärdighet är på). Basal nekromantik återuppväcker 'Dödgångare' \r\nUtvecklad nekromantik återuppväcker 'Gastar' \r\nMästerlig nekromantik återuppväcker 'Dödsmagiker'",
-	"artifact.core.deadMansBoots.description"        : "{Död mans stövlar}\n\nNär en hjälte bär dessa på sina fötter höjs hjältens nekromantikfärdighet med sju procent (+7% nekromantik).",
-	"artifact.core.vampiresCowl.description"         : "{Vampyrens kåpa}\n\nNär en hjälte bär denna över sina axlar höjs hjältens nekromantikfärdighet med fem procent (+5% nekromantik).",
+	"artifact.core.amuletOfTheUndertaker.description": "{Dödgrävarens amulett}\n\nNär en hjälte bär denna kring sin hals höjs hjältens nekromantikfärdighet med tre procent (+3% Nekromantik).",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Den odöda kungens mantel}\n\nÅteruppväcker femton procent av de stupade fiendekrigarna som 'Skelett' (15% 'Skelett' uppväcks utan Nekromantik). Med Nekromantik adderas procenten och du kan uppväcka varelser som är starkare än 'Skelett' (baserat på Nekromantik-nivån).\r\nBasal Nekromantik uppväcker 'Dödgångare'.\r\nUtvecklad Nekromantik uppväcker 'Gastar'.\r\nMästerlig Nekromantik uppväcker 'Dödsmagiker'.",
+	"artifact.core.deadMansBoots.description"        : "{Död mans stövlar}\n\nNär en hjälte bär dessa på sina fötter höjs hjältens nekromantikfärdighet med sju procent (+7% Nekromantik).",
+	"artifact.core.vampiresCowl.description"         : "{Vampyrens kåpa}\n\nNär en hjälte bär denna över sina axlar höjs hjältens nekromantikfärdighet med fem procent (+5% Nekromantik).",
 	"building.core.necropolis.special2.description"  : "Nekromantikförstärkaren höjer alla dina hjältars nekromantikfärdighet med fem procent (+5% nekromantik).",
 	"skill.core.estates.description.advanced"        : "{Förmögenhet Utvecklad}\n\nFörmögenhet på utvecklad nivå förser ditt rike med femhundra guldmynt per dag (+500 guld/dag).",
 	"skill.core.estates.description.basic"           : "{Förmögenhet Basal}\n\nFörmögenhet på basal nivå förser ditt rike med tvåhundrafemtio guldmynt per dag (+250 guld/dag).",
@@ -19,7 +19,7 @@
 	"skill.core.necromancy.description.advanced"     : "{Nekromantik Utvecklad}\n\nTio procent av dödade fiendevarelser återuppstår som odöda medhjälpare (+10% odöda uppväcks).",
 	"skill.core.necromancy.description.basic"        : "{Nekromantik Basal}\n\nFem procent av dödade fiendevarelser återuppstår som odöda medhjälpare (+5% odöda uppväcks).",
 	"skill.core.necromancy.description.expert"       : "{Nekromantik Mästerlig}\n\nFemton procent av dödade fiendevarelser återuppstår som odöda medhjälpare (+15% odöda uppväcks).",
-	"skill.core.scouting.description.advanced"       : "{Spaning Utvecklad}\n\nSpaning på utvecklad nivå tillåter din hjälte att se tre rutor längre bort (se 3 rutor längre bort).",
-	"skill.core.scouting.description.basic"          : "{Spaning Basal}\n\nSpaning på basal nivå tillåter din hjälte att se en ruta längre bort (se 1 ruta längre bort).",
-	"skill.core.scouting.description.expert"         : "{Spaning Mästerlig}\n\nSpaning på mästerlig nivå tillåter din hjälte att se fem rutor längre bort (se 5 rutor längre bort)."
+	"skill.core.scouting.description.advanced"       : "{Spaning Utvecklad}\n\nSpaning på utvecklad nivå tillåter din hjälte att se tre rutor längre bort (+3 synhåll).",
+	"skill.core.scouting.description.basic"          : "{Spaning Basal}\n\nSpaning på basal nivå tillåter din hjälte att se en ruta längre bort (+1 synhåll).",
+	"skill.core.scouting.description.expert"         : "{Spaning Mästerlig}\n\nSpaning på mästerlig nivå tillåter din hjälte att se fem rutor längre bort (+5 synhåll)."
 }
