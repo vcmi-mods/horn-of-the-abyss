@@ -1,180 +1,180 @@
 {
-    "basepath": "TBFaUp_1/",
+    "basepath": "hota/factory/town/buildings/TBFaDw_1/",
     "images": [
         {
             "group": 0,
             "frame": 0,
-            "file": "FCfnU1.png"
+            "file": "FCfn1.png"
         },
         {
             "group": 0,
             "frame": 1,
-            "file": "FCfnU2.png"
+            "file": "FCfn2.png"
         },
         {
             "group": 0,
             "frame": 2,
-            "file": "FCfnU3.png"
+            "file": "FCfn3.png"
         },
         {
             "group": 0,
             "frame": 3,
-            "file": "FCfnU5.png"
+            "file": "FCfn5.png"
         },
         {
             "group": 0,
             "frame": 4,
-            "file": "FCfnU6.png"
+            "file": "FCfn6.png"
         },
         {
             "group": 0,
             "frame": 5,
-            "file": "FCfnU7.png"
+            "file": "FCfn7.png"
         },
         {
             "group": 0,
             "frame": 6,
-            "file": "FCfnU8.png"
+            "file": "FCfn8.png"
         },
         {
             "group": 0,
             "frame": 7,
-            "file": "FCfnU9.png"
+            "file": "FCfn9.png"
         },
         {
             "group": 0,
             "frame": 8,
-            "file": "FCfnU10.png"
+            "file": "FCfn10.png"
         },
         {
             "group": 0,
             "frame": 9,
-            "file": "FCfnU11.png"
+            "file": "FCfn11.png"
         },
         {
             "group": 0,
             "frame": 10,
-            "file": "FCfnU12.png"
+            "file": "FCfn12.png"
         },
         {
             "group": 0,
             "frame": 11,
-            "file": "FCfnU13.png"
+            "file": "FCfn13.png"
         },
         {
             "group": 0,
             "frame": 12,
-            "file": "FCfnU14.png"
+            "file": "FCfn14.png"
         },
         {
             "group": 0,
             "frame": 13,
-            "file": "FCfnU15.png"
+            "file": "FCfn15.png"
         },
         {
             "group": 0,
             "frame": 14,
-            "file": "FCfnU16.png"
+            "file": "FCfn16.png"
         },
         {
             "group": 0,
             "frame": 15,
-            "file": "FCfnU17.png"
+            "file": "FCfn17.png"
         },
         {
             "group": 0,
             "frame": 16,
-            "file": "FCfnU18.png"
+            "file": "FCfn18.png"
         },
         {
             "group": 0,
             "frame": 17,
-            "file": "FCfnU19.png"
+            "file": "FCfn19.png"
         },
         {
             "group": 0,
             "frame": 18,
-            "file": "FCfnU20.png"
+            "file": "FCfn20.png"
         },
         {
             "group": 0,
             "frame": 19,
-            "file": "FCfnU21.png"
+            "file": "FCfn21.png"
         },
         {
             "group": 0,
             "frame": 20,
-            "file": "FCfnU22.png"
+            "file": "FCfn22.png"
         },
         {
             "group": 0,
             "frame": 21,
-            "file": "FCfnU23.png"
+            "file": "FCfn23.png"
         },
         {
             "group": 0,
             "frame": 22,
-            "file": "FCfnU24.png"
+            "file": "FCfn24.png"
         },
         {
             "group": 0,
             "frame": 23,
-            "file": "FCfnU25.png"
+            "file": "FCfn25.png"
         },
         {
             "group": 0,
             "frame": 24,
-            "file": "FCfnU26.png"
+            "file": "FCfn26.png"
         },
         {
             "group": 0,
             "frame": 25,
-            "file": "FCfnU27.png"
+            "file": "FCfn27.png"
         },
         {
             "group": 0,
             "frame": 26,
-            "file": "FCfnU28.png"
+            "file": "FCfn28.png"
         },
         {
             "group": 0,
             "frame": 27,
-            "file": "FCfnU29.png"
+            "file": "FCfn29.png"
         },
         {
             "group": 0,
             "frame": 28,
-            "file": "FCfnU30.png"
+            "file": "FCfn30.png"
         },
         {
             "group": 0,
             "frame": 29,
-            "file": "FCfnU31.png"
+            "file": "FCfn31.png"
         },
         {
             "group": 0,
             "frame": 30,
-            "file": "FCfnU32.png"
+            "file": "FCfn32.png"
         },
         {
             "group": 0,
             "frame": 31,
-            "file": "FCfnU33.png"
+            "file": "FCfn33.png"
         },
         {
             "group": 0,
             "frame": 32,
-            "file": "FCfnU34.png"
+            "file": "FCfn34.png"
         },
         {
             "group": 0,
             "frame": 33,
-            "file": "FCfnU35.png"
+            "file": "FCfn35.png"
         },
         {
             "group": 0,
             "frame": 34,
-            "file": "FCfnU36.png"
+            "file": "FCfn36.png"
         }
     ]
 }
