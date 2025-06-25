@@ -7,7 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.7.703",
 	"changelog" : {
-		"1.7.703"    : [ "Added Campaign support", "Added Hermit's Shack", "Updated to 1.7 format", "Partialy updated with 1.7.3 source files", "Updated Czech translation", "Updated maps and campaigns to 1.7.3", "Added missing campaigns sounds" ],
+		"1.7.703"    : [ "Added Campaign support", "Added Hermit's Shack", "Updated to 1.7 format", "Partialy updated with 1.7.3 source files", "Updated Czech translation", "Updated maps and campaigns to 1.7.3", "Added missing campaigns sounds", "1.7.3 and all older maps works now with VCMI"],
 		"1.7.702"    : [ "Updated with 1.7.2 DEFs", "Updated maps and added campaigns" ],
 		"1.7.701"    : [ "Changed version number - 1.7.7xx is targeted to 1.7.3" ],
 		"1.7.67"     : [ "Fix blockmap of swamp mountains. Also promote their biome type to mountains." ],
