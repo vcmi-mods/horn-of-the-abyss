@@ -57,7 +57,6 @@
 				},
 				"targetModifier":{"smart":true},
 				"power": 10,
-				"aiValue": 20,
 				"cost" : 36,
 				"description": "{Specialist's Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nClones creatures of levels 1-5.\n"
 			},

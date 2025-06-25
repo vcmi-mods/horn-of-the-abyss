@@ -10,5 +10,9 @@
 	"objects" :
 	[
 		"config/airship/airship.json"
-	]
+	],
+	"czech": {
+		"name" : "Vzducholoď",
+		"description" : "Tato modifikace přidává do hry vzducholoď včetně přístaviště"
+	}
 }

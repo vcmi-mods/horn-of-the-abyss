@@ -1,0 +1,21 @@
+{
+	"name" : "Starting armies",
+	"description" : "Starting armies",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+
+	"heroes" : [
+		"config/hotaGameBalance/rampartStartingArmies.json",
+		"config/hotaGameBalance/towerStartingArmies.json",
+		"config/hotaGameBalance/infernoStartingArmies.json",
+		"config/hotaGameBalance/dungeonStartingArmies.json",
+		"config/hotaGameBalance/fortressStartingArmies.json"
+	],
+
+	"czech" : {
+		"name" : "Počáteční armády",
+		"description" : ""
+	}	
+}

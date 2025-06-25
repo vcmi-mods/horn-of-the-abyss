@@ -4,19 +4,19 @@
         "slot" : "MISC",
         "class" : "MINOR",
         "value" : 4000,
-        "bonuses" : [ 
-            { 
+        "bonuses" : {
+            "morale" : { 
                 "type" : "MORALE",
                 "val" : -1,
                 "propagator": "BATTLE_WIDE",
                 "propagationUpdater" : "BONUS_OWNER_UPDATER",
                 "limiters" : [ "OPPOSITE_SIDE" ]
             } 
-        ],
+        },
         "graphics" : {
             "image" : "hota/artifactsIcons/hideousMask",
             "map" : "hota/artifactsMap/AVA0155",
-            "large" : "hota/artifactsCampaignBonuses/hideousMask"
+            "scenarioBonus" : "hota/artifactsCampaignBonuses/hideousMask"
         },
         "text" : {
             "name" : "Hideous Mask",

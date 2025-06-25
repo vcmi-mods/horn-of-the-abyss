@@ -1,0 +1,48 @@
+{
+	"name" : "Factions",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+
+	"factions" : [
+		"config/hotaGameBalance/factions.json"
+	],
+	
+	"chinese" : {
+		"name" : "Factions",
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"name" : "Frakce",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"polish" : {
+		"name" : "Factions",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"swedish" : {
+		"name" : "Factions",
+		"description" : "",
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"ukrainian" : {
+		"name" : "Factions",
+		"description" : "",
+		"translations" : [
+			"translation/ukrainian.json"
+		]
+	}
+}

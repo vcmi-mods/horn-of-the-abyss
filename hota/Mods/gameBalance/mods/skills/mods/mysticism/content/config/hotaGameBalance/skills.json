@@ -1,0 +1,22 @@
+{
+	"core:mysticism" : {
+		"basic" : {
+			"description" : "{Basic Mysticism}\n\nBasic Mysticism allows your hero to regenerate 5 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows your hero to regenerate 10 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mysticism}\n\nExpert Mysticism allows your hero to regenerate 15 spell points per day.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			}
+		}
+	}
+}

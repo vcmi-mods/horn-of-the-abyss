@@ -1,7 +1,11 @@
 {
 	"hornOfTheAbyss" : {
 		"class" : "SPECIAL",
-		"graphics" : { "image" : "hota/artifactsIcons/hornOfTheAbyss", "map" : "hota/artifactsMap/AVA0161","large" : "hota/artifactsCampaignBonuses/hornOfTheAbyss" },
+		"graphics" : {
+			"image" : "hota/artifactsIcons/hornOfTheAbyss",
+			"map" : "hota/artifactsMap/AVA0161",
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/hornOfTheAbyss"
+		},
 		"slot" : "MISC",
 		"text" : {
 			"description" : "{Horn of the Abyss}\r\n\r\nUsing the spell of Horn of the Abyss, you can rise Fangarms from any corpses from both side, except non-living creatures.",
@@ -9,12 +13,12 @@
 			"name" : "Horn of the Abyss"
 		},
 		"bonuses":
-		[
-			{
+		{
+			"spell" : {
 				"type": "SPELL",
 				"subtype" : "spell.hornSpell"
 			}
-		],
+		},
 
 		"type" : [ "HERO" ],
 		"value" : 10000

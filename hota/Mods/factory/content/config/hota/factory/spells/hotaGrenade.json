@@ -47,7 +47,6 @@
 				"description": "grenades",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 10
 			},
 			"basic":
@@ -55,7 +54,6 @@
 				"description": "grenades",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 10
 			},
 			"advanced":
@@ -63,7 +61,6 @@
 				"description": "grenades",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 10
 			},
 			"expert":
@@ -71,7 +68,6 @@
 				"description": "grenades",
 	 
 				"cost": 0,
-				"aiValue": 12,
 				"power": 10
 			}
 			}

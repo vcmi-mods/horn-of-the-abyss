@@ -4,41 +4,41 @@
 		"slot" : "RING",
 		"class" : "MAJOR",
 		"value" : 7500,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"bonus1" : {
 				"type" : "GARGOYLE",
 				"propagator": "BATTLE_WIDE"
 			},
-			{
+			"bonus2" : {
 				"type": "DISINTEGRATE",
 				"propagator": "BATTLE_WIDE"
 			},
-			{
+			"bonus3" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.sacrifice",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			},
-			{
+			"bonus4" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.animateDead",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			},
-			{
+			"bonus5" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.resurrection",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ringOfOblivion",
 			"map" : "hota/artifactsMap/AVA0158",
-			"large" : "hota/artifactsCampaignBonuses/ringOfOblivion"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/ringOfOblivion"
 		},
 		"text" : {
 			"name" : "Ring of Oblivion",

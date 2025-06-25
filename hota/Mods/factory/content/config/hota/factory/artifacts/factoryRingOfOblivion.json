@@ -1,13 +1,13 @@
 {
 	"hota.artifacts:ringOfOblivion" : {
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"spell" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.hotaRepair",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			}
-		]
+		}
 	}
 }

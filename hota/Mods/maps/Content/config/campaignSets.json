@@ -3,7 +3,8 @@
 	{
 		"images" :
 		[
-			{"x": 0,   "y": 0,   "name":"CAMPBACK"}
+			{"x": 0,   "y": 0,   "name":"CampaignBackground5"},
+
 		],
 		"exitbutton" : {"x": 658, "y": 482, "name":"CMPSCAN" },
 		"items":

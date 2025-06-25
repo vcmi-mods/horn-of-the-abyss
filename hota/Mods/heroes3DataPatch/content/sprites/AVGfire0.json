@@ -1,0 +1,45 @@
+{
+    "basepath": "AVGfire0/",
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "AVGfire0A000.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "AVGfire0A001.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "AVGfire0A002.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "AVGfire0A003.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "AVGfire0A004.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "AVGfire0A005.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "AVGfire0A006.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "AVGfire0A007.png"
+        }
+    ]
+}

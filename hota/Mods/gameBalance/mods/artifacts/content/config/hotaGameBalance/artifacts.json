@@ -1,0 +1,109 @@
+{
+	"core:amuletOfTheUndertaker":
+	{
+		"text" : {
+			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
+		},
+		"bonuses" : {
+			"necromancy" : {
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 3,                        // NOTE: should be 2.5%
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:vampiresCowl":
+	{
+		"text" : {
+			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
+		},
+		"bonuses" : {
+			"necromancy" : {
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 5,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:deadMansBoots":
+	{
+		"text" : {
+			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
+		},
+		"bonuses" : {
+			"necromancy" : {
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"val" : 7,                       // NOTE: should be 7.5%
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:bootsOfSpeed":
+	{
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 400,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:equestriansGloves":
+	{
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 200,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		}
+	},
+	"core:badgeOfCourage":
+	{
+		"bonuses" : {
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		}
+	},
+	"core:cloakOfTheUndeadKing":
+	{
+		"text" : {
+			"description" : "{Cloak of the Undead King}\n\n15% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.\nBasic: Zombies\nAdvanced: Wights\nExpert:\nLiches"
+		}
+	},
+	"core:angelicAlliance": 
+	{
+		"bonuses" : {
+			"evilPenalty" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"limiters": [
+					{
+						"type":"CREATURE_ALIGNMENT_LIMITER",
+						"parameters": [ "evil" ]
+					}
+				]
+			}
+		},
+		"text" : {
+			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, and Factory Horn of the Abyss creatures to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
+		}
+	}
+	//"core:ringOfTheWayfarer":
+	//{
+	//	"bonuses" : {
+	//		"movement" : {
+	//			"type" : "MOVEMENT",
+	//			"subtype" : "heroMovementLand",
+	//			"val" : 400,
+	//			"valueType" : "ADDITIVE_VALUE"
+	//		}
+	//	}
+	//}
+}

@@ -1,33 +1,658 @@
 {
 	"hermitsShack" : {
-		"handler" : "generic",
+		"handler" : "configurable",
 		"name" : "Hermit's Shack",
 		"types" : {
 			"hermitsShack" : {
 				"name" : "Hermit's Shack",
-				"description" : "(Improves a random secondary skill of the visiting hero.)",
-//				"rmg" : {
-//					"value"	: 1500,
-//					"rarity" : 80,
-//					"zoneLimit" : 1,
-//					"mapLimit" : 32
-//				},
+				"description" : "(Improves a random secondary skill)",
+				"rmg" : {
+					"value"	: 1500,
+					"rarity" : 80,
+					"zoneLimit" : 3,
+					"mapLimit" : 32
+				},
+
+				"aiValue" : 8000,
+				
 				"sounds" : {
 					"visit" : ["GAZEBO"]
 				},
-//				"onSelectMessage" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace. (Random secondary skill upgrade once per hero)",
-//				"onVisitedMessage": "{Hermit's Shack}\r\n\r\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",
-//				"canRefuse": true,
+				
+				"onSelectMessage" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace.",
+				"onVisitedMessage" : "{Hermit's Shack}\r\n\r\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",
+				"onEmptyMessage" : "{Hermit's Shack}\r\n\r\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",
+
 				"visitMode" : "hero",
-				"selectMode" : "selectPlayer",
+				"selectMode" : "selectRandom",
+
 				"templates" : {
 					"AVShrmit" : {
 						"animation" : "hota/highlands/hotaInteractive/hermitsShack/AVShrmit",
 						"mask" : [ "VVV", "VVV", "VAB" ],
 						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "highlands"]
+						"allowedTerrains" : [ "highlands"]
 					}
-				}
+				},
+				
+				"rewards" : [
+					{
+						"limiter" : {
+							"secondary" : { 
+								"pathfinding" : 1
+							}
+						},
+						"secondary" : {
+							  "pathfinding" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"pathfinding" : 2
+							}
+						},
+						"secondary" : {
+							  "pathfinding" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"archery" : 1
+							}
+						},
+						"secondary" : {
+							  "archery" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"archery" : 2
+							}
+						},
+						"secondary" : {
+							  "archery" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"logistics" : 1
+							}
+						},
+						"secondary" : {
+							  "logistics" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"logistics" : 2
+							}
+						},
+						"secondary" : {
+							  "logistics" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"scouting" : 1
+							}
+						},
+						"secondary" : {
+							  "scouting" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"scouting" : 2
+							}
+						},
+						"secondary" : {
+							  "scouting" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"diplomacy" : 1
+							}
+						},
+						"secondary" : {
+							  "diplomacy" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"diplomacy" : 2
+							}
+						},
+						"secondary" : {
+							  "diplomacy" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"navigation" : 1
+							}
+						},
+						"secondary" : {
+							  "navigation" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"navigation" : 2
+							}
+						},
+						"secondary" : {
+							  "navigation" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"leadership" : 1
+							}
+						},
+						"secondary" : {
+							  "leadership" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"leadership" : 2
+							}
+						},
+						"secondary" : {
+							  "leadership" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"wisdom" : 1
+							}
+						},
+						"secondary" : {
+							  "wisdom" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"wisdom" : 2
+							}
+						},
+						"secondary" : {
+							  "wisdom" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"mysticism" : 1
+							}
+						},
+						"secondary" : {
+							  "mysticism" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"mysticism" : 2
+							}
+						},
+						"secondary" : {
+							  "mysticism" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"luck" : 1
+							}
+						},
+						"secondary" : {
+							  "luck" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"luck" : 2
+							}
+						},
+						"secondary" : {
+							  "luck" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"ballistics" : 1
+							}
+						},
+						"secondary" : {
+							  "ballistics" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"ballistics" : 2
+							}
+						},
+						"secondary" : {
+							  "ballistics" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"eagleEye" : 1
+							}
+						},
+						"secondary" : {
+							  "eagleEye" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"eagleEye" : 2
+							}
+						},
+						"secondary" : {
+							  "eagleEye" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"necromancy" : 1
+							}
+						},
+						"secondary" : {
+							  "necromancy" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"necromancy" : 2
+							}
+						},
+						"secondary" : {
+							  "necromancy" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"estates" : 1
+							}
+						},
+						"secondary" : {
+							  "estates" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"estates" : 2
+							}
+						},
+						"secondary" : {
+							  "estates" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"fireMagic" : 1
+							}
+						},
+						"secondary" : {
+							  "fireMagic" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"fireMagic" : 2
+							}
+						},
+						"secondary" : {
+							  "fireMagic" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"airMagic" : 1
+							}
+						},
+						"secondary" : {
+							  "airMagic" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"airMagic" : 2
+							}
+						},
+						"secondary" : {
+							  "airMagic" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"waterMagic" : 1
+							}
+						},
+						"secondary" : {
+							  "waterMagic" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"waterMagic" : 2
+							}
+						},
+						"secondary" : {
+							  "waterMagic" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"earthMagic" : 1
+							}
+						},
+						"secondary" : {
+							  "earthMagic" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"earthMagic" : 2
+							}
+						},
+						"secondary" : {
+							  "earthMagic" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"scholar" : 1
+							}
+						},
+						"secondary" : {
+							  "scholar" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"scholar" : 2
+							}
+						},
+						"secondary" : {
+							  "scholar" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"tactics" : 1
+							}
+						},
+						"secondary" : {
+							  "tactics" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"tactics" : 2
+							}
+						},
+						"secondary" : {
+							  "tactics" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"artillery" : 1
+							}
+						},
+						"secondary" : {
+							  "artillery" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"artillery" : 2
+							}
+						},
+						"secondary" : {
+							  "artillery" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"learning" : 1
+							}
+						},
+						"secondary" : {
+							  "learning" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"learning" : 2
+							}
+						},
+						"secondary" : {
+							  "learning" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"offence" : 1
+							}
+						},
+						"secondary" : {
+							  "offence" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"offence" : 2
+							}
+						},
+						"secondary" : {
+							  "offence" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"armorer" : 1
+							}
+						},
+						"secondary" : {
+							  "armorer" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"armorer" : 2
+							}
+						},
+						"secondary" : {
+							  "armorer" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"intelligence" : 1
+							}
+						},
+						"secondary" : {
+							  "intelligence" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"intelligence" : 2
+							}
+						},
+						"secondary" : {
+							  "intelligence" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"sorcery" : 1
+							}
+						},
+						"secondary" : {
+							  "sorcery" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"sorcery" : 2
+							}
+						},
+						"secondary" : {
+							  "sorcery" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"resistance" : 1
+							}
+						},
+						"secondary" : {
+							  "resistance" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"resistance" : 2
+							}
+						},
+						"secondary" : {
+							  "resistance" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"firstAid" : 1
+							}
+						},
+						"secondary" : {
+							  "firstAid" : 2
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					},
+					{
+						"limiter" : {
+							"secondary" : { 
+								"firstAid" : 2
+							}
+						},
+						"secondary" : {
+							  "firstAid" : 3
+						},
+						"message" : "{Hermit's Shack}\r\n\r\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					}
+				]
 			}
 		}
 	}		

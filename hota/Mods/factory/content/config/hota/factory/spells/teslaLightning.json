@@ -40,7 +40,6 @@
 		"base":{
 				"range" : "X",
 				"power": 100, 
-				"aiValue": 70,
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage", "val": 0, "valueType": 	"INDEPENDENT_MIN"}
 				},

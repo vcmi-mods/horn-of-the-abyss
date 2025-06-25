@@ -32,8 +32,7 @@
 				"targetModifier":{"smart":true},
 				"description" : "Stacks in target hex and it's surrounding hexes take damage",
 				"cost": 15,
-				"power": 15,
-				"aiValue": 70,
+				"power": 15
 			},
 			"none":
 			{
@@ -52,9 +51,14 @@
 			"damage": true,
 			"negative": true
 		},
+		//"targetCondition" : {
+		//	"noneOf" : {
+		//		"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"  // Replaced by SPELL_DAMAGE_REDUCTION in VCMI 1.4
+		//	}
+		//},
 		"targetCondition" : {
 			"noneOf" : {
-				"bonus.DIRECT_DAMAGE_IMMUNITY" : "normal"
+				"bonus.SPELL_DAMAGE_REDUCTION" : 100
 			}
 		},
 		"graphics":

@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{中级智力}\n\n中级智力可使英雄的最大魔法值提高35%。",
+	"skill.core.intelligence.description.basic" : "{初级智力}\n\n初级智力可使英雄的最大魔法值提高20%。",
+	"skill.core.intelligence.description.expert" : "{高级智力}\n\n高级智力可使英雄的最大魔法值提高50%。"
+}

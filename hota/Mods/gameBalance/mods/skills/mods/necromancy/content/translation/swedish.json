@@ -1,0 +1,5 @@
+{
+	"skill.core.necromancy.description.advanced"     : "{Nekromanti (Utvecklad)}\n\n10% av dödade fiendevarelser återuppstår som odöda medhjälpare.",
+	"skill.core.necromancy.description.basic"        : "{Nekromanti (Grundläggande)}\n\n5% av dödade fiendevarelser återuppstår som odöda medhjälpare.",
+	"skill.core.necromancy.description.expert"       : "{Nekromanti (Mästerlig)}\n\n15% av dödade fiendevarelser återuppstår som odöda medhjälpare."
+}

@@ -104,6 +104,7 @@
 				"name" : "Nix Fort",
 				"creatures" : [[ "nix" ]],
 				"guards" : true,
+				"bannedForRandomDwelling" : true,
 				"sounds": {
 					"ambient": ["hota/cove/dwellings/LOOPNIXF.wav"]
 				},
@@ -118,6 +119,7 @@
 				"name" : "Whirpool",
 				"creatures" : [[ "seaserpent" ]],
 				"guards" : true,
+				"bannedForRandomDwelling" : true,
 				"sounds": {
 					"ambient": ["hota/cove/dwellings/LOOPHASP.wav"]
 				},

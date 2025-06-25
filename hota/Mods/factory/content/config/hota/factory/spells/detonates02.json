@@ -62,7 +62,6 @@
 				"description": "A charm dispelling and blocking benign magic.",
 				"cost": 0,
 				"power": 1,
-				"aiValue": 20,
 				"range" : "0",
 				"targetModifier":{"smart":true},
 
@@ -95,14 +94,12 @@
 					{
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "spell.dispel",
-						"addInfo" : 1,
 						"duration": "PERMANENT"
 					},
 					"immnunityDispelHelpful":
 					{
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "spell.dispelHelpful",
-						"addInfo" : 1,
 						"duration": "PERMANENT"
 					},
 					"redeem2" :{

@@ -4,18 +4,18 @@
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 7000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"skill" : {
 				"subtype" : "primarySkill.attack",
 				"type" : "PRIMARY_SKILL",
 				"valueType" : "BASE_NUMBER",
 				"val" : 7
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/tridentOfDominion",
 			"map" : "hota/artifactsMap/AVA0147",
-			"large" : "hota/artifactsCampaignBonuses/tridentOfDominion"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/tridentOfDominion"
 		},
 		"text" : {
 			"name" : "Trident of Dominion",

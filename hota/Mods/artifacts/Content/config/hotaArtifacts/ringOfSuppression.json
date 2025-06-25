@@ -4,19 +4,19 @@
 		"slot" : "RING",
 		"class" : "TREASURE",
 		"value" : 4000,
-		"bonuses" : [ 
-			{ 
+		"bonuses" : {
+			"morale" : { 
 				"type" : "MORALE",
 				"val" : -1,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			} 
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ringOfSuppression",
 			"map" : "hota/artifactsMap/AVA0156",
-			"large" : "hota/artifactsCampaignBonuses/ringOfSuppression"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/ringOfSuppression"
 		},
 		"text" : {
 			"name" : "Ring of Suppression",

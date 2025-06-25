@@ -73,26 +73,26 @@
 						"mask" : [ "VVV", "VAV" ]
 					}
 				},
-				"bonuses" : [
-					{
-						"type" : "WATER_WALKING",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
-						"propagator" : "HERO"
-					},
-					{
-						"type" : "FLYING_MOVEMENT",
-						"val" : 0,
-						"valueType" : "INDEPENDENT_MIN",
-						"propagator" : "HERO"
-					},
-					{
-						"type": "FREE_SHIP_BOARDING",
-						"val" : 0,
-						"valueType" : "BASE_NUMBER",
-						"propagator" : "HERO"
-					}
-				]
+				//"bonuses" : [
+				//	{
+				//		"type" : "WATER_WALKING",
+				//		"val" : 0,
+				//		"valueType" : "INDEPENDENT_MIN",
+				//		"propagator" : "HERO"
+				//	},
+				//	{
+				//		"type" : "FLYING_MOVEMENT",
+				//		"val" : 0,
+				//		"valueType" : "INDEPENDENT_MIN",
+				//		"propagator" : "HERO"
+				//	},
+				//	{
+				//		"type": "FREE_SHIP_BOARDING",
+				//		"val" : 0,
+				//		"valueType" : "BASE_NUMBER",
+				//		"propagator" : "HERO"
+				//	}
+				//]
 			}
 		}
 	}

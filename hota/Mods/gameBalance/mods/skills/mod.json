@@ -1,0 +1,13 @@
+{
+	"name" : "Skills",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Schopnosti",
+		"description" : ""
+	}
+}

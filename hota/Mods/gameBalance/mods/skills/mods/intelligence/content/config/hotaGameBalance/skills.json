@@ -1,0 +1,22 @@
+{
+	"core:intelligence" : {
+		"basic" : {
+			"description" : "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 35%.",
+			"effects" : {
+				"main" : { "val" : 35 }
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 50%.",
+			"effects" : {
+				"main" : { "val" : 50 }
+			}
+		}
+	}
+}

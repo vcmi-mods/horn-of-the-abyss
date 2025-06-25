@@ -4,18 +4,18 @@
 		"slot" : "TORSO",
 		"class" : "MAJOR",
 		"value" : 7000,
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"skill" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
 				"valueType" : "BASE_NUMBER",
 				"val" : 6
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/royalArmorOfNix",
 			"map" : "hota/artifactsMap/AVA0149",
-			"large" : "hota/artifactsCampaignBonuses/royalArmorOfNix"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/royalArmorOfNix"
 		},
 		"text" : {
 			"name" : "Royal Armor of Nix",

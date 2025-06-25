@@ -1,0 +1,23 @@
+{
+	"name" : "Ballistics",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author" : "Hota Crew, ported by Manfred",
+	"contact" : "VCMI Discord: https://discord.gg/chBT42V",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+	
+	"czech" : {
+		"name" : "Balistika",
+		"description" : ""
+	},
+	"polish" : {
+		"name" : "Balistika",
+		"description" : ""
+	},
+	
+	"spells": [
+		"config/hotaCatapult/catapultShot.json"
+	]
+}

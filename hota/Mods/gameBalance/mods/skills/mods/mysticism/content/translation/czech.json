@@ -1,0 +1,5 @@
+{
+	"skill.core.mysticism.description.advanced" : "{Lepší mystika}\n\nLepší mystika zvyšuje rychlost obnovy zásoby magické energie o 10 body denně.",
+	"skill.core.mysticism.description.basic" : "{Základní mystika}\n\nZákladní mystika zvyšuje rychlost obnovy zásoby magické energie na 5 body denně.",
+	"skill.core.mysticism.description.expert" : "{Expert mystika}\n\nExpert mystika zvyšuje rychlost obnovy zásoby magické energie o 15 body denně."
+}

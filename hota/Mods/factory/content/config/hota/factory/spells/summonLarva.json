@@ -17,7 +17,6 @@
 		"levels" : {
 			"base": {
 				"description" : "",
-				"aiValue" : 0,
 				"power" : 1,
 				"cost" : 1,
 				"targetModifier":{"smart":false},

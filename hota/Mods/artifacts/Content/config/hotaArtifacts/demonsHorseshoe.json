@@ -4,19 +4,19 @@
 		"slot" : "MISC",
 		"class" : "TREASURE",
 		"value" : 2000,
-		"bonuses" : [ 
-			{ 
+		"bonuses" : {
+			"luck" : { 
 				"type" : "LUCK", 
 				"val" : -1,
 				"propagator": "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			} 
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/demonsHorseshoe",
 			"map" : "hota/artifactsMap/AVA0153",
-			"large" : "hota/artifactsCampaignBonuses/demonsHorseshoe"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/demonsHorseshoe"
 		},
 		"text" : {
 			"name" : "Demon's Horseshoe",

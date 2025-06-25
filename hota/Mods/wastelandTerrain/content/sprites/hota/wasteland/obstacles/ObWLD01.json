@@ -1,13 +1,10 @@
 {
-    "basepath" : "hota/wasteland/obstacles/frames/",
-    "sequences" :
-    [
+    "basepath": "ObWLD01/",
+    "images": [
         {
-            "group" : 0,
-            "frames" :
-            [
-                "ObWLD01.png"
-            ]
+            "group": 0,
+            "frame": 0,
+            "file": "ObWLD01.png"
         }
     ]
 }

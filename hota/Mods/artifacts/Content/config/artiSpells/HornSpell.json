@@ -48,7 +48,6 @@
 	{
 		"base": {
 				"description" : "{Summon Fangarms}\r\n\r\nRise Fangarms from any corpses from both side, except non-living creatures.",
-				"aiValue" : 0,
 				"power" : 40,
 				"cost" : 0,
 				"targetModifier":{"smart":false},

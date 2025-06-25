@@ -42,7 +42,6 @@
 				"range" : "0",
 				"description" : "Placeholder description for Accurate Shot",
 				"power": 1,
-				"aiValue" : 50,
 				"cost" : 0
 			},
 			"none":

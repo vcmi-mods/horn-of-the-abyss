@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Lepší inteligence}\n\nLepší inteligence zvyšuje o 35% maximální množství magické energie, kterou hrdina může najednou načerpat.",
+	"skill.core.intelligence.description.basic" : "{Základní inteligence}\n\nZákladní inteligence zvyšuje o 20% maximální množství magické energie, kterou hrdina může najednou načerpat.",
+	"skill.core.intelligence.description.expert" : "{Expert inteligence}\n\nExpert inteligence zvyšuje o 50% maximální množství magické energie, kterou hrdina může najednou načerpat."
+}

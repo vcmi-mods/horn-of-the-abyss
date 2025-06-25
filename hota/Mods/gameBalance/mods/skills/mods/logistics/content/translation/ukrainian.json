@@ -1,0 +1,5 @@
+{
+	"skill.core.logistics.description.advanced" : "{Логістика 2-го рівня}\n\nЗбільшує дальність пересування сушею на 10%.",
+	"skill.core.logistics.description.basic" : "{Логістика 1-го рівня}\n\nЗбільшує дальність пересування сушею на 5%.",
+	"skill.core.logistics.description.expert" : "{Логістика 3-го рівня}\n\nЗбільшує дальність пересування сушею на 20%."
+}

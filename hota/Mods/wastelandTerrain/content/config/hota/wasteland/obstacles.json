@@ -17,7 +17,7 @@
 		"width" : 2,
 		"height" : 3,
 		"blockedTiles" :  [1],
-		"animation" : "hota/wasteland/obstacles/ObWLD00.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD00",
 		"absolute" : false
 	},
 	"hotaWLD01" : {
@@ -26,7 +26,7 @@
 		"width" : 2,
 		"height" : 3,
 		"blockedTiles" :  [-33, -34],
-		"animation" : "hota/wasteland/obstacles/ObWLD01.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD01",
 		"absolute" : false
 	},
 	"hotaWLD02" : {
@@ -35,7 +35,7 @@
 		"width" : 3,
 		"height" : 2,
 		"blockedTiles" :  [0, 1, 2],
-		"animation" : "hota/wasteland/obstacles/ObWLD02.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD02",
 		"absolute" : false
 	},
 	"hotaWLD03" : {
@@ -44,7 +44,7 @@
 		"width" : 3,
 		"height" : 3,
 		"blockedTiles" :  [1, 2],
-		"animation" : "hota/wasteland/obstacles/ObWLD03.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD03",
 		"absolute" : false
 	},
 	"hotaWLD04" : {
@@ -53,7 +53,7 @@
 		"width" : 2,
 		"height" : 3,
 		"blockedTiles" :  [1],
-		"animation" : "hota/wasteland/obstacles/ObWLD04.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD04",
 		"absolute" : false
 	},
 	"hotaWLD05" : {
@@ -62,7 +62,7 @@
 		"width" : 2,
 		"height" : 3,
 		"blockedTiles" :  [1],
-		"animation" : "hota/wasteland/obstacles/ObWLD05.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD05",
 		"absolute" : false
 	},
 	"hotaWLD06" : {
@@ -71,7 +71,7 @@
 		"width" : 3,
 		"height" : 3,
 		"blockedTiles" :  [1],
-		"animation" : "hota/wasteland/obstacles/ObWLD06.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD06",
 		"absolute" : false
 	},
 	"hotaWLD07" : {
@@ -80,7 +80,7 @@
 		"width" : 3,
 		"height" : 3,
 		"blockedTiles" :  [-33, -32],
-		"animation" : "hota/wasteland/obstacles/ObWLD07.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD07",
 		"absolute" : false
 	},
 	"hotaWLD08" : {
@@ -89,7 +89,7 @@
 		"width" : 5,
 		"height" : 3,
 		"blockedTiles" :  [-32, -33, -34, -35],
-		"animation" : "hota/wasteland/obstacles/ObWLD08.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD08",
 		"absolute" : false
 	},
 	"hotaWLD09" : {
@@ -98,7 +98,7 @@
 		"width" : 5,
 		"height" : 3,
 		"blockedTiles" :  [-33, -34],
-		"animation" : "hota/wasteland/obstacles/ObWLD09.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD09",
 		"absolute" : false
 	},
 	"hotaWLD10" : {
@@ -107,7 +107,7 @@
 		"width" : 6,
 		"height" : 2,
 		"blockedTiles" :  [1, 2, 3, 4, 5, -15, -14, -13, -12],
-		"animation" : "hota/wasteland/obstacles/ObWLD10.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD10",
 		"absolute" : false
 	},
 	"hotaWLD11" : {
@@ -116,7 +116,7 @@
 		"width" : 5,
 		"height" : 4,
 		"blockedTiles" :  [-32, -31],
-		"animation" : "hota/wasteland/obstacles/ObWLD11.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD11",
 		"absolute" : false
 	},
 	"hotaWLD12" : {
@@ -125,7 +125,7 @@
 		"width" : 4,
 		"height" : 2,
 		"blockedTiles" :  [-32, -31, -30, -29, -48, -47, -46],
-		"animation" : "hota/wasteland/obstacles/ObWLD12.def",
+		"animation" : "hota/wasteland/obstacles/ObWLD12",
 		"absolute" : false
 	},
 	"hotaWLD13" :
@@ -135,7 +135,7 @@
 		"width" : 163,
 		"height" : 302,
 		"blockedTiles" :  [105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 128, 129, 130, 131, 145, 146, 147, 148, 149, 150],
-		"animation" : "hota/wasteland/obstacles/frames/ObWLD13.png",
+		"animation" : "hota/wasteland/obstacles/ObWLD13",
 		"absolute" : true
 	},
 	"hotaWLD14" :
@@ -145,7 +145,7 @@
 		"width" : 104,
 		"height" : 126,
 		"blockedTiles" :  [36, 37, 38, 39, 40, 41, 42, 59, 60, 76, 77, 78],
-		"animation" : "hota/wasteland/obstacles/frames/ObWLD14.png",
+		"animation" : "hota/wasteland/obstacles/ObWLD14",
 		"absolute" : true
 	}
 

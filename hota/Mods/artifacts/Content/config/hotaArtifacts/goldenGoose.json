@@ -9,18 +9,18 @@
 			"endlessBagOfGold",
 			"endlessSackOfGold"
 		],
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"gold" : {
 				"type" : "GENERATE_RESOURCE",
 				"subtype" : "resource.gold",
 				"valueType" : "BASE_NUMBER",
 				"val" : 4750 // Toghether with component effects, this adds up to 7000
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/goldenGoose",
 			"map" : "hota/artifactsMap/AVA0160",
-			"large" : "hota/artifactsCampaignBonuses/goldenGoose"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/goldenGoose"
 		},
 		"text" : {
 			"name" : "Golden Goose",

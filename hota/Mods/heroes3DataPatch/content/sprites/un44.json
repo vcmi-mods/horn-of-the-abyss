@@ -1,0 +1,995 @@
+{
+	"basepath" : "un44/",
+    "images": [
+        {
+            "group": 0,
+            "frame": 0,
+            "file": "archery.png"
+        },
+        {
+            "group": 0,
+            "frame": 1,
+            "file": "crossbow.png"
+        },
+        {
+            "group": 0,
+            "frame": 2,
+            "file": "griff.png"
+        },
+        {
+            "group": 0,
+            "frame": 3,
+            "file": "navigat.png"
+        },
+        {
+            "group": 0,
+            "frame": 4,
+            "file": "estates.png"
+        },
+        {
+            "group": 0,
+            "frame": 5,
+            "file": "swordsm.png"
+        },
+        {
+            "group": 0,
+            "frame": 6,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 7,
+            "file": "champ.png"
+        },
+        {
+            "group": 0,
+            "frame": 8,
+            "file": "firstaid.png"
+        },
+        {
+            "group": 0,
+            "frame": 9,
+            "file": "bless.png"
+        },
+        {
+            "group": 0,
+            "frame": 10,
+            "file": "weakness.png"
+        },
+        {
+            "group": 0,
+            "frame": 11,
+            "file": "frostri.png"
+        },
+        {
+            "group": 0,
+            "frame": 12,
+            "file": "monk.png"
+        },
+        {
+            "group": 0,
+            "frame": 13,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 14,
+            "file": "pray.png"
+        },
+        {
+            "group": 0,
+            "frame": 15,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 16,
+            "file": "armor.png"
+        },
+        {
+            "group": 0,
+            "frame": 17,
+            "file": "dwarf.png"
+        },
+        {
+            "group": 0,
+            "frame": 18,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 19,
+            "file": "dendroid.png"
+        },
+        {
+            "group": 0,
+            "frame": 20,
+            "file": "resist.png"
+        },
+        {
+            "group": 0,
+            "frame": 21,
+            "file": "elf.png"
+        },
+        {
+            "group": 0,
+            "frame": 22,
+            "file": "unicorn.png"
+        },
+        {
+            "group": 0,
+            "frame": 23,
+            "file": "logisti.png"
+        },
+        {
+            "group": 0,
+            "frame": 24,
+            "file": "slayer.png"
+        },
+        {
+            "group": 0,
+            "frame": 25,
+            "file": "cure.png"
+        },
+        {
+            "group": 0,
+            "frame": 26,
+            "file": "intell.png"
+        },
+        {
+            "group": 0,
+            "frame": 27,
+            "file": "firstaid.png"
+        },
+        {
+            "group": 0,
+            "frame": 28,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 29,
+            "file": "fortune.png"
+        },
+        {
+            "group": 0,
+            "frame": 30,
+            "file": "icebolt.png"
+        },
+        {
+            "group": 0,
+            "frame": 31,
+            "file": "pegas.png"
+        },
+        {
+            "group": 0,
+            "frame": 32,
+            "file": "gargl.png"
+        },
+        {
+            "group": 0,
+            "frame": 33,
+            "file": "genie.png"
+        },
+        {
+            "group": 0,
+            "frame": 34,
+            "file": "stonegol.png"
+        },
+        {
+            "group": 0,
+            "frame": 35,
+            "file": "armor.png"
+        },
+        {
+            "group": 0,
+            "frame": 36,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 37,
+            "file": "naga.png"
+        },
+        {
+            "group": 0,
+            "frame": 38,
+            "file": "mercur.png"
+        },
+        {
+            "group": 0,
+            "frame": 39,
+            "file": "genie.png"
+        },
+        {
+            "group": 0,
+            "frame": 40,
+            "file": "hypn.png"
+        },
+        {
+            "group": 0,
+            "frame": 41,
+            "file": "myst.png"
+        },
+        {
+            "group": 0,
+            "frame": 42,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 43,
+            "file": "fortune.png"
+        },
+        {
+            "group": 0,
+            "frame": 44,
+            "file": "mage.png"
+        },
+        {
+            "group": 0,
+            "frame": 45,
+            "file": "chainlgt.png"
+        },
+        {
+            "group": 0,
+            "frame": 46,
+            "file": "haste.png"
+        },
+        {
+            "group": 0,
+            "frame": 47,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 48,
+            "file": "hellhoun.png"
+        },
+        {
+            "group": 0,
+            "frame": 49,
+            "file": "efree.png"
+        },
+        {
+            "group": 0,
+            "frame": 50,
+            "file": "demon.png"
+        },
+        {
+            "group": 0,
+            "frame": 51,
+            "file": "imp.png"
+        },
+        {
+            "group": 0,
+            "frame": 52,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 53,
+            "file": "gog.png"
+        },
+        {
+            "group": 0,
+            "frame": 54,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 55,
+            "file": "pit.png"
+        },
+        {
+            "group": 0,
+            "frame": 56,
+            "file": "intell.png"
+        },
+        {
+            "group": 0,
+            "frame": 57,
+            "file": "inferno.png"
+        },
+        {
+            "group": 0,
+            "frame": 58,
+            "file": "myst.png"
+        },
+        {
+            "group": 0,
+            "frame": 59,
+            "file": "weakness.png"
+        },
+        {
+            "group": 0,
+            "frame": 60,
+            "file": "sulfur.png"
+        },
+        {
+            "group": 0,
+            "frame": 61,
+            "file": "bllust.png"
+        },
+        {
+            "group": 0,
+            "frame": 62,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 63,
+            "file": "fireball.png"
+        },
+        {
+            "group": 0,
+            "frame": 64,
+            "file": "zombie.png"
+        },
+        {
+            "group": 0,
+            "frame": 65,
+            "file": "vampire.png"
+        },
+        {
+            "group": 0,
+            "frame": 66,
+            "file": "lich.png"
+        },
+        {
+            "group": 0,
+            "frame": 67,
+            "file": "wight.png"
+        },
+        {
+            "group": 0,
+            "frame": 68,
+            "file": "ddknight.png"
+        },
+        {
+            "group": 0,
+            "frame": 69,
+            "file": "necro.png"
+        },
+        {
+            "group": 0,
+            "frame": 70,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 71,
+            "file": "skel.png"
+        },
+        {
+            "group": 0,
+            "frame": 72,
+            "file": "deathrpl.png"
+        },
+        {
+            "group": 0,
+            "frame": 73,
+            "file": "meteor.png"
+        },
+        {
+            "group": 0,
+            "frame": 74,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 75,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 76,
+            "file": "animate.png"
+        },
+        {
+            "group": 0,
+            "frame": 77,
+            "file": "stonesk.png"
+        },
+        {
+            "group": 0,
+            "frame": 78,
+            "file": "necro.png"
+        },
+        {
+            "group": 0,
+            "frame": 79,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 80,
+            "file": "harpy.png"
+        },
+        {
+            "group": 0,
+            "frame": 81,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 82,
+            "file": "minot.png"
+        },
+        {
+            "group": 0,
+            "frame": 83,
+            "file": "beholder.png"
+        },
+        {
+            "group": 0,
+            "frame": 84,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 85,
+            "file": "logisti.png"
+        },
+        {
+            "group": 0,
+            "frame": 86,
+            "file": "manticor.png"
+        },
+        {
+            "group": 0,
+            "frame": 87,
+            "file": "trogl.png"
+        },
+        {
+            "group": 0,
+            "frame": 88,
+            "file": "ressur.png"
+        },
+        {
+            "group": 0,
+            "frame": 89,
+            "file": "myst.png"
+        },
+        {
+            "group": 0,
+            "frame": 90,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 91,
+            "file": "ressur.png"
+        },
+        {
+            "group": 0,
+            "frame": 92,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 93,
+            "file": "meteor.png"
+        },
+        {
+            "group": 0,
+            "frame": 94,
+            "file": "crystal.png"
+        },
+        {
+            "group": 0,
+            "frame": 95,
+            "file": "stonesk.png"
+        },
+        {
+            "group": 0,
+            "frame": 96,
+            "file": "cyclop.png"
+        },
+        {
+            "group": 0,
+            "frame": 97,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 98,
+            "file": "orc.png"
+        },
+        {
+            "group": 0,
+            "frame": 99,
+            "file": "roc.png"
+        },
+        {
+            "group": 0,
+            "frame": 100,
+            "file": "goblin.png"
+        },
+        {
+            "group": 0,
+            "frame": 101,
+            "file": "ogre.png"
+        },
+        {
+            "group": 0,
+            "frame": 102,
+            "file": "offence.png"
+        },
+        {
+            "group": 0,
+            "frame": 103,
+            "file": "wolf.png"
+        },
+        {
+            "group": 0,
+            "frame": 104,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 105,
+            "file": "ogre.png"
+        },
+        {
+            "group": 0,
+            "frame": 106,
+            "file": "logisti.png"
+        },
+        {
+            "group": 0,
+            "frame": 107,
+            "file": "haste.png"
+        },
+        {
+            "group": 0,
+            "frame": 108,
+            "file": "precis.png"
+        },
+        {
+            "group": 0,
+            "frame": 109,
+            "file": "offence.png"
+        },
+        {
+            "group": 0,
+            "frame": 110,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 111,
+            "file": "gem.png"
+        },
+        {
+            "group": 0,
+            "frame": 112,
+            "file": "basil.png"
+        },
+        {
+            "group": 0,
+            "frame": 113,
+            "file": "gnoll.png"
+        },
+        {
+            "group": 0,
+            "frame": 114,
+            "file": "lizard.png"
+        },
+        {
+            "group": 0,
+            "frame": 115,
+            "file": "armor.png"
+        },
+        {
+            "group": 0,
+            "frame": 116,
+            "file": "gorgon.png"
+        },
+        {
+            "group": 0,
+            "frame": 117,
+            "file": "drfly.png"
+        },
+        {
+            "group": 0,
+            "frame": 118,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 119,
+            "file": "wyvern.png"
+        },
+        {
+            "group": 0,
+            "frame": 120,
+            "file": "weakness.png"
+        },
+        {
+            "group": 0,
+            "frame": 121,
+            "file": "myst.png"
+        },
+        {
+            "group": 0,
+            "frame": 122,
+            "file": "navigat.png"
+        },
+        {
+            "group": 0,
+            "frame": 123,
+            "file": "firstaid.png"
+        },
+        {
+            "group": 0,
+            "frame": 124,
+            "file": "stonesk.png"
+        },
+        {
+            "group": 0,
+            "frame": 125,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 126,
+            "file": "intell.png"
+        },
+        {
+            "group": 0,
+            "frame": 127,
+            "file": "eagleeye.png"
+        },
+        {
+            "group": 0,
+            "frame": 128,
+            "file": "psych.png"
+        },
+        {
+            "group": 0,
+            "frame": 129,
+            "file": "earth.png"
+        },
+        {
+            "group": 0,
+            "frame": 130,
+            "file": "fireelem.png"
+        },
+        {
+            "group": 0,
+            "frame": 131,
+            "file": "watrelem.png"
+        },
+        {
+            "group": 0,
+            "frame": 132,
+            "file": "psych.png"
+        },
+        {
+            "group": 0,
+            "frame": 133,
+            "file": "earth.png"
+        },
+        {
+            "group": 0,
+            "frame": 134,
+            "file": "fireelem.png"
+        },
+        {
+            "group": 0,
+            "frame": 135,
+            "file": "watrelem.png"
+        },
+        {
+            "group": 0,
+            "frame": 136,
+            "file": "firewall.png"
+        },
+        {
+            "group": 0,
+            "frame": 137,
+            "file": "haste.png"
+        },
+        {
+            "group": 0,
+            "frame": 138,
+            "file": "magarrw.png"
+        },
+        {
+            "group": 0,
+            "frame": 139,
+            "file": "stonesk.png"
+        },
+        {
+            "group": 0,
+            "frame": 140,
+            "file": "bllust.png"
+        },
+        {
+            "group": 0,
+            "frame": 141,
+            "file": "disrupt.png"
+        },
+        {
+            "group": 0,
+            "frame": 142,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 143,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 144,
+            "file": "speed.png"
+        },
+        {
+            "group": 0,
+            "frame": 145,
+            "file": "firemagc.png"
+        },
+        {
+            "group": 0,
+            "frame": 146,
+            "file": "swordsm.png"
+        },
+        {
+            "group": 0,
+            "frame": 147,
+            "file": "enchant.png"
+        },
+        {
+            "group": 0,
+            "frame": 148,
+            "file": "sharp.png"
+        },
+        {
+            "group": 0,
+            "frame": 149,
+            "file": "behemoth.png"
+        },
+        {
+            "group": 0,
+            "frame": 150,
+            "file": "ddknight.png"
+        },
+        {
+            "group": 0,
+            "frame": 151,
+            "file": "dragon.png"
+        },
+        {
+            "group": 0,
+            "frame": 152,
+            "file": "swordsm.png"
+        },
+        {
+            "group": 0,
+            "frame": 153,
+            "file": "dragon.png"
+        },
+        {
+            "group": 0,
+            "frame": 154,
+            "file": "ogre.png"
+        },
+        {
+            "group": 0,
+            "frame": 155,
+            "file": "devi.png"
+        },
+        {
+            "group": 0,
+            "frame": 156,
+            "file": "offence.png"
+        },
+        {
+            "group": 0,
+            "frame": 157,
+            "file": "cannon.png"
+        },
+        {
+            "group": 0,
+            "frame": 158,
+            "file": "assid.png"
+        },
+        {
+            "group": 0,
+            "frame": 159,
+            "file": "crewmate.png"
+        },
+        {
+            "group": 0,
+            "frame": 160,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 161,
+            "file": "pirate.png"
+        },
+        {
+            "group": 0,
+            "frame": 162,
+            "file": "nymph.png"
+        },
+        {
+            "group": 0,
+            "frame": 163,
+            "file": "scout.png"
+        },
+        {
+            "group": 0,
+            "frame": 164,
+            "file": "seawitch.png"
+        },
+        {
+            "group": 0,
+            "frame": 165,
+            "file": "clone.png"
+        },
+        {
+            "group": 0,
+            "frame": 166,
+            "file": "sorcery.png"
+        },
+        {
+            "group": 0,
+            "frame": 167,
+            "file": "crystal.png"
+        },
+        {
+            "group": 0,
+            "frame": 168,
+            "file": "fireball.png"
+        },
+        {
+            "group": 0,
+            "frame": 169,
+            "file": "forgetf.png"
+        },
+        {
+            "group": 0,
+            "frame": 170,
+            "file": "cure.png"
+        },
+        {
+            "group": 0,
+            "frame": 171,
+            "file": "airshild.png"
+        },
+        {
+            "group": 0,
+            "frame": 172,
+            "file": "3pirate.png"
+        },
+        {
+            "group": 0,
+            "frame": 173,
+            "file": "nix.png"
+        },
+        {
+            "group": 0,
+            "frame": 174,
+            "file": "navigat.png"
+        },
+        {
+            "group": 0,
+            "frame": 175,
+            "file": "scout.png"
+        },
+        {
+            "group": 0,
+            "frame": 176,
+            "file": "know.png"
+        },
+        {
+            "group": 0,
+            "frame": 177,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 178,
+            "file": "interfe.png"
+        },
+        {
+            "group": 0,
+            "frame": 179,
+            "file": "halfling.png"
+        },
+        {
+            "group": 0,
+            "frame": 180,
+            "file": "mechanic.png"
+        },
+        {
+            "group": 0,
+            "frame": 181,
+            "file": "gunslinger.png"
+        },
+        {
+            "group": 0,
+            "frame": 182,
+            "file": "diplomacy.png"
+        },
+        {
+            "group": 0,
+            "frame": 183,
+            "file": "firstaid.png"
+        },
+        {
+            "group": 0,
+            "frame": 184,
+            "file": "scout.png"
+        },
+        {
+            "group": 0,
+            "frame": 185,
+            "file": "armor.png"
+        },
+        {
+            "group": 0,
+            "frame": 186,
+            "file": "ballist.png"
+        },
+        {
+            "group": 0,
+            "frame": 187,
+            "file": "armadillo.png"
+        },
+        {
+            "group": 0,
+            "frame": 188,
+            "file": "automaton.png"
+        },
+        {
+            "group": 0,
+            "frame": 189,
+            "file": "sandworm.png"
+        },
+        {
+            "group": 0,
+            "frame": 190,
+            "file": "gold.png"
+        },
+        {
+            "group": 0,
+            "frame": 191,
+            "file": "frenzy.png"
+        },
+        {
+            "group": 0,
+            "frame": 192,
+            "file": "lbolt.png"
+        },
+        {
+            "group": 0,
+            "frame": 193,
+            "file": "mines.png"
+        },
+        {
+            "group": 0,
+            "frame": 194,
+            "file": "weakness.png"
+        },
+        {
+            "group": 0,
+            "frame": 195,
+            "file": "automaton.png"
+        },
+        {
+            "group": 0,
+            "frame": 196,
+            "file": "offence.png"
+        },
+        {
+            "group": 0,
+            "frame": 197,
+            "file": "archery.png"
+        }
+    ]
+}

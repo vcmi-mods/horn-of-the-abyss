@@ -1,0 +1,25 @@
+{
+	"name" : "Objects",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author": "Kuririn, avatar, wnukos",
+	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.3.11",
+	"depends" : [ "hota.mapobjects" ],
+	"settings" : {
+		"dwellings" : {
+			"accumulateWhenOwned" : true
+		}
+	},
+	"objects" : [
+		"config/hotaGameBalance/objectsRefusable.json",
+		"config/hotaGameBalance/creatureBanks.json",
+		"config/hotaGameBalance/cartographer.json",
+		"config/hotaGameBalance/stables.json"
+	],
+	
+	"czech" : {
+		"name" : "Objekty",
+		"description" : ""
+	}
+}

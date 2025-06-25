@@ -10,36 +10,36 @@
 			"tunicOfTheCyclopsKing",
 			"crownOfTheSupremeMagi"
 		],
-		"bonuses" : [
-			{
+		"bonuses" : {
+			"spell1" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.haste",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			{
+			"spell2" :{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.bloodlust",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			{
+			"spell3" :{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.fireShield",
 //				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			{
+			"spell4" :{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "spell.counterstrike",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			}
-		],
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ironfistOfTheOgre",
 			"map" : "hota/artifactsMap/AVA0144",
-			"large" : "hota/artifactsCampaignBonuses/ironfistOfTheOgre"
+			"scenarioBonus" : "hota/artifactsCampaignBonuses/ironfistOfTheOgre"
 		},
 		"text" : {
 			"name" : "Ironfist Of The Ogre",

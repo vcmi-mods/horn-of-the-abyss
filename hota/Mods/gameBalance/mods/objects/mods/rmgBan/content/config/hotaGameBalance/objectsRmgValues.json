@@ -1,0 +1,106 @@
+{
+
+	// hovel is multiplied by 3 also, find rmg value
+
+	// HotA disables the following objects in rmg
+	"core:coverOfDarkness" : {
+		"types" : {
+			"coverOfDarkness" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"core:eyeOfTheMagi" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"core:hutOfTheMagi" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"core:sanctuary" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	// "core:keymasterTent" disabled by default
+	"core:cartographer" : {
+		"types" : {
+			"cartographerLand" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"cartographerWater" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"cartographerSubterranean" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"core:hillFort" : {
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"core:creatureBank" : {
+		"types" : {
+			"pirateCavern" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"spit" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			},
+			"ivoryTower" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	},
+	
+	"hota.mapobjects:ancientLamp" : {
+		"types" : {
+			"ancientLamp" : {
+				"rmg" : {
+					"zoneLimit" : 0
+				}
+			}
+		}
+	}
+}
