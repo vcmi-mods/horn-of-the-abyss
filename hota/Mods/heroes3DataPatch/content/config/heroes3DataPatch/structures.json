@@ -28,7 +28,7 @@
 			"structures" :
 			{
 				"resourceSilo":   { "x" : 496, "y" : 337 },
-				"special3":       { "x" : 208, "y" : 143 },
+				"special3":       { "x" : 208, "y" : 143, "z": -2 },
 				"dwellingUpLvl4": { "x" : 414, "y" : 203 },
 				"dwellingUpLvl5": { "x" : 359, "y" : 244 },
 				"dwellingUpLvl6": { "x" : 220, "y" : 283 }
