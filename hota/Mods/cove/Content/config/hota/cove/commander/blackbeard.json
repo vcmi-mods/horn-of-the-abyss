@@ -23,6 +23,9 @@
 		"doubleWide" : false,
 		"special" : true,
 		"shots" : 24,
+		"cost" : {
+			"gold" : 2000
+		},
 		"abilities" :
 		{
 			"canCast" :

@@ -137,7 +137,7 @@
 				"special2": 
 				{ 
 					"description" : "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 5%.",
-					"bonuses": [ { "type": "UNDEAD_RAISE_PERCENTAGE", "val": 5, "propagator": "PLAYER_PROPAGATOR" } ] 
+					"bonuses": [ { "type": "UNDEAD_RAISE_PERCENTAGE", "val": 5, "propagator": "PLAYER" } ] 
 				}
 			}
 		}

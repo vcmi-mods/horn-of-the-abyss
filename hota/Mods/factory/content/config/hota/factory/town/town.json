@@ -337,7 +337,7 @@
 						"type" : "OPENING_BATTLE_SPELL",
 						"val" : 3,
 						"subtype" : "spell.teslaLightning",
-						"propagator" : "PLAYER_PROPAGATOR",
+						"propagator" : "PLAYER",
 					}],
 					"id" : 26,
 					"mode" : "grail"

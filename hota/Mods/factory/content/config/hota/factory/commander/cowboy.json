@@ -17,6 +17,9 @@
 			"min" : 6,
 			"max" : 12
 		},
+		"cost" : {
+			"gold" : 2000
+		},
 		"growth" : 1,
 		"aiValue" : 5931,
 		"fightValue" : 5272,
@@ -28,7 +31,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.protectWater",
+				"subtype" : "spell.quicksand",
 				"val" : 1
 			},
 			"castsAmount" :
