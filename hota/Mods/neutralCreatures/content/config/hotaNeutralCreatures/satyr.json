@@ -32,7 +32,7 @@
 			"mirth" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.mirth",
+				"subtype" : "mirth",
 				"val" : 2
 			},
 			"spellpower" :

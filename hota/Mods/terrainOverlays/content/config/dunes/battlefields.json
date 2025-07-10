@@ -5,7 +5,7 @@
 		"bonuses": [
 			{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.quicksand",
+				"subtype" : "quicksand",
 				"val" : 4,
 				"propagator": "BATTLE_WIDE"
 			}

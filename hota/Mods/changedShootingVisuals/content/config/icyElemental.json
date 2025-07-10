@@ -6,7 +6,7 @@
 			"iceIsComing" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaIce",
+				"subtype" : "hotaIce",
 				"val" : 1
 			}
 		}

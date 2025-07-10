@@ -10,7 +10,7 @@
 			"effects" : {
 				"main" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.spellpower",
+					"subtype" : "spellpower",
 					"val": -10,
 					"valueType" : "PERCENT_TO_ALL",
 					"propagator" : "BATTLE_WIDE",

@@ -23,7 +23,7 @@
 						{
 						"type" : "OPENING_BATTLE_SPELL",
 						"val" : 3,
-						"subtype" : "spell.teslaLightning",
+						"subtype" : "teslaLightning",
 						"propagator" : "HERO",
 						"duration" : "ONE_BATTLE"
 						}
@@ -97,7 +97,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.crystal",
+								"subtype" : "crystal",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -122,7 +122,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.gems",
+								"subtype" : "gems",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -147,7 +147,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.sulfur",
+								"subtype" : "sulfur",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -172,7 +172,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.mercury",
+								"subtype" : "mercury",
 								"val" : 1,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -197,7 +197,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.wood",
+								"subtype" : "wood",
 								"val" : 2,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -222,7 +222,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.ore",
+								"subtype" : "ore",
 								"val" : 2,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",
@@ -247,7 +247,7 @@
 						[
 							{
 								"type" : "GENERATE_RESOURCE",
-								"subtype" : "resource.gold",
+								"subtype" : "gold",
 								"val" : 1000,
 								"valueType" : "BASE_NUMBER",
 								"stacking" : "ALWAYS",

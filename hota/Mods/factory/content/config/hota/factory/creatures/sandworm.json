@@ -67,12 +67,12 @@
 			"blindImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind"
+				"subtype" : "blind"
 			},
 			"petrifyImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze"
+				"subtype" : "stoneGaze"
 			}
 	    }
 	}

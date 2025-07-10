@@ -6,7 +6,7 @@
 			"lightningIsComing" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaLightning",
+				"subtype" : "hotaLightning",
 				"val" : 1
 			}
 		}

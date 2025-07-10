@@ -57,15 +57,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"archery" : {
-					"subtype" : "damageTypeRanged",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
-				}
-			}
+			"secondary" : "archery"
 		}
 	}
 }

@@ -37,7 +37,7 @@
 			"bonuses" : {
 				"powerEffect" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.spellpower",
+					"subtype" : "spellpower",
 					"val" : 0,
 					"targetSourceType" : "HERO_BASE_SKILL",
 					"valueType" : "PERCENT_TO_ALL",

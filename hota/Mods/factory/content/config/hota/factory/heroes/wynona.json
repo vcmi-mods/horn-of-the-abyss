@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "Increases Scouting radius by 1 for every 6 levels.",
-				"tooltip" : "{Scouting}\r\n\r\nIncreases Scouting radius by 1 for every 6 levels.",
+				"tooltip" : "Increases Scouting radius by 1 for every 6 levels.",
 				"name" : "Scouting"
 			}
 		},

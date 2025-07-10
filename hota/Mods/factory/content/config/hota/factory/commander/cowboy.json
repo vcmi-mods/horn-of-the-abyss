@@ -31,7 +31,7 @@
 			"canCast" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.quicksand",
+				"subtype" : "quicksand",
 				"val" : 1
 			},
 			"castsAmount" :
@@ -47,7 +47,7 @@
 			"magicResistance" :
 			{
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"val" : 5
 			},
 			"enchant" :

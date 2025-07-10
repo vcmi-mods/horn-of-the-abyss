@@ -80,27 +80,27 @@
 						"bonus":  {
 					"afterAttack" : {
 							"type" : "SPELL_AFTER_ATTACK",
-							"subtype" : "spell.detonation",
+							"subtype" : "detonation",
 							"val" : 100,
 							"duration": "PERMANENT"
 					},
 					"giftStrength" :
 					{
 						"type" : "SPECIFIC_SPELL_POWER",
-						"subtype" : "spell.detonation",
+						"subtype" : "detonation",
 						"val" : 40,
 						"duration": "PERMANENT"
 					},
 					"immnunityDispel":
 					{
 						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.dispel",
+						"subtype" : "dispel",
 						"duration": "PERMANENT"
 					},
 					"immnunityDispelHelpful":
 					{
 						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.dispelHelpful",
+						"subtype" : "dispelHelpful",
 						"duration": "PERMANENT"
 					},
 					"redeem2" :{

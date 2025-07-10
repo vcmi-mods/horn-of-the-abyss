@@ -6,7 +6,7 @@
 			"magicArrow" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaEnchanterArrow",
+				"subtype" : "hotaEnchanterArrow",
 				"val" : 1
 			}
 		},

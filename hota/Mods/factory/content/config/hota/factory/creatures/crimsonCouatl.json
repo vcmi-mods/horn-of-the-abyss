@@ -67,7 +67,7 @@
 			"castsymMeditation" :
 			{
 				"type" : "ENCHANTER",
-				"subtype" : "spell.meditation02",
+				"subtype" : "meditation02",
 				"val" : 0
 			},
 			"castsCount" :

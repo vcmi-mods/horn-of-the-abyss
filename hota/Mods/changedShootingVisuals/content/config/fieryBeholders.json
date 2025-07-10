@@ -6,7 +6,7 @@
 			"hotaRay" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaRay"
+				"subtype" : "hotaRay"
 			}
 		}
 	},
@@ -17,7 +17,7 @@
 			"hotaRay" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaRay"
+				"subtype" : "hotaRay"
 			}
 		}
 	}

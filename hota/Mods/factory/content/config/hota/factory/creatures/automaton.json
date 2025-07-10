@@ -64,13 +64,13 @@
 			"castsymMeditation" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.detonates01",
+				"subtype" : "detonates01",
 				"val" : 0
 			},
 			"healPower" : 
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.detonates01",
+				"subtype" : "detonates01",
 				"val" : 25
 			},
 			"castsCount" :

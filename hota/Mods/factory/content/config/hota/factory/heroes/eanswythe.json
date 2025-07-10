@@ -61,11 +61,10 @@
 		
 		"specialty" : {
 			"bonuses" : {
-				"frostRing" : {
-					"subtype" : "spell.weakness",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "weakness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}	

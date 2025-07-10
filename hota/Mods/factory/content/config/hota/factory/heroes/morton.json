@@ -11,7 +11,7 @@
 			"specialty" :
 			{
 				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
-				"tooltip" : "{Ballista}\r\n\r\nIncreases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
+				"tooltip" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up).",
 				"name" : "Ballista"
 			}
 		},

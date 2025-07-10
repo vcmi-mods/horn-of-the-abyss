@@ -39,18 +39,8 @@
 				"level" : "basic"
 			}
 		],
-		"specialty": 
-		{
-			"bonuses" : {
-				"sorcery" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.any",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-					}
-			}
+		"specialty" : {
+			"secondary" : "sorcery"
 		},
 		"texts" : {
 			"biography" : "Athe doesn't care about her own situation, nor does she care about the benefits of following the Kreegan demons. In her eyes, all creatures are equal, whether they are efreet, genie, human or demon.",

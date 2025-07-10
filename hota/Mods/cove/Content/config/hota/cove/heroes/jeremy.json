@@ -37,13 +37,16 @@
 		"specialty" : {
 			"base" : {
 				"duration" : [ "PERMANENT" ],
-				"limiters" : { "type" : "CREATURE_TYPE_LIMITER" }
+				"limiters" : { 
+					"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "cannon",
+						"includeUpgrades" : false
+				}
 			},
 			"bonuses" : {
 				"attack" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack",
-					"limiters" : { "parameters" : [ "cannon", false ] },
+					"subtype" : "attack",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 6,
@@ -52,8 +55,7 @@
 				},
 				"defence" : {
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence",
-					"limiters" : { "parameters" : [ "cannon", false ] },
+					"subtype" : "defence",
 					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 6,
@@ -62,8 +64,7 @@
 				},
 				"speed" : {
 					"type" : "STACKS_SPEED",
-					"val" : 1,
-					"limiters" : { "parameters" : [ "cannon", true ] }
+					"val" : 1
 				}
 			}
 		},

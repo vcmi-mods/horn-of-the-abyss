@@ -38,7 +38,8 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "blackKnight", true ],
+						"creature" : "blackKnight",
+						"includeUpgrades" : true,
 						"type" : "CREATURE_TYPE_LIMITER"
 					}
 				]
@@ -50,12 +51,12 @@
 					"val" : 10
 				},
 				"attack" : {
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"val" : 10
 				},
 				"defence" : {
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"val" : 10
 				}

@@ -63,7 +63,7 @@
 			"castsymMeditation" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.summonLarva",
+				"subtype" : "summonLarva",
 				"val" : 1
 			},
 			"castsCount" :
@@ -74,12 +74,12 @@
 			"blindImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind"
+				"subtype" : "blind"
 			},
 			"petrifyImmunity" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze"
+				"subtype" : "stoneGaze"
 			}
 	    }
 	}

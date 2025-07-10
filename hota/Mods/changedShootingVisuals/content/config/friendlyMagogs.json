@@ -6,7 +6,7 @@
 			"fireball2" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.gogFireball"
+				"subtype" : "gogFireball"
 			}
 		}
 	},
@@ -21,7 +21,7 @@
 			"fireball2" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.friendlyFireball"
+				"subtype" : "friendlyFireball"
 			}
 		}
 	}

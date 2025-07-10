@@ -60,13 +60,13 @@
 			"repair" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 2
 			},
 			"castLength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 20
 			},
 			"spellpoints" :
@@ -81,7 +81,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
 				},
@@ -90,7 +90,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 //					"valueType" : "BASE_NUMBER"
 				},
@@ -130,7 +130,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
 			}

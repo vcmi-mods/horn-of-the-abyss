@@ -37,16 +37,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"armorer" : {
-					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : "damageTypeAll",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+			"secondary" : "armorer"
 		},
 		"texts" : {
 			"biography" : "Pactal is the leader of the Nightcrawlers. He is cunning and cruel, and possesses the artifact 'Hollow Eye'. Because he cruelly devours the young of the Lizardmen, he is nicknamed 'Child Eater'. Under his leadership, the Nightcrawlers tribe gradually grew stronger and enslaved the people of the Bloodied Feather Clan.",

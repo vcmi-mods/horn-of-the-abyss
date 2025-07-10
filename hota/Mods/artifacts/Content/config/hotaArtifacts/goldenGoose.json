@@ -12,7 +12,7 @@
 		"bonuses" : {
 			"gold" : {
 				"type" : "GENERATE_RESOURCE",
-				"subtype" : "resource.gold",
+				"subtype" : "gold",
 				"valueType" : "BASE_NUMBER",
 				"val" : 4750 // Toghether with component effects, this adds up to 7000
 			}

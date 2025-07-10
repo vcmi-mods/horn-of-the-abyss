@@ -64,13 +64,13 @@
 			"repair" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 2
 			},
 			"castLength" :
 			{
 				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"val" : 10
 			},
 			"spellpoints" :

@@ -32,7 +32,7 @@
 			"castsFortune" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.fortune",
+				"subtype" : "fortune",
 				"val" : 2
 			},
 			"spellpoints" :
@@ -53,7 +53,7 @@
                 "limiters": [
                     {
                         "type": "HAS_ANOTHER_BONUS_LIMITER",
-                        "parameters": [ "LUCK" ]
+                        "bonusType": "LUCK"
                     }
                 ]
             }

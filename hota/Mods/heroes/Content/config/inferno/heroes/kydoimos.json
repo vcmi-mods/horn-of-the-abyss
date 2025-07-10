@@ -42,7 +42,7 @@
 			"base" : {
 				"limiters" : [
 					{
-						"parameters" : [ "DRAGON_NATURE" ],
+						"bonusType" : "DRAGON_NATURE",
 						"type" : "HAS_ANOTHER_BONUS_LIMITER"
 					}
 				],
@@ -50,8 +50,8 @@
 				"val" : 5
 			},
 			"bonuses" : {
-				"attack" : { "subtype" : "primarySkill.attack" },
-				"defence" : { "subtype" : "primarySkill.defence" }
+				"attack" : { "subtype" : "attack" },
+				"defence" : { "subtype" : "defence" }
 			}
 		},
 		"texts" : {

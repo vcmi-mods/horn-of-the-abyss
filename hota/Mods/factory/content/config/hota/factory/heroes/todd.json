@@ -60,7 +60,7 @@
 		],
 		
 		"specialty" : {
-			"creature" : "automaton"
+			"creature" : "hota.factory:automaton"
 		}
 	}
 }

@@ -79,7 +79,7 @@
 					"immnunityDispel":
 					{
 						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.dispel",
+						"subtype" : "dispel",
 						"duration" : [
 							"N_TURNS"
 						],
@@ -88,7 +88,7 @@
 					"immnunityDispelHelpful":
 					{
 						"type" : "SPELL_IMMUNITY",
-						"subtype" : "spell.dispelHelpful",
+						"subtype" : "dispelHelpful",
 						"duration" : [
 							"N_TURNS"
 						],
@@ -96,7 +96,7 @@
 					},
 					"immuneToFire" :
 					{
-						"subtype" : "spellSchool.fire",
+						"subtype" : "fire",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
 							"N_TURNS"
@@ -105,7 +105,7 @@
 					},
 					"immuneToAir" :
 					{
-						"subtype" : "spellSchool.air",
+						"subtype" : "air",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
 							"N_TURNS"
@@ -114,7 +114,7 @@
 					},
 					"immuneToWater" :
 					{
-						"subtype" : "spellSchool.water",
+						"subtype" : "water",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
 							"N_TURNS"
@@ -123,7 +123,7 @@
 					},
 					"immuneToEarth" :
 					{
-						"subtype" : "spellSchool.earth",
+						"subtype" : "earth",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
 							"N_TURNS"
@@ -229,7 +229,7 @@
 					},
 					"magicDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
+						"subtype" : "any",
 						"val" : 100,
 						"duration" : [
 							"N_TURNS"
@@ -280,7 +280,7 @@
 					},
 					"magicDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
+						"subtype" : "any",
 						"val" : 100,
 						"duration" : [
 							"N_TURNS"

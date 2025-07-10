@@ -6,7 +6,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -15,7 +15,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -48,7 +48,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
@@ -63,7 +63,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.goblin"
+					"subtype" : "goblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -71,7 +71,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.hobgoblin"
+					"subtype" : "hobgoblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -85,7 +85,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -94,7 +94,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -134,7 +134,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
 			}
@@ -148,7 +148,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -157,7 +157,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -197,7 +197,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.airShield"
+					"subtype" : "airShield"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
 			}
@@ -211,7 +211,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -220,7 +220,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -259,7 +259,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -268,7 +268,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -307,7 +307,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -316,7 +316,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -349,7 +349,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
@@ -357,7 +357,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze"
+					"subtype" : "stoneGaze"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -378,7 +378,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -387,7 +387,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -420,7 +420,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_IMMUNITY", 
-					"subtype" : "spell.dispelHelpful"
+					"subtype" : "dispelHelpful"
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
@@ -428,7 +428,7 @@
 				"bonus" :
 				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.stoneGaze"
+					"subtype" : "stoneGaze"
 				},
 				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
 			},
@@ -449,7 +449,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -458,7 +458,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -490,7 +490,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -499,7 +499,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -531,7 +531,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -540,7 +540,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -572,7 +572,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -581,7 +581,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -614,7 +614,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
@@ -629,7 +629,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.goblin"
+					"subtype" : "goblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -637,7 +637,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.hobgoblin"
+					"subtype" : "hobgoblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -651,7 +651,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -660,7 +660,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -693,7 +693,7 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : "spell.slayer"
+					"subtype" : "slayer"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 2, 2, 3, 3 ]	
 			},
@@ -708,7 +708,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.goblin"
+					"subtype" : "goblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			},
@@ -716,7 +716,7 @@
 				"bonus" :
 				{
 					"type" : "HATE",
-					"subtype" : "creature.hobgoblin"
+					"subtype" : "hobgoblin"
 				},
 				"values" : [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
 			}
@@ -730,7 +730,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -739,7 +739,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -772,7 +772,7 @@
 			{
 				"bonus" :
 				{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
@@ -794,7 +794,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -803,7 +803,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -836,7 +836,7 @@
 			{
 				"bonus" :
 				{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
@@ -858,7 +858,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -867,7 +867,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -900,7 +900,7 @@
 			{
 				"bonus" :
 				{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]
@@ -922,7 +922,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.attack",
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -931,7 +931,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : "primarySkill.defence",
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
 					// "valueType" : "BASE_NUMBER"
 				},
@@ -964,7 +964,7 @@
 			{
 				"bonus" :
 				{
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"type" : "SPELL_SCHOOL_IMMUNITY"
 				},
 				"values" : [ false, false, false, false, false, false, false, false, false, true ]

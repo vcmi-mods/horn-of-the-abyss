@@ -5,8 +5,9 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.704",
+	"version" : "1.7.705",
 	"changelog" : {
+		"1.7.705"    : [ "Another small changes for vcmi-1.7 format" ],
 		"1.7.704"    : [ "Small updates for vcmi-1.7 format", "Factory commander now can cast Quicksand spell" ],
 		"1.7.703"    : [ "Added Campaign support", "Added Hermit's Shack", "Updated to 1.7 format", "Partialy updated with 1.7.3 source files", "Updated Czech translation", "Updated maps and campaigns to 1.7.3", "Added missing campaigns sounds", "1.7.3 and all older maps works now with VCMI"],
 		"1.7.702"    : [ "Updated with 1.7.2 DEFs", "Updated maps and added campaigns" ],

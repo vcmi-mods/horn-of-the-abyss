@@ -15,21 +15,21 @@
 			},
 			"bonus3" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.sacrifice",
+				"subtype" : "sacrifice",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			},
 			"bonus4" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.animateDead",
+				"subtype" : "animateDead",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"
 			},
 			"bonus5" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.resurrection",
+				"subtype" : "resurrection",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"

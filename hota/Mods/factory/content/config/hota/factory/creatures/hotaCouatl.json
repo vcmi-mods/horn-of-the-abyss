@@ -68,7 +68,7 @@
 			"castsymMeditation" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.meditation01",
+				"subtype" : "meditation01",
 				"val" : 1
 			},
 			"castsCount" :

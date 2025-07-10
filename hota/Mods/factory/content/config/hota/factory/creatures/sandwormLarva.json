@@ -68,13 +68,13 @@
 			"ephemeral" :
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.sandephemeral",
+				"subtype" : "sandephemeral",
 				"val" : 1
 			},
 			"castsymMeditation" :
 			{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.sandVigour",
+				"subtype" : "sandVigour",
 				"val" : 1
 			},
 			"castsCount" :
@@ -85,12 +85,12 @@
 			"blindImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.blind"
+				"subtype" : "blind"
 			},
 			"petrifyImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.stoneGaze"
+				"subtype" : "stoneGaze"
 			}
 		}
 	}

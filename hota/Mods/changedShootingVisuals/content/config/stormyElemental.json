@@ -6,7 +6,7 @@
 			"stormIsComing" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaStorm",
+				"subtype" : "hotaStorm",
 				"val" : 1
 			}
 		}

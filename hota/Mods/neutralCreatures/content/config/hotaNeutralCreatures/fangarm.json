@@ -36,7 +36,7 @@
 			},
 			"hypnotize" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.hypnotize",
+				"subtype" : "hypnotize",
 				"val" : 100,
 				"addInfo" : [ 2, 2 ]
 			},
@@ -51,7 +51,7 @@
 			"spellImmunity" :
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.hornSpell"
+				"subtype" : "hornSpell"
 			},
 			"immuneToMind" :
 			{

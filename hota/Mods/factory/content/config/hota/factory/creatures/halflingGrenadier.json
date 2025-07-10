@@ -74,7 +74,7 @@
 		"throwingGrenade" :
 		{
 			"type" : "SPELL_LIKE_ATTACK",
-			"subtype" : "spell.hotaGrenade"
+			"subtype" : "hotaGrenade"
 		},
 		"selfLuck" :
 		{

@@ -13,25 +13,24 @@
 		"bonuses" : {
 			"spell1" : {
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.haste",
+				"subtype" : "haste",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
 			"spell2" :{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.bloodlust",
+				"subtype" : "bloodlust",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
 			"spell3" :{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.fireShield",
-//				"valueType" : "BASE_NUMBER",
+				"subtype" : "fireShield",
 				"val" : 50
 			},
 			"spell4" :{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "spell.counterstrike",
+				"subtype" : "counterstrike",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			}

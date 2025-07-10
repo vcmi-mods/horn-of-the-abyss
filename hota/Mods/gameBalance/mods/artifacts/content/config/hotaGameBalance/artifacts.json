@@ -86,7 +86,7 @@
 				"limiters": [
 					{
 						"type":"CREATURE_ALIGNMENT_LIMITER",
-						"parameters": [ "evil" ]
+						"alignment": "evil"
 					}
 				]
 			}

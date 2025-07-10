@@ -3,7 +3,7 @@
 		"bonuses" : {
 			"spell" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.hotaRepair",
+				"subtype" : "hotaRepair",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator": "BATTLE_WIDE"

@@ -14,7 +14,7 @@
 			"deathCloud2" :
 			{
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "spell.hotaDeathCloud"
+				"subtype" : "hotaDeathCloud"
 			}
 		}
 	}

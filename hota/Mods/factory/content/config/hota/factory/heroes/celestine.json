@@ -60,7 +60,7 @@
 		],
 		
 		"specialty" : {
-			"creature" : "armadillo"
+			"creature" : "hota.factory:armadillo"
 		}
 	}
 }

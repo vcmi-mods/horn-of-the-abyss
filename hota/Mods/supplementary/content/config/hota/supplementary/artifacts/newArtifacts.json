@@ -6,7 +6,7 @@
 		"value" : 7500,
 		"bonuses" : {
 			"spell" : {
-				"subtype" : "spell.blind",
+				"subtype" : "blind",
 				"type" : "SPELL_IMMUNITY",
 				"val" : 0,
 				"valueType" : "BASE_NUMBER"
@@ -42,14 +42,10 @@
 				"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [
-							"PERCENTAGE_DAMAGE_BOOST",
-							"damageTypeRanged",
-							{
-								"type" : "SECONDARY_SKILL",
-								"id" : "secondarySkill.archery"
-							}
-						]
+						"bonusType" : "PERCENTAGE_DAMAGE_BOOST",
+						"bonusSubtype" : "damageTypeRanged",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "secondarySkill.archery"
 					}
 				]
 			}
@@ -72,14 +68,14 @@
 		"value" : 7500,
 		"bonuses" : {
 			"skill" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
 			"spell" : {
 				"addInfo" : 0,
-				"subtype" : "spell.bloodlust",
+				"subtype" : "bloodlust",
 				"type" : "SPECIAL_PECULIAR_ENCHANT"
 			}
 		},
@@ -111,25 +107,25 @@
 		"bonuses":
 		{
 			"skill1" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
 			"skill2" : {
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
 			"skill3" : {
-				"subtype" : "primarySkill.spellpower",
+				"subtype" : "spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
 			"skill4" : {
-				"subtype" : "primarySkill.knowledge",
+				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
@@ -139,13 +135,13 @@
 					"subtype" : "creatureDamageBoth",
 					"valueType" : "PERCENT_TO_BASE",
 					"val" : 30,
-					"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
+					"limiters": [ {"type": "FACTION_LIMITER","faction" : "fortress"} ]
 			},
 			"skill6" : {
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER",
-				"limiters": [ {"type": "CREATURE_FACTION_LIMITER","parameters" : ["fortress"]} ]
+				"limiters": [ {"type": "FACTION_LIMITER", "faction" : "fortress"} ]
 			}
 		},
 

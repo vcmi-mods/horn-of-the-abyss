@@ -57,16 +57,7 @@
 		],
 		
 		"specialty" : {
-			"bonuses" : {
-				"offence" : {
-					"subtype" : "damageTypeMelee",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "offence"
 		}
 	}
 }

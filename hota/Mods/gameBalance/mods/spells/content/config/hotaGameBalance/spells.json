@@ -6,7 +6,7 @@
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.air",
+						"subtype" : "air",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}
@@ -34,7 +34,7 @@
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.earth",
+						"subtype" : "earth",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}
@@ -62,7 +62,7 @@
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.fire",
+						"subtype" : "fire",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}
@@ -90,7 +90,7 @@
 				"effects" : {
 					"spellDamageReduction" : {
 						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.water",
+						"subtype" : "water",
 						"duration" : "N_TURNS",
 						"val" : 50
 					}

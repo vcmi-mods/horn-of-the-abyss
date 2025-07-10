@@ -16,7 +16,7 @@
 		{
 			"spell" : {
 				"type": "SPELL",
-				"subtype" : "spell.hornSpell"
+				"subtype" : "hornSpell"
 			}
 		},
 

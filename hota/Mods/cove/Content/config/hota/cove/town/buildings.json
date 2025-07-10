@@ -159,8 +159,8 @@
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [
 								{
-									"type": "CREATURE_FACTION_LIMITER",
-									"parameters" : ["cove"]
+									"type": "FACTION_LIMITER",
+									"faction" : "cove"
 								}
 							]
 						}
