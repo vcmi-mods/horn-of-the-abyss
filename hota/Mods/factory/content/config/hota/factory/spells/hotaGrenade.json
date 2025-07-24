@@ -41,31 +41,21 @@
 				},
 				"targetModifier" : {
 					"smart" : true
-				}
+				},
+				"cost" : 0,
+				"power" : 10				
 			},
 			"none" : {
-				"description" : "grenades",
-
-				"cost" : 0,
-				"power" : 10
+				"description" : "grenades"
 			},
 			"basic" : {
 				"description" : "grenades",
-
-				"cost" : 0,
-				"power" : 10
 			},
 			"advanced" : {
-				"description" : "grenades",
-
-				"cost" : 0,
-				"power" : 10
+				"description" : "grenades"
 			},
 			"expert" : {
-				"description" : "grenades",
-
-				"cost" : 0,
-				"power" : 10
+				"description" : "grenades"
 			}
 		}
 	}

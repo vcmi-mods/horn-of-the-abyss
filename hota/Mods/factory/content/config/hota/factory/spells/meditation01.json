@@ -48,6 +48,7 @@
 			"base" : {
 				"range" : "0",
 				"power" : 1,
+				"cost" : 6,
 				"targetModifier" : {
 					"smart" : true
 				}
@@ -55,7 +56,6 @@
 			"none" : {
 				"description" : "lower meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -139,7 +139,6 @@
 			"basic" : {
 				"description" : "lower meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -184,7 +183,6 @@
 			"advanced" : {
 				"description" : "lower meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -232,8 +230,8 @@
 			},
 			"expert" : {
 				"description" : "lower meditations",
-
 				"cost" : 5,
+				
 				"effects" : {
 					"notActive" : {
 						"val" : 0,

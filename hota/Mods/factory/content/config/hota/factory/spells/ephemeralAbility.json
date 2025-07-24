@@ -45,9 +45,9 @@
 				"battleEffects" : {
 					"directDamage" : {
 						"type" : "core:damage",
-						"val" : 1,
-						"killByCount" : true,
-						"valueType" : "INDEPENDENT_MIN"
+						"killByCount" : true
+//						"val" : 1,						
+//						"valueType" : "INDEPENDENT_MIN"
 					}
 				}
 			},

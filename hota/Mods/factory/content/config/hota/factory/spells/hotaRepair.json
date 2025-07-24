@@ -50,8 +50,7 @@
 						"type" : "core:heal",
 						"healLevel" : "resurrect",
 						"healPower" : "oneBattle",
-						"minFullUnits" : 1,
-						"val" : 30
+						"minFullUnits" : 1
 					},
 					"cure" : {
 						"type" : "core:dispel",
@@ -67,35 +66,32 @@
 				}
 			},
 			"none" : {
-				"description" : "Repair ability"
+				"description" : "Target, allied non living and mechanical troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired for the duration of the current battle."
 			},
 			"basic" : {
-				"description" : "Repair ability",
+				"description" : "Target, allied non living and mechanical troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired permanently.",
 				"power" : 30,
 				"battleEffects" : {
 					"heal" : {
-						"healPower" : "permanent",
-						"val" : 30
+						"healPower" : "permanent"
 					}
 				}
 			},
 			"advanced" : {
-				"description" : "Repair ability",
+				"description" : "Target, allied non living and mechanical troop with dead creatures has (50 + (power x 30)) health worth of creatures repaired permanently.",
 				"power" : 50,
 				"battleEffects" : {
 					"heal" : {
-						"healPower" : "permanent",
-						"val" : 50
+						"healPower" : "permanent"
 					}
 				}
 			},
 			"expert" : {
-				"description" : "Repair ability",
+				"description" : "Target, allied non living and mechanical troop with dead creatures has (70 + (power x 30)) health worth of creatures repaired permanently.",
 				"power" : 70,
 				"battleEffects" : {
 					"heal" : {
-						"healPower" : "permanent",
-						"val" : 70
+						"healPower" : "permanent"
 					}
 				}
 			}

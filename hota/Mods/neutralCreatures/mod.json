@@ -14,7 +14,6 @@
 		]
 	},
 	"depends" : [
-		"hota.artifacts"
 	],
 
 	"chinese" : {
@@ -36,6 +35,12 @@
 	"objects" : [
 		"config/hotaNeutralCreatures/dwellings"
 	],
+	"artifacts" : [
+		"config/hotaArtifacts/hornOfTheAbyss.json"
+	],
+	"spells" : [
+		"config/artiSpells/HornSpell"
+	],	
 	"polish" : {
 		"name" : "Neutralne jednostki",
 		"description" : "Dodaje nowe jednostki neutralne: Fangarm, Leprekaun, Satyr, Stalowy Golem"

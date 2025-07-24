@@ -22,7 +22,6 @@
 		"config/hotaArtifacts/diplomatsCloak",
 		"config/hotaArtifacts/goldenGoose",
 		"config/hotaArtifacts/hideousMask",
-		"config/hotaArtifacts/hornOfTheAbyss",
 		"config/hotaArtifacts/pendantOfDownfall",
 		"config/hotaArtifacts/pendantOfReflection",
 		"config/hotaArtifacts/ringOfOblivion",
@@ -38,9 +37,6 @@
 		"config/hotaArtifacts/charmOfEclipse",
 		"config/hotaArtifacts/sealOfSunset",
 		"config/hotaArtifacts/plateofDyingLight"
-	],
-	"spells" : [
-		"config/artiSpells/HornSpell"
 	],
 	"polish" : {
 		"name" : "Artefakty",

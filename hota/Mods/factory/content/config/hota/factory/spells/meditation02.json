@@ -52,12 +52,12 @@
 				"power" : 1,
 				"targetModifier" : {
 					"smart" : true
-				}
+				},
+				"cost" : 6
 			},
 			"none" : {
 				"description" : "high meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"type" : "BLOCKS_RETALIATION",
@@ -138,14 +138,11 @@
 				}
 			},
 			"basic" : {
-				"description" : "high meditations",
-
-				"cost" : 6
+				"description" : "high meditations"
 			},
 			"advanced" : {
 				"description" : "high meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"type" : "BLOCKS_RETALIATION",
@@ -209,7 +206,6 @@
 			"expert" : {
 				"description" : "high meditations",
 
-				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"type" : "BLOCKS_RETALIATION",

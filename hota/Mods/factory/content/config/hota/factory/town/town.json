@@ -263,8 +263,7 @@
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
-					},
-					"id" : 0
+					}
 				},
 				"mageGuild2" : {
 					"name" : "Mage Guild Level 2",
@@ -277,9 +276,7 @@
 						"crystal" : 4,
 						"gems" : 4,
 						"gold" : 1000
-					},
-					"id" : 1,
-					"upgrades" : "mageGuild1"
+					}
 				},
 				"mageGuild3" : {
 					"name" : "Mage Guild Level 3",
@@ -292,9 +289,7 @@
 						"crystal" : 6,
 						"gems" : 6,
 						"gold" : 1000
-					},
-					"id" : 2,
-					"upgrades" : "mageGuild2"
+					}
 				},
 				"mageGuild4" : {
 					"name" : "Mage Guild Level 4",
@@ -307,9 +302,7 @@
 						"crystal" : 8,
 						"gems" : 8,
 						"gold" : 1000
-					},
-					"id" : 3,
-					"upgrades" : "mageGuild3"
+					}
 				},
 				"mageGuild5" : {
 					"name" : "Mage Guild Level 5",
@@ -322,9 +315,7 @@
 						"crystal" : 10,
 						"gems" : 10,
 						"gold" : 1000
-					},
-					"id" : 4,
-					"upgrades" : "mageGuild4"
+					}
 				},
 				"tavern" : {
 					"name" : "Tavern",
@@ -332,8 +323,7 @@
 					"cost" : {
 						"wood" : 5,
 						"gold" : 500
-					},
-					"id" : 5
+					}
 				},
 				"fort" : {
 					"name" : "Fort",
@@ -342,8 +332,7 @@
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
-					},
-					"id" : 7
+					}
 				},
 				"citadel" : {
 					"name" : "Citadel",
@@ -351,9 +340,7 @@
 					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
-					},
-					"id" : 8,
-					"upgrades" : "fort"
+					}
 				},
 				"castle" : {
 					"name" : "Castle",
@@ -362,60 +349,32 @@
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
-					},
-					"id" : 9,
-					"upgrades" : "citadel"
+					}
 				},
 				"villageHall" : {
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"id" : 10,
-					"mode" : "auto"
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
-					},
-					"id" : 11,
-					"requires" : [
-						"tavern"
-					],
-					"upgrades" : "villageHall"
+					}
 				},
 				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
-					},
-					"requires" : [
-						"allOf",
-						[
-							"mageGuild1"
-						],
-						[
-							"marketplace"
-						],
-						[
-							"blacksmith"
-						]
-					],
-					"id" : 12,
-					"upgrades" : "townHall"
+					}
 				},
 				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
-					},
-					"id" : 13,
-					"requires" : [
-						"castle"
-					],
-					"upgrades" : "cityHall"
+					}
 				},
 				"marketplace" : {
 					"name" : "Marketplace",
@@ -423,12 +382,7 @@
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
-					},
-					"id" : 14,
-					"marketModes" : [
-						"resource-resource",
-						"resource-player"
-					]
+					}
 				},
 				"resourceSilo" : {
 					"name" : "Resource Silo",
@@ -439,10 +393,7 @@
 					},
 					"produce" : {
 						"crystal" : 1
-					},
-					"requires" : [
-						"marketplace"
-					]
+					}
 				},
 				"blacksmith" : {
 					"name" : "Blacksmith",
@@ -465,8 +416,7 @@
 					],
 					"requires" : [
 						"marketplace"
-					],
-					"id" : 17
+					]
 				},
 				"horde1" : {
 					"description" : "The Pen increases Armadillos production by 3 per week.",
@@ -474,7 +424,6 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"id" : 18,
 					"upgrades" : "dwellingLvl3",
 					"requires" : [
 						"allOf",
@@ -501,9 +450,7 @@
 							"dwellingUpLvl3"
 						]
 					],
-					"upgrades" : "dwellingUpLvl3",
-					"id" : 19,
-					"mode" : "auto"
+					"upgrades" : "dwellingUpLvl3"
 				},
 				"special1" : {
 					"description" : "Allows the player to get a loan of 2500 gold, decreasing the town's income by 500 gold for 5 days.",
@@ -512,8 +459,7 @@
 					"cost" : {
 						"gold" : 500,
 						"ore" : 5
-					},
-					"id" : 21
+					}
 				},
 				"special2" : {
 					"description" : "Gives a garrison hero 20 additional spell points for the duration of any siege defense.",
@@ -521,32 +467,26 @@
 					"bonuses" : [
 						{
 							"type" : "PRIMARY_SKILL",
-							"subtype" : "primarySkill.knowledge",
+							"subtype" : "knowledge",
 							"val" : 2
 						}
 					],
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
-					},
-					"id" : 22
+					}
 				},
 				"grail" : {
 					"description" : "The presence of the Lightning Rod increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day.Strikes all enemy stacks with lightning at the beginning of every battle the player participates in, anywhere on the map.",
 					"name" : "Lightning Rod",
-					"produce" : {
-						"gold" : 5000
-					},
 					"bonuses" : [
 						{
 							"type" : "OPENING_BATTLE_SPELL",
 							"val" : 3,
-							"subtype" : "spell.teslaLightning",
+							"subtype" : "teslaLightning",
 							"propagator" : "PLAYER"
 						}
-					],
-					"id" : 26,
-					"mode" : "grail"
+					]
 				},
 				"dwellingLvl1" : {
 					"description" : "The Halfling Adobe allows you to recruit Halflings.",
@@ -558,8 +498,7 @@
 					},
 					"requires" : [
 						"fort"
-					],
-					"id" : 30
+					]
 				},
 				"dwellingLvl2" : {
 					"description" : "The Foundry allows you to recruit Mechanics.",
@@ -577,8 +516,7 @@
 						[
 							"blacksmith"
 						]
-					],
-					"id" : 31
+					]
 				},
 				"dwellingLvl3" : {
 					"description" : "The Ranch allows you to recruit Armadillos.",
@@ -589,8 +527,7 @@
 					},
 					"requires" : [
 						"dwellingLvl1"
-					],
-					"id" : 32
+					]
 				},
 				"dwellingLvl4" : {
 					"description" : "The Manufactory allows you to recruit Automatons.",
@@ -608,8 +545,7 @@
 						[
 							"dwellingLvl2"
 						]
-					],
-					"id" : 33
+					]
 				},
 				"dwellingLvl5" : {
 					"description" : "The Catacombs allows you to recruit Sandworms.",
@@ -623,8 +559,7 @@
 					},
 					"requires" : [
 						"dwellingLvl2"
-					],
-					"id" : 34
+					]
 				},
 				"dwellingLvl6" : {
 					"description" : "The Watchtower allows you to recruit Gunslinger.",
@@ -644,8 +579,7 @@
 						[
 							"dwellingLvl4"
 						]
-					],
-					"id" : 35
+					]
 				},
 				"dwellingLvl7" : {
 					"description" : "The Serpentarium allows you to recruit Couatls.",
@@ -658,8 +592,7 @@
 					},
 					"requires" : [
 						"dwellingLvl5"
-					],
-					"id" : 36
+					]
 				},
 				"dwellingLvl8" : {
 					"description" : "The Gantry allows you to recruit Dreadnoughts.",
@@ -683,8 +616,7 @@
 						[
 							"dwellingLvl6"
 						]
-					],
-					"id" : 150
+					]
 				},
 				"dwellingUpLvl1" : {
 					"description" : "The Halfling Adobe allows you to recruit Halfling Grenadiers.",
@@ -694,7 +626,6 @@
 						"mercury" : 2,
 						"sulfur" : 2
 					},
-					"id" : 37,
 					"requires" : [
 						"tavern"
 					],
@@ -708,7 +639,6 @@
 						"wood" : 5,
 						"ore" : 5
 					},
-					"id" : 38,
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
@@ -718,7 +648,6 @@
 						"gold" : 1000,
 						"wood" : 5
 					},
-					"id" : 39,
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
@@ -729,7 +658,6 @@
 						"ore" : 10,
 						"mercury" : 5
 					},
-					"id" : 40,
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
@@ -739,7 +667,6 @@
 						"gold" : 2000,
 						"gems" : 5
 					},
-					"id" : 41,
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
@@ -751,7 +678,6 @@
 						"mercury" : 5,
 						"wood" : 10
 					},
-					"id" : 42,
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
@@ -763,7 +689,6 @@
 						"ore" : 10,
 						"crystal" : 20
 					},
-					"id" : 43,
 					"requires" : [
 						"mageGuild2"
 					],
@@ -777,7 +702,6 @@
 						"ore" : 10,
 						"crystal" : 20
 					},
-					"id" : 151,
 					"requires" : [
 						"resourceSilo"
 					],

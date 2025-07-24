@@ -5,7 +5,6 @@
 				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
-					"mode" : "auto"
 				},
 				"townHall" : {
 					"name" : "Town Hall",
@@ -141,8 +140,7 @@
 					"description" : "The Pub increases Seamen production by 4 per week.",
 					"cost" : {
 						"gold" : 1000
-					},
-					"mode" : "auto"
+					}
 				},
 				"horde2" : {
 					"name" : "Roost",
@@ -158,15 +156,11 @@
 					"cost" : {
 						"gold" : 1500,
 						"gems" : 2
-					},
-					"mode" : "auto"
+					}
 				},
 				"grail" : {
 					"name" : "Lodestar",
 					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
-					"produce" : {
-						"gold" : 5000
-					},
 					"bonuses" : [
 						{
 							"type" : "TERRAIN_NATIVE",
@@ -178,8 +172,7 @@
 								}
 							]
 						}
-					],
-					"mode" : "grail"
+					]
 				},
 
 				"mageGuild1" : {

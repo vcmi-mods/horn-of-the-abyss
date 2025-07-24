@@ -5,8 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.705",
+	"version" : "1.7.706",
 	"changelog" : {
+		"1.7.706" : [
+			"Horn of the Abyss artifacts was moved to Neutral Creatures submod",
+			"Tiny fixes to make console clear"
+		],
 		"1.7.705" : [
 			"Another small changes for vcmi-1.7 format"
 		],

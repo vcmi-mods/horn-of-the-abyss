@@ -26,11 +26,11 @@
 			"special" : true
 		},
 		"graphics" : {
-			"iconBook" : "hota/artifactsCampaignBonuses/fakehornEffect.bmp",
-			"iconScroll" : "hota/artifactsCampaignBonuses/fakehornScroll.bmp",
-			"iconScenarioBonus" : "hota/artifactsCampaignBonuses/fakehornScene.bmp",
-			"iconImmune" : "hota/artifactsCampaignBonuses/fakehornImmune.bmp",
-			"iconEffect" : "hota/artifactsCampaignBonuses/fakehornEffect.bmp"
+			"iconBook" : "artifactsCampaignBonuses/fakehornEffect.bmp",
+			"iconScroll" : "artifactsCampaignBonuses/fakehornScroll.bmp",
+			"iconScenarioBonus" : "artifactsCampaignBonuses/fakehornScene.bmp",
+			"iconImmune" : "artifactsCampaignBonuses/fakehornImmune.bmp",
+			"iconEffect" : "artifactsCampaignBonuses/fakehornEffect.bmp"
 		},
 		"targetCondition" : {
 			"noneOf" : {

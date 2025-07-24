@@ -40,6 +40,8 @@
 		"levels" : {
 			"base" : {
 				"range" : "0-2",
+				"cost" : 0,
+				"power" : 40,				
 				"battleEffects" : {
 					"directDamage" : {
 						"type" : "core:damage",
@@ -51,27 +53,16 @@
 				}
 			},
 			"none" : {
-				"description" : "{Detonation}\r\n\r\nYour birthday cake！.",
-				"cost" : 0,
-				"power" : 40
+				"description" : "{Detonation}\r\n\r\nYour birthday cake！"
 			},
 			"basic" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description.",
-
-				"cost" : 0,
-				"power" : 40
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
 			},
 			"advanced" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description.。",
-
-				"cost" : 0,
-				"power" : 40
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
 			},
 			"expert" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description.",
-
-				"cost" : 0,
-				"power" : 40
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
 			}
 		}
 	}
