@@ -1,17 +1,22 @@
 {
 	"crackedIce" : {
 		"name" : "Cracked Ice",
-		"handler": "terrain",
+		"handler" : "terrain",
 		"base" : {
-			"battleground": "cracked_ice"
+			"battleground" : "cracked_ice"
 		},
 		"types" : {
 			"crackedIce" : {
 				"templates" : {
 					"zice01" : {
 						"animation" : "zice01",
-						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						]
 					}
 				}
 			},
@@ -19,8 +24,13 @@
 				"templates" : {
 					"zice01" : {
 						"animation" : "zice01",
-						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						]
 					}
 				}
 			},
@@ -28,8 +38,15 @@
 				"templates" : {
 					"zice02" : {
 						"animation" : "zice02",
-						"zIndex": 100,
-						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						]
 					}
 				}
 			},
@@ -37,8 +54,15 @@
 				"templates" : {
 					"zice03" : {
 						"animation" : "zice03",
-						"zIndex": 100,
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						]
 					}
 				}
 			},
@@ -46,8 +70,12 @@
 				"templates" : {
 					"zice04" : {
 						"animation" : "zice04",
-						"zIndex": 100,
-						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						]
 					}
 				}
 			},
@@ -55,8 +83,15 @@
 				"templates" : {
 					"zice05" : {
 						"animation" : "zice05",
-						"zIndex": 100,
-						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					}
 				}
 			},
@@ -64,8 +99,12 @@
 				"templates" : {
 					"zice06" : {
 						"animation" : "zice06",
-						"zIndex": 100,
-						"mask" : [ "VVV", "VVV", "VVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					}
 				}
 			},
@@ -73,8 +112,11 @@
 				"templates" : {
 					"zice07" : {
 						"animation" : "zice07",
-						"zIndex": 100,
-						"mask" : [ "VVVVV", "VVVVV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VVVVV",
+							"VVVVV"
+						]
 					}
 				}
 			},
@@ -82,8 +124,14 @@
 				"templates" : {
 					"zice08" : {
 						"animation" : "zice08",
-						"zIndex": 100,
-						"mask" : [ "VV", "VV", "VV", "VV", "VV" ]
+						"zIndex" : 100,
+						"mask" : [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						]
 					}
 				}
 			}

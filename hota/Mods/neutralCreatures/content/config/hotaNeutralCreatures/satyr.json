@@ -1,75 +1,67 @@
 {
-	"satyr":
-	{
-		"name" :
-		{
+	"satyr" : {
+		"name" : {
 			"singular" : "Satyr",
 			"plural" : "Satyrs"
 		},
 		"faction" : "neutral",
 		"level" : 4,
-		"cost" : { "gold" : 300 },
+		"cost" : {
+			"gold" : 300
+		},
 		"speed" : 7,
 		"hitPoints" : 35,
 		"attack" : 10,
 		"defense" : 11,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 10
 		},
 		"fightValue" : 500,
 		"aiValue" : 550,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16
 		},
 		"growth" : 4,
-		"hasDoubleWeek": true,
-		"abilities" :
-		{
-			"mirth" :
-			{
+		"hasDoubleWeek" : true,
+		"abilities" : {
+			"mirth" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "mirth",
 				"val" : 2
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 600
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm169.bmp",
 			"iconLarge" : "hota/creatures/iconsLarge/TwCrP169.bmp",
 			"map" : "hota/creatures/adventureMap/AvWSatyr.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/creatures/battle/CSATYR.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.20,
-				"idle" : 10.00,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 10.0,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "hota/creatures/satyr/SATYATTK.wav",
-			"defend": "hota/creatures/satyr/SATYDFND.wav",
-			"killed": "hota/creatures/satyr/SATYKILL.wav",
-			"move": "hota/creatures/satyr/SATYMOVE.wav",
-			"wince": "hota/creatures/satyr/SATYWNCE.wav"
+		"sound" : {
+			"attack" : "hota/creatures/satyr/SATYATTK.wav",
+			"defend" : "hota/creatures/satyr/SATYDFND.wav",
+			"killed" : "hota/creatures/satyr/SATYKILL.wav",
+			"move" : "hota/creatures/satyr/SATYMOVE.wav",
+			"wince" : "hota/creatures/satyr/SATYWNCE.wav"
 		}
 	}
 }
-
-

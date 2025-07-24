@@ -1,17 +1,17 @@
 {
-	"athe" :
-	{
+	"athe" : {
 		"class" : "heretic",
 		"female" : true,
-		"special": true,
-		"images" :
-		{
+		"special" : true,
+		"images" : {
 			"large" : "hota/inferno/heroes/athe/icons/portraitLarge.png",
 			"small" : "hota/inferno/heroes/athe/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/inferno/heroes/athe/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/inferno/heroes/athe/icons/specialtySmall.png"
 		},
-		"spellbook": [ "bloodlust" ],
+		"spellbook" : [
+			"bloodlust"
+		],
 		"army" : [
 			{
 				"creature" : "imp",

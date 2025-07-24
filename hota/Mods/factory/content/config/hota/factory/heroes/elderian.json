@@ -1,33 +1,27 @@
 {
-	"elderian" :
-	{
-    "class": "artificer",
-    "female" : false,
-	"special": true,
-	
-		"texts" :
-		{
+	"elderian" : {
+		"class" : "artificer",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Elderian",
 			"biography" : "Elderian is a defender of Burton once Kastore took control.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Automatons",
 				"description" : "Increases Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/factory/heroes/elderian/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/elderian/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/factory/heroes/todd/icons/specialtyLarge.bmp",
 			"specialtySmall" : "hota/factory/heroes/todd/icons/specialtySmall.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -44,12 +38,10 @@
 				"min" : 4
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"shield"
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,10 +51,9 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hota.factory:automaton"
 		}
 	}
 }
-

@@ -1,8 +1,7 @@
 {
 	// Amount of Gnolls increased from 10–20 to 15–25
 	// Amount of Serpent Flies increased from 2–4 to 3–4
-	"core:adrienne" :
-	{
+	"core:adrienne" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -21,8 +20,7 @@
 			}
 		]
 	},
-	"core:alkin" :
-	{
+	"core:alkin" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -41,8 +39,7 @@
 			}
 		]
 	},
-	"core:andra" :
-	{
+	"core:andra" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -61,8 +58,7 @@
 			}
 		]
 	},
-	"core:broghild" :
-	{
+	"core:broghild" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -81,8 +77,7 @@
 			}
 		]
 	},
-	"core:bron" :
-	{
+	"core:bron" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -101,8 +96,7 @@
 			}
 		]
 	},
-	"core:drakon" :
-	{
+	"core:drakon" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -121,8 +115,7 @@
 			}
 		]
 	},
-	"core:gerwulf" :
-	{
+	"core:gerwulf" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -141,8 +134,7 @@
 			}
 		]
 	},
-	"core:korbac" :
-	{
+	"core:korbac" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -161,28 +153,7 @@
 			}
 		]
 	},
-	"core:merist" :
-	{
-		"army" : [
-			{
-				"creature" : "gnoll",
-				"min" : 15,
-				"max" : 25
-			},
-			{
-				"creature" : "lizardman",
-				"min" : 4,
-				"max" : 7
-			},
-			{
-				"creature" : "serpentFly",
-				"min" : 3,
-				"max" : 4
-			}
-		]
-	},
-	"core:mirlanda" :
-	{
+	"core:merist" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -201,8 +172,7 @@
 			}
 		]
 	},
-	"core:rosic" :
-	{
+	"core:mirlanda" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -221,8 +191,7 @@
 			}
 		]
 	},
-	"core:styg" :
-	{
+	"core:rosic" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -241,8 +210,7 @@
 			}
 		]
 	},
-	"core:tazar" :
-	{
+	"core:styg" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -261,8 +229,7 @@
 			}
 		]
 	},
-	"core:tiva" :
-	{
+	"core:tazar" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -281,8 +248,26 @@
 			}
 		]
 	},
-	"core:verdish" :
-	{
+	"core:tiva" : {
+		"army" : [
+			{
+				"creature" : "gnoll",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "lizardman",
+				"min" : 4,
+				"max" : 7
+			},
+			{
+				"creature" : "serpentFly",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+	"core:verdish" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -301,8 +286,7 @@
 			}
 		]
 	},
-	"core:voy" :
-	{
+	"core:voy" : {
 		"army" : [
 			{
 				"creature" : "gnoll",
@@ -321,8 +305,7 @@
 			}
 		]
 	},
-	"core:wystan" :
-	{
+	"core:wystan" : {
 		"army" : [
 			{
 				"creature" : "lizardman",

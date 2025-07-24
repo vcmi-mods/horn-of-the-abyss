@@ -8,31 +8,31 @@
 			"specialtyLarge" : "hota/cove/heroes/miriam/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/miriam/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "crewmate",
-				"min": 6,
-				"max": 9
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "logistics",
-				"level": "basic"
+				"skill" : "logistics",
+				"level" : "basic"
 			},
 			{
-				"skill": "scouting",
-				"level": "basic"
+				"skill" : "scouting",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,15 +47,15 @@
 						"stepSize" : 2
 					}
 				}
-			}	
+			}
 		},
-		"texts": {
-			"name": "Miriam",
-			"biography": "This girl has a dark past. Once a ranger, she could see the enemies and obstacles from the farthest distance away. After a disagreement with her \"colleagues,\" she joined the pirates. She got the nickname \"Sharp-eye\" amongst the bandits.",
-			"specialty": {
-				"name": "Scouting",
-				"description": "Increases the scouting range by 1 for every 6 levels of the hero.",
-				"tooltip": "Secondary Skill Bonus: Scouting"
+		"texts" : {
+			"name" : "Miriam",
+			"biography" : "This girl has a dark past. Once a ranger, she could see the enemies and obstacles from the farthest distance away. After a disagreement with her \"colleagues,\" she joined the pirates. She got the nickname \"Sharp-eye\" amongst the bandits.",
+			"specialty" : {
+				"name" : "Scouting",
+				"description" : "Increases the scouting range by 1 for every 6 levels of the hero.",
+				"tooltip" : "Secondary Skill Bonus: Scouting"
 			}
 		}
 	}

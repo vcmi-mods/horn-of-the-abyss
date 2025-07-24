@@ -1,33 +1,27 @@
 {
-	"10murdoch" :
-	{
-    "class": "mercenary",
-    "female" : false,
-	"special": true,
-		
-		"texts" :
-		{
+	"10murdoch" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Murdoch",
 			"biography" : "Murdoch is a man to call a professional soldier of fortune. He barely likes anything more than money and fame. That is why Murdoch gathered a company of daredevils of his own kind and went to seek adventures on the landscapes of Jadame. Who knows where his fate will take him next time?",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Archery",
 				"description" : "Receives a 5% per level bonus to Archery skill percentage."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/murdoch/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/murdoch/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/murdoch/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/murdoch/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -44,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "tactics"
@@ -55,10 +48,9 @@
 				"skill" : "archery"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "archery"
 		}
 	}
 }
-

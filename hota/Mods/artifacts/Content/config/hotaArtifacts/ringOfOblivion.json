@@ -1,38 +1,40 @@
 {
 	"ringOfOblivion" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RING",
 		"class" : "MAJOR",
 		"value" : 7500,
 		"bonuses" : {
 			"bonus1" : {
 				"type" : "GARGOYLE",
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			},
 			"bonus2" : {
-				"type": "DISINTEGRATE",
-				"propagator": "BATTLE_WIDE"
+				"type" : "DISINTEGRATE",
+				"propagator" : "BATTLE_WIDE"
 			},
 			"bonus3" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "sacrifice",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			},
 			"bonus4" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			},
 			"bonus5" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "resurrection",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			}
 		},
 		"graphics" : {

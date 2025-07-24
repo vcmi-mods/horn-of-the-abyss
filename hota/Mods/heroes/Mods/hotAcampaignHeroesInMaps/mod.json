@@ -7,10 +7,12 @@
 	"version" : "1.0",
 	"keepDisabled" : true,
 	"changelog" : {
-		"1.0" : [ "Initial release" ]
+		"1.0" : [
+			"Initial release"
+		]
 	},
-    "chinese" : {
-    "name" : "深渊号角战役英雄",
+	"chinese" : {
+		"name" : "深渊号角战役英雄",
 		"description" : "此模组在游戏中解锁了以下新的战役英雄：<br/><br/>阿雷什拉克<br/>阿瑟<br/>博伊德<br/>格鲁扎克<br/>凯多莫斯<br/>马克希姆斯<br/>米赛莉亚<br/>帕克塔尔<br/>佐格"
 	},
 	"czech" : {

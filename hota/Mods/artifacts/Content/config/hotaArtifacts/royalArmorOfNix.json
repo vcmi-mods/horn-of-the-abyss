@@ -1,6 +1,8 @@
 {
 	"royalArmorOfNix" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "TORSO",
 		"class" : "MAJOR",
 		"value" : 7000,

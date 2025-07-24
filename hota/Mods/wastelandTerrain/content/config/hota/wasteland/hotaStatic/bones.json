@@ -1,29 +1,51 @@
 {
 	"bones" : {
 		"name" : "Bones",
-		"handler":"static",
+		"handler" : "static",
 		"types" : {
 			"bones" : {
 				"templates" : {
 					"AVLbon00" : {
 						"animation" : "hota/wasteland/hotaStatic/bones/AVLbon00",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand", "wasteland" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
 					},
 					"AVLbon01" : {
 						"animation" : "hota/wasteland/hotaStatic/bones/AVLbon01",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "sand", "wasteland" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
 					},
 					"AVLbon02" : {
 						"animation" : "hota/wasteland/hotaStatic/bones/AVLbon02",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "sand", "wasteland" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
 					},
 					"AVLbon03" : {
 						"animation" : "hota/wasteland/hotaStatic/bones/AVLbon03",
-						"mask" : [ "VVVVV", "VBBBV", "VVVVV" ],
-						"allowedTerrains": [ "sand", "wasteland" ]
+						"mask" : [
+							"VVVVV",
+							"VBBBV",
+							"VVVVV"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
 					}
 				}
 			}

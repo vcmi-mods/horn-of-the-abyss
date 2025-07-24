@@ -1,30 +1,50 @@
 {
 	"seaweeds" : {
 		"name" : "Seasweed",
-		"handler":"static",
+		"handler" : "static",
 		"types" : {
 			"hotaSeaweeds" : {
 				"templates" : {
-					"AVLklp50" : { 
+					"AVLklp50" : {
 						"animation" : "hota/kelps/AVLklp50",
-						"mask" : ["VV","VV"],
-						"allowedTerrains": ["water"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					},
-					"AVLklp60" : { 
+					"AVLklp60" : {
 						"animation" : "hota/kelps/AVLklp60",
-						"mask" : ["VV","VV"],
-						"allowedTerrains": ["water"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					},
-					"AVLklp70" : { 
+					"AVLklp70" : {
 						"animation" : "hota/kelps/AVLklp70",
-						"mask" : ["VV","VV"],
-						"allowedTerrains": ["water"]
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					},
-					"AVLklp80" : { 
+					"AVLklp80" : {
 						"animation" : "hota/kelps/AVLklp80",
-						"mask" : ["VV","VV"],
-						"allowedTerrains": ["water"]
-					}					
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
 				}
 			}
 		}

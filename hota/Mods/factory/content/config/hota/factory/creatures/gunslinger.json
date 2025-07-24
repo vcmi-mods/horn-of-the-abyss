@@ -1,43 +1,44 @@
 {
-  "gunslinger": {
-    "name": {
-      "plural": "Gunslingers",
-      "singular": "Gunslinger"
-    },
-    "advMapAmount": {
- "max" : 12,
- "min" : 5
-    },
-    "faction": "factory",
-    "aiValue": 1351,
-    "attack": 17,
-    "cost": {
-      "gold": 800
-    },
-    "damage": {
- "max" : 24,
- "min" : 14
-    },
-    "defense": 12,
-    "fightValue": 1211,
-    "graphics": {
-      "animation": "hota/factory/creatures/battle/CGNSLING.def",
-      "map": "hota/factory/creatures/adventureMap/AVWguns.def",
-	  "mapMask" : [ "VVV", "VAV"],
-      "iconSmall": "hota/factory/creatures/iconsSmall/CPrS011F.bmp",
-      "iconLarge": "hota/factory/creatures/iconsLarge/CPrL011F.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1,
-        "attack": 1,
-        "idle": 10
-      },
-      "missile" :
-			{
+	"gunslinger" : {
+		"name" : {
+			"plural" : "Gunslingers",
+			"singular" : "Gunslinger"
+		},
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 5
+		},
+		"faction" : "factory",
+		"aiValue" : 1351,
+		"attack" : 17,
+		"cost" : {
+			"gold" : 800
+		},
+		"damage" : {
+			"max" : 24,
+			"min" : 14
+		},
+		"defense" : 12,
+		"fightValue" : 1211,
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CGNSLING.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWguns.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS011F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL011F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1,
+				"attack" : 1,
+				"idle" : 10
+			},
+			"missile" : {
 				"projectile" : "PHALF.DEF",
 				"attackClimaxFrame" : 10,
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 38,
 					"upperY" : -65,
 					"middleX" : 36,
@@ -45,40 +46,49 @@
 					"lowerX" : 21,
 					"lowerY" : -50
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-    },
-    "growth": 2,
-    "hitPoints": 45,
-    "level": 6,
-    "shots" : 16,
-    "sound": {
-			"attack": "hota/factory/creatures/gunslinger/GUNSATTK.wav",
-			"defend": "hota/factory/creatures/gunslinger/GUNSDFND.wav",
-			"killed": "hota/factory/creatures/gunslinger/GUNSKILL.wav",
-			"move": "hota/factory/creatures/gunslinger/GUNSMOVE.wav",
-			 "shoot": "hota/factory/creatures/gunslinger/GUNSSHOT.wav",
-			"wince": "hota/factory/creatures/gunslinger/GUNSWNCE.wav"
-	},
-	"speed": 7,
-	"upgrades":
-		[
+		},
+		"growth" : 2,
+		"hitPoints" : 45,
+		"level" : 6,
+		"shots" : 16,
+		"sound" : {
+			"attack" : "hota/factory/creatures/gunslinger/GUNSATTK.wav",
+			"defend" : "hota/factory/creatures/gunslinger/GUNSDFND.wav",
+			"killed" : "hota/factory/creatures/gunslinger/GUNSKILL.wav",
+			"move" : "hota/factory/creatures/gunslinger/GUNSMOVE.wav",
+			"shoot" : "hota/factory/creatures/gunslinger/GUNSSHOT.wav",
+			"wince" : "hota/factory/creatures/gunslinger/GUNSWNCE.wav"
+		},
+		"speed" : 7,
+		"upgrades" : [
 			"bountyHunter"
 		],
-	"abilities": {
-		"shooter" :
-		{
-			"type": "SHOOTER"
-		},
-		"rangedRetaliation" :
-		{
-			"type" : "RANGED_RETALIATION"
-		},
-		"firstStrike" :
-		{
-			"type" : "FIRST_STRIKE",
-			"subtype": "damageTypeRanged"
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"rangedRetaliation" : {
+				"type" : "RANGED_RETALIATION"
+			},
+			"firstStrike" : {
+				"type" : "FIRST_STRIKE",
+				"subtype" : "damageTypeRanged"
+			}
 		}
 	}
-  }
 }

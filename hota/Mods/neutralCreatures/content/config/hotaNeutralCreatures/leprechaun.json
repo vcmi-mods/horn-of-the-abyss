@@ -1,88 +1,79 @@
 {
-	"leprechaun":
-	{
-		"name" :
-		{
+	"leprechaun" : {
+		"name" : {
 			"singular" : "Leprechaun",
 			"plural" : "Leprechauns"
 		},
 		"faction" : "neutral",
 		"level" : 2,
-		"cost" : { "gold" : 100 },
+		"cost" : {
+			"gold" : 100
+		},
 		"speed" : 5,
 		"hitPoints" : 15,
 		"attack" : 8,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 3,
 			"max" : 5
 		},
 		"fightValue" : 190,
 		"aiValue" : 190,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 16,
 			"max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek": true,
-		"abilities" :
-		{
-			"castsFortune" :
-			{
+		"hasDoubleWeek" : true,
+		"abilities" : {
+			"castsFortune" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "fortune",
 				"val" : 2
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 3
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
-			}, 	
-			"unbelievalbeLuck":
-            {
-                "type": "LUCK",
-                "val": 100,
-                "valueType": "PERCENT_TO_ALL",
-                "limiters": [
-                    {
-                        "type": "HAS_ANOTHER_BONUS_LIMITER",
-                        "bonusType": "LUCK"
-                    }
-                ]
-            }
+			},
+			"unbelievalbeLuck" : {
+				"type" : "LUCK",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LUCK"
+					}
+				]
+			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm171",
 			"iconLarge" : "hota/creatures/iconsLarge/TwCrP171",
 			"map" : "hota/creatures/adventureMap/AVWlepr.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/creatures/battle/CLEPRCHN.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
-				"idle" : 10.00,
+				"idle" : 10.0,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "hota/creatures/leprechaun/LEPRATTK.wav",
-			"defend": "hota/creatures/leprechaun/LEPRDFND.wav",
-			"killed": "hota/creatures/leprechaun/LEPRKILL.wav",
-			"move": "hota/creatures/leprechaun/LEPRMOVE.wav",
-			"shoot": "hota/creatures/leprechaun/LEPRSHOT.wav",
-			"wince": "hota/creatures/leprechaun/LEPRWNCE.wav"
+		"sound" : {
+			"attack" : "hota/creatures/leprechaun/LEPRATTK.wav",
+			"defend" : "hota/creatures/leprechaun/LEPRDFND.wav",
+			"killed" : "hota/creatures/leprechaun/LEPRKILL.wav",
+			"move" : "hota/creatures/leprechaun/LEPRMOVE.wav",
+			"shoot" : "hota/creatures/leprechaun/LEPRSHOT.wav",
+			"wince" : "hota/creatures/leprechaun/LEPRWNCE.wav"
 		}
 	}
 }
-
-

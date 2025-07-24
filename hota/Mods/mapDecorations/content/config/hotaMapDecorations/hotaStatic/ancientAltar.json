@@ -1,19 +1,26 @@
 {
 	"ancientAltar" : {
-		"handler":"generic",
+		"handler" : "generic",
 		"name" : "Ancient Altar",
 		"types" : {
 			"ancientAltar" : {
-				"sounds": {
-					"ambient": ["hota/HORNALTR"]
+				"sounds" : {
+					"ambient" : [
+						"hota/HORNALTR"
+					]
 				},
 				"templates" : {
-					"avchrnal" : { 
-						"animation" : "hota/campaignObject/avchrnal", 
-						"mask" : [ "VVVVV", "VVVVV", "VVBBV", "VVVBV" ]
+					"avchrnal" : {
+						"animation" : "hota/campaignObject/avchrnal",
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VVBBV",
+							"VVVBV"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

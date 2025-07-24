@@ -1,70 +1,131 @@
 {
-	"abandonedHouse" :{
+	"abandonedHouse" : {
 		"handler" : "static",
 		"name" : "Burnt Structure",
 		"types" : {
 			"abandonedHouse" : {
 				"templates" : {
-					"AVbhou01" : { "animation" : "hota/ruinedObjects/AVbhou01",
-						"mask" : ["VVV","VBB","VBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"AVbhou01" : {
+						"animation" : "hota/ruinedObjects/AVbhou01",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					},
-					"AVbhou02" : { "animation" : "hota/ruinedObjects/AVbhou02",
-						"mask" : ["VVV","VBB","VBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"AVbhou02" : {
+						"animation" : "hota/ruinedObjects/AVbhou02",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					},
-					"AVbhou03" : { "animation" : "hota/ruinedObjects/AVbhou03",
-						"mask" : ["VVV","VBB","VBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"AVbhou03" : {
+						"animation" : "hota/ruinedObjects/AVbhou03",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					}
 				}
 			}
 		}
 	},
-	
-	"abandonedFountains" :{
+
+	"abandonedFountains" : {
 		"handler" : "static",
 		"name" : "Crumbled Fountain",
 		"types" : {
 			"abandonedFountains" : {
 				"templates" : {
-					"TPDESTR2" : { "animation" : "hota/ruinedObjects/TPDESTR2",
-						"mask" : ["VVV","VBB","VBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"TPDESTR2" : {
+						"animation" : "hota/ruinedObjects/TPDESTR2",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					},
-					"TPDESTR4" : { "animation" : "hota/ruinedObjects/TPDESTR4",
-						"mask" : ["VV","VB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"TPDESTR4" : {
+						"animation" : "hota/ruinedObjects/TPDESTR4",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					}
 				}
 			}
 		}
 	},
-	
-	"crumbledCamp" :{
+
+	"crumbledCamp" : {
 		"handler" : "static",
 		"name" : "Crumbled Camp",
 		"types" : {
 			"crumbledCamp" : {
 				"templates" : {
-					"TPDESTR3" : { "animation" : "hota/ruinedObjects/TPDESTR3",
-						"mask" : ["VVV","BBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"TPDESTR3" : {
+						"animation" : "hota/ruinedObjects/TPDESTR3",
+						"mask" : [
+							"VVV",
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					}
 				}
 			}
 		}
 	},
-	
-	"crumbledEdifice" :{
+
+	"crumbledEdifice" : {
 		"handler" : "static",
 		"name" : "Crumbled Edifice",
 		"types" : {
 			"crumbledEdifice" : {
 				"templates" : {
-					"avtcvrui" : { "animation" : "hota/ruinedObjects/avtcvrui",
-						"mask" : ["VVVV","VVVV","VBBB"],
-						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					"avtcvrui" : {
+						"animation" : "hota/ruinedObjects/avtcvrui",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
 					}
 				}
 			}

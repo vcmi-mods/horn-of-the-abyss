@@ -1,15 +1,20 @@
 {
 	"name" : "Factory",
 	"description" : "New town Factory with steampunk theme",
-	
+
 	"author" : "HotA Crew, transplanted by Ben",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.1.6",
-	"modType" : "Town",	
-	
-	"depends" : ["hota.wastelandTerrain","hota.cove"], 
-	"softDepends" : [ "hota.newgraphics" ],
-	
+	"modType" : "Town",
+
+	"depends" : [
+		"hota.wastelandTerrain",
+		"hota.cove"
+	],
+	"softDepends" : [
+		"hota.newgraphics"
+	],
+
 	"chinese" : {
 		"name" : "工厂种族",
 		"description" : "由HotA团队制作的新种族，由刚出圣龙移植。"
@@ -18,7 +23,7 @@
 		"name" : "Továrna",
 		"description" : "Nové město Továrna se steampunkovou tématikou"
 	},
-	
+
 	"factions" : [
 		"config/hota/factory/town/town.json"
 	],
@@ -43,7 +48,7 @@
 		"config/hota/factory/creatures/stackExperience",
 		"config/hota/factory/commander/cowboy.json"
 	],
-	
+
 	"heroClasses" : [
 		"config/hota/factory/heroClasses/mercenary.json",
 		"config/hota/factory/heroClasses/artificer.json"
@@ -89,23 +94,39 @@
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json"
 	],
-	 "objects" : [
+	"objects" : [
 		"config/hota/factory/dwellings.json"
-    ],
+	],
 	"artifacts" : [
 		"config/hota/factory/artifacts/factoryRingOfOblivion"
 	],
 	"changelog" : {
-		"1.0.0"   : [ "Initial release" ],
-		"1.1.0"	  : [ "Update new creatures and heroes" ],
-		"1.1.1"	  : [ "Update new models of couatls and crimson couatls" ],
-		"1.1.2"   : [ "Update new abilities" ],
-		"1.1.3"   : [ "Fix meditation and detonation abilities for relevant creatures" ],
-		"1.1.4"   : [ "Add campaign heroes and dependency of cove" ],
-		"1.1.5"   : [ "Change naming conventions and file directories to fit the cove format" ],
-		"1.1.6"   : [ "New cowboy graphics by Kurek" ]
-    },
-	
+		"1.0.0" : [
+			"Initial release"
+		],
+		"1.1.0" : [
+			"Update new creatures and heroes"
+		],
+		"1.1.1" : [
+			"Update new models of couatls and crimson couatls"
+		],
+		"1.1.2" : [
+			"Update new abilities"
+		],
+		"1.1.3" : [
+			"Fix meditation and detonation abilities for relevant creatures"
+		],
+		"1.1.4" : [
+			"Add campaign heroes and dependency of cove"
+		],
+		"1.1.5" : [
+			"Change naming conventions and file directories to fit the cove format"
+		],
+		"1.1.6" : [
+			"New cowboy graphics by Kurek"
+		]
+	},
+
 	"polish" : {
 		"name" : "Fabryka",
 		"description" : "Nowe miasto Fabryka w klimacie steampunkowym"

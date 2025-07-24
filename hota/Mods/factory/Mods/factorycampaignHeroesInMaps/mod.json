@@ -7,12 +7,14 @@
 	"version" : "1.0",
 	"keepDisabled" : true,
 	"changelog" : {
-		"1.0" : [ "Initial release" ]
+		"1.0" : [
+			"Initial release"
+		]
 	},
 	"depends" : [
 		"hota.factory"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "工厂战役英雄",
 		"description" : "此模组在游戏中解锁了以下新的战役英雄：<br/><br/>埃尔德里安<br/>弗雷德里克<br/>扬加德<br/>默多克<br/>斯蒂娜<br/>塔文<br/>乌门德尔<br/>瓦尔奎斯特<br/>温泽尔斯"
 	},

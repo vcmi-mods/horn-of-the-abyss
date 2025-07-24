@@ -1,13 +1,11 @@
 {
 	"basepath" : "hota/highlands/tiles/",
- 
-	"sequences" :
-	[
+
+	"sequences" : [
 		{
 			"group" : 0,
- 
-			"frames" : 
-			[
+
+			"frames" : [
 				"HGLNT000.png",
 				"HGLNT001.png",
 				"HGLNT002.png",

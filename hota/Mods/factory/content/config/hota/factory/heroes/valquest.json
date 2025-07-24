@@ -1,33 +1,27 @@
 {
-	"valquest" :
-	{
-    "class": "mercenary",
-    "female" : false,
-	"special": true,
-	
-		"texts" :
-		{
+	"valquest" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Valquest",
 			"biography" : "Valquest is a defender of Burton once Kastore took control.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
 				"tooltip" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
 				"name" : "First Aid"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/factory/heroes/valquest/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/valquest/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.bmp",
 			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -44,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "armorer"
@@ -55,10 +48,9 @@
 				"skill" : "firstAid"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "firstAid"
 		}
 	}
 }
-

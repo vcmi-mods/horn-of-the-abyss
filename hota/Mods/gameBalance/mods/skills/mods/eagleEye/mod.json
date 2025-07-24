@@ -2,14 +2,14 @@
 	"name" : "Eagle Eye",
 	"description" : "",
 	"modType" : "Mechanics",
-	"author": "Kuririn, avatar, wnukos",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "Kuririn, avatar, wnukos",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
 
 	"skills" : [
 		"config/hotaGameBalance/skills.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "Eagle Eye",
 		"description" : "",

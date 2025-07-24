@@ -1,6 +1,8 @@
 {
 	"plateOfDyingLight" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "TORSO",
 		"class" : "RELIC",
 		"value" : 10000,
@@ -9,10 +11,12 @@
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "spellpower",
 				"valueType" : "PERCENT_TO_ALL",
-				"val": -25,
+				"val" : -25,
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
 			}
 		},
 		"graphics" : {

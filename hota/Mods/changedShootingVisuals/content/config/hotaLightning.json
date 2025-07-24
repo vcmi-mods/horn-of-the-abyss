@@ -1,62 +1,46 @@
 {
-	"hotaLightning" : 
-	{
-		"type": "ability",
-		"name": "Storm",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
-		},	
-		"targetType": "CREATURE",
-		"level": 1,
-		"power": 1,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+	"hotaLightning" : {
+		"type" : "ability",
+		"name" : "Storm",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"animation":{
-			"hit":["lightningyTitan/Expl_04"]
+		"targetType" : "CREATURE",
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"hit" : [
+				"lightningyTitan/Expl_04"
+			]
 		},
 		"flags" : {
-			"offensive": true
+			"offensive" : true
 		},
-		"targetCondition" : {
+		"targetCondition" : {},
+		"sounds" : {
+			"cast" : "MAGCBLTH"
 		},
-		"sounds": {
-			"cast": "MAGCBLTH"
-		},
-		"graphics":
-		{
-		},
+		"graphics" : {},
 		"levels" : {
-			"base":{
-				"range": "0",
-				"power": 10,
+			"base" : {
+				"range" : "0",
+				"power" : 10,
 				"cost" : 0,
-				"targetModifier":
-				{
-					"smart": true
+				"targetModifier" : {
+					"smart" : true
 				},
-				"battleEffects" : 
-				{
-				},
-				"description": ""
+				"battleEffects" : {},
+				"description" : ""
 			},
-			"none":
-			{	 
-			},
-			"basic":
-			{	 
-			},
-			"advanced":
-			{	 
-			},
-			"expert":
-			{
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

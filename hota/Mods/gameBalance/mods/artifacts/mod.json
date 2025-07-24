@@ -2,14 +2,14 @@
 	"name" : "Artifacts",
 	"description" : "",
 	"modType" : "Mechanics",
-	"author": "Kuririn, avatar, wnukos",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "Kuririn, avatar, wnukos",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
-	
+
 	"artifacts" : [
 		"config/hotaGameBalance/artifacts.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "游戏平衡",
 		"description" : "深渊号角中的平衡性改进。",
@@ -32,14 +32,14 @@
 		]
 	},
 	"swedish" : {
-	"name" : "Artifacts",
+		"name" : "Artifacts",
 		"description" : "Förbättrad spelbalans av HotA-teamet för expansionen 'Horn of The Abyss'",
 		"translations" : [
 			"translation/swedish.json"
 		]
 	},
 	"ukrainian" : {
-	"name" : "Artifacts",
+		"name" : "Artifacts",
 		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss",
 		"translations" : [
 			"translation/ukrainian.json"

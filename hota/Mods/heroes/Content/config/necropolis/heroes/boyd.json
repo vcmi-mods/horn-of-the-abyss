@@ -1,11 +1,9 @@
 {
-	"boyd" :
-	{
+	"boyd" : {
 		"class" : "deathknight",
 		"female" : false,
 		"special" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/necropolis/heroes/boyd/icons/portraitLarge.png",
 			"small" : "hota/necropolis/heroes/boyd/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/necropolis/heroes/boyd/icons/specialtyLarge.png",
@@ -26,7 +24,7 @@
 				"creature" : "skeleton",
 				"min" : 20,
 				"max" : 30
-			},
+			}
 		],
 		"skills" : [
 			{
@@ -41,7 +39,9 @@
 		"specialty" : {
 			"creature" : "skeleton"
 		},
-		"spellbook" : [ "shield" ],
+		"spellbook" : [
+			"shield"
+		],
 		"texts" : {
 			"name" : "Boyd",
 			"biography" : "All scary stories feature a horseman who had been hanged, stabbed or even beheaded and now rides by night, intending to exact revenge on his killers. Nonsense, a necromancer would say, a dead man risen by himself cannot have memory or will. It may well be so, but then Boyd has scores to settle not only with the traitor who slayed him, but also with the one who denied him rest in peace.",
@@ -53,5 +53,3 @@
 		}
 	}
 }
-
-

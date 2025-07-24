@@ -1,32 +1,26 @@
 {
-	"02sam" :
-	{
-    "class": "mercenary",
-    "female" : true,
-		
-		"texts" :
-		{
+	"02sam" : {
+		"class" : "mercenary",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Sam",
 			"biography" : "Since ancient times, earth oil has wreaked havoc on the farmers of Jadame, erupting in fountains and laying waste to their crops and pastures. Sam, the daughter and apprentice of a skilled blacksmith, was the first to tame this black beast by forcing it into a pipe and making it heat her forge. Her inventions made earth oil into Burton's blood, food, and arms.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Speed of any Mechanics and Engineers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Bonus: creature",
 				"name" : "Mechanic"
 			}
 		},
 
-	"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/sam/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/sam/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/sam/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/sam/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "hotaMechanic",
 				"max" : 6,
@@ -43,8 +37,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -54,10 +47,9 @@
 				"skill" : "tactics"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hota.factory:hotaMechanic"
 		}
 	}
 }
-

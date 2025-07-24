@@ -1,41 +1,37 @@
 {
-	"sentinelAutomaton":
-	{
-		"name" :
-		{
+	"sentinelAutomaton" : {
+		"name" : {
 			"plural" : "Sentinel Automatons",
 			"singular" : "Sentinel Automaton"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 16,
-			 "min" : 10
+		"advMapAmount" : {
+			"max" : 16,
+			"min" : 10
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
 		"aiValue" : 709,
 		"attack" : 12,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 450
 		},
-		"damage" :
-		{
-			 "max" : 9,
-			 "min" : 9
+		"damage" : {
+			"max" : 9,
+			"min" : 9
 		},
 		"defense" : 10,
 		"fightValue" : 672,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "hota/factory/creatures/battle/CHAUTO2.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWauth.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS008F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL008F.bmp",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS008F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL008F.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -44,40 +40,33 @@
 		"growth" : 5,
 		"hitPoints" : 30,
 		"level" : 4,
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/automaton/AUTOATTK.wav",
-			"defend": "hota/factory/creatures/automaton/AUTODFND.wav",
-			"killed": "hota/factory/creatures/automaton/AUTOKILL.wav",
-			"move": "hota/factory/creatures/automaton/AUTOMOVE.wav",
-			"wince": "hota/factory/creatures/automaton/AUTOWNCE.wav",
+		"sound" : {
+			"attack" : "hota/factory/creatures/automaton/AUTOATTK.wav",
+			"defend" : "hota/factory/creatures/automaton/AUTODFND.wav",
+			"killed" : "hota/factory/creatures/automaton/AUTOKILL.wav",
+			"move" : "hota/factory/creatures/automaton/AUTOMOVE.wav",
+			"wince" : "hota/factory/creatures/automaton/AUTOWNCE.wav",
 			"shoot" : "hota/factory/creatures/automaton/AUTOSHOT.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-			"mechanical": 
-			{
-				"type": "MECHANICAL"
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"castsymMeditation" :
-			{
+			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "detonates02",
 				"val" : 0
 			},
-			"healPower" : 
-			{
+			"healPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "detonates02",
 				"val" : 25
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			}

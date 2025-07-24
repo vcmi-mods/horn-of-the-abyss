@@ -1,11 +1,9 @@
 {
-	"kydoimos" :
-	{
+	"kydoimos" : {
 		"class" : "demoniac",
 		"female" : false,
-		"special": true,
-		"images" :
-		{
+		"special" : true,
+		"images" : {
 			"large" : "hota/inferno/heroes/kydoimos/icons/portraitLarge.png",
 			"small" : "hota/inferno/heroes/kydoimos/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/inferno/heroes/kydoimos/icons/specialtyLarge.png",
@@ -50,8 +48,12 @@
 				"val" : 5
 			},
 			"bonuses" : {
-				"attack" : { "subtype" : "attack" },
-				"defence" : { "subtype" : "defence" }
+				"attack" : {
+					"subtype" : "attack"
+				},
+				"defence" : {
+					"subtype" : "defence"
+				}
 			}
 		},
 		"texts" : {

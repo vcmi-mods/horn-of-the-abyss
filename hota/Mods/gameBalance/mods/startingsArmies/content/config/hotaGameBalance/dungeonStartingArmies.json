@@ -1,8 +1,7 @@
 {
 	// Amount of Troglodytes decreased from 30–40 to 20–30
 	// Amount of Harpies increased from 4–6 to 6–8
-	"core:ajit" :
-	{
+	"core:ajit" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -21,8 +20,7 @@
 			}
 		]
 	},
-	"core:alamar" :
-	{
+	"core:alamar" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -41,8 +39,7 @@
 			}
 		]
 	},
-	"core:arlach" :
-	{
+	"core:arlach" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -61,8 +58,7 @@
 			}
 		]
 	},
-	"core:dace" :
-	{
+	"core:dace" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -81,8 +77,7 @@
 			}
 		]
 	},
-	"core:damacon" :
-	{
+	"core:damacon" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -101,8 +96,7 @@
 			}
 		]
 	},
-	"core:darkstorn" :
-	{
+	"core:darkstorn" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -121,8 +115,7 @@
 			}
 		]
 	},
-	"core:deemer" :
-	{
+	"core:deemer" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -141,8 +134,7 @@
 			}
 		]
 	},
-	"core:geon" :
-	{
+	"core:geon" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -161,8 +153,7 @@
 			}
 		]
 	},
-	"core:gunnar" :
-	{
+	"core:gunnar" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -181,8 +172,7 @@
 			}
 		]
 	},
-	"core:jaegar" :
-	{
+	"core:jaegar" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -201,8 +191,7 @@
 			}
 		]
 	},
-	"core:jeddite" :
-	{
+	"core:jeddite" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -221,8 +210,7 @@
 			}
 		]
 	},
-	"core:lorelei" :
-	{
+	"core:lorelei" : {
 		"army" : [
 			{
 				"creature" : "harpy",
@@ -241,28 +229,7 @@
 			}
 		]
 	},
-	"core:malekith" :
-	{
-		"army" : [
-			{
-				"creature" : "troglodyte",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "harpy",
-				"min" : 6,
-				"max" : 8
-			},
-			{
-				"creature" : "beholder",
-				"min" : 3,
-				"max" : 4
-			}
-		]
-	},
-	"core:mutare" :
-	{
+	"core:malekith" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -281,8 +248,7 @@
 			}
 		]
 	},
-	"core:mutareDrake" :
-	{
+	"core:mutare" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -301,8 +267,7 @@
 			}
 		]
 	},
-	"core:sephinroth" :
-	{
+	"core:mutareDrake" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -321,8 +286,26 @@
 			}
 		]
 	},
-	"core:shakti" :
-	{
+	"core:sephinroth" : {
+		"army" : [
+			{
+				"creature" : "troglodyte",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "harpy",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "beholder",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	},
+	"core:shakti" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",
@@ -341,8 +324,7 @@
 			}
 		]
 	},
-	"core:synca" :
-	{
+	"core:synca" : {
 		"army" : [
 			{
 				"creature" : "troglodyte",

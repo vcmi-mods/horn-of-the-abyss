@@ -1,31 +1,52 @@
 {
 	"seafaringAcademy" : {
 		"name" : "Seafaring Academy",
-		"handler":"market",
+		"handler" : "market",
 		"types" : {
 			"seafaringAcademy" : {
 				"speech" : "Flapping sails and screeching ropes are music for the ears of those who graduated this ancient Academy. A midshipman can master the following skills here.",
-				"modes" : ["resource-skill"],
+				"modes" : [
+					"resource-skill"
+				],
 				"efficiency" : 5,
-				"offer" : [	"navigation", { }, { }, { } ],
+				"offer" : [
+					"navigation",
+					{},
+					{},
+					{}
+				],
 				"aiValue" : 1000,
 				"rmg" : {
-					"value"		: 8000,
-					"rarity"	: 20,
+					"value" : 8000,
+					"rarity" : 20,
 					"zoneLimit" : 1
 				},
 				"blockedVisitable" : true,
 				"sounds" : {
-					"visit" : ["hota/ACADEMYV"]
+					"visit" : [
+						"hota/ACADEMYV"
+					]
 				},
 				"templates" : {
-					"avswacad" : { "animation" : "hota/seafaringAcademy/avswacad", 
-						"mask" : [ "VVVV","VVVV", "VBBV", "VABB" ], 
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains":["water"]
+					"avswacad" : {
+						"animation" : "hota/seafaringAcademy/avswacad",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VABB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

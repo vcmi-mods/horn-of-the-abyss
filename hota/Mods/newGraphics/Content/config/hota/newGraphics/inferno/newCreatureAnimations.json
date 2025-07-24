@@ -1,86 +1,128 @@
 {
-    "core:imp" : {
+	"core:imp" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWimp0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:familiar" : {
+	"core:familiar" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWimpx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:gog" : {
+	"core:gog" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWgog0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:magog" : {
+	"core:magog" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWgogx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:cerberus" : {
+	"core:cerberus" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWhoux0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:hellHound" : {
+	"core:hellHound" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWhoun0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:demon" : {
+	"core:demon" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWdemn0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:hornedDemon" : {
+	"core:hornedDemon" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWdemx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:pitFiend" : {
+	"core:pitFiend" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWpitf0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:pitLord" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWpitx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:efreet" : {
+	"core:efreet" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWefre0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:efreetSultan" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWefrx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:devil" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWdevl0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:archDevil" : {
+	"core:archDevil" : {
 		"graphics" : {
 			"map" : "hota/inferno/adventureMap/creatures/AVWdevx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	}
 }

@@ -1,14 +1,14 @@
 {
 	"name" : "Map format support (HotA)",
-	"description" : "This mod contains support files needed for loading maps in 'Horn of the Abyss' format in VCMI", 
+	"description" : "This mod contains support files needed for loading maps in 'Horn of the Abyss' format in VCMI",
 	"modType" : "Other",
-	"author": "Ivan",
-	"contact": "https://forum.vcmi.eu/",
+	"author" : "Ivan",
+	"contact" : "https://forum.vcmi.eu/",
 	"version" : "1.0",
 	"compatibility" : {
 		"min" : "1.7"
 	},
-	"depends" : [ 
+	"depends" : [
 		"hota.airship",
 		"hota.artifacts",
 		"hota.cannon",
@@ -32,96 +32,199 @@
 	},
 
 	"czech" : {
-		"name": "Podpora formátu map (HotA)",
-		"description": "Tato modifikace přidává podporu načítání map ve formátu 'Horn of the Abyss'"
+		"name" : "Podpora formátu map (HotA)",
+		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'Horn of the Abyss'"
 	},
 	"polish" : {
 		"name" : "Obsługa formatu map (HotA)",
 		"description" : "Ten mod zawiera pliki niezbędne do wczytywania map w formacie 'Horn of the Abyss' w VCMI"
 	},
 
-
 	"campaignRegions" : {
 		"hotaRegion21" : {
-			"prefix": "UA",
-			"colorSuffixLength": 2,
-			"desc": [
-				{ "infix": "A", "x": 157, "y": 409 },
-				{ "infix": "B", "x": 62, "y": 346 },
-				{ "infix": "C", "x": 8, "y": 8 }
+			"prefix" : "UA",
+			"colorSuffixLength" : 2,
+			"desc" : [
+				{
+					"infix" : "A",
+					"x" : 157,
+					"y" : 409
+				},
+				{
+					"infix" : "B",
+					"x" : 62,
+					"y" : 346
+				},
+				{
+					"infix" : "C",
+					"x" : 8,
+					"y" : 8
+				}
 			]
 		},
 		"hotaRegion22" : {
-			"prefix": "UA",
-			"colorSuffixLength": 2,
-			"desc": [
-				{ "infix": "A", "x": 157, "y": 409 },
-				{ "infix": "B", "x": 62, "y": 346 },
-				{ "infix": "C", "x": 8, "y": 8 },
-				{ "infix": "D", "x": 206, "y": 1 },
-				{ "infix": "E", "x": 132, "y": 357 },
-				{ "infix": "F", "x": 184, "y": 83 }
+			"prefix" : "UA",
+			"colorSuffixLength" : 2,
+			"desc" : [
+				{
+					"infix" : "A",
+					"x" : 157,
+					"y" : 409
+				},
+				{
+					"infix" : "B",
+					"x" : 62,
+					"y" : 346
+				},
+				{
+					"infix" : "C",
+					"x" : 8,
+					"y" : 8
+				},
+				{
+					"infix" : "D",
+					"x" : 206,
+					"y" : 1
+				},
+				{
+					"infix" : "E",
+					"x" : 132,
+					"y" : 357
+				},
+				{
+					"infix" : "F",
+					"x" : 184,
+					"y" : 83
+				}
 			]
 		},
 		"hotaRegion23" : {
-			"prefix": "UA",
-			"colorSuffixLength": 2,
-			"desc": [
-				{ "infix": "A", "x": 157, "y": 409 },
-				{ "infix": "B", "x": 62, "y": 346 },
-				{ "infix": "C", "x": 8, "y": 8 },
-				{ "infix": "D", "x": 206, "y": 1 }
+			"prefix" : "UA",
+			"colorSuffixLength" : 2,
+			"desc" : [
+				{
+					"infix" : "A",
+					"x" : 157,
+					"y" : 409
+				},
+				{
+					"infix" : "B",
+					"x" : 62,
+					"y" : 346
+				},
+				{
+					"infix" : "C",
+					"x" : 8,
+					"y" : 8
+				},
+				{
+					"infix" : "D",
+					"x" : 206,
+					"y" : 1
+				}
 			]
 		},
 		"hotaRegion24" : {
-			"prefix": "UA",
-			"colorSuffixLength": 2,
-			"desc": [
-				{ "infix": "A", "x": 157, "y": 409 },
-				{ "infix": "B", "x": 62, "y": 346 },
-				{ "infix": "C", "x": 8, "y": 8 },
-				{ "infix": "D", "x": 206, "y": 1 },
-				{ "infix": "E", "x": 132, "y": 357 },
-				{ "infix": "F", "x": 184, "y": 83 },
-				{ "infix": "G", "x": 159, "y": 263 },
-				{ "infix": "H", "x": 108, "y": 173 }
+			"prefix" : "UA",
+			"colorSuffixLength" : 2,
+			"desc" : [
+				{
+					"infix" : "A",
+					"x" : 157,
+					"y" : 409
+				},
+				{
+					"infix" : "B",
+					"x" : 62,
+					"y" : 346
+				},
+				{
+					"infix" : "C",
+					"x" : 8,
+					"y" : 8
+				},
+				{
+					"infix" : "D",
+					"x" : 206,
+					"y" : 1
+				},
+				{
+					"infix" : "E",
+					"x" : 132,
+					"y" : 357
+				},
+				{
+					"infix" : "F",
+					"x" : 184,
+					"y" : 83
+				},
+				{
+					"infix" : "G",
+					"x" : 159,
+					"y" : 263
+				},
+				{
+					"infix" : "H",
+					"x" : 108,
+					"y" : 173
+				}
 			]
 		},
 		"hotaRegion26" : {
-			"prefix": "UA",
-			"colorSuffixLength": 2,
-			"desc": [
-				{ "infix": "A", "x": 157, "y": 409 },
-				{ "infix": "B", "x": 62, "y": 346 },
-				{ "infix": "C", "x": 8, "y": 8 },
-				{ "infix": "D", "x": 206, "y": 1 },
-				{ "infix": "E", "x": 132, "y": 357 }
+			"prefix" : "UA",
+			"colorSuffixLength" : 2,
+			"desc" : [
+				{
+					"infix" : "A",
+					"x" : 157,
+					"y" : 409
+				},
+				{
+					"infix" : "B",
+					"x" : 62,
+					"y" : 346
+				},
+				{
+					"infix" : "C",
+					"x" : 8,
+					"y" : 8
+				},
+				{
+					"infix" : "D",
+					"x" : 206,
+					"y" : 1
+				},
+				{
+					"infix" : "E",
+					"x" : 132,
+					"y" : 357
+				}
 			]
 		}
 	},
 
-	"settings": {
+	"settings" : {
 		"mapFormat" : {
 			"hornOfTheAbyss" : {
 				"supported" : true,
 				"iconIndex" : 5,
-				
+
 				"factions" : {
 					"cove" : 9,
 					"factory" : 10
 				},
 				"buildings" : {
 					"cove" : {
-						"special3" : 		18, // thievesGuild
-						"special4" : 		19, // grotto
+						"special3" : 18, // thievesGuild
+						"special4" : 19, // grotto
 						"dwellingUp2Lvl3" : 20
 					},
 					"factory" : {
-						"dwellingLvl8" : 	23, //factory dreadnoght - ?? don't know correct values
-						"dwellingUpLvl8" : 	24,  //factory juggernought - ?? don't know correct values
-						"special1" : 		21, // bank
-						"special2" : 		22  // mana generator
-					}	
+						"dwellingLvl8" : 23, //factory dreadnoght - ?? don't know correct values
+						"dwellingUpLvl8" : 24, //factory juggernought - ?? don't know correct values
+						"special1" : 21, // bank
+						"special2" : 22 // mana generator
+					}
 				},
 				"creatures" : {
 					"cannon" : 150,
@@ -145,7 +248,7 @@
 					"fangarm" : 168,
 					"leprechaun" : 169,
 					"steelGolem" : 170,
-//factory					
+					//factory
 					"halflingGrenadier" : 171,
 					"hotaMechanic" : 172,
 					"hotaEngineer" : 173,
@@ -162,98 +265,98 @@
 					"hotaDreadnought" : 184,
 					"hotaJuggernaut" : 185
 				},
-				
+
 				"heroes" : {
-					"01corkes"     : 156,
-					"02jeremy"     : 157,
-					"03illor"      : 158,
-					"05derek"      : 159,
-					"06leena"      : 160,
-					"07anabel"     : 161,
+					"01corkes" : 156,
+					"02jeremy" : 157,
+					"03illor" : 158,
+					"05derek" : 159,
+					"06leena" : 160,
+					"07anabel" : 161,
 					"08cassiopeia" : 162,
-					"09miriam"     : 163,
-					"12casmetra"   : 164,
-					"13eovacius"   : 165,
-					"14spint"      : 166,
-					"15andal"      : 167,
-					"16manfred"    : 168,
-					"17zilare"     : 169,
-					"18astra"      : 170,
-					"19dargem"     : 171,
-					"10bidley"     : 172,
-					"11tark"       : 173,
-					"04elmore"     : 174,
-					"beatrice"     : 175,
-					"kinkeria"     : 176,
-					"ranloo"       : 177,
-					"giselle"      : 178,
-				//factory
-					"01henrietta"  : 179,
-					"02sam" 	   : 180,
-					"03tancred"    : 181,
-					"04melchior"   : 182,
-					"05floribert"  : 183,
-					"06wynona"     : 184,
-					"07dury" 	   : 185,
-					"08morton"     : 186,
-					"11celestine"  : 187,
-					"12todd"       : 188,
-					"13agar"       : 189,
-					"14bertram"    : 190,
-					"15wrathmont"  : 191,
-					"16ziph"       : 192,
-					"17victoria"   : 193,
-					"18eanswythe"  : 194,
-					"19frederick"  : 195,
-					"09tavin" 	   : 196,
-					"10murdoch"    : 197
+					"09miriam" : 163,
+					"12casmetra" : 164,
+					"13eovacius" : 165,
+					"14spint" : 166,
+					"15andal" : 167,
+					"16manfred" : 168,
+					"17zilare" : 169,
+					"18astra" : 170,
+					"19dargem" : 171,
+					"10bidley" : 172,
+					"11tark" : 173,
+					"04elmore" : 174,
+					"beatrice" : 175,
+					"kinkeria" : 176,
+					"ranloo" : 177,
+					"giselle" : 178,
+					//factory
+					"01henrietta" : 179,
+					"02sam" : 180,
+					"03tancred" : 181,
+					"04melchior" : 182,
+					"05floribert" : 183,
+					"06wynona" : 184,
+					"07dury" : 185,
+					"08morton" : 186,
+					"11celestine" : 187,
+					"12todd" : 188,
+					"13agar" : 189,
+					"14bertram" : 190,
+					"15wrathmont" : 191,
+					"16ziph" : 192,
+					"17victoria" : 193,
+					"18eanswythe" : 194,
+					"19frederick" : 195,
+					"09tavin" : 196,
+					"10murdoch" : 197
 				},
-					
+
 				"portraits" : {
-					"01corkes"     : 163,
-					"02jeremy"     : 164,
-					"03illor"      : 165,
-					"05derek"      : 166,
-					"06leena"      : 167,
-					"07anabel"     : 168,
+					"01corkes" : 163,
+					"02jeremy" : 164,
+					"03illor" : 165,
+					"05derek" : 166,
+					"06leena" : 167,
+					"07anabel" : 168,
 					"08cassiopeia" : 169,
-					"09miriam"     : 170,
-					"12casmetra"   : 171,
-					"13eovacius"   : 172,
-					"14spint"      : 173,
-					"15andal"      : 174,
-					"16manfred"    : 175,
-					"17zilare"     : 176,
-					"18astra"      : 177,
-					"19dargem"     : 178,
-					"10bidley"     : 179,
-					"11tark"       : 180,
-					"04elmore"     : 181,
-					"beatrice"     : 182,
-					"kinkeria"     : 183,
-					"ranloo"       : 184,
-					"giselle"      : 186,
-				//factory	
-					"01henrietta"  : 187,
-					"02sam" 	   : 188,
-					"03tancred"    : 189,
-					"04melchior"   : 190,
-					"05floribert"  : 191,
-					"06wynona"     : 192,
-					"07dury"       : 193,
-					"08morton"     : 194,
-					"11celestine"  : 195,
-					"12todd"       : 196,
-					"13agar"       : 197,
-					"14bertram"    : 198,
-					"15wrathmont"  : 199,
-					"16ziph"       : 200,
-					"17victoria"   : 201,
-					"18eanswythe"  : 202,
-					"19frederick"  : 203,
+					"09miriam" : 170,
+					"12casmetra" : 171,
+					"13eovacius" : 172,
+					"14spint" : 173,
+					"15andal" : 174,
+					"16manfred" : 175,
+					"17zilare" : 176,
+					"18astra" : 177,
+					"19dargem" : 178,
+					"10bidley" : 179,
+					"11tark" : 180,
+					"04elmore" : 181,
+					"beatrice" : 182,
+					"kinkeria" : 183,
+					"ranloo" : 184,
+					"giselle" : 186,
+					//factory
+					"01henrietta" : 187,
+					"02sam" : 188,
+					"03tancred" : 189,
+					"04melchior" : 190,
+					"05floribert" : 191,
+					"06wynona" : 192,
+					"07dury" : 193,
+					"08morton" : 194,
+					"11celestine" : 195,
+					"12todd" : 196,
+					"13agar" : 197,
+					"14bertram" : 198,
+					"15wrathmont" : 199,
+					"16ziph" : 200,
+					"17victoria" : 201,
+					"18eanswythe" : 202,
+					"19frederick" : 203,
 					//nothing
-					"09tavin"      : 207,
-					"10murdoch"    : 208					
+					"09tavin" : 207,
+					"10murdoch" : 208
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
@@ -278,13 +381,13 @@
 					"charmOfEclipse" : 162,
 					"sealOfSunset" : 163,
 					"plateOfDyingLight" : 164,
-					
+
 					"sleepkeeper" : 165
 				},
 				"heroClasses" : {
 					"captain" : 18,
 					"navigator" : 19,
-					
+
 					"mercenary" : 20,
 					"artificer" : 21
 				},
@@ -297,207 +400,693 @@
 				},
 				"objects" : {
 					// Unique interactive objects
-					"miniHillFort" : [35, 1],
-					"schoolOfMagic" : [47, 1],
-					"templeOfLoyalty" : [144, 0],
-					"skeletonTransformer" : [144, 1],
-					"colosseumOfTheMagi" : [144, 2],
-					"wateringPlace" : [144, 3],
-					"mineralSpring" : [144, 4],
-					"hermitsShack" : [144, 5],
-					"gazebo" : [144, 6],
-					"junkman" : [144, 7],
-					"derrick" : [144, 8],
-					"warlocksLab" : [144, 9],
-					"prospector" : [144, 10],
-					"trailblazer" : [144, 11],
-					"ancientLamp" : [145, 0],
-					"seaBarrel" : [145, 1],
-					"jetsam" : [145, 2],
-					"vialOfMana" : [145, 3],
-					"seafaringAcademy" : [146, 0],
-					"observatory" : [146, 1],
-					"altarOfMana" : [146, 2],
-					"townGate" : [146, 3],
-					"grave" : [ 212, 1001],
-					
+					"miniHillFort" : [
+						35,
+						1
+					],
+					"schoolOfMagic" : [
+						47,
+						1
+					],
+					"templeOfLoyalty" : [
+						144,
+						0
+					],
+					"skeletonTransformer" : [
+						144,
+						1
+					],
+					"colosseumOfTheMagi" : [
+						144,
+						2
+					],
+					"wateringPlace" : [
+						144,
+						3
+					],
+					"mineralSpring" : [
+						144,
+						4
+					],
+					"hermitsShack" : [
+						144,
+						5
+					],
+					"gazebo" : [
+						144,
+						6
+					],
+					"junkman" : [
+						144,
+						7
+					],
+					"derrick" : [
+						144,
+						8
+					],
+					"warlocksLab" : [
+						144,
+						9
+					],
+					"prospector" : [
+						144,
+						10
+					],
+					"trailblazer" : [
+						144,
+						11
+					],
+					"ancientLamp" : [
+						145,
+						0
+					],
+					"seaBarrel" : [
+						145,
+						1
+					],
+					"jetsam" : [
+						145,
+						2
+					],
+					"vialOfMana" : [
+						145,
+						3
+					],
+					"seafaringAcademy" : [
+						146,
+						0
+					],
+					"observatory" : [
+						146,
+						1
+					],
+					"altarOfMana" : [
+						146,
+						2
+					],
+					"townGate" : [
+						146,
+						3
+					],
+					"grave" : [
+						212,
+						1001
+					],
+
 					"shrineOfMagicLevel1" : {
-						"shrineOfMagicLevel1" : [ 88, 1], // hota water shrine
-						"shrineOfMagicMystery" : [ 88, 3]
+						"shrineOfMagicLevel1" : [
+							88,
+							1
+						], // hota water shrine
+						"shrineOfMagicMystery" : [
+							88,
+							3
+						]
 					},
 
-					"shrineOfMagicLevel2" : [ 89, 1], // hota water shrine
-					"shrineOfMagicLevel3" : [ 90, 1], // hota water shrine
+					"shrineOfMagicLevel2" : [
+						89,
+						1
+					], // hota water shrine
+					"shrineOfMagicLevel3" : [
+						90,
+						1
+					], // hota water shrine
 
 					// Common interactive objects
 					"boat" : {
-						"boatCove" :    [8, 3],
-						"boatNeutral" : [8, 4],
-						"boatConflux" : [8, 5],
-						"airship" : 	[8, 100]
+						"boatCove" : [
+							8,
+							3
+						],
+						"boatNeutral" : [
+							8,
+							4
+						],
+						"boatConflux" : [
+							8,
+							5
+						],
+						"airship" : [
+							8,
+							100
+						]
 					},
 					"seerHut" : {
-						"seerHutHota1" : [83, 3],
-						"seerHutHota2" : [83, 4],
-						"seerHutHota3" : [83, 5]
+						"seerHutHota1" : [
+							83,
+							3
+						],
+						"seerHutHota2" : [
+							83,
+							4
+						],
+						"seerHutHota3" : [
+							83,
+							5
+						]
 					},
 					"questGuard" : {
-						"questGate" : [ 212, 1000]
+						"questGate" : [
+							212,
+							1000
+						]
 					},
-					
+
 					"prison" : {
-						"prison" : [ 62, 0],
-						"heroCamp" : [ 62, 1]
+						"prison" : [
+							62,
+							0
+						],
+						"heroCamp" : [
+							62,
+							1
+						]
 					},
-					
+
 					"creatureBank" : {
-						"beholderSanctuary" : [16, 21],
-						"templeOfTheSea" : [16, 22],
-						"pirateCavern" : [16, 23],
-						"mansion" : [16, 24],
-						"spit" : [16, 25],
-						"redTower" : [16, 26],
-						"blackTower" : [16, 27],
-						"ivoryTower" : [16, 28],
-						"churchyard" : [16, 29],
-						"experimentalShop" : [16, 30],
-						"wolfRaiderPicket" : [16, 31],
-						"ruins" : [16, 32]
+						"beholderSanctuary" : [
+							16,
+							21
+						],
+						"templeOfTheSea" : [
+							16,
+							22
+						],
+						"pirateCavern" : [
+							16,
+							23
+						],
+						"mansion" : [
+							16,
+							24
+						],
+						"spit" : [
+							16,
+							25
+						],
+						"redTower" : [
+							16,
+							26
+						],
+						"blackTower" : [
+							16,
+							27
+						],
+						"ivoryTower" : [
+							16,
+							28
+						],
+						"churchyard" : [
+							16,
+							29
+						],
+						"experimentalShop" : [
+							16,
+							30
+						],
+						"wolfRaiderPicket" : [
+							16,
+							31
+						],
+						"ruins" : [
+							16,
+							32
+						]
 					},
 					"creatureGeneratorCommon" : {
-						"waterfall" : [17, 92],
-						"shack" : [17, 93],
-						"frigate" : [17, 94],
-						"nest" : [17, 95],
-						"towerOfTheSeas" : [17, 96],
-						"nixFort" : [17, 97],
-						"whirpool" : [17, 98],
-						"wineyard" : [17, 100],
-						"ziggurat" : [17, 101],
-						"alehouse" : [17, 102],
-						
-						"factoryLevel1" :   [17, 103],
-						"factoryLevel2" :   [17, 104],
-						"factoryLevel3" :   [17, 105],
-						"factoryLevel4" :   [17, 106],
-						"factoryLevel5" :   [17, 107],
-						"factoryLevel6" :   [17, 108],
-						"factoryLevel7" :   [17, 109],
-						"factoryLevel7-2" : [17, 110]				
+						"waterfall" : [
+							17,
+							92
+						],
+						"shack" : [
+							17,
+							93
+						],
+						"frigate" : [
+							17,
+							94
+						],
+						"nest" : [
+							17,
+							95
+						],
+						"towerOfTheSeas" : [
+							17,
+							96
+						],
+						"nixFort" : [
+							17,
+							97
+						],
+						"whirpool" : [
+							17,
+							98
+						],
+						"wineyard" : [
+							17,
+							100
+						],
+						"ziggurat" : [
+							17,
+							101
+						],
+						"alehouse" : [
+							17,
+							102
+						],
+
+						"factoryLevel1" : [
+							17,
+							103
+						],
+						"factoryLevel2" : [
+							17,
+							104
+						],
+						"factoryLevel3" : [
+							17,
+							105
+						],
+						"factoryLevel4" : [
+							17,
+							106
+						],
+						"factoryLevel5" : [
+							17,
+							107
+						],
+						"factoryLevel6" : [
+							17,
+							108
+						],
+						"factoryLevel7" : [
+							17,
+							109
+						],
+						"factoryLevel7-2" : [
+							17,
+							110
+						]
 					},
 					"creatureGeneratorSpecial" : {
-						"whirpoolLarge" : [17, 91],
-						"nixFortLarge" :  [17, 99]
+						"whirpoolLarge" : [
+							17,
+							91
+						],
+						"nixFortLarge" : [
+							17,
+							99
+						]
 					},
 					"warehouses" : {
-						"woodWarehouse" :    [142, 0],
-						"mercuryWarehouse" : [142, 1],
-						"oreWarehouse" :     [142, 2],
-						"sulfurWarehouse" :  [142, 3],
-						"crystalWarehouse" : [142, 4],
-						"gemsWarehouse" :    [142, 5],
-						"goldWarehouse" :    [142, 6]
+						"woodWarehouse" : [
+							142,
+							0
+						],
+						"mercuryWarehouse" : [
+							142,
+							1
+						],
+						"oreWarehouse" : [
+							142,
+							2
+						],
+						"sulfurWarehouse" : [
+							142,
+							3
+						],
+						"crystalWarehouse" : [
+							142,
+							4
+						],
+						"gemsWarehouse" : [
+							142,
+							5
+						],
+						"goldWarehouse" : [
+							142,
+							6
+						]
 					},
 					"monolithTwoWay" : {
-						"hotaPortalWaterWhite" :   [45,8],
-						"hotaMonolithsPink" :      [45,9],
-						"hotaMonolithsTurquoise" : [45,10],
-						"hotaMonolithsYellow" :    [45,11],
-						"hotaMonolithsBlack" :     [45,12],
-						"hotaPortalChartreuse" :   [45,13],
-						"hotaPortalTurquoise" :    [45,14],
-						"hotaPortalViolet" :       [45,15],
-						"hotaPortalOrange" :       [45,16],
-						"hotaMonolithsBlue" :      [45,17],
-						"hotaMonolithsRed" :       [45,18],
-						"hotaPortalPink" :         [45,19],
-						"hotaPortalBlue" :         [45,20],
-						"hotaPortalWaterRed" :     [45,21],
-						"hotaPortalWaterBlue" :    [45,22],
-						"hotaPortalWaterGreen" :   [45,23],
-						"hotaPortalWaterYellow" :  [45,24]
+						"hotaPortalWaterWhite" : [
+							45,
+							8
+						],
+						"hotaMonolithsPink" : [
+							45,
+							9
+						],
+						"hotaMonolithsTurquoise" : [
+							45,
+							10
+						],
+						"hotaMonolithsYellow" : [
+							45,
+							11
+						],
+						"hotaMonolithsBlack" : [
+							45,
+							12
+						],
+						"hotaPortalChartreuse" : [
+							45,
+							13
+						],
+						"hotaPortalTurquoise" : [
+							45,
+							14
+						],
+						"hotaPortalViolet" : [
+							45,
+							15
+						],
+						"hotaPortalOrange" : [
+							45,
+							16
+						],
+						"hotaMonolithsBlue" : [
+							45,
+							17
+						],
+						"hotaMonolithsRed" : [
+							45,
+							18
+						],
+						"hotaPortalPink" : [
+							45,
+							19
+						],
+						"hotaPortalBlue" : [
+							45,
+							20
+						],
+						"hotaPortalWaterRed" : [
+							45,
+							21
+						],
+						"hotaPortalWaterBlue" : [
+							45,
+							22
+						],
+						"hotaPortalWaterGreen" : [
+							45,
+							23
+						],
+						"hotaPortalWaterYellow" : [
+							45,
+							24
+						]
 					},
-					
+
 					// Terrain overlays
-					"dunes" : [141, 1],
-					"fieldsOfGlory" : [141, 2],
+					"dunes" : [
+						141,
+						1
+					],
+					"fieldsOfGlory" : [
+						141,
+						2
+					],
 					"crackedIce" : {
-						"crackedIce" : [141, 0],
-						"crackedIce01" : [40, 0],
-						"crackedIce02" : [40, 1],
-						"crackedIce03" : [40, 2],
-						"crackedIce04" : [40, 3],
-						"crackedIce05" : [40, 4],
-						"crackedIce06" : [40, 5],
-						"crackedIce07" : [40, 6],
-						"crackedIce08" : [40, 7]
+						"crackedIce" : [
+							141,
+							0
+						],
+						"crackedIce01" : [
+							40,
+							0
+						],
+						"crackedIce02" : [
+							40,
+							1
+						],
+						"crackedIce03" : [
+							40,
+							2
+						],
+						"crackedIce04" : [
+							40,
+							3
+						],
+						"crackedIce05" : [
+							40,
+							4
+						],
+						"crackedIce06" : [
+							40,
+							5
+						],
+						"crackedIce07" : [
+							40,
+							6
+						],
+						"crackedIce08" : [
+							40,
+							7
+						]
 					},
 
 					// Static decorations
-					"highlandsBrushes" : [114, 0],
-					"hotaBushes" : [115, 0],
-					"highlandsBushes" : [115, 0],
-					"hotaHedges" : [122, 0],
-					"rubble" : [139, 25],
-					"pillars" : [139, 27],
-					"stele" : [139, 31],
-					"stonySphere" : [140, 0],
-					"stone" : [140, 1],
-					"palms" : [140, 2],
-					"iceBlock" : [140, 3],
-					"pileOfStones" : [140, 4],
-					"snowHills" : [140, 5],
-					"barchanDunes" : [140, 6],
-					"spruces" : [140, 7],
-					"limestoneLake" : [140, 8],
-					"sandWalls" : [140, 9],
-					"sandStairs" : [140, 10],
-					"tarPit" : [154, 0],
-					
+					"highlandsBrushes" : [
+						114,
+						0
+					],
+					"hotaBushes" : [
+						115,
+						0
+					],
+					"highlandsBushes" : [
+						115,
+						0
+					],
+					"hotaHedges" : [
+						122,
+						0
+					],
+					"rubble" : [
+						139,
+						25
+					],
+					"pillars" : [
+						139,
+						27
+					],
+					"stele" : [
+						139,
+						31
+					],
+					"stonySphere" : [
+						140,
+						0
+					],
+					"stone" : [
+						140,
+						1
+					],
+					"palms" : [
+						140,
+						2
+					],
+					"iceBlock" : [
+						140,
+						3
+					],
+					"pileOfStones" : [
+						140,
+						4
+					],
+					"snowHills" : [
+						140,
+						5
+					],
+					"barchanDunes" : [
+						140,
+						6
+					],
+					"spruces" : [
+						140,
+						7
+					],
+					"limestoneLake" : [
+						140,
+						8
+					],
+					"sandWalls" : [
+						140,
+						9
+					],
+					"sandStairs" : [
+						140,
+						10
+					],
+					"tarPit" : [
+						154,
+						0
+					],
+
 					"yuccaTrees" : {
-						"yuccaTrees1" : [160, 0],
-						"yuccaTrees2" : [204, 0]
+						"yuccaTrees1" : [
+							160,
+							0
+						],
+						"yuccaTrees2" : [
+							204,
+							0
+						]
 					},
 
-					"plant" : [138, 0],
-					"crate" : [139, 0],
-					"crates" : [139, 1],
-					"sack" : [139, 2],
-					"barrels" : [139, 3],
-					"jaw" : [139, 4],
-					"rope" : [139, 5],
-					"frog" : [139, 6],
-					"frogs" : [139, 7],
-					"chicken" : [139, 8],
-					"rooster" : [139, 9],
-					"bluebottle" : [139, 10],
-//					"abandonedHouse" : [139, 11],
-					"crumbledCamp" : [139, 11],
-					"abandonedFountains" : [139, 12],
-					"pig" : [139, 13],
-					"ancientAltar" : [139, 14],
-					"abandonedBoat" : [139, 15],
-					"fence" : [139, 16],
-					"waterfalls" : [139, 17],
-					"fire" : [139, 18],
-					"crumbledEdifice" : [139, 19],
-					"carnivorousPlant" : [139, 20],
-					"bridge" : [139, 21],
-					"bones" : [139, 22],
+					"plant" : [
+						138,
+						0
+					],
+					"crate" : [
+						139,
+						0
+					],
+					"crates" : [
+						139,
+						1
+					],
+					"sack" : [
+						139,
+						2
+					],
+					"barrels" : [
+						139,
+						3
+					],
+					"jaw" : [
+						139,
+						4
+					],
+					"rope" : [
+						139,
+						5
+					],
+					"frog" : [
+						139,
+						6
+					],
+					"frogs" : [
+						139,
+						7
+					],
+					"chicken" : [
+						139,
+						8
+					],
+					"rooster" : [
+						139,
+						9
+					],
+					"bluebottle" : [
+						139,
+						10
+					],
+					//					"abandonedHouse" : [139, 11],
+					"crumbledCamp" : [
+						139,
+						11
+					],
+					"abandonedFountains" : [
+						139,
+						12
+					],
+					"pig" : [
+						139,
+						13
+					],
+					"ancientAltar" : [
+						139,
+						14
+					],
+					"abandonedBoat" : [
+						139,
+						15
+					],
+					"fence" : [
+						139,
+						16
+					],
+					"waterfalls" : [
+						139,
+						17
+					],
+					"fire" : [
+						139,
+						18
+					],
+					"crumbledEdifice" : [
+						139,
+						19
+					],
+					"carnivorousPlant" : [
+						139,
+						20
+					],
+					"bridge" : [
+						139,
+						21
+					],
+					"bones" : [
+						139,
+						22
+					],
 					//"sacks" : [139, 23], // unused
-					"puddles" : [139, 24],
-					"limestonePuddles" : [139, 26],
-					"reedGrass" : [139, 28],
-					"wastelandsFissures" : [139, 29],
-					"fissures" : [139, 29],
-					"abandonedHouse" : [139, 30],					
-					"predatoryPlant" : [140, 11],
-					"hotaMaples" : [140, 12],
-					"wstNaturalArch" : [140, 13],
-					"stalagmite" : [152, 0],
-					"volcanicVent" : [157, 0],
-					"willowTrees" : [159, 0],
-					"airshipYard" : [87, 1]
+					"puddles" : [
+						139,
+						24
+					],
+					"limestonePuddles" : [
+						139,
+						26
+					],
+					"reedGrass" : [
+						139,
+						28
+					],
+					"wastelandsFissures" : [
+						139,
+						29
+					],
+					"fissures" : [
+						139,
+						29
+					],
+					"abandonedHouse" : [
+						139,
+						30
+					],
+					"predatoryPlant" : [
+						140,
+						11
+					],
+					"hotaMaples" : [
+						140,
+						12
+					],
+					"wstNaturalArch" : [
+						140,
+						13
+					],
+					"stalagmite" : [
+						152,
+						0
+					],
+					"volcanicVent" : [
+						157,
+						0
+					],
+					"willowTrees" : [
+						159,
+						0
+					],
+					"airshipYard" : [
+						87,
+						1
+					]
 				},
 				"templates" : {
 					"airShip/AVGairy0.def" : "AVGairy0.def",
@@ -550,13 +1139,13 @@
 					"hota/cove/town/adventureMap/AVCcovf0.def" : "AVCcovf0.def",
 					"hota/cove/town/adventureMap/AVCCOVX0.def" : "AVCCOVX0.def",
 					"hota/cove/town/adventureMap/AVCcovz0.def" : "AVCcovz0.def",
-					
+
 					"hota/factory/town/adventureMap/citadel.def" : "AVCfacC0.def",
 					"hota/factory/town/adventureMap/village.def" : "AVCfacE0.DEF",
 					"hota/factory/town/adventureMap/AVCfacF0.def" : "AVCfacF0.def",
 					"hota/factory/town/adventureMap/castle.def" : "AVCfacX0.def",
 					"hota/factory/town/adventureMap/capitol.def" : "AVCfacZ0.def",
-					
+
 					"hota/dungeon/adventureMap/town/citadel.def" : "AVCdunc0.def",
 					"hota/dungeon/adventureMap/town/AVCdunf0.def" : "AVCdunf0.def",
 					"hota/dungeon/adventureMap/town/castle.def" : "AVCdunx0.def",
@@ -914,7 +1503,7 @@
 					"hota/cove/creatures/adventureMap/AVWNIXUP.def" : "AVWNIXUP.def",
 					"hota/cove/creatures/adventureMap/AVWSERPE.def" : "AVWSERPE.def",
 					"hota/cove/creatures/adventureMap/AVWHASPI.def" : "AVWHASPI.def",
-					
+
 					"hota/factory/creatures/adventureMap/AVWcoat.def" : "AVWcoat.def",
 					"hota/factory/creatures/adventureMap/AvWjugg.def" : "AvWjugg.def",
 					"hota/factory/creatures/adventureMap/AvWdred.def" : "AvWdred.def",
@@ -931,7 +1520,7 @@
 					"hota/factory/creatures/adventureMap/AVWauth.def" : "AVWauth.def",
 					"hota/factory/creatures/adventureMap/AVWalmd.def" : "AVWalmd.def",
 					"hota/factory/creatures/adventureMap/AVWalmb.def" : "AVWalmb.def",
-					
+
 					"hota/cove/mapObjects/dwellings/nimphfo.def" : "nimphfo.def",
 					"hota/cove/mapObjects/dwellings/swshcamp.def" : "swshcamp.def",
 					"hota/cove/mapObjects/dwellings/fregat.def" : "fregat.def",
@@ -941,16 +1530,16 @@
 					"hota/cove/mapObjects/dwellings/FORTNIXR.def" : "fortnixr.def",
 					"hota/cove/mapObjects/dwellings/hasphtpl.def" : "hasphtpl.def",
 					"hota/cove/mapObjects/dwellings/haspwtpl.def" : "haspwtpl.def",
-					
-					"hota/factory/mapObjects/dwellings/AVGworm.def"  : "AVGworm.def",
+
+					"hota/factory/mapObjects/dwellings/AVGworm.def" : "AVGworm.def",
 					"hota/factory/mapObjects/dwellings/AVGmecha.def" : "AVGmecha.def",
-					"hota/factory/mapObjects/dwellings/AVGguns.def"  : "AVGguns.def",
+					"hota/factory/mapObjects/dwellings/AVGguns.def" : "AVGguns.def",
 					"hota/factory/mapObjects/dwellings/AVGdread.def" : "AVGdread.def",
 					"hota/factory/mapObjects/dwellings/AVGcoatl.def" : "AVGcoatl.def",
-					"hota/factory/mapObjects/dwellings/AVGauto.def"  : "AVGauto.def",
-					"hota/factory/mapObjects/dwellings/AVGarma.def"  : "AVGarma.def",
+					"hota/factory/mapObjects/dwellings/AVGauto.def" : "AVGauto.def",
+					"hota/factory/mapObjects/dwellings/AVGarma.def" : "AVGarma.def",
 					"hota/factory/mapObjects/dwellings/AVG2half.def" : "AVG2half.def",
-					
+
 					"hota/warehouses/avwrhscr.def" : "avwrhscr.def",
 					"hota/warehouses/avwrhsgl.def" : "avwrhsgl.def",
 					"hota/warehouses/avwrhsgm.def" : "avwrhsgm.def",
@@ -1183,7 +1772,7 @@
 					"hota/reef/ZREEF3.DEF" : "ZReef3.def",
 					"hota/reef/ZREEF4.DEF" : "ZReef4.def",
 					"hota/reef/ZREEF5.DEF" : "ZReef5.def",
-					
+
 					"hota/pillars/AVLcoD01.def" : "AVLcoD01.def",
 					"hota/pillars/AVLcoD02.def" : "AVLcoD02.def",
 					"hota/pillars/AVLcoD03.def" : "AVLcoD03.def",
@@ -1248,7 +1837,7 @@
 					"hota/pillars/AVLwaV06.def" : "AVLwaV06.def",
 					"hota/pillars/AVLwaV07.def" : "AVLwaV07.def",
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
-					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
+					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def"
 				},
 
 				"campaignRegions" : {
@@ -1257,16 +1846,16 @@
 					"hotaRegion23" : 23, // H3HORN
 					"hotaRegion24" : 24, // H4FACT
 					// 25 - unused? Or only for custom campaigns?
-					"hotaRegion26" : 26  // H5ALLIN
+					"hotaRegion26" : 26 // H5ALLIN
 				},
-				
+
 				"campaignMusic" : {
 					// unused?
 					// "HotaMusic49" : 49,
 					// "HotaMusic50" : 50,
 					// "HotaMusic51" : 51,
 					// "HotaMusic52" : 52,
-					
+
 					"HotaMusic53" : 53, // H4FACT main theme
 					"HotaMusic54" : 54, // H4FACT Hota0402.h3m epilog
 					"HotaMusic55" : 55, // H4FACT Hota0403.h3m prolog
@@ -1284,15 +1873,15 @@
 					"HotaMusic66" : 66, // H5ALLIN HotA0503.h3m prolog
 					"HotaMusic67" : 67, // H5ALLIN HotA0504.h3m prolog
 					"HotaMusic68" : 68, // H5ALLIN HotA0505.h3m prolog
-					"HotaMusic69" : 69  // H5ALLIN HotA0505.h3m epilog
+					"HotaMusic69" : 69 // H5ALLIN HotA0505.h3m epilog
 				},
-				
+
 				"campaignVideo" : {
 					"ROGERA.bik" : 101, // H1ROGER Hota0101.h3m.prolog
 					"ROGERB.bik" : 102, // H1ROGER Hota0102.h3m.prolog
 					"ROGERC.bik" : 103, // H1ROGER Hota0103.h3m.prolog
 					"ROGERD.bik" : 104, // H1ROGER Hota0103.h3m.epilog
-					
+
 					"TERROR1.bik" : 105, // H2TERROR Hota0201.h3m.prolog
 					"TERROR2.bik" : 106, // H2TERROR Hota0202.h3m.prolog
 					"TERROR3.bik" : 107, // H2TERROR Hota0203.h3m.prolog
@@ -1307,7 +1896,7 @@
 					"HORN4.bik" : 115, // H3HORN Hota0304.h3m.prolog
 					"HORN5.bik" : 116, // H3HORN Hota0304.h3m.epilog
 
-					// unused? 
+					// unused?
 					// "HotaVideo117" : 117,
 					// "HotaVideo118" : 118,
 					// "HotaVideo119" : 119,
@@ -1337,7 +1926,7 @@
 					"Allin3.bik" : 141, // H5ALLIN HotA0503.h3m.prolog
 					"Allin4.bik" : 142, // H5ALLIN HotA0504.h3m.prolog
 					"Allin5A.bik" : 143, // H5ALLIN HotA0505.h3m.prolog
-					"Allin5B.bik" : 144, // H5ALLIN HotA0505.h3m.epilog
+					"Allin5B.bik" : 144 // H5ALLIN HotA0505.h3m.epilog
 				}
 			}
 		}

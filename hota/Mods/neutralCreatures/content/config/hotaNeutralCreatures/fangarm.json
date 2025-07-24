@@ -1,36 +1,32 @@
 {
-	"fangarm":
-	{
-		"name" :
-		{
+	"fangarm" : {
+		"name" : {
 			"singular" : "Fangarm",
 			"plural" : "Fangarms"
 		},
 		"faction" : "neutral",
 		"level" : 5,
-		"cost" : { "gold" : 600 },
+		"cost" : {
+			"gold" : 600
+		},
 		"speed" : 6,
 		"hitPoints" : 50,
 		"attack" : 12,
 		"defense" : 12,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 8,
 			"max" : 12
 		},
 		"fightValue" : 850,
 		"aiValue" : 900,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 8,
 			"max" : 12
 		},
 		"growth" : 3,
-		"hasDoubleWeek": true,
-		"abilities" :
-		{
-			"spellpower" :
-			{
+		"hasDoubleWeek" : true,
+		"abilities" : {
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
@@ -38,50 +34,47 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "hypnotize",
 				"val" : 100,
-				"addInfo" : [ 2, 2 ]
+				"addInfo" : [
+					2,
+					2
+				]
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"unlimitedRetaliation" :
-			{
+			"unlimitedRetaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "hornSpell"
 			},
-			"immuneToMind" :
-			{
+			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm170.bmp",
 			"iconLarge" : "hota/creatures/iconsLarge/TwCrP170.bmp",
 			"map" : "hota/creatures/adventureMap/AvWFNGRM.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/creatures/battle/CFANGARM.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.20,
-				"idle" : 10.00,
+			"animationTime" : {
+				"walk" : 1.2,
+				"idle" : 10.0,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "hota/creatures/Fangarm/FNGRATTK.wav",
-			"defend": "hota/creatures/Fangarm/FNGRDFND.wav",
-			"killed": "hota/creatures/Fangarm/FNGRKILL.wav",
-			"move": "hota/creatures/Fangarm/FNGRMOVE.wav",
-			"wince": "hota/creatures/Fangarm/FNGRWNCE.wav"
+		"sound" : {
+			"attack" : "hota/creatures/Fangarm/FNGRATTK.wav",
+			"defend" : "hota/creatures/Fangarm/FNGRDFND.wav",
+			"killed" : "hota/creatures/Fangarm/FNGRKILL.wav",
+			"move" : "hota/creatures/Fangarm/FNGRMOVE.wav",
+			"wince" : "hota/creatures/Fangarm/FNGRWNCE.wav"
 		}
 	}
 }
-
-

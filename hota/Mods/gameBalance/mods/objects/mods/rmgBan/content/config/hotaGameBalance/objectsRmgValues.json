@@ -1,5 +1,4 @@
 {
-
 	// hovel is multiplied by 3 also, find rmg value
 
 	// HotA disables the following objects in rmg
@@ -12,7 +11,7 @@
 			}
 		}
 	},
-	
+
 	"core:eyeOfTheMagi" : {
 		"types" : {
 			"object" : {
@@ -22,7 +21,7 @@
 			}
 		}
 	},
-	
+
 	"core:hutOfTheMagi" : {
 		"types" : {
 			"object" : {
@@ -32,7 +31,7 @@
 			}
 		}
 	},
-	
+
 	"core:sanctuary" : {
 		"types" : {
 			"object" : {
@@ -42,7 +41,7 @@
 			}
 		}
 	},
-	
+
 	// "core:keymasterTent" disabled by default
 	"core:cartographer" : {
 		"types" : {
@@ -63,7 +62,7 @@
 			}
 		}
 	},
-	
+
 	"core:hillFort" : {
 		"types" : {
 			"object" : {
@@ -73,7 +72,7 @@
 			}
 		}
 	},
-	
+
 	"core:creatureBank" : {
 		"types" : {
 			"pirateCavern" : {
@@ -93,7 +92,7 @@
 			}
 		}
 	},
-	
+
 	"hota.mapobjects:ancientLamp" : {
 		"types" : {
 			"ancientLamp" : {

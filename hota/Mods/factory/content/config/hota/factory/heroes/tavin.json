@@ -1,33 +1,27 @@
 {
-	"09tavin" :
-	{
-    "class": "mercenary",
-    "female" : false,
-	"special": true,
-		
-		"texts" :
-		{
+	"09tavin" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Tavin",
 			"biography" : "Tavin is barely the only halflings who joined the army of Erathia. Other halflings disapprove his way of living as these creatures do not like adventures. However, his folks respect him, even if they fear a bit and tend to avoid him. When Kreegans invaded Eeofol, Tavin quickly became a leader of local resistances, and is still ready to defend his homeland.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Receives a 5% per level bonus to Offence skill.",
 				"name" : "Offence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/tavin/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/tavin/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/tavin/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/tavin/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -44,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -55,10 +48,9 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "offence"
 		}
 	}
 }
-

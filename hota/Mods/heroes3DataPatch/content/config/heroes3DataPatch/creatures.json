@@ -1,7 +1,6 @@
 {
-	"core:goldGolem" :
-	{
+	"core:goldGolem" : {
 		// Suport for alternate Death sound (GGLMDETH.wav) not present in VCMI
 		// "kill2" : "GGLMDETH.wav"
-	} 
+	}
 }

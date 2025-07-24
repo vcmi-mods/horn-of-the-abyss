@@ -6,7 +6,9 @@
 		},
 		"faction" : "cove",
 		"level" : 4,
-		"cost" : { "gold" : 325 },
+		"cost" : {
+			"gold" : 325
+		},
 		"speed" : 11,
 		"hitPoints" : 30,
 		"attack" : 11,
@@ -37,7 +39,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/ayssid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/ayssid.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWASSID.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CASSID.def",
 			"animationTime" : {
 				"attack" : 1,

@@ -1,14 +1,11 @@
 {
-	"hota.cove:10bidley":
-	{
+	"hota.cove:10bidley" : {
 		"special" : false
 	},
-	"hota.cove:11tark":
-	{
+	"hota.cove:11tark" : {
 		"special" : false
 	},
-	"hota.cove:balfour":
-	{
+	"hota.cove:balfour" : {
 		"special" : false
 	}
 }

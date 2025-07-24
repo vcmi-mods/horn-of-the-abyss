@@ -1,10 +1,8 @@
 {
-	"giselle" :
-	{
+	"giselle" : {
 		"class" : "ranger",
 		"female" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/rampart/heroes/giselle/icons/portraitLarge.png",
 			"small" : "hota/rampart/heroes/giselle/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/rampart/heroes/giselle/icons/specialtyLarge.png",
@@ -48,7 +46,9 @@
 					},
 					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
-					"limiters" : [ "OPPOSITE_SIDE" ]
+					"limiters" : [
+						"OPPOSITE_SIDE"
+					]
 				}
 			}
 		},
@@ -63,4 +63,3 @@
 		}
 	}
 }
-

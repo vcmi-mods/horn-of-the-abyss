@@ -7,31 +7,31 @@
 			"specialtyLarge" : "hota/cove/heroes/corkes/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/corkes/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "crewmate",
-				"min": 6,
-				"max": 9
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "offence",
-				"level": "basic"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"skill": "pathfinding",
-				"level": "basic"
+				"skill" : "pathfinding",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -46,13 +46,13 @@
 				}
 			}
 		},
-		"texts": {
-			"name": "Corkes",
-			"biography": "Not many wish to get into Corkes' enemy list. This quick-tempered pirate is one of the most experienced and cruel sea dogs. Many merchants know that it is better to submit the goods willingly than to start a suicidal battle with him. He is easily distinguishable by the eye patch that he never takes off.",
-			"specialty": {
-				"name": "Offense",
-				"description": "Receives a 5% per level bonus to Offense skill percentage.",
-				"tooltip": "Secondary Skill Bonus: Offense"
+		"texts" : {
+			"name" : "Corkes",
+			"biography" : "Not many wish to get into Corkes' enemy list. This quick-tempered pirate is one of the most experienced and cruel sea dogs. Many merchants know that it is better to submit the goods willingly than to start a suicidal battle with him. He is easily distinguishable by the eye patch that he never takes off.",
+			"specialty" : {
+				"name" : "Offense",
+				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Offense"
 			}
 		}
 	}

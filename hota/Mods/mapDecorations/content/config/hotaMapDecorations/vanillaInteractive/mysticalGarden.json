@@ -4,10 +4,19 @@
 			"mysticalGarden" : {
 				"templates" : {
 					"avtmystd" : {
-						"animation" : "hota/mysticalGarden/avtmystd", 
-						"mask" : [ "VBV","BAB" ],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": [ "dirt" ]
+						"animation" : "hota/mysticalGarden/avtmystd",
+						"mask" : [
+							"VBV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
 					}
 				}
 			}

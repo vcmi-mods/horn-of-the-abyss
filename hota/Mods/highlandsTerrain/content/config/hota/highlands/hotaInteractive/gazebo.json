@@ -1,47 +1,57 @@
 {
-	"gazebo" :{	
+	"gazebo" : {
 		"name" : "Gazebo",
 		"handler" : "configurable",
 		"types" : {
-			"gazebo" :
-			{
-				"name": "Gazebo",
-				"description": "(+2000 experience for 1000 gold once per hero)",
+			"gazebo" : {
+				"name" : "Gazebo",
+				"description" : "(+2000 experience for 1000 gold once per hero)",
 				"rmg" : {
 					"value" : 1500,
 					"rarity" : 50,
 					"mapLimit" : 32
 				},
 				"sounds" : {
-					"visit" : ["GAZEBO"] //TODO: missing sound!
+					"visit" : [
+						"GAZEBO"
+					] //TODO: missing sound!
 				},
-				"rewards" :
-				[
+				"rewards" : [
 					{
-						"limiter":
-						{
-							"resources" : {"gold" : 1000}
+						"limiter" : {
+							"resources" : {
+								"gold" : 1000
+							}
 						},
 						"message" : "{Gazebo}\r\n\r\nAnd old Knight appears on the steps of gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. A thousand gold will suffice.\"",
 						"heroExperience" : 2000,
-						"resources": {"gold" : -1000}
+						"resources" : {
+							"gold" : -1000
+						}
 					}
 				],
-				"onVisitedMessage": "{Gazebo}\r\n\r\nYou can hear loud snoring coming from gazebo. Apparently, the League has already put your donation to good use.",
+				"onVisitedMessage" : "{Gazebo}\r\n\r\nYou can hear loud snoring coming from gazebo. Apparently, the League has already put your donation to good use.",
 				"onEmptyMessage" : "{Gazebo}\r\n\r\nAn old Knight appears on the steps of the gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. Come back when you scrape up a thousand gold.\"",
-				"canRefuse": true,
+				"canRefuse" : true,
 				"visitMode" : "hero",
-				"templates" :
-				{
-					"avxgazeb" :
-					{
+				"templates" : {
+					"avxgazeb" : {
 						"animation" : "hota/highlands/hotaInteractive/gazebo/avxgazeb",
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"mask" : ["VVV", "VAV"], 
-						"allowedTerrains": ["highlands"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}
-		}	
+		}
 	}
 }

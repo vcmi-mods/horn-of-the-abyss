@@ -6,7 +6,7 @@
 			}
 		}
 	},
-	
+
 	"core:witchHut" : {
 		"types" : {
 			"witchHut" : {
@@ -14,7 +14,7 @@
 			}
 		}
 	},
-	
+
 	"core:scholar" : {
 		"types" : {
 			"scholar" : {

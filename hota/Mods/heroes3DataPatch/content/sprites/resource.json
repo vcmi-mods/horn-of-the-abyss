@@ -1,40 +1,40 @@
 {
 	"basepath" : "resource/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "rsrc0.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "rsrc1.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "rsrc2.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "rsrc3.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "rsrc4.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "rsrc5.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "rsrc6.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "rsrc0.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "rsrc1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "rsrc2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "rsrc3.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "rsrc4.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "rsrc5.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "rsrc6.png"
+		}
+	]
 }

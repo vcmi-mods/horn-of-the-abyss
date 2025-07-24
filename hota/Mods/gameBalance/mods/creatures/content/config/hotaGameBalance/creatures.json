@@ -1,50 +1,37 @@
 {
-	"core:monk" :
-	{
+	"core:monk" : {
 		"aiValue" : 582
 	},
-	"core:archDevil" :
-	{
-		"abilities" :
-		{
-			"decreaseLuck" :
-			{
+	"core:archDevil" : {
+		"abilities" : {
+			"decreaseLuck" : {
 				"val" : -2
 			}
 		}
 	},
-	"core:efreetSultan" :
-	{
+	"core:efreetSultan" : {
 		"aiValue" : 2343
 	},
-	"core:psychicElemental" :
-	{
-		"cost" :
-		{
+	"core:psychicElemental" : {
+		"cost" : {
 			"gold" : 950
 		}
 	},
-	"core:magicElemental" :
-	{
-		"cost" :
-		{
+	"core:magicElemental" : {
+		"cost" : {
 			"gold" : 1200
 		}
 	},
-	"core:firebird" :
-	{
-		"aiValue" :4336,
+	"core:firebird" : {
+		"aiValue" : 4336,
 		"fightValue" : 3097,
 		"horde" : 1,
 		"growth" : 1,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 2000
-		},	
-		"abilities":
-		{
-			"magicResistance" :
-			{
+		},
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.fire",
 				"val" : 50
@@ -52,28 +39,21 @@
 			"immuneToFire" : null
 		}
 	},
-	"core:phoenix" :
-	{
-		"cost" :
-		{
+	"core:phoenix" : {
+		"cost" : {
 			"gold" : 3000
 		}
 	},
-	"core:fairieDragon" :
-	{
-		"aiValue" :30501
+	"core:fairieDragon" : {
+		"aiValue" : 30501
 	},
-      "core:lizardman":
-	{
+	"core:lizardman" : {
 		"fightValue" : 137,
 		"aiValue" : 151
-		
 	},
-	
-      "core:lizardWarrior":
-	{
+
+	"core:lizardWarrior" : {
 		"fightValue" : 174,
 		"aiValue" : 209
-		
-	},
+	}
 }

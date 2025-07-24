@@ -1,20 +1,29 @@
 {
 	"name" : "Map objects",
-	"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps", 
+	"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps",
 	"modType" : "Objects",
-	"author": "Graphics: HotA Crew, mod: avatar",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "Graphics: HotA Crew, mod: avatar",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.4.2",
 	"changelog" : {
-		"1.4.2"   : [ "Additional miniHillFort messages: description and unavailable creature upgrade"],
-		"1.4.1"   : [ "Updated translations" ],
-		"1.4.0"   : [ "Configured behavior for Seafaring academy and Skeleton transformer (Seafaring is not upgrading skills unlike HotA)" ]
+		"1.4.2" : [
+			"Additional miniHillFort messages: description and unavailable creature upgrade"
+		],
+		"1.4.1" : [
+			"Updated translations"
+		],
+		"1.4.0" : [
+			"Configured behavior for Seafaring academy and Skeleton transformer (Seafaring is not upgrading skills unlike HotA)"
+		]
 	},
 	"compatibility" : {
 		"min" : "1.3.0"
 	},
-	"depends" : [ "hota.cove", "hota.neutralcreatures" ],
-	
+	"depends" : [
+		"hota.cove",
+		"hota.neutralcreatures"
+	],
+
 	"chinese" : {
 		"name" : "地图物体",
 		"description" : "模组将HotA团队添加的多个新物体引入VCMI，并在随机地图上可用。",
@@ -30,10 +39,10 @@
 		]
 	},
 	"polish" : {
-	"name" : "Nowe obiekty",
-	"description" : "Mod dodaje wiele nowych obiektów stworzonych przez HotA Crew do VCMI, które pojawiają się na mapach losowych",
+		"name" : "Nowe obiekty",
+		"description" : "Mod dodaje wiele nowych obiektów stworzonych przez HotA Crew do VCMI, które pojawiają się na mapach losowych",
 		"translations" : [
-		"translation/mapObjects/polish.json"
+			"translation/mapObjects/polish.json"
 		]
 	},
 	"ukrainian" : {
@@ -43,7 +52,7 @@
 			"translation/mapObjects/ukrainian.json"
 		]
 	},
-	
+
 	"objects" : [
 		"config/hotaMapObjects/ancientLamp.json",
 		"config/hotaMapObjects/beholderSanctuary.json",
@@ -75,26 +84,57 @@
 		"config/hotaMapObjects/townGate"
 	],
 	"settings" : {
-		"combat": {
+		"combat" : {
 			"layouts" : {
 				"creatureBankChurchyard" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
 					"attackerCommander" : 86,
 					"defenderCommander" : 83,
-					"attackerUnits": [ 57, 61, 90, 93, 96, 125, 129 ],
-					"defenderUnits": [ 14, 184, 172, 2, 8, 178, 99 ]
+					"attackerUnits" : [
+						57,
+						61,
+						90,
+						93,
+						96,
+						125,
+						129
+					],
+					"defenderUnits" : [
+						14,
+						184,
+						172,
+						2,
+						8,
+						178,
+						99
+					]
 				},
 				"creatureBankBlackTower" : {
 					"tacticsAllowed" : true,
 					"obstaclesAllowed" : true,
 					"attackerCommander" : 54,
 					"defenderCommander" : 83,
-					"attackerUnits": [ 1, 35, 69, 86, 103, 137, 171 ],
-					"defenderUnits": [ 99, 15, 49, 66, 134, 150, 184 ]
+					"attackerUnits" : [
+						1,
+						35,
+						69,
+						86,
+						103,
+						137,
+						171
+					],
+					"defenderUnits" : [
+						99,
+						15,
+						49,
+						66,
+						134,
+						150,
+						184
+					]
 				}
 			}
 		}
 	}
 }
-

@@ -1,27 +1,34 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"beholderSanctuary" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"beholderSanctuary" : {
 				"name" : "Beholder Sanctuary",
-				"templates" :
-				{
-					"base" :
-					{
-						"animation" : "hota/banks/SANCT_WT.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVV", "VBB", "VBA"],
-						"allowedTerrains":["water"] 							
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/SANCT_WT.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPBEHD.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPBEHD.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 2500,
-					"rarity"	: 100
+					"value" : 2500,
+					"rarity" : 100
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
@@ -29,71 +36,158 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 10, "type" : "beholder" },
-							{ "amount": 10, "type" : "beholder" },
-							{ "amount": 10, "type" : "beholder", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "beholder" },
-							{ "amount": 10, "type" : "beholder" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 10,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 10,
+								"type" : "beholder",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 10,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 10,
+								"type" : "beholder"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 3000
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 15, "type" : "beholder" },
-							{ "amount": 15, "type" : "beholder" },
-							{ "amount": 15, "type" : "beholder", "upgradeChance": 50 },
-							{ "amount": 15, "type" : "beholder" },
-							{ "amount": 15, "type" : "beholder" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 15,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 15,
+								"type" : "beholder",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 15,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 15,
+								"type" : "beholder"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 4500
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 20, "type" : "beholder" },
-							{ "amount": 20, "type" : "beholder" },
-							{ "amount": 20, "type" : "beholder", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "beholder" },
-							{ "amount": 20, "type" : "beholder" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 20,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 20,
+								"type" : "beholder",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 20,
+								"type" : "beholder"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 6000
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 30, "type" : "beholder" },
-							{ "amount": 30, "type" : "beholder" },
-							{ "amount": 30, "type" : "beholder", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "beholder" },
-							{ "amount": 30, "type" : "beholder" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 30,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 30,
+								"type" : "beholder",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 30,
+								"type" : "beholder"
+							},
+							{
+								"amount" : 30,
+								"type" : "beholder"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 9000
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					}
 				]
 			}

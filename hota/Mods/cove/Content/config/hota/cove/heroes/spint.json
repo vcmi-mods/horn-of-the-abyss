@@ -7,31 +7,31 @@
 			"specialtyLarge" : "hota/cove/heroes/spint/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/spint/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "crewmate",
-				"min": 6,
-				"max": 9
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "wisdom",
-				"level": "basic"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"skill": "sorcery",
-				"level": "basic"
+				"skill" : "sorcery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -45,14 +45,16 @@
 				}
 			}
 		},
-		"spellbook" : [ "bless" ],
-		"texts": {
-			"name": "Spint",
-			"biography": "Spint once was a very talented apprentice mage learning at the academy in Bracada. He was caught by the Krewlod barbarians and sold as a slave on a galley. The galley captain noticed his magical power and offered him a boatswain position. Now Spint is a captain himself. He sinks the ships near the shores of Krewlod and enjoys his new life.",
-			"specialty": {
-				"name": "Sorcery",
-				"description": "Receives a 5% per level bonus to Sorcery skill percentage.",
-				"tooltip": "Secondary Skill Bonus: Sorcery"
+		"spellbook" : [
+			"bless"
+		],
+		"texts" : {
+			"name" : "Spint",
+			"biography" : "Spint once was a very talented apprentice mage learning at the academy in Bracada. He was caught by the Krewlod barbarians and sold as a slave on a galley. The galley captain noticed his magical power and offered him a boatswain position. Now Spint is a captain himself. He sinks the ships near the shores of Krewlod and enjoys his new life.",
+			"specialty" : {
+				"name" : "Sorcery",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Secondary Skill Bonus: Sorcery"
 			}
 		}
 	}

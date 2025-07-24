@@ -1,85 +1,77 @@
 {
-	"hotaCouatl":
-	{
-		"name" :
-		{
+	"hotaCouatl" : {
+		"name" : {
 			"plural" : "Couatls",
 			"singular" : "Couatl"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 4
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "factory",
 		"aiValue" : 3574,
 		"attack" : 17,
-		"cost" :
-		{
-			"gold": 2000
+		"cost" : {
+			"gold" : 2000
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 45,
 			"min" : 25
 		},
 		"defense" : 17,
 		"fightValue" : 3034,
-		"graphics" :
-		{
-			"animation": "hota/factory/creatures/battle/COUATL.def",
-			"map": "hota/factory/creatures/adventureMap/AVWcoat.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS013F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL013F.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime" :
-			{
-				"walk": 1.5,
-				"attack": 1,
-				"idle": 10
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/COUATL.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWcoat.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS013F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL013F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 1,
 		"hitPoints" : 160,
-		"level": 7,
-		"upgrades" : [ "crimsonCouatl" ],
-		"sound" :
-		{
+		"level" : 7,
+		"upgrades" : [
+			"crimsonCouatl"
+		],
+		"sound" : {
 			"attack" : "hota/factory/creatures/couatl/COTLATTK.wav",
 			"defend" : "hota/factory/creatures/couatl/COTLDFND.wav",
 			"killed" : "hota/factory/creatures/couatl/COTLKILL.wav",
 			"move" : "hota/factory/creatures/couatl/COTLMOVE.wav",
-			"shoot": "hota/factory/creatures/couatl/COTLSHOT.wav",
+			"shoot" : "hota/factory/creatures/couatl/COTLSHOT.wav",
 			"wince" : "hota/factory/creatures/couatl/COTLWNCE.wav"
 		},
 		"speed" : 11,
-		"abilities" :
-		{
-			"dragonNature" :
-			{
+		"abilities" : {
+			"dragonNature" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"castsymMeditation" :
-			{
+			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "meditation01",
 				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
-				"val": 0
+				"val" : 0
 			}
 		}
 	}

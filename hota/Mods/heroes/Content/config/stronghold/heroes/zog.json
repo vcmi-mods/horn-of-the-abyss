@@ -1,11 +1,9 @@
 {
-	"zog" :
-	{
+	"zog" : {
 		"class" : "battlemage",
-		"female": false,
-		"special": true,
-		"images" :
-		{
+		"female" : false,
+		"special" : true,
+		"images" : {
 			"large" : "hota/stronghold/heroes/zog/icons/portraitLarge.png",
 			"small" : "hota/stronghold/heroes/zog/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/stronghold/heroes/zog/icons/specialtyLarge.png",
@@ -28,8 +26,7 @@
 				"max" : 4
 			}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -37,9 +34,11 @@
 			{
 				"level" : "basic",
 				"skill" : "leadership"
-			},
+			}
 		],
-		"spellbook" : [ "slow" ],
+		"spellbook" : [
+			"slow"
+		],
 		"specialty" : {
 			"creature" : "ogre"
 		},

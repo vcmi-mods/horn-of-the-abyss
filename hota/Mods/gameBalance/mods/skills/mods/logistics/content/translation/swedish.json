@@ -1,5 +1,5 @@
 {
-	"skill.core.logistics.description.advanced"      : "{Logistik (Utvecklad)}\n\nLogistik på utvecklad nivå ökar din hjältes förflyttningspoäng på land med 10%.",
-	"skill.core.logistics.description.basic"         : "{Logistik (Grundläggande)}\n\nLogistik på grundläggande nivå ökar din hjältes förflyttningspoäng på land med 5%.",
-	"skill.core.logistics.description.expert"        : "{Logistik (Mästerlig)}\n\nLogistik på mästerlig nivå ökar din hjältes förflyttningspoäng på land med 20%."
+	"skill.core.logistics.description.advanced" : "{Logistik (Utvecklad)}\n\nLogistik på utvecklad nivå ökar din hjältes förflyttningspoäng på land med 10%.",
+	"skill.core.logistics.description.basic" : "{Logistik (Grundläggande)}\n\nLogistik på grundläggande nivå ökar din hjältes förflyttningspoäng på land med 5%.",
+	"skill.core.logistics.description.expert" : "{Logistik (Mästerlig)}\n\nLogistik på mästerlig nivå ökar din hjältes förflyttningspoäng på land med 20%."
 }

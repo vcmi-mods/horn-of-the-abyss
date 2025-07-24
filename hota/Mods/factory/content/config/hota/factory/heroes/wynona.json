@@ -1,32 +1,26 @@
 {
-	"06wynona" :
-	{
-    "class": "mercenary",
-    "female" : true,
-		
-		"texts" :
-		{
+	"06wynona" : {
+		"class" : "mercenary",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Wynona",
 			"biography" : "Jadamean dark elves' natural element is the towns and deserts they cross with their caravans. Wynona, however, had always preferred exploring the wilderness outside Alvar and the Murmurwoods, tracking animals and taking notes of their habits. She eventually became the foremost authority on Jadamean fauna, having learned a great deal from her flying, crawling, and hopping friends.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Scouting radius by 1 for every 6 levels.",
 				"tooltip" : "Increases Scouting radius by 1 for every 6 levels.",
 				"name" : "Scouting"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/wynona/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/wynona/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/wynona/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/wynona/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -43,8 +37,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"
@@ -54,21 +47,20 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
-                "sight" : {
+				"sight" : {
 					"type" : "SIGHT_RADIUS",
 					"val" : 0,
 					"valueType" : "BASE_NUMBER",
-                    "updater" : {
+					"updater" : {
 						"type" : "GROWS_WITH_LEVEL",
 						"valPer20" : 6,
 						"stepSize" : 2
-                    }
-				}	
+					}
+				}
 			}
 		}
 	}
 }
-

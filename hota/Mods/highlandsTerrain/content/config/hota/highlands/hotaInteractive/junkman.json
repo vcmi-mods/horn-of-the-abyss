@@ -7,23 +7,38 @@
 				"name" : "Junkman",
 				"description" : "(Artifacts except Spell Scrolls may be sold to Junkman (at the efficiency of 7 markets))",
 				"speech" : "",
-				"modes" : ["artifact-resource"],
+				"modes" : [
+					"artifact-resource"
+				],
 				"efficiency" : 7,
 				"rmg" : {
-					"value"	: 200,
+					"value" : 200,
 					"rarity" : 40,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["hota/highlands/JUNKVIST"],
-					"ambient" : ["hota/highlands/LOOPJUNK"]
+					"visit" : [
+						"hota/highlands/JUNKVIST"
+					],
+					"ambient" : [
+						"hota/highlands/LOOPJUNK"
+					]
 				},
 				"templates" : {
 					"AVXjnkmn" : {
 						"animation" : "hota/highlands/hotaInteractive/junkman/AVXjnkmn",
-						"mask" : [ "VVV", "VBA" ],
-						"visitableFrom" : [ "---", "++-", "+++" ],
-						"allowedTerrains" : [ "highlands"]
+						"mask" : [
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"++-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}

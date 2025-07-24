@@ -8,10 +8,18 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.1.2",
 	"changelog" : {
-		"1.1.2"   : [ "Fix Mineral Spring revisit logic" ],
-		"1.1.1"   : [ "Small fixes in decorative objects" ],
-		"1.0.1"   : [ "Configured behavior for Junkman, (scrolls are tradable, unlike HotA)" ],
-		"1.0.0"   : [ "Initial release" ]
+		"1.1.2" : [
+			"Fix Mineral Spring revisit logic"
+		],
+		"1.1.1" : [
+			"Small fixes in decorative objects"
+		],
+		"1.0.1" : [
+			"Configured behavior for Junkman, (scrolls are tradable, unlike HotA)"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
 	},
 	"compatibility" : {
 		"min" : "1.3.0"
@@ -61,15 +69,31 @@
 		"config/hota/highlands/vanillaStatic/vanillaHighlandsStaticBiomes.json"
 	],
 	"settings" : {
-		"combat": {
+		"combat" : {
 			"layouts" : {
 				"creatureBankRuins" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
 					"attackerCommander" : 86,
 					"defenderCommander" : 83,
-					"attackerUnits": [ 57, 61, 90, 93, 96, 125, 129 ],
-					"defenderUnits": [ 15, 185, 172, 2, 8, 174, 181 ]
+					"attackerUnits" : [
+						57,
+						61,
+						90,
+						93,
+						96,
+						125,
+						129
+					],
+					"defenderUnits" : [
+						15,
+						185,
+						172,
+						2,
+						8,
+						174,
+						181
+					]
 				}
 			}
 		}

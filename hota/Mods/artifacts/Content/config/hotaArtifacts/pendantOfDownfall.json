@@ -1,17 +1,21 @@
 {
 	"pendantOfDownfall" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "NECK",
 		"class" : "MAJOR",
 		"value" : 7000,
 		"bonuses" : {
-			"morale" : { 
-				"type" : "MORALE", 
+			"morale" : {
+				"type" : "MORALE",
 				"val" : -2,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
-			} 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			}
 		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/pendantOfDownfall",

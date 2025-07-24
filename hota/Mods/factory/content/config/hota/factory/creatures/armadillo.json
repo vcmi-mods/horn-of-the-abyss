@@ -1,57 +1,51 @@
 {
-	"armadillo":
-	{
-		"name" :
-		{
+	"armadillo" : {
+		"name" : {
 			"plural" : "Armadillos",
 			"singular" : "Armadillo"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 12
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 12
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
 		"aiValue" : 198,
 		"attack" : 5,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 200
 		},
-		"damage" :
-		{
-			 "max" : 5,
-			 "min" : 3
+		"damage" : {
+			"max" : 5,
+			"min" : 3
 		},
 		"defense" : 10,
 		"fightValue" : 305,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "hota/factory/creatures/battle/CARMADL.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWalmd.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS005F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL005F.bmp",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS005F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL005F.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1.25,
 				"attack" : 1,
 				"idle" : 10
 			}
-	       },
+		},
 		"growth" : 6,
-		"horde": 3,
+		"horde" : 3,
 		"hitPoints" : 25,
 		"level" : 3,
-		"upgrades":
-		[
+		"upgrades" : [
 			"bellwetherArmadillo"
 		],
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/armadillo/ARMAATTK.wav",
+		"sound" : {
+			"attack" : "hota/factory/creatures/armadillo/ARMAATTK.wav",
 			"defend" : "hota/factory/creatures/armadillo/ARMADFND.wav",
 			"killed" : "hota/factory/creatures/armadillo/ARMAKILL.wav",
 			"move" : "hota/factory/creatures/armadillo/ARMAMOVE.wav",

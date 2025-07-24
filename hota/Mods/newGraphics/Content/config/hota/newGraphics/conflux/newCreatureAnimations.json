@@ -1,86 +1,128 @@
 {
-    "core:sprite" : {
+	"core:sprite" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWsprit.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:pixie" : {
+	"core:pixie" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWpixie.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:airElemental" : {
+	"core:airElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWelma0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:stormElemental" : {
+	"core:stormElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWstorm.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:waterElemental" : {
+	"core:waterElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWelmw0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:iceElemental" : {
+	"core:iceElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWicee.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:fireElemental" : {
+	"core:fireElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWelmf0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:earthElemental" : {
+	"core:earthElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWelme0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:magmaElemental" : {
+	"core:magmaElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWstone.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:energyElemental" : {
+	"core:energyElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWnrg.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:psychicElemental" : {
+	"core:psychicElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWpsye.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:magicElemental" : {
+	"core:magicElemental" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWmagel.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:firebird" : {
+	"core:firebird" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWfbird.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:phoenix" : {
+	"core:phoenix" : {
 		"graphics" : {
 			"map" : "hota/conflux/adventureMap/creatures/AVWphx.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	}
 }

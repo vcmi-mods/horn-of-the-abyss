@@ -1,43 +1,88 @@
 {
 	"dunes" : {
 		"name" : "Dunes",
-		"handler": "terrain",
+		"handler" : "terrain",
 		"types" : {
 			"dunes" : {
-				"base" : { "zIndex": 100 },
-				"battleground": "dunes",
+				"base" : {
+					"zIndex" : 100
+				},
+				"battleground" : "dunes",
 				"templates" : {
 					"zsand00" : {
 						"animation" : "zsand00",
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						]
 					},
 					"zsand01" : {
 						"animation" : "zsand01",
-						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV", "VVVVVVVV" ]
+						"mask" : [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						]
 					},
 					"zsand02" : {
 						"animation" : "zsand02",
-						"mask" : [ "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV", "VVVVVV" ]
+						"mask" : [
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV",
+							"VVVVVV"
+						]
 					},
 					"zsand03" : {
 						"animation" : "zsand03",
-						"mask" : [ "VVVVVVVV", "VVVVVVVV", "VVVVVVVV"]
+						"mask" : [
+							"VVVVVVVV",
+							"VVVVVVVV",
+							"VVVVVVVV"
+						]
 					},
 					"zsand04" : {
 						"animation" : "zsand04",
-						"mask" : [ "VVV", "VVV", "VVV", "VVV", "VVV", "VVV"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
 					"zsand05" : {
 						"animation" : "zsand05",
-						"mask" : [ "VVV", "VVV", "VVV" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV"
+						]
 					},
 					"zsand06" : {
 						"animation" : "zsand06",
-						"mask" : [ "VVVVV", "VVVVV" ]
+						"mask" : [
+							"VVVVV",
+							"VVVVV"
+						]
 					},
 					"zsand07" : {
 						"animation" : "zsand07",
-						"mask" : [ "VV", "VV", "VV", "VV", "VV" ]
+						"mask" : [
+							"VV",
+							"VV",
+							"VV",
+							"VV",
+							"VV"
+						]
 					}
 				}
 			}

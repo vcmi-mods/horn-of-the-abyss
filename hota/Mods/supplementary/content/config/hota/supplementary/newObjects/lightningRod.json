@@ -1,73 +1,87 @@
 {
-	"lightningRod" :{
-		"name": "Lightning Generator",
-		"handler": "configurable",
+	"lightningRod" : {
+		"name" : "Lightning Generator",
+		"handler" : "configurable",
 		"types" : {
-			"lightningRod" :
-			{
-				"name": "Lightning Generator",
+			"lightningRod" : {
+				"name" : "Lightning Generator",
 				"rmg" : {
 					"value" : 5500,
 					"rarity" : 10,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["FAERIE"]
+					"visit" : [
+						"FAERIE"
+					]
 				},
 				"canRefuse" : true,
 				"rewards" : [
 					{
 						"message" : "{Lightning Generator}\r\n\r\nThe Lightning Generator is a small experiment in the use of electrical energy. Now that the controller is fully charged, do you want to experience the power of lightning?",
-						"bonuses" : 
-					[
-						{
-						"type" : "OPENING_BATTLE_SPELL",
-						"val" : 3,
-						"subtype" : "teslaLightning",
-						"propagator" : "HERO",
-						"duration" : "ONE_BATTLE"
-						}
-					]
+						"bonuses" : [
+							{
+								"type" : "OPENING_BATTLE_SPELL",
+								"val" : 3,
+								"subtype" : "teslaLightning",
+								"propagator" : "HERO",
+								"duration" : "ONE_BATTLE"
+							}
+						]
 					}
 				],
-				"onVisitedMessage": "{Lightning Generator}\r\n\r\nThe Lightning Generator is being charged, waiting for the next startup experiment.",
+				"onVisitedMessage" : "{Lightning Generator}\r\n\r\nThe Lightning Generator is being charged, waiting for the next startup experiment.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true
 				},
-				"templates" :
-				{
-					"AVCnlr01" :
-					{
+				"templates" : {
+					"AVCnlr01" : {
 						"animation" : "hota/supplementary/others/AVCnlr01",
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"mask" : ["VVV", "VVV", "VBA"],
-						"allowedTerrains": ["wasteland"]
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				}
 			}
 		}
 	},
-	"windGenerator" :{
-		"name": "Wind Turbine",
-		"handler": "configurable",
+	"windGenerator" : {
+		"name" : "Wind Turbine",
+		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
-				"ambient" : ["LOOPWIND"],
-				"visit" : ["GENIE"]
+				"ambient" : [
+					"LOOPWIND"
+				],
+				"visit" : [
+					"GENIE"
+				]
 			}
 		},
 		"types" : {
 			"windGenerator" : {
 				"aiValue" : 1500,
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 40,
+					"value" : 1500,
+					"rarity" : 40,
 					"zoneLimit" : 1
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 
 				"onVisitedMessage" : "{Wind Turbine}\r\n\r\nThe wind turbine is not producing any more energy at the moment, you can wait for it to recharge.",
 				"resetParameters" : {
@@ -75,26 +89,33 @@
 					"visitors" : true,
 					"rewards" : true
 				},
-				"templates" :
-				{
-					"windGenerator" :
-					{
+				"templates" : {
+					"windGenerator" : {
 						"animation" : "hota/supplementary/others/windGene",
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"mask" : ["VVVV", "VVVV", "VVVV","VVBA"],
-						"allowedTerrains": ["wasteland"]
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				},
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"rewards" : [
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"max" : 10
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "crystal",
@@ -110,16 +131,14 @@
 								"amount" : 5
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 10,
 							"max" : 20
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "gems",
@@ -135,16 +154,14 @@
 								"amount" : 5
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 20,
 							"max" : 30
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "sulfur",
@@ -160,16 +177,14 @@
 								"amount" : 5
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 30,
 							"max" : 40
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "mercury",
@@ -185,16 +200,14 @@
 								"amount" : 5
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 40,
 							"max" : 60
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "wood",
@@ -210,16 +223,14 @@
 								"amount" : 10
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 60,
 							"max" : 80
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "ore",
@@ -235,16 +246,14 @@
 								"amount" : 10
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 80,
 							"max" : 100
 						},
-						"bonuses" :
-						[
+						"bonuses" : [
 							{
 								"type" : "GENERATE_RESOURCE",
 								"subtype" : "gold",
@@ -260,10 +269,9 @@
 								"amount" : 2000
 							}
 						],
-						"message": "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					}
 				]
-					
 			}
 		}
 	}

@@ -5,8 +5,15 @@
 				"templates" : {
 					"HATel" : {
 						"animation" : "hota/wagon/HATel",
-						"mask" : [ "VV", "BA" ],
-						"visitableFrom" : [ "---", "-++", "+++" ]
+						"mask" : [
+							"VV",
+							"BA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						]
 					}
 				}
 			}

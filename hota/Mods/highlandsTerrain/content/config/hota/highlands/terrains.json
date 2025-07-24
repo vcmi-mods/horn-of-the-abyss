@@ -1,19 +1,32 @@
 {
-	"highlands" :
-	{
+	"highlands" : {
 		"text" : "Highlands",
 		"moveCost" : 100,
-		"minimapUnblocked" : [ 84, 121, 26 ],
-		"minimapBlocked"   : [ 41, 106, 20 ],
-		"music" : [ "hota/HIGHLANDS.mp3" ],
+		"minimapUnblocked" : [
+			84,
+			121,
+			26
+		],
+		"minimapBlocked" : [
+			41,
+			106,
+			20
+		],
+		"music" : [
+			"hota/HIGHLANDS.mp3"
+		],
 		"tiles" : "hota/highlands/tiles",
-		"type": [ "SURFACE" ], //default values
+		"type" : [
+			"SURFACE"
+		], //default values
 		"horseSound" : "hota/highlands/horse30",
 		"horseSoundPenalty" : "horse20",
 		"river" : "waterRiver",
-		"rockTerrain":"rock",
+		"rockTerrain" : "rock",
 		"shortIdentifier" : "hl",
 		"terrainViewPatterns" : "hota",
-		"battleFields" : ["highlands_flowers"]
+		"battleFields" : [
+			"highlands_flowers"
+		]
 	}
 }

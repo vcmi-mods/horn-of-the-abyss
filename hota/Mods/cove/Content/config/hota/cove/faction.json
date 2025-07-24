@@ -1,6 +1,5 @@
 {
-	"cove" :
-	{
+	"cove" : {
 		"name" : "Cove",
 		"alignment" : "neutral",
 		"nativeTerrain" : "swamp",

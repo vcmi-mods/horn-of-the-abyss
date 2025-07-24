@@ -1,43 +1,47 @@
 {
 	"summonLarva" : {
-		"type": "ability",
+		"type" : "ability",
 		"targetType" : "CREATURE",
-		"name": "Devour Corpses",
+		"name" : "Devour Corpses",
 		"school" : {},
-		"level": 2,
-		"power": 1,
-		"defaultGainChance": 0,
-		"gainChance": {},
-		"animation":{
-			"affect":["CSGRCK"]
+		"level" : 2,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				"CSGRCK"
+			]
 		},
-		"sounds": {
-			"cast": "DISEASE"
+		"sounds" : {
+			"cast" : "DISEASE"
 		},
 		"levels" : {
-			"base": {
+			"base" : {
 				"description" : "",
 				"power" : 1,
 				"cost" : 1,
-				"targetModifier":{"smart":false},
+				"targetModifier" : {
+					"smart" : false
+				},
 				"range" : "0",
-				"battleEffects":{
-					"demonSummon":{
-						"id":"sandwormLarva",
-						"permanent":false,
-						"type":"core:demonSummon"
+				"battleEffects" : {
+					"demonSummon" : {
+						"id" : "sandwormLarva",
+						"permanent" : false,
+						"type" : "core:demonSummon"
 					}
 				}
 			},
-			"none" :{},
-			"basic" :{},
-			"advanced" :{},
-			"expert" :{}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		},
 		"flags" : {
-			"rising": true,
-			"nonMagical":true,
-			"positive": true
+			"rising" : true,
+			"nonMagical" : true,
+			"positive" : true
 		},
 		"targetCondition" : {
 			"noneOf" : {

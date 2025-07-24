@@ -1,13 +1,23 @@
 {
-	"core:witchHut"	: {
+	"core:witchHut" : {
 		"types" : {
 			"witchHut" : {
 				"templates" : {
 					"AVSwtcS0" : {
 						"animation" : "hota/witchHut/AVSwtcS0",
-						"mask" : [ "VVV","VVV","VAV" ],
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}

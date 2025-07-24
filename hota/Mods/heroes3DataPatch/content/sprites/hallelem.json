@@ -1,225 +1,225 @@
 {
 	"basepath" : "hallelem/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "HotA_extA001.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "HotA_extA002.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "HotA_extA003.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "HotA_extA004.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "HotA_extA005.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "HotA_extA006.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "HotA_extA007.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "HotA_extA008.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "HotA_extA009.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "HotA_extA010.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "HotA_extA011.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "HotA_extA012.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "HotA_extA013.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "HotA_extA014.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "HotA_extA015.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "HotA_extA016.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "HotA_extA017.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "HotA_extA018.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "HotA_extA019.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "HotA_extA020.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "HotA_extA021.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "HotA_ext_001.png"
-        },
-        {
-            "group": 0,
-            "frame": 25,
-            "file": "HotA_ext_001.png"
-        },
-        {
-            "group": 0,
-            "frame": 26,
-            "file": "HotA_extA026.png"
-        },
-        {
-            "group": 0,
-            "frame": 27,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 28,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 29,
-            "file": "HotA_ext_000.png"
-        },
-        {
-            "group": 0,
-            "frame": 30,
-            "file": "HotA_extA030.png"
-        },
-        {
-            "group": 0,
-            "frame": 31,
-            "file": "HotA_extA031.png"
-        },
-        {
-            "group": 0,
-            "frame": 32,
-            "file": "HotA_extA032.png"
-        },
-        {
-            "group": 0,
-            "frame": 33,
-            "file": "HotA_extA033.png"
-        },
-        {
-            "group": 0,
-            "frame": 34,
-            "file": "HotA_extA034.png"
-        },
-        {
-            "group": 0,
-            "frame": 35,
-            "file": "HotA_extA035.png"
-        },
-        {
-            "group": 0,
-            "frame": 36,
-            "file": "HotA_extA036.png"
-        },
-        {
-            "group": 0,
-            "frame": 37,
-            "file": "HotA_extA037.png"
-        },
-        {
-            "group": 0,
-            "frame": 38,
-            "file": "HotA_extA038.png"
-        },
-        {
-            "group": 0,
-            "frame": 39,
-            "file": "HotA_extA039.png"
-        },
-        {
-            "group": 0,
-            "frame": 40,
-            "file": "HotA_extA040.png"
-        },
-        {
-            "group": 0,
-            "frame": 41,
-            "file": "HotA_extA041.png"
-        },
-        {
-            "group": 0,
-            "frame": 42,
-            "file": "HotA_extA042.png"
-        },
-        {
-            "group": 0,
-            "frame": 43,
-            "file": "HotA_extA043.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "HotA_extA001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "HotA_extA002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "HotA_extA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "HotA_extA004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "HotA_extA005.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "HotA_extA006.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "HotA_extA007.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "HotA_extA008.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "HotA_extA009.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "HotA_extA010.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "HotA_extA011.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "HotA_extA012.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "HotA_extA013.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "HotA_extA014.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "HotA_extA015.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "HotA_extA016.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "HotA_extA017.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "HotA_extA018.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "HotA_extA019.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "HotA_extA020.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "HotA_extA021.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "HotA_ext_001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "HotA_ext_001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "HotA_extA026.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 29,
+			"file" : "HotA_ext_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 30,
+			"file" : "HotA_extA030.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 31,
+			"file" : "HotA_extA031.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 32,
+			"file" : "HotA_extA032.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 33,
+			"file" : "HotA_extA033.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 34,
+			"file" : "HotA_extA034.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 35,
+			"file" : "HotA_extA035.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 36,
+			"file" : "HotA_extA036.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 37,
+			"file" : "HotA_extA037.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 38,
+			"file" : "HotA_extA038.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 39,
+			"file" : "HotA_extA039.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 40,
+			"file" : "HotA_extA040.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 41,
+			"file" : "HotA_extA041.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 42,
+			"file" : "HotA_extA042.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 43,
+			"file" : "HotA_extA043.png"
+		}
+	]
 }

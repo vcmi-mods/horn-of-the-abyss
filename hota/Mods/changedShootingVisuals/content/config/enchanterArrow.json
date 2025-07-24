@@ -1,20 +1,15 @@
 {
-	"core:enchanter" :
-	{
-		"abilities" :
-		{
-			"magicArrow" :
-			{
+	"core:enchanter" : {
+		"abilities" : {
+			"magicArrow" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaEnchanterArrow",
 				"val" : 1
 			}
 		},
-        "graphics" :
-		{
-			"missile" :
-			{
-				"projectile": "C20SPX0.DEF"
+		"graphics" : {
+			"missile" : {
+				"projectile" : "C20SPX0.DEF"
 			}
 		}
 	}

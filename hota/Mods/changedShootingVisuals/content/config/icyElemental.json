@@ -1,10 +1,7 @@
 {
-	"core:iceElemental" :
-	{
-		"abilities":
-		{
-			"iceIsComing" :
-			{
+	"core:iceElemental" : {
+		"abilities" : {
+			"iceIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaIce",
 				"val" : 1

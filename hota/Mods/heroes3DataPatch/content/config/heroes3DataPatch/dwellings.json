@@ -1,28 +1,32 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
-			"hovel" :
-			{
-				"sounds": {
-					"ambient": ["dwellings/LOOPPEAS.wav"]
+			"hovel" : {
+				"sounds" : {
+					"ambient" : [
+						"dwellings/LOOPPEAS.wav"
+					]
 				}
 			},
-			"boarGlen" :
-			{
-				"sounds": {
-					"ambient": ["dwellings/LOOPHOGD.wav"]
+			"boarGlen" : {
+				"sounds" : {
+					"ambient" : [
+						"dwellings/LOOPHOGD.wav"
+					]
 				}
 			},
-			"tombOfCurses" :
-			{
-				"sounds": {
-					"ambient": ["dwellings/LOOPMUMM.wav"]
+			"tombOfCurses" : {
+				"sounds" : {
+					"ambient" : [
+						"dwellings/LOOPMUMM.wav"
+					]
 				}
 			},
-			"trollBridge" :
-			{
-				"sounds": {
-					"ambient": ["dwellings/LOOPTRLL.wav"]
+			"trollBridge" : {
+				"sounds" : {
+					"ambient" : [
+						"dwellings/LOOPTRLL.wav"
+					]
 				}
 			}
 		}

@@ -5,12 +5,21 @@
 				"templates" : {
 					"AVSidlS0" : {
 						"animation" : "hota/idolOfFortune/AVSidlS0",
-						"mask" : [ "VV", "VA" ],
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
-			}	
+			}
 		}
 	}
 }

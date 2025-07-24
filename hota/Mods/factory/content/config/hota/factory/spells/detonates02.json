@@ -1,118 +1,114 @@
 {
-	"detonates02":
-	{
-		"type": "ability", 
-		"name": "Ignition",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": true,
-			"water": false
+	"detonates02" : {
+		"type" : "ability",
+		"name" : "Ignition",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
 		},
-		"level": 5,
-		"power": 10,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 10,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"affect":[ {
-				"effectName" : "bloodlust"
-			} ]
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
 		},
- 
+
 		"flags" : {
-			"positive": true,
-			"nonMagical":true,
-			"rising": true
+			"positive" : true,
+			"nonMagical" : true,
+			"rising" : true
 		},
-		
+
 		"canCastOnSelf" : true,
-		"canCastWithoutSkip": true,
-		"canCastOnlyOnSelf": true,
-		
+		"canCastWithoutSkip" : true,
+		"canCastOnlyOnSelf" : true,
+
 		"targetCondition" : {
 			"anyOf" : {
-				"factory:creature.sentinelAutomaton":"absolute"
+				"factory:creature.sentinelAutomaton" : "absolute"
 			}
 		},
- 
- 
-		"graphics":
-		{
-			"iconEffect": "hota/factory/spells/detonates.bmp"
+
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/detonates.bmp"
 		},
 
-		"sounds":
-		{
-			"cast": "FIREBLST"
+		"sounds" : {
+			"cast" : "FIREBLST"
 		},
 		"targetType" : "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"description": "A charm dispelling and blocking benign magic.",
-				"cost": 0,
-				"power": 1,
-				"range" : "0",
-				"targetModifier":{"smart":true},
 
-	 
+		"levels" : {
+			"base" : {
+				"description" : "A charm dispelling and blocking benign magic.",
+				"cost" : 0,
+				"power" : 1,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+
 				"battleEffects" : {
-					"heal":{
-						"type":"core:heal",
-						"healLevel":"heal",
-						"healPower":"permanent",
-						"optional":true
+					"heal" : {
+						"type" : "core:heal",
+						"healLevel" : "heal",
+						"healPower" : "permanent",
+						"optional" : true
 					},
-					"blockHelp" : {	
-						"type":"core:timed", 
-						"cumulative": false, 
-						"bonus":  {
-					"afterAttack" : {
-							"type" : "SPELL_AFTER_ATTACK",
-							"subtype" : "detonation",
-							"val" : 100,
-							"duration": "PERMANENT"
-					},
-					"giftStrength" :
-					{
-						"type" : "SPECIFIC_SPELL_POWER",
-						"subtype" : "detonation",
-						"val" : 40,
-						"duration": "PERMANENT"
-					},
-					"immnunityDispel":
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration": "PERMANENT"
-					},
-					"immnunityDispelHelpful":
-					{
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration": "PERMANENT"
-					},
-					"redeem2" :{
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"valueType" : "BASE_NUMBER",
-						"duration": "PERMANENT"
+					"blockHelp" : {
+						"type" : "core:timed",
+						"cumulative" : false,
+						"bonus" : {
+							"afterAttack" : {
+								"type" : "SPELL_AFTER_ATTACK",
+								"subtype" : "detonation",
+								"val" : 100,
+								"duration" : "PERMANENT"
+							},
+							"giftStrength" : {
+								"type" : "SPECIFIC_SPELL_POWER",
+								"subtype" : "detonation",
+								"val" : 40,
+								"duration" : "PERMANENT"
+							},
+							"immnunityDispel" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispel",
+								"duration" : "PERMANENT"
+							},
+							"immnunityDispelHelpful" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "dispelHelpful",
+								"duration" : "PERMANENT"
+							},
+							"redeem2" : {
+								"type" : "HP_REGENERATION",
+								"val" : 100,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "PERMANENT"
+							}
 						}
-						},
-					}}
-		},
-					
-			"none":	{},	"basic":{},	"advanced":	{}, "expert":{}	
-	}
+					}
+				}
+			},
+
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
 	}
 }

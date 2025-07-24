@@ -1,23 +1,34 @@
 {
 	"iceBlock" : {
-		"name": "Ice Block",
-		"handler": "static",
-		"types" : {		
-			"iceBlock" : {	
+		"name" : "Ice Block",
+		"handler" : "static",
+		"types" : {
+			"iceBlock" : {
 				"base" : {
-					"mask" : [ "VV","BB" ],
-					"allowedTerrains": [ "snow" ]
-				},			
+					"mask" : [
+						"VV",
+						"BB"
+					],
+					"allowedTerrains" : [
+						"snow"
+					]
+				},
 				"templates" : {
-				
-					"TPICECR1" : { "animation" : "hota/iceBlock/TPICECR1"
+					"TPICECR1" : {
+						"animation" : "hota/iceBlock/TPICECR1"
 					},
-					"TPICECR2" : { "animation" : "hota/iceBlock/TPICECR2"
+					"TPICECR2" : {
+						"animation" : "hota/iceBlock/TPICECR2"
 					},
-					"TPICECR3" : { "animation" : "hota/iceBlock/TPICECR3"
+					"TPICECR3" : {
+						"animation" : "hota/iceBlock/TPICECR3"
 					},
-					"TPICECR4" : { "animation" : "hota/iceBlock/TPICECR4",  
-						"mask" : [ "VV","VB" ]
+					"TPICECR4" : {
+						"animation" : "hota/iceBlock/TPICECR4",
+						"mask" : [
+							"VV",
+							"VB"
+						]
 					}
 				}
 			}

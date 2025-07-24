@@ -6,13 +6,22 @@
 				"templates" : {
 					"AVLrws01" : {
 						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws01",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "wasteland" ]
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					},
 					"AVLrws03" : {
 						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws03",
-						"mask" : [ "VBV" ],
-						"allowedTerrains": [ "wasteland" ]
+						"mask" : [
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				}
 			},
@@ -21,8 +30,13 @@
 				"templates" : {
 					"AVLrws02" : {
 						"animation" : "hota/wasteland/vanillaStatic/stones/AVLrws02",
-						"mask" : [ "VVV", "VBB" ],
-						"allowedTerrains": [ "wasteland" ]
+						"mask" : [
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				}
 			}

@@ -6,7 +6,9 @@
 		},
 		"faction" : "cove",
 		"level" : 2,
-		"cost" : { "gold" : 140 },
+		"cost" : {
+			"gold" : 140
+		},
 		"speed" : 6,
 		"hitPoints" : 15,
 		"attack" : 8,
@@ -27,7 +29,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seaman.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaman.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWSWASH.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CSWASH.def",
 			"animationTime" : {
 				"attack" : 1,

@@ -1,78 +1,69 @@
 {
-	"hotaJuggernaut":
-	{
-		"name" :
-		{
+	"hotaJuggernaut" : {
+		"name" : {
 			"plural" : "Juggernauts",
 			"singular" : "Juggernaut"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
 		},
 		"faction" : "factory",
 		"aiValue" : 6433,
 		"attack" : 23,
-		"cost" :
-		{
-			"gold": 4000,
-			"crystal": 2
+		"cost" : {
+			"gold" : 4000,
+			"crystal" : 2
 		},
-		"damage" :
-		{
-			 "max" : 50,
-			 "min" : 40
+		"damage" : {
+			"max" : 50,
+			"min" : 40
 		},
 		"defense" : 23,
 		"fightValue" : 4150,
-		"graphics" :
-		{
-			"animation": "hota/factory/creatures/battle/CJUGGER.def",
-			"map": "hota/factory/creatures/adventureMap/AvWjugg.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS016F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL016F.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime" :
-			{
-				"walk": 1.5,
-				"attack": 1,
-				"idle": 10
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CJUGGER.def",
+			"map" : "hota/factory/creatures/adventureMap/AvWjugg.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS016F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL016F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 1,
 		"hitPoints" : 300,
-		"level": 7,
-		"sound" :
-		{
+		"level" : 7,
+		"sound" : {
 			"attack" : "hota/factory/creatures/dreadnought/DREDSHOT.wav",
 			"defend" : "hota/factory/creatures/dreadnought/DREDDFND.wav",
 			"killed" : "hota/factory/creatures/dreadnought/DREDKILL.wav",
 			"move" : "hota/factory/creatures/dreadnought/DREDMOVE.wav",
-			"shoot": "hota/factory/creatures/dreadnought/DREDSHOT.wav",
+			"shoot" : "hota/factory/creatures/dreadnought/DREDSHOT.wav",
 			"wince" : "hota/factory/creatures/dreadnought/DREDWNCE.wav"
- 		},
+		},
 		"speed" : 7,
-		"abilities":
-		{
-			"mechanical": 
-			{
-				"type": "MECHANICAL"
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "WIDE_BREATH"
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
-				"val": 3
+				"val" : 3
 			}
 		}
 	}

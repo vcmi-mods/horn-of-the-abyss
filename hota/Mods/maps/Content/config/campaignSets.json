@@ -1,19 +1,63 @@
 {
-	"hota" :
-	{
-		"images" :
-		[
-			{"x": 0,   "y": 0,   "name":"CampaignBackground5"},
-
+	"hota" : {
+		"images" : [
+			{
+				"x" : 0,
+				"y" : 0,
+				"name" : "CampaignBackground5"
+			}
 		],
-		"exitbutton" : {"x": 658, "y": 482, "name":"CMPSCAN" },
-		"items":
-		[
-			{ "id": 1, "x":90,  "y":72,  "file":"Maps/H1Roger",  "image":"campujr1", "video":"mvroger.bik",  "requires": []              },
-			{ "id": 2, "x":539, "y":72,  "file":"Maps/H2Terror", "image":"campts1",  "video":"mvterror.bik", "requires": []              },
-			{ "id": 3, "x":43,  "y":245, "file":"Maps/H3Horn",   "image":"campha1",  "video":"mvhorn.bik",   "requires": []              },
-			{ "id": 4, "x":313, "y":244, "file":"Maps/H4Fact",   "image":"campfa1",  "video":"mvnight.bik",  "requires": []              },
-			{ "id": 5, "x":586, "y":246, "file":"Maps/H5AllIn",  "image":"campal1",  "video":"mvallin.bik",  "requires": []              }
+		"exitbutton" : {
+			"x" : 658,
+			"y" : 482,
+			"name" : "CMPSCAN"
+		},
+		"items" : [
+			{
+				"id" : 1,
+				"x" : 90,
+				"y" : 72,
+				"file" : "Maps/H1Roger",
+				"image" : "campujr1",
+				"video" : "mvroger.bik",
+				"requires" : []
+			},
+			{
+				"id" : 2,
+				"x" : 539,
+				"y" : 72,
+				"file" : "Maps/H2Terror",
+				"image" : "campts1",
+				"video" : "mvterror.bik",
+				"requires" : []
+			},
+			{
+				"id" : 3,
+				"x" : 43,
+				"y" : 245,
+				"file" : "Maps/H3Horn",
+				"image" : "campha1",
+				"video" : "mvhorn.bik",
+				"requires" : []
+			},
+			{
+				"id" : 4,
+				"x" : 313,
+				"y" : 244,
+				"file" : "Maps/H4Fact",
+				"image" : "campfa1",
+				"video" : "mvnight.bik",
+				"requires" : []
+			},
+			{
+				"id" : 5,
+				"x" : 586,
+				"y" : 246,
+				"file" : "Maps/H5AllIn",
+				"image" : "campal1",
+				"video" : "mvallin.bik",
+				"requires" : []
+			}
 		]
 	}
 }

@@ -1,27 +1,34 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"spit" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"spit" : {
 				"name" : "Spit",
-				"templates" :
-				{
-					"base" :
-					{
-						"animation" : "hota/banks/avbone02.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVV", "VVBB", "VBAB"],
-						"allowedTerrains":["swamp"]
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/avbone02.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPBASI.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPBASI.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 100
+					"value" : 1500,
+					"rarity" : 100
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : "You stand in front of an entrance to a mossy, overgrown residence. You hear creeks and growling from inside. Dare to enter?",
@@ -29,61 +36,116 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 4, "type" : "basilisk" },
-							{ "amount": 4, "type" : "basilisk" },
-							{ "amount": 4, "type" : "basilisk" },
-							{ "amount": 4, "type" : "basilisk" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 4,
+								"type" : "basilisk"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 3000
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 6, "type" : "basilisk" },
-							{ "amount": 6, "type" : "basilisk" },
-							{ "amount": 6, "type" : "basilisk" },
-							{ "amount": 6, "type" : "basilisk" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 6,
+								"type" : "basilisk"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 4500
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 8, "type" : "basilisk" },
-							{ "amount": 8, "type" : "basilisk" },
-							{ "amount": 8, "type" : "basilisk" },
-							{ "amount": 8, "type" : "basilisk" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 8,
+								"type" : "basilisk"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 6000
 						}
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 12, "type" : "basilisk" },
-							{ "amount": 12, "type" : "basilisk" },
-							{ "amount": 12, "type" : "basilisk" },
-							{ "amount": 12, "type" : "basilisk" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							},
+							{
+								"amount" : 12,
+								"type" : "basilisk"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 9000
 						}
 					}

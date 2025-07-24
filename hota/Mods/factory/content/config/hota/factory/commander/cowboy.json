@@ -1,19 +1,16 @@
 {
-	"cowboy":
-	{
-		"name" :
-		{
+	"cowboy" : {
+		"name" : {
 			"singular" : "Cowboy",
 			"plural" : "Cowboys"
 		},
 		"faction" : "factory",
-		"level": 0,
+		"level" : 0,
 		"speed" : 4,
 		"hitPoints" : 40,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 12
 		},
@@ -26,53 +23,58 @@
 		"doubleWide" : false,
 		"special" : true,
 		"shots" : 24,
-		"abilities" :
-		{
-			"canCast" :
-			{
+		"abilities" : {
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "quicksand",
 				"val" : 1
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
-			"animation": "hota/factory/creatures/battle/COWBOY.def",
-			"map": "hota/factory/creatures/adventureMap/AVWcwby.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS000F",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL000F",
-      "timeBetweenFidgets": 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 9.00,
-				"attack" : 1.00
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/COWBOY.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWcwby.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS000F",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL000F",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 9.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -81,17 +83,16 @@
 					"upperX" : 37,
 					"upperY" : -98
 				},
-				"projectile" : "hota/factory/creatures/battle/projectile/COWBOYPROJECTILE.def",
+				"projectile" : "hota/factory/creatures/battle/projectile/COWBOYPROJECTILE.def"
 			}
 		},
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/cowboy/COWBOYATTK.wav",
-			"defend": "hota/factory/creatures/cowboy/COWBOYDFND.wav",
-			"killed": "hota/factory/creatures/cowboy/COWBOYKILL.wav",
-			"move": "hota/factory/creatures/cowboy/COWBOYMOVE.wav",
-			"shoot": "hota/factory/creatures/cowboy/COWBOYSHOOT.wav",
-			"wince": "hota/factory/creatures/cowboy/COWBOYWNCE.wav",
+		"sound" : {
+			"attack" : "hota/factory/creatures/cowboy/COWBOYATTK.wav",
+			"defend" : "hota/factory/creatures/cowboy/COWBOYDFND.wav",
+			"killed" : "hota/factory/creatures/cowboy/COWBOYKILL.wav",
+			"move" : "hota/factory/creatures/cowboy/COWBOYMOVE.wav",
+			"shoot" : "hota/factory/creatures/cowboy/COWBOYSHOOT.wav",
+			"wince" : "hota/factory/creatures/cowboy/COWBOYWNCE.wav",
 			"startMoving" : "hota/factory/creatures/cowboy/COWBOYEXT1.wav",
 			"endMoving" : "hota/factory/creatures/cowboy/COWBOYEXT2.wav"
 		}

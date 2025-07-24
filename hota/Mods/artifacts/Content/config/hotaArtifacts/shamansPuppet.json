@@ -1,17 +1,21 @@
 {
 	"shamansPuppet" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MINOR",
 		"value" : 4000,
 		"bonuses" : {
-			"luck" : { 
-				"type" : "LUCK", 
+			"luck" : {
+				"type" : "LUCK",
 				"val" : -2,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
-			} 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			}
 		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/shamansPuppet",

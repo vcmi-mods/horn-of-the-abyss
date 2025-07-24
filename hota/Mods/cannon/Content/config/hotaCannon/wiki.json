@@ -1,6 +1,5 @@
-{	
-	"cannon" :
-	{
+{
+	"cannon" : {
 		"description" : "{Cannon}\r\n\r\nCove War Machine.\r\n\r\n{gold|Special Ability : Ranged attack. Can attack siege walls}\r\nThe formula for the calculation of cannon damage is (4–7)*(hero's attack + 1).\r\nIs put in place of the Ballista (War Machine 1) slot of a hero and during battle. It cannot be put in a backpack.\r\nOnly attacks by shooting. Is not blocked by standing next to an enemy unit. Can attack enemy troops and fortifications. One does not need to destroy the cannon to win the battle. No experience is given for its destruction.\r\nDoes not participate in the battle on the side of the defender during the siege, as well as the battles in vaults and banks. Moves at the same time as Ballista (before the First Aid Tent). Controlled by the AI.\r\nIn damage calculations, Cannon goes as level 6 unit.\r\n\r\nEffect of Artillery skill\r\n{gold|None.} All features work as described above.\r\n{gold|Basic.} Gives you control of the cannon. Aimed shot with increased damage on the fortifications.\r\n{gold|Advanced.} Gives you control of the cannon. Double damage on unit, aimed shot with increased damage on the fortifications.\r\n{gold|Expert.} Gives you control of the cannon. Triple damage on unit, aimed shot with maximum damage on the fortifications."
 	}
 }

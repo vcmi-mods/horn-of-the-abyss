@@ -16,7 +16,7 @@
 		"description" : "Přidává nový válečný stroj - Dělo. Dělo lze zakoupit ve Zbojovce"
 	},
 	"artifacts" : [
-		"config/hotaCannon/cannonArtifact.json" 
+		"config/hotaCannon/cannonArtifact.json"
 	],
 	"creatures" : [
 		"config/hotaCannon/cannonCreature.json",

@@ -5,19 +5,38 @@
 				"templates" : {
 					"avxamdn" : {
 						"animation" : "hota/mines/avxamdn", //hota sand
-						"mask" : [ "VVVV","VBBB","VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": ["sand"]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
 					"mntswpab" : {
 						"animation" : "hota/mines/mntswpab", //hota swamp
-						"mask" : [ "VVVV","VBBB","VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": ["swamp"]
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					}
 				}
 			}
 		}
 	}
 }
-

@@ -1,6 +1,8 @@
 {
 	"crownOfTheFiveSeas" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
 		"class" : "MAJOR",
 		"value" : 7000,

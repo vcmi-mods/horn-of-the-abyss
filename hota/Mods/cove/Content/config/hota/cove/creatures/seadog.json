@@ -6,7 +6,9 @@
 		},
 		"faction" : "cove",
 		"level" : 3,
-		"cost" : { "gold" : 375 },
+		"cost" : {
+			"gold" : 375
+		},
 		"speed" : 8,
 		"hitPoints" : 15,
 		"attack" : 12,
@@ -50,7 +52,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seadog.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seadog.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWPR3UP.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CPR3UP.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -61,7 +66,17 @@
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PPIRATE.def",
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,

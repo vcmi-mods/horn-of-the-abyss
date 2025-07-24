@@ -7,31 +7,31 @@
 			"specialtyLarge" : "hota/cove/heroes/zilare/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/zilare/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "crewmate",
-				"min": 6,
-				"max": 9
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "wisdom",
-				"level": "basic"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"skill": "resistance",
-				"level": "basic"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -47,14 +47,16 @@
 				}
 			}
 		},
-		"spellbook" : [ "forgetfulness" ],
-		"texts": {
-			"name": "Zilare",
-			"biography": "Zilare was the Keeper of the Library somewhere in Erathia. He dedicated his life to books and learning, living the life of a true archivist. Zilare could not keep everything in his head, however. Sometimes he would forget more than he learned during the day. Once he was accused of stealing an especially rare book and was forced to flee. He served as a cook on a pirate ship for some time but later gained fame as a proficient mage. They say that due to constant training in spirit and will, he learned to control the memory of both allies and enemies.",
-			"specialty": {
-				"name": "Forgetfulness",
-				"description": "Casts Forgetfulness with double duration.",
-				"tooltip": "Spell Bonus: Forgetfulness"
+		"spellbook" : [
+			"forgetfulness"
+		],
+		"texts" : {
+			"name" : "Zilare",
+			"biography" : "Zilare was the Keeper of the Library somewhere in Erathia. He dedicated his life to books and learning, living the life of a true archivist. Zilare could not keep everything in his head, however. Sometimes he would forget more than he learned during the day. Once he was accused of stealing an especially rare book and was forced to flee. He served as a cook on a pirate ship for some time but later gained fame as a proficient mage. They say that due to constant training in spirit and will, he learned to control the memory of both allies and enemies.",
+			"specialty" : {
+				"name" : "Forgetfulness",
+				"description" : "Casts Forgetfulness with double duration.",
+				"tooltip" : "Spell Bonus: Forgetfulness"
 			}
 		}
 	}

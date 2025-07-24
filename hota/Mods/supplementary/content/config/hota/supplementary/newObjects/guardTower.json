@@ -1,28 +1,38 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"guardTower" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"guardTower" : {
 				"name" : "Guard Tower",
-				"aiValue": 5000,
-				"templates" :
-				{
-					"normal" :
-					{
+				"aiValue" : 5000,
+				"templates" : {
+					"normal" : {
 						"animation" : "hota/supplementary/others/guardTower",
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : [ "VVVV", "VVVV", "VVBA"],
-						"allowedTerrains":["rough", "dirt", "sand", "wasteland"] 
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBA"
+						],
+						"allowedTerrains" : [
+							"rough",
+							"dirt",
+							"sand",
+							"wasteland"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["LOOPFACT"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPFACT"
+					]
 				},
 				"rmg" : {
-					"value"		: 7000,
-					"rarity"	: 10
+					"value" : 7000,
+					"rarity" : 10
 				},
 				"onGuardedMessage" : "{Guard Tower}\r\n\r\nYou wandered around the sentry post and learned that there were many mercenary gunslingers guarding this tower. Of course, they had been hired for a long time and had accumulated a lot of treasures. Do you want to enter here to challenge?",
 				"onVisited" : [
@@ -43,67 +53,159 @@
 				"rewards" : [
 					{
 						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 4, "type" : "gunslinger" },
-							{ "amount": 4, "type" : "gunslinger" },
-							{ "amount": 4, "type" : "gunslinger", "upgradeChance" : 50},
-							{ "amount": 4, "type" : "gunslinger" },
-							{ "amount": 4, "type" : "gunslinger" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
 							{
-								"gold" : 1000
+								"amount" : 4,
+								"type" : "gunslinger"
 							},
-						"creatures": [ { "amount": 4, "type": "gunslinger" } ]
+							{
+								"amount" : 4,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 4,
+								"type" : "gunslinger",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 4,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 4,
+								"type" : "gunslinger"
+							}
+						],
+						"resources" : {
+							"gold" : 1000
+						},
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "gunslinger"
+							}
+						]
 					},
 					{
 						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 6, "type" : "gunslinger" },
-							{ "amount": 6, "type" : "gunslinger" },
-							{ "amount": 6, "type" : "gunslinger", "upgradeChance" : 50},
-							{ "amount": 6, "type" : "gunslinger" },
-							{ "amount": 6, "type" : "gunslinger" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
 							{
-								"gold" : 2000
+								"amount" : 6,
+								"type" : "gunslinger"
 							},
-						"creatures": [ { "amount": 6, "type": "gunslinger" } ]
+							{
+								"amount" : 6,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 6,
+								"type" : "gunslinger",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 6,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 6,
+								"type" : "gunslinger"
+							}
+						],
+						"resources" : {
+							"gold" : 2000
+						},
+						"creatures" : [
+							{
+								"amount" : 6,
+								"type" : "gunslinger"
+							}
+						]
 					},
 					{
 						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 8, "type" : "gunslinger" },
-							{ "amount": 8, "type" : "gunslinger" },
-							{ "amount": 8, "type" : "gunslinger", "upgradeChance" : 50},
-							{ "amount": 8, "type" : "gunslinger" },
-							{ "amount": 8, "type" : "gunslinger" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
 							{
-								"gold" : 3000
+								"amount" : 8,
+								"type" : "gunslinger"
 							},
-						"creatures": [ { "amount": 8, "type": "gunslinger" } ]
+							{
+								"amount" : 8,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 8,
+								"type" : "gunslinger",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 8,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 8,
+								"type" : "gunslinger"
+							}
+						],
+						"resources" : {
+							"gold" : 3000
+						},
+						"creatures" : [
+							{
+								"amount" : 8,
+								"type" : "gunslinger"
+							}
+						]
 					},
 					{
 						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 12, "type" : "gunslinger" },
-							{ "amount": 12, "type" : "gunslinger" },
-							{ "amount": 12, "type" : "gunslinger", "upgradeChance" : 50},
-							{ "amount": 12, "type" : "gunslinger" },
-							{ "amount": 12, "type" : "gunslinger" }
-						],
-						"resources":
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
 							{
-								"gold" : 4000
+								"amount" : 12,
+								"type" : "gunslinger"
 							},
-						"creatures": [ { "amount": 12, "type": "gunslinger" } ]
+							{
+								"amount" : 12,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 12,
+								"type" : "gunslinger",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 12,
+								"type" : "gunslinger"
+							},
+							{
+								"amount" : 12,
+								"type" : "gunslinger"
+							}
+						],
+						"resources" : {
+							"gold" : 4000
+						},
+						"creatures" : [
+							{
+								"amount" : 12,
+								"type" : "gunslinger"
+							}
+						]
 					}
 				]
 			}

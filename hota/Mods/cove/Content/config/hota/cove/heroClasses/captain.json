@@ -13,21 +13,23 @@
 		},
 		"mapObject" : {
 			"filters" : {
-				"male" : { "male" : true },
-				"female" : { "female" : true }
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
 			},
-			"templates" : { 
-				"female" : 
-				{ 
+			"templates" : {
+				"female" : {
 					"animation" : "hota/cove/heroClasses/captain/adventureMap/AH18_.def",
-					"editorAnimation": "hota/cove/heroClasses/captain/adventureMap/AH18_e.def"
-				}, 
-				"male" : 
-				{ 
+					"editorAnimation" : "hota/cove/heroClasses/captain/adventureMap/AH18_e.def"
+				},
+				"male" : {
 					"animation" : "hota/cove/heroClasses/captain/adventureMap/AH18b_.def",
-					"editorAnimation": "hota/cove/heroClasses/captain/adventureMap/AH18b_E.def"
-				} 
-			} 
+					"editorAnimation" : "hota/cove/heroClasses/captain/adventureMap/AH18b_E.def"
+				}
+			}
 		},
 		"primarySkills" : {
 			"attack" : 3,

@@ -8,18 +8,27 @@
 	"modType" : "Templates",
 	"version" : "1.3",
 	"changelog" : {
-		"1.0"    : [ "Initial release", "Nostalgia template"],
-		"1.1"    : [ "Jebus Outcast prototype added"],
-		"1.2"    : [ "Minor fixes"],
-		"1.3"    : [ "Jebus Outcast removed. More proper variation of Jebus Outcast is part of PvP Balance mod."]
+		"1.0" : [
+			"Initial release",
+			"Nostalgia template"
+		],
+		"1.1" : [
+			"Jebus Outcast prototype added"
+		],
+		"1.2" : [
+			"Minor fixes"
+		],
+		"1.3" : [
+			"Jebus Outcast removed. More proper variation of Jebus Outcast is part of PvP Balance mod."
+		]
 	},
-	"templates" : [ 
+	"templates" : [
 		"config/hotaNostalgia.json"
 	],
 
 	"chinese" : {
-    "name" : "深渊号角地图模版",
-    "description" : "一些来自深渊号角的地图模版。"
+		"name" : "深渊号角地图模版",
+		"description" : "一些来自深渊号角的地图模版。"
 	},
 	"czech" : {
 		"name" : "Šablony náhodných map",
@@ -29,5 +38,4 @@
 		"name" : "Szablony HotA",
 		"description" : "Szablony pochodzące z HotA"
 	}
-	
 }

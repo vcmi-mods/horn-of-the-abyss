@@ -1,13 +1,19 @@
 {
 	"bluebottle" : {
-		"handler":"generic",
+		"handler" : "generic",
 		"name" : "Bluebottle",
 		"types" : {
 			"bluebottle" : {
 				"templates" : {
-					"Portu" : { "animation" : "hota/bluebottle/Portu", 
-						"mask" : [ "VV", "VV" ],
-						"allowedTerrains": [ "water"]
+					"Portu" : {
+						"animation" : "hota/bluebottle/Portu",
+						"mask" : [
+							"VV",
+							"VV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}

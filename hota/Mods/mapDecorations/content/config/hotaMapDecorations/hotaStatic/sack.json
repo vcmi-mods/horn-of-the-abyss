@@ -1,17 +1,28 @@
 {
 	"sack" : {
-		"name": "Sack",
-		"handler": "static",
+		"name" : "Sack",
+		"handler" : "static",
 		"types" : {
 			"sack" : {
 				"templates" : {
-					"crates05" : { "animation" : "hota/crates/crates05",
-					"mask" : [ "VB" ],
-					"allowedTerrains": [ "sand" ]
+					"crates05" : {
+						"animation" : "hota/crates/crates05",
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
-					"crates10" : { "animation" : "hota/crates/crates10",
-					"mask" : [ "VV", "BB" ],
-					"allowedTerrains": [ "sand" ]
+					"crates10" : {
+						"animation" : "hota/crates/crates10",
+						"mask" : [
+							"VV",
+							"BB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
 			}

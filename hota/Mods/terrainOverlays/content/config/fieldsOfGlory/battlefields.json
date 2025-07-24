@@ -1,13 +1,13 @@
 {
-	"fields_of_glory": {
-		"graphics": "cmbkflgl.BMP",
+	"fields_of_glory" : {
+		"graphics" : "cmbkflgl.BMP",
 		"isSpecial" : true,
-		"bonuses": [
+		"bonuses" : [
 			{
 				"type" : "LUCK",
 				"val" : -2,
 				"valueType" : "BASE_NUMBER",
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			}
 		]
 	}

@@ -1,11 +1,9 @@
 {
-	"pactal" :
-	{
+	"pactal" : {
 		"class" : "beastmaster",
-		"female": false,
-		"special": true,
-		"images" :
-		{
+		"female" : false,
+		"special" : true,
+		"images" : {
 			"large" : "hota/fortress/heroes/pactal/icons/portraitLarge.png",
 			"small" : "hota/fortress/heroes/pactal/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/fortress/heroes/pactal/icons/specialtyLarge.png",
@@ -28,14 +26,13 @@
 				"max" : 4
 			}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "armorer"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "armorer"
 		},

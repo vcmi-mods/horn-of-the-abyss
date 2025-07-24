@@ -1,14 +1,19 @@
 {
-	"core:shrub" :{
-		"types" : {		
+	"core:shrub" : {
+		"types" : {
 			"object" : {
-				"templates" : {				
-					"avlsh9x0" : { "animation" : "hota/shrub/avlsh9x0", 
-						"mask" : [ "BBB" ], 
-						"allowedTerrains": [ "rough" ]
-					}	
+				"templates" : {
+					"avlsh9x0" : {
+						"animation" : "hota/shrub/avlsh9x0",
+						"mask" : [
+							"BBB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
+					}
 				}
-			}			
-		}	
+			}
+		}
 	}
 }

@@ -1,11 +1,9 @@
 {
-	"maximus" :
-	{
+	"maximus" : {
 		"class" : "deathknight",
 		"female" : false,
 		"special" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/necropolis/heroes/maximus/icons/portraitLarge.png",
 			"small" : "hota/necropolis/heroes/maximus/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/necropolis/heroes/maximus/icons/specialtyLarge.png",
@@ -26,7 +24,7 @@
 				"creature" : "wight",
 				"min" : 4,
 				"max" : 6
-			},
+			}
 		],
 		"skills" : [
 			{
@@ -62,7 +60,9 @@
 				}
 			}
 		},
-		"spellbook" : [ "slow" ],
+		"spellbook" : [
+			"slow"
+		],
 		"texts" : {
 			"name" : "Maximus",
 			"biography" : "Maximus is one of Kastore's closest associates, a strong and fierce warrior. He is in charge of the necromancer country's defenses while Kastore is away.",
@@ -74,5 +74,3 @@
 		}
 	}
 }
-
-

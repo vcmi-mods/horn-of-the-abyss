@@ -1,35 +1,35 @@
 {
 	"basepath" : "pskil32/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "pskil32a.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "pskil32d.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "pskil32p.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "pskil32k.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "pskil32e.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "pskil32s.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "pskil32a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "pskil32d.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "pskil32p.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "pskil32k.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "pskil32e.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "pskil32s.png"
+		}
+	]
 }

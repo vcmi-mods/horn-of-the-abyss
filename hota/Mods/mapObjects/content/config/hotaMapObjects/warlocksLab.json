@@ -1,26 +1,38 @@
 {
 	"warlocksLab" : {
-		"handler":"generic",
+		"handler" : "generic",
 		"name" : "Warlock's Lab",
 		"types" : {
 			"warlocksLab" : {
-//				"rmg" : {
-//					"value"	: 10000,
-//					"rarity" : 100,
-//					"zoneLimit" : 1
-//				},
+				//				"rmg" : {
+				//					"value"	: 10000,
+				//					"rarity" : 100,
+				//					"zoneLimit" : 1
+				//				},
 				"sounds" : {
-					"visit" : ["STORE"]
+					"visit" : [
+						"STORE"
+					]
 				},
-				"templates" : {	
+				"templates" : {
 					"avxtrmts" : {
 						"animation" : "hota/warlocksLab/avxtrmts",
-						"mask" : [ "VVVV", "VVVV", "VBAB" ],
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "snow"]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

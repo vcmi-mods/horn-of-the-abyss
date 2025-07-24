@@ -1,11 +1,9 @@
 {
-	"areshrak" :
-	{
+	"areshrak" : {
 		"class" : "beastmaster",
-		"female": false,
-		"special": true,
-		"images" :
-		{
+		"female" : false,
+		"special" : true,
+		"images" : {
 			"large" : "hota/fortress/heroes/areshrak/icons/portraitLarge.png",
 			"small" : "hota/fortress/heroes/areshrak/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/fortress/heroes/areshrak/icons/specialtyLarge.png",
@@ -28,15 +26,17 @@
 				"max" : 4
 			}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "armorer"
 			},
-			{ "skill" : "artillery", "level": "basic" }
+			{
+				"skill" : "artillery",
+				"level" : "basic"
+			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "ballista"
 		},

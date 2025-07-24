@@ -1,10 +1,10 @@
 {
-    "basepath": "ObWLD10/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "ObWLD10.png"
-        }
-    ]
+	"basepath" : "ObWLD10/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "ObWLD10.png"
+		}
+	]
 }

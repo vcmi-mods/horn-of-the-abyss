@@ -6,38 +6,51 @@
 		//"handler" : "generic",
 		"handler" : "configurable",
 		"name" : "Airship Yard",
-        //"rmg" : {
-        //  "value" : 0,
-        //  "rarity" : 0,
-        //  "zoneLimit" : 0
-        //},
+		//"rmg" : {
+		//  "value" : 0,
+		//  "rarity" : 0,
+		//  "zoneLimit" : 0
+		//},
 		"base" : {
 			"sounds" : {
-				"ambient" : ["LOOPLUMB"],
-				"visit" : ["STORE"]
+				"ambient" : [
+					"LOOPLUMB"
+				],
+				"visit" : [
+					"STORE"
+				]
 			},
-			"description": "Welcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
+			"description" : "Welcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
 			//"onEmptyMessage": "You find nothing here. The airship yard is not operational yet.",
 			//"notVisitedTooltip": "You have not visited this airship yard.",
 			//"visitedTooltip": "This airship yard has already been visited.",
-			"showScoutedPreview": true,
-			"blockedVisitable": true
+			"showScoutedPreview" : true,
+			"blockedVisitable" : true
 		},
 		//"description": "An Airship Yard is under construction. This feature is not yet implemented.",
 		//"onVisitedMessage": "{Airship Yard}\r\n\r\nThis Airship Yard is not operational yet. Please check back later!",
 		"types" : {
 			"airshipYard" : {
-				"rewards": [
+				"rewards" : [
 					{
-						"message": "{Airship Yard}\r\n\r\nWelcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
-						"removeObject": false
+						"message" : "{Airship Yard}\r\n\r\nWelcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
+						"removeObject" : false
 					}
 				],
 				"templates" : {
 					"default" : {
 						"animation" : "airship/AVGairy0.def",
-						"visitableFrom" : [ "+++", "+-+", "+++" ],
-						"mask" : [ "VVV","VVV","VVV", "VAV" ]
+						"visitableFrom" : [
+							"+++",
+							"+-+",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VAV"
+						]
 					}
 				}
 			}
@@ -62,17 +75,20 @@
 					"airship/AAirF00R.def",
 					"airship/AAirF00D.def",
 					"airship/AAirF00B.def",
-					"airship/AAirF00P.def", 
+					"airship/AAirF00P.def",
 					"airship/AAirF00W.def",
 					"airship/AAirF00K.def"
 				],
-				"templates": {
+				"templates" : {
 					"boatAirship" : {
 						"animation" : "airship/AVXAir00.def",
 						//"animation" : "airship/AAir00.def",
-						"mask" : [ "VVV", "VAV" ]
+						"mask" : [
+							"VVV",
+							"VAV"
+						]
 					}
-				},
+				}
 				//"bonuses" : [
 				//	{
 				//		"type" : "WATER_WALKING",

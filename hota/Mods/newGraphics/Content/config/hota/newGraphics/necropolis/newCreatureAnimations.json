@@ -1,86 +1,128 @@
 {
-    "core:skeleton" : {
+	"core:skeleton" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWskel0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:skeletonWarrior" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWskex0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:walkingDead" : {
+	"core:walkingDead" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWzomb0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:zombieLord" : {
+	"core:zombieLord" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWzomx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:wight" : {
+	"core:wight" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AvWWigh.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:wraith" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWwigx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:vampire" : {
+	"core:vampire" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWvamp0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:vampireLord" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWvamx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:lich" : {
+	"core:lich" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWlich0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:powerLich" : {
+	"core:powerLich" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWlicx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:blackKnight" : {
+	"core:blackKnight" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWbkni0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:dreadKnight" : {
+	"core:dreadKnight" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWbknx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:boneDragon" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWbone0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:ghostDragon" : {
+	"core:ghostDragon" : {
 		"graphics" : {
 			"map" : "hota/necropolis/adventureMap/creatures/AVWbonx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	}
 }

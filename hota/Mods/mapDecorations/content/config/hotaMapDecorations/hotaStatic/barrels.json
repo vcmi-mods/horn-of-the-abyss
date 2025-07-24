@@ -1,22 +1,30 @@
 {
 	"barrels" : {
-		"name": "Barrels",
-		"handler": "static",
+		"name" : "Barrels",
+		"handler" : "static",
 		"types" : {
 			"barrels" : {
 				"templates" : {
 					"crates02" : {
 						"animation" : "hota/crates/crates02",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					},
 					"crates03" : {
 						"animation" : "hota/crates/crates03",
-						"mask" : [ "VB" ],
-						"allowedTerrains": [ "sand" ]
+						"mask" : [
+							"VB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
 					}
 				}
 			}
-		}	
+		}
 	}
 }

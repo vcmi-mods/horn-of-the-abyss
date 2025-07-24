@@ -1,108 +1,214 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"templeOfTheSea" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"templeOfTheSea" : {
 				"name" : "Temple Of The Sea",
-				"templates" :
-				{
-					"base" :
-					{
-						"animation" : "hota/banks/AVSutopW.def", 
-						"visitableFrom" : [ "---", "-+-", "+++" ], 
-						"mask" : [ "VVVVV", "VVVVV", "VBBBV", "VBBBV", "VBABV"],
-						"allowedTerrains":["water"] 							
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/AVSutopW.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VBBBV",
+							"VBBBV",
+							"VBABV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPSTPL.wav"],
-					"visit": ["hota/SEATEMPL.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPSTPL.wav"
+					],
+					"visit" : [
+						"hota/SEATEMPL.wav"
+					]
 				},
 				"blockedVisitable" : true,
 				"rmg" : {
-					"value"		: 10000,
-					"rarity"	: 100
+					"value" : 10000,
+					"rarity" : 100
 				},
 				"onGuardedMessage" : "You stand before the gates of the Temple of the Sea. Not a single mortal dared to enter it. Are you bold enough to be the first one?",
 				"onVisitedMessage" : "A Temple of the Sea was here once. Now it's abandoned and empty.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 8, "type" : "hydra" },
-							{ "amount": 6, "type" : "seaserpent"},
-							{ "amount": 3, "type" : "chaosHydra" },
-							{ "amount": 2, "type" : "haspid" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "hydra"
+							},
+							{
+								"amount" : 6,
+								"type" : "seaserpent"
+							},
+							{
+								"amount" : 3,
+								"type" : "chaosHydra"
+							},
+							{
+								"amount" : 2,
+								"type" : "haspid"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 10000
 						},
-						"artifacts": [ { "class" : "TREASURE" },
-										{ "class" : "MINOR" },
-										{ "class" : "MINOR" },
-										{ "class" : "MAJOR" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 8, "type" : "hydra" },
-							{ "amount": 7, "type" : "seaserpent"},
-							{ "amount": 4, "type" : "chaosHydra" },
-							{ "amount": 3, "type" : "haspid" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "hydra"
+							},
+							{
+								"amount" : 7,
+								"type" : "seaserpent"
+							},
+							{
+								"amount" : 4,
+								"type" : "chaosHydra"
+							},
+							{
+								"amount" : 3,
+								"type" : "haspid"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 15000
 						},
-						"artifacts": [ { "class" : "TREASURE" },
-										{ "class" : "MINOR" },
-										{ "class" : "MAJOR" },
-										{ "class" : "MAJOR" } ]
+						"artifacts" : [
+							{
+								"class" : "TREASURE"
+							},
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 8, "type" : "hydra" },
-							{ "amount": 7, "type" : "seaserpent"},
-							{ "amount": 5, "type" : "chaosHydra" },
-							{ "amount": 4, "type" : "haspid" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "hydra"
+							},
+							{
+								"amount" : 7,
+								"type" : "seaserpent"
+							},
+							{
+								"amount" : 5,
+								"type" : "chaosHydra"
+							},
+							{
+								"amount" : 4,
+								"type" : "haspid"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 20000
 						},
-						"artifacts": [ { "class" : "MINOR" },
-										{ "class" : "MAJOR" },
-										{ "class" : "MAJOR" },
-										{ "class" : "RELIC" }]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 10, "type" : "hydra" },
-							{ "amount": 9, "type" : "seaserpent"},
-							{ "amount": 6, "type" : "chaosHydra" },
-							{ "amount": 5, "type" : "haspid" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "hydra"
+							},
+							{
+								"amount" : 9,
+								"type" : "seaserpent"
+							},
+							{
+								"amount" : 6,
+								"type" : "chaosHydra"
+							},
+							{
+								"amount" : 5,
+								"type" : "haspid"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 30000
 						},
-						"artifacts": [ { "class" : "MAJOR" },
-										{ "class" : "MAJOR" },
-										{ "class" : "RELIC" },
-										{ "class" : "RELIC" }]
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "MAJOR"
+							},
+							{
+								"class" : "RELIC"
+							},
+							{
+								"class" : "RELIC"
+							}
+						]
 					}
 				]
 			}

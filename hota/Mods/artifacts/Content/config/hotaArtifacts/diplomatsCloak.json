@@ -1,6 +1,8 @@
 {
 	"diplomatsCloak" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "SHOULDERS",
 		"class" : "RELIC",
 		"value" : 0,

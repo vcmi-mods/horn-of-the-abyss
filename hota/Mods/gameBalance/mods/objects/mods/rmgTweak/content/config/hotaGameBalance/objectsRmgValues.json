@@ -1,89 +1,90 @@
 {
-	"core:tradingPost": {
+	"core:tradingPost" : {
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"value"		: 3000
+					"value" : 3000
 				}
 			}
 		}
 	},
-	
+
 	"core:obelisk" : {
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"zoneLimit"	: 1,
-					"value"		: 350
+					"zoneLimit" : 1,
+					"value" : 350
 				}
 			}
 		}
 	},
-	
-	"core:shrineOfMagicLevel1" : {//incantation
+
+	"core:shrineOfMagicLevel1" : {
+		//incantation
 		"types" : {
 			"shrineOfMagicLevel1" : {
 				"rmg" : {
-					"rarity"	: 50
+					"rarity" : 50
 				}
 			}
 		}
 	},
-	
-	"core:shrineOfMagicLevel3" : {//thinking
+
+	"core:shrineOfMagicLevel3" : {
+		//thinking
 		"types" : {
 			"shrineOfMagicLevel3" : {
 				"rmg" : {
-					"rarity"	: 50
+					"rarity" : 50
 				}
 			}
 		}
 	},
-	
+
 	"core:freelancersGuild" : {
 		"types" : {
 			"object" : {
 				"rmg" : {
-					"rarity"	: 50,
-					"value"		: 100,
-					"zoneLimit"	: 1
+					"rarity" : 50,
+					"value" : 100,
+					"zoneLimit" : 1
 				}
 			}
 		}
 	},
-	
-	 "core:creatureGeneratorSpecial" : {
-	 	"types" : {
-	 		"golemFactory" : {
-	 			"rmg" : {
-	 				"rarity"	: 20,
-	 				"value"		: 4500
-	 			}
-	 		},
-	 		"elementalConflux" : {
-	 			"rmg" : {
-	 				"rarity"	: 20,
-	 				"value"		: 6000
-	 			}
-	 		}
-	 	}
-	 },
-	 
-	 "core:creatureGeneratorCommon" : {
-	 	"types" : {
-	 		"estate": {
-	 			"rmg" : {
-	 				"rarity"	: 20,
-	 				"value"		: 9000
-	 			}
-	 		}
-	 	}
-	 },
+
+	"core:creatureGeneratorSpecial" : {
+		"types" : {
+			"golemFactory" : {
+				"rmg" : {
+					"rarity" : 20,
+					"value" : 4500
+				}
+			},
+			"elementalConflux" : {
+				"rmg" : {
+					"rarity" : 20,
+					"value" : 6000
+				}
+			}
+		}
+	},
+
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"estate" : {
+				"rmg" : {
+					"rarity" : 20,
+					"value" : 9000
+				}
+			}
+		}
+	},
 
 	"core:creatureBank" : {
 		"types" : {
-			"impCache" :
-			{		
+			"impCache" : {
 				"rmg" : {
 					"value" : 1500
 				}

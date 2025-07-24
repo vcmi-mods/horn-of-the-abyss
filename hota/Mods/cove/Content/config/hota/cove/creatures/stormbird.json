@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 4,
-		"upgrades" : [ "ayssid" ],
-		"cost" : { "gold" : 275 },
+		"upgrades" : [
+			"ayssid"
+		],
+		"cost" : {
+			"gold" : 275
+		},
 		"speed" : 9,
 		"hitPoints" : 30,
 		"attack" : 10,
@@ -35,7 +39,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/stormbird.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/stormbird.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWASSUP.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CASSIDUP.def",
 			"animationTime" : {
 				"attack" : 1,

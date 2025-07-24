@@ -5,9 +5,17 @@
 				"templates" : {
 					"avxsnhl" : {
 						"animation" : "hota/highlands/vanillaInteractive/sign/avxsnhl",
-						"allowedTerrains": [ "highlands" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"highlands"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

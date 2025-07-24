@@ -1,27 +1,25 @@
 {
-	"hotaDeathCloud" : 
-	{
-		"type": "ability",
-		"name": "Death Cloud",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
-		},	
-		"targetType": "NO_TARGET",
-		"level": 1,
-		"power": 1,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
+	"hotaDeathCloud" : {
+		"type" : "ability",
+		"name" : "Death Cloud",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"animation":{
-			"hit":["cloudyLiches/Expl_05"]
+		"targetType" : "NO_TARGET",
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"hit" : [
+				"cloudyLiches/Expl_05"
+			]
 		},
 		"flags" : {
-			"indifferent": true
+			"indifferent" : true
 		},
 		"targetCondition" : {
 			"noneOf" : {
@@ -31,40 +29,29 @@
 				"bonus.GARGOYLE" : "absolute"
 			}
 		},
-		"sounds": {
-			"cast": "DEATHCLS"
+		"sounds" : {
+			"cast" : "DEATHCLS"
 		},
-		"graphics":
-		{
-		},
+		"graphics" : {},
 		"levels" : {
-			"base":{
-				"range": "0-1",
-				"power": 10,
+			"base" : {
+				"range" : "0-1",
+				"power" : 10,
 				"cost" : 0,
-				"targetModifier":
-				{
-					"smart": true
+				"targetModifier" : {
+					"smart" : true
 				},
-				"battleEffects":{
-					"damage":{
-						"type":"core:damage"
+				"battleEffects" : {
+					"damage" : {
+						"type" : "core:damage"
 					}
 				},
-				"description": ""
+				"description" : ""
 			},
-			"none":
-			{	 
-			},
-			"basic":
-			{	 
-			},
-			"advanced":
-			{	 
-			},
-			"expert":
-			{
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

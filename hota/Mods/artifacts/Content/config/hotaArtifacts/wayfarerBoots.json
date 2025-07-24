@@ -1,6 +1,8 @@
 {
 	"wayfarerBoots" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "FEET",
 		"class" : "MAJOR",
 		"value" : 5000,

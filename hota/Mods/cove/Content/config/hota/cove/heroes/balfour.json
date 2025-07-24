@@ -8,31 +8,31 @@
 			"specialtyLarge" : "hota/cove/heroes/balfour/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/balfour/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "crewmate",
-				"min": 6,
-				"max": 9
+				"creature" : "crewmate",
+				"min" : 6,
+				"max" : 9
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "wisdom",
-				"level": "basic"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"skill": "resistance",
-				"level": "basic"
+				"skill" : "resistance",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
@@ -48,14 +48,16 @@
 				}
 			}
 		},
-		"spellbook" : [ "forgetfulness" ],
-		"texts": {
-			"name": "Balfour",
-			"biography": "Black Balfour is a powerful pirate leader who loves to collect treasures from all over the world, but in fact he has no interest in appreciating treasures. To be honest, he is an uncouth and all-around nasty character.",
-			"specialty": {
-				"name": "Forgetfulness",
-				"description": "Casts Forgetfulness with double duration.",
-				"tooltip": "Spell Bonus: Forgetfulness"
+		"spellbook" : [
+			"forgetfulness"
+		],
+		"texts" : {
+			"name" : "Balfour",
+			"biography" : "Black Balfour is a powerful pirate leader who loves to collect treasures from all over the world, but in fact he has no interest in appreciating treasures. To be honest, he is an uncouth and all-around nasty character.",
+			"specialty" : {
+				"name" : "Forgetfulness",
+				"description" : "Casts Forgetfulness with double duration.",
+				"tooltip" : "Spell Bonus: Forgetfulness"
 			}
 		}
 	}

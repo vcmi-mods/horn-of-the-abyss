@@ -1,61 +1,83 @@
 {
 	"mercenary" : {
 		"affinity" : "might",
-		"animation" : { "battle" : { "female" : "hota/factory/heroClasses/mercenary/battle/CH20b", "male" : "hota/factory/heroClasses/mercenary/battle/CH20" } },
+		"animation" : {
+			"battle" : {
+				"female" : "hota/factory/heroClasses/mercenary/battle/CH20b",
+				"male" : "hota/factory/heroClasses/mercenary/battle/CH20"
+			}
+		},
 		"commander" : "cowboy",
 		"defaultTavern" : 5,
 		"faction" : "factory",
-		"highLevelChance" : { "attack" : 30, "defence" : 30, "knowledge" : 20, "spellpower" : 20 },
-		"lowLevelChance" : { "attack" : 35, "defence" : 35, "knowledge" : 15, "spellpower" : 15 },
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
+			"knowledge" : 20,
+			"spellpower" : 20
+		},
+		"lowLevelChance" : {
+			"attack" : 35,
+			"defence" : 35,
+			"knowledge" : 15,
+			"spellpower" : 15
+		},
 		"mapObject" : {
 			"filters" : {
-				"male" : { "male" : true },
-				"female" : { "female" : true }
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
 			},
 			"templates" : {
-				"female" :
-				{
+				"female" : {
 					"animation" : "hota/factory/heroClasses/mercenary/adventureMap/AH20b_",
-					"editorAnimation": "hota/factory/heroClasses/mercenary/adventureMap/AH20b_e.def"
+					"editorAnimation" : "hota/factory/heroClasses/mercenary/adventureMap/AH20b_e.def"
 				},
-				"male" :
-				{
+				"male" : {
 					"animation" : "hota/factory/heroClasses/mercenary/adventureMap/AH20_",
-					"editorAnimation": "hota/factory/heroClasses/mercenary/adventureMap/AH20_e.def"
+					"editorAnimation" : "hota/factory/heroClasses/mercenary/adventureMap/AH20_e.def"
 				}
 			}
 		},
 		"name" : "Mercenary",
-		"primarySkills" : { "attack" : 3, "defence" : 1, "knowledge" : 1, "spellpower" : 1 },
+		"primarySkills" : {
+			"attack" : 3,
+			"defence" : 1,
+			"knowledge" : 1,
+			"spellpower" : 1
+		},
 		"secondarySkills" : {
-			"pathfinding"  : 7,
-			"archery"      : 7,
-			"logistics"    : 7,
-			"scouting"     : 5,
-			"diplomacy"    : 7,
-			"navigation"   : 4,
-			"leadership"   : 5,
-			"wisdom"       : 3,
-			"mysticism"    : 1,
-			"luck"         : 5,
-			"ballistics"   : 6,
-			"eagleEye"     : 2,
-			"necromancy"   : 0,
-			"estates"      : 3,
-			"fireMagic"    : 3,
-			"airMagic"     : 3,
-			"waterMagic"   : 0,
-			"earthMagic"   : 3,
-			"scholar"      : 1,
-			"tactics"      : 8,
-			"artillery"    : 6,
-			"learning"     : 4,
-			"offence"      : 6,
-			"armorer"      : 5,
+			"pathfinding" : 7,
+			"archery" : 7,
+			"logistics" : 7,
+			"scouting" : 5,
+			"diplomacy" : 7,
+			"navigation" : 4,
+			"leadership" : 5,
+			"wisdom" : 3,
+			"mysticism" : 1,
+			"luck" : 5,
+			"ballistics" : 6,
+			"eagleEye" : 2,
+			"necromancy" : 0,
+			"estates" : 3,
+			"fireMagic" : 3,
+			"airMagic" : 3,
+			"waterMagic" : 0,
+			"earthMagic" : 3,
+			"scholar" : 1,
+			"tactics" : 8,
+			"artillery" : 6,
+			"learning" : 4,
+			"offence" : 6,
+			"armorer" : 5,
 			"intelligence" : 2,
-			"sorcery"      : 2,
-			"resistance"   : 4,
-			"firstAid"     : 3
+			"sorcery" : 2,
+			"resistance" : 4,
+			"firstAid" : 3
 		},
 		"tavern" : {
 			"castle" : 4,
@@ -67,8 +89,8 @@
 			"rampart" : 4,
 			"stronghold" : 2,
 			"tower" : 4,
-			"factory": 6,
-			"cove": 3
+			"factory" : 6,
+			"cove" : 3
 		}
 	}
 }

@@ -1,10 +1,7 @@
 {
-	"core:titan" :
-	{
-		"abilities" :
-		{
-			"lightningIsComing" :
-			{
+	"core:titan" : {
+		"abilities" : {
+			"lightningIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaLightning",
 				"val" : 1

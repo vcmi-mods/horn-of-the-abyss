@@ -1,86 +1,128 @@
 {
-    "core:troglodyte" : {
+	"core:troglodyte" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWtrog0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:infernalTroglodyte" : {
+	"core:infernalTroglodyte" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AvWInfr.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:harpy" : {
+	"core:harpy" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWharp0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:harpyHag" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWharx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:evilEye" : {
+	"core:evilEye" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWbehx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:beholder" : {
+	"core:beholder" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWbehl0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:medusa" : {
+	"core:medusa" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AvWMeds.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:medusaQueen" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWmedx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:minotaur" : {
+	"core:minotaur" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AvWMino.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:minotaurKing" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWminx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:manticore" : {
+	"core:manticore" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWmant0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:scorpicore" : {
+	"core:scorpicore" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWmanx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:redDragon" : {
+	"core:redDragon" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AvWRDrg.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:blackDragon" : {
 		"graphics" : {
 			"map" : "hota/dungeon/adventureMap/creatures/AVWddrx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	}
 }
