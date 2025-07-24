@@ -13,8 +13,7 @@
 			"Fix Fangarm spell"
 		]
 	},
-	"depends" : [
-	],
+	"depends" : [],
 
 	"chinese" : {
 		"name" : "中立生物",
@@ -40,7 +39,7 @@
 	],
 	"spells" : [
 		"config/artiSpells/HornSpell"
-	],	
+	],
 	"polish" : {
 		"name" : "Neutralne jednostki",
 		"description" : "Dodaje nowe jednostki neutralne: Fangarm, Leprekaun, Satyr, Stalowy Golem"

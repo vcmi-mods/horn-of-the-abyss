@@ -46,8 +46,8 @@
 					"directDamage" : {
 						"type" : "core:damage",
 						"killByCount" : true
-//						"val" : 1,						
-//						"valueType" : "INDEPENDENT_MIN"
+						//						"val" : 1,
+						//						"valueType" : "INDEPENDENT_MIN"
 					}
 				}
 			},

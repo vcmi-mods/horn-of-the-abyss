@@ -43,13 +43,13 @@
 					"smart" : true
 				},
 				"cost" : 0,
-				"power" : 10				
+				"power" : 10
 			},
 			"none" : {
 				"description" : "grenades"
 			},
 			"basic" : {
-				"description" : "grenades",
+				"description" : "grenades"
 			},
 			"advanced" : {
 				"description" : "grenades"

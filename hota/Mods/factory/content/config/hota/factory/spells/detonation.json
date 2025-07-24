@@ -41,7 +41,7 @@
 			"base" : {
 				"range" : "0-2",
 				"cost" : 0,
-				"power" : 40,				
+				"power" : 40,
 				"battleEffects" : {
 					"directDamage" : {
 						"type" : "core:damage",

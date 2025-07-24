@@ -231,7 +231,7 @@
 			"expert" : {
 				"description" : "lower meditations",
 				"cost" : 5,
-				
+
 				"effects" : {
 					"notActive" : {
 						"val" : 0,

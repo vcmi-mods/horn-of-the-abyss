@@ -43,8 +43,8 @@
 				"battleEffects" : {
 					"directDamage" : {
 						"type" : "core:damage"
-//						"val" : 0,
-//						"valueType" : "INDEPENDENT_MIN"
+						//						"val" : 0,
+						//						"valueType" : "INDEPENDENT_MIN"
 					}
 				},
 				"targetModifier" : {
