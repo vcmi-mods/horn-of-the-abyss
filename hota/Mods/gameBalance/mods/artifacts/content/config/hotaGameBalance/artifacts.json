@@ -1,19 +1,17 @@
 {
-	"core:amuletOfTheUndertaker":
-	{
+	"core:amuletOfTheUndertaker" : {
 		"text" : {
 			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
 		},
 		"bonuses" : {
 			"necromancy" : {
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 3,                        // NOTE: should be 2.5%
+				"val" : 3, // NOTE: should be 2.5%
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		}
 	},
-	"core:vampiresCowl":
-	{
+	"core:vampiresCowl" : {
 		"text" : {
 			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
 		},
@@ -25,21 +23,19 @@
 			}
 		}
 	},
-	"core:deadMansBoots":
-	{
+	"core:deadMansBoots" : {
 		"text" : {
 			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
 		},
 		"bonuses" : {
 			"necromancy" : {
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 7,                       // NOTE: should be 7.5%
+				"val" : 7, // NOTE: should be 7.5%
 				"valueType" : "ADDITIVE_VALUE"
 			}
 		}
 	},
-	"core:bootsOfSpeed":
-	{
+	"core:bootsOfSpeed" : {
 		"bonuses" : {
 			"movement" : {
 				"type" : "MOVEMENT",
@@ -49,8 +45,7 @@
 			}
 		}
 	},
-	"core:equestriansGloves":
-	{
+	"core:equestriansGloves" : {
 		"bonuses" : {
 			"movement" : {
 				"type" : "MOVEMENT",
@@ -60,8 +55,7 @@
 			}
 		}
 	},
-	"core:badgeOfCourage":
-	{
+	"core:badgeOfCourage" : {
 		"bonuses" : {
 			"morale" : {
 				"type" : "MORALE",
@@ -70,23 +64,21 @@
 			}
 		}
 	},
-	"core:cloakOfTheUndeadKing":
-	{
+	"core:cloakOfTheUndeadKing" : {
 		"text" : {
 			"description" : "{Cloak of the Undead King}\n\n15% of battlefield dead are resurrected as Skeletons.  If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.\nBasic: Zombies\nAdvanced: Wights\nExpert:\nLiches"
 		}
 	},
-	"core:angelicAlliance": 
-	{
+	"core:angelicAlliance" : {
 		"bonuses" : {
 			"evilPenalty" : {
 				"type" : "MORALE",
 				"val" : -1,
 				"valueType" : "BASE_NUMBER",
-				"limiters": [
+				"limiters" : [
 					{
-						"type":"CREATURE_ALIGNMENT_LIMITER",
-						"alignment": "evil"
+						"type" : "CREATURE_ALIGNMENT_LIMITER",
+						"alignment" : "evil"
 					}
 				]
 			}

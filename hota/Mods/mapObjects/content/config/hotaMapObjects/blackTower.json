@@ -1,99 +1,162 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"blackTower" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"blackTower" : {
 				"name" : "Black Tower",
-//				"regularUnitPlacement" : true,
+				//				"regularUnitPlacement" : true,
 				"blockedVisitable" : false,
 				"onGuardedMessage" : "You stand in front of a dragon's dwelling. The vicious creature is terrorising the surrounding lands. Would you like to battle it?",
 				"onVisitedMessage" : "A dragon once lived in this tower, however now it is empty and holds nothing of interest.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankBlackTower",
-				"templates" :
-				{
-
-					"normal" :
-					{
+				"templates" : {
+					"normal" : {
 						"animation" : "hota/banks/avblktgr.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAV"
+						]
 					},
-					"grass" :
-					{
+					"grass" : {
 						"animation" : "hota/banks/avblktgr.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
-						"allowedTerrains":["grass", "swamp"] 
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAV"
+						],
+						"allowedTerrains" : [
+							"grass",
+							"swamp"
+						]
 					},
-					"snow" :
-					{
+					"snow" : {
 						"animation" : "hota/banks/avblktsn.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VVVV", "VVAV"],
-						"allowedTerrains":["snow"] 
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVVV",
+							"VVAV"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/BLCKTWRL.wav"],
-					"visit": ["hota/BLCKTWRS.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/BLCKTWRL.wav"
+					],
+					"visit" : [
+						"hota/BLCKTWRS.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 1500,
-					"rarity"	: 100
+					"value" : 1500,
+					"rarity" : 100
 				},
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 1, "type" : "greenDragon" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 1,
+								"type" : "greenDragon"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 2000
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 1, "type" : "redDragon" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 1,
+								"type" : "redDragon"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 2250
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 1, "type" : "goldDragon" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 1,
+								"type" : "goldDragon"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 3500
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 1, "type" : "blackDragon" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 1,
+								"type" : "blackDragon"
+							}
 						],
-						"resources": 
-						{
+						"resources" : {
 							"gold" : 3750
 						},
-						"artifacts": [ { "class" : "MINOR" } ]
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						]
 					}
 				]
 			}

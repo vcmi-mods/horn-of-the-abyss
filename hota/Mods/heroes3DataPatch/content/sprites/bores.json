@@ -1,50 +1,50 @@
 {
 	"basepath" : "bores/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "bores0.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "bores1.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "bores2.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "bores3.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "bores4.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "bores5.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "bores6.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "bores7.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "bores8.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "bores0.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "bores1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "bores2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "bores3.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "bores4.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "bores5.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "bores6.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "bores7.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "bores8.png"
+		}
+	]
 }

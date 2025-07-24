@@ -2,13 +2,18 @@
 	"name" : "Heroes III data patch",
 	"description" : "Fixes & improvements to graphics and sounds for some of SoD game assets.",
 	"modType" : "Graphical",
-	"author": "Graphics and sounds: HotA Crew, mod: Kuririn & avatar",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "Graphics and sounds: HotA Crew, mod: Kuririn & avatar",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.6",
 	"changelog" : {
-		"1.3.6"   : [ "Added all changed sounds" ]
+		"1.3.6" : [
+			"Added all changed sounds"
+		]
 	},
-	"depends" : [ "hota.mapdecorations", "hota.highlandsterrain" ],
+	"depends" : [
+		"hota.mapdecorations",
+		"hota.highlandsterrain"
+	],
 	"conflicts" : [
 		"hd_version"
 	],
@@ -28,8 +33,8 @@
 		"description" : "修复改进一些死亡阴影图像和声音资源。"
 	},
 	"czech" : {
-		"name": "Oprava grafiky pro Heroes 3",
-		"description": "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
+		"name" : "Oprava grafiky pro Heroes 3",
+		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
 	},
 	"factions" : [
 		"config/heroes3DataPatch/confluxTerrain.json",

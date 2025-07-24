@@ -26,25 +26,24 @@
 			"max" : 8,
 			"min" : 3
 		},
-		"abilities" :
-		{
-			"dragonNature" :
-			{
+		"abilities" : {
+			"dragonNature" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"revenger" :
-			{
-				"type": "REVENGE"
+			"revenger" : {
+				"type" : "REVENGE"
 			},
-			"poisonous" :
-			{
+			"poisonous" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 50,
-				"addInfo" : [0, 2]
+				"addInfo" : [
+					0,
+					2
+				]
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
 			}
@@ -53,7 +52,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/haspid.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/haspid.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWHASPI.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/chaspid.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -71,7 +73,9 @@
 		},
 		"stackExperience" : [
 			{
-				"bonus" : { "type" : "HP_REGENERATION" },
+				"bonus" : {
+					"type" : "HP_REGENERATION"
+				},
 				"values" : [
 					15,
 					30,
@@ -86,7 +90,9 @@
 				]
 			},
 			{
-				"bonus" : { "type" : "JOUSTING" },
+				"bonus" : {
+					"type" : "JOUSTING"
+				},
 				"values" : [
 					false,
 					false,

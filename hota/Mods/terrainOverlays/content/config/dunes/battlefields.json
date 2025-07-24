@@ -1,13 +1,13 @@
 {
-	"dunes": {
-		"graphics": "CmBkDun.BMP",
+	"dunes" : {
+		"graphics" : "CmBkDun.BMP",
 		"isSpecial" : true,
-		"bonuses": [
+		"bonuses" : [
 			{
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "quicksand",
 				"val" : 4,
-				"propagator": "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE"
 			}
 		]
 	}

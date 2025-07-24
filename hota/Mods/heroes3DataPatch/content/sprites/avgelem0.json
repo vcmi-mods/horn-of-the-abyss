@@ -1,45 +1,45 @@
 {
-    "basepath": "avgelem0/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "avgelem0A000.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "avgelem0A001.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "avgelem0A002.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "avgelem0A003.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "avgelem0A004.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "avgelem0A005.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "avgelem0A006.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "avgelem0A007.png"
-        }
-    ]
+	"basepath" : "avgelem0/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "avgelem0A000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "avgelem0A001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "avgelem0A002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "avgelem0A003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "avgelem0A004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "avgelem0A005.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "avgelem0A006.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "avgelem0A007.png"
+		}
+	]
 }

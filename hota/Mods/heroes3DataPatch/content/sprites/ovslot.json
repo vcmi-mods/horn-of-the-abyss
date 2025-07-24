@@ -1,40 +1,40 @@
 {
 	"basepath" : "ovslot/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "KovCSlt1.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "KovCSlt2.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "KovCSlt3.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "KovCSlt4.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "HeroOvrw.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "HeroOvr2.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "OVSlotC.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "KovCSlt1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "KovCSlt2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "KovCSlt3.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "KovCSlt4.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "HeroOvrw.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "HeroOvr2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "OVSlotC.png"
+		}
+	]
 }

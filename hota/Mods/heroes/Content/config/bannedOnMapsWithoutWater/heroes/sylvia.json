@@ -1,6 +1,5 @@
 {
-	"core:sylvia":
-	{
+	"core:sylvia" : {
 		"onlyOnWaterMap" : true
 	}
 }

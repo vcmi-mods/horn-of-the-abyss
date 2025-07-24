@@ -1,6 +1,8 @@
 {
 	"hollowEye" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 7500,
@@ -29,7 +31,9 @@
 		}
 	},
 	"greatBattleBow" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "MAJOR",
 		"value" : 7500,
@@ -62,7 +66,9 @@
 		}
 	},
 	"fangOfTheLastScream" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 7500,
@@ -92,7 +98,11 @@
 	},
 	"greatWoeOfTheCrawlers" : {
 		"class" : "RELIC",
-		"components" : [ "fangOfTheLastScream", "greatBattleBow", "hollowEye" ],
+		"components" : [
+			"fangOfTheLastScream",
+			"greatBattleBow",
+			"hollowEye"
+		],
 		"graphics" : {
 			"image" : "hota/supplementary/artifacts/crawler",
 			"map" : "hota/supplementary/artifacts/crawlerMap",
@@ -104,8 +114,7 @@
 			"event" : "The sharp claws sticking out of the ground make you think it is the remains of some beast, but when you get closer, you find the Great Woe of the Crawlers.",
 			"name" : "Great Woe of the Crawlers"
 		},
-		"bonuses":
-		{
+		"bonuses" : {
 			"skill1" : {
 				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
@@ -130,22 +139,34 @@
 				"val" : 3,
 				"valueType" : "BASE_NUMBER"
 			},
-			"skill5" : { 
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageBoth",
-					"valueType" : "PERCENT_TO_BASE",
-					"val" : 30,
-					"limiters": [ {"type": "FACTION_LIMITER","faction" : "fortress"} ]
+			"skill5" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"valueType" : "PERCENT_TO_BASE",
+				"val" : 30,
+				"limiters" : [
+					{
+						"type" : "FACTION_LIMITER",
+						"faction" : "fortress"
+					}
+				]
 			},
 			"skill6" : {
 				"type" : "STACKS_SPEED",
 				"val" : 2,
 				"valueType" : "BASE_NUMBER",
-				"limiters": [ {"type": "FACTION_LIMITER", "faction" : "fortress"} ]
+				"limiters" : [
+					{
+						"type" : "FACTION_LIMITER",
+						"faction" : "fortress"
+					}
+				]
 			}
 		},
 
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"value" : 10000
 	}
 }

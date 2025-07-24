@@ -1,41 +1,37 @@
 {
-	"automaton":
-	{
-		"name" :
-		{
+	"automaton" : {
+		"name" : {
 			"plural" : "Automatons",
 			"singular" : "Automaton"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 20,
-			 "min" : 10
+		"advMapAmount" : {
+			"max" : 20,
+			"min" : 10
 		},
 		"faction" : "factory",
 		"doubleWide" : true,
 		"aiValue" : 574,
 		"attack" : 12,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 350
 		},
-		"damage" :
-		{
-			 "max" : 7,
-			 "min" : 7
+		"damage" : {
+			"max" : 7,
+			"min" : 7
 		},
 		"defense" : 10,
 		"fightValue" : 553,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "hota/factory/creatures/battle/CAUTO2.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWauto.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS007F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL007F.bmp",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS007F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL007F.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,
 				"idle" : 10
@@ -44,37 +40,33 @@
 		"growth" : 5,
 		"hitPoints" : 30,
 		"level" : 4,
-		"upgrades": [ "sentinelAutomaton" ],
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/automaton/AUTOATTK.wav",
-			"defend": "hota/factory/creatures/automaton/AUTODFND.wav",
-			"killed": "hota/factory/creatures/automaton/AUTOKILL.wav",
-			"move": "hota/factory/creatures/automaton/AUTOMOVE.wav",
-			"wince": "hota/factory/creatures/automaton/AUTOWNCE.wav",
+		"upgrades" : [
+			"sentinelAutomaton"
+		],
+		"sound" : {
+			"attack" : "hota/factory/creatures/automaton/AUTOATTK.wav",
+			"defend" : "hota/factory/creatures/automaton/AUTODFND.wav",
+			"killed" : "hota/factory/creatures/automaton/AUTOKILL.wav",
+			"move" : "hota/factory/creatures/automaton/AUTOMOVE.wav",
+			"wince" : "hota/factory/creatures/automaton/AUTOWNCE.wav",
 			"shoot" : "hota/factory/creatures/automaton/AUTOSHOT.wav"
 		},
 		"speed" : 8,
-		"abilities" :
-		{
-			"mechanical": 
-			{
-				"type": "MECHANICAL"
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
 			},
-			"castsymMeditation" :
-			{
+			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "detonates01",
 				"val" : 0
 			},
-			"healPower" : 
-			{
+			"healPower" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "detonates01",
 				"val" : 25
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1
 			}

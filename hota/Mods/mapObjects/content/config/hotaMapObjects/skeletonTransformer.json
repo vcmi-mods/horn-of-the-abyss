@@ -1,27 +1,43 @@
 {
 	"skeletonTransformer" : {
-		"handler":"market",
+		"handler" : "market",
 		"name" : "Skeleton Transformer",
 		"types" : {
 			"skeletonTransformer" : {
 				"rmg" : {
-					"value"	: 500,
+					"value" : 500,
 					"rarity" : 15,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["MYSTERY"]
+					"visit" : [
+						"MYSTERY"
+					]
 				},
-				"modes" : ["creature-undead"],
+				"modes" : [
+					"creature-undead"
+				],
 				"efficiency" : 5,
 				"templates" : {
-					"AVXsktrs" : { "animation" : "hota/skeletonTransformer/AVXsktrs", 
-						"mask" : [ "VVV", "VVV", "VBA" ], 
-						"visitableFrom" : [ "---", "--+", "+++" ],
-						"allowedTerrains": [ "subterra", "dirt"]
+					"AVXsktrs" : {
+						"animation" : "hota/skeletonTransformer/AVXsktrs",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"--+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"subterra",
+							"dirt"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

@@ -1,32 +1,26 @@
 {
-	"11celestine" :
-	{
-    "class": "artificer",
-    "female" : true,
-		
-		"texts" :
-		{
+	"11celestine" : {
+		"class" : "artificer",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Celestine",
 			"biography" : "The AvLeean druid who had lost his grove traversed the wold, imparting knowledge on anyone who sought it. He left the secrets of natural magic and his daughter Mirlanda in Tatalia, whilst in Eeofol, Celestine was born, inheriting another facet of his talent. Her father taught her how to tame the most violent beasts, offering them friendship, rather than the Tatalian beastmasters' trademark ruthless treatment.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Armadillos",
 				"description" : "Increases Speed of any Armadillos or Bellwether Armadillos by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up)."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/celestine/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/celestine/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/celestine/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/celestine/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -43,12 +37,10 @@
 				"min" : 4
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,10 +50,9 @@
 				"skill" : "pathfinding"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hota.factory:armadillo"
 		}
 	}
 }
-

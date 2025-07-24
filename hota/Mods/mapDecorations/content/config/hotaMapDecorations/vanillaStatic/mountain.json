@@ -3,85 +3,223 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"grsmnt00" : { "animation" : "hota/mountains/grsmnt00", 
-						"mask" : [ "VVBBBV","VBBBBB","VBBBBB","VBBBVV" ],
-						"allowedTerrains": ["grass" ]
-					},											
-					"grsmnt01" : { "animation" : "hota/mountains/grsmnt01", 
-						"mask" : [ "VBBBBV","VBBBBB","VBBBBB","VVVBBB" ],
-						"allowedTerrains": ["grass" ]
-					},					
-					"grsmnt02" : { "animation" : "hota/mountains/grsmnt02", 
-						"mask" : [ "VVBB","VBBB","VBBV" ],
-						"allowedTerrains": ["grass" ]
-					},					
-					"grsmnt03" : { "animation" : "hota/mountains/grsmnt03", 
-						"mask" : [ "VBBV", "VBBB","VVBB" ],
-						"allowedTerrains": ["grass" ]
-					},					
-					"grsmnt05" : { "animation" : "hota/mountains/grsmnt05", 
-						"mask" : [ "VBBB","VVBB" ],
-						"allowedTerrains": ["grass" ]
-					},				
-					"grsmnt04" : { "animation" : "hota/mountains/grsmnt04", 
-						"mask" : [ "VVBB","VBBV" ],
-						"allowedTerrains": ["grass" ]
-					},	
-					
-					"MNTSWP01" : { "animation" : "hota/mountains/MNTSWP01", 
-						"mask" : [ "VVVV", "VBBV","VVBB" ],
-						"allowedTerrains": [ "swamp" ]
-					},					
-					"MNTSWP02" : { "animation" : "hota/mountains/MNTSWP02", 
-						"mask" : [ "VVVV","VVBB","VBBV" ],
-						"allowedTerrains": [ "swamp" ]
-					},				
-					"MNTSWP03" : { "animation" : "hota/mountains/MNTSWP03", 
-						"mask" : [ "VVVV", "VBBB","VVBB" ],
-						"allowedTerrains": [ "swamp" ]
+					"grsmnt00" : {
+						"animation" : "hota/mountains/grsmnt00",
+						"mask" : [
+							"VVBBBV",
+							"VBBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"MNTSWP04" : { "animation" : "hota/mountains/MNTSWP04", 
-						"mask" : [ "VVVV","VBBB","VBBV" ],
-						"allowedTerrains": [ "swamp" ]
-					},				
-					"MNTSWP05" : { "animation" : "hota/mountains/MNTSWP05", 
-						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ],
-						"allowedTerrains": [ "swamp" ]
-					},										
-					"MNTSWP06" : { "animation" : "hota/mountains/MNTSWP06", 
-						"mask" : [ "VVVVV","VBBBBV","VBBBBB","VVVBBB" ],
-						"allowedTerrains": [ "swamp" ]
+					"grsmnt01" : {
+						"animation" : "hota/mountains/grsmnt01",
+						"mask" : [
+							"VBBBBV",
+							"VBBBBB",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"AvLMtFr1" : { "animation" : "hota/mountains/AvLMtFr1", 
-						"mask" : [ "VVVVVV","VVBBBB","VBBBBB","VBBBVV" ],
-						"allowedTerrains": [ "lava" ]
+					"grsmnt02" : {
+						"animation" : "hota/mountains/grsmnt02",
+						"mask" : [
+							"VVBB",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"AvLMtFr2" : { "animation" : "hota/mountains/AvLMtFr2", 
-						"mask" : [ "VVVVVV","VBBBBV","VBBBBB","VVVBBB" ],
-						"allowedTerrains": [ "lava" ]
+					"grsmnt03" : {
+						"animation" : "hota/mountains/grsmnt03",
+						"mask" : [
+							"VBBV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"AvLMtFr3" : { "animation" : "hota/mountains/AvLMtFr3", 
-						"mask" : [ "VVVV","VBBB","VBBV" ],
-						"allowedTerrains": [ "lava" ]
+					"grsmnt05" : {
+						"animation" : "hota/mountains/grsmnt05",
+						"mask" : [
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"AvLMtFr4" : { "animation" : "hota/mountains/AvLMtFr4", 
-						"mask" : [ "VVVV","VBBB","VVBB" ],
-						"allowedTerrains": [ "lava" ]
+					"grsmnt04" : {
+						"animation" : "hota/mountains/grsmnt04",
+						"mask" : [
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
 					},
-					"AvLMtFr5" : { "animation" : "hota/mountains/AvLMtFr5", 
-						"mask" : [ "VVVV","VVBB","VBBV" ],
-						"allowedTerrains": [ "lava" ]
+
+					"MNTSWP01" : {
+						"animation" : "hota/mountains/MNTSWP01",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					},
-					"AvLMtFr6" : { "animation" : "hota/mountains/AvLMtFr6", 
-						"mask" : [ "VVVV","VBBV","VVBB" ],
-						"allowedTerrains": [ "lava" ]
+					"MNTSWP02" : {
+						"animation" : "hota/mountains/MNTSWP02",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					},
-					"AvLMtFr7" : { "animation" : "hota/mountains/AvLMtFr7", 
-						"mask" : [ "VVVV","VVVV","VBBB","VBBB" ],
-						"allowedTerrains": [ "lava" ]
-					}				
+					"MNTSWP03" : {
+						"animation" : "hota/mountains/MNTSWP03",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"MNTSWP04" : {
+						"animation" : "hota/mountains/MNTSWP04",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"MNTSWP05" : {
+						"animation" : "hota/mountains/MNTSWP05",
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"MNTSWP06" : {
+						"animation" : "hota/mountains/MNTSWP06",
+						"mask" : [
+							"VVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
+					},
+					"AvLMtFr1" : {
+						"animation" : "hota/mountains/AvLMtFr1",
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr2" : {
+						"animation" : "hota/mountains/AvLMtFr2",
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr3" : {
+						"animation" : "hota/mountains/AvLMtFr3",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr4" : {
+						"animation" : "hota/mountains/AvLMtFr4",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr5" : {
+						"animation" : "hota/mountains/AvLMtFr5",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr6" : {
+						"animation" : "hota/mountains/AvLMtFr6",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"AvLMtFr7" : {
+						"animation" : "hota/mountains/AvLMtFr7",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBBB",
+							"VBBB"
+						],
+						"allowedTerrains" : [
+							"lava"
+						]
+					}
 				}
 			}
-		}	
-	}	
+		}
+	}
 }

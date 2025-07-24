@@ -1,13 +1,11 @@
 {
 	"basepath" : "hota/wasteland/tiles/",
- 
-	"sequences" :
-	[
+
+	"sequences" : [
 		{
 			"group" : 0,
- 
-			"frames" :
-			[
+
+			"frames" : [
 				"wstlt000.png",
 				"wstlt001.png",
 				"wstlt002.png",

@@ -1,455 +1,455 @@
 {
 	"basepath" : "secsk82/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "skl8200.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "skl8200.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "skl8200.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "skl8212a.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "skl8212b.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "skl8212c.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "skl8201a.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "skl8201b.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "skl8201c.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "skl8207a.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "skl8207b.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "skl8207c.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "skl8213a.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "skl8213b.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "skl8213c.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "skl8203a.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "skl8203b.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "skl8203c.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "skl8210a.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "skl8210b.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "skl8210c.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "skl8206a.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "skl8206b.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "skl8206c.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "skl8214a.png"
-        },
-        {
-            "group": 0,
-            "frame": 25,
-            "file": "skl8214b.png"
-        },
-        {
-            "group": 0,
-            "frame": 26,
-            "file": "skl8214c.png"
-        },
-        {
-            "group": 0,
-            "frame": 27,
-            "file": "skl8209a.png"
-        },
-        {
-            "group": 0,
-            "frame": 28,
-            "file": "skl8209b.png"
-        },
-        {
-            "group": 0,
-            "frame": 29,
-            "file": "skl8209c.png"
-        },
-        {
-            "group": 0,
-            "frame": 30,
-            "file": "skl8208a.png"
-        },
-        {
-            "group": 0,
-            "frame": 31,
-            "file": "skl8208b.png"
-        },
-        {
-            "group": 0,
-            "frame": 32,
-            "file": "skl8208c.png"
-        },
-        {
-            "group": 0,
-            "frame": 33,
-            "file": "skl8202a.png"
-        },
-        {
-            "group": 0,
-            "frame": 34,
-            "file": "skl8202b.png"
-        },
-        {
-            "group": 0,
-            "frame": 35,
-            "file": "skl8202c.png"
-        },
-        {
-            "group": 0,
-            "frame": 36,
-            "file": "skl8204a.png"
-        },
-        {
-            "group": 0,
-            "frame": 37,
-            "file": "skl8204b.png"
-        },
-        {
-            "group": 0,
-            "frame": 38,
-            "file": "skl8204c.png"
-        },
-        {
-            "group": 0,
-            "frame": 39,
-            "file": "skl8211a.png"
-        },
-        {
-            "group": 0,
-            "frame": 40,
-            "file": "skl8211b.png"
-        },
-        {
-            "group": 0,
-            "frame": 41,
-            "file": "skl8211c.png"
-        },
-        {
-            "group": 0,
-            "frame": 42,
-            "file": "skl8205a.png"
-        },
-        {
-            "group": 0,
-            "frame": 43,
-            "file": "skl8205b.png"
-        },
-        {
-            "group": 0,
-            "frame": 44,
-            "file": "skl8205c.png"
-        },
-        {
-            "group": 0,
-            "frame": 45,
-            "file": "skl8215a.png"
-        },
-        {
-            "group": 0,
-            "frame": 46,
-            "file": "skl8215b.png"
-        },
-        {
-            "group": 0,
-            "frame": 47,
-            "file": "skl8215c.png"
-        },
-        {
-            "group": 0,
-            "frame": 48,
-            "file": "skl8216a.png"
-        },
-        {
-            "group": 0,
-            "frame": 49,
-            "file": "skl8216b.png"
-        },
-        {
-            "group": 0,
-            "frame": 50,
-            "file": "skl8216c.png"
-        },
-        {
-            "group": 0,
-            "frame": 51,
-            "file": "skl8217a.png"
-        },
-        {
-            "group": 0,
-            "frame": 52,
-            "file": "skl8217b.png"
-        },
-        {
-            "group": 0,
-            "frame": 53,
-            "file": "skl8217c.png"
-        },
-        {
-            "group": 0,
-            "frame": 54,
-            "file": "skl8218a.png"
-        },
-        {
-            "group": 0,
-            "frame": 55,
-            "file": "skl8218b.png"
-        },
-        {
-            "group": 0,
-            "frame": 56,
-            "file": "skl8218c.png"
-        },
-        {
-            "group": 0,
-            "frame": 57,
-            "file": "skl8219a.png"
-        },
-        {
-            "group": 0,
-            "frame": 58,
-            "file": "skl8219b.png"
-        },
-        {
-            "group": 0,
-            "frame": 59,
-            "file": "skl8219c.png"
-        },
-        {
-            "group": 0,
-            "frame": 60,
-            "file": "skl8220a.png"
-        },
-        {
-            "group": 0,
-            "frame": 61,
-            "file": "skl8220b.png"
-        },
-        {
-            "group": 0,
-            "frame": 62,
-            "file": "skl8220c.png"
-        },
-        {
-            "group": 0,
-            "frame": 63,
-            "file": "skl8221a.png"
-        },
-        {
-            "group": 0,
-            "frame": 64,
-            "file": "skl8221b.png"
-        },
-        {
-            "group": 0,
-            "frame": 65,
-            "file": "skl8221c.png"
-        },
-        {
-            "group": 0,
-            "frame": 66,
-            "file": "skl8222a.png"
-        },
-        {
-            "group": 0,
-            "frame": 67,
-            "file": "skl8222b.png"
-        },
-        {
-            "group": 0,
-            "frame": 68,
-            "file": "skl8222c.png"
-        },
-        {
-            "group": 0,
-            "frame": 69,
-            "file": "skl8223a.png"
-        },
-        {
-            "group": 0,
-            "frame": 70,
-            "file": "skl8223b.png"
-        },
-        {
-            "group": 0,
-            "frame": 71,
-            "file": "skl8223c.png"
-        },
-        {
-            "group": 0,
-            "frame": 72,
-            "file": "skl8224a.png"
-        },
-        {
-            "group": 0,
-            "frame": 73,
-            "file": "skl8224b.png"
-        },
-        {
-            "group": 0,
-            "frame": 74,
-            "file": "skl8224c.png"
-        },
-        {
-            "group": 0,
-            "frame": 75,
-            "file": "skl8225a.png"
-        },
-        {
-            "group": 0,
-            "frame": 76,
-            "file": "skl8225b.png"
-        },
-        {
-            "group": 0,
-            "frame": 77,
-            "file": "skl8225c.png"
-        },
-        {
-            "group": 0,
-            "frame": 78,
-            "file": "skl8226a.png"
-        },
-        {
-            "group": 0,
-            "frame": 79,
-            "file": "skl8226b.png"
-        },
-        {
-            "group": 0,
-            "frame": 80,
-            "file": "skl8226c.png"
-        },
-        {
-            "group": 0,
-            "frame": 81,
-            "file": "skl8227a.png"
-        },
-        {
-            "group": 0,
-            "frame": 82,
-            "file": "skl8227b.png"
-        },
-        {
-            "group": 0,
-            "frame": 83,
-            "file": "skl8227c.png"
-        },
-        {
-            "group": 0,
-            "frame": 84,
-            "file": "skl8228a.png"
-        },
-        {
-            "group": 0,
-            "frame": 85,
-            "file": "skl8228b.png"
-        },
-        {
-            "group": 0,
-            "frame": 86,
-            "file": "skl8228c.png"
-        },
-        {
-            "group": 0,
-            "frame": 87,
-            "file": "intf82_1.png"
-        },
-        {
-            "group": 0,
-            "frame": 88,
-            "file": "intf82_2.png"
-        },
-        {
-            "group": 0,
-            "frame": 89,
-            "file": "intf82_3.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "skl8200.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "skl8200.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "skl8200.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "skl8212a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "skl8212b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "skl8212c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "skl8201a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "skl8201b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "skl8201c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "skl8207a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "skl8207b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "skl8207c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "skl8213a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "skl8213b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "skl8213c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "skl8203a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "skl8203b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "skl8203c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "skl8210a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "skl8210b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "skl8210c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "skl8206a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "skl8206b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "skl8206c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "skl8214a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "skl8214b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "skl8214c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "skl8209a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "skl8209b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 29,
+			"file" : "skl8209c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 30,
+			"file" : "skl8208a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 31,
+			"file" : "skl8208b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 32,
+			"file" : "skl8208c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 33,
+			"file" : "skl8202a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 34,
+			"file" : "skl8202b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 35,
+			"file" : "skl8202c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 36,
+			"file" : "skl8204a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 37,
+			"file" : "skl8204b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 38,
+			"file" : "skl8204c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 39,
+			"file" : "skl8211a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 40,
+			"file" : "skl8211b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 41,
+			"file" : "skl8211c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 42,
+			"file" : "skl8205a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 43,
+			"file" : "skl8205b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 44,
+			"file" : "skl8205c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 45,
+			"file" : "skl8215a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 46,
+			"file" : "skl8215b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 47,
+			"file" : "skl8215c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 48,
+			"file" : "skl8216a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 49,
+			"file" : "skl8216b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 50,
+			"file" : "skl8216c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 51,
+			"file" : "skl8217a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 52,
+			"file" : "skl8217b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 53,
+			"file" : "skl8217c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 54,
+			"file" : "skl8218a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 55,
+			"file" : "skl8218b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 56,
+			"file" : "skl8218c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 57,
+			"file" : "skl8219a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 58,
+			"file" : "skl8219b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 59,
+			"file" : "skl8219c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 60,
+			"file" : "skl8220a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 61,
+			"file" : "skl8220b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 62,
+			"file" : "skl8220c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 63,
+			"file" : "skl8221a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 64,
+			"file" : "skl8221b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 65,
+			"file" : "skl8221c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 66,
+			"file" : "skl8222a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 67,
+			"file" : "skl8222b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 68,
+			"file" : "skl8222c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 69,
+			"file" : "skl8223a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 70,
+			"file" : "skl8223b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 71,
+			"file" : "skl8223c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 72,
+			"file" : "skl8224a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 73,
+			"file" : "skl8224b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 74,
+			"file" : "skl8224c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 75,
+			"file" : "skl8225a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 76,
+			"file" : "skl8225b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 77,
+			"file" : "skl8225c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 78,
+			"file" : "skl8226a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 79,
+			"file" : "skl8226b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 80,
+			"file" : "skl8226c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 81,
+			"file" : "skl8227a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 82,
+			"file" : "skl8227b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 83,
+			"file" : "skl8227c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 84,
+			"file" : "skl8228a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 85,
+			"file" : "skl8228b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 86,
+			"file" : "skl8228c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 87,
+			"file" : "intf82_1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 88,
+			"file" : "intf82_2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 89,
+			"file" : "intf82_3.png"
+		}
+	]
 }

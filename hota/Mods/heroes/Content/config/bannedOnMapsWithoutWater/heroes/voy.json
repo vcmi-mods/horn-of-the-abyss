@@ -1,6 +1,5 @@
 {
-	"core:voy":
-	{
+	"core:voy" : {
 		"onlyOnWaterMap" : true
 	}
 }

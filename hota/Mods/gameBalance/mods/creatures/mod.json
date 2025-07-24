@@ -2,14 +2,14 @@
 	"name" : "Creatures",
 	"description" : "",
 	"modType" : "Mechanics",
-	"author": "Kuririn, avatar, wnukos",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "Kuririn, avatar, wnukos",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.11",
-	
+
 	"creatures" : [
 		"config/hotaGameBalance/creatures.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "Creatures",
 		"description" : ""

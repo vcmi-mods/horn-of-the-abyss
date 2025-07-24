@@ -1,33 +1,27 @@
 {
-	"19frederick" :
-	{
-    "class": "artificer",
-    "female" : false,
-	"special": true,
-		
-		"texts" :
-		{
+	"19frederick" : {
+		"class" : "artificer",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Frederick",
 			"biography" : "Frederick has been living the life of an ordinary Bracadian mage and alchemist, even if he has been a bit more curious than his fellows. Such curiosity made him experiment with mechanisms first, and then conduct forbidden research. As a result, Frederick had to flee from Bracada, and now he searches for a better place to devote himself to what he wants.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Automatons",
 				"description" : "Increases damage dealt by explosion of Automatons and Sentinel Automatons by 5% for every level (rounded up)."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/frederick/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/frederick/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/frederick/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/frederick/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "automaton",
 				"max" : 5,
@@ -44,12 +38,10 @@
 				"min" : 3
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"haste"
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -59,10 +51,9 @@
 				"skill" : "intelligence"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hota.factory:automaton"
-		}	
+		}
 	}
 }
-

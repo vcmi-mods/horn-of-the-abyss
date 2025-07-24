@@ -2,22 +2,42 @@
 	"core:mine" : {
 		"types" : {
 			"crystalCavern" : {
-				"templates": {
+				"templates" : {
 					"AVMcrhl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMcrhl1",
-						"mask" : ["VVVV","VVVV","VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
 			"goldMine" : {
-				"templates": {
+				"templates" : {
 					"AVMgohl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMgohl1",
-						"mask" : ["VVVV","VVVV","VBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
@@ -25,9 +45,19 @@
 				"templates" : {
 					"AVMswhl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMswhl1",
-						"mask" : ["VVVVV", "VVVBB", "VBBAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"VVVVV",
+							"VVVBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
@@ -35,9 +65,19 @@
 				"templates" : {
 					"AVMalhl0h" : {
 						"animation" : "AVMalch0", // standard graphic
-						"mask" : ["VVV", "VVV", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
@@ -45,19 +85,37 @@
 				"templates" : {
 					"AVMORhl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMORhl1",
-						"mask" : ["BBB", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
 			"sulfurDune" : {
 				"templates" : {
 					"AVMsuhl0" : {
-						"animation" : "AVMsulf0",  // standard graphic
-						"mask" : ["VVV", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"animation" : "AVMsulf0", // standard graphic
+						"mask" : [
+							"VVV",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			},
@@ -65,12 +123,21 @@
 				"templates" : {
 					"AVMgehl1" : {
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVMgehl1",
-						"mask" : ["BBB", "BAB"],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains" : ["highlands"]
+						"mask" : [
+							"BBB",
+							"BAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}
 		}
 	}
-}	
+}

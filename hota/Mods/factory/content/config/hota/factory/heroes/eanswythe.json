@@ -1,32 +1,26 @@
 {
-	"18eanswythe" :
-	{
-    "class": "artificer",
-    "female" : true,
-		
-		"texts" :
-		{
+	"18eanswythe" : {
+		"class" : "artificer",
+		"female" : true,
+
+		"texts" : {
 			"name" : "Eanswythe",
 			"biography" : "According to hearsay, it was Eanswythe who concocted the potion that poisoned Regna's first emperor Hareck before fleeing for Jadame. If that is indeed the case, then she must be at least 6 centuries old. Ordinary people don't live that long, and whoever his enigmatic crone is, everyone knows: she merely has to raise an eyebrow to make even those most formidable solders drop their swords and spears.",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Weakness",
 				"description" : "Casts Weakness with effect increased by 3 for 1-2 level creatures, by 2 for 3-4 level creatures, and by 1 for 5-6 level creatures."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/eanswythe/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/eanswythe/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/eanswythe/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/eanswythe/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -43,12 +37,10 @@
 				"min" : 4
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"weakness"
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -58,7 +50,7 @@
 				"skill" : "estates"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"weakness" : {
@@ -67,7 +59,6 @@
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
-		}	
+		}
 	}
 }
-

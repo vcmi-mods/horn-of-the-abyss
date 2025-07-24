@@ -1,53 +1,74 @@
 {
-	"seaBarrel"	: {
+	"seaBarrel" : {
 		"name" : "Sea Barrel",
-		"handler": "configurable",
+		"handler" : "configurable",
 		"types" : {
 			"seaBarrel" : {
-				"name":"Sea Barrel",
+				"name" : "Sea Barrel",
 				"rmg" : {
-					"value"		: 500,
-					"rarity"	: 400
+					"value" : 500,
+					"rarity" : 400
 				},
 				"sounds" : {
-					"visit" : ["GENIE"],
-					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+					"visit" : [
+						"GENIE"
+					],
+					"removal" : [
+						"PICKUP01",
+						"PICKUP02",
+						"PICKUP03",
+						"PICKUP04",
+						"PICKUP05",
+						"PICKUP06",
+						"PICKUP07"
+					]
 				},
 				"blockedVisitable" : true,
-				"removable": true,
-				"rewards" :
-				[
+				"removable" : true,
+				"rewards" : [
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"max" : 20
 						},
-						"message": "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
-						"removeObject": true
+						"message" : "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 20
 						},
-						"resources":
-						{
-							"list" : [ "mercury", "sulfur", "crystal", "gems" ],
-							"amount" : {"min": 3, "max" : 6}
+						"resources" : {
+							"list" : [
+								"mercury",
+								"sulfur",
+								"crystal",
+								"gems"
+							],
+							"amount" : {
+								"min" : 3,
+								"max" : 6
+							}
 						},
-						"message": "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
-						"removeObject": true
+						"message" : "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"removeObject" : true
 					}
 				],
 				"visitMode" : "once",
-				"selectMode": "selectRandom",
+				"selectMode" : "selectRandom",
 				"templates" : {
-					"AVAbrrlw" :
-					{
+					"AVAbrrlw" : {
 						"animation" : "hota/seaBarrel/AVAbrrlw",
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : [ "A"],
-						"allowedTerrains": [ "water" ]
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"A"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}

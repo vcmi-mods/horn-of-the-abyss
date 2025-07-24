@@ -5,14 +5,22 @@
 				"templates" : {
 					"water" : {
 						"animation" : "hota/boats/avxbtrnd",
-//						"editorAnimation" : "AHRANDOM",
-						"visitableFrom" : [ "+++", "+-+", "+++" ],
-						"mask" : [ "VVV", "VAV" ],
-						"allowedTerrains":["water"]
+						//						"editorAnimation" : "AHRANDOM",
+						"visitableFrom" : [
+							"+++",
+							"+-+",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}
 		}
 	}
 }
-

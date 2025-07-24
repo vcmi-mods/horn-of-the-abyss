@@ -1,27 +1,34 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"pirateCavern" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"pirateCavern" : {
 				"name" : "Pirate Cavern",
-				"templates" :
-				{
-					"base" :
-					{
+				"templates" : {
+					"base" : {
 						"animation" : "hota/banks/HAPCAVE.def",
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : ["VVVV", "VBBB", "VBAB"],
-						"allowedTerrains":["rough"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"rough"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPPCAV.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPPCAV.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 100
+					"value" : 3500,
+					"rarity" : 100
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
@@ -29,51 +36,134 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 10, "type" : "pirate", "upgradeChance": 50 },
-							{ "amount": 10, "type" : "corsair" },
-							{ "amount": 10, "type" : "corsair" },
-							{ "amount": 10, "type" : "pirate" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "pirate",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 10,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 10,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 10,
+								"type" : "pirate"
+							}
 						],
-						"creatures": [ { "amount": 1, "type": "seaserpent" } ]
+						"creatures" : [
+							{
+								"amount" : 1,
+								"type" : "seaserpent"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 20, "type" : "pirate", "upgradeChance": 50 },
-							{ "amount": 20, "type" : "corsair" },
-							{ "amount": 20, "type" : "corsair" },
-							{ "amount": 20, "type" : "pirate" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "pirate",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 20,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 20,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 20,
+								"type" : "pirate"
+							}
 						],
-						"creatures": [ { "amount": 2, "type": "seaserpent" } ]
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "seaserpent"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 30, "type" : "pirate", "upgradeChance": 50 },
-							{ "amount": 30, "type" : "corsair" },
-							{ "amount": 30, "type" : "corsair" },
-							{ "amount": 30, "type" : "pirate" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "pirate",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 30,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 30,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 30,
+								"type" : "pirate"
+							}
 						],
-						"creatures": [ { "amount": 3, "type": "seaserpent" } ]
+						"creatures" : [
+							{
+								"amount" : 3,
+								"type" : "seaserpent"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 40, "type" : "pirate", "upgradeChance": 50 },
-							{ "amount": 40, "type" : "corsair" },
-							{ "amount": 40, "type" : "corsair" },
-							{ "amount": 40, "type" : "pirate" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 40,
+								"type" : "pirate",
+								"upgradeChance" : 50
+							},
+							{
+								"amount" : 40,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 40,
+								"type" : "corsair"
+							},
+							{
+								"amount" : 40,
+								"type" : "pirate"
+							}
 						],
-						"creatures": [ { "amount": 4, "type": "seaserpent" } ]
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "seaserpent"
+							}
+						]
 					}
 				]
 			}

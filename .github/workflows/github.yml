@@ -1,5 +1,4 @@
-name: Mod Validation
-
+name: JSON CI
 on:
   push:
     branches:
@@ -7,21 +6,57 @@ on:
   pull_request:
   workflow_dispatch:
 
-
 jobs:
   validate-json:
-    if: always()
-    runs-on: ubuntu-24.04
+    name: Validate JSON
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    outputs:
+      valid: ${{ steps.validate.outcome == 'success' }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install jstyleson
+        run: sudo apt install python3-jstyleson
+
+      - name: Validate JSON syntax
+        id: validate
+        run: python3 .github/validate_json.py
+
+  format-json:
+    name: Format JSON
+    needs: validate-json
+    if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
     defaults:
       run:
         shell: bash
     steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-        - name: Install jstyleson
-          run: sudo apt install python3-jstyleson
+      - name: Install dependencies
+        run: |
+          npm install -g prettier
 
-        - name: Validate JSON
-          run: python3 .github/validate_json.py
+      - name: Format JSON files with Prettier
+        run: |
+          prettier --write "**/*.json" \
+                   --parser jsonc \
+                   --use-tabs \
+                   --tab-width 4 \
+                   --trailing-comma none \
+                   --print-width 1
 
+      - name: Postprocess colon spacing
+        run: python3 .github/postprocess_colons.py
+
+      - name: Commit changes if needed
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          message: "Auto-format JSON files"
+          add: '*.json'

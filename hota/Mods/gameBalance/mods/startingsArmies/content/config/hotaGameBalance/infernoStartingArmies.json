@@ -6,8 +6,7 @@
 	// ?????
 	// Amount of Imps increased from 15–25 to 20–30
 
-	"core:axsis" :
-	{
+	"core:axsis" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -26,8 +25,7 @@
 			}
 		]
 	},
-	"core:ayden" :
-	{
+	"core:ayden" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -46,8 +44,7 @@
 			}
 		]
 	},
-	"core:calh" :
-	{
+	"core:calh" : {
 		"army" : [
 			{
 				"creature" : "gog",
@@ -66,68 +63,7 @@
 			}
 		]
 	},
-	"core:calid" :
-	{
-		"army" : [
-			{
-				"creature" : "imp",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "gog",
-				"min" : 5,
-				"max" : 7
-			},
-			{
-				"creature" : "hellHound",
-				"min" : 4,
-				"max" : 5
-			}
-		]
-	},
-	"core:fiona" :
-	{
-		"army" : [
-			{
-				"creature" : "imp",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "hellHound",
-				"min" : 4,
-				"max" : 5
-			},
-			{
-				"creature" : "hellHound",
-				"min" : 4,
-				"max" : 5
-			}
-		]
-	},
-	"core:ignatius" :
-	{
-		"army" : [
-			{
-				"creature" : "imp",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "imp",
-				"min" : 20,
-				"max" : 30
-			},
-			{
-				"creature" : "imp",
-				"min" : 20,
-				"max" : 30
-			}
-		]
-	},
-	"core:marius" :
-	{
+	"core:calid" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -146,8 +82,45 @@
 			}
 		]
 	},
-	"core:nymus" :
-	{
+	"core:fiona" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"core:ignatius" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			}
+		]
+	},
+	"core:marius" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -166,8 +139,7 @@
 			}
 		]
 	},
-	"core:octavia" :
-	{
+	"core:nymus" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -186,8 +158,7 @@
 			}
 		]
 	},
-	"core:olema" :
-	{
+	"core:octavia" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -206,8 +177,26 @@
 			}
 		]
 	},
-	"core:pyre" :
-	{
+	"core:olema" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"core:pyre" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -226,8 +215,7 @@
 			}
 		]
 	},
-	"core:rashka" :
-	{
+	"core:rashka" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -246,8 +234,7 @@
 			}
 		]
 	},
-	"core:xarfax" :
-	{
+	"core:xarfax" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -266,8 +253,7 @@
 			}
 		]
 	},
-	"core:xeron" :
-	{
+	"core:xeron" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -286,8 +272,7 @@
 			}
 		]
 	},
-	"core:xyron" :
-	{
+	"core:xyron" : {
 		"army" : [
 			{
 				"creature" : "imp",
@@ -306,8 +291,7 @@
 			}
 		]
 	},
-	"core:zydar" :
-	{
+	"core:zydar" : {
 		"army" : [
 			{
 				"creature" : "imp",

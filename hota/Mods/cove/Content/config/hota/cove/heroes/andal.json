@@ -24,7 +24,7 @@
 				"max" : 7
 			}
 		],
-		"skills" : [ 
+		"skills" : [
 			{
 				"skill" : "wisdom",
 				"level" : "basic"
@@ -43,7 +43,9 @@
 				}
 			}
 		},
-		"spellbook" : [ "slow" ],
+		"spellbook" : [
+			"slow"
+		],
 		"texts" : {
 			"name" : "Andal",
 			"biography" : "While being an experienced pirate, Andal did not always consider himself as a mage or a rogue. He was an ordinary merchant until bankrupting and getting too many debts one day. He started searching for a way to get fast and easy money. After leaving his home, he shortly returned as a known smuggler. He usually trades gems and mountain crystals. It is a mystery where he gets them from, however.",

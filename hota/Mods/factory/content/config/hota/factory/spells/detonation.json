@@ -1,85 +1,78 @@
 {
-	"detonation":
-	{
-		"type": "ability", 
-		"name": "Detonation",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"detonation" : {
+		"type" : "ability",
+		"name" : "Detonation",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 5,
-		"power": 40,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-			"castle": 0,
-			"rampart": 0,
+		"level" : 5,
+		"power" : 40,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+			"castle" : 0,
+			"rampart" : 0,
 			"conflux" : 0
 		},
- 
+
 		//forgetfulness animation
-		"animation":{
-			"hit":["C04SPF0"]
-		},
- 
-		"flags" : {
-			"damage": true,
-			"nonMagical":true,
-			"negative": true
-		},
- 
- 
-		"graphics":
-		{
+		"animation" : {
+			"hit" : [
+				"C04SPF0"
+			]
 		},
 
-		"sounds":
-		{
-			"cast": "FIREBLST"
+		"flags" : {
+			"damage" : true,
+			"nonMagical" : true,
+			"negative" : true
+		},
+
+		"graphics" : {},
+
+		"sounds" : {
+			"cast" : "FIREBLST"
 		},
 		"targetType" : "CREATURE",
- 
+
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0-2",
 				"battleEffects" : {
 					"directDamage" : {
-						"type":"core:damage",
+						"type" : "core:damage",
 						"ignoreImmunity" : true
 					}
 				},
-				"targetModifier":{"smart":false}
+				"targetModifier" : {
+					"smart" : false
+				}
 			},
-			"none":
-			{
-				"description": "{Detonation}\r\n\r\nYour birthday cake！.",
-				"cost": 0,
-				"power": 40
+			"none" : {
+				"description" : "{Detonation}\r\n\r\nYour birthday cake！.",
+				"cost" : 0,
+				"power" : 40
 			},
-			"basic":
-			{
-				"description": "{Detonation}\r\n\r\nYou cannot see this description.",
-	
-				"cost": 0,
-				"power": 40
+			"basic" : {
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description.",
+
+				"cost" : 0,
+				"power" : 40
 			},
-			"advanced":
-			{
-				"description": "{Detonation}\r\n\r\nYou cannot see this description.。",
-	 
-				"cost": 0,
-				"power": 40
+			"advanced" : {
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description.。",
+
+				"cost" : 0,
+				"power" : 40
 			},
-			"expert":
-			{
-				"description": "{Detonation}\r\n\r\nYou cannot see this description.",
-	 
-				"cost": 0,
-				"power": 40
-			}
+			"expert" : {
+				"description" : "{Detonation}\r\n\r\nYou cannot see this description.",
+
+				"cost" : 0,
+				"power" : 40
 			}
 		}
 	}
+}

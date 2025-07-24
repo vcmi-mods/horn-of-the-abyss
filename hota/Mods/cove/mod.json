@@ -1,14 +1,16 @@
 {
 	"name" : "Cove",
 	"description" : "New town Cove with pirate theme",
-	
+
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"version" : "1.3.62",
 	"modType" : "Town",
-	
-	"depends" : [ "hota.cannon" ],
-	
+
+	"depends" : [
+		"hota.cannon"
+	],
+
 	"chinese" : {
 		"name" : "港口种族",
 		"description" : "由HotA团队制作的新种族，是深渊号角资料片的一部分。"
@@ -17,7 +19,7 @@
 		"name" : "Zátoka",
 		"description" : "Nové město Zátoka s pirátskou tématikou"
 	},
-	
+
 	"factions" : [
 		"config/hota/cove/faction",
 		"config/hota/cove/town/town",
@@ -77,11 +79,11 @@
 		"config/hota/cove/spells/specialClone",
 		"config/hota/cove/spells/moat"
 	],
-	"objects" : [ 
+	"objects" : [
 		"config/hota/cove/dwellings",
 		"config/hota/cove/boats"
 	],
-	
+
 	"polish" : {
 		"name" : "Cove",
 		"description" : "Nowe miasto Cove o tematyce pirackiej"

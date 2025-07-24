@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 5,
-		"upgrades" : [ "sorceress" ],
-		"cost" : { "gold" : 515 },
+		"upgrades" : [
+			"sorceress"
+		],
+		"cost" : {
+			"gold" : 515
+		},
 		"speed" : 6,
 		"hitPoints" : 35,
 		"attack" : 12,
@@ -32,20 +36,31 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [1, 0, 0]
+				"addInfo" : [
+					1,
+					0,
+					0
+				]
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 100,
-				"addInfo" : [1, 0, 1]
+				"addInfo" : [
+					1,
+					0,
+					1
+				]
 			}
 		},
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seaWitch.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaWitch.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWPRIES.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CPRIEST.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -56,7 +71,17 @@
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PSORC.def",
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,

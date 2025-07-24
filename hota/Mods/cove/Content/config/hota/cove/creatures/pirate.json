@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 3,
-		"upgrades" : [ "corsair" ],
-		"cost" : { "gold" : 225 },
+		"upgrades" : [
+			"corsair"
+		],
+		"cost" : {
+			"gold" : 225
+		},
 		"speed" : 6,
 		"hitPoints" : 15,
 		"attack" : 8,
@@ -36,7 +40,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/pirate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/pirate.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWPIRAT.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CPIRATE.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -47,7 +54,17 @@
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PPIRATE.def",
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,

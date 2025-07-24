@@ -1,17 +1,16 @@
 {
 	"basepath" : "images/",
-	"images" :
-	[
+	"images" : [
 		{
-			"frame": 0,
+			"frame" : 0,
 			"file" : "camp-normal"
 		},
 		{
-			"frame": 1,
+			"frame" : 1,
 			"file" : "camp-down"
 		},
 		{
-			"frame": 2,
+			"frame" : 2,
 			"file" : "camp-hover"
 		}
 	]

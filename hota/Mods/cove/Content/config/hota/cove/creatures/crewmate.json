@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 2,
-		"upgrades" : [ "seaman" ],
-		"cost" : { "gold" : 110 },
+		"upgrades" : [
+			"seaman"
+		],
+		"cost" : {
+			"gold" : 110
+		},
 		"speed" : 5,
 		"hitPoints" : 15,
 		"attack" : 7,
@@ -29,7 +33,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/crewmate.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/crewmate.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWSEADG.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CSEADOG.def",
 			"animationTime" : {
 				"attack" : 1,

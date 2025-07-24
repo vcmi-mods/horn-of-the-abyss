@@ -5,32 +5,64 @@
 				"templates" : {
 					"AVCGARW1" : {
 						"animation" : "hota/garrizons/AVCGARW1",
-						"mask" : [ "VBVB", "VBAB" ],
-						"visitableFrom" : [ "+++", "-+-", "+++" ],
-						"allowedTerrains": [ "water" ]
+						"mask" : [
+							"VBVB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					},
-					
+
 					"avgtzab2" : {
 						"animation" : "hota/garrizons/avgtzab2",
-						"mask" : [ "VBVB", "VBAB" ],
-						"visitableFrom" : [ "+++", "-+-", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"mask" : [
+							"VBVB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					},
-					
+
 					"avgtzab1" : {
 						"animation" : "hota/garrizons/avgtzab1",
-						"mask" : [ "VBVB", "VBAB" ],
-						"visitableFrom" : [ "+++", "-+-", "+++" ]
+						"mask" : [
+							"VBVB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						]
 					},
-					
+
 					"AVCGARE" : {
 						"animation" : "hota/garrizons/AVCGARE",
-						"mask" : [ "VVVV", "VBVB", "VBAB" ],
-						"visitableFrom" : [ "+++", "-+-", "+++" ]
+						"mask" : [
+							"VVVV",
+							"VBVB",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						]
 					}
 				}
 			}
 		}
 	}
 }
-

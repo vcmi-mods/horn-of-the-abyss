@@ -1,155 +1,133 @@
 {
-	"core:ufretin":
-	{
-		"skills":
-		[
+	"core:ufretin" : {
+		"skills" : [
 			{
 				"skill" : "luck",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:clancy":
-	{
-		"skills":
-		[
+	"core:clancy" : {
+		"skills" : [
 			{
 				"skill" : "pathfinding",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:fafner":
-	{
-		"skills":
-		[
+	"core:fafner" : {
+		"skills" : [
 			{
 				"skill" : "scholar",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:ignatius":
-	{
-		"skills":
-		[
+	"core:ignatius" : {
+		"skills" : [
 			{
 				"skill" : "tactics",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:straker":
-	{
-		"skills":
-		[
+	"core:straker" : {
+		"skills" : [
 			{
 				"skill" : "necromancy",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:ajit":
-	{
-		"skills":
-		[
+	"core:ajit" : {
+		"skills" : [
 			{
 				"skill" : "leadership",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:krellion":
-	{
-		"skills":
-		[
+	"core:krellion" : {
+		"skills" : [
 			{
 				"skill" : "offence",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:saurug":
-	{
-		"skills":
-		[
+	"core:saurug" : {
+		"skills" : [
 			{
 				"skill" : "wisdom",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"core:bron":
-	{
-		"skills":
-		[
+	"core:bron" : {
+		"skills" : [
 			{
 				"skill" : "armorer",
-				"level": "basic"
+				"level" : "basic"
 			},
 			{
 				"skill" : "interference",
-				"level": "basic"
+				"level" : "basic"
 			}
 		]
 	},
-	"hota.cove:17zilare":
-	{
-		"skills":
-		[
+	"hota.cove:17zilare" : {
+		"skills" : [
 			{
-				"skill": "wisdom",
-				"level": "basic"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"skill": "interference",
-				"level": "basic"
+				"skill" : "interference",
+				"level" : "basic"
 			}
 		]
 	},
-	"hota.cove:balfour":
-	{
-		"skills":
-		[
+	"hota.cove:balfour" : {
+		"skills" : [
 			{
-				"skill": "wisdom",
-				"level": "basic"
+				"skill" : "wisdom",
+				"level" : "basic"
 			},
 			{
-				"skill": "interference",
-				"level": "basic"
+				"skill" : "interference",
+				"level" : "basic"
 			}
 		]
 	}

@@ -1,138 +1,198 @@
 {
-	"hotaEngineer":
-	{
-		"name" :
-		{
+	"hotaEngineer" : {
+		"name" : {
 			"plural" : "Engineers",
 			"singular" : "Engineer"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "factory",
 		"aiValue" : 278,
 		"attack" : 7,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 170
 		},
-		"damage" :
-		{
-			 "max" : 5,
-			 "min" : 2
+		"damage" : {
+			"max" : 5,
+			"min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 233,
-    "graphics": {
-      "animation": "hota/factory/creatures/battle/CENGINE.def",
-      "map": "hota/factory/creatures/adventureMap/AVWengn.def",
-	  "mapMask" : [ "VVV", "VAV"],
-      "iconSmall": "hota/factory/creatures/iconsSmall/CPrS004F.bmp",
-      "iconLarge": "hota/factory/creatures/iconsLarge/CPrL004F.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CENGINE.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWengn.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS004F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL004F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
 		"growth" : 8,
 		"hitPoints" : 16,
 		"level" : 2,
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/mechanic/MECHATTK.wav",
-			"defend": "hota/factory/creatures/mechanic/MECHDFND.wav",
-			"killed": "hota/factory/creatures/mechanic/MECHKILL.wav",
-			"move": "hota/factory/creatures/mechanic/MECHMOVE.wav",
-			"shoot": "hota/factory/creatures/mechanic/MECHSHOT.wav",
-			"wince": "hota/factory/creatures/mechanic/MECHWNCE.wav"
+		"sound" : {
+			"attack" : "hota/factory/creatures/mechanic/MECHATTK.wav",
+			"defend" : "hota/factory/creatures/mechanic/MECHDFND.wav",
+			"killed" : "hota/factory/creatures/mechanic/MECHKILL.wav",
+			"move" : "hota/factory/creatures/mechanic/MECHMOVE.wav",
+			"shoot" : "hota/factory/creatures/mechanic/MECHSHOT.wav",
+			"wince" : "hota/factory/creatures/mechanic/MECHWNCE.wav"
 		},
 		"speed" : 7,
-		"abilities":
-		{
-			"twoHexAttackBreath" :
-			{
+		"abilities" : {
+			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"repair" :
-			{
+			"repair" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "hotaRepair",
 				"val" : 2
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "hotaRepair",
 				"val" : 20
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
-			}	
+			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
+					//					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
-			{
-				"bonus" :
-				{
-					"subtype" : "defence",
-					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
-				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+					//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
 					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "FLYING"
 				},
-				"values" : [ false, false, true, true, true, true, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENCHANTED",
 					"subtype" : "airShield"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 2, 2, 3, 3, 3 ]			
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			}
 		]
 	}

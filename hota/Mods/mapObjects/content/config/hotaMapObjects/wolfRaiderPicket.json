@@ -1,26 +1,31 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"wolfRaiderPicket" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"wolfRaiderPicket" : {
 				"name" : "Wolf Raider Picket",
-				"templates" :
-				{
-					"base" :
-					{
+				"templates" : {
+					"base" : {
 						"animation" : "hota/banks/AVXbnk80.def",
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : [ "VVV", "VVV", "VAV"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPPICK.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPPICK.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 9500,
-					"rarity"	: 70
+					"value" : 9500,
+					"rarity" : 70
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
@@ -28,55 +33,146 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 10, "type" : "hobgoblinWolfRider" },
-							{ "amount": 10, "type" : "hobgoblinWolfRider" },
-							{ "amount": 10, "type" : "hobgoblinWolfRider"},
-							{ "amount": 10, "type" : "hobgoblinWolfRider" },
-							{ "amount": 10, "type" : "hobgoblinWolfRider" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 10,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 10,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 10,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 10,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 10,
+								"type" : "hobgoblinWolfRider"
+							}
 						],
-						"creatures": [ { "amount": 4, "type": "cyclop" } ]
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "cyclop"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 15, "type" : "hobgoblinWolfRider" },
-							{ "amount": 15, "type" : "hobgoblinWolfRider" },
-							{ "amount": 15, "type" : "hobgoblinWolfRider"},
-							{ "amount": 15, "type" : "hobgoblinWolfRider" },
-							{ "amount": 15, "type" : "hobgoblinWolfRider" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 15,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 15,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 15,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 15,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 15,
+								"type" : "hobgoblinWolfRider"
+							}
 						],
-						"creatures": [ { "amount": 6, "type": "cyclop" } ]
+						"creatures" : [
+							{
+								"amount" : 6,
+								"type" : "cyclop"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 20, "type" : "hobgoblinWolfRider" },
-							{ "amount": 20, "type" : "hobgoblinWolfRider" },
-							{ "amount": 20, "type" : "hobgoblinWolfRider"},
-							{ "amount": 20, "type" : "hobgoblinWolfRider" },
-							{ "amount": 20, "type" : "hobgoblinWolfRider" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 20,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 20,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 20,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 20,
+								"type" : "hobgoblinWolfRider"
+							}
 						],
-						"creatures": [ { "amount": 8, "type": "cyclop" } ]
+						"creatures" : [
+							{
+								"amount" : 8,
+								"type" : "cyclop"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 30, "type" : "hobgoblinWolfRider" },
-							{ "amount": 30, "type" : "hobgoblinWolfRider" },
-							{ "amount": 30, "type" : "hobgoblinWolfRider"},
-							{ "amount": 30, "type" : "hobgoblinWolfRider" },
-							{ "amount": 30, "type" : "hobgoblinWolfRider" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 30,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 30,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 30,
+								"type" : "hobgoblinWolfRider"
+							},
+							{
+								"amount" : 30,
+								"type" : "hobgoblinWolfRider"
+							}
 						],
-						"creatures": [ { "amount": 12, "type": "cyclop" } ]
+						"creatures" : [
+							{
+								"amount" : 12,
+								"type" : "cyclop"
+							}
+						]
 					}
 				]
 			}

@@ -1,33 +1,27 @@
 {
-	"winzells" :
-	{
-    "class": "mercenary",
-    "female" : false,
-	"special": true,
-		
-		"texts" :
-		{
+	"winzells" : {
+		"class" : "mercenary",
+		"female" : false,
+		"special" : true,
+
+		"texts" : {
 			"name" : "Winzells",
 			"biography" : "Winzells is a defender of Burton once Kastore took control.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
 				"tooltip" : "Receives a 5% per level bonus to Offence skill.",
 				"name" : "Offence"
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/factory/heroes/winzells/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/winzells/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/factory/heroes/tavin/icons/specialtyLarge.bmp",
 			"specialtySmall" : "hota/factory/heroes/tavin/icons/specialtySmall.bmp"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -44,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -55,10 +48,9 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"secondary" : "offence"
 		}
 	}
 }
-

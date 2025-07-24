@@ -7,40 +7,42 @@
 			"specialtyLarge" : "hota/cove/heroes/jeremy/icons/specialtyLarge.png",
 			"specialtySmall" : "hota/cove/heroes/jeremy/icons/specialtySmall.png"
 		},
-		"army": [
+		"army" : [
 			{
-				"creature": "nymph",
-				"min": 20,
-				"max": 30
+				"creature" : "nymph",
+				"min" : 20,
+				"max" : 30
 			},
 			{
-				"creature": "cannon",
-				"min": 1,
-				"max": 1
+				"creature" : "cannon",
+				"min" : 1,
+				"max" : 1
 			},
 			{
-				"creature": "pirate",
-				"min": 4,
-				"max": 7
+				"creature" : "pirate",
+				"min" : 4,
+				"max" : 7
 			}
 		],
-		"skills": [
+		"skills" : [
 			{
-				"skill": "offence",
-				"level": "basic"
+				"skill" : "offence",
+				"level" : "basic"
 			},
 			{
-				"skill": "artillery",
-				"level": "basic"
+				"skill" : "artillery",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
 			"base" : {
-				"duration" : [ "PERMANENT" ],
-				"limiters" : { 
+				"duration" : [
+					"PERMANENT"
+				],
+				"limiters" : {
 					"type" : "CREATURE_TYPE_LIMITER",
-						"creature" : "cannon",
-						"includeUpgrades" : false
+					"creature" : "cannon",
+					"includeUpgrades" : false
 				}
 			},
 			"bonuses" : {
@@ -68,13 +70,13 @@
 				}
 			}
 		},
-		"texts": {
-			"name": "Jeremy",
-			"biography": "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages, and beautiful women. He has a thing for weapons and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
-			"specialty": {
-				"name": "Cannon",
-				"description": "Increases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
-				"tooltip": "Artillery Bonus: Cannon"
+		"texts" : {
+			"name" : "Jeremy",
+			"biography" : "Brother of legendary Bidley. Not as harsh and lucky, Jeremy loves fun, brewages, and beautiful women. He has a thing for weapons and collects all the newest inventions. A shot thunder is more pleasing for him than any music. Crewmen say that he is able to kill a gull a hundred feet away from a cannon.",
+			"specialty" : {
+				"name" : "Cannon",
+				"description" : "Increases the Attack and Defense skills of any Cannon by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Artillery Bonus: Cannon"
 			}
 		}
 	}

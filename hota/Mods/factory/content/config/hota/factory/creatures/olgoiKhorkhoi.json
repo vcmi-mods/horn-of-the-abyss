@@ -1,86 +1,77 @@
 {
-	"olgoiKhorkhoi":
-	{
-		"name" :
-		{
+	"olgoiKhorkhoi" : {
+		"name" : {
 			"plural" : "Olgoi-Khorkhois",
 			"singular" : "Olgoi-Khorkhoi"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 12,
-			 "min" : 8
+		"advMapAmount" : {
+			"max" : 12,
+			"min" : 8
 		},
 		"faction" : "factory",
 		"aiValue" : 1220,
 		"attack" : 15,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 650
 		},
-		"damage" :
-		{
-			 "max" : 16,
-			 "min" : 12
+		"damage" : {
+			"max" : 16,
+			"min" : 12
 		},
 		"defense" : 12,
 		"fightValue" : 933,
-    "graphics": {
-      "animation": "hota/factory/creatures/battle/COLGOI.def",
-      "map": "hota/factory/creatures/adventureMap/AVWolgo.def",
-	  "mapMask" : [ "VVV", "VAV"],
-      "iconSmall": "hota/factory/creatures/iconsSmall/CPrS010F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL010F.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
-    "doubleWide" : true,
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/COLGOI.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWolgo.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS010F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL010F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
+		"doubleWide" : true,
 		"growth" : 3,
 		"hitPoints" : 60,
 		"level" : 5,
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/sandworm/WORMATTK.wav",
-			"defend": "hota/factory/creatures/sandworm/WORMDFND.wav",
-			"killed": "hota/factory/creatures/sandworm/WORMKILL.wav",
-			"move": "hota/factory/creatures/sandworm/WORMMOVE.wav",
-			"wince": "hota/factory/creatures/sandworm/WORMWNCE.wav",
-			"startMoving": "hota/factory/creatures/sandworm/WORMEXT1.wav",
-			"endMoving": "hota/factory/creatures/sandworm/WORMEXT2.wav"
- 		},
+		"sound" : {
+			"attack" : "hota/factory/creatures/sandworm/WORMATTK.wav",
+			"defend" : "hota/factory/creatures/sandworm/WORMDFND.wav",
+			"killed" : "hota/factory/creatures/sandworm/WORMKILL.wav",
+			"move" : "hota/factory/creatures/sandworm/WORMMOVE.wav",
+			"wince" : "hota/factory/creatures/sandworm/WORMWNCE.wav",
+			"startMoving" : "hota/factory/creatures/sandworm/WORMEXT1.wav",
+			"endMoving" : "hota/factory/creatures/sandworm/WORMEXT2.wav"
+		},
 		"speed" : 10,
-		"abilities" :
-		{
-			"teleports" : 
-			{
+		"abilities" : {
+			"teleports" : {
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"castsymMeditation" :
-			{
+			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "summonLarva",
 				"val" : 1
 			},
-			"castsCount" :
-			{
+			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 50
 			},
-			"blindImmunity" : 
-			{
+			"blindImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "blind"
 			},
-			"petrifyImmunity" : 
-			{
+			"petrifyImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "stoneGaze"
 			}
-	    }
+		}
 	}
 }

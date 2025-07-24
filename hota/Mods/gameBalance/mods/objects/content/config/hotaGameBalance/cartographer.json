@@ -1,9 +1,11 @@
 {
 	"core:cartographer" : {
-		"handler": "configurable",
+		"handler" : "configurable",
 		"base" : {
 			"sounds" : {
-				"visit" : ["LIGHTHOUSE"]
+				"visit" : [
+					"LIGHTHOUSE"
+				]
 			}
 		},
 		"types" : {
@@ -14,13 +16,19 @@
 					"value" : 5000,
 					"rarity" : 20
 				},
-				"compatibilityIdentifiers" : [ "water" ],
+				"compatibilityIdentifiers" : [
+					"water"
+				],
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"limiter" : { "resources" : { "gold" : 10000 } },
-						"message" : "You find an old fisherman who has the most detailed maps of the seas that you have ever seen. Would you like to purchase a set of maps for 10000 gold?",  // originally 25,
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							}
+						},
+						"message" : "You find an old fisherman who has the most detailed maps of the seas that you have ever seen. Would you like to purchase a set of maps for 10000 gold?", // originally 25,
 						"resources" : {
 							"gold" : -10000
 						},
@@ -29,24 +37,29 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
-				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
-				
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
+				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
 			},
 			"cartographerLand" : {
-				"aiValue": 10000,
+				"aiValue" : 10000,
 				"rmg" : {
 					"zoneLimit" : 1,
 					"value" : 10000,
 					"rarity" : 2
 				},
-				"compatibilityIdentifiers" : [ "land" ],
+				"compatibilityIdentifiers" : [
+					"land"
+				],
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"limiter" : { "resources" : { "gold" : 10000 } },
-						"message" : "You find a cartographer who sells maps of the land for 10000 gold. Would you like to buy a map?",  // originally 26,
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							}
+						},
+						"message" : "You find a cartographer who sells maps of the land for 10000 gold. Would you like to buy a map?", // originally 26,
 						"resources" : {
 							"gold" : -10000
 						},
@@ -57,9 +70,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
-				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
-
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
+				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
 			},
 			"cartographerSubterranean" : {
 				"aiValue" : 7500,
@@ -68,12 +80,18 @@
 					"value" : 7500,
 					"rarity" : 20
 				},
-				"compatibilityIdentifiers" : [ "subterra" ],
+				"compatibilityIdentifiers" : [
+					"subterra"
+				],
 				"visitMode" : "unlimited",
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"limiter" : { "resources" : { "gold" : 10000 } },
+						"limiter" : {
+							"resources" : {
+								"gold" : 10000
+							}
+						},
 						"message" : "You discover an old dwarven miner who has kept several sets of maps from his working days. He is willing to sell you a map of the tunnels for 10000 gold. Do you agree?", // originally 27,
 						"resources" : {
 							"gold" : -10000
@@ -86,8 +104,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",  // originally 28,
-				"onVisitedMessage": "You have already seen all my maps laddy, now run along."  // originally 24
+				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
+				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
 			}
 		}
 	}

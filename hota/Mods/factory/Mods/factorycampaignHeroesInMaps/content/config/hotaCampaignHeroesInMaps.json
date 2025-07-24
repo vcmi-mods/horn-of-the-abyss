@@ -1,38 +1,29 @@
 {
-	"hota.factory:09tavin":
-	{
+	"hota.factory:09tavin" : {
 		"special" : false
 	},
-	"hota.factory:10murdoch":
-	{
+	"hota.factory:10murdoch" : {
 		"special" : false
 	},
-	"hota.factory:19frederick":
-	{
+	"hota.factory:19frederick" : {
 		"special" : false
 	},
-	"hota.factory:elderian":
-	{
+	"hota.factory:elderian" : {
 		"special" : false
 	},
-	"hota.factory:jangaard":
-	{
+	"hota.factory:jangaard" : {
 		"special" : false
 	},
-	"hota.factory:stina":
-	{
+	"hota.factory:stina" : {
 		"special" : false
 	},
-	"hota.factory:umender":
-	{
+	"hota.factory:umender" : {
 		"special" : false
 	},
-	"hota.factory:valquest":
-	{
+	"hota.factory:valquest" : {
 		"special" : false
 	},
-	"hota.factory:winzells":
-	{
+	"hota.factory:winzells" : {
 		"special" : false
 	}
 }

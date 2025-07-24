@@ -1,6 +1,8 @@
 {
 	"goldenGoose" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "RELIC",
 		"value" : 0,

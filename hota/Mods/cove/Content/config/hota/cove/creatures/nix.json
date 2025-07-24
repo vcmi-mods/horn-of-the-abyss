@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 6,
-		"upgrades" : [ "nixWarrior" ],
-		"cost" : { "gold" : 1000 },
+		"upgrades" : [
+			"nixWarrior"
+		],
+		"cost" : {
+			"gold" : 1000
+		},
 		"speed" : 6,
 		"hitPoints" : 80,
 		"attack" : 13,
@@ -33,7 +37,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/nix.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nix.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWNIX.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CNIX.def",
 			"animationTime" : {
 				"attack" : 1,

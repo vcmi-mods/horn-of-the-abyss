@@ -1,10 +1,7 @@
 {
-	"core:stormElemental" :
-	{
-		"abilities":
-		{
-			"stormIsComing" :
-			{
+	"core:stormElemental" : {
+		"abilities" : {
+			"stormIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaStorm",
 				"val" : 1

@@ -1,7 +1,6 @@
 {
 	// Amount of Elves decreased from 3–6 to 2–4
-	"core:aeris" :
-	{
+	"core:aeris" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -20,8 +19,7 @@
 			}
 		]
 	},
-	"core:alagar" :
-	{
+	"core:alagar" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -40,8 +38,7 @@
 			}
 		]
 	},
-	"core:clancy" :
-	{
+	"core:clancy" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -60,8 +57,7 @@
 			}
 		]
 	},
-	"core:coronius" :
-	{
+	"core:coronius" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -80,8 +76,7 @@
 			}
 		]
 	},
-	"core:elleshar" :
-	{
+	"core:elleshar" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -100,8 +95,7 @@
 			}
 		]
 	},
-	"core:gem" :
-	{
+	"core:gem" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -120,8 +114,7 @@
 			}
 		]
 	},
-	"core:ivor" :
-	{
+	"core:ivor" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -140,28 +133,7 @@
 			}
 		]
 	},
-	"core:jenova" :
-	{
-		"army" : [
-			{
-				"creature" : "centaur",
-				"min" : 12,
-				"max" : 24
-			},
-			{
-				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
-			},
-			{
-				"creature" : "woodElf",
-				"min" : 2,
-				"max" : 4
-			}
-		]
-	},
-	"core:kyrre" :
-	{
+	"core:jenova" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -180,8 +152,7 @@
 			}
 		]
 	},
-	"core:malcom" :
-	{
+	"core:kyrre" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -200,8 +171,7 @@
 			}
 		]
 	},
-	"core:melodia" :
-	{
+	"core:malcom" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -220,8 +190,7 @@
 			}
 		]
 	},
-	"core:mephala" :
-	{
+	"core:melodia" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -240,8 +209,7 @@
 			}
 		]
 	},
-	"core:ryland" :
-	{
+	"core:mephala" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -260,8 +228,7 @@
 			}
 		]
 	},
-	"core:thorgrim" :
-	{
+	"core:ryland" : {
 		"army" : [
 			{
 				"creature" : "centaur",
@@ -280,8 +247,26 @@
 			}
 		]
 	},
-	"core:uland" :
-	{
+	"core:thorgrim" : {
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	},
+	"core:uland" : {
 		"army" : [
 			{
 				"creature" : "centaur",

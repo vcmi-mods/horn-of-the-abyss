@@ -13,19 +13,21 @@
 		},
 		"mapObject" : {
 			"filters" : {
-				"male" : { "male" : true },
-				"female" : { "female" : true }
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
 			},
 			"templates" : {
-				"female" :
-				{
+				"female" : {
 					"animation" : "hota/cove/heroClasses/navigator/adventureMap/AH19B_.def",
-					"editorAnimation": "hota/cove/heroClasses/navigator/adventureMap/AH19B_e.def"
+					"editorAnimation" : "hota/cove/heroClasses/navigator/adventureMap/AH19B_e.def"
 				},
-				"male" :
-				{
+				"male" : {
 					"animation" : "hota/cove/heroClasses/navigator/adventureMap/AH19_.def",
-					"editorAnimation": "hota/cove/heroClasses/navigator/adventureMap/AH19_E.def"
+					"editorAnimation" : "hota/cove/heroClasses/navigator/adventureMap/AH19_E.def"
 				}
 			}
 		},

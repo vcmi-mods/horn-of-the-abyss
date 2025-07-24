@@ -5,9 +5,17 @@
 				"templates" : {
 					"avxsnwst" : {
 						"animation" : "hota/wasteland/vanillaInteractive/sign/avxsnwst",
-						"allowedTerrains": [ "wasteland" ],
-						"mask" : [ "A" ],
-						"visitableFrom" : [ "---", "+++", "+++" ]
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
 					}
 				}
 			}

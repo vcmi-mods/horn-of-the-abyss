@@ -1,6 +1,5 @@
 {
-	"core:uland":
-	{
+	"core:uland" : {
 		"skills" : [
 			{
 				"skill" : "wisdom",
@@ -12,8 +11,7 @@
 			}
 		]
 	},
-	"core:deemer":
-	{
+	"core:deemer" : {
 		"skills" : [
 			{
 				"skill" : "wisdom",
@@ -25,9 +23,9 @@
 			}
 		]
 	},
-	"core:gem":
-	{
-		"spellbook": [ "bless" ]
-		
+	"core:gem" : {
+		"spellbook" : [
+			"bless"
+		]
 	}
 }

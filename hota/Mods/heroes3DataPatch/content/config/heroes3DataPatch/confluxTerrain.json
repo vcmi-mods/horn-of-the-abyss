@@ -1,6 +1,5 @@
 {
-	"core:conflux" :
-	{
-		"nativeTerrain": "highlands"
+	"core:conflux" : {
+		"nativeTerrain" : "highlands"
 	}
 }

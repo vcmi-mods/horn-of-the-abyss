@@ -5,9 +5,19 @@
 				"templates" : {
 					"AVSSCHM1" : {
 						"animation" : "hota/schoolOfMagic/AVSSCHM1",
-							"mask" : [ "VBV", "VBB", "VAB" ],
-							"visitableFrom" : [ "---", "-++", "+++" ],
-							"allowedTerrains": [ "water" ] 
+						"mask" : [
+							"VBV",
+							"VBB",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}

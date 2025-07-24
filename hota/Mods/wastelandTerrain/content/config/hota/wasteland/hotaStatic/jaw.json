@@ -1,14 +1,19 @@
 {
-	"jaw" :{
+	"jaw" : {
 		"name" : "Jaw",
-		"handler":"static",
+		"handler" : "static",
 		"types" : {
 			"jaw" : {
 				"templates" : {
 					"jaws" : {
 						"animation" : "hota/wasteland/hotaStatic/bones/jaws",
-						"mask" : [ "BB" ],
-						"allowedTerrains": [ "sand", "wasteland" ]
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
 					}
 				}
 			}

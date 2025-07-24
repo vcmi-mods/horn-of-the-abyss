@@ -1,6 +1,8 @@
 {
 	"pendantOfReflection" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "NECK",
 		"class" : "RELIC",
 		"value" : 12000,

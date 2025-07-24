@@ -1,27 +1,44 @@
 {
 	"wastelandsFissures" : {
-		"name": "Fissures",
-		"handler": "static",
+		"name" : "Fissures",
+		"handler" : "static",
 		"types" : {
 			"wastelandsFissures" : {
 				"templates" : {
 					"AVLwcr01" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr01",
-						"mask" : [ "BBBB", "BBBB" ],
-						"allowedTerrains": [ "wasteland" ],
-						"zIndex": 100
+						"mask" : [
+							"BBBB",
+							"BBBB"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"zIndex" : 100
 					},
 					"AVLwcr02" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr02",
-						"mask" : [ "BBBBV", "BBBBV" ],
-						"allowedTerrains": [ "wasteland" ],
-						"zIndex": 100
+						"mask" : [
+							"BBBBV",
+							"BBBBV"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"zIndex" : 100
 					},
 					"AVLwcr03" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr03",
-						"mask" : [ "VBBV", "VBBV", "VBBV", "VBBV" ],
-						"allowedTerrains": [ "wasteland" ],
-						"zIndex": 100
+						"mask" : [
+							"VBBV",
+							"VBBV",
+							"VBBV",
+							"VBBV"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"zIndex" : 100
 					}
 				}
 			}
@@ -31,19 +48,30 @@
 	"core:canyon" : {
 		"types" : {
 			"object" : {
-			"templates" : {
-				
+				"templates" : {
 					"AVLwcr04" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr04",
-						"mask" : [ "VBBVV", "VBBBB", "VVVBB" ],
-						"allowedTerrains": [ "wasteland" ],
-						"zIndex": 100
+						"mask" : [
+							"VBBVV",
+							"VBBBB",
+							"VVVBB"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"zIndex" : 100
 					},
 					"AVLwcr05" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr05",
-						"mask" : [ "VBBBB", "VBBBV", "VVBVVB" ],
-						"allowedTerrains": [ "wasteland" ],
-						"zIndex": 100
+						"mask" : [
+							"VBBBB",
+							"VBBBV",
+							"VVBVVB"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						],
+						"zIndex" : 100
 					}
 				}
 			}

@@ -3,19 +3,25 @@
 		"basic" : {
 			"description" : "{Basic Estates}\n\nYour hero contributes 250 gold per day to your cause.",
 			"effects" : {
-				"main" : { "val" : 250 }
+				"main" : {
+					"val" : 250
+				}
 			}
 		},
 		"advanced" : {
 			"description" : "{Advanced Estates}\n\nYour hero contributes 500 gold per day to your cause.",
 			"effects" : {
-				"main" : { "val" : 500 }
+				"main" : {
+					"val" : 500
+				}
 			}
 		},
 		"expert" : {
 			"description" : "{Expert Estates}\n\nYour hero contributes 1000 gold per day to your cause.",
 			"effects" : {
-				"main" : { "val" : 1000 }
+				"main" : {
+					"val" : 1000
+				}
 			}
 		}
 	}

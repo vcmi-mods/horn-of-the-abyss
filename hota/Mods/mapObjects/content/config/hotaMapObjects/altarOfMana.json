@@ -1,28 +1,41 @@
 {
 	"altarOfMana" : {
-		"handler": "generic",
+		"handler" : "generic",
 		"name" : "Altar of Mana",
 		"types" : {
 			"altarOfMana" : {
 				"name" : "Altar of Mana",
 				"description" : "(Heroes may sacrifice creatures for spell points, up to 4x the normal cap).",
 				"sounds" : {
-					"visit" : ["MYSTERY"]
+					"visit" : [
+						"MYSTERY"
+					]
 				},
-				"blockVisitable": true,
-//				"rmg" : {
-//					"value"	: 100,
-//					"rarity" : 20,
-//					"zoneLimit" : 1
-//				},
+				"blockVisitable" : true,
+				//				"rmg" : {
+				//					"value"	: 100,
+				//					"rarity" : 20,
+				//					"zoneLimit" : 1
+				//				},
 				"templates" : {
-					"AVXMALTW" : { "animation" : "hota/altarOfMana/AVXMALTW", 
-						"mask" : [ "VVV", "VBV", "VAA" ], 
-						"visitableFrom" : [ "---", "+-+", "+++" ],
-						"allowedTerrains": [ "water"]
+					"AVXMALTW" : {
+						"animation" : "hota/altarOfMana/AVXMALTW",
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+-+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

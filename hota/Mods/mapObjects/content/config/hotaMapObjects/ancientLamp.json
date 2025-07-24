@@ -1,98 +1,139 @@
 {
-	"ancientLamp" :{	
-		"name": "Ancient Lamp",
-		"handler": "configurable",
+	"ancientLamp" : {
+		"name" : "Ancient Lamp",
+		"handler" : "configurable",
 		"types" : {
-			"ancientLamp" : 
-			{
+			"ancientLamp" : {
 				"blockedVisitable" : true,
-				"removable": true,
-				"name": "Ancient Lamp",
-				"description": "Allows you to recruit 4-7 Master Genie once.",
+				"removable" : true,
+				"name" : "Ancient Lamp",
+				"description" : "Allows you to recruit 4-7 Master Genie once.",
 				"rmg" : {
-					"value"		: 5000,
-					"rarity"	: 200,
+					"value" : 5000,
+					"rarity" : 200,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["hota/LAMPVIST"]
+					"visit" : [
+						"hota/LAMPVIST"
+					]
 				},
-				"rewards" :
-				[
+				"rewards" : [
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"max" : 30
 						},
-						"limiter": //condition to get reward
-						{
-							"resources" : {"gold" : 2400}
+						//condition to get reward
+						"limiter" : {
+							"resources" : {
+								"gold" : 2400
+							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
-						"creatures": [ {"type": "masterGenie", "amount": 4} ],
-						"resources": {"gold" : -2400},
-						"removeObject": true
+						"creatures" : [
+							{
+								"type" : "masterGenie",
+								"amount" : 4
+							}
+						],
+						"resources" : {
+							"gold" : -2400
+						},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
-						{
+						"appearChance" : {
 							"min" : 30,
 							"max" : 60
 						},
-						"limiter": //condition to get reward
-						{
-							"resources" : {"gold" : 3000}
+						//condition to get reward
+						"limiter" : {
+							"resources" : {
+								"gold" : 3000
+							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
-						"creatures": [ {"type": "masterGenie", "amount": 5} ],
-						"resources": {"gold" : -3000},
-						"removeObject": true
+						"creatures" : [
+							{
+								"type" : "masterGenie",
+								"amount" : 5
+							}
+						],
+						"resources" : {
+							"gold" : -3000
+						},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
-						{
-							"min":  60,
+						"appearChance" : {
+							"min" : 60,
 							"max" : 90
 						},
-						"limiter": //condition to get reward
-						{
-							"resources" : {"gold" : 3600}
+						//condition to get reward
+						"limiter" : {
+							"resources" : {
+								"gold" : 3600
+							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
-						"creatures": [ {"type": "masterGenie", "amount": 6} ],
-						"resources": {"gold" : -3600},
-						"removeObject": true
+						"creatures" : [
+							{
+								"type" : "masterGenie",
+								"amount" : 6
+							}
+						],
+						"resources" : {
+							"gold" : -3600
+						},
+						"removeObject" : true
 					},
 					{
-						"appearChance": 
-						{
-							"min": 90
+						"appearChance" : {
+							"min" : 90
 						},
-						"limiter": //condition to get reward
-						{
-							"resources" : {"gold" : 4200}
+						//condition to get reward
+						"limiter" : {
+							"resources" : {
+								"gold" : 4200
+							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
-						"creatures": [ {"type": "masterGenie", "amount": 7} ],
-						"resources": {"gold" : -4200},
-						"removeObject": true
+						"creatures" : [
+							{
+								"type" : "masterGenie",
+								"amount" : 7
+							}
+						],
+						"resources" : {
+							"gold" : -4200
+						},
+						"removeObject" : true
 					}
 				],
 				"onEmptyMessage" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. Come back when you can find some gold to spare.\"",
-				"canRefuse": true,
+				"canRefuse" : true,
 				"visitMode" : "unlimited",
-				"compatibilityIdentifiers" : [ "object" ],
-				"templates" : 
-				{
-					"avtglam" : 
-					{
-						"animation" : "hota/ancientLamp/avtglam", 
-						"visitableFrom" : [ "+++", "+++", "+++" ],
-						"mask" : ["VAV"],
-						"allowedTerrains": [ "snow", "sand" ] //hota jebus cross conditions
+				"compatibilityIdentifiers" : [
+					"object"
+				],
+				"templates" : {
+					"avtglam" : {
+						"animation" : "hota/ancientLamp/avtglam",
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"snow",
+							"sand"
+						] //hota jebus cross conditions
 					}
 				}
 			}
-		}	
+		}
 	}
 }

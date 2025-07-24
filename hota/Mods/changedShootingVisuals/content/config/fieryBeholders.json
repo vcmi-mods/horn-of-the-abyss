@@ -1,21 +1,15 @@
 {
-	"core:beholder" :
-	{
-		"abilities":
-		{
-			"hotaRay" :
-			{
+	"core:beholder" : {
+		"abilities" : {
+			"hotaRay" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaRay"
 			}
 		}
 	},
-	"core:evilEye" :
-	{
-		"abilities":
-		{
-			"hotaRay" :
-			{
+	"core:evilEye" : {
+		"abilities" : {
+			"hotaRay" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaRay"
 			}

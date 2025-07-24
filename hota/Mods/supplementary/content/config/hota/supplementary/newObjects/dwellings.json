@@ -4,23 +4,47 @@
 			"steelGolemFactory" : {
 				"name" : "Steel Golem Factory",
 				"creatures" : [
-					[ "stoneGolem" ],
-					[ "steelGolem" ],
-					[ "goldGolem" ],
-					[ "diamondGolem" ]
+					[
+						"stoneGolem"
+					],
+					[
+						"steelGolem"
+					],
+					[
+						"goldGolem"
+					],
+					[
+						"diamondGolem"
+					]
 				],
-				"sounds": {
-					"ambient": ["LOOPFACT"]
+				"sounds" : {
+					"ambient" : [
+						"LOOPFACT"
+					]
 				},
 				"guards" : [
-					{ "amount" : 12, "type" : "steelGolem" },
-					{ "amount" : 9, "type" : "goldGolem" },
-					{ "amount" : 6, "type" : "diamondGolem" }
+					{
+						"amount" : 12,
+						"type" : "steelGolem"
+					},
+					{
+						"amount" : 9,
+						"type" : "goldGolem"
+					},
+					{
+						"amount" : 6,
+						"type" : "diamondGolem"
+					}
 				],
 				"templates" : {
 					"default" : {
 						"animation" : "hota/supplementary/others/golemFactory",
-						"mask" : [ "VVV", "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			}

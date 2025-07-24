@@ -5,13 +5,22 @@
 				"templates" : {
 					"AVSlibS0" : {
 						"animation" : "hota/libraryOfEnlightenment/AVSlibS0",
-						"mask" : [ "VVVVV", "VBBBB", "VBBAB" ],
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"allowedTerrains": [ "snow" ]
+						"mask" : [
+							"VVVVV",
+							"VBBBB",
+							"VBBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}
 		}
 	}
 }
-

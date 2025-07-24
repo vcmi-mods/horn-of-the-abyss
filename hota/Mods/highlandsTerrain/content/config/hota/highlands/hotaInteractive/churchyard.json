@@ -1,18 +1,23 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"churchyard" :
-			{
-				"templates" :
-				{
-					"highlands" :
-					{
+	"core:creatureBank" : {
+		"types" : {
+			"churchyard" : {
+				"templates" : {
+					"highlands" : {
 						"animation" : "hota/highlands/hotaInteractive/banks/avcmetrh.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVVV", "VBAB"],
-						"allowedTerrains":[ "highlands" ]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}

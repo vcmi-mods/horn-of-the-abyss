@@ -1,65 +1,61 @@
 {
-	"meditation01":
-	{
-		"type": "ability", 
-		"name": "Meditation",
-		"school":
-		{
-			"air": false,
-			"earth": false,
-			"fire": false,
-			"water": false
+	"meditation01" : {
+		"type" : "ability",
+		"name" : "Meditation",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
 		},
-		"level": 1,
-		"power": 1,
-		"defaultGainChance": 0, 
-		"gainChance":
-		{
-		},
- 
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+
 		//implosion animation?
-		"animation":{
-			"affect":[ {
-				"effectName" : "bloodlust"
-			} ]
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
 		},
- 
-		"flags" : {"positive": true, "nonMagical":true, "special" : true },
- 
+
+		"flags" : {
+			"positive" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+
 		"targetCondition" : {
 			"anyOf" : {
-				"factory:creature.hotaCouatl":"absolute"
+				"factory:creature.hotaCouatl" : "absolute"
 			}
 		},
-		
+
 		"canCastOnSelf" : true,
- 
-		"graphics":
-		{
-			"iconEffect": "hota/factory/spells/medi001.bmp"
+
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/medi001.bmp"
 		},
-		"sounds":
-		{
-			"cast":"ENERMOVE" //fear snd
+		"sounds" : {
+			"cast" : "ENERMOVE" //fear snd
 		},
-		"targetType": "CREATURE",
- 
-		"levels":
-		{
-			"base":
-			{
-				"range": "0",
-				"power": 1,
-				"targetModifier":
-				{
-					"smart": true
+		"targetType" : "CREATURE",
+
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power" : 1,
+				"targetModifier" : {
+					"smart" : true
 				}
 			},
-			"none":
-			{
-				"description": "lower meditations",
-	 
-				"cost": 6,
+			"none" : {
+				"description" : "lower meditations",
+
+				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -76,8 +72,7 @@
 						],
 						"turns" : 1
 					},
-					"immnunityDispel":
-					{
+					"immnunityDispel" : {
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "dispel",
 						"duration" : [
@@ -85,8 +80,7 @@
 						],
 						"turns" : 1
 					},
-					"immnunityDispelHelpful":
-					{
+					"immnunityDispelHelpful" : {
 						"type" : "SPELL_IMMUNITY",
 						"subtype" : "dispelHelpful",
 						"duration" : [
@@ -94,8 +88,7 @@
 						],
 						"turns" : 1
 					},
-					"immuneToFire" :
-					{
+					"immuneToFire" : {
 						"subtype" : "fire",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
@@ -103,8 +96,7 @@
 						],
 						"turns" : 1
 					},
-					"immuneToAir" :
-					{
+					"immuneToAir" : {
 						"subtype" : "air",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
@@ -112,8 +104,7 @@
 						],
 						"turns" : 1
 					},
-					"immuneToWater" :
-					{
+					"immuneToWater" : {
 						"subtype" : "water",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
@@ -121,8 +112,7 @@
 						],
 						"turns" : 1
 					},
-					"immuneToEarth" :
-					{
+					"immuneToEarth" : {
 						"subtype" : "earth",
 						"type" : "SPELL_SCHOOL_IMMUNITY",
 						"duration" : [
@@ -130,16 +120,15 @@
 						],
 						"turns" : 1
 					},
-					"receptive" :
-					{
-					"type" : "RECEPTIVE",
-					"duration" : [
+					"receptive" : {
+						"type" : "RECEPTIVE",
+						"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
 						],
@@ -147,11 +136,10 @@
 					}
 				}
 			},
-			"basic":
-			{
-				"description": "lower meditations",
-	 
-				"cost": 6,
+			"basic" : {
+				"description" : "lower meditations",
+
+				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -168,38 +156,35 @@
 						],
 						"turns" : 1
 					},
-					"levelSpellImmunity":{
-								"val" : 5,
-								"type" : "LEVEL_SPELL_IMMUNITY",
-								"valueType" : "INDEPENDENT_MAX",
-								"duration" : [
-									"N_TURNS"
-								],
-								"turns" : 1
-							},
-					"receptive" :
-					{
-					"type" : "RECEPTIVE",
-					"duration" : [
+					"levelSpellImmunity" : {
+						"val" : 5,
+						"type" : "LEVEL_SPELL_IMMUNITY",
+						"valueType" : "INDEPENDENT_MAX",
+						"duration" : [
+							"N_TURNS"
+						],
+						"turns" : 1
+					},
+					"receptive" : {
+						"type" : "RECEPTIVE",
+						"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1
 					}
 				}
-	 
 			},
-			"advanced":
-			{
-				"description": "lower meditations",
-	 
-				"cost": 6,
+			"advanced" : {
+				"description" : "lower meditations",
+
+				"cost" : 6,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -237,20 +222,18 @@
 						"turns" : 1
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 1
 					}
 				}
-	 
 			},
-			"expert":
-			{
-				"description": "lower meditations",
-	 
-				"cost": 5,
+			"expert" : {
+				"description" : "lower meditations",
+
+				"cost" : 5,
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -288,14 +271,13 @@
 						"turns" : 2
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
 						],
 						"turns" : 2
 					}
 				}
-	 
 			}
 		}
 	}

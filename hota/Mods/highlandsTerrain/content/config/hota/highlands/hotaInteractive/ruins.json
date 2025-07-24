@@ -1,24 +1,33 @@
 {
-	"core:creatureBank" :
-	{
-		"types" :
-		{
-			"ruins" :
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"ruins" : {
 				"name" : "Ruins",
-				"templates" :
-				{
-					"base" :
-					{
+				"templates" : {
+					"base" : {
 						"animation" : "hota/highlands/hotaInteractive/ruins/avxruins.def",
-						"visitableFrom" : [ "---", "-+-", "+++" ],
-						"mask" : [ "VVVV", "VVBV", "VBAB"],
-						"allowedTerrains":["highlands"]
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/highlands/LOOPRUIN.wav"],
-					"visit": ["hota/highlands/RUINSVIS.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/highlands/LOOPRUIN.wav"
+					],
+					"visit" : [
+						"hota/highlands/RUINSVIS.wav"
+					]
 				},
 				"rmg" : {
 					"value" : 1000,
@@ -41,20 +50,36 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankRuins",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 20, "type" : "skeleton" },
-							{ "amount": 3, "type" : "wight" },
-							{ "amount": 3, "type" : "wraith"},
-							{ "amount": 10, "type" : "skeletonWarrior" },
-							{ "amount": 1, "type" : "powerLich" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "skeleton"
+							},
+							{
+								"amount" : 3,
+								"type" : "wight"
+							},
+							{
+								"amount" : 3,
+								"type" : "wraith"
+							},
+							{
+								"amount" : 10,
+								"type" : "skeletonWarrior"
+							},
+							{
+								"amount" : 1,
+								"type" : "powerLich"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 1000
 						},
 						"revealTiles" : {
@@ -67,16 +92,33 @@
 					},
 					{
 						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 30, "type" : "skeleton" },
-							{ "amount": 5, "type" : "wight" },
-							{ "amount": 5, "type" : "wraith"},
-							{ "amount": 10, "type" : "skeletonWarrior" },
-							{ "amount": 1, "type" : "powerLich" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 30,
+								"type" : "skeleton"
+							},
+							{
+								"amount" : 5,
+								"type" : "wight"
+							},
+							{
+								"amount" : 5,
+								"type" : "wraith"
+							},
+							{
+								"amount" : 10,
+								"type" : "skeletonWarrior"
+							},
+							{
+								"amount" : 1,
+								"type" : "powerLich"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 2000
 						},
 						"revealTiles" : {
@@ -89,16 +131,33 @@
 					},
 					{
 						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 40, "type" : "skeleton" },
-							{ "amount": 7, "type" : "wight" },
-							{ "amount": 7, "type" : "wraith"},
-							{ "amount": 20, "type" : "skeletonWarrior" },
-							{ "amount": 2, "type" : "powerLich" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 40,
+								"type" : "skeleton"
+							},
+							{
+								"amount" : 7,
+								"type" : "wight"
+							},
+							{
+								"amount" : 7,
+								"type" : "wraith"
+							},
+							{
+								"amount" : 20,
+								"type" : "skeletonWarrior"
+							},
+							{
+								"amount" : 2,
+								"type" : "powerLich"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 3000
 						},
 						"revealTiles" : {
@@ -111,16 +170,33 @@
 					},
 					{
 						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 50, "type" : "skeleton" },
-							{ "amount": 9, "type" : "wight" },
-							{ "amount": 9, "type" : "wraith"},
-							{ "amount": 20, "type" : "skeletonWarrior" },
-							{ "amount": 3, "type" : "powerLich" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 50,
+								"type" : "skeleton"
+							},
+							{
+								"amount" : 9,
+								"type" : "wight"
+							},
+							{
+								"amount" : 9,
+								"type" : "wraith"
+							},
+							{
+								"amount" : 20,
+								"type" : "skeletonWarrior"
+							},
+							{
+								"amount" : 3,
+								"type" : "powerLich"
+							}
 						],
-						"resources":
-						{
+						"resources" : {
 							"gold" : 4000
 						},
 						"revealTiles" : {

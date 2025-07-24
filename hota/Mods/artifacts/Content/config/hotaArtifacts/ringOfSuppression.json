@@ -1,17 +1,21 @@
 {
 	"ringOfSuppression" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RING",
 		"class" : "TREASURE",
 		"value" : 4000,
 		"bonuses" : {
-			"morale" : { 
+			"morale" : {
 				"type" : "MORALE",
 				"val" : -1,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
-			} 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			}
 		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/ringOfSuppression",

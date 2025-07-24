@@ -1,18 +1,21 @@
 {
 	"runesOfImminency" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
 		"class" : "TREASURE",
 		"value" : 2000,
 		"bonuses" : {
-			"luck" : { 
-				"type" : "LUCK", 
+			"luck" : {
+				"type" : "LUCK",
 				"val" : -1,
-				"propagator": "BATTLE_WIDE",
+				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [ "OPPOSITE_SIDE" ]
-
-			} 
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			}
 		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/runesOfImminency",

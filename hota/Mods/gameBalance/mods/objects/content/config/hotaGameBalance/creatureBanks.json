@@ -5,7 +5,10 @@
 			"nagaBank" : {
 				"rewards" : [
 					{
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
 							{
 								"type" : "naga",
@@ -35,7 +38,10 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 30, "max" : 60 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
 							{
 								"type" : "naga",
@@ -65,7 +71,10 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 60, "max" : 90 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
 						"guards" : [
 							{
 								"type" : "naga",
@@ -95,7 +104,10 @@
 						}
 					},
 					{
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
 						"guards" : [
 							{
 								"type" : "naga",

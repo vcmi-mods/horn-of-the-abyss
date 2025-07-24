@@ -1,48 +1,84 @@
 {
 	"hotaBushes" : {
 		"name" : "Bush",
-		"handler": "static",
+		"handler" : "static",
 		"types" : {
 			"hotaBushes" : {
 				"templates" : {
-					"AVLs09s0" : { "animation" : "AVLs09s0", 
-						"mask" : ["BB"],
-						"allowedTerrains": [ "swamp" ]
+					"AVLs09s0" : {
+						"animation" : "AVLs09s0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"swamp"
+						]
 					},
-					"AVLsh2d0" : { "animation" : "AVLsh2d0", 
-						"mask" : ["BB"],
-						"allowedTerrains": [ "dirt" ]
-					},	
-					"AVLsh3d0" : { "animation" : "AVLsh3d0", 
-						"mask" : ["BB"],
-						"allowedTerrains": [ "dirt" ]
-					},	
-					"AVLsh4d0" : { "animation" : "AVLsh4d0", 
-						"mask" : ["BB"],
-						"allowedTerrains": [ "dirt" ]
-					},	
-					"AVLsh5d0" : { "animation" : "AVLsh5d0", 
-						"mask" : ["B"],
-						"allowedTerrains": [ "dirt" ]
-					},	
-					"AVLsh3g0" : { "animation" : "AVLsh3g0", 
-						"mask" : ["VBB"],
-						"allowedTerrains": [ "grass" ]
+					"AVLsh2d0" : {
+						"animation" : "AVLsh2d0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
 					},
-					"AVLsh4g0" : { "animation" : "AVLsh4g0", 
-						"mask" : ["VBB"],
-						"allowedTerrains": [ "grass" ]
-					},	
-					"AVLsh5g0" : { "animation" : "AVLsh5g0", 
-						"mask" : ["VBB"],
-						"allowedTerrains": [ "grass" ]
-					},						
+					"AVLsh3d0" : {
+						"animation" : "AVLsh3d0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"AVLsh4d0" : {
+						"animation" : "AVLsh4d0",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"AVLsh5d0" : {
+						"animation" : "AVLsh5d0",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"AVLsh3g0" : {
+						"animation" : "AVLsh3g0",
+						"mask" : [
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"AVLsh4g0" : {
+						"animation" : "AVLsh4g0",
+						"mask" : [
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"AVLsh5g0" : {
+						"animation" : "AVLsh5g0",
+						"mask" : [
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					}
 				}
 			}
 		}
 	}
-}	
-	
-
-
-	
+}

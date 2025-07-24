@@ -1,18 +1,13 @@
 {
-	"core:lich" :
-	{
-		"abilities#override":
-		{
-			"undead" :
-			{
+	"core:lich" : {
+		"abilities#override" : {
+			"undead" : {
 				"type" : "UNDEAD"
 			},
-			"shooter" :
-			{
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"deathCloud2" :
-			{
+			"deathCloud2" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaDeathCloud"
 			}

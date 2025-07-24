@@ -1,38 +1,59 @@
 {
 	"observatory" : {
-		"handler":"configurable",
+		"handler" : "configurable",
 		"name" : "Observatory",
 		"types" : {
 			"observatory" : {
 				"sounds" : {
-					"visit" : ["LIGHTHOUSE"]
+					"visit" : [
+						"LIGHTHOUSE"
+					]
 				},
 				"rmg" : {
-					"value"	: 500,
+					"value" : 500,
 					"rarity" : 20,
 					"zoneLimit" : 1
 				},
-				"rewards" :
-				[
+				"rewards" : [
 					{
 						"message" : "{Observatory}\r\n\r\nAn astronomer offers you to take his apprentice for a shipboy. You might find his lookout skill useful, while the youth could do with a break from studies. However, the astronomer will need him back in a week for the next round of planned observations.",
-						"bonuses" : [ { "type" : "SIGHT_RADIUS", "val" : 2, "valueType" : "BASE_NUMBER", "duration" : "ONE_WEEK" } ]
+						"bonuses" : [
+							{
+								"type" : "SIGHT_RADIUS",
+								"val" : 2,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "ONE_WEEK"
+							}
+						]
 					}
 				],
 				"blockedVisitable" : false,
-				"onVisitedMessage": "{Observatory}\r\n\r\nThe astronomer is absent from his tower. A note posted on the door reads: \"Will be back in a week\".",
-				"canRefuse": false,
+				"onVisitedMessage" : "{Observatory}\r\n\r\nThe astronomer is absent from his tower. A note posted on the door reads: \"Will be back in a week\".",
+				"canRefuse" : false,
 				"visitMode" : "hero",
 				"selectMode" : "selectPlayer",
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 				"templates" : {
-					"avxwobs" : { "animation" : "hota/observatory/avxwobs", 
-						"mask" : [ "VVV", "VVV", "VBA" ], 
-						"visitableFrom" : [ "---", "-++", "+++" ],
-						"allowedTerrains": [ "water" ]
+					"avxwobs" : {
+						"animation" : "hota/observatory/avxwobs",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

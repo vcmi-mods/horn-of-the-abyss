@@ -5,8 +5,12 @@
 				"templates" : {
 					"avlhlhl" : {
 						"animation" : "hota/highlands/vanillaStatic/hole/avlhlhl",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "highlands" ]
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}

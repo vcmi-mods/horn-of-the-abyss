@@ -12,15 +12,16 @@
 			"event" : "This waterfall sounds and looks exactly like a waterfall should. On closer inspection, though, you are amazed to find out the flow is headed upwards. You wonder what it took for such an impressive phenomenon to come into being. Surely a powerful artifact has to be in play? And indeed, an ornate horn is soon found levitating above the crest.",
 			"name" : "Horn of the Abyss"
 		},
-		"bonuses":
-		{
+		"bonuses" : {
 			"spell" : {
-				"type": "SPELL",
+				"type" : "SPELL",
 				"subtype" : "hornSpell"
 			}
 		},
 
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"value" : 10000
 	}
 }

@@ -1,86 +1,128 @@
 {
-    "core:gnoll" : {
+	"core:gnoll" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWgnll0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:gnollMarauder" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWgnlx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:lizardman" : {
+	"core:lizardman" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWLizr.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:lizardWarrior" : {
+	"core:lizardWarrior" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWlizx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:serpentFly" : {
+	"core:serpentFly" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWDFly.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:fireDragonFly" : {
+	"core:fireDragonFly" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWDFir.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:basilisk" : {
+	"core:basilisk" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWBasl.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:greaterBasilisk" : {
+	"core:greaterBasilisk" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWGBas.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:gorgon" : {
+	"core:gorgon" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWGorg.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:mightyGorgon" : {
+	"core:mightyGorgon" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWgorx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:wyvern" : {
+	"core:wyvern" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWWyvr.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
 	"core:wyvernMonarch" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWwyvx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:hydra" : {
+	"core:hydra" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AvWHydr.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	},
-    "core:chaosHydra" : {
+	"core:chaosHydra" : {
 		"graphics" : {
 			"map" : "hota/fortress/adventureMap/creatures/AVWhydx0.def",
-			"mapMask" : [ "VVV", "VAV"]
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			]
 		}
 	}
 }

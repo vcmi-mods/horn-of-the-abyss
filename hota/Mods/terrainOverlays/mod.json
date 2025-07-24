@@ -11,7 +11,9 @@
 		"min" : "1.1.0"
 	},
 	"changelog" : {
-		"1.0.0" : [ "Each special terrain has now its own dedicated folder" ]
+		"1.0.0" : [
+			"Each special terrain has now its own dedicated folder"
+		]
 	},
 	"chinese" : {
 		"name" : "魔力地形",
@@ -21,7 +23,7 @@
 		"name" : "Magické terény",
 		"description" : "Tato možnost přidává tři nové speciální terény: Prasklý led, Duny a Pole slávy."
 	},
-	"objects" : [ 
+	"objects" : [
 		"config/crackedIce/crackedIce.json",
 		"config/dunes/dunes.json",
 		"config/fieldsOfGlory/fieldsOfGlory.json",

@@ -1,6 +1,8 @@
 {
 	"shieldOfNavalGlory" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 7000,

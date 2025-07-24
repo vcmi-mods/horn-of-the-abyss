@@ -1,83 +1,74 @@
 {
-	"hotaMechanic":
-	{
-		"name" :
-		{
+	"hotaMechanic" : {
+		"name" : {
 			"plural" : "Mechanics",
 			"singular" : "Mechanic"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "factory",
 		"aiValue" : 186,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 140
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
 		"fightValue" : 198,
-    "graphics": {
-      "animation": "hota/factory/creatures/battle/CMECHAN.def",
-      "map": "hota/factory/creatures/adventureMap/AVWmech.def",
-	  "mapMask" : [ "VVV", "VAV"],
-      "iconSmall": "hota/factory/creatures/iconsSmall/CPrS003F.bmp",
-      "iconLarge": "hota/factory/creatures/iconsLarge/CPrL003F.bmp",
-      "timeBetweenFidgets": 1,
-      "animationTime": {
-        "walk": 1.25,
-        "attack": 1,
-        "idle": 10
-      }
-    },
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CMECHAN.def",
+			"map" : "hota/factory/creatures/adventureMap/AVWmech.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS003F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL003F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.25,
+				"attack" : 1,
+				"idle" : 10
+			}
+		},
 		"growth" : 8,
 		"hitPoints" : 14,
 		"level" : 2,
-		"upgrades":
-		[
+		"upgrades" : [
 			"hotaEngineer"
 		],
-		"sound" :
-		{
-			"attack": "hota/factory/creatures/mechanic/MECHATTK.wav",
-			"defend": "hota/factory/creatures/mechanic/MECHDFND.wav",
-			"killed": "hota/factory/creatures/mechanic/MECHKILL.wav",
-			"move": "hota/factory/creatures/mechanic/MECHMOVE.wav",
-			"shoot": "hota/factory/creatures/mechanic/MECHSHOT.wav",
-			"wince": "hota/factory/creatures/mechanic/MECHWNCE.wav"
+		"sound" : {
+			"attack" : "hota/factory/creatures/mechanic/MECHATTK.wav",
+			"defend" : "hota/factory/creatures/mechanic/MECHDFND.wav",
+			"killed" : "hota/factory/creatures/mechanic/MECHKILL.wav",
+			"move" : "hota/factory/creatures/mechanic/MECHMOVE.wav",
+			"shoot" : "hota/factory/creatures/mechanic/MECHSHOT.wav",
+			"wince" : "hota/factory/creatures/mechanic/MECHWNCE.wav"
 		},
 		"speed" : 6,
-		"abilities":
-		{
-			"twoHexAttackBreath" :
-			{
+		"abilities" : {
+			"twoHexAttackBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"repair" :
-			{
+			"repair" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "hotaRepair",
 				"val" : 2
 			},
-			"castLength" :
-			{
+			"castLength" : {
 				"type" : "SPECIFIC_SPELL_POWER",
 				"subtype" : "hotaRepair",
 				"val" : 10
 			},
-			"spellpoints" :
-			{
+			"spellpoints" : {
 				"type" : "CASTS",
 				"val" : 1
-			}	
+			}
 		}
 	}
 }

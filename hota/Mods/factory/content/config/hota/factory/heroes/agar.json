@@ -1,32 +1,26 @@
 {
-	"13agar" :
-	{
-    "class": "artificer",
-    "female" : false,
-		
-		"texts" :
-		{
+	"13agar" : {
+		"class" : "artificer",
+		"female" : false,
+
+		"texts" : {
 			"name" : "Agar",
 			"biography" : "Many thought that the warlock Agar was a madman, and then a dead man. While the latter has been proven incorrect, there is still no unanimity in Enroth's scientific community on the former. Indeed, Agar's creations are undeniably viable and functional - but could a scientist in his right mind think of instilling such nasty inclinations and proclivities in a living being?",
-			"specialty" :
-			{
+			"specialty" : {
 				"tooltip" : "No description",
 				"name" : "Sandworms",
 				"description" : "Increases Speed of any Sandworms or Olgoi-Khorkhois by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
 			}
 		},
 
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "hota/factory/heroes/agar/icons/specialtySmall.bmp",
 			"specialtyLarge" : "hota/factory/heroes/agar/icons/specialtyLarge.bmp",
 			"large" : "hota/factory/heroes/agar/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/agar/icons/portraitSmall.png"
 		},
-		
 
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "halfling",
 				"max" : 25,
@@ -43,21 +37,18 @@
 				"min" : 4
 			}
 		],
-		"spellbook" :
-		[
+		"spellbook" : [
 			"viewEarth"
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "wisdom"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "hota.factory:sandworm"
 		}
 	}
 }
-

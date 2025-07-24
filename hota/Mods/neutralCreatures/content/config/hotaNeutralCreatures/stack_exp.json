@@ -1,216 +1,448 @@
 {
-	"fangarm" :
-	{
-		"stackExperience" :
-		[
+	"fangarm" : {
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 3, 4, 4, 6, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					6,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			}
-		]
-	},
-	
-	"leprechaun" :
-	{
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
-				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACK_HEALTH",
-					"valueType" : "PERCENT_TO_BASE"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 2 ]
-			}
-		]
-	},
-
-	"satyr" :
-	{
-		"stackExperience" :
-		[
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence"
-				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
-				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACK_HEALTH",
-					"valueType" : "PERCENT_TO_BASE"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "STACKS_SPEED"
-				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
 			}
 		]
 	},
 
-	"steelGolem" :
-	{
-		"stackExperience" :
-		[
+	"leprechaun" : {
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "STACKS_SPEED"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					2
+				]
+			}
+		]
+	},
+
+	"satyr" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			}
+		]
+	},
+
+	"steelGolem" : {
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "attack"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "defence"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	}

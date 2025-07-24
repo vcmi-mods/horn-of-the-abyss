@@ -1,11 +1,9 @@
 {
-	"gruezak" :
-	{
+	"gruezak" : {
 		"class" : "barbarian",
-		"female": false,
-		"special": true,
-		"images" :
-		{
+		"female" : false,
+		"special" : true,
+		"images" : {
 			"large" : "hota/stronghold/heroes/gruezak/icons/portraitLarge.png",
 			"small" : "hota/stronghold/heroes/gruezak/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/stronghold/heroes/gruezak/icons/specialtyLarge.png",
@@ -28,8 +26,7 @@
 				"max" : 6
 			}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "offence"
@@ -37,7 +34,7 @@
 			{
 				"level" : "basic",
 				"skill" : "artillery"
-			},
+			}
 		],
 		"specialty" : {
 			"creature" : "ballista"

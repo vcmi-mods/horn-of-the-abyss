@@ -116,12 +116,14 @@
 	"core:armageddon" : {
 		"power" : 40
 	},
-	
+
 	"core:slow" : {
 		"levels" : {
-			"base#override":{
+			"base#override" : {
 				"range" : "0",
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"stacksSpeed" : {
 						"type" : "STACKS_SPEED",
@@ -135,39 +137,41 @@
 						"valueType" : "ADDITIVE_VALUE",
 						"val" : 0,
 						"duration" : "N_TURNS"
-						}
+					}
 				}
 			},
 
-			"advanced":{
+			"advanced" : {
 				"effects" : {
 					"stacksSpeed" : {
 						"val" : -50
 					},
-					"hotaNerf" : {"val":2}
+					"hotaNerf" : {
+						"val" : 2
+					}
 				}
 			},
 
-			"expert":{
+			"expert" : {
 				"range" : "X",
 				"effects" : {
 					"stacksSpeed" : {
 						"val" : -50
 					},
-					"hotaNerf" : {"val":2}
+					"hotaNerf" : {
+						"val" : 2
+					}
 				}
 			}
 		}
 	},
-	
+
 	"core:fireElemental" : {
-		
 		"levels" : {
 			"advanced" : {
-			
 				"power" : 3
 			},
-		
+
 			"basic" : {
 				"power" : 2
 			},
@@ -179,15 +183,13 @@
 			}
 		}
 	},
-	
+
 	"core:earthElemental" : {
-		
 		"levels" : {
 			"advanced" : {
-			
 				"power" : 3
 			},
-		
+
 			"basic" : {
 				"power" : 2
 			},

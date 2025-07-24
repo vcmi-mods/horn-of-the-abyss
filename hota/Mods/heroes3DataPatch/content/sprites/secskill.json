@@ -1,455 +1,455 @@
 {
 	"basepath" : "secskill/",
-    "images": [
-        {
-            "group": 0,
-            "frame": 0,
-            "file": "skill000.png"
-        },
-        {
-            "group": 0,
-            "frame": 1,
-            "file": "skill000.png"
-        },
-        {
-            "group": 0,
-            "frame": 2,
-            "file": "skill000.png"
-        },
-        {
-            "group": 0,
-            "frame": 3,
-            "file": "skill12a.png"
-        },
-        {
-            "group": 0,
-            "frame": 4,
-            "file": "skill12b.png"
-        },
-        {
-            "group": 0,
-            "frame": 5,
-            "file": "skill12c.png"
-        },
-        {
-            "group": 0,
-            "frame": 6,
-            "file": "skill01a.png"
-        },
-        {
-            "group": 0,
-            "frame": 7,
-            "file": "skill01b.png"
-        },
-        {
-            "group": 0,
-            "frame": 8,
-            "file": "skill01c.png"
-        },
-        {
-            "group": 0,
-            "frame": 9,
-            "file": "skill07a.png"
-        },
-        {
-            "group": 0,
-            "frame": 10,
-            "file": "skill07b.png"
-        },
-        {
-            "group": 0,
-            "frame": 11,
-            "file": "skill07c.png"
-        },
-        {
-            "group": 0,
-            "frame": 12,
-            "file": "skill13a.png"
-        },
-        {
-            "group": 0,
-            "frame": 13,
-            "file": "skill13b.png"
-        },
-        {
-            "group": 0,
-            "frame": 14,
-            "file": "skill13c.png"
-        },
-        {
-            "group": 0,
-            "frame": 15,
-            "file": "skill03a.png"
-        },
-        {
-            "group": 0,
-            "frame": 16,
-            "file": "skill03b.png"
-        },
-        {
-            "group": 0,
-            "frame": 17,
-            "file": "skill03c.png"
-        },
-        {
-            "group": 0,
-            "frame": 18,
-            "file": "skill10a.png"
-        },
-        {
-            "group": 0,
-            "frame": 19,
-            "file": "skill10b.png"
-        },
-        {
-            "group": 0,
-            "frame": 20,
-            "file": "skill10c.png"
-        },
-        {
-            "group": 0,
-            "frame": 21,
-            "file": "skill06a.png"
-        },
-        {
-            "group": 0,
-            "frame": 22,
-            "file": "skill06b.png"
-        },
-        {
-            "group": 0,
-            "frame": 23,
-            "file": "skill06c.png"
-        },
-        {
-            "group": 0,
-            "frame": 24,
-            "file": "skill14a.png"
-        },
-        {
-            "group": 0,
-            "frame": 25,
-            "file": "skill14b.png"
-        },
-        {
-            "group": 0,
-            "frame": 26,
-            "file": "skill14c.png"
-        },
-        {
-            "group": 0,
-            "frame": 27,
-            "file": "skill09a.png"
-        },
-        {
-            "group": 0,
-            "frame": 28,
-            "file": "skill09b.png"
-        },
-        {
-            "group": 0,
-            "frame": 29,
-            "file": "skill09c.png"
-        },
-        {
-            "group": 0,
-            "frame": 30,
-            "file": "skill08a.png"
-        },
-        {
-            "group": 0,
-            "frame": 31,
-            "file": "skill08b.png"
-        },
-        {
-            "group": 0,
-            "frame": 32,
-            "file": "skill08c.png"
-        },
-        {
-            "group": 0,
-            "frame": 33,
-            "file": "skill02a.png"
-        },
-        {
-            "group": 0,
-            "frame": 34,
-            "file": "skill02b.png"
-        },
-        {
-            "group": 0,
-            "frame": 35,
-            "file": "skill02c.png"
-        },
-        {
-            "group": 0,
-            "frame": 36,
-            "file": "skill04a.png"
-        },
-        {
-            "group": 0,
-            "frame": 37,
-            "file": "skill04b.png"
-        },
-        {
-            "group": 0,
-            "frame": 38,
-            "file": "skill04c.png"
-        },
-        {
-            "group": 0,
-            "frame": 39,
-            "file": "skill11a.png"
-        },
-        {
-            "group": 0,
-            "frame": 40,
-            "file": "skill11b.png"
-        },
-        {
-            "group": 0,
-            "frame": 41,
-            "file": "skill11c.png"
-        },
-        {
-            "group": 0,
-            "frame": 42,
-            "file": "skill05a.png"
-        },
-        {
-            "group": 0,
-            "frame": 43,
-            "file": "skill05b.png"
-        },
-        {
-            "group": 0,
-            "frame": 44,
-            "file": "skill05c.png"
-        },
-        {
-            "group": 0,
-            "frame": 45,
-            "file": "skill15a.png"
-        },
-        {
-            "group": 0,
-            "frame": 46,
-            "file": "skill15b.png"
-        },
-        {
-            "group": 0,
-            "frame": 47,
-            "file": "skill15c.png"
-        },
-        {
-            "group": 0,
-            "frame": 48,
-            "file": "skill16a.png"
-        },
-        {
-            "group": 0,
-            "frame": 49,
-            "file": "skill16b.png"
-        },
-        {
-            "group": 0,
-            "frame": 50,
-            "file": "skill16c.png"
-        },
-        {
-            "group": 0,
-            "frame": 51,
-            "file": "skill17a.png"
-        },
-        {
-            "group": 0,
-            "frame": 52,
-            "file": "skill17b.png"
-        },
-        {
-            "group": 0,
-            "frame": 53,
-            "file": "skill17c.png"
-        },
-        {
-            "group": 0,
-            "frame": 54,
-            "file": "skill18a.png"
-        },
-        {
-            "group": 0,
-            "frame": 55,
-            "file": "skill18b.png"
-        },
-        {
-            "group": 0,
-            "frame": 56,
-            "file": "skill18c.png"
-        },
-        {
-            "group": 0,
-            "frame": 57,
-            "file": "skill19a.png"
-        },
-        {
-            "group": 0,
-            "frame": 58,
-            "file": "skill19b.png"
-        },
-        {
-            "group": 0,
-            "frame": 59,
-            "file": "skill19c.png"
-        },
-        {
-            "group": 0,
-            "frame": 60,
-            "file": "skill20a.png"
-        },
-        {
-            "group": 0,
-            "frame": 61,
-            "file": "skill20b.png"
-        },
-        {
-            "group": 0,
-            "frame": 62,
-            "file": "skill20c.png"
-        },
-        {
-            "group": 0,
-            "frame": 63,
-            "file": "skill21a.png"
-        },
-        {
-            "group": 0,
-            "frame": 64,
-            "file": "skill21b.png"
-        },
-        {
-            "group": 0,
-            "frame": 65,
-            "file": "skill21c.png"
-        },
-        {
-            "group": 0,
-            "frame": 66,
-            "file": "skill22a.png"
-        },
-        {
-            "group": 0,
-            "frame": 67,
-            "file": "skill22b.png"
-        },
-        {
-            "group": 0,
-            "frame": 68,
-            "file": "skill22c.png"
-        },
-        {
-            "group": 0,
-            "frame": 69,
-            "file": "skill23a.png"
-        },
-        {
-            "group": 0,
-            "frame": 70,
-            "file": "skill23b.png"
-        },
-        {
-            "group": 0,
-            "frame": 71,
-            "file": "skill23c.png"
-        },
-        {
-            "group": 0,
-            "frame": 72,
-            "file": "skill24a.png"
-        },
-        {
-            "group": 0,
-            "frame": 73,
-            "file": "skill24b.png"
-        },
-        {
-            "group": 0,
-            "frame": 74,
-            "file": "skill24c.png"
-        },
-        {
-            "group": 0,
-            "frame": 75,
-            "file": "skill25a.png"
-        },
-        {
-            "group": 0,
-            "frame": 76,
-            "file": "skill25b.png"
-        },
-        {
-            "group": 0,
-            "frame": 77,
-            "file": "skill25c.png"
-        },
-        {
-            "group": 0,
-            "frame": 78,
-            "file": "skill26a.png"
-        },
-        {
-            "group": 0,
-            "frame": 79,
-            "file": "skill26b.png"
-        },
-        {
-            "group": 0,
-            "frame": 80,
-            "file": "skill26c.png"
-        },
-        {
-            "group": 0,
-            "frame": 81,
-            "file": "skill27a.png"
-        },
-        {
-            "group": 0,
-            "frame": 82,
-            "file": "skill27b.png"
-        },
-        {
-            "group": 0,
-            "frame": 83,
-            "file": "skill27c.png"
-        },
-        {
-            "group": 0,
-            "frame": 84,
-            "file": "skill28a.png"
-        },
-        {
-            "group": 0,
-            "frame": 85,
-            "file": "skill28b.png"
-        },
-        {
-            "group": 0,
-            "frame": 86,
-            "file": "skill28c.png"
-        },
-        {
-            "group": 0,
-            "frame": 87,
-            "file": "intf44_1.png"
-        },
-        {
-            "group": 0,
-            "frame": 88,
-            "file": "intf44_2.png"
-        },
-        {
-            "group": 0,
-            "frame": 89,
-            "file": "intf44_3.png"
-        }
-    ]
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "skill000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "skill000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "skill000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "skill12a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "skill12b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "skill12c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "skill01a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "skill01b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "skill01c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "skill07a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "skill07b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 11,
+			"file" : "skill07c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 12,
+			"file" : "skill13a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 13,
+			"file" : "skill13b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 14,
+			"file" : "skill13c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 15,
+			"file" : "skill03a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 16,
+			"file" : "skill03b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 17,
+			"file" : "skill03c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 18,
+			"file" : "skill10a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 19,
+			"file" : "skill10b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 20,
+			"file" : "skill10c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 21,
+			"file" : "skill06a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 22,
+			"file" : "skill06b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 23,
+			"file" : "skill06c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 24,
+			"file" : "skill14a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 25,
+			"file" : "skill14b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 26,
+			"file" : "skill14c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 27,
+			"file" : "skill09a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 28,
+			"file" : "skill09b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 29,
+			"file" : "skill09c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 30,
+			"file" : "skill08a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 31,
+			"file" : "skill08b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 32,
+			"file" : "skill08c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 33,
+			"file" : "skill02a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 34,
+			"file" : "skill02b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 35,
+			"file" : "skill02c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 36,
+			"file" : "skill04a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 37,
+			"file" : "skill04b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 38,
+			"file" : "skill04c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 39,
+			"file" : "skill11a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 40,
+			"file" : "skill11b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 41,
+			"file" : "skill11c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 42,
+			"file" : "skill05a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 43,
+			"file" : "skill05b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 44,
+			"file" : "skill05c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 45,
+			"file" : "skill15a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 46,
+			"file" : "skill15b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 47,
+			"file" : "skill15c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 48,
+			"file" : "skill16a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 49,
+			"file" : "skill16b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 50,
+			"file" : "skill16c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 51,
+			"file" : "skill17a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 52,
+			"file" : "skill17b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 53,
+			"file" : "skill17c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 54,
+			"file" : "skill18a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 55,
+			"file" : "skill18b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 56,
+			"file" : "skill18c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 57,
+			"file" : "skill19a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 58,
+			"file" : "skill19b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 59,
+			"file" : "skill19c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 60,
+			"file" : "skill20a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 61,
+			"file" : "skill20b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 62,
+			"file" : "skill20c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 63,
+			"file" : "skill21a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 64,
+			"file" : "skill21b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 65,
+			"file" : "skill21c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 66,
+			"file" : "skill22a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 67,
+			"file" : "skill22b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 68,
+			"file" : "skill22c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 69,
+			"file" : "skill23a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 70,
+			"file" : "skill23b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 71,
+			"file" : "skill23c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 72,
+			"file" : "skill24a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 73,
+			"file" : "skill24b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 74,
+			"file" : "skill24c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 75,
+			"file" : "skill25a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 76,
+			"file" : "skill25b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 77,
+			"file" : "skill25c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 78,
+			"file" : "skill26a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 79,
+			"file" : "skill26b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 80,
+			"file" : "skill26c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 81,
+			"file" : "skill27a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 82,
+			"file" : "skill27b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 83,
+			"file" : "skill27c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 84,
+			"file" : "skill28a.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 85,
+			"file" : "skill28b.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 86,
+			"file" : "skill28c.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 87,
+			"file" : "intf44_1.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 88,
+			"file" : "intf44_2.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 89,
+			"file" : "intf44_3.png"
+		}
+	]
 }

@@ -1,33 +1,47 @@
 {
-	"core:creatureBank" : 
-	{
-		"types" : 
-		{
-			"experimentalShop" : 
-			{
+	"core:creatureBank" : {
+		"types" : {
+			"experimentalShop" : {
 				"name" : "Experimental Shop",
-				"templates" :
-				{
-					"normal" :
-					{
+				"templates" : {
+					"normal" : {
 						"animation" : "hota/banks/AVXbnk90.def",
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : ["VVV", "VVV", "VBA"]
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					},
-					"snow" :
-					{
+					"snow" : {
 						"animation" : "hota/banks/AVXbnk9s.def",
-						"visitableFrom" : [ "---", "+++", "+++" ], 
-						"mask" : ["VVV", "VVV", "VBA"],
-						"allowedTerrains":["snow"] 
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				},
-				"sounds": {
-					"ambient": ["hota/LOOPEXSH.wav"]
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPEXSH.wav"
+					]
 				},
 				"rmg" : {
-					"value"		: 3500,
-					"rarity"	: 80
+					"value" : 3500,
+					"rarity" : 80
 				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
@@ -35,55 +49,146 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",
-				"rewards":
-				[
+				"rewards" : [
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 0, "max" : 30 },
-						"guards": [
-							{ "amount": 4, "type" : "steelGolem" },
-							{ "amount": 4, "type" : "steelGolem" },
-							{ "amount": 4, "type" : "steelGolem" },
-							{ "amount": 4, "type" : "steelGolem" },
-							{ "amount": 4, "type" : "steelGolem" }
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"guards" : [
+							{
+								"amount" : 4,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 4,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 4,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 4,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 4,
+								"type" : "steelGolem"
+							}
 						],
-						"creatures": [ { "amount": 1, "type": "giant" } ]
+						"creatures" : [
+							{
+								"amount" : 1,
+								"type" : "giant"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards": [
-							{ "amount": 8, "type" : "steelGolem" },
-							{ "amount": 8, "type" : "steelGolem" },
-							{ "amount": 8, "type" : "steelGolem" },
-							{ "amount": 8, "type" : "steelGolem" },
-							{ "amount": 8, "type" : "steelGolem" }
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 8,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 8,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 8,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 8,
+								"type" : "steelGolem"
+							}
 						],
-						"creatures": [ { "amount": 2, "type": "giant" } ]
+						"creatures" : [
+							{
+								"amount" : 2,
+								"type" : "giant"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards": [
-							{ "amount": 12, "type" : "steelGolem" },
-							{ "amount": 12, "type" : "steelGolem" },
-							{ "amount": 12, "type" : "steelGolem" },
-							{ "amount": 12, "type" : "steelGolem" },
-							{ "amount": 12, "type" : "steelGolem" }
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 12,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 12,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 12,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 12,
+								"type" : "steelGolem"
+							}
 						],
-						"creatures": [ { "amount": 3, "type": "giant" } ]
+						"creatures" : [
+							{
+								"amount" : 3,
+								"type" : "giant"
+							}
+						]
 					},
 					{
 						"message" : 34,
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards": [
-							{ "amount": 16, "type" : "steelGolem" },
-							{ "amount": 16, "type" : "steelGolem" },
-							{ "amount": 16, "type" : "steelGolem" },
-							{ "amount": 16, "type" : "steelGolem" },
-							{ "amount": 16, "type" : "steelGolem" }
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 16,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 16,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 16,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 16,
+								"type" : "steelGolem"
+							},
+							{
+								"amount" : 16,
+								"type" : "steelGolem"
+							}
 						],
-						"creatures": [ { "amount": 4, "type": "giant" } ]
+						"creatures" : [
+							{
+								"amount" : 4,
+								"type" : "giant"
+							}
+						]
 					}
 				]
 			}

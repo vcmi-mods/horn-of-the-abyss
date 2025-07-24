@@ -10,17 +10,23 @@
 				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" : { "gold" : 2500 }
+					"cost" : {
+						"gold" : 2500
+					}
 				},
 				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" : { "gold" : 5000 }
+					"cost" : {
+						"gold" : 5000
+					}
 				},
 				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" : { "gold" : 10000 }
+					"cost" : {
+						"gold" : 10000
+					}
 				},
 
 				"fort" : {
@@ -81,7 +87,9 @@
 						"gold" : 5000,
 						"ore" : 5
 					},
-					"produce": { "sulfur": 1 }
+					"produce" : {
+						"sulfur" : 1
+					}
 				},
 				"shipyard" : {
 					"name" : "Shipyard",
@@ -104,11 +112,11 @@
 						"gold" : 600,
 						"wood" : 3
 					},
-					"bonuses": [
+					"bonuses" : [
 						{
-							"propagator": "PLAYER",
-							"type": "THIEVES_GUILD_ACCESS",
-							"val": 2
+							"propagator" : "PLAYER",
+							"type" : "THIEVES_GUILD_ACCESS",
+							"val" : 2
 						}
 					]
 				},
@@ -124,12 +132,16 @@
 				"horde1" : {
 					"name" : "Pub",
 					"description" : "The Pub increases Crew Mates production by 4 per week.",
-					"cost" : { "gold" : 1000 }
+					"cost" : {
+						"gold" : 1000
+					}
 				},
 				"horde1Upgr" : {
 					"name" : "Pub",
 					"description" : "The Pub increases Seamen production by 4 per week.",
-					"cost" : { "gold" : 1000 },
+					"cost" : {
+						"gold" : 1000
+					},
 					"mode" : "auto"
 				},
 				"horde2" : {
@@ -152,14 +164,16 @@
 				"grail" : {
 					"name" : "Lodestar",
 					"description" : "The presence of the Lodestar increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also making any land native to the creatures of the Cove.",
-					"produce": { "gold": 5000 },
+					"produce" : {
+						"gold" : 5000
+					},
 					"bonuses" : [
 						{
 							"type" : "TERRAIN_NATIVE",
 							"propagator" : "GLOBAL_EFFECT",
 							"limiters" : [
 								{
-									"type": "FACTION_LIMITER",
+									"type" : "FACTION_LIMITER",
 									"faction" : "cove"
 								}
 							]
@@ -220,7 +234,9 @@
 				"dwellingLvl1" : {
 					"name" : "Waterfall",
 					"description" : "The Waterfall allows you to recruite Nymphs.",
-					"cost" : { "gold" : 500 }
+					"cost" : {
+						"gold" : 500
+					}
 				},
 				"dwellingLvl2" : {
 					"name" : "Shack",

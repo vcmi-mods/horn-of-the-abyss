@@ -6,7 +6,9 @@
 		},
 		"faction" : "cove",
 		"level" : 7,
-		"upgrades" : [ "haspid" ],
+		"upgrades" : [
+			"haspid"
+		],
 		"cost" : {
 			"gold" : 2200,
 			"sulfur" : 1
@@ -27,8 +29,7 @@
 			"max" : 10,
 			"min" : 4
 		},
-		"abilities" :
-		{
+		"abilities" : {
 			"dragonNature" : {
 				"type" : "DRAGON_NATURE"
 			},
@@ -38,8 +39,8 @@
 				"val" : 30,
 				"addInfo" : 0
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
 			}
@@ -48,7 +49,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/seaserpent.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/seaserpent.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWSERPE.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/cserpent.def",
 			"animationTime" : {
 				"attack" : 1,

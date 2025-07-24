@@ -3,13 +3,23 @@
 		"types" : {
 			"shrineOfMagicLevel3" : {
 				"templates" : {
-					"AVXl3sh0w" : { "animation" : "hota/shrines/AVXl3sh0w", 
-						"mask" : [ "VB", "VA" ], 
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "water"]
+					"AVXl3sh0w" : {
+						"animation" : "hota/shrines/AVXl3sh0w",
+						"mask" : [
+							"VB",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

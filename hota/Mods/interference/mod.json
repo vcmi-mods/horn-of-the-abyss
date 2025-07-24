@@ -1,15 +1,21 @@
 {
 	"name" : "Interference skill",
-	"description" : "This mod adds new skill, 'Interference', a new hero, Giselle, with specialty in interference skill and changes heroes with resistance skill to use interference instead", 
+	"description" : "This mod adds new skill, 'Interference', a new hero, Giselle, with specialty in interference skill and changes heroes with resistance skill to use interference instead",
 	"modType" : "Skills",
-	"author": "avatar",
-	"contact": "http://forum.df2.ru/index.php?showtopic=32286",
+	"author" : "avatar",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.4.0",
 	"changelog" : {
-		"1.4.0"   : [ "Mod now also contains interference skill itself" ],
-		"1.3.6"   : [ "Added chances for OH3 factions" ],
-		"1.3.5"   : [ "Release version" ]
-    },
+		"1.4.0" : [
+			"Mod now also contains interference skill itself"
+		],
+		"1.3.6" : [
+			"Added chances for OH3 factions"
+		],
+		"1.3.5" : [
+			"Release version"
+		]
+	},
 	"chinese" : {
 		"name" : "干扰术技能",
 		"description" : "这个模组添加新技能干扰术和特长干扰术的新英雄吉赛尔，并将其他英雄的抵抗力技能替换为干扰术。"

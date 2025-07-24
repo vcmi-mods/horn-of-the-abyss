@@ -6,7 +6,9 @@
 		},
 		"faction" : "cove",
 		"level" : 5,
-		"cost" : { "gold" : 565 },
+		"cost" : {
+			"gold" : 565
+		},
 		"speed" : 7,
 		"hitPoints" : 35,
 		"attack" : 12,
@@ -31,20 +33,31 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.weakness",
 				"val" : 100,
-				"addInfo" : [2, 0, 0]
+				"addInfo" : [
+					2,
+					0,
+					0
+				]
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disruptingRay",
 				"val" : 100,
-				"addInfo" : [2, 0, 1]
+				"addInfo" : [
+					2,
+					0,
+					1
+				]
 			}
 		},
 		"graphics" : {
 			"iconLarge" : "hota/cove/creatures/iconsLarge/sorceress.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/sorceress.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWSORCS.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CSORCSS.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -55,7 +68,17 @@
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PSORC.def",
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,

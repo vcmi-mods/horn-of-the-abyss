@@ -1,38 +1,29 @@
 {
-	"hota.heroes:boyd":
-	{
+	"hota.heroes:boyd" : {
 		"special" : false
 	},
-	"hota.heroes:maximus":
-	{
+	"hota.heroes:maximus" : {
 		"special" : false
 	},
-	"hota.heroes:pactal":
-	{
+	"hota.heroes:pactal" : {
 		"special" : false
 	},
-	"hota.heroes:areshrak":
-	{
+	"hota.heroes:areshrak" : {
 		"special" : false
 	},
-	"hota.heroes:zog":
-	{
+	"hota.heroes:zog" : {
 		"special" : false
 	},
-	"hota.heroes:gruezak":
-	{
+	"hota.heroes:gruezak" : {
 		"special" : false
 	},
-	"hota.heroes:kydoimos":
-	{
+	"hota.heroes:kydoimos" : {
 		"special" : false
 	},
-		"hota.heroes:miseria":
-	{
+	"hota.heroes:miseria" : {
 		"special" : false
 	},
-		"hota.heroes:athe":
-	{
+	"hota.heroes:athe" : {
 		"special" : false
 	}
 }

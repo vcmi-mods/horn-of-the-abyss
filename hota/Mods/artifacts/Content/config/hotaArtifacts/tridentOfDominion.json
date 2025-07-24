@@ -1,6 +1,8 @@
 {
 	"tridentOfDominion" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 7000,

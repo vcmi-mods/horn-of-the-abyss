@@ -1,69 +1,62 @@
 {
-	"steelGolem":
-	{
-		"name" :
-		{
+	"steelGolem" : {
+		"name" : {
 			"singular" : "Steel Golem",
 			"plural" : "Steel Golems"
 		},
 		"faction" : "neutral",
 		"level" : 4,
-		"cost" : { "gold" : 400 },
+		"cost" : {
+			"gold" : 400
+		},
 		"speed" : 6,
 		"hitPoints" : 45,
 		"attack" : 10,
 		"defense" : 11,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 8
 		},
 		"fightValue" : 597,
 		"aiValue" : 597,
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16
 		},
 		"growth" : 4,
-		"hasDoubleWeek": false,
-		"abilities" :
-		{
-			"magicResistance" :
-			{
+		"hasDoubleWeek" : false,
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 80
 			},
-			"nonliving" :
-			{
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm172.bmp",
 			"iconLarge" : "hota/creatures/iconsLarge/TwCrP172.png",
 			"map" : "hota/creatures/adventureMap/avwslgl0.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/creatures/battle/cstlgole.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
-				"idle" : 10.00,
+				"idle" : 10.0,
 				"attack" : 1
 			}
 		},
-		"sound" :
-		{
-			"attack": "hota/creatures/steelGolem/SLGLATTK.wav",
-			"defend": "hota/creatures/steelGolem/SLGLDFND.wav",
-			"killed": "hota/creatures/steelGolem/SLGLKILL.wav",
-			"move": "hota/creatures/steelGolem/SLGLMOVE.wav",
-			"wince": "hota/creatures/steelGolem/SLGLWNCE.wav"
+		"sound" : {
+			"attack" : "hota/creatures/steelGolem/SLGLATTK.wav",
+			"defend" : "hota/creatures/steelGolem/SLGLDFND.wav",
+			"killed" : "hota/creatures/steelGolem/SLGLKILL.wav",
+			"move" : "hota/creatures/steelGolem/SLGLMOVE.wav",
+			"wince" : "hota/creatures/steelGolem/SLGLWNCE.wav"
 		}
 	}
 }
-
-

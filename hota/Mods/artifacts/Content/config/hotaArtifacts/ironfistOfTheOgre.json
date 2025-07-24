@@ -1,6 +1,8 @@
 {
 	"ironfistOfTheOgre" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
 		"class" : "RELIC",
 		"value" : 0,
@@ -17,18 +19,18 @@
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"spell2" :{
+			"spell2" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "bloodlust",
 				"valueType" : "BASE_NUMBER",
 				"val" : 50
 			},
-			"spell3" :{
+			"spell3" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "fireShield",
 				"val" : 50
 			},
-			"spell4" :{
+			"spell4" : {
 				"type" : "OPENING_BATTLE_SPELL",
 				"subtype" : "counterstrike",
 				"valueType" : "BASE_NUMBER",

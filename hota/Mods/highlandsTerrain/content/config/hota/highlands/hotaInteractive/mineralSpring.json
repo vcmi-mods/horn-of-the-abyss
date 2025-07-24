@@ -1,35 +1,53 @@
 {
 	"mineralSpring" : {
-		"handler":"configurable",
+		"handler" : "configurable",
 		"name" : "Mineral Spring",
 		"types" : {
 			"mineralSpring" : {
 				"rmg" : {
-					"value"	: 500,
+					"value" : 500,
 					"rarity" : 50,
 					"zoneLimit" : 1
 				},
 				"sounds" : {
-					"visit" : ["LUCK"]
+					"visit" : [
+						"LUCK"
+					]
 				},
 				"rewards" : [
 					{
 						"message" : "{Mineral Spring}\r\n\r\nHorses look less than thrilled to drink the salty water, but soon you notice them prancing around with new vigor. Rainbow forms in the droplets above the sparkling spring, and the sight brings everyone to a happy mood.",
 						"movePoints" : 600,
-						"bonuses" : [ { "type" : "LUCK", "val" : 1, "duration" : "ONE_BATTLE" } ]
+						"bonuses" : [
+							{
+								"type" : "LUCK",
+								"val" : 1,
+								"duration" : "ONE_BATTLE"
+							}
+						]
 					}
 				],
-				"onVisitedMessage": "{Mineral Spring}\r\n\r\nEverybody's belly is chock full of bubbly water. That's enough hydration for today.",
+				"onVisitedMessage" : "{Mineral Spring}\r\n\r\nEverybody's belly is chock full of bubbly water. That's enough hydration for today.",
 				"visitMode" : "bonus",
 				"templates" : {
 					"AVXmspr0" : {
 						"animation" : "hota/highlands/hotaInteractive/mineralSpring/AVXmspr0",
-						"mask" : [ "VVV", "VBV", "VBA" ],
-						"visitableFrom" : [ "---", "--+", "+++" ],
-						"allowedTerrains": [ "highlands" ]
+						"mask" : [
+							"VVV",
+							"VBV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"--+",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
 					}
 				}
 			}
 		}
-	}		
+	}
 }

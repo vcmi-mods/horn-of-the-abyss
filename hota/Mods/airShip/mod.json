@@ -7,11 +7,10 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.1",
-	"objects" :
-	[
+	"objects" : [
 		"config/airship/airship.json"
 	],
-	"czech": {
+	"czech" : {
 		"name" : "Vzducholoď",
 		"description" : "Tato modifikace přidává do hry vzducholoď včetně přístaviště"
 	}

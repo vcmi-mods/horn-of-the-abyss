@@ -5,8 +5,12 @@
 				"templates" : {
 					"avlhlws0" : {
 						"animation" : "hota/wasteland/vanillaStatic/hole/avlhlws0",
-						"mask" : [ "V" ],
-						"allowedTerrains": [ "wasteland" ]
+						"mask" : [
+							"V"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				}
 			}

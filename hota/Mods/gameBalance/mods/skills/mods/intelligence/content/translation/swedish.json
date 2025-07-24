@@ -1,5 +1,5 @@
 {
-	"skill.core.intelligence.description.advanced"   : "{Intelligens (Utvecklad)}\n\nIntelligens på utvecklad nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 35%.",
-	"skill.core.intelligence.description.basic"      : "{Intelligens (Grundläggande)}\n\nIntelligens på grundläggande nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 20%.",
-	"skill.core.intelligence.description.expert"     : "{Intelligens (Mästerlig)}\n\nIntelligens på mästerlig nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 50%."
+	"skill.core.intelligence.description.advanced" : "{Intelligens (Utvecklad)}\n\nIntelligens på utvecklad nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 35%.",
+	"skill.core.intelligence.description.basic" : "{Intelligens (Grundläggande)}\n\nIntelligens på grundläggande nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 20%.",
+	"skill.core.intelligence.description.expert" : "{Intelligens (Mästerlig)}\n\nIntelligens på mästerlig nivå ökar det maximala antalet trollformelspoäng som hjälten kan ha med 50%."
 }

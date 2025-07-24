@@ -1,79 +1,72 @@
 {
-	"hotaDreadnought":
-	{
-		"name" :
-		{
+	"hotaDreadnought" : {
+		"name" : {
 			"plural" : "Dreadnoughts",
 			"singular" : "Dreadnought"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 10,
-			 "min" : 4
+		"advMapAmount" : {
+			"max" : 10,
+			"min" : 4
 		},
 		"faction" : "factory",
 		"aiValue" : 3879,
 		"attack" : 18,
-		"cost" :
-		{
-			"gold": 2500,
-			"crystal": 1
+		"cost" : {
+			"gold" : 2500,
+			"crystal" : 1
 		},
-		"damage" :
-		{
-			 "max" : 50,
-			 "min" : 40
+		"damage" : {
+			"max" : 50,
+			"min" : 40
 		},
 		"defense" : 20,
 		"fightValue" : 3150,
-		"graphics" :
-		{
-			"animation": "hota/factory/creatures/battle/CDREAD.def",
-			"map": "hota/factory/creatures/adventureMap/AvWdred.def",
-			"mapMask" : [ "VVV", "VAV"],
-			"iconSmall": "hota/factory/creatures/iconsSmall/CPrS015F.bmp",
-			"iconLarge": "hota/factory/creatures/iconsLarge/CPrL015F.bmp",
-			"timeBetweenFidgets": 1,
-			"animationTime":
-			{
-				"walk": 1.5,
-				"attack": 1,
-				"idle": 10
+		"graphics" : {
+			"animation" : "hota/factory/creatures/battle/CDREAD.def",
+			"map" : "hota/factory/creatures/adventureMap/AvWdred.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS015F.bmp",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL015F.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.5,
+				"attack" : 1,
+				"idle" : 10
 			}
 		},
 		"doubleWide" : true,
 		"growth" : 1,
 		"hitPoints" : 200,
-		"level": 7,
-		"upgrades" : [ "hotaJuggernaut" ],
-		"sound" :
-		{
+		"level" : 7,
+		"upgrades" : [
+			"hotaJuggernaut"
+		],
+		"sound" : {
 			"attack" : "hota/factory/creatures/dreadnought/DREDATTK.wav",
 			"defend" : "hota/factory/creatures/dreadnought/DREDDFND.wav",
 			"killed" : "hota/factory/creatures/dreadnought/DREDKILL.wav",
 			"move" : "hota/factory/creatures/dreadnought/DREDMOVE.wav",
-			"shoot": "hota/factory/creatures/dreadnought/DREDSHOT.wav",
+			"shoot" : "hota/factory/creatures/dreadnought/DREDSHOT.wav",
 			"wince" : "hota/factory/creatures/dreadnought/DREDWNCE.wav"
 		},
 		"speed" : 6,
-		"abilities":
-		{
-			"mechanical": 
-			{
-				"type": "MECHANICAL"
+		"abilities" : {
+			"mechanical" : {
+				"type" : "MECHANICAL"
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "WIDE_BREATH"
 			},
-			"noRetaliation" :
-			{
+			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"KING_1" : // Will be affected by Slayer with no expertise
-			{
+			// Will be affected by Slayer with no expertise
+			"KING_1" : {
 				"type" : "KING",
-				"val": 3
+				"val" : 3
 			}
 		}
 	}

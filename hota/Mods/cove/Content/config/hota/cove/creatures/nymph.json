@@ -6,8 +6,12 @@
 		},
 		"faction" : "cove",
 		"level" : 1,
-		"upgrades" : [ "oceanid" ],
-		"cost" : { "gold" : 35 },
+		"upgrades" : [
+			"oceanid"
+		],
+		"cost" : {
+			"gold" : 35
+		},
 		"speed" : 6,
 		"hitPoints" : 4,
 		"attack" : 5,
@@ -28,13 +32,11 @@
 				"type" : "FLYING",
 				"subtype" : "movementTeleporting"
 			},
-			"iceBoltImmunity" :
-			{
+			"iceBoltImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.iceBolt"
 			},
-			"frostRingImmunity" :
-			{
+			"frostRingImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
 			}
@@ -43,7 +45,10 @@
 			"iconLarge" : "hota/cove/creatures/iconsLarge/nymph.png",
 			"iconSmall" : "hota/cove/creatures/iconsSmall/nymph.png",
 			"map" : "hota/cove/creatures/adventureMap/AVWNIMPH.def",
-			"mapMask" : [ "VVV", "VAV"],
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
 			"animation" : "hota/cove/creatures/battle/CNIMPH.def",
 			"animationTime" : {
 				"attack" : 1,
@@ -57,8 +62,8 @@
 			"defend" : "hota/cove/creatures/nymph/NIMPDFND.wav",
 			"killed" : "hota/cove/creatures/nymph/NIMPKILL.wav",
 			"move" : "hota/cove/creatures/nymph/NIMPMOVE.wav",
-			"startMoving": "hota/cove/creatures/nymph/NIMPEXT1.wav",
-			"endMoving": "hota/cove/creatures/nymph/NIMPEXT2.wav",
+			"startMoving" : "hota/cove/creatures/nymph/NIMPEXT1.wav",
+			"endMoving" : "hota/cove/creatures/nymph/NIMPEXT2.wav",
 			"wince" : "hota/cove/creatures/nymph/NIMPWNCE.wav"
 		}
 	}

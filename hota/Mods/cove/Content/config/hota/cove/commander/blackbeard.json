@@ -1,19 +1,16 @@
 {
-	"blackbeard":
-	{
-		"name" :
-		{
+	"blackbeard" : {
+		"name" : {
 			"singular" : "Blackbeard",
 			"plural" : "Blackbeards"
 		},
 		"faction" : "cove",
-		"level": 0,
+		"level" : 0,
 		"speed" : 4,
 		"hitPoints" : 40,
 		"attack" : 5,
 		"defense" : 5,
-		"damage" :
-		{
+		"damage" : {
 			"min" : 6,
 			"max" : 12
 		},
@@ -26,52 +23,54 @@
 		"cost" : {
 			"gold" : 2000
 		},
-		"abilities" :
-		{
-			"canCast" :
-			{
+		"abilities" : {
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.protectWater",
 				"val" : 1
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 5
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			}
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"iconSmall" : "hota/cove/commander/icons/blackBeardSmall.bmp",
 			"iconLarge" : "hota/cove/commander/icons/blackBeardLarge.bmp",
 			"map" : "hota/cove/commander/adventureMap/blackBeard.def",
 			"animation" : "hota/cove/commander/battle/blackBeard.def",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
-				"walk" : 1.00,
-				"idle" : 12.00,
-				"attack" : 1.00
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 12.0,
+				"attack" : 1.0
 			},
 			"missile" : {
 				"attackClimaxFrame" : 5,
-				"frameAngles" : [ 90, 72, 45, 27, 0, -27, -45, -72, -90 ],
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
 				"offset" : {
 					"lowerX" : 28,
 					"lowerY" : 3,
@@ -83,8 +82,7 @@
 				"projectile" : "hota/cove/creatures/battle/projectile/PPIRATE.def"
 			}
 		},
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "hota/cove/creatures/pirate/PIRTATTK.wav",
 			"defend" : "hota/cove/creatures/pirate/PIRTDFND.wav",
 			"killed" : "hota/cove/creatures/pirate/PIRTKILL.wav",

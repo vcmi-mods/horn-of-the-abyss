@@ -1,22 +1,35 @@
 {
- "core:warMachineFactory" : {
-        "types" : {
-            "cannonYard" : {
-                "name" : "Cannon Yard",
-                "creatures" : [[ "cannon" ]],
-                "templates" : {
-                    "base" : {
-                        "animation" : "hota/map/avcnbksm",
-                        "visitableFrom" : [ "+++", "+-+", "+++" ], 
-                        "mask" : [ "VVVV", "VVVV", "VVBV", "VBBA"]
-                    }
-                },
-                "rmg" : {
-                    "zoneLimit"    : 1,
-                    "value"        : 3000,
-                    "rarity"    : 20
-                }
-            }
-        }
-    }
-}	
+	"core:warMachineFactory" : {
+		"types" : {
+			"cannonYard" : {
+				"name" : "Cannon Yard",
+				"creatures" : [
+					[
+						"cannon"
+					]
+				],
+				"templates" : {
+					"base" : {
+						"animation" : "hota/map/avcnbksm",
+						"visitableFrom" : [
+							"+++",
+							"+-+",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VVBV",
+							"VBBA"
+						]
+					}
+				},
+				"rmg" : {
+					"zoneLimit" : 1,
+					"value" : 3000,
+					"rarity" : 20
+				}
+			}
+		}
+	}
+}

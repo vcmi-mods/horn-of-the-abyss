@@ -1,11 +1,9 @@
 {
-	"ranloo" :
-	{
+	"ranloo" : {
 		"class" : "deathknight",
 		"female" : false,
 		"onlyOnMapWithoutWater" : true,
-		"images" :
-		{
+		"images" : {
 			"large" : "hota/necropolis/heroes/ranloo/icons/portraitLarge.png",
 			"small" : "hota/necropolis/heroes/ranloo/icons/portraitSmall.png",
 			"specialtyLarge" : "hota/necropolis/heroes/ranloo/icons/specialtyLarge.png",
@@ -41,7 +39,9 @@
 		"specialty" : {
 			"creature" : "ballista"
 		},
-		"spellbook" : [ "haste" ],
+		"spellbook" : [
+			"haste"
+		],
 		"texts" : {
 			"name" : "Ranloo",
 			"biography" : "Folowing the dream of his childhood Ranloo bound himself as an apprentice to a local farrier - master Mestley. But instead of ancient blacksmith's lore he got a bite to his neck and a gaping pit somewhere in the forest of Talon.\r\nNobody can imagine how Ranloo got out of that forest. However, everyone knows well that his diadem of a Master Blacksmith Ranloo has taken from a dead body of his mentor, after a precise shot with self-made ballista.",
@@ -53,5 +53,3 @@
 		}
 	}
 }
-
-

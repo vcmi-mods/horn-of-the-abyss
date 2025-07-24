@@ -1,5 +1,5 @@
 {
-  "core:artillery" : {
+	"core:artillery" : {
 		"base" : {
 			"effects" : {
 				"cannonExtra" : {
@@ -16,21 +16,33 @@
 		},
 		"basic" : {
 			"effects" : {
-				"cannonExtra" : { "val" : 0 },
-				"damagePower" : { "val" : 0 }
+				"cannonExtra" : {
+					"val" : 0
+				},
+				"damagePower" : {
+					"val" : 0
+				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"cannonExtra" : { "val" : 75 },
-				"damagePower" : { "val" : 100 }
+				"cannonExtra" : {
+					"val" : 75
+				},
+				"damagePower" : {
+					"val" : 100
+				}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"cannonExtra" : { "val" : 100 },
-				"damagePower" : { "val" : 200 }
+				"cannonExtra" : {
+					"val" : 100
+				},
+				"damagePower" : {
+					"val" : 200
+				}
 			}
 		}
-  }
+	}
 }
