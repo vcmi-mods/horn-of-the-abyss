@@ -29,7 +29,7 @@ jobs:
   format-json:
     name: Format JSON
     needs: validate-json
-    if: ${{ needs.validate-json.result == 'success' }}
+    if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     defaults:
       run:
