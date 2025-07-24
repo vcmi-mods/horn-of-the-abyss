@@ -1,5 +1,4 @@
-name: JSON Format & Validation
-
+name: JSON CI
 on:
   push:
     branches:
