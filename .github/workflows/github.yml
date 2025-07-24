@@ -59,5 +59,5 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           default_author: github_actions
-          message: "chore: auto-format JSON files"
+          message: "Auto-format JSON files"
           add: '*.json'
