@@ -99,5 +99,16 @@
 		"templates" : [
 			"AVLcthl0"
 		]
-	}
+	},
+	"highlandsOutcroppings" : {
+		"biome" : {
+			"terrain" : "highlands",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AVLHiTr0",
+			"AVLHiTr1",
+			"AVLHiTr2"
+		]
+	}	
 }

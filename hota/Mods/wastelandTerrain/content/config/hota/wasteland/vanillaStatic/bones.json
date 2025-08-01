@@ -34,6 +34,16 @@
 							"wasteland"
 						]
 					},
+					"AVLskul3" : {
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul3",
+						"mask" : [
+							"B"
+						],
+						"allowedTerrains" : [
+							"sand",
+							"wasteland"
+						]
+					},					
 					"AVLwcsk0" : {
 						"animation" : "hota/wasteland/vanillaStatic/bones/AVLwcsk0",
 						"mask" : [

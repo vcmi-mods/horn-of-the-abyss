@@ -3,31 +3,31 @@
 		"types" : {
 			"object" : {
 				"templates" : {
-					"AvLVoTr0" : {
-						"animation" : "hota/outcropping/AvLVoTr0",
+					"AVLHiTr0" : {
+						"animation" : "hota/highlands/vanillaStatic/outcropping/AVLHiTr0",
 						"mask" : [
 							"BB"
 						],
 						"allowedTerrains" : [
-							"lava"
+							"highlands"
 						]
 					},
-					"AvLVoTr1" : {
-						"animation" : "hota/outcropping/AvLVoTr1",
+					"AVLHiTr1" : {
+						"animation" : "hota/highlands/vanillaStatic/outcropping/AVLHiTr1",
 						"mask" : [
 							"BB"
 						],
 						"allowedTerrains" : [
-							"lava"
+							"highlands"
 						]
 					},
-					"AvLVoTr2" : {
-						"animation" : "hota/outcropping/AvLVoTr2",
+					"AVLHiTr2" : {
+						"animation" : "hota/highlands/vanillaStatic/outcropping/AVLHiTr2",
 						"mask" : [
 							"BB"
 						],
 						"allowedTerrains" : [
-							"lava"
+							"highlands"
 						]
 					}					
 				}
