@@ -28,7 +28,7 @@
 	"heroes" : [
 		"config/portraitsHotA.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "地图格式支持",
 		"description" : "这个模组包含在VCMI中加载深渊号角地图格式所需的全部文件。"
@@ -314,22 +314,22 @@
 					"09tavin" : 196,
 					"10murdoch" : 197,
 					//campaign heroes
-//					"stina" : 201,
-//					"umender" : 202,
-//					"elderian" : 203,
-//					"valquest" : 204,
-//					"jangaard" : 205,
-//					"winzells" : 206,
-//					"areshrak" : 207,
-//					"pactal" : 208,
-//					"kydoimos" : 209,
-//					"miseria" : 210,
-//					"athe" : 211,
-//					"gruezak" : 212,
-//					"zog" : 213,
-					"boyd" : 198,
-//					"hotaMaximus" : 215,
-//					"balfour" : 216
+					//					"stina" : 201,
+					//					"umender" : 202,
+					//					"elderian" : 203,
+					//					"valquest" : 204,
+					//					"jangaard" : 205,
+					//					"winzells" : 206,
+					//					"areshrak" : 207,
+					//					"pactal" : 208,
+					//					"kydoimos" : 209,
+					//					"miseria" : 210,
+					//					"athe" : 211,
+					//					"gruezak" : 212,
+					//					"zog" : 213,
+					"boyd" : 198
+					//					"hotaMaximus" : 215,
+					//					"balfour" : 216
 				},
 
 				"portraits" : {
@@ -386,7 +386,7 @@
 					"elderian" : 211,
 					"valquest" : 212,
 					"jangaard" : 213,
-					"winzells" : 214, 
+					"winzells" : 214,
 					"areshrak" : 215,
 					"kydoimos" : 216,
 					"miseria" : 217,
@@ -396,10 +396,10 @@
 					"portraitTarnumWizardHotA" : 221,
 					"portraitTarnumRangerHotA" : 222,
 					"portraitTarnumOverlordHotA" : 223,
-					"portraitTarnumBeastmasterHotA" : 224,					
+					"portraitTarnumBeastmasterHotA" : 224,
 					"gruezak" : 225,
 					"hotaMaximus" : 226,
-					"balfour" : 227	
+					"balfour" : 227
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,

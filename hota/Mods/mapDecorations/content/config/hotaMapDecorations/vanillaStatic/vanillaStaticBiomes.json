@@ -32,7 +32,7 @@
 			"AvLVoTr1",
 			"AvLVoTr2"
 		]
-	},	
+	},
 	"dirtHills" : {
 		"biome" : {
 			"terrain" : "dirt",
@@ -230,7 +230,7 @@
 			"AVLswd3",
 			"AVLswd4"
 		]
-	},	
+	},
 	"waterRock" : {
 		"biome" : {
 			"terrain" : "water",

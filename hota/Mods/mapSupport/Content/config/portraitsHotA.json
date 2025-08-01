@@ -1,9 +1,9 @@
-{	
-	"portraitTarnumBarbarianHotA" : // 219
-	{
+{
+	// 219
+	"portraitTarnumBarbarianHotA" : {
 		"class" : "barbarian",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL211",
 			"small" : "editorPortraits/HPS211",
 			"specialtySmall" : "default",
@@ -28,11 +28,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"portraitTarnumKnightHotA" : // 220
-	{
+	// 220
+	"portraitTarnumKnightHotA" : {
 		"class" : "knight",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL212",
 			"small" : "editorPortraits/HPS212",
 			"specialtySmall" : "default",
@@ -57,11 +57,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"portraitTarnumWizardHotA" : // 221
-	{
+	// 221
+	"portraitTarnumWizardHotA" : {
 		"class" : "wizard",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL213",
 			"small" : "editorPortraits/HPS213",
 			"specialtySmall" : "default",
@@ -86,11 +86,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"portraitTarnumRangerHotA" : // 222
-	{
+	// 222
+	"portraitTarnumRangerHotA" : {
 		"class" : "ranger",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL214",
 			"small" : "editorPortraits/HPS214",
 			"specialtySmall" : "default",
@@ -115,11 +115,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"portraitTarnumOverlordHotA" : // 223
-	{
+	// 223
+	"portraitTarnumOverlordHotA" : {
 		"class" : "overlord",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL215",
 			"small" : "editorPortraits/HPS215",
 			"specialtySmall" : "default",
@@ -144,11 +144,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"portraitTarnumBeastmasterHotA" : // 224
-	{
+	// 224
+	"portraitTarnumBeastmasterHotA" : {
 		"class" : "beastmaster",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL216",
 			"small" : "editorPortraits/HPS216",
 			"specialtySmall" : "default",
@@ -173,11 +173,11 @@
 		"skills" : [],
 		"specialty" : {}
 	},
-	"alkinHotA" : // 224
-	{
+	// 224
+	"alkinHotA" : {
 		"class" : "beastmaster",
 		"special" : true,
-		"images": {
+		"images" : {
 			"large" : "editorPortraits/HPL116BX",
 			"small" : "editorPortraits/HPS116BX",
 			"specialtySmall" : "default",
@@ -201,5 +201,5 @@
 		],
 		"skills" : [],
 		"specialty" : {}
-	}	
+	}
 }
