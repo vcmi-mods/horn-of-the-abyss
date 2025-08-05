@@ -4,7 +4,8 @@
 			"lightningIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaLightning",
-				"val" : 1
+				"val" : 1,
+				"hidden" : true
 			}
 		}
 	}

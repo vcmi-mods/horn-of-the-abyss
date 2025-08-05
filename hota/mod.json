@@ -5,8 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.708",
+	"version" : "1.7.709",
 	"changelog" : {
+		"1.7.709" : [
+			"Hidding confusing icons in Changed Shooting Visuals",
+			"Deleting non-hota effects for Liches and Magogs."
+		],
 		"1.7.708" : [
 			"Added hungarian translation",
 			"Updated other translations"

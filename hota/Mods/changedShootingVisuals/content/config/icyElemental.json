@@ -4,7 +4,8 @@
 			"iceIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaIce",
-				"val" : 1
+				"val" : 1,
+				"hidden" : true
 			}
 		}
 	}
