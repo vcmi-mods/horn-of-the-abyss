@@ -7,6 +7,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.7.68",
 	"changelog" : {
+		"1.7.69"  : [ "Bugfix for map support." ],
 		"1.7.68"  : [ "Add hungarian translation." ],
 		"1.7.67"  : [ "Fix blockmap of swamp mountains. Also promote their biome type to mountains." ],
 		"1.7.66"  : [ "Added submod to restore HotA catapult behavior with expert Ballistics", "Polish translation update" ],
