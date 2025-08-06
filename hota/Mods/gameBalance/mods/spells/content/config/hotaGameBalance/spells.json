@@ -200,5 +200,14 @@
 				"power" : 2
 			}
 		}
+	},
+	"core:dimensionDoor" : {
+		"levels" : {
+			"base":{
+				"adventureEffect" : {
+					"waterLandFailureTakesPoints" : false
+				}
+			}
+		}
 	}
 }

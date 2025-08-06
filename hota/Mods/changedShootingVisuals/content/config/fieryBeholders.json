@@ -3,7 +3,8 @@
 		"abilities" : {
 			"hotaRay" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "hotaRay"
+				"subtype" : "hotaRay",
+				"hidden" : true
 			}
 		}
 	},
@@ -11,7 +12,8 @@
 		"abilities" : {
 			"hotaRay" : {
 				"type" : "SPELL_LIKE_ATTACK",
-				"subtype" : "hotaRay"
+				"subtype" : "hotaRay",
+				"hidden" : true
 			}
 		}
 	}
