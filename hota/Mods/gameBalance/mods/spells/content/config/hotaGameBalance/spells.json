@@ -203,7 +203,7 @@
 	},
 	"core:dimensionDoor" : {
 		"levels" : {
-			"base":{
+			"base" : {
 				"adventureEffect" : {
 					"waterLandFailureTakesPoints" : false
 				}
