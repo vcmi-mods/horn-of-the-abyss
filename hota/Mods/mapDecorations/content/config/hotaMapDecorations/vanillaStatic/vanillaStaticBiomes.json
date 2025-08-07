@@ -22,6 +22,17 @@
 			"AVXskds2"
 		]
 	},
+	"core:coutcropping" : {
+		"biome" : {
+			"terrain" : "lava",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AvLVoTr0",
+			"AvLVoTr1",
+			"AvLVoTr2"
+		]
+	},
 	"dirtHills" : {
 		"biome" : {
 			"terrain" : "dirt",
@@ -204,6 +215,20 @@
 			"ZREEF3",
 			"ZREEF4",
 			"ZREEF5"
+		]
+	},
+	"kelp" : {
+		"biome" : {
+			"terrain" : "water",
+			"objectType" : "plant"
+		},
+		"templates" : [
+			"AVLklp30",
+			"AVLklp40",
+			"AVLswd1",
+			"AVLswd2",
+			"AVLswd3",
+			"AVLswd4"
 		]
 	},
 	"waterRock" : {

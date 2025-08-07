@@ -38,6 +38,24 @@
 						"allowedTerrains" : [
 							"water"
 						]
+					},
+					"AVLswd3" : {
+						"animation" : "hota/kelps/AVLswd3",
+						"mask" : [
+							"VVV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					},
+					"AVLswd4" : {
+						"animation" : "hota/kelps/AVLswd4",
+						"mask" : [
+							"VVVV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
 					}
 				}
 			}

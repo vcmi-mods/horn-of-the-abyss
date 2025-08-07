@@ -4,7 +4,8 @@
 			"lightningIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaLightGlobe",
-				"val" : 1
+				"val" : 1,
+				"hidden" : true
 			}
 		}
 	},
@@ -13,7 +14,8 @@
 			"lightningIsComing" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaLightGlobe",
-				"val" : 1
+				"val" : 1,
+				"hidden" : true
 			}
 		}
 	}

@@ -4,7 +4,7 @@
 	"modType" : "Other",
 	"author" : "Ivan",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.0",
+	"version" : "1.1",
 	"compatibility" : {
 		"min" : "1.7"
 	},
@@ -24,6 +24,9 @@
 		"hota.terrainoverlays",
 		"hota.highlandsterrain",
 		"hota.wastelandterrain"
+	],
+	"heroes" : [
+		"config/portraitsHotA.json"
 	],
 
 	"chinese" : {
@@ -309,7 +312,24 @@
 					"18eanswythe" : 194,
 					"19frederick" : 195,
 					"09tavin" : 196,
-					"10murdoch" : 197
+					"10murdoch" : 197,
+					//campaign heroes
+					//					"stina" : 201,
+					//					"umender" : 202,
+					//					"elderian" : 203,
+					//					"valquest" : 204,
+					//					"jangaard" : 205,
+					//					"winzells" : 206,
+					//					"areshrak" : 207,
+					//					"pactal" : 208,
+					//					"kydoimos" : 209,
+					//					"miseria" : 210,
+					//					"athe" : 211,
+					//					"gruezak" : 212,
+					//					"zog" : 213,
+					"boyd" : 198
+					//					"hotaMaximus" : 215,
+					//					"balfour" : 216
 				},
 
 				"portraits" : {
@@ -335,6 +355,7 @@
 					"beatrice" : 182,
 					"kinkeria" : 183,
 					"ranloo" : 184,
+					"alkinHotA" : 185,
 					"giselle" : 186,
 					//factory
 					"01henrietta" : 187,
@@ -354,9 +375,31 @@
 					"17victoria" : 201,
 					"18eanswythe" : 202,
 					"19frederick" : 203,
-					//nothing
+					//onlyEditorPortraits
+					"boyd" : 204,
+					"pactal" : 205,
+					"zog" : 206,
 					"09tavin" : 207,
-					"10murdoch" : 208
+					"10murdoch" : 208,
+					"stina" : 209,
+					"umender" : 210,
+					"elderian" : 211,
+					"valquest" : 212,
+					"jangaard" : 213,
+					"winzells" : 214,
+					"areshrak" : 215,
+					"kydoimos" : 216,
+					"miseria" : 217,
+					"athe" : 218,
+					"portraitTarnumBarbarianHotA" : 219,
+					"portraitTarnumKnightHotA" : 220,
+					"portraitTarnumWizardHotA" : 221,
+					"portraitTarnumRangerHotA" : 222,
+					"portraitTarnumOverlordHotA" : 223,
+					"portraitTarnumBeastmasterHotA" : 224,
+					"gruezak" : 225,
+					"hotaMaximus" : 226,
+					"balfour" : 227
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
@@ -999,8 +1042,8 @@
 						13
 					],
 					"ancientAltar" : [
-						139,
-						14
+						146,
+						4
 					],
 					"abandonedBoat" : [
 						139,
@@ -1335,6 +1378,9 @@
 					"hota/rock/avlrfx06.def" : "avlrfx06.def",
 					"hota/rock/avlrfx07.def" : "AVLrfx07.def",
 					"hota/rock/avlrfx08.def" : "AVLrfx08.def",
+					"hota/highlands/vanillaStatic/outcropping/AVLHiTr0.def" : "AVLHiTr0.def",
+					"hota/highlands/vanillaStatic/outcropping/AVLHiTr1.def" : "AVLHiTr1.def",
+					"hota/highlands/vanillaStatic/outcropping/AVLHiTr2.def" : "AVLHiTr2.def",
 					"hota/highlands/vanillaStatic/stones/avlrhl00.def" : "AVlrhl00.def",
 					"hota/highlands/vanillaStatic/stones/avlrhl01.def" : "AVlrhl01.def",
 					"hota/highlands/vanillaStatic/stones/avlrhl02.def" : "AVlrhl02.def",
@@ -1360,6 +1406,7 @@
 					"hota/wasteland/vanillaStatic/bones/AVLskul0.def" : "AVLskul0.def",
 					"hota/wasteland/vanillaStatic/bones/AVLskul1.def" : "AVLskul1.def",
 					"hota/wasteland/vanillaStatic/bones/AVLskul2.def" : "AVLskul2.def",
+					"hota/wasteland/vanillaStatic/bones/AVLskul3.def" : "AVLskul3.def",
 					"hota/mound/avlsnh01.def" : "AVLsnh01.def",
 					"hota/mound/avlsnh02.def" : "AVLsnh02.def",
 					"hota/mound/avlsnh03.def" : "AVLsnh03.def",
@@ -1697,6 +1744,8 @@
 					"hota/kelps/AVLklp80" : "AVLklp80.def",
 					"hota/kelps/AVLswd1" : "AVLswd1.def",
 					"hota/kelps/AVLswd2" : "AVLswd2.def",
+					"hota/kelps/AVLswd3" : "AVLswd3.def",
+					"hota/kelps/AVLswd4" : "AVLswd4.def",
 					"hota/mountains/MNTSWP01.DEF" : "mntswp01.def",
 					"hota/mountains/MNTSWP02.DEF" : "mntswp02.def",
 					"hota/mountains/MNTSWP03.DEF" : "mntswp03.def",
@@ -1713,7 +1762,9 @@
 					"hota/mines/mntswpab.def" : "mntswpab.def",
 					"hota/mines/mntswpcr.def" : "mntswpcr.def",
 					"hota/mines/mntswpgl.def" : "mntswpgl.def",
+					"hota/outcropping/AvLVoTr0" : "AvLVoTr0.def",
 					"hota/outcropping/AvLVoTr1" : "AvLVoTr1.def",
+					"hota/outcropping/AvLVoTr2" : "AvLVoTr2.def",
 					"hota/animals/pig.def" : "pig.def",
 					"hota/bluebottle/Portu.def" : "Portu.def",
 					"hota/animals/rooster_01.def" : "rooster_01.def",

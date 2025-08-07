@@ -5,8 +5,22 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.706",
+	"version" : "1.7.710",
 	"changelog" : {
+		"1.7.710" : [
+			"Changed format for Dimension Door spell in Game balance submod"
+		],
+		"1.7.709" : [
+			"Hiding confusing icons in Changed Shooting Visuals",
+			"Deleting non-hota effects for Liches and Magogs"
+		],
+		"1.7.708" : [
+			"Added hungarian translation",
+			"Updated other translations"
+		],
+		"1.7.707" : [
+			"Update for map support"
+		],
 		"1.7.706" : [
 			"Horn of the Abyss artifacts was moved to Neutral Creatures submod",
 			"Tiny fixes to make console clear"

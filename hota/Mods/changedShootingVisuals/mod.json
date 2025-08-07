@@ -6,7 +6,7 @@
 	"contact" : "",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.3.5",
+	"version" : "1.3.6",
 	"chinese" : {
 		"name" : "射击视觉效果改进",
 		"description" : "由Hota团队制作的射击生物视觉效果改进。"
@@ -16,24 +16,20 @@
 		"description" : "Vizuální vylepšení střelby jednotek vytvořené HotA týmem"
 	},
 	"creatures" : [
-		"config/friendlyMagogs",
 		"config/stormyElemental",
 		"config/icyElemental",
 		"config/lightningyTitan",
 		"config/powerMonks",
 		"config/fieryBeholders",
-		"config/cloudyLiches",
 		"config/enchanterArrow"
 	],
 	"spells" : [
-		"config/friendlyFireball",
 		"config/hotaStorm",
 		"config/hotaIce",
 		"config/hotaLightning",
 		"config/hotaLightGlobe",
 		"config/gogFireball",
 		"config/hotaRay",
-		"config/hotaDeathCloud",
 		"config/hotaEnchanterArrow"
 	],
 	"polish" : {

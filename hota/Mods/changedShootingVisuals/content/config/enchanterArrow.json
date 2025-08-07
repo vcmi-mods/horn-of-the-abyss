@@ -4,7 +4,8 @@
 			"magicArrow" : {
 				"type" : "SPELL_LIKE_ATTACK",
 				"subtype" : "hotaEnchanterArrow",
-				"val" : 1
+				"val" : 1,
+				"hidden" : true
 			}
 		},
 		"graphics" : {
