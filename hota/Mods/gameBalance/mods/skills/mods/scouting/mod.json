@@ -16,7 +16,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Scouting",
+		"name" : "侦察术",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

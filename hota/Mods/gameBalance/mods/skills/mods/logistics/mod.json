@@ -16,7 +16,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Logistics",
+		"name" : "后勤学",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

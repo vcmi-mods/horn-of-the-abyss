@@ -6,6 +6,10 @@
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "技能",
+		"description" : ""
+	},
 	"czech" : {
 		"name" : "Schopnosti",
 		"description" : ""

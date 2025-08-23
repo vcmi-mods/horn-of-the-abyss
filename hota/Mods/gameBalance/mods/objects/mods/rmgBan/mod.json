@@ -11,6 +11,10 @@
 	"objects" : [
 		"config/hotaGameBalance/objectsRmgValues.json"
 	],
+	"chinese" : {
+		"name" : "禁用物体",
+		"description" : "在随机地图上禁用特定物体"
+	},
 	"czech" : {
 		"name" : "Zakázané objekty",
 		"description" : "Zabraňuje zobrazení vybraných objektů na náhodně generovaných mapách"

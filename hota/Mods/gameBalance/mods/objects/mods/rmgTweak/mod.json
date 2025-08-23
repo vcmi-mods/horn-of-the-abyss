@@ -11,6 +11,10 @@
 	"objects" : [
 		"config/hotaGameBalance/objectsRmgValues.json"
 	],
+	"chinese" : {
+		"name" : "物体密集程度",
+		"description" : ""
+	},
 	"czech" : {
 		"name" : "Úprava četnosti objektů",
 		"description" : ""

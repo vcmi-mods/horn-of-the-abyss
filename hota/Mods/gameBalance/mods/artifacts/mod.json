@@ -11,8 +11,8 @@
 	],
 
 	"chinese" : {
-		"name" : "游戏平衡",
-		"description" : "深渊号角中的平衡性改进。",
+		"name" : "宝物",
+		"description" : "",
 		"translations" : [
 			"translation/chinese.json"
 		]

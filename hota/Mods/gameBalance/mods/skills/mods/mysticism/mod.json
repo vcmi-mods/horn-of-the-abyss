@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Mysticism",
+		"name" : "神秘术",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

@@ -10,6 +10,10 @@
 	"objects" : [
 		"config/airship/airship.json"
 	],
+	"chinese" : {
+		"name" : "飞艇",
+		"description" : "此模组添加飞艇和飞艇工坊"
+	},
 	"czech" : {
 		"name" : "Vzducholoď",
 		"description" : "Tato modifikace přidává do hry vzducholoď včetně přístaviště"

@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Eagle Eye",
+		"name" : "鹰眼术",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"
