@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Necromancy",
+		"name" : "招魂术",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

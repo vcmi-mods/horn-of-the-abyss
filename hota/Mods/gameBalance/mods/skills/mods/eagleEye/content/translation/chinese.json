@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced" : "{中级理财术}\n\n中级理财术可使你每日多得到500个金币。",
-	"skill.core.estates.description.basic" : "{初级理财术}\n\n初级理财术可使你每日多得到250个金币。",
-	"skill.core.estates.description.expert" : "{高级理财术}\n\n高级理财术可使你每日多得到1000个金币。"
+	"skill.core.eagleEye.description.advanced" : "{中级鹰眼术}\n\n中级鹰眼术可使英雄有50%的机会偷学到敌人在战斗中使用的3级及3级以下魔法。",
+	"skill.core.eagleEye.description.basic" : "{初级鹰眼术}\n\n初级鹰眼术可使英雄有40%的机会偷学到敌在战斗中使用的1级和2级魔法。",
+	"skill.core.eagleEye.description.expert" : "{高级鹰眼术}\n\n高级鹰眼术可使英雄有60%的机会偷学到敌人在战斗中使用的4级及4级以下魔法"
 }

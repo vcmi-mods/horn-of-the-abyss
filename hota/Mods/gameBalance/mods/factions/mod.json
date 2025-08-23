@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Factions",
+		"name" : "种族",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

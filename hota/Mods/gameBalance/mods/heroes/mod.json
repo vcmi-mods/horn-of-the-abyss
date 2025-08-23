@@ -10,6 +10,10 @@
 		"config/hotaGameBalance/heroes.json"
 	],
 
+	"chinese" : {
+		"name" : "英雄",
+		"description" : "改变尤兰德，蒂玛和珍尼的初始辅助技能"
+	},
 	"czech" : {
 		"name" : "Hrdinové",
 		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem"

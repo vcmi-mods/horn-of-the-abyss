@@ -8,6 +8,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0",
 
+	"chinese" : {
+		"name" : "炮术",
+		"description" : ""
+	},
 	"czech" : {
 		"name" : "Balistika",
 		"description" : ""

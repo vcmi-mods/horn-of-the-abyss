@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Inteligence",
+		"name" : "智力",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"

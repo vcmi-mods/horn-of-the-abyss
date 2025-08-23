@@ -14,6 +14,10 @@
 		"config/hotaGameBalance/spells.json"
 	],
 
+	"chinese" : {
+		"name" : "法术",
+		"description" : ""
+	},
 	"czech" : {
 		"name" : "Kouzla",
 		"description" : ""

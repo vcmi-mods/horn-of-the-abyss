@@ -20,6 +20,10 @@
 		"config/hotaGameBalance/stables.json"
 	],
 
+	"chinese" : {
+		"name" : "物体",
+		"description" : ""
+	},
 	"czech" : {
 		"name" : "Objekty",
 		"description" : ""

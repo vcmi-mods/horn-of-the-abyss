@@ -11,7 +11,7 @@
 	],
 
 	"chinese" : {
-		"name" : "Estates",
+		"name" : "理财术",
 		"description" : "",
 		"translations" : [
 			"translation/chinese.json"
