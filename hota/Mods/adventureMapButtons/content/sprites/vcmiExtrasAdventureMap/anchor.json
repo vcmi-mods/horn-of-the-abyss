@@ -1,10 +1,21 @@
 {
 	"basepath" : "vcmiExtrasAdventureMap/",
-	"images" :
-	[
-		{ "frame" : 0, "file" : "anchor_00.png"},
-		{ "frame" : 1, "file" : "anchor_01.png"},
-		{ "frame" : 2, "file" : "anchor_02.png"},
-		{ "frame" : 3, "file" : "anchor_03.png"}
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "anchor_00.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "anchor_01.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "anchor_02.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "anchor_03.png"
+		}
 	]
 }
