@@ -1,0 +1,13 @@
+{
+	"name" : "Adventure map buttons",
+	"description" : "Adds Revisit and Anchor button",
+	"modType" : "Compatibility",
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+	"depends" : [
+		"vcmi-extras.adventuremap"
+	]
+}
