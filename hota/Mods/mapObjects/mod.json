@@ -56,7 +56,7 @@
 		"name" : "Objetos do Mapa",
 		"description" : "O mod adiciona vários novos objetos criados pela Equipe HotA ao VCMI, disponíveis em mapas aleatórios",
 		"translations" : [
-			"translation/mapObjects/brazilian_portuguese.json"
+			"translation/mapObjects/portuguese.json"
 		]
 	},
 
