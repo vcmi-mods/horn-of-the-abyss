@@ -34,5 +34,9 @@
 	"polish" : {
 		"name" : "Mniej losowy start",
 		"description" : "Bohaterowie zawsze zaczynają z pełną armią startową (i machiną wojenną), bez ryzyka braku jednostek. Miasta z Fortem mają zawsze zbudowany poziom 2 siedliska stworzeń."
+	},
+	"portuguese" : {
+		"name" : "Início Menos Aleatório",
+		"description" : "Heróis com um exército inicial sempre têm todas as tropas (e uma máquina de guerra), sem a possibilidade de ausência de nenhuma delas. Cidades com Forte sempre têm a moradia de nível 2 construída por padrão."
 	}
 }

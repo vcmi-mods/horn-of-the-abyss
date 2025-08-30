@@ -46,5 +46,9 @@
 	"polish" : {
 		"name" : "Motyw menu głównego",
 		"description" : "Zmienia motyw muzyczny menu głównego na ten z Horn of the Abyss"
+	},
+	"portuguese" : {
+		"name" : "Tema do Menu Principal",
+		"description" : "Altera o tema do menu principal para o usado pelo mod Horn of the Abyss"
 	}
 }

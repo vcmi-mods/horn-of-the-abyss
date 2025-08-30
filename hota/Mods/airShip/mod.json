@@ -17,5 +17,9 @@
 	"czech" : {
 		"name" : "Vzducholoď",
 		"description" : "Tato modifikace přidává do hry vzducholoď včetně přístaviště"
+	},
+	"portuguese" : {
+		"name" : "Dirigível",
+		"description" : "Este mod adiciona o Dirigível e o Estaleiro de Dirigíveis"
 	}
 }

@@ -130,5 +130,9 @@
 	"polish" : {
 		"name" : "Fabryka",
 		"description" : "Nowe miasto Fabryka w klimacie steampunkowym"
+	},
+	"portuguese" : {
+		"name" : "Fábrica",
+		"description" : "Nova cidade Fábrica com tema steampunk"
 	}
 }

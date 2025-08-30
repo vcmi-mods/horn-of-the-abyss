@@ -34,5 +34,9 @@
 	"ukrainian" : {
 		"name" : "Ігровий Баланс",
 		"description" : "Поліпшення балансу, зроблені HotA Crew для доповнення Horn of The Abyss"
+	},
+	"portuguese" : {
+		"name" : "Equilíbrio do Jogo",
+		"description" : "Melhorias de equilíbrio feitas pela Equipe HotA para a expansão Horn of The Abyss."
 	}
 }

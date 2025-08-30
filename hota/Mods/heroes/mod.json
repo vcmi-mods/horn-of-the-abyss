@@ -35,5 +35,9 @@
 	"polish" : {
 		"name" : "Bohaterowie",
 		"description" : "Nowi bohaterowie do podstawowej gry – Beatrice, Kinkeria i Ranloo.<br/>Dodatkowo zmienia działanie bohaterów Voy i Sylvia, którzy są teraz dostępni tylko na mapach z wodą. Opcjonalnie można też włączyć bohaterów z kampanii HotA!"
+	},
+	"portuguese" : {
+		"name" : "Heróis",
+		"description" : "Novos heróis para o jogo base - Beatrice, Kinkeria e Ranloo.<br/>Além disso, altera o comportamento dos heróis Voy e Sylvia, que agora estão disponíveis apenas em mapas com água. Adicionalmente, possui uma opção para habilitar os heróis da campanha HotA!"
 	}
 }

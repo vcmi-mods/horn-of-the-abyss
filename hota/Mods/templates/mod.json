@@ -37,5 +37,9 @@
 	"polish" : {
 		"name" : "Szablony HotA",
 		"description" : "Szablony pochodzące z HotA"
+	},
+	"portuguese" : {
+		"name" : "Modelos do HotA",
+		"description" : "Alguns modelos que vêm do HotA"
 	}
 }

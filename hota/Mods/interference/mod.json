@@ -37,5 +37,9 @@
 	"polish" : {
 		"name" : "Umiejętność Interferencja",
 		"description" : "Mod dodaje nową umiejętność – Interferencję, nową bohaterkę Giselle ze specjalizacją w tej umiejętności oraz zmienia bohaterów z odpornością na czary, by korzystali z Interferencji"
+	},
+	"portuguese" : {
+		"name" : "Habilidade Interferência",
+		"description" : "Este mod adiciona a nova habilidade 'Interferência', uma nova heroína, Giselle, com especialidade na habilidade de interferência e altera os heróis com a habilidade de resistência para usar interferência em seu lugar"
 	}
 }

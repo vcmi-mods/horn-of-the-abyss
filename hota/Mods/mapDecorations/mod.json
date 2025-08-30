@@ -111,5 +111,9 @@
 	"polish" : {
 		"name" : "Dekoracje mapy",
 		"description" : "Nowe obiekty mające takie same właściwości jak stare"
+	},
+	"portuguese" : {
+		"name" : "Decorações do Mapa",
+		"description" : "Novos objetos para os mapas."
 	}
 }

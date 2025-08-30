@@ -51,5 +51,9 @@
 	"polish" : {
 		"name" : "Łatka danych Heroes III",
 		"description" : "Poprawki i ulepszenia grafiki oraz dźwięków dla niektórych zasobów z SoD"
+	},
+	"portuguese" : {
+		"name" : "Patch de dados do Heroes III",
+		"description" : "Correções e melhorias nos gráficos e sons de alguns recursos do SoD."
 	}
 }

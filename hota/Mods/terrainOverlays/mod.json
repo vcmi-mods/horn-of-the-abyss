@@ -42,5 +42,9 @@
 	"polish" : {
 		"name" : "Magiczne tereny",
 		"description" : "Dodaje trzy nowe specjalne tereny: Pękający Lód, Wydmy i Pola Chwały"
+	},
+	"portuguese" : {
+		"name" : "Terrenos Mágicos",
+		"description" : "Esta opção adiciona três novos terrenos especiais: Gelo Rachado, Dunas e Campos de Glória."
 	}
 }
