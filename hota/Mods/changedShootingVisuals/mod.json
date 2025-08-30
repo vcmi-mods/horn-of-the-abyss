@@ -35,5 +35,9 @@
 	"polish" : {
 		"name" : "Zmiana efektów strzałów",
 		"description" : "Dodatki graficzne do jednostek strzelających wykonane przez HotA Team"
+	},
+	"portuguese" : {
+		"name" : "Visuais de Disparo Alterados",
+		"description" : "Adições visuais para criaturas de disparo feitas pela Equipe HotA"
 	}
 }

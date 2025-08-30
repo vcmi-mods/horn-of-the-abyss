@@ -22,5 +22,9 @@
 	"polish" : {
 		"name" : "Mapy",
 		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew"
+	},
+	"portuguese" : {
+		"name" : "Mapas",
+		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA"
 	}
 }

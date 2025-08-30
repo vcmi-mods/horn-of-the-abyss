@@ -42,5 +42,9 @@
 	"polish" : {
 		"name" : "Nowa grafika przygód dla miast i stworzeń",
 		"description" : "Opcja włącza nowe obiekty graficzne dodane przez HotA Crew. Obecnie mod zawiera nowe animacje miast oraz poprawione animacje potworów na mapie przygody"
+	},
+	"portuguese" : {
+		"name" : "Novos gráficos do mapa de aventura para cidades e criaturas",
+		"description" : "Esta opção ativa os novos objetos gráficos adicionados pela Equipe HotA. Atualmente, este mod consiste em novas animações para as cidades no mapa, bem como animações corrigidas de monstros errantes"
 	}
 }

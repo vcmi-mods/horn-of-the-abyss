@@ -102,5 +102,9 @@
 	"polish" : {
 		"name" : "Tereny Górskie",
 		"description" : "Dodaje teren Górski oraz kilka unikalnych obiektów na mapie"
+	},
+	"portuguese" : {
+		"name" : "Terreno do Planalto",
+		"description" : "Adiciona o terreno do Planalto, bem como vários objetos de mapa exclusivos para este terreno"
 	}
 }

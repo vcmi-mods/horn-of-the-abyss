@@ -43,5 +43,9 @@
 	"polish" : {
 		"name" : "Neutralne jednostki",
 		"description" : "Dodaje nowe jednostki neutralne: Fangarm, Leprekaun, Satyr, Stalowy Golem"
+	},
+	"portuguese" : {
+		"name" : "Criaturas Neutras",
+		"description" : "Adiciona novas criaturas neutras ao jogo: Braço-presa, Leprechaun, Sátiro, Golem de Aço"
 	}
 }

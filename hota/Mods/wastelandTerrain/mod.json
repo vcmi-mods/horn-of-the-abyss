@@ -71,5 +71,9 @@
 	"polish" : {
 		"name" : "Teren Pustkowi",
 		"description" : "Dodaje teren Pustkowi oraz unikalne obiekty powiązane z tym terenem"
+	},
+	"portuguese" : {
+		"name" : "Terreno da Terra Devastada",
+		"description" : "Adiciona o terreno da Terra Devastada, bem como vários objetos de mapa exclusivos para este terreno"
 	}
 }

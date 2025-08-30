@@ -87,5 +87,9 @@
 	"polish" : {
 		"name" : "Cove",
 		"description" : "Nowe miasto Cove o tematyce pirackiej"
+	},
+	"portuguese" : {
+		"name" : "Enseada",
+		"description" : "Nova cidade Enseada com tema de piratas"
 	}
 }

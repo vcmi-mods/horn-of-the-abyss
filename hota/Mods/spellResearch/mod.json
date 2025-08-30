@@ -27,5 +27,9 @@
 	"polish" : {
 		"name" : "Badanie zaklęć",
 		"description" : "Podmoduł włącza podstawowy system badań zaklęć na wzór rozwiązania w HotA"
+	},
+	"portuguese" : {
+		"name" : "Pesquisa de Feitiços",
+		"description" : "Este submod ativa o sistema básico de Pesquisa de Feitiços para imitar uma característica semelhante no HotA."
 	}
 }

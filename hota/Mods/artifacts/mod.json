@@ -41,5 +41,9 @@
 	"polish" : {
 		"name" : "Artefakty",
 		"description" : "Zestaw artefaktów stworzonych przez Hota Crew do dodatku Horn of the Abyss"
+	},
+	"portuguese" : {
+		"name" : "Artefatos",
+		"description" : "Conjunto de artefatos criados pela Hota Crew para a expansão Horn of the Abyss"
 	}
 }

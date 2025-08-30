@@ -44,5 +44,9 @@
 	"polish" : {
 		"name" : "Rozszerzenie społeczności",
 		"description" : "Mod wprowadza następujące nowe elementy:<br/><br/>Artefakty:<br/>- Kieł Ostatniego Krzyku<br/>- Wielki Łuk Bitewny<br/>- Wielka Zgroza Pełzaczy<br/>- Puste Oko<br/><br/>Obiekty na mapie:<br/>- Wieża Strażnicza<br/>- Fabryka Stalowych Golemów<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Inne obiekty:<br/>- Kangur<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Uwaga: To nieoficjalna zawartość stworzona przez społeczność."
+	},
+	"portuguese" : {
+		"name" : "Expansão da Comunidade",
+		"description" : "Este mod introduz os seguintes novos elementos:<br/><br/>Artefatos:<br/>- Presa do Último Grito<br/>- Grande Arco de Batalha<br/>- Grande Desgraça dos Rastejantes<br/>- Olho Oco<br/><br/>Objetos do Mapa:<br/>- Torre de Guarda<br/>- Fábrica de Golems de Aço<br/>- Gerador de Raios<br/>- Turbina Eólica<br/><br/>Outros Objetos:<br/>- Canguru<br/>- Gerador de Raios<br/>- Turbina Eólica<br/><br/>Nota: Este é um conteúdo não oficial criado pela comunidade."
 	}
 }

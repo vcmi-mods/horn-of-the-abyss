@@ -31,5 +31,9 @@
 	"polish" : {
 		"name" : "Armata",
 		"description" : "Ten mod dodaje nową machinę wojenną: Armatę, dostępną w nowym obiekcie na mapie: Fabryka maszyn wojennych"
+	},
+	"portuguese" : {
+		"name" : "Canhão",
+		"description" : "Este mod adiciona uma nova máquina de guerra: Canhão, que pode ser comprado no novo objeto do mapa: Pátio de Canhões"
 	}
 }

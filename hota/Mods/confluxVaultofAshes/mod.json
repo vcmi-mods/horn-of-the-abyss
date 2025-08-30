@@ -22,5 +22,9 @@
 	"polish" : {
 		"name" : "Conflux – Sanktuarium Popiołów",
 		"description" : "Mod dodaje nowy budynek dla Conflux: Sanktuarium Popiołów, zwiększający przyrost Ognistych Ptaków i Feniksów o 1"
+	},
+	"portuguese" : {
+		"name" : "Confluxo - Cripta das Cinzas",
+		"description" : "Este mod adiciona um novo edifício ao Confluxo: Cripta das Cinzas, que aumenta a produção de Pássaros de Fogo e Fênixes em 1"
 	}
 }

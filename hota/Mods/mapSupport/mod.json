@@ -42,6 +42,10 @@
 		"name" : "Obsługa formatu map (HotA)",
 		"description" : "Ten mod zawiera pliki niezbędne do wczytywania map w formacie 'Horn of the Abyss' w VCMI"
 	},
+	"portuguese" : {
+		"name" : "Suporte ao formato de mapa (HotA)",
+		"description" : "Este mod contém os arquivos de suporte necessários para carregar mapas no formato 'Horn of the Abyss' no VCMI"
+	},
 
 	"campaignRegions" : {
 		"hotaRegion21" : {
