@@ -45,6 +45,8 @@
 			],
 			"animation" : "hota/creatures/battle/cstlgole.def",
 			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/creatures/AVWattak/AvWat340",
+			"mapAttackFromLeft": "hota/creatures/AVWattak/AvWat341",			
 			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10.0,

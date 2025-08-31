@@ -30,6 +30,8 @@
 			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS002F.bmp",
 			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL002F.bmp",
 			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/factory/creatures/AVWattak/AvWat342",
+			"mapAttackFromLeft": "hota/factory/creatures/AVWattak/AvWat343",			
 			"animationTime" : {
 				"walk" : 1,
 				"attack" : 1,

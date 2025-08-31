@@ -19,12 +19,6 @@
 						"OPPOSITE_SIDE"
 					]
 				}
-			},
-			"images" : {
-				"small" : "hota/skills/interference/icons/small/basic",
-				"medium" : "hota/skills/interference/icons/medium/basic",
-				"large" : "hota/skills/interference/icons/large/basic",
-				"scenarioBonus" : "hota/skills/interference/icons/large/basic"
 			}
 		},
 		"basic" : {
@@ -33,7 +27,13 @@
 				"main" : {
 					"val" : -10
 				}
-			}
+			},
+			"images" : {
+				"small" : "hota/skills/interference/icons/small/basic",
+				"medium" : "hota/skills/interference/icons/medium/basic",
+				"large" : "hota/skills/interference/icons/large/basic",
+				"scenarioBonus" : "hota/skills/interference/icons/large/basic"
+			}			
 		},
 		"advanced" : {
 			"description" : "{Advanced Interference}\n\nReduces enemy hero spell power during combat by 20%.",
@@ -41,7 +41,13 @@
 				"main" : {
 					"val" : -20
 				}
-			}
+			},
+			"images" : {
+				"small" : "hota/skills/interference/icons/small/advanced",
+				"medium" : "hota/skills/interference/icons/medium/advanced",
+				"large" : "hota/skills/interference/icons/large/advanced",
+				"scenarioBonus" : "hota/skills/interference/icons/large/advanced"
+			}			
 		},
 		"expert" : {
 			"description" : "{Expert Interference}\n\nReduces enemy hero spell power during combat by 30%.",
@@ -49,7 +55,13 @@
 				"main" : {
 					"val" : -30
 				}
+			},
+			"images" : {
+				"small" : "hota/skills/interference/icons/small/expert",
+				"medium" : "hota/skills/interference/icons/medium/expert",
+				"large" : "hota/skills/interference/icons/large/expert",
+				"scenarioBonus" : "hota/skills/interference/icons/large/expert"
 			}
-		}
+		}			
 	}
 }

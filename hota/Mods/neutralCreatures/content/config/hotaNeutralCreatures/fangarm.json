@@ -63,6 +63,8 @@
 			],
 			"animation" : "hota/creatures/battle/CFANGARM.def",
 			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/creatures/AVWattak/AvWat336",
+			"mapAttackFromLeft": "hota/creatures/AVWattak/AvWat337",			
 			"animationTime" : {
 				"walk" : 1.2,
 				"idle" : 10.0,

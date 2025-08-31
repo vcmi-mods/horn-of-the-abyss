@@ -65,6 +65,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/cove/creatures/AVWattak/AvWat324",
+			"mapAttackFromLeft": "hota/cove/creatures/AVWattak/AvWat325",			
 			"missile" : {
 				"projectile" : "hota/cove/creatures/battle/projectile/PSORC.def",
 				"attackClimaxFrame" : 5,

@@ -50,6 +50,8 @@
 			],
 			"animation" : "hota/creatures/battle/CSATYR.def",
 			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/creatures/AVWattak/AvWat334",
+			"mapAttackFromLeft": "hota/creatures/AVWattak/AvWat335",				
 			"animationTime" : {
 				"walk" : 1.2,
 				"idle" : 10.0,

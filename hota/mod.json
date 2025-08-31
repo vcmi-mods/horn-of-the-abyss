@@ -5,8 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.711",
+	"version" : "1.7.712",
 	"changelog" : {
+		"1.7.712" : [
+			"Fix for Interference skill icons",
+			"Added AvWattak frames for hota creatures"
+		],
 		"1.7.711" : [
 			"Added Portuguese translation"
 		],

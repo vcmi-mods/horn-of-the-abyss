@@ -49,7 +49,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight": "hota/cove/creatures/AVWattak/AvWat320",
+			"mapAttackFromLeft": "hota/cove/creatures/AVWattak/AvWat321"			
 		},
 		"sound" : {
 			"attack" : "hota/cove/creatures/stormbird/ASSIATTK.wav",
