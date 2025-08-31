@@ -44,8 +44,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
-			"mapAttackFromRight": "hota/cove/creatures/AVWattak/AvWat310",
-			"mapAttackFromLeft": "hota/cove/creatures/AVWattak/AvWat311"			
+			"mapAttackFromRight" : "hota/cove/creatures/AVWattak/AvWat310",
+			"mapAttackFromLeft" : "hota/cove/creatures/AVWattak/AvWat311"
 		},
 		"sound" : {
 			"attack" : "hota/cove/creatures/crewmate/SAYLATTK.wav",

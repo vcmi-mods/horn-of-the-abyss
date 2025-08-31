@@ -56,8 +56,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
-			"mapAttackFromRight": "hota/cove/creatures/AVWattak/AvWat306",
-			"mapAttackFromLeft": "hota/cove/creatures/AVWattak/AvWat307"
+			"mapAttackFromRight" : "hota/cove/creatures/AVWattak/AvWat306",
+			"mapAttackFromLeft" : "hota/cove/creatures/AVWattak/AvWat307"
 		},
 		"sound" : {
 			"attack" : "hota/cove/creatures/nymph/NIMPATTK.wav",

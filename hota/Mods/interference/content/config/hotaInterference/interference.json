@@ -33,7 +33,7 @@
 				"medium" : "hota/skills/interference/icons/medium/basic",
 				"large" : "hota/skills/interference/icons/large/basic",
 				"scenarioBonus" : "hota/skills/interference/icons/large/basic"
-			}			
+			}
 		},
 		"advanced" : {
 			"description" : "{Advanced Interference}\n\nReduces enemy hero spell power during combat by 20%.",
@@ -47,7 +47,7 @@
 				"medium" : "hota/skills/interference/icons/medium/advanced",
 				"large" : "hota/skills/interference/icons/large/advanced",
 				"scenarioBonus" : "hota/skills/interference/icons/large/advanced"
-			}			
+			}
 		},
 		"expert" : {
 			"description" : "{Expert Interference}\n\nReduces enemy hero spell power during combat by 30%.",
@@ -62,6 +62,6 @@
 				"large" : "hota/skills/interference/icons/large/expert",
 				"scenarioBonus" : "hota/skills/interference/icons/large/expert"
 			}
-		}			
+		}
 	}
 }
