@@ -1047,6 +1047,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamage",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamage",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamage",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg1",
 					"x" : 132,
 					"y" : 235,
 					"z" : -1
@@ -1055,6 +1056,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamag2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamag2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamag2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg2",
 					"x" : 132,
 					"y" : 211,
 					"z" : -1
@@ -1063,6 +1065,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamag3",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamag3",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamag3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg3",
 					"x" : 132,
 					"y" : 189,
 					"z" : -1
@@ -1071,6 +1074,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamag4",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamag4",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamag4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg4",
 					"x" : 132,
 					"y" : 166,
 					"z" : -1
@@ -1079,6 +1083,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamag5",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamag5",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamag5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg5",
 					"x" : 132,
 					"y" : 117,
 					"z" : -1
@@ -1087,6 +1092,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaTVRN",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaTVRN",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaTVRN",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCtav",
 					"x" : 680,
 					"y" : 230,
 					"z" : 2
@@ -1095,6 +1101,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaCSTL",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaCSTL",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaCSTL",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas1",
 					"x" : 369,
 					"y" : 63
 				},
@@ -1102,6 +1109,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaCAS2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaCAS2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaCAS2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas2",
 					"x" : 366,
 					"y" : 17
 				},
@@ -1109,6 +1117,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaCAS3",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaCAS3",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaCAS3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas3",
 					"x" : 366,
 					"y" : 17
 				},
@@ -1116,6 +1125,7 @@
 					"animation" : "hota/factory/town/buildings/TBFahall",
 					"area" : "hota/factory/town-screen/buildings-area/TZFahall",
 					"border" : "hota/factory/town-screen/buildings-border/TOFahall",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal1",
 					"x" : 0,
 					"y" : 264,
 					"z" : 0
@@ -1124,6 +1134,7 @@
 					"animation" : "hota/factory/town/buildings/TBFahal2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFahal2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFahal2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal2",
 					"x" : 0,
 					"y" : 256,
 					"z" : 0
@@ -1132,6 +1143,7 @@
 					"animation" : "hota/factory/town/buildings/TBFahal3",
 					"area" : "hota/factory/town-screen/buildings-area/TZFahal3",
 					"border" : "hota/factory/town-screen/buildings-border/TOFahal3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal3",
 					"x" : 0,
 					"y" : 225,
 					"z" : 0
@@ -1140,6 +1152,7 @@
 					"animation" : "hota/factory/town/buildings/TBFahal4",
 					"area" : "hota/factory/town-screen/buildings-area/TZFahal4",
 					"border" : "hota/factory/town-screen/buildings-border/TOFahal4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal4",
 					"x" : 0,
 					"y" : 163,
 					"z" : 0
@@ -1148,6 +1161,7 @@
 					"animation" : "hota/factory/town/buildings/TBFamark",
 					"area" : "hota/factory/town-screen/buildings-area/TZFamark",
 					"border" : "hota/factory/town-screen/buildings-border/TOFamark",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrk1",
 					"x" : 316,
 					"y" : 310,
 					"z" : 2
@@ -1156,6 +1170,7 @@
 					"animation" : "hota/factory/town/buildings/TBFasilo",
 					"area" : "hota/factory/town-screen/buildings-area/TZFasilo",
 					"border" : "hota/factory/town-screen/buildings-border/TOFasilo",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrk2",
 					"x" : 227,
 					"y" : 347,
 					"z" : 3
@@ -1164,6 +1179,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaBLAK",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaBLAK",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaBLAK",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsmth",
 					"x" : 347,
 					"y" : 189
 				},
@@ -1171,6 +1187,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaHRD1",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaHRD1",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaHRD1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn1H",
 					"x" : 187,
 					"y" : 162,
 					"z" : -2,
@@ -1180,6 +1197,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaHRD2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaHRD2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaHRD2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn2H",
 					"x" : 187,
 					"y" : 95,
 					"z" : -2,
@@ -1189,6 +1207,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaSpc1",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaSpc1",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaSpc1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCbank",
 					"x" : 0,
 					"y" : 301,
 					"z" : 1
@@ -1197,6 +1216,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaSpc2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaSpc2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaSpc2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCspc2",
 					"x" : 117,
 					"y" : 9,
 					"z" : -1
@@ -1205,6 +1225,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaMrch",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaMrch",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaMrch",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrch",
 					"x" : 270,
 					"y" : 272,
 					"z" : 1
@@ -1213,6 +1234,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaHoly",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaHoly",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaHoly",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCholy",
 					"x" : 580,
 					"y" : 0
 				},
@@ -1220,6 +1242,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_0",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_0",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_0",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCadb1",
 					"x" : 670,
 					"y" : 139
 				},
@@ -1227,6 +1250,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_1",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_1",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCfnd1",
 					"x" : 252,
 					"y" : 0
 				},
@@ -1234,6 +1258,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran1",
 					"x" : 187,
 					"y" : 174,
 					"z" : -2
@@ -1242,6 +1267,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_3",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_3",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman1",
 					"x" : 516,
 					"y" : 211,
 					"z" : 1
@@ -1250,6 +1276,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_4",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_4",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcat1",
 					"x" : 662,
 					"y" : 239
 				},
@@ -1257,6 +1284,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_5",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_5",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCwtc1",
 					"x" : 714,
 					"y" : 55
 				},
@@ -1264,6 +1292,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_6",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_6",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_6",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsrp1",
 					"x" : 0,
 					"y" : 71
 				},
@@ -1271,6 +1300,7 @@
 					"animation" : "hota/factory/town/buildings/TBFadw_7",
 					"area" : "hota/factory/town-screen/buildings-area/TZFadw_7",
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_7",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
 					"x" : 427,
 					"y" : 181
 				},
@@ -1278,6 +1308,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_0",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_0",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_0",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCadb2",
 					"x" : 670,
 					"y" : 139
 				},
@@ -1285,6 +1316,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_1",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_1",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCfnd2",
 					"x" : 252,
 					"y" : 0
 				},
@@ -1292,6 +1324,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_2",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_2",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran2",
 					"x" : 187,
 					"y" : 95,
 					"z" : -2
@@ -1300,6 +1333,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_3",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_3",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman2",
 					"x" : 516,
 					"y" : 211,
 					"z" : 1
@@ -1308,6 +1342,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_4",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_4",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcat2",
 					"x" : 662,
 					"y" : 239
 				},
@@ -1315,6 +1350,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_5",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_5",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCwtc2",
 					"x" : 714,
 					"y" : 5
 				},
@@ -1322,6 +1358,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_6",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_6",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_6",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsrp2",
 					"x" : 0,
 					"y" : 51
 				},
@@ -1329,6 +1366,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaup_7",
 					"area" : "hota/factory/town-screen/buildings-area/TZFaup_7",
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_7",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
 					"x" : 427,
 					"y" : 162
 				}

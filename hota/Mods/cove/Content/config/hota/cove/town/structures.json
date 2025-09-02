@@ -6,6 +6,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVHALL",
 					"area" : "hota/cove/town/area/TBCVHALL",
 					"border" : "hota/cove/town/border/TBCVHALL",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhal2",
 					"x" : 0,
 					"y" : 176,
 					"z" : 1
@@ -14,6 +15,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVHAL2",
 					"area" : "hota/cove/town/area/TBCVHAL2",
 					"border" : "hota/cove/town/border/TBCVHAL2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhal2",
 					"x" : 0,
 					"y" : 176,
 					"z" : 1
@@ -22,6 +24,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVHAL3",
 					"area" : "hota/cove/town/area/TBCVHAL3",
 					"border" : "hota/cove/town/border/TBCVHAL3",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhal3",
 					"x" : 0,
 					"y" : 148,
 					"z" : 1
@@ -30,6 +33,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVHAL4",
 					"area" : "hota/cove/town/area/TBCVHAL4",
 					"border" : "hota/cove/town/border/TBCVHAL4",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhal4",
 					"x" : 0,
 					"y" : 85,
 					"z" : 1
@@ -39,6 +43,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVCSTL",
 					"area" : "hota/cove/town/area/TBCVCSTL",
 					"border" : "hota/cove/town/border/TBCVCSTL",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvcstl",
 					"x" : 438,
 					"y" : 109
 				},
@@ -46,6 +51,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVCAS2",
 					"area" : "hota/cove/town/area/TBCVCAS2",
 					"border" : "hota/cove/town/border/TBCVCAS2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvcas2",
 					"x" : 438,
 					"y" : 109
 				},
@@ -53,6 +59,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVCAS3",
 					"area" : "hota/cove/town/area/TBCVCAS3",
 					"border" : "hota/cove/town/border/TBCVCAS3",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvcas3",
 					"x" : 438,
 					"y" : 109,
 					"z" : 2
@@ -62,6 +69,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVTAVE",
 					"area" : "hota/cove/town/area/TBCVTAVE",
 					"border" : "hota/cove/town/border/TBCVTAVE",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCVTAVE",
 					"x" : 12,
 					"y" : 247,
 					"z" : 2
@@ -70,6 +78,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSMTH",
 					"area" : "hota/cove/town/area/TBCVSMTH",
 					"border" : "hota/cove/town/border/TBCVSMTH",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsmth",
 					"x" : 608,
 					"y" : 274
 				},
@@ -77,6 +86,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVMARK",
 					"area" : "hota/cove/town/area/TBCVMARK",
 					"border" : "hota/cove/town/border/TBCVMARK",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvmark",
 					"x" : 157,
 					"y" : 289,
 					"z" : 3
@@ -85,6 +95,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSMRK",
 					"area" : "hota/cove/town/area/TBCVSMRK",
 					"border" : "hota/cove/town/border/TBCVSMRK",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsmrk",
 					"x" : 320,
 					"y" : 346,
 					"z" : 4
@@ -93,6 +104,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVDOCK",
 					"area" : "hota/cove/town/area/TBCVDOCK",
 					"border" : "hota/cove/town/border/TBCVDOCK",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCVDOCK",
 					"x" : 436,
 					"y" : 164,
 					"z" : 1
@@ -101,6 +113,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVBOAT",
 					"area" : "hota/cove/town/area/TBCVBOAT",
 					"border" : "hota/cove/town/border/TBCVBOAT",
+					"hidden" : true,
 					"x" : 436,
 					"y" : 164,
 					"z" : 1
@@ -110,6 +123,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVTHGD",
 					"area" : "hota/cove/town/area/TBCVTHGD",
 					"border" : "hota/cove/town/border/TBCVTHGD",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvTHGD",
 					"x" : 0,
 					"y" : 87
 				},
@@ -117,6 +131,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGROT",
 					"area" : "hota/cove/town/area/TBCVGROT",
 					"border" : "hota/cove/town/border/TBCVGROT",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgrot",
 					"x" : 236,
 					"y" : 147
 				},
@@ -124,6 +139,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSA1P",
 					"area" : "hota/cove/town/area/TBCVSA1P",
 					"border" : "hota/cove/town/border/TBCVSA1P",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsa1p",
 					"hidden" : true,
 					"x" : 84,
 					"y" : 65
@@ -132,6 +148,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSA2P",
 					"area" : "hota/cove/town/area/TBCVSA2P",
 					"border" : "hota/cove/town/border/TBCVSA2P",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsa1p",
 					"builds" : "horde1",
 					"hidden" : true,
 					"x" : 84,
@@ -141,6 +158,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVAS1P",
 					"area" : "hota/cove/town/area/TBCVAS1P",
 					"border" : "hota/cove/town/border/TBCVAS1P",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvas1p",
 					"hidden" : true,
 					"x" : 674,
 					"y" : 43
@@ -149,6 +167,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVAS2P",
 					"area" : "hota/cove/town/area/TBCVAS2P",
 					"border" : "hota/cove/town/border/TBCVAS2P",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvas1p",
 					"builds" : "horde2",
 					"hidden" : true,
 					"x" : 674,
@@ -158,6 +177,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGRAL",
 					"area" : "hota/cove/town/area/TBCVGRAL",
 					"border" : "hota/cove/town/border/TBCVGRAL",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgral",
 					"x" : 0,
 					"y" : 0,
 					"z" : -1
@@ -173,6 +193,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGMG1",
 					"area" : "hota/cove/town/area/TBCVGMG1",
 					"border" : "hota/cove/town/border/TBCVGMG1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgmg1",
 					"x" : 337,
 					"y" : 110,
 					"z" : 1
@@ -181,6 +202,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGMG2",
 					"area" : "hota/cove/town/area/TBCVGMG2",
 					"border" : "hota/cove/town/border/TBCVGMG2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgmg2",
 					"x" : 319,
 					"y" : 85,
 					"z" : 1
@@ -189,6 +211,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGMG3",
 					"area" : "hota/cove/town/area/TBCVGMG3",
 					"border" : "hota/cove/town/border/TBCVGMG3",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgmg3",
 					"x" : 300,
 					"y" : 61,
 					"z" : 1
@@ -197,6 +220,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVGMG4",
 					"area" : "hota/cove/town/area/TBCVGMG4",
 					"border" : "hota/cove/town/border/TBCVGMG4",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgmg4",
 					"x" : 281,
 					"y" : 39,
 					"z" : 1
@@ -206,6 +230,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVNMP1",
 					"area" : "hota/cove/town/area/TBCVNMP1",
 					"border" : "hota/cove/town/border/TBCVNMP1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvNMP1",
 					"x" : 282,
 					"y" : 106,
 					"z" : 2
@@ -214,6 +239,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSAY1",
 					"area" : "hota/cove/town/area/TBCVSAY1",
 					"border" : "hota/cove/town/border/TBCVSAY1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsay1",
 					"x" : 84,
 					"y" : 65
 				},
@@ -221,6 +247,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVPIR1",
 					"area" : "hota/cove/town/area/TBCVPIR1",
 					"border" : "hota/cove/town/border/TBCVPIR1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPIR1",
 					"x" : 588,
 					"y" : 191,
 					"z" : 2
@@ -229,6 +256,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVASS1",
 					"area" : "hota/cove/town/area/TBCVASS1",
 					"border" : "hota/cove/town/border/TBCVASS1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvASS1",
 					"x" : 696,
 					"y" : 43
 				},
@@ -236,6 +264,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSOR1",
 					"area" : "hota/cove/town/area/TBCVSOR1",
 					"border" : "hota/cove/town/border/TBCVSOR1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvSOR1",
 					"x" : 370,
 					"y" : 38
 				},
@@ -243,6 +272,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVNIX1",
 					"area" : "hota/cove/town/area/TBCVNIX1",
 					"border" : "hota/cove/town/border/TBCVNIX1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvnix1",
 					"x" : 663,
 					"y" : 149,
 					"z" : 1
@@ -251,6 +281,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVWHR1",
 					"area" : "hota/cove/town/area/TBCVWHR1",
 					"border" : "hota/cove/town/border/TBCVWHR1",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvwhr1",
 					"x" : 303,
 					"y" : 248,
 					"z" : 3
@@ -260,6 +291,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVNMP2",
 					"area" : "hota/cove/town/area/TBCVNMP2",
 					"border" : "hota/cove/town/border/TBCVNMP2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvNMP2",
 					"x" : 254,
 					"y" : 42,
 					"z" : 2
@@ -268,6 +300,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSAY2",
 					"area" : "hota/cove/town/area/TBCVSAY2",
 					"border" : "hota/cove/town/border/TBCVSAY2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvsay2",
 					"x" : 84,
 					"y" : 33
 				},
@@ -275,6 +308,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVPIR2",
 					"area" : "hota/cove/town/area/TBCVPIR2",
 					"border" : "hota/cove/town/border/TBCVPIR2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPIR2",
 					"x" : 588,
 					"y" : 64,
 					"z" : 2
@@ -283,6 +317,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVASS2",
 					"area" : "hota/cove/town/area/TBCVASS2",
 					"border" : "hota/cove/town/border/TBCVASS2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvass2",
 					"x" : 696,
 					"y" : 12
 				},
@@ -290,6 +325,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVSOR2",
 					"area" : "hota/cove/town/area/TBCVSOR2",
 					"border" : "hota/cove/town/border/TBCVSOR2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvSOR2",
 					"x" : 370,
 					"y" : 0
 				},
@@ -297,6 +333,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVNIX2",
 					"area" : "hota/cove/town/area/TBCVNIX2",
 					"border" : "hota/cove/town/border/TBCVNIX2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvnix2",
 					"x" : 663,
 					"y" : 98,
 					"z" : 1
@@ -305,6 +342,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVWHR2",
 					"area" : "hota/cove/town/area/TBCVWHR2",
 					"border" : "hota/cove/town/border/TBCVWHR2",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvwhr2",
 					"x" : 291,
 					"y" : 236,
 					"z" : 3
@@ -314,6 +352,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVPGR3",
 					"area" : "hota/cove/town/area/TBCVPGR3",
 					"border" : "hota/cove/town/border/TBCVPGR3",
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPGR3",
 					"x" : 588,
 					"y" : 64,
 					"z" : 2

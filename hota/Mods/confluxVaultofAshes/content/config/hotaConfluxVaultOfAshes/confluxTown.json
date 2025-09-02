@@ -6,6 +6,7 @@
 					"animation" : "hota/TBELHrd3.def",
 					"border" : "hota/phoenixHordeBorder.png",
 					"area" : "hota/phoenixHordeArea.png",
+					"campaignBonus" : "hota/campaignBonuses/BoEHRD3.png",
 					"x" : 685,
 					"y" : 105,
 					"z" : 1
@@ -14,6 +15,7 @@
 					"animation" : "hota/TBELHrd4.def",
 					"border" : "hota/phoenixHordeUpgradedBorder.png",
 					"area" : "hota/phoenixHordeUpgradedArea.png",
+					"campaignBonus" : "hota/campaignBonuses/BoEHRD4.png",
 					"x" : 685,
 					"y" : 105,
 					"z" : 1
