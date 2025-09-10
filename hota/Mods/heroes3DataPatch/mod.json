@@ -18,13 +18,19 @@
 		"hd_version"
 	],
 	"softDepends" : [
+		"vcmi-extras.extendedlobby",
 		"wake-of-gods.animatedobjects",
 		"wake-of-gods.animatedtrees",
 		"wake-of-gods.battledecorations",
 		"wake-of-gods.heroes3datapatch",
+		"wake-of-gods.heroes3datapatch.heroes3datapatchera",
+		"wake-of-gods.woggraphicfix.wf_animatedobjects",
+		"wake-of-gods.woggraphicfix.wf_animatedtrees",
+		"wake-of-gods.woggraphicfix.wf_battledecorations",
 		"wake-of-gods.woggraphicfix.wf_h3creatures",
 		"wake-of-gods.woggraphicfix.wf_heroes",
 		"wake-of-gods.woggraphicfix.wf_mapobjects",
+		"wake-of-gods.woggraphicfix.wf_heroes3datapatch",
 		"small-era-mods.new terrains",
 		"tides-of-war"
 	],
