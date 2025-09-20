@@ -4,7 +4,7 @@
 	"modType" : "Other",
 	"author" : "Ivan",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.1",
+	"version" : "1.2",
 	"compatibility" : {
 		"min" : "1.7"
 	},
@@ -48,167 +48,369 @@
 	},
 
 	"campaignRegions" : {
-		"hotaRegion21" : {
-			"prefix" : "UA",
-			"colorSuffixLength" : 2,
-			"desc" : [
-				{
-					"infix" : "A",
-					"x" : 157,
-					"y" : 409
-				},
-				{
-					"infix" : "B",
-					"x" : 62,
-					"y" : 346
-				},
-				{
-					"infix" : "C",
-					"x" : 8,
-					"y" : 8
-				}
-			]
-		},
-		"hotaRegion22" : {
-			"prefix" : "UA",
-			"colorSuffixLength" : 2,
-			"desc" : [
-				{
-					"infix" : "A",
-					"x" : 157,
-					"y" : 409
-				},
-				{
-					"infix" : "B",
-					"x" : 62,
-					"y" : 346
-				},
-				{
-					"infix" : "C",
-					"x" : 8,
-					"y" : 8
-				},
-				{
-					"infix" : "D",
-					"x" : 206,
-					"y" : 1
-				},
-				{
-					"infix" : "E",
-					"x" : 132,
-					"y" : 357
-				},
-				{
-					"infix" : "F",
-					"x" : 184,
-					"y" : 83
-				}
-			]
-		},
-		"hotaRegion23" : {
-			"prefix" : "UA",
-			"colorSuffixLength" : 2,
-			"desc" : [
-				{
-					"infix" : "A",
-					"x" : 157,
-					"y" : 409
-				},
-				{
-					"infix" : "B",
-					"x" : 62,
-					"y" : 346
-				},
-				{
-					"infix" : "C",
-					"x" : 8,
-					"y" : 8
-				},
-				{
-					"infix" : "D",
-					"x" : 206,
-					"y" : 1
-				}
-			]
-		},
-		"hotaRegion24" : {
-			"prefix" : "UA",
-			"colorSuffixLength" : 2,
-			"desc" : [
-				{
-					"infix" : "A",
-					"x" : 157,
-					"y" : 409
-				},
-				{
-					"infix" : "B",
-					"x" : 62,
-					"y" : 346
-				},
-				{
-					"infix" : "C",
-					"x" : 8,
-					"y" : 8
-				},
-				{
-					"infix" : "D",
-					"x" : 206,
-					"y" : 1
-				},
-				{
-					"infix" : "E",
-					"x" : 132,
-					"y" : 357
-				},
-				{
-					"infix" : "F",
-					"x" : 184,
-					"y" : 83
-				},
-				{
-					"infix" : "G",
-					"x" : 159,
-					"y" : 263
-				},
-				{
-					"infix" : "H",
-					"x" : 108,
-					"y" : 173
-				}
-			]
-		},
-		"hotaRegion26" : {
-			"prefix" : "UA",
-			"colorSuffixLength" : 2,
-			"desc" : [
-				{
-					"infix" : "A",
-					"x" : 157,
-					"y" : 409
-				},
-				{
-					"infix" : "B",
-					"x" : 62,
-					"y" : 346
-				},
-				{
-					"infix" : "C",
-					"x" : 8,
-					"y" : 8
-				},
-				{
-					"infix" : "D",
-					"x" : 206,
-					"y" : 1
-				},
-				{
-					"infix" : "E",
-					"x" : 132,
-					"y" : 357
-				}
-			]
-		}
-	},
+        "BgRoger": {
+            "background": "hota_regions/BgRoger",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/BgRoger",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 184,
+                    "y": 464
+                },
+                {
+                    "infix": "1",
+                    "x": 170,
+                    "y": 345
+                },
+                {
+                    "infix": "2",
+                    "x": 48,
+                    "y": 29
+                }
+            ]
+        },
+        "BgTerror": {
+            "background": "hota_regions/BgTerror",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/BgTerror",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 44,
+                    "y": 47
+                },
+                {
+                    "infix": "1",
+                    "x": 19,
+                    "y": 451
+                },
+                {
+                    "infix": "2",
+                    "x": 222,
+                    "y": 71
+                },
+                {
+                    "infix": "3",
+                    "x": 326,
+                    "y": 57
+                },
+                {
+                    "infix": "4",
+                    "x": 282,
+                    "y": 451
+                },
+                {
+                    "infix": "5",
+                    "x": 253,
+                    "y": 349
+                }
+            ]
+        },
+        "BgHorn": {
+            "background": "hota_regions/BgHorn",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/BgHorn",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 27,
+                    "y": 403
+                },
+                {
+                    "infix": "1",
+                    "x": 267,
+                    "y": 410
+                },
+                {
+                    "infix": "2",
+                    "x": 22,
+                    "y": 17
+                },
+                {
+                    "infix": "3",
+                    "x": 209,
+                    "y": 46
+                }
+            ]
+        },
+        "FaBg": {
+            "background": "hota_regions/FaBg",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/FaBg",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 246,
+                    "y": 376
+                },
+                {
+                    "infix": "1",
+                    "x": 220,
+                    "y": 112
+                },
+                {
+                    "infix": "2",
+                    "x": 133,
+                    "y": 205
+                },
+                {
+                    "infix": "3",
+                    "x": 154,
+                    "y": 9
+                },
+                {
+                    "infix": "4",
+                    "x": 101,
+                    "y": 102
+                },
+                {
+                    "infix": "5",
+                    "x": 25,
+                    "y": 445
+                },
+                {
+                    "infix": "6",
+                    "x": 21,
+                    "y": 156
+                },
+                {
+                    "infix": "7",
+                    "x": 306,
+                    "y": 384
+                }
+            ]
+        },
+        "AntBg": {
+            "background": "hota_regions/AntBg",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/AntBg",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 28,
+                    "y": 102
+                },
+                {
+                    "infix": "1",
+                    "x": 15,
+                    "y": 160
+                },
+                {
+                    "infix": "2",
+                    "x": 75,
+                    "y": 130
+                },
+                {
+                    "infix": "3",
+                    "x": 194,
+                    "y": 12
+                },
+                {
+                    "infix": "4",
+                    "x": 154,
+                    "y": 85
+                },
+                {
+                    "infix": "5",
+                    "x": 221,
+                    "y": 80
+                },
+                {
+                    "infix": "6",
+                    "x": 307,
+                    "y": 125
+                },
+                {
+                    "infix": "7",
+                    "x": 207,
+                    "y": 161
+                },
+                {
+                    "infix": "8",
+                    "x": 265,
+                    "y": 175
+                },
+                {
+                    "infix": "9",
+                    "x": 175,
+                    "y": 199
+                },
+                {
+                    "infix": "10",
+                    "x": 107,
+                    "y": 197
+                },
+                {
+                    "infix": "11",
+                    "x": 234,
+                    "y": 225
+                },
+                {
+                    "infix": "12",
+                    "x": 216,
+                    "y": 272
+                },
+                {
+                    "infix": "13",
+                    "x": 284,
+                    "y": 191
+                },
+                {
+                    "infix": "14",
+                    "x": 380,
+                    "y": 246
+                },
+                {
+                    "infix": "15",
+                    "x": 333,
+                    "y": 286
+                },
+                {
+                    "infix": "16",
+                    "x": 10,
+                    "y": 231
+                },
+                {
+                    "infix": "17",
+                    "x": 22,
+                    "y": 268
+                },
+                {
+                    "infix": "18",
+                    "x": 106,
+                    "y": 299
+                },
+                {
+                    "infix": "19",
+                    "x": 114,
+                    "y": 345
+                },
+                {
+                    "infix": "20",
+                    "x": 159,
+                    "y": 318
+                },
+                {
+                    "infix": "21",
+                    "x": 244,
+                    "y": 322
+                },
+                {
+                    "infix": "22",
+                    "x": 295,
+                    "y": 333
+                },
+                {
+                    "infix": "23",
+                    "x": 86,
+                    "y": 346
+                },
+                {
+                    "infix": "24",
+                    "x": 155,
+                    "y": 406
+                },
+                {
+                    "infix": "25",
+                    "x": 215,
+                    "y": 411
+                },
+                {
+                    "infix": "26",
+                    "x": 286,
+                    "y": 434
+                },
+                {
+                    "infix": "27",
+                    "x": 95,
+                    "y": 473
+                },
+                {
+                    "infix": "28",
+                    "x": 164,
+                    "y": 515
+                },
+                {
+                    "infix": "29",
+                    "x": 253,
+                    "y": 507
+                },
+                {
+                    "infix": "30",
+                    "x": 374,
+                    "y": 359
+                },
+                {
+                    "infix": "31",
+                    "x": 398,
+                    "y": 425
+                }
+            ]
+        },
+        "BgAllIn": {
+            "background": "hota_regions/BgAllIn",
+            "suffix": [
+                "Enabled",
+                "Selected",
+                "Conquered"
+            ],
+            "prefix": "hota_regions/BgAllIn",
+            "colorSuffixLength": 2,
+            "desc": [
+                {
+                    "infix": "0",
+                    "x": 71,
+                    "y": 61
+                },
+                {
+                    "infix": "1",
+                    "x": 34,
+                    "y": 247
+                },
+                {
+                    "infix": "2",
+                    "x": 212,
+                    "y": 36
+                },
+                {
+                    "infix": "3",
+                    "x": 256,
+                    "y": 418
+                },
+                {
+                    "infix": "4",
+                    "x": 26,
+                    "y": 419
+                }
+            ]
+        }
+    },
 
 	"settings" : {
 		"mapFormat" : {
@@ -1896,12 +2098,12 @@
 				},
 
 				"campaignRegions" : {
-					"hotaRegion21" : 21, // H1ROGER
-					"hotaRegion22" : 22, // H2TERROR
-					"hotaRegion23" : 23, // H3HORN
-					"hotaRegion24" : 24, // H4FACT
+					"BgRoger" : 21, // H1ROGER
+					"BgTerror" : 22, // H2TERROR
+					"BgHorn" : 23, // H3HORN
+					"FaBg" : 24, // H4FACT
 					// 25 - unused? Or only for custom campaigns?
-					"hotaRegion26" : 26 // H5ALLIN
+					"BgAllIn" : 26 // H5ALLIN
 				},
 
 				"campaignMusic" : {
