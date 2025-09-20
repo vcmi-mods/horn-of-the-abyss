@@ -469,7 +469,7 @@
 		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
 		"translations" : [
 			"config/translation/hota/german/game.json",
-			"config/translation/hota/german/campaigns.json",
+			"config/translation/hota/german/balance.json",
 			"config/translation/hota/german/maps.json"
 		]
 	},
