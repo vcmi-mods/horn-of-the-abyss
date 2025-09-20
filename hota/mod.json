@@ -470,7 +470,6 @@
 		"translations" : [
 			"config/translation/hota/german/game.json",
 			"config/translation/hota/german/balance.json",
-			"config/translation/hota/german/campaigns.json",
 			"config/translation/hota/german/maps.json"
 		]
 	},
