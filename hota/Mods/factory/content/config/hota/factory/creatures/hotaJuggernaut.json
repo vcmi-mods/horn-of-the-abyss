@@ -58,7 +58,15 @@
 			},
 			"heatStroke" : {
 				"type" : "MULTIHEX_UNIT_ATTACK",
-				"addInfo": ["L","LL","FL","FF","RF","RR","R"],
+				"addInfo" : [
+					"L",
+					"LL",
+					"FL",
+					"FF",
+					"RF",
+					"RR",
+					"R"
+				],
 				"description" : "{Heat Stroke}\nDeals damage to all units within the targeted semi-circular area",
 				"icon" : "hota/factory/creatures/iconsBonuses/hotshoot.png"
 			},
