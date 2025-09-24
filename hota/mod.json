@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.714",
+	"version" : "1.7.715",
 	"changelog" : {
+		"1.7.715" : [
+			"Change Dradnought/Juggernaught's ability from Wide Breath into Heat Stroke"
+		],
 		"1.7.714" : [
 			"Campaign Regions added"
 		],
