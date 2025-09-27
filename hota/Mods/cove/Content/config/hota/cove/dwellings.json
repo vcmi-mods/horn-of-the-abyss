@@ -22,7 +22,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove1.def"
 			},
 			"shack" : {
 				"name" : "Shack",
@@ -45,7 +46,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove2.def"
 			},
 			"frigate" : {
 				"name" : "Frigate",
@@ -68,7 +70,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove3.def"
 			},
 			"nest" : {
 				"name" : "Nest",
@@ -91,7 +94,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove4.def"
 			},
 			"towerOfTheSeas" : {
 				"name" : "Tower of the Seas",
@@ -117,7 +121,8 @@
 							"BA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove5.def"
 			},
 			"nixFort" : {
 				"name" : "Nix Fort",
@@ -141,7 +146,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove6.def"
 			},
 			"whirpool" : {
 				"name" : "Whirpool",
@@ -166,7 +172,8 @@
 							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove7.def"
 			}
 		}
 	},
@@ -196,7 +203,8 @@
 							"VBAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove6-2.def"
 			},
 			"whirpoolLarge" : {
 				"name" : "Whirpool",
@@ -222,7 +230,8 @@
 							"VBAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove7-2.def"
 			}
 		}
 	}

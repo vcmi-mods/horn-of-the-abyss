@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.715",
+	"version" : "1.7.716",
 	"changelog" : {
+		"1.7.716" : [
+			"Added flagports graphics"
+		],
 		"1.7.715" : [
 			"Change Dradnought/Juggernaught's ability from Wide Breath into Heat Stroke"
 		],

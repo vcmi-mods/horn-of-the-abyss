@@ -22,7 +22,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac1.def"
 			},
 			"factoryLevel2" : {
 				"name" : "Foundry",
@@ -42,7 +43,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac2.def"
 			},
 			"factoryLevel3" : {
 				"name" : "Ranch",
@@ -61,7 +63,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac3.def"
 			},
 			"factoryLevel4" : {
 				"name" : "Manufactory",
@@ -80,7 +83,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac4.def"
 			},
 			"factoryLevel5" : {
 				"name" : "Catacombs",
@@ -103,7 +107,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac5.def"
 			},
 			"factoryLevel6" : {
 				"name" : "Watchtower",
@@ -133,7 +138,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac6.def"
 			},
 			"factoryLevel7" : {
 				"name" : "Serpentarium",
@@ -162,7 +168,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac7.def"
 			},
 			"factoryLevel7-2" : {
 				"name" : "Gantry",
@@ -186,7 +193,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/factory/mapObjects/dwellings/flagport/flagfac8.def"
 			}
 		}
 	}

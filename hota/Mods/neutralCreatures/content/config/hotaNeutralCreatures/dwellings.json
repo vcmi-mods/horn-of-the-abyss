@@ -22,7 +22,8 @@
 							"VAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/dwellings/flagport/flagn1.def"
 			},
 			"ziggurat" : {
 				"name" : "Ziggurat",
@@ -45,7 +46,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/dwellings/flagport/flagn2.def"
 			},
 			"alehouse" : {
 				"name" : "Alehouse",
@@ -68,7 +70,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "hota/dwellings/flagport/flagn3.def"
 			}
 		}
 	}
