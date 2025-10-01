@@ -487,8 +487,7 @@
 	},
 	"polish" : {
 		"name" : "Horn of the Abyss",
-		"description" : "Trwają prace nad portem dodatku Horn of 
-		the Abyss stworzonego przez Hota Crew",
+		"description" : "Trwają prace nad portem dodatku Horn of the Abyss stworzonego przez Hota Crew",
 		"translations" : [
 			"config/translation/hota/polish/game.json",
 			"config/translation/hota/polish/maps.json",
