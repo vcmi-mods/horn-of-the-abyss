@@ -33,9 +33,8 @@
 				"factory:creature.hotaCouatl" : "absolute"
 			}
 		},
-
 		"canCastOnSelf" : true,
-
+		"canCastOnlyOnSelf" : true,
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/medi001.bmp"
 		},

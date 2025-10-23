@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.718",
+	"version" : "1.7.719",
 	"changelog" : {
+		"1.7.719" : [
+			"Small fix for Couatl ability"
+		],
 		"1.7.718" : [
 			"Added partial spanish and french translations for maps"
 		],

@@ -60,7 +60,7 @@
 				"type" : "FLYING"
 			},
 			"castsymMeditation" : {
-				"type" : "ENCHANTER",
+				"type" : "SPELLCASTER",
 				"subtype" : "meditation02",
 				"val" : 0
 			},
