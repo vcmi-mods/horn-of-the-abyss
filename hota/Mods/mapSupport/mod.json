@@ -2102,7 +2102,7 @@
 					"BgTerror" : 22, // H2TERROR
 					"BgHorn" : 23, // H3HORN
 					"FaBg" : 24, // H4FACT
-					// 25 - unused? Or only for custom campaigns?
+					"AntBg" : 25, // Custom campaigns
 					"BgAllIn" : 26 // H5ALLIN
 				},
 
