@@ -12,8 +12,8 @@
 					"base" : {
 						"animation" : "hota/map/avcnbksm",
 						"visitableFrom" : [
-							"+++",
-							"+-+",
+							"---",
+							"--+",
 							"+++"
 						],
 						"mask" : [
