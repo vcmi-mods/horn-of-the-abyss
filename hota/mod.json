@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.721",
+	"version" : "1.7.722",
 	"changelog" : {
+		"1.7.722" : [
+			"Fixed Wasteland obstacles"
+		],
 		"1.7.721" : [
 			"Fix access to Cannon Yard"
 		],
