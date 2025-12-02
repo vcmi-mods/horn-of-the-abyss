@@ -34,7 +34,9 @@
 			}
 		},
 
-		"graphics" : {},
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/icmal100.png"
+		},
 
 		"sounds" : {
 			"cast" : "hota/spells/Repair.wav"
