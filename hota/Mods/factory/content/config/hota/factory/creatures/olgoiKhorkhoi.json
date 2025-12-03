@@ -21,7 +21,7 @@
 		"defense" : 12,
 		"fightValue" : 933,
 		"graphics" : {
-			"animation" : "hota/factory/creatures/battle/COLGOI.def",
+			"animation" : "hota/factory/creatures/battle/COLGOIX.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWolgo.def",
 			"mapMask" : [
 				"VVV",
