@@ -13,6 +13,9 @@
 				"CSGRCK"
 			]
 		},
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/icmal110.png"
+		},
 		"sounds" : {
 			"cast" : "DISEASE"
 		},

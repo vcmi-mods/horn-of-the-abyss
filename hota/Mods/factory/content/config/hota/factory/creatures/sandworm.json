@@ -21,7 +21,7 @@
 		"defense" : 12,
 		"fightValue" : 899,
 		"graphics" : {
-			"animation" : "hota/factory/creatures/battle/CSANDW.def",
+			"animation" : "hota/factory/creatures/battle/CSANDWX.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWworm.def",
 			"mapMask" : [
 				"VVV",
