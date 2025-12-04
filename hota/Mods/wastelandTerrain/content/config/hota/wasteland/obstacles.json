@@ -233,7 +233,7 @@
 			149,
 			150
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD13",
+		"animation" : "hota/wasteland/obstacles/ObWLD13/ObWLD13.png",
 		"absolute" : true
 	},
 	"hotaWLD14" : {
@@ -257,7 +257,7 @@
 			77,
 			78
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD14",
+		"animation" : "hota/wasteland/obstacles/ObWLD14/ObWLD14.png",
 		"absolute" : true
 	}
 }
