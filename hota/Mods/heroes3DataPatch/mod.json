@@ -15,7 +15,7 @@
 		"hota.highlandsterrain"
 	],
 	"conflicts" : [
-		"hd_version"
+		"hd-edition"
 	],
 	"softDepends" : [
 		"vcmi-extras.extendedlobby",
