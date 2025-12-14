@@ -1,0 +1,9 @@
+{
+	"hota.factory:sentinelAutomaton" : {
+		"abilities" : {
+			"castsymMeditation" : {
+				"icon" : "bonuses/ignitionautomatonsentinel.png"
+			}
+		}
+	}
+}

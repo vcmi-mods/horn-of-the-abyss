@@ -74,7 +74,11 @@
 			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
-			}
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}			
 		}
 	}
 }

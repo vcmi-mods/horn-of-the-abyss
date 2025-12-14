@@ -1,0 +1,9 @@
+{
+	"hota.factory:gunslinger" : {
+		"abilities" : {
+			"firstStrike" : {
+				"icon" : "bonuses/firststrike_ranged.png"
+			}
+		}
+	}
+}

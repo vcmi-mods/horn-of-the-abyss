@@ -1,0 +1,9 @@
+{
+	"hota.factory:hotaJuggernaut" : {
+		"abilities" : {
+			"heatStroke" : {
+				"icon" : "bonuses/heatstroke_juggernaut.png"
+			}
+		}
+	}
+}

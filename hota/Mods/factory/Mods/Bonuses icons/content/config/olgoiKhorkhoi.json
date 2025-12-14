@@ -1,0 +1,13 @@
+{
+	"hota.factory:olgoiKhorkhoi" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "bonuses/burrowing.png",
+				"description" : "{Burrowing}\nThis unit can burrow to any to any hex and ignore battlefield obstacles"
+			},
+			"castsymMeditation" : {
+				"icon" : "bonuses/larvasummonhota.png"
+			}
+		}
+	}
+}

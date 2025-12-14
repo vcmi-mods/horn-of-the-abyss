@@ -1,0 +1,9 @@
+{
+	"hota.cove:oceanid" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "bonuses/e_teleport.png"
+			}
+		}
+	}
+}

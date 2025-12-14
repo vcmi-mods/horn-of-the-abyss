@@ -1,0 +1,9 @@
+{
+	"hota.cove:nymph" : {
+		"abilities" : {
+			"teleports" : {
+				"icon" : "bonuses/e_teleport.png"
+			}
+		}
+	}
+}

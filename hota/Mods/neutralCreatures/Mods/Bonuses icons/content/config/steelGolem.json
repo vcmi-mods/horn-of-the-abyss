@@ -1,0 +1,9 @@
+{
+	"hota.neutralcreatures:steelGolem" : {
+		"abilities" : {
+			"magicResistance" : {
+				"icon" : "bonuses/e_golem_steel.png"
+			}
+		}
+	}
+}

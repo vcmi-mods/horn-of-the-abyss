@@ -1,0 +1,12 @@
+{
+	"hota.cove:seaWitch" : {
+		"abilities" : {
+			"castsWeakness" : {
+				"icon" : "bonuses/weaknessattack.png"
+			},
+			"castsDisruptingRay" : {
+				"icon" : "bonuses/disruptingattack.png"
+			}
+		}
+	}
+}

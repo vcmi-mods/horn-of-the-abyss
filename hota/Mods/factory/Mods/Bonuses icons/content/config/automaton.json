@@ -1,0 +1,9 @@
+{
+	"hota.factory:automaton" : {
+		"abilities" : {
+			"castsymMeditation" : {
+				"icon" : "bonuses/ignitionautomaton.png"
+			}
+		}
+	}
+}

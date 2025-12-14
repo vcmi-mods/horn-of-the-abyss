@@ -1,0 +1,15 @@
+{
+	"hota.factory:crimsonCouatl" : {
+		"abilities" : {
+			"dragonNature" : {
+				"icon" : "bonuses/e_dragon-like2.png"
+			},
+			"castsymMeditation" : {
+				"icon" : "bonuses/meditation_crimson.png"
+			},
+			"dragonSkeleton" : {
+				"icon" : "bonuses/turnintobonedragon.png"
+			}			
+		}
+	}
+}

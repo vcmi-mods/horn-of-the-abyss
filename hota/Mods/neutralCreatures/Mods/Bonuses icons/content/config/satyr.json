@@ -1,0 +1,9 @@
+{
+	"hota.neutralcreatures:satyr" : {
+		"abilities" : {
+			"mirth" : {
+				"icon" : "bonuses/mirth2.png"
+			}
+		}
+	}
+}

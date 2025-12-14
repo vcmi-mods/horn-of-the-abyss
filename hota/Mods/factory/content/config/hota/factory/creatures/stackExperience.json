@@ -112,7 +112,10 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FEARFUL"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [
 					false,
@@ -1268,7 +1271,10 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FEARFUL"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [
 					false,
@@ -1435,7 +1441,10 @@
 			},
 			{
 				"bonus" : {
-					"type" : "FEARFUL"
+					"type" : "FEARFUL",
+					"valueType" : "INDEPENDENT_MIN",
+					"description" : "PLACEHOLDER",
+					"val" : 0
 				},
 				"values" : [
 					false,

@@ -1,0 +1,9 @@
+{
+	"hota.factory:hotaDreadnought" : {
+		"abilities" : {
+			"heatStroke" : {
+				"icon" : "bonuses/heatstroke.png"
+			}
+		}
+	}
+}

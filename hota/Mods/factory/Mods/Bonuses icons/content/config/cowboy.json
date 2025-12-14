@@ -1,0 +1,9 @@
+{
+	"hota.factory:cowboy" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/quicksand0.png"
+			}
+		}
+	}
+}

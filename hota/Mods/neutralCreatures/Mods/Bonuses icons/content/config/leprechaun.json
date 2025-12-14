@@ -1,0 +1,12 @@
+{
+	"hota.neutralcreatures:leprechaun" : {
+		"abilities" : {
+			"castsFortune" : {
+				"icon" : "bonuses/fortune2.png"
+			},
+			"unbelievalbeLuck" : {
+				"icon" : "bonuses/doubleluck.png"
+			}
+		}
+	}
+}

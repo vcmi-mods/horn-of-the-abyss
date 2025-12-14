@@ -1,0 +1,9 @@
+{
+	"hota.cove:nixWarrior" : {
+		"abilities" : {
+			"shield" : {
+				"icon" : "bonuses/e_RATT_UPG.png"
+			}
+		}
+	}
+}

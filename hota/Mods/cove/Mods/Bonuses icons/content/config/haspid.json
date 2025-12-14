@@ -1,0 +1,17 @@
+{
+	"hota.cove:haspid" : {
+		"abilities" : {
+			"dragonNature" : {
+				"icon" : "bonuses/e_dragon-like4.png"
+			},
+			"poisonous" : {
+				"icon" : "bonuses/poison.png"
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon",
+				"icon" : "bonuses/turnintobonedragon.png"
+			}
+		}
+	}
+}

@@ -69,7 +69,8 @@
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
-					}
+					},
+					"warMachine" : "cannon"
 				},
 				"marketplace" : {
 					"name" : "Marketplace",

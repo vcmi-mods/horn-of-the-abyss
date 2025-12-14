@@ -1,0 +1,9 @@
+{
+	"hota.cove:stormbird" : {
+		"abilities" : {
+			"canFly" : {
+				"icon" : "bonuses/e_fly2.png"
+			}
+		}
+	}
+}

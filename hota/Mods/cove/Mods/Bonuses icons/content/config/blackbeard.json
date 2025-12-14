@@ -1,0 +1,9 @@
+{
+	"hota.cove:blackbeard" : {
+		"abilities" : {
+			"canCast" : {
+				"icon" : "bonuses/protwater0.png"
+			}
+		}
+	}
+}

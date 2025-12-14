@@ -1,0 +1,12 @@
+{
+	"hota.factory:halflingGrenadier" : {
+		"abilities" : {
+			"reduceDefence" : {
+				"icon" : "bonuses/e_rdef_halflinggrenadier.png"
+			},
+			"throwingGrenade" : {
+				"icon" : "bonuses/grenade.png"
+			}
+		}
+	}
+}

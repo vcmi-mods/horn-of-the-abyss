@@ -1,0 +1,12 @@
+{
+	"hota.factory:hotaMechanic" : {
+		"abilities" : {
+			"twoHexAttackBreath" : {
+				"icon" : "bonuses/e_breathmechanic.png"
+			},
+			"repair" : {
+				"icon" : "bonuses/repair_mechanic.png"
+			}
+		}
+	}
+}

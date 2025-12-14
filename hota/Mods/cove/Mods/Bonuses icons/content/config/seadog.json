@@ -1,0 +1,14 @@
+{
+	"hota.cove:seadog" : {
+		"abilities" : {
+			"accurateShotFullRange" : {
+				"icon" : "bonuses/e_accurate.png",
+				"description" : "{Full Range Accurate Shot}\nHas a 3% chance to instantly kill a single living creature"
+			},
+			"accurateShotHalfRange" : {
+				"icon" : "bonuses/e_accurate.png",
+				"description" : "{Half Range Accurate Shot}\nHas a 2% chance to instantly kill a single living creature"
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"hota.cove:sorceress" : {
+		"abilities" : {
+			"castsWeakness" : {
+				"icon" : "bonuses/weaknessattack.png"
+			},
+			"castsDisruptingRay" : {
+				"icon" : "bonuses/disruptingattack.png"
+			}
+		}
+	}
+}
