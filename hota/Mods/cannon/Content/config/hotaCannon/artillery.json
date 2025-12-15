@@ -11,6 +11,15 @@
 					"subtype" : "creature.cannon",
 					"type" : "BONUS_DAMAGE_PERCENTAGE",
 					"valueType" : "BASE_NUMBER"
+				},
+				"damageCapCannon" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"propagator" : "ARMY",
+					"limiters" : [{
+					"type" : "CREATURE_TYPE_LIMITER",
+					"creature" : "cannon"
+				}],
+					"valueType" : "INDEPENDENT_MIN"
 				}
 			}
 		},
@@ -21,6 +30,9 @@
 				},
 				"damagePower" : {
 					"val" : 0
+				},
+				"damageCapCannon" : {
+					"val" : 40
 				}
 			}
 		},
@@ -31,6 +43,9 @@
 				},
 				"damagePower" : {
 					"val" : 100
+				},
+				"damageCapCannon" : {
+					"val" : 40
 				}
 			}
 		},
@@ -41,6 +56,9 @@
 				},
 				"damagePower" : {
 					"val" : 200
+				},
+				"damageCapCannon" : {
+					"val" : 40
 				}
 			}
 		}

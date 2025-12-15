@@ -23,5 +23,9 @@
 
 	"spells" : [
 		"config/hotaCatapult/catapultShot.json"
+	],
+
+	"skills" : [
+		"config/hotaCatapult/skills.json"
 	]
 }
