@@ -15,10 +15,12 @@
 				"damageCapCannon" : {
 					"type" : "DAMAGE_RECEIVED_CAP",
 					"propagator" : "ARMY",
-					"limiters" : [{
-					"type" : "CREATURE_TYPE_LIMITER",
-					"creature" : "cannon"
-				}],
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cannon"
+						}
+					],
 					"valueType" : "INDEPENDENT_MIN"
 				}
 			}
