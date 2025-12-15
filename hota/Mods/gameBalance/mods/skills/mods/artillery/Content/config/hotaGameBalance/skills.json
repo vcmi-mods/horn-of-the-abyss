@@ -1,0 +1,32 @@
+{
+	"core:artillery" : {
+		"base" : {
+			"effects" : {
+				"damageCap" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"propagator" : "ARMY",
+					"limiters" : [{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "ballista"
+					}],
+					"valueType" : "INDEPENDENT_MIN"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"damageCap" : { "val" : 40 }
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"damageCap" : { "val" : 40 }
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"damageCap" : { "val" : 40 }
+			}
+		}
+	}
+}
