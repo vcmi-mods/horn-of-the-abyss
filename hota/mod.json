@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.728",
+	"version" : "1.7.729",
 	"changelog" : {
+		"1.7.729" : [
+			"Now Crimson Couatl can cast meditation itself"
+		],
 		"1.7.728" : [
 			"Added damage cap for war machines when the corresponding secondary skill is present"
 		],
