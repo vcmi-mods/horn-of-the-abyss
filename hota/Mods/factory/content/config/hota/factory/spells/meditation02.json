@@ -129,7 +129,7 @@
 						"turns" : 1
 					},
 					"noRetaliation" : {
-					"type" : "NO_RETALIATION",
+						"type" : "NO_RETALIATION",
 						"duration" : [
 							"N_TURNS"
 						],
@@ -139,10 +139,9 @@
 						"type" : "STACK_HEALTH",
 						"val" : 10,
 						"valueType" : "PERCENT_TO_BASE",
-						"duration": "N_TURNS",
+						"duration" : "N_TURNS",
 						"turns" : 1
-						}//Temporarily increases HP by 10% to trigger the effect; removes after one turn with no other effects.
-
+					} //Temporarily increases HP by 10% to trigger the effect; removes after one turn with no other effects.
 				}
 			},
 			"basic" : {
