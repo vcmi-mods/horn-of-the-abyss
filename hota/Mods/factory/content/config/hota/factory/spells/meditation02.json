@@ -55,8 +55,8 @@
 				},
 				"cost" : 6
 			},
-				"none" : {
-				"description" : "{Meditation}\n\nMakes the unit invincible for this turn.\n"",
+			"none" : {
+				"description" : "{Meditation}\n\nMakes the unit invincible for this turn.\n",
 
 				"effects" : {
 					"notActive" : {
