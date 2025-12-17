@@ -5,8 +5,13 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.729",
+	"version" : "1.7.730",
 	"changelog" : {
+		"1.7.730" : [
+			"Mysticism percentage-based mana regeneration (by Karyoplasma)",
+			"New Pathfinding submod for Game balance",
+			"Bugfixes for Cove faction"
+		],
 		"1.7.729" : [
 			"Now Crimson Couatl can cast meditation itself"
 		],
