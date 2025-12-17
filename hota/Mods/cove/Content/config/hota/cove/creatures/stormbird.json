@@ -43,7 +43,7 @@
 				"VVV",
 				"VAV"
 			],
-			"animation" : "hota/cove/creatures/battle/CASSIDUP.def",
+			"animation" : "hota/cove/creatures/battle/CASSID.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
