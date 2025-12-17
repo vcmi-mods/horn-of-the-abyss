@@ -4,7 +4,7 @@
 			"effects" : {
 				"manapercent" : {
 					"type" : "MANA_PERCENTAGE_REGENERATION",
-					"value_type" : "ADDITIVE_VALUE"
+					"valueType" : "ADDITIVE_VALUE"
 				}
 			}
 		},

@@ -4,7 +4,7 @@
 			"effects" : {
 				"minCost" : {
 					"type" : "BASE_TILE_MOVEMENT_COST",
-					"valueType" : "BASE_VALUE"
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
