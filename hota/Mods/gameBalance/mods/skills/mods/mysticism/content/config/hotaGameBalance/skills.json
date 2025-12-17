@@ -1,10 +1,10 @@
 {
 	"core:mysticism" : {
-		"base": {
-			"effects": {
-				"manapercent": {
-					"type": "MANA_PERCENTAGE_REGENERATION",
-					"value_type": "ADDITIVE_VALUE"
+		"base" : {
+			"effects" : {
+				"manapercent" : {
+					"type" : "MANA_PERCENTAGE_REGENERATION",
+					"value_type" : "ADDITIVE_VALUE"
 				}
 			}
 		},
@@ -14,8 +14,8 @@
 				"main" : {
 					"val" : 5
 				},
-				"manapercent" : { 
-					"val" : 10 
+				"manapercent" : {
+					"val" : 10
 				}
 			}
 		},
@@ -25,8 +25,8 @@
 				"main" : {
 					"val" : 10
 				},
-				"manapercent" : { 
-					"val" : 20 
+				"manapercent" : {
+					"val" : 20
 				}
 			}
 		},
@@ -36,8 +36,8 @@
 				"main" : {
 					"val" : 15
 				},
-				"manapercent" : { 
-					"val" : 30 
+				"manapercent" : {
+					"val" : 30
 				}
 			}
 		}
