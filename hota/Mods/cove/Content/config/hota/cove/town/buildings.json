@@ -109,8 +109,8 @@
 					"name" : "Thieves' Guild",
 					"description" : "The Thief's Guild reveals additional information about the foes in the tavern.",
 					"cost" : {
-						"gold" : 600,
-						"wood" : 3
+						"gold" : 500,
+						"wood" : 5
 					},
 					"bonuses" : [
 						{
@@ -118,7 +118,8 @@
 							"type" : "THIEVES_GUILD_ACCESS",
 							"val" : 2
 						}
-					]
+					],
+					"requires" : [ "tavern" ]
 				},
 				"special4" : {
 					"name" : "Grotto",
@@ -127,37 +128,42 @@
 						"gold" : 7500,
 						"wood" : 15,
 						"ore" : 15
-					}
+					},
+					"requires" : [ "marketplace" ]
 				},
 				"horde1" : {
 					"name" : "Pub",
 					"description" : "The Pub increases Crew Mates production by 4 per week.",
 					"cost" : {
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "dwellingLvl2"
 				},
 				"horde1Upgr" : {
 					"name" : "Pub",
 					"description" : "The Pub increases Seamen production by 4 per week.",
 					"cost" : {
 						"gold" : 1000
-					}
+					},
+					"upgrades" : "dwellingUpLvl2",
+					"requires" : [ "horde1" ]
 				},
 				"horde2" : {
 					"name" : "Roost",
 					"description" : "The Roost increases Stormbirds production by 3 per week.",
 					"cost" : {
-						"gold" : 1500,
-						"gems" : 2
-					}
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl4"
 				},
 				"horde2Upgr" : {
 					"name" : "Roost",
 					"description" : "The Roost increases Ayssids production by 3 per week.",
 					"cost" : {
-						"gold" : 1500,
-						"gems" : 2
-					}
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingUpLvl4",
+					"requires" : [ "horde2" ]
 				},
 				"grail" : {
 					"name" : "Lodestar",
@@ -229,17 +235,20 @@
 					"name" : "Waterfall",
 					"description" : "The Waterfall allows you to recruite Nymphs.",
 					"cost" : {
-						"gold" : 500
-					}
+						"gold" : 300,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [ "fort" ] 
 				},
 				"dwellingLvl2" : {
 					"name" : "Shack",
 					"description" : "The Shack allows you to recruite Crew Mates.",
 					"cost" : {
 						"gold" : 1000,
-						"wood" : 5,
-						"ore" : 5
-					}
+						"wood" : 10
+					},
+					"requires" : [ "dwellingLvl1" ]
 				},
 				"dwellingLvl3" : {
 					"name" : "Frigate",
@@ -247,25 +256,30 @@
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
-					}
+					},
+					"requires" :  [ "allOf", [ "blacksmith" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl4" : {
 					"name" : "Nest",
 					"description" : "The Nest allows you to recruite Stormbirds.",
 					"cost" : {
-						"gold" : 2500,
-						"gems" : 4,
-						"ore" : 5
-					}
+						"gold" : 2000,
+						"ore" : 5,
+						"crystal" : 2,
+						"gems" : 2
+					},
+					"requires" : [ "fort" ]
 				},
 				"dwellingLvl5" : {
 					"name" : "Tower of the Seas",
 					"description" : "The Tower of the Seas allows you to recruite Sea Witches.",
 					"cost" : {
 						"gold" : 3000,
+						"wood" : 5,
 						"ore" : 5,
-						"crystal" : 4
-					}
+						"crystal" : 5
+					},
+					"requires" :  [ "allOf", [ "mageGuild1" ], [ "dwellingLvl2" ] ]
 				},
 				"dwellingLvl6" : {
 					"name" : "Nix Fort",
@@ -274,32 +288,36 @@
 						"gold" : 4000,
 						"wood" : 5,
 						"ore" : 10
-					}
+					},
+					"requires" : [ "dwellingLvl4" ]
 				},
 				"dwellingLvl7" : {
 					"name" : "Whirlpool",
 					"description" : "The Whirlpool allows you to recruite Sea Serpents.",
 					"cost" : {
-						"gold" : 17500,
-						"ore" : 10,
-						"sulfur" : 15
-					}
+						"gold" : 15000,
+						"wood" : 15,
+						"ore" : 15,
+						"sulfur" : 10
+					},
+					"requires" :  [ "allOf", [ "dwellingLvl5" ], [ "dwellingLvl6" ] ]
 				},
 				"dwellingUpLvl1" : {
 					"name" : "Upg. Waterfall",
 					"description" : "The Upg. Waterfall allows you to recruite Oceanids.",
 					"cost" : {
-						"gold" : 1000,
-						"ore" : 5
-					}
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
 					"name" : "Upg. Shack",
 					"description" : "The Upg. Shack allows you to recruite Seamen.",
 					"cost" : {
-						"gold" : 1200,
+						"gold" : 1000,
 						"wood" : 5
-					}
+					},
+					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
 					"name" : "Upg. Frigate",
@@ -307,25 +325,28 @@
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
-					}
+					},
+					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
 					"name" : "Upg. Nest",
 					"description" : "The Upg. Nest allows you to recruite Ayssids.",
 					"cost" : {
-						"gold" : 2500,
-						"ore" : 10,
-						"crystal" : 10
-					}
+						"gold" : 1500,
+						"crystal" : 2,
+						"gems" : 2
+					},
+					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
 					"name" : "Upg. Tower of the Seas",
 					"description" : "The Upg. Tower of the Seas allows you to recruite Sorceresses.",
 					"cost" : {
 						"gold" : 2000,
-						"sulfur" : 5,
 						"crystal" : 5
-					}
+					},
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
 					"name" : "Upg. Nix Fort",
@@ -333,19 +354,22 @@
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
-						"ore" : 10,
+						"ore" : 5,
 						"sulfur" : 5
-					}
+					},
+					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
 					"name" : "Upg. Whirlpool",
 					"description" : "The Upg. Whirlpool allows you to recruite Haspids.",
 					"cost" : {
-						"gold" : 20000,
+						"gold" : 1500,
+						"wood" : 15,
 						"ore" : 15,
-						"sulfur" : 20,
-						"gems" : 5
-					}
+						"sulfur" : 20
+					},
+					"requires" : [ "mageGuild2" ],
+					"upgrades" : "dwellingLvl7"
 				},
 				"dwellingUp2Lvl3" : {
 					"name" : "Gunpowder Warehouse",
@@ -358,7 +382,8 @@
 						"sulfur" : 5,
 						"crystal" : 5,
 						"gems" : 5
-					}
+					},
+					"upgrades" : "dwellingUpLvl3"
 				}
 			}
 		}
