@@ -8,9 +8,9 @@
 			"name" : "Jangaard",
 			"biography" : "Jangaard is a defender of Burton once Kastore took control.",
 			"specialty" : {
-				"description" : "Increases the Speed of any Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
-				"tooltip" : "Bonus: creature",
-				"name" : "Gunslinger"
+				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Gunslingers",
+				"name" : "Gunslingers"
 			}
 		},
 
@@ -29,8 +29,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",

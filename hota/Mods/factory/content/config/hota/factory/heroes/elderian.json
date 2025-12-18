@@ -8,9 +8,9 @@
 			"name" : "Elderian",
 			"biography" : "Elderian is a defender of Burton once Kastore took control.",
 			"specialty" : {
-				"tooltip" : "No description",
+				"tooltip" : "Creature Bonus: Automatons",
 				"name" : "Automatons",
-				"description" : "Increases Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
+				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
 			}
 		},
 
