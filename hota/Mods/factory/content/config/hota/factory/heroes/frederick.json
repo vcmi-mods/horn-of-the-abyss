@@ -8,9 +8,9 @@
 			"name" : "Frederick",
 			"biography" : "Frederick has been living the life of an ordinary Bracadian mage and alchemist, even if he has been a bit more curious than his fellows. Such curiosity made him experiment with mechanisms first, and then conduct forbidden research. As a result, Frederick had to flee from Bracada, and now he searches for a better place to devote himself to what he wants.",
 			"specialty" : {
-				"tooltip" : "No description",
+				"tooltip" : "Creature Bonus: Automatons",
 				"name" : "Automatons",
-				"description" : "Increases damage dealt by explosion of Automatons and Sentinel Automatons by 5% for every level (rounded up)."
+				"description" : "Increases the Speed of allied Automatons and Sentinel Automatons by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up)."
 			}
 		},
 

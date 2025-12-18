@@ -8,7 +8,7 @@
 			"biography" : "Melchior can see everything that is going on in the deepest recesses of someone else's mind. This secret talent provides a crucial advantage when assessing the foe's strength and intentions and convincing him to agree to terms. Any prince who enlists Melchior's services can be certain of never having to plead for a disgraceful peace.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
-				"tooltip" : "Bonus: creature",
+				"tooltip" : "Skill Bonus: Diplomacy",
 				"name" : "Diplomacy"
 			}
 		},
@@ -28,8 +28,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",

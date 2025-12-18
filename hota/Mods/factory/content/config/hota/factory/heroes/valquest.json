@@ -9,7 +9,7 @@
 			"biography" : "Valquest is a defender of Burton once Kastore took control.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
-				"tooltip" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
+				"tooltip" : "Skill Bonus: First Aid",
 				"name" : "First Aid"
 			}
 		},

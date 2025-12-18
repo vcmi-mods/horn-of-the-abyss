@@ -7,9 +7,9 @@
 			"name" : "Wrathmont",
 			"biography" : "Wrathmont's volatile temper got him into countless problems in his life, most notably during the carve-up of Archibald Ironfist's estate, when former colleagues banded together against the warlock, weary of his tantrums. Barely escaping them, Wrathmont fled Enroth. He spent years searching for and studying old stone tablets, learning to control his fury and stoke it in others instead.",
 			"specialty" : {
-				"tooltip" : "No description",
+				"tooltip" : "Spell Bonus: Frenzy",
 				"name" : "Frenzy",
-				"description" : "Casts Frenzy with Attack bonus increased by 3% for ever n hero levels, where n is the level of the targeted creature."
+				"description" : "Casts Frenzy with effect increased by 3% for every N hero levels, where N is the level of the target creature."
 			}
 		},
 
@@ -28,8 +28,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",

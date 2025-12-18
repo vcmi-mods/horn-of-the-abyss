@@ -8,9 +8,9 @@
 			"name" : "Stina",
 			"biography" : "Stina is a defender of Burton once Kastore took control.",
 			"specialty" : {
-				"description" : "Increases the Speed of any Mechanics and Engineers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
-				"tooltip" : "Bonus: creature",
-				"name" : "Mechanic"
+				"description" : "Increases the Speed of allied Mechanics and Engineers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Mechanics",
+				"name" : "Mechanics"
 			}
 		},
 
@@ -24,18 +24,18 @@
 		"army" : [
 			{
 				"creature" : "hotaMechanic",
-				"max" : 6,
-				"min" : 4
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 6,
-				"min" : 4
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 6,
-				"min" : 4
+				"max" : 9,
+				"min" : 7
 			}
 		],
 		"skills" : [

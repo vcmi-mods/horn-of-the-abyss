@@ -7,9 +7,9 @@
 			"name" : "Agar",
 			"biography" : "Many thought that the warlock Agar was a madman, and then a dead man. While the latter has been proven incorrect, there is still no unanimity in Enroth's scientific community on the former. Indeed, Agar's creations are undeniably viable and functional - but could a scientist in his right mind think of instilling such nasty inclinations and proclivities in a living being?",
 			"specialty" : {
-				"tooltip" : "No description",
+				"tooltip" : "Creature Bonus: Sandworms",
 				"name" : "Sandworms",
-				"description" : "Increases Speed of any Sandworms or Olgoi-Khorkhois by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
 			}
 		},
 
@@ -28,8 +28,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",

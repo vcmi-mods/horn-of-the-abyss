@@ -12,7 +12,7 @@
 		"aiValue" : 3879,
 		"attack" : 18,
 		"cost" : {
-			"gold" : 2500,
+			"gold" : 2200,
 			"crystal" : 1
 		},
 		"damage" : {
@@ -76,8 +76,8 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			// Will be affected by Slayer with no expertise
-			"KING_1" : {
+			"KING_3" : // Will be affected by Expert Slayer only
+			{
 				"type" : "KING",
 				"val" : 3
 			}

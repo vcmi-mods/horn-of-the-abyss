@@ -16,7 +16,7 @@
 		},
 		"damage" : {
 			"max" : 5,
-			"min" : 2
+			"min" : 3
 		},
 		"defense" : 5,
 		"fightValue" : 233,
