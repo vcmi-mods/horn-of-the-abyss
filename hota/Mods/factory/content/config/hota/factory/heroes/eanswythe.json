@@ -7,7 +7,7 @@
 			"name" : "Eanswythe",
 			"biography" : "According to hearsay, it was Eanswythe who concocted the potion that poisoned Regna's first emperor Hareck before fleeing for Jadame. If that is indeed the case, then she must be at least 6 centuries old. Ordinary people don't live that long, and whoever his enigmatic crone is, everyone knows: she merely has to raise an eyebrow to make even those most formidable solders drop their swords and spears.",
 			"specialty" : {
-				"tooltip" : "No description",
+				"tooltip" : "Spell Bonus: Weakness",
 				"name" : "Weakness",
 				"description" : "Casts Weakness with effect increased by 3 for 1-2 level creatures, by 2 for 3-4 level creatures, and by 1 for 5-6 level creatures."
 			}
@@ -28,8 +28,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",

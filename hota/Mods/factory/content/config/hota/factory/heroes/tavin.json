@@ -8,9 +8,9 @@
 			"name" : "Tavin",
 			"biography" : "Tavin is barely the only halflings who joined the army of Erathia. Other halflings disapprove his way of living as these creatures do not like adventures. However, his folks respect him, even if they fear a bit and tend to avoid him. When Kreegans invaded Eeofol, Tavin quickly became a leader of local resistances, and is still ready to defend his homeland.",
 			"specialty" : {
-				"description" : "Receives a 5% per level bonus to Offence skill percentage.",
-				"tooltip" : "Receives a 5% per level bonus to Offence skill.",
-				"name" : "Offence"
+				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
+				"tooltip" : "Skill Bonus: Offense",
+				"name" : "Offense"
 			}
 		},
 
@@ -29,8 +29,8 @@
 			},
 			{
 				"creature" : "hotaMechanic",
-				"max" : 8,
-				"min" : 6
+				"max" : 9,
+				"min" : 7
 			},
 			{
 				"creature" : "armadillo",
