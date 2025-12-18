@@ -436,7 +436,7 @@
 						"gold" : 1000
 					},
 					"requires" : [
-							"horde1"
+						"horde1"
 					],
 					"upgrades" : "dwellingUpLvl3"
 				},
@@ -741,7 +741,7 @@
 				"summonBoat" : 5,
 				"viewAir" : 3,
 				"viewEarth" : 3,
-				
+
 				"blind" : 8,
 				"deathRipple" : 0,
 				"disguise" : 2,
@@ -757,7 +757,7 @@
 				"scuttleBoat" : 4,
 				"visions" : 2,
 				"weakness" : 4,
-				
+
 				"airShield" : 8,
 				"animateDead" : 0,
 				"antiMagic" : 8,

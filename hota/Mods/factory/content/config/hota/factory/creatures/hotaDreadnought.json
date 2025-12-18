@@ -76,8 +76,8 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"KING_3" : // Will be affected by Expert Slayer only
-			{
+			// Will be affected by Expert Slayer only
+			"KING_3" : {
 				"type" : "KING",
 				"val" : 3
 			}
