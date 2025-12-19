@@ -55,9 +55,6 @@
 		},
 		"speed" : 11,
 		"abilities" : {
-			"dragonNature" : {
-				"type" : "DRAGON_NATURE"
-			},
 			"canFly" : {
 				"type" : "FLYING"
 			},
