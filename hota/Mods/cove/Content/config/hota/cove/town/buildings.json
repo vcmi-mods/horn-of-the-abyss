@@ -104,7 +104,7 @@
 					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" : null
 				},
-				
+
 				"special3" : {
 					"name" : "Thieves' Guild",
 					"description" : "The Thieves' Guild reveals additional information about your foes in the tavern.",
@@ -189,7 +189,7 @@
 						}
 					]
 				},
-				
+
 				"mageGuild1" : {
 					"name" : "Mage Guild Level 1",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
