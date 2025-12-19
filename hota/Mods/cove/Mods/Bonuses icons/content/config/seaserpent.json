@@ -1,9 +1,6 @@
 {
 	"hota.cove:seaserpent" : {
 		"abilities" : {
-			"dragonNature" : {
-				"icon" : "bonuses/e_dragon-like4.png"
-			},
 			"poisonous" : {
 				"icon" : "bonuses/poison.png"
 			},

@@ -1,9 +1,6 @@
 {
 	"hota.factory:hotaCouatl" : {
 		"abilities" : {
-			"dragonNature" : {
-				"icon" : "bonuses/e_dragon-like2.png"
-			},
 			"castsymMeditation" : {
 				"icon" : "bonuses/meditation.png"
 			},
