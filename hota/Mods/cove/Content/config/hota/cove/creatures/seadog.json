@@ -19,7 +19,7 @@
 		},
 		"fightValue" : 379,
 		"aiValue" : 370,
-		"shots" : 10,
+		"shots" : 12,
 		"growth" : 7,
 		"advMapAmount" : {
 			"min" : 12,

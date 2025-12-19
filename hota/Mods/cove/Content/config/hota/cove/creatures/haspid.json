@@ -27,16 +27,13 @@
 			"min" : 3
 		},
 		"abilities" : {
-			"dragonNature" : {
-				"type" : "DRAGON_NATURE"
-			},
 			"revenger" : {
 				"type" : "REVENGE"
 			},
 			"poisonous" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
-				"val" : 50,
+				"val" : 30,
 				"addInfo" : [
 					0,
 					2
@@ -46,6 +43,10 @@
 			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
 		},
 		"graphics" : {
