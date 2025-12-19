@@ -10,8 +10,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
@@ -35,16 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"offence" : {
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeMelee",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "offence"
 		},
 		"texts" : {
 			"name" : "Corkes",
@@ -52,7 +43,7 @@
 			"specialty" : {
 				"name" : "Offense",
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
-				"tooltip" : "Secondary Skill Bonus: Offense"
+				"tooltip" : "Skill Bonus: Offense"
 			}
 		}
 	}

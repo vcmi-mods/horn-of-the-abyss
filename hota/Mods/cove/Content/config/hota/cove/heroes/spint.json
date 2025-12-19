@@ -10,8 +10,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
@@ -35,15 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"sorcery" : {
-					"type" : "SPELL_DAMAGE",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "sorcery"
 		},
 		"spellbook" : [
 			"bless"
@@ -54,7 +46,7 @@
 			"specialty" : {
 				"name" : "Sorcery",
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
-				"tooltip" : "Secondary Skill Bonus: Sorcery"
+				"tooltip" : "Skill Bonus: Sorcery"
 			}
 		}
 	}

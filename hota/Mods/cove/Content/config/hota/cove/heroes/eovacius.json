@@ -10,8 +10,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",

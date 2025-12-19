@@ -10,8 +10,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
@@ -52,7 +52,7 @@
 			"specialty" : {
 				"name" : "+1 Crystal",
 				"description" : "Increases kingdom's crystal production by 1 per day.",
-				"tooltip" : "+1 Crystal each day"
+				"tooltip" : "Resource Bonus: +1 Crystal"
 			}
 		}
 	}
