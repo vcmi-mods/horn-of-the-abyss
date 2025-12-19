@@ -11,8 +11,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
@@ -32,16 +32,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"navigation" : {
-					"type" : "MOVEMENT",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"subtype" : "heroMovementSea",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"secondary" : "navigation"
 		},
 		"texts" : {
 			"name" : "Elmore",

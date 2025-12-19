@@ -4,25 +4,25 @@
 			"buildings" : {
 				"villageHall" : {
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
+					"description" : "The Village Hall allows you to purchase town structures and provides your kingdom with 500 gold per day."
 				},
 				"townHall" : {
 					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"description" : "The Town Hall allows you to purchase town structures and provides your kingdom with 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					}
 				},
 				"cityHall" : {
 					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"description" : "The City Hall allows you to purchase town structures and provides your with kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					}
 				},
 				"capitol" : {
 					"name" : "Capitol",
-					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"description" : "The Capitol provides your kingdom with 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					}
@@ -30,7 +30,7 @@
 
 				"fort" : {
 					"name" : "Fort",
-					"description" : "The Fort provides your town with defensive walls.",
+					"description" : "The Fort adds defensive walls to your town.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
@@ -39,7 +39,7 @@
 				},
 				"citadel" : {
 					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep and a moat to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
@@ -57,7 +57,7 @@
 
 				"tavern" : {
 					"name" : "Tavern",
-					"description" : "The Tavern increases morale for troops defending the city.",
+					"description" : "The Tavern increases morale for troops defending the city by +1.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -65,7 +65,7 @@
 				},
 				"blacksmith" : {
 					"name" : "Blacksmith",
-					"description" : "The Blacksmith provides your armies with Cannons.",
+					"description" : "The Blacksmith supplies your armies with Cannons.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
@@ -74,7 +74,7 @@
 				},
 				"marketplace" : {
 					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates improve with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -104,10 +104,10 @@
 					"description" : "The Shipyard allows you to purchase ships.",
 					"cost" : null
 				},
-
+				
 				"special3" : {
 					"name" : "Thieves' Guild",
-					"description" : "The Thief's Guild reveals additional information about the foes in the tavern.",
+					"description" : "The Thieves' Guild reveals additional information about your foes in the tavern.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -125,7 +125,7 @@
 				},
 				"special4" : {
 					"name" : "Grotto",
-					"description" : "The Grotto allows you to sacrifice creatures or artifacts in exchange for experience.",
+					"description" : "The Grotto allows a visiting hero to sacrifice creatures or artifacts in exchange for experience.",
 					"cost" : {
 						"gold" : 7500,
 						"wood" : 15,
@@ -137,7 +137,7 @@
 				},
 				"horde1" : {
 					"name" : "Pub",
-					"description" : "The Pub increases Crew Mates production by 4 per week.",
+					"description" : "The Pub increases Crew Mate growth by +4 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -145,7 +145,7 @@
 				},
 				"horde1Upgr" : {
 					"name" : "Pub",
-					"description" : "The Pub increases Seamen production by 4 per week.",
+					"description" : "The Pub increases Crew Mate and Seaman growth by +4 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -156,7 +156,7 @@
 				},
 				"horde2" : {
 					"name" : "Roost",
-					"description" : "The Roost increases Stormbirds production by 3 per week.",
+					"description" : "The Roost increases Stormbird growth by +3 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -164,7 +164,7 @@
 				},
 				"horde2Upgr" : {
 					"name" : "Roost",
-					"description" : "The Roost increases Ayssids production by 3 per week.",
+					"description" : "The Roost increases Stormbird and Ayssid growth by +3 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -189,7 +189,7 @@
 						}
 					]
 				},
-
+				
 				"mageGuild1" : {
 					"name" : "Mage Guild Level 1",
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
@@ -240,8 +240,8 @@
 				},
 
 				"dwellingLvl1" : {
-					"name" : "Waterfall",
-					"description" : "The Waterfall allows you to recruite Nymphs.",
+					"name" : "Nymph Waterfall",
+					"description" : "The Nymph Waterfall allows you to recruit Nymphs.",
 					"cost" : {
 						"gold" : 300,
 						"wood" : 5,
@@ -253,7 +253,7 @@
 				},
 				"dwellingLvl2" : {
 					"name" : "Shack",
-					"description" : "The Shack allows you to recruite Crew Mates.",
+					"description" : "The Shack allows you to recruit Crew Mates.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
@@ -264,7 +264,7 @@
 				},
 				"dwellingLvl3" : {
 					"name" : "Frigate",
-					"description" : "The Frigate allows you to recruite Pirates.",
+					"description" : "The Frigate allows you to recruit Pirates.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
@@ -281,7 +281,7 @@
 				},
 				"dwellingLvl4" : {
 					"name" : "Nest",
-					"description" : "The Nest allows you to recruite Stormbirds.",
+					"description" : "The Nest allows you to recruit Stormbirds.",
 					"cost" : {
 						"gold" : 2000,
 						"ore" : 5,
@@ -289,12 +289,12 @@
 						"gems" : 2
 					},
 					"requires" : [
-						"fort"
+						"dwellingLvl2"
 					]
 				},
 				"dwellingLvl5" : {
 					"name" : "Tower of the Seas",
-					"description" : "The Tower of the Seas allows you to recruite Sea Witches.",
+					"description" : "The Tower of the Seas allows you to recruit Sea Witches.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
@@ -313,7 +313,7 @@
 				},
 				"dwellingLvl6" : {
 					"name" : "Nix Fort",
-					"description" : "The Nix Fort allows you to recruite Nix.",
+					"description" : "The Nix Fort allows you to recruit Nix.",
 					"cost" : {
 						"gold" : 4000,
 						"wood" : 5,
@@ -324,8 +324,8 @@
 					]
 				},
 				"dwellingLvl7" : {
-					"name" : "Whirlpool",
-					"description" : "The Whirlpool allows you to recruite Sea Serpents.",
+					"name" : "Maelstrom",
+					"description" : "The Maelstrom allows you to recruit Sea Serpents.",
 					"cost" : {
 						"gold" : 15000,
 						"wood" : 15,
@@ -343,8 +343,8 @@
 					]
 				},
 				"dwellingUpLvl1" : {
-					"name" : "Upg. Waterfall",
-					"description" : "The Upg. Waterfall allows you to recruite Oceanids.",
+					"name" : "Upg. Nymph Waterfall",
+					"description" : "The Upg. Nymph Waterfall allows you to recruit Oceanids.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -352,7 +352,7 @@
 				},
 				"dwellingUpLvl2" : {
 					"name" : "Upg. Shack",
-					"description" : "The Upg. Shack allows you to recruite Seamen.",
+					"description" : "The Upg. Shack allows you to recruit Seamen.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
@@ -361,7 +361,7 @@
 				},
 				"dwellingUpLvl3" : {
 					"name" : "Upg. Frigate",
-					"description" : "The Upg. Frigate allows you to recruite Corsairs.",
+					"description" : "The Upg. Frigate allows you to recruit Corsairs.",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 5
@@ -370,7 +370,7 @@
 				},
 				"dwellingUpLvl4" : {
 					"name" : "Upg. Nest",
-					"description" : "The Upg. Nest allows you to recruite Ayssids.",
+					"description" : "The Upg. Nest allows you to recruit Ayssids.",
 					"cost" : {
 						"gold" : 1500,
 						"crystal" : 2,
@@ -380,7 +380,7 @@
 				},
 				"dwellingUpLvl5" : {
 					"name" : "Upg. Tower of the Seas",
-					"description" : "The Upg. Tower of the Seas allows you to recruite Sorceresses.",
+					"description" : "The Upg. Tower of the Seas allows you to recruit Sorceresses.",
 					"cost" : {
 						"gold" : 2000,
 						"crystal" : 5
@@ -392,7 +392,7 @@
 				},
 				"dwellingUpLvl6" : {
 					"name" : "Upg. Nix Fort",
-					"description" : "The Upg. Nix Fort allows you to recruite Nix Warriors.",
+					"description" : "The Upg. Nix Fort allows you to recruit Nix Warriors.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,
@@ -402,8 +402,8 @@
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
-					"name" : "Upg. Whirlpool",
-					"description" : "The Upg. Whirlpool allows you to recruite Haspids.",
+					"name" : "Upg. Maelstrom",
+					"description" : "The Upg. Maelstrom allows you to recruit Haspids.",
 					"cost" : {
 						"gold" : 1500,
 						"wood" : 15,
@@ -417,7 +417,7 @@
 				},
 				"dwellingUp2Lvl3" : {
 					"name" : "Gunpowder Warehouse",
-					"description" : "The Gunpowder Warehouse allows you to recruite Sea Dogs.",
+					"description" : "The Gunpowder Warehouse allows you to recruit Sea Dogs.",
 					"cost" : {
 						"gold" : 3000,
 						"wood" : 5,

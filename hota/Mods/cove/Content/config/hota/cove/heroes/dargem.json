@@ -10,8 +10,8 @@
 		"army" : [
 			{
 				"creature" : "nymph",
-				"min" : 20,
-				"max" : 30
+				"min" : 15,
+				"max" : 25
 			},
 			{
 				"creature" : "crewmate",
@@ -51,7 +51,7 @@
 			"biography" : "Dargem's personality is surrounded by mystery. They say that he alone captured a fort; the defenders' arrows simply could not reach him. Dargem used to live in the dungeons of Nighon, and was one of the apprentice warlocks. He doesn't like to talk much about this period of his life. Everyone knows, however, that his knowledge of Nighonian magic is his ace. Many are convinced that attacking his ship with cannons and arrows is a waste of time.",
 			"specialty" : {
 				"name" : "Air Shield",
-				"description" : "Casts Air Shield with effect increased by 3% for every n hero levels (n - target creature level).",
+				"description" : "Casts Air Shield with effect increased by 3% for every N hero levels, where N is the level of the target creature.",
 				"tooltip" : "Spell Bonus: Air Shield"
 			}
 		}

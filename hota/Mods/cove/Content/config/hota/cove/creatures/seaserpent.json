@@ -30,19 +30,23 @@
 			"min" : 4
 		},
 		"abilities" : {
-			"dragonNature" : {
-				"type" : "DRAGON_NATURE"
-			},
 			"poisonous" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 30,
-				"addInfo" : 0
+				"addInfo" : [
+					0,
+					2
+				]
 			},
 			// Will be affected by Slayer with no expertise
 			"KING_1" : {
 				"type" : "KING",
 				"val" : 0
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
 		},
 		"graphics" : {
