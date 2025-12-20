@@ -8,11 +8,11 @@
 				"description" : "{Reduces enemy luck}\nDevils reduce enemy luck by one"
 			}
 		}
-	}
+	},
 	"core:archDevil" : {
 		"abilities" : {
 			"decreaseLuck" : {
-				"description" : "{Reduces enemy luck}\nArch Devils reduce enemy luck by two"
+				"description" : "{Reduces enemy luck}\nArch Devils reduce enemy luck by two",
 				"val" : -2
 			}
 		}
