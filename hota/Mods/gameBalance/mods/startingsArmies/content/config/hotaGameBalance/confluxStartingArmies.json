@@ -1,4 +1,308 @@
 {
 	// 1.7.3
 	// [+] Water Elemental count in starting armies: 2-3 / 3-5 + 1-2 -> 3-5 / 3-5 + 2-3
+	"core:aenain" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:brissa" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:ciele" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:erdamon" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:fiur" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:gelare" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:grindan" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:ignissa" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:inteus" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:kalt" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"core:labetha" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:lacus" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"core:luna" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	},
+	"core:monere" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"core:pasis" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 2,
+				"max" : 3
+			}
+		]
+	},
+	"core:thunar" : {
+		"army" : [
+			{
+				"creature" : "pixie",
+				"min" : 15,
+				"max" : 25
+			},
+			{
+				"creature" : "airElemental",
+				"min" : 3,
+				"max" : 5
+			},
+			{
+				"creature" : "waterElemental",
+				"min" : 3,
+				"max" : 5
+			}
+		]
+	}
 }

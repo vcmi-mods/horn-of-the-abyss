@@ -2,4 +2,384 @@
 	// 1.7.3
 	// [+] Goblin count in starting armies: 15-25 -> 20-30
 	// [+] Orc count in starting armies: 4-6 -> 5-6
+	"core:boragus" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:cragHack" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:dessa" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:gird" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:gretchin" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			}
+		]
+	},
+	"core:gundula" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:gurnisson" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:jabarkas" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:kilgore" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:krellion" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:oris" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:saurug" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:shiva" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:terek" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:tyraxor" : {
+		"army" : [
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			}
+		]
+	},
+	"core:vey" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:yog" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"core:zubin" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"hota.heroes:gruezak" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "ballista",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "orc",
+				"min" : 5,
+				"max" : 6
+			}
+		]
+	},
+	"hota.heroes:zog" : {
+		"army" : [
+			{
+				"creature" : "goblin",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "goblinWolfRider",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "ogre",
+				"min" : 3,
+				"max" : 4
+			}
+		]
+	}
 }

@@ -1,4 +1,8 @@
 {
+	// 1.7.3
+	// [+] Dwarf count in starting armies: 3-5 -> 5-7
+	
+	// ?????
 	// Amount of Elves decreased from 3–6 to 2–4
 	"core:aeris" : {
 		"army" : [
@@ -9,8 +13,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -28,8 +32,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -47,8 +51,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -66,8 +70,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -85,8 +89,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -142,8 +146,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -161,8 +165,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -180,8 +184,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -199,8 +203,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -218,8 +222,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -237,8 +241,8 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
@@ -256,13 +260,32 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
 				"min" : 2,
 				"max" : 4
+			}
+		]
+	},
+	"core:ufretin" : {
+		"army" : [
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
 			}
 		]
 	},
@@ -275,8 +298,27 @@
 			},
 			{
 				"creature" : "dwarf",
-				"min" : 3,
-				"max" : 5
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "woodElf",
+				"min" : 2,
+				"max" : 4
+			}
+		]
+	},
+	"hota.interference:giselle" : {
+		"army" : [
+			{
+				"creature" : "centaur",
+				"min" : 12,
+				"max" : 24
+			},
+			{
+				"creature" : "dwarf",
+				"min" : 5,
+				"max" : 7
 			},
 			{
 				"creature" : "woodElf",
