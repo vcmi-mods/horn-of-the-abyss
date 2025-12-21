@@ -51,20 +51,20 @@
 						"bonusType" : "LUCK"
 					}
 				]
-			}//,
+			} //,
 			// my proposition of a workaround - disable negative luck; uncomment if okay
-		//	"noNegativeLuck" : {
-		//		"type" : "LUCK",
-		//		"val" : 0,
-		//		"valueType" : "INDEPENDENT_MAX",
-		//		"propagator" : "ARMY",
-		//		"limiters" : [
-		//			{
-		//				"type" : "HAS_ANOTHER_BONUS_LIMITER",
-		//				"bonusType" : "LUCK"
-		//			}
-		//		]
-		//	}
+			//	"noNegativeLuck" : {
+			//		"type" : "LUCK",
+			//		"val" : 0,
+			//		"valueType" : "INDEPENDENT_MAX",
+			//		"propagator" : "ARMY",
+			//		"limiters" : [
+			//			{
+			//				"type" : "HAS_ANOTHER_BONUS_LIMITER",
+			//				"bonusType" : "LUCK"
+			//			}
+			//		]
+			//	}
 		},
 		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm171",
