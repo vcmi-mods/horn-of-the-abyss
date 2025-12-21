@@ -5,7 +5,25 @@
 
 	// ?????
 	// Amount of Imps increased from 15–25 to 20–30
-
+	"core:ash" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
 	"core:axsis" : {
 		"army" : [
 			{
@@ -292,6 +310,63 @@
 		]
 	},
 	"core:zydar" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"hota.heroes:athe" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"hota.heroes:kydoimos" : {
+		"army" : [
+			{
+				"creature" : "imp",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "gog",
+				"min" : 5,
+				"max" : 7
+			},
+			{
+				"creature" : "hellHound",
+				"min" : 4,
+				"max" : 5
+			}
+		]
+	},
+	"hota.heroes:miseria" : {
 		"army" : [
 			{
 				"creature" : "imp",
