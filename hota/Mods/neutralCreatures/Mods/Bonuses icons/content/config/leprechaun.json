@@ -4,7 +4,8 @@
 			"castsFortune" : {
 				"icon" : "bonuses/fortune2.png"
 			},
-			"unbelievalbeLuck" : {
+			"unbelievableLuck" : {
+				"description" : "Doubles the Luck of allied units in battle.",
 				"icon" : "bonuses/doubleluck.png"
 			}
 		}

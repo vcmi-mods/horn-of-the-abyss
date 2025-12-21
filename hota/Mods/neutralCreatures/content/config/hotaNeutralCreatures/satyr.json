@@ -32,8 +32,8 @@
 				"val" : 2
 			},
 			"spellpower" : {
-				"type" : "CREATURE_SPELL_POWER",
-				"val" : 600
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 6
 			},
 			"spellpoints" : {
 				"type" : "CASTS",

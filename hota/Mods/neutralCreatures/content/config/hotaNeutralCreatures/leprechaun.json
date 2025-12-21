@@ -39,17 +39,32 @@
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-			"unbelievalbeLuck" : {
+			// FIXME: "unbelievableLuck" should only affect positive luck.
+			"unbelievableLuck" : {
 				"type" : "LUCK",
 				"val" : 100,
 				"valueType" : "PERCENT_TO_ALL",
+				"propagator" : "ARMY",
 				"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "LUCK"
 					}
 				]
-			}
+			}//,
+			// my proposition of a workaround - disable negative luck; uncomment if okay
+		//	"noNegativeLuck" : {
+		//		"type" : "LUCK",
+		//		"val" : 0,
+		//		"valueType" : "INDEPENDENT_MAX",
+		//		"propagator" : "ARMY",
+		//		"limiters" : [
+		//			{
+		//				"type" : "HAS_ANOTHER_BONUS_LIMITER",
+		//				"bonusType" : "LUCK"
+		//			}
+		//		]
+		//	}
 		},
 		"graphics" : {
 			"iconSmall" : "hota/creatures/iconsSmall/CPrSm171",
