@@ -1,0 +1,17 @@
+{
+	"core:firstAidTent" : {
+		"bonuses" : {
+			"grantFirstAidStackHealth" : {
+				"type" : "FIRST_AID_AVAILABLE",
+				"propagator" : "ARMY",
+				"limiters" : [
+					"noneOf",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SIEGE_WEAPON"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"core:firstAid" : {
 		"specialty" : [
-			"main", "stackhp"
+			"stackhp"
 		],
 		"base" : {
 			"effects" : {
@@ -22,10 +22,9 @@
 					"valueType" : "PERCENT_TO_BASE",
 					"propagator" : "ARMY",
 					"limiters" : [ 
-						"noneOf",
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "SIEGE_WEAPON"
+							"bonusType" : "FIRST_AID_AVAILABLE"
 						}
 					]
 				}
