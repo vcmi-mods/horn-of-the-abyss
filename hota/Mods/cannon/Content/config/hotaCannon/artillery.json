@@ -3,12 +3,12 @@
 		"base" : {
 			"effects" : {
 				"cannonExtra" : {
-					"subtype" : "creature.cannon",
+					"subtype" : "hota.cannon:creature.cannon",
 					"type" : "BONUS_DAMAGE_CHANCE",
 					"valueType" : "BASE_NUMBER"
 				},
-				"damagePower" : {
-					"subtype" : "creature.cannon",
+				"damagePowerCannon" : {
+					"subtype" : "hota.cannon:creature.cannon",
 					"type" : "BONUS_DAMAGE_PERCENTAGE",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -18,10 +18,11 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "cannon"
+							"creature" : "hota.cannon:creature.cannon"
 						}
 					],
-					"valueType" : "INDEPENDENT_MIN"
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 40
 				}
 			}
 		},
@@ -30,24 +31,18 @@
 				"cannonExtra" : {
 					"val" : 0
 				},
-				"damagePower" : {
+				"damagePowerCannon" : {
 					"val" : 0
-				},
-				"damageCapCannon" : {
-					"val" : 40
 				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
 				"cannonExtra" : {
-					"val" : 75
-				},
-				"damagePower" : {
 					"val" : 100
 				},
-				"damageCapCannon" : {
-					"val" : 40
+				"damagePowerCannon" : {
+					"val" : 100
 				}
 			}
 		},
@@ -56,11 +51,8 @@
 				"cannonExtra" : {
 					"val" : 100
 				},
-				"damagePower" : {
+				"damagePowerCannon" : {
 					"val" : 200
-				},
-				"damageCapCannon" : {
-					"val" : 40
 				}
 			}
 		}
