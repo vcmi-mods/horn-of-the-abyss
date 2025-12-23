@@ -1,5 +1,8 @@
 {
 	"core:firstAid" : {
+		"specialty" : [
+			"stackhp"
+		],
 		"base" : {
 			"effects" : {
 				"damageCap" : {
@@ -11,29 +14,38 @@
 							"creature" : "firstAidTent"
 						}
 					],
-					"valueType" : "INDEPENDENT_MIN"
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 40
+				},
+				"stackhp" : {
+					"type" : "STACK_HEALTH",
+					"valueType" : "PERCENT_TO_BASE",
+					"propagator" : "ARMY",
+					"limiters" : [ 
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FIRST_AID_AVAILABLE"
+						}
+					]
 				}
 			}
 		},
 		"basic" : {
+			"description" : "{Basic First Aid}\n\nBasic First Aid gives control of the first aid tent to the hero, healing 50 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 5%.",
 			"effects" : {
-				"damageCap" : {
-					"val" : 40
-				}
+				"stackhp" : { "val" : 5 }
 			}
 		},
 		"advanced" : {
+			"description" : "{Advanced First Aid}\n\nAdvanced First Aid gives control of the first aid tent to the hero, healing 75 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 10%.",
 			"effects" : {
-				"damageCap" : {
-					"val" : 40
-				}
+				"stackhp" : { "val" : 10 }
 			}
 		},
 		"expert" : {
+			"description" : "{Expert First Aid}\n\nExpert First Aid gives control of the first aid tent to the hero, healing 100 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 15%.",
 			"effects" : {
-				"damageCap" : {
-					"val" : 40
-				}
+				"stackhp" : { "val" : 15 }
 			}
 		}
 	}
