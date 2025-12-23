@@ -1,6 +1,5 @@
-{	
+{
 	"FIRST_AID_AVAILABLE" : {
-		
 		"hidden" : false,
 		"creatureNature" : false,
 		"description" : "{First Aid Tent}\nHero carries a First Aid Tent.",
