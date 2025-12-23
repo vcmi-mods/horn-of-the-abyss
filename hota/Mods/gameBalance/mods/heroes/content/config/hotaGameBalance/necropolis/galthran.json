@@ -1,0 +1,13 @@
+{
+	"core:galthran" : 
+	{
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Skeletons and Skeleton Warriors by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	}
+}
