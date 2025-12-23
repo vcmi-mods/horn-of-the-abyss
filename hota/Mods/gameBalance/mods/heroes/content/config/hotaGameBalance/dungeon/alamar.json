@@ -1,0 +1,17 @@
+{
+	"core:alamar":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"resurrection" : {
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Resurrection with effect increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

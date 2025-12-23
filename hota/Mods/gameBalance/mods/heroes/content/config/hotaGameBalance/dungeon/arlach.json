@@ -1,0 +1,13 @@
+{
+	"core:arlach" : 
+	{
+		"specialty" : {
+			"stepSize" : 30
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Ballista's Attack and Defense skills by 30% for every 5 levels (rounded up)."
+			}
+		}
+	}
+}
