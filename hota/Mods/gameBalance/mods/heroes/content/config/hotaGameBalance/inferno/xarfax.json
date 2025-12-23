@@ -1,0 +1,17 @@
+{
+	"core:xarfax":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"fireball" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Fireball with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

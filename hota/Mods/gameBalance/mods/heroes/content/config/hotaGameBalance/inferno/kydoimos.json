@@ -1,0 +1,15 @@
+{
+	"hota.heroes:kydoimos":
+	{
+		"specialty" : {
+			"base" : {
+				"val" : 10
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases allied Dragons' Attack and Defense by 10."
+			}
+		}
+	}
+}
