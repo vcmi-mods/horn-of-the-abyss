@@ -9,9 +9,22 @@
 		"heroes" : {
 			"specialtyCreatureGrowth" : 20
 		}
-	}
+	},
 	"heroes" : [
 		"config/hotaGameBalance/heroes.json",
+		"config/hotaGameBalance/castle/adela.json",
+		"config/hotaGameBalance/castle/adelaide.json",
+		"config/hotaGameBalance/castle/catherine.json",
+		"config/hotaGameBalance/castle/christian.json",
+		"config/hotaGameBalance/castle/cuthbert.json",
+		"config/hotaGameBalance/castle/edric.json",
+		"config/hotaGameBalance/castle/ingham.json",
+		"config/hotaGameBalance/castle/loynis.json",
+		"config/hotaGameBalance/castle/rion.json",
+		"config/hotaGameBalance/castle/roland.json",
+		"config/hotaGameBalance/castle/sorsha.json",
+		"config/hotaGameBalance/castle/tyris.json",
+		"config/hotaGameBalance/castle/valeska.json",
 		
 		"config/hotaGameBalance/dungeon/darkstorn.json",
 		"config/hotaGameBalance/dungeon/deemer.json"
