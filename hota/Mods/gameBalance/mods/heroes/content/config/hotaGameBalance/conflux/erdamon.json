@@ -1,0 +1,23 @@
+{
+	"core:erdamon":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 3
+				},
+				"defence" : {
+					"val" : 2
+				}
+			}
+		},
+		"texts" :
+		{
+			"specialty" :
+			{
+				"name" : "Earth Elementals",
+				"description" : "Increases allied Earth Elementals and Magma Elementals' Attack by 3, Defense by 2, and Damage by 5."
+			}
+		}
+	}
+}

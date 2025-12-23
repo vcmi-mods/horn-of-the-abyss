@@ -1,0 +1,19 @@
+{
+	"core:aenain" :
+	{
+		"specialty" : {
+			"bonuses" : {
+				"disruptingRay" : {
+					"addInfo" : -10
+				}
+			}
+		},
+		"texts" :
+		{
+			"specialty" :
+			{
+				"description" : "Casts Disrupting Ray with effect increased by 10."
+			}
+		}
+	}
+}

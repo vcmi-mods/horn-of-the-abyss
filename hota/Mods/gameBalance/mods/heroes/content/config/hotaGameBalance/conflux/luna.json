@@ -1,0 +1,19 @@
+{
+	"core:luna" : 
+	{
+		"specialty" : {
+			"bonuses" : {
+				"fireWall" : {
+					"val" : 25
+				}
+			}
+		},
+		"texts" :
+		{
+			"specialty" :
+			{
+				"description" : "Increases the Damage from Fire Wall by 25%."
+			}
+		}
+	}
+}
