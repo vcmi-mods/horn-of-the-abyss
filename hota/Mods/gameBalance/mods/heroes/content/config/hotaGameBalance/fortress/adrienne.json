@@ -1,0 +1,19 @@
+{
+	"core:adrienne" : {
+		"specialty#override" : {
+			"bonuses" : {
+				"fireMagic" : {
+					"type" : "SPELL_DAMAGE",
+					"subtype" : "spellSchool.fire",
+					"val" : 50,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the damage of Fire spells by 50%."
+			}
+		}
+	}
+}
