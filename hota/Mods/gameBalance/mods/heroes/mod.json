@@ -5,9 +5,16 @@
 	"author" : "Kuririn, avatar, wnukos",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
-
+	"settings" : {
+		"heroes" : {
+			"specialtyCreatureGrowth" : 20
+		}
+	}
 	"heroes" : [
-		"config/hotaGameBalance/heroes.json"
+		"config/hotaGameBalance/heroes.json",
+		
+		"config/hotaGameBalance/dungeon/darkstorn.json",
+		"config/hotaGameBalance/dungeon/deemer.json"
 	],
 
 	"chinese" : {
