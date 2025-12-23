@@ -1,0 +1,13 @@
+{
+	"hota.factory:01henrietta":
+	{
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	}
+}

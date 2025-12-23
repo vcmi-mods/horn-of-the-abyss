@@ -1,0 +1,17 @@
+{
+	"hota.factory:16ziph":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"lightningBolt" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Lightning Bolt with damage increased by 10% for every N hero levels, where N is the level of the targeted creature."
+			}
+		}
+	}
+}

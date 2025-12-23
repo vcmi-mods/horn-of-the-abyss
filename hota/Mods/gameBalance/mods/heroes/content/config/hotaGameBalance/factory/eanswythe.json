@@ -1,0 +1,87 @@
+{
+	"hota.factory:18eanswythe":
+	{
+		"specialty#override" : {
+			"base" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"valueType" : "ADDITIVE_VALUE",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+			},
+            "bonuses" : {
+				"weak12" : {
+					"limiters" : [ 
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 3
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.weakness"
+						}
+					],
+					"val" : -4
+				},
+				"weak34" : {
+					"limiters" : [ 
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.weakness"
+						}
+					],
+					"val" : -6
+				},
+				"weak56" : {
+					"limiters" : [ 
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.weakness"
+						}
+					],
+					"val" : -8
+				},
+               "weak7" : {
+					"limiters" : [ 
+						"allOf",
+						"OPPOSITE_SIDE",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.weakness"
+						}
+					],
+					"val" : -10
+				}
+            }
+        },
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Weakness with effect increased by 4 for level 1–2 creatures, by 6 for level 3–4 creatures, by 8 for level 5–6 creatures, and by 10 for level 7 creatures."
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"hota.factory:17victoria":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"landMine" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Land Mine with damage increased by 10% for every N hero levels, where N is the level of the targeted creature."
+			}
+		}
+	}
+}
