@@ -1,0 +1,22 @@
+// author's note: I'm not entirely sure how it works right now and it's hard to test ("power" of that spell denotes the effect).
+//                Original uses SPELL_PECULIAR_ENCHANT which has the wrong hardcoded bonus (3%)
+{
+	"hota.cove:19dargem":
+	{
+		"specialty#override" : {
+			"bonuses" : {
+				"airShield" : {
+					"type" : "SPECIAL_SPELL_LEV",
+					"subtype" : "spell.airShield",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Air Shield with effect increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}
