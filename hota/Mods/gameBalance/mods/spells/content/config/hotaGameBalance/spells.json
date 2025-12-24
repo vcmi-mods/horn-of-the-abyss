@@ -209,5 +209,9 @@
 				}
 			}
 		}
+	},
+	// HotA 1.7.0: [+] Wall of Fire: Power damage multiplier increased from 10 to 15
+	"core:fireWallTrigger" : {
+		"power" : 15
 	}
 }
