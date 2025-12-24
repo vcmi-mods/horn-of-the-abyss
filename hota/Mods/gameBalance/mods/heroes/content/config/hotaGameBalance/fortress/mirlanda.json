@@ -1,5 +1,5 @@
 {
-	"core:mirlanda":{
+	"core:mirlanda" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "PRIMARY_SKILL",
@@ -8,9 +8,9 @@
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			},
-            "bonuses" : {
+			"bonuses" : {
 				"weak12" : {
-					"limiters" : [ 
+					"limiters" : [
 						"allOf",
 						"OPPOSITE_SIDE",
 						{
@@ -26,7 +26,7 @@
 					"val" : -4
 				},
 				"weak34" : {
-					"limiters" : [ 
+					"limiters" : [
 						"allOf",
 						"OPPOSITE_SIDE",
 						{
@@ -43,7 +43,7 @@
 					"val" : -6
 				},
 				"weak56" : {
-					"limiters" : [ 
+					"limiters" : [
 						"allOf",
 						"OPPOSITE_SIDE",
 						{
@@ -59,8 +59,8 @@
 					],
 					"val" : -8
 				},
-               "weak7" : {
-					"limiters" : [ 
+				"weak7" : {
+					"limiters" : [
 						"allOf",
 						"OPPOSITE_SIDE",
 						{
@@ -75,8 +75,8 @@
 					],
 					"val" : -10
 				}
-            }
-        },
+			}
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Weakness with effect increased by 4 for level 1–2 creatures, by 6 for level 3–4 creatures, by 8 for level 5–6 creatures, and by 10 for level 7 creatures."

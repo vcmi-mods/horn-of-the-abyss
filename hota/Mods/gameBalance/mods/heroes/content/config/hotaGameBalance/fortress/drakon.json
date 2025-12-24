@@ -1,6 +1,5 @@
 {
-	"core:drakon" :
-	{
+	"core:drakon" : {
 		"specialty" : {
 			"stepSize" : 10
 		},

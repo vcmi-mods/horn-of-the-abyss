@@ -1,6 +1,5 @@
 {
-	"core:galthran" : 
-	{
+	"core:galthran" : {
 		"specialty" : {
 			"stepSize" : 10
 		},

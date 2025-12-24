@@ -1,6 +1,5 @@
 {
-	"hota.cove:03illor" :
-	{
+	"hota.cove:03illor" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Stormbirds and Ayssids by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."

@@ -1,6 +1,5 @@
 {
-	"core:tamika":
-	{
+	"core:tamika" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Black Knights and Death Knights by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."

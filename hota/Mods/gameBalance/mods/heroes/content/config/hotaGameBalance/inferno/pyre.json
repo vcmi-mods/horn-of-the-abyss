@@ -1,6 +1,5 @@
 {
-	"core:pyre" :
-	{
+	"core:pyre" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

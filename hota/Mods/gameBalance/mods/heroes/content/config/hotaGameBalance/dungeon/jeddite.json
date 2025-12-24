@@ -1,6 +1,5 @@
 {
-	"core:jeddite":
-	{
+	"core:jeddite" : {
 		"specialty" : {
 			"bonuses" : {
 				"resurrection" : {

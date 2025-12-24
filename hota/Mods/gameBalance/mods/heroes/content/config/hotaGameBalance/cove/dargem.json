@@ -1,8 +1,7 @@
 // author's note: I'm not entirely sure how it works right now and it's hard to test ("power" of that spell denotes the effect).
 //                Original uses SPELL_PECULIAR_ENCHANT which has the wrong hardcoded bonus (3%)
 {
-	"hota.cove:19dargem":
-	{
+	"hota.cove:19dargem" : {
 		"specialty#override" : {
 			"bonuses" : {
 				"airShield" : {

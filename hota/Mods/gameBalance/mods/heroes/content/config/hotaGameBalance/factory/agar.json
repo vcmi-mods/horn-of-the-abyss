@@ -1,6 +1,5 @@
 {
-	"hota.factory:13agar":
-	{
+	"hota.factory:13agar" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."

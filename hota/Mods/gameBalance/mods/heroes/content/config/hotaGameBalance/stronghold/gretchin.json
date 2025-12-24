@@ -1,6 +1,5 @@
 {
-	"core:gretchin" :
-	{
+	"core:gretchin" : {
 		"specialty" : {
 			"stepSize" : 10
 		},

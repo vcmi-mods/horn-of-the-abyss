@@ -2,8 +2,7 @@
 // [+] Heal specialization grants +10% effect for (8 – n) hero levels, where n is the target's Tier (affects stronger creatures more)
 // author's note: same deal as with astra in cove, i have no idea how this should work...
 {
-	"core:uland":
-	{
+	"core:uland" : {
 		"skills" : [
 			{
 				"skill" : "wisdom",

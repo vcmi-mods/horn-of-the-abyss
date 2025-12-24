@@ -1,6 +1,5 @@
 {
-	"core:ignatius" : 
-	{
+	"core:ignatius" : {
 		"specialty" : {
 			"stepSize" : 10
 		},

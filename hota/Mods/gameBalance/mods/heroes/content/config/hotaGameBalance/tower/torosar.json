@@ -1,6 +1,5 @@
 {
-	"core:torosar":
-	{
+	"core:torosar" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

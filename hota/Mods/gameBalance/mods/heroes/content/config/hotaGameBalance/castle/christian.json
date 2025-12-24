@@ -1,6 +1,5 @@
 {
-	"core:christian":
-	{
+	"core:christian" : {
 		"specialty" : {
 			"stepSize" : 30
 		},

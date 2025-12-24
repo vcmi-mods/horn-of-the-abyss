@@ -1,6 +1,5 @@
 {
-	"hota.heroes:areshak" :
-	{
+	"hota.heroes:areshak" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

@@ -1,12 +1,8 @@
 {
-	"core:rion":
-	{
-		"texts" :
-		{
-			"specialty" :
-			{
+	"core:rion" : {
+		"texts" : {
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to bonus Health provided by the First Aid Tent."
-
 			}
 		}
 	}

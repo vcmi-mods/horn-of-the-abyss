@@ -1,6 +1,5 @@
 {
-	"core:shakti" :
-	{
+	"core:shakti" : {
 		"specialty" : {
 			"stepSize" : 10
 		},

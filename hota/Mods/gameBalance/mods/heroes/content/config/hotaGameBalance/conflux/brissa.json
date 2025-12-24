@@ -1,6 +1,5 @@
 {
-	"core:brissa" :
-	{
+	"core:brissa" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "STACKS_SPEED",
@@ -9,7 +8,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			},
 			"bonuses" : {
-				"bonusSpeed14" :  {
+				"bonusSpeed14" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -28,7 +27,7 @@
 					],
 					"val" : 3
 				},
-				"bonusSpeed56" :  {
+				"bonusSpeed56" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -48,7 +47,7 @@
 					],
 					"val" : 2
 				},
-				"bonusSpeed7" :  {
+				"bonusSpeed7" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -69,10 +68,8 @@
 				}
 			}
 		},
-		"texts" :
-		{
-			"specialty" :
-			{
+		"texts" : {
+			"specialty" : {
 				"description" : "Casts Haste with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures."
 			}
 		}

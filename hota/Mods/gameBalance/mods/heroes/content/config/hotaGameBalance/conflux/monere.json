@@ -1,15 +1,12 @@
 {
-	"core:monere":
-	{
+	"core:monere" : {
 		"specialty" : {
 			"base" : {
 				"val" : 5
 			}
 		},
-		"texts" :
-		{
-			"specialty" :
-			{
+		"texts" : {
+			"specialty" : {
 				"name" : "Psychic Elementals",
 				"description" : "Increases allied Psychic Elementals' and Magic Elementals' Attack and Defense by 5."
 			}

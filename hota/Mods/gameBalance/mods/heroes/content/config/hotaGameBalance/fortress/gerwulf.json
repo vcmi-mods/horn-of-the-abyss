@@ -1,6 +1,5 @@
 {
-	"core:gerwulf" :
-	{
+	"core:gerwulf" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

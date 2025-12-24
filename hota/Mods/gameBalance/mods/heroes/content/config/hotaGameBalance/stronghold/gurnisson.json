@@ -1,6 +1,5 @@
 {
-	"core:gurnisson":
-	{
+	"core:gurnisson" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

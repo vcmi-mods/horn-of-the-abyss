@@ -1,10 +1,7 @@
 {
-	"core:ryland":
-	{
-		"texts" :
-		{
-			"specialty" :
-			{
+	"core:ryland" : {
+		"texts" : {
+			"specialty" : {
 				"tooltip" : "Creature Bonus: Dendroid Guards",
 				"name" : "Dendroid Guards",
 				"description" : "Increases the Speed of allied Dendroid Guards and Dendroid Soldiers by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."

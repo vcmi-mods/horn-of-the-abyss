@@ -1,6 +1,5 @@
 {
-	"core:labetha" :
-	{
+	"core:labetha" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "PRIMARY_SKILL",
@@ -10,7 +9,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			},
 			"bonuses" : {
-				"bonusDefense12" :  {		
+				"bonusDefense12" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -29,7 +28,7 @@
 					],
 					"val" : 10
 				},
-				"bonusDefense34" :  {
+				"bonusDefense34" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -49,7 +48,7 @@
 					],
 					"val" : 8
 				},
-				"bonusDefense56" :  {
+				"bonusDefense56" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -69,7 +68,7 @@
 					],
 					"val" : 6
 				},
-				"bonusDefense7" :  {
+				"bonusDefense7" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -90,10 +89,8 @@
 				}
 			}
 		},
-		"texts" :
-		{
-			"specialty" :
-			{
+		"texts" : {
+			"specialty" : {
 				"description" : "Casts Stone Skin with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures."
 			}
 		}

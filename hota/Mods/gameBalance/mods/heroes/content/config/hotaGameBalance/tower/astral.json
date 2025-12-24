@@ -1,6 +1,5 @@
 {
-	"core:astral":
-	{
+	"core:astral" : {
 		"specialty" : {
 			"bonuses" : {
 				"hypnotize" : {

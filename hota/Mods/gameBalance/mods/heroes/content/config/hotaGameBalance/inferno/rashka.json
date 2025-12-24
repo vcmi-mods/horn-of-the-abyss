@@ -1,6 +1,5 @@
 {
-	"core:rashka":
-	{
+	"core:rashka" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Efreeti and Efreet Sultans by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."

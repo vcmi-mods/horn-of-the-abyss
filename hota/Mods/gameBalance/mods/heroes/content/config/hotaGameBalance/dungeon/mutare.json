@@ -1,6 +1,5 @@
 {
-	"core:mutare":
-	{
+	"core:mutare" : {
 		"specialty" : {
 			"base" : {
 				"val" : 10

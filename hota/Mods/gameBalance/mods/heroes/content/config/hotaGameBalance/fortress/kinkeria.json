@@ -1,6 +1,5 @@
 {
-	"hota.heroes:kinkeria" :
-	{
+	"hota.heroes:kinkeria" : {
 		"specialty#override" : {
 			"secondary" : "learning"
 		},

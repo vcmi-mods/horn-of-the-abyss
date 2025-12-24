@@ -1,6 +1,5 @@
 {
-	"core:alamar":
-	{
+	"core:alamar" : {
 		"specialty" : {
 			"bonuses" : {
 				"resurrection" : {

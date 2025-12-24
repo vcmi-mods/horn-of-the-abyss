@@ -1,6 +1,5 @@
 {
-	"core:adela" :
-	{
+	"core:adela" : {
 		"specialty" : {
 			"bonuses" : {
 				"bless" : {

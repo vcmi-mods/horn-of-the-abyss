@@ -1,6 +1,5 @@
 {
-	"hota.heroes:gruezak":
-	{
+	"hota.heroes:gruezak" : {
 		"specialty" : {
 			"stepSize" : 30,
 			"creatureLevel" : 5

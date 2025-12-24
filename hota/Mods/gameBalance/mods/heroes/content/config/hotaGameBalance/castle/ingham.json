@@ -1,6 +1,5 @@
 {
-	"core:ingham":
-	{
+	"core:ingham" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Monks and Zealots by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."

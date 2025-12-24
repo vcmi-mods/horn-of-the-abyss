@@ -1,6 +1,5 @@
 {
-	"core:adelaide" :
-	{
+	"core:adelaide" : {
 		"specialty" : {
 			"bonuses" : {
 				"frostRing" : {

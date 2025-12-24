@@ -1,6 +1,5 @@
 {
-	"core:ufretin":
-	{
+	"core:ufretin" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Dwarves and Battle Dwarves by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."

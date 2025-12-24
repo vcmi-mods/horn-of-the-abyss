@@ -1,6 +1,5 @@
 {
-	"core:lacus" :
-	{
+	"core:lacus" : {
 		"specialty" : {
 			"bonuses" : {
 				"attack" : {
@@ -8,10 +7,8 @@
 				}
 			}
 		},
-		"texts" :
-		{
-			"specialty" :
-			{
+		"texts" : {
+			"specialty" : {
 				"name" : "Water Elementals",
 				"description" : "Increases allied Water Elementals' and Ice Elementals' Attack by 12."
 			}

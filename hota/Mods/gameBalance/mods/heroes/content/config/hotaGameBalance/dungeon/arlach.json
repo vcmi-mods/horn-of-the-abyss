@@ -1,6 +1,5 @@
 {
-	"core:arlach" : 
-	{
+	"core:arlach" : {
 		"specialty" : {
 			"stepSize" : 30
 		},

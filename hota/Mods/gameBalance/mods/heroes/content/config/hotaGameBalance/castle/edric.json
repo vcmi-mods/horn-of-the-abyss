@@ -1,6 +1,5 @@
 {
-	"core:edric":
-	{
+	"core:edric" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Griffins and Royal Griffins by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."

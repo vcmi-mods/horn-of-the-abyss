@@ -1,6 +1,5 @@
 {
-	"core:kilgor":
-	{
+	"core:kilgor" : {
 		"specialty" : {
 			"bonuses" : {
 				"attack" : {

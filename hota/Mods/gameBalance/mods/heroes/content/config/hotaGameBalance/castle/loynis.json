@@ -1,9 +1,8 @@
 {
-	"core:loynis" :
-	{
+	"core:loynis" : {
 		"specialty#override" : {
 			"bonuses" : {
-				"bonusSpeed14" :  {
+				"bonusSpeed14" : {
 					"type" : "STACKS_SPEED",
 					"valueType" : "ADDITIVE_VALUE",
 					"propagator" : "BATTLE_WIDE",
@@ -26,7 +25,7 @@
 					],
 					"val" : 3
 				},
-				"bonusSpeed56" :  {
+				"bonusSpeed56" : {
 					"type" : "STACKS_SPEED",
 					"valueType" : "ADDITIVE_VALUE",
 					"propagator" : "BATTLE_WIDE",
@@ -50,7 +49,7 @@
 					],
 					"val" : 2
 				},
-				"bonusSpeed7" :  {
+				"bonusSpeed7" : {
 					"type" : "STACKS_SPEED",
 					"valueType" : "ADDITIVE_VALUE",
 					"propagator" : "BATTLE_WIDE",
@@ -73,7 +72,7 @@
 					],
 					"val" : 1
 				},
-				"bonusAttack14" :  {
+				"bonusAttack14" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
 					"valueType" : "ADDITIVE_VALUE",
@@ -97,7 +96,7 @@
 					],
 					"val" : 3
 				},
-				"bonusAttack56" :  {
+				"bonusAttack56" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
 					"valueType" : "ADDITIVE_VALUE",
@@ -122,7 +121,7 @@
 					],
 					"val" : 2
 				},
-				"bonusAttack7" :  {
+				"bonusAttack7" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.attack",
 					"valueType" : "ADDITIVE_VALUE",
@@ -146,7 +145,7 @@
 					],
 					"val" : 1
 				},
-				"bonusDefense14" :  {
+				"bonusDefense14" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
 					"valueType" : "ADDITIVE_VALUE",
@@ -170,7 +169,7 @@
 					],
 					"val" : 3
 				},
-				"bonusDefense56" :  {
+				"bonusDefense56" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
 					"valueType" : "ADDITIVE_VALUE",
@@ -195,7 +194,7 @@
 					],
 					"val" : 2
 				},
-				"bonusDefense7" :  {
+				"bonusDefense7" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "primarySkill.defence",
 					"valueType" : "ADDITIVE_VALUE",

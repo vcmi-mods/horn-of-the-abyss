@@ -1,6 +1,5 @@
 {
-	"core:ash" :
-	{
+	"core:ash" : {
 		"specialty#override" : {
 			"base" : {
 				"type" : "PRIMARY_SKILL",
@@ -11,7 +10,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER"
 			},
 			"bonuses" : {
-				"bonusDefense12" :  {
+				"bonusDefense12" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -30,7 +29,7 @@
 					],
 					"val" : 10
 				},
-				"bonusDefense34" :  {
+				"bonusDefense34" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -50,7 +49,7 @@
 					],
 					"val" : 8
 				},
-				"bonusDefense56" :  {
+				"bonusDefense56" : {
 					"limiters" : [
 						"allOf",
 						[
@@ -70,7 +69,7 @@
 					],
 					"val" : 6
 				},
-				"bonusDefense7" :  {
+				"bonusDefense7" : {
 					"limiters" : [
 						"allOf",
 						[

@@ -1,6 +1,5 @@
 {
-	"core:straker":
-	{
+	"core:straker" : {
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of allied Walking Dead and Zombies by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
