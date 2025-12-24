@@ -1,0 +1,10 @@
+{
+	"core:ivor" :
+	{
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Wood Elfs and Grand Elfs by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+			}
+		}
+	}
+}
