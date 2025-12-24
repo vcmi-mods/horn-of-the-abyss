@@ -73,8 +73,22 @@
 	"core:redDragon" : {
 		"aiValue" : 5003
 	},
+	"core:boneDragon" : {
+		"abilities" : {
+			"boneDragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "creature.boneDragon"
+			}
+		}
+	},
 	"core:ghostDragon" : {
-		"aiValue" : 4919
+		"aiValue" : 4919,
+		"abilities" : {
+			"boneDragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "creature.boneDragon"
+			}
+		}
 	},
 	"core:cyclopKing" : {
 		"aiValue" : 1544
