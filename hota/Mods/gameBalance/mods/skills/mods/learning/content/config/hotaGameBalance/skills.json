@@ -1,0 +1,32 @@
+// 1.7.3:
+// [-] Learning experience bonus: 25/50/75% -> 20/40/60%.
+// 1.7.2:
+// [+] Learning increases the hero's experience gains by 25/50/75%.
+{
+	"core:learning" : {
+		"basic" : {
+			"description" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20%.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				}
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 40%.",
+			"effects" : {
+				"main" : {
+					"val" : 40
+				}
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 60%.",
+			"effects" : {
+				"main" : {
+					"val" : 60
+				}
+			}
+		}
+	}
+}
