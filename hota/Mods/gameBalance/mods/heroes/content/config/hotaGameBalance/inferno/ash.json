@@ -1,0 +1,100 @@
+{
+	"core:ash" :
+	{
+		"specialty#override" : {
+			"base" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"valueType" : "ADDITIVE_VALUE",
+				"effectRange" : "ONLY_MELEE_FIGHT",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+			},
+			"bonuses" : {
+				"bonusDefense12" :  {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 3
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 10
+				},
+				"bonusDefense34" :  {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 8
+				},
+				"bonusDefense56" :  {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 6
+				},
+				"bonusDefense7" :  {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 4
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures."
+			}
+		}
+	}
+}

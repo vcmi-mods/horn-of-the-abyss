@@ -1,0 +1,17 @@
+{
+	"core:adela" :
+	{
+		"specialty" : {
+			"bonuses" : {
+				"bless" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Damage of units affected by Bless by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

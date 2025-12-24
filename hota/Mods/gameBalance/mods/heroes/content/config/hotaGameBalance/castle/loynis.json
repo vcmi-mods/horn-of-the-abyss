@@ -1,0 +1,230 @@
+{
+	"core:loynis" :
+	{
+		"specialty#override" : {
+			"bonuses" : {
+				"bonusSpeed14" :  {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 3
+				},
+				"bonusSpeed56" :  {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 2
+				},
+				"bonusSpeed7" :  {
+					"type" : "STACKS_SPEED",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 1
+				},
+				"bonusAttack14" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 3
+				},
+				"bonusAttack56" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 2
+				},
+				"bonusAttack7" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.attack",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 1
+				},
+				"bonusDefense14" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 3
+				},
+				"bonusDefense56" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 2
+				},
+				"bonusDefense7" :  {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "primarySkill.defence",
+					"valueType" : "ADDITIVE_VALUE",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.prayer"
+						}
+					],
+					"val" : 1
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Prayer with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures."
+			}
+		}
+	}
+}

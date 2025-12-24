@@ -1,0 +1,16 @@
+{
+	"core:alagar" : {
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Ice Bolt with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

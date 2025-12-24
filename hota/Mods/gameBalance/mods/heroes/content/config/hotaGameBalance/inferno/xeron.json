@@ -1,0 +1,20 @@
+{
+	"core:xyron":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 10
+				},
+				"defence" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Devils and Arch Devils by 1 and their Attack and Defense skills by 10."
+			}
+		}
+	}
+}

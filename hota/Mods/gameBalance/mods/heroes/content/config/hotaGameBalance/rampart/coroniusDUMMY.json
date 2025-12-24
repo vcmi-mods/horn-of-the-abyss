@@ -1,0 +1,11 @@
+// Should be: "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures."
+// author's note: this is currently impossible, I think. maybe there is some very clever workaround, but in any case it would require a hard dependency on hota.cove and hota.factory.
+{
+	"core:coronius" : {
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Slayer with effect increased by 20 for level 1–2 creatures, by 16 for level 3–4 creatures, by 12 for level 5–6 creatures, and by 8 for level 7 creatures."
+			}
+		}
+	}
+}

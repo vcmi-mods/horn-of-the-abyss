@@ -1,0 +1,17 @@
+{
+	"core:thant" :
+	{
+		"specialt" : {
+			"bonuses" : {
+				"animateDead" : {
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Animate Dead with effect increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

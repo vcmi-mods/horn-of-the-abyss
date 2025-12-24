@@ -1,0 +1,13 @@
+{
+	"core:gretchin" :
+	{
+		"specialty" : {
+			"stepSize" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Speed of allied Goblins and Hobgoblins by 1 and their Attack and Defense skills by 10% for every level (rounded up)."
+			}
+		}
+	}
+}

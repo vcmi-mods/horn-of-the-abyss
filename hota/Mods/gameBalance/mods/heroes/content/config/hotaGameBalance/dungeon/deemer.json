@@ -1,0 +1,26 @@
+{
+	"core:deemer" : {
+		"specialty" : {
+			"bonuses" : {
+				"meteorShower" : {
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Meteor Shower with damage increased by 5% for every N hero levels, where N is the level of the target creature."
+			}
+		},
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		]
+	}
+}

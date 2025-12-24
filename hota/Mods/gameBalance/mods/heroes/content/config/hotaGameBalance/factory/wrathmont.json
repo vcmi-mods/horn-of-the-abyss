@@ -1,0 +1,16 @@
+{
+	"hota.factory:15wrathmont" : {
+		"specialty" : {
+			"bonuses" : {
+				"frenzy" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Frenzy with effect increased by 10% for every N hero levels, where N is the level of the target creature."
+			}
+		}
+	}
+}

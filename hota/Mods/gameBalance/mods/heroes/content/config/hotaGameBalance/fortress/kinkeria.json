@@ -1,0 +1,13 @@
+{
+	"hota.heroes:kinkeria" :
+	{
+		"specialty#override" : {
+			"secondary" : "learning"
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Receives a 5% per level bonus to Learning skill percentage."
+			}
+		}
+	}
+}
