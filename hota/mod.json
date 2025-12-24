@@ -5,8 +5,16 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.732",
+	"version" : "1.7.733",
 	"changelog" : {
+		"1.7.732" : [
+			"Added Learning changes in Game balance submod",
+			"Faction changes from 1.7.2",
+			"Specialty changes from 1.7.2",
+			"Game Balance creature and starting armies corrections",
+			"Add stack health bonus to first aid",
+			"Fixed cannon overriding ballista extra damage"
+		],
 		"1.7.732" : [
 			"Cove submod fixes and cleaning",
 			"Removed 'hota.newgraphics' from the mod dependencies"
