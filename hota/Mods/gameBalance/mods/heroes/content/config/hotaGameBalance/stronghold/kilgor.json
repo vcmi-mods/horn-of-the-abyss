@@ -1,0 +1,20 @@
+{
+	"core:kilgor":
+	{
+		"specialty" : {
+			"bonuses" : {
+				"attack" : {
+					"val" : 10
+				},
+				"defence" : {
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty : {
+				"description" : "Increases allied Behemoths and Ancient Behemoths' Attack, Defense, and Damage by 10."
+			}
+		}
+	}
+}
