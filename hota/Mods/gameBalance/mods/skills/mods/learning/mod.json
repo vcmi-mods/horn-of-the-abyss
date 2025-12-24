@@ -1,0 +1,12 @@
+{
+	"name" : "Learning",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+
+	"skills" : [
+		"config/hotaGameBalance/skills.json"
+	]
+}
