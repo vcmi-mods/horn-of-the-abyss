@@ -17,8 +17,8 @@
 			"min" : 6,
 			"max" : 10
 		},
-		"fightValue" : 500,
-		"aiValue" : 550,
+		"fightValue" : 471,
+		"aiValue" : 518,
 		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16

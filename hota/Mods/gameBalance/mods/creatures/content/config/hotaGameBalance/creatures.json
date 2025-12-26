@@ -18,7 +18,8 @@
 		}
 	},
 	"core:efreetSultan" : {
-		"aiValue" : 2343
+		"aiValue" : 2343,
+		"fightValue" : 1802
 	},
 	"core:psychicElemental" : {
 		"cost" : {
@@ -48,6 +49,8 @@
 		}
 	},
 	"core:phoenix" : {
+		"horde" : 1,
+		"growth" : 1,
 		"cost" : {
 			"gold" : 3000
 		}
@@ -63,5 +66,46 @@
 	"core:lizardWarrior" : {
 		"fightValue" : 174,
 		"aiValue" : 209
+	},
+	"core:scorpicore" : {
+		"aiValue" : 1685
+	},
+	"core:redDragon" : {
+		"aiValue" : 5003
+	},
+	"core:boneDragon" : {
+		"abilities" : {
+			"boneDragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "creature.boneDragon"
+			}
+		}
+	},
+	"core:ghostDragon" : {
+		"aiValue" : 4919,
+		"abilities" : {
+			"boneDragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "creature.boneDragon"
+			}
+		}
+	},
+	"core:cyclopKing" : {
+		"aiValue" : 1544
+	},
+	"core:naga" : {
+		"aiValue" : 1814
+	},
+	"core:sharpshooter" : {
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		}
+	},
+	"core:ballista" : {
+		// maybe ai decisions factor in gold cost, idk
+		"cost" : {
+			"gold" : 1500
+		}
 	}
 }

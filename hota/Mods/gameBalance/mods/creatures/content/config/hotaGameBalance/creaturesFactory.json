@@ -1,0 +1,49 @@
+{
+	"hota.factory:halflingGrenadier" : {
+		"fightValue" : 75
+	},
+	"hota.factory:hotaMechanic" : {
+		"fightValue" : 186
+	},
+	"hota.factory:hotaEngineer" : {
+		"fightValue" : 232
+	},
+	"hota.factory:armadillo" : {
+		"fightValue" : 248
+	},
+	"hota.factory:bellwetherArmadillo" : {
+		"fightValue" : 256
+	},
+	"hota.factory:automaton" : {
+		"aiValue" : 669,
+		"fightValue" : 398
+	},
+	"hota.factory:sentinelAutomaton" : {
+		"aiValue" : 947,
+		"fightValue" : 631
+	},
+	"hota.factory:sandworm" : {
+		"fightValue" : 793
+	},
+	"hota.factory:olgoiKhorkhoi" : {
+		"fightValue" : 894
+	},
+	"hota.factory:gunslinger" : {
+		"fightValue" : 904
+	},
+	"hota.factory:bountyHunter" : {
+		"fightValue" : 932
+	},
+	"hota.factory:hotaCouatl" : {
+		"fightValue" : 2521
+	},
+	"hota.factory:crimsonCouatl" : {
+		"fightValue" : 3815
+	},
+	"hota.factory:hotaDreadnought" : {
+		"fightValue" : 3879
+	},
+	"hota.factory:hotaJuggernaut" : {
+		"fightValue" : 5361
+	}
+}

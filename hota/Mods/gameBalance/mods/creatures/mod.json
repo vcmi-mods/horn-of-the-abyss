@@ -2,12 +2,18 @@
 	"name" : "Creatures",
 	"description" : "",
 	"modType" : "Mechanics",
-	"author" : "Kuririn, avatar, wnukos",
+	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.11",
-
+	"softDepends" : [
+		"hota.cove",
+		"hota.cannon",
+		"hota.factory"
+	],
 	"creatures" : [
-		"config/hotaGameBalance/creatures.json"
+		"config/hotaGameBalance/creatures.json",
+		"config/hotaGameBalance/creaturesCove.json",
+		"config/hotaGameBalance/creaturesFactory.json"
 	],
 
 	"chinese" : {

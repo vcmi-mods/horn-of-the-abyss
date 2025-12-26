@@ -1,0 +1,30 @@
+{
+	"hota.cove:pirate" : {
+		"fightValue" : 208,
+		"aiValue" : 312
+	},
+	"hota.cove:corsair" : {
+		"fightValue" : 311,
+		"aiValue" : 407
+	},
+	"hota.cove:seadog" : {
+		"fightValue" : 376,
+		"aiValue" : 602,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		}
+	},
+	"hota.cove:nixWarrior" : {
+		"fightValue" : 1763,
+		"aiValue" : 2116
+	},
+	"hota.cannon:cannon" : {
+		// maybe ai decisions factor in gold cost, idk
+		"cost" : {
+			"gold" : 3000
+		},
+		"fightValue" : 900,
+		"aiValue" : 825
+	}
+}
