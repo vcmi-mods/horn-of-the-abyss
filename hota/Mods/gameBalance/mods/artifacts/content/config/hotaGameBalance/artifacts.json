@@ -98,7 +98,7 @@
 	//		}
 	//	}
 	//}
-	
+
 	// 1.7.2:
 	// [+] Ballista price reduced from 2500 to 1500; Cannon price reduced from 4000 to 3000
 	"core:ballista" : {
