@@ -405,7 +405,7 @@
 					"name" : "Upg. Maelstrom",
 					"description" : "The Upg. Maelstrom allows you to recruit Haspids.",
 					"cost" : {
-						"gold" : 1500,
+						"gold" : 15000,
 						"wood" : 15,
 						"ore" : 15,
 						"sulfur" : 20
