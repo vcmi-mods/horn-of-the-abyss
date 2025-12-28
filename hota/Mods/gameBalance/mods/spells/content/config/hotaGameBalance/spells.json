@@ -160,7 +160,7 @@
 		"levels" : {
 			"base" : {
 				"battleEffects" : {
-					"summon": {
+					"summon" : {
 						"exclusive" : false,
 						"summonByHealth" : true
 					}
