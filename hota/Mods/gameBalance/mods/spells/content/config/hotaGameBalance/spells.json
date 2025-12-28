@@ -5,9 +5,6 @@
 			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "air",
-						"duration" : "N_TURNS",
 						"val" : 50
 					}
 				}
@@ -33,9 +30,6 @@
 			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "earth",
-						"duration" : "N_TURNS",
 						"val" : 50
 					}
 				}
@@ -61,9 +55,6 @@
 			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "fire",
-						"duration" : "N_TURNS",
 						"val" : 50
 					}
 				}
@@ -89,9 +80,6 @@
 			"base" : {
 				"effects" : {
 					"spellDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "water",
-						"duration" : "N_TURNS",
 						"val" : 50
 					}
 				}
@@ -165,39 +153,64 @@
 			}
 		}
 	},
-
+	// 1.7.0
+	//[+] Lifted the ban on summoning different types of elementals in the same combat
+	//[+] Summoning Earth and Fire Elementals now has the power of [2/2/2.5/3] * SP
 	"core:fireElemental" : {
 		"levels" : {
+			"base" : {
+				"power" : 2,
+				"battleEffects" : {
+					"summon": {
+						"exclusive" : false
+					}
+				}
+			},
 			"advanced" : {
 				"power" : 3
 			},
-
-			"basic" : {
-				"power" : 2
-			},
 			"expert" : {
 				"power" : 3
-			},
-			"none" : {
-				"power" : 2
 			}
 		}
 	},
-
 	"core:earthElemental" : {
 		"levels" : {
+			"base" : {
+				"power" : 2,
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false
+					}
+				}
+			},
 			"advanced" : {
 				"power" : 3
 			},
-
-			"basic" : {
-				"power" : 2
-			},
 			"expert" : {
 				"power" : 3
-			},
-			"none" : {
-				"power" : 2
+			}
+		}
+	},
+	"core:waterElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false
+					}
+				}
+			}
+		}
+	},
+	"core:airElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false
+					}
+				}
 			}
 		}
 	},
