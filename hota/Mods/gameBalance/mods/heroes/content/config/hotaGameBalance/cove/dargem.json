@@ -1,14 +1,138 @@
-// author's note: I'm not entirely sure how it works right now and it's hard to test ("power" of that spell denotes the effect).
-//                Original uses SPELL_PECULIAR_ENCHANT which has the wrong hardcoded bonus (3%)
 {
 	"hota.cove:19dargem" : {
 		"specialty#override" : {
+			"base" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeRanged",
+				"updater" : {
+					"type" : "GROWS_WITH_LEVEL",
+						"valPer20" : 100
+				}
+			},
 			"bonuses" : {
-				"airShield" : {
-					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.airShield",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 10
+				"tier1Creatures" : {
+					"updater" : {
+						"stepSize" : 1
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 2
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier2Creatures" : {
+					"updater" : {
+						"stepSize" : 2
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 3
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier3Creatures" : {
+					"updater" : {
+						"stepSize" : 3
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier4Creatures" : {
+					"updater" : {
+						"stepSize" : 4
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier5Creatures" : {
+					"updater" : {
+						"stepSize" : 5
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier6Creatures" : {
+					"updater" : {
+						"stepSize" : 6
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
+				},
+				"tier7Creatures" : {
+					"updater" : {
+						"stepSize" : 7
+					},
+					"limiters" : [
+						"allOf",
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.airShield"
+						}
+					]
 				}
 			}
 		},
