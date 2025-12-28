@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.734",
+	"version" : "1.7.735",
 	"changelog" : {
+		"1.7.735" : [
+			"Fix for non working Grotto (Cove's special building)"
+		],
 		"1.7.734" : [
 			"Fix for Upg. Maelstrom building price",
 			"1.7.2 Cannon and Ballista cost update",

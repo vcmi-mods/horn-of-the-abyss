@@ -131,6 +131,7 @@
 						"wood" : 15,
 						"ore" : 15
 					},
+					"marketModes" : ["creature-experience", "artifact-experience"],
 					"requires" : [
 						"marketplace"
 					]
