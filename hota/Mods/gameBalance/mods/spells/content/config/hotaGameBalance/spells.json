@@ -159,36 +159,38 @@
 	"core:fireElemental" : {
 		"levels" : {
 			"base" : {
-				"power" : 2,
+				"power" : 70,
 				"battleEffects" : {
 					"summon": {
-						"exclusive" : false
+						"exclusive" : false,
+						"summonByHealth" : true
 					}
 				}
 			},
 			"advanced" : {
-				"power" : 3
+				"power" : 88
 			},
 			"expert" : {
-				"power" : 3
+				"power" : 105
 			}
 		}
 	},
 	"core:earthElemental" : {
 		"levels" : {
 			"base" : {
-				"power" : 2,
+				"power" : 80,
 				"battleEffects" : {
 					"summon" : {
-						"exclusive" : false
+						"exclusive" : false,
+						"summonByHealth" : true
 					}
 				}
 			},
 			"advanced" : {
-				"power" : 3
+				"power" : 100
 			},
 			"expert" : {
-				"power" : 3
+				"power" : 120
 			}
 		}
 	},
