@@ -5,8 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.735",
+	"version" : "1.7.736",
 	"changelog" : {
+		"1.7.736" : [
+			"Making Elemental summon spells non-exclusive",
+			"Updated russian translation (maps and campaigns)"
+		],
 		"1.7.735" : [
 			"Fix for non working Grotto (Cove's special building)"
 		],
@@ -579,7 +583,9 @@
 		"name" : "Horn of the Abyss / Рог Бездны",
 		"description" : "Дополнение от Hota Crew, портированное на движок VCMI",
 		"translations" : [
-			"config/translation/hota/russian.json"
+			"config/translation/hota/russian/game.json",
+			"config/translation/hota/russian/maps.json",
+			"config/translation/hota/russian/campaigns.json"
 		]
 	},
 	"portuguese" : {
