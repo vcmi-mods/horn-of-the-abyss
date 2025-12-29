@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.736",
+	"version" : "1.7.737",
 	"changelog" : {
+		"1.7.737" : [
+			"Fix broken Russian maps + campaigns encoding"
+		],
 		"1.7.736" : [
 			"Making Elemental summon spells non-exclusive",
 			"Updated russian translation (maps and campaigns)"
