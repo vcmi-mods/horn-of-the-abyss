@@ -5,8 +5,11 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.737",
+	"version" : "1.7.738",
 	"changelog" : {
+		"1.7.738" : [
+			"Fix campaigns descriptions in Russian translation"
+		],
 		"1.7.737" : [
 			"Fix broken Russian maps + campaigns encoding"
 		],
