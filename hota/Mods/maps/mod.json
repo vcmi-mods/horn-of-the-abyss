@@ -4,13 +4,21 @@
 	"modType" : "Maps",
 	"author" : "Ivan",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.0",
+	"version" : "1.1",
 	"compatibility" : {
 		"min" : "1.7"
 	},
 	"depends" : [
 		"hota.mapsupport"
 	],
+	"changelog" : {
+		"1.1" : [
+			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
+		],
+		"1.0" : [
+			"All official HotA 1.7.3 maps were added"
+		]
+	},
 	"chinese" : {
 		"name" : "地图",
 		"description" : "这个模组包含HotA团队新增的所有新地图。"
