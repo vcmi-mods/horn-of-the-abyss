@@ -38,7 +38,6 @@
 				"val" : 99
 			},
 			
-			// ISSUE : SHOULD ONLY AFFECT FLYING UNITS, NOT TELEPORTING ONES
 			"flyerReduction" : {
 				"type" : "STACKS_SPEED",
 				"val" : -1,
@@ -50,7 +49,26 @@
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "FLYING"
-					}
+					},
+					[
+						"noneOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "devil",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:nymph",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:sandworm",
+							"includeUpgrades" : true
+						}
+					]
+						
 				],
 				"stacking" : "Jotunns"
 			},
@@ -65,7 +83,25 @@
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "FLYING"
-					}
+					},
+					[
+						"noneOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "devil",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:nymph",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:sandworm",
+							"includeUpgrades" : true
+						}
+					]
 				]
 			},
 			
