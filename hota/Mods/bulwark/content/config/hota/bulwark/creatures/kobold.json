@@ -1,0 +1,72 @@
+{
+	"bulwarkKobold" : {
+		"name" : {
+			"singular" : "Kobold",
+			"plural" : "Kobolds"
+		},
+		"faction" : "bulwark",
+		"level" : 1,
+		"upgrades" : [
+			"bulwarkKoboldForeman"
+		],
+		"cost" : {
+			"gold" : 40
+		},
+		"speed" : 3,
+		"hitPoints" : 8,
+		"attack" : 3,
+		"defense" : 4,
+		"damage" : {
+			"min" : 1,
+			"max" : 2
+		},
+		"fightValue" : 74,
+		"aiValue" : 54,
+		"growth" : 15,
+		"advMapAmount" : {
+			"min" : 20,
+			"max" : 50
+		},
+		"abilities" : {
+			"generatesGold" : {
+				"type" : "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"propagator" : "PLAYER",
+				"valueType" : "BASE_NUMBER",
+				"updater" : {
+					"type" : "TIMES_ARMY_SIZE",
+					"filteredCreature" : "bulwarkKobold"
+				},
+				"stacking" : "Kobolds",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			// "iconLarge" : "hota/bulwark/creatures/iconsLarge/kobold.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/kobold.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWKOBOL.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CKOBOLD.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			// "mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat306",
+			// "mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat307"
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/kobold/NIMPATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/kobold/NIMPDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/kobold/NIMPKILL.wav",
+		//	"move" : "hota/bulwark/creatures/kobold/NIMPMOVE.wav",
+		//	"startMoving" : "hota/bulwark/creatures/kobold/NIMPEXT1.wav",
+		//	"endMoving" : "hota/bulwark/creatures/kobold/NIMPEXT2.wav",
+		//	"wince" : "hota/bulwark/creatures/kobold/NIMPWNCE.wav"
+		}
+	}
+}
