@@ -30,12 +30,12 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.iceBolt"
 			},
-			"immuneToFrostRing : {
+			"immuneToFrostRing" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
 			}
 			// new aura tech needed. should increase spell damage by 20% for adjacent enemies
-		}
+		},
 		"graphics" : {
 			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/argali.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/argali.png",
