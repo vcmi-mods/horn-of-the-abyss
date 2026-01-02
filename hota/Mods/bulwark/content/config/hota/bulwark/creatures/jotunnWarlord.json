@@ -37,7 +37,6 @@
 				"type" : "CASTS",
 				"val" : 99
 			},
-			
 			"flyerReduction" : {
 				"type" : "STACKS_SPEED",
 				"val" : -1,
@@ -68,7 +67,6 @@
 							"includeUpgrades" : true
 						}
 					]
-						
 				],
 				"stacking" : "Jotunns"
 			},
@@ -116,7 +114,7 @@
 			}
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/jotunnWarlord.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/jotunnWarlord.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/jotunnWarlord.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWJOTNW.def",
 			"mapMask" : [
@@ -129,9 +127,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat332",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat333"
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/jotunnWarlordRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/jotunnWarlordLeft.png"
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/jotunn/ASPIATTK.wav",

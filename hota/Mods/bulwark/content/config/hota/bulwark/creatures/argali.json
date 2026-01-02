@@ -37,7 +37,7 @@
 			// new aura tech needed. should increase spell damage by 20% for adjacent enemies
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/argali.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/argali.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/argali.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWARGAL.def",
 			"mapMask" : [
@@ -51,8 +51,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat312",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat313"
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/argaliRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/argaliLeft.png"
 		},
 		"sound" : {
 			//"attack" : "hota/bulwark/creatures/mountainRam/SAYLATTK.wav",

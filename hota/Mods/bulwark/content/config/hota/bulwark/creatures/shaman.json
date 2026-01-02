@@ -49,7 +49,7 @@
 			}
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/shaman.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/shaman.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/shaman.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWSHAMN.def",
 			"mapMask" : [
@@ -62,9 +62,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-		//	"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat322",
-		//	"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat323",
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/shamanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/shamanLeft.png"
 		//	"missile" : {
 		//		"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAMN.def",
 		//		"attackClimaxFrame" : 5,

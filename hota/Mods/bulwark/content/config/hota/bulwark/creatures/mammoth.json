@@ -30,7 +30,7 @@
 		},
 		"doubleWide" : true,
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/mammoth.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/mammoth.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/mammoth.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWMAMTH.def",
 			"mapMask" : [
@@ -43,9 +43,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat326",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat327"
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/mammothRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/mammothLeft.png"
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/mammoth/mammothXATTK.wav",

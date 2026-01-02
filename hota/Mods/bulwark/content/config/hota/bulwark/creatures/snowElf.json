@@ -37,9 +37,9 @@
 			}
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/snowElf.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/snowElf.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/snowElf.png",
-			"map" : "hota/bulwark/creatures/adventureMap/AVWPIRAT.def",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWSNELF.def",
 			"mapMask" : [
 				"VVV",
 				"VAV"
@@ -50,9 +50,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat314",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat315",
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/snowElfRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/snowElfLeft.png"
 			//"missile" : {
 			//	"projectile" : "hota/bulwark/creatures/battle/projectile/PSELF.def",
 			//	"attackClimaxFrame" : 5,

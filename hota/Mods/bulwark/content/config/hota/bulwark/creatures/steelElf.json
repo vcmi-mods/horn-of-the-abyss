@@ -37,7 +37,7 @@
 			}
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/steelElf.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/steelElf.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/steelElf.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWSTELF.def",
 			"mapMask" : [
@@ -50,9 +50,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat316",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat317",
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/steelElfRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/steelElfLeft.png"
 			//"missile" : {
 			//	"projectile" : "hota/bulwark/creatures/battle/projectile/PSELF.def",
 			//	"attackClimaxFrame" : 5,

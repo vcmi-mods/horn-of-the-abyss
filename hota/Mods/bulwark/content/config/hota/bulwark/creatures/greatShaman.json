@@ -47,7 +47,7 @@
 			// TODO: Freezing Shot. need to test to know what it does.
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/greatShaman.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/greatShaman.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/greatShaman.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWGSHMN.def",
 			"mapMask" : [
@@ -60,9 +60,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat324",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat325",
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/greatShamanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/greatShamanLeft.png"
 			//"missile" : {
 			//	"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAMN.def",
 			//	"attackClimaxFrame" : 5,

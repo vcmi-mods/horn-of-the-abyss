@@ -39,7 +39,7 @@
 			}
 		},
 		"graphics" : {
-			// "iconLarge" : "hota/bulwark/creatures/iconsLarge/koboldForeman.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/koboldForeman.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/koboldForeman.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWFKOBL.def",
 			"mapMask" : [
@@ -53,8 +53,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat308",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat309"
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/koboldForemanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/koboldForemanLeft.png"
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/kobold/NIMPATTK.wav",

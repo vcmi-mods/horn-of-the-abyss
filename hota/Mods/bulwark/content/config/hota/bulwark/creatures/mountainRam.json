@@ -30,7 +30,7 @@
 		"hasDoubleWeek" : true,
 		"doubleWide" : true,
 		"graphics" : {
-			// "iconLarge" : "hota/bulwark/creatures/iconsLarge/mountainRam.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/mountainRam.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/mountainRam.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWMTRAM.def",
 			"mapMask" : [
@@ -44,8 +44,8 @@
 				"walk" : 1
 			},
 			"timeBetweenFidgets" : 1,
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat310",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat311"
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/mountainRamRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/mountainRamLeft.png"
 		},
 		"sound" : {
 			//"attack" : "hota/bulwark/creatures/mountainRam/SAYLATTK.wav",

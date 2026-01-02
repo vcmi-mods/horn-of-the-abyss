@@ -35,7 +35,7 @@
 			// TODO: Runemaster (has Expert Runes. if hero also has runes secondary, values are doubled)
 		},
 		"graphics" : {
-			//"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/yetiRunemaster.png",
 			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def",
 			"mapMask" : [
@@ -48,9 +48,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat320",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat321"
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/yetiRunemasterRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/yetiRunemasterLeft.png"
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/yeti/ASSIATTK.wav",

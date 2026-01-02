@@ -98,9 +98,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-			//"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat330",
-			//"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat331"
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/jotunnRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/jotunnLeft.png"
 		},
 		"sound" : {
 			//"attack" : "hota/bulwark/creatures/jotunn/ASPIATTK.wav",

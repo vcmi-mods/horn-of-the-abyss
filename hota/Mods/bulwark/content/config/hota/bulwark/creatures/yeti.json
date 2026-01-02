@@ -50,9 +50,9 @@
 				"idle" : 10,
 				"walk" : 1
 			},
-			"timeBetweenFidgets" : 1
-		//	"mapAttackFromRight" : "hota/bulwark/creatures/AVWattak/AvWat318",
-		//	"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattak/AvWat319"
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/yetiRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/yetiLeft.png"
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/yeti/ASSIATTK.wav",
