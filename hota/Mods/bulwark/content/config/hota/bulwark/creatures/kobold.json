@@ -64,8 +64,6 @@
 			"defend" : "hota/bulwark/creatures/kobold/KOBLDFND.wav",
 			"killed" : "hota/bulwark/creatures/kobold/KOBLKILL.wav",
 			"move" : "hota/bulwark/creatures/kobold/KOBLMOVE.wav",
-			//"startMoving" : "hota/bulwark/creatures/kobold/NIMPEXT1.wav",
-			//"endMoving" : "hota/bulwark/creatures/kobold/NIMPEXT2.wav",
 			"wince" : "hota/bulwark/creatures/kobold/KOBLWNCE.wav"
 		}
 	}
