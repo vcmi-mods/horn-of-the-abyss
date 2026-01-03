@@ -107,7 +107,7 @@
 			"defend" : "hota/bulwark/creatures/jotunn/JOTNDFND.wav",
 			"killed" : "hota/bulwark/creatures/jotunn/JOTNKILL.wav",
 			"move" : "hota/bulwark/creatures/jotunn/JOTNMOVE.wav",
-			"shot" : "hota/bulwark/creatures/jotunn/JOTNSHOT.wav",
+			"shoot" : "hota/bulwark/creatures/jotunn/JOTNSHOT.wav",
 			"wince" : "hota/bulwark/creatures/jotunn/JOTNWNCE.wav"
 		}
 	}
