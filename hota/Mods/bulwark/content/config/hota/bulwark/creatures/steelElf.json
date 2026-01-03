@@ -1,0 +1,89 @@
+{
+	"bulwarkSteelElf" : {
+		"name" : {
+			"singular" : "Steel Elf",
+			"plural" : "Steel Elves"
+		},
+		"faction" : "bulwark",
+		"level" : 3,
+		"cost" : {
+			"gold" : 260
+		},
+		"speed" : 7,
+		"hitPoints" : 24,
+		"shots" : 8,
+		"attack" : 9,
+		"defense" : 10,
+		"damage" : {
+			"min" : 4,
+			"max" : 6
+		},
+		"fightValue" : 292,
+		"aiValue" : 526,
+		"growth" : 7,
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		},
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noRangeBlock" : {
+				"type" : "FREE_SHOOTING"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/steelElf.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/steelElf.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWSTELF.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CSTLF.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/steelElfRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/steelElfLeft.png",
+			"missile" : {
+				"projectile" : "hota/bulwark/creatures/battle/projectile/PPSPEAR.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/snowElf/PIRTATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/snowElf/PIRTDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/snowElf/PIRTKILL.wav",
+		//	"move" : "hota/bulwark/creatures/snowElf/PIRTMOVE.wav",
+		//	"shoot" : "hota/bulwark/creatures/snowElf/PIRTSHOT.wav",
+		//	"wince" : "hota/bulwark/creatures/snowElf/PIRTWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,142 @@
+{
+	"bulwarkJotunnWarlord" : {
+		"name" : {
+			"plural" : "Jotunn Warlord",
+			"singular" : "Jotunn Warlords"
+		},
+		"faction" : "bulwark",
+		"level" : 7,
+		"cost" : {
+			"gold" : 3500,
+			"gems" : 1
+		},
+		"speed" : 10,
+		"hitPoints" : 300,
+		"attack" : 20,
+		"defense" : 20,
+		"damage" : {
+			"max" : 50,
+			"min" : 40
+		},
+		"fightValue" : 5355,
+		"aiValue" : 6694,
+		"doubleWide" : true,
+		"growth" : 1,
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 3
+		},
+		"abilities" : {
+			// ISSUE: CRASHES VCMI ON CAST!!
+			"castsTeleport" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.teleport",
+				"val" : 3
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 99
+			},
+			"flyerReduction" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"allOf",
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "FLYING"
+					},
+					[
+						"noneOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "devil",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:nymph",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:sandworm",
+							"includeUpgrades" : true
+						}
+					]
+				],
+				"stacking" : "Jotunns"
+			},
+			"flyerReduction2" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"allOf",
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "FLYING"
+					},
+					[
+						"noneOf",
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "devil",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.cove:nymph",
+							"includeUpgrades" : true
+						},
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "hota.factory:sandworm",
+							"includeUpgrades" : true
+						}
+					]
+				]
+			},
+			
+			// Will be affected by Expert (?) Slayer
+			"KING_3" : {
+				"type" : "KING",
+				"val" : 3
+			},
+			"dragonSkeleton" : {
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/jotunnWarlord.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/jotunnWarlord.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWJOTNW.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CWJOTN.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/jotunnWarlordRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/jotunnWarlordLeft.png"
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/jotunn/ASPIATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/jotunn/ASPIDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/jotunn/ASPIKILL.wav",
+		//	"move" : "hota/bulwark/creatures/jotunn/ASPIMOVE.wav",
+		//	"wince" : "hota/bulwark/creatures/jotunn/ASPIWNCE.wav"
+		}
+	}
+}

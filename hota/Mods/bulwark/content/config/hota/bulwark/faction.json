@@ -1,0 +1,11 @@
+{
+	"bulwark" : {
+		"name" : "Bulwark",
+		"alignment" : "neutral",
+		"nativeTerrain" : "snow",
+		"creatureBackground" : {
+			"120px" : "hota/bulwark/creaturebg120px.png",
+			"130px" : "hota/bulwark/creaturebg130px.png"
+		}
+	}
+}

@@ -1,0 +1,101 @@
+{
+	"bulwarkShaman" : {
+		"name" : {
+			"singular" : "Shaman",
+			"plural" : "Shamans"
+		},
+		"faction" : "bulwark",
+		"level" : 5,
+		"upgrades" : [
+			"bulwarkGreatShaman"
+		],
+		"cost" : {
+			"gold" : 450
+		},
+		"speed" : 5,
+		"hitPoints" : 35,
+		"attack" : 11,
+		"defense" : 8,
+		"damage" : {
+			"min" : 11,
+			"max" : 13
+		},
+		"fightValue" : 571,
+		"aiValue" : 685,
+		"shots" : 12,
+		"growth" : 3,
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		},
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"castsAirShield" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.airShield",
+				"val" : 2
+			},
+			"casts" : {
+				"type" : "CASTS",
+				// needs test
+				"val" : 5
+			},
+			"enchantPower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				// needs test
+				"val" : 6
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/shaman.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/shaman.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWSHAMN.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CSHAMN.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/shamanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/shamanLeft.png",
+			"missile" : {
+				"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAM.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/shaman/SORCATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/shaman/SORCDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/shaman/SORCKILL.wav",
+		//	"move" : "hota/bulwark/creatures/shaman/SORCMOVE.wav",
+		//	"shoot" : "hota/bulwark/creatures/shaman/SORCSHOT.wav",
+		//	"wince" : "hota/bulwark/creatures/shaman/SORCWNCE.wav"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"bulwarkMammoth" : {
+		"name" : {
+			"singular" : "Mammoth",
+			"plural" : "Mammoths"
+		},
+		"faction" : "bulwark",
+		"level" : 6,
+		"upgrades" : [
+			"bulwarkWarMammoth"
+		],
+		"cost" : {
+			"gold" : 850
+		},
+		"speed" : 5,
+		"hitPoints" : 120,
+		"attack" : 12,
+		"defense" : 16,
+		"damage" : {
+			"min" : 14,
+			"max" : 20
+		},
+		"fightValue" : 1359,
+		"aiValue" : 1359,
+		"growth" : 2,
+		"horde" : 1,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"doubleWide" : true,
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/mammoth.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/mammoth.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWMAMTH.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CMAMMTH.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/mammothRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/mammothLeft.png"
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/mammoth/mammothXATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/mammoth/mammothXDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/mammoth/mammothXKILL.wav",
+		//	"move" : "hota/bulwark/creatures/mammoth/mammothXMOVE.wav",
+		//	"wince" : "hota/bulwark/creatures/mammoth/mammothXWNCE.wav"
+		}
+	}
+}

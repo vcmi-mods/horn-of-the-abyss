@@ -1,0 +1,63 @@
+{
+	"bulwarkYetiRunemaster" : {
+		"name" : {
+			"singular" : "Yeti Runemaster",
+			"plural" : "Yeti Runemasters"
+		},
+		"faction" : "bulwark",
+		"level" : 4,
+		"cost" : {
+			"gold" : 400
+		},
+		"speed" : 7,
+		"hitPoints" : 45,
+		"attack" : 11,
+		"defense" : 9,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
+		"aiValue" : 751,
+		"fightValue" : 626,
+		"doubleWide" : true,
+		"growth" : 4,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"abilities" : {
+			"yetiCure" : {
+				"type" : "ENCHANTED",
+				"subtype" : "yetiCure",
+				"val" : 0,
+				"description" : "Recovers from negative effects in one round of combat."
+			}
+			// TODO: Runemaster (has Expert Runes. if hero also has runes secondary, values are doubled)
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/yetiRunemaster.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CMSPIR.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/yetiRunemasterRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/yetiRunemasterLeft.png"
+		},
+		"sound" : {
+		//	"attack" : "hota/bulwark/creatures/yeti/ASSIATTK.wav",
+		//	"defend" : "hota/bulwark/creatures/yeti/ASSIDFND.wav",
+		//	"killed" : "hota/bulwark/creatures/yeti/ASSIKILL.wav",
+		//	"move" : "hota/bulwark/creatures/yeti/ASSIMOVE.wav",
+		//	"wince" : "hota/bulwark/creatures/yeti/ASSIWNCE.wav"
+		}
+	}
+}
