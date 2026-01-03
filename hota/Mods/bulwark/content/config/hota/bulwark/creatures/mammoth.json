@@ -48,11 +48,11 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/mammothLeft.png"
 		},
 		"sound" : {
-		//	"attack" : "hota/bulwark/creatures/mammoth/mammothXATTK.wav",
-		//	"defend" : "hota/bulwark/creatures/mammoth/mammothXDFND.wav",
-		//	"killed" : "hota/bulwark/creatures/mammoth/mammothXKILL.wav",
-		//	"move" : "hota/bulwark/creatures/mammoth/mammothXMOVE.wav",
-		//	"wince" : "hota/bulwark/creatures/mammoth/mammothXWNCE.wav"
+			"attack" : "hota/bulwark/creatures/mammoth/MAMNATTK.wav",
+			"defend" : "hota/bulwark/creatures/mammoth/MAMNDFND.wav",
+			"killed" : "hota/bulwark/creatures/mammoth/MAMNKILL.wav",
+			"move" : "hota/bulwark/creatures/mammoth/MAMNMOVE.wav",
+			"wince" : "hota/bulwark/creatures/mammoth/MAMNWNCE.wav"
 		}
 	}
 }

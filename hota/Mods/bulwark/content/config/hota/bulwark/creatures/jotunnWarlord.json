@@ -132,11 +132,12 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/jotunnWarlordLeft.png"
 		},
 		"sound" : {
-		//	"attack" : "hota/bulwark/creatures/jotunn/ASPIATTK.wav",
-		//	"defend" : "hota/bulwark/creatures/jotunn/ASPIDFND.wav",
-		//	"killed" : "hota/bulwark/creatures/jotunn/ASPIKILL.wav",
-		//	"move" : "hota/bulwark/creatures/jotunn/ASPIMOVE.wav",
-		//	"wince" : "hota/bulwark/creatures/jotunn/ASPIWNCE.wav"
+			"attack" : "hota/bulwark/creatures/jotunn/JOTWATTK.wav",
+			"defend" : "hota/bulwark/creatures/jotunn/JOTWDFND.wav",
+			"killed" : "hota/bulwark/creatures/jotunn/JOTWKILL.wav",
+			"move" : "hota/bulwark/creatures/jotunn/JOTWMOVE.wav",
+			"shot" : "hota/bulwark/creatures/jotunn/JOTWSHOT.wav",
+			"wince" : "hota/bulwark/creatures/jotunn/JOTWWNCE.wav"
 		}
 	}
 }

@@ -53,11 +53,11 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/yetiRunemasterLeft.png"
 		},
 		"sound" : {
-		//	"attack" : "hota/bulwark/creatures/yeti/ASSIATTK.wav",
-		//	"defend" : "hota/bulwark/creatures/yeti/ASSIDFND.wav",
-		//	"killed" : "hota/bulwark/creatures/yeti/ASSIKILL.wav",
-		//	"move" : "hota/bulwark/creatures/yeti/ASSIMOVE.wav",
-		//	"wince" : "hota/bulwark/creatures/yeti/ASSIWNCE.wav"
+			"attack" : "hota/bulwark/creatures/yetiRunemaster/YETIATTK.wav",
+			"defend" : "hota/bulwark/creatures/yetiRunemaster/YETIDFND.wav",
+			"killed" : "hota/bulwark/creatures/yetiRunemaster/YETIKILL.wav",
+			"move" : "hota/bulwark/creatures/yetiRunemaster/YETIMOVE.wav",
+			"wince" : "hota/bulwark/creatures/yetiRunemaster/YETIWNCE.wav"
 		}
 	}
 }

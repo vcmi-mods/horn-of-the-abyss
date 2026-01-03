@@ -60,13 +60,13 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/koboldLeft.png"
 		},
 		"sound" : {
-		//	"attack" : "hota/bulwark/creatures/kobold/NIMPATTK.wav",
-		//	"defend" : "hota/bulwark/creatures/kobold/NIMPDFND.wav",
-		//	"killed" : "hota/bulwark/creatures/kobold/NIMPKILL.wav",
-		//	"move" : "hota/bulwark/creatures/kobold/NIMPMOVE.wav",
-		//	"startMoving" : "hota/bulwark/creatures/kobold/NIMPEXT1.wav",
-		//	"endMoving" : "hota/bulwark/creatures/kobold/NIMPEXT2.wav",
-		//	"wince" : "hota/bulwark/creatures/kobold/NIMPWNCE.wav"
+			"attack" : "hota/bulwark/creatures/kobold/KOBLATTK.wav",
+			"defend" : "hota/bulwark/creatures/kobold/KOBLDFND.wav",
+			"killed" : "hota/bulwark/creatures/kobold/KOBLKILL.wav",
+			"move" : "hota/bulwark/creatures/kobold/KOBLMOVE.wav",
+			//"startMoving" : "hota/bulwark/creatures/kobold/NIMPEXT1.wav",
+			//"endMoving" : "hota/bulwark/creatures/kobold/NIMPEXT2.wav",
+			"wince" : "hota/bulwark/creatures/kobold/KOBLWNCE.wav"
 		}
 	}
 }

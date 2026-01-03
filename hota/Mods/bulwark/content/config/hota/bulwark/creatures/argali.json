@@ -55,11 +55,12 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/argaliLeft.png"
 		},
 		"sound" : {
-			//"attack" : "hota/bulwark/creatures/mountainRam/SAYLATTK.wav",
-			//"defend" : "hota/bulwark/creatures/mountainRam/SAYLDFND.wav",
-			//"killed" : "hota/bulwark/creatures/mountainRam/SAYLKILL.wav",
-			//"move" : "hota/bulwark/creatures/mountainRam/SAYLMOVE.wav",
-			//"wince" : "hota/bulwark/creatures/mountainRam/SAYLWNCE.wav"
+			// TODO: GAP?
+			"attack" : "hota/bulwark/creatures/argali/SAYLATTK.wav",
+			"defend" : "hota/bulwark/creatures/argali/SAYLDFND.wav",
+			"killed" : "hota/bulwark/creatures/argali/SAYLKILL.wav",
+			"move" : "hota/bulwark/creatures/argali/SAYLMOVE.wav",
+			"wince" : "hota/bulwark/creatures/argali/SAYLWNCE.wav"
 		}
 	}
 }
