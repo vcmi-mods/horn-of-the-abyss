@@ -1,0 +1,51 @@
+{
+	"bulwarkSpadum" : {
+		"class" : "chieftain",
+		"female" : false,
+		"images" : {
+			"large" : "hota/bulwark/heroes/spadum/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/spadum/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/spadum/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/spadum/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "bulwarkYeti"
+		},
+		"texts" : {
+			"name" : "Spadum",
+			"biography" : "Spadum is not the strongest warrior or the most skilled hunter among the Yeti; still, his kin hold him in the highest regard. The answer as to why is simple: he is fluent in the languages of all races in Vori. This often helps him settle disputes over valuable land in favor of his people without the parties resorting to needless violence.",
+			"specialty" : {
+				"name" : "Yeti",
+				"description" : "Increases the Speed of allied Yeti and Yeti Runemasters by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
+				"tooltip" : "Creature Bonus: Yeti"
+			}
+		}
+	}
+}

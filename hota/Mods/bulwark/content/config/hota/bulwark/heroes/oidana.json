@@ -1,0 +1,58 @@
+{
+	"bulwarkOidana" : {
+		"class" : "chieftain",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/oidana/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/oidana/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/oidana/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/oidana/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "diplomacy",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"diplomacy" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "SURRENDER_DISCOUNT",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE"
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Oidana",
+			"biography" : "In every tribe of Vori, someone traces their lineage back to Oidana, and she is known as the Mother of the Chieftains — only she herself has long grown weary of the ceaseless bickering among her unruly descendants. Having lived in the world for far too long to harbor preferences, she has equal affection for everyone with ancient Vori blood in their veins.",
+			"specialty" : {
+				"name" : "Diplomacy",
+				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
+				"tooltip" : "Skill Bonus: Diplomacy"
+			}
+		}
+	}
+}

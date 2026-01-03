@@ -1,0 +1,88 @@
+{
+	"chieftain" : {
+		"name" : "Chieftain",
+		"faction" : "bulwark",
+		"affinity" : "might",
+		"defaultTavern" : 5,
+		"commander" : "bulwarkShaman", // placeholder
+		"animation" : {
+			"battle" : {
+				"female" : "hota/bulwark/heroClasses/chieftain/battle/CH22b_08.def",
+				"male" : "hota/bulwark/heroClasses/chieftain/battle/CH22_08.def"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22B_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22B_e.def"
+				},
+				"male" : {
+					"animation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/chieftain/adventureMap/AH22_e.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 4,
+			"spellpower" : 1,
+			"knowledge" : 1
+		},
+		"secondarySkills" : {
+			"airMagic" : 3,
+			"archery" : 8,
+			"armorer" : 8,
+			"artillery" : 5,
+			"ballistics" : 4,
+			"diplomacy" : 4,
+			"eagleEye" : 1,
+			"earthMagic" : 3,
+			"estates" : 1,
+			"fireMagic" : 1,
+			"firstAid" : 4,
+			"intelligence" : 1,
+			"leadership" : 6,
+			"learning" : 4,
+			"logistics" : 8,
+			"luck" : 5,
+			"mysticism" : 2,
+			"navigation" : 7,
+			"necromancy" : 0,
+			"offence" : 5,
+			"pathfinding" : 8,
+			"resistance" : 4,
+			"scholar" : 1,
+			"scouting" : 4,
+			"sorcery" : 1,
+			"tactics" : 5,
+			"waterMagic" : 3,
+			"wisdom" : 2,
+			"runes" : 4, 
+			"hota.interference:interference" : 4
+		},
+		"lowLevelChance" : {
+			"attack" : 35,
+			"defence" : 55,
+			"spellpower" : 5,
+			"knowledge" : 5
+		},
+		"highLevelChance" : {
+			"attack" : 30,
+			"defence" : 30,
+			"spellpower" : 20,
+			"knowledge" : 20
+		},
+		"tavern" : {
+			// no idea
+		}
+	}
+}

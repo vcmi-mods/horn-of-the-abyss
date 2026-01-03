@@ -1,0 +1,55 @@
+{
+	"bulwarkHaugir" : {
+		"class" : "elder",
+		"onlyOnWaterMap" : true,
+		"female" : false,
+		"images" : {
+			"large" : "hota/bulwark/heroes/haugir/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/haugir/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/haugir/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/haugir/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "navigation",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "navigation"
+		},
+		"spellbook" : [
+			"dispel"
+		],
+		"texts" : {
+			"name" : "Haugir",
+			"biography" : "Haugir's mother sailed the seas, one day returning from a voyage to distant lands with a child in her womb. Her son's greatest gripe was his eyes lacking a true frost giant's icy tinge, so he vowed to acquire the largest, purest crystals and carve himself a new pair out of them. Thus far, Haugir has found one that fits the purpose, but he still seeks its perfect match.",
+			"specialty" : {
+				"name" : "Navigation",
+				"description" : "Receives a 5% per level bonus to movement points at sea.",
+				"tooltip" : "Secondary Skill Bonus: Navigation"
+			}
+		}
+	}
+}

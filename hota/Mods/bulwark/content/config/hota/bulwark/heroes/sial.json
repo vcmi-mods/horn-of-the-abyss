@@ -1,0 +1,61 @@
+{
+	"bulwarkSial" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/sial/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/sial/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/sial/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/sial/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "intelligence",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"iceBolt" : {
+					"subtype" : "spell.iceBolt",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 10
+				}
+			}
+		},
+		"spellbook" : [
+			"iceBolt"
+		],
+		"texts" : {
+			"name" : "Sial",
+			"biography" : "Sial can always be traced on the battlefield by shards of ice statues that once were her enemies. Legend says another doing of hers is the infamous Crystal Lake, which stays frozen even through the brief summers. Once, its waters swallowed an entire tribe whose chieftain had angered her; they remain eternally still since.",
+			"specialty" : {
+				"name" : "Ice Bolt",
+				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature.",
+				"tooltip" : "Spell Bonus: Ice Bolt"
+			}
+		}
+	}
+}

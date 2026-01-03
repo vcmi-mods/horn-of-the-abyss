@@ -1,0 +1,141 @@
+{
+	"bulwarkAkka" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/akka/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/akka/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/akka/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/akka/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"bloodlust"
+		],
+		"specialty" : {
+			"base" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"valueType" : "ADDITIVE_VALUE",
+				"effectRange" : "ONLY_MELEE_FIGHT",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+			},
+			"bonuses" : {
+				"bonusAttack12" : {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 3
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 10
+				},
+				"bonusAttack34" : {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 5
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 8
+				},
+				"bonusAttack56" : {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 6
+				},
+				"bonusAttack" : {
+					"limiters" : [
+						"allOf",
+						[
+							"noneOf",
+							"OPPOSITE_SIDE"
+						],
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusSourceType" : "SPELL_EFFECT",
+							"bonusSourceID" : "spell.bloodlust"
+						}
+					],
+					"val" : 4
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Akka",
+			"biography" : "The yeti's knack for survival in the frost is often attributed to their thick hides and dense fur. However, their resilience stems from an innate magical power that radiates warmth throughout their bodies. Only a select few can consciously harness it, and Akka is among the most adept. Her expertise stems from her deep understanding of the warlike furor her clansmen tend to give in to.",
+			"specialty" : {
+				"name" : "Bloodlust",
+				"description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
+				"tooltip" : "Spell Bonus: Bloodlust"
+			}
+		}
+	}
+}

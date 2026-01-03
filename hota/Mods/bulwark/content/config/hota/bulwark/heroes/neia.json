@@ -1,0 +1,47 @@
+{
+	"bulwarkNeia" : {
+		"class" : "chieftain",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/neia/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/neia/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/neia/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/neia/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "advanced"
+			}
+		],
+		"specialty" : {
+			"secondary" : "archery"
+		},
+		"texts" : {
+			"name" : "Neia",
+			"biography" : "Missing the target with your only shot often means starving to death. A native of the harshest part of Vori, the Volee glacier, Neia knows it all too well; this fate has befallen many hunters of her tribe. She is one of the only Vori elves alive who prefer a bow to a powerful javelin, but Neia's aim is so perfect that even a lightweight arrow spells certain end.",
+			"specialty" : {
+				"name" : "Archery",
+				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
+				"tooltip" : "Skill Bonus: Archery"
+			}
+		}
+	}
+}
