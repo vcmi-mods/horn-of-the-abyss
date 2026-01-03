@@ -1,0 +1,60 @@
+{
+	"bulwarkVehr" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/vehr/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/vehr/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/vehr/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/vehr/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "eagleEye",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		},
+		"spellbook" : [
+			"viewEarth"
+		],
+		"texts" : {
+			"name" : "Vehr",
+			"biography" : "Vehr earned her moniker, Goldtooth, long before replacing her worn-out fangs with ones of pure metal. To this day, her teeth remain the primary tool of her trade, as she possesses the remarkable talent to discern a rock's composition simply by biting into it. Being so blessed, she does not waste time on trifles; her expertise lies in finding rich gold veins.",
+			"specialty" : {
+				"name" : "+350 Gold",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"tooltip" : "Resource Bonus: +350 Gold"
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"elder" : {
+		"name" : "Elder",
+		"faction" : "bulwark",
+		"affinity" : "magic",
+		"defaultTavern" : 5,
+		"commander" : "bulwarkShaman", // placeholder
+		"animation" : {
+			"battle" : {
+				"female" : "hota/bulwark/heroClasses/elder/battle/CH23b_08.DEF",
+				"male" : "hota/bulwark/heroClasses/elder/battle/CH23_08.DEF"
+			}
+		},
+		"mapObject" : {
+			"filters" : {
+				"male" : {
+					"male" : true
+				},
+				"female" : {
+					"female" : true
+				}
+			},
+			"templates" : {
+				"female" : {
+					"animation" : "hota/bulwark/heroClasses/elder/adventureMap/AH23b_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/elder/adventureMap/AH23_e.def"
+				},
+				"male" : {
+					"animation" : "hota/bulwark/heroClasses/elder/adventureMap/AH23_.def",
+					"editorAnimation" : "hota/bulwark/heroClasses/elder/adventureMap/AH23_e.def"
+				}
+			}
+		},
+		"primarySkills" : {
+			"attack" : 0,
+			"defence" : 1,
+			"spellpower" : 1,
+			"knowledge" : 3
+		},
+		"lowLevelChance" : {
+			"attack" : 5,
+			"defence" : 15,
+			"spellpower" : 30,
+			"knowledge" : 50
+		},
+		"highLevelChance" : {
+			"attack" : 20,
+			"defence" : 20,
+			"spellpower" : 30,
+			"knowledge" : 30
+		},
+		"secondarySkills" : {
+			"airMagic" : 4,
+			"archery" : 4,
+			"armorer" : 4,
+			"artillery" : 1,
+			"ballistics" : 4,
+			"diplomacy" : 4,
+			"eagleEye" : 6,
+			"earthMagic" : 3,
+			"estates" : 1,
+			"fireMagic" : 1,
+			"firstAid" : 8,
+			"intelligence" : 8,
+			"leadership" : 2,
+			"learning" : 4,
+			"logistics" : 4,
+			"luck" : 4,
+			"mysticism" : 6,
+			"navigation" : 5,
+			"necromancy" : 0,
+			"offence" : 1,
+			"pathfinding" : 4,
+			"resistance" : 0,
+			"scholar" : 6,
+			"scouting" : 2,
+			"sorcery" : 8,
+			"tactics" : 1,
+			"waterMagic" : 5,
+			"wisdom" : 8,
+			"runes" : 4,
+			"hota.interference:interference" : 0
+		},
+		"tavern" : {
+			// no idea
+		}
+	}
+}

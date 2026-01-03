@@ -1,0 +1,54 @@
+{
+	"bulwarkAllora" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/allora/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/allora/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/allora/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/allora/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "sorcery",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"secondary" : "sorcery"
+		},
+		"spellbook" : [
+			"haste"
+		],
+		"texts" : {
+			"name" : "Allora",
+			"biography" : "This mysterious woman once fled to Vori from the mainland, allegedly facing execution for interfering with the succession in some barony. Allora herself denies this, but her excellent magic skills can affect the bodies and minds of other sentient beings alike. This might be the only reason she was accepted at Vori and hasn't been exiled yet.",
+			"specialty" : {
+				"name" : "Sorcery",
+				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
+				"tooltip" : "Skill Bonus: Sorcery"
+			}
+		}
+	}
+}

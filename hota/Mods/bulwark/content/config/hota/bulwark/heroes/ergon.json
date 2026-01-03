@@ -1,0 +1,62 @@
+{
+	"bulwarkErgon" : {
+		"class" : "chieftain",
+		"female" : false,
+		"images" : {
+			"large" : "hota/bulwark/heroes/ergon/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/ergon/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/ergon/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/ergon/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "bulwarkKobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "bulwarkMountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "bulwarkSnowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "scouting",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"baseTileCost" : {
+					"type" : "BASE_TILE_MOVEMENT_COST",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : -5
+				},
+				"terrainCostReduction" : {
+					"type" : "ROUGH_TERRAIN_DISCOUNT",
+					"valueType" : "ADDITIVE_VALUE",
+					"val" : 5
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Ergon",
+			"biography" : "Ergon spent his long life in constant movement. He served in Lord Slayer's guard in Enroth, guarded elven caravans in Jadame, and sold his sword in Antagarich, only to realize in his later years that he yearned for the place whereto time itself seemed to come to rest. That said, his skill in arranging swift marches is still there, whenever need arises.",
+			"specialty" : {
+				"name" : "Pathfinding",
+				"description" : "Receives a 5% reduction to the cost of moving on rough terrain.",
+				"tooltip" : "Skill Bonus: Pathfinding"
+			}
+		}
+	}
+}

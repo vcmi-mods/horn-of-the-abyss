@@ -11,7 +11,9 @@
 		"hota.cove",
 		"hota.factory"
 	],
-	
+	"softDepends" : [
+		"hota.interference"
+	],
 	//translation stuff here
 
 	"factions" : [
@@ -34,8 +36,30 @@
 		"config/hota/bulwark/creatures/yetiRunemaster.json"
 	],
 	"heroClasses" : [
+		"config/hota/bulwark/heroClasses/chieftain.json",
+		"config/hota/bulwark/heroClasses/elder.json"
+	],
+	"skills" : [
+		"config/hota/bulwark/runes.json"
 	],
 	"heroes" : [
+		"config/hota/bulwark/heroes/akka.json",
+		"config/hota/bulwark/heroes/allora.json",
+		"config/hota/bulwark/heroes/biarma.json",
+		"config/hota/bulwark/heroes/creyle.json",
+		"config/hota/bulwark/heroes/dalton.json",
+		"config/hota/bulwark/heroes/dhuin.json",
+		"config/hota/bulwark/heroes/eikthurn.json",
+		"config/hota/bulwark/heroes/ergon.json",
+		"config/hota/bulwark/heroes/glacius.json",
+		"config/hota/bulwark/heroes/haugir.json",
+		"config/hota/bulwark/heroes/kriv.json",
+		"config/hota/bulwark/heroes/kynr.json",
+		"config/hota/bulwark/heroes/neia.json",
+		"config/hota/bulwark/heroes/oidana.json",
+		"config/hota/bulwark/heroes/sial.json",
+		"config/hota/bulwark/heroes/spadum.json",
+		"config/hota/bulwark/heroes/vehr.json"
 	],
 	"spells" : [
 			"config/hota/bulwark/spells/yetiCure.json"
