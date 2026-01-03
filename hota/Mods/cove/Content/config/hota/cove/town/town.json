@@ -11,7 +11,7 @@
 			"buildingsIcons" : "hota/cove/town/townhall",
 
 			"musicTheme" : [
-				"music/factions/cove"
+				"music/factions/CoveTown"
 			],
 			"tavernVideo" : "tvrncove.BIK",
 
