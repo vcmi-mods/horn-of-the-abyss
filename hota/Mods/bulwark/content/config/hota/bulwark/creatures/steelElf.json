@@ -78,12 +78,12 @@
 			}
 		},
 		"sound" : {
-			"attack" : "hota/bulwark/creatures/steelElf/VORIATTK.wav",
-			"defend" : "hota/bulwark/creatures/steelElf/VORIDFND.wav",
-			"killed" : "hota/bulwark/creatures/steelElf/VORIKILL.wav",
-			"move" : "hota/bulwark/creatures/steelElf/VORIMOVE.wav",
-			"shoot" : "hota/bulwark/creatures/steelElf/VORISHOT.wav",
-			"wince" : "hota/bulwark/creatures/steelElf/VORIWNCE.wav"
+			"attack" : "hota/bulwark/creatures/steelElf/VORSATTK.wav",
+			"defend" : "hota/bulwark/creatures/steelElf/VORSDFND.wav",
+			"killed" : "hota/bulwark/creatures/steelElf/VORSKILL.wav",
+			"move" : "hota/bulwark/creatures/steelElf/VORSMOVE.wav",
+			"shoot" : "hota/bulwark/creatures/steelElf/VORSSHOT.wav",
+			"wince" : "hota/bulwark/creatures/steelElf/VORSWNCE.wav"
 		}
 	}
 }
