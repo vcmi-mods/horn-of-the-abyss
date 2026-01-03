@@ -48,11 +48,11 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/mountainRamLeft.png"
 		},
 		"sound" : {
-			//"attack" : "hota/bulwark/creatures/mountainRam/SAYLATTK.wav",
-			//"defend" : "hota/bulwark/creatures/mountainRam/SAYLDFND.wav",
-			//"killed" : "hota/bulwark/creatures/mountainRam/SAYLKILL.wav",
-			//"move" : "hota/bulwark/creatures/mountainRam/SAYLMOVE.wav",
-			//"wince" : "hota/bulwark/creatures/mountainRam/SAYLWNCE.wav"
+			"attack" : "hota/bulwark/creatures/mountainRam/MRAMATTK.wav",
+			"defend" : "hota/bulwark/creatures/mountainRam/MRAMDFND.wav",
+			"killed" : "hota/bulwark/creatures/mountainRam/MRAMKILL.wav",
+			"move" : "hota/bulwark/creatures/mountainRam/MRAMMOVE.wav",
+			"wince" : "hota/bulwark/creatures/mountainRam/MRAMWNCE.wav"
 		}
 	}
 }
