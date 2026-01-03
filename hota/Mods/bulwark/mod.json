@@ -1,0 +1,45 @@
+{
+	"name" : "Bulwark",
+	"description" : "New town Bulwark from HotA 1.8.0",
+
+	"author" : "Hota Crew, ported by VCMI Team",
+	"contact" : "insertLinkHere",
+	"version" : "1.0.0",
+	"modType" : "Town",
+
+	"depends" : [
+		"hota.cove",
+		"hota.factory"
+	],
+	
+	//translation stuff here
+
+	"factions" : [
+		"config/hota/bulwark/faction.json"
+	],
+	"creatures" : [
+		"config/hota/bulwark/creatures/argali.json",
+		"config/hota/bulwark/creatures/greatShaman.json",
+		"config/hota/bulwark/creatures/jotunn.json",
+		"config/hota/bulwark/creatures/jotunnWarlord.json",
+		"config/hota/bulwark/creatures/kobold.json",
+		"config/hota/bulwark/creatures/koboldForeman.json",
+		"config/hota/bulwark/creatures/mammoth.json",
+		"config/hota/bulwark/creatures/mountainRam.json",
+		"config/hota/bulwark/creatures/shaman.json",
+		"config/hota/bulwark/creatures/snowElf.json",
+		"config/hota/bulwark/creatures/steelElf.json",
+		"config/hota/bulwark/creatures/warMammoth.json",
+		"config/hota/bulwark/creatures/yeti.json",
+		"config/hota/bulwark/creatures/yetiRunemaster.json"
+	],
+	"heroClasses" : [
+	],
+	"heroes" : [
+	],
+	"spells" : [
+			"config/hota/bulwark/spells/yetiCure.json"
+	],
+	"objects" : [
+	]
+}
