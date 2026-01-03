@@ -52,30 +52,30 @@
 			},
 			"timeBetweenFidgets" : 1,
 			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/steelElfRight.png",
-			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/steelElfLeft.png"
-			//"missile" : {
-			//	"projectile" : "hota/bulwark/creatures/battle/projectile/PSELF.def",
-			//	"attackClimaxFrame" : 5,
-			//	"frameAngles" : [
-			//		90,
-			//		72,
-			//		45,
-			//		27,
-			//		0,
-			//		-27,
-			//		-45,
-			//		-72,
-			//		-90
-			//	],
-			//	"offset" : {
-			//		"lowerX" : 28,
-			//		"lowerY" : 3,
-			//		"middleX" : 62,
-			//		"middleY" : -53,
-			//		"upperX" : 37,
-			//		"upperY" : -98
-			//	}
-			//}
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/steelElfLeft.png",
+			"missile" : {
+				"projectile" : "hota/bulwark/creatures/battle/projectile/PPSPEAR.def",
+				"attackClimaxFrame" : 5,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			}
 		},
 		"sound" : {
 		//	"attack" : "hota/bulwark/creatures/snowElf/PIRTATTK.wav",
