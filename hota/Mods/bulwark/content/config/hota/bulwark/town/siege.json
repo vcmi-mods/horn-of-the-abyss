@@ -3,103 +3,110 @@
 		"town" : {
 			"siege" : {
 				"shooter" : "bulwarkSnowElf",
-				"imagePrefix" : "hota/bulwark/town/siege/SGCV",
+				"imagePrefix" : "hota/bulwark/town/siege/sgbk",
 				"towerIconSmall" : "hota/bulwark/town/icons/arrowtowerssmall",
 				"towerIconLarge" : "hota/bulwark/town/icons/arrowtowerslarge",
 				"gate" : {
 					"arch" : {
-						"x" : 477,
-						"y" : 228
+						"x" : 453,
+						"y" : 249
 					},
+					//drw1 and drwc missing
 					"gate" : {
-						"x" : 447,
-						"y" : 282
+						"x" : 406,
+						"y" : 268
 					}
 				},
 				"moat" : {
+					// mlip missing
 					"bank" : {
 						"x" : 414,
 						"y" : 79
 					},
 					"moat" : {
-						"x" : 434,
-						"y" : 99
+						"x" : 415,
+						"y" : 80
 					}
 				},
 				"static" : {
 					"background" : {
-						"x" : 582,
-						"y" : 48
+						"x" : 629,
+						"y" : 58
 					},
 					"bottom" : {
-						"x" : 521,
-						"y" : 356
+						"x" : 501,
+						"y" : 359
 					},
 					"top" : {
-						"x" : 491,
-						"y" : 112
+						"x" : 493,
+						"y" : 90
 					}
 				},
 				"towers" : {
 					"bottom" : {
 						"battlement" : {
-							"x" : 630,
-							"y" : 516
+							"x" : 616,
+							"y" : 521
 						},
 						"creature" : {
-							"x" : 395,
-							"y" : 310
+							"x" : 383,
+							"y" : 300
 						},
 						"tower" : {
-							"x" : 630,
-							"y" : 516
+							"x" : 608,
+							"y" : 510
 						}
 					},
 					"keep" : {
 						"battlement" : {
-							"x" : 727,
-							"y" : 180
+							"x" : 747,
+							"y" : 232
 						},
+						// x value is a bit off, needs adjusting
 						"creature" : {
-							"x" : 518,
-							"y" : -20
+							"x" : 523,
+							"y" : 13
 						},
 						"tower" : {
-							"x" : 727,
-							"y" : 180
+							"x" : 703,
+							"y" : 164
 						}
 					},
 					"top" : {
 						"battlement" : {
-							"x" : 575,
-							"y" : 35
+							"x" : 585,
+							"y" : 43
 						},
 						"creature" : {
-							"x" : 340,
-							"y" : -165
+							"x" : 354,
+							"y" : -178
 						},
 						"tower" : {
-							"x" : 575,
-							"y" : 35
+							"x" : 576,
+							"y" : 31
 						}
 					}
 				},
 				"walls" : {
+					// wa13 missing
 					"bottom" : {
-						"x" : 542,
-						"y" : 401
+						"x" : 571,
+						"y" : 473
 					},
+					// wa33 missing
 					"bottomMid" : {
-						"x" : 490,
-						"y" : 320
+						"x" : 470,
+						"y" : 319
 					},
+					// wa63 missing
 					"upper" : {
-						"x" : 532,
-						"y" : 72
+						"x" : 550,
+						"y" : 73
 					},
+					// wa43 missing
 					"upperMid" : {
-						"x" : 481,
-						"y" : 149
+						"x" : 485,
+						"y" : 191
 					}
 				}
 			}
