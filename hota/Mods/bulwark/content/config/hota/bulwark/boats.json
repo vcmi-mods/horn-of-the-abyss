@@ -1,0 +1,32 @@
+{
+	"core:boat" : {
+		"types" : {
+			"boatBulwark" : {
+				"actualAnimation" : "hota/bulwark/mapObjects/boats/bulwarkBoatAnim.def",
+				"overlayAnimation" : "hota/bulwark/mapObjects/boats/bulwarkBoatOverlay.def",
+				"flagAnimations" : [
+					"ABF01L",
+					"ABF01G",
+					"ABF01R",
+					"ABF01D",
+					"ABF01B",
+					"ABF01P",
+					"ABF01W",
+					"ABF01K"
+				],
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/boats/bulwarkBoatEditor.def",
+						"mask" : [
+							"VVV",
+							"VAV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+		}
+	}
+}
