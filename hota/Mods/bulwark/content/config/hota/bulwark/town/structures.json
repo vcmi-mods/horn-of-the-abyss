@@ -1,0 +1,320 @@
+{
+	"bulwark" : {
+		"town" : {
+			"structures" : {
+				"villageHall" : {
+					"animation" : "hota/bulwark/town/buildings/villageHall",
+					"area" : "hota/bulwark/town/area/villageHall",
+					"border" : "hota/bulwark/town/border/villageHall",
+					"x" : 629,
+					"y" : 168,
+					"z" : 0
+				},
+				"townHall" : {
+					"animation" : "hota/bulwark/town/buildings/townHall",
+					"area" : "hota/bulwark/town/area/townHall",
+					"border" : "hota/bulwark/town/border/townHall",
+					"x" : 629,
+					"y" : 140,
+					"z" : 0
+				},
+				"cityHall" : {
+					"animation" : "hota/bulwark/town/buildings/cityHall",
+					"area" : "hota/bulwark/town/area/cityHall",
+					"border" : "hota/bulwark/town/border/cityHall",
+					"x" : 630,
+					"y" : 89,
+					"z" : 0
+				},
+				"capitol" : {
+					"animation" : "hota/bulwark/town/buildings/capitol",
+					"area" : "hota/bulwark/town/area/capitol",
+					"border" : "hota/bulwark/town/border/capitol",
+					"x" : 630,
+					"y" : 55,
+					"z" : 0
+				},
+
+				"fort" : {
+					"animation" : "hota/bulwark/town/buildings/fort",
+					"area" : "hota/bulwark/town/area/fort",
+					"border" : "hota/bulwark/town/border/fort",
+					"x" : 65,
+					"y" : 37,
+					"z" : 1
+				},
+				"citadel" : {
+					"animation" : "hota/bulwark/town/buildings/citadel",
+					"area" : "hota/bulwark/town/area/citadel",
+					"border" : "hota/bulwark/town/border/citadel",
+					"x" : 65,
+					"y" : 8,
+					"z" : 1
+				},
+				"castle" : {
+					"animation" : "hota/bulwark/town/buildings/castle",
+					"area" : "hota/bulwark/town/area/castle",
+					"border" : "hota/bulwark/town/border/castle",
+					"x" : 66,
+					"y" : 8,
+					"z" : 1
+				},
+
+				"tavern" : {
+					"animation" : "hota/bulwark/town/buildings/tavern",
+					"area" : "hota/bulwark/town/area/tavern",
+					"border" : "hota/bulwark/town/border/tavern",
+					"x" : 304,
+					"y" : 248,
+					"z" : 1
+				},
+				"blacksmith" : {
+					"animation" : "hota/bulwark/town/buildings/blacksmith",
+					"area" : "hota/bulwark/town/area/blacksmith",
+					"border" : "hota/bulwark/town/border/blacksmith",
+					"x" : 502,
+					"y" : 198,
+					"z" : 0
+				},
+				"marketplace" : {
+					"animation" : "hota/bulwark/town/buildings/marketplace",
+					"area" : "hota/bulwark/town/area/marketplace",
+					"border" : "hota/bulwark/town/border/marketplace",
+					"x" : 397,
+					"y" : 249,
+					"z" : 0
+				},
+				"resourceSilo" : {
+					"animation" : "hota/bulwark/town/buildings/resourceSilo",
+					"area" : "hota/bulwark/town/area/resourceSilo",
+					"border" : "hota/bulwark/town/border/resourceSilo",
+					"x" : 422,
+					"y" : 229,
+					"z" : 1
+				},
+				"shipyard" : {
+					"animation" : "hota/bulwark/town/buildings/shipyard",
+					"area" : "hota/bulwark/town/area/shipyard",
+					"border" : "hota/bulwark/town/border/shipyard",
+					"x" : 293,
+					"y" : 326,
+					"z" : 2
+				},
+				"ship" : {
+					"animation" : "hota/bulwark/town/buildings/boat",
+					"area" : "hota/bulwark/town/area/boat",
+					"border" : "hota/bulwark/town/border/boat",
+					"hidden" : true,
+					"x" : 164,
+					"y" : 269,
+					"z" : 2
+				},
+
+				"special1" : {
+					"animation" : "hota/bulwark/town/buildings/special1",
+					"area" : "hota/bulwark/town/area/special1",
+					"border" : "hota/bulwark/town/border/special1",
+					"x" : 464,
+					"y" : 281,
+					"z" : 1
+				},
+				"special2" : {
+					"animation" : "hota/bulwark/town/buildings/special2",
+					"area" : "hota/bulwark/town/area/special2",
+					"border" : "hota/bulwark/town/border/special2",
+					"x" : 489,
+					"y" : 170,
+					"z" : 1
+				},
+				"special3" : {
+					"animation" : "hota/bulwark/town/buildings/special3",
+					"area" : "hota/bulwark/town/area/special3",
+					"border" : "hota/bulwark/town/border/special3",
+					"x" : 489,
+					"y" : 140,
+					"z" : 1
+				},
+				"horde1" : {
+					"animation" : "hota/bulwark/town/buildings/horde1",
+					"area" : "hota/bulwark/town/area/horde1",
+					"border" : "hota/bulwark/town/border/horde1",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 219,
+					"z" : 0
+				},
+				"horde1Upgr" : {
+					"animation" : "hota/bulwark/town/buildings/horde1Upgr",
+					"area" : "hota/bulwark/town/area/horde1Upgr",
+					"border" : "hota/bulwark/town/border/horde1Upgr",
+					"builds" : "horde1",
+					"hidden" : true,
+					"x" : 0,
+					"y" : 219,
+					"z" : 0
+				},
+				"grail" : {
+					"animation" : "hota/bulwark/town/buildings/grail",
+					"area" : "hota/bulwark/town/area/grail",
+					"border" : "hota/bulwark/town/border/grail",
+					"x" : 145,
+					"y" : 0,
+					"z" : 0
+				},
+				"animatedWater" : {
+					"animation" : "hota/bulwark/town/buildings/lakeDecoration",
+					"x" : 152,
+					"y" : 184,
+					"z" : -1
+				},
+
+				"mageGuild1" : {
+					"animation" : "hota/bulwark/town/buildings/mageGuild1",
+					"area" : "hota/bulwark/town/area/mageGuild1",
+					"border" : "hota/bulwark/town/border/mageGuild1",
+					"x" : 558,
+					"y" : 112,
+					"z" : 1
+				},
+				"mageGuild2" : {
+					"animation" : "hota/bulwark/town/buildings/mageGuild2",
+					"area" : "hota/bulwark/town/area/mageGuild2",
+					"border" : "hota/bulwark/town/border/mageGuild2",
+					"x" : 558,
+					"y" : 81,
+					"z" : 1
+				},
+				"mageGuild3" : {
+					"animation" : "hota/bulwark/town/buildings/mageGuild3",
+					"area" : "hota/bulwark/town/area/mageGuild3",
+					"border" : "hota/bulwark/town/border/mageGuild3",
+					"x" : 558,
+					"y" : 55,
+					"z" : 1
+				},
+				"mageGuild4" : {
+					"animation" : "hota/bulwark/town/buildings/mageGuild4",
+					"area" : "hota/bulwark/town/area/mageGuild4",
+					"border" : "hota/bulwark/town/border/mageGuild4",
+					"x" : 558,
+					"y" : 33,
+					"z" : 1
+				},
+
+				"dwellingLvl1" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl1",
+					"area" : "hota/bulwark/town/area/dwellingLvl1",
+					"border" : "hota/bulwark/town/border/dwellingLvl1",
+					"x" : 0,
+					"y" : 140,
+					"z" : 1
+				},
+				"dwellingLvl2" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl2",
+					"area" : "hota/bulwark/town/area/dwellingLvl2",
+					"border" : "hota/bulwark/town/border/dwellingLvl2",
+					"x" : 301,
+					"y" : 74,
+					"z" : 1
+				},
+				"dwellingLvl3" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl3",
+					"area" : "hota/bulwark/town/area/dwellingLvl3",
+					"border" : "hota/bulwark/town/border/dwellingLvl3",
+					"x" : 581,
+					"y" : 242,
+					"z" : 1
+				},
+				"dwellingLvl4" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl4",
+					"area" : "hota/bulwark/town/area/dwellingLvl4",
+					"border" : "hota/bulwark/town/border/dwellingLvl4",
+					"x" : 253,
+					"y" : 153,
+					"z" : 0
+				},
+				"dwellingLvl5" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl5",
+					"area" : "hota/bulwark/town/area/dwellingLvl5",
+					"border" : "hota/bulwark/town/border/dwellingLvl5",
+					"x" : 447,
+					"y" : 167,
+					"z" : 0
+				},
+				"dwellingLvl6" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl6",
+					"area" : "hota/bulwark/town/area/dwellingLvl6",
+					"border" : "hota/bulwark/town/border/dwellingLvl6",
+					"x" : 0,
+					"y" : 219,
+					"z" : 0
+				},
+				"dwellingLvl7" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingLvl7",
+					"area" : "hota/bulwark/town/area/dwellingLvl7",
+					"border" : "hota/bulwark/town/border/dwellingLvl7",
+					"x" : 380,
+					"y" : 35,
+					"z" : 0
+				},
+
+				"dwellingUpLvl1" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl1",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl1",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl1",
+					"x" : 0,
+					"y" : 94,
+					"z" : 1
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl2",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl2",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl2",
+					"x" : 301,
+					"y" : 44,
+					"z" : 1
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl3",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl3",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl3",
+					"x" : 581,
+					"y" : 220,
+					"z" : 1
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl4",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl4",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl4",
+					"x" : 239,
+					"y" : 153,
+					"z" : 0
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl5",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl5",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl5",
+					"x" : 444,
+					"y" : 163,
+					"z" : 0
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl6",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl6",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl6",
+					"x" : 0,
+					"y" : 219,
+					"z" : 0
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "hota/bulwark/town/buildings/dwellingUpLvl7",
+					"area" : "hota/bulwark/town/area/dwellingUpLvl7",
+					"border" : "hota/bulwark/town/border/dwellingUpLvl7",
+					"x" : 380,
+					"y" : 13,
+					"z" : 0
+				}
+			}
+		}
+	}
+}

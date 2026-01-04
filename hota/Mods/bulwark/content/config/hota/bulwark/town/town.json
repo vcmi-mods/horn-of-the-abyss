@@ -1,0 +1,296 @@
+{
+	"bulwark" : {
+		"town" : {
+			"primaryResource" : "gems",
+			"moatAbility" : "bulwarkMoat",
+			"defaultTavern" : 5,
+			"townBackground" : "hota/bulwark/town/background",
+			"hallBackground" : "TPTHBKFR",
+			"guildBackground" : "TPMAGE.bmp",
+			"guildWindow" : "hota/bulwark/town/mageguild",
+			"buildingsIcons" : "hota/bulwark/town/townhall",
+
+			"musicTheme" : [
+				"music/factions/BulwarkTown.mp3"
+			],
+			"tavernVideo" : "tvrncove.BIK",
+
+			"creatures" : [
+				[
+					"bulwarkKobold",
+					"bulwarkKoboldForeman"
+				],
+				[
+					"bulwarkMountainRam",
+					"bulwarkArgali"
+				],
+				[
+					"bulwarkSnowElf",
+					"bulwarkSteelElf"
+				],
+				[
+					"bulwarkYeti",
+					"bulwarkYetiRunemaster"
+				],
+				[
+					"bulwarkShaman",
+					"bulwarkGreatShaman"
+				],
+				[
+					"bulwarkMammoth",
+					"bulwarkWarMammoth"
+				],
+				[
+					"bulwarkJotunn",
+					"bulwarkJotunnWarlord"
+				]
+			],
+
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"shipyard"
+					]
+				],
+				[
+					[
+						"special1"
+					],
+					[
+						"special2",
+						"special3"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+
+			"horde" : [
+				5
+			],
+
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "hota/bulwark/town/icons/fortBuiltLarge.bmp",
+						"small" : "hota/bulwark/town/icons/fortBuiltSmall.bmp"
+					},
+					"normal" : {
+						"large" : "hota/bulwark/town/icons/fortLarge.bmp",
+						"small" : "hota/bulwark/town/icons/fortSmall.bmp"
+					}
+				},
+				"village" : {
+					"built" : {
+						"large" : "hota/bulwark/town/icons/hallBuiltLarge.bmp",
+						"small" : "hota/bulwark/town/icons/hallBuiltSmall.bmp"
+					},
+					"normal" : {
+						"large" : "hota/bulwark/town/icons/hallLarge.bmp",
+						"small" : "hota/bulwark/town/icons/hallSmall.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"filters" : {
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					]
+				},
+				"templates" : {
+					"fort" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCBulF0.def"
+					},
+					"citadel" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCbulC0.def"
+					},
+					"castle" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCbulX0.def"
+					},
+					"village" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCBlwr0.def"
+					},
+					"capitol" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCbulZ0.def"
+					}
+				}
+			},
+
+			"mageGuild" : 4,
+			"guildSpells" : {
+				"airShield" : 2,
+				"antiMagic" : 10,
+				"berserk" : 5,
+				"bless" : 10,
+				"bloodlust" : 5,
+				"chainLightning" : 10,
+				"clone" : 10,
+				"counterstrike" : 5,
+				"cure" : 5,
+				"destroyUndead" : 2,
+				"disguise" : 2,
+				"dispel" : 10,
+				"disruptingRay" : 4,
+				"earthquake" : 8,
+				"fireShield" : 5,
+				"fireWall" : 4,
+				"fireball" : 2,
+				"forceField" : 4,
+				"forgetfulness" : 8,
+				"fortune" : 4,
+				"frenzy" : 5,
+				"frostRing" : 30,
+				"haste" : 10,
+				"hypnotize" : 4,
+				"iceBolt" : 50,
+				"inferno" : 5,
+				"landMine" : 4,
+				"lightningBolt" : 4,
+				"magicArrow" : 30,
+				"meteorShower" : 10,
+				"mirth" : 8,
+				"misfortune" : 4,
+				"prayer" : 10,
+				"precision" : 4,
+				"protectAir" : 2,
+				"protectEarth" : 4,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"resurrection" : 5,
+				"scuttleBoat" : 8,
+				"shield" : 3,
+				"slayer" : 5,
+				"slow" : 5,
+				"sorrow" : 5,
+				"stoneSkin" : 5,
+				"summonBoat" : 5,
+				"teleport" : 10,
+				"townPortal" : 10,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+				"visions" : 2,
+				"waterWalk" : 10,
+				"weakness" : 8
+			},
+
+			"names" : [
+				"Alfheim",
+				"Anabar",
+				"White Mouth",
+				"Borea",
+				"Varand",
+				"Everwinter",
+				"Windskalir",
+				"Winterkill",
+				"Jotunngard",
+				"Stonefang",
+				"Ketpall",
+				"Meghion",
+				"Thulekh",
+				"Tundara",
+				"Halsmere",
+				"Ellesmere"
+			]
+		},
+		"description" : "{Bulwark}\n\nAdded later."
+	}
+}
