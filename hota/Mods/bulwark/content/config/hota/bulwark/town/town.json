@@ -1,7 +1,6 @@
 {
 	"bulwark" : {
 		"town" : {
-			"primaryResource" : "gems",
 			"moatAbility" : "bulwarkMoat",
 			"defaultTavern" : 5,
 			"townBackground" : "hota/bulwark/town/background",
@@ -296,6 +295,6 @@
 				"Ellesmere"
 			]
 		},
-		"description" : "{Bulwark}\n\nAdded later."
+		"description" : "{Bulwark}\n\nThe Bulwark's inhabitants represent the peoples living on the frozen over island of Vori: Snow Elves, Jotunns, Yeti, and Kobolds. They are joined by their staunch allies, Argali and Mammoths. Their courage and unusual abilities, which they owe to the mysterious forces lurking in the eternal snows, are the stuff of legends and songs."
 	}
 }
