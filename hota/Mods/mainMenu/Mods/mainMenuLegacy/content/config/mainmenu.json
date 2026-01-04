@@ -1,4 +1,5 @@
 {
+	"backgroundAround" : "around.png",
 	"scenario-selection" : {
 		"background" : [
 			"GamSelB0",
@@ -38,7 +39,7 @@
 				"name" : "main",
 				"buttons" : [
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 0,
 						"name" : "main-new",
 						"help" : 3,
@@ -46,7 +47,7 @@
 						"shortcut" : "mainMenuNewGame"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 120,
 						"name" : "main-load",
 						"help" : 4,
@@ -54,7 +55,7 @@
 						"shortcut" : "mainMenuLoadGame"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 240,
 						"name" : "main-scores",
 						"help" : 5,
@@ -62,7 +63,7 @@
 						"shortcut" : "mainMenuHighScores"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 360,
 						"name" : "main-credits",
 						"help" : 6,
@@ -70,7 +71,7 @@
 						"shortcut" : "mainMenuCredits"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 480,
 						"name" : "quit",
 						"help" : 7,
@@ -83,7 +84,7 @@
 				"name" : "new",
 				"buttons" : [
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 0,
 						"name" : "game-single",
 						"help" : 10,
@@ -91,7 +92,7 @@
 						"shortcut" : "mainMenuSingleplayer"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 120,
 						"name" : "game-multi",
 						"help" : 12,
@@ -99,7 +100,7 @@
 						"shortcut" : "mainMenuMultiplayer"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 240,
 						"name" : "game-camp",
 						"help" : 11,
@@ -107,7 +108,7 @@
 						"shortcut" : "mainMenuCampaign"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 360,
 						"name" : "game-tutor",
 						"help" : 13,
@@ -115,7 +116,7 @@
 						"shortcut" : "mainMenuTutorial"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 480,
 						"name" : "back",
 						"help" : 14,
@@ -135,7 +136,7 @@
 				"name" : "load",
 				"buttons" : [
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 0,
 						"name" : "game-single",
 						"help" : 10,
@@ -143,7 +144,7 @@
 						"shortcut" : "mainMenuSingleplayer"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 120,
 						"name" : "game-multi",
 						"help" : 12,
@@ -151,7 +152,7 @@
 						"shortcut" : "mainMenuMultiplayer"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 240,
 						"name" : "game-camp",
 						"help" : 11,
@@ -159,7 +160,7 @@
 						"shortcut" : "mainMenuCampaign"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 360,
 						"name" : "game-tutor",
 						"help" : 13,
@@ -167,7 +168,7 @@
 						"shortcut" : "mainMenuTutorial"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 480,
 						"name" : "back",
 						"help" : 14,
@@ -187,42 +188,42 @@
 				"name" : "campaign",
 				"buttons" : [
 					{
-						"x" : -200,
+						"x" : -250,
 						"y" : 0,
 						"name" : "camp-roe",
 						"command" : "campaigns roe",
 						"shortcut" : "mainMenuCampaignRoe"
 					},
 					{
-						"x" : -200,
+						"x" : -256,
 						"y" : 120,
 						"name" : "camp-ab",
 						"command" : "campaigns ab",
 						"shortcut" : "mainMenuCampaignAb"
 					},
 					{
-						"x" : -200,
+						"x" : -220,
 						"y" : 240,
 						"name" : "camp-sod",
 						"command" : "campaigns sod",
 						"shortcut" : "mainMenuCampaignSod"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 360,
 						"name" : "camp-hota",
 						"command" : "campaigns hota",
 						"shortcut" : "mainMenuCampaignHota"
 					},
 					{
-						"x" : -340,
-						"y" : 483,
+						"x" : -384,
+						"y" : 491,
 						"name" : "camp-custom",
 						"command" : "start campaign",
 						"shortcut" : "mainMenuCampaignCustom"
 					},
 					{
-						"x" : -200,
+						"x" : -240,
 						"y" : 480,
 						"name" : "back",
 						"command" : "to new",
