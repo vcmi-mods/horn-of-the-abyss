@@ -17,7 +17,12 @@
 	//translation stuff here
 
 	"factions" : [
-		"config/hota/bulwark/faction.json"
+		"config/hota/bulwark/faction.json",
+		"config/hota/bulwark/town/town.json",
+		"config/hota/bulwark/town/buildings.json",
+		"config/hota/bulwark/town/structures.json",
+		"config/hota/bulwark/town/siege",
+		"config/hota/bulwark/puzzleMap"
 	],
 	"creatures" : [
 		"config/hota/bulwark/creatures/argali.json",
@@ -62,7 +67,8 @@
 		"config/hota/bulwark/heroes/vehr.json"
 	],
 	"spells" : [
-			"config/hota/bulwark/spells/yetiCure.json"
+			"config/hota/bulwark/spells/yetiCure.json",
+			"config/hota/bulwark/spells/moat.json"
 	],
 	"objects" : [
 	]
