@@ -82,13 +82,14 @@
 				},
 				"resourceSilo" : {
 					"name" : "Resource Silo",
-					"description" : "The Resource Silo provides you with an additional +1 gems each day.",
+					"description" : "The Resource Silo provides you with an additional +1 wood and +1 ore each day.",
 					"cost" : {
 						"gold" : 5000,
 						"ore" : 5
 					},
 					"produce" : {
-						"gems" : 1
+						"wood" : 1,
+						"ore" : 1
 					}
 				},
 				"shipyard" : {
@@ -113,8 +114,15 @@
 						"wood" : 5
 					},
 					"requires" : [
-						"marketplace"
-					]
+						"allOf",
+						[
+							"townHall"
+						],
+						[
+							"marketplace"
+						]
+					],
+					"marketModes" : ["resource-resource", "resource-player"]
 				},
 				"special2" : {
 					"name" : "Sieidi of Runes",
@@ -124,7 +132,15 @@
 						"ore" : 5,
 						"crystal" : 2,
 						"gems" : 2
-					}
+					},
+					// placeholder
+					"marketModes" : ["resource-skill"],
+					"marketOffer" : [
+						"runes",
+						"runes",
+						"runes",
+						"runes"
+					]
 				},
 				"special3" : {
 					"name" : "Altar of the Runes",
@@ -133,7 +149,8 @@
 						"gold" : 1000,
 						"crystal" : 2,
 						"gems" : 2
-					}
+					},
+					"upgrades" : "special2"
 				},
 				"horde1" : {
 					"name" : "Hay Bins",
@@ -155,8 +172,15 @@
 					]
 				},
 				"grail" : {
-					"name" : "Spirit of the Forebears",
-					"description" : "Grail Structure. +5000 Gold/day. +50% creature growth. Gives a garrisoned hero +20 Defense while defending in siege combat."
+					"name" : "Spirits of the Forebears",
+					"description" : "The Spirits of the Forebears increase weekly creature generation by 50%, provide your kingdom with an additional 5000 gold each day, and increase the Defence strength of a garrison hero by +20 when defending against a siege.",
+					"bonuses": [
+						{ 
+							"type": "PRIMARY_SKILL",
+							"subtype": "primarySkill.defence", 
+							"val": 20
+						} 
+					]
 				},
 
 				"mageGuild1" : {
