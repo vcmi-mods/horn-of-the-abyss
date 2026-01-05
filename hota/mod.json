@@ -5,8 +5,12 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.738",
+	"version" : "1.7.739",
 	"changelog" : {
+		"1.7.739" : [
+			"Updated Russian translation (by gxhxhdnxnfghdsjjjdffhctxsghshs-bit)",
+			"Fixed Cove puzzle map by Karyoplasma"
+		],		
 		"1.7.738" : [
 			"Fix campaigns descriptions in Russian translation"
 		],
