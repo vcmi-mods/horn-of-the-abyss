@@ -53,7 +53,7 @@
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
-				"walk" : 1
+				"walk" : 1.15
 			},
 			"timeBetweenFidgets" : 1,
 			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/koboldRight.png",
