@@ -48,7 +48,7 @@
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
-				"walk" : 1
+				"walk" : 1.1
 			},
 			"timeBetweenFidgets" : 1,
 			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/argaliRight.png",
