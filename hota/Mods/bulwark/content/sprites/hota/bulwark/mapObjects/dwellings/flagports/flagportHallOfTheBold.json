@@ -1,0 +1,10 @@
+{
+	"basepath" : "hota/bulwark/mapObjects/dwellings/flagports/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "flagportHallOfTheBold"
+		}
+	]
+}
