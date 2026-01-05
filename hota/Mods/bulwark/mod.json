@@ -22,7 +22,7 @@
 		"config/hota/bulwark/town/buildings.json",
 		"config/hota/bulwark/town/structures.json",
 		"config/hota/bulwark/town/siege.json",
-		"config/hota/bulwark/puzzleMap"
+		"config/hota/bulwark/puzzleMap.json"
 	],
 	"creatures" : [
 		"config/hota/bulwark/creatures/argali.json",
@@ -71,6 +71,7 @@
 		"config/hota/bulwark/spells/moat.json"
 	],
 	"objects" : [
-		"config/hota/bulwark/boats.json"
+		"config/hota/bulwark/boats.json",
+		"config/hota/bulwark/dwellings.json"
 	]
 }
