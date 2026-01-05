@@ -126,21 +126,40 @@
 				},
 				"special2" : {
 					"name" : "Sieidi of Runes",
-					"description" : "The Sieidi of Runes allows local heroes to learn the Runes secondary skill.",
+					"description" : "The Sieidi of Runes allows local heroes to learn the Basic Runes secondary skill.",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
 						"crystal" : 2,
 						"gems" : 2
 					},
-					// placeholder
-					"marketModes" : ["resource-skill"],
-					"marketOffer" : [
-						"runes",
-						"runes",
-						"runes",
-						"runes"
-					]
+					"manualHeroVisit" : true,
+					"configuration" : {
+						"visitMode" : "limiter",
+						"visitLimiter" : {
+							"secondary": [
+								{
+									"type" : "runes",
+									"amount" : 1
+								}
+							]
+						},
+						"canRefuse": true,
+						"rewards" : [
+							{
+								"limiter" : {
+									"canLearnSkills" : true
+								},
+								"message" : "Your hero can learn Runes at the Sieidi of Runes.",
+								"secondary": [
+									{
+										"type" : "runes",
+										"amount" : 1
+									}
+								]
+							}
+						]
+					}
 				},
 				"special3" : {
 					"name" : "Altar of the Runes",
