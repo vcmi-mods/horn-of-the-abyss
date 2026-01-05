@@ -1,0 +1,177 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"colliery" : {
+				"name" : "Colliery",
+				"creatures" : [
+					[
+						"bulwarkKobold"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPFACT.wav"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/colliery",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportColliery.def"
+			},
+			"frigidSpur" : {
+				"name" : "Frigid Spur",
+				"creatures" : [
+					[
+						"bulwarkMountainRam"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPAIR.wav"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/frigidSpur",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportFrigidSpur.def"
+			},
+			"hallOfTheBold" : {
+				"name" : "Hall of the Bold",
+				"creatures" : [
+					[
+						"bulwarkSnowElf"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPELF.wav"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/hallOfTheBold",
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportHallOfTheBold.def"
+			},
+			"mountainEmbassy" : {
+				"name" : "Mountain Embassy",
+				"creatures" : [
+					[
+						"bulwarkYeti"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"LOOPOGRE.wav"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/mountainEmbassy",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportMountainEmbassy.def"
+			},
+			"shamanFane" : {
+				"name" : "Shaman Fane",
+				"creatures" : [
+					[
+						"bulwarkShaman"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"hota/bulwark/dwellings/shamanFane.wav"
+					]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/shamanFane",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportShamanFane.def"
+			},
+			"mammothStalls" : {
+				"name" : "Mammoth Stalls",
+				"creatures" : [
+					[
+						"bulwarkMammoth"
+					]
+				],
+				"sounds" : {
+					"ambient" : [
+						"hota/bulwark/dwellings/mammothStalls.wav"
+					]
+				},
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/mammothStalls",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAB"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportMammothStalls.def"
+			},
+			"frosthome" : {
+				"name" : "Frosthome",
+				"creatures" : [
+					[
+						"bulwarkJotunn"
+					]
+				],
+				"guards" : true,
+				"sounds" : {
+					"ambient" : [
+						"LOOPTITA.wav"
+					]
+				},
+				"templates" : {
+					"default" : {
+						"animation" : "hota/bulwark/mapObjects/dwellings/frosthome",
+						"mask" : [
+							"VVV",
+							"VBB",
+							"VBA"
+						]
+					}
+				},
+				"kingdomOverviewImage" : "hota/bulwark/mapObjects/dwellings/flagports/flagportFrosthome.def"
+			}
+		}
+	}
+}
