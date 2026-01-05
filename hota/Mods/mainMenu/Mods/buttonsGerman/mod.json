@@ -1,0 +1,10 @@
+{
+	"name" : "German buttons",
+	"description" : "German buttons",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"depends" : [ "german-translation" ],
+	"softDepends" : [ "hota.mainMenu", "hota.mainMenu.mainMenuLegacy" ]
+}
