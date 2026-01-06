@@ -1,0 +1,70 @@
+{
+	"core:mine" : {
+		"types" : {
+			"crystalCavern" : {
+				"templates" : {
+					"AVMcrGla0" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVMcrGla0",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			},
+			"goldMine" : {
+				"templates" : {
+					"AVMgoGla0" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVMgoGla0",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	},
+	"core:abandonedMine" : {
+		"types" : {
+			"mine" : {
+				"templates" : {
+					"AVXamSN2" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVXamSN2",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}
