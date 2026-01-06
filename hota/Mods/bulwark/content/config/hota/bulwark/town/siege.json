@@ -4,7 +4,6 @@
 			"siege" : {
 				"shooter" : "bulwarkSnowElf",
 				"imagePrefix" : "hota/bulwark/town/siege/sgbk",
-				// the icons are still MIA
 				"towerIconSmall" : "hota/bulwark/town/icons/arrowtowerssmall",
 				"towerIconLarge" : "hota/bulwark/town/icons/arrowtowerslarge",
 				"gate" : {
@@ -61,7 +60,6 @@
 							"x" : 747,
 							"y" : 232
 						},
-						// x value is a bit off, needs adjusting
 						"creature" : {
 							"x" : 518,
 							"y" : 13
