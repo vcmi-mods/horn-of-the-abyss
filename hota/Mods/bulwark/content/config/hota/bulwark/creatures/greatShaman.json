@@ -42,7 +42,6 @@
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 6
 			},
-			// Should be 3 turns, not 6. Might need VCMI update for fix.
 			"freezingShot" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "freezingShot",
