@@ -15,7 +15,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/colliery",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGkbl01",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -39,7 +39,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/frigidSpur",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGagrl0",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -63,7 +63,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/hallOfTheBold",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGvori0",
 						"mask" : [
 							"VVV",
 							"VVB",
@@ -87,7 +87,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/mountainEmbassy",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGyeti0",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -112,7 +112,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/shamanFane",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGshmn0",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -137,7 +137,7 @@
 				"guards" : true,
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/mammothStalls",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGmmth0",
 						"mask" : [
 							"VVV",
 							"VVV",
@@ -162,7 +162,7 @@
 				},
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/dwellings/frosthome",
+						"animation" : "hota/bulwark/mapObjects/dwellings/AVGjotn0",
 						"mask" : [
 							"VVV",
 							"VBB",
