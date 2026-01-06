@@ -36,15 +36,19 @@
 			},
 			"casts" : {
 				"type" : "CASTS",
-				// needs test
-				"val" : 5
+				"val" : 3
 			},
 			"enchantPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				// needs test
 				"val" : 6
+			},
+			// Should be 3 turns, not 6. Might need VCMI update for fix.
+			"freezingShot" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "freezingShot",
+				"val" : 20,
+				"addInfo" : [0, 1]
 			}
-			// TODO: Freezing Shot. need to test to know what it does.
 		},
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/greatShaman.png",

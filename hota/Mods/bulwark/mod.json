@@ -68,7 +68,8 @@
 	],
 	"spells" : [
 		"config/hota/bulwark/spells/yetiCure.json",
-		"config/hota/bulwark/spells/moat.json"
+		"config/hota/bulwark/spells/moat.json",
+		"config/hota/bulwark/spells/freezingShot.json"
 	],
 	"objects" : [
 		"config/hota/bulwark/boats.json",
