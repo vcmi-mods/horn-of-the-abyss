@@ -39,12 +39,10 @@
 			},
 			"casts" : {
 				"type" : "CASTS",
-				// needs test
-				"val" : 5
+				"val" : 3
 			},
 			"enchantPower" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				// needs test
 				"val" : 6
 			}
 		},
