@@ -1,0 +1,16 @@
+{
+	"snowGlaciers" : {
+		"biome" : {
+			"terrain" : "snow",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"AVLGLC01",
+			"AVLGLC02",
+			"AVLGLC03",
+			"AVLGLC04",
+			"AVLGLC05",
+			"AVLGLC06"
+		]
+	}
+}

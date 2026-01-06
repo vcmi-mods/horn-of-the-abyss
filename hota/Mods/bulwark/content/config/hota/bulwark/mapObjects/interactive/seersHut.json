@@ -1,0 +1,26 @@
+{
+	"core:seerHut" : {
+		"types" : {
+			"seersHutIgloo" : {
+				"templates" : {
+					"AVXseekA0" : {
+						"animation" : "hota/bulwark/mapObjects/interactive/AVXseekA0",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VAV"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}
