@@ -1,0 +1,6 @@
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description" : "{急救帐篷}\n英雄携带急救帐篷。",
+	"skill.core.firstAid.description.advanced" : "{中级急救术}\n\n中级急救术可使英雄在战斗中自己控制急救帐篷，最多恢复75点生命值。提高英雄部队生命值10%。",
+	"skill.core.firstAid.description.basic" : "{初级急救术}\n\n初级急救术可使英雄在战斗中自己控制急救帐篷，最多恢复50点生命值。提高英雄部队生命值5%。",
+	"skill.core.firstAid.description.expert" : "{高级急救术}\n\n高级急救术可使英雄在战斗中自己控制急救帐篷，最多恢复100点生命值。提高英雄部队生命值15%。"
+}
