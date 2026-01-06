@@ -73,6 +73,13 @@
 	],
 	"objects" : [
 		"config/hota/bulwark/boats.json",
-		"config/hota/bulwark/dwellings.json"
+		"config/hota/bulwark/dwellings.json",
+		"config/hota/bulwark/mapObjects/static/glaciers.json",
+		"config/hota/bulwark/mapObjects/mine/mines.json",
+		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
+		"config/hota/bulwark/mapObjects/interactive/seersHut.json"
+	],
+	"biomes" : [
+		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
 	]
 }
