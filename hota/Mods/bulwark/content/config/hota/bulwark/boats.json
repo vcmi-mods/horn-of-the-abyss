@@ -2,8 +2,8 @@
 	"core:boat" : {
 		"types" : {
 			"boatBulwark" : {
-				"actualAnimation" : "hota/bulwark/mapObjects/boats/bulwarkBoatAnim.def",
-				"overlayAnimation" : "hota/bulwark/mapObjects/boats/bulwarkBoatOverlay.def",
+				"actualAnimation" : "hota/bulwark/mapObjects/boats/AB07_006.def",
+				"overlayAnimation" : "hota/bulwark/mapObjects/boats/ABM7_000.def",
 				"flagAnimations" : [
 					"ABF01L",
 					"ABF01G",
@@ -16,7 +16,7 @@
 				],
 				"templates" : {
 					"default" : {
-						"animation" : "hota/bulwark/mapObjects/boats/bulwarkBoatEditor.def",
+						"animation" : "hota/bulwark/mapObjects/boats/AB07_002.def",
 						"mask" : [
 							"VVV",
 							"VAV"
