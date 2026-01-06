@@ -1,0 +1,5 @@
+{
+	"skill.core.learning.description.advanced" : "{中级学习能力}\n\n中级学习能力可使英雄每次多获得40%的经验值。",
+	"skill.core.learning.description.basic" : "{初级学习能力}\n\n初级学习能力可使英雄每次多获得20%的经验值。",
+	"skill.core.learning.description.expert" : "{高级学习能力}\n\n高级学习能力可使英雄每次多获得60%的经验值。"
+}

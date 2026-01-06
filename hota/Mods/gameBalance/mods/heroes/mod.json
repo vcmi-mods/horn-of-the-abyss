@@ -166,7 +166,10 @@
 	],
 	"chinese" : {
 		"name" : "英雄",
-		"description" : "改变尤兰德，蒂玛和珍尼的初始辅助技能"
+		"description" : "改变尤兰德，蒂玛和珍尼的初始辅助技能",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Hrdinové",
