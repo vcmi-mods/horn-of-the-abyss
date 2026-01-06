@@ -19,11 +19,11 @@
 		"config/stackExperience",
 		"config/blackbeard"
 	],
-    "chinese": {
-        "name" : "额外技能图标",
-        "description" : "生物技能的额外图标。",
+	"chinese" : {
+		"name" : "额外技能图标",
+		"description" : "生物技能的额外图标。",
 		"translations" : [
 			"translation/chinese.json"
 		]
-    }
+	}
 }

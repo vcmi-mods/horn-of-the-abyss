@@ -17,7 +17,7 @@
 	"bonuses" : [
 		"config/hotaGameBalance/firstAidBonusType.json"
 	],
-    "chinese" : {
+	"chinese" : {
 		"name" : "急救术",
 		"description" : "",
 		"translations" : [
