@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{中级寻路术}\n\n中级寻路术可使英雄移动时受地形的影响减少50%，最低消耗减少至90。",
+	"skill.core.pathfinding.description.basic" : "{初级寻路术}\n\n初级寻路术可使英雄移动时受地形的影响减少25%，最低消耗减少至95。",
+	"skill.core.pathfinding.description.expert" : "{高级寻路术}\n\n高级寻路术可使英雄移动时受地形的影响减少75%，最低消耗减少至85。"
+}

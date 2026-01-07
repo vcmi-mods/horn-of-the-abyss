@@ -18,7 +18,10 @@
 
 	"chinese" : {
 		"name" : "生物",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Vlastnosti jednotek",

@@ -10,5 +10,9 @@
 
 	"skills" : [
 		"config/hotaGameBalance/skills.json"
-	]
+	],
+	"chinese" : {
+		"name" : "炮术",
+		"description" : ""
+	}
 }
