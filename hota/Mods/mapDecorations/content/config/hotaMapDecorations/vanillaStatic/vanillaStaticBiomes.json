@@ -12,6 +12,14 @@
 			"core:AVLca090"
 		]
 	},
+	"core:autumnOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"avlautr8",
+				"avlautr9"
+			]
+		}
+	},
 	"lavaRocks" : {
 		"biome" : {
 			"terrain" : "lava",
@@ -169,12 +177,12 @@
 			"terrain" : [
 				"dirt",
 				"rough",
-				"grass",
-				"swamp"
+				"grass"
 			],
 			"objectType" : "tree"
 		},
 		"templates" : [
+			"AVLswt17",
 			"AVLswt20",
 			"AVLswt21",
 			"AVLswt22",
@@ -254,7 +262,8 @@
 			"TPMTREE3",
 			"TPMTREE4",
 			"TPMTREE5",
-			"TPMTREE6"
+			"TPMTREE6",
+			"avswplnt"
 		]
 	},
 	"dirtTree" : {
