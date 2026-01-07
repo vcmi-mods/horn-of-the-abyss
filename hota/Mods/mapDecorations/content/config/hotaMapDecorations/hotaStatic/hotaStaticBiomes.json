@@ -1,12 +1,9 @@
 {
-	"carnivorousPlant" : {
-		"biome" : {
-			"terrain" : "swamp",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avswplnt"
-		]
+	"core:templateSet112" : {
+		// carnivorous plant into swamp foliage biome instead of it's own
+		"templates" : {
+			"append" : "avswplnt"
+		}
 	},
 	"abandonedBoat" : {
 		"biome" : {
@@ -108,26 +105,13 @@
 		]
 	},
 	"core:swampPalms" : {
-		"biome" : {
-			"terrain" : "swamp",
-			"objectType" : "tree"
-		},
-		//"templates": ["AVLswn01", "AVLswn02", "AVLswn03"] // Add these 3
-		"templates" : [
-			"avlswtr0",
-			"avlswtr1",
-			"avlswtr2",
-			"avlswtr3",
-			"avlswtr4",
-			"avlswtr5",
-			"avlswtr6",
-			"avlswtr7",
-			"avlswtr8",
-			"avlswtr9",
-			"AVLswn01",
-			"AVLswn02",
-			"AVLswn03"
-		]
+		"templates" : {
+			"appendItems" : [
+				"AVLswn01",
+				"AVLswn02",
+				"AVLswn03"
+			]
+		}
 	},
 	"hotaSandPalms" : {
 		"biome" : {
@@ -179,17 +163,13 @@
 		]
 	},
 	"core:sandYucca" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"avlyuc20",
-			"avlyuc30",
-			"avlyuc40",
-			"avlyuc50",
-			"avlyuc60"
-		]
+		"templates" : {
+			"appendItems" : [
+				"avlyuc40",
+				"avlyuc50",
+				"avlyuc60"
+			]
+		}
 	},
 	"snowHills" : {
 		"biome" : {

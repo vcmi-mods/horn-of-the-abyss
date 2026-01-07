@@ -1,0 +1,22 @@
+{
+	"core:wagon" : {
+		"types" : {
+			"wagon" : {
+				"templates" : {
+					"HATel" : {
+						"animation" : "hota/wagon/HATel",
+						"mask" : [
+							"VV",
+							"BA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
