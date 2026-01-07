@@ -81,5 +81,10 @@
 	],
 	"biomes" : [
 		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
-	]
+	],
+    
+    "chinese" : {
+    	"name" : "坚垒",
+        "description" : "深渊号角1.8.0的新城镇坚垒。"
+    }
 }
