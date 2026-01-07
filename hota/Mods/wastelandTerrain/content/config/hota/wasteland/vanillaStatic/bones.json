@@ -4,7 +4,7 @@
 			"hotaSkulls" : {
 				"name" : "Skull",
 				"templates" : {
-					"AVLskul0" : {
+					"AVLskul0Hota" : {
 						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul0",
 						"mask" : [
 							"B"

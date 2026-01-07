@@ -18,6 +18,7 @@
 			"objectType" : "lake"
 		},
 		"templates" : [
+			"avlhlws0",
 			"AVLwll00",
 			"AVLwll01",
 			"AVLwll02"
@@ -32,17 +33,22 @@
 			"AVLwml00"
 		]
 	},
-	"core:skull" : {
+	"wastelandSkulls" : {
 		"biome" : {
 			"terrain" : "wasteland",
-			"objectType" : "other"
+			"objectType" : "animal"
 		},
 		"templates" : [
-			"jaws",
-			"AVLbon00",
-			"AVLbon01",
-			"AVLbon02",
-			"AVLbon03"
+				"AVLskul0Hota",
+				"AVLskul1",
+				"AVLskul2",
+				"AVLskul3",
+				"AVLwcsk0",
+				"AVLbon00",
+				"AVLbon01",
+				"AVLbon02",
+				"AVLbon03",
+				"jaws"
 		]
 	}
 }

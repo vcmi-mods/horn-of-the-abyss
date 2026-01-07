@@ -72,15 +72,6 @@
 			"AVLsh9xw"
 		]
 	},
-	"wastelandHole" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "crater"
-		},
-		"templates" : [
-			"AVLsh9xw"
-		]
-	},
 	"wastelandMountains" : {
 		"biome" : {
 			"terrain" : "wasteland",
@@ -149,17 +140,19 @@
 			"AVLca130"
 		]
 	},
-	"core:skull" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"AVLskul0",
-			"AVLskul1",
-			"AVLskul2",
-			"AVLskul3",
-			"AVLwcsk0"
-		]
+	"core:templateSet36" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLskul1",
+				"AVLskul2",
+				"AVLskul3",
+				"AVLwcsk0",
+				"AVLbon00",
+				"AVLbon01",
+				"AVLbon02",
+				"AVLbon03",
+				"jaws"
+			]
+		}
 	}
 }
