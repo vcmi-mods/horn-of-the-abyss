@@ -3,6 +3,7 @@
 		"name" : "Yucca Trees",
 		"handler" : "static",
 		"types" : {
+			// what's wrong with the items from "core"? should only add the new ones (avlyuc040-60)
 			"yuccaTrees1" : {
 				"templates" : {
 					"avlyuc20" : {

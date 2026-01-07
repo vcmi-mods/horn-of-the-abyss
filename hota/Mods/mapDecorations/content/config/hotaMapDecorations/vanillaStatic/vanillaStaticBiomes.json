@@ -12,20 +12,18 @@
 			"core:AVLca090"
 		]
 	},
-	"core:corpse" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"AVXskds1",
-			"AVXskds2"
-		]
+	"core:autumnOakTrees" : {
+		"templates" : {
+			"appendItems" : [
+				"avlautr8",
+				"avlautr9"
+			]
+		}
 	},
-	"core:coutcropping" : {
+	"lavaRocks" : {
 		"biome" : {
 			"terrain" : "lava",
-			"objectType" : "other"
+			"objectType" : "rock"
 		},
 		"templates" : [
 			"AvLVoTr0",
@@ -100,18 +98,16 @@
 			"MNTSWP06"
 		]
 	},
-	"subMushroom" : {
-		"biome" : {
-			"terrain" : "subterra",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"AVLMS130",
-			"AVLMS140",
-			"AVLMS150",
-			"AVLMS160",
-			"AVLMS170"
-		]
+	"core:templateSet158" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLMS130",
+				"AVLMS140",
+				"AVLMS150",
+				"AVLMS160",
+				"AVLMS170"
+			]
+		}
 	},
 	"grassMushroom" : {
 		"biome" : {
@@ -168,27 +164,25 @@
 			"avlhspr9"
 		]
 	},
-	"snowTrees" : {
-		"biome" : {
-			"terrain" : "snow",
-			"objectType" : "tree"
-		},
-		"templates" : [
-			"avlsntr8",
-			"avlsntr9"
-		]
+	"core:templateSet83" : {
+		"templates" : {
+			"appendItems" : [
+				"avlsntr8",
+				"avlsntr9"
+			]
+		}
 	},
 	"redTrees" : {
 		"biome" : {
 			"terrain" : [
 				"dirt",
 				"rough",
-				"grass",
-				"swamp"
+				"grass"
 			],
 			"objectType" : "tree"
 		},
 		"templates" : [
+			"AVLswt17",
 			"AVLswt20",
 			"AVLswt21",
 			"AVLswt22",
@@ -247,25 +241,15 @@
 			"avlrfx08"
 		]
 	},
-	"swampShrub" : {
-		// TODO: Merge with original set
-		"biome" : {
-			"terrain" : "swamp",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"avls05s1"
-		]
+	"core:templateSet109" : {
+		"templates" : {
+			"append" : "avls05s1"
+		}
 	},
-	"roughShrub" : {
-		// TODO: Merge with original set
-		"biome" : {
-			"terrain" : "rough",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"avlsh9x0"
-		]
+	"core:templateSet134" : {
+		"templates" : {
+			"append" : "avlsh9x0"
+		}
 	},
 	"yellowSwampPlant" : {
 		"biome" : {
@@ -278,7 +262,8 @@
 			"TPMTREE3",
 			"TPMTREE4",
 			"TPMTREE5",
-			"TPMTREE6"
+			"TPMTREE6",
+			"avswplnt"
 		]
 	},
 	"dirtTree" : {
@@ -299,18 +284,8 @@
 		]
 	},
 	"core:volcanos" : {
-		"biome" : {
-			"terrain" : "lava",
-			"objectType" : "mountain"
-		},
-		//"templates": [ "AVLvol60"] // TODO: Append only one
-		"templates" : [
-			"AVLvol10",
-			"AVLvol20",
-			"AVLvol30",
-			"AVLvol40",
-			"AVLvol50",
-			"AVLvol60"
-		]
+		"templates" : {
+			"append" : "AVLvol60"
+		}
 	}
 }

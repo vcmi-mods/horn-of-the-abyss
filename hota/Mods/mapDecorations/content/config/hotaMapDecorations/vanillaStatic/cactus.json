@@ -43,7 +43,7 @@
 						]
 					},
 					"AVLca090" : {
-						"animation" : "hota/cactus/AVLca090",
+						"animation" : "hota/cactus/AVLca090.def",
 						"mask" : [
 							"V",
 							"B"
