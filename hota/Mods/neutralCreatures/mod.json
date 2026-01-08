@@ -4,14 +4,17 @@
 	"modType" : "Creatures",
 	"author" : "Ivan",
 	"contact" : "",
-	"version" : "1.1",
+	"version" : "1.2",
 	"changelog" : {
 		"1.0" : [
 			"Initial release"
 		],
 		"1.1" : [
 			"Fix Fangarm spell"
-		]
+		],
+		"1.2" : [
+			"Added Ancient Altar object"
+		]		
 	},
 	"depends" : [],
 
