@@ -87,10 +87,6 @@
 			"KING_3" : {
 				"type" : "KING",
 				"val" : 3
-			},
-			"dragonSkeleton" : {
-				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "boneDragon"
 			}
 		},
 		"graphics" : {
