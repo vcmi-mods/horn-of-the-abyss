@@ -6,6 +6,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuHa01",
 					"area" : "hota/bulwark/town/area/villageHall",
 					"border" : "hota/bulwark/town/border/villageHall",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/villageHall",
 					"x" : 629,
 					"y" : 168,
 					"z" : 0
@@ -14,6 +15,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBHa201",
 					"area" : "hota/bulwark/town/area/townHall",
 					"border" : "hota/bulwark/town/border/townHall",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/townHall",
 					"x" : 629,
 					"y" : 140,
 					"z" : 0
@@ -22,6 +24,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBHa301",
 					"area" : "hota/bulwark/town/area/cityHall",
 					"border" : "hota/bulwark/town/border/cityHall",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/cityHall",
 					"x" : 630,
 					"y" : 89,
 					"z" : 0
@@ -30,6 +33,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBHa401",
 					"area" : "hota/bulwark/town/area/capitol",
 					"border" : "hota/bulwark/town/border/capitol",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/capitol",
 					"x" : 630,
 					"y" : 55,
 					"z" : 0
@@ -39,6 +43,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuCstl",
 					"area" : "hota/bulwark/town/area/fort",
 					"border" : "hota/bulwark/town/border/fort",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/fort",
 					"x" : 65,
 					"y" : 37,
 					"z" : 1
@@ -47,6 +52,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuCas2",
 					"area" : "hota/bulwark/town/area/citadel",
 					"border" : "hota/bulwark/town/border/citadel",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/citadel",
 					"x" : 65,
 					"y" : 8,
 					"z" : 1
@@ -55,6 +61,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuCas3",
 					"area" : "hota/bulwark/town/area/castle",
 					"border" : "hota/bulwark/town/border/castle",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/castle",
 					"x" : 66,
 					"y" : 8,
 					"z" : 1
@@ -64,6 +71,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuTv01",
 					"area" : "hota/bulwark/town/area/tavern",
 					"border" : "hota/bulwark/town/border/tavern",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/tavern",
 					"x" : 304,
 					"y" : 248,
 					"z" : 1
@@ -72,6 +80,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuBl01",
 					"area" : "hota/bulwark/town/area/blacksmith",
 					"border" : "hota/bulwark/town/border/blacksmith",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/blacksmith",
 					"x" : 502,
 					"y" : 198,
 					"z" : 0
@@ -80,6 +89,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuMa01",
 					"area" : "hota/bulwark/town/area/marketplace",
 					"border" : "hota/bulwark/town/border/marketplace",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/marketplace",
 					"x" : 397,
 					"y" : 249,
 					"z" : 0
@@ -88,6 +98,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuSilo",
 					"area" : "hota/bulwark/town/area/resourceSilo",
 					"border" : "hota/bulwark/town/border/resourceSilo",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/resourceSilo",
 					"x" : 422,
 					"y" : 229,
 					"z" : 1
@@ -96,6 +107,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuDo01",
 					"area" : "hota/bulwark/town/area/shipyard",
 					"border" : "hota/bulwark/town/border/shipyard",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/shipyard",
 					"x" : 293,
 					"y" : 326,
 					"z" : 2
@@ -114,6 +126,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuMr01",
 					"area" : "hota/bulwark/town/area/special1",
 					"border" : "hota/bulwark/town/border/special1",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special1",
 					"x" : 464,
 					"y" : 281,
 					"z" : 1
@@ -122,6 +135,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuSpc1",
 					"area" : "hota/bulwark/town/area/special2",
 					"border" : "hota/bulwark/town/border/special2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special2",
 					"x" : 489,
 					"y" : 170,
 					"z" : 1
@@ -130,6 +144,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuS201",
 					"area" : "hota/bulwark/town/area/special3",
 					"border" : "hota/bulwark/town/border/special3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special3",
 					"x" : 489,
 					"y" : 140,
 					"z" : 1
@@ -138,6 +153,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuH101",
 					"area" : "hota/bulwark/town/area/horde1",
 					"border" : "hota/bulwark/town/border/horde1",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/horde1",
 					"hidden" : true,
 					"x" : 0,
 					"y" : 219,
@@ -147,6 +163,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuHU01",
 					"area" : "hota/bulwark/town/area/horde1Upgr",
 					"border" : "hota/bulwark/town/border/horde1Upgr",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/horde1Upgr",
 					"builds" : "horde1",
 					"hidden" : true,
 					"x" : 0,
@@ -157,6 +174,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuHo01",
 					"area" : "hota/bulwark/town/area/grail",
 					"border" : "hota/bulwark/town/border/grail",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/grail",
 					"x" : 145,
 					"y" : 0,
 					"z" : 0
@@ -172,6 +190,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuM101",
 					"area" : "hota/bulwark/town/area/mageGuild1",
 					"border" : "hota/bulwark/town/border/mageGuild1",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild1",
 					"x" : 558,
 					"y" : 112,
 					"z" : 1
@@ -180,6 +199,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuM201",
 					"area" : "hota/bulwark/town/area/mageGuild2",
 					"border" : "hota/bulwark/town/border/mageGuild2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild2",
 					"x" : 558,
 					"y" : 81,
 					"z" : 1
@@ -188,6 +208,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuM301",
 					"area" : "hota/bulwark/town/area/mageGuild3",
 					"border" : "hota/bulwark/town/border/mageGuild3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild3",
 					"x" : 558,
 					"y" : 55,
 					"z" : 1
@@ -196,6 +217,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuM401",
 					"area" : "hota/bulwark/town/area/mageGuild4",
 					"border" : "hota/bulwark/town/border/mageGuild4",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild4",
 					"x" : 558,
 					"y" : 33,
 					"z" : 1
@@ -205,6 +227,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuD001",
 					"area" : "hota/bulwark/town/area/dwellingLvl1",
 					"border" : "hota/bulwark/town/border/dwellingLvl1",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl1",
 					"x" : 0,
 					"y" : 140,
 					"z" : 1
@@ -213,6 +236,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuDw_1",
 					"area" : "hota/bulwark/town/area/dwellingLvl2",
 					"border" : "hota/bulwark/town/border/dwellingLvl2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl2",
 					"x" : 301,
 					"y" : 74,
 					"z" : 1
@@ -221,6 +245,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuD201",
 					"area" : "hota/bulwark/town/area/dwellingLvl3",
 					"border" : "hota/bulwark/town/border/dwellingLvl3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl3",
 					"x" : 581,
 					"y" : 242,
 					"z" : 1
@@ -229,6 +254,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuD301",
 					"area" : "hota/bulwark/town/area/dwellingLvl4",
 					"border" : "hota/bulwark/town/border/dwellingLvl4",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl4",
 					"x" : 253,
 					"y" : 153,
 					"z" : 0
@@ -237,6 +263,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuDw_4",
 					"area" : "hota/bulwark/town/area/dwellingLvl5",
 					"border" : "hota/bulwark/town/border/dwellingLvl5",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl5",
 					"x" : 447,
 					"y" : 167,
 					"z" : 0
@@ -245,6 +272,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuD501",
 					"area" : "hota/bulwark/town/area/dwellingLvl6",
 					"border" : "hota/bulwark/town/border/dwellingLvl6",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl6",
 					"x" : 0,
 					"y" : 219,
 					"z" : 0
@@ -253,6 +281,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuDw_6",
 					"area" : "hota/bulwark/town/area/dwellingLvl7",
 					"border" : "hota/bulwark/town/border/dwellingLvl7",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl7",
 					"x" : 380,
 					"y" : 35,
 					"z" : 0
@@ -262,6 +291,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuU001",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl1",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl1",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl1",
 					"x" : 0,
 					"y" : 94,
 					"z" : 1
@@ -270,6 +300,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuU101",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl2",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl2",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl2",
 					"x" : 301,
 					"y" : 44,
 					"z" : 1
@@ -278,6 +309,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuU201",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl3",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl3",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl3",
 					"x" : 581,
 					"y" : 220,
 					"z" : 1
@@ -286,6 +318,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuU301",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl4",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl4",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl4",
 					"x" : 239,
 					"y" : 153,
 					"z" : 0
@@ -294,6 +327,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuUp_4",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl5",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl5",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl5",
 					"x" : 444,
 					"y" : 163,
 					"z" : 0
@@ -302,6 +336,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuU501",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl6",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl6",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl6",
 					"x" : 0,
 					"y" : 219,
 					"z" : 0
@@ -310,6 +345,7 @@
 					"animation" : "hota/bulwark/town/buildings/TBBuUp_6",
 					"area" : "hota/bulwark/town/area/dwellingUpLvl7",
 					"border" : "hota/bulwark/town/border/dwellingUpLvl7",
+					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl7",
 					"x" : 380,
 					"y" : 13,
 					"z" : 0
