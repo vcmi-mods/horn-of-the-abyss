@@ -2,7 +2,7 @@
 	"bulwarkMoatTrigger" : {
 		"targetType" : "CREATURE",
 		"type" : "ability",
-		"name" : "Ditch",
+		"name" : "Tusks",
 		"school" : {},
 		"level" : 0,
 		"power" : 0,

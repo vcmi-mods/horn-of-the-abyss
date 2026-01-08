@@ -26,19 +26,19 @@
 				}
 			},
 			"basic" : {
-				"cost" : 1,
+				"cost" : 0,
 				"description" : "not shown"
 			},
 			"advanced" : {
-				"cost" : 1,
+				"cost" : 0,
 				"description" : "not shown"
 			},
 			"expert" : {
-				"cost" : 1,
+				"cost" : 0,
 				"description" : "not shown"
 			},
 			"none" : {
-				"cost" : 1,
+				"cost" : 0,
 				"description" : "not shown"
 			}
 		},
