@@ -27,7 +27,7 @@
 						"hota/HORNALTR"
 					]
 				},
-				"compatibilityIdentifiers" : [ "object", "ancientAltar" ],				
+				"compatibilityIdentifiers" : [ "object" ],				
 //				"rmg" : {
 //					"value" :  20000,
 //					"rarity" : 20
@@ -37,7 +37,7 @@
 				"onVisitedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-//				"guardsLayout" : "creatureBankWide", //no bank layouts in original hota
+				"guardsLayout" : "default",
 				"rewards" : [
 					{
 						"message" : "{Ancient Altar}\r\n\r\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",

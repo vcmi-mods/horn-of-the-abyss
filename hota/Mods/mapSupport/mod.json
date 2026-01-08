@@ -20,6 +20,7 @@
 		"hota.mapobjects",
 		"hota.mapdecorations",
 		"hota.neutralcreatures",
+		"hota.neutralcreatures.ancientaltar",
 		"hota.terrainoverlays",
 		"hota.highlandsterrain",
 		"hota.wastelandterrain"
@@ -625,7 +626,7 @@
 					"ringOfOblivion" : 158,
 					"capeOfSilence" : 159,
 					"goldenGoose" : 160,
-					//"hornOfTheAbyss" : 161,
+					"hornOfTheAbyss" : 161,
 					"charmOfEclipse" : 162,
 					"sealOfSunset" : 163,
 					"plateOfDyingLight" : 164,
@@ -860,7 +861,11 @@
 						"ruins" : [
 							16,
 							32
-						]
+						],
+						"ancientAltar" : [
+							146,
+							4
+						]						
 					},
 					"creatureGeneratorCommon" : {
 						"waterfall" : [
@@ -1370,6 +1375,7 @@
 					"hota/banks/avblktsn.def" : "avblktsn.def",
 					"hota/banks/avblktwr.def" : "avblktwr.def",
 					"hota/banks/avbone02.def" : "avbone02.def",
+					"hota/banks/avchrnal.def" : "avchrnal.def",
 					"hota/cactus/AVcact01.def" : "AVcact01.def",
 					"hota/cactus/AVcact02.def" : "AVcact02.def",
 					"hota/cactus/AVcact03.def" : "AVcact03.def",
@@ -1404,7 +1410,6 @@
 					"hota/conflux/adventureMap/town/AVChfof0.def" : "AVChfof0.def",
 					"hota/conflux/adventureMap/town/castle.def" : "AVChforX.def",
 					"hota/conflux/adventureMap/town/capitol.def" : "AVChforz.def",
-//					"hota/banks/avchrnal.def" : "avchrnal.def",
 					"hota/inferno/adventureMap/town/citadel.def" : "AVCinfc0.def",
 					"hota/inferno/adventureMap/town/AVCinff0.def" : "AVCinff0.def",
 					"hota/inferno/adventureMap/town/castle.def" : "AVCinfx0.def",

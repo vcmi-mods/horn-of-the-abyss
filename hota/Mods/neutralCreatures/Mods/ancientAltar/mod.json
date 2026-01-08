@@ -1,0 +1,17 @@
+{
+	"name" : "Ancient Altar",
+	"description" : "Adds Ancient Altar bank (campaign object)",
+	"modType" : "Compatibility",
+	"author" : "misiokles",
+	"contact" : "",
+	"version" : "1.0",
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"depends" : [ "hota.cove"],
+	"objects" : [
+		"config/hotaBanks/ancientAltar.json"
+	]
+}
