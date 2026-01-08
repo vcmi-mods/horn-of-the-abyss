@@ -6,8 +6,10 @@
 					"AVCGARW1" : {
 						"animation" : "hota/garrizons/AVCGARW1",
 						"mask" : [
-							"VBVB",
-							"VBAB"
+							"VVVVV",
+							"VVVVV",
+							"VBABV",
+							"VVVVV"
 						],
 						"visitableFrom" : [
 							"+++",
@@ -18,11 +20,11 @@
 							"water"
 						]
 					},
-
+					
 					"avgtzab2" : {
 						"animation" : "hota/garrizons/avgtzab2",
 						"mask" : [
-							"VBVB",
+							"VVVV",
 							"VBAB"
 						],
 						"visitableFrom" : [
@@ -38,7 +40,7 @@
 					"avgtzab1" : {
 						"animation" : "hota/garrizons/avgtzab1",
 						"mask" : [
-							"VBVB",
+							"VVVV",
 							"VBAB"
 						],
 						"visitableFrom" : [
@@ -52,7 +54,7 @@
 						"animation" : "hota/garrizons/AVCGARE",
 						"mask" : [
 							"VVVV",
-							"VBVB",
+							"VVVV",
 							"VBAB"
 						],
 						"visitableFrom" : [
