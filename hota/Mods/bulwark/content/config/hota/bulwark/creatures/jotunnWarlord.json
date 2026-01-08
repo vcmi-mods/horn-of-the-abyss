@@ -52,19 +52,9 @@
 					[
 						"noneOf",
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "devil",
-							"includeUpgrades" : true
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hota.cove:nymph",
-							"includeUpgrades" : true
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hota.factory:sandworm",
-							"includeUpgrades" : true
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING",
+							"bonusSubtype" : "movementTeleporting"
 						}
 					]
 				],
@@ -85,19 +75,9 @@
 					[
 						"noneOf",
 						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "devil",
-							"includeUpgrades" : true
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hota.cove:nymph",
-							"includeUpgrades" : true
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hota.factory:sandworm",
-							"includeUpgrades" : true
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING",
+							"bonusSubtype" : "movementTeleporting"
 						}
 					]
 				]

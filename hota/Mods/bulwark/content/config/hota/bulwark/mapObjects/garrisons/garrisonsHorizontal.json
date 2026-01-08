@@ -1,0 +1,56 @@
+{
+	 "core:garrisonHorizontal" : {
+        "types" : {
+            "antiMagic" : {
+				"templates" : {
+					"garMPaH0" : {
+						"animation" : "hota/bulwark/mapObjects/garrisons/garMPaH0",
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+						]
+					},
+					"garMPSH0" : {
+						"animation" : "hota/bulwark/mapObjects/garrisons/garMPSH0",
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VBAB"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"0w_gmwh0" : {
+						"animation" : "hota/bulwark/mapObjects/garrisons/0w_gmwh0",
+						"visitableFrom" : [
+							"+++",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VVVVV",
+							"VBABV",
+							"VVVVV"
+						],
+						"allowedTerrains" : [
+							"water"
+						]
+					}
+				}
+			}
+        }
+    }
+}

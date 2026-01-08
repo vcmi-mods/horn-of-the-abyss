@@ -8,8 +8,7 @@
 	"modType" : "Town",
 
 	"depends" : [
-		"hota.cove",
-		"hota.factory"
+
 	],
 	"softDepends" : [
 		"hota.interference"
@@ -77,14 +76,11 @@
 		"config/hota/bulwark/mapObjects/static/glaciers.json",
 		"config/hota/bulwark/mapObjects/mine/mines.json",
 		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
-		"config/hota/bulwark/mapObjects/interactive/seersHut.json"
+		"config/hota/bulwark/mapObjects/interactive/seersHut.json",
+		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
+		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json"
 	],
 	"biomes" : [
 		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
-	],
-    
-    "chinese" : {
-    	"name" : "坚垒",
-        "description" : "深渊号角1.8.0的新城镇坚垒。"
-    }
+	]
 }

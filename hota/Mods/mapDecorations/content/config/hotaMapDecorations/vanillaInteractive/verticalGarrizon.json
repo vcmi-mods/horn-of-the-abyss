@@ -13,7 +13,7 @@
 							"VVB"
 						],
 						"visitableFrom" : [
-							"---",
+							"+-+",
 							"+++",
 							"+-+"
 						]
@@ -29,7 +29,7 @@
 							"VVB"
 						],
 						"visitableFrom" : [
-							"---",
+							"+-+",
 							"+++",
 							"+-+"
 						],
@@ -41,13 +41,14 @@
 					"AVCVGRW" : {
 						"animation" : "hota/garrizons/AVCVGRW",
 						"mask" : [
-							"VV",
-							"VB",
-							"VA",
-							"VB"
+							"VVV",
+							"VBV",
+							"VAV",
+							"VBV",
+							"VVV"
 						],
 						"visitableFrom" : [
-							"---",
+							"+-+",
 							"+++",
 							"+-+"
 						],
