@@ -1,0 +1,60 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"ancientAltar" : {
+				"name" : "Ancient Altar",
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/avchrnal.def",
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VBBBB",
+							"VVBAV"
+						]
+					}
+				},
+				"sounds" : {
+					"visit" : [
+						"MYSTERY.wav"
+					],
+					"ambient" : [
+						"hota/HORNALTR"
+					]
+				},
+				"compatibilityIdentifiers" : [ "object", "ancientAltar" ],				
+//				"rmg" : {
+//					"value" :  20000,
+//					"rarity" : 20
+//				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\r\nDo you want to fight them?",
+				"onVisitedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+//				"guardsLayout" : "creatureBankWide", //no bank layouts in original hota
+				"rewards" : [
+					{
+						"message" : "{Ancient Altar}\r\n\r\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",
+						"appearChance" : {
+							"min" : 0,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 32,
+								"type" : "haspid"
+							}
+						],
+						"artifacts" : [ "hornOfTheAbyss" ]
+					}
+				]
+			}
+		}
+	}
+}

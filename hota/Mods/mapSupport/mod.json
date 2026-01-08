@@ -1246,10 +1246,6 @@
 						139,
 						13
 					],
-					"ancientAltar" : [
-						146,
-						4
-					],
 					"abandonedBoat" : [
 						139,
 						15
@@ -1408,7 +1404,7 @@
 					"hota/conflux/adventureMap/town/AVChfof0.def" : "AVChfof0.def",
 					"hota/conflux/adventureMap/town/castle.def" : "AVChforX.def",
 					"hota/conflux/adventureMap/town/capitol.def" : "AVChforz.def",
-					"hota/campaignObject/avchrnal.def" : "avchrnal.def",
+//					"hota/banks/avchrnal.def" : "avchrnal.def",
 					"hota/inferno/adventureMap/town/citadel.def" : "AVCinfc0.def",
 					"hota/inferno/adventureMap/town/AVCinff0.def" : "AVCinff0.def",
 					"hota/inferno/adventureMap/town/castle.def" : "AVCinfx0.def",
