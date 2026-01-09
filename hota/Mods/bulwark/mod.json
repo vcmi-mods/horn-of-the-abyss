@@ -11,9 +11,8 @@
 
 	],
 	"softDepends" : [
-		"hota.interference"
+	
 	],
-	//translation stuff here
 
 	"factions" : [
 		"config/hota/bulwark/faction.json",
