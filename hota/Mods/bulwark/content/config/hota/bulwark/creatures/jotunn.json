@@ -29,7 +29,6 @@
 			"max" : 10
 		},
 		"abilities" : {
-			// ISSUE : CRASHES VCMI
 			"castsTeleport" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.teleport",
@@ -39,7 +38,6 @@
 				"type" : "CASTS",
 				"val" : 1
 			},
-			// ISSUE : SHOULD ONLY AFFECT FLYING UNITS, NOT TELEPORTING ONES
 			"flyerReduction" : {
 				"type" : "STACKS_SPEED",
 				"val" : -1,
@@ -50,16 +48,9 @@
 					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "FLYING"
-					},
-					[
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "FLYING",
-							"bonusSubtype" : "movementTeleporting"
-						}
-					]
+						"bonusType" : "FLYING",
+						"bonusSubtype" : "movementFlying"
+					}
 				],
 				"stacking" : "Jotunns"
 			},

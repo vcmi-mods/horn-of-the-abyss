@@ -46,7 +46,9 @@
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "freezingShot",
 				"val" : 20,
-				"addInfo" : [0, 1]
+				"addInfo" : [0, 1],
+				"description" : "{Freezing Shot}\n20% to freeze enemies after ranged attack.",
+				"icon" : "hota/bulwark/spells/freezingShot.png",    
 			}
 		},
 		"graphics" : {

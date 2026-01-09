@@ -126,7 +126,7 @@
 				},
 				"special2" : {
 					"name" : "Sieidi of Runes",
-					"description" : "The Sieidi of Runes allows local heroes to learn the Basic Runes secondary skill.",
+					"description" : "The Sieidi of Runes allows local heroes to learn the Basic Runes secondary skill.\n\n{Runes secondary skill is not implemented yet and is not functioning!!!}",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
@@ -137,26 +137,56 @@
 					"configuration" : {
 						"visitMode" : "limiter",
 						"visitLimiter" : {
-							"secondary": [
-								{
-									"type" : "runes",
-									"amount" : 1
-								}
-							]
+							"secondary": {
+								"runes" : 1
+							}
 						},
+						"onVisitedMessage" : "Your hero has already mastered the lore of the Runes.",
+						"selectMode" : "selectFirst",
 						"canRefuse": true,
 						"rewards" : [
 							{
 								"limiter" : {
-									"canLearnSkills" : true
+									"anyOf" : [
+										{
+											"heroClasses" : [ "elder", "chieftain" ],
+											"canLearnSkills" : true
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											},
+											"canLearnSkills" : true
+										}
+									]
 								},
-								"message" : "Your hero can learn Runes at the Sieidi of Runes.",
+								"message" : "Do you want your hero to master the lore of the Runes?\n\n{Runes secondary skill is not implemented yet and is not functioning!!!}",
 								"secondary": [
 									{
 										"type" : "runes",
 										"amount" : 1
 									}
 								]
+							}
+						],
+						"onEmpty" : [
+							{
+								"limiter" : {
+									"anyOf" : [
+										{
+											"heroClasses" : [ "elder", "chieftain" ]
+										},
+										{
+											"secondary" : {
+												"scholar" : 1
+											}
+										}
+									]
+								},
+								"message" : "Your hero attempts to master the lore of the Runes in vain. Already possessing many skills, your hero is unable to learn anything new."
+							},
+							{
+								"message" : "Your hero attempts to master the lore of the Runes before realizing they are unable to read them. It appears as though this art is only accessible to locals and competent scholars."
 							}
 						]
 					}

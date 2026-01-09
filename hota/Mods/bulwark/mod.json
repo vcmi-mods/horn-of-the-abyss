@@ -11,9 +11,8 @@
 
 	],
 	"softDepends" : [
-		"hota.interference"
+	
 	],
-	//translation stuff here
 
 	"factions" : [
 		"config/hota/bulwark/faction.json",
@@ -37,7 +36,9 @@
 		"config/hota/bulwark/creatures/steelElf.json",
 		"config/hota/bulwark/creatures/warMammoth.json",
 		"config/hota/bulwark/creatures/yeti.json",
-		"config/hota/bulwark/creatures/yetiRunemaster.json"
+		"config/hota/bulwark/creatures/yetiRunemaster.json",
+		// freezingShot immunes
+		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json"
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",

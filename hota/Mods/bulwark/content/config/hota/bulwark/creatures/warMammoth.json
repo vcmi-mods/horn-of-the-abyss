@@ -26,7 +26,13 @@
 			"max" : 10
 		},
 		"abilities" : {
-			// TODO 100% defense while defending
+			"defenseBonusWhileDefending" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 80,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [ "UNIT_DEFENDING" ]
+			}
 		},
 		"doubleWide" : true,
 		"graphics" : {
