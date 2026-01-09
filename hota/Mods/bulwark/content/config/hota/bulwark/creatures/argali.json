@@ -34,6 +34,11 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
 			},
+			"immuneToFreezingShot" : {
+				"hidden" : true,
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot"
+			},
 			"spellDamageIncreaseAura" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",

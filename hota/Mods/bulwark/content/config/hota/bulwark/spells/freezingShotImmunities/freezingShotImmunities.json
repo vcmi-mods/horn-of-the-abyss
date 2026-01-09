@@ -1,0 +1,38 @@
+{
+	"core:waterElemental" : {
+		"abilities" : {			
+			"immuneToFreezingShot" : {
+				"hidden" : true,
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot"
+			}
+		}
+	},
+	"core:iceElemental" : {
+		"abilities" : {
+			"immuneToFreezingShot" : {
+				"hidden" : true,
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot"
+			}
+		}
+	},
+	"hota.cove:nymph" : {
+		"abilities" : {
+			"immuneToFreezingShot" : {
+				"hidden" : true,
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot"
+			}
+		}
+	},
+	"hota.cove:oceanid" : {
+		"abilities" : {
+			"immuneToFreezingShot" : {
+				"hidden" : true,
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.freezingShot"
+			}
+		}
+	}
+}
