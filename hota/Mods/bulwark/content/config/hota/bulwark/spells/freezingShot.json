@@ -8,7 +8,7 @@
 		"school" : {
 		},
 		"flags" : {
-			"indifferent": true,
+			"negative": true,
 			"special" : true
 		},
 		"gainChance" : {
@@ -19,7 +19,7 @@
 		},
 		"animation":{
 			"affect":[ 
-				{ "effectName" : "petrification" } 
+				{ "effectName" : "freezingShot", "transparency" : 0.5 } 
 			]
 		},
 		"graphics" : {
@@ -54,19 +54,19 @@
 			},
 			"basic" : {
 				"cost" : 0,
-				"description" : "Frozen solid."
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 20% increased damage."
 			},
 			"advanced" : {
 				"cost" : 0,
-				"description" : "Frozen solid."
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 20% increased damage."
 			},
 			"expert" : {
 				"cost" : 0,
-				"description" : "Frozen solid."
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 20% increased damage."
 			},
 			"none" : {
 				"cost" : 0,
-				"description" : "Frozen solid."
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 20% increased damage."
 			}
 		},
 		"targetCondition" : {

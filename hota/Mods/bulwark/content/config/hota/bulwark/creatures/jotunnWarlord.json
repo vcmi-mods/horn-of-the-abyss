@@ -27,7 +27,6 @@
 			"min" : 3
 		},
 		"abilities" : {
-			// ISSUE: CRASHES VCMI ON CAST!!
 			"castsTeleport" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.teleport",
@@ -39,7 +38,7 @@
 			},
 			"flyerReduction" : {
 				"type" : "STACKS_SPEED",
-				"val" : -1,
+				"val" : -2,
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
@@ -47,42 +46,12 @@
 					"OPPOSITE_SIDE",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "FLYING"
-					},
-					[
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "FLYING",
-							"bonusSubtype" : "movementTeleporting"
-						}
-					]
+						"bonusType" : "FLYING",
+						"bonusSubtype" : "movementFlying"
+					}
 				],
 				"stacking" : "Jotunns"
 			},
-			"flyerReduction2" : {
-				"type" : "STACKS_SPEED",
-				"val" : -1,
-				"propagator" : "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER",
-				"limiters" : [
-					"allOf",
-					"OPPOSITE_SIDE",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "FLYING"
-					},
-					[
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "FLYING",
-							"bonusSubtype" : "movementTeleporting"
-						}
-					]
-				]
-			},
-			
 			// Will be affected by Expert (?) Slayer
 			"KING_3" : {
 				"type" : "KING",

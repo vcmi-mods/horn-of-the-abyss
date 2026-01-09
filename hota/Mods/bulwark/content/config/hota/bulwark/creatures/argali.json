@@ -33,8 +33,22 @@
 			"immuneToFrostRing" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.frostRing"
+			},
+			"spellDamageIncreaseAura" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"val" : -20,
+				"limiters" : [
+					"allOf",
+					"OPPOSITE_SIDE",
+					{
+						"type" : "UNIT_ADJACENT",
+						"creature" : "bulwarkArgali"
+					}
+				]
 			}
-			// new aura tech needed. should increase spell damage by 20% for adjacent enemies
 		},
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/argali.png",
