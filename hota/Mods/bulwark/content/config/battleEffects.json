@@ -1,0 +1,16 @@
+{
+	"colorMuxers" : {
+		"freezingShot" : [
+			{
+				"time" : 0.0,
+				"alpha" : 1.0
+			},
+			{
+				"time"  : 1.0,
+				// alternative from by003: "color" : [ 0.0, 0.7, 0.8, 1.0 ],
+				"color" : [0.3, 0.9, 1.0, 1.0],
+				"alpha" : 1.0
+			}
+		]
+	}
+}
