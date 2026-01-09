@@ -2,7 +2,7 @@
 	"core:creatureGeneratorCommon" : {
 		"types" : {
 			"waterfall" : {
-				"name" : "Waterfall",
+				"name" : "Nymph Waterfall",
 				"creatures" : [
 					[
 						"nymph"
@@ -150,7 +150,7 @@
 				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove6.def"
 			},
 			"whirpool" : {
-				"name" : "Whirpool",
+				"name" : "Maelstrom",
 				"creatures" : [
 					[
 						"seaserpent"

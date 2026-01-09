@@ -6,7 +6,8 @@
 					"animation" : "hota/cove/town/buildings/TBCVHALL",
 					"area" : "hota/cove/town/area/TBCVHALL",
 					"border" : "hota/cove/town/border/TBCVHALL",
-					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhal2",
+					// this is the town hall pic, there is no village hall pic, probably unused anyway
+					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvhall",
 					"x" : 0,
 					"y" : 176,
 					"z" : 1
