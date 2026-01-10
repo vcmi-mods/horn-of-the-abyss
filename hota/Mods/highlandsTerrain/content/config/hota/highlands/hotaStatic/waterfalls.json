@@ -13,7 +13,7 @@
 					"hotaAVLwtf00" : {
 						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf00",
 						"mask" : [
-							"VVBVV",
+							"VVVVV",
 							"VVBBV",
 							"VBBBV",
 							"VVVVV"
@@ -25,7 +25,7 @@
 					"hotaAVLwtf01" : {
 						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf01",
 						"mask" : [
-							"VVBVV",
+							"VVVVV",
 							"VBBBV",
 							"VBBBV",
 							"VVVVV"
@@ -37,7 +37,7 @@
 					"hotaAVLwtf02" : {
 						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf02",
 						"mask" : [
-							"VVBVV",
+							"VVVVV",
 							"VBBBV",
 							"VBBBV",
 							"VVVVV"

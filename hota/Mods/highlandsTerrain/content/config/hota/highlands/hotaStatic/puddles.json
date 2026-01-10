@@ -71,7 +71,7 @@
 					"avlhml07" : {
 						"animation" : "hota/highlands/hotaStatic/puddles/avlhml07",
 						"mask" : [
-							"V"
+							"VV"
 						],
 						"allowedTerrains" : [
 							"highlands"
