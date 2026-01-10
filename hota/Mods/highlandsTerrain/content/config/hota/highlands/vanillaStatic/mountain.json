@@ -30,9 +30,9 @@
 					"AVLMHS02" : {
 						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS02",
 						"mask" : [
-							"VVVVV",
-							"VBBBV",
-							"VBBVV"
+							"VVVV",
+							"VBBB",
+							"VBBV"
 						],
 						"allowedTerrains" : [
 							"highlands"
@@ -41,9 +41,9 @@
 					"AVLMHS03" : {
 						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS03",
 						"mask" : [
-							"VVVVV",
-							"VBBBV",
-							"VVBBV"
+							"VVVV",
+							"VBBB",
+							"VVBB"
 						],
 						"allowedTerrains" : [
 							"highlands"
@@ -52,9 +52,9 @@
 					"AVLMHS04" : {
 						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS04",
 						"mask" : [
-							"VVVVV",
-							"VVBBV",
-							"VBBVV"
+							"VVVV",
+							"VVBB",
+							"VBBV"
 						],
 						"allowedTerrains" : [
 							"highlands"
@@ -63,9 +63,9 @@
 					"AVLMHS05" : {
 						"animation" : "hota/highlands/vanillaStatic/mountains/AVLMHS05",
 						"mask" : [
-							"VVVVV",
-							"VBBVV",
-							"VVBBV"
+							"VVVV",
+							"VBBV",
+							"VVBB"
 						],
 						"allowedTerrains" : [
 							"highlands"
