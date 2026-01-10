@@ -1,12 +1,23 @@
 {
 	"name" : "Horn of the Abyss",
 	"modType" : "Expansion",
-	"author" : "Hota Crew, ported by VCMI Team & edeksumo & avatar. 1.7 ported by Ben, Fixes by Loki Laufeyjarson",
+	"author" : "VCMI Team, edeksumo, avatar, Loki Laufeyjarson, Ben, Karyoplasma. Assets created by HotA Crew",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.7.739",
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
+	"version" : "1.8.001",
 	"changelog" : {
+		"1.8.001" : [
+			"Added new town Bulwark",
+			"Updated DEF / PNG files base to 1.8.0 versions",
+			"Updated game balance submod as much as possible",
+			"Added multilanguages buttons to main menu submod",
+			"Fixed Ancient Altair",
+			"Fixed some objects mask"
+		],
 		"1.7.739" : [
 			"Updated Russian translation (by gxhxhdnxnfghdsjjjdffhctxsghshs-bit)",
 			"Fixed Cove puzzle map by Karyoplasma"
@@ -533,9 +544,6 @@
 			"Added HotA fonts",
 			"Small fixes"
 		]
-	},
-	"compatibility" : {
-		"min" : "1.7.0"
 	},
 	"settings" : {
 		"cheats" : {
