@@ -1,0 +1,10 @@
+{
+	"name" : "Russian voice",
+	"description" : "Russian voice",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
+	"depends" : [ "mega-pack-rus" ],
+	"softDepends" : [ "hota.maps" ]
+}
