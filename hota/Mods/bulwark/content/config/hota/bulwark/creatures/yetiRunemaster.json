@@ -30,9 +30,15 @@
 				"type" : "ENCHANTED",
 				"subtype" : "yetiCure",
 				"val" : 0,
-				"description" : "Recovers from negative effects in one round of combat."
-			}
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
+			},
 			// TODO: Runemaster (has Expert Runes. if hero also has runes secondary, values are doubled)
+			"runeMaster" : {
+				"type" : "NONE",
+				"icon" : "hota/bulwark/bonuses/runeMaster",
+				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\n{NOT IMPLEMENTED YET!}"
+			}
 		},
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",

@@ -32,6 +32,11 @@
 				"val" : 80,
 				"valueType" : "PERCENT_TO_ALL",
 				"limiters" : [ "UNIT_DEFENDING" ]
+			},
+			"showTheIcon" : {
+				"type" : "NONE",
+				"icon" : "hota/bulwark/bonuses/defensiveStance",
+				"description" : "{Defense Bonus}\nReceives +100% Defense while defending in combat."
 			}
 		},
 		"doubleWide" : true,

@@ -30,7 +30,8 @@
 			"castsTeleport" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.teleport",
-				"val" : 3
+				"val" : 3,
+				"icon" : "hota/bulwark/bonuses/castsTeleport"
 			},
 			"casts" : {
 				"type" : "CASTS",
@@ -52,7 +53,6 @@
 				],
 				"stacking" : "Jotunns"
 			},
-			// Will be affected by Expert (?) Slayer
 			"KING_3" : {
 				"type" : "KING",
 				"val" : 3

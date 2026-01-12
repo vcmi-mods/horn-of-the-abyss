@@ -33,7 +33,8 @@
 				"type" : "ENCHANTED",
 				"subtype" : "yetiCure",
 				"val" : 0,
-				"description" : "Recovers from negative effects in one round of combat."
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
 			}
 		},
 		"graphics" : {

@@ -35,7 +35,9 @@
 					"filteredCreature" : "bulwarkKoboldForeman"
 				},
 				"stacking" : "KoboldForemen",
-				"val" : 1
+				"val" : 1,
+				"icon" : "hota/bulwark/bonuses/goldMining",
+				"description" : "{Mining}\nGenerates 1 gold per unit per day."
 			}
 		},
 		"graphics" : {
