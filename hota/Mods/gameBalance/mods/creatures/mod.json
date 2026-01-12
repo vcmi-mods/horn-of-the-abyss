@@ -23,6 +23,13 @@
 			"translation/chinese.json"
 		]
 	},
+	"german" : {
+		"name" : "Kreaturen",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
 	"czech" : {
 		"name" : "Vlastnosti jednotek",
 		"description" : ""
