@@ -32,7 +32,7 @@
 				"val" : 0,
 				"icon" : "hota/bulwark/bonuses/yetiCure",
 				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
-			}
+			},
 			// TODO: Runemaster (has Expert Runes. if hero also has runes secondary, values are doubled)
 			"runeMaster" : {
 				"type" : "NONE",
