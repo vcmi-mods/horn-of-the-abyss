@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/tancred/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/tancred/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/tancred/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/tancred/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/tancred/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/tancred/icons/portraitSmall.png"
 		},

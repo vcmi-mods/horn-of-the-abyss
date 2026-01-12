@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/victoria/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/victoria/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/victoria/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/victoria/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/victoria/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/victoria/icons/portraitSmall.png"
 		},

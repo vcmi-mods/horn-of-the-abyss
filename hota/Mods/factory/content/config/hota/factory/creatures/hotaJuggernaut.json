@@ -28,8 +28,8 @@
 				"VVV",
 				"VAV"
 			],
-			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS016F.bmp",
-			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL016F.bmp",
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS016F.png",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL016F.png",
 			"timeBetweenFidgets" : 1,
 			"mapAttackFromRight" : "hota/factory/creatures/AVWattak/AvWat370",
 			"mapAttackFromLeft" : "hota/factory/creatures/AVWattak/AvWat371",

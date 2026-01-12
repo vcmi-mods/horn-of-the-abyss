@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/floribert/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/floribert/icons/portraitSmall.png"
 		},

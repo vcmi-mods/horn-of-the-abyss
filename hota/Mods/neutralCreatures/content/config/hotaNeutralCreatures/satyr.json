@@ -41,8 +41,8 @@
 			}
 		},
 		"graphics" : {
-			"iconSmall" : "hota/creatures/iconsSmall/CPrSm169.bmp",
-			"iconLarge" : "hota/creatures/iconsLarge/TwCrP169.bmp",
+			"iconSmall" : "hota/creatures/iconsSmall/CPrSm169.png",
+			"iconLarge" : "hota/creatures/iconsLarge/TwCrP169.png",
 			"map" : "hota/creatures/adventureMap/AvWSatyr.def",
 			"mapMask" : [
 				"VVV",

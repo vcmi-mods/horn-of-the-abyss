@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/bertram/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/bertram/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/bertram/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/bertram/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/bertram/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/bertram/icons/portraitSmall.png"
 		},

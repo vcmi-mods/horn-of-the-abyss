@@ -36,7 +36,7 @@
 			}
 		},
 		"graphics" : {
-			"iconSmall" : "hota/creatures/iconsSmall/CPrSm172.bmp",
+			"iconSmall" : "hota/creatures/iconsSmall/CPrSm172.png",
 			"iconLarge" : "hota/creatures/iconsLarge/TwCrP172.png",
 			"map" : "hota/creatures/adventureMap/avwslgl0.def",
 			"mapMask" : [

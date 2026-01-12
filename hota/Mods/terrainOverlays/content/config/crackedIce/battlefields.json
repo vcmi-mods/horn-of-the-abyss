@@ -1,6 +1,6 @@
 {
 	"cracked_ice" : {
-		"graphics" : "CmBkIce.BMP",
+		"graphics" : "CmBkIce.png",
 		"isSpecial" : true,
 		"bonuses" : [
 			{
