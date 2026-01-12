@@ -55,8 +55,6 @@
 				],
 				"stacking" : "Jotunns"
 			},
-			
-			// Will be affected by Expert (?) Slayer
 			"KING_3" : {
 				"type" : "KING",
 				"val" : 3
