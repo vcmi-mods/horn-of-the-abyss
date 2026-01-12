@@ -15,5 +15,12 @@
 		"translations" : [
 			"translation/chinese.json"
 		]
+	},
+	"german" : {
+		"name" : "Lernfähigkeit",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

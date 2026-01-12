@@ -1,0 +1,6 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{Fortgeschrittenes Pfadfinden}\n\nFortgeschrittenes Pfadfinden reduziert den Bewegungsmalus für unwegsames Gelände um 50 Punkte, bis zu minimalen Kosten von 90.",
+	"skill.core.pathfinding.description.basic" : "{Basis Pfadfinden}\n\nBasis Pfadfinden reduziert den Bewegungsmalus für unwegsames Gelände um 25 Punkte, bis zu minimalen Kosten von 95.",
+	"skill.core.pathfinding.description.expert" : "{Experten Pfadfinden}\n\nExperten Pfadfinden reduziert den Bewegungsmalus für unwegsames Gelände um 75 Punkte, bis zu minimalen Kosten von 85."
+}
+

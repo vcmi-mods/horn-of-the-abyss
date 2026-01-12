@@ -30,5 +30,12 @@
 		"translations" : [
 			"translation/chinese.json"
 		]
+	},
+	"german" : {
+		"name" : "Zusatzfähigkeiten-Symbole",
+		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

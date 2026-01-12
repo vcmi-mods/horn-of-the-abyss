@@ -24,6 +24,13 @@
 			"translation/czech.json"
 		]
 	},
+	"german" : {
+		"name" : "Mystik",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
 	"polish" : {
 		"name" : "Mysticism",
 		"description" : "",

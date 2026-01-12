@@ -1,0 +1,6 @@
+{
+	"skill.core.mysticism.description.advanced" : "{Fortgeschrittenes Mystik}\n\nFortgeschrittenes Mystik erlaubt es eurem Helden, pro Tag 10 Zauberpunkte oder 20 % der maximalen Zauberpunkte zu regenerieren (je nachdem, welcher Wert höher ist).",
+	"skill.core.mysticism.description.basic" : "{Basis Mystik}\n\nBasis Mystik erlaubt es eurem Helden, pro Tag 5 Zauberpunkte oder 10 % der maximalen Zauberpunkte zu regenerieren (je nachdem, welcher Wert höher ist).",
+	"skill.core.mysticism.description.expert" : "{Experten Mystik}\n\nExperten Mystik erlaubt es eurem Helden, pro Tag 15 Zauberpunkte oder 30 % der maximalen Zauberpunkte zu regenerieren (je nachdem, welcher Wert höher ist)."
+}
+

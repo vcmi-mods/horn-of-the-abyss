@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Fortgeschrittene Intelligenz}\n\nFortgeschrittene Intelligenz erhöht die normalen maximalen Zauberpunkte eines Helden um 35%.",
+	"skill.core.intelligence.description.basic" : "{Basis Intelligenz}\n\nBasis Intelligenz erhöht die normalen maximalen Zauberpunkte eines Helden um 20%.",
+	"skill.core.intelligence.description.expert" : "{Experten Intelligenz}\n\nExperten Intelligenz erhöht die normalen maximalen Zauberpunkte eines Helden um 50%."
+}
