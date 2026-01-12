@@ -17,8 +17,8 @@
 		"images" : {
 			"large" : "hota/factory/heroes/umender/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/umender/icons/portraitSmall.png",
-			"specialtyLarge" : "hota/factory/heroes/frederick/icons/specialtyLarge.bmp",
-			"specialtySmall" : "hota/factory/heroes/frederick/icons/specialtySmall.bmp"
+			"specialtyLarge" : "hota/factory/heroes/frederick/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/frederick/icons/specialtySmall.png"
 		},
 
 		"army" : [

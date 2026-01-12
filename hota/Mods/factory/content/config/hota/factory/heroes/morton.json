@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/morton/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/morton/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/morton/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/morton/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/morton/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/morton/icons/portraitSmall.png"
 		},

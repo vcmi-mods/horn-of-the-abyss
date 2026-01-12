@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/henrietta/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/henrietta/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/henrietta/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/henrietta/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/henrietta/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/henrietta/icons/portraitSmall.png"
 		},

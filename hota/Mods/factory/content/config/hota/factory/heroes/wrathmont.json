@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/wrathmont/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/wrathmont/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/wrathmont/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/wrathmont/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/wrathmont/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/wrathmont/icons/portraitSmall.png"
 		},

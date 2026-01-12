@@ -2,8 +2,8 @@
 	"factory" : {
 		"alignment" : "neutral",
 		"creatureBackground" : {
-			"120px" : "hota/factory/TPCASFAC.bmp",
-			"130px" : "hota/factory/CRBKGFAC.bmp"
+			"120px" : "hota/factory/TPCASFAC.png",
+			"130px" : "hota/factory/CRBKGFAC.png"
 		},
 		"name" : "Factory",
 		"nativeTerrain" : "wasteland",
@@ -724,7 +724,7 @@
 					"hotaJuggernaut"
 				]
 			],
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE.png",
 			"guildSpells" : {
 				"bless" : 3,
 				"bloodlust" : 5,
@@ -800,8 +800,8 @@
 				"sacrifice" : 0,
 				"waterElemental" : 0
 			},
-			"guildWindow" : "hota/factory/town-screen/CRBKGFAC.bmp",
-			"hallBackground" : "hota/factory/town-screen/TPTHBKFC.bmp",
+			"guildWindow" : "hota/factory/town-screen/CRBKGFAC.png",
+			"hallBackground" : "hota/factory/town-screen/TPTHBKFC.png",
 			"horde" : [
 				2,
 				-1
@@ -809,22 +809,22 @@
 			"icons" : {
 				"village" : {
 					"normal" : {
-						"small" : "hota/factory/town/icons/hall-small.bmp",
-						"large" : "hota/factory/town/icons/hall-big.bmp"
+						"small" : "hota/factory/town/icons/hall-small.png",
+						"large" : "hota/factory/town/icons/hall-big.png"
 					},
 					"built" : {
-						"small" : "hota/factory/town/icons/hall-builded-small.bmp",
-						"large" : "hota/factory/town/icons/hall-builded-big.bmp"
+						"small" : "hota/factory/town/icons/hall-builded-small.png",
+						"large" : "hota/factory/town/icons/hall-builded-big.png"
 					}
 				},
 				"fort" : {
 					"normal" : {
-						"small" : "hota/factory/town/icons/fort-small.bmp",
-						"large" : "hota/factory/town/icons/fort-big.bmp"
+						"small" : "hota/factory/town/icons/fort-small.png",
+						"large" : "hota/factory/town/icons/fort-big.png"
 					},
 					"built" : {
-						"small" : "hota/factory/town/icons/fort-builded-small.bmp",
-						"large" : "hota/factory/town/icons/fort-builded-big.bmp"
+						"small" : "hota/factory/town/icons/fort-builded-small.png",
+						"large" : "hota/factory/town/icons/fort-builded-big.png"
 					}
 				}
 			},
@@ -1359,7 +1359,7 @@
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",
-			"townBackground" : "hota/factory/town-screen/TBFaBack.bmp",
+			"townBackground" : "hota/factory/town-screen/TBFaBack.png",
 			"moatAbility" : "castleMoat",
 			"hallSlots" : [
 				[

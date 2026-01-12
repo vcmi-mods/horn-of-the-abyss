@@ -26,11 +26,11 @@
 			"special" : true
 		},
 		"graphics" : {
-			"iconBook" : "artifactsCampaignBonuses/fakehornEffect.bmp",
-			"iconScroll" : "artifactsCampaignBonuses/fakehornScroll.bmp",
-			"iconScenarioBonus" : "artifactsCampaignBonuses/fakehornScene.bmp",
-			"iconImmune" : "artifactsCampaignBonuses/fakehornImmune.bmp",
-			"iconEffect" : "artifactsCampaignBonuses/fakehornEffect.bmp"
+			"iconBook" : "artifactsCampaignBonuses/fakehornEffect.png",
+			"iconScroll" : "artifactsCampaignBonuses/fakehornScroll.png",
+			"iconScenarioBonus" : "artifactsCampaignBonuses/fakehornScene.png",
+			"iconImmune" : "artifactsCampaignBonuses/fakehornImmune.png",
+			"iconEffect" : "artifactsCampaignBonuses/fakehornEffect.png"
 		},
 		"targetCondition" : {
 			"noneOf" : {

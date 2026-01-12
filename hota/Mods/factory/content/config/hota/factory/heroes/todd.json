@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/todd/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/todd/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/todd/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/todd/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/todd/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/todd/icons/portraitSmall.png"
 		},

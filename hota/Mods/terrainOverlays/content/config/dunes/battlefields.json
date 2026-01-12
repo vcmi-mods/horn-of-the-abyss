@@ -1,6 +1,6 @@
 {
 	"dunes" : {
-		"graphics" : "CmBkDun.BMP",
+		"graphics" : "CmBkDun.png",
 		"isSpecial" : true,
 		"bonuses" : [
 			{

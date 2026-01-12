@@ -43,7 +43,7 @@
 		},
 
 		"graphics" : {
-			"iconEffect" : "hota/factory/spells/detonates.bmp"
+			"iconEffect" : "hota/factory/spells/detonates.png"
 		},
 
 		"sounds" : {

@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/agar/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/agar/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/agar/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/agar/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/agar/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/agar/icons/portraitSmall.png"
 		},

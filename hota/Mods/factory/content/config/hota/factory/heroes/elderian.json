@@ -17,8 +17,8 @@
 		"images" : {
 			"large" : "hota/factory/heroes/elderian/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/elderian/icons/portraitSmall.png",
-			"specialtyLarge" : "hota/factory/heroes/todd/icons/specialtyLarge.bmp",
-			"specialtySmall" : "hota/factory/heroes/todd/icons/specialtySmall.bmp"
+			"specialtyLarge" : "hota/factory/heroes/todd/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/todd/icons/specialtySmall.png"
 		},
 
 		"army" : [

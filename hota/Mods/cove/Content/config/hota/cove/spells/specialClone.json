@@ -31,11 +31,11 @@
 			"cast" : "CLONE"
 		},
 		"graphics" : {
-			"iconImmune" : "hota/cove/spells/specialCloneSpell.bmp",
-			"iconScenarioBonus" : "hota/cove/spells/specialCloneSpell.bmp",
-			"iconEffect" : "hota/cove/spells/specialCloneSpell.bmp",
-			"iconBook" : "hota/cove/spells/specialCloneSpell.bmp",
-			"iconScroll" : "hota/cove/spells/specialCloneSpell.bmp"
+			"iconImmune" : "hota/cove/spells/specialCloneSpell.png",
+			"iconScenarioBonus" : "hota/cove/spells/specialCloneSpell.png",
+			"iconEffect" : "hota/cove/spells/specialCloneSpell.png",
+			"iconBook" : "hota/cove/spells/specialCloneSpell.png",
+			"iconScroll" : "hota/cove/spells/specialCloneSpell.png"
 		},
 		"levels" : {
 			"base" : {

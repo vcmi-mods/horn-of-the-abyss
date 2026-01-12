@@ -15,8 +15,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/tavin/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/tavin/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/tavin/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/tavin/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/tavin/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/tavin/icons/portraitSmall.png"
 		},

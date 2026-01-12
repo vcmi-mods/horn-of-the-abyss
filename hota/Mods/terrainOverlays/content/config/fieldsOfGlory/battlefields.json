@@ -1,6 +1,6 @@
 {
 	"fields_of_glory" : {
-		"graphics" : "cmbkflgl.BMP",
+		"graphics" : "cmbkflgl.png",
 		"isSpecial" : true,
 		"bonuses" : [
 			{

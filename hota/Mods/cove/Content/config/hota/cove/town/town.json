@@ -6,7 +6,7 @@
 			"defaultTavern" : 5,
 			"townBackground" : "hota/cove/town/background",
 			"hallBackground" : "TPTHBKDG",
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE.png",
 			"guildWindow" : "hota/cove/town/mageguild",
 			"buildingsIcons" : "hota/cove/town/townhall",
 
@@ -141,22 +141,22 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "hota/cove/town/icons/fortbuildedlarge.bmp",
-						"small" : "hota/cove/town/icons/fortbuildedsmall.bmp"
+						"large" : "hota/cove/town/icons/fortbuildedlarge.png",
+						"small" : "hota/cove/town/icons/fortbuildedsmall.png"
 					},
 					"normal" : {
-						"large" : "hota/cove/town/icons/fortlarge.bmp",
-						"small" : "hota/cove/town/icons/fortsmall.bmp"
+						"large" : "hota/cove/town/icons/fortlarge.png",
+						"small" : "hota/cove/town/icons/fortsmall.png"
 					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "hota/cove/town/icons/hallbuildedlarge.bmp",
-						"small" : "hota/cove/town/icons/hallbuildedsmall.bmp"
+						"large" : "hota/cove/town/icons/hallbuildedlarge.png",
+						"small" : "hota/cove/town/icons/hallbuildedsmall.png"
 					},
 					"normal" : {
-						"large" : "hota/cove/town/icons/halllarge.bmp",
-						"small" : "hota/cove/town/icons/hallsmall.bmp"
+						"large" : "hota/cove/town/icons/halllarge.png",
+						"small" : "hota/cove/town/icons/hallsmall.png"
 					}
 				}
 			},

@@ -12,8 +12,8 @@
 				"VVV",
 				"VAV"
 			],
-			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS001F.bmp",
-			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL001F.bmp"
+			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS001F.png",
+			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL001F.png"
 		},
 		"upgrades" : [
 			"halflingGrenadier"

@@ -48,8 +48,8 @@
 			}
 		},
 		"graphics" : {
-			"iconSmall" : "hota/cove/commander/icons/blackBeardSmall.bmp",
-			"iconLarge" : "hota/cove/commander/icons/blackBeardLarge.bmp",
+			"iconSmall" : "hota/cove/commander/icons/blackBeardSmall.png",
+			"iconLarge" : "hota/cove/commander/icons/blackBeardLarge.png",
 			"map" : "hota/cove/commander/adventureMap/blackBeard.def",
 			"animation" : "hota/cove/commander/battle/blackBeard.def",
 			"timeBetweenFidgets" : 1,

@@ -29,7 +29,7 @@
 		},
 
 		"graphics" : {
-			"iconEffect" : "hota/factory/spells/sandEffect.bmp"
+			"iconEffect" : "hota/factory/spells/sandEffect.png"
 		},
 		"sounds" : {
 			"cast" : "ENERMOVE" //fear snd

@@ -5,7 +5,7 @@
 			"defaultTavern" : 5,
 			"townBackground" : "hota/bulwark/town/background",
 			"hallBackground" : "TPTHBKFR",
-			"guildBackground" : "TPMAGE.bmp",
+			"guildBackground" : "TPMAGE.png",
 			"guildWindow" : "hota/bulwark/town/mageguild",
 			"buildingsIcons" : "hota/bulwark/town/townhall",
 
@@ -134,22 +134,22 @@
 			"icons" : {
 				"fort" : {
 					"built" : {
-						"large" : "hota/bulwark/town/icons/fortBuiltLarge.bmp",
-						"small" : "hota/bulwark/town/icons/fortBuiltSmall.bmp"
+						"large" : "hota/bulwark/town/icons/fortBuiltLarge.png",
+						"small" : "hota/bulwark/town/icons/fortBuiltSmall.png"
 					},
 					"normal" : {
-						"large" : "hota/bulwark/town/icons/fortLarge.bmp",
-						"small" : "hota/bulwark/town/icons/fortSmall.bmp"
+						"large" : "hota/bulwark/town/icons/fortLarge.png",
+						"small" : "hota/bulwark/town/icons/fortSmall.png"
 					}
 				},
 				"village" : {
 					"built" : {
-						"large" : "hota/bulwark/town/icons/hallBuiltLarge.bmp",
-						"small" : "hota/bulwark/town/icons/hallBuiltSmall.bmp"
+						"large" : "hota/bulwark/town/icons/hallBuiltLarge.png",
+						"small" : "hota/bulwark/town/icons/hallBuiltSmall.png"
 					},
 					"normal" : {
-						"large" : "hota/bulwark/town/icons/hallLarge.bmp",
-						"small" : "hota/bulwark/town/icons/hallSmall.bmp"
+						"large" : "hota/bulwark/town/icons/hallLarge.png",
+						"small" : "hota/bulwark/town/icons/hallSmall.png"
 					}
 				}
 			},

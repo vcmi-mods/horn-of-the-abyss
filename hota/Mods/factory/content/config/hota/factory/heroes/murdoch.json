@@ -15,8 +15,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/murdoch/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/murdoch/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/murdoch/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/murdoch/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/murdoch/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/murdoch/icons/portraitSmall.png"
 		},

@@ -36,7 +36,7 @@
 		"canCastOnSelf" : true,
 		"canCastOnlyOnSelf" : true,
 		"graphics" : {
-			"iconEffect" : "hota/factory/spells/medi001.bmp"
+			"iconEffect" : "hota/factory/spells/medi001.png"
 		},
 		"sounds" : {
 			"cast" : "ENERMOVE" //fear snd

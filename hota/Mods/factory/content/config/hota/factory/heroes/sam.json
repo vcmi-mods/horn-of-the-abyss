@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/sam/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/sam/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/sam/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/sam/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/sam/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/sam/icons/portraitSmall.png"
 		},

@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/celestine/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/celestine/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/celestine/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/celestine/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/celestine/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/celestine/icons/portraitSmall.png"
 		},

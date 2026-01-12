@@ -14,8 +14,8 @@
 		},
 
 		"images" : {
-			"specialtySmall" : "hota/factory/heroes/ziph/icons/specialtySmall.bmp",
-			"specialtyLarge" : "hota/factory/heroes/ziph/icons/specialtyLarge.bmp",
+			"specialtySmall" : "hota/factory/heroes/ziph/icons/specialtySmall.png",
+			"specialtyLarge" : "hota/factory/heroes/ziph/icons/specialtyLarge.png",
 			"large" : "hota/factory/heroes/ziph/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/ziph/icons/portraitSmall.png"
 		},

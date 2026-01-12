@@ -17,8 +17,8 @@
 		"images" : {
 			"large" : "hota/factory/heroes/valquest/icons/portraitLarge.png",
 			"small" : "hota/factory/heroes/valquest/icons/portraitSmall.png",
-			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.bmp",
-			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.bmp"
+			"specialtyLarge" : "hota/factory/heroes/floribert/icons/specialtyLarge.png",
+			"specialtySmall" : "hota/factory/heroes/floribert/icons/specialtySmall.png"
 		},
 
 		"army" : [
