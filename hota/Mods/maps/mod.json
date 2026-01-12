@@ -11,7 +11,10 @@
 	"depends" : [
 		"hota.mapsupport"
 	],
-	"softDepends" :  ["polish-translation", "mega-pack-rus"],
+	"softDepends" : [
+		"polish-translation",
+		"mega-pack-rus"
+	],
 	"changelog" : {
 		"1.2" : [
 			"Added all 5 campaigns prolog / epilog English AI generated voice",

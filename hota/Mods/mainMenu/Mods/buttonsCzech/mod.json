@@ -5,6 +5,11 @@
 	"modType" : "Compatibility",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"depends" : [ "czech-translation" ],
-	"softDepends" : [ "hota.mainMenu", "hota.mainMenu.mainMenuLegacy" ]
+	"depends" : [
+		"czech-translation"
+	],
+	"softDepends" : [
+		"hota.mainMenu",
+		"hota.mainMenu.mainMenuLegacy"
+	]
 }

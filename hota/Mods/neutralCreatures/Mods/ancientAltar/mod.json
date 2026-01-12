@@ -10,7 +10,9 @@
 			"Initial release"
 		]
 	},
-	"depends" : [ "hota.cove"],
+	"depends" : [
+		"hota.cove"
+	],
 	"objects" : [
 		"config/hotaBanks/ancientAltar.json"
 	]

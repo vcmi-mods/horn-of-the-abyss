@@ -122,7 +122,10 @@
 							"marketplace"
 						]
 					],
-					"marketModes" : ["resource-resource", "resource-player"]
+					"marketModes" : [
+						"resource-resource",
+						"resource-player"
+					]
 				},
 				"special2" : {
 					"name" : "Sieidi of Runes",
@@ -137,19 +140,22 @@
 					"configuration" : {
 						"visitMode" : "limiter",
 						"visitLimiter" : {
-							"secondary": {
+							"secondary" : {
 								"runes" : 1
 							}
 						},
 						"onVisitedMessage" : "Your hero has already mastered the lore of the Runes.",
 						"selectMode" : "selectFirst",
-						"canRefuse": true,
+						"canRefuse" : true,
 						"rewards" : [
 							{
 								"limiter" : {
 									"anyOf" : [
 										{
-											"heroClasses" : [ "elder", "chieftain" ],
+											"heroClasses" : [
+												"elder",
+												"chieftain"
+											],
 											"canLearnSkills" : true
 										},
 										{
@@ -161,7 +167,7 @@
 									]
 								},
 								"message" : "Do you want your hero to master the lore of the Runes?\n\n{Runes secondary skill is not implemented yet and is not functioning!!!}",
-								"secondary": [
+								"secondary" : [
 									{
 										"type" : "runes",
 										"amount" : 1
@@ -174,7 +180,10 @@
 								"limiter" : {
 									"anyOf" : [
 										{
-											"heroClasses" : [ "elder", "chieftain" ]
+											"heroClasses" : [
+												"elder",
+												"chieftain"
+											]
 										},
 										{
 											"secondary" : {
@@ -223,12 +232,12 @@
 				"grail" : {
 					"name" : "Spirits of the Forebears",
 					"description" : "The Spirits of the Forebears increase weekly creature generation by 50%, provide your kingdom with an additional 5000 gold each day, and increase the Defence strength of a garrison hero by +20 when defending against a siege.",
-					"bonuses": [
-						{ 
-							"type": "PRIMARY_SKILL",
-							"subtype": "primarySkill.defence", 
-							"val": 20
-						} 
+					"bonuses" : [
+						{
+							"type" : "PRIMARY_SKILL",
+							"subtype" : "primarySkill.defence",
+							"val" : 20
+						}
 					]
 				},
 
@@ -312,7 +321,7 @@
 						"ore" : 5
 					},
 					"requires" : [
-							"dwellingLvl2"
+						"dwellingLvl2"
 					]
 				},
 				"dwellingLvl4" : {

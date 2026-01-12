@@ -5,31 +5,34 @@
 		"targetType" : "NO_TARGET",
 		"level" : 3,
 		"power" : 0,
-		"school" : {
-		},
+		"school" : {},
 		"flags" : {
-			"negative": true,
+			"negative" : true,
 			"special" : true
 		},
-		"gainChance" : {
-		},
-		"defaultGainChance": 0,
-		"sounds": {
+		"gainChance" : {},
+		"defaultGainChance" : 0,
+		"sounds" : {
 			"cast" : "hota/bulwark/spells/FREEZE"
 		},
-		"animation":{
-			"affect":[ 
-				{ "effectName" : "freezingShot", "transparency" : 0.5 } 
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "freezingShot",
+					"transparency" : 0.5
+				}
 			]
 		},
 		"graphics" : {
 			"iconEffect" : "hota/bulwark/spells/freezingShot.png"
 		},
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
 				"power" : 0,
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"notActive" : {
 						"val" : 0,
@@ -45,8 +48,8 @@
 						"type" : "GENERAL_DAMAGE_REDUCTION",
 						"val" : -25,
 						"duration" : [
-						    "UNTIL_BEING_ATTACKED",
-						    "N_TURNS"
+							"UNTIL_BEING_ATTACKED",
+							"N_TURNS"
 						],
 						"turns" : 3
 					}

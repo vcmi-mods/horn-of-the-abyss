@@ -1,12 +1,11 @@
 {
-	"yetiCure": {
+	"yetiCure" : {
 		"flags" : {
 			"positive" : true,
 			"special" : true
 		},
-		"gainChance" : {
-		},
-		"defaultGainChance": 0, 
+		"gainChance" : {},
+		"defaultGainChance" : 0,
 		"level" : 0,
 		"levels" : {
 			"base" : {
@@ -17,7 +16,7 @@
 						"dispelPositive" : false,
 						"optional" : true,
 						"type" : "core:dispel"
-					},
+					}
 				},
 				"power" : 0,
 				"range" : "0",

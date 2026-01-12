@@ -1,6 +1,6 @@
 {
 	"core:waterElemental" : {
-		"abilities" : {			
+		"abilities" : {
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.freezingShot",

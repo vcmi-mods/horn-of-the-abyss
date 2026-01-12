@@ -1,49 +1,181 @@
 {
 	"basepath" : "hota/bulwark/town/townhall/",
 	"images" : [
-		{ "frame" : 0, "file" : "hallblwkA000.png" },
-		{ "frame" : 1, "file" : "hallblwkA001.png" },
-		{ "frame" : 2, "file" : "hallblwkA002.png" },
-		{ "frame" : 3, "file" : "hallblwkA003.png" },
-		{ "frame" : 4, "file" : "hallblwkA004.png" },
-		{ "frame" : 5, "file" : "hallblwkA005.png" },
-		{ "frame" : 6, "file" : "hallblwkA006.png" },
-		{ "frame" : 7, "file" : "hallblwkA007.png" },
-		{ "frame" : 8, "file" : "hallblwkA008.png" },
-		{ "frame" : 9, "file" : "hallblwkA009.png" },
-		{ "frame" : 10, "file" : "hallblwkA010.png" },
-		{ "frame" : 11, "file" : "hallblwkA011.png" },
-		{ "frame" : 12, "file" : "hallblwkA012.png" },
-		{ "frame" : 13, "file" : "hallblwkA013.png" },
-		{ "frame" : 14, "file" : "hallblwkA014.png" },
-		{ "frame" : 15, "file" : "hallblwkA015.png" },
-		{ "frame" : 16, "file" : "hallblwkA016.png" },
-		{ "frame" : 17, "file" : "hallblwkA017.png" },
-		{ "frame" : 18, "file" : "hallblwkA018.png" },
-		{ "frame" : 19, "file" : "hallblwkA019.png" },
-		{ "frame" : 20, "file" : "hallblwkA020.png" },
-		{ "frame" : 21, "file" : "hallblwkA021.png" },
-		{ "frame" : 22, "file" : "hallblwkA022.png" },
-		{ "frame" : 23, "file" : "hallblwkA023.png" },
-		{ "frame" : 24, "file" : "hallblwkA024.png" },
-		{ "frame" : 25, "file" : "hallblwkA025.png" },
-		{ "frame" : 26, "file" : "hallblwkA026.png" },
-		{ "frame" : 27, "file" : "hallblwkA027.png" },
-		{ "frame" : 28, "file" : "hallblwkA028.png" },
-		{ "frame" : 29, "file" : "hallblwkA029.png" },
-		{ "frame" : 30, "file" : "hallblwkA030.png" },
-		{ "frame" : 31, "file" : "hallblwkA031.png" },
-		{ "frame" : 32, "file" : "hallblwkA032.png" },
-		{ "frame" : 33, "file" : "hallblwkA033.png" },
-		{ "frame" : 34, "file" : "hallblwkA034.png" },
-		{ "frame" : 35, "file" : "hallblwkA035.png" },
-		{ "frame" : 36, "file" : "hallblwkA036.png" },
-		{ "frame" : 37, "file" : "hallblwkA037.png" },
-		{ "frame" : 38, "file" : "hallblwkA038.png" },
-		{ "frame" : 39, "file" : "hallblwkA039.png" },
-		{ "frame" : 40, "file" : "hallblwkA040.png" },
-		{ "frame" : 41, "file" : "hallblwkA041.png" },
-		{ "frame" : 42, "file" : "hallblwkA042.png" },
-		{ "frame" : 43, "file" : "hallblwkA043.png" }
+		{
+			"frame" : 0,
+			"file" : "hallblwkA000.png"
+		},
+		{
+			"frame" : 1,
+			"file" : "hallblwkA001.png"
+		},
+		{
+			"frame" : 2,
+			"file" : "hallblwkA002.png"
+		},
+		{
+			"frame" : 3,
+			"file" : "hallblwkA003.png"
+		},
+		{
+			"frame" : 4,
+			"file" : "hallblwkA004.png"
+		},
+		{
+			"frame" : 5,
+			"file" : "hallblwkA005.png"
+		},
+		{
+			"frame" : 6,
+			"file" : "hallblwkA006.png"
+		},
+		{
+			"frame" : 7,
+			"file" : "hallblwkA007.png"
+		},
+		{
+			"frame" : 8,
+			"file" : "hallblwkA008.png"
+		},
+		{
+			"frame" : 9,
+			"file" : "hallblwkA009.png"
+		},
+		{
+			"frame" : 10,
+			"file" : "hallblwkA010.png"
+		},
+		{
+			"frame" : 11,
+			"file" : "hallblwkA011.png"
+		},
+		{
+			"frame" : 12,
+			"file" : "hallblwkA012.png"
+		},
+		{
+			"frame" : 13,
+			"file" : "hallblwkA013.png"
+		},
+		{
+			"frame" : 14,
+			"file" : "hallblwkA014.png"
+		},
+		{
+			"frame" : 15,
+			"file" : "hallblwkA015.png"
+		},
+		{
+			"frame" : 16,
+			"file" : "hallblwkA016.png"
+		},
+		{
+			"frame" : 17,
+			"file" : "hallblwkA017.png"
+		},
+		{
+			"frame" : 18,
+			"file" : "hallblwkA018.png"
+		},
+		{
+			"frame" : 19,
+			"file" : "hallblwkA019.png"
+		},
+		{
+			"frame" : 20,
+			"file" : "hallblwkA020.png"
+		},
+		{
+			"frame" : 21,
+			"file" : "hallblwkA021.png"
+		},
+		{
+			"frame" : 22,
+			"file" : "hallblwkA022.png"
+		},
+		{
+			"frame" : 23,
+			"file" : "hallblwkA023.png"
+		},
+		{
+			"frame" : 24,
+			"file" : "hallblwkA024.png"
+		},
+		{
+			"frame" : 25,
+			"file" : "hallblwkA025.png"
+		},
+		{
+			"frame" : 26,
+			"file" : "hallblwkA026.png"
+		},
+		{
+			"frame" : 27,
+			"file" : "hallblwkA027.png"
+		},
+		{
+			"frame" : 28,
+			"file" : "hallblwkA028.png"
+		},
+		{
+			"frame" : 29,
+			"file" : "hallblwkA029.png"
+		},
+		{
+			"frame" : 30,
+			"file" : "hallblwkA030.png"
+		},
+		{
+			"frame" : 31,
+			"file" : "hallblwkA031.png"
+		},
+		{
+			"frame" : 32,
+			"file" : "hallblwkA032.png"
+		},
+		{
+			"frame" : 33,
+			"file" : "hallblwkA033.png"
+		},
+		{
+			"frame" : 34,
+			"file" : "hallblwkA034.png"
+		},
+		{
+			"frame" : 35,
+			"file" : "hallblwkA035.png"
+		},
+		{
+			"frame" : 36,
+			"file" : "hallblwkA036.png"
+		},
+		{
+			"frame" : 37,
+			"file" : "hallblwkA037.png"
+		},
+		{
+			"frame" : 38,
+			"file" : "hallblwkA038.png"
+		},
+		{
+			"frame" : 39,
+			"file" : "hallblwkA039.png"
+		},
+		{
+			"frame" : 40,
+			"file" : "hallblwkA040.png"
+		},
+		{
+			"frame" : 41,
+			"file" : "hallblwkA041.png"
+		},
+		{
+			"frame" : 42,
+			"file" : "hallblwkA042.png"
+		},
+		{
+			"frame" : 43,
+			"file" : "hallblwkA043.png"
+		}
 	]
 }

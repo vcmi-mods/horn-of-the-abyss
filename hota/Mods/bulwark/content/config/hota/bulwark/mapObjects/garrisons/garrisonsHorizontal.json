@@ -1,7 +1,7 @@
 {
-	 "core:garrisonHorizontal" : {
-        "types" : {
-            "antiMagic" : {
+	"core:garrisonHorizontal" : {
+		"types" : {
+			"antiMagic" : {
 				"templates" : {
 					"garMPaH0" : {
 						"animation" : "hota/bulwark/mapObjects/garrisons/garMPaH0",
@@ -14,8 +14,7 @@
 							"VVVV",
 							"VBAB"
 						],
-						"allowedTerrains" : [
-						]
+						"allowedTerrains" : []
 					},
 					"garMPSH0" : {
 						"animation" : "hota/bulwark/mapObjects/garrisons/garMPSH0",
@@ -51,6 +50,6 @@
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

@@ -1,10 +1,9 @@
 {
-	 "glacier" :
-    {
-        "name": "Glacier",
-        "handler" : "static",
-        "types" : {
-            "glacier" : {
+	"glacier" : {
+		"name" : "Glacier",
+		"handler" : "static",
+		"types" : {
+			"glacier" : {
 				"templates" : {
 					"AVLGLC01" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC01",
@@ -16,8 +15,8 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					},
 					"AVLGLC02" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC02",
@@ -29,8 +28,8 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					},
 					"AVLGLC03" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC03",
@@ -41,8 +40,8 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					},
 					"AVLGLC04" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC04",
@@ -53,8 +52,8 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					},
 					"AVLGLC05" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC05",
@@ -65,8 +64,8 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					},
 					"AVLGLC06" : {
 						"animation" : "hota/bulwark/mapObjects/static/AVLGLC06",
@@ -77,11 +76,11 @@
 						],
 						"allowedTerrains" : [
 							"snow"
-						],
-//						"zIndex" : 100
+						]
+						//						"zIndex" : 100
 					}
 				}
 			}
-        }
-    }
+		}
+	}
 }

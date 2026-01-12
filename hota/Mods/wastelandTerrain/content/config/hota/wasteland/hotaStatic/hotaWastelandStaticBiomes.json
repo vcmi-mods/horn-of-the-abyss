@@ -39,16 +39,16 @@
 			"objectType" : "animal"
 		},
 		"templates" : [
-				"AVLskul0Hota",
-				"AVLskul1",
-				"AVLskul2",
-				"AVLskul3",
-				"AVLwcsk0",
-				"AVLbon00",
-				"AVLbon01",
-				"AVLbon02",
-				"AVLbon03",
-				"jaws"
+			"AVLskul0Hota",
+			"AVLskul1",
+			"AVLskul2",
+			"AVLskul3",
+			"AVLwcsk0",
+			"AVLbon00",
+			"AVLbon01",
+			"AVLbon02",
+			"AVLbon03",
+			"jaws"
 		]
 	}
 }

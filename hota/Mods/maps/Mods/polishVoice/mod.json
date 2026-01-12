@@ -5,6 +5,10 @@
 	"modType" : "Compatibility",
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	"depends" : [ "polish-translation" ],
-	"softDepends" : [ "hota.maps" ]
+	"depends" : [
+		"polish-translation"
+	],
+	"softDepends" : [
+		"hota.maps"
+	]
 }

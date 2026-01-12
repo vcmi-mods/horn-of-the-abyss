@@ -8,10 +8,12 @@
 				"description" : "50% chance of getting 300-500 Gold\n25% chance of getting 3-5 Gremlins.\n25% chance of getting 3-5 Kobolds.",
 				"visitMode" : "once",
 				"onVisitedMessage" : "{Trapper Lodge}\n\nSomeone has already been in the lodge. Nothing's left here.",
-				"canRefuse": true,
+				"canRefuse" : true,
 				"showScoutedPreview" : true,
 				"sounds" : {
-					"visit" : [ "STORE" ]
+					"visit" : [
+						"STORE"
+					]
 				},
 				"rmg" : {
 					"value" : 500,
@@ -38,7 +40,10 @@
 						},
 						"creatures" : [
 							{
-								"anyOf" : [	"gremlin", "bulwarkKobold" ],
+								"anyOf" : [
+									"gremlin",
+									"bulwarkKobold"
+								],
 								"min" : 3,
 								"max" : 5
 							}

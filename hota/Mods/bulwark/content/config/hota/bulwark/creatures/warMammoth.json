@@ -31,7 +31,9 @@
 				"subtype" : "defence",
 				"val" : 80,
 				"valueType" : "PERCENT_TO_ALL",
-				"limiters" : [ "UNIT_DEFENDING" ]
+				"limiters" : [
+					"UNIT_DEFENDING"
+				]
 			},
 			"showTheIcon" : {
 				"type" : "NONE",

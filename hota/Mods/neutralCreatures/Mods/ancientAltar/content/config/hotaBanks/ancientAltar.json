@@ -27,11 +27,13 @@
 						"hota/HORNALTR"
 					]
 				},
-				"compatibilityIdentifiers" : [ "object" ],				
-//				"rmg" : {
-//					"value" :  20000,
-//					"rarity" : 20
-//				},
+				"compatibilityIdentifiers" : [
+					"object"
+				],
+				//				"rmg" : {
+				//					"value" :  20000,
+				//					"rarity" : 20
+				//				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\r\nDo you want to fight them?",
 				"onVisitedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
@@ -51,7 +53,9 @@
 								"type" : "haspid"
 							}
 						],
-						"artifacts" : [ "hornOfTheAbyss" ]
+						"artifacts" : [
+							"hornOfTheAbyss"
+						]
 					}
 				]
 			}

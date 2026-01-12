@@ -5,9 +5,17 @@
 	"modType" : "Interface",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
-	
-	"softDepends" :  ["chinese-translation", "czech-translation", "german-translation", "polish-translation", "mega-pack-rus", "spanish-translation", "vcmi-mod-ce-ukr"],
-	
+
+	"softDepends" : [
+		"chinese-translation",
+		"czech-translation",
+		"german-translation",
+		"polish-translation",
+		"mega-pack-rus",
+		"spanish-translation",
+		"vcmi-mod-ce-ukr"
+	],
+
 	"conflicts" : [
 		"h3-themes.ab",
 		"h3-themes.beta",
