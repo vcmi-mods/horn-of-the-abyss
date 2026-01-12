@@ -1,0 +1,48 @@
+{
+    "MAPS/H1ROGER" : { // H1ROGER
+        "scenarios": [
+            { "voiceProlog": "ROGER1" },
+            { "voiceProlog": "ROGER2" },
+            { "voiceProlog": "ROGER3", "voiceEpilog": "ROGER4" }
+        ]
+    },
+    "MAPS/H2TERROR" : { // H2TERROR
+        "scenarios": [
+            { "voiceProlog": "TERROR1" },
+            { "voiceProlog": "TERROR2" },
+            { "voiceProlog": "TERROR3" },
+            { "voiceProlog": "TERROR4" },
+            { "voiceProlog": "TERROR5" },
+            { "voiceProlog": "TERROR6", "voiceEpilog": "TERROR7" }
+        ]
+    },
+    "MAPS/H3HORN" : { // H3HORN
+        "scenarios": [
+            { "voiceProlog": "HORN1" },
+            { "voiceProlog": "HORN2" },
+            { "voiceProlog": "HORN3" },
+            { "voiceProlog": "HORN4", "voiceEpilog": "HORN5" }
+        ]
+    },
+    "MAPS/H4FACT" : { // H4FACT
+        "scenarios": [
+            { "voiceProlog": "FACT01", "voiceEpilog": "FACT02" },
+            { "voiceProlog": "FACT03", "voiceEpilog": "FACT04" },
+            { "voiceProlog": "FACT05", "voiceEpilog": "FACT06" },
+            { "voiceProlog": "FACT07", "voiceEpilog": "FACT08" },
+            { "voiceProlog": "FACT09", "voiceEpilog": "FACT11" }, // { "voiceProlog2": "FACT10", "voiceEpilog2": "FACT12" }
+            { "voiceProlog": "FACT13", "voiceEpilog": "FACT14" },
+            { "voiceProlog": "FACT15", "voiceEpilog": "FACT16" },
+            { "voiceProlog": "FACT17", "voiceEpilog": "FACT18" }
+        ]
+    },
+    "MAPS/H5ALLIN" : { // H5ALLIN
+        "scenarios": [
+            { "voiceProlog": "ALLIN1" },
+            { "voiceProlog": "ALLIN2" },
+            { "voiceProlog": "ALLIN3" },
+            { "voiceProlog": "ALLIN4" },
+            { "voiceProlog": "ALLIN5", "voiceEpilog": "ALLIN6" }
+        ]
+    }
+}
