@@ -23,5 +23,12 @@
 		"translations" : [
 			"translation/chinese.json"
 		]
+	},
+	"german" : {
+		"name" : "Erste Hilfe",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

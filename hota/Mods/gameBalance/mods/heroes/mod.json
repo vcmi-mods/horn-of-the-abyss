@@ -174,5 +174,12 @@
 	"czech" : {
 		"name" : "Hrdinové",
 		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem"
+	},
+	"german" : {
+		"name" : "Helden",
+		"description" : "Ändert die Anfangs-Spezialfähigkeiten von Yoland, Tima und Jenny",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

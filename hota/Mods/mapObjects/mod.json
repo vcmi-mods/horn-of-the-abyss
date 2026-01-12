@@ -38,6 +38,13 @@
 			"translation/mapObjects/czech.json"
 		]
 	},
+	"german" : {
+		"name" : "Neue Objekte",
+		"description" : "Die Mod fügt mehrere neue Objekte, erstellt vom HotA-Team, zu VCMI hinzu, die auf zufälligen Karten verfügbar sind.",
+		"translations" : [
+			"translation/mapObjects/german.json"
+		]
+	},
 	"polish" : {
 		"name" : "Nowe obiekty",
 		"description" : "Mod dodaje wiele nowych obiektów stworzonych przez HotA Crew do VCMI, które pojawiają się na mapach losowych",

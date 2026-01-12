@@ -1,0 +1,5 @@
+{
+	"skill.core.necromancy.description.advanced" : "{Fortgeschrittene Nekromantie}\n\nFortgeschrittene Nekromantie erlaubt es, 10 % der im Kampf getöteten Kreaturen als Skelette wiederzubeleben.",
+	"skill.core.necromancy.description.basic" : "{Basis Nekromantie}\n\nBasis Nekromantie erlaubt es, 5 % der im Kampf getöteten Kreaturen als Skelette wiederzubeleben.",
+	"skill.core.necromancy.description.expert" : "{Experten Nekromantie}\n\nExperten Nekromantie erlaubt es, 15 % der im Kampf getöteten Kreaturen als Skelette wiederzubeleben.",
+}
