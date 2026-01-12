@@ -35,9 +35,10 @@
 				"subtype" : "spell.frostRing"
 			},
 			"immuneToFreezingShot" : {
-				"hidden" : true,
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot"
+				"subtype" : "spell.freezingShot",
+				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
+				"description" : "Immune to Freezing Shot."
 			},
 			"spellDamageIncreaseAura" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
@@ -52,7 +53,9 @@
 						"type" : "UNIT_ADJACENT",
 						"creature" : "bulwarkArgali"
 					}
-				]
+				],
+				"icon" : "hota/bulwark/bonuses/spellDamageAura",
+				"description" : "{Spell Damage Aura}\nAdjacent enemies receive +20% spell damage."
 			}
 		},
 		"graphics" : {

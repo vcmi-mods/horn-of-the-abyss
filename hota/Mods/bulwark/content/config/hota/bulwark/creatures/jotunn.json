@@ -32,7 +32,8 @@
 			"castsTeleport" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.teleport",
-				"val" : 3
+				"val" : 3,
+				"icon" : "hota/bulwark/bonuses/castsTeleport"
 			},
 			"casts" : {
 				"type" : "CASTS",
