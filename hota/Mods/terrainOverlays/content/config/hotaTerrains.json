@@ -1,0 +1,14 @@
+{
+	"core:sand" :
+	{
+		"battleFields" : ["sand_mesas", "hotaSand"]
+	},
+	"core:swamp" :
+	{
+		"battleFields" : ["swamp_trees", "hotaSwampTrees", "hotaSwampGrass"]
+	},
+	"core:lava" :
+	{
+		"battleFields" : ["lava", "hotaLava"]
+	}
+}
