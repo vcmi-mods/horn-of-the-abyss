@@ -6,11 +6,14 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.1",
+	"version" : "1.1.2",
 	"compatibility" : {
-		"min" : "1.1.0"
+		"min" : "1.7.2"
 	},
 	"changelog" : {
+		"1.1.2" : [
+			"Added some batllefields graphics variants"
+		],
 		"1.0.0" : [
 			"Each special terrain has now its own dedicated folder"
 		]
@@ -23,6 +26,14 @@
 		"name" : "Magické terény",
 		"description" : "Tato možnost přidává tři nové speciální terény: Prasklý led, Duny a Pole slávy."
 	},
+	"polish" : {
+		"name" : "Magiczne tereny",
+		"description" : "Dodaje trzy nowe specjalne tereny: Pękający Lód, Wydmy i Pola Chwały"
+	},
+	"portuguese" : {
+		"name" : "Terrenos Mágicos",
+		"description" : "Esta opção adiciona três novos terrenos especiais: Gelo Rachado, Dunas e Campos de Glória."
+	},
 	"objects" : [
 		"config/crackedIce/crackedIce.json",
 		"config/dunes/dunes.json",
@@ -32,19 +43,16 @@
 	"battlefields" : [
 		"config/crackedIce/battlefields.json",
 		"config/dunes/battlefields.json",
-		"config/fieldsOfGlory/battlefields.json"
+		"config/fieldsOfGlory/battlefields.json",
+		"config/battlefields.json"
 	],
 	"obstacles" : [
 		"config/crackedIce/obstacles.json",
 		"config/dunes/obstacles.json",
 		"config/fieldsOfGlory/obstacles.json"
 	],
-	"polish" : {
-		"name" : "Magiczne tereny",
-		"description" : "Dodaje trzy nowe specjalne tereny: Pękający Lód, Wydmy i Pola Chwały"
-	},
-	"portuguese" : {
-		"name" : "Terrenos Mágicos",
-		"description" : "Esta opção adiciona três novos terrenos especiais: Gelo Rachado, Dunas e Campos de Glória."
-	}
+	"terrains" :
+	[
+		"config/hotaTerrains.json"
+	]
 }
