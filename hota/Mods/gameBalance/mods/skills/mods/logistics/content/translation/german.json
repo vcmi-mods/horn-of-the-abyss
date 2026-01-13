@@ -1,5 +1,5 @@
 {
-	"skill.core.logistics.description.advanced" : "{Fortgeschrittene Logistik}\n\nFortgeschrittene Logistik erhöht die Bewegungspunkte Eures Helden über Land um 10%.",
-	"skill.core.logistics.description.basic" : "{Basis Logistik}\n\nBasis Logistik erhöht die Bewegungspunkte Eures Helden über Land um 5%.",
-	"skill.core.logistics.description.expert" : "{Experten Logistik}\n\nExperten Logistik erhöht die Bewegungspunkte Eures Helden über Land um 20%."
+	"skill.core.logistics.description.advanced" : "{Verbessert Logistik}\n\nVerbessert Logistik erhöht die Bewegungspunkte Eures Helden über Land um 10%.",
+	"skill.core.logistics.description.basic" : "{Einfach Logistik}\n\nEinfach Logistik erhöht die Bewegungspunkte Eures Helden über Land um 5%.",
+	"skill.core.logistics.description.expert" : "{Meisterhaft Logistik}\n\nMeisterhaft Logistik erhöht die Bewegungspunkte Eures Helden über Land um 20%."
 }

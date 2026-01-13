@@ -1,5 +1,5 @@
 {
-	"skill.core.scouting.description.advanced" : "{Fortgeschrittenes Spähen}\n\nFortgeschrittenes Spähen erlaubt es Eurem Helden, 3 Felder weiter in den Nebel zu sehen.",
-	"skill.core.scouting.description.basic" : "{Basis Spähen}\n\nBasis Spähen erlaubt es Eurem Helden, 1 Feld weiter in den Nebel zu sehen.",
-	"skill.core.scouting.description.expert" : "{Experten Spähen}\n\nExperten Spähen erlaubt es Eurem Helden, 5 Felder weiter in den Nebel zu sehen."
+	"skill.core.scouting.description.advanced" : "{Verbessert Spähen}\n\nVerbessert Spähen erlaubt es Eurem Helden, 3 Felder weiter in den Kriegsnebel zu sehen.",
+	"skill.core.scouting.description.basic" : "{Einfach Spähen}\n\nEinfach Spähen erlaubt es Eurem Helden, 1 Feld weiter in den Kriegsnebel zu sehen.",
+	"skill.core.scouting.description.expert" : "{Meisterhaft Spähen}\n\nMeisterhaft Spähen erlaubt es Eurem Helden, 5 Felder weiter in den Kriegsnebel zu sehen."
 }
