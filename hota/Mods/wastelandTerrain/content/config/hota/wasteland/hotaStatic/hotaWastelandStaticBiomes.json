@@ -24,15 +24,6 @@
 			"AVLwll02"
 		]
 	},
-	"limestonePuddles" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"AVLwml00"
-		]
-	},
 	"wastelandSkulls" : {
 		"biome" : {
 			"terrain" : "wasteland",
