@@ -1,11 +1,13 @@
 {
+	// 1.7.0:
+	// [+] Changed the Tomb (note: they mean Grave) reward from 500-5000 to 1500-4000 Gold
 	"grave" : {
 		"handler" : "configurable",
 		"name" : "Grave",
 		"types" : {
 			"grave" : {
 				"name" : "Grave",
-				"description" : "(Takes all movement points, and gives 500-5000 gold, a random Treasure of Minor artifact, and -3 morale until the next battle.)",
+				"description" : "(Takes all movement points, and gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
 				"rmg" : {
 					"value" : 500,
 					"rarity" : 30
@@ -18,16 +20,12 @@
 						},
 						"resources" : {
 							"gold" : [
-								500,
-								1000,
 								1500,
 								2000,
 								2500,
 								3000,
 								3500,
-								4000,
-								4500,
-								5000
+								4000
 							]
 						},
 						"bonuses" : [
@@ -52,16 +50,12 @@
 						},
 						"resources" : {
 							"gold" : [
-								500,
-								1000,
 								1500,
 								2000,
 								2500,
 								3000,
 								3500,
-								4000,
-								4500,
-								5000
+								4000
 							]
 						},
 						"bonuses" : [
