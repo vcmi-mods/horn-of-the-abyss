@@ -31,7 +31,8 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.teleport",
 				"val" : 3,
-				"icon" : "hota/bulwark/bonuses/castsTeleport"
+				"icon" : "hota/bulwark/bonuses/castsTeleport",
+				"description" : "{Spellcaster}\nExpert Teleport (unlimited)"
 			},
 			"casts" : {
 				"type" : "CASTS",
@@ -53,6 +54,13 @@
 				],
 				"stacking" : "Jotunns"
 			},
+			"improvedWindAura" : {
+				// this is just to show the bonus icon
+				"type" : "NONE",
+				"icon" : "hota/bulwark/bonuses/warlordReduceFlyingSpeed",
+				"description" : "{Flyer Speed Reduction}\n-2 enemy flying units' Speed"
+			},
+			
 			"KING_3" : {
 				"type" : "KING",
 				"val" : 3
