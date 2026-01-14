@@ -4,6 +4,11 @@
 	"grave" : {
 		"handler" : "configurable",
 		"name" : "Grave",
+		"base" : {
+			"sounds" : {
+				"removal" : [ "DIGSOUND" ]
+			}
+		},
 		"types" : {
 			"grave" : {
 				"name" : "Grave",
@@ -12,9 +17,13 @@
 					"value" : 500,
 					"rarity" : 30
 				},
+				"removable" : true,
+				"blockedVisitable" : false,
+				"showScoutedPreview" : false,
+				"canRefuse" : true,
 				"rewards" : [
 					{
-						"message" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
+						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
 						"appearChance" : {
 							"max" : 50
 						},
@@ -44,7 +53,7 @@
 						"removeObject" : true
 					},
 					{
-						"message" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
+						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
 						"appearChance" : {
 							"min" : 50
 						},
@@ -75,7 +84,7 @@
 					}
 				],
 
-				"visitMode" : "hero",
+				"visitMode" : "once",
 				"templates" : {
 					"avxgravw" : {
 						"animation" : "hota/wasteland/hotaInteractive/grave/avxgravw",
