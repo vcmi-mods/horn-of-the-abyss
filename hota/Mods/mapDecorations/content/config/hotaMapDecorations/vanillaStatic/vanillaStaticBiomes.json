@@ -211,20 +211,6 @@
 			"ZREEF5"
 		]
 	},
-	"kelp" : {
-		"biome" : {
-			"terrain" : "water",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"AVLklp30",
-			"AVLklp40",
-			"AVLswd1",
-			"AVLswd2",
-			"AVLswd3",
-			"AVLswd4"
-		]
-	},
 	"waterRock" : {
 		"biome" : {
 			"terrain" : "water",

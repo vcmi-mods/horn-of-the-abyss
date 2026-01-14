@@ -2,7 +2,7 @@
 	"waterfalls" : {
 		"biome" : {
 			"terrain" : "highlands",
-			"objectType" : "mountain"
+			"objectType" : "other"
 		},
 		"templates" : [
 			"hotaAVLwtf00",
@@ -30,22 +30,6 @@
 			"avlhpn11",
 			"avlhpn12",
 			"avlhpn13"
-		]
-	},
-	"puddles" : {
-		"biome" : {
-			"terrain" : "highlands",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"avlhml00",
-			"avlhml01",
-			"avlhml02",
-			"avlhml03",
-			"avlhml04",
-			"avlhml05",
-			"avlhml06",
-			"avlhml07"
 		]
 	}
 }

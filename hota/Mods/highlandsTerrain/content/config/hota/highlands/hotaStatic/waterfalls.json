@@ -1,6 +1,6 @@
 {
 	"highlandsWaterfalls" : {
-		"name" : "Mountain",
+		"name" : "Waterfall",
 		"handler" : "static",
 		"types" : {
 			"waterfalls" : {

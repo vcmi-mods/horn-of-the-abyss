@@ -7,7 +7,7 @@
 						"animation" : "hota/highlands/vanillaInteractive/mines/AVXamH1",
 						"mask" : [
 							"VVVV",
-							"VBBB",
+							"VVBV",
 							"VBAB"
 						],
 						"visitableFrom" : [
