@@ -16,9 +16,8 @@
 			"hota/WASTELAND.mp3"
 		],
 		"tiles" : "hota/wasteland/tiles",
-		"type" : [
-			"SURFACE"
-		], //default values
+		"type" : [],
+		"allowedLayers": ["surface", "unknown"],
 		"shortIdentifier" : "ws",
 		"river" : "mudRiver",
 		"rockTerrain" : "rock",
