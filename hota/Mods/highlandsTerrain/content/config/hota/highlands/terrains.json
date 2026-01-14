@@ -16,9 +16,8 @@
 			"hota/HIGHLANDS.mp3"
 		],
 		"tiles" : "hota/highlands/tiles",
-		"type" : [
-			"SURFACE"
-		], //default values
+		"type" : [],
+		"allowedLayers": ["surface", "unknown"],
 		"horseSound" : "hota/highlands/horse30",
 		"horseSoundPenalty" : "horse20",
 		"river" : "waterRiver",
