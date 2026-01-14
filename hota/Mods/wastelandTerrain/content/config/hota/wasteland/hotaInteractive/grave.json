@@ -1,33 +1,40 @@
 {
+	// 1.7.0:
+	// [+] Changed the Tomb (note: they mean Grave) reward from 500-5000 to 1500-4000 Gold
 	"grave" : {
 		"handler" : "configurable",
 		"name" : "Grave",
+		"base" : {
+			"sounds" : {
+				"removal" : [ "DIGSOUND" ]
+			}
+		},
 		"types" : {
 			"grave" : {
 				"name" : "Grave",
-				"description" : "(Takes all movement points, and gives 500-5000 gold, a random Treasure of Minor artifact, and -3 morale until the next battle.)",
+				"description" : "(Takes all movement points, and gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
 				"rmg" : {
 					"value" : 500,
 					"rarity" : 30
 				},
+				"removable" : true,
+				"blockedVisitable" : false,
+				"showScoutedPreview" : false,
+				"canRefuse" : true,
 				"rewards" : [
 					{
-						"message" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
+						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
 						"appearChance" : {
 							"max" : 50
 						},
 						"resources" : {
 							"gold" : [
-								500,
-								1000,
 								1500,
 								2000,
 								2500,
 								3000,
 								3500,
-								4000,
-								4500,
-								5000
+								4000
 							]
 						},
 						"bonuses" : [
@@ -46,22 +53,18 @@
 						"removeObject" : true
 					},
 					{
-						"message" : "{Grave}\r\n\r\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet. You take up the latter, cover your nose with a handkerchief, and manage to extract something valuable from the ground.",
+						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
 						"appearChance" : {
 							"min" : 50
 						},
 						"resources" : {
 							"gold" : [
-								500,
-								1000,
 								1500,
 								2000,
 								2500,
 								3000,
 								3500,
-								4000,
-								4500,
-								5000
+								4000
 							]
 						},
 						"bonuses" : [
@@ -81,7 +84,7 @@
 					}
 				],
 
-				"visitMode" : "hero",
+				"visitMode" : "once",
 				"templates" : {
 					"avxgravw" : {
 						"animation" : "hota/wasteland/hotaInteractive/grave/avxgravw",

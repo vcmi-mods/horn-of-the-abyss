@@ -196,6 +196,20 @@
 							"dwellingLvl4"
 						]
 					]
+				},
+				"special2" : {
+					"description" : "The Mana Vortex doubles the spell points for one visiting hero, once per week.",
+					"manualHeroVisit" : true,
+					"configuration" : {
+						"canRefuse" : true,
+						"onEmptyMessage" : "Your hero has enough spell points and cannot get more from the Mana Vortex.",
+						"onVisitedMessage" : "The Mana Vortex has been already used this week.",
+						"rewards" : {
+							"modify@1" : {
+								"message" : "As you near the Mana Vortex, you sense that it could fill your body with new energy.\n\nDo you want to use the Mana Vortex to double your hero's normal spell points?"
+							}
+						}
+					}
 				}
 			}
 		}
