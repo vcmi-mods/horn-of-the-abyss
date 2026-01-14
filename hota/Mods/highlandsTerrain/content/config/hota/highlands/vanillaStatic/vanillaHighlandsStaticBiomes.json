@@ -53,15 +53,6 @@
 			"avlhll03"
 		]
 	},
-	"highlandsHole" : {
-		"biome" : {
-			"terrain" : "highlands",
-			"objectType" : "crater"
-		},
-		"templates" : [
-			"avlhlhl"
-		]
-	},
 	"highlandsFlower" : {
 		"biome" : {
 			"terrain" : "highlands",

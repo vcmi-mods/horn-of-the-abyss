@@ -34,12 +34,12 @@
 						"animation" : "hota/highlands/hotaInteractive/mineralSpring/AVXmspr0",
 						"mask" : [
 							"VVV",
-							"VBV",
+							"VVV",
 							"VBA"
 						],
 						"visitableFrom" : [
 							"---",
-							"--+",
+							"-++",
 							"+++"
 						],
 						"allowedTerrains" : [

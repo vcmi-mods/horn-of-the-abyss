@@ -14,7 +14,7 @@
 				"sounds" : {
 					"visit" : [
 						"GAZEBO"
-					] //TODO: missing sound!
+					]
 				},
 				"rewards" : [
 					{
