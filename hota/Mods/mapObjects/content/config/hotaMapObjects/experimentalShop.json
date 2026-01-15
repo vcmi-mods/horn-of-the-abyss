@@ -15,6 +15,17 @@
 							"VVV",
 							"VVV",
 							"VBA"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"sand",
+							"grass",
+							"swamp",
+							"rough",
+							"subterra",
+							"lava",
+							"hota.wastelandTerrain:wasteland",
+							"hota.highlandsTerrain:highlands"
 						]
 					},
 					"snow" : {

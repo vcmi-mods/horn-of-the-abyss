@@ -16,6 +16,9 @@
 							"VVV",
 							"VVV",
 							"VBA"
+						],
+						"allowedTerrains" : [
+							"sand"
 						]
 					},
 					"snow" : {
@@ -44,10 +47,10 @@
 						"hota/IVORYTOW.wav"
 					]
 				},
-				"rmg" : {
-					"value" : 7000,
-					"rarity" : 10
-				},
+				//"rmg" : {
+				//	"value" : 7000,
+				//	"rarity" : 100
+				//},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,

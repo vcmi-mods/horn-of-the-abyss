@@ -12,7 +12,7 @@
 				"guardsLayout" : "creatureBankBlackTower",
 				"templates" : {
 					"normal" : {
-						"animation" : "hota/banks/avblktgr.def",
+						"animation" : "hota/banks/avblktwr.def",
 						"visitableFrom" : [
 							"---",
 							"-+-",
@@ -23,6 +23,15 @@
 							"VVVV",
 							"VVVV",
 							"VVAV"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"sand",
+							"rough",
+							"subterra",
+							"lava",
+							"hota.wastelandTerrain:wasteland",
+							"hota.highlandsTerrain:highlands"
 						]
 					},
 					"grass" : {
