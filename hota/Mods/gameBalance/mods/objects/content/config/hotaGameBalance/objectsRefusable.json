@@ -39,5 +39,13 @@
 				}
 			}
 		}
+	},
+  
+ 	"hota.mapobjects:colosseumOfTheMagi" : {
+		"types" : {
+			"colosseumOfTheMagi" : {
+				"canRefuse" : true
+			}
+		}
 	}
 }
