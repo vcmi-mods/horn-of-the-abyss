@@ -24,6 +24,22 @@
 			"AVLwll02"
 		]
 	},
+	"wastingBones" : {
+		"biome" : {
+			"terrain" : [
+				"wasteland",
+				"sand"
+			],
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AVLbon00",
+			"AVLbon01",
+			"AVLbon02",
+			"AVLbon03",
+			"jaws"
+		]
+	},
 	"wastelandSkulls" : {
 		"biome" : {
 			"terrain" : "wasteland",
@@ -34,12 +50,7 @@
 			"AVLskul1",
 			"AVLskul2",
 			"AVLskul3",
-			"AVLwcsk0",
-			"AVLbon00",
-			"AVLbon01",
-			"AVLbon02",
-			"AVLbon03",
-			"jaws"
+			"AVLwcsk0"
 		]
 	}
 }
