@@ -13,6 +13,9 @@
 							"---",
 							"-++",
 							"+++"
+						],
+						"allowedTerrains" : [
+							"rough"
 						]
 					}
 				}
