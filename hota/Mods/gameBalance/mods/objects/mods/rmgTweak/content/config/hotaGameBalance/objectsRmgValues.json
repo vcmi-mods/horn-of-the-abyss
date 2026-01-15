@@ -90,5 +90,15 @@
 				}
 			}
 		}
+	},
+	
+	"core:leanTo" : {
+		"types" : {
+			"leanTo" : {
+				"rmg" : {
+					"rarity" : 50
+				}
+			}
+		}
 	}
 }
