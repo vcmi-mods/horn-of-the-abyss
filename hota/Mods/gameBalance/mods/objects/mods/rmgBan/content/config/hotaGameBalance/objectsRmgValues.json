@@ -5,9 +5,7 @@
 	"core:coverOfDarkness" : {
 		"types" : {
 			"coverOfDarkness" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -15,9 +13,7 @@
 	"core:eyeOfTheMagi" : {
 		"types" : {
 			"object" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -25,9 +21,7 @@
 	"core:hutOfTheMagi" : {
 		"types" : {
 			"object" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -35,9 +29,7 @@
 	"core:sanctuary" : {
 		"types" : {
 			"object" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -46,19 +38,13 @@
 	"core:cartographer" : {
 		"types" : {
 			"cartographerLand" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			},
 			"cartographerWater" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			},
 			"cartographerSubterranean" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -66,9 +52,7 @@
 	"core:hillFort" : {
 		"types" : {
 			"object" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -76,19 +60,13 @@
 	"core:creatureBank" : {
 		"types" : {
 			"pirateCavern" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			},
 			"spit" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			},
 			"ivoryTower" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	},
@@ -96,9 +74,7 @@
 	"hota.mapobjects:ancientLamp" : {
 		"types" : {
 			"ancientLamp" : {
-				"rmg" : {
-					"zoneLimit" : 0
-				}
+				"rmg" : null
 			}
 		}
 	}
