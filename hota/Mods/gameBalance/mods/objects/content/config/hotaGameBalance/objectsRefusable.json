@@ -8,7 +8,7 @@
 			}
 		}
 	},
-	
+
 	"core:witchHut" : {
 		"types" : {
 			"witchHut" : {
@@ -39,7 +39,7 @@
 				}
 			}
 		}
-	}
+	},
   
  	"hota.mapobjects:colosseumOfTheMagi" : {
 		"types" : {
