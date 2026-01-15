@@ -47,10 +47,10 @@
 						"hota/IVORYTOW.wav"
 					]
 				},
-				//"rmg" : {
-				//	"value" : 7000,
-				//	"rarity" : 100
-				//},
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 100
+				},
 				"blockedVisitable" : false,
 				"onGuardedMessage" : 32,
 				"onVisitedMessage" : 33,
