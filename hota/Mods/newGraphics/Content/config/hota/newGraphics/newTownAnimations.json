@@ -45,13 +45,13 @@
 						"animation" : "hota/castle/adventureMap/town/AVCcasf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/castle/adventureMap/town/citadel.def"
+						"animation" : "hota/castle/adventureMap/town/AVCcasc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/castle/adventureMap/town/castle.def"
+						"animation" : "hota/castle/adventureMap/town/AVCcasx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/castle/adventureMap/town/capitol.def"
+						"animation" : "hota/castle/adventureMap/town/AVCcasz0.def"
 					}
 				}
 			}
@@ -103,13 +103,13 @@
 						"animation" : "hota/rampart/adventureMap/town/avcramf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/rampart/adventureMap/town/citadel.def"
+						"animation" : "hota/rampart/adventureMap/town/avcramc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/rampart/adventureMap/town/castle.def"
+						"animation" : "hota/rampart/adventureMap/town/AVCramx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/rampart/adventureMap/town/capitol.def"
+						"animation" : "hota/rampart/adventureMap/town/AVCramz0.def"
 					}
 				}
 			}
@@ -161,13 +161,13 @@
 						"animation" : "hota/tower/adventureMap/town/AVCtowf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/tower/adventureMap/town/citadel.def"
+						"animation" : "hota/tower/adventureMap/town/AVCtowc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/tower/adventureMap/town/castle.def"
+						"animation" : "hota/tower/adventureMap/town/AVCtowx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/tower/adventureMap/town/capitol.def"
+						"animation" : "hota/tower/adventureMap/town/AVCtowz0.def"
 					}
 				}
 			}
@@ -219,13 +219,13 @@
 						"animation" : "hota/inferno/adventureMap/town/AVCinff0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/inferno/adventureMap/town/citadel.def"
+						"animation" : "hota/inferno/adventureMap/town/AVCinfc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/inferno/adventureMap/town/castle.def"
+						"animation" : "hota/inferno/adventureMap/town/AVCinfx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/inferno/adventureMap/town/capitol.def"
+						"animation" : "hota/inferno/adventureMap/town/AVCinfz0.def"
 					}
 				}
 			}
@@ -277,13 +277,13 @@
 						"animation" : "hota/necropolis/adventureMap/town/AVCnecf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/necropolis/adventureMap/town/citadel.def"
+						"animation" : "hota/necropolis/adventureMap/town/AVCnecc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/necropolis/adventureMap/town/castle.def"
+						"animation" : "hota/necropolis/adventureMap/town/AVCnecx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/necropolis/adventureMap/town/capitol.def"
+						"animation" : "hota/necropolis/adventureMap/town/AVCnecz0.def"
 					}
 				}
 			}
@@ -335,13 +335,13 @@
 						"animation" : "hota/dungeon/adventureMap/town/AVCdunf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/dungeon/adventureMap/town/citadel.def"
+						"animation" : "hota/dungeon/adventureMap/town/AVCdunc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/dungeon/adventureMap/town/castle.def"
+						"animation" : "hota/dungeon/adventureMap/town/AVCdunx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/dungeon/adventureMap/town/capitol.def"
+						"animation" : "hota/dungeon/adventureMap/town/AVCdunz0.def"
 					}
 				}
 			}
@@ -393,13 +393,13 @@
 						"animation" : "hota/stronghold/adventureMap/town/AVCstrf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/stronghold/adventureMap/town/citadel.def"
+						"animation" : "hota/stronghold/adventureMap/town/AVCstrc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/stronghold/adventureMap/town/castle.def"
+						"animation" : "hota/stronghold/adventureMap/town/AVCstrx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/stronghold/adventureMap/town/capitol.def"
+						"animation" : "hota/stronghold/adventureMap/town/AVCstrz0.def"
 					}
 				}
 			}
@@ -451,13 +451,13 @@
 						"animation" : "hota/fortress/adventureMap/town/AVCforf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/fortress/adventureMap/town/citadel.def"
+						"animation" : "hota/fortress/adventureMap/town/AVCforc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/fortress/adventureMap/town/castle.def"
+						"animation" : "hota/fortress/adventureMap/town/AVCftrx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/fortress/adventureMap/town/capitol.def"
+						"animation" : "hota/fortress/adventureMap/town/AVCforz0.def"
 					}
 				}
 			}
@@ -509,13 +509,13 @@
 						"animation" : "hota/conflux/adventureMap/town/AVChfof0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/conflux/adventureMap/town/citadel.def"
+						"animation" : "hota/conflux/adventureMap/town/AVChfoc0.def"
 					},
 					"castle" : {
-						"animation" : "hota/conflux/adventureMap/town/castle.def"
+						"animation" : "hota/conflux/adventureMap/town/AVChforX.def"
 					},
 					"capitol" : {
-						"animation" : "hota/conflux/adventureMap/town/capitol.def"
+						"animation" : "hota/conflux/adventureMap/town/AVChforz.def"
 					}
 				}
 			}
@@ -567,13 +567,13 @@
 						"animation" : "hota/random/adventureMap/town/AVCranf0.def"
 					},
 					"citadel" : {
-						"animation" : "hota/random/adventureMap/town/citadel.def"
+						"animation" : "hota/random/adventureMap/town/AVCRAND0.def"
 					},
 					"castle" : {
-						"animation" : "hota/random/adventureMap/town/castle.def"
+						"animation" : "hota/random/adventureMap/town/avcranx0.def"
 					},
 					"capitol" : {
-						"animation" : "hota/random/adventureMap/town/capitol.def"
+						"animation" : "hota/random/adventureMap/town/avcranz0.def"
 					}
 				}
 			}
