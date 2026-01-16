@@ -2,7 +2,7 @@
 	"bulwark" : {
 		"town" : {
 			"siege" : {
-				"shooter" : "bulwarkSnowElf",
+				"shooter" : "snowElf",
 				"imagePrefix" : "hota/bulwark/town/siege/sgbk",
 				"towerIconSmall" : "hota/bulwark/town/icons/arrowtowerssmall",
 				"towerIconLarge" : "hota/bulwark/town/icons/arrowtowerslarge",

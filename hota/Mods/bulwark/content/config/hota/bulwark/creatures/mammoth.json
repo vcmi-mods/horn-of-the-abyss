@@ -1,5 +1,5 @@
 {
-	"bulwarkMammoth" : {
+	"mammoth" : {
 		"name" : {
 			"singular" : "Mammoth",
 			"plural" : "Mammoths"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 6,
 		"upgrades" : [
-			"bulwarkWarMammoth"
+			"warMammoth"
 		],
 		"cost" : {
 			"gold" : 850

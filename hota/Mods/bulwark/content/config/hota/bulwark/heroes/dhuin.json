@@ -1,5 +1,5 @@
 {
-	"01bulwarkDhuin" : {
+	"01dhuin" : {
 		"class" : "chieftain",
 		"female" : false,
 		"images" : {
@@ -10,17 +10,17 @@
 		},
 		"army" : [
 			{
-				"creature" : "bulwarkKobold",
+				"creature" : "kobold",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "bulwarkSnowElf",
+				"creature" : "snowElf",
 				"min" : 3,
 				"max" : 5
 			},
 			{
-				"creature" : "bulwarkSnowElf",
+				"creature" : "snowElf",
 				"min" : 3,
 				"max" : 5
 			}
@@ -36,7 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "bulwarkSnowElf"
+			"creature" : "snowElf"
 		},
 		"texts" : {
 			"name" : "Dhuin",

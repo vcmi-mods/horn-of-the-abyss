@@ -1,5 +1,5 @@
 {
-	"bulwarkMountainRam" : {
+	"mountainRam" : {
 		"name" : {
 			"singular" : "Mountain Ram",
 			"plural" : "Mountain Rams"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 2,
 		"upgrades" : [
-			"bulwarkArgali"
+			"argali"
 		],
 		"cost" : {
 			"gold" : 135

@@ -1,5 +1,5 @@
 {
-	"07bulwarkKynr" : {
+	"07kynr" : {
 		"class" : "chieftain",
 		"female" : false,
 		"images" : {
@@ -10,17 +10,17 @@
 		},
 		"army" : [
 			{
-				"creature" : "bulwarkKobold",
+				"creature" : "kobold",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "bulwarkKobold",
+				"creature" : "kobold",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "bulwarkKobold",
+				"creature" : "kobold",
 				"min" : 20,
 				"max" : 30
 			}
@@ -36,7 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "bulwarkKobold",
+			"creature" : "kobold",
 			"stepSize" : 10
 		},
 		"texts" : {

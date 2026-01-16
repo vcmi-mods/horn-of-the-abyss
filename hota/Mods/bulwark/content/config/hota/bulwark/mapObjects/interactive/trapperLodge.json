@@ -42,7 +42,7 @@
 							{
 								"anyOf" : [
 									"gremlin",
-									"bulwarkKobold"
+									"kobold"
 								],
 								"min" : 3,
 								"max" : 5

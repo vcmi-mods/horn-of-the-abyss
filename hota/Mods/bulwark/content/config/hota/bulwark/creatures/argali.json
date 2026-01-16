@@ -1,5 +1,5 @@
 {
-	"bulwarkArgali" : {
+	"argali" : {
 		"name" : {
 			"singular" : "Argali",
 			"plural" : "Argali"
@@ -51,7 +51,7 @@
 					"OPPOSITE_SIDE",
 					{
 						"type" : "UNIT_ADJACENT",
-						"creature" : "bulwarkArgali"
+						"creature" : "argali"
 					}
 				],
 				"icon" : "hota/bulwark/bonuses/spellDamageAura",

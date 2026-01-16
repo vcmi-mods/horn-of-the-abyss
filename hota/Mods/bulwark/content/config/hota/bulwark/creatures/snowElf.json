@@ -1,5 +1,5 @@
 {
-	"bulwarkSnowElf" : {
+	"snowElf" : {
 		"name" : {
 			"singular" : "Snow Elf",
 			"plural" : "Snow Elves"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 3,
 		"upgrades" : [
-			"bulwarkSteelElf"
+			"steelElf"
 		],
 		"cost" : {
 			"gold" : 230

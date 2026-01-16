@@ -1,5 +1,5 @@
 {
-	"04bulwarkEikthurn" : {
+	"04eikthurn" : {
 		"class" : "chieftain",
 		"female" : false,
 		"images" : {
@@ -10,17 +10,17 @@
 		},
 		"army" : [
 			{
-				"creature" : "bulwarkMountainRam",
+				"creature" : "mountainRam",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "bulwarkMountainRam",
+				"creature" : "mountainRam",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "bulwarkMountainRam",
+				"creature" : "mountainRam",
 				"min" : 6,
 				"max" : 8
 			}
@@ -32,7 +32,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "bulwarkMountainRam"
+			"creature" : "mountainRam"
 		},
 		"texts" : {
 			"name" : "Eikthurn",
