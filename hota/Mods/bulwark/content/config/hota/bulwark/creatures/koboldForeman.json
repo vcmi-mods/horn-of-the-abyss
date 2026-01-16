@@ -1,5 +1,5 @@
 {
-	"bulwarkKoboldForeman" : {
+	"koboldForeman" : {
 		"name" : {
 			"singular" : "Kobold Foreman",
 			"plural" : "Kobold Foremen"
@@ -32,7 +32,7 @@
 				"valueType" : "BASE_NUMBER",
 				"updater" : {
 					"type" : "TIMES_ARMY_SIZE",
-					"filteredCreature" : "bulwarkKoboldForeman"
+					"filteredCreature" : "koboldForeman"
 				},
 				"stacking" : "KoboldForemen",
 				"val" : 1,

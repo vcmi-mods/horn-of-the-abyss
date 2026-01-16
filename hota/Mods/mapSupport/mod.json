@@ -2,15 +2,16 @@
 	"name" : "Map format support (HotA)",
 	"description" : "This mod contains support files needed for loading maps in 'Horn of the Abyss' format in VCMI",
 	"modType" : "Other",
-	"author" : "Ivan",
+	"author" : "VCMI Team, Ivan",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.2",
+	"version" : "1.8.0",
 	"compatibility" : {
-		"min" : "1.7"
+		"min" : "1.7.2"
 	},
 	"depends" : [
 		"hota.airship",
 		"hota.artifacts",
+		"hota.bulwark",
 		"hota.cannon",
 		"hota.confluxvaultofashes",
 		"hota.cove",
@@ -420,7 +421,8 @@
 
 				"factions" : {
 					"cove" : 9,
-					"factory" : 10
+					"factory" : 10,
+					"bulwark" : 11
 				},
 				"buildings" : {
 					"cove" : {
@@ -472,7 +474,22 @@
 					"hotaCouatl" : 182,
 					"crimsonCouatl" : 183,
 					"hotaDreadnought" : 184,
-					"hotaJuggernaut" : 185
+					"hotaJuggernaut" : 185,
+					//bulwark
+					"kobold" : 186,
+					"koboldForeman" : 187,
+					"mountainRam" : 188,
+					"argali" : 189,
+					"snowElf" : 190,
+					"steelElf" : 191,
+					"yeti" : 192,
+					"yetiRunemaster" : 193,
+					"shaman" : 194,
+					"greatShaman" : 195,
+					"mammoth" : 196,
+					"warMammoth" : 197,
+					"jotunn" : 198,
+					"jotunnWarlord" : 199
 				},
 
 				"heroes" : {
@@ -533,9 +550,27 @@
 					//					"athe" : 211,
 					//					"gruezak" : 212,
 					//					"zog" : 213,
-					"boyd" : 198
+					"boyd" : 198,
 					//					"hotaMaximus" : 215,
 					//					"balfour" : 216
+					//bulwark
+					"01dhuin" : 199,
+					"02oidana" : 200,
+					"03neia" : 201,
+					"04eikthurn" : 202,
+					"05creyle" : 203,
+					"06spadum" : 204,
+					"07kynr" : 205,
+					"08ergon" : 206,
+					"09kriv" : 207,
+					"10glacius" : 208,
+					"11sial" : 209,
+					"12dalton" : 210,
+					"13biarma" : 211,
+					"14haugir" : 212,
+					"15akka" : 213,
+					"16vehr" : 214,
+					"17allora" : 215
 				},
 
 				"portraits" : {
@@ -605,7 +640,25 @@
 					"portraitTarnumBeastmasterHotA" : 224,
 					"gruezak" : 225,
 					"hotaMaximus" : 226,
-					"balfour" : 227
+					"balfour" : 227,
+					//bulwark
+					"01dhuin" : 228,
+					"02oidana" : 229,
+					"03neia" : 230,
+					"04eikthurn" : 231,
+					"05creyle" : 232,
+					"06spadum" : 233,
+					"07kynr" : 234,
+					"08ergon" : 235,
+					"09kriv" : 236,
+					"10glacius" : 237,
+					"11sial" : 238,
+					"12dalton" : 239,
+					"13biarma" : 240,
+					"14haugir" : 241,
+					"15akka" : 242,
+					"16vehr" : 243,
+					"17allora" : 244		
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
@@ -638,10 +691,14 @@
 					"navigator" : 19,
 
 					"mercenary" : 20,
-					"artificer" : 21
+					"artificer" : 21,
+
+					"chieftain" : 22,
+					"elder" : 23
 				},
 				"skills" : {
-					"interference" : 28
+					"interference" : 28,
+					"runes" : 29
 				},
 				"terrains" : {
 					"highlands" : 10,
@@ -794,6 +851,7 @@
 							83,
 							5
 						]
+						// TODO snow seerhut
 					},
 					"questGuard" : {
 						"questGate" : [
@@ -941,6 +999,7 @@
 							17,
 							110
 						]
+						// bulwark TODO
 					},
 					"creatureGeneratorSpecial" : {
 						"whirpoolLarge" : [
@@ -1774,6 +1833,21 @@
 					"hota/factory/creatures/adventureMap/AVWalmd.def" : "AVWalmd.def",
 					"hota/factory/creatures/adventureMap/AVWalmb.def" : "AVWalmb.def",
 
+					"hota/bulwark/creatures/adventureMap/AVWKOBOL.def" : "AVWKOBOL.def",
+					"hota/bulwark/creatures/adventureMap/AVWFKOBL.def" : "AVWFKOBL.def",
+					"hota/bulwark/creatures/adventureMap/AVWMTRAM.def" : "AVWMTRAM.def",
+					"hota/bulwark/creatures/adventureMap/AVWARGAL.def" : "AVWARGAL.def",
+					"hota/bulwark/creatures/adventureMap/AVWSNELF.def" : "AVWSNELF.def",
+					"hota/bulwark/creatures/adventureMap/AVWSTELF.def" : "AVWSTELF.def",
+					"hota/bulwark/creatures/adventureMap/AVWYETI.def" : "AVWYETI.def",
+					"hota/bulwark/creatures/adventureMap/AVWMSPRT.def" : "AVWMSPRT.def",
+					"hota/bulwark/creatures/adventureMap/AVWSHAMN.def" : "AVWSHAMN.def",
+					"hota/bulwark/creatures/adventureMap/AVWGSHMN.def" : "AVWGSHMN.def",
+					"hota/bulwark/creatures/adventureMap/AVWMAMTH.def" : "AVWMAMTH.def",
+					"hota/bulwark/creatures/adventureMap/AVWWMAMT.def" : "AVWWMAMT.def",
+					"hota/bulwark/creatures/adventureMap/AVWJOTUN.def" : "AVWJOTUN.def",
+					"hota/bulwark/creatures/adventureMap/AVWJOTNW.def" : "AVWJOTNW.def",
+
 					"hota/cove/mapObjects/dwellings/nimphfo.def" : "nimphfo.def",
 					"hota/cove/mapObjects/dwellings/swshcamp.def" : "swshcamp.def",
 					"hota/cove/mapObjects/dwellings/fregat.def" : "fregat.def",
@@ -1792,6 +1866,14 @@
 					"hota/factory/mapObjects/dwellings/AVGauto.def" : "AVGauto.def",
 					"hota/factory/mapObjects/dwellings/AVGarma.def" : "AVGarma.def",
 					"hota/factory/mapObjects/dwellings/AVG2half.def" : "AVG2half.def",
+
+					"hota/bulwark/mapObjects/dwellings/AVGagrl0.def" : "AVGagrl0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGjotn0.def" : "AVGjotn0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGkbl01.def" : "AVGkbl01.def",
+					"hota/bulwark/mapObjects/dwellings/AVGmmth0.def" : "AVGmmth0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGshmn0.def" : "AVGshmn0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGvori0.def" : "AVGvori0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGyeti0.def" : "AVGyeti0.def",
 
 					"hota/warehouses/avwrhscr.def" : "avwrhscr.def",
 					"hota/warehouses/avwrhsgl.def" : "avwrhsgl.def",
@@ -2153,7 +2235,7 @@
 					"HORN4.bik" : 115, // H3HORN Hota0304.h3m.prolog
 					"HORN5.bik" : 116, // H3HORN Hota0304.h3m.epilog
 
-					// unused?
+					// Custom maps - oh3 video with different mapping?
 					// "HotaVideo117" : 117,
 					// "HotaVideo118" : 118,
 					// "HotaVideo119" : 119,

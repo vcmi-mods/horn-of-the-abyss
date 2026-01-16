@@ -1,5 +1,5 @@
 {
-	"10bulwarkGlacius" : {
+	"10glacius" : {
 		"class" : "elder",
 		"female" : false,
 		"images" : {
@@ -10,17 +10,17 @@
 		},
 		"army" : [
 			{
-				"creature" : "bulwarkKobold",
+				"creature" : "kobold",
 				"min" : 20,
 				"max" : 30
 			},
 			{
-				"creature" : "bulwarkMountainRam",
+				"creature" : "mountainRam",
 				"min" : 6,
 				"max" : 8
 			},
 			{
-				"creature" : "bulwarkSnowElf",
+				"creature" : "snowElf",
 				"min" : 3,
 				"max" : 5
 			}

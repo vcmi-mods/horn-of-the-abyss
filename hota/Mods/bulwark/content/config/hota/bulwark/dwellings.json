@@ -5,7 +5,7 @@
 				"name" : "Colliery",
 				"creatures" : [
 					[
-						"bulwarkKobold"
+						"kobold"
 					]
 				],
 				"sounds" : {
@@ -29,7 +29,7 @@
 				"name" : "Frigid Spur",
 				"creatures" : [
 					[
-						"bulwarkMountainRam"
+						"mountainRam"
 					]
 				],
 				"sounds" : {
@@ -53,7 +53,7 @@
 				"name" : "Hall of the Bold",
 				"creatures" : [
 					[
-						"bulwarkSnowElf"
+						"snowElf"
 					]
 				],
 				"sounds" : {
@@ -77,7 +77,7 @@
 				"name" : "Mountain Embassy",
 				"creatures" : [
 					[
-						"bulwarkYeti"
+						"yeti"
 					]
 				],
 				"sounds" : {
@@ -101,7 +101,7 @@
 				"name" : "Shaman Fane",
 				"creatures" : [
 					[
-						"bulwarkShaman"
+						"shaman"
 					]
 				],
 				"sounds" : {
@@ -126,7 +126,7 @@
 				"name" : "Mammoth Stalls",
 				"creatures" : [
 					[
-						"bulwarkMammoth"
+						"mammoth"
 					]
 				],
 				"sounds" : {
@@ -151,7 +151,7 @@
 				"name" : "Frosthome",
 				"creatures" : [
 					[
-						"bulwarkJotunn"
+						"jotunn"
 					]
 				],
 				"guards" : true,

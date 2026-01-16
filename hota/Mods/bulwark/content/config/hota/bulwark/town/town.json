@@ -16,32 +16,32 @@
 
 			"creatures" : [
 				[
-					"bulwarkKobold",
-					"bulwarkKoboldForeman"
+					"kobold",
+					"koboldForeman"
 				],
 				[
-					"bulwarkMountainRam",
-					"bulwarkArgali"
+					"mountainRam",
+					"argali"
 				],
 				[
-					"bulwarkSnowElf",
-					"bulwarkSteelElf"
+					"snowElf",
+					"steelElf"
 				],
 				[
-					"bulwarkYeti",
-					"bulwarkYetiRunemaster"
+					"yeti",
+					"yetiRunemaster"
 				],
 				[
-					"bulwarkShaman",
-					"bulwarkGreatShaman"
+					"shaman",
+					"greatShaman"
 				],
 				[
-					"bulwarkMammoth",
-					"bulwarkWarMammoth"
+					"mammoth",
+					"warMammoth"
 				],
 				[
-					"bulwarkJotunn",
-					"bulwarkJotunnWarlord"
+					"jotunn",
+					"jotunnWarlord"
 				]
 			],
 

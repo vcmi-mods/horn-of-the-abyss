@@ -1,5 +1,5 @@
 {
-	"bulwarkShaman" : {
+	"shaman" : {
 		"name" : {
 			"singular" : "Shaman",
 			"plural" : "Shamans"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 5,
 		"upgrades" : [
-			"bulwarkGreatShaman"
+			"greatShaman"
 		],
 		"cost" : {
 			"gold" : 450

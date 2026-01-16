@@ -1,5 +1,5 @@
 {
-	"bulwarkJotunn" : {
+	"jotunn" : {
 		"name" : {
 			"singular" : "Jotunn",
 			"plural" : "Jotunns"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 7,
 		"upgrades" : [
-			"bulwarkJotunnWarlord"
+			"jotunnWarlord"
 		],
 		"cost" : {
 			"gold" : 2000

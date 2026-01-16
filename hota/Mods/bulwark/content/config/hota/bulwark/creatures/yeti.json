@@ -1,5 +1,5 @@
 {
-	"bulwarkYeti" : {
+	"yeti" : {
 		"name" : {
 			"singular" : "Yeti",
 			"plural" : "Yeti"
@@ -7,7 +7,7 @@
 		"faction" : "bulwark",
 		"level" : 4,
 		"upgrades" : [
-			"bulwarkYetiRunemaster"
+			"yetiRunemaster"
 		],
 		"cost" : {
 			"gold" : 325
