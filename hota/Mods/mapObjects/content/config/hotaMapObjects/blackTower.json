@@ -9,13 +9,13 @@
 				"onVisitedMessage" : "A dragon once lived in this tower, however now it is empty and holds nothing of interest.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankBlackTower",
+				"guardsLayout" : "default",
 				"templates" : {
 					"normal" : {
 						"animation" : "hota/banks/avblktwr.def",
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"+++",
 							"+++"
 						],
 						"mask" : [
@@ -29,7 +29,7 @@
 						"animation" : "hota/banks/avblktgr.def",
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"+++",
 							"+++"
 						],
 						"mask" : [
@@ -47,7 +47,7 @@
 						"animation" : "hota/banks/avblktsn.def",
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"+++",
 							"+++"
 						],
 						"mask" : [
