@@ -123,30 +123,6 @@
 						178,
 						99
 					]
-				},
-				"creatureBankBlackTower" : {
-					"tacticsAllowed" : true,
-					"obstaclesAllowed" : true,
-					"attackerCommander" : 54,
-					"defenderCommander" : 83,
-					"attackerUnits" : [
-						1,
-						35,
-						69,
-						86,
-						103,
-						137,
-						171
-					],
-					"defenderUnits" : [
-						99,
-						15,
-						49,
-						66,
-						134,
-						150,
-						184
-					]
 				}
 			}
 		}
