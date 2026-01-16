@@ -8,9 +8,9 @@
 	"compatibility" : {
 		"min" : "1.7.2"
 	},
-	"version" : "1.8.001",
+	"version" : "1.8.000",
 	"changelog" : {
-		"1.8.001" : [
+		"1.8.000" : [
 			"Added new town Bulwark",
 			"Added new HotA 1.8.0 map content",
 			"Added AI English voice for all 5 campaigns",
@@ -19,7 +19,8 @@
 			"Updated game balance settings submod as much as possible",
 			"Added multilanguages buttons to main menu submod",
 			"Fixed Ancient Altair",
-			"Fixed various Mountains objects mask"
+			"Fixed various Mountains objects mask",
+			"Updated Czech, Chinese and German translations"
 		],
 		"1.7.739" : [
 			"Updated Russian translation (by gxhxhdnxnfghdsjjjdffhctxsghshs-bit)",
