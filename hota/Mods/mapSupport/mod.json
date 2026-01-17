@@ -855,7 +855,10 @@
 							83,
 							5
 						],
-						// Missing or never used seer 83,6?
+						"seerHutHota4" : [
+							83,
+							6
+						],
 						"seersHutIgloo" : [
 							83,
 							7
@@ -1510,7 +1513,7 @@
 
 					"hota/conflux/adventureMap/town/AVChfoc0.def" : "AVChfoc0.def",
 					"hota/conflux/adventureMap/town/AVChfof0.def" : "AVChfof0.def",
-					"hota/conflux/adventureMap/town/castle.def" : "AVChforX.def",
+					"hota/conflux/adventureMap/town/AVChforX.def" : "AVChforX.def",
 					"hota/conflux/adventureMap/town/AVChforz.def" : "AVChforz.def",
 
 					"hota/dungeon/adventureMap/town/AVCdunc0.def" : "AVCdunc0.def",
