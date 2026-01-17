@@ -5,44 +5,30 @@
 			"objectType" : "tree"
 		},
 		"templates" : [
-			"AVLtRro0",
-			"AVLtRro1",
-			"AVLtRro2",
-			"AVLtRro3",
-			"AVLtRro4",
-			"AVLtRro5",
-			"AVLtRro6",
-			"AVLtRro7",
-			"AVLtRro8",
-			"AVLtRro9",
 			"AVLtRo00",
 			"AVLtRo01",
 			"AVLtRo02",
 			"AVLtRo03",
+			"AVLtRo07",
+			"AVLtRo09",
 			"AVLtRo04",
 			"AVLtRo05",
 			"AVLtRo06",
-			"AVLtRo07",
 			"AVLtRo08",
-			"AVLtRo09",
 			"AVLtRo10",
 			"AVLtRo11",
 			"AVLtRo12",
-			"AVLtrRo2",
+			"AVLtRo13",
+			"AVLtRro0",
+			"AVLtRro1",
+			"AVLtRro2",
 			"AVLtrRo3",
+			"AVLtRro4",
 			"AVLtrRo5",
 			"AVLtrRo6",
-			"AVLtrRo7"
-		]
-	},
-	"wastelandStone" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "rock"
-		},
-		"templates" : [
-			"AVLrws01",
-			"AVLrws03"
+			"AVLtrRo7",
+			"AVLtRro8",
+			"AVLtRro9"
 		]
 	},
 	"wastelandRock" : {
@@ -51,19 +37,28 @@
 			"objectType" : "rock"
 		},
 		"templates" : [
-			"AVLrws02"
+			"AVLrws01",
+			"AVLrws02",
+			"AVLrws03"
+		]
+	},
+	"wastelandStone" : {
+		"biome" : {
+			"terrain" : "wasteland",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"AVLrws01",
+			"AVLrws02",
+			"AVLrws03"
 		]
 	},
 	"wastelandShrub" : {
 		"biome" : {
 			"terrain" : "wasteland",
-			"objectType" : "plant"
+			"objectType" : "other"
 		},
 		"templates" : [
-			"AVLwsb01",
-			"AVLwsb02",
-			"AVLwsb03",
-			"AVLwsb04",
 			"AVLwsh01",
 			"AVLwsh02",
 			"AVLsh1rw",
@@ -102,7 +97,8 @@
 			"AVLDEAD6",
 			"AVLDEAD7",
 			"AVLDEAD8",
-			"AVLDEAD9"
+			"AVLDEAD9",
+			"AVLtRo06"
 		]
 	},
 	"wastelandCrater" : {
@@ -128,16 +124,25 @@
 			"AVLwct02",
 			"AVLwct03",
 			"AVLwct04",
+			"AVLca060",
+			"wtAVLca090",
+			"AVLca100",
+			"AVLca130"
+		]
+	},
+	"wastelandCactusVerdant" : {
+		"biome" : {
+			"terrain" : "wasteland",
+			"objectType" : "other"
+		},
+		"templates" : [
 			"AVLwct05",
 			"AVLwct06",
 			"AVLwct07",
 			"AVLwct08",
 			"AVLwct09",
 			"AVLwct10",
-			"AVLca060",
-			"wtAVLca090",
-			"AVLca100",
-			"AVLca130"
+			"AVLwct11"
 		]
 	},
 	"core:templateSet36" : {
