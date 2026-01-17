@@ -125,6 +125,13 @@
 					"marketModes" : [
 						"resource-resource",
 						"resource-player"
+					],
+					"bonuses": [
+						{
+							"propagator": "PLAYER",
+							"type": "MARKETPLACE_ACCESS",
+							"val": 2
+						}
 					]
 				},
 				"special2" : {
