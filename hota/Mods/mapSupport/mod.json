@@ -762,6 +762,10 @@
 						144,
 						11
 					],
+					"trapperLodge" : [
+						144,
+						12
+					],
 					"ancientLamp" : [
 						145,
 						0
@@ -850,8 +854,12 @@
 						"seerHutHota3" : [
 							83,
 							5
+						],
+						// Missing or never used seer 83,6?
+						"seersHutIgloo" : [
+							83,
+							7
 						]
-						// TODO snow seerhut
 					},
 					"questGuard" : {
 						"questGate" : [
@@ -998,8 +1006,36 @@
 						"factoryLevel7-2" : [
 							17,
 							110
+						],
+						"colliery" : [
+							17,
+							111
+						],
+						"frigidSpur" : [
+							17,
+							112
+						],
+						"hallOfTheBold" : [
+							17,
+							113
+						],
+						"mountainEmbassy" : [
+							17,
+							114
+						],
+						"shamanFane" : [
+							17,
+							115
+						],
+						"mammothStalls" : [
+							17,
+							116
+						],
+						"frosthome" : [
+							17,
+							117
 						]
-						// bulwark TODO
+
 					},
 					"creatureGeneratorSpecial" : {
 						"whirpoolLarge" : [
@@ -1378,6 +1414,10 @@
 					"wstNaturalArch" : [
 						140,
 						13
+					],
+					"glacier" : [
+						140,
+						14
 					],
 					"stalagmite" : [
 						152,
@@ -1889,13 +1929,13 @@
 					"hota/factory/mapObjects/dwellings/AVGarma.def" : "AVGarma.def",
 					"hota/factory/mapObjects/dwellings/AVG2half.def" : "AVG2half.def",
 
-					"hota/bulwark/mapObjects/dwellings/AVGagrl0.def" : "AVGagrl0.def",
-					"hota/bulwark/mapObjects/dwellings/AVGjotn0.def" : "AVGjotn0.def",
-					"hota/bulwark/mapObjects/dwellings/AVGkbl01.def" : "AVGkbl01.def",
-					"hota/bulwark/mapObjects/dwellings/AVGmmth0.def" : "AVGmmth0.def",
-					"hota/bulwark/mapObjects/dwellings/AVGshmn0.def" : "AVGshmn0.def",
-					"hota/bulwark/mapObjects/dwellings/AVGvori0.def" : "AVGvori0.def",
-					"hota/bulwark/mapObjects/dwellings/AVGyeti0.def" : "AVGyeti0.def",
+					"hota/bulwark/mapObjects/dwellings/AVGagrl0.def" : "AVGarha.def",
+					"hota/bulwark/mapObjects/dwellings/AVGjotn0.def" : "AVGjotu.def",
+					"hota/bulwark/mapObjects/dwellings/AVGkbl01.def" : "AVGkobo.def",
+					"hota/bulwark/mapObjects/dwellings/AVGmmth0.def" : "AVGmamm.def",
+					"hota/bulwark/mapObjects/dwellings/AVGshmn0.def" : "AVGsham.def",
+					"hota/bulwark/mapObjects/dwellings/AVGvori0.def" : "AVGself.def",
+					"hota/bulwark/mapObjects/dwellings/AVGyeti0.def" : "AVGyeti.def",
 
 					"hota/warehouses/avwrhscr.def" : "avwrhscr.def",
 					"hota/warehouses/avwrhsgl.def" : "avwrhsgl.def",
@@ -2029,6 +2069,17 @@
 					"hota/mountains/grsmnt03.def" : "grsmnt03.def",
 					"hota/mountains/grsmnt04.def" : "grsmnt04.def",
 					"hota/mountains/grsmnt05.def" : "grsmnt05.def",
+					
+					"hota/bulwark/mapObjects/static/AVLGLC01.def" : "AVLGLC01.def",
+					"hota/bulwark/mapObjects/static/AVLGLC02.def" : "AVLGLC02.def",
+					"hota/bulwark/mapObjects/static/AVLGLC03.def" : "AVLGLC03.def",
+					"hota/bulwark/mapObjects/static/AVLGLC04.def" : "AVLGLC04.def",
+					"hota/bulwark/mapObjects/static/AVLGLC05.def" : "AVLGLC05.def",
+					"hota/bulwark/mapObjects/static/AVLGLC06.def" : "AVLGLC06.def",
+					
+					"hota/bulwark/mapObjects/interactive/AVMtrap0A.def" : "AVMtrap0.def",
+					"hota/bulwark/mapObjects/interactive/AVXseekA0.def" : "AVXseek0.def",
+
 					"hota/waterfall/h4wt1f.def" : "h4wt1f.def",
 					"hota/waterfall/h4wt2f.def" : "h4wt2f.def",
 					"hota/waterfall/h4wt3f.def" : "h4wt3f.def",
