@@ -1161,41 +1161,41 @@
 						2
 					],
 					"crackedIce" : {
-						"crackedIce" : [
+//						"crackedIce" : [
+//							141,
+//							0
+//						],
+						"crackedIce01" : [
 							141,
 							0
 						],
-						"crackedIce01" : [
-							40,
+						"crackedIce02" : [
+							141,
 							0
 						],
-						"crackedIce02" : [
-							40,
-							1
-						],
 						"crackedIce03" : [
-							40,
-							2
+							141,
+							0
 						],
 						"crackedIce04" : [
-							40,
-							3
+							141,
+							0
 						],
 						"crackedIce05" : [
-							40,
-							4
+							141,
+							0
 						],
 						"crackedIce06" : [
-							40,
-							5
+							141,
+							0
 						],
 						"crackedIce07" : [
-							40,
-							6
+							141,
+							0
 						],
 						"crackedIce08" : [
-							40,
-							7
+							141,
+							0
 						]
 					},
 
@@ -1332,10 +1332,18 @@
 						139,
 						9
 					],
+					
+//old portu.def					
 					"bluebottle" : [
+						40,
+						0
+					],
+
+//new portu.def					
+					"portu" : [
 						139,
 						10
-					],
+					],					
 					//					"abandonedHouse" : [139, 11],
 					"crumbledCamp" : [
 						139,
@@ -2082,6 +2090,10 @@
 					
 					"hota/bulwark/mapObjects/interactive/AVMtrap0A.def" : "AVMtrap0.def",
 					"hota/bulwark/mapObjects/interactive/AVXseekA0.def" : "AVXseek0.def",
+					
+					"hota/bulwark/mapObjects/mines/AVMcrsn1.def" : "AVMcrsn1.def",
+					"hota/bulwark/mapObjects/mines/AVMgosn1.def" : "AVMgosn1.def",
+					"hota/bulwark/mapObjects/mines/AVXamSn1.def" : "AVXamSn1.def",
 
 					"hota/waterfall/h4wt1f.def" : "h4wt1f.def",
 					"hota/waterfall/h4wt2f.def" : "h4wt2f.def",
@@ -2100,16 +2112,17 @@
 					"hota/hillFort/miniftsn.def" : "miniftsn.def",
 					"hota/hillFort/miniftsw.def" : "miniftsw.def",
 					"hota/wasteland/hotaInteractive/hillFort/miniftws.def" : "miniftws.def",
-					"hota/kelps/AVLklp30" : "AVLklp30.def",
-					"hota/kelps/AVLklp40" : "AVLklp40.def",
-					"hota/kelps/AVLklp50" : "AVLklp50.def",
-					"hota/kelps/AVLklp60" : "AVLklp60.def",
-					"hota/kelps/AVLklp70" : "AVLklp70.def",
-					"hota/kelps/AVLklp80" : "AVLklp80.def",
-					"hota/kelps/AVLswd1" : "AVLswd1.def",
-					"hota/kelps/AVLswd2" : "AVLswd2.def",
-					"hota/kelps/AVLswd3" : "AVLswd3.def",
-					"hota/kelps/AVLswd4" : "AVLswd4.def",
+					"hota/kelps/AVLklp30.def" : "AVLklp30.def",
+					"hota/kelps/AVLklp40.def" : "AVLklp40.def",
+					"hota/kelps/AVLklp50.def" : "AVLklp50.def",
+					"hota/kelps/AVLklp60.def" : "AVLklp60.def",
+					"hota/kelps/AVLklp70.def" : "AVLklp70.def",
+					"hota/kelps/AVLklp80.def" : "AVLklp80.def",
+					"hota/kelps/AVLswd1.def" : "AVLswd1.def",
+					"hota/kelps/AVLswd2.def" : "AVLswd2.def",
+					"hota/kelps/AVLswd3.def" : "AVLswd3.def",
+					"hota/kelps/AVLswd4.def" : "AVLswd4.def",
+					"hota/kelps/portu.def" : "portu.def",
 					"hota/mountains/MNTSWP01.DEF" : "mntswp01.def",
 					"hota/mountains/MNTSWP02.DEF" : "mntswp02.def",
 					"hota/mountains/MNTSWP03.DEF" : "mntswp03.def",
@@ -2252,7 +2265,17 @@
 					"hota/pillars/AVLwaV06.def" : "AVLwaV06.def",
 					"hota/pillars/AVLwaV07.def" : "AVLwaV07.def",
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
-					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def"
+					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
+					
+//cracked ice					
+					"ZICE01.def" : "ZICE01.def",
+					"ZICE02.def" : "ZICE02.def",
+					"ZICE03.def" : "ZICE03.def",
+					"ZICE04.def" : "ZICE04.def",
+					"ZICE05.def" : "ZICE05.def",
+					"ZICE06.def" : "ZICE06.def",
+					"ZICE07.def" : "ZICE07.def",
+					"ZICE08.def" : "ZICE08.def"
 				},
 
 				"campaignRegions" : {
