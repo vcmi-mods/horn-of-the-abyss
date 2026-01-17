@@ -147,16 +147,6 @@
 							"highlands"
 						]
 					},
-					"avgflh18" : {
-						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh18",
-						"mask" : [
-							"VVV",
-							"BBB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
-					},
 					"avgflh19" : {
 						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh19",
 						"mask" : [
@@ -169,6 +159,15 @@
 					},
 					"avgflh20" : {
 						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh20",
+						"mask" : [
+							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					},
+					"avlf07g0Highlands" : {
+						"animation" : "avlf07g0.def",
 						"mask" : [
 							"BB"
 						],
@@ -200,6 +199,25 @@
 						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh03",
 						"mask" : [
 							"BB"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
+				}
+			}
+		}
+	},
+	
+	"core:shrub" : {
+		"types" : {
+			"object" : {
+				"templates": {
+					"avgflh18" : {
+						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh18",
+						"mask" : [
+							"VVV",
+							"BBB"
 						],
 						"allowedTerrains" : [
 							"highlands"
