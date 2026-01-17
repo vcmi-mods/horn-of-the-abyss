@@ -3,8 +3,8 @@
 		"types" : {
 			"crystalCavern" : {
 				"templates" : {
-					"AVMcrGla0" : {
-						"animation" : "hota/bulwark/mapObjects/mines/AVMcrGla0",
+					"AVMcrsn1" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVMcrsn1",
 						"mask" : [
 							"VVVV",
 							"VVVV",
@@ -23,8 +23,8 @@
 			},
 			"goldMine" : {
 				"templates" : {
-					"AVMgoGla0" : {
-						"animation" : "hota/bulwark/mapObjects/mines/AVMgoGla0",
+					"AVMgosn1" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVMgosn1",
 						"mask" : [
 							"VVVV",
 							"VVVV",
@@ -47,8 +47,8 @@
 		"types" : {
 			"mine" : {
 				"templates" : {
-					"AVXamSN2" : {
-						"animation" : "hota/bulwark/mapObjects/mines/AVXamSN2",
+					"AVXamSn1" : {
+						"animation" : "hota/bulwark/mapObjects/mines/AVXamSn1",
 						"mask" : [
 							"VVVV",
 							"VVVV",
