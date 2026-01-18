@@ -6,20 +6,6 @@
 			"battleground" : "cracked_ice"
 		},
 		"types" : {
-			"crackedIce" : {
-				"templates" : {
-					"zice01" : {
-						"animation" : "zice01",
-						"zIndex" : 100,
-						"mask" : [
-							"VVVVVV",
-							"VVVVVV",
-							"VVVVVV",
-							"VVVVVV"
-						]
-					}
-				}
-			},
 			"crackedIce01" : {
 				"templates" : {
 					"zice01" : {

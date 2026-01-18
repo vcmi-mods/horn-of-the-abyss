@@ -20,11 +20,12 @@
 	"highlandsShrub" : {
 		"biome" : {
 			"terrain" : "highlands",
-			"objectType" : "plant"
+			"objectType" : "other"
 		},
 		"templates" : [
 			"AVlshl00",
-			"AVlshl01"
+			"AVlshl01",
+			"avgflh18"
 		]
 	},
 	"highlandsMountain" : {
@@ -68,6 +69,7 @@
 			"avgflh06",
 			"avgflh07",
 			"avgflh08",
+			"avlf07g0Highlands",
 			"avgflh09",
 			"avgflh10",
 			"avgflh11",
@@ -77,7 +79,6 @@
 			"avgflh15",
 			"avgflh16",
 			"avgflh17",
-			"avgflh18",
 			"avgflh19",
 			"avgflh20"
 		]
