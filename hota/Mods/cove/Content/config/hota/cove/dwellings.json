@@ -207,7 +207,7 @@
 				"kingdomOverviewImage" : "hota/cove/mapObjects/dwellings/flagport/flagCove6-2.def"
 			},
 			"whirpoolLarge" : {
-				"name" : "Whirpool",
+				"name" : "Maelstrom",
 				"creatures" : [
 					[
 						"seaserpent"
