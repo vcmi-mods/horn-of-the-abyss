@@ -25,11 +25,25 @@
 				},
 				"blockedVisitable" : true,
 				"removable" : true,
+				"variables" : {
+					"resource" : {
+						"gainedResource" : { 
+							"anyOf" : [ "mercury", "gems", "sulfur", "crystal" ]
+						}
+					},
+					"number" : {
+						"gainedAmount" : {
+							"min" : 3,
+							"max" : 6
+						}
+					}
+				},
 				"rewards" : [
 					{
 						"appearChance" : {
 							"max" : 20
 						},
+						"mapDice" : 1,
 						"message" : "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
 						"removeObject" : true
 					},
@@ -37,18 +51,13 @@
 						"appearChance" : {
 							"min" : 20
 						},
-						"resources" : {
-							"list" : [
-								"mercury",
-								"sulfur",
-								"crystal",
-								"gems"
-							],
-							"amount" : {
-								"min" : 3,
-								"max" : 6
+						"mapDice" : 0,
+						"resources" : [
+							{
+								"type" : "@gainedResource",
+								"amount" : "@gainedAmount"
 							}
-						},
+						],
 						"message" : "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
 						"removeObject" : true
 					}
