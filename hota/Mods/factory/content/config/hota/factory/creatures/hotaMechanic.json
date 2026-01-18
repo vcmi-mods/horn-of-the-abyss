@@ -33,7 +33,7 @@
 			"mapAttackFromRight" : "hota/factory/creatures/AVWattak/AvWat344",
 			"mapAttackFromLeft" : "hota/factory/creatures/AVWattak/AvWat345",
 			"animationTime" : {
-				"walk" : 1.25,
+				"walk" : 1.15,
 				"attack" : 1,
 				"idle" : 10
 			}

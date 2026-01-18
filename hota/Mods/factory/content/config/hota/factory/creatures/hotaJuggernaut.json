@@ -34,8 +34,8 @@
 			"mapAttackFromRight" : "hota/factory/creatures/AVWattak/AvWat370",
 			"mapAttackFromLeft" : "hota/factory/creatures/AVWattak/AvWat371",
 			"animationTime" : {
-				"walk" : 1.5,
-				"attack" : 1,
+				"walk" : 1.85,
+				"attack" : 1.75,
 				"idle" : 10
 			}
 		},
@@ -44,7 +44,7 @@
 		"hitPoints" : 300,
 		"level" : 7,
 		"sound" : {
-			"attack" : "hota/factory/creatures/dreadnought/DREDSHOT.wav",
+			"attack" : "hota/factory/creatures/dreadnought/DREDATTK.wav",
 			"defend" : "hota/factory/creatures/dreadnought/DREDDFND.wav",
 			"killed" : "hota/factory/creatures/dreadnought/DREDKILL.wav",
 			"move" : "hota/factory/creatures/dreadnought/DREDMOVE.wav",
@@ -57,6 +57,16 @@
 				"type" : "MECHANICAL"
 			},
 			"heatStroke" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "heatStrokeJuggernaut",
+				"description" : "{Heat Stroke}\nCan buff itself to deal damage to all units within a semi-circular area",
+				"icon" : "hota/factory/creatures/iconsBonuses/hotshoot.png"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 99
+			},
+			"multiHexAttack" : {
 				"type" : "MULTIHEX_UNIT_ATTACK",
 				"addInfo" : [
 					"L",
@@ -67,11 +77,30 @@
 					"RR",
 					"R"
 				],
-				"description" : "{Heat Stroke}\nDeals damage to all units within the targeted semi-circular area",
-				"icon" : "hota/factory/creatures/iconsBonuses/hotshoot.png"
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "USED_HEATSTROKE_ABILITY"
+					}
+				]
 			},
-			"noRetaliation" : {
-				"type" : "BLOCKS_RETALIATION"
+			"multiHexAnimation" : {
+				"type" : "MULTIHEX_ANIMATION",
+				"addInfo" : [
+					"L",
+					"LL",
+					"FL",
+					"FF",
+					"RF",
+					"RR",
+					"R"
+				],
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "USED_HEATSTROKE_ABILITY"
+					}
+				]
 			},
 			// Will be affected by Expert Slayer only
 			"KING_3" : {
