@@ -92,7 +92,12 @@
 		"config/hota/factory/spells/detonates02.json",
 		"config/hota/factory/spells/detonation.json",
 		"config/hota/factory/spells/meditation01.json",
-		"config/hota/factory/spells/meditation02.json"
+		"config/hota/factory/spells/meditation02.json",
+		"config/hota/factory/spells/heatStroke/heatStrokeJuggernaut.json",
+		"config/hota/factory/spells/heatStroke/heatStrokeDreadnought.json"
+	],
+	"bonuses" : [
+		"config/hota/factory/spells/heatStroke/heatStrokeBonusType.json"
 	],
 	"objects" : [
 		"config/hota/factory/dwellings.json"
