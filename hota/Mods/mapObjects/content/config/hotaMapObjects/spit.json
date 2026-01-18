@@ -35,7 +35,7 @@
 				"onVisitedMessage" : "Somebody was here before you, and the treasury was pillaged.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
-				"guardsLayout" : "creatureBankWide",
+				"guardsLayout" : "creatureBankSpit",
 				"rewards" : [
 					{
 						"message" : 34,
