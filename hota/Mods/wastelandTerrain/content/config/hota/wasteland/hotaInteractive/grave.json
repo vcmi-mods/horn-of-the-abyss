@@ -17,6 +17,25 @@
 					"value" : 500,
 					"rarity" : 30
 				},
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : { 
+							"anyOf" : [
+								{
+									"class" : "TREASURE"
+								},
+								{
+									"class" : "MINOR"
+								}
+							]
+						}
+					},
+					"number" : {
+						"gainedAmount" : {
+							"amount" : [ 1500, 2000, 2500, 3000, 3500, 4000 ]
+						}
+					}
+				},
 				"removable" : true,
 				"blockedVisitable" : false,
 				"showScoutedPreview" : false,
@@ -24,59 +43,20 @@
 				"rewards" : [
 					{
 						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
-						"appearChance" : {
-							"max" : 50
-						},
-						"resources" : {
-							"gold" : [
-								1500,
-								2000,
-								2500,
-								3000,
-								3500,
-								4000
-							]
-						},
+						"resources" : [
+							{
+								"type" : "gold",
+								"amount" : "@gainedAmount"
+							}
+						],
+						"artifacts" : [
+							"@gainedArtifact"
+						],
 						"bonuses" : [
 							{
 								"type" : "MORALE",
 								"val" : -3,
 								"duration" : "ONE_BATTLE"
-							}
-						],
-						"artifacts" : [
-							{
-								"class" : "TREASURE"
-							}
-						],
-						"movePercentage" : 0,
-						"removeObject" : true
-					},
-					{
-						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
-						"appearChance" : {
-							"min" : 50
-						},
-						"resources" : {
-							"gold" : [
-								1500,
-								2000,
-								2500,
-								3000,
-								3500,
-								4000
-							]
-						},
-						"bonuses" : [
-							{
-								"type" : "MORALE",
-								"val" : -3,
-								"duration" : "ONE_BATTLE"
-							}
-						],
-						"artifacts" : [
-							{
-								"class" : "MINOR"
 							}
 						],
 						"movePercentage" : 0,
