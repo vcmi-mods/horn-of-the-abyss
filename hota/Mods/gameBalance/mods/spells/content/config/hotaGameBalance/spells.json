@@ -238,5 +238,19 @@
 	// HotA 1.7.0: [+] Wall of Fire: Power damage multiplier increased from 10 to 15
 	"core:fireWallTrigger" : {
 		"power" : 15
+	},
+	"core:forgetfulness" : {
+		"levels" : {
+			"base":{
+				"effects" : {
+					"meleeAttackDamageReduction" : {
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" : "damageTypeMelee",
+						"duration" : "N_TURNS",
+						"val" : -50
+					}
+				}	
+			}
+		}
 	}
 }

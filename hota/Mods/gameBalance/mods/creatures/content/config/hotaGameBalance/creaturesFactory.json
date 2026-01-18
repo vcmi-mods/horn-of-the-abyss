@@ -1,12 +1,14 @@
 {
 	"hota.factory:halflingGrenadier" : {
-		"fightValue" : 75
+		"fightValue" : 76
 	},
 	"hota.factory:hotaMechanic" : {
-		"fightValue" : 186
+		"aiValue" : 201,
+		"fightValue" : 201
 	},
 	"hota.factory:hotaEngineer" : {
-		"fightValue" : 232
+		"aiValue" : 298,
+		"fightValue" : 248
 	},
 	"hota.factory:armadillo" : {
 		"fightValue" : 248
@@ -26,7 +28,7 @@
 		"fightValue" : 793
 	},
 	"hota.factory:olgoiKhorkhoi" : {
-		"fightValue" : 894
+		"fightValue" : 904
 	},
 	"hota.factory:gunslinger" : {
 		"fightValue" : 904
