@@ -51,7 +51,7 @@
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
-				"walk" : 1
+				"walk" : 0.9
 			},
 			"timeBetweenFidgets" : 1,
 			"mapAttackFromRight" : "hota/cove/creatures/AVWattak/AvWat316",

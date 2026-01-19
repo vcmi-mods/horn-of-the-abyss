@@ -1,67 +1,59 @@
 {
-	"core:amuletOfTheUndertaker" : {
-		"text" : {
-			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
-		},
-		"bonuses" : {
-			"necromancy" : {
-				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 3, // NOTE: should be 2.5%
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		}
-	},
-	"core:vampiresCowl" : {
-		"text" : {
-			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
-		},
-		"bonuses" : {
-			"necromancy" : {
-				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 5,
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		}
-	},
-	"core:deadMansBoots" : {
-		"text" : {
-			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
-		},
-		"bonuses" : {
-			"necromancy" : {
-				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"val" : 7, // NOTE: should be 7.5%
-				"valueType" : "ADDITIVE_VALUE"
-			}
-		}
-	},
+	// 1.8.0
+	// [-] 5/10/15/30% Necromancy boost values are back for the Amulet of the Undertaker, Vampire's Cowl, Dead Man's Boots, and Cloak of the Undead King (instead of 2.5/5/7.5/15%)
+//	"core:amuletOfTheUndertaker" : {
+//		"text" : {
+//			"description" : "{Amulet of the Undertaker}\n\nWorn about the neck, this amulet increases your Necromancy skill by 3%."
+//		},
+//		"bonuses" : {
+//			"necromancy" : {
+//				"type" : "UNDEAD_RAISE_PERCENTAGE",
+//				"val" : 3, // NOTE: should be 2.5%
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		}
+//	},
+//	"core:vampiresCowl" : {
+//		"text" : {
+//			"description" : "{Vampire's Cowl}\n\nWorn about the shoulders, this cowl increases your Necromancy skill by 5%."
+//		},
+//		"bonuses" : {
+//			"necromancy" : {
+//				"type" : "UNDEAD_RAISE_PERCENTAGE",
+//				"val" : 5,
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		}
+//	},
+//	"core:deadMansBoots" : {
+//		"text" : {
+//			"description" : "{Dead Man's Boots}\n\nWorn on the feet, these boots increase your Necromancy skill by 7%."
+//		},
+//		"bonuses" : {
+//			"necromancy" : {
+//				"type" : "UNDEAD_RAISE_PERCENTAGE",
+//				"val" : 7, // NOTE: should be 7.5%
+//				"valueType" : "ADDITIVE_VALUE"
+//			}
+//		}
+//	},
 	"core:bootsOfSpeed" : {
 		"bonuses" : {
 			"movement" : {
-				"type" : "MOVEMENT",
-				"subtype" : "heroMovementLand",
-				"val" : 400,
-				"valueType" : "ADDITIVE_VALUE"
+				"val" : 400
 			}
 		}
 	},
 	"core:equestriansGloves" : {
 		"bonuses" : {
 			"movement" : {
-				"type" : "MOVEMENT",
-				"subtype" : "heroMovementLand",
-				"val" : 200,
-				"valueType" : "ADDITIVE_VALUE"
+				"val" : 200
 			}
 		}
 	},
 	"core:badgeOfCourage" : {
 		"bonuses" : {
-			"morale" : {
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "BASE_NUMBER"
-			}
+			"mindImmunity" : null
 		}
 	},
 	"core:cloakOfTheUndeadKing" : {
