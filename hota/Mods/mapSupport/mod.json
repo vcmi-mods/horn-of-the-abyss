@@ -1554,7 +1554,7 @@
 					"hota/rampart/adventureMap/town/AVCramx0.def" : "AVCramx0.def",
 					"hota/rampart/adventureMap/town/AVCramz0.def" : "AVCramz0.def",
 					
-					"hota/random/adventureMap/town/town.def" : "avcranc0.def",
+					"hota/random/adventureMap/town/avcranc0.def" : "avcranc0.def",
 					"hota/random/adventureMap/town/AVCRAND0.def" : "AVCRAND0.def",
 					"hota/random/adventureMap/town/AVCranf0.def" : "AVCranf0.def",
 					"hota/random/adventureMap/town/avcranx0.def" : "avcranx0.def",
