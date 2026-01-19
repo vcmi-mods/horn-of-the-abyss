@@ -51,7 +51,8 @@
 							"cannotMove" : {
 								"type" : "STACKS_SPEED",
 								"duration" : [
-									"N_TURNS"
+									"N_TURNS",
+									"UNTIL_OWN_ATTACK"
 								],
 								"turns" : 1,
 								"val" : 0,
@@ -60,7 +61,8 @@
 							"enableMultihexAttack" : {
 								"type" : "USED_HEATSTROKE_ABILITY",
 								"duration" : [
-									"N_TURNS"
+									"N_TURNS",
+									"UNTIL_OWN_ATTACK"
 								],
 								"turns" : 1
 							}
