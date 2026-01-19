@@ -48,6 +48,7 @@
 							"min" : 0,
 							"max" : 30
 						},
+						"mapDice" : 0,
 						"guards" : [
 							{
 								"amount" : 8,
@@ -90,6 +91,7 @@
 							"min" : 30,
 							"max" : 60
 						},
+						"mapDice" : 1,
 						"guards" : [
 							{
 								"amount" : 8,
@@ -132,6 +134,7 @@
 							"min" : 60,
 							"max" : 90
 						},
+						"mapDice" : 2,
 						"guards" : [
 							{
 								"amount" : 8,
@@ -174,6 +177,7 @@
 							"min" : 90,
 							"max" : 100
 						},
+						"mapDice" : 3,
 						"guards" : [
 							{
 								"amount" : 10,

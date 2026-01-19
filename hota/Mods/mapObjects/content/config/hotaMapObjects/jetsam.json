@@ -30,6 +30,7 @@
 						"appearChance" : {
 							"max" : 25
 						},
+						"mapDice" : 0,
 						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Nothing of value can be found.",
 						"removeObject" : true
 					},
@@ -38,6 +39,7 @@
 							"min" : 25,
 							"max" : 50
 						},
+						"mapDice" : 1,
 						"resources" : {
 							"ore" : 5
 						},
@@ -53,6 +55,7 @@
 							"ore" : 5,
 							"gold" : 200
 						},
+						"mapDice" : 2,
 						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
 						"removeObject" : true
 					},
@@ -65,6 +68,7 @@
 							"ore" : 10,
 							"gold" : 500
 						},
+						"mapDice" : 3,
 						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
 						"removeObject" : true
 					}

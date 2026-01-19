@@ -26,6 +26,17 @@
 						"hota/LOOPBEHD.wav"
 					]
 				},
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : { 
+							"anyOf" : [
+								{
+									"class" : "MINOR"
+								}
+							]
+						}
+					}
+				},
 				"rmg" : {
 					"value" : 2500,
 					"rarity" : 100
@@ -43,6 +54,7 @@
 							"min" : 0,
 							"max" : 30
 						},
+						"mapDice" : 0,
 						"guards" : [
 							{
 								"amount" : 10,
@@ -70,9 +82,7 @@
 							"gold" : 3000
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -81,6 +91,7 @@
 							"min" : 30,
 							"max" : 60
 						},
+						"mapDice" : 1,
 						"guards" : [
 							{
 								"amount" : 15,
@@ -108,9 +119,7 @@
 							"gold" : 4500
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -119,6 +128,7 @@
 							"min" : 60,
 							"max" : 90
 						},
+						"mapDice" : 2,
 						"guards" : [
 							{
 								"amount" : 20,
@@ -146,9 +156,7 @@
 							"gold" : 6000
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -157,6 +165,7 @@
 							"min" : 90,
 							"max" : 100
 						},
+						"mapDice" : 3,
 						"guards" : [
 							{
 								"amount" : 30,
@@ -184,9 +193,7 @@
 							"gold" : 9000
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					}
 				]

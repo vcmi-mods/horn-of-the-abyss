@@ -18,6 +18,17 @@
 						]
 					}
 				},
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : { 
+							"anyOf" : [
+								{
+									"class" : "MAJOR"
+								}
+							]
+						}
+					}
+				},
 				"sounds" : {
 					"ambient" : [
 						"hota/LOOPMANS.wav"
@@ -43,6 +54,7 @@
 							"min" : 0,
 							"max" : 30
 						},
+						"mapDice" : 0,
 						"guards" : [
 							{
 								"amount" : 8,
@@ -73,9 +85,7 @@
 							"crystal" : 2
 						},
 						"artifacts" : [
-							{
-								"class" : "MAJOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -84,6 +94,7 @@
 							"min" : 30,
 							"max" : 60
 						},
+						"mapDice" : 1,
 						"guards" : [
 							{
 								"amount" : 12,
@@ -114,9 +125,7 @@
 							"crystal" : 3
 						},
 						"artifacts" : [
-							{
-								"class" : "MAJOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -125,6 +134,7 @@
 							"min" : 60,
 							"max" : 90
 						},
+						"mapDice" : 2,
 						"guards" : [
 							{
 								"amount" : 16,
@@ -155,9 +165,7 @@
 							"crystal" : 4
 						},
 						"artifacts" : [
-							{
-								"class" : "MAJOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -166,6 +174,7 @@
 							"min" : 90,
 							"max" : 100
 						},
+						"mapDice" : 3,
 						"guards" : [
 							{
 								"amount" : 20,
@@ -196,9 +205,7 @@
 							"crystal" : 5
 						},
 						"artifacts" : [
-							{
-								"class" : "MAJOR"
-							}
+							"@gainedArtifact"
 						]
 					}
 				]
