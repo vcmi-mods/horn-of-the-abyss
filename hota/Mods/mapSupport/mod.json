@@ -934,7 +934,11 @@
 						"ancientAltar" : [
 							146,
 							4
-						]
+						],
+						"ancientAltarOld" : [
+							139,
+							14
+						]						
 					},
 					"creatureGeneratorCommon" : {
 						"waterfall" : [
@@ -1358,10 +1362,6 @@
 						13
 					],
 					// Required by some older custom maps
-					"ancientAltarOld" : [
-						139,
-						14
-					],
 					"abandonedBoat" : [
 						139,
 						15
