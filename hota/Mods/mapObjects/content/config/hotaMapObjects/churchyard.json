@@ -63,6 +63,17 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankChurchyard",
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : { 
+							"anyOf" : [
+								{
+									"class" : "MINOR"
+								}
+							]
+						}
+					}
+				},
 				"rewards" : [
 					{
 						"message" : "After defeating the undead you search the graveyard and find something useful!",
@@ -100,9 +111,7 @@
 							"gold" : 2500
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					}
 				]

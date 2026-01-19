@@ -8,6 +8,17 @@
 				"onGuardedMessage" : "You stand in front of a dragon's dwelling. The vicious creature is terrorising the surrounding lands. Would you like to battle it?",
 				"onVisitedMessage" : "A dragon once lived in this tower, however now it is empty and holds nothing of interest.",
 				"visitMode" : "once",
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : { 
+							"anyOf" : [
+								{
+									"class" : "MINOR"
+								}
+							]
+						}
+					}
+				},
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "default",
 				"templates" : {
@@ -80,6 +91,7 @@
 							"min" : 0,
 							"max" : 30
 						},
+						"mapDice" : 0,
 						"guards" : [
 							{
 								"amount" : 1,
@@ -90,9 +102,7 @@
 							"gold" : 2000
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -101,6 +111,7 @@
 							"min" : 30,
 							"max" : 60
 						},
+						"mapDice" : 1,
 						"guards" : [
 							{
 								"amount" : 1,
@@ -111,9 +122,7 @@
 							"gold" : 2250
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -122,6 +131,7 @@
 							"min" : 60,
 							"max" : 90
 						},
+						"mapDice" : 2,
 						"guards" : [
 							{
 								"amount" : 1,
@@ -132,9 +142,7 @@
 							"gold" : 3500
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					},
 					{
@@ -143,6 +151,7 @@
 							"min" : 90,
 							"max" : 100
 						},
+						"mapDice" : 3,
 						"guards" : [
 							{
 								"amount" : 1,
@@ -153,9 +162,7 @@
 							"gold" : 3750
 						},
 						"artifacts" : [
-							{
-								"class" : "MINOR"
-							}
+							"@gainedArtifact"
 						]
 					}
 				]

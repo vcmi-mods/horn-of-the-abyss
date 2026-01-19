@@ -22,6 +22,7 @@
 						"appearChance" : {
 							"max" : 30
 						},
+						"mapDice" : 0,
 						"manaPoints" : 30,
 						"manaOverflowFactor" : 50,
 						"message" : "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
@@ -32,6 +33,7 @@
 							"min" : 30,
 							"max" : 60
 						},
+						"mapDice" : 1,
 						"manaPoints" : 40,
 						"manaOverflowFactor" : 50,
 						"message" : "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
@@ -42,6 +44,7 @@
 							"min" : 60,
 							"max" : 90
 						},
+						"mapDice" : 2,
 						"manaPoints" : 50,
 						"manaOverflowFactor" : 50,
 						"message" : "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
@@ -52,6 +55,7 @@
 							"min" : 90,
 							"max" : 100
 						},
+						"mapDice" : 3,
 						"manaPoints" : 60,
 						"manaOverflowFactor" : 50,
 						"message" : "{Vial of Mana}\r\n\r\nYou get hold of the vial, but are disappointed to see it lacking any messsage. There's only water inside, suprisingly fresh though.",
