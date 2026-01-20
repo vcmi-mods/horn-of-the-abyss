@@ -5,12 +5,12 @@
 		"name" : "Repair",
 		"school" : {
 			"air" : false,
-			"earth" : true,
+			"earth" : false,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 3,
-		"power" : 30,
+		"level" : 0,
+		"power" : 0,
 
 		"defaultGainChance" : 0,
 		"gainChance" : {},
@@ -23,14 +23,18 @@
 
 		"flags" : {
 			"positive" : true,
-			"rising" : true
+			"rising" : true,
+			"special" : true
 		},
 		"targetCondition" : {
-			"noneOf" : {
-				"bonus.UNDEAD" : "absolute"
-			},
 			"anyOf" : {
 				"bonus.MECHANICAL" : "absolute"
+			},
+			"noneOf" : {
+				"bonus.GARGOYLE" : "absolute",
+				"bonus.NON_LIVING" : "absolute",
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.UNDEAD" : "absolute"
 			}
 		},
 
@@ -44,15 +48,15 @@
 
 		"levels" : {
 			"base" : {
-				"cost" : 12,
+				"description" : "not shown",
+				"cost" : 0,
 				"range" : "0",
-				"power" : 30,
+				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
 						"type" : "core:heal",
 						"healLevel" : "resurrect",
-						"healPower" : "oneBattle",
-						"minFullUnits" : 1
+						"healPower" : "permanent"
 					},
 					"cure" : {
 						"type" : "core:dispel",
@@ -68,34 +72,12 @@
 				}
 			},
 			"none" : {
-				"description" : "Target, allied non living and mechanical troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired for the duration of the current battle."
 			},
 			"basic" : {
-				"description" : "Target, allied non living and mechanical troop with dead creatures has (30 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 30,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
-					}
-				}
 			},
 			"advanced" : {
-				"description" : "Target, allied non living and mechanical troop with dead creatures has (50 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 50,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
-					}
-				}
 			},
 			"expert" : {
-				"description" : "Target, allied non living and mechanical troop with dead creatures has (70 + (power x 30)) health worth of creatures repaired permanently.",
-				"power" : 70,
-				"battleEffects" : {
-					"heal" : {
-						"healPower" : "permanent"
-					}
-				}
 			}
 		}
 	}

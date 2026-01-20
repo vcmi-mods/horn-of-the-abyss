@@ -58,9 +58,9 @@
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
 			"repair" : {
-				"type" : "SPELLCASTER",
+				"type" : "ADJACENT_SPELLCASTER",
 				"subtype" : "hotaRepair",
-				"val" : 2
+				"description" : "{Repair}\nRepairs mechanical creatures (10 Health per Mechanic)."
 			},
 			"castLength" : {
 				"type" : "SPECIFIC_SPELL_POWER",

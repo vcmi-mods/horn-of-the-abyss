@@ -79,6 +79,10 @@
 			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
 				"val" : 0
+			},
+			"cpuControlledCannon" : {
+				"hidden" : true,
+				"type" : "CPU_CONTROLLED"
 			}
 		},
 		"stackExperience" : [
