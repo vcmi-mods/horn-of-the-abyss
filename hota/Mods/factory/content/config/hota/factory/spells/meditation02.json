@@ -2,18 +2,16 @@
 	"meditation02" : {
 		"type" : "ability",
 		"name" : "Meditation",
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : false,
 			"water" : false
 		},
-		"level" : 1,
-		"power" : 2,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
-
-		//implosion animation?
 		"animation" : {
 			"affect" : [
 				{
@@ -21,257 +19,59 @@
 				}
 			]
 		},
-
 		"flags" : {
 			"positive" : true,
-			"nonMagical" : true,
 			"special" : true
 		},
-
 		"targetCondition" : {
-			"anyOf" : {
-				"factory:creature.crimsonCouatl" : "absolute"
-			}
 		},
-
-		"canCastOnSelf" : true,
 		"canCastWithoutSkip" : true,
 		"canCastOnlyOnSelf" : true,
-
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/medi001.png"
 		},
 		"sounds" : {
-			"cast" : "ENERMOVE" //fear snd
 		},
 		"targetType" : "CREATURE",
-
 		"levels" : {
 			"base" : {
+				"description" : "{Meditation}\n\nTemporary invulnerability.\n",
 				"range" : "0",
-				"power" : 1,
+				"power" : 0,
+				"cost" : 0,
 				"targetModifier" : {
 					"smart" : true
 				},
-				"cost" : 6
+				"battleEffects" : {
+					"crimsonMeditation" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"invincible" : {
+								"type" : "INVINCIBLE",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 1
+							},
+							"immunityToHarmfulEffects" : {
+								"type" : "NEGATIVE_EFFECTS_IMMUNITY",
+								"subtype" : "spellSchool.any",
+								"duration" : [
+									"N_TURNS"
+								],
+								"turns" : 1
+							}
+						}
+					}
+				}
 			},
 			"none" : {
-				"description" : "{Meditation}\n\nMakes the unit invincible for this turn.\n",
-
-				"effects" : {
-					"notActive" : {
-						"type" : "BLOCKS_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"damageReduction" : {
-						"type" : "INVINCIBLE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immnunityDispel" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispel",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immnunityDispelHelpful" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "dispelHelpful",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immuneToFire" : {
-						"subtype" : "fire",
-						"type" : "SPELL_SCHOOL_IMMUNITY",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immuneToAir" : {
-						"subtype" : "air",
-						"type" : "SPELL_SCHOOL_IMMUNITY",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immuneToWater" : {
-						"subtype" : "water",
-						"type" : "SPELL_SCHOOL_IMMUNITY",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"immuneToEarth" : {
-						"subtype" : "earth",
-						"type" : "SPELL_SCHOOL_IMMUNITY",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"receptive" : {
-						"type" : "RECEPTIVE",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"activeHealth" : {
-						"type" : "STACK_HEALTH",
-						"val" : 10,
-						"valueType" : "PERCENT_TO_BASE",
-						"duration" : "N_TURNS",
-						"turns" : 1
-					} //Temporarily increases HP by 10% to trigger the effect; removes after one turn with no other effects.
-				}
 			},
 			"basic" : {
-				"description" : "high meditations"
 			},
 			"advanced" : {
-				"description" : "high meditations",
-
-				"effects" : {
-					"notActive" : {
-						"type" : "BLOCKS_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"damageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"damageReductionShots" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeRanged",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"magicDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "any",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"levelSpellImmunity" : {
-						"val" : 5,
-						"type" : "LEVEL_SPELL_IMMUNITY",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"nonLiving" : {
-						"type" : "NON_LIVING",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					}
-				}
 			},
 			"expert" : {
-				"description" : "high meditations",
-
-				"effects" : {
-					"notActive" : {
-						"type" : "BLOCKS_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"damageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"damageReductionShots" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeRanged",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"magicDamageReduction" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "any",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"levelSpellImmunity" : {
-						"val" : 5,
-						"type" : "LEVEL_SPELL_IMMUNITY",
-						"valueType" : "INDEPENDENT_MAX",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"nonLiving" : {
-						"type" : "NON_LIVING",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						],
-						"turns" : 1
-					}
-				}
 			}
 		}
 	}

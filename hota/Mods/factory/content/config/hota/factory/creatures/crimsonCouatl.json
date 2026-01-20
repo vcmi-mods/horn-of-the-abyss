@@ -59,7 +59,8 @@
 			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "meditation02",
-				"val" : 0
+				"val" : 0,
+				"description" : "{Meditation}\nCan cast Meditation without skipping its turn."
 			},
 			"castsCount" : {
 				"type" : "CASTS",
