@@ -2,8 +2,8 @@
 	"freezingShot" : {
 		"name" : "Freezing Shot",
 		"type" : "ability",
-		"targetType" : "NO_TARGET",
-		"level" : 3,
+		"targetType" : "CREATURE",
+		"level" : 4,
 		"power" : 0,
 		"school" : {},
 		"flags" : {
