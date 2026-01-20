@@ -3,12 +3,12 @@
 		"base" : {
 			"effects" : {
 				"cannonExtra" : {
-					"subtype" : "hota.cannon:creature.cannon",
+					"subtype" : "cannon",
 					"type" : "BONUS_DAMAGE_CHANCE",
 					"valueType" : "BASE_NUMBER"
 				},
 				"damagePowerCannon" : {
-					"subtype" : "hota.cannon:creature.cannon",
+					"subtype" : "cannon",
 					"type" : "BONUS_DAMAGE_PERCENTAGE",
 					"valueType" : "BASE_NUMBER"
 				},
@@ -18,11 +18,16 @@
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "hota.cannon:creature.cannon"
+							"creature" : "cannon"
 						}
 					],
 					"valueType" : "INDEPENDENT_MIN",
 					"val" : 40
+				},
+				"manualControlCannon" : {
+					"type" : "MANUAL_CONTROL",
+					"subtype" : "cannon",
+					"val" : 100
 				}
 			}
 		},
