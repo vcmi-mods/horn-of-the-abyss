@@ -28,6 +28,8 @@
 		},
 		"levels" : {
 			"base" : {
+				"cost" : 0,
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks.\n",
 				"range" : "0",
 				"power" : 0,
 				"targetModifier" : {
@@ -56,20 +58,12 @@
 				}
 			},
 			"basic" : {
-				"cost" : 0,
-				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks."
 			},
 			"advanced" : {
-				"cost" : 0,
-				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks."
 			},
 			"expert" : {
-				"cost" : 0,
-				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks."
 			},
 			"none" : {
-				"cost" : 0,
-				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks."
 			}
 		},
 		"targetCondition" : {
