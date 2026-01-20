@@ -4,6 +4,9 @@
 		"handler" : "static",
 		"types" : {
 			"tarPit" : {
+				"sounds" : {
+					"ambient" : [ "LOOPEART" ]
+				},
 				"templates" : {
 					"AVLwloi1" : {
 						"animation" : "hota/wasteland/hotaStatic/lakes/AVLwloi1",

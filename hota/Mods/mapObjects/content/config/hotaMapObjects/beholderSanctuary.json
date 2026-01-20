@@ -2,7 +2,7 @@
 	"core:creatureBank" : {
 		"types" : {
 			"beholderSanctuary" : {
-				"name" : "Beholder Sanctuary",
+				"name" : "Beholders' Sanctuary",
 				"templates" : {
 					"base" : {
 						"animation" : "hota/banks/SANCT_WT.def",
