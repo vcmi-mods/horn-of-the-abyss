@@ -19,33 +19,49 @@
 					"value" : 500,
 					"rarity" : 50
 				},
+				"variables" : {
+					"resource" : {
+						"gainedResource" : "gold"
+					},
+					"creature" : {
+						"gainedCreature" : {
+							"anyOf" : [ "kobold", "gremlin" ]
+						}
+					},
+					"number" : {
+						"gainedAmount" : {
+							"amount" : [ 300, 400, 500 ]
+						},
+						"gainedCreatureAmount" : {
+							"min" : 3,
+							"max" : 5
+						}
+					}
+				},
 				"rewards" : [
 					{
 						"message" : "{Trapper Lodge}\n\nRummaging about the snowbound lodge, you find a bag of gold someone stashed here.",
 						"appearChance" : {
 							"max" : 50
 						},
-						"resources" : {
-							"gold" : [
-								300,
-								400,
-								500
-							]
-						}
+						"mapDice" : 0,
+						"resources" : [
+							{
+								"type" : "@gainedResource",
+								"amount" : "@gainedAmount"
+							}
+						]
 					},
 					{
 						"message" : "{Trapper Lodge}\n\nIn the snowbound lodge, you meet several creatures, waiting here until the blizzard passes. Do you wish to take them along?",
+						"mapDice" : 1,
 						"appearChance" : {
 							"min" : 50
 						},
 						"creatures" : [
 							{
-								"anyOf" : [
-									"gremlin",
-									"kobold"
-								],
-								"min" : 3,
-								"max" : 5
+								"type" : "@gainedCreature",
+								"amount" : "@gainedCreatureAmount"
 							}
 						]
 					}
