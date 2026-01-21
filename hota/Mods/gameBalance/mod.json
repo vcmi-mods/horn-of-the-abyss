@@ -4,7 +4,10 @@
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.3.12",
+	"version" : "1.4",
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
 	"settings" : {
 		"combat" : {
 			"badLuckChance" : [
@@ -12,7 +15,8 @@
 				4,
 				6
 			],
-			"areaShotCanTargetEmptyHex" : true
+			"areaShotCanTargetEmptyHex" : true,
+			"noSpellHitAndRunRounds" : 1
 		}
 	},
 	"chinese" : {
