@@ -18,6 +18,9 @@
 					"rarity" : 30
 				},
 				"variables" : {
+					"resource" : {
+						"gainedResource" : "gold"
+					},
 					"artifact" : {
 						"gainedArtifact" : { 
 							"anyOf" : [
@@ -45,7 +48,7 @@
 						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
 						"resources" : [
 							{
-								"type" : "gold",
+								"type" : "@gainedResource",
 								"amount" : "@gainedAmount"
 							}
 						],
