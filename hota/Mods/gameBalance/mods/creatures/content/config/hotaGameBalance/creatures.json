@@ -107,5 +107,43 @@
 		"cost" : {
 			"gold" : 1500
 		}
+	},
+	"core:ammoCart" : {
+		"abilities" : {
+			"noLuck" : {
+				"type" : "NO_LUCK",
+				"description" : "{No Luck}\nThe Ammo Cart is unaffected by luck.",
+				"icon" : "hotaGameBalance/creatures/noLuck.png"
+			},
+			"immuneToMisfortune" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.misfortune",
+				"hidden" : true
+			},
+			"immuneToFortune" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.fortune",
+				"hidden" : true
+			}
+		}
+	},
+	"core:firstAidTent" : {
+		"abilities" : {
+			"noLuck" : {
+				"type" : "NO_LUCK",
+				"description" : "{No Luck}\nThe First Aid Tent is unaffected by luck.",
+				"icon" : "hotaGameBalance/creatures/noLuck.png"
+			},
+			"immuneToMisfortune" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.misfortune",
+				"hidden" : true
+			},
+			"immuneToFortune" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.fortune",
+				"hidden" : true
+			}
+		}
 	}
 }
