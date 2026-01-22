@@ -4,7 +4,7 @@
 		"creatureNature" : false,
 		"description" : "{First Aid Tent}\nHero carries a First Aid Tent.",
 		"graphics" : {
-			"icon" : "firstAid/firstAidTrait/firstAidLarge.png"
+			"icon" : "firstAid/firstAidTrait/firstAidTent.png"
 		}
 	}
 }
