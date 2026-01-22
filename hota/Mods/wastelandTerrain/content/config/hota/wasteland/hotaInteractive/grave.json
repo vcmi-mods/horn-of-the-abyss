@@ -59,7 +59,9 @@
 							{
 								"type" : "MORALE",
 								"val" : -3,
-								"duration" : "ONE_BATTLE"
+								"duration" : "ONE_BATTLE",
+								"description" : "Grave Digging",
+								"stacking" : "GraveDigging"
 							}
 						],
 						"movePercentage" : 0,
