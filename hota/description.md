@@ -58,12 +58,12 @@ A new set of golden armour infused with the power of the ocean lies in wait to b
 *   **Royal Armor of Nix:** _+6 Power skill_
 *   **Crown of the Five Seas:** _+6 Knowledge skill_
 
-### Two incredibly powerful artifacts have been added that can completely change the tide of a scenario:
+Two incredibly powerful artifacts have been added that can completely change the tide of a scenario:
 
 *   **Horn of the Abyss:** _Raises Fangarms from slain stacks of living creatures_
 *   **Sleepkeeper:** _Provides immunity to Mind spells_
 
-### Several combination artifacts have been added that were once planned for the release of _Shadow of Death_ with new names and fully fleshed-out abilities:
+Several combination artifacts have been added that were once planned for the release of _Shadow of Death_ with new names and fully fleshed-out abilities:
 
 *   **Ironfist of the Ogre:**
 
@@ -88,7 +88,7 @@ A new set of golden armour infused with the power of the ocean lies in wait to b
 *   _+7000 Gold/day_
 *   _**Misc**/Misc/Misc slots_
 
-### Still hungry for more boons to get an edge over your enemies? Look no further than the assorted wares that _Horn of the Abyss_ has to offer:
+Still hungry for more boons to get an edge over your enemies? Look no further than the assorted wares that _Horn of the Abyss_ has to offer:
 
 *   **Plate of Dying Light:** _\-25% enemy Power skill_
 *   **Seal of Sunset:** _\-10% enemy Power skill_
@@ -116,13 +116,3 @@ A new set of golden armour infused with the power of the ocean lies in wait to b
 *   New terrains - **Highlands** and **Wasteland**
 *   **Conflux's** native terrain is changed to **Highlands**
 *   **Halflings** belong to **Factory** instead of being **Neutral**
-
-# ukrainian
-
-Відправляйтеся в епічну подорож у **Horn of the Abyss**, створеному фанатами доповненні до _Heroes of Might and Magic III_, яке гордо стоїть в одному ряду з офіційними доповненнями **Armageddon's Blade** і **Shadow of Death**.
-
-## Справжня данина поваги Heroes of Might and Magic
-
-_Horn of the Abyss_ покращує оригінальну гру завдяки безлічі нових функцій, зберігаючи при цьому її легендарний шарм. Досліджуйте нові фракції **Cove** і **Factory**, беріть участь у складних кампаніях і відкривайте для себе нові артефакти та цікаві об'єкти на карті, які покращують стратегічну глибину гри.
-
-Ретельно збалансоване і доведене до досконалості, _Horn of the Abyss_ було створено з незмінною відданістю якості. Завдяки ретельно вдосконаленій механіці та безлічі поліпшень, це розширення є обов'язковим як для нових гравців, так і для досвідчених ветеранів. Це розширення включає ретельні зміни балансу та виправлення, усунення графічних недоліків, залишених розробниками, та додавання значної кількості нового контенту. Проект орієнтований на історію та намагається зберегти зв'язок з оригінальним всесвітом Might and Magic, з змінами, внесеними на честь бачення оригінальної гри, одночасно значно покращуючи досвід гравців.
