@@ -55,7 +55,9 @@
 							{
 								"type" : "MORALE",
 								"val" : -1,
-								"duration" : "ONE_BATTLE"
+								"duration" : "ONE_BATTLE",
+								"description" : "Churchyard Visited",
+								"stacking" : "ChurchyardVisited"
 							}
 						]
 					}
