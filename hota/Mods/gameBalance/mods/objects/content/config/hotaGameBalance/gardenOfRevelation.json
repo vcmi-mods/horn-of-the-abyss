@@ -1,0 +1,22 @@
+{
+	"core:gardenOfRevelation" : {
+		"types" : {
+			"gardenOfRevelation" : {
+				"templates" : {
+					"gardenOfRevelationAllTerrains" : {
+						"animation" : "AVSgrdn0.def",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
