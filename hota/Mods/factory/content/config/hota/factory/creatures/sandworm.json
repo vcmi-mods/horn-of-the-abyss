@@ -58,7 +58,14 @@
 		"abilities" : {
 			"teleports" : {
 				"type" : "FLYING",
-				"subtype" : "movementTeleporting"
+				"subtype" : "movementTeleporting",
+				"limiters" : [
+					"noneOf",
+					{
+						"type" : "TERRAIN_LIMITER",
+						"terrain" : "water"
+					}
+				]
 			},
 			"blindImmunity" : {
 				"type" : "SPELL_IMMUNITY",
