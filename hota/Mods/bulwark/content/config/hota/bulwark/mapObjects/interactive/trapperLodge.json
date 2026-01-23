@@ -29,7 +29,7 @@
 						}
 					},
 					"number" : {
-						"gainedAmount" : {
+						"gainedGoldAmount" : {
 							"amount" : [ 300, 400, 500 ]
 						},
 						"gainedCreatureAmount" : {
@@ -48,7 +48,7 @@
 						"resources" : [
 							{
 								"type" : "@gainedResource",
-								"amount" : "@gainedAmount"
+								"amount" : "@gainedGoldAmount"
 							}
 						]
 					},
