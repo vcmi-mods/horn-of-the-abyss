@@ -1,0 +1,22 @@
+{
+	"core:magicWell" : {
+		"types" : {
+			"magicWell" : {
+				"templates" : {
+					"magicWellAllTerrains" : {
+						"animation" : "AVXwelr0.def",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}

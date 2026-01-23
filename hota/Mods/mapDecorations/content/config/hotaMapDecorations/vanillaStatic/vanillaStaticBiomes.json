@@ -70,6 +70,21 @@
 			"avlsnh04"
 		]
 	},
+	"hotaLavaMountains" : {
+		"biome" : {
+			"terrain" : "lava",
+			"objectType" : "mountain"
+		},
+		"templates" : [
+			"AvLMtFr1",
+			"AvLMtFr2",
+			"AvLMtFr3",
+			"AvLMtFr4",
+			"AvLMtFr5",
+			"AvLMtFr6",
+			"AvLMtFr7"
+		]
+	},
 	"grassMountains" : {
 		"biome" : {
 			"terrain" : "grass",

@@ -41,7 +41,7 @@
 						"mask" : [
 							"VVV",
 							"VVV",
-							"VBA"
+							"BAB"
 						],
 						"visitableFrom" : [
 							"---",
