@@ -74,6 +74,7 @@
 		"config/hota/bulwark/mapObjects/mine/mines.json",
 		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
 		"config/hota/bulwark/mapObjects/interactive/seersHut.json",
+		"config/hota/bulwark/mapObjects/interactive/witchHut.json",
 		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
 		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json"
 	],
