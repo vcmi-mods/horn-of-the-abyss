@@ -23,8 +23,8 @@
 					"AvTCave2" : {
 						"animation" : "hota/subgates/AvTCave2",
 						"mask" : [
+							"VVVV",
 							"VVBV",
-							"VBBB",
 							"VBAB"
 						],
 						"allowedTerrains" : [

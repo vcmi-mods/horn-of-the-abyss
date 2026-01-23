@@ -6,8 +6,8 @@
 					"AVXtrkS0" : {
 						"animation" : "hota/treeOfKnowledge/AVXtrkS0",
 						"mask" : [
-							"VBV",
-							"VBV",
+							"VVV",
+							"VVV",
 							"VAV"
 						],
 						"visitableFrom" : [

@@ -7,7 +7,7 @@
 						"animation" : "hota/prison/avwtprsn",
 						"mask" : [
 							"VVVV",
-							"VVBV",
+							"VVVV",
 							"VBAB"
 						],
 						"visitableFrom" : [

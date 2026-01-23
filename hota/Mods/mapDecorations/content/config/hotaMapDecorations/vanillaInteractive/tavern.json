@@ -8,9 +8,9 @@
 						"animation" : "hota/tavern/wt_tvrn01",
 						"mask" : [
 							"VVVV",
-							"VBBV",
+							"VVVV",
 							"VBBB",
-							"VBAB"
+							"VABB"
 						],
 						"visitableFrom" : [
 							"---",
