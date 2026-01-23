@@ -1,21 +1,22 @@
 {
-	"core:mysticalGarden" : {
+	"core:waterWheel" : {
 		"types" : {
-			"mysticalGarden" : {
+			"waterWheel" : {
 				"templates" : {
-					"avtmystd" : {
-						"animation" : "hota/mysticalGarden/avtmystd",
+					"hotaWaterWheelSnow" : {
+						"animation" : "AVMwwsn0.def",
 						"mask" : [
 							"VVV",
-							"BAB"
+							"BBB",
+							"BBA"
 						],
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"-++",
 							"+++"
 						],
 						"allowedTerrains" : [
-							"dirt"
+							"snow"
 						]
 					}
 				}

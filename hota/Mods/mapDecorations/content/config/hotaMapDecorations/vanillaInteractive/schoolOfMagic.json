@@ -6,9 +6,9 @@
 					"AVSSCHM1" : {
 						"animation" : "hota/schoolOfMagic/AVSSCHM1",
 						"mask" : [
-							"VBV",
-							"VBB",
-							"VAB"
+							"VVV",
+							"VVV",
+							"VBA"
 						],
 						"visitableFrom" : [
 							"---",

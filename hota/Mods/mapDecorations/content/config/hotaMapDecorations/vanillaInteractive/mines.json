@@ -58,7 +58,7 @@
 					"mntswpgl" : {
 						"animation" : "hota/mines/mntswpgl", //hota swamp
 						"mask" : [
-							"VBBV",
+							"VBBB",
 							"VBAB"
 						],
 						"visitableFrom" : [
@@ -78,7 +78,7 @@
 						"animation" : "hota/mines/AVMsaws0", //hota swamp
 						"mask" : [
 							"VVVVV",
-							"VBBBB",
+							"VVVBB",
 							"VBBAB"
 						],
 						"visitableFrom" : [

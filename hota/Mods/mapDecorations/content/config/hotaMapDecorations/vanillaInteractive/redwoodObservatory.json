@@ -12,13 +12,13 @@
 					"avwtobtw" : {
 						"animation" : "hota/redwoodObservatory/avwtobtw",
 						"mask" : [
-							"VBV",
-							"VBV",
+							"VVV",
+							"VVV",
 							"VBA"
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-++",
 							"+++"
 						],
 						"allowedTerrains" : [
