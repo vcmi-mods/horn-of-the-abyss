@@ -8,10 +8,9 @@
 		"value" : 7500,
 		"bonuses" : {
 			"spell" : {
-				"type" : "LEVEL_SPELL_IMMUNITY",
-				"val" : 2,
-				"propagator" : "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+				"type" : "BLOCK_MAGIC_BELOW",
+				"val" : 3,
+				"propagator" : "BATTLE_WIDE"
 			}
 		},
 		"graphics" : {
