@@ -74,6 +74,9 @@
 		"config/hota/cove/heroes/zilare",
 		"config/hota/cove/heroes/balfour"
 	],
+	"bonuses" : [
+		"config/hota/cove/spells/specialCloneTrait"
+	],
 	"spells" : [
 		"config/hota/cove/spells/accurateShot",
 		"config/hota/cove/spells/specialClone",
