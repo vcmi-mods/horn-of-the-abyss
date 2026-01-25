@@ -12,7 +12,7 @@
 		"types" : {
 			"grave" : {
 				"name" : "Grave",
-				"description" : "(Takes all movement points, and gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
+				"description" : "(Takes all movement points for this and the next turn, and gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
 				"rmg" : {
 					"value" : 500,
 					"rarity" : 30
@@ -45,7 +45,7 @@
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, and extract something valuable from the ground and call it a day?",
+						"message" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\nDo you want to take up the latter, cover your nose with a handkerchief, extract something valuable from the ground and call it a day?\n{Your hero will be too exhausted from digging to move for this and the next turn.}",
 						"resources" : [
 							{
 								"type" : "@gainedResource",
@@ -62,6 +62,14 @@
 								"duration" : "ONE_BATTLE",
 								"description" : "Grave Digging",
 								"stacking" : "GraveDigging"
+							},
+							{
+								"type" : "MOVEMENT",
+								"subtype" : "heroMovementLand",
+								"val" : 0,
+								"valueType" : "INDEPENDENT_MIN",
+								"duration" : "N_DAYS",
+								"turns" : 2
 							}
 						],
 						"movePercentage" : 0,

@@ -1,10 +1,10 @@
 {
-	"core:magicWell" : {
+	"core:gardenOfRevelation" : {
 		"types" : {
-			"magicWell" : {
+			"gardenOfRevelation" : {
 				"templates" : {
-					"magicWellAllTerrains" : {
-						"animation" : "AVXwelr0.def",
+					"gardenOfRevelationHighlands" : {
+						"animation" : "AVSgrdn0.def",
 						"mask" : [
 							"VV",
 							"VA"
@@ -13,6 +13,9 @@
 							"---",
 							"+++",
 							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
 						]
 					}
 				}

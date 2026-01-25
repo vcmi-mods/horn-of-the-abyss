@@ -28,6 +28,10 @@
 					"type" : "MANUAL_CONTROL",
 					"subtype" : "cannon",
 					"val" : 100
+				},
+				"cannonSiegeShot" : {
+					"type" : "CATAPULT_EXTRA_SHOTS",
+					"subtype" : "cannonSiegeShot"
 				}
 			}
 		},
@@ -38,6 +42,9 @@
 				},
 				"damagePowerCannon" : {
 					"val" : 0
+				},
+				"cannonSiegeShot" : {
+					"val" : 1
 				}
 			}
 		},
@@ -48,6 +55,9 @@
 				},
 				"damagePowerCannon" : {
 					"val" : 100
+				},
+				"cannonSiegeShot" : {
+					"val" : 2
 				}
 			}
 		},
@@ -58,6 +68,9 @@
 				},
 				"damagePowerCannon" : {
 					"val" : 200
+				},
+					"cannonSiegeShot" : {
+					"val" : 3
 				}
 			}
 		}

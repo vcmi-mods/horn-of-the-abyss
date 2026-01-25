@@ -55,6 +55,8 @@
 		"config/hota/highlands/hotaStatic/waterfalls.json",
 		"config/hota/highlands/vanillaInteractive/abandonedMine.json",
 		"config/hota/highlands/vanillaInteractive/faerieRing.json",
+		"config/hota/highlands/vanillaInteractive/gardenOfRevelation.json",
+		"config/hota/highlands/vanillaInteractive/magicWell.json",
 		"config/hota/highlands/vanillaInteractive/mines.json",
 		"config/hota/highlands/vanillaInteractive/obelisk.json",
 		"config/hota/highlands/vanillaInteractive/redwoodObservatory.json",
