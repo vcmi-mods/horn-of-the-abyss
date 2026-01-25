@@ -1,16 +1,40 @@
 {
 	"core:catapultShot" : {
 		"levels" : {
+			"basic": {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitGate" : 60
+					}
+				}
+			},
+			"advanced": {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitGate" : 60
+					}
+				}
+			},
 			"expert" : {
 				"battleEffects" : {
 					"catapult" : {
-						"targetsToAttack" : 2,
 						"chanceToHitKeep" : 100,
 						"chanceToHitGate" : 100,
 						"chanceToHitTower" : 100,
 						"chanceToHitWall" : 100,
 						"chanceToNormalHit" : 0,
 						"chanceToCrit" : 100
+					}
+				}
+			}
+		}
+	},
+	"core:cyclopsShot" : {
+		"levels" : {
+			"base": {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitGate" : 60
 					}
 				}
 			}
