@@ -21,9 +21,7 @@
 						"chanceToHitKeep" : 100,
 						"chanceToHitGate" : 100,
 						"chanceToHitTower" : 100,
-						"chanceToHitWall" : 100,
-						"chanceToNormalHit" : 0,
-						"chanceToCrit" : 100
+						"chanceToHitWall" : 100
 					}
 				}
 			}
