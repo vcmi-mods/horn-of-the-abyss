@@ -74,7 +74,8 @@
 				"type" : "SHOOTER"
 			},
 			"canShootWalls" : {
-				"type" : "CATAPULT"
+				"type" : "CATAPULT",
+				"subtype" : "cannonSiegeShot"
 			},
 			"noRetaliation" : {
 				"type" : "NO_RETALIATION",
