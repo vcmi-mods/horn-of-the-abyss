@@ -1,0 +1,14 @@
+{
+	"name" : "German voice",
+	"description" : "German voice",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "",
+	"depends" : [
+		"german-translation"
+	],
+	"softDepends" : [
+		"hota.maps"
+	]
+}
