@@ -5,17 +5,24 @@
 			"might" : 5,
 			"magic" : 0
 		},
-		"specialty" : [], // generic specialty not applicable
+		"specialty" : [
+		],
 		"base" : {
 			"effects" : {
 				"main" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "spellpower",
-					"val" : -10,
+					"valueType" : "PERCENT_TO_ALL",
+					"propagator" : "BATTLE_WIDE"
+				},
+				"cancelSelfDebuff" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "spellpower",
 					"valueType" : "PERCENT_TO_ALL",
 					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",
 					"limiters" : [
+						"noneOf",
 						"OPPOSITE_SIDE"
 					]
 				}
@@ -26,6 +33,9 @@
 			"effects" : {
 				"main" : {
 					"val" : -10
+				},
+				"cancelSelfDebuff" : {
+					"val" : 10
 				}
 			},
 			"images" : {
@@ -40,6 +50,9 @@
 			"effects" : {
 				"main" : {
 					"val" : -20
+				},
+				"cancelSelfDebuff" : {
+					"val" : 20
 				}
 			},
 			"images" : {
@@ -54,6 +67,9 @@
 			"effects" : {
 				"main" : {
 					"val" : -30
+				},
+				"cancelSelfDebuff" : {
+					"val" : 30
 				}
 			},
 			"images" : {
@@ -63,5 +79,10 @@
 				"scenarioBonus" : "hota/skills/interference/icons/large/expert"
 			}
 		}
+	},
+	
+	// disable resistance
+	"core:resistance" : {
+		"special" : true
 	}
 }
