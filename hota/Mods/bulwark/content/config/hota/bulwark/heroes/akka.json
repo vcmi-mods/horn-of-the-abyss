@@ -44,86 +44,51 @@
 				"subtype" : "primarySkill.attack",
 				"valueType" : "ADDITIVE_VALUE",
 				"effectRange" : "ONLY_MELEE_FIGHT",
-				"propagator" : "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SPELL_EFFECT",
+						"bonusSourceID" : "spell.bloodlust"
+					}
+				]
 			},
 			"bonuses" : {
-				"bonusAttack12" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+				"bonusDefense12" : {
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"maxlevel" : 3
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.bloodlust"
 						}
-					],
+					},
 					"val" : 10
 				},
-				"bonusAttack34" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+				"bonusDefense34" : {
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 3,
 							"maxlevel" : 5
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.bloodlust"
 						}
-					],
+					},
 					"val" : 8
 				},
-				"bonusAttack56" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+				"bonusDefense56" : {
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 5,
 							"maxlevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.bloodlust"
 						}
-					],
+					},
 					"val" : 6
 				},
-				"bonusAttack" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+				"bonusDefense7" : {
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.bloodlust"
 						}
-					],
+					},
 					"val" : 4
 				}
 			}

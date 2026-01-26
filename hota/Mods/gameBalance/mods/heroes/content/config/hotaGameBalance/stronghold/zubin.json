@@ -6,86 +6,51 @@
 				"subtype" : "primarySkill.attack",
 				"valueType" : "ADDITIVE_VALUE",
 				"effectRange" : "ONLY_DISTANCE_FIGHT",
-				"propagator" : "BATTLE_WIDE",
-				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SPELL_EFFECT",
+						"bonusSourceID" : "spell.precision"
+					}
+				]
 			},
 			"bonuses" : {
 				"bonusDefense12" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"maxlevel" : 3
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.precision"
 						}
-					],
+					},
 					"val" : 10
 				},
 				"bonusDefense34" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 3,
 							"maxlevel" : 5
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.precision"
 						}
-					],
+					},
 					"val" : 8
 				},
 				"bonusDefense56" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 5,
 							"maxlevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.precision"
 						}
-					],
+					},
 					"val" : 6
 				},
 				"bonusDefense7" : {
-					"limiters" : [
-						"allOf",
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						{
+					"limiters" : {
+						"append" : {
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.precision"
 						}
-					],
+					},
 					"val" : 4
 				}
 			}

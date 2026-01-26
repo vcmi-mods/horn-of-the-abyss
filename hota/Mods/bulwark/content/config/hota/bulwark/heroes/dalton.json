@@ -39,9 +39,12 @@
 			"base" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeMelee",
+				"sourceID" : "shield",
+				"targetSourceType" : "SPELL_EFFECT",
+				"valueType" : "PERCENT_TO_TARGET_TYPE",
 				"updater" : {
 					"type" : "GROWS_WITH_LEVEL",
-					"valPer20" : 60
+					"valPer20" : 200
 				}
 			},
 			"bonuses" : {
@@ -50,15 +53,9 @@
 						"stepSize" : 1
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"maxlevel" : 2
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -67,16 +64,10 @@
 						"stepSize" : 2
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 2,
 							"maxlevel" : 3
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -85,16 +76,10 @@
 						"stepSize" : 3
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 3,
 							"maxlevel" : 4
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -103,16 +88,10 @@
 						"stepSize" : 4
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 4,
 							"maxlevel" : 5
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -121,16 +100,10 @@
 						"stepSize" : 5
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 5,
 							"maxlevel" : 6
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -139,16 +112,10 @@
 						"stepSize" : 6
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 6,
 							"maxlevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				},
@@ -157,15 +124,9 @@
 						"stepSize" : 7
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 7
-						},
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusSourceType" : "SPELL_EFFECT",
-							"bonusSourceID" : "spell.shield"
 						}
 					]
 				}
