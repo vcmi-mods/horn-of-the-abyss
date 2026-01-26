@@ -13,7 +13,8 @@
 		"1.8.000" : [
 			"Added new town Bulwark",
 			"Added new HotA 1.8.0 map content",
-			"Added AI English voice for all 5 campaigns",
+			"Added English (AI) voice for all 5 campaigns",
+			"Added German (AI) voice for all 5 campaigns",
 			"Added Polish voice for all 5 campaigns", 
 			"Added Russian voice for first 3 campaigns",
 			"Updated DEF / PNG files base to 1.8.0 versions",
