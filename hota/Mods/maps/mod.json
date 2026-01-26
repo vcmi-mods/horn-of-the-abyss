@@ -12,6 +12,7 @@
 		"hota.mapsupport"
 	],
 	"softDepends" : [
+		"german-translation",
 		"polish-translation",
 		"mega-pack-rus"
 	],
