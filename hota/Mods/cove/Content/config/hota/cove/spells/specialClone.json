@@ -19,6 +19,7 @@
 			]
 		},
 		"flags" : {
+			"persistent" : true,
 			"positive" : true,
 			"special" : true
 		},
