@@ -39,7 +39,6 @@
 			"base" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeMelee",
-				"sourceID" : "shield",
 				"targetSourceType" : "SPELL_EFFECT",
 				"valueType" : "PERCENT_TO_TARGET_TYPE",
 				"updater" : {
