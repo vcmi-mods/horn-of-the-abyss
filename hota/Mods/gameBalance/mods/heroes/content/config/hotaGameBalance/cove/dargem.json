@@ -4,7 +4,6 @@
 			"base" : {
 				"type" : "GENERAL_DAMAGE_REDUCTION",
 				"subtype" : "damageTypeRanged",
-				"sourceID" : "airShield",
 				"targetSourceType" : "SPELL_EFFECT",
 				"valueType" : "PERCENT_TO_TARGET_TYPE",
 				"updater" : {
@@ -18,7 +17,6 @@
 						"stepSize" : 1
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"maxlevel" : 2
@@ -30,7 +28,6 @@
 						"stepSize" : 2
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 2,
@@ -43,7 +40,6 @@
 						"stepSize" : 3
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 3,
@@ -56,7 +52,6 @@
 						"stepSize" : 4
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 4,
@@ -69,7 +64,6 @@
 						"stepSize" : 5
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 5,
@@ -95,7 +89,6 @@
 						"stepSize" : 7
 					},
 					"limiters" : [
-						"allOf",
 						{
 							"type" : "CREATURE_LEVEL_LIMITER",
 							"minLevel" : 7
