@@ -16,21 +16,23 @@
 		"description" : "Noví hrdinové pro základní hru - Beatrice, Kinkeria a Ranloo.<br/>Navíc mění chování hrdinů Voy a Sylvia, kteří jsou nyní k dispozici pouze na mapách s vodou."
 	},
 	"heroes" : [
+		"config/bannedOnMapsWithoutWater/heroes/sylvia",
+		"config/bannedOnMapsWithoutWater/heroes/voy",
 		"config/castle/heroes/beatrice",
 		"config/castle/heroes/lordHaart",
-		"config/necropolis/heroes/ranloo",
-		"config/necropolis/heroes/boyd",
-		"config/necropolis/heroes/maximus",
+		"config/fortress/heroes/areshrak",
 		"config/fortress/heroes/kinkeria",
 		"config/fortress/heroes/pactal",
-		"config/fortress/heroes/areshrak",
-		"config/stronghold/heroes/zog",
-		"config/stronghold/heroes/gruezak",
+		"config/inferno/heroes/athe",
 		"config/inferno/heroes/kydoimos",
 		"config/inferno/heroes/miseria",
-		"config/inferno/heroes/athe",
-		"config/bannedOnMapsWithoutWater/heroes/sylvia",
-		"config/bannedOnMapsWithoutWater/heroes/voy"
+		"config/necropolis/heroes/ranloo",
+		"config/necropolis/heroes/boyd",
+		"config/necropolis/heroes/galthran",
+		"config/necropolis/heroes/maximus",
+		"config/rampart/heroes/thorgrim",
+		"config/stronghold/heroes/gruezak",
+		"config/stronghold/heroes/zog"
 	],
 	"polish" : {
 		"name" : "Bohaterowie",
