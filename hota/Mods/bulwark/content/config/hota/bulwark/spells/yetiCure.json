@@ -9,6 +9,8 @@
 		"level" : 0,
 		"levels" : {
 			"base" : {
+				"cost" : 0,
+				"description" : "not shown",
 				"battleEffects" : {
 					"cure" : {
 						"dispelNegative" : true,
@@ -25,20 +27,12 @@
 				}
 			},
 			"basic" : {
-				"cost" : 0,
-				"description" : "not shown"
 			},
 			"advanced" : {
-				"cost" : 0,
-				"description" : "not shown"
 			},
 			"expert" : {
-				"cost" : 0,
-				"description" : "not shown"
 			},
 			"none" : {
-				"cost" : 0,
-				"description" : "not shown"
 			}
 		},
 		"name" : "Yeti Cure",
