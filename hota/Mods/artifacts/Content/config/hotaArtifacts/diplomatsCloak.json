@@ -5,7 +5,7 @@
 		],
 		"slot" : "SHOULDERS",
 		"class" : "RELIC",
-		"value" : 0,
+		"value" : 15000,
 		"components" : [
 			"statesmansMedal",
 			"diplomatsRing",

@@ -5,7 +5,7 @@
 		],
 		"slot" : "RIGHT_HAND",
 		"class" : "RELIC",
-		"value" : 0,
+		"value" : 20000,
 		"components" : [
 			"ogresClubOfHavoc",
 			"targOfTheRampagingOgre",

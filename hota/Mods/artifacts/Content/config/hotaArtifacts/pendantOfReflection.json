@@ -5,7 +5,7 @@
 		],
 		"slot" : "NECK",
 		"class" : "RELIC",
-		"value" : 0,
+		"value" : 12000,
 		"bonuses" : {
 			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",

@@ -4,7 +4,7 @@
 			"HERO"
 		],
 		"slot" : "MISC",
-		"class" : "RELIC",
+		"class" : "SPECIAL",
 		"value" : 50000,
 		"bonuses" : {
 			"immunity" : {
