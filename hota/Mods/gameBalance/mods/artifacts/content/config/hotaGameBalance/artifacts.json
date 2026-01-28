@@ -37,6 +37,11 @@
 //			}
 //		}
 //	},
+	"core:cloakOfTheUndeadKing" : {
+		"text" : {
+			"description" : "{Cloak of the Undead King}\n\n30% of battlefield dead are resurrected as Skeletons. If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.\nBasic: Zombies\nAdvanced: Wights\nExpert: Liches"
+		}
+	},
 	"core:bootsOfSpeed" : {
 		"bonuses" : {
 			"movement" : {
@@ -56,11 +61,6 @@
 			"mindImmunity" : null
 		}
 	},
-	"core:cloakOfTheUndeadKing" : {
-		"text" : {
-			"description" : "{Cloak of the Undead King}\n\n15% of battlefield dead are resurrected as Skeletons. If hero already has the Necromancy skill then the percentages are added to the skill and the level of skill determines what type is resurrected.\nBasic: Zombies\nAdvanced: Wights\nExpert:\nLiches"
-		}
-	},
 	"core:angelicAlliance" : {
 		"bonuses" : {
 			"evilPenalty" : {
@@ -76,21 +76,9 @@
 			}
 		},
 		"text" : {
-			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, and Factory Horn of the Abyss creatures to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
+			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, and Factory creatures to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
 		}
 	},
-	//"core:ringOfTheWayfarer":
-	//{
-	//	"bonuses" : {
-	//		"movement" : {
-	//			"type" : "MOVEMENT",
-	//			"subtype" : "heroMovementLand",
-	//			"val" : 400,
-	//			"valueType" : "ADDITIVE_VALUE"
-	//		}
-	//	}
-	//}
-
 	// 1.7.2:
 	// [+] Ballista price reduced from 2500 to 1500; Cannon price reduced from 4000 to 3000
 	"core:ballista" : {
