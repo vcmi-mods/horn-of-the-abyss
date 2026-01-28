@@ -32,16 +32,8 @@
 			}
 		],
 		"specialty" : {
+			"secondary" : "interference",
 			"bonuses" : {
-				"battleWide" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "spellpower",
-					"val" : 5,
-					"targetSourceType" : "SECONDARY_SKILL",
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"propagator" : "BATTLE_WIDE",
-					"propagationUpdater" : "TIMES_HERO_LEVEL"
-				},
 				"selfCounter" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "spellpower",
