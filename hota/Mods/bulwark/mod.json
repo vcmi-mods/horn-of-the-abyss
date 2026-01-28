@@ -41,7 +41,15 @@
 		"config/hota/bulwark/heroClasses/elder.json"
 	],
 	"skills" : [
-		"config/hota/bulwark/runes.json"
+		"config/hota/bulwark/runes/runesSkill.json"
+	],
+	"bonuses" : [
+		"config/hota/bulwark/runes/runesBonusCounter.json"
+	],
+	"spells" : [
+		"config/hota/bulwark/spells/yetiCure.json",
+		"config/hota/bulwark/spells/moat.json",
+		"config/hota/bulwark/spells/freezingShot.json"
 	],
 	"heroes" : [
 		"config/hota/bulwark/heroes/akka.json",
@@ -61,11 +69,6 @@
 		"config/hota/bulwark/heroes/sial.json",
 		"config/hota/bulwark/heroes/spadum.json",
 		"config/hota/bulwark/heroes/vehr.json"
-	],
-	"spells" : [
-		"config/hota/bulwark/spells/yetiCure.json",
-		"config/hota/bulwark/spells/moat.json",
-		"config/hota/bulwark/spells/freezingShot.json"
 	],
 	"objects" : [
 		"config/hota/bulwark/boats.json",
