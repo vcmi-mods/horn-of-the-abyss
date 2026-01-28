@@ -8,12 +8,22 @@
 				"modes" : [
 					"resource-skill"
 				],
-				"efficiency" : 5,
 				"offer" : [
-					"navigation",
-					{},
-					{},
-					{}
+					{
+						"anyOf" : [
+							"navigation"
+						]
+					},
+					{ 
+						"noneOf" : [
+							"necromancy"
+						] 
+					},
+					{ 
+						"noneOf" : [
+							"necromancy"
+						]
+					}
 				],
 				"aiValue" : 1000,
 				"rmg" : {
@@ -38,7 +48,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"---",
 							"+++"
 						],
 						"allowedTerrains" : [
