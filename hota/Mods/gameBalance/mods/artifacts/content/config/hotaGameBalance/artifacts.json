@@ -76,7 +76,7 @@
 			}
 		},
 		"text" : {
-			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, and Factory creatures to be mixed without a morale penalty. Casts Expert Prayer for 10 rounds at the start of combat. If there is any evil unit in hero's army, morale is reduced by 1."
+			"description" : "{Angelic Alliance}\n\nAllows Castle, Rampart, Tower, Fortress, Stronghold, Conflux, Cove, Factory, and Bulwark creatures to be mixed without a morale penalty.\nCasts Expert Prayer for 10 rounds at the start of combat.\nIf there are any evil creatures in the hero's army, morale is reduced by 1."
 		}
 	},
 	// 1.7.2:
