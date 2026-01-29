@@ -6,6 +6,7 @@
 			"magic" : 0
 		},
 		"specialty" : [
+			"main"
 		],
 		"base" : {
 			"effects" : {

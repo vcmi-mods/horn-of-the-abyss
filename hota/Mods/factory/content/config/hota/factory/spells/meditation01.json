@@ -20,6 +20,7 @@
 			]
 		},
 		"flags" : {
+			"persistent" : true,
 			"positive" : true,
 			"special" : true
 		},
@@ -49,17 +50,15 @@
 							"invincible" : {
 								"type" : "INVINCIBLE",
 								"duration" : [
-									"N_TURNS"
-								],
-								"turns" : 1
+									"STACK_GETS_TURN"
+								]
 							},
 							"immunityToHarmfulEffects" : {
 								"type" : "NEGATIVE_EFFECTS_IMMUNITY",
 								"subtype" : "spellSchool.any",
 								"duration" : [
-									"N_TURNS"
-								],
-								"turns" : 1
+									"STACK_GETS_TURN"
+								]
 							}
 						}
 					}

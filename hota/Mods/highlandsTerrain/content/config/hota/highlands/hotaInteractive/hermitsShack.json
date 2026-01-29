@@ -9,7 +9,7 @@
 				"rmg" : {
 					"value" : 1500,
 					"rarity" : 80,
-					"zoneLimit" : 3,
+					"zoneLimit" : 1,
 					"mapLimit" : 32
 				},
 
