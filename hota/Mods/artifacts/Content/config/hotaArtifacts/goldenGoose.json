@@ -5,7 +5,7 @@
 		],
 		"slot" : "MISC",
 		"class" : "RELIC",
-		"value" : 0,
+		"value" : 22500,
 		"components" : [
 			"endlessPurseOfGold",
 			"endlessBagOfGold",

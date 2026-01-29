@@ -1,0 +1,15 @@
+{
+	"name" : "Banned Artifacts",
+	"description" : "Bans all artifacts that are default-banned in HotA.",
+	"modType" : "Mechanics",
+	"author" : "HotA crew, ported by VCMI team",
+	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
+	"version" : "1.0",
+	"softDepends" : [
+		"hota.artifacts",
+		"hota.neutralcreatures"
+	],
+	"artifacts" : [
+		"config/hotaGameBalance/artifactsDefaultBanned.json"
+	]
+}
