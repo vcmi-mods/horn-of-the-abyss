@@ -16,7 +16,6 @@
 		"description" : "Sada artefaktů vytvořená týmem Hota Crew pro rozšíření Horn of the Abyss"
 	},
 	"artifacts" : [
-		"config/hotaArtifacts/artifactsDefaultBanned",
 		"config/hotaArtifacts/capeOfSilence",
 		"config/hotaArtifacts/crownOfTheFiveSeas",
 		"config/hotaArtifacts/demonsHorseshoe",
