@@ -3,7 +3,7 @@
 	{
 		"description" : "L+U template on which the players fight their corresponding AI since the first days. 3 passages lead from AI zones to rich, but usually small treasure zones with a chance of getting a Relic. Player zones are connected via even richer treasure zone, connections are heavily guarded.",
 		"minSize" : "l+u", "maxSize" : "l+u",
-		"players" : "2-8",
+		"players" : "8",
 		"settings" : {
 			"creatures" : {
 				"allowRandomSpecialWeeks" : false

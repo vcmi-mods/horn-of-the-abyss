@@ -3,7 +3,7 @@
 		"description" : "A non-contact XL+U template with a simple layout, exploration and spell research-based gameplan is expected. Every player has access to their own half of the map, halves being connected via rare treasure zones. The treasure zones are valuable, but only the central one may have Relics.",
 		"minSize" : "xl+u",
 		"maxSize" : "xl+u",
-		"players" : "2-8",
+		"players" : "8",
 		"settings" : {
 			"creatures" : {
 				"allowRandomSpecialWeeks" : false
