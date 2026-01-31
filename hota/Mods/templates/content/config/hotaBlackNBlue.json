@@ -1,0 +1,286 @@
+{
+	"[HotA] Black'n'Blue" :
+	{
+		"description" : "This template makes use of non-standard objects. Each player has access to the snow zones with Ancient Lamps and Dragon Utopias; as well as Subterranean zones with Pandora Boxes. Player areas are connected via large and rich treasure zone with Ancient Lamps, Pandora Boxes, Dragon Utopias and Faerie Dragon Dwellings.",
+		"minSize" : "l+u",
+		"maxSize" : "l+u",
+		"players" : "2",
+		"bannedArtifacts" : [
+			"spellbindersHat",
+			"statesmansMedal",
+			"diplomatsRing",
+			"ambassadorsSash",
+			"skullHelmet",
+			"tunicOfTheCyclopsKing",
+			"deadMansBoots",
+			"angelWings"
+		],
+		"bannedSpells" : [
+			"fly",
+			"dimensionDoor"
+		],
+		"bannedSkills" : [
+			"diplomacy"
+		],
+		"bannedHeroes" : [
+			"adela",
+			"cyra",
+			"ryland",
+			"hota.factory:04melchior",
+			"hota.bulwark:02oidana"
+			
+		],
+		"settings" : {
+			"creatures" : {
+				"allowRandomSpecialWeeks" : true
+			}
+		},
+		"zones" :
+		{
+			"1" :
+			{
+				"type" : "treasure",
+				"size" : 18,
+				"forcedLevel" : "surface",
+				"monsters" : "strong",
+				"neutralTowns" : { 
+					"castles" : 1,
+					"towns" : 2
+				},
+				"allowedTowns" : [ "conflux" ],
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "sand" ],
+				"mines" : { 
+					"gold" : 2
+				},
+				"treasure" : [
+					{ "min" : 15000, "max" : 45000, "density" : 12 },
+					{ "min" : 10000, "max" : 15000, "density" : 8 },
+					{ "min" : 5000, "max" : 10000, "density" : 12 }
+				]
+			},
+			"2" :
+			{
+				"type" : "playerStart",
+				"size" : 7,
+				"owner" : 1,
+				"forcedLevel" : "surface",
+				"monsters" : "weak",
+				"playerTowns" : { 
+					"castles" : 1 
+				},
+				"matchTerrainToTown" : true,
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1
+				},
+				"treasure" : [
+					{ "min" : 6000, "max" : 10000, "density" : 1 },
+					{ "min" : 3000, "max" : 6000, "density" : 6 },
+					{ "min" : 500, "max" : 3000, "density" : 7 }
+				]
+			},
+			"3" :
+			{
+				"type" : "treasure",
+				"size" : 12,
+				"forcedLevel" : "surface",
+				"monsters" : "normal",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "tower" ],
+				"matchTerrainToTown" : true,
+				"mines" : { 
+					"wood" : 1,
+					"ore" : 1,
+					"mercury" : 1,
+					"gold" : 2
+				},
+				"treasure" : [
+					{ "min" : 8000, "max" : 17000, "density" : 6 },
+					{ "min" : 6000, "max" : 10000, "density" : 10 },
+					{ "min" : 3000, "max" : 8000, "density" : 8 }
+				],
+				"customObjects" : {
+					"commonObjects" : [
+						{
+							"type" : "hota.mapobjects:ancientLamp",
+							"subtype" : "hota.mapobjects:ancientLamp",
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 5000
+							}
+						}
+					]
+				}
+			},
+			"4" :
+			{
+				"type" : "treasure",
+				"size" : 12,
+				"forcedLevel" : "surface",
+				"monsters" : "normal",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "tower" ],
+				"matchTerrainToTown" : true,
+				"mines" : { 
+					"wood" : 1,
+					"ore" : 1,
+					"sulfur" : 1,
+					"gold" : 2
+				},
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"5" :
+			{
+				"type" : "treasure",
+				"size" : 12,
+				"forcedLevel" : "surface",
+				"monsters" : "normal",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "tower" ],
+				"matchTerrainToTown" : true,
+				"mines" : { 
+					"wood" : 1,
+					"ore" : 1,
+					"gems" : 1,
+					"gold" : 2
+				},
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"6" :
+			{
+				"type" : "playerStart",
+				"size" : 7,
+				"owner" : 2,
+				"forcedLevel" : "surface",
+				"monsters" : "weak",
+				"playerTowns" : { 
+					"castles" : 1 
+				},
+				"matchTerrainToTown" : true,
+				"minesLikeZone" : 2,
+				"treasureLikeZone" : 2
+			},
+			"7" :
+			{
+				"type" : "treasure",
+				"size" : 12,
+				"forcedLevel" : "surface",
+				"monsters" : "normal",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "tower" ],
+				"matchTerrainToTown" : true,
+				"mines" : { 
+					"wood" : 1,
+					"ore" : 1,
+					"crystal" : 1,
+					"gold" : 2
+				},
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			},
+			"8" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"forcedLevel" : "underground",
+				"monsters" : "weak",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "necropolis" ],
+				"matchTerrainToTown" : true,
+				"mines" : { 
+					"wood" : 1,
+					"ore" : 1,
+					"sulfur" : 1,
+					"gems" : 1,
+					"crystal" : 1,
+					"mercury" : 1
+				},
+				"treasure" : [
+					{ "min" : 15000, "max" : 20000, "density" : 5 },
+					{ "min" : 3000, "max" : 12000, "density" : 6 },
+					{ "min" : 250, "max" : 3000, "density" : 4 }
+				]
+			},
+			"9" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"forcedLevel" : "underground",
+				"monsters" : "weak",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "necropolis" ],
+				"matchTerrainToTown" : true,
+				"minesLikeZone" : 8,
+				"treasureLikeZone" : 8
+			},
+			"10" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"forcedLevel" : "underground",
+				"monsters" : "weak",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "necropolis" ],
+				"matchTerrainToTown" : true,
+				"minesLikeZone" : 8,
+				"treasureLikeZone" : 8
+			},
+			"11" :
+			{
+				"type" : "treasure",
+				"size" : 8,
+				"forcedLevel" : "underground",
+				"monsters" : "weak",
+				"neutralTowns" : { 
+					"towns" : 1
+				},
+				"allowedTowns" : [ "necropolis" ],
+				"matchTerrainToTown" : true,
+				"minesLikeZone" : 8,
+				"treasureLikeZone" : 8
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "1", "b" : "2", "guard" : 45000, "road" : "true" },
+			{ "a" : "1", "b" : "2", "guard" : 45000, "road" : "true" },
+			{ "a" : "1", "b" : "6", "guard" : 45000, "road" : "true" },
+			{ "a" : "1", "b" : "6", "guard" : 45000, "road" : "true" },
+			{ "a" : "2", "b" : "3", "guard" : 9000, "road" : "true" },
+			{ "a" : "2", "b" : "3", "guard" : 9000, "road" : "true" },
+			{ "a" : "2", "b" : "4", "guard" : 9000, "road" : "true" },
+			{ "a" : "2", "b" : "4", "guard" : 9000, "road" : "true" },
+			{ "a" : "2", "b" : "8", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
+			{ "a" : "2", "b" : "9", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
+			{ "a" : "3", "b" : "4", "type" : "forcePortal", "guard" : 0, "road" : "true" },
+			{ "a" : "5", "b" : "6", "guard" : 9000, "road" : "true" },
+			{ "a" : "5", "b" : "6", "guard" : 9000, "road" : "true" },
+			{ "a" : "5", "b" : "7", "type" : "forcePortal", "guard" : 0, "road" : "true" },
+			{ "a" : "6", "b" : "7", "guard" : 9000, "road" : "true" },
+			{ "a" : "6", "b" : "7", "guard" : 9000, "road" : "true" },
+			{ "a" : "6", "b" : "10", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
+			{ "a" : "6", "b" : "11", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
+			{ "a" : "8", "b" : "9", "guard" : 3000, "road" : "true" },
+			{ "a" : "8", "b" : "9", "type" : "wide", "road" : "true" },
+			{ "a" : "10", "b" : "11", "type" : "wide", "road" : "true" },
+			{ "a" : "10", "b" : "11", "guard" : 3000, "road" : "true" }
+		]
+	}
+}
