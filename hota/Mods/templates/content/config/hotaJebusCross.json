@@ -175,7 +175,9 @@
 			},
 			"4":
 			{
-				"type" : "playerStart", "size" : 30, "owner" : 3,
+				"type" : "playerStart", 
+				"size" : 30, 
+				"owner" : 3,
 				"playerTowns" : { 
 					"castles" : 1
 				},
@@ -189,7 +191,9 @@
 			},
 			"5":
 			{
-				"type" : "playerStart", "size" : 30, "owner" : 4,
+				"type" : "playerStart",
+				"size" : 30, 
+				"owner" : 4,
 				"playerTowns" : { 
 					"castles" : 1
 				},

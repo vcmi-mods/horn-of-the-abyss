@@ -1,12 +1,12 @@
 {
 	"name" : "HotA templates",
 	"description" : "Some templates that come from HotA",
-	"author" : "Olegmods.INC",
+	"author" : "Olegmods.INC, Karyoplasma",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
 	"contact" : "vcmi.eu",
 	"modType" : "Templates",
-	"version" : "1.3",
+	"version" : "1.4",
 	"changelog" : {
 		"1.0" : [
 			"Initial release",
@@ -20,10 +20,34 @@
 		],
 		"1.3" : [
 			"Jebus Outcast removed. More proper variation of Jebus Outcast is part of PvP Balance mod."
+		],
+		"1.4" : [
+			"Added HotA versions of 2sm4d(3), 6lm10a, 8xm12a, Diamond, Jebus Cross, Mini-Nostalgia and Spider.",
+			"Added Black'n'Blue, Boomerang, Apocalypse and Kerberos.",
+			"Added M200 templates 2sm2c(2) and Skirmish(M).",
+			"Added HotA rules to Nostalgia - no special weeks, Shrine of Magic Mystery banned."
 		]
 	},
 	"templates" : [
-		"config/hotaNostalgia.json"
+		"config/hota2sm2c(2).json",
+		"config/hota2sm4d(3).json",
+		"config/hota6lm10a.json",
+		"config/hota8mm6a.json",
+		"config/hota8xm12a.json",
+	//	"config/hotaAnarchy.json",
+		"config/hotaApocalypse.json",
+		"config/hotaBlackNBlue.json",
+		"config/hotaBoomerang.json",
+	//	"config/hotaClashOfDragons.json",
+		"config/hotaDiamond.json",
+	//	"config/hotaFirewalk.json",
+		"config/hotaJebusCross.json",
+		"config/hotaKerberos.json",
+		"config/hotaMiniNostalgia.json",
+	//	"config/hotaNineDayWonder.json",
+		"config/hotaNostalgia.json",
+		"config/hotaSkirmish(M).json",
+		"config/hotaSpider.json"
 	],
 
 	"chinese" : {
