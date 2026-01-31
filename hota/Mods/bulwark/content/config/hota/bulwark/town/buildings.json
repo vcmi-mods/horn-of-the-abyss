@@ -35,6 +35,9 @@
 						"gold" : 5000,
 						"wood" : 20,
 						"ore" : 20
+					},
+					"fortifications" : {
+						"wallHealth" : 3
 					}
 				},
 				"citadel" : {
@@ -43,6 +46,9 @@
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
+					},
+					"fortifications" : {
+						"citadelHealth" : 3
 					}
 				},
 				"castle" : {
@@ -52,6 +58,12 @@
 						"gold" : 5000,
 						"wood" : 10,
 						"ore" : 10
+					},
+					"fortifications" : {
+						// should be uncommented, but currently buggy - sets health to 1 instead
+						// "wallsHealth" : 4,
+						"upperTowerHealth" : 3,
+						"lowerTowerHealth" : 3
 					}
 				},
 
