@@ -1,0 +1,213 @@
+{
+	"[HotA] Jebus Cross":
+	{
+		"description" : "L/XL-U template, not most-balanced, but one of the most popular overall, due to its simple layout and fast pace. Every player starts on a big, poorly guarded and rich zone. From the starting zone they try to enter the extra-rich central zone defeating a strong guard as early as possible.",
+		"minSize" : "l", 
+		"maxSize" : "xl",
+		"players" : "2-4",
+		"settings" : {
+			"creatures" : {
+				"allowRandomSpecialWeeks" : false
+			}
+		},
+		"zones":
+		{
+			"1" :
+			{
+				"type" : "treasure",
+				"size" : 40,
+				"neutralTowns" : { 
+					"castles" : 2
+				},
+				"terrainTypes" : [ "sand" ], 
+				"matchTerrainToTown" : false,
+				"monsters" : "strong",
+				"mines" : {
+					"gold" : 4
+				},
+				"treasure" : [
+					{"min" : 35000, "max": 55000, "density" : 3},
+					{"min" : 25000, "max": 35000, "density" : 10},
+					{"min" : 10000, "max": 25000, "density" : 10}
+				],
+				"customObjects" : {
+					"bannedObjects" : {
+						"core:tavern" : {
+							"object" : true
+						},
+						"hota.highlandsterrain:hermitsShack" : {
+							"hota.highlandsterrain:hermitsShack" : true
+						},
+						"hota.highlandsterrain:mineralSpring" : {
+							"hota.highlandsterrain:mineralSpring" : true
+						},
+						"hota.mapobjects:ancientLamp" : {
+							"hota.mapobjects:ancientLamp" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"type" : "core:tavern",
+							"subtype" : "object",
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 100,
+								"zoneLimit" : 3
+							}
+						},
+						{
+							"type" : "hota.highlandsterrain:hermitsShack",
+							"subtype" : "hota.highlandsterrain:hermitsShack",
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500,
+								"zoneLimit" : 3
+							}
+						},
+						{
+							"type" : "hota.highlandsterrain:mineralSpring",
+							"subtype" : "hota.highlandsterrain:mineralSpring",
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 3
+							}
+						},
+					]
+				}
+			},
+			"2":
+			{
+				"type" : "playerStart",
+				"size" : 30, 
+				"owner" : 1,
+				"monsters" : "weak",
+				"playerTowns" : { 
+					"castles" : 1
+				},
+				"neutralTowns" : { 
+					"towns" : 2
+				},
+				"matchTerrainToTown" : true,
+				"mines" : {
+					"wood" : 4,
+					"ore" : 4,
+					"gems" : 1,
+					"crystal" : 1,
+					"sulfur" : 1,
+					"mercury" : 1,
+					"gold" : 2
+				},
+				"treasure" : [
+					{"min" : 12000, "max": 22000, "density": 1},
+					{"min" : 5000, "max": 16000, "density": 6},
+					{"min" : 300, "max": 3000, "density": 14}
+				],
+				"customObjects" : {
+					"bannedObjects" : {
+						"core:tavern" : {
+							"object" : true
+						},
+						"hota.highlandsterrain:hermitsShack" : {
+							"hota.highlandsterrain:hermitsShack" : true
+						},
+						"hota.highlandsterrain:mineralSpring" : {
+							"hota.highlandsterrain:mineralSpring" : true
+						},
+						"hota.mapobjects:ancientLamp" : {
+							"hota.mapobjects:ancientLamp" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"type" : "core:tavern",
+							"subtype" : "object",
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 100,
+								"zoneLimit" : 3
+							}
+						},
+						{
+							"type" : "hota.highlandsterrain:hermitsShack",
+							"subtype" : "hota.highlandsterrain:hermitsShack",
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500,
+								"zoneLimit" : 3
+							}
+						},
+						{
+							"type" : "hota.highlandsterrain:mineralSpring",
+							"subtype" : "hota.highlandsterrain:mineralSpring",
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 3
+							}
+						},
+						{
+							"type" : "hota.mapobjects:ancientLamp",
+							"subtype" : "hota.mapobjects:ancientLamp",
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 5000
+							}
+						}
+					]
+				}
+			},
+			"3":
+			{
+				"type" : "playerStart", 
+				"size" : 30, 
+				"owner" : 2,
+				"playerTowns" : { 
+					"castles" : 1
+				},
+				"neutralTowns" : {
+					"towns" : 2
+				},
+				"monsters" : "weak",
+				"minesLikeZone" : 2,
+				"customObjectsLikeZone" : 2,
+				"treasureLikeZone" : 2
+			},
+			"4":
+			{
+				"type" : "playerStart", "size" : 30, "owner" : 3,
+				"playerTowns" : { 
+					"castles" : 1
+				},
+				"neutralTowns" : { 
+					"towns" : 2
+				},
+				"monsters" : "weak",
+				"minesLikeZone" : 2,
+				"customObjectsLikeZone" : 2,
+				"treasureLikeZone" : 2
+			},
+			"5":
+			{
+				"type" : "playerStart", "size" : 30, "owner" : 4,
+				"playerTowns" : { 
+					"castles" : 1
+				},
+				"neutralTowns" : { 
+					"towns" : 2
+				},
+				"monsters" : "weak",
+				"minesLikeZone" : 2,
+				"customObjectsLikeZone" : 2,
+				"treasureLikeZone" : 2
+			}
+		},
+		"connections" :
+		[
+			{ "a" : "2", "b" : "1", "guard" : 45000 },
+			{ "a" : "3", "b" : "1", "guard" : 45000 },
+			{ "a" : "4", "b" : "1", "guard" : 45000 },
+			{ "a" : "5", "b" : "1", "guard" : 45000 }
+		]
+	}
+}
