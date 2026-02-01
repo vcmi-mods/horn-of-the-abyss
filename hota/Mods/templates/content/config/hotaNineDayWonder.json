@@ -1,0 +1,994 @@
+{
+	// Currently not implemented in VCMI:
+	// Zones 1 and 4 should allow dwellings lvl 1
+	// Disable Seer's Hut quests
+	"[HotA] Nine-day Wonder" :
+	{
+		"description" : "M-size template designed to use with 200% difficulty. Special object generation settings are used. The players are able to enter the grass zone with poor treasures and the dirt zone with Dragon Fly Hives and Wolf Raider Pickets. From these zones they may access the lava treasure.",
+		"minSize" : "m",
+		"maxSize" : "m",
+		"players" : "2",
+		"settings" : {
+			"creatures" : {
+				"allowRandomSpecialWeeks" : false
+			}
+		},
+		"bannedSkills" : [
+			"pathfinding",
+			"diplomacy",
+			"eagleEye",
+			"learning"
+		],
+		"bannedSpells" : [
+			"fly",
+			"dimensionDoor",
+			"townPortal"
+		],
+		"bannedArtifacts": [
+			"amuletOfTheUndertaker",
+			"garnitureOfInterference",
+			"surcoatOfCounterpoise",
+			"bootsOfPolarity",
+			"birdOfPerception",
+			"stoicWatchman",
+			"emblemOfCognizance",
+			"angelWings",
+			"legsOfLegion",
+			"loinsOfLegion",
+			"torsoOfLegion",
+			"armsOfLegion",
+			"headOfLegion",
+			"hota.artifacts:wayfarerBoots"
+		],
+		"bannedHeroes" : [
+			"loynis",
+			"solmyr",
+			"calid",
+			"moandor",
+			"aislinn",
+			"xsi",
+			"deemer",
+			"darkstorn",
+			"merist",
+			"kalt",
+			"luna",
+			"ciele",
+			"hota.cove:02jeremy",
+			"hota.heroes:kinkeria",
+			"hota.factory:17victoria"
+		],
+		"zones" : {
+			"1" : {
+				"type" : "playerStart",
+				"owner" : 1,
+				"size" : 20,
+				"monsters" : "weak",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "neutral" ],
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1,
+					"sulfur" : 1,
+					"crystal" : 1
+				},
+				"treasure" : [
+					{ "min" : 5000, "max" : 9000, "density" : 1 },
+					{ "min" : 2000, "max" : 5000, "density" : 5 },
+					{ "min" : 100, "max" : 2000, "density" : 10 }
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling"
+					],
+					"bannedObjects" : {
+						"core:creatureBank" : {
+							"hota.highlandsterrain:churchyard" : true,
+							"hota.mapobjects:experimentalShop" : true,
+							"hota.mapobjects:mansion" : true,
+							"nagaBank" : true
+						},
+						"core:freelancersGuild" : {
+							"object" : true
+						},
+						"core:leanTo" : {
+							"leanTo" : true
+						},
+						"core:obelisk" : {
+							"object" : true
+						},
+						"core:shrineOfMagicLevel1" : {
+							"hota.mapobjects:shrineOfMagicMystery" : true
+						},
+						"core:tradingPost" : {
+							"object" : true
+						},
+						"core:treeOfKnowledge" : {
+							"treeOfKnowledge" : true
+						},
+						"hota.mapobjects:templeOfLoyalty" : {
+							"hota.mapobjects:templeOfLoyalty" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 500,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactTreasure"
+						},
+						{
+							"rmg" : {
+								"rarity" : 250,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "hota.mapobjects:blackTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 1000
+							},
+							"subtype" : "treasureChest",
+							"type" : "core:treasureChest"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:altarOfSacrifice"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfWar",
+							"type" : "core:schoolOfWar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2000
+							},
+							"subtype" : "hota.mapobjects:goldWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "cyclopsStockpile",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 7000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:shrineOfMagicMystery",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel3",
+							"type" : "core:shrineOfMagicLevel3"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 10,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:university"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						}
+					]
+				}
+			},
+			"2": {
+				"type" : "treasure",
+				"size" : 30,
+				"monsters" : "normal",
+				"neutralTowns" : {
+					"castles" : 1
+				},
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "lava" ],
+				"mines" : {
+					"gold" : 1
+				},
+				"treasure" : [
+					{ "min" : 15000, "max" : 20000, "density" : 1 },
+					{ "min" : 6000, "max" : 15000, "density" : 7 },
+					{ "min" : 2000, "max" : 6000, "density" : 11 }
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"dwelling"
+					],
+					"bannedObjects" : {
+						"core:creatureBank" : {
+							"hota.mapobjects:experimentalShop" : true
+						},
+						"core:freelancersGuild" : {
+							"object" : true
+						},
+						"core:leanTo" : {
+							"leanTo" : true
+						},
+						"core:obelisk" : {
+							"object" : true
+						},
+						"core:tradingPost" : {
+							"object" : true
+						},
+						"core:treeOfKnowledge" : {
+							"treeOfKnowledge" : true
+						},
+						"hota.mapobjects:templeOfLoyalty" : {
+							"hota.mapobjects:templeOfLoyalty" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 5000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:townGate",
+							"type" : "hota.mapobjects:townGate"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 9500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.mapobjects:wolfRaiderPicket",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfWar",
+							"type" : "core:schoolOfWar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2000
+							},
+							"subtype" : "hota.mapobjects:goldWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "cyclopsStockpile",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 7000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:shrineOfMagicMystery",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel3",
+							"type" : "core:shrineOfMagicLevel3"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 10,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:university"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "griffinConservatory",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMajor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 10000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "dragonUtopia",
+							"type" : "core:dragonUtopia"
+						}
+					]
+				}
+			},
+			"3" : {
+				"type" : "treasure",
+				"size" : 17,
+				"monsters" : "normal",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"matchTerrainToTown" : false,
+				"bannedMonsters" : [ "hota.cove:cove" ],
+				"terrainTypes" : [ "dirt" ],
+				"mines" : {
+					"gold" : 1
+				},
+				"treasure" : [
+					{ "min" : 10000, "max" : 12000, "density" : 1 },
+					{ "min" : 6000, "max" : 10000, "density" : 7 },
+					{ "min" : 500, "max" : 6000, "density" : 9 }
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+					],
+					"bannedObjects" : {
+						"core:creatureBank" : {
+							"hota.mapobjects:experimentalShop" : true,
+							"hota.mapobjects:mansion" : true,
+							"nagaBank" : true
+						},
+						"core:freelancersGuild" : {
+							"object" : true
+						},
+						"core:leanTo" : {
+							"leanTo" : true
+						},
+						"core:obelisk" : {
+							"object" : true
+						},
+						"core:tradingPost" : {
+							"object" : true
+						},
+						"core:treeOfKnowledge" : {
+							"treeOfKnowledge" : true
+						},
+						"hota.mapobjects:templeOfLoyalty" : {
+							"hota.mapobjects:templeOfLoyalty" : true
+						},
+						"hota.mapobjects:townGate" : {
+							"hota.mapobjects:townGate" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 40,
+								"value" : 6000
+							},
+							"subtype" : "object",
+							"type" : "core:blackMarket"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 6000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "dragonFlyHive",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 70,
+								"value" : 6500
+							},
+							"subtype" : "hota.mapobjects:wolfRaiderPicket",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfWar",
+							"type" : "core:schoolOfWar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2000
+							},
+							"subtype" : "hota.mapobjects:goldWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "cyclopsStockpile",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 7000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:shrineOfMagicMystery",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel3",
+							"type" : "core:shrineOfMagicLevel3"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 10,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:university"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						}
+					]
+				},
+			},
+			"4" : {
+				"type" : "playerStart",
+				"owner" : 2,
+				"size" : 20,
+				"monsters" : "weak",
+				"playerTowns" : {
+					"castles" : 1
+				},
+				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "neutral" ],
+				"minesLikeZone" : 1,
+				"treasureLikeZone" : 1,
+				"customObjectsLikeZone" : 1
+			},
+			"5" : {
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"matchTerrainToTown" : false,
+				"bannedMonsters" : [ "hota.cove:cove" ],
+				"terrainTypes" : [ "grass" ],
+				"mines" : {
+					"mercury" : 1,
+					"gems" : 1
+				},
+				"treasure" : [
+					{ "min" : 10000, "max" : 12000, "density" : 1 },
+					{ "min" : 3000, "max" : 6000, "density" : 7 },
+					{ "min" : 100, "max" : 3000, "density" : 10 }
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+					],
+					"bannedObjects" : {
+						"core:creatureBank" : {
+							"hota.mapobjects:experimentalShop" : true
+						},
+						"core:freelancersGuild" : {
+							"object" : true
+						},
+						"core:leanTo" : {
+							"leanTo" : true
+						},
+						"core:mysticalGarden" : {
+							"mysticalGarden" : true
+						},
+						"core:obelisk" : {
+							"object" : true
+						},
+						"core:tradingPost" : {
+							"object" : true
+						},
+						"core:treeOfKnowledge" : {
+							"treeOfKnowledge" : true
+						},
+						"hota.mapobjects:templeOfLoyalty" : {
+							"hota.mapobjects:templeOfLoyalty" : true
+						}
+					},
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfWar",
+							"type" : "core:schoolOfWar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 2
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2000
+							},
+							"subtype" : "hota.mapobjects:goldWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "cyclopsStockpile",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 7000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:shrineOfMagicMystery",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel3",
+							"type" : "core:shrineOfMagicLevel3"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 10,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:university"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 1000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "crypt",
+							"type" : "core:crypt"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 1500
+							},
+							"subtype" : "hota.highlandsterrain:churchyard",
+							"type" : "core:creatureBank"
+						}
+					]
+				}
+			},
+			"6" : {
+				"type" : "treasure",
+				"size" : 20,
+				"monsters" : "normal",
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"matchTerrainToTown" : false,
+				"bannedMonsters" : [ "hota.cove:cove" ],
+				"terrainTypes" : [ "grass" ],
+				"minesLikeZone" : 5,
+				"treasureLikeZone" : 5,
+				"customObjectsLikeZone" : 5
+			},
+			"7" : {
+				"type" : "treasure",
+				"size" : 17,
+				"monsters" : "normal",
+				"bannedMonsters" : [ "hota.cove:cove" ],
+				"neutralTowns" : {
+					"towns" : 1
+				},
+				"matchTerrainToTown" : false,
+				"terrainTypes" : [ "dirt" ],
+				"minesLikeZone" : 3,
+				"treasureLikeZone" : 3,
+				"customObjectsLikeZone" : 3
+			}
+		},
+		"connections" : [
+			{ "a" : "1", "b" : "6", "guard" : 2000, "road" : "true" },
+			{ "a" : "1", "b" : "7", "guard" : 4000, "road" : "true" },
+			{ "a" : "2", "b" : "3", "guard" : 12500, "road" : "true" },
+			{ "a" : "2", "b" : "5", "guard" : 12500, "road" : "true" },
+			{ "a" : "2", "b" : "6", "guard" : 12500, "road" : "true" },
+			{ "a" : "2", "b" : "7", "guard" : 12500, "road" : "true" },
+			{ "a" : "3", "b" : "7", "guard" : 12500, "road" : "true" },
+			{ "a" : "3", "b" : "4", "guard" : 4000, "road" : "true" },
+			{ "a" : "4", "b" : "5", "guard" : 2000, "road" : "true" }
+		]
+	}
+}
