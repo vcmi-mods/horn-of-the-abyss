@@ -24,7 +24,7 @@
 		"1.4" : [
 			"Added HotA versions of 2sm4d(3), 6lm10a, 8xm12a, Diamond, Jebus Cross, Mini-Nostalgia and Spider.",
 			"Added Black'n'Blue, Boomerang, Apocalypse and Kerberos.",
-			"Added M200 templates 2sm2c(2) and Skirmish(M).",
+			"Added M200 templates 2sm2c(2), Nine-day Wonder and Skirmish(M).",
 			"Added HotA rules to Nostalgia - no special weeks, Shrine of Magic Mystery banned."
 		]
 	},
@@ -44,7 +44,7 @@
 		"config/hotaJebusCross.json",
 		"config/hotaKerberos.json",
 		"config/hotaMiniNostalgia.json",
-	//	"config/hotaNineDayWonder.json",
+		"config/hotaNineDayWonder.json",
 		"config/hotaNostalgia.json",
 		"config/hotaSkirmish(M).json",
 		"config/hotaSpider.json"

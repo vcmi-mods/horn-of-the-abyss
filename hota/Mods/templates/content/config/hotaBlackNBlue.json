@@ -1,4 +1,15 @@
 {
+	// Not supported by VCMI yet:
+	// playerStarts should contain dwellings lvl1-3, limit 3/2/1
+	// playerStarts should contian pandora box with 5k gold/xp, limit 1
+	// playerStarts should contain Spell Scrolls lvl 1-3, limits 4/2/1
+	// zone1 should contain boxes, creatures 4-6, freq/limit: 40/5,60/5,40/4
+	// zone1 should contain boxes with 10k gold/xp default, and box with 15k xp (4)
+	// zone1 should contain prison 5k (4), prison 15k (2)
+	// zones 3-5 and 7 should contain prison noexp (2)
+	// zones 3-5 and 7 should contain pandora boxes with stone golems (rare:200, nolimit)
+	// zones 8-11 should contain boxes with vamp lords (3), skellies (rare:200, nolimit), 2 prisons without xp
+	// zones 8-11 should contain spell scrolls lvl 1-3
 	"[HotA] Black'n'Blue" :
 	{
 		"description" : "This template makes use of non-standard objects. Each player has access to the snow zones with Ancient Lamps and Dragon Utopias; as well as Subterranean zones with Pandora Boxes. Player areas are connected via large and rich treasure zone with Ancient Lamps, Pandora Boxes, Dragon Utopias and Faerie Dragon Dwellings.",
@@ -28,7 +39,6 @@
 			"ryland",
 			"hota.factory:04melchior",
 			"hota.bulwark:02oidana"
-			
 		],
 		"settings" : {
 			"creatures" : {
@@ -50,6 +60,7 @@
 				"allowedTowns" : [ "conflux" ],
 				"matchTerrainToTown" : false,
 				"terrainTypes" : [ "sand" ],
+				"bannedMonsters" : [ "conflux", "neutral" ],
 				"mines" : { 
 					"gold" : 2
 				},
@@ -57,7 +68,284 @@
 					{ "min" : 15000, "max" : 45000, "density" : 12 },
 					{ "min" : 10000, "max" : 15000, "density" : 8 },
 					{ "min" : 5000, "max" : 10000, "density" : 12 }
-				]
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"all"
+					],
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 500,
+								"value" : 2000
+							},
+							"subtype" : "campfire",
+							"type" : "core:campfire"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "mercury",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 1500
+							},
+							"subtype" : "learningStone",
+							"type" : "core:learningStone"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 2000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactTreasure"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 20000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactRelic"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMinor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "schoolOfMagic",
+							"type" : "core:schoolOfMagic"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "gems",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 750
+							},
+							"subtype" : "gold",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "ore",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "scholar",
+							"type" : "core:scholar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 10000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMajor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "crystal",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500
+							},
+							"subtype" : "witchHut",
+							"type" : "core:witchHut"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 1500
+							},
+							"subtype" : "treasureChest",
+							"type" : "core:treasureChest"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "wood",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 8000,
+								"zoneLimit" : 6
+							},
+							"subtype" : "hota.mapobjects:ivoryTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000
+							},
+							"subtype" : "nagaBank",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 7000
+							},
+							"subtype" : "hota.mapobjects:shrineOfMagicMystery",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 8000
+							},
+							"subtype" : "object",
+							"type" : "core:blackMarket"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000
+							},
+							"subtype" : "cyclopsStockpile",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 10000
+							},
+							"subtype" : "dragonUtopia",
+							"type" : "core:dragonUtopia"
+						},
+						{
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 12000
+							},
+							"subtype" : "libraryOfEnlightenment",
+							"type" : "core:libraryOfEnlightenment"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000
+							},
+							"subtype" : "hota.mapobjects:colosseumOfTheMagi",
+							"type" : "hota.mapobjects:colosseumOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 2500
+							},
+							"subtype" : "object",
+							"type" : "core:eyeOfTheMagi"
+						},
+						{
+							"rmg" : {
+								"rarity" : 120,
+								"value" : 30501
+							},
+							"subtype" : "magicForest",
+							"type" : "core:creatureGeneratorCommon"
+						},
+						{
+							"type" : "hota.mapobjects:ancientLamp",
+							"subtype" : "hota.mapobjects:ancientLamp",
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 5000,
+								"zoneLimit" : 8
+							}
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "redwoodObservatory",
+							"type" : "core:redwoodObservatory"
+						}
+					]
+				}
 			},
 			"2" :
 			{
@@ -70,6 +358,7 @@
 					"castles" : 1 
 				},
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux", "neutral" ],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1
@@ -78,7 +367,336 @@
 					{ "min" : 6000, "max" : 10000, "density" : 1 },
 					{ "min" : 3000, "max" : 6000, "density" : 6 },
 					{ "min" : 500, "max" : 3000, "density" : 7 }
-				]
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"all"
+					],
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 500,
+								"value" : 2000
+							},
+							"subtype" : "campfire",
+							"type" : "core:campfire"
+						},
+						{
+							"rmg" : {
+								"rarity" : 90,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "windmill",
+							"type" : "core:windmill"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "rallyFlag",
+							"type" : "core:rallyFlag"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "mercury",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "learningStone",
+							"type" : "core:learningStone"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 2000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactTreasure"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "treeOfKnowledge",
+							"type" : "core:treeOfKnowledge"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMinor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfMagic",
+							"type" : "core:schoolOfMagic"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "gems",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 750
+							},
+							"subtype" : "gold",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "ore",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "scholar",
+							"type" : "core:scholar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "dwarvenTreasury",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 10000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMajor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.highlandsterrain:gazebo",
+							"type" : "hota.highlandsterrain:gazebo"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "waterWheel",
+							"type" : "core:waterWheel"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "crypt",
+							"type" : "core:crypt"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "crystal",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "witchHut",
+							"type" : "core:witchHut"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 1500
+							},
+							"subtype" : "treasureChest",
+							"type" : "core:treasureChest"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "wood",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "fountainOfYouth",
+							"type" : "core:fountainOfYouth"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.mapobjects:blackTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "nagaBank",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "medusaStore",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "redwoodObservatory",
+							"type" : "core:redwoodObservatory"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.highlandsterrain:churchyard",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:tradingPost"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "wagon",
+							"type" : "core:wagon"
+						}
+					]
+				}
 			},
 			"3" :
 			{
@@ -91,6 +709,7 @@
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"mines" : { 
 					"wood" : 1,
 					"ore" : 1,
@@ -103,14 +722,433 @@
 					{ "min" : 3000, "max" : 8000, "density" : 8 }
 				],
 				"customObjects" : {
+					"bannedCategories" : [
+						"all"
+					],
+					"bannedObjects" : {
+					},
 					"commonObjects" : [
 						{
-							"type" : "hota.mapobjects:ancientLamp",
-							"subtype" : "hota.mapobjects:ancientLamp",
+							"rmg" : {
+								"rarity" : 500,
+								"value" : 2000
+							},
+							"subtype" : "campfire",
+							"type" : "core:campfire"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "mercury",
+							"type" : "core:resource"
+						},
+						{
 							"rmg" : {
 								"rarity" : 200,
-								"value" : 5000
-							}
+								"value" : 1500,
+								"zoneLimit" : 4
+							},
+							"subtype" : "learningStone",
+							"type" : "core:learningStone"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 2000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactTreasure"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfMagic",
+							"type" : "core:schoolOfMagic"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "gems",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 750
+							},
+							"subtype" : "gold",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "ore",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "scholar",
+							"type" : "core:scholar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "crystal",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "witchHut",
+							"type" : "core:witchHut"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 1500
+							},
+							"subtype" : "treasureChest",
+							"type" : "core:treasureChest"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "wood",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "nagaBank",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 4
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "redwoodObservatory",
+							"type" : "core:redwoodObservatory"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "rallyFlag",
+							"type" : "core:rallyFlag"
+						},
+						{
+							"rmg" : {
+								"rarity" : 15,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:skeletonTransformer",
+							"type" : "hota.mapobjects:skeletonTransformer"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 250,
+								"zoneLimit" : 3
+							},
+							"subtype" : "magicWell",
+							"type" : "core:magicWell"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.highlandsterrain:churchyard",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2250,
+								"zoneLimit" : 2
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2250,
+								"zoneLimit" : 2
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.mapobjects:blackTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "dwarvenTreasury",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:tavern"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 3000,
+								"zoneLimit" : 5
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 10000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "dragonUtopia",
+							"type" : "core:dragonUtopia"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 5000,
+								"zoneLimit" : 6
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMinor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 10000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactMajor"
+						},
+						{
+							"rmg" : {
+								"rarity" : 320,
+								"value" : 5000,
+								"zoneLimit" : 6
+							},
+							"subtype" : "hota.mapobjects:ancientLamp",
+							"type" : "hota.mapobjects:ancientLamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 90,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "windmill",
+							"type" : "core:windmill"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "waterWheel",
+							"type" : "core:waterWheel"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500
+							},
+							"subtype" : "medusaStore",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "treeOfKnowledge",
+							"type" : "core:treeOfKnowledge"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 8000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "hota.mapobjects:ivoryTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1000,
+								"zoneLimit" : 6
+							},
+							"subtype" : "crypt",
+							"type" : "core:crypt"
+						},
+						{
+							"rmg" : {
+								"rarity" : 40,
+								"value" : 2355,
+								"zoneLimit" : 2
+							},
+							"subtype" : "parapet",
+							"type" : "core:creatureGeneratorCommon"
+						},
+						{
+							"rmg" : {
+								"rarity" : 40,
+								"value" : 1048,
+								"zoneLimit" : 4
+							},
+							"subtype" : "workshop",
+							"type" : "core:creatureGeneratorCommon"
 						}
 					]
 				}
@@ -126,6 +1164,7 @@
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"mines" : { 
 					"wood" : 1,
 					"ore" : 1,
@@ -146,6 +1185,7 @@
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"mines" : { 
 					"wood" : 1,
 					"ore" : 1,
@@ -166,8 +1206,10 @@
 					"castles" : 1 
 				},
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux", "neutral" ],
 				"minesLikeZone" : 2,
-				"treasureLikeZone" : 2
+				"treasureLikeZone" : 2,
+				"customObjectsLikeZone" : 2
 			},
 			"7" :
 			{
@@ -180,6 +1222,7 @@
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"mines" : { 
 					"wood" : 1,
 					"ore" : 1,
@@ -200,6 +1243,7 @@
 				},
 				"allowedTowns" : [ "necropolis" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"mines" : { 
 					"wood" : 1,
 					"ore" : 1,
@@ -212,7 +1256,365 @@
 					{ "min" : 15000, "max" : 20000, "density" : 5 },
 					{ "min" : 3000, "max" : 12000, "density" : 6 },
 					{ "min" : 250, "max" : 3000, "density" : 4 }
-				]
+				],
+				"customObjects" : {
+					"bannedCategories" : [
+						"all"
+					],
+					"commonObjects" : [
+						{
+							"rmg" : {
+								"rarity" : 500,
+								"value" : 2000
+							},
+							"subtype" : "campfire",
+							"type" : "core:campfire"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "mercury",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 1500,
+								"zoneLimit" : 4
+							},
+							"subtype" : "learningStone",
+							"type" : "core:learningStone"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "mercenaryCamp",
+							"type" : "core:mercenaryCamp"
+						},
+						{
+							"rmg" : {
+								"rarity" : 150,
+								"value" : 2000
+							},
+							"subtype" : "object",
+							"type" : "core:randomArtifactTreasure"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 1000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "schoolOfMagic",
+							"type" : "core:schoolOfMagic"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "gems",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 750
+							},
+							"subtype" : "gold",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "starAxis",
+							"type" : "core:starAxis"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "ore",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "marlettoTower",
+							"type" : "core:marlettoTower"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "scholar",
+							"type" : "core:scholar"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 1
+							},
+							"subtype" : "arena",
+							"type" : "core:arena"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 2000
+							},
+							"subtype" : "crystal",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 80,
+								"value" : 1500,
+								"zoneLimit" : 2
+							},
+							"subtype" : "witchHut",
+							"type" : "core:witchHut"
+						},
+						{
+							"rmg" : {
+								"rarity" : 1000,
+								"value" : 1500
+							},
+							"subtype" : "treasureChest",
+							"type" : "core:treasureChest"
+						},
+						{
+							"rmg" : {
+								"rarity" : 300,
+								"value" : 1400
+							},
+							"subtype" : "wood",
+							"type" : "core:resource"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 3000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "nagaBank",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 3
+							},
+							"subtype" : "shrineOfMagicLevel2",
+							"type" : "core:shrineOfMagicLevel2"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 500,
+								"zoneLimit" : 4
+							},
+							"subtype" : "shrineOfMagicLevel1",
+							"type" : "core:shrineOfMagicLevel1"
+						},
+						{
+							"rmg" : {
+								"rarity" : 50,
+								"value" : 3000,
+								"zoneLimit" : 2
+							},
+							"subtype" : "shrineOfMagicLevel3",
+							"type" : "core:shrineOfMagicLevel3"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 750,
+								"zoneLimit" : 1
+							},
+							"subtype" : "pillarOfFire",
+							"type" : "core:pillarOfFire"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "rallyFlag",
+							"type" : "core:rallyFlag"
+						},
+						{
+							"rmg" : {
+								"rarity" : 15,
+								"value" : 500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:skeletonTransformer",
+							"type" : "hota.mapobjects:skeletonTransformer"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "gardenOfRevelation",
+							"type" : "core:gardenOfRevelation"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 250,
+								"zoneLimit" : 3
+							},
+							"subtype" : "magicWell",
+							"type" : "core:magicWell"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.highlandsterrain:churchyard",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:crystalWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:gemsWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:mercuryWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 25,
+								"value" : 2500,
+								"zoneLimit" : 1
+							},
+							"subtype" : "hota.mapobjects:sulfurWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2250,
+								"zoneLimit" : 2
+							},
+							"subtype" : "hota.mapobjects:woodWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 30,
+								"value" : 2250,
+								"zoneLimit" : 2
+							},
+							"subtype" : "hota.mapobjects:oreWarehouse",
+							"type" : "hota.mapobjects:warehouses"
+						},
+						{
+							"rmg" : {
+								"rarity" : 40,
+								"value" : 2910,
+								"zoneLimit" : 4
+							},
+							"subtype" : "tombOfSouls",
+							"type" : "core:creatureGeneratorCommon"
+						},
+						{
+							"rmg" : {
+								"rarity" : 40,
+								"value" : 1102,
+								"zoneLimit" : 3
+							},
+							"subtype" : "cursedTemple",
+							"type" : "core:creatureGeneratorCommon"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 1500,
+								"zoneLimit" : 3
+							},
+							"subtype" : "hota.mapobjects:blackTower",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 100,
+								"value" : 2000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "dwarvenTreasury",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 20,
+								"value" : 100,
+								"zoneLimit" : 1
+							},
+							"subtype" : "object",
+							"type" : "core:tavern"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 3000,
+								"zoneLimit" : 5
+							},
+							"subtype" : "impCache",
+							"type" : "core:creatureBank"
+						},
+						{
+							"rmg" : {
+								"rarity" : 200,
+								"value" : 3000,
+								"zoneLimit" : 4
+							},
+							"subtype" : "object",
+							"type" : "core:refugeeCamp"
+						}
+					]
+				}
 			},
 			"9" :
 			{
@@ -225,8 +1627,10 @@
 				},
 				"allowedTowns" : [ "necropolis" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"minesLikeZone" : 8,
-				"treasureLikeZone" : 8
+				"treasureLikeZone" : 8,
+				"customObjectsLikeZone" : 8
 			},
 			"10" :
 			{
@@ -239,8 +1643,10 @@
 				},
 				"allowedTowns" : [ "necropolis" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"minesLikeZone" : 8,
-				"treasureLikeZone" : 8
+				"treasureLikeZone" : 8,
+				"customObjectsLikeZone" : 8
 			},
 			"11" :
 			{
@@ -253,8 +1659,10 @@
 				},
 				"allowedTowns" : [ "necropolis" ],
 				"matchTerrainToTown" : true,
+				"bannedMonsters" : [ "conflux" ],
 				"minesLikeZone" : 8,
-				"treasureLikeZone" : 8
+				"treasureLikeZone" : 8,
+				"customObjectsLikeZone" : 8
 			}
 		},
 		"connections" :
@@ -280,7 +1688,12 @@
 			{ "a" : "8", "b" : "9", "guard" : 3000, "road" : "true" },
 			{ "a" : "8", "b" : "9", "type" : "wide", "road" : "true" },
 			{ "a" : "10", "b" : "11", "type" : "wide", "road" : "true" },
-			{ "a" : "10", "b" : "11", "guard" : 3000, "road" : "true" }
+			{ "a" : "10", "b" : "11", "guard" : 3000, "road" : "true" },
+			
+			{ "a" : "1", "b" : "3", "type" : "fictive" },
+			{ "a" : "1", "b" : "4", "type" : "fictive" },
+			{ "a" : "1", "b" : "5", "type" : "fictive" },
+			{ "a" : "1", "b" : "7", "type" : "fictive" }
 		]
 	}
 }

@@ -22,18 +22,19 @@
 			"angelWings"
 		],
 		"bannedHeroes" : [
-			"loynis", 
-			"solmyr", 
-			"calid", 
-			"moandor", 
-			"aislinn", 
+			"loynis",
+			"solmyr",
+			"calid",
+			"moandor",
+			"aislinn",
+			"xsi",
 			"deemer",
-			"darkstorn", 
-			"hota.heroes:kinkeria", 
-			"merist", 
-			"kalt", 
-			"luna", 
-			"hota.cove:02jeremy", 
+			"darkstorn",
+			"merist",
+			"kalt",
+			"luna",
+			"hota.cove:02jeremy",
+			"hota.heroes:kinkeria",
 			"hota.factory:17victoria"
 		],
 		"zones" :
@@ -44,12 +45,12 @@
 				"size" : 11,
 				"owner" : 1,
 				"monsters" : "normal",
-				"playerTowns" : { 
-					"castles" : 1 
+				"playerTowns" : {
+					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
 				"bannedTowns" : [ "necropolis", "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1
 				},
@@ -75,8 +76,8 @@
 				"size" : 11,
 				"owner" : 2,
 				"monsters" : "normal",
-				"playerTowns" : { 
-					"castles" : 1 
+				"playerTowns" : {
+					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
 				"bannedTowns" : [ "necropolis", "conflux" ],
@@ -93,9 +94,9 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"mines" : { 
-					"mercury" : 1, 
-					"sulfur" : 1, 
+				"mines" : {
+					"mercury" : 1,
+					"sulfur" : 1,
 					"gems" : 1,
 					"crystal" : 1
 				},
@@ -114,7 +115,7 @@
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
 				"terrainTypes" : [ "dirt" ],
-				"mines" : { 
+				"mines" : {
 					"gold" : 1
 				},
 				"treasure" :
