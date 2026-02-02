@@ -17,10 +17,10 @@
 				"size" : 20,
 				"owner" : 1,
 				"monsters" : "weak",
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1
 				},
@@ -56,7 +56,7 @@
 				"size" : 20,
 				"owner" : 8,
 				"monsters" : "weak",
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
@@ -153,11 +153,11 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
-				"mines" : { 
-					"wood" : 1, 
+				"mines" : {
+					"wood" : 1,
 					"ore" : 1,
 					"mercury" : 1
 				},
@@ -192,12 +192,12 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
-				"mines" : { 
-					"wood" : 1, 
-					"ore" : 1, 
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1,
 					"sulfur" : 1
 				},
 				"matchTerrainToTown" : true,
@@ -209,13 +209,13 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
-				"mines" : { 
-					"wood" : 1, 
-					"ore" : 1, 
-					"crystal" : 1 
+				"mines" : {
+					"wood" : 1,
+					"ore" : 1,
+					"crystal" : 1
 				},
 				"matchTerrainToTown" : true,
 				"customObjectsLikeZone" : 9,
@@ -226,10 +226,10 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"gems" : 1
@@ -243,7 +243,7 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"matchTerrainToTown" : true,
@@ -256,7 +256,7 @@
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"matchTerrainToTown" : true,
@@ -466,7 +466,7 @@
 				"size" : 30,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"mines" : { 
+				"mines" : {
 					"gold" : 2
 				},
 				"treasure" :
@@ -518,10 +518,12 @@
 			{ "a" : "7", "b" : "30", "guard" : 3000 },
 			{ "a" : "8", "b" : "29", "guard" : 3000, "road" : "true" },
 			{ "a" : "8", "b" : "32", "guard" : 3000, "road" : "true" },
+			{ "a" : "9", "b" : "21", "guard" : 6000, "road" : "true" },
 			{ "a" : "10", "b" : "23", "guard" : 6000 },
 			{ "a" : "11", "b" : "22", "guard" : 6000 },
 			{ "a" : "11", "b" : "33", "guard" : 9000, "road" : "false" },
 			{ "a" : "11", "b" : "33", "guard" : 9000, "road" : "false" },
+			{ "a" : "12", "b" : "24", "guard" : 6000, "road" : "true" },
 			{ "a" : "13", "b" : "25", "guard" : 6000 },
 			{ "a" : "14", "b" : "26", "guard" : 3000 },
 			{ "a" : "14", "b" : "33", "guard" : 9000, "road" : "false" },
@@ -529,23 +531,21 @@
 			{ "a" : "15", "b" : "27", "guard" : 6000 },
 			{ "a" : "15", "b" : "33", "guard" : 9000, "road" : "false" },
 			{ "a" : "15", "b" : "33", "guard" : 9000, "road" : "false" },
+			{ "a" : "16", "b" : "28", "guard" : 6000 },
 			{ "a" : "17", "b" : "29", "guard" : 6000, "road" : "true" },
 			{ "a" : "18", "b" : "31", "guard" : 6000 },
 			{ "a" : "18", "b" : "33", "guard" : 9000, "road" : "false" },
 			{ "a" : "18", "b" : "33", "guard" : 9000, "road" : "false" },
 			{ "a" : "19", "b" : "30", "guard" : 6000 },
 			{ "a" : "20", "b" : "32", "guard" : 6000, "road" : "true" },
-			{ "a" : "24", "b" : "26", "guard" : 6000 },
-			{ "a" : "12", "b" : "24", "guard" : 6000, "road" : "true" },
-			{ "a" : "9", "b" : "21", "guard" : 6000, "road" : "true" },
 			{ "a" : "21", "b" : "22", "guard" : 3000, "road" : "true" },
-			{ "a" : "26", "b" : "28", "guard" : 3000 },
-			{ "a" : "16", "b" : "28", "guard" : 6000 },
-			{ "a" : "30", "b" : "31", "guard" : 3000 },
 			{ "a" : "22", "b" : "23", "guard" : 3000 },
+			{ "a" : "24", "b" : "26", "guard" : 6000 },
 			{ "a" : "25", "b" : "27", "guard" : 3000 },
-			{ "a" : "31", "b" : "32", "guard" : 3000, "road" : "true" },
-			{ "a" : "27", "b" : "29", "guard" : 3000 }
+			{ "a" : "26", "b" : "28", "guard" : 3000 },
+			{ "a" : "27", "b" : "29", "guard" : 3000 },
+			{ "a" : "30", "b" : "31", "guard" : 3000 },
+			{ "a" : "31", "b" : "32", "guard" : 3000, "road" : "true" }
 		]
 	}
 }

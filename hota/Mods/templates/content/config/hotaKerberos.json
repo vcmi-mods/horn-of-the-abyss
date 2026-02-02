@@ -179,6 +179,7 @@
 				"neutralTowns" : {
 					"towns" : 2
 				},
+				"townsAreSameType" : true,
 				"mines" : {
 					"gold" : 2
 				},
@@ -209,6 +210,7 @@
 				"neutralTowns" : {
 					"towns" : 2
 				},
+				"townsAreSameType" : true,
 				"matchTerrainToTown" : false,
 				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 10,
@@ -221,6 +223,7 @@
 				"neutralTowns" : {
 					"towns" : 2
 				},
+				"townsAreSameType" : true,
 				"matchTerrainToTown" : false,
 				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 10,
@@ -473,7 +476,6 @@
 			{ "a" : "19", "b" : "26", "guard" : 17500, "road" : "random" },
 			{ "a" : "19", "b" : "27", "guard" : 12000, "road" : "true" },
 			{ "a" : "19", "b" : "32", "guard" : 6000, "road" : "true" },
-			{ "a" : "20", "b" : "23", "guard" : 6000, "road" : "true" },
 			{ "a" : "20", "b" : "23", "guard" : 6000, "road" : "true" },
 			{ "a" : "20", "b" : "25", "guard" : 12000, "road" : "true" },
 			{ "a" : "20", "b" : "26", "guard" : 12000, "road" : "true" },
