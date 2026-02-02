@@ -25,7 +25,8 @@
 			"Added HotA versions of 2sm4d(3), 6lm10a, 8xm12a, Diamond, Jebus Cross, Mini-Nostalgia and Spider.",
 			"Added Black'n'Blue, Boomerang, Apocalypse and Kerberos.",
 			"Added M200 templates 2sm2c(2), Nine-day Wonder and Skirmish(M).",
-			"Added HotA rules to Nostalgia - no special weeks, Shrine of Magic Mystery banned."
+			"Added HotA rules to Nostalgia - no special weeks, Shrine of Magic Mystery banned.",
+			"Added XH+U to G+U template: Doubled 8mm6."
 		]
 	},
 	"templates" : [
@@ -40,6 +41,7 @@
 		"config/hotaBoomerang.json",
 	//	"config/hotaClashOfDragons.json",
 		"config/hotaDiamond.json",
+		"config/hotaDoubled8mm6.json",
 	//	"config/hotaFirewalk.json",
 		"config/hotaJebusCross.json",
 		"config/hotaKerberos.json",
