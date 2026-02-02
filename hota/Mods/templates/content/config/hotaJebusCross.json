@@ -32,15 +32,6 @@
 				],
 				"customObjects" : {
 					"bannedObjects" : {
-						"core:tavern" : {
-							"object" : true
-						},
-						"hota.highlandsterrain:hermitsShack" : {
-							"hota.highlandsterrain:hermitsShack" : true
-						},
-						"hota.highlandsterrain:mineralSpring" : {
-							"hota.highlandsterrain:mineralSpring" : true
-						},
 						"hota.mapobjects:ancientLamp" : {
 							"hota.mapobjects:ancientLamp" : true
 						}
@@ -72,7 +63,7 @@
 								"value" : 500,
 								"zoneLimit" : 3
 							}
-						},
+						}
 					]
 				}
 			},
@@ -104,20 +95,6 @@
 					{"min" : 300, "max": 3000, "density": 14}
 				],
 				"customObjects" : {
-					"bannedObjects" : {
-						"core:tavern" : {
-							"object" : true
-						},
-						"hota.highlandsterrain:hermitsShack" : {
-							"hota.highlandsterrain:hermitsShack" : true
-						},
-						"hota.highlandsterrain:mineralSpring" : {
-							"hota.highlandsterrain:mineralSpring" : true
-						},
-						"hota.mapobjects:ancientLamp" : {
-							"hota.mapobjects:ancientLamp" : true
-						}
-					},
 					"commonObjects" : [
 						{
 							"type" : "core:tavern",
