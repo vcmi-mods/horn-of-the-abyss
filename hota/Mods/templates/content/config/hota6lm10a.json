@@ -33,9 +33,6 @@
 				"matchTerrainToTown" : true,
 				"customObjects" : {
 					"bannedObjects" : {
-						"core:dragonUtopia" : {
-							"dragonUtopia" : true
-						},
 						"core:shrineOfMagicLevel1" : {
 							"hota.mapobjects:shrineOfMagicMystery" : true
 						}
@@ -143,9 +140,6 @@
 				"matchTerrainToTown" : true,
 				"customObjects" : {
 					"bannedObjects" : {
-						"core:dragonUtopia" : {
-							"dragonUtopia" : true
-						},
 						"core:shrineOfMagicLevel1" : {
 							"hota.mapobjects:shrineOfMagicMystery" : true
 						}
@@ -302,9 +296,6 @@
 				],
 				"customObjects" : {
 					"bannedObjects" : {
-						"core:dragonUtopia" : {
-							"dragonUtopia" : true
-						},
 						"core:shrineOfMagicLevel1" : {
 							"hota.mapobjects:shrineOfMagicMystery" : true
 						}

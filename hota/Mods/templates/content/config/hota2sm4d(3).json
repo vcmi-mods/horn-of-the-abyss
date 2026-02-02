@@ -70,13 +70,7 @@
 					{ "min" : 15000, "max" : 20000, "density" : 6 },
 					{ "min" : 10000, "max" : 15000, "density" : 9 }
 				],
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					}
-				}
+				"customObjectsLikeZone" : 1
 			},
 			"4" :
 			{
@@ -102,7 +96,7 @@
 					"gold" : 1 
 				},
 				"treasureLikeZone" : 3,
-				"customObjectsLikeZone" : 3
+				"customObjectsLikeZone" : 1
 			},
 			"6" :
 			{
@@ -154,7 +148,7 @@
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 3,
-				"customObjectsLikeZone" : 3
+				"customObjectsLikeZone" : 1
 			},
 			"10" :
 			{
@@ -164,7 +158,7 @@
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3,
-				"customObjectsLikeZone" : 3
+				"customObjectsLikeZone" : 1
 			}
 		},
 		"connections" :
