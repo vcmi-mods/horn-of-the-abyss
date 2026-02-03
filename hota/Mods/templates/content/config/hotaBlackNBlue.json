@@ -53,7 +53,7 @@
 				"size" : 18,
 				"forcedLevel" : "surface",
 				"monsters" : "strong",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"castles" : 1,
 					"towns" : 2
 				},
@@ -61,7 +61,7 @@
 				"matchTerrainToTown" : false,
 				"terrainTypes" : [ "sand" ],
 				"bannedMonsters" : [ "conflux", "neutral" ],
-				"mines" : { 
+				"mines" : {
 					"gold" : 2
 				},
 				"treasure" : [
@@ -354,8 +354,8 @@
 				"owner" : 1,
 				"forcedLevel" : "surface",
 				"monsters" : "weak",
-				"playerTowns" : { 
-					"castles" : 1 
+				"playerTowns" : {
+					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux", "neutral" ],
@@ -704,13 +704,13 @@
 				"size" : 12,
 				"forcedLevel" : "surface",
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"mercury" : 1,
@@ -1159,13 +1159,13 @@
 				"size" : 12,
 				"forcedLevel" : "surface",
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"sulfur" : 1,
@@ -1180,13 +1180,13 @@
 				"size" : 12,
 				"forcedLevel" : "surface",
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"gems" : 1,
@@ -1202,8 +1202,8 @@
 				"owner" : 2,
 				"forcedLevel" : "surface",
 				"monsters" : "weak",
-				"playerTowns" : { 
-					"castles" : 1 
+				"playerTowns" : {
+					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux", "neutral" ],
@@ -1217,13 +1217,13 @@
 				"size" : 12,
 				"forcedLevel" : "surface",
 				"monsters" : "normal",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "tower" ],
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"crystal" : 1,
@@ -1238,13 +1238,13 @@
 				"size" : 8,
 				"forcedLevel" : "underground",
 				"monsters" : "weak",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "necropolis" ],
 				"matchTerrainToTown" : true,
 				"bannedMonsters" : [ "conflux" ],
-				"mines" : { 
+				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
 					"sulfur" : 1,
@@ -1622,7 +1622,7 @@
 				"size" : 8,
 				"forcedLevel" : "underground",
 				"monsters" : "weak",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "necropolis" ],
@@ -1638,7 +1638,7 @@
 				"size" : 8,
 				"forcedLevel" : "underground",
 				"monsters" : "weak",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "necropolis" ],
@@ -1654,7 +1654,7 @@
 				"size" : 8,
 				"forcedLevel" : "underground",
 				"monsters" : "weak",
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 1
 				},
 				"allowedTowns" : [ "necropolis" ],
@@ -1689,11 +1689,11 @@
 			{ "a" : "8", "b" : "9", "type" : "wide", "road" : "true" },
 			{ "a" : "10", "b" : "11", "type" : "wide", "road" : "true" },
 			{ "a" : "10", "b" : "11", "guard" : 3000, "road" : "true" },
-			
 			{ "a" : "1", "b" : "3", "type" : "fictive" },
 			{ "a" : "1", "b" : "4", "type" : "fictive" },
 			{ "a" : "1", "b" : "5", "type" : "fictive" },
-			{ "a" : "1", "b" : "7", "type" : "fictive" }
+			{ "a" : "1", "b" : "7", "type" : "fictive" },
+			{ "a" : "3", "b" : "5", "type" : "fictive" }
 		]
 	}
 }

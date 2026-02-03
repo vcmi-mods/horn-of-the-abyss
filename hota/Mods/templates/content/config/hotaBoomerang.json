@@ -1,7 +1,7 @@
 {
 	"[HotA] Boomerang" : {
 		"description" : "The L+U template consisting of a large number of zones with default contents and several rich central treasure zones (Relic generation is possible).",
-		"minSize" : "l+u", 
+		"minSize" : "l+u",
 		"maxSize" : "l+u",
 		"players" : "2-8",
 		"settings" : {
@@ -284,7 +284,6 @@
 			{ "a" : "8", "b" : "15", "guard" : 3000, "road" : "true" },
 			{ "a" : "8", "b" : "17", "guard" : 12500, "road" : "true" },
 			{ "a" : "8", "b" : "18", "guard" : 12500, "road" : "true" }
-			
 		]
 	}
 }

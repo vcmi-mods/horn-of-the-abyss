@@ -2,7 +2,7 @@
 	"[HotA] Jebus Cross":
 	{
 		"description" : "L/XL-U template, not most-balanced, but one of the most popular overall, due to its simple layout and fast pace. Every player starts on a big, poorly guarded and rich zone. From the starting zone they try to enter the extra-rich central zone defeating a strong guard as early as possible.",
-		"minSize" : "l", 
+		"minSize" : "l",
 		"maxSize" : "xl",
 		"players" : "2-4",
 		"settings" : {
@@ -16,10 +16,10 @@
 			{
 				"type" : "treasure",
 				"size" : 40,
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"castles" : 2
 				},
-				"terrainTypes" : [ "sand" ], 
+				"terrainTypes" : [ "sand" ],
 				"matchTerrainToTown" : false,
 				"monsters" : "strong",
 				"mines" : {
@@ -70,13 +70,13 @@
 			"2":
 			{
 				"type" : "playerStart",
-				"size" : 30, 
+				"size" : 30,
 				"owner" : 1,
 				"monsters" : "weak",
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 2
 				},
 				"matchTerrainToTown" : true,
@@ -136,10 +136,10 @@
 			},
 			"3":
 			{
-				"type" : "playerStart", 
-				"size" : 30, 
+				"type" : "playerStart",
+				"size" : 30,
 				"owner" : 2,
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
 				"neutralTowns" : {
@@ -152,13 +152,13 @@
 			},
 			"4":
 			{
-				"type" : "playerStart", 
-				"size" : 30, 
+				"type" : "playerStart",
+				"size" : 30,
 				"owner" : 3,
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 2
 				},
 				"monsters" : "weak",
@@ -169,12 +169,12 @@
 			"5":
 			{
 				"type" : "playerStart",
-				"size" : 30, 
+				"size" : 30,
 				"owner" : 4,
-				"playerTowns" : { 
+				"playerTowns" : {
 					"castles" : 1
 				},
-				"neutralTowns" : { 
+				"neutralTowns" : {
 					"towns" : 2
 				},
 				"monsters" : "weak",
@@ -185,10 +185,10 @@
 		},
 		"connections" :
 		[
-			{ "a" : "2", "b" : "1", "guard" : 45000 },
-			{ "a" : "3", "b" : "1", "guard" : 45000 },
-			{ "a" : "4", "b" : "1", "guard" : 45000 },
-			{ "a" : "5", "b" : "1", "guard" : 45000 }
+			{ "a" : "1", "b" : "2", "guard" : 45000 },
+			{ "a" : "1", "b" : "3", "guard" : 45000 },
+			{ "a" : "1", "b" : "4", "guard" : 45000 },
+			{ "a" : "1", "b" : "5", "guard" : 45000 }
 		]
 	}
 }

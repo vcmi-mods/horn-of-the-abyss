@@ -1,7 +1,7 @@
 {
 	"[HotA] Apocalypse" : {
 		"description" : "Quite poor treasure-wise template, where the players start in underground level, and the surface consists of two large sand zones, separated by AI zones. In-zone guards are enhanced. There are no treasure zones whatsoever, but all zones have higher frequency of valuable objects. The template shows 3 sand zones per player, but, as they are connected with wide connections, 6 zones effectively turn into 2.",
-		"minSize" : "l+u", 
+		"minSize" : "l+u",
 		"maxSize" : "l+u",
 		"players" : "2-8",
 		"bannedHeroes": [
@@ -299,13 +299,18 @@
 		},
 		"connections" :
 		[
-			{ "a" : "1", "b" : "2", "type" : "wide", "road" : "true" },
-			{ "a" : "1", "b" : "3", "type" : "wide", "road" : "true" },
-			{ "a" : "2", "b" : "3", "type" : "wide", "road" : "true" },
-			{ "a" : "4", "b" : "5", "type" : "wide", "road" : "true" },
-			{ "a" : "4", "b" : "6", "type" : "wide", "road" : "true" },
-			{ "a" : "5", "b" : "6", "type" : "wide", "road" : "true" },
-			{ "a" : "5", "b" : "6", "type" : "wide", "road" : "true" },
+			{ "a" : "1", "b" : "2", "type" : "wide" },
+			{ "a" : "1", "b" : "2", "guard" : 0, "road" : "true" },
+			{ "a" : "1", "b" : "3", "type" : "wide" },
+			{ "a" : "1", "b" : "3", "guard" : 0, "road" : "true" },
+			{ "a" : "2", "b" : "3", "type" : "wide" },
+			{ "a" : "2", "b" : "3", "guard" : 0, "road" : "true" },
+			{ "a" : "4", "b" : "5", "type" : "wide" },
+			{ "a" : "4", "b" : "5", "guard" : 0, "road" : "true" },
+			{ "a" : "4", "b" : "6", "type" : "wide" },
+			{ "a" : "4", "b" : "6", "guard" : 0, "road" : "true" },
+			{ "a" : "5", "b" : "6", "type" : "wide" },
+			{ "a" : "5", "b" : "6", "guard" : 0, "road" : "true" },
 			{ "a" : "7", "b" : "1", "guard" : 3000, "road" : "true" },
 			{ "a" : "7", "b" : "2", "guard" : 3000, "road" : "true" },
 			{ "a" : "7", "b" : "3", "guard" : 3000, "road" : "true" },

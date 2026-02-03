@@ -980,14 +980,13 @@
 			}
 		},
 		"connections" : [
-			{ "a" : "1", "b" : "6", "guard" : 2000, "road" : "true" },
 			{ "a" : "1", "b" : "7", "guard" : 4000, "road" : "true" },
 			{ "a" : "2", "b" : "3", "guard" : 12500, "road" : "true" },
 			{ "a" : "2", "b" : "5", "guard" : 12500, "road" : "true" },
 			{ "a" : "2", "b" : "6", "guard" : 12500, "road" : "true" },
 			{ "a" : "2", "b" : "7", "guard" : 12500, "road" : "true" },
-			{ "a" : "3", "b" : "7", "guard" : 12500, "road" : "true" },
 			{ "a" : "3", "b" : "4", "guard" : 4000, "road" : "true" },
+			{ "a" : "3", "b" : "7", "guard" : 12500, "road" : "true" },
 			{ "a" : "4", "b" : "5", "guard" : 2000, "road" : "true" }
 		]
 	}
