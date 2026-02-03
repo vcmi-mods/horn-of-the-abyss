@@ -571,7 +571,8 @@
 		"translations" : [
 			"config/translation/hota/czech/game.json",
 			"config/translation/hota/czech/campaigns.json",
-			"config/translation/hota/czech/maps.json"
+			"config/translation/hota/czech/maps.json",
+			"config/translation/hota/czech/custommaps.json"
 		]
 	},
 	"german" : {
