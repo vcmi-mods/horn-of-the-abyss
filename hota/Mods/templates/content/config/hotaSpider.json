@@ -1,7 +1,7 @@
 {
 	"[HotA] Spider" : {
 		"description" : "Not very rich XL+U template. The town number here is above usual, connections are poorly guarded. The players are expected to base their gameplan on exploration and spell research. Treasure zones are quite valuable (no Relics though), but roadless and heavily guarded.\nCan be played on H+U in VCMI as well.",
-		"minSize" : "xl+u", 
+		"minSize" : "xl+u",
 		"maxSize" : "h+u",
 		"players" : "2-8",
 		"settings" : {
@@ -388,10 +388,10 @@
 			{ "a" : "12", "b" : "20", "guard" : 12500 },
 			{ "a" : "13", "b" : "24", "guard" : 12500 },
 			{ "a" : "13", "b" : "24", "guard" : 12500 },
-			{ "a" : "15", "b" : "23", "guard" : 12500 },
-			{ "a" : "15", "b" : "23", "guard" : 12500 },
 			{ "a" : "14", "b" : "21", "guard" : 12500 },
 			{ "a" : "14", "b" : "21", "guard" : 12500 },
+			{ "a" : "15", "b" : "23", "guard" : 12500 },
+			{ "a" : "15", "b" : "23", "guard" : 12500 },
 			{ "a" : "16", "b" : "22", "guard" : 12500 },
 			{ "a" : "16", "b" : "22", "guard" : 12500 }
 		]
