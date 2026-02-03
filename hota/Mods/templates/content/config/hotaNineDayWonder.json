@@ -1,7 +1,6 @@
 {
 	// Currently not implemented in VCMI:
 	// Zones 1 and 4 should allow dwellings lvl 1
-	// Disable Seer's Hut quests
 	"[HotA] Nine-day Wonder" :
 	{
 		"description" : "M-size template designed to use with 200% difficulty. Special object generation settings are used. The players are able to enter the grass zone with poor treasures and the dirt zone with Dragon Fly Hives and Wolf Raider Pickets. From these zones they may access the lava treasure.",
@@ -81,7 +80,7 @@
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"dwelling"
+						"dwelling", "questArtifact", "seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -313,7 +312,7 @@
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"dwelling"
+						"dwelling", "questArtifact", "seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -541,6 +540,7 @@
 				],
 				"customObjects" : {
 					"bannedCategories" : [
+						"questArtifact", "seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -768,6 +768,7 @@
 				],
 				"customObjects" : {
 					"bannedCategories" : [
+						"questArtifact", "seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -980,6 +981,7 @@
 			}
 		},
 		"connections" : [
+			{ "a" : "1", "b" : "6", "guard" : 2000, "road" : "true" },
 			{ "a" : "1", "b" : "7", "guard" : 4000, "road" : "true" },
 			{ "a" : "2", "b" : "3", "guard" : 12500, "road" : "true" },
 			{ "a" : "2", "b" : "5", "guard" : 12500, "road" : "true" },
