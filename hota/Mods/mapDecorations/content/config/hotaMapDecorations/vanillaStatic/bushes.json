@@ -1,4 +1,5 @@
 {
+	// everything in here is already defined in core. intention??
 	"hotaBushes" : {
 		"name" : "Bush",
 		"handler" : "static",
@@ -14,6 +15,7 @@
 							"swamp"
 						]
 					},
+
 					"AVLsh2d0" : {
 						"animation" : "AVLsh2d0",
 						"mask" : [
@@ -50,6 +52,7 @@
 							"dirt"
 						]
 					},
+
 					"AVLsh3g0" : {
 						"animation" : "AVLsh3g0",
 						"mask" : [

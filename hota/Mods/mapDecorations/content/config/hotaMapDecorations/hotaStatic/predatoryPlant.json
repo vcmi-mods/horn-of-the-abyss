@@ -9,7 +9,7 @@
 						"animation" : "hota/trees/TPMTREE1",
 						"mask" : [
 							"VV",
-							"BB",
+							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [
@@ -20,7 +20,7 @@
 						"animation" : "hota/trees/TPMTREE2",
 						"mask" : [
 							"VV",
-							"VB",
+							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [
@@ -31,7 +31,7 @@
 						"animation" : "hota/trees/TPMTREE3",
 						"mask" : [
 							"VV",
-							"VB",
+							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [

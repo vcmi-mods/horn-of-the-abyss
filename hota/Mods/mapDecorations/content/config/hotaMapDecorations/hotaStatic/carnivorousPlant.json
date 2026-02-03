@@ -8,7 +8,7 @@
 					"avswplnt" : {
 						"animation" : "hota/carnivorousPlant/avswplnt",
 						"mask" : [
-							"VBB",
+							"VVV",
 							"VBB"
 						],
 						"allowedTerrains" : [

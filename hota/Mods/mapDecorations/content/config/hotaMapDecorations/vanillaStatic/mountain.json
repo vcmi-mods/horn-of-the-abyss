@@ -49,21 +49,21 @@
 							"grass"
 						]
 					},
-					"grsmnt05" : {
-						"animation" : "hota/mountains/grsmnt05",
-						"mask" : [
-							"VBBV",
-							"VVBB"
-						],
-						"allowedTerrains" : [
-							"grass"
-						]
-					},
 					"grsmnt04" : {
 						"animation" : "hota/mountains/grsmnt04",
 						"mask" : [
 							"VVBB",
 							"VBBV"
+						],
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"grsmnt05" : {
+						"animation" : "hota/mountains/grsmnt05",
+						"mask" : [
+							"VBBV",
+							"VVBB"
 						],
 						"allowedTerrains" : [
 							"grass"
@@ -138,6 +138,7 @@
 							"swamp"
 						]
 					},
+
 					"AvLMtFr1" : {
 						"animation" : "hota/mountains/AvLMtFr1",
 						"mask" : [

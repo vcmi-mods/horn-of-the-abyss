@@ -9,7 +9,7 @@
 						"animation" : "hota/waterfall/h4wt1f",
 						"mask" : [
 							"VV",
-							"VB"
+							"BB"
 						],
 						"allowedTerrains" : [
 							"water"
@@ -19,7 +19,7 @@
 						"animation" : "hota/waterfall/h4wt2f",
 						"mask" : [
 							"VVV",
-							"VBV",
+							"VVV",
 							"VBB"
 						],
 						"allowedTerrains" : [

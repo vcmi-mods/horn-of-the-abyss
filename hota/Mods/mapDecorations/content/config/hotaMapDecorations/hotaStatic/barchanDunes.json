@@ -8,8 +8,8 @@
 					"hotaAVLmtdn1" : {
 						"animation" : "hota/dunes/AVLmtdn1",
 						"mask" : [
-							"VVBBBV",
-							"VBBBBB",
+							"VVVVVV",
+							"VBBBBV",
 							"VBBBBB",
 							"VVVBBB"
 						],
@@ -20,8 +20,8 @@
 					"hotaAVLmtdn2" : {
 						"animation" : "hota/dunes/AVLmtdn2",
 						"mask" : [
-							"VVBBBV",
-							"VBBBBB",
+							"VVVVVV",
+							"VVBBBB",
 							"VBBBBB",
 							"VBBBVV"
 						],
@@ -32,7 +32,7 @@
 					"hotaAVLmtdn3" : {
 						"animation" : "hota/dunes/AVLmtdn3",
 						"mask" : [
-							"VBBV",
+							"VVVV",
 							"VBBB",
 							"VVBB"
 						],
@@ -43,7 +43,7 @@
 					"hotaAVLmtdn4" : {
 						"animation" : "hota/dunes/AVLmtdn4",
 						"mask" : [
-							"VVBB",
+							"VVVV",
 							"VBBB",
 							"VBBV"
 						],

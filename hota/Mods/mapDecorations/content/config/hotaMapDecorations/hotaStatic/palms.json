@@ -39,6 +39,7 @@
 							"swamp"
 						]
 					},
+					
 					"avlspl01" : {
 						"animation" : "hota/trees/avlspl01",
 						"mask" : [
@@ -49,7 +50,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl02" : {
 						"animation" : "hota/trees/avlspl02",
 						"mask" : [
@@ -60,18 +60,16 @@
 							"sand"
 						]
 					},
-
 					"avlspl03" : {
 						"animation" : "hota/trees/avlspl03",
 						"mask" : [
-							"VB",
+							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [
 							"sand"
 						]
 					},
-
 					"avlspl04" : {
 						"animation" : "hota/trees/avlspl04",
 						"mask" : [
@@ -82,7 +80,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl05" : {
 						"animation" : "hota/trees/avlspl05",
 						"mask" : [
@@ -93,7 +90,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl06" : {
 						"animation" : "hota/trees/avlspl06",
 						"mask" : [
@@ -104,7 +100,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl07" : {
 						"animation" : "hota/trees/avlspl07",
 						"mask" : [
@@ -115,7 +110,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl08" : {
 						"animation" : "hota/trees/avlspl08",
 						"mask" : [
@@ -126,19 +120,28 @@
 							"sand"
 						]
 					},
-
 					"avlspl09" : {
 						"animation" : "hota/trees/avlspl09",
 						"mask" : [
 							"VVVV",
-							"VBBB",
+							"VVBB",
 							"VBBV"
 						],
 						"allowedTerrains" : [
 							"sand"
 						]
 					},
-
+					"avlspl10" : {
+						"animation" : "hota/trees/avlspl10",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
+						],
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
 					"avlspl11" : {
 						"animation" : "hota/trees/avlspl11",
 						"mask" : [
@@ -150,19 +153,6 @@
 							"sand"
 						]
 					},
-
-					"avlspl10" : {
-						"animation" : "hota/trees/avlspl10",
-						"mask" : [
-							"VBBV",
-							"VBBV",
-							"VVBB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
-					},
-
 					"avlspl12" : {
 						"animation" : "hota/trees/avlspl12",
 						"mask" : [
@@ -174,7 +164,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl13" : {
 						"animation" : "hota/trees/avlspl13",
 						"mask" : [
@@ -187,7 +176,6 @@
 							"sand"
 						]
 					},
-
 					"avlspl14" : {
 						"animation" : "hota/trees/avlspl14",
 						"mask" : [

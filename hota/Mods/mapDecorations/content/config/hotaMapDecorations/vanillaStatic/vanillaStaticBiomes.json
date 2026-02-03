@@ -239,7 +239,8 @@
 			"avlrfx05",
 			"avlrfx06",
 			"avlrfx07",
-			"avlrfx08"
+			"avlrfx08",
+			"WATERBALL"
 		]
 	},
 	"core:templateSet109" : {
@@ -252,7 +253,7 @@
 			"append" : "avlsh9x0"
 		}
 	},
-	"yellowSwampPlant" : {
+	"predatoryPlants" : {
 		"biome" : {
 			"terrain" : "swamp",
 			"objectType" : "plant"
@@ -284,9 +285,37 @@
 			"avltro13"
 		]
 	},
+	"core:templateSet100" : {
+		"templates" : {
+			"append" : "swddtree"
+		}
+	},
 	"core:volcanos" : {
 		"templates" : {
 			"append" : "AVLvol60"
+		}
+	},
+	"core:templateSet108" : {
+		"templates" : {
+			"appendItems" : [
+				"AVLrk5s0",
+				"AVLrk6s0"
+			]
+		}
+	},
+	"core:templateSet54" : {
+		"templates" : {
+			"append" : "AVLlogdrt1"
+		}
+	},
+	"core:dirtStumps" : {
+		"templates" : {
+			"append" : "AVLlogdrt1"
+		}
+	},
+	"core:roughStumps" : {
+		"templates" : {
+			"append" : "AVLlogdrt1"
 		}
 	}
 }
