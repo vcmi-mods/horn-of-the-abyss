@@ -27,8 +27,12 @@
 		],
 		"skills" : [
 			{
-				"skill" : "archery",
-				"level" : "advanced"
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
 			}
 		],
 		"specialty" : {
