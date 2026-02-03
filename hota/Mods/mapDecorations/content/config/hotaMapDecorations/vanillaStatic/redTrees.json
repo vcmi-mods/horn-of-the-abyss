@@ -14,7 +14,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -27,7 +26,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -40,7 +38,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -53,7 +50,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -66,7 +62,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -79,7 +74,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -92,7 +86,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -105,7 +98,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -120,7 +112,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -135,7 +126,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -143,13 +133,12 @@
 						"animation" : "hota/trees/Avrdtr03",
 						"mask" : [
 							"VVVV",
-							"VBBB",
+							"VVBB",
 							"VBBV"
 						],
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -157,13 +146,12 @@
 						"animation" : "hota/trees/Avrdtr04",
 						"mask" : [
 							"VVVV",
-							"VBBB",
+							"VVBB",
 							"VBBV"
 						],
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -177,7 +165,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					},
@@ -191,7 +178,6 @@
 						"allowedTerrains" : [
 							"rough",
 							"grass",
-							"swamp",
 							"dirt"
 						]
 					}

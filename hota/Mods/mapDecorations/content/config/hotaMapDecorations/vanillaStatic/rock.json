@@ -48,7 +48,7 @@
 					"avlrfx05" : {
 						"animation" : "hota/rock/avlrfx05",
 						"mask" : [
-							"VBV",
+							"VVV",
 							"BBB"
 						],
 						"allowedTerrains" : [
@@ -58,7 +58,7 @@
 					"avlrfx06" : {
 						"animation" : "hota/rock/avlrfx06",
 						"mask" : [
-							"VB",
+							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [
@@ -68,10 +68,10 @@
 					"avlrfx07" : {
 						"animation" : "hota/rock/avlrfx07",
 						"mask" : [
-							"VVVVV",
-							"VBBVV",
-							"VBBBV",
-							"VVBBV"
+							"VVVV",
+							"VVVV",
+							"VBBV",
+							"VVBB"
 						],
 						"allowedTerrains" : [
 							"water"
@@ -80,10 +80,10 @@
 					"avlrfx08" : {
 						"animation" : "hota/rock/avlrfx08",
 						"mask" : [
-							"VVVVV",
-							"VVBBV",
-							"VBBBV",
-							"VBBVV"
+							"VVVV",
+							"VVVV",
+							"VVBB",
+							"VBBV"
 						],
 						"allowedTerrains" : [
 							"water"
