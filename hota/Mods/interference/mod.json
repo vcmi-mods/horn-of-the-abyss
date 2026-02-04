@@ -34,6 +34,9 @@
 	"skills" : [
 		"config/hotaInterference/interference"
 	],
+	"objects" : [
+		"config/hotaInterference/hermitsShack"
+	],
 	"polish" : {
 		"name" : "Umiejętność Interferencja",
 		"description" : "Mod dodaje nową umiejętność – Interferencję, nową bohaterkę Giselle ze specjalizacją w tej umiejętności oraz zmienia bohaterów z odpornością na czary, by korzystali z Interferencji"
