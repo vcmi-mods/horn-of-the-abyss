@@ -1,0 +1,29 @@
+{
+	"hota.highlandsterrain:hermitsShack" : {
+		"types" : {
+			"hermitsShack" : {
+				"rewards" : {
+					"append" : 	{
+						"limiter" : {
+							"noneOf" : [
+								{
+									"secondary" :
+										{
+											"runes" : 3
+										}
+								}
+							],
+							"secondary" : {
+								"runes" : 1
+							}
+						},
+						"secondary" : {
+							"runes" : 1
+						},
+						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+					}
+				}
+			}
+		}
+	}
+}
