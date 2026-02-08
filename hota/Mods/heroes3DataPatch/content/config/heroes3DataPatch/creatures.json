@@ -1,6 +1,42 @@
 {
-	"core:goldGolem" : {
-		// Suport for alternate Death sound (GGLMDETH.wav) not present in VCMI
-		// "kill2" : "GGLMDETH.wav"
+//	"core:goldGolem" : {
+//		// Support for alternate Death sound (GGLMDETH.wav) not present in VCMI
+//		// "kill2" : "GGLMDETH.wav"
+//	},
+	"core:archangel" : {
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 0.5
+			}
+		}
+	},
+	"core:masterGenie" : {
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 0.8
+			}
+		}
+	},
+	"core:pitLord" : {
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 2.0
+			}
+		}
+	},
+	"core:stormElemental" : {
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 0.75,
+				"walk" : 0.77
+			}
+		}
+	},
+	"core:fairieDragon" : {
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1.25
+			}
+		}
 	}
 }
