@@ -66,7 +66,7 @@
 			"mapAttackFromRight" : "hota/creatures/AVWattak/AvWat336",
 			"mapAttackFromLeft" : "hota/creatures/AVWattak/AvWat337",
 			"animationTime" : {
-				"walk" : 1.2,
+				"walk" : 1.15,
 				"idle" : 10.0,
 				"attack" : 1
 			}

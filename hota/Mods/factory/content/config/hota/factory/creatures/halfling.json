@@ -12,6 +12,17 @@
 				"VVV",
 				"VAV"
 			],
+			"animationTime" : {
+				"walk" : 1.4,
+				"attack" : 1.5,
+				"idle" : 10
+			},
+			"missile" : {
+				"offset" : {
+					"middleX" : 36,
+					"middleY" : -36
+				}
+			},
 			"iconSmall" : "hota/factory/creatures/iconsSmall/CPrS001F.png",
 			"iconLarge" : "hota/factory/creatures/iconsLarge/CPrL001F.png"
 		},

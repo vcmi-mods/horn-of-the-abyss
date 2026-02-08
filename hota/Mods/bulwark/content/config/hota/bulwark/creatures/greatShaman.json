@@ -50,7 +50,7 @@
 				"val" : 20,
 				"addInfo" : [0, 1],
 				"description" : "{Freezing Shot}\n20% to freeze enemies after ranged attack.",
-				"icon" : "hota/bulwark/bonuses/freezingShot.png"  
+				"icon" : "hota/bulwark/bonuses/freezingShot.png"
 			}
 		},
 		"graphics" : {
@@ -72,7 +72,7 @@
 			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/greatShamanLeft.png",
 			"missile" : {
 				"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAM.def",
-				"attackClimaxFrame" : 5,
+				"attackClimaxFrame" : 6,
 				"frameAngles" : [
 					90,
 					72,
@@ -85,12 +85,12 @@
 					-90
 				],
 				"offset" : {
-					"lowerX" : 28,
-					"lowerY" : 3,
-					"middleX" : 62,
-					"middleY" : -53,
-					"upperX" : 37,
-					"upperY" : -98
+					"upperX" : 40,
+					"upperY" : -57,
+					"middleX" : 45,
+					"middleY" : -50,
+					"lowerX" : 25,
+					"lowerY" : -20
 				}
 			}
 		},

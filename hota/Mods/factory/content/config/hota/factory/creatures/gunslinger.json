@@ -38,15 +38,15 @@
 				"idle" : 10
 			},
 			"missile" : {
-				"projectile" : "PHALF.DEF",
-				"attackClimaxFrame" : 10,
+				"projectile" : "hota/creatures/battle/projectiles/PPIRATE.def",
+				"attackClimaxFrame" : 6,
 				"offset" : {
 					"upperX" : 38,
-					"upperY" : -65,
-					"middleX" : 36,
-					"middleY" : -59,
-					"lowerX" : 21,
-					"lowerY" : -50
+					"upperY" : -99,
+					"middleX" : 60,
+					"middleY" : -78,
+					"lowerX" : 30,
+					"lowerY" : -58
 				},
 				"frameAngles" : [
 					90,
@@ -57,10 +57,7 @@
 					-27,
 					-45,
 					-72,
-					-90,
-					0,
-					0,
-					0
+					-90
 				]
 			}
 		},

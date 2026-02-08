@@ -68,12 +68,12 @@
 					-90
 				],
 				"offset" : {
-					"lowerX" : 28,
-					"lowerY" : 3,
-					"middleX" : 62,
-					"middleY" : -53,
-					"upperX" : 37,
-					"upperY" : -98
+					"upperX" : 30,
+					"upperY" : -60,
+					"middleX" : 45,
+					"middleY" : -50,
+					"lowerX" : 20,
+					"lowerY" : -20
 				}
 			}
 		},
