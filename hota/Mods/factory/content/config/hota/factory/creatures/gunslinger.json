@@ -38,7 +38,7 @@
 				"idle" : 10
 			},
 			"missile" : {
-				"projectile" : "PHALF.DEF",
+				"projectile" : "hota/creatures/battle/projectiles/PPIRATE.def",
 				"attackClimaxFrame" : 6,
 				"offset" : {
 					"upperX" : 38,

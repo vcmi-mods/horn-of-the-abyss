@@ -66,7 +66,7 @@
 			"mapAttackFromRight" : "hota/cove/creatures/AVWattak/AvWat302",
 			"mapAttackFromLeft" : "hota/cove/creatures/AVWattak/AvWat303",
 			"missile" : {
-				"projectile" : "hota/cove/creatures/battle/projectile/PPIRATE.def",
+				"projectile" : "hota/creatures/battle/projectiles/PPIRATE.def",
 				"attackClimaxFrame" : 6,
 				"frameAngles" : [
 					90,
