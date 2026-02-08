@@ -27,18 +27,18 @@
 			"animationTime" : {
 				"walk" : 1.0,
 				"idle" : 10.0,
-				"attack" : 1.0
+				"attack" : 0.5
 			},
 			"missile" : {
 				"projectile" : "hota/battle/SMCANX.def",
 				"attackClimaxFrame" : 4,
 				"offset" : {
-					"lowerX" : 62,
-					"lowerY" : -93,
-					"middleX" : 62,
-					"middleY" : -93,
-					"upperX" : 62,
-					"upperY" : -93
+					"upperX" : 44,
+					"upperY" : -63,
+					"middleX" : 79,
+					"middleY" : -55,
+					"lowerX" : 27,
+					"lowerY" : -46
 				},
 				"frameAngles" : [
 					90,
@@ -49,10 +49,7 @@
 					-27,
 					-45,
 					-72,
-					-90,
-					0,
-					0,
-					0
+					-90
 				]
 			}
 		},
