@@ -74,6 +74,9 @@
 				"extraCityHall" : {
 					"x" : 486,
 					"y" : 203
+				},
+				"dwellingUpLvl7" : {
+					"x" : 43
 				}
 			}
 		}
