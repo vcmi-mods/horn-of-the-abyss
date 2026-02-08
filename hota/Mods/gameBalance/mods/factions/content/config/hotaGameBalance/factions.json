@@ -4,23 +4,16 @@
 			"buildings" : {
 				"special2" : {
 					"configuration" : {
-						"rewards" : [
-							{
-								"bonuses" : [
-									{
-										"duration" : "ONE_WEEK",
-										"stacking" : "stables",
-										"subtype" : "heroMovementLand",
-										"type" : "MOVEMENT",
+						"rewards" : {
+							"modify@1" : {
+								"bonuses" : {
+									"modify@1" : {
 										"val" : 300,
-										"valueType" : "ADDITIVE_VALUE"
 									}
-								],
-								"message" : "@core.genrltxt.580",
+								},
 								"movePoints" : 300
 							}
-						],
-						"visitMode" : "bonus"
+						}
 					}
 				}
 			}
@@ -29,37 +22,6 @@
 	"core:tower" : {
 		"town" : {
 			"buildings" : {
-				"dwellingLvl5" : {
-					"requires" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"dwellingLvl1"
-						],
-						[
-							"dwellingLvl2"
-						],
-						[
-							"dwellingLvl3"
-						]
-					],
-					"cost" : {
-						"gold" : 2500
-					}
-				},
-				"dwellingLvl6" : {
-					"requires" : [
-						"dwellingLvl5"
-					]
-				},
-				"dwellingUpLvl5" : {
-					"upgrades" : "dwellingLvl5",
-					"requires" : [
-						"mageGuild1"
-					]
-				},
 				"dwellingLvl3" : {
 					"cost" : {
 						"gold" : 1500
@@ -75,7 +37,34 @@
 						"gold" : 2000
 					}
 				},
+				"dwellingLvl5" : {
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"dwellingLvl3"
+						]
+					],
+					"cost" : {
+						"gold" : 2500
+					}
+				},
+				"dwellingUpLvl5" : {
+					"requires" : [
+						"mageGuild1"
+					]
+				},
+				"dwellingLvl6" : {
+					"requires" : [
+						"dwellingLvl5"
+					]
+				},
 				"dwellingUpLvl7" : {
+					"requires" : [
+						"dwellingLvl6"
+					],
 					"cost" : {
 						"gold" : 20000
 					}
@@ -112,34 +101,21 @@
 	"core:necropolis" : {
 		"town" : {
 			"buildings" : {
+				"dwellingUpLvl3" : {
+					"cost" : {
+						"mercury" : 4
+					}
+				},
 				"dwellingLvl5" : {
 					"cost" : {
 						"sulfur" : 4,
 						"ore" : 5
 					}
 				},
-
-				"dwellingUpLvl3" : {
-					"cost" : {
-						"mercury" : 4
-					}
-				},
-
 				"dwellingUpLvl5" : {
 					"cost" : {
 						"sulfur" : 4
 					}
-				},
-
-				"special2" : {
-					"description" : "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 5%.",
-					"bonuses" : [
-						{
-							"type" : "UNDEAD_RAISE_PERCENTAGE",
-							"val" : 5,
-							"propagator" : "PLAYER"
-						}
-					]
 				}
 			}
 		}
