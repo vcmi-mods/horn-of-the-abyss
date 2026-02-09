@@ -1,0 +1,17 @@
+{
+	"core:witchHut" : {
+		"types" : {
+			"witchHut" : {
+				"variables" : {
+					"secondarySkill" : {
+						"gainedSkill" : {
+							"noneOf" : {
+								"append" : "runes"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"hota.mapobjects:seafaringAcademy" : {
+		"types" : {
+			"seafaringAcademy" : {
+				"offer" : {
+					"modify@2" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					},
+					"modify@3" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					}
+				}
+			}
+		}
+	}
+}

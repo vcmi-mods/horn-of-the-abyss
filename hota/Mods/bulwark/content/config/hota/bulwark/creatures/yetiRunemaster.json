@@ -33,249 +33,31 @@
 				"icon" : "hota/bulwark/bonuses/yetiCure",
 				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
 			},
-			// TODO: Runemaster (has Expert Runes. if hero also has runes secondary, values are doubled)
 			"runeMaster" : {
-				"type" : "YETI_RUNE_LEVEL_COUNTER",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
+				"type" : "NONE",
 				"icon" : "hota/bulwark/bonuses/runeMaster",
 				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\nShould the hero have mastered the lore of the Runes as well, the bonuses are doubled."
 			},
-			"runeLevelCap" : {
-				"type" : "YETI_RUNE_LEVEL_COUNTER",
-				"val" : 9,
-				"valueType" : "INDEPENDENT_MIN"
-			},
-			"runesBonusAttackTier1" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 2,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 1,
-							"bonusMaxValue" : 3
-						}
-					]
-				},
-				"runesBonusAttackTier2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 4,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 4,
-							"bonusMaxValue" : 6
-						}
-					]
-				},
-				"runesBonusAttackTier3" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "attack",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 6,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 7,
-							"bonusMaxValue" : 9
-						}
-					]
-				},
-				"runesBonusDefenseTier1" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 2,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 2,
-							"bonusMaxValue" : 4
-						}
-					]
-				},
-				"runesBonusDefenseTier2" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 4,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 5,
-							"bonusMaxValue" : 7
-						}
-					]
-				},
-				"runesBonusDefenseTier3" : {
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "defence",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 6,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 8,
-							"bonusMaxValue" : 9
-						}
-					]
-				},
-				"runesBonusSpeedTier1" : {
-					"type" : "STACKS_SPEED",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 1,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 3,
-							"bonusMaxValue" : 5
-						}
-					]
-				},
-				"runesBonusSpeedTier2" : {
-					"type" : "STACKS_SPEED",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 2,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 6,
-							"bonusMaxValue" : 8
-						}
-					]
-				},
-				"runesBonusSpeedTier3" : {
-					"type" : "STACKS_SPEED",
-					"propagator" : "BATTLE_WIDE",
-					"valueType" : "ADDITIVE_VALUE",
-					"val" : 3,
-					"limiters" : [
-						[
-							"noneOf",
-							"OPPOSITE_SIDE"
-						],
-						"CREATURES_ONLY",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 9
-						}
-					]
-				},
-				"combatAttackRuneLevels" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventAfterAttack",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "YETI_RUNE_LEVEL_COUNTER",
-									"val" : 1,
-									"valueType" : "ADDITIVE_VALUE",
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				},
-				"combatAttackedRuneLevels" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventAfterAttacked",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "YETI_RUNE_LEVEL_COUNTER",
-									"val" : 2,
-									"valueType" : "ADDITIVE_VALUE",
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				},
-				"combatDefendRuneLevels" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventDefend",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "YETI_RUNE_LEVEL_COUNTER",
-									"val" : 3,
-									"valueType" : "ADDITIVE_VALUE",
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				}
+
+			// runes functionality
+			"yetiRunesBonusAttackTier1" : {"type" : "PRIMARY_SKILL", "subtype" : "attack", "val" : 2, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 1, "bonusMaxValue" : 3 }},
+			"yetiRunesBonusAttackTier2" : {"type" : "PRIMARY_SKILL", "subtype" : "attack", "val" : 4, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 4, "bonusMaxValue" : 6 }},
+			"yetiRunesBonusAttackTier3" : {"type" : "PRIMARY_SKILL", "subtype" : "attack", "val" : 6, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 7, "bonusMaxValue" : 9 }},
+
+			"yetiRunesBonusDefenseTier1" : {"type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 2, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 2, "bonusMaxValue" : 4 }},
+			"yetiRunesBonusDefenseTier2" : {"type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 4, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 5, "bonusMaxValue" : 7 }},
+			"yetiRunesBonusDefenseTier3" : {"type" : "PRIMARY_SKILL", "subtype" : "defence", "val" : 6, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 8, "bonusMaxValue" : 9 }},
+
+			"yetiRunesBonusSpeedTier1" : {"type" : "STACKS_SPEED", "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 3, "bonusMaxValue" : 5 }},
+			"yetiRunesBonusSpeedTier2" : {"type" : "STACKS_SPEED", "val" : 2, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 6, "bonusMaxValue" : 8 }},
+			"yetiRunesBonusSpeedTier3" : {"type" : "STACKS_SPEED", "val" : 3, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 9, "bonusMaxValue" : 9 }},
+
+			"yetiCombatAttackRuneLevels1" :   { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventAfterAttack",   "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 9 } ] },
+			"yetiCombatAttackedRuneLevels1" : { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventAfterAttacked", "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 8 } ] },
+			"yetiCombatAttackedRuneLevels2" : { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventAfterAttacked", "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 9 } ] },
+			"yetiCombatDefendRuneLevels1" :   { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventDefend",        "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 7 } ] },
+			"yetiCombatDefendRuneLevels2" :   { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventDefend",        "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 8 } ] },
+			"yetiCombatDefendRuneLevels3" :   { "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventDefend",        "addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "YETI_RUNE_LEVEL_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] }, "limiters" : [ "noneOf", { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "YETI_RUNE_LEVEL_COUNTER", "bonusMinValue" : 9 } ] },
 		},
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",

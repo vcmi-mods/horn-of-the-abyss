@@ -1,0 +1,30 @@
+{
+	"core:university" : {
+		"types" : {
+			"object" : {
+				"offer" : {
+					"modify@1" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					},
+					"modify@2" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					},
+					"modify@3" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					},
+					"modify@4" : {
+						"noneOf" : {
+							"append" : "runes"
+						}
+					}
+				}
+			}
+		}
+	}
+}
