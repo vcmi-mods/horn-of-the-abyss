@@ -234,7 +234,9 @@
 							"val" : 1,
 							"valueType" : "ADDITIVE_VALUE",
 							"type" : "RUNE_LEVEL_COUNTER",
-							"hidden" : true
+							"limiters" : [
+								"CREATURES_ONLY"
+							]
 						},
 						{
 							"propagator" : "PLAYER",
