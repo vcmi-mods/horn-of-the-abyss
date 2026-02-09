@@ -1,12 +1,14 @@
 {
 	"name" : "Bulwark",
 	"description" : "New town Bulwark from HotA 1.8.0",
-
 	"author" : "Hota Crew, ported by VCMI Team",
-	"contact" : "insertLinkHere",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"version" : "1.0.0",
 	"modType" : "Town",
 
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
 	"depends" : [],
 	"softDepends" : [],
 
@@ -44,7 +46,7 @@
 		"config/hota/bulwark/runes/runesSkill.json"
 	],
 	"bonuses" : [
-		"config/hota/bulwark/runes/runesBonusCounter.json"
+		"config/hota/bulwark/runes/runesLevelCounter.json"
 	],
 	"spells" : [
 		"config/hota/bulwark/spells/yetiCure.json",
@@ -75,19 +77,21 @@
 		"config/hota/bulwark/dwellings.json",
 		"config/hota/bulwark/mapObjects/static/glaciers.json",
 		"config/hota/bulwark/mapObjects/mine/mines.json",
-		"config/hota/bulwark/mapObjects/interactive/hermitsShack.json",
 		"config/hota/bulwark/mapObjects/interactive/seersHut.json",
 		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
-		"config/hota/bulwark/mapObjects/interactive/witchHut.json",
 		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
-		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json"
+		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json",
+		"config/hota/bulwark/runes/mapObjects/hermitsShack.json",
+		"config/hota/bulwark/runes/mapObjects/seafaringAcademy.json",
+		"config/hota/bulwark/runes/mapObjects/university.json",
+		"config/hota/bulwark/runes/mapObjects/witchHut.json"
 	],
 	"biomes" : [
 		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
 	],
 
-    "chinese" : {
-        "name" : "坚垒",
-        "description" : "深渊号角1.8.0的新城镇坚垒"
-    }
+	"chinese" : {
+		"name" : "坚垒",
+		"description" : "深渊号角1.8.0的新城镇坚垒"
+	}
 }
