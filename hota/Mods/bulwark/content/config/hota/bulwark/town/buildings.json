@@ -37,7 +37,7 @@
 						"ore" : 20
 					},
 					"fortifications" : {
-						"wallHealth" : 3
+						"wallsHealth" : 3
 					}
 				},
 				"citadel" : {
@@ -148,7 +148,7 @@
 				},
 				"special2" : {
 					"name" : "Sieidi of Runes",
-					"description" : "The Sieidi of Runes allows local heroes to learn the Basic Runes secondary skill.\n\n{Runes secondary skill is not implemented yet and is not functioning!!!}",
+					"description" : "The Sieidi of Runes allows local heroes to learn the Basic Runes secondary skill.",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5,
@@ -185,7 +185,7 @@
 										}
 									]
 								},
-								"message" : "Do you want your hero to master the lore of the Runes?\n\n{Runes secondary skill is not implemented yet and is not functioning!!!}",
+								"message" : "Do you want your hero to master the lore of the Runes?",
 								"secondary" : [
 									{
 										"type" : "runes",
@@ -227,7 +227,29 @@
 						"crystal" : 2,
 						"gems" : 2
 					},
-					"upgrades" : "special2"
+					"upgrades" : "special2",
+					"bonuses" : [
+						{
+							"propagator" : "PLAYER",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"type" : "RUNE_LEVEL_COUNTER",
+							"hidden" : true
+						},
+						{
+							"propagator" : "PLAYER",
+							"type" : "YETI_RUNE_LEVEL_COUNTER",
+							"val" : 1,
+							"valueType" : "ADDITIVE_VALUE",
+							"limiters" : [
+								{
+									"type" : "CREATURE_TYPE_LIMITER",
+									"creature" : "yetiRunemaster",
+									"includeUpgrades" : false
+								}
+							]
+						}
+					]
 				},
 				"horde1" : {
 					"name" : "Hay Bins",
