@@ -1,34 +1,38 @@
 {
+	// castle
 	"core:monk" : {
 		"aiValue" : 582
 	},
-	"core:devil" : {
-		"abilities" : {
-			"decreaseLuck" : {
-				"description" : "{Reduces enemy luck}\nDevils reduce enemy luck by one"
-			}
+
+	// conflux
+	"core:fireElemental" : {
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
 		}
 	},
-	"core:archDevil" : {
-		"abilities" : {
-			"decreaseLuck" : {
-				"description" : "{Reduces enemy luck}\nArch Devils reduce enemy luck by two",
-				"val" : -2
-			}
+	"core:energyElemental" : {
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
 		}
-	},
-	"core:efreetSultan" : {
-		"aiValue" : 2343,
-		"fightValue" : 1802
 	},
 	"core:psychicElemental" : {
 		"cost" : {
 			"gold" : 950
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
 		}
 	},
 	"core:magicElemental" : {
 		"cost" : {
 			"gold" : 1200
+		},
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
 		}
 	},
 	"core:firebird" : {
@@ -53,26 +57,88 @@
 		"growth" : 1,
 		"cost" : {
 			"gold" : 3000
+		},
+		"advMapAmount" : {
+			"min" : 3,
+			"max" : 8
 		}
 	},
-	"core:fairieDragon" : {
-		"aiValue" : 30501
-	},
-	"core:lizardman" : {
-		"fightValue" : 137,
-		"aiValue" : 151
-	},
 
-	"core:lizardWarrior" : {
-		"fightValue" : 174,
-		"aiValue" : 209
-	},
+	// dungeon
 	"core:scorpicore" : {
 		"aiValue" : 1685
 	},
 	"core:redDragon" : {
 		"aiValue" : 5003
 	},
+
+	// fortress
+	"core:lizardman" : {
+		"fightValue" : 137,
+		"aiValue" : 151
+	},
+	"core:lizardWarrior" : {
+		"fightValue" : 174,
+		"aiValue" : 209
+	},
+	"core:serpentFly" : {
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 25
+		}
+	},
+	"core:fireDragonFly" : {
+		"advMapAmount" : {
+			"min" : 12,
+			"max" : 20
+		}
+	},
+	"core:basilisk" : {
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 20
+		}
+	},
+	"core:greaterBasilisk" : {
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		}
+	},
+	"core:gorgon" : {
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 16
+		}
+	},
+	"core:mightyGorgon" : {
+		"advMapAmount" : {
+			"min" : 8,
+			"max" : 12
+		}
+	},
+
+	// inferno
+	"core:efreetSultan" : {
+		"aiValue" : 2343,
+		"fightValue" : 1802
+	},
+	"core:devil" : {
+		"abilities" : {
+			"decreaseLuck" : {
+				"description" : "{Reduces enemy luck}\nDevils reduce enemy luck by one"
+			}
+		}
+	},
+	"core:archDevil" : {
+		"abilities" : {
+			"decreaseLuck" : {
+				"description" : "{Reduces enemy luck}\nArch Devils reduce enemy luck by two",
+				"val" : -2
+			}
+		}
+	},
+	// necropolis
 	"core:boneDragon" : {
 		"abilities" : {
 			"boneDragonSkeleton" : {
@@ -83,6 +149,7 @@
 	},
 	"core:ghostDragon" : {
 		"aiValue" : 4919,
+		"fightValue" : 3346,
 		"abilities" : {
 			"boneDragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
@@ -90,20 +157,32 @@
 			}
 		}
 	},
+
+	// rampart
+
+	// stronghold
 	"core:cyclopKing" : {
 		"aiValue" : 1544
 	},
+
+	// tower
 	"core:naga" : {
 		"aiValue" : 1814
 	},
+
+	// neutral
 	"core:sharpshooter" : {
 		"advMapAmount" : {
 			"min" : 10,
 			"max" : 16
 		}
 	},
+	"core:fairieDragon" : {
+		"aiValue" : 30501
+	},
+
+	// special
 	"core:ballista" : {
-		// maybe ai decisions factor in gold cost, idk
 		"cost" : {
 			"gold" : 1500
 		}
