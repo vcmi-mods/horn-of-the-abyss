@@ -1,0 +1,42 @@
+{
+	"core:prison" : {
+		"types" : {
+			"prison" : {
+				"templates" : {
+					"AVXprsn1" : {
+						"allowedTerrains" : []
+					}
+				}
+			},
+			"heroCamp" : {
+				"templates" : {
+					"AVXhcamp" : {
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	},
+	"core:wagon" : {
+		"types" : {
+			"wagon" : {
+				"templates" : {
+					"HATel" : {
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	},
+	"core:subterraneanGate" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"HAExit01" : {
+						"allowedTerrains" : []
+					}
+				}
+			}
+		}
+	}
+}
