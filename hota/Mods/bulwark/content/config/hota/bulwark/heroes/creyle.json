@@ -39,7 +39,7 @@
 			"biography" : "Creyle's father, the konung, refused to let her succeed him. Knowing better than to try and reason with the old grouch, she decided to find others who would accept her leadership. Creyle then went and challenged the alpha of Vori's largest mammoth herd: she wrestled him down bare-handed, snapped off his tusk and made it into a war horn. She blasts it as she leads what is now her own herd into battle.",
 			"specialty" : {
 				"name" : "Mammoths",
-				"description" : "Increases the Speed of allied Mammoths and War Mammoths by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+				"description" : "Increases the Speed of allied Mammoths and War Mammoths by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Mammoths"
 			}
 		}
