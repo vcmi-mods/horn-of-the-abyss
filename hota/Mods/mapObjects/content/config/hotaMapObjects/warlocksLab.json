@@ -14,19 +14,21 @@
 						"STORE"
 					]
 				},
+				"base" : {
+					"mask" : [
+						"VVVV",
+						"VVVV",
+						"VBAV"
+					],
+					"visitableFrom" : [
+						"---",
+						"-++",
+						"+++"
+					]
+				},
 				"templates" : {
 					"avxtrmts" : {
 						"animation" : "hota/warlocksLab/avxtrmts",
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
 						"allowedTerrains" : [
 							"snow"
 						]

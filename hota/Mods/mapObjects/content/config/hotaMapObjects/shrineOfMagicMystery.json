@@ -1,17 +1,6 @@
 {
 	"core:shrineOfMagicLevel1" : {
 		// Warning: lvl1 required for proper h3m loading. Do not change.
-		"handler" : "configurable",
-		"base" : {
-			"sounds" : {
-				"ambient" : [
-					"LOOPSHRIN"
-				],
-				"visit" : [
-					"TEMPLE"
-				]
-			}
-		},
 		"types" : {
 			"shrineOfMagicMystery" : {
 				"name" : "Shrine of Magic Mystery",
@@ -20,14 +9,6 @@
 					"value" : 7000,
 					"rarity" : 100,
 					"zoneLimit" : 1
-				},
-				"sounds" : {
-					"ambient" : [
-						"LOOPSHRIN"
-					],
-					"visit" : [
-						"TEMPLE"
-					]
 				},
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
@@ -76,33 +57,26 @@
 						"message" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you have no Spell Book to record the spell with."
 					}
 				],
+				"base" : {
+					"mask" : [
+						"VV",
+						"VA"
+					],
+					"visitableFrom" : [
+						"---",
+						"+++",
+						"+++"
+					]
+				},
 				"templates" : {
 					"water" : {
 						"animation" : "hota/shrines/AVXl4sh0",
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
 						"allowedTerrains" : [
 							"water"
 						]
 					},
 					"land" : {
-						"animation" : "hota/shrines/4lvlxshrn",
-						"mask" : [
-							"VV",
-							"VA"
-						],
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						]
+						"animation" : "hota/shrines/4lvlxshrn"
 					}
 				}
 			}

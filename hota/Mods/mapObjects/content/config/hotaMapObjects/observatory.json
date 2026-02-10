@@ -30,7 +30,7 @@
 				"blockedVisitable" : false,
 				"onVisitedMessage" : "{Observatory}\r\n\r\nThe astronomer is absent from his tower. A note posted on the door reads: \"Will be back in a week\".",
 				"canRefuse" : false,
-				"visitMode" : "hero",
+				"visitMode" : "bonus",
 				"selectMode" : "selectPlayer",
 				"compatibilityIdentifiers" : [
 					"object"
@@ -45,7 +45,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"-++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [

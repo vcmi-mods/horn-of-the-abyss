@@ -3,32 +3,24 @@
 		"types" : {
 			"experimentalShop" : {
 				"name" : "Experimental Shop",
+				"base" : {
+					"visitableFrom" : [
+						"---",
+						"-++",
+						"+++"
+					],
+					"mask" : [
+						"VVV",
+						"VVV",
+						"VBA"
+					]
+				},
 				"templates" : {
 					"normal" : {
-						"animation" : "hota/banks/AVXbnk90.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/banks/AVXbnk90.def"
 					},
 					"snow" : {
 						"animation" : "hota/banks/AVXbnk9s.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						],
 						"allowedTerrains" : [
 							"snow"
 						]

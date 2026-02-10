@@ -3,37 +3,28 @@
 		"types" : {
 			"ivoryTower" : {
 				"name" : "Ivory Tower",
+				"base" : {
+					"visitableFrom" : [
+						"---",
+						"+++",
+						"+++"
+					],
+					"mask" : [
+						"VVV",
+						"VVV",
+						"VVV",
+						"VBA"
+					]
+				},
 				"templates" : {
 					"normal" : {
 						"animation" : "hota/banks/avivtow2.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VBA"
-						],
 						"allowedTerrains" : [
 							"sand"
 						]
 					},
 					"snow" : {
 						"animation" : "hota/banks/avivtow1.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VBA"
-						],
 						"allowedTerrains" : [
 							"snow"
 						]

@@ -31,8 +31,7 @@
 						]
 					}
 				],
-				"onVisitedMessage" : "{Watering Place}\r\n\r\nWatering place can be used only once a week, and someone has already been here this week.",
-				//				"onXXXMessage" : "{Watering Place}\r\n\r\nTroops are in a full blown recuperation mode. No chance of getting them into marching mood until tomorrow.",// TODO: when this message is used?
+				"onVisitedMessage" : "{Watering Place}\r\n\r\nTroops are in a full blown recuperation mode. No chance of getting them into marching mood until tomorrow.",
 				"canRefuse" : true,
 				"visitMode" : "once",
 				"resetParameters" : {

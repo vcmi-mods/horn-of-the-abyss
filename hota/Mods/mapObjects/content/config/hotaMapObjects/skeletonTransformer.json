@@ -28,7 +28,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"--+",
+							"-++",
 							"+++"
 						],
 						"allowedTerrains" : [
