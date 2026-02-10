@@ -3,14 +3,13 @@
 		"types" : {
 			"blackTower" : {
 				"name" : "Black Tower",
-				//				"regularUnitPlacement" : true,
 				"blockedVisitable" : false,
 				"onGuardedMessage" : "You stand in front of a dragon's dwelling. The vicious creature is terrorising the surrounding lands. Would you like to battle it?",
 				"onVisitedMessage" : "A dragon once lived in this tower, however now it is empty and holds nothing of interest.",
 				"visitMode" : "once",
 				"variables" : {
 					"artifact" : {
-						"gainedArtifact" : { 
+						"gainedArtifact" : {
 							"anyOf" : [
 								{
 									"class" : "MINOR"
@@ -21,34 +20,25 @@
 				},
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "default",
+				"base" : {
+					"visitableFrom" : [
+						"---",
+						"+++",
+						"+++"
+					],
+					"mask" : [
+						"VVVV",
+						"VVVV",
+						"VVVV",
+						"VVAV"
+					]
+				},
 				"templates" : {
 					"normal" : {
-						"animation" : "hota/banks/avblktwr.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VVVV",
-							"VVAV"
-						]
+						"animation" : "hota/banks/avblktwr.def"
 					},
 					"grass" : {
 						"animation" : "hota/banks/avblktgr.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VVVV",
-							"VVAV"
-						],
 						"allowedTerrains" : [
 							"grass",
 							"swamp"
@@ -56,17 +46,6 @@
 					},
 					"snow" : {
 						"animation" : "hota/banks/avblktsn.def",
-						"visitableFrom" : [
-							"---",
-							"+++",
-							"+++"
-						],
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VVVV",
-							"VVAV"
-						],
 						"allowedTerrains" : [
 							"snow"
 						]

@@ -16,7 +16,7 @@
 						"MYSTERY"
 					]
 				},
-				"blockedVisitable" : false,
+				"blockedVisitable" : true,
 				"onVisitedMessage" : "{Town Gate}\r\n\r\nSelect a destination", //TODO: In HoTA there is no extra message, but custom icon
 				"visitMode" : "unlimited",
 				"rewards" : [
@@ -37,7 +37,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"-+-",
+							"---",
 							"+++"
 						]
 					}

@@ -2,20 +2,41 @@
 	"warehouses" : {
 		"name" : "Warehouses",
 		"handler" : "configurable",
+		"base" : {
+			"rmg" : {
+				"value" : 2500,
+				"rarity" : 25,
+				"zoneLimit" : 1
+			},
+			"sounds" : {
+				"visit" : [
+					"hota/WERHOUSE"
+				]
+			},
+			"resetParameters" : {
+				"period" : 7,
+				"visitors" : true
+			},
+			"visitMode" : "once",
+			"base" : {
+				"visitableFrom" : [
+				"---",
+				"-++",
+				"+++"
+				],
+				"mask" : [
+					"VVV",
+					"VVV",
+					"VBA"
+				]
+			}
+		},
 		"types" : {
 			"crystalWarehouse" : {
 				"name" : "Warehouse of Crystal",
-				"rmg" : {
-					"value" : 2500,
-					"rarity" : 25,
-					"zoneLimit" : 1
-				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSCRST"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -27,40 +48,17 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Crystal}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no crystal here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhscr" : {
-						"animation" : "hota/warehouses/avwrhscr",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhscr"
 					}
 				}
 			},
 			"gemsWarehouse" : {
 				"name" : "Warehouse of Gem",
-				"rmg" : {
-					"value" : 2500,
-					"rarity" : 25,
-					"zoneLimit" : 1
-				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSGEMS"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -72,40 +70,17 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Gem}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gems here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhsgm" : {
-						"animation" : "hota/warehouses/avwrhsgm",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhsgm"
 					}
 				}
 			},
 			"sulfurWarehouse" : {
 				"name" : "Warehouse of Sulfur",
-				"rmg" : {
-					"value" : 2500,
-					"rarity" : 25,
-					"zoneLimit" : 1
-				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSSULF"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -117,40 +92,17 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Sulfur}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no sulfur here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhssf" : {
-						"animation" : "hota/warehouses/avwrhssf",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhssf"
 					}
 				}
 			},
 			"mercuryWarehouse" : {
 				"name" : "Warehouse of Mercury",
-				"rmg" : {
-					"value" : 2500,
-					"rarity" : 25,
-					"zoneLimit" : 1
-				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSMERC"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -162,24 +114,9 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Mercury}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no mercury here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhsmc" : {
-						"animation" : "hota/warehouses/avwrhsmc",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhsmc"
 					}
 				}
 			},
@@ -187,15 +124,11 @@
 				"name" : "Warehouse of Wood",
 				"rmg" : {
 					"value" : 2250,
-					"rarity" : 30,
-					"zoneLimit" : 1
+					"rarity" : 30
 				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSWOOD"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -207,24 +140,9 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Wood}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no wood here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhswd" : {
-						"animation" : "hota/warehouses/avwrhswd",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhswd"
 					}
 				}
 			},
@@ -232,15 +150,11 @@
 				"name" : "Warehouse of Ore",
 				"rmg" : {
 					"value" : 2250,
-					"rarity" : 30,
-					"zoneLimit" : 1
+					"rarity" : 30
 				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSOREM"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -252,24 +166,9 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Ore}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no ore here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhsor" : {
-						"animation" : "hota/warehouses/avwrhsor",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhsor"
 					}
 				}
 			},
@@ -277,15 +176,11 @@
 				"name" : "Warehouse of Gold",
 				"rmg" : {
 					"value" : 6000,
-					"rarity" : 15,
-					"zoneLimit" : 1
+					"rarity" : 15
 				},
 				"sounds" : {
 					"ambient" : [
 						"hota/WRHSGOLD"
-					],
-					"visit" : [
-						"hota/WERHOUSE"
 					]
 				},
 				"rewards" : [
@@ -297,24 +192,9 @@
 					}
 				],
 				"onVisitedMessage" : "{Warehouse of Gold}\r\n\r\nThe owner of the storage is apologising: 'I am sorry Milord, no gold here. Please, return next week!'",
-				"resetParameters" : {
-					"period" : 7,
-					"visitors" : true
-				},
-				"visitMode" : "once",
 				"templates" : {
 					"avwrhsgl" : {
-						"animation" : "hota/warehouses/avwrhsgl",
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						]
+						"animation" : "hota/warehouses/avwrhsgl"
 					}
 				}
 			}

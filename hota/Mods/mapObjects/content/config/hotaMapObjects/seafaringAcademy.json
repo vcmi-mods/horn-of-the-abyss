@@ -14,12 +14,12 @@
 							"navigation"
 						]
 					},
-					{ 
+					{
 						"noneOf" : [
 							"necromancy"
-						] 
+						]
 					},
-					{ 
+					{
 						"noneOf" : [
 							"necromancy"
 						]

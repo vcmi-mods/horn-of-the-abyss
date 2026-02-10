@@ -16,37 +16,38 @@
 				"sounds" : {
 					"visit" : [
 						"hota/LAMPVIST"
+					],
+					"removal" : [
+						"PICKUP01",
+						"PICKUP02",
+						"PICKUP03",
+						"PICKUP04",
+						"PICKUP05",
+						"PICKUP06",
+						"PICKUP07"
 					]
 				},
+				"selectMode" : "selectFirst",
 				"rewards" : [
 					{
-						"appearChance" : {
-							"max" : 30
-						},
-						//condition to get reward
 						"limiter" : {
 							"resources" : {
-								"gold" : 2400
+								"gold" : 3600
 							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
 						"creatures" : [
 							{
 								"type" : "masterGenie",
-								"amount" : 4
+								"amount" : 6
 							}
 						],
 						"resources" : {
-							"gold" : -2400
+							"gold" : -3600
 						},
 						"removeObject" : true
 					},
 					{
-						"appearChance" : {
-							"min" : 30,
-							"max" : 60
-						},
-						//condition to get reward
 						"limiter" : {
 							"resources" : {
 								"gold" : 3000
@@ -65,25 +66,20 @@
 						"removeObject" : true
 					},
 					{
-						"appearChance" : {
-							"min" : 60,
-							"max" : 90
-						},
-						//condition to get reward
 						"limiter" : {
 							"resources" : {
-								"gold" : 3600
+								"gold" : 2400
 							}
 						},
 						"message" : "{Ancient Lamp}\r\n\r\nA battered turban emerges from the lamp, sitting atop his djinn owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
 						"creatures" : [
 							{
 								"type" : "masterGenie",
-								"amount" : 6
+								"amount" : 4
 							}
 						],
 						"resources" : {
-							"gold" : -3600
+							"gold" : -2400
 						},
 						"removeObject" : true
 					}
@@ -99,17 +95,13 @@
 						"animation" : "hota/ancientLamp/avtglam",
 						"visitableFrom" : [
 							"+++",
-							"+++",
+							"+-+",
 							"+++"
 						],
 						"mask" : [
 							"VAV"
 						],
-						// Terrain: any dry land; only for zones with Tower faction
-						"allowedTerrains" : [
-							"snow",
-							"sand"
-						]
+						// HotA 1.8.0: any dry land; NOT IMPLEMENTED BY VCMI: only for zones with Tower faction
 					}
 				}
 			}

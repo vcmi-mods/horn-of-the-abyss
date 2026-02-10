@@ -3,32 +3,24 @@
 		"types" : {
 			"churchyard" : {
 				"name" : "Churchyard",
+				"base" : {
+					"visitableFrom" : [
+						"---",
+						"-+-",
+						"+++"
+					],
+					"mask" : [
+						"VVVV",
+						"VVVV",
+						"VBAB"
+					]
+				},
 				"templates" : {
 					"normal" : {
-						"animation" : "hota/banks/avcmetry.def",
-						"visitableFrom" : [
-							"---",
-							"-+-",
-							"+++"
-						],
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBAB"
-						]
+						"animation" : "hota/banks/avcmetry.def"
 					},
 					"snow" : {
 						"animation" : "hota/banks/avcmetrs.def",
-						"visitableFrom" : [
-							"---",
-							"-+-",
-							"+++"
-						],
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBAB"
-						],
 						"allowedTerrains" : [
 							"snow"
 						]
@@ -67,7 +59,7 @@
 				"guardsLayout" : "creatureBankChurchyard",
 				"variables" : {
 					"artifact" : {
-						"gainedArtifact" : { 
+						"gainedArtifact" : {
 							"anyOf" : [
 								{
 									"class" : "MINOR"

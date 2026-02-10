@@ -5,16 +5,6 @@
 				"templates" : {
 					"avxtrmtw" : {
 						"animation" : "hota/wasteland/hotaInteractive/warlocksLab/avxtrmtw",
-						"mask" : [
-							"VVVV",
-							"VVVV",
-							"VBAV"
-						],
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
 						"allowedTerrains" : [
 							"wasteland"
 						]

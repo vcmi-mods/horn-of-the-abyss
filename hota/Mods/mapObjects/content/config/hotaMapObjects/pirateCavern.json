@@ -8,7 +8,7 @@
 						"animation" : "hota/banks/HAPCAVE.def",
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"mask" : [

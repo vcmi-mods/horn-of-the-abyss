@@ -27,7 +27,7 @@
 				"removable" : true,
 				"variables" : {
 					"resource" : {
-						"gainedResource" : { 
+						"gainedResource" : {
 							"anyOf" : [ "mercury", "gems", "sulfur", "crystal" ]
 						}
 					},
@@ -69,7 +69,7 @@
 						"animation" : "hota/seaBarrel/AVAbrrlw",
 						"visitableFrom" : [
 							"+++",
-							"+++",
+							"+-+",
 							"+++"
 						],
 						"mask" : [

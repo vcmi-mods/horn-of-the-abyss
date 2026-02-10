@@ -5,16 +5,6 @@
 				"templates" : {
 					"miniftws" : {
 						"animation" : "hota/wasteland/hotaInteractive/hillFort/miniftws",
-						"mask" : [
-							"VVV",
-							"VVV",
-							"VBA"
-						],
-						"visitableFrom" : [
-							"---",
-							"-++",
-							"+++"
-						],
 						"allowedTerrains" : [
 							"wasteland"
 						]
