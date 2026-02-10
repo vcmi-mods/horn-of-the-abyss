@@ -43,7 +43,7 @@
 			"biography" : "On the field where elves from all over Vori converge at springtime to compete in military prowess, a memorial stone with the name Dhuin Ironhand has been standing for years: no one has yet been able to hurl a dart any farther. Dhuin is as straight and firm as his famed spear, and many fathers show him the highest degree of reverence, entrusting their eldest sons to him for training.",
 			"specialty" : {
 				"name" : "Snow Elves",
-				"description" : "Increases the Speed of allied Snow Elves and Steel Elves by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
+				"description" : "Increases the Speed of allied Snow Elves and Steel Elves by 1 and their Attack and Defense skills by 5% for every 3 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Snow Elves"
 			}
 		}

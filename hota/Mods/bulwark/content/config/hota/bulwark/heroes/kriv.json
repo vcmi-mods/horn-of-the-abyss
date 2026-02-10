@@ -42,7 +42,7 @@
 			"biography" : "When the shamans surmised that the gods would never grant their tribe another spring without a great sacrifice, the lot fell on Kriv. Chained to a runestone, he waited for death; indeed, she appeared to him as a white owl, yet only took his eyes, repaying him with the gift of seeing through time. Kriv returned to accurately predict the warm season's arrival, establishing himself as a peerless shaman.",
 			"specialty" : {
 				"name" : "Shamans",
-				"description" : "Increases the Speed of allied Shamans and Great Shamans by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
+				"description" : "Increases the Speed of allied Shamans and Great Shamans by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Shamans"
 			}
 		}

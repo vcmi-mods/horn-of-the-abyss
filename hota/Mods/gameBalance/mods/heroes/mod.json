@@ -6,6 +6,7 @@
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.1",
 	"softDepends" : [
+		"hota.bulwark",
 		"hota.cove",
 		"hota.factory",
 		"hota.heroes"
@@ -16,6 +17,18 @@
 		}
 	},
 	"heroes" : [
+		"config/hotaGameBalance/bulwark/akka.json",
+		"config/hotaGameBalance/bulwark/biarma.json",
+		"config/hotaGameBalance/bulwark/creyle.json",
+		"config/hotaGameBalance/bulwark/dalton.json",
+		"config/hotaGameBalance/bulwark/dhuin.json",
+		"config/hotaGameBalance/bulwark/eikthurn.json",
+		"config/hotaGameBalance/bulwark/glacius.json",
+		"config/hotaGameBalance/bulwark/kriv.json",
+		"config/hotaGameBalance/bulwark/kynr.json",
+		"config/hotaGameBalance/bulwark/sial.json",
+		"config/hotaGameBalance/bulwark/spadum.json",
+
 		"config/hotaGameBalance/castle/adela.json",
 		"config/hotaGameBalance/castle/adelaide.json",
 		"config/hotaGameBalance/castle/catherine.json",

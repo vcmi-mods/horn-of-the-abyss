@@ -41,7 +41,7 @@
 					"subtype" : "spell.iceBolt",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 10
+					"val" : 3
 				}
 			}
 		},
@@ -53,7 +53,7 @@
 			"biography" : "Sial can always be traced on the battlefield by shards of ice statues that once were her enemies. Legend says another doing of hers is the infamous Crystal Lake, which stays frozen even through the brief summers. Once, its waters swallowed an entire tribe whose chieftain had angered her; they remain eternally still since.",
 			"specialty" : {
 				"name" : "Ice Bolt",
-				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Ice Bolt with Damage increased by 3% for every N hero levels, where N is the level of the target creature.",
 				"tooltip" : "Spell Bonus: Ice Bolt"
 			}
 		}
