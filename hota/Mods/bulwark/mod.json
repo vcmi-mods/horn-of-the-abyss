@@ -92,6 +92,9 @@
 
 	"chinese" : {
 		"name" : "坚垒",
-		"description" : "深渊号角1.8.0的新城镇坚垒"
+		"description" : "深渊号角1.8.0的新城镇坚垒",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	}
 }
