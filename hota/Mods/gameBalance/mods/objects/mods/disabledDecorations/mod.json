@@ -1,0 +1,14 @@
+{
+	"name" : "Disabled Decorations",
+	"description" : "Prevents some decorations meant for map editor exclusive use from spawning.",
+	"modType" : "Objects",
+	"author" : "Karyoplasma",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+	"depends" : [
+		"hota.mapdecorations"
+	],
+	"objects" : [
+		"config/hotaGameBalance/disabledDecorations.json"
+	]
+}

@@ -152,17 +152,17 @@
 			"AVLpilr7"
 		]
 	},
-	"ruinedObjects" : {
-		"biome" : {
-			"terrain" : "dirt",
-			"objectType" : "structure"
-		},
-		"templates" : [
-			"TPDESTR2",
-			"TPDESTR3",
-			"TPDESTR4"
-		]
-	},
+//	"ruinedObjects" : {
+//		"biome" : {
+//			"terrain" : "dirt",
+//			"objectType" : "structure"
+//		},
+//		"templates" : [
+//			"TPDESTR2",
+//			"TPDESTR3",
+//			"TPDESTR4"
+//		]
+//	},
 	"core:sandYucca" : {
 		"templates" : {
 			"appendItems" : [
@@ -199,34 +199,34 @@
 			"udrock08"
 		]
 	},
-	"abandonedHouse" : {
-		"biome" : {
-			"terrain" : "lava",
-			"level" : "surface",
-			"objectType" : "structure"
-		},
-		"templates" : [
-			"AVbhou01",
-			"AVbhou02",
-			"AVbhou03"
-		]
-	},
-	"abandonedWells" : {
-		"biome" : {
-			"terrain" : [
-				"dirt",
-				"rough"
-			],
-			"level" : "surface",
-			"objectType" : "structure"
-		},
-		"templates" : [
-			"avtcvrui",
-			"TPDESTR2",
-			"TPDESTR3",
-			"TPDESTR4"
-		]
-	},
+//	"abandonedHouse" : {
+//		"biome" : {
+//			"terrain" : "lava",
+//			"level" : "surface",
+//			"objectType" : "structure"
+//		},
+//		"templates" : [
+//			"AVbhou01",
+//			"AVbhou02",
+//			"AVbhou03"
+//		]
+//	},
+//	"abandonedWells" : {
+//		"biome" : {
+//			"terrain" : [
+//				"dirt",
+//				"rough"
+//			],
+//			"level" : "surface",
+//			"objectType" : "structure"
+//		},
+//		"templates" : [
+//			"avtcvrui",
+//			"TPDESTR2",
+//			"TPDESTR3",
+//			"TPDESTR4"
+//		]
+//	},
 	"hotaSandColumns" : {
 		"biome" : {
 			"terrain" : "sand",
