@@ -12,7 +12,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [
@@ -151,7 +151,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"++-",
 							"+++"
 						]
 					}
@@ -202,7 +202,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"++-",
 							"+++"
 						]
 					}
@@ -237,7 +237,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [
@@ -258,7 +258,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [
@@ -279,7 +279,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [
@@ -300,7 +300,7 @@
 						],
 						"visitableFrom" : [
 							"---",
-							"+++",
+							"-+-",
 							"+++"
 						],
 						"allowedTerrains" : [

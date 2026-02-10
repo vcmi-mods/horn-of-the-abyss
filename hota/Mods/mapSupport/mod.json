@@ -658,7 +658,7 @@
 					"14haugir" : 241,
 					"15akka" : 242,
 					"16vehr" : 243,
-					"17allora" : 244		
+					"17allora" : 244
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
@@ -942,7 +942,7 @@
 						"ancientAltarOld" : [
 							139,
 							14
-						]						
+						]
 					},
 					"creatureGeneratorCommon" : {
 						"waterfall" : [
@@ -1340,18 +1340,18 @@
 						139,
 						9
 					],
-					
-//old portu.def					
+
+//old portu.def
 					"bluebottle" : [
 						40,
 						0
 					],
 
-//new portu.def					
+//new portu.def
 					"portu" : [
 						139,
 						10
-					],					
+					],
 					//					"abandonedHouse" : [139, 11],
 					"crumbledCamp" : [
 						139,
@@ -1516,7 +1516,7 @@
 					"hota/factory/town/adventureMap/AVCfacF0.def" : "AVCfacF0.def",
 					"hota/factory/town/adventureMap/AVCfacX0.def" : "AVCfacX0.def",
 					"hota/factory/town/adventureMap/AVCfacZ0.def" : "AVCfacZ0.def",
-					
+
 					"hota/bulwark/town/adventureMap/AVCbulC0.def" : "AVCbulC0.def",
 					"hota/bulwark/town/adventureMap/AVCBlwr0.def" : "AVCBlwr0.DEF",
 					"hota/bulwark/town/adventureMap/AVCBulF0.def" : "AVCBulF0.def",
@@ -1552,18 +1552,18 @@
 					"hota/necropolis/adventureMap/town/AVCnecf0.def" : "AVCnecf0.def",
 					"hota/necropolis/adventureMap/town/AVCnecx0.def" : "AVCnecx0.def",
 					"hota/necropolis/adventureMap/town/AVCnecz0.def" : "AVCnecz0.def",
-					
+
 					"hota/rampart/adventureMap/town/avcramc0.def" : "avcramc0.def",
 					"hota/rampart/adventureMap/town/avcramf0.def" : "avcramf0.def",
 					"hota/rampart/adventureMap/town/AVCramx0.def" : "AVCramx0.def",
 					"hota/rampart/adventureMap/town/AVCramz0.def" : "AVCramz0.def",
-					
+
 					"hota/random/adventureMap/town/avcranc0.def" : "avcranc0.def",
 					"hota/random/adventureMap/town/AVCRAND0.def" : "AVCRAND0.def",
 					"hota/random/adventureMap/town/AVCranf0.def" : "AVCranf0.def",
 					"hota/random/adventureMap/town/avcranx0.def" : "avcranx0.def",
 					"hota/random/adventureMap/town/avcranz0.def" : "avcranz0.def",
-					
+
 					"hota/stronghold/adventureMap/town/AVCstrc0.def" : "AVCstrc0.def",
 					"hota/stronghold/adventureMap/town/AVCstrf0.def" : "AVCstrf0.def",
 					"hota/stronghold/adventureMap/town/AVCstrx0.def" : "AVCstrx0.def",
@@ -1784,7 +1784,7 @@
 					"hota/trees/AVLswt24.def" : "AVLswt24.def",
 					"hota/trees/AVLswt25.def" : "AVLswt25.def",
 					"hota/trees/avlswt26.def" : "avlswt26.def",
-					"hota/trees/avltro13.def" : "AVLtRo13.def",
+					"hota/decorations/trees/avltro13.def" : "AVLtRo13.def",
 					"hota/wasteland/vanillaStatic/trees/AVLtrRo0.DEF" : "AVLtrRo0.def",
 					"hota/wasteland/vanillaStatic/trees/AVLtrRo1.DEF" : "AVLtrRo1.def",
 					"hota/wasteland/vanillaStatic/trees/AVLtrRo4.DEF" : "AVLtrRo4.def",
@@ -2089,17 +2089,17 @@
 					"hota/mountains/grsmnt03.def" : "grsmnt03.def",
 					"hota/mountains/grsmnt04.def" : "grsmnt04.def",
 					"hota/mountains/grsmnt05.def" : "grsmnt05.def",
-					
+
 					"hota/bulwark/mapObjects/static/AVLGLC01.def" : "AVLGLC01.def",
 					"hota/bulwark/mapObjects/static/AVLGLC02.def" : "AVLGLC02.def",
 					"hota/bulwark/mapObjects/static/AVLGLC03.def" : "AVLGLC03.def",
 					"hota/bulwark/mapObjects/static/AVLGLC04.def" : "AVLGLC04.def",
 					"hota/bulwark/mapObjects/static/AVLGLC05.def" : "AVLGLC05.def",
 					"hota/bulwark/mapObjects/static/AVLGLC06.def" : "AVLGLC06.def",
-					
+
 					"hota/bulwark/mapObjects/interactive/AVMtrap0A.def" : "AVMtrap0.def",
 					"hota/bulwark/mapObjects/interactive/AVXseekA0.def" : "AVXseek0.def",
-					
+
 					"hota/bulwark/mapObjects/mines/AVMcrsn1.def" : "AVMcrsn1.def",
 					"hota/bulwark/mapObjects/mines/AVMgosn1.def" : "AVMgosn1.def",
 					"hota/bulwark/mapObjects/mines/AVXamSn1.def" : "AVXamSn1.def",
@@ -2275,8 +2275,8 @@
 					"hota/pillars/AVLwaV07.def" : "AVLwaV07.def",
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
 					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
-					
-//cracked ice					
+
+//cracked ice
 					"ZICE01.def" : "ZICE01.def",
 					"ZICE02.def" : "ZICE02.def",
 					"ZICE03.def" : "ZICE03.def",

@@ -101,7 +101,7 @@
 					},
 
 					"avltro13" : {
-						"animation" : "hota/trees/avltro13",
+						"animation" : "hota/decorations/trees/avltro13",
 						"mask" : [
 							"VV",
 							"VB"

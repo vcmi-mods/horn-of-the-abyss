@@ -66,12 +66,13 @@
 						]
 					},
 					"AVLtRo13" : {
-						"animation" : "hota/wasteland/vanillaStatic/trees/avltro13",
+						"animation" : "hota/decorations/trees/avltro13",
 						"mask" : [
 							"VV",
 							"VB"
 						],
 						"allowedTerrains" : [
+							"dirt",
 							"rough",
 							"wasteland"
 						]
