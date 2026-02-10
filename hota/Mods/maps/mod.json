@@ -12,14 +12,16 @@
 		"hota.mapsupport"
 	],
 	"softDepends" : [
+		"czech-translation",
 		"german-translation",
 		"polish-translation",
 		"mega-pack-rus"
 	],
 	"changelog" : {
 		"1.2" : [
-			"Added all 5 campaigns prolog / epilog English AI generated voice",
-			"Added Russian and Polish voice for first 3 campaigns"
+			"Added AI generated voice for Czech, English and German for all 5 campaigns",
+			"Added Polish voice for all 5 campaigns",
+			"Added Russian voice for first 3 campaigns"
 		],
 		"1.1" : [
 			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
