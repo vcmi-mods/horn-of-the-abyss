@@ -60,3 +60,73 @@ jobs:
           default_author: github_actions
           message: "Auto-format JSON files"
           add: '*.json'
+
+  package-artifact:
+    name: Create release
+    needs: [validate-json, format-json]
+    if: >-
+      ${{
+        needs.validate-json.result == 'success' &&
+        github.event_name != 'pull_request' &&
+        github.repository_owner == 'vcmi-mods' &&
+        startsWith(github.ref_name, 'vcmi-')
+      }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare content ZIPs
+        run: |
+          set -euo pipefail
+
+          ROOT="$(pwd)"
+          mapfile -d '' CONTENT_DIRS < <(find . -type d -name content -print0)
+          echo "Found ${#CONTENT_DIRS[@]} content directories"
+
+          for d in "${CONTENT_DIRS[@]}"; do
+            parent="$(dirname "$d")"
+            out="$ROOT/${parent#./}/content.zip"
+
+            echo "Packaging CONTENT of: $d -> $out"
+
+            # ensure no leftover
+            rm -f "$out"
+
+            # Zip CONTENTS (not the folder), store-only
+            (
+              cd "$d"
+              zip -0 -r -q "$out" .
+            )
+
+            rm -rf "$d"
+          done
+
+      - name: Create full repo ZIP
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          OUT="dist/${GITHUB_REF_NAME}.zip"
+          zip -9 -r -q "$OUT" . \
+            -x ".git/*" \
+            -x "dist/*"
+          echo "Created: $OUT"
+          ls -lah dist
+
+      - name: Upload release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: |
+            Automated build for branch `${{ github.ref_name }}`.
+            Commit: `${{ github.sha }}`
+          artifacts: dist/${{ github.ref_name }}.zip
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: false
