@@ -25,7 +25,8 @@
 	},
 
 	"factions" : [
-		"config/hota/factory/town/town.json"
+		"config/hota/factory/town/town.json",
+		"config/hota/factory/town/puzzleMap.json"
 	],
 	"creatures" : [
 		"config/hota/factory/creatures/halfling.json",
