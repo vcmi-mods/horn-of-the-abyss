@@ -8,6 +8,22 @@
 		"specialty" : [],
 		"base" : {
 			"effects" : {
+				"runesCap" : {
+					"type" : "RUNE_LEVEL_COUNTER",
+					"valueType" : "INDEPENDENT_MIN",
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
+				},
+				"runesBase" : {
+					"type" : "RUNE_LEVEL_COUNTER",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						"CREATURES_ONLY"
+					]
+				},
+
 				"runesBonusAttackTier1" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack",
@@ -107,7 +123,7 @@
 					}
 				},
 
-				"combatAttackRuneLevels1" : {
+				"combatAttackRuneLevels" : {
 					"type" : "ON_COMBAT_EVENT",
 					"subtype" : "combatEventAfterAttack",
 					"addInfo" : {
@@ -124,7 +140,7 @@
 						]
 					}
 				},
-				"combatAttackedRuneLevels1" : {
+				"combatAttackedRuneLevels" : {
 					"type" : "ON_COMBAT_EVENT",
 					"subtype" : "combatEventAfterAttacked",
 					"addInfo" : {
@@ -134,31 +150,14 @@
 								"targetEnemy" : false,
 								"bonus" : {
 									"type" : "RUNE_LEVEL_COUNTER",
-									"val" : 1,
+									"val" : 2,
 									"duration" : "ONE_BATTLE"
 								}
 							}
 						]
 					}
 				},
-				"combatAttackedRuneLevels2" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventAfterAttacked",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "RUNE_LEVEL_COUNTER",
-									"val" : 1,
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				},
-				"combatDefendRuneLevels1" : {
+				"combatDefendRuneLevels" : {
 					"type" : "ON_COMBAT_EVENT",
 					"subtype" : "combatEventDefend",
 					"addInfo" : {
@@ -168,41 +167,7 @@
 								"targetEnemy" : false,
 								"bonus" : {
 									"type" : "RUNE_LEVEL_COUNTER",
-									"val" : 1,
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				},
-				"combatDefendRuneLevels2" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventDefend",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "RUNE_LEVEL_COUNTER",
-									"val" : 1,
-									"duration" : "ONE_BATTLE"
-								}
-							}
-						]
-					}
-				},
-				"combatDefendRuneLevels3" : {
-					"type" : "ON_COMBAT_EVENT",
-					"subtype" : "combatEventDefend",
-					"addInfo" : {
-						"effect" : [
-							{
-								"action" : "bonus",
-								"targetEnemy" : false,
-								"bonus" : {
-									"type" : "RUNE_LEVEL_COUNTER",
-									"val" : 1,
+									"val" : 3,
 									"duration" : "ONE_BATTLE"
 								}
 							}
@@ -214,65 +179,8 @@
 		"basic" : {
 			"description" : "{Basic Runes}\n\nBasic Runes allows the hero's units to accumulate up to 3 Rune Levels in combat. Each rune Level gives bonuses to their creatures' stats:\n1: +2 Attack, 2: +2 Defense, 3: +1 Speed.",
 			"effects" : {
-				"combatAttackRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 3
-						}
-					]
-				},
-				"combatAttackedRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 2
-						}
-					]
-				},
-				"combatAttackedRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 3
-						}
-					]
-				},
-				"combatDefendRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 1
-						}
-					]
-				},
-				"combatDefendRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 2
-						}
-					]
-				},
-				"combatDefendRuneLevels3" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 3
-						}
-					]
+				"runesCap" : {
+					"val" : 3
 				}
 			},
 			"images" : {
@@ -285,65 +193,8 @@
 		"advanced" : {
 			"description" : "{Advanced Runes}\n\nAdvanced Runes allows the hero's units to accumulate up to 6 Rune Levels in combat. Each rune Level gives bonuses to their creatures' stats:\n1: +2 Attack, 2: +2 Defense, 3: +1 Speed.\n4: +2 Attack, 5: +2 Defense, 6: +1 Speed.",
 			"effects" : {
-				"combatAttackRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 6
-						}
-					]
-				},
-				"combatAttackedRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 5
-						}
-					]
-				},
-				"combatAttackedRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 6
-						}
-					]
-				},
-				"combatDefendRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 4
-						}
-					]
-				},
-				"combatDefendRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 5
-						}
-					]
-				},
-				"combatDefendRuneLevels3" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 6
-						}
-					]
+				"runesCap" : {
+					"val" : 6
 				}
 			},
 			"images" : {
@@ -356,65 +207,8 @@
 		"expert" : {
 			"description" : "{Expert Runes}\n\nExpert Runes allows the hero's units to accumulate up to 9 Rune Levels in combat. Each rune Level gives bonuses to their creatures' stats:\n1: +2 Attack, 2: +2 Defense, 3: +1 Speed.\n4: +2 Attack, 5: +2 Defense, 6: +1 Speed.\n7: +2 Attack, 8: +2 Defense, 9: +1 Speed.",
 			"effects" : {
-				"combatAttackRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 9
-						}
-					]
-				},
-				"combatAttackedRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 8
-						}
-					]
-				},
-				"combatAttackedRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 9
-						}
-					]
-				},
-				"combatDefendRuneLevels1" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 7
-						}
-					]
-				},
-				"combatDefendRuneLevels2" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 8
-						}
-					]
-				},
-				"combatDefendRuneLevels3" : {
-					"limiters" : [
-						"noneOf",
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "RUNE_LEVEL_COUNTER",
-							"bonusMinValue" : 9
-						}
-					]
+				"runesCap" : {
+					"val" : 9
 				}
 			},
 			"images" : {
