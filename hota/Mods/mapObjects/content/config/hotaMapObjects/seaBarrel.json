@@ -28,7 +28,12 @@
 				"variables" : {
 					"resource" : {
 						"gainedResource" : {
-							"anyOf" : [ "mercury", "gems", "sulfur", "crystal" ]
+							"anyOf" : [
+								"mercury",
+								"gems",
+								"sulfur",
+								"crystal"
+							]
 						}
 					},
 					"number" : {

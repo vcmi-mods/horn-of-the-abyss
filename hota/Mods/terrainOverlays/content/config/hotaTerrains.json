@@ -1,18 +1,18 @@
 {
-	"core:sand" :
-	{
+	"core:sand" : {
 		"battleFields" : {
 			"append" : "hotaSand"
 		}
 	},
-	"core:swamp" :
-	{
+	"core:swamp" : {
 		"battleFields" : {
-			"appendItems" : [ "hotaSwampTrees", "hotaSwampGrass" ]
+			"appendItems" : [
+				"hotaSwampTrees",
+				"hotaSwampGrass"
+			]
 		}
 	},
-	"core:lava" :
-	{
+	"core:lava" : {
 		"battleFields" : {
 			"append" : "hotaLava"
 		}

@@ -81,7 +81,7 @@
 			}
 		}
 	},
-	
+
 	// disable resistance
 	"core:resistance" : {
 		"special" : true

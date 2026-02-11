@@ -20,7 +20,7 @@
 						"GAZEBO"
 					]
 				},
-				
+
 				"onVisitedMessage" : "{Hermit's Shack}\n\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",
 				"onEmptyMessage" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. There definitely is a lot to be learned here, but the material seems fairly advanced. You will have to get an introductory course elsewhere.",
 
@@ -52,7 +52,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "pathfinding",
 											"amount" : 3
 										}
@@ -73,7 +73,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "archery",
 											"amount" : 3
 										}
@@ -94,7 +94,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "logistics",
 											"amount" : 3
 										}
@@ -115,7 +115,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "scouting",
 											"amount" : 3
 										}
@@ -136,7 +136,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "diplomacy",
 											"amount" : 3
 										}
@@ -157,7 +157,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "navigation",
 											"amount" : 3
 										}
@@ -178,7 +178,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "leadership",
 											"amount" : 3
 										}
@@ -199,7 +199,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "wisdom",
 											"amount" : 3
 										}
@@ -220,7 +220,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "mysticism",
 											"amount" : 3
 										}
@@ -241,7 +241,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "luck",
 											"amount" : 3
 										}
@@ -262,7 +262,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "ballistics",
 											"amount" : 3
 										}
@@ -283,7 +283,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "eagleEye",
 											"amount" : 3
 										}
@@ -304,7 +304,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "necromancy",
 											"amount" : 3
 										}
@@ -325,7 +325,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "estates",
 											"amount" : 3
 										}
@@ -346,7 +346,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "fireMagic",
 											"amount" : 3
 										}
@@ -367,7 +367,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "airMagic",
 											"amount" : 3
 										}
@@ -388,7 +388,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "waterMagic",
 											"amount" : 3
 										}
@@ -409,7 +409,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "earthMagic",
 											"amount" : 3
 										}
@@ -430,7 +430,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "scholar",
 											"amount" : 3
 										}
@@ -451,7 +451,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "tactics",
 											"amount" : 3
 										}
@@ -472,7 +472,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "artillery",
 											"amount" : 3
 										}
@@ -493,7 +493,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "learning",
 											"amount" : 3
 										}
@@ -514,7 +514,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "offence",
 											"amount" : 3
 										}
@@ -535,7 +535,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "armorer",
 											"amount" : 3
 										}
@@ -556,7 +556,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "intelligence",
 											"amount" : 3
 										}
@@ -577,7 +577,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "sorcery",
 											"amount" : 3
 										}
@@ -598,7 +598,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "resistance",
 											"amount" : 3
 										}
@@ -619,7 +619,7 @@
 							"noneOf" : [
 								{
 									"secondary" : [
-										{	
+										{
 											"type" : "firstAid",
 											"amount" : 3
 										}

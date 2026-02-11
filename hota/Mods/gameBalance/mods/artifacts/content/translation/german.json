@@ -3,5 +3,5 @@
 	"artifact.core.angelicAlliance.description" : "{Engelische Allianz}\n\nErmöglicht es Kreaturen von Burg, Wall, Turm, Festung, Bollwerk, Konflux, Bucht und Fabrik Horn der Abyss ohne Moralstrafe zu mischen. Wirkt zu Beginn des Kampfes 10 Runden lang Expertengebet. Wenn eine böse Einheit in Eurer Heldenarmee ist, wird die Moral um 1 verringert.",
 	"artifact.core.cloakOfTheUndeadKing.description" : "{Mantel des Untoten Königs}\n\n15 % der auf dem Schlachtfeld Gefallenen werden als Skelette wiederbelebt. Wenn Euer Held bereits die Nekromantie-Fertigkeit besitzt, werden die Prozentsätze zur Fertigkeit addiert, und das Fertigkeitslevel bestimmt die Art der Wiederbelebten.\nBasis: Zombies\nFortgeschritten: Wights\nExperte:\nLiches",
 	"artifact.core.deadMansBoots.description" : "{Stiefel des Totenmanns}\n\nAn den Füßen getragen erhöhen diese Stiefel Eure Nekromantie-Fertigkeit um 7%.",
-	"artifact.core.vampiresCowl.description" : "{Kapuze des Vampirs}\n\nÜber die Schultern getragen erhöht diese Kapuze Eure Nekromantie-Fertigkeit um 5%.",
+	"artifact.core.vampiresCowl.description" : "{Kapuze des Vampirs}\n\nÜber die Schultern getragen erhöht diese Kapuze Eure Nekromantie-Fertigkeit um 5%."
 }

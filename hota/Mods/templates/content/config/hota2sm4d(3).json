@@ -1,6 +1,5 @@
 {
-	"[HotA] 2sm4d(3)" :
-	{
+	"[HotA] 2sm4d(3)" : {
 		"description" : "Once popular L+U template. The treasure zones may have Relics. The template allows a high variation of gameplay, the early contact in adjacent zones is as possible as exploration game or opponent zone rush. AI players are usually disabled.",
 		"minSize" : "l+u",
 		"maxSize" : "l+u",
@@ -10,10 +9,8 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
-		"zones" :
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 1,
@@ -27,9 +24,21 @@
 					"ore" : 1
 				},
 				"treasure" : [
-					{ "min" : 10000, "max" : 15000, "density" : 1 },
-					{ "min" : 3000, "max" : 6000, "density" : 6 },
-					{ "min" : 500, "max" : 3000, "density" : 9 }
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 1
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 6
+					},
+					{
+						"min" : 500,
+						"max" : 3000,
+						"density" : 9
+					}
 				],
 				"customObjects" : {
 					"bannedObjects" : {
@@ -39,8 +48,7 @@
 					}
 				}
 			},
-			"2" :
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 2,
@@ -53,8 +61,7 @@
 				"treasureLikeZone" : 1,
 				"customObjectsLikeZone" : 1
 			},
-			"3" :
-			{
+			"3" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
@@ -64,28 +71,39 @@
 					"sulfur" : 1,
 					"gold" : 1
 				},
-				"treasure" :
-				[
-					{ "min" : 20000, "max" : 30000, "density" : 1 },
-					{ "min" : 15000, "max" : 20000, "density" : 6 },
-					{ "min" : 10000, "max" : 15000, "density" : 9 }
+				"treasure" : [
+					{
+						"min" : 20000,
+						"max" : 30000,
+						"density" : 1
+					},
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 6
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 9
+					}
 				],
 				"customObjectsLikeZone" : 1
 			},
-			"4" :
-			{
+			"4" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 3,
 				"monsters" : "normal",
-				"playerTowns" : { "castles" : 1 },
+				"playerTowns" : {
+					"castles" : 1
+				},
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1,
 				"matchTerrainToTown" : true,
 				"customObjectsLikeZone" : 1
 			},
-			"5" :
-			{
+			"5" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
@@ -98,8 +116,7 @@
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 1
 			},
-			"6" :
-			{
+			"6" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 4,
@@ -112,8 +129,7 @@
 				"matchTerrainToTown" : true,
 				"customObjectsLikeZone" : 1
 			},
-			"7" :
-			{
+			"7" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 5,
@@ -126,8 +142,7 @@
 				"matchTerrainToTown" : true,
 				"customObjectsLikeZone" : 1
 			},
-			"8" :
-			{
+			"8" : {
 				"type" : "playerStart",
 				"size" : 15,
 				"owner" : 6,
@@ -140,8 +155,7 @@
 				"matchTerrainToTown" : true,
 				"customObjectsLikeZone" : 1
 			},
-			"9" :
-			{
+			"9" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
@@ -150,8 +164,7 @@
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 1
 			},
-			"10" :
-			{
+			"10" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
@@ -161,23 +174,97 @@
 				"customObjectsLikeZone" : 1
 			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "2", "guard" : 45000, "road" : "true" },
-			{ "a" : "1", "b" : "4", "guard" : 6000, "road" : "random" },
-			{ "a" : "1", "b" : "6", "guard" : 6000, "road" : "true" },
-			{ "a" : "1", "b" : "8", "guard" : 6000, "road" : "true" },
-			{ "a" : "2", "b" : "4", "guard" : 6000, "road" : "random" },
-			{ "a" : "2", "b" : "7", "guard" : 6000, "road" : "true" },
-			{ "a" : "2", "b" : "8", "guard" : 6000, "road" : "random" },
-			{ "a" : "3", "b" : "4", "guard" : 6000, "road" : "random" },
-			{ "a" : "3", "b" : "6", "guard" : 6000, "road" : "random" },
-			{ "a" : "4", "b" : "5", "guard" : 6000, "road" : "random" },
-			{ "a" : "5", "b" : "7", "guard" : 6000, "road" : "random" },
-			{ "a" : "6", "b" : "9", "guard" : 6000, "road" : "random" },
-			{ "a" : "7", "b" : "10", "guard" : 6000, "road" : "random" },
-			{ "a" : "8", "b" : "9", "guard" : 6000, "road" : "random" },
-			{ "a" : "8", "b" : "10", "guard" : 6000, "road" : "random" }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "2",
+				"guard" : 45000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "4",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "1",
+				"b" : "6",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "8",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "4",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "2",
+				"b" : "7",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "8",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "3",
+				"b" : "6",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "4",
+				"b" : "5",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "5",
+				"b" : "7",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "6",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "7",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "8",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "random"
+			},
+			{
+				"a" : "8",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "random"
+			}
 		]
 	}
 }

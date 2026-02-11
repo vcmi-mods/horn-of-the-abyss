@@ -69,7 +69,7 @@
 				"damagePowerCannon" : {
 					"val" : 200
 				},
-					"cannonSiegeShot" : {
+				"cannonSiegeShot" : {
 					"val" : 3
 				}
 			}

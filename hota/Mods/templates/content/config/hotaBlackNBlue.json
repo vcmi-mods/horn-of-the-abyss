@@ -10,8 +10,7 @@
 	// zones 3-5 and 7 should contain pandora boxes with stone golems (rare:200, nolimit)
 	// zones 8-11 should contain boxes with vamp lords (3), skellies (rare:200, nolimit), 2 prisons without xp
 	// zones 8-11 should contain spell scrolls lvl 1-3
-	"[HotA] Black'n'Blue" :
-	{
+	"[HotA] Black'n'Blue" : {
 		"description" : "This template makes use of non-standard objects. Each player has access to the snow zones with Ancient Lamps and Dragon Utopias; as well as Subterranean zones with Pandora Boxes. Player areas are connected via large and rich treasure zone with Ancient Lamps, Pandora Boxes, Dragon Utopias and Faerie Dragon Dwellings.",
 		"minSize" : "l+u",
 		"maxSize" : "l+u",
@@ -45,10 +44,8 @@
 				"allowRandomSpecialWeeks" : true
 			}
 		},
-		"zones" :
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "treasure",
 				"size" : 18,
 				"forcedLevel" : "surface",
@@ -57,17 +54,36 @@
 					"castles" : 1,
 					"towns" : 2
 				},
-				"allowedTowns" : [ "conflux" ],
+				"allowedTowns" : [
+					"conflux"
+				],
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "sand" ],
-				"bannedMonsters" : [ "conflux", "neutral" ],
+				"terrainTypes" : [
+					"sand"
+				],
+				"bannedMonsters" : [
+					"conflux",
+					"neutral"
+				],
 				"mines" : {
 					"gold" : 2
 				},
 				"treasure" : [
-					{ "min" : 15000, "max" : 45000, "density" : 12 },
-					{ "min" : 10000, "max" : 15000, "density" : 8 },
-					{ "min" : 5000, "max" : 10000, "density" : 12 }
+					{
+						"min" : 15000,
+						"max" : 45000,
+						"density" : 12
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 8
+					},
+					{
+						"min" : 5000,
+						"max" : 10000,
+						"density" : 12
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
@@ -347,8 +363,7 @@
 					]
 				}
 			},
-			"2" :
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 7,
 				"owner" : 1,
@@ -358,15 +373,30 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux", "neutral" ],
+				"bannedMonsters" : [
+					"conflux",
+					"neutral"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1
 				},
 				"treasure" : [
-					{ "min" : 6000, "max" : 10000, "density" : 1 },
-					{ "min" : 3000, "max" : 6000, "density" : 6 },
-					{ "min" : 500, "max" : 3000, "density" : 7 }
+					{
+						"min" : 6000,
+						"max" : 10000,
+						"density" : 1
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 6
+					},
+					{
+						"min" : 500,
+						"max" : 3000,
+						"density" : 7
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
@@ -698,8 +728,7 @@
 					]
 				}
 			},
-			"3" :
-			{
+			"3" : {
 				"type" : "treasure",
 				"size" : 12,
 				"forcedLevel" : "surface",
@@ -707,9 +736,13 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "tower" ],
+				"allowedTowns" : [
+					"tower"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -717,16 +750,27 @@
 					"gold" : 2
 				},
 				"treasure" : [
-					{ "min" : 8000, "max" : 17000, "density" : 6 },
-					{ "min" : 6000, "max" : 10000, "density" : 10 },
-					{ "min" : 3000, "max" : 8000, "density" : 8 }
+					{
+						"min" : 8000,
+						"max" : 17000,
+						"density" : 6
+					},
+					{
+						"min" : 6000,
+						"max" : 10000,
+						"density" : 10
+					},
+					{
+						"min" : 3000,
+						"max" : 8000,
+						"density" : 8
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
 						"all"
 					],
-					"bannedObjects" : {
-					},
+					"bannedObjects" : {},
 					"commonObjects" : [
 						{
 							"rmg" : {
@@ -1153,8 +1197,7 @@
 					]
 				}
 			},
-			"4" :
-			{
+			"4" : {
 				"type" : "treasure",
 				"size" : 12,
 				"forcedLevel" : "surface",
@@ -1162,9 +1205,13 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "tower" ],
+				"allowedTowns" : [
+					"tower"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -1174,8 +1221,7 @@
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 3
 			},
-			"5" :
-			{
+			"5" : {
 				"type" : "treasure",
 				"size" : 12,
 				"forcedLevel" : "surface",
@@ -1183,9 +1229,13 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "tower" ],
+				"allowedTowns" : [
+					"tower"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -1195,8 +1245,7 @@
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 3
 			},
-			"6" :
-			{
+			"6" : {
 				"type" : "playerStart",
 				"size" : 7,
 				"owner" : 2,
@@ -1206,13 +1255,15 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux", "neutral" ],
+				"bannedMonsters" : [
+					"conflux",
+					"neutral"
+				],
 				"minesLikeZone" : 2,
 				"treasureLikeZone" : 2,
 				"customObjectsLikeZone" : 2
 			},
-			"7" :
-			{
+			"7" : {
 				"type" : "treasure",
 				"size" : 12,
 				"forcedLevel" : "surface",
@@ -1220,9 +1271,13 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "tower" ],
+				"allowedTowns" : [
+					"tower"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -1232,8 +1287,7 @@
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 3
 			},
-			"8" :
-			{
+			"8" : {
 				"type" : "treasure",
 				"size" : 8,
 				"forcedLevel" : "underground",
@@ -1241,9 +1295,13 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -1253,9 +1311,21 @@
 					"mercury" : 1
 				},
 				"treasure" : [
-					{ "min" : 15000, "max" : 20000, "density" : 5 },
-					{ "min" : 3000, "max" : 12000, "density" : 6 },
-					{ "min" : 250, "max" : 3000, "density" : 4 }
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 5
+					},
+					{
+						"min" : 3000,
+						"max" : 12000,
+						"density" : 6
+					},
+					{
+						"min" : 250,
+						"max" : 3000,
+						"density" : 4
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
@@ -1616,8 +1686,7 @@
 					]
 				}
 			},
-			"9" :
-			{
+			"9" : {
 				"type" : "treasure",
 				"size" : 8,
 				"forcedLevel" : "underground",
@@ -1625,15 +1694,18 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"minesLikeZone" : 8,
 				"treasureLikeZone" : 8,
 				"customObjectsLikeZone" : 8
 			},
-			"10" :
-			{
+			"10" : {
 				"type" : "treasure",
 				"size" : 8,
 				"forcedLevel" : "underground",
@@ -1641,15 +1713,18 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"minesLikeZone" : 8,
 				"treasureLikeZone" : 8,
 				"customObjectsLikeZone" : 8
 			},
-			"11" :
-			{
+			"11" : {
 				"type" : "treasure",
 				"size" : 8,
 				"forcedLevel" : "underground",
@@ -1657,43 +1732,182 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "conflux" ],
+				"bannedMonsters" : [
+					"conflux"
+				],
 				"minesLikeZone" : 8,
 				"treasureLikeZone" : 8,
 				"customObjectsLikeZone" : 8
 			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "2", "guard" : 45000, "road" : "true" },
-			{ "a" : "1", "b" : "2", "guard" : 45000, "road" : "true" },
-			{ "a" : "1", "b" : "6", "guard" : 45000, "road" : "true" },
-			{ "a" : "1", "b" : "6", "guard" : 45000, "road" : "true" },
-			{ "a" : "2", "b" : "3", "guard" : 9000, "road" : "true" },
-			{ "a" : "2", "b" : "3", "guard" : 9000, "road" : "true" },
-			{ "a" : "2", "b" : "4", "guard" : 9000, "road" : "true" },
-			{ "a" : "2", "b" : "4", "guard" : 9000, "road" : "true" },
-			{ "a" : "2", "b" : "8", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
-			{ "a" : "2", "b" : "9", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
-			{ "a" : "3", "b" : "4", "type" : "forcePortal", "guard" : 0, "road" : "true" },
-			{ "a" : "5", "b" : "6", "guard" : 9000, "road" : "true" },
-			{ "a" : "5", "b" : "6", "guard" : 9000, "road" : "true" },
-			{ "a" : "5", "b" : "7", "type" : "forcePortal", "guard" : 0, "road" : "true" },
-			{ "a" : "6", "b" : "7", "guard" : 9000, "road" : "true" },
-			{ "a" : "6", "b" : "7", "guard" : 9000, "road" : "true" },
-			{ "a" : "6", "b" : "10", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
-			{ "a" : "6", "b" : "11", "type" : "forcePortal", "guard" : 3000, "road" : "true" },
-			{ "a" : "8", "b" : "9", "guard" : 3000, "road" : "true" },
-			{ "a" : "8", "b" : "9", "type" : "wide", "road" : "true" },
-			{ "a" : "10", "b" : "11", "type" : "wide", "road" : "true" },
-			{ "a" : "10", "b" : "11", "guard" : 3000, "road" : "true" },
-			{ "a" : "1", "b" : "3", "type" : "fictive" },
-			{ "a" : "1", "b" : "4", "type" : "fictive" },
-			{ "a" : "1", "b" : "5", "type" : "fictive" },
-			{ "a" : "1", "b" : "7", "type" : "fictive" },
-			{ "a" : "3", "b" : "5", "type" : "fictive" }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "2",
+				"guard" : 45000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "2",
+				"guard" : 45000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "6",
+				"guard" : 45000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "6",
+				"guard" : 45000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "3",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "3",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "4",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "4",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "8",
+				"type" : "forcePortal",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "9",
+				"type" : "forcePortal",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"type" : "forcePortal",
+				"guard" : 0,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "6",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "6",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "7",
+				"type" : "forcePortal",
+				"guard" : 0,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "7",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "7",
+				"guard" : 9000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "10",
+				"type" : "forcePortal",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "11",
+				"type" : "forcePortal",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "8",
+				"b" : "9",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "8",
+				"b" : "9",
+				"type" : "wide",
+				"road" : "true"
+			},
+			{
+				"a" : "10",
+				"b" : "11",
+				"type" : "wide",
+				"road" : "true"
+			},
+			{
+				"a" : "10",
+				"b" : "11",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "3",
+				"type" : "fictive"
+			},
+			{
+				"a" : "1",
+				"b" : "4",
+				"type" : "fictive"
+			},
+			{
+				"a" : "1",
+				"b" : "5",
+				"type" : "fictive"
+			},
+			{
+				"a" : "1",
+				"b" : "7",
+				"type" : "fictive"
+			},
+			{
+				"a" : "3",
+				"b" : "5",
+				"type" : "fictive"
+			}
 		]
 	}
 }

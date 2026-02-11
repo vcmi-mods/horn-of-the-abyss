@@ -1,36 +1,34 @@
 {
 	"cannonSiegeShot" : {
 		"targetType" : "LOCATION",
-		"type": "ability",
-		"name": "Cannon",
+		"type" : "ability",
+		"name" : "Cannon",
 		"school" : {},
-		"level": 1,
-		"power": 1,
-		"defaultGainChance": 0,
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
 		"animation" : {
 			// should be no arc, just a regular shot
 		},
-		"targetCondition" : {
-		},
-		"gainChance": {
-		},
+		"targetCondition" : {},
+		"gainChance" : {},
 		"levels" : {
-			"base":{
+			"base" : {
 				"description" : "Cannon Siege Shot",
 				"power" : 1,
 				"cost" : 0,
-				"targetModifier":{
+				"targetModifier" : {
 					"smart" : true
 				},
-				"battleEffects":{
-					"catapult":{
-						"targetsToAttack": 1,
-						"type":"core:catapult"
+				"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack" : 1,
+						"type" : "core:catapult"
 					}
 				},
 				"range" : "0"
 			},
-			"none":{
+			"none" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitKeep" : 5,
@@ -42,7 +40,7 @@
 					}
 				}
 			},
-			"basic":{
+			"basic" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitKeep" : 7,
@@ -54,7 +52,7 @@
 					}
 				}
 			},
-			"advanced":{
+			"advanced" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitKeep" : 7,
@@ -66,7 +64,7 @@
 					}
 				}
 			},
-			"expert":{
+			"expert" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitKeep" : 100,
@@ -81,7 +79,7 @@
 		},
 		"flags" : {
 			"nonMagical" : true,
-			"indifferent": true,
+			"indifferent" : true,
 			"special" : true
 		}
 	}

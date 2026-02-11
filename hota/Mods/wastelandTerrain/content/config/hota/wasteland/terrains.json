@@ -17,7 +17,10 @@
 		],
 		"tiles" : "hota/wasteland/tiles",
 		"type" : [],
-		"allowedLayers": ["surface", "unknown"],
+		"allowedLayers" : [
+			"surface",
+			"unknown"
+		],
 		"shortIdentifier" : "ws",
 		"river" : "mudRiver",
 		"rockTerrain" : "rock",

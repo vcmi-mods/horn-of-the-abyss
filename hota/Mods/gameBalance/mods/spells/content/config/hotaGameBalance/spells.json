@@ -241,7 +241,7 @@
 	},
 	"core:forgetfulness" : {
 		"levels" : {
-			"base":{
+			"base" : {
 				"effects" : {
 					"meleeAttackDamageReduction" : {
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
@@ -249,7 +249,7 @@
 						"duration" : "N_TURNS",
 						"val" : -50
 					}
-				}	
+				}
 			}
 		}
 	}

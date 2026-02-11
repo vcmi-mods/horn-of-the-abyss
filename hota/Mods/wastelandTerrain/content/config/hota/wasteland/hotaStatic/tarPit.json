@@ -5,7 +5,9 @@
 		"types" : {
 			"tarPit" : {
 				"sounds" : {
-					"ambient" : [ "LOOPEART" ]
+					"ambient" : [
+						"LOOPEART"
+					]
 				},
 				"templates" : {
 					"AVLwloi1" : {

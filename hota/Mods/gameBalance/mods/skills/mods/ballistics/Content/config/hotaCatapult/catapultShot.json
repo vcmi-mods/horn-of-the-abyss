@@ -1,14 +1,14 @@
 {
 	"core:catapultShot" : {
 		"levels" : {
-			"basic": {
+			"basic" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitGate" : 60
 					}
 				}
 			},
-			"advanced": {
+			"advanced" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitGate" : 60
@@ -29,7 +29,7 @@
 	},
 	"core:cyclopsShot" : {
 		"levels" : {
-			"base": {
+			"base" : {
 				"battleEffects" : {
 					"catapult" : {
 						"chanceToHitGate" : 60

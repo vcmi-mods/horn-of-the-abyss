@@ -1,7 +1,7 @@
 {
 	"building.core.necropolis.special2.description" : "招魂塔可以使你所有掌握招魂术的英雄招魂术提高5%。.",
-    "building.core.dungeon.special2.description": "魔力漩涡使一个来访的英雄魔法值翻倍，每周一次。",
-    "building.core.dungeon.special2.onEmpty": "你得英雄魔法值过多，无法从魔力漩涡中获得更多的魔法值。",
-    "building.core.dungeon.special2.onVisited": "这个魔力漩涡本周已经使用过了。",
-    "building.core.dungeon.special2.rewards.0": "接近魔力漩涡时，你感觉到你的全身充满活力。\n\n你想使用魔力漩涡来使你的英雄魔法值翻倍吗？。"
+	"building.core.dungeon.special2.description" : "魔力漩涡使一个来访的英雄魔法值翻倍，每周一次。",
+	"building.core.dungeon.special2.onEmpty" : "你得英雄魔法值过多，无法从魔力漩涡中获得更多的魔法值。",
+	"building.core.dungeon.special2.onVisited" : "这个魔力漩涡本周已经使用过了。",
+	"building.core.dungeon.special2.rewards.0" : "接近魔力漩涡时，你感觉到你的全身充满活力。\n\n你想使用魔力漩涡来使你的英雄魔法值翻倍吗？。"
 }

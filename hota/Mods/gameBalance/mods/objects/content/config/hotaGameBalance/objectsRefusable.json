@@ -40,8 +40,8 @@
 			}
 		}
 	},
-  
- 	"hota.mapobjects:colosseumOfTheMagi" : {
+
+	"hota.mapobjects:colosseumOfTheMagi" : {
 		"types" : {
 			"colosseumOfTheMagi" : {
 				"canRefuse" : true

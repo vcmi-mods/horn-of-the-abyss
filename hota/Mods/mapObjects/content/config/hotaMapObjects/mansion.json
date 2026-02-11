@@ -20,7 +20,7 @@
 				},
 				"variables" : {
 					"artifact" : {
-						"gainedArtifact" : { 
+						"gainedArtifact" : {
 							"anyOf" : [
 								{
 									"class" : "MAJOR"

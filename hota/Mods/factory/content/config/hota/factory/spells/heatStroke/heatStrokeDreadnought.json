@@ -2,44 +2,40 @@
 	"heatStrokeDreadnought" : {
 		"type" : "ability",
 		"name" : "Heat Stroke",
-		"school" : {
-		},
+		"school" : {},
 		"level" : 0,
 		"power" : 0,
 		"defaultGainChance" : 0,
-		"gainChance" : {
-		},
+		"gainChance" : {},
 		"targetType" : "CREATURE",
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 		"animation" : {
-			"affect":[ 
+			"affect" : [
 				{
 					"effectName" : "bloodlust"
 				}
 			]
 		},
-		"sounds" : {
-		},
+		"sounds" : {},
 		"flags" : {
 			"indifferent" : true,
 			"special" : true
 		},
 		"canCastOnlyOnSelf" : true,
-        "canCastWithoutSkip": true,
+		"canCastWithoutSkip" : true,
 		"graphics" : {
 			"iconImmune" : "hota/factory/spells/heatstrokeDreadnought.png",
 			"iconEffect" : "hota/factory/spells/heatstrokeDreadnought.png",
-			"iconBook": "hota/factory/spells/heatstrokeDreadnought.png",
-			"iconScroll": "hota/factory/spells/heatstrokeDreadnought.png",
-			"iconScenarioBonus": "hota/factory/spells/heatstrokeDreadnought.png"
+			"iconBook" : "hota/factory/spells/heatstrokeDreadnought.png",
+			"iconScroll" : "hota/factory/spells/heatstrokeDreadnought.png",
+			"iconScenarioBonus" : "hota/factory/spells/heatstrokeDreadnought.png"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0",
 				"battleEffects" : {
 					"heatStroke" : {
-						"type": "core:timed",
+						"type" : "core:timed",
 						"bonus" : {
 							"noRetaliation" : {
 								"type" : "BLOCKS_RETALIATION",
@@ -69,8 +65,8 @@
 						}
 					}
 				},
-				"targetModifier":{
-					"smart":false
+				"targetModifier" : {
+					"smart" : false
 				}
 			},
 			"none" : {

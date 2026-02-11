@@ -100,7 +100,7 @@
 						],
 						"mask" : [
 							"VAV"
-						],
+						]
 						// HotA 1.8.0: any dry land; NOT IMPLEMENTED BY VCMI: only for zones with Tower faction
 					}
 				}

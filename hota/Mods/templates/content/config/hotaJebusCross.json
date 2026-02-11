@@ -1,6 +1,5 @@
 {
-	"[HotA] Jebus Cross":
-	{
+	"[HotA] Jebus Cross" : {
 		"description" : "L/XL-U template, not most-balanced, but one of the most popular overall, due to its simple layout and fast pace. Every player starts on a big, poorly guarded and rich zone. From the starting zone they try to enter the extra-rich central zone defeating a strong guard as early as possible.",
 		"minSize" : "l",
 		"maxSize" : "xl",
@@ -10,25 +9,37 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
-		"zones":
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "treasure",
 				"size" : 40,
 				"neutralTowns" : {
 					"castles" : 2
 				},
-				"terrainTypes" : [ "sand" ],
+				"terrainTypes" : [
+					"sand"
+				],
 				"matchTerrainToTown" : false,
 				"monsters" : "strong",
 				"mines" : {
 					"gold" : 4
 				},
 				"treasure" : [
-					{"min" : 35000, "max": 55000, "density" : 3},
-					{"min" : 25000, "max": 35000, "density" : 10},
-					{"min" : 10000, "max": 25000, "density" : 10}
+					{
+						"min" : 35000,
+						"max" : 55000,
+						"density" : 3
+					},
+					{
+						"min" : 25000,
+						"max" : 35000,
+						"density" : 10
+					},
+					{
+						"min" : 10000,
+						"max" : 25000,
+						"density" : 10
+					}
 				],
 				"customObjects" : {
 					"bannedObjects" : {
@@ -67,8 +78,7 @@
 					]
 				}
 			},
-			"2":
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 30,
 				"owner" : 1,
@@ -90,9 +100,21 @@
 					"gold" : 2
 				},
 				"treasure" : [
-					{"min" : 12000, "max": 22000, "density": 1},
-					{"min" : 5000, "max": 16000, "density": 6},
-					{"min" : 300, "max": 3000, "density": 14}
+					{
+						"min" : 12000,
+						"max" : 22000,
+						"density" : 1
+					},
+					{
+						"min" : 5000,
+						"max" : 16000,
+						"density" : 6
+					},
+					{
+						"min" : 300,
+						"max" : 3000,
+						"density" : 14
+					}
 				],
 				"customObjects" : {
 					"commonObjects" : [
@@ -134,8 +156,7 @@
 					]
 				}
 			},
-			"3":
-			{
+			"3" : {
 				"type" : "playerStart",
 				"size" : 30,
 				"owner" : 2,
@@ -150,8 +171,7 @@
 				"customObjectsLikeZone" : 2,
 				"treasureLikeZone" : 2
 			},
-			"4":
-			{
+			"4" : {
 				"type" : "playerStart",
 				"size" : 30,
 				"owner" : 3,
@@ -166,8 +186,7 @@
 				"customObjectsLikeZone" : 2,
 				"treasureLikeZone" : 2
 			},
-			"5":
-			{
+			"5" : {
 				"type" : "playerStart",
 				"size" : 30,
 				"owner" : 4,
@@ -183,12 +202,27 @@
 				"treasureLikeZone" : 2
 			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "2", "guard" : 45000 },
-			{ "a" : "1", "b" : "3", "guard" : 45000 },
-			{ "a" : "1", "b" : "4", "guard" : 45000 },
-			{ "a" : "1", "b" : "5", "guard" : 45000 }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "2",
+				"guard" : 45000
+			},
+			{
+				"a" : "1",
+				"b" : "3",
+				"guard" : 45000
+			},
+			{
+				"a" : "1",
+				"b" : "4",
+				"guard" : 45000
+			},
+			{
+				"a" : "1",
+				"b" : "5",
+				"guard" : 45000
+			}
 		]
 	}
 }

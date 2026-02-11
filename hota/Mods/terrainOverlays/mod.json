@@ -51,8 +51,7 @@
 		"config/dunes/obstacles.json",
 		"config/fieldsOfGlory/obstacles.json"
 	],
-	"terrains" :
-	[
+	"terrains" : [
 		"config/hotaTerrains.json"
 	]
 }

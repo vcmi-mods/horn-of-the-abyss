@@ -9,10 +9,8 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
-		"zones" :
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 1,
@@ -24,11 +22,22 @@
 					"wood" : 1,
 					"ore" : 1
 				},
-				"treasure" :
-				[
-					{ "min" : 10000, "max" : 15000, "density" : 1 },
-					{ "min" : 3000, "max" : 6000, "density" : 6 },
-					{ "min" : 500, "max" : 3000, "density" : 9 }
+				"treasure" : [
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 1
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 6
+					},
+					{
+						"min" : 500,
+						"max" : 3000,
+						"density" : 9
+					}
 				],
 				"matchTerrainToTown" : true,
 				"customObjects" : {
@@ -42,16 +51,15 @@
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value"     : 10000,
-								"rarity"    : 210,
+								"value" : 10000,
+								"rarity" : 210,
 								"zoneLimit" : 1
 							}
 						}
 					]
 				}
 			},
-			"2" :
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 8,
@@ -64,8 +72,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"3" :
-			{
+			"3" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 3,
@@ -78,8 +85,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"4" :
-			{
+			"4" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 4,
@@ -92,8 +98,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"5" :
-			{
+			"5" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 5,
@@ -106,8 +111,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"6" :
-			{
+			"6" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 6,
@@ -120,8 +124,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"7" :
-			{
+			"7" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 7,
@@ -134,8 +137,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"8" :
-			{
+			"8" : {
 				"type" : "playerStart",
 				"size" : 20,
 				"owner" : 2,
@@ -148,8 +150,7 @@
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"9" :
-			{
+			"9" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -161,11 +162,22 @@
 					"ore" : 1,
 					"mercury" : 1
 				},
-				"treasure" :
-				[
-					{ "min" : 15000, "max" : 20000, "density" : 1 },
-					{ "min" : 10000, "max" : 15000, "density" : 6 },
-					{ "min" : 3000, "max" : 6000, "density" : 9 }
+				"treasure" : [
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 1
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 6
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 9
+					}
 				],
 				"matchTerrainToTown" : true,
 				"customObjects" : {
@@ -179,16 +191,15 @@
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value"     : 10000,
-								"rarity"    : 210,
+								"value" : 10000,
+								"rarity" : 210,
 								"zoneLimit" : 2
 							}
 						}
 					]
 				}
 			},
-			"10" :
-			{
+			"10" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -204,8 +215,7 @@
 				"customObjectsLikeZone" : 9,
 				"treasureLikeZone" : 9
 			},
-			"11" :
-			{
+			"11" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -221,8 +231,7 @@
 				"customObjectsLikeZone" : 9,
 				"treasureLikeZone" : 9
 			},
-			"12" :
-			{
+			"12" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -238,8 +247,7 @@
 				"customObjectsLikeZone" : 9,
 				"treasureLikeZone" : 9
 			},
-			"13" :
-			{
+			"13" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -251,8 +259,7 @@
 				"minesLikeZone" : 9,
 				"treasureLikeZone" : 9
 			},
-			"14" :
-			{
+			"14" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -264,8 +271,7 @@
 				"minesLikeZone" : 10,
 				"treasureLikeZone" : 9
 			},
-			"15" :
-			{
+			"15" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -277,8 +283,7 @@
 				"minesLikeZone" : 11,
 				"treasureLikeZone" : 9
 			},
-			"16" :
-			{
+			"16" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -290,8 +295,7 @@
 				"minesLikeZone" : 12,
 				"treasureLikeZone" : 9
 			},
-			"17" :
-			{
+			"17" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -303,8 +307,7 @@
 				"minesLikeZone" : 9,
 				"treasureLikeZone" : 9
 			},
-			"18" :
-			{
+			"18" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -316,8 +319,7 @@
 				"minesLikeZone" : 10,
 				"treasureLikeZone" : 9
 			},
-			"19" :
-			{
+			"19" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -329,8 +331,7 @@
 				"minesLikeZone" : 11,
 				"treasureLikeZone" : 9
 			},
-			"20" :
-			{
+			"20" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
@@ -342,8 +343,7 @@
 				"minesLikeZone" : 12,
 				"treasureLikeZone" : 9
 			},
-			"21" :
-			{
+			"21" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -355,8 +355,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"22" :
-			{
+			"22" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -368,8 +367,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"23" :
-			{
+			"23" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -377,8 +375,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"24" :
-			{
+			"24" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -386,8 +383,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"25" :
-			{
+			"25" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -395,8 +391,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"26" :
-			{
+			"26" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -404,8 +399,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"27" :
-			{
+			"27" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -413,8 +407,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"28" :
-			{
+			"28" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -422,8 +415,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"29" :
-			{
+			"29" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -431,8 +423,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"30" :
-			{
+			"30" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -440,8 +431,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"31" :
-			{
+			"31" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -450,8 +440,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"32" :
-			{
+			"32" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "normal",
@@ -460,8 +449,7 @@
 				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
-			"33" :
-			{
+			"33" : {
 				"type" : "treasure",
 				"size" : 30,
 				"monsters" : "strong",
@@ -469,11 +457,22 @@
 				"mines" : {
 					"gold" : 2
 				},
-				"treasure" :
-				[
-					{ "min" : 20000, "max" : 30000, "density" : 1 },
-					{ "min" : 15000, "max" : 20000, "density" : 6 },
-					{ "min" : 10000, "max" : 15000, "density" : 9 }
+				"treasure" : [
+					{
+						"min" : 20000,
+						"max" : 30000,
+						"density" : 1
+					},
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 6
+					},
+					{
+						"min" : 10000,
+						"max" : 15000,
+						"density" : 9
+					}
 				],
 				"customObjects" : {
 					"bannedObjects" : {
@@ -486,66 +485,289 @@
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value"     : 10000,
-								"rarity"    : 210
+								"value" : 10000,
+								"rarity" : 210
 							}
 						}
 					]
 				}
 			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "21", "guard" : 3000, "road" : "true" },
-			{ "a" : "1", "b" : "24", "guard" : 3000, "road" : "true" },
-			{ "a" : "2", "b" : "23", "guard" : 3000 },
-			{ "a" : "2", "b" : "25", "guard" : 3000 },
-			{ "a" : "3", "b" : "11", "guard" : 6000 },
-			{ "a" : "3", "b" : "14", "guard" : 6000 },
-			{ "a" : "3", "b" : "22", "guard" : 3000, "road" : "true" },
-			{ "a" : "3", "b" : "26", "guard" : 3000 },
-			{ "a" : "4", "b" : "11", "guard" : 6000 },
-			{ "a" : "4", "b" : "22", "guard" : 3000, "road" : "true" },
-			{ "a" : "4", "b" : "27", "guard" : 3000, "road" : "false" },
-			{ "a" : "5", "b" : "18", "guard" : 6000 },
-			{ "a" : "5", "b" : "26", "guard" : 3000, "road" : "false" },
-			{ "a" : "5", "b" : "31", "guard" : 3000, "road" : "true" },
-			{ "a" : "6", "b" : "15", "guard" : 6000 },
-			{ "a" : "6", "b" : "18", "guard" : 6000 },
-			{ "a" : "6", "b" : "27", "guard" : 3000 },
-			{ "a" : "6", "b" : "31", "guard" : 3000, "road" : "true" },
-			{ "a" : "7", "b" : "28", "guard" : 3000 },
-			{ "a" : "7", "b" : "30", "guard" : 3000 },
-			{ "a" : "8", "b" : "29", "guard" : 3000, "road" : "true" },
-			{ "a" : "8", "b" : "32", "guard" : 3000, "road" : "true" },
-			{ "a" : "9", "b" : "21", "guard" : 6000, "road" : "true" },
-			{ "a" : "10", "b" : "23", "guard" : 6000 },
-			{ "a" : "11", "b" : "22", "guard" : 6000 },
-			{ "a" : "11", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "11", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "12", "b" : "24", "guard" : 6000, "road" : "true" },
-			{ "a" : "13", "b" : "25", "guard" : 6000 },
-			{ "a" : "14", "b" : "26", "guard" : 6000 },
-			{ "a" : "14", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "14", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "15", "b" : "27", "guard" : 6000 },
-			{ "a" : "15", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "15", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "16", "b" : "28", "guard" : 6000 },
-			{ "a" : "17", "b" : "29", "guard" : 6000, "road" : "true" },
-			{ "a" : "18", "b" : "31", "guard" : 6000 },
-			{ "a" : "18", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "18", "b" : "33", "guard" : 9000, "road" : "false" },
-			{ "a" : "19", "b" : "30", "guard" : 6000 },
-			{ "a" : "20", "b" : "32", "guard" : 6000, "road" : "true" },
-			{ "a" : "21", "b" : "22", "guard" : 3000, "road" : "true" },
-			{ "a" : "22", "b" : "23", "guard" : 3000 },
-			{ "a" : "24", "b" : "26", "guard" : 3000 },
-			{ "a" : "25", "b" : "27", "guard" : 3000 },
-			{ "a" : "26", "b" : "28", "guard" : 3000 },
-			{ "a" : "27", "b" : "29", "guard" : 3000 },
-			{ "a" : "30", "b" : "31", "guard" : 3000 },
-			{ "a" : "31", "b" : "32", "guard" : 3000, "road" : "true" }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "21",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "24",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "23",
+				"guard" : 3000
+			},
+			{
+				"a" : "2",
+				"b" : "25",
+				"guard" : 3000
+			},
+			{
+				"a" : "3",
+				"b" : "11",
+				"guard" : 6000
+			},
+			{
+				"a" : "3",
+				"b" : "14",
+				"guard" : 6000
+			},
+			{
+				"a" : "3",
+				"b" : "22",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "26",
+				"guard" : 3000
+			},
+			{
+				"a" : "4",
+				"b" : "11",
+				"guard" : 6000
+			},
+			{
+				"a" : "4",
+				"b" : "22",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "27",
+				"guard" : 3000,
+				"road" : "false"
+			},
+			{
+				"a" : "5",
+				"b" : "18",
+				"guard" : 6000
+			},
+			{
+				"a" : "5",
+				"b" : "26",
+				"guard" : 3000,
+				"road" : "false"
+			},
+			{
+				"a" : "5",
+				"b" : "31",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "15",
+				"guard" : 6000
+			},
+			{
+				"a" : "6",
+				"b" : "18",
+				"guard" : 6000
+			},
+			{
+				"a" : "6",
+				"b" : "27",
+				"guard" : 3000
+			},
+			{
+				"a" : "6",
+				"b" : "31",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "7",
+				"b" : "28",
+				"guard" : 3000
+			},
+			{
+				"a" : "7",
+				"b" : "30",
+				"guard" : 3000
+			},
+			{
+				"a" : "8",
+				"b" : "29",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "8",
+				"b" : "32",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "9",
+				"b" : "21",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "10",
+				"b" : "23",
+				"guard" : 6000
+			},
+			{
+				"a" : "11",
+				"b" : "22",
+				"guard" : 6000
+			},
+			{
+				"a" : "11",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "11",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "12",
+				"b" : "24",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "13",
+				"b" : "25",
+				"guard" : 6000
+			},
+			{
+				"a" : "14",
+				"b" : "26",
+				"guard" : 6000
+			},
+			{
+				"a" : "14",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "14",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "15",
+				"b" : "27",
+				"guard" : 6000
+			},
+			{
+				"a" : "15",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "15",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "16",
+				"b" : "28",
+				"guard" : 6000
+			},
+			{
+				"a" : "17",
+				"b" : "29",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "18",
+				"b" : "31",
+				"guard" : 6000
+			},
+			{
+				"a" : "18",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "18",
+				"b" : "33",
+				"guard" : 9000,
+				"road" : "false"
+			},
+			{
+				"a" : "19",
+				"b" : "30",
+				"guard" : 6000
+			},
+			{
+				"a" : "20",
+				"b" : "32",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "21",
+				"b" : "22",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "22",
+				"b" : "23",
+				"guard" : 3000
+			},
+			{
+				"a" : "24",
+				"b" : "26",
+				"guard" : 3000
+			},
+			{
+				"a" : "25",
+				"b" : "27",
+				"guard" : 3000
+			},
+			{
+				"a" : "26",
+				"b" : "28",
+				"guard" : 3000
+			},
+			{
+				"a" : "27",
+				"b" : "29",
+				"guard" : 3000
+			},
+			{
+				"a" : "30",
+				"b" : "31",
+				"guard" : 3000
+			},
+			{
+				"a" : "31",
+				"b" : "32",
+				"guard" : 3000,
+				"road" : "true"
+			}
 		]
 	}
 }

@@ -1,8 +1,8 @@
 {
-//	"core:goldGolem" : {
-//		// Support for alternate Death sound (GGLMDETH.wav) not present in VCMI
-//		// "kill2" : "GGLMDETH.wav"
-//	},
+	//	"core:goldGolem" : {
+	//		// Support for alternate Death sound (GGLMDETH.wav) not present in VCMI
+	//		// "kill2" : "GGLMDETH.wav"
+	//	},
 	"core:archangel" : {
 		"graphics" : {
 			"animationTime" : {

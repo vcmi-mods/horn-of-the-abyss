@@ -1,6 +1,5 @@
 {
-	"[HotA] Skirmish(M)" :
-	{
+	"[HotA] Skirmish(M)" : {
 		"description" : "M-size template designed to use with 200% difficulty. Poor player areas are connected by 3 rather valuable treasure zones. The pairs of zones usually have multiple connections, some of which have roads. The games are usually quick, and the outcome depends on spells found.",
 		"minSize" : "m",
 		"maxSize" : "m",
@@ -18,7 +17,7 @@
 			"dimensionDoor",
 			"townPortal"
 		],
-		"bannedArtifacts": [
+		"bannedArtifacts" : [
 			"angelWings"
 		],
 		"bannedHeroes" : [
@@ -37,10 +36,8 @@
 			"hota.heroes:kinkeria",
 			"hota.factory:17victoria"
 		],
-		"zones" :
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "playerStart",
 				"size" : 25,
 				"owner" : 1,
@@ -49,7 +46,10 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedTowns" : [ "necropolis", "conflux" ],
+				"bannedTowns" : [
+					"necropolis",
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -59,9 +59,21 @@
 					"crystal" : 1
 				},
 				"treasure" : [
-					{ "min" : 3300, "max" : 3500, "density" : 4 },
-					{ "min" : 1000, "max" : 2000, "density" : 7 },
-					{ "min" : 330, "max" : 1000, "density" : 3 }
+					{
+						"min" : 3300,
+						"max" : 3500,
+						"density" : 4
+					},
+					{
+						"min" : 1000,
+						"max" : 2000,
+						"density" : 7
+					},
+					{
+						"min" : 330,
+						"max" : 1000,
+						"density" : 3
+					}
 				],
 				"customObjects" : {
 					"bannedObjects" : {
@@ -74,8 +86,7 @@
 					}
 				}
 			},
-			"2" :
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 25,
 				"owner" : 2,
@@ -84,108 +95,211 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedTowns" : [ "necropolis", "conflux" ],
+				"bannedTowns" : [
+					"necropolis",
+					"conflux"
+				],
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1,
 				"customObjectsLikeZone" : 1
 			},
-			"3" :
-			{
+			"3" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
-				"terrainTypes" : [ "dirt", "grass", "lava", "hota.highlandsterrain:highlands" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
+				"terrainTypes" : [
+					"dirt",
+					"grass",
+					"lava",
+					"hota.highlandsterrain:highlands"
+				],
 				"matchTerrainToTown" : false,
 				"mines" : {
 					"gold" : 2
 				},
-				"treasure" :
-				[
-					{ "min" : 5000, "max" : 7000, "density" : 8 },
-					{ "min" : 1500, "max" : 2000, "density" : 2 },
-					{ "min" : 330, "max" : 1500, "density" : 5 }
+				"treasure" : [
+					{
+						"min" : 5000,
+						"max" : 7000,
+						"density" : 8
+					},
+					{
+						"min" : 1500,
+						"max" : 2000,
+						"density" : 2
+					},
+					{
+						"min" : 330,
+						"max" : 1500,
+						"density" : 5
+					}
 				],
 				"customObjectsLikeZone" : 1
 			},
-			"4" :
-			{
+			"4" : {
 				"type" : "treasure",
 				"size" : 15,
 				"monsters" : "strong",
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"allowedTowns" : [ "necropolis" ],
-				"terrainTypes" : [ "dirt", "grass", "lava", "hota.highlandsterrain:highlands" ],
+				"allowedTowns" : [
+					"necropolis"
+				],
+				"terrainTypes" : [
+					"dirt",
+					"grass",
+					"lava",
+					"hota.highlandsterrain:highlands"
+				],
 				"matchTerrainToTown" : false,
 				"treasureLikeZone" : 3,
 				"minesLikeZone" : 3,
 				"customObjectsLikeZone" : 1
 			},
-			"5" :
-			{
+			"5" : {
 				"type" : "treasure",
 				"size" : 25,
 				"monsters" : "strong",
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"terrainTypes" : [ "dirt", "grass", "lava", "hota.highlandsterrain:highlands" ],
+				"terrainTypes" : [
+					"dirt",
+					"grass",
+					"lava",
+					"hota.highlandsterrain:highlands"
+				],
 				"matchTerrainToTown" : false,
-				"treasure" :
-				[
-					{ "min" : 10000, "max" : 40000, "density" : 1 },
-					{ "min" : 8000, "max" : 9150, "density" : 10 },
-					{ "min" : 350, "max" : 2000, "density" : 3 }
+				"treasure" : [
+					{
+						"min" : 10000,
+						"max" : 40000,
+						"density" : 1
+					},
+					{
+						"min" : 8000,
+						"max" : 9150,
+						"density" : 10
+					},
+					{
+						"min" : 350,
+						"max" : 2000,
+						"density" : 3
+					}
 				],
 				"customObjectsLikeZone" : 1
 			},
-			"6" :
-			{
+			"6" : {
 				"type" : "treasure",
 				"size" : 25,
 				"monsters" : "strong",
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"terrainTypes" : [ "dirt", "grass", "lava", "hota.highlandsterrain:highlands" ],
+				"terrainTypes" : [
+					"dirt",
+					"grass",
+					"lava",
+					"hota.highlandsterrain:highlands"
+				],
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 5,
 				"customObjectsLikeZone" : 1
 			},
-			"7" :
-			{
+			"7" : {
 				"type" : "treasure",
 				"size" : 25,
 				"monsters" : "strong",
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"terrainTypes" : [ "dirt", "grass", "lava", "hota.highlandsterrain:highlands" ],
+				"terrainTypes" : [
+					"dirt",
+					"grass",
+					"lava",
+					"hota.highlandsterrain:highlands"
+				],
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 5,
 				"customObjectsLikeZone" : 1
 			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "3", "guard" : 4500, "road" : "true" },
-			{ "a" : "2", "b" : "4", "guard" : 4500, "road" : "true" },
-			{ "a" : "3", "b" : "5", "guard" : 11000, "road" : "false" },
-			{ "a" : "3", "b" : "6", "guard" : 11000, "road" : "false" },
-			{ "a" : "3", "b" : "7", "guard" : 11000, "road" : "true" },
-			{ "a" : "4", "b" : "5", "guard" : 11000, "road" : "false" },
-			{ "a" : "4", "b" : "6", "guard" : 11000, "road" : "true" },
-			{ "a" : "4", "b" : "7", "guard" : 11000, "road" : "false" },
-			{ "a" : "5", "b" : "6", "guard" : 16000, "road" : "true" },
-			{ "a" : "5", "b" : "7", "guard" : 16000, "road" : "true" },
-			{ "a" : "6", "b" : "7", "guard" : 16000, "road" : "false" }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "3",
+				"guard" : 4500,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "4",
+				"guard" : 4500,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "5",
+				"guard" : 11000,
+				"road" : "false"
+			},
+			{
+				"a" : "3",
+				"b" : "6",
+				"guard" : 11000,
+				"road" : "false"
+			},
+			{
+				"a" : "3",
+				"b" : "7",
+				"guard" : 11000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "5",
+				"guard" : 11000,
+				"road" : "false"
+			},
+			{
+				"a" : "4",
+				"b" : "6",
+				"guard" : 11000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "7",
+				"guard" : 11000,
+				"road" : "false"
+			},
+			{
+				"a" : "5",
+				"b" : "6",
+				"guard" : 16000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "7",
+				"guard" : 16000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "7",
+				"guard" : 16000,
+				"road" : "false"
+			}
 		]
 	}
 }

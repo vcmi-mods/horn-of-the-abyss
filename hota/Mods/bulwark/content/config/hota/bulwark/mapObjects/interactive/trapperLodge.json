@@ -25,12 +25,19 @@
 					},
 					"creature" : {
 						"gainedCreature" : {
-							"anyOf" : [ "kobold", "gremlin" ]
+							"anyOf" : [
+								"kobold",
+								"gremlin"
+							]
 						}
 					},
 					"number" : {
 						"gainedGoldAmount" : {
-							"amount" : [ 300, 400, 500 ]
+							"amount" : [
+								300,
+								400,
+								500
+							]
 						},
 						"gainedCreatureAmount" : {
 							"min" : 3,

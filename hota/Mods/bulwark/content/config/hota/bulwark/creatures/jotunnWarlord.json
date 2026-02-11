@@ -60,7 +60,7 @@
 				"icon" : "hota/bulwark/bonuses/warlordReduceFlyingSpeed",
 				"description" : "{Flyer Speed Reduction}\n-2 enemy flying units' Speed"
 			},
-			
+
 			"KING_3" : {
 				"type" : "KING",
 				"val" : 3

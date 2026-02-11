@@ -52,7 +52,7 @@
 						"maxTier" : 5,
 						"type" : "core:clone"
 					},
-					
+
 					"denyCastingMoreThanOnce" : {
 						"type" : "core:timed",
 						"bonus" : {

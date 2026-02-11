@@ -3,14 +3,13 @@
 		"types" : {
 			"hermitsShack" : {
 				"rewards" : {
-					"append" : 	{
+					"append" : {
 						"limiter" : {
 							"noneOf" : [
 								{
-									"secondary" :
-										{
-											"interference" : 3
-										}
+									"secondary" : {
+										"interference" : 3
+									}
 								}
 							],
 							"secondary" : {

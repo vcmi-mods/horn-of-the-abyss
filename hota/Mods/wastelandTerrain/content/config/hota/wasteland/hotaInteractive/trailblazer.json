@@ -15,8 +15,8 @@
 				"description" : "\nReduces movement cost on wastelands down to 75% until the end of the week.\n",
 				"aiValue" : 3000,
 				"rmg" : {
-					"value"		: 200,
-					"rarity" 	: 40,
+					"value" : 200,
+					"rarity" : 40,
 					"zoneLimit" : 1
 				},
 				"onVisitedMessage" : "{Trailblazer}\n\n\"Hey, that's my tent. Better be sure it's not my fault we're running in circles,\" the trailblazer shrugs.",
@@ -46,7 +46,7 @@
 										"type" : "TERRAIN_LIMITER",
 										"terrain" : "wasteland"
 									}
-								],
+								]
 							},
 							{
 								"type" : "BASE_TILE_MOVEMENT_COST",

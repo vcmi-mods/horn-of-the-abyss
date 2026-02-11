@@ -3,4 +3,3 @@
 	"skill.core.pathfinding.description.basic" : "{Einfach Pfadfinden}\n\nEinfach Pfadfinden reduziert den Bewegungsmalus für unwegsames Gelände um 25 Punkte, bis zu minimalen Kosten von 95.",
 	"skill.core.pathfinding.description.expert" : "{Meisterhaft Pfadfinden}\n\nMeisterhaft Pfadfinden reduziert den Bewegungsmalus für unwegsames Gelände um 75 Punkte, bis zu minimalen Kosten von 85."
 }
-

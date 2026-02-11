@@ -1,8 +1,7 @@
 {
 	// Currently not implemented in VCMI:
 	// Zones 1 and 4 should allow dwellings lvl 1
-	"[HotA] Nine-day Wonder" :
-	{
+	"[HotA] Nine-day Wonder" : {
 		"description" : "M-size template designed to use with 200% difficulty. Special object generation settings are used. The players are able to enter the grass zone with poor treasures and the dirt zone with Dragon Fly Hives and Wolf Raider Pickets. From these zones they may access the lava treasure.",
 		"minSize" : "m",
 		"maxSize" : "m",
@@ -23,7 +22,7 @@
 			"dimensionDoor",
 			"townPortal"
 		],
-		"bannedArtifacts": [
+		"bannedArtifacts" : [
 			"amuletOfTheUndertaker",
 			"garnitureOfInterference",
 			"surcoatOfCounterpoise",
@@ -66,7 +65,9 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "neutral" ],
+				"bannedMonsters" : [
+					"neutral"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -74,13 +75,27 @@
 					"crystal" : 1
 				},
 				"treasure" : [
-					{ "min" : 5000, "max" : 9000, "density" : 1 },
-					{ "min" : 2000, "max" : 5000, "density" : 5 },
-					{ "min" : 100, "max" : 2000, "density" : 10 }
+					{
+						"min" : 5000,
+						"max" : 9000,
+						"density" : 1
+					},
+					{
+						"min" : 2000,
+						"max" : 5000,
+						"density" : 5
+					},
+					{
+						"min" : 100,
+						"max" : 2000,
+						"density" : 10
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"dwelling", "questArtifact", "seerHut"
+						"dwelling",
+						"questArtifact",
+						"seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -293,7 +308,7 @@
 					]
 				}
 			},
-			"2": {
+			"2" : {
 				"type" : "treasure",
 				"size" : 30,
 				"monsters" : "normal",
@@ -301,18 +316,34 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "lava" ],
+				"terrainTypes" : [
+					"lava"
+				],
 				"mines" : {
 					"gold" : 1
 				},
 				"treasure" : [
-					{ "min" : 15000, "max" : 20000, "density" : 1 },
-					{ "min" : 6000, "max" : 15000, "density" : 7 },
-					{ "min" : 2000, "max" : 6000, "density" : 11 }
+					{
+						"min" : 15000,
+						"max" : 20000,
+						"density" : 1
+					},
+					{
+						"min" : 6000,
+						"max" : 15000,
+						"density" : 7
+					},
+					{
+						"min" : 2000,
+						"max" : 6000,
+						"density" : 11
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"dwelling", "questArtifact", "seerHut"
+						"dwelling",
+						"questArtifact",
+						"seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -528,19 +559,36 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"bannedMonsters" : [ "hota.cove:cove" ],
-				"terrainTypes" : [ "dirt" ],
+				"bannedMonsters" : [
+					"hota.cove:cove"
+				],
+				"terrainTypes" : [
+					"dirt"
+				],
 				"mines" : {
 					"gold" : 1
 				},
 				"treasure" : [
-					{ "min" : 10000, "max" : 12000, "density" : 1 },
-					{ "min" : 6000, "max" : 10000, "density" : 7 },
-					{ "min" : 500, "max" : 6000, "density" : 9 }
+					{
+						"min" : 10000,
+						"max" : 12000,
+						"density" : 1
+					},
+					{
+						"min" : 6000,
+						"max" : 10000,
+						"density" : 7
+					},
+					{
+						"min" : 500,
+						"max" : 6000,
+						"density" : 9
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"questArtifact", "seerHut"
+						"questArtifact",
+						"seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -731,7 +779,7 @@
 							"type" : "hota.mapobjects:warehouses"
 						}
 					]
-				},
+				}
 			},
 			"4" : {
 				"type" : "playerStart",
@@ -742,7 +790,9 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedMonsters" : [ "neutral" ],
+				"bannedMonsters" : [
+					"neutral"
+				],
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1,
 				"customObjectsLikeZone" : 1
@@ -755,20 +805,37 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"bannedMonsters" : [ "hota.cove:cove" ],
-				"terrainTypes" : [ "grass" ],
+				"bannedMonsters" : [
+					"hota.cove:cove"
+				],
+				"terrainTypes" : [
+					"grass"
+				],
 				"mines" : {
 					"mercury" : 1,
 					"gems" : 1
 				},
 				"treasure" : [
-					{ "min" : 10000, "max" : 12000, "density" : 1 },
-					{ "min" : 3000, "max" : 6000, "density" : 7 },
-					{ "min" : 100, "max" : 3000, "density" : 10 }
+					{
+						"min" : 10000,
+						"max" : 12000,
+						"density" : 1
+					},
+					{
+						"min" : 3000,
+						"max" : 6000,
+						"density" : 7
+					},
+					{
+						"min" : 100,
+						"max" : 3000,
+						"density" : 10
+					}
 				],
 				"customObjects" : {
 					"bannedCategories" : [
-						"questArtifact", "seerHut"
+						"questArtifact",
+						"seerHut"
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
@@ -959,8 +1026,12 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"bannedMonsters" : [ "hota.cove:cove" ],
-				"terrainTypes" : [ "grass" ],
+				"bannedMonsters" : [
+					"hota.cove:cove"
+				],
+				"terrainTypes" : [
+					"grass"
+				],
 				"minesLikeZone" : 5,
 				"treasureLikeZone" : 5,
 				"customObjectsLikeZone" : 5
@@ -969,27 +1040,76 @@
 				"type" : "treasure",
 				"size" : 17,
 				"monsters" : "normal",
-				"bannedMonsters" : [ "hota.cove:cove" ],
+				"bannedMonsters" : [
+					"hota.cove:cove"
+				],
 				"neutralTowns" : {
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "dirt" ],
+				"terrainTypes" : [
+					"dirt"
+				],
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 3
 			}
 		},
 		"connections" : [
-			{ "a" : "1", "b" : "6", "guard" : 2000, "road" : "true" },
-			{ "a" : "1", "b" : "7", "guard" : 4000, "road" : "true" },
-			{ "a" : "2", "b" : "3", "guard" : 12500, "road" : "true" },
-			{ "a" : "2", "b" : "5", "guard" : 12500, "road" : "true" },
-			{ "a" : "2", "b" : "6", "guard" : 12500, "road" : "true" },
-			{ "a" : "2", "b" : "7", "guard" : 12500, "road" : "true" },
-			{ "a" : "3", "b" : "4", "guard" : 4000, "road" : "true" },
-			{ "a" : "3", "b" : "7", "guard" : 12500, "road" : "true" },
-			{ "a" : "4", "b" : "5", "guard" : 2000, "road" : "true" }
+			{
+				"a" : "1",
+				"b" : "6",
+				"guard" : 2000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "7",
+				"guard" : 4000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "3",
+				"guard" : 12500,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "5",
+				"guard" : 12500,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "6",
+				"guard" : 12500,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "7",
+				"guard" : 12500,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"guard" : 4000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "7",
+				"guard" : 12500,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "5",
+				"guard" : 2000,
+				"road" : "true"
+			}
 		]
 	}
 }

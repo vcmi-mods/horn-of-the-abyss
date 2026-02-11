@@ -6,7 +6,9 @@
 		"name" : "Grave",
 		"base" : {
 			"sounds" : {
-				"removal" : [ "DIGSOUND" ]
+				"removal" : [
+					"DIGSOUND"
+				]
 			}
 		},
 		"types" : {
@@ -22,7 +24,7 @@
 						"gainedResource" : "gold"
 					},
 					"artifact" : {
-						"gainedArtifact" : { 
+						"gainedArtifact" : {
 							"anyOf" : [
 								{
 									"class" : "TREASURE"
@@ -35,7 +37,14 @@
 					},
 					"number" : {
 						"gainedAmount" : {
-							"amount" : [ 1500, 2000, 2500, 3000, 3500, 4000 ]
+							"amount" : [
+								1500,
+								2000,
+								2500,
+								3000,
+								3500,
+								4000
+							]
 						}
 					}
 				},

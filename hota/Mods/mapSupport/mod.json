@@ -1046,7 +1046,6 @@
 							17,
 							117
 						]
-
 					},
 					"creatureGeneratorSpecial" : {
 						"whirpoolLarge" : [
@@ -1169,10 +1168,10 @@
 						2
 					],
 					"crackedIce" : {
-//						"crackedIce" : [
-//							141,
-//							0
-//						],
+						//						"crackedIce" : [
+						//							141,
+						//							0
+						//						],
 						"crackedIce01" : [
 							141,
 							0
@@ -1341,13 +1340,13 @@
 						9
 					],
 
-//old portu.def
+					//old portu.def
 					"bluebottle" : [
 						40,
 						0
 					],
 
-//new portu.def
+					//new portu.def
 					"portu" : [
 						139,
 						10
@@ -2276,7 +2275,7 @@
 					"hota/pillars/AVLwaV08.def" : "AVLwaV08.def",
 					"hota/pillars/AVLwaV09.def" : "AVLwaV09.def",
 
-//cracked ice
+					//cracked ice
 					"ZICE01.def" : "ZICE01.def",
 					"ZICE02.def" : "ZICE02.def",
 					"ZICE03.def" : "ZICE03.def",

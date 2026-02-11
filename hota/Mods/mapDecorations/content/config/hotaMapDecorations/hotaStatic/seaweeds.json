@@ -49,13 +49,13 @@
 			}
 		}
 	},
-//there are two diffirent portu.defs, this is needed for map support
+	//there are two diffirent portu.defs, this is needed for map support
 	"portu" : {
 		"name" : "Seasweed",
 		"handler" : "static",
 		"types" : {
 			"portu" : {
-				"templates" : {						
+				"templates" : {
 					"portu" : {
 						"animation" : "hota/kelps/portu",
 						"mask" : [
@@ -65,7 +65,7 @@
 						"allowedTerrains" : [
 							"water"
 						]
-					}					
+					}
 				}
 			}
 		}

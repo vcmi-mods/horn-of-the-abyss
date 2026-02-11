@@ -3,7 +3,6 @@
 		"hidden" : true,
 		"creatureNature" : false,
 		"description" : "not shown",
-		"graphics" : {
-		}
+		"graphics" : {}
 	}
 }

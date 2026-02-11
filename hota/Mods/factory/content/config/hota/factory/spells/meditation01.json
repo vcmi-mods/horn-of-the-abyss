@@ -24,15 +24,13 @@
 			"positive" : true,
 			"special" : true
 		},
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 		"canCastWithoutSkip" : false,
 		"canCastOnlyOnSelf" : true,
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/medi001.png"
 		},
-		"sounds" : {
-		},
+		"sounds" : {},
 		"targetType" : "CREATURE",
 		"levels" : {
 			"base" : {
@@ -64,14 +62,10 @@
 					}
 				}
 			},
-			"none" : {
-			},
-			"basic" : {
-			},
-			"advanced" : {
-			},
-			"expert" : {
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

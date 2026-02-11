@@ -3052,7 +3052,7 @@
 	"map.[hota] the mysterious island.town.98.164.0.event.3.description" : "Před novým týdnem je v našem počátečním městě k dispozici několik {elitních jednotek}!\n\nA nesmíme zapomenout na {fámy} v tavernách...",
 	"map.[hota] the mysterious island.town.98.164.0.event.6.description" : "Nový týden! V našem začínajícím městě čekají další nedočkaví dobrovolníci.",
 	"map.[hota] the mysterious island.town.98.164.0.name" : "Far West Forest",
-	
+
 	"map.[hota] the mysterious island (allied).event.0.description" : "Uplynul měsíc.\nToto jsou nejnovější záznamy z naší kroniky:\n\n{=== Deník – 1. měsíc ===}\n\n{Krátkodobé cíle:}\n{---------------------------------------}\n{Scout zachráněn.}\n{Pomohl obnovit náš barevný klíč.}\n{~}\n{Dobyta dvě sekundární města.}\n{~}\n\n{Obnovené informace:}\n{---------------------------------------}\n{Dovednost diplomacie není užitečná,}\n{ale diplomatické artefakty ano.}\n{~}\n{Některá kouzla nejsou v cechách,}\n{ale lze získat později.}\n{~}\n{Town Portal existuje, ale dlouho ho nemůžeme získat.}\n{Alternativa je k dispozici od úrovně 13.}\n{~}\n{Chybí odborné znalosti, \n{ale má to skrytá postava.}\n{~}\n{Tento měsíc se v hospodách objevily čtyři fámy:}\n{Ty se žlutým textem jsou užitečné.}\n{~}\n{=== . ===}\n\n--\nPoznámka autora:\nCíle a informace ve vašem deníku jsou hlavní.\nAle existuje mnoho {other} questů, míst a hrdinů, kteří vám mohou pomoci,\ni když zde nejsou uvedeny.",
 	"map.[hota] the mysterious island (allied).event.1.description" : "Ve vašich {tavernách} kolují podivné pověsti...\n\nPoslechněte si je – možná najdete nějaké užitečné informace?",
 	"map.[hota] the mysterious island (allied).event.10.description" : "Třetí měsíc na tomto ostrově.\nPodařilo se nám vygenerovat několik dalších zdrojů!",
@@ -9845,6 +9845,4 @@
 	"map.[hota] supremacy of the lich king.town.95.187.0.event.0.description" : "Místní podpoří vaši kampaň týdenním příspěvkem a dalšími rekruty.",
 	"map.[hota] supremacy of the lich king.town.95.187.0.name" : "Gondolin",
 	"map.[hota] supremacy of the lich king.town.98.5.1.name" : "Cabernay"
-
-
 }

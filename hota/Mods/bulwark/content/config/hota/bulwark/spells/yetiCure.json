@@ -26,14 +26,10 @@
 					"smart" : true
 				}
 			},
-			"basic" : {
-			},
-			"advanced" : {
-			},
-			"expert" : {
-			},
-			"none" : {
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
 		},
 		"name" : "Yeti Cure",
 		"power" : 0,

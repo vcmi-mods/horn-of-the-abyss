@@ -62,14 +62,10 @@
 					}
 				}
 			},
-			"basic" : {
-			},
-			"advanced" : {
-			},
-			"expert" : {
-			},
-			"none" : {
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {},
+			"none" : {}
 		},
 		"targetCondition" : {
 			"noneOf" : {

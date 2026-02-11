@@ -208,11 +208,11 @@
 			}
 		}
 	},
-	
+
 	"core:shrub" : {
 		"types" : {
 			"object" : {
-				"templates": {
+				"templates" : {
 					"avgflh18" : {
 						"animation" : "hota/highlands/vanillaStatic/flowers/avgflh18",
 						"mask" : [

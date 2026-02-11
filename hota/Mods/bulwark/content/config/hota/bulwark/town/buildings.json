@@ -138,11 +138,11 @@
 						"resource-resource",
 						"resource-player"
 					],
-					"bonuses": [
+					"bonuses" : [
 						{
-							"propagator": "PLAYER",
-							"type": "MARKETPLACE_ACCESS",
-							"val": 2
+							"propagator" : "PLAYER",
+							"type" : "MARKETPLACE_ACCESS",
+							"val" : 2
 						}
 					]
 				},

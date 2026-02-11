@@ -316,7 +316,7 @@
 	"building.hota.factory.factory.townHall.name" : "内政厅",
 	"building.hota.factory.factory.villageHall.description" : "议事堂可以让你购买城镇建筑，并每天向你提供500个金币。",
 	"building.hota.factory.factory.villageHall.name" : "议事堂",
-    "creatures.core.ammoCart.bonus.noLuck" : "{无运气}\n补给车不受运气影响。",
+	"creatures.core.ammoCart.bonus.noLuck" : "{无运气}\n补给车不受运气影响。",
 	"creatures.core.catapult.bonus.noLuck" : "{无运气}\n投石车不受运气影响。",
 	"creatures.core.firstAidTent.bonus.noLuck" : "{无运气}\n急救帐篷不受运气影响。",
 	"creatures.core.iceElemental.bonus.immuneToFreezingShot" : "免疫寒霜射击。",

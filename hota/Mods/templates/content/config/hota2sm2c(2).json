@@ -1,6 +1,5 @@
 {
-	"[HotA] 2sm2c(2)" :
-	{
+	"[HotA] 2sm2c(2)" : {
 		"description" : "M-size template designed to use with 200% difficulty. The starting conditions are poor, and the possibilities are either rush directly to opponent’s zone (in case the guards are suitable), or explore the roadless treasure zone. The games are usually quick, and the outcome depends on spells found.",
 		"minSize" : "m",
 		"maxSize" : "m",
@@ -18,7 +17,7 @@
 			"dimensionDoor",
 			"townPortal"
 		],
-		"bannedArtifacts": [
+		"bannedArtifacts" : [
 			"angelWings"
 		],
 		"bannedHeroes" : [
@@ -37,10 +36,8 @@
 			"hota.heroes:kinkeria",
 			"hota.factory:17victoria"
 		],
-		"zones" :
-		{
-			"1" :
-			{
+		"zones" : {
+			"1" : {
 				"type" : "playerStart",
 				"size" : 11,
 				"owner" : 1,
@@ -49,15 +46,30 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedTowns" : [ "necropolis", "conflux" ],
+				"bannedTowns" : [
+					"necropolis",
+					"conflux"
+				],
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1
 				},
 				"treasure" : [
-					{ "min" : 3500, "max" : 4900, "density" : 7 },
-					{ "min" : 1000, "max" : 2100, "density" : 4 },
-					{ "min" : 800, "max" : 800, "density" : 9 }
+					{
+						"min" : 3500,
+						"max" : 4900,
+						"density" : 7
+					},
+					{
+						"min" : 1000,
+						"max" : 2100,
+						"density" : 4
+					},
+					{
+						"min" : 800,
+						"max" : 800,
+						"density" : 9
+					}
 				],
 				"customObjects" : {
 					"bannedObjects" : {
@@ -70,8 +82,7 @@
 					}
 				}
 			},
-			"2" :
-			{
+			"2" : {
 				"type" : "playerStart",
 				"size" : 11,
 				"owner" : 2,
@@ -80,13 +91,15 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"bannedTowns" : [ "necropolis", "conflux" ],
+				"bannedTowns" : [
+					"necropolis",
+					"conflux"
+				],
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1,
 				"customObjectsLikeZone" : 1
 			},
-			"3" :
-			{
+			"3" : {
 				"type" : "treasure",
 				"size" : 11,
 				"monsters" : "normal",
@@ -100,45 +113,68 @@
 					"gems" : 1,
 					"crystal" : 1
 				},
-				"treasure" :
-				[
-					{ "min" : 6000, "max" : 8000, "density" : 9 },
-					{ "min" : 4000, "max" : 5000, "density" : 6 },
-					{ "min" : 800, "max" : 2100, "density" : 5 }
+				"treasure" : [
+					{
+						"min" : 6000,
+						"max" : 8000,
+						"density" : 9
+					},
+					{
+						"min" : 4000,
+						"max" : 5000,
+						"density" : 6
+					},
+					{
+						"min" : 800,
+						"max" : 2100,
+						"density" : 5
+					}
 				],
 				"customObjectsLikeZone" : 1
 			},
-			"4" :
-			{
+			"4" : {
 				"type" : "treasure",
 				"size" : 11,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "dirt" ],
+				"terrainTypes" : [
+					"dirt"
+				],
 				"mines" : {
 					"gold" : 1
 				},
-				"treasure" :
-				[
-					{ "min" : 10000, "max" : 40000, "density" : 1 },
-					{ "min" : 8000, "max" : 9150, "density" : 10 },
-					{ "min" : 350, "max" : 2000, "density" : 9 }
+				"treasure" : [
+					{
+						"min" : 10000,
+						"max" : 40000,
+						"density" : 1
+					},
+					{
+						"min" : 8000,
+						"max" : 9150,
+						"density" : 10
+					},
+					{
+						"min" : 350,
+						"max" : 2000,
+						"density" : 9
+					}
 				],
 				"customObjectsLikeZone" : 1
 			},
-			"5" :
-			{
+			"5" : {
 				"type" : "treasure",
 				"size" : 11,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"terrainTypes" : [ "dirt" ],
+				"terrainTypes" : [
+					"dirt"
+				],
 				"minesLikeZone" : 4,
 				"treasureLikeZone" : 4,
 				"customObjectsLikeZone" : 1
 			},
-			"6" :
-			{
+			"6" : {
 				"type" : "treasure",
 				"size" : 11,
 				"monsters" : "normal",
@@ -149,20 +185,69 @@
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3,
 				"customObjectsLikeZone" : 1
-			},
+			}
 		},
-		"connections" :
-		[
-			{ "a" : "1", "b" : "3", "guard" : 20000, "road" : "true" },
-			{ "a" : "1", "b" : "4", "guard" : 12500, "road" : "false" },
-			{ "a" : "1", "b" : "6", "guard" : 4000, "road" : "true" },
-			{ "a" : "2", "b" : "3", "guard" : 4000, "road" : "true" },
-			{ "a" : "2", "b" : "5", "guard" : 12500, "road" : "false" },
-			{ "a" : "2", "b" : "6", "guard" : 20000, "road" : "true" },
-			{ "a" : "3", "b" : "4", "guard" : 12500, "road" : "false" },
-			{ "a" : "3", "b" : "5", "guard" : 4000, "road" : "false" },
-			{ "a" : "4", "b" : "6", "guard" : 4000, "road" : "false" },
-			{ "a" : "5", "b" : "6", "guard" : 12500, "road" : "false" }
+		"connections" : [
+			{
+				"a" : "1",
+				"b" : "3",
+				"guard" : 20000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "4",
+				"guard" : 12500,
+				"road" : "false"
+			},
+			{
+				"a" : "1",
+				"b" : "6",
+				"guard" : 4000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "3",
+				"guard" : 4000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "5",
+				"guard" : 12500,
+				"road" : "false"
+			},
+			{
+				"a" : "2",
+				"b" : "6",
+				"guard" : 20000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"guard" : 12500,
+				"road" : "false"
+			},
+			{
+				"a" : "3",
+				"b" : "5",
+				"guard" : 4000,
+				"road" : "false"
+			},
+			{
+				"a" : "4",
+				"b" : "6",
+				"guard" : 4000,
+				"road" : "false"
+			},
+			{
+				"a" : "5",
+				"b" : "6",
+				"guard" : 12500,
+				"road" : "false"
+			}
 		]
 	}
 }
