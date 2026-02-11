@@ -4,6 +4,7 @@
 		"description" : "If this is shown, it's a bug with the RUNE_LEVEL_COUNTER.",
 		"graphics" : {
 			"valueIcons" : {
+				"0" : "hota/bulwark/skills/runes/icons/runeLevels/startCounter",
 				"1" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA083",
 				"2" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA084",
 				"3" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA085",
@@ -16,6 +17,7 @@
 			}
 		},
 		"valueDescriptions" : {
+			"0" : "This unit gains Rune levels during combat.",
 			"1" : "Bonus for rune level 1:\n+2 Attack",
 			"2" : "Bonuses for rune level 2:\n+2 Attack\n+2 Defense",
 			"3" : "Bonuses for rune level 3:\n+2 Attack\n+2 Defense\n+1 Speed",
@@ -33,6 +35,7 @@
 		"description" : "If this is shown, it's a bug with the YETI_RUNE_LEVEL_COUNTER.",
 		"graphics" : {
 			"valueIcons" : {
+				"0" : "hota/bulwark/skills/runes/icons/runeLevels/startCounterYeti",
 				"1" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA083",
 				"2" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA084",
 				"3" : "hota/bulwark/skills/runes/icons/runeLevels/SpellIntA085",
@@ -45,6 +48,7 @@
 			}
 		},
 		"valueDescriptions" : {
+			"0" : "The Yeti Runemaster gains Rune levels during combat.",
 			"1" : "Bonus for rune level 1:\n+2 Attack",
 			"2" : "Bonuses for rune level 2:\n+2 Attack\n+2 Defense",
 			"3" : "Bonuses for rune level 3:\n+2 Attack\n+2 Defense\n+1 Speed",

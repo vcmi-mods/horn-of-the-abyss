@@ -46,7 +46,7 @@
 		"config/hota/bulwark/runes/runesSkill.json"
 	],
 	"bonuses" : [
-		"config/hota/bulwark/runes/runesLevelCounter.json"
+		"config/hota/bulwark/runes/runeLevelCounter.json"
 	],
 	"spells" : [
 		"config/hota/bulwark/spells/yetiCure.json",

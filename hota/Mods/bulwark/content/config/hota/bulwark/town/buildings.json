@@ -232,17 +232,16 @@
 						{
 							"propagator" : "PLAYER",
 							"val" : 1,
-							"valueType" : "ADDITIVE_VALUE",
 							"type" : "RUNE_LEVEL_COUNTER",
 							"limiters" : [
 								"CREATURES_ONLY"
-							]
+							],
+							"hidden" : true
 						},
 						{
 							"propagator" : "PLAYER",
 							"type" : "YETI_RUNE_LEVEL_COUNTER",
 							"val" : 1,
-							"valueType" : "ADDITIVE_VALUE",
 							"limiters" : [
 								{
 									"type" : "CREATURE_TYPE_LIMITER",

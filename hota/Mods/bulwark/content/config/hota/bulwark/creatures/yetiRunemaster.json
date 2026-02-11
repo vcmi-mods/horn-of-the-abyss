@@ -36,10 +36,20 @@
 			"runeMaster" : {
 				"type" : "NONE",
 				"icon" : "hota/bulwark/bonuses/runeMaster",
-				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\nShould the hero have mastered the lore of the Runes as well, the bonuses are doubled."
+				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\nShould the hero have mastered the lore of the Runes as well, the bonuses stack."
 			},
 
 			// runes functionality
+			"yetiRunesCap" : {
+				"type" : "YETI_RUNE_LEVEL_COUNTER",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 9
+			},
+			"yetiRunesBase" : {
+				"type" : "YETI_RUNE_LEVEL_COUNTER",
+				"val" : 0
+			},
+
 			"yetiRunesBonusAttackTier1" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "attack",
@@ -139,7 +149,7 @@
 				}
 			},
 
-			"yetiCombatAttackRuneLevels1" : {
+			"yetiCombatAttackRuneLevels" : {
 				"type" : "ON_COMBAT_EVENT",
 				"subtype" : "combatEventAfterAttack",
 				"addInfo" : {
@@ -154,17 +164,9 @@
 							}
 						}
 					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 9
-					}
-				]
+				}
 			},
-			"yetiCombatAttackedRuneLevels1" : {
+			"yetiCombatAttackedRuneLevels" : {
 				"type" : "ON_COMBAT_EVENT",
 				"subtype" : "combatEventAfterAttacked",
 				"addInfo" : {
@@ -174,47 +176,14 @@
 							"targetEnemy" : false,
 							"bonus" : {
 								"type" : "YETI_RUNE_LEVEL_COUNTER",
-								"val" : 1,
+								"val" : 2,
 								"duration" : "ONE_BATTLE"
 							}
 						}
 					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 8
-					}
-				]
+				}
 			},
-			"yetiCombatAttackedRuneLevels2" : {
-				"type" : "ON_COMBAT_EVENT",
-				"subtype" : "combatEventAfterAttacked",
-				"addInfo" : {
-					"effect" : [
-						{
-							"action" : "bonus",
-							"targetEnemy" : false,
-							"bonus" : {
-								"type" : "YETI_RUNE_LEVEL_COUNTER",
-								"val" : 1,
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 9
-					}
-				]
-			},
-			"yetiCombatDefendRuneLevels1" : {
+			"yetiCombatDefendRuneLevels" : {
 				"type" : "ON_COMBAT_EVENT",
 				"subtype" : "combatEventDefend",
 				"addInfo" : {
@@ -224,70 +193,12 @@
 							"targetEnemy" : false,
 							"bonus" : {
 								"type" : "YETI_RUNE_LEVEL_COUNTER",
-								"val" : 1,
+								"val" : 3,
 								"duration" : "ONE_BATTLE"
 							}
 						}
 					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 7
-					}
-				]
-			},
-			"yetiCombatDefendRuneLevels2" : {
-				"type" : "ON_COMBAT_EVENT",
-				"subtype" : "combatEventDefend",
-				"addInfo" : {
-					"effect" : [
-						{
-							"action" : "bonus",
-							"targetEnemy" : false,
-							"bonus" : {
-								"type" : "YETI_RUNE_LEVEL_COUNTER",
-								"val" : 1,
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 8
-					}
-				]
-			},
-			"yetiCombatDefendRuneLevels3" : {
-				"type" : "ON_COMBAT_EVENT",
-				"subtype" : "combatEventDefend",
-				"addInfo" : {
-					"effect" : [
-						{
-							"action" : "bonus",
-							"targetEnemy" : false,
-							"bonus" : {
-								"type" : "YETI_RUNE_LEVEL_COUNTER",
-								"val" : 1,
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					]
-				},
-				"limiters" : [
-					"noneOf",
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
-						"bonusMinValue" : 9
-					}
-				]
+				}
 			}
 		},
 		"graphics" : {
