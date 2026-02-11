@@ -1,4 +1,8 @@
 {
+	"core:firebird" : {
+		"horde" : 1,
+		"growth" : 1
+	},
 	"core:phoenix" : {
 		"horde" : 1,
 		"growth" : 1

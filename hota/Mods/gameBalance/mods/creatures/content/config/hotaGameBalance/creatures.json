@@ -38,8 +38,6 @@
 	"core:firebird" : {
 		"aiValue" : 4336,
 		"fightValue" : 3097,
-		"horde" : 1,
-		"growth" : 1,
 		"cost" : {
 			"gold" : 2000
 		},
@@ -53,8 +51,6 @@
 		}
 	},
 	"core:phoenix" : {
-		"horde" : 1,
-		"growth" : 1,
 		"cost" : {
 			"gold" : 3000
 		},
