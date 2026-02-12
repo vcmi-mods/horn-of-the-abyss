@@ -22,5 +22,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"czech" : {
+		"name" : "Kouzelnictví",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }

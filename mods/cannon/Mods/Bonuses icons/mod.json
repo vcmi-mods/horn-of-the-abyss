@@ -21,5 +21,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"czech" : {
+		"name" : "Ikony bonusů",
+		"description" : "Ikony pro schopnosti jednotek.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }

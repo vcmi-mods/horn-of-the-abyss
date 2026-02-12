@@ -14,5 +14,9 @@
 	"chinese" : {
 		"name" : "炮术",
 		"description" : ""
+	},
+	"czech" : {
+		"name" : "Artilerie",
+		"description" : ""
 	}
 }

@@ -22,5 +22,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"czech" : {
+		"name" : "Hledání cest",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }
