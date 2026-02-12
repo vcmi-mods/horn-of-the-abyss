@@ -13,16 +13,18 @@
 		"1.8.000" : [
 			"Added new town Bulwark",
 			"Added new HotA 1.8.0 map content",
+			"Fixed Ancient Altar, Black Tower, Spit, Trailblazer and many more objects",
+			"Fixed objects masks of many objects and decorations",
+			"Fixed many bugs like Cannon being unable to shoot walls during sieges",
+			"Added several templates",
+			"Added Polish voice for all 5 campaigns",
+			"Added Russian voice for campaigns 4 and 5 + AI generated one for first three campaigns",
 			"Added Czech (AI) voice for all 5 campaigns",
 			"Added English (AI) voice for all 5 campaigns",
 			"Added German (AI) voice for all 5 campaigns",
-			"Added Polish voice for all 5 campaigns",
-			"Added Russian voice for 4 and 5 campaigns + AI generated one for first three campaigns",
-			"Updated DEF / PNG files base to 1.8.0 versions",
+			"Updated DEF / PNG files to 1.8.0 versions",
 			"Updated game balance settings submod as much as possible",
 			"Added multilanguages buttons to main menu submod",
-			"Fixed Ancient Altair Black Tower, Ancient Lamp and many more objects",
-			"Fixed various Mountains objects mask",
 			"Updated Czech, Chinese and German translations"
 		],
 		"1.7.739" : [
