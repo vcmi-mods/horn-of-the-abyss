@@ -1,0 +1,25 @@
+{
+	"core.bonus.RUNE_LEVEL_COUNTER.description" : "Pokud se toto zobrazí, jde o chybu schopnosti {Runy}.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0" : "Tato jednotka během boje získává úrovně schopnosti {Runy}.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1" : "Bonus pro úroveň run 1:\n+2 Útok",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.2" : "Bonusy pro úroveň run 2:\n+2 Útok\n+2 Obrana",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.3" : "Bonusy pro úroveň run 3:\n+2 Útok\n+2 Obrana\n+1 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.4" : "Bonusy pro úroveň run 4:\n+4 Útok\n+2 Obrana\n+1 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.5" : "Bonusy pro úroveň run 5:\n+4 Útok\n+4 Obrana\n+1 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.6" : "Bonusy pro úroveň run 6:\n+4 Útok\n+4 Obrana\n+2 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.7" : "Bonusy pro úroveň run 7:\n+6 Útok\n+4 Obrana\n+2 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.8" : "Bonusy pro úroveň run 8:\n+6 Útok\n+6 Obrana\n+2 Rychlost",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.9" : "Bonusy pro úroveň run 9:\n+6 Útok\n+6 Obrana\n+3 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description" : "Pokud se toto zobrazí, jde o chybu schopnosti {Runy}.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0" : "Mistr run Yetti během boje získává úrovně schopnosti {Runy}.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1" : "Bonus pro úroveň run 1:\n+2 Útok",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2" : "Bonusy pro úroveň run 2:\n+2 Útok\n+2 Obrana",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3" : "Bonusy pro úroveň run 3:\n+2 Útok\n+2 Obrana\n+1 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.4" : "Bonusy pro úroveň run 4:\n+4 Útok\n+2 Obrana\n+1 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.5" : "Bonusy pro úroveň run 5:\n+4 Útok\n+4 Obrana\n+1 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6" : "Bonusy pro úroveň run 6:\n+4 Útok\n+4 Obrana\n+2 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7" : "Bonusy pro úroveň run 7:\n+6 Útok\n+4 Obrana\n+2 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8" : "Bonusy pro úroveň run 8:\n+6 Útok\n+6 Obrana\n+2 Rychlost",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9" : "Bonusy pro úroveň run 9:\n+6 Útok\n+6 Obrana\n+3 Rychlost"
+
+}

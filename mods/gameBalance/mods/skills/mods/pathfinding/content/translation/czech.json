@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{Lepší hledání cest}\n\nLepší hledání cest snižuje zpomalení pohybu hrdiny po obtížném terénu o 50 bodů, až na minimální cenu pohybu 90.",
+	"skill.core.pathfinding.description.basic" : "{Základní hledání cest}\n\nZákladní hledání cest snižuje zpomalení pohybu hrdiny po obtížném terénu o 25 bodů, až na minimální cenu pohybu 95.",
+	"skill.core.pathfinding.description.expert" : "{Expert hledání cest}\n\nExpert hledání cest snižuje zpomalení pohybu hrdiny po obtížném terénu o 75 bodů, až na minimální cenu pohybu 85."
+}

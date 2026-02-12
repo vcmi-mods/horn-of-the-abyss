@@ -22,5 +22,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"czech" : {
+		"name" : "Vzdělávání",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }

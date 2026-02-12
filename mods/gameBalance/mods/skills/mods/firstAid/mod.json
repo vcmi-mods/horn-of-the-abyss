@@ -30,5 +30,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"czech" : {
+		"name" : "První pomoc",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }

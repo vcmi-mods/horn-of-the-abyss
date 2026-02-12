@@ -32,7 +32,10 @@
 	},
 	"czech" : {
 		"name" : "Vlastnosti jednotek",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"polish" : {
 		"name" : "Creatures",
