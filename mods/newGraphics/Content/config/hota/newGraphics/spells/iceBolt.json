@@ -1,44 +1,26 @@
 {
 	"core:iceBolt" : {
 		"animation" : {
-			"projectile" : [
-				{
-					"defName" : "C08SPW4",
-					"minimumAngle" : 0
-				},
-				{
-					"defName" : "C08SPW3",
-					"minimumAngle" : 0.6
-				},
-				{
-					"defName" : "C08SPW2",
-					"minimumAngle" : 0.9
-				},
-				{
-					"defName" : "C08SPW1",
-					"minimumAngle" : 1.2
-				},
-				{
-					"defName" : "C08SPW0",
-					"minimumAngle" : 1.5
-				},
-				{
-					"defName" : "hota/spells/iceBolt/C08spW67.def",
-					"minimumAngle" : 1.8
-				},
-				{
-					"defName" : "hota/spells/iceBolt/C08spW77.def",
-					"minimumAngle" : 2.1
-				},
-				{
-					"defName" : "hota/spells/iceBolt/C08spW87.def",
-					"minimumAngle" : 2.4
-				},
-				{
-					"defName" : "hota/spells/iceBolt/C08spW97.def",
-					"minimumAngle" : 2.7
-				}
-			]
+			"projectile" : {
+				"appendItems" : [
+					{
+						"defName" : "hota/spells/iceBolt/C08spW67.def",
+						"minimumAngle" : 1.8
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW77.def",
+						"minimumAngle" : 2.1
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW87.def",
+						"minimumAngle" : 2.4
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW97.def",
+						"minimumAngle" : 2.7
+					}
+				]
+			}
 		}
 	}
 }
