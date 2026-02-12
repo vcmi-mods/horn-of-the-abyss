@@ -80,6 +80,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
 
       - name: Prepare content ZIPs
         run: |
@@ -118,6 +121,14 @@ jobs:
           echo "Created: $OUT"
           ls -lah dist
 
+      - name: Move tag to current commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git tag -f "${GITHUB_REF_NAME}" "${GITHUB_SHA}"
+          git push origin "${GITHUB_REF_NAME}" --force
+
       - name: Upload release
         uses: ncipollo/release-action@v1
         with:
@@ -130,3 +141,4 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: false
+          commit: ${{ github.sha }}
