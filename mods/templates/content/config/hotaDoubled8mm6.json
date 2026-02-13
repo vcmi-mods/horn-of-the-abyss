@@ -166,7 +166,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"12" : {
@@ -174,7 +174,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"13" : {
@@ -205,14 +205,14 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"15" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"16" : {
@@ -220,7 +220,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"17" : {
@@ -228,7 +228,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"18" : {
@@ -236,7 +236,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"19" : {
@@ -244,21 +244,21 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"20" : {
 				"type" : "treasure",
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"21" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"22" : {
@@ -266,7 +266,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"23" : {
@@ -369,7 +369,7 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 3
 			},
 			"32" : {
@@ -380,7 +380,7 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 3
 			},
 			"33" : {
@@ -388,7 +388,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"34" : {
@@ -396,7 +396,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"35" : {
@@ -404,21 +404,21 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"36" : {
 				"type" : "treasure",
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"37" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"38" : {
@@ -426,7 +426,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"39" : {
@@ -434,7 +434,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"40" : {
@@ -442,7 +442,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			},
 			"41" : {
@@ -450,21 +450,21 @@
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"42" : {
 				"type" : "treasure",
 				"size" : 10,
 				"monsters" : "strong",
 				"matchTerrainToTown" : false,
-				"treasurelikeZone" : 13
+				"treasureLikeZone" : 13
 			},
 			"43" : {
 				"type" : "treasure",
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 9,
+				"minesLikeZone" : 9,
 				"treasureLikeZone" : 1
 			},
 			"44" : {
@@ -472,7 +472,7 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"mineslikeZone" : 10,
+				"minesLikeZone" : 10,
 				"treasureLikeZone" : 1
 			}
 		},
