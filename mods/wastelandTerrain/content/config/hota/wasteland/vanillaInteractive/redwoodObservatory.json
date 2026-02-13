@@ -1,0 +1,26 @@
+{
+	"core:redwoodObservatory" : {
+		"types" : {
+			"redwoodObservatory" : {
+				"templates" : {
+					"redwoodObservatoryWasteland" : {
+						"animation" : "AvXRedW.def",
+						"mask" : [
+							"VV",
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
+					}
+				}
+			}
+		}
+	}
+}

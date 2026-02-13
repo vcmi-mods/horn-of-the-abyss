@@ -1,0 +1,6 @@
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description" : "{Stan první pomoci}\nHrdina s sebou nese stan první pomoci.",
+	"skill.core.firstAid.description.advanced" : "{Lepší první pomoc}\n\nDíky lepší první pomoci hrdina získá kontrolu nad stanem první pomoci a obnoví vybranému oddílu až 75 bodů energie. Zároveň zvyšuje zdraví hrdinových jednotek o 10%.",
+	"skill.core.firstAid.description.basic" : "{Základní první pomoc}\n\nDíky základní první pomoci hrdina získá kontrolu nad stanem první pomoci a obnoví vybranému oddílu až 50 bodů energie. Zároveň zvyšuje zdraví hrdinových jednotek o 5%.",
+	"skill.core.firstAid.description.expert" : "{Expert první pomoc}\n\nDíky expertní první pomoci hrdina získá kontrolu nad stanem první pomoci a obnoví vybranému oddílu až 100 bodů energie. Zároveň zvyšuje zdraví hrdinových jednotek o 15%."
+}

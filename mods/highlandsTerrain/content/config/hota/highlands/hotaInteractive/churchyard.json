@@ -1,0 +1,16 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"churchyard" : {
+				"templates" : {
+					"highlands" : {
+						"animation" : "hota/highlands/hotaInteractive/banks/avcmetrh.def",
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
+				}
+			}
+		}
+	}
+}

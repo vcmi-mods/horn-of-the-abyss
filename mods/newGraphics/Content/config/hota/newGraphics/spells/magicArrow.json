@@ -1,0 +1,26 @@
+{
+	"core:magicArrow" : {
+		"animation" : {
+			"projectile" : {
+				"appendItems" : [
+					{
+						"defName" : "hota/spells/magicArrow/C20spX76.def",
+						"minimumAngle" : 1.8
+					},
+					{
+						"defName" : "hota/spells/magicArrow/C20spX91.def",
+						"minimumAngle" : 2.1
+					},
+					{
+						"defName" : "hota/spells/magicArrow/C20spX106.def",
+						"minimumAngle" : 2.4
+					},
+					{
+						"defName" : "hota/spells/magicArrow/C20spX121.def",
+						"minimumAngle" : 2.7
+					}
+				]
+			}
+		}
+	}
+}

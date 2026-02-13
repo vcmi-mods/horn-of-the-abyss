@@ -1,0 +1,96 @@
+{
+	"trapperLodge" : {
+		"handler" : "configurable",
+		"name" : "Trapper Lodge",
+		"types" : {
+			"trapperLodge" : {
+				"name" : "Trapper Lodge",
+				"description" : "50% chance of getting 300-500 Gold\n25% chance of getting 3-5 Gremlins.\n25% chance of getting 3-5 Kobolds.",
+				"visitMode" : "once",
+				"onVisitedMessage" : "{Trapper Lodge}\n\nSomeone has already been in the lodge. Nothing's left here.",
+				"canRefuse" : true,
+				"showScoutedPreview" : true,
+				"sounds" : {
+					"visit" : [
+						"STORE"
+					]
+				},
+				"rmg" : {
+					"value" : 500,
+					"rarity" : 50
+				},
+				"variables" : {
+					"resource" : {
+						"gainedResource" : "gold"
+					},
+					"creature" : {
+						"gainedCreature" : {
+							"anyOf" : [
+								"kobold",
+								"gremlin"
+							]
+						}
+					},
+					"number" : {
+						"gainedGoldAmount" : {
+							"amount" : [
+								300,
+								400,
+								500
+							]
+						},
+						"gainedCreatureAmount" : {
+							"min" : 3,
+							"max" : 5
+						}
+					}
+				},
+				"rewards" : [
+					{
+						"message" : "{Trapper Lodge}\n\nRummaging about the snowbound lodge, you find a bag of gold someone stashed here.",
+						"appearChance" : {
+							"max" : 50
+						},
+						"mapDice" : 0,
+						"resources" : [
+							{
+								"type" : "@gainedResource",
+								"amount" : "@gainedGoldAmount"
+							}
+						]
+					},
+					{
+						"message" : "{Trapper Lodge}\n\nIn the snowbound lodge, you meet several creatures, waiting here until the blizzard passes. Do you wish to take them along?",
+						"mapDice" : 1,
+						"appearChance" : {
+							"min" : 50
+						},
+						"creatures" : [
+							{
+								"type" : "@gainedCreature",
+								"amount" : "@gainedCreatureAmount"
+							}
+						]
+					}
+				],
+				"templates" : {
+					"AVMtrap0A" : {
+						"animation" : "hota/bulwark/mapObjects/interactive/AVMtrap0A",
+						"mask" : [
+							"VV",
+							"AB"
+						],
+						"visitableFrom" : [
+							"---",
+							"++-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

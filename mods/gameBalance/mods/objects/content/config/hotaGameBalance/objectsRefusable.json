@@ -1,0 +1,51 @@
+{
+	"core:arena" : {
+		"types" : {
+			"arena" : {
+				"canRefuse" : true,
+				"onSelectMessage" : "{Arena}\n\nYou approach a roaring arena, where a pack of vicious lions awaits any challenger.  The aged trainer of gladiators nods toward the gate and says he will offer to train you in a skill of your choice if you survive.",
+				"onVisitedMessage" : "{Arena}\n\nThe Arena guards prevent you from entering.  \"You've already beaten our best.  Begone from here.\""
+			}
+		}
+	},
+
+	"core:witchHut" : {
+		"types" : {
+			"witchHut" : {
+				"canRefuse" : true,
+				"rewards" : {
+					"modify@1" : {
+						"message" : "{Witch's Hut}\n\nAn ancient witch living in a strange hut welcomes you and offers to teach you %s for her own inscrutable purposes."
+					}
+				}
+			}
+		}
+	},
+
+	"core:scholar" : {
+		"types" : {
+			"scholar" : {
+				"canRefuse" : true,
+				"rewards" : {
+					"modify@1" : {
+						"message" : "{Scholar}\n\nAs you ride into a clearing, you notice a university scholar resting his horse.  He offers to teach you some of what he knows before setting off."
+					},
+					"modify@2" : {
+						"message" : "{Scholar}\n\nAs you ride into a clearing, you notice a university scholar resting his horse.  He offers to teach you some of what he knows before setting off."
+					},
+					"modify@3" : {
+						"message" : "{Scholar}\n\nAs you ride into a clearing, you notice a university scholar resting his horse.  He offers to teach you some of what he knows before setting off."
+					}
+				}
+			}
+		}
+	},
+
+	"hota.mapobjects:colosseumOfTheMagi" : {
+		"types" : {
+			"colosseumOfTheMagi" : {
+				"canRefuse" : true
+			}
+		}
+	}
+}

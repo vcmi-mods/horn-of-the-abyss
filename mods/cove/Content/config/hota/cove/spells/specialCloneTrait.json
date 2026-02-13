@@ -1,0 +1,7 @@
+{
+	"NOT_TARGET_FOR_SPECIAL_CLONE" : {
+		"hidden" : true,
+		"description" : "Cannot be targeted by Special Clone (description not shown ingame)",
+		"creatureNature" : false
+	}
+}

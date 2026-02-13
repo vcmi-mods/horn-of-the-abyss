@@ -1,0 +1,26 @@
+{
+	"core:iceBolt" : {
+		"animation" : {
+			"projectile" : {
+				"appendItems" : [
+					{
+						"defName" : "hota/spells/iceBolt/C08spW67.def",
+						"minimumAngle" : 1.8
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW77.def",
+						"minimumAngle" : 2.1
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW87.def",
+						"minimumAngle" : 2.4
+					},
+					{
+						"defName" : "hota/spells/iceBolt/C08spW97.def",
+						"minimumAngle" : 2.7
+					}
+				]
+			}
+		}
+	}
+}

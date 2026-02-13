@@ -1,6 +1,0 @@
-{
-	"hotaSand": { "graphics" : "CmBkDeu.png", "limitToLayers" : ["core:underground"] },
-	"hotaSwampGrass": { "graphics" : "CmBkSwHl.png", "limitToLayers" : ["core:surface"] }, //needs proper implementation
-	"hotaSwampTrees": { "graphics" : "CmBkSwDv.png", "limitToLayers" : ["core:surface"] }, //needs proper implementation
-	"hotaLava": { "graphics" : "CmBkLvSt.png", "limitToLayers" : ["core:underground"] }
-}

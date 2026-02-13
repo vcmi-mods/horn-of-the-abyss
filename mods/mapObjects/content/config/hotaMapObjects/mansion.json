@@ -1,0 +1,215 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"mansion" : {
+				"name" : "Mansion",
+				"templates" : {
+					"base" : {
+						"animation" : "hota/banks/avmnsion.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						]
+					}
+				},
+				"variables" : {
+					"artifact" : {
+						"gainedArtifact" : {
+							"anyOf" : [
+								{
+									"class" : "MAJOR"
+								}
+							]
+						}
+					}
+				},
+				"sounds" : {
+					"ambient" : [
+						"hota/LOOPMANS.wav"
+					],
+					"visit" : [
+						"hota/mansionv.wav"
+					]
+				},
+				"rmg" : {
+					"value" : 5000,
+					"rarity" : 50
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : "An ancient mansion is in front of you. It did not lose its former splendor yet. Looks like nobody is here. Would you dare to enter?",
+				"onVisitedMessage" : "This mansion did not lose its former splendor yet, however there is nothing of value inside.",
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards" : [
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
+						"mapDice" : 0,
+						"guards" : [
+							{
+								"amount" : 8,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 8,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 8,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 8,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 8,
+								"type" : "vampireLord"
+							}
+						],
+						"resources" : {
+							"gold" : 2500,
+							"mercury" : 2,
+							"sulfur" : 2,
+							"gems" : 2,
+							"crystal" : 2
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"mapDice" : 1,
+						"guards" : [
+							{
+								"amount" : 12,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 12,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 12,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 12,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 12,
+								"type" : "vampireLord"
+							}
+						],
+						"resources" : {
+							"gold" : 5000,
+							"mercury" : 3,
+							"sulfur" : 3,
+							"gems" : 3,
+							"crystal" : 3
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"mapDice" : 2,
+						"guards" : [
+							{
+								"amount" : 16,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 16,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 16,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 16,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 16,
+								"type" : "vampireLord"
+							}
+						],
+						"resources" : {
+							"gold" : 7500,
+							"mercury" : 4,
+							"sulfur" : 4,
+							"gems" : 4,
+							"crystal" : 4
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						]
+					},
+					{
+						"message" : 34,
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"mapDice" : 3,
+						"guards" : [
+							{
+								"amount" : 20,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 20,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 20,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 20,
+								"type" : "vampireLord"
+							},
+							{
+								"amount" : 20,
+								"type" : "vampireLord"
+							}
+						],
+						"resources" : {
+							"gold" : 10000,
+							"mercury" : 5,
+							"sulfur" : 5,
+							"gems" : 5,
+							"crystal" : 5
+						},
+						"artifacts" : [
+							"@gainedArtifact"
+						]
+					}
+				]
+			}
+		}
+	}
+}

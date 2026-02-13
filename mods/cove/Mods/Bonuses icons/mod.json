@@ -1,0 +1,43 @@
+{
+	"name" : "Additional bonuses icons",
+	"description" : "Additional icons for creatures abilities.",
+	"version" : "1.0.0",
+	"author" : "Kurek",
+	"contact" : "",
+	"modType" : "Graphical",
+	"creatures" : [
+		"config/ayssid",
+		"config/haspid",
+		"config/nixWarrior",
+		"config/nymph",
+		"config/oceanid",
+		"config/seaWitch",
+		"config/seadog",
+		"config/seaserpent",
+		"config/sorceress",
+		"config/stormbird",
+		"config/stackExperience",
+		"config/blackbeard"
+	],
+	"chinese" : {
+		"name" : "额外技能图标",
+		"description" : "生物技能的额外图标。",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"german" : {
+		"name" : "Zusatzfähigkeiten-Symbole",
+		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"czech" : {
+		"name" : "Ikony bonusů",
+		"description" : "Ikony pro schopnosti jednotek.",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
+}

@@ -1,0 +1,256 @@
+{
+	// The effect of Protection from Air, Protection from Fire, Protection from Water, and Protection from Earth spells increased from 30%30%50%50% to 50%50%75%75%
+	"core:protectAir" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectEarth" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectFire" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	"core:protectWater" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			},
+			"expert" : {
+				"effects" : {
+					"spellDamageReduction" : {
+						"val" : 75
+					}
+				}
+			}
+		}
+	},
+	// The damage of Armageddon spell reduced form 50*(spell power) + 30/30/60/120 to 40*(spell power) + 30/30/60/120
+	"core:armageddon" : {
+		"power" : 40
+	},
+
+	"core:slow" : {
+		"levels" : {
+			"base#override" : {
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : -25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					},
+
+					"hotaNerf" : {
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 0,
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+
+			"advanced" : {
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {
+						"val" : 2
+					}
+				}
+			},
+
+			"expert" : {
+				"range" : "X",
+				"effects" : {
+					"stacksSpeed" : {
+						"val" : -50
+					},
+					"hotaNerf" : {
+						"val" : 2
+					}
+				}
+			}
+		}
+	},
+	// 1.7.0
+	//[+] Lifted the ban on summoning different types of elementals in the same combat
+	//[+] Summoning Earth and Fire Elementals now has the power of [2/2/2.5/3] * SP
+	"core:fireElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"summonByHealth" : true
+					}
+				}
+			},
+			"none" : {
+				"power" : 70
+			},
+			"basic" : {
+				"power" : 70
+			},
+			"advanced" : {
+				"power" : 88
+			},
+			"expert" : {
+				"power" : 105
+			}
+		}
+	},
+	"core:earthElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false,
+						"summonByHealth" : true
+					}
+				}
+			},
+			"none" : {
+				"power" : 80
+			},
+			"basic" : {
+				"power" : 80
+			},
+			"advanced" : {
+				"power" : 100
+			},
+			"expert" : {
+				"power" : 120
+			}
+		}
+	},
+	"core:waterElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false
+					}
+				}
+			}
+		}
+	},
+	"core:airElemental" : {
+		"levels" : {
+			"base" : {
+				"battleEffects" : {
+					"summon" : {
+						"exclusive" : false
+					}
+				}
+			}
+		}
+	},
+	"core:dimensionDoor" : {
+		"levels" : {
+			"base" : {
+				"adventureEffect" : {
+					"waterLandFailureTakesPoints" : false
+				}
+			}
+		}
+	},
+	// HotA 1.7.0: [+] Wall of Fire: Power damage multiplier increased from 10 to 15
+	"core:fireWallTrigger" : {
+		"power" : 15
+	},
+	"core:forgetfulness" : {
+		"levels" : {
+			"base" : {
+				"effects" : {
+					"meleeAttackDamageReduction" : {
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" : "damageTypeMelee",
+						"duration" : "N_TURNS",
+						"val" : -50
+					}
+				}
+			}
+		}
+	}
+}

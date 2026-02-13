@@ -1,0 +1,8 @@
+{
+	"USED_HEATSTROKE_ABILITY" : {
+		"hidden" : true,
+		"creatureNature" : false,
+		"description" : "not shown",
+		"graphics" : {}
+	}
+}

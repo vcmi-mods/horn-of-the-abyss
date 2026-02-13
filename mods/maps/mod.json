@@ -1,0 +1,49 @@
+{
+	"name" : "Maps",
+	"description" : "This mod contains all new maps added by HotA Crew",
+	"modType" : "Maps",
+	"author" : "Ivan",
+	"contact" : "https://forum.vcmi.eu/",
+	"version" : "1.2",
+	"compatibility" : {
+		"min" : "1.7"
+	},
+	"depends" : [
+		"hota.mapsupport"
+	],
+	"softDepends" : [
+		"czech-translation",
+		"german-translation",
+		"polish-translation",
+		"mega-pack-rus"
+	],
+	"changelog" : {
+		"1.2" : [
+			"Added AI generated voice for Czech, English and German for all 5 campaigns",
+			"Added Polish voice for all 5 campaigns",
+			"Added Russian voice for first 3 campaigns"
+		],
+		"1.1" : [
+			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
+		],
+		"1.0" : [
+			"All official HotA 1.7.3 maps were added"
+		]
+	},
+	"chinese" : {
+		"name" : "地图",
+		"description" : "这个模组包含HotA团队新增的所有新地图。"
+	},
+	"czech" : {
+		"name" : "Mapy",
+		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA"
+	},
+	"polish" : {
+		"name" : "Mapy",
+		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew"
+	},
+	"portuguese" : {
+		"name" : "Mapas",
+		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA"
+	}
+}

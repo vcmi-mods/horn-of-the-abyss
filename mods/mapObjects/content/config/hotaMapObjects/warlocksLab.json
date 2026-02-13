@@ -1,0 +1,40 @@
+{
+	"warlocksLab" : {
+		"handler" : "generic",
+		"name" : "Warlock's Lab",
+		"types" : {
+			"warlocksLab" : {
+				//				"rmg" : {
+				//					"value"	: 10000,
+				//					"rarity" : 100,
+				//					"zoneLimit" : 1
+				//				},
+				"sounds" : {
+					"visit" : [
+						"STORE"
+					]
+				},
+				"base" : {
+					"mask" : [
+						"VVVV",
+						"VVVV",
+						"VBAV"
+					],
+					"visitableFrom" : [
+						"---",
+						"-++",
+						"+++"
+					]
+				},
+				"templates" : {
+					"avxtrmts" : {
+						"animation" : "hota/warlocksLab/avxtrmts",
+						"allowedTerrains" : [
+							"snow"
+						]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+	"core:artillery" : {
+		"base" : {
+			"effects" : {
+				"cannonExtra" : {
+					"subtype" : "cannon",
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"damagePowerCannon" : {
+					"subtype" : "cannon",
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"damageCapCannon" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "cannon"
+						}
+					],
+					"valueType" : "INDEPENDENT_MIN",
+					"val" : 40
+				},
+				"manualControlCannon" : {
+					"type" : "MANUAL_CONTROL",
+					"subtype" : "cannon",
+					"val" : 100
+				},
+				"cannonSiegeShot" : {
+					"type" : "CATAPULT_EXTRA_SHOTS",
+					"subtype" : "cannonSiegeShot"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"cannonExtra" : {
+					"val" : 0
+				},
+				"damagePowerCannon" : {
+					"val" : 0
+				},
+				"cannonSiegeShot" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"cannonExtra" : {
+					"val" : 100
+				},
+				"damagePowerCannon" : {
+					"val" : 100
+				},
+				"cannonSiegeShot" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"cannonExtra" : {
+					"val" : 100
+				},
+				"damagePowerCannon" : {
+					"val" : 200
+				},
+				"cannonSiegeShot" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}

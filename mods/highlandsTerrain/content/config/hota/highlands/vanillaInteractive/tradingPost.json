@@ -1,0 +1,26 @@
+{
+	"core:tradingPost" : {
+		"types" : {
+			"object" : {
+				"templates" : {
+					"highlandsTradingPost" : {
+						"animation" : "AVXpost0.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						],
+						"visitableFrom" : [
+							"---",
+							"-++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
+				}
+			}
+		}
+	}
+}

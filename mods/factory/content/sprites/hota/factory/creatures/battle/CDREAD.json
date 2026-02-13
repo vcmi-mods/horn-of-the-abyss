@@ -1,0 +1,1230 @@
+{
+	"basepath" : "hota/factory/creatures/battle/CDREAD/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "CDREAD.dA000..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "CDREAD.dA001..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "CDREAD.dA002..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "CDREAD.dA003..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "CDREAD.dA004..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "CDREAD.dA005..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "CDREAD.dA006..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "CDREAD.dA007..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "CDREAD.dA008..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "CDREAD.dA009..png"
+		},
+		{
+			"group" : 0,
+			"frame" : 10,
+			"file" : "CDREAD.dA010..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "CDREAD.dB000..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "CDREAD.dB001..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "CDREAD.dB002..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "CDREAD.dB003..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "CDREAD.dB004..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "CDREAD.dB005..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "CDREAD.dB006..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "CDREAD.dB007..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "CDREAD.dB008..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "CDREAD.dB009..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "CDREAD.dB010..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 11,
+			"file" : "CDREAD.dB011..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 12,
+			"file" : "CDREAD.dB012..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 13,
+			"file" : "CDREAD.dB013..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 14,
+			"file" : "CDREAD.dB014..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 15,
+			"file" : "CDREAD.dB015..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 16,
+			"file" : "CDREAD.dB016..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 17,
+			"file" : "CDREAD.dB017..png"
+		},
+		{
+			"group" : 1,
+			"frame" : 18,
+			"file" : "CDREAD.dB018..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "CDREAD.dC000..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "CDREAD.dC001..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "CDREAD.dC002..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "CDREAD.dC003..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "CDREAD.dC004..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "CDREAD.dC005..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "CDREAD.dC006..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "CDREAD.dC007..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 8,
+			"file" : "CDREAD.dC008..png"
+		},
+		{
+			"group" : 2,
+			"frame" : 9,
+			"file" : "CDREAD.dC009..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "CDREAD.dD000..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "CDREAD.dD001..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "CDREAD.dD002..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "CDREAD.dD003..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "CDREAD.dD004..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "CDREAD.dD005..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 6,
+			"file" : "CDREAD.dD006..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 7,
+			"file" : "CDREAD.dD007..png"
+		},
+		{
+			"group" : 3,
+			"frame" : 8,
+			"file" : "CDREAD.dD008..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "CDREAD.dE000..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "CDREAD.dE001..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "CDREAD.dE002..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "CDREAD.dE003..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "CDREAD.dE004..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 5,
+			"file" : "CDREAD.dE005..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 6,
+			"file" : "CDREAD.dE006..png"
+		},
+		{
+			"group" : 4,
+			"frame" : 7,
+			"file" : "CDREAD.dE007..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "CDREAD.dF000..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "CDREAD.dF001..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "CDREAD.dF002..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "CDREAD.dF003..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "CDREAD.dF004..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "CDREAD.dF005..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "CDREAD.dF006..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 7,
+			"file" : "CDREAD.dF007..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 8,
+			"file" : "CDREAD.dF008..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 9,
+			"file" : "CDREAD.dF009..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 10,
+			"file" : "CDREAD.dF010..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 11,
+			"file" : "CDREAD.dF011..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 12,
+			"file" : "CDREAD.dF012..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 13,
+			"file" : "CDREAD.dF013..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 14,
+			"file" : "CDREAD.dF014..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 15,
+			"file" : "CDREAD.dF015..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 16,
+			"file" : "CDREAD.dF016..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 17,
+			"file" : "CDREAD.dF017..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 18,
+			"file" : "CDREAD.dF018..png"
+		},
+		{
+			"group" : 5,
+			"frame" : 19,
+			"file" : "CDREAD.dF019..png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "CDREAD.d_000..png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "CDREAD.d_001..png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "CDREAD.d_001..png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "CDREAD.d_000..png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "CDREAD.d_000..png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "CDREAD.d_001..png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "CDREAD.d_001..png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "CDREAD.d_000..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "CDREAD.dL000..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "CDREAD.dL001..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "CDREAD.dL002..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "CDREAD.dL003..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "CDREAD.dL004..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "CDREAD.dL005..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 6,
+			"file" : "CDREAD.dL006..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 7,
+			"file" : "CDREAD.dL007..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 8,
+			"file" : "CDREAD.dL008..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 9,
+			"file" : "CDREAD.dL009..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 10,
+			"file" : "CDREAD.dL010..png"
+		},
+		{
+			"group" : 11,
+			"frame" : 11,
+			"file" : "CDREAD.dL011..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "CDREAD.d_002..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "CDREAD.dM001..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "CDREAD.dM002..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "CDREAD.dM003..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "CDREAD.dM004..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "CDREAD.dM005..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "CDREAD.dM006..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "CDREAD.dM007..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 8,
+			"file" : "CDREAD.dM008..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 9,
+			"file" : "CDREAD.dM009..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 10,
+			"file" : "CDREAD.dM010..png"
+		},
+		{
+			"group" : 12,
+			"frame" : 11,
+			"file" : "CDREAD.dM011..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "CDREAD.dN000..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "CDREAD.dN001..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "CDREAD.dN002..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "CDREAD.dN003..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "CDREAD.dN004..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 5,
+			"file" : "CDREAD.dN005..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 6,
+			"file" : "CDREAD.dN006..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 7,
+			"file" : "CDREAD.dN007..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 8,
+			"file" : "CDREAD.dN008..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 9,
+			"file" : "CDREAD.dN009..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 10,
+			"file" : "CDREAD.dN010..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 11,
+			"file" : "CDREAD.dN011..png"
+		},
+		{
+			"group" : 13,
+			"frame" : 12,
+			"file" : "CDREAD.dN012..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 0,
+			"file" : "CDREAD.dS000..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 1,
+			"file" : "CDREAD.dS001..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 2,
+			"file" : "CDREAD.dS002..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 3,
+			"file" : "CDREAD.dS003..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 4,
+			"file" : "CDREAD.dS004..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 5,
+			"file" : "CDREAD.dS005..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 6,
+			"file" : "CDREAD.dS006..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 7,
+			"file" : "CDREAD.dS007..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 8,
+			"file" : "CDREAD.dS008..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 9,
+			"file" : "CDREAD.dS009..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 10,
+			"file" : "CDREAD.dS010..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 11,
+			"file" : "CDREAD.dS011..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 12,
+			"file" : "CDREAD.dS012..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 13,
+			"file" : "CDREAD.dS013..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 14,
+			"file" : "CDREAD.dS014..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 15,
+			"file" : "CDREAD.dS015..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 16,
+			"file" : "CDREAD.dS016..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 17,
+			"file" : "CDREAD.dS017..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 18,
+			"file" : "CDREAD.dS018..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 19,
+			"file" : "CDREAD.dS019..png"
+		},
+		{
+			"group" : 17,
+			"frame" : 20,
+			"file" : "CDREAD.dS020..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 0,
+			"file" : "CDREAD.dQ000..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 1,
+			"file" : "CDREAD.dQ001..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 2,
+			"file" : "CDREAD.dQ002..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 3,
+			"file" : "CDREAD.dQ003..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 4,
+			"file" : "CDREAD.dQ004..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 5,
+			"file" : "CDREAD.dQ005..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 6,
+			"file" : "CDREAD.dQ006..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 7,
+			"file" : "CDREAD.dQ007..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 8,
+			"file" : "CDREAD.dQ008..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 9,
+			"file" : "CDREAD.dQ009..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 10,
+			"file" : "CDREAD.dQ010..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 11,
+			"file" : "CDREAD.dQ011..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 12,
+			"file" : "CDREAD.dQ012..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 13,
+			"file" : "CDREAD.dQ013..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 14,
+			"file" : "CDREAD.dQ014..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 15,
+			"file" : "CDREAD.dQ015..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 16,
+			"file" : "CDREAD.dQ016..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 17,
+			"file" : "CDREAD.dQ017..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 18,
+			"file" : "CDREAD.dQ018..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 19,
+			"file" : "CDREAD.dQ019..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 20,
+			"file" : "CDREAD.dQ020..png"
+		},
+		{
+			"group" : 18,
+			"frame" : 21,
+			"file" : "CDREAD.dQ021..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 0,
+			"file" : "CDREAD.dO000..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 1,
+			"file" : "CDREAD.dO001..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 2,
+			"file" : "CDREAD.dO002..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 3,
+			"file" : "CDREAD.dO003..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 4,
+			"file" : "CDREAD.dO004..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 5,
+			"file" : "CDREAD.dO005..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 6,
+			"file" : "CDREAD.dO006..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 7,
+			"file" : "CDREAD.dO007..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 8,
+			"file" : "CDREAD.dO008..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 9,
+			"file" : "CDREAD.dO009..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 10,
+			"file" : "CDREAD.dO010..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 11,
+			"file" : "CDREAD.dO011..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 12,
+			"file" : "CDREAD.dO012..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 13,
+			"file" : "CDREAD.dO013..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 14,
+			"file" : "CDREAD.dO014..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 15,
+			"file" : "CDREAD.dO015..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 16,
+			"file" : "CDREAD.dO016..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 17,
+			"file" : "CDREAD.dO017..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 18,
+			"file" : "CDREAD.dO018..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 19,
+			"file" : "CDREAD.dO019..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 20,
+			"file" : "CDREAD.dO020..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 21,
+			"file" : "CDREAD.dO021..png"
+		},
+		{
+			"group" : 19,
+			"frame" : 22,
+			"file" : "CDREAD.dO022..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 0,
+			"file" : "CDREAD.dB000..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 1,
+			"file" : "CDREAD.dB001..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 2,
+			"file" : "CDREAD.dB002..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 3,
+			"file" : "CDREAD.dB003..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 4,
+			"file" : "CDREAD.dB004..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 5,
+			"file" : "CDREAD.dB005..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 6,
+			"file" : "CDREAD.dB006..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 7,
+			"file" : "CDREAD.dB007..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 8,
+			"file" : "CDREAD.dB008..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 9,
+			"file" : "CDREAD.dB009..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 10,
+			"file" : "CDREAD.dB010..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 11,
+			"file" : "CDREAD.dB011..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 12,
+			"file" : "CDREAD.dB012..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 13,
+			"file" : "CDREAD.dB013..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 14,
+			"file" : "CDREAD.dB014..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 15,
+			"file" : "CDREAD.dB015..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 16,
+			"file" : "CDREAD.dB016..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 17,
+			"file" : "CDREAD.dB017..png"
+		},
+		{
+			"group" : 30,
+			"frame" : 18,
+			"file" : "CDREAD.dB018..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 0,
+			"file" : "CDREAD.dB000..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 1,
+			"file" : "CDREAD.dB001..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 2,
+			"file" : "CDREAD.dB002..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 3,
+			"file" : "CDREAD.dB003..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 4,
+			"file" : "CDREAD.dB004..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 5,
+			"file" : "CDREAD.dB005..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 6,
+			"file" : "CDREAD.dB006..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 7,
+			"file" : "CDREAD.dB007..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 8,
+			"file" : "CDREAD.dB008..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 9,
+			"file" : "CDREAD.dB009..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 10,
+			"file" : "CDREAD.dB010..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 11,
+			"file" : "CDREAD.dB011..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 12,
+			"file" : "CDREAD.dB012..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 13,
+			"file" : "CDREAD.dB013..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 14,
+			"file" : "CDREAD.dB014..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 15,
+			"file" : "CDREAD.dB015..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 16,
+			"file" : "CDREAD.dB016..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 17,
+			"file" : "CDREAD.dB017..png"
+		},
+		{
+			"group" : 31,
+			"frame" : 18,
+			"file" : "CDREAD.dB018..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 0,
+			"file" : "CDREAD.dB000..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 1,
+			"file" : "CDREAD.dB001..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 2,
+			"file" : "CDREAD.dB002..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 3,
+			"file" : "CDREAD.dB003..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 4,
+			"file" : "CDREAD.dB004..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 5,
+			"file" : "CDREAD.dB005..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 6,
+			"file" : "CDREAD.dB006..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 7,
+			"file" : "CDREAD.dB007..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 8,
+			"file" : "CDREAD.dB008..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 9,
+			"file" : "CDREAD.dB009..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 10,
+			"file" : "CDREAD.dB010..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 11,
+			"file" : "CDREAD.dB011..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 12,
+			"file" : "CDREAD.dB012..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 13,
+			"file" : "CDREAD.dB013..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 14,
+			"file" : "CDREAD.dB014..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 15,
+			"file" : "CDREAD.dB015..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 16,
+			"file" : "CDREAD.dB016..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 17,
+			"file" : "CDREAD.dB017..png"
+		},
+		{
+			"group" : 32,
+			"frame" : 18,
+			"file" : "CDREAD.dB018..png"
+		}
+	]
+}

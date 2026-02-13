@@ -1,0 +1,575 @@
+{
+	"basepath" : "hota/factory/creatures/battle/CSANDWX/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "CSANDW.d_000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "CSANDW.dA001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "CSANDW.dA002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "CSANDW.dA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "CSANDW.dA004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "CSANDW.dA005.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "CSANDW.dB000.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "CSANDW.dB001.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "CSANDW.dB002.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "CSANDW.dB003.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "CSANDW.dB004.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "CSANDW.dB005.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "CSANDW.dB006.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "CSANDW.dB007.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "CSANDW.dB008.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "CSANDW.dB009.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "CSANDW.dB010.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 11,
+			"file" : "CSANDW.dB011.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "CSANDW.dC000.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "CSANDW.d_001.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "CSANDW.d_002.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "CSANDW.d_003.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "CSANDW.dC004.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "CSANDW.d_003.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "CSANDW.d_002.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "CSANDW.d_001.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "CSANDW.dD000.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "CSANDW.dD001.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "CSANDW.dD002.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "CSANDW.dD003.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "CSANDW.dD004.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "CSANDW.dD005.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "CSANDW.dE000.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "CSANDW.dE001.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "CSANDW.dE002.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "CSANDW.dE003.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "CSANDW.dE004.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "CSANDW.dF000.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "CSANDW.dF001.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "CSANDW.dF002.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "CSANDW.dF003.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "CSANDW.dF004.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "CSANDW.dF005.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "CSANDW.dF006.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "CSANDW.d_004.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "CSANDW.d_005.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "CSANDW.d_005.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "CSANDW.d_004.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "CSANDW.d_004.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "CSANDW.d_005.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "CSANDW.d_005.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "CSANDW.d_004.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "CSANDW.dL000.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "CSANDW.dL001.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "CSANDW.dL002.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "CSANDW.dL003.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "CSANDW.dL004.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "CSANDW.dL005.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "CSANDW.dM000.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "CSANDW.dM001.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "CSANDW.dM002.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "CSANDW.dM003.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "CSANDW.dM004.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "CSANDW.dM005.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "CSANDW.dM006.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "CSANDW.dM007.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "CSANDW.dN000.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "CSANDW.dN001.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "CSANDW.dN002.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "CSANDW.dN003.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "CSANDW.dN004.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 0,
+			"file" : "CSANDW.d_007.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 1,
+			"file" : "CSANDW.d_008.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 2,
+			"file" : "CSANDW.d_009.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 3,
+			"file" : "CSANDW.d_000.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 0,
+			"file" : "CSANDW.d_000.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 1,
+			"file" : "CSANDW.d_009.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 2,
+			"file" : "CSANDW.d_008.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 3,
+			"file" : "CSANDW.d_007.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 0,
+			"file" : "CSANDW.dO000.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 1,
+			"file" : "CSANDW.dO001.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 2,
+			"file" : "CSANDW.dO002.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 3,
+			"file" : "CSANDW.dO003.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 4,
+			"file" : "CSANDW.dO004.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 5,
+			"file" : "CSANDW.dO005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 6,
+			"file" : "CSANDW.dO006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 7,
+			"file" : "CSANDW.dO007.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 8,
+			"file" : "CSANDW.dO008.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 9,
+			"file" : "CSANDW.dO009.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 10,
+			"file" : "CSANDW.dO010.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 11,
+			"file" : "CSANDW.dO011.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 12,
+			"file" : "CSANDW.dO012.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 13,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 14,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 15,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 16,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 17,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 18,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 19,
+			"file" : "CSANDW.d_006.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 0,
+			"file" : "CSANDW.dP000.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 1,
+			"file" : "CSANDW.dP001.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 2,
+			"file" : "CSANDW.dP002.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 3,
+			"file" : "CSANDW.dP003.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 4,
+			"file" : "CSANDW.dP004.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 5,
+			"file" : "CSANDW.dP005.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 6,
+			"file" : "CSANDW.dP006.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 7,
+			"file" : "CSANDW.dP007.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 8,
+			"file" : "CSANDW.dP008.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 9,
+			"file" : "CSANDW.dP009.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 10,
+			"file" : "CSANDW.dP010.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 11,
+			"file" : "CSANDW.dP011.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 12,
+			"file" : "CSANDW.dP012.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 13,
+			"file" : "CSANDW.dP013.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 14,
+			"file" : "CSANDW.dP014.png"
+		}
+	]
+}

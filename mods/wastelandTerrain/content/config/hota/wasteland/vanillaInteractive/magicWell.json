@@ -1,0 +1,25 @@
+{
+	"core:magicWell" : {
+		"types" : {
+			"magicWell" : {
+				"templates" : {
+					"magicWellWasteland" : {
+						"animation" : "AVXwelr0.def",
+						"mask" : [
+							"VV",
+							"VA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
+					}
+				}
+			}
+		}
+	}
+}

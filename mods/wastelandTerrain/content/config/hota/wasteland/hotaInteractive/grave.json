@@ -1,0 +1,104 @@
+{
+	// 1.7.0:
+	// [+] Changed the Tomb (note: they mean Grave) reward from 500-5000 to 1500-4000 Gold
+	"grave" : {
+		"handler" : "configurable",
+		"name" : "Grave",
+		"base" : {
+			"sounds" : {
+				"removal" : [
+					"DIGSOUND"
+				]
+			}
+		},
+		"types" : {
+			"grave" : {
+				"name" : "Grave",
+				"description" : "(Digging gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
+				"rmg" : {
+					"value" : 500,
+					"rarity" : 30
+				},
+				"variables" : {
+					"resource" : {
+						"gainedResource" : "gold"
+					},
+					"artifact" : {
+						"gainedArtifact" : {
+							"anyOf" : [
+								{
+									"class" : "TREASURE"
+								},
+								{
+									"class" : "MINOR"
+								}
+							]
+						}
+					},
+					"number" : {
+						"gainedAmount" : {
+							"amount" : [
+								1500,
+								2000,
+								2500,
+								3000,
+								3500,
+								4000
+							]
+						}
+					}
+				},
+				"removable" : true,
+				"blockedVisitable" : false,
+				"showScoutedPreview" : false,
+				"onEmptyMessage" : "{Grave}\n\nThis tomb is fresh, and even the shovel someone dug it with hasn't been stolen yet.\n\nHowever, digging for artifacts requires an entire day.",
+				"rewards" : [
+					{
+						"limiter" : {
+							"movePercentage" : 100
+						},
+						"message" : "{Grave}\n\nYou take up the shovel, cover your nose with a handkerchief and extract something valuable from the ground.",
+						"resources" : [
+							{
+								"type" : "@gainedResource",
+								"amount" : "@gainedAmount"
+							}
+						],
+						"artifacts" : [
+							"@gainedArtifact"
+						],
+						"bonuses" : [
+							{
+								"type" : "MORALE",
+								"val" : -3,
+								"duration" : "ONE_BATTLE",
+								"description" : "Grave Digging",
+								"stacking" : "GraveDigging"
+							}
+						],
+						"movePercentage" : 0,
+						"removeObject" : true
+					}
+				],
+
+				"visitMode" : "once",
+				"templates" : {
+					"avxgravw" : {
+						"animation" : "hota/wasteland/hotaInteractive/grave/avxgravw",
+						"mask" : [
+							"A"
+						],
+						"visitableFrom" : [
+							"+++",
+							"+++",
+							"+++"
+						], //disabled for not spawning at random maps
+						"allowedTerrains" : [
+							"wasteland"
+						]
+					}
+				}
+			}
+		}
+	}
+}

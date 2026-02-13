@@ -1,0 +1,111 @@
+{
+	"specialClone" : {
+		"type" : "combat",
+		"name" : "Special Clone",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+		"targetType" : "CREATURE",
+		"level" : 4,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"cast" : [
+				2
+			]
+		},
+		"flags" : {
+			"persistent" : true,
+			"positive" : true,
+			"special" : true
+		},
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.SIEGE_WEAPON" : "absolute",
+				"bonus.NOT_TARGET_FOR_SPECIAL_CLONE" : "absolute"
+			}
+		},
+		"sounds" : {
+			"cast" : "CLONE"
+		},
+		"graphics" : {
+			"iconImmune" : "hota/cove/spells/specialCloneSpell.png",
+			"iconScenarioBonus" : "hota/cove/spells/specialCloneSpell.png",
+			"iconEffect" : "hota/cove/spells/specialCloneSpellEffect.png",
+			"iconBook" : "hota/cove/spells/specialCloneSpell.png",
+			"iconScroll" : "hota/cove/spells/specialCloneSpellScroll.png"
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"battleEffects" : {
+					"clone1" : {
+						"maxTier" : 5,
+						"type" : "core:clone"
+					},
+
+					"clone2" : {
+						"maxTier" : 5,
+						"type" : "core:clone"
+					},
+
+					"denyCastingMoreThanOnce" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"markNoTarget" : {
+								"type" : "NOT_TARGET_FOR_SPECIAL_CLONE",
+								"duration" : "ONE_BATTLE",
+								"propagator" : "ARMY"
+							}
+						}
+					}
+				},
+				"targetModifier" : {
+					"smart" : true
+				},
+				"power" : 10,
+				"cost" : 24,
+				"description" : "{Specialist's Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nCan only be used once per battle.\nClones creatures of levels 1-5.\n"
+			},
+			"none" : {},
+			"basic" : {
+				"cost" : 20,
+				"description" : "{Specialist's Basic Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nCan only be used once per battle.\nClones creatures of levels 1-5.\n"
+			},
+			"advanced" : {
+				"cost" : 20,
+				"description" : "{Specialist's Advanced Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nCan only be used once per battle.\nClones creatures of levels 1-6.\n",
+				"battleEffects" : {
+					"clone1" : {
+						"maxTier" : 6,
+						"type" : "core:clone"
+					},
+
+					"clone2" : {
+						"maxTier" : 6,
+						"type" : "core:clone"
+					}
+				}
+			},
+			"expert" : {
+				"cost" : 20,
+				"description" : "{Specialist's Expert Clone}\n\nCreates 2 duplicates of the selected unit stack. The image is dispelled if it is attacked.\nCan only be used once per battle.\nClones creatures of any level.\n",
+				"battleEffects" : {
+					"clone1" : {
+						"maxTier" : 1000,
+						"type" : "core:clone"
+					},
+
+					"clone2" : {
+						"maxTier" : 1000,
+						"type" : "core:clone"
+					}
+				}
+			}
+		}
+	}
+}

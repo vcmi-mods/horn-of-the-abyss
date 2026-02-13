@@ -1,0 +1,790 @@
+{
+	"basepath" : "hota/factory/creatures/battle/COLGOIX/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "COLGOI.dA000.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "COLGOI.dA001.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "COLGOI.dA002.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "COLGOI.dA003.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "COLGOI.dA004.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "COLGOI.dA005.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 0,
+			"file" : "COLGOI.dB000.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 1,
+			"file" : "COLGOI.dB001.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 2,
+			"file" : "COLGOI.dB002.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 3,
+			"file" : "COLGOI.dB003.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 4,
+			"file" : "COLGOI.dB004.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 5,
+			"file" : "COLGOI.dB005.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 6,
+			"file" : "COLGOI.dB006.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 7,
+			"file" : "COLGOI.dB007.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 8,
+			"file" : "COLGOI.dB008.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 9,
+			"file" : "COLGOI.dB009.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 10,
+			"file" : "COLGOI.dB010.png"
+		},
+		{
+			"group" : 1,
+			"frame" : 11,
+			"file" : "COLGOI.dB011.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 0,
+			"file" : "COLGOI.dC000.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 1,
+			"file" : "COLGOI.d_000.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 2,
+			"file" : "COLGOI.d_001.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 3,
+			"file" : "COLGOI.d_002.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 4,
+			"file" : "COLGOI.dC004.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 5,
+			"file" : "COLGOI.d_002.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 6,
+			"file" : "COLGOI.d_001.png"
+		},
+		{
+			"group" : 2,
+			"frame" : 7,
+			"file" : "COLGOI.d_000.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 0,
+			"file" : "COLGOI.dD000.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 1,
+			"file" : "COLGOI.dD001.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 2,
+			"file" : "COLGOI.dD002.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 3,
+			"file" : "COLGOI.dD003.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 4,
+			"file" : "COLGOI.dD004.png"
+		},
+		{
+			"group" : 3,
+			"frame" : 5,
+			"file" : "COLGOI.dD005.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 0,
+			"file" : "COLGOI.dE000.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 1,
+			"file" : "COLGOI.dE001.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 2,
+			"file" : "COLGOI.dE002.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 3,
+			"file" : "COLGOI.dE003.png"
+		},
+		{
+			"group" : 4,
+			"frame" : 4,
+			"file" : "COLGOI.dE004.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 0,
+			"file" : "COLGOI.dF000.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 1,
+			"file" : "COLGOI.dF001.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 2,
+			"file" : "COLGOI.dF002.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 3,
+			"file" : "COLGOI.dF003.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 4,
+			"file" : "COLGOI.dF004.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 5,
+			"file" : "COLGOI.dF005.png"
+		},
+		{
+			"group" : 5,
+			"frame" : 6,
+			"file" : "COLGOI.dF006.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 0,
+			"file" : "COLGOI.d_003.png"
+		},
+		{
+			"group" : 7,
+			"frame" : 1,
+			"file" : "COLGOI.d_004.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 0,
+			"file" : "COLGOI.d_004.png"
+		},
+		{
+			"group" : 8,
+			"frame" : 1,
+			"file" : "COLGOI.d_003.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 0,
+			"file" : "COLGOI.d_003.png"
+		},
+		{
+			"group" : 9,
+			"frame" : 1,
+			"file" : "COLGOI.d_004.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 0,
+			"file" : "COLGOI.d_004.png"
+		},
+		{
+			"group" : 10,
+			"frame" : 1,
+			"file" : "COLGOI.d_003.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 0,
+			"file" : "COLGOI.dL000.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 1,
+			"file" : "COLGOI.dL001.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 2,
+			"file" : "COLGOI.dL002.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 3,
+			"file" : "COLGOI.dL003.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 4,
+			"file" : "COLGOI.dL004.png"
+		},
+		{
+			"group" : 11,
+			"frame" : 5,
+			"file" : "COLGOI.dL005.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 0,
+			"file" : "COLGOI.dM000.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 1,
+			"file" : "COLGOI.dM001.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 2,
+			"file" : "COLGOI.dM002.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 3,
+			"file" : "COLGOI.dM003.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 4,
+			"file" : "COLGOI.dM004.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 5,
+			"file" : "COLGOI.dM005.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 6,
+			"file" : "COLGOI.dM006.png"
+		},
+		{
+			"group" : 12,
+			"frame" : 7,
+			"file" : "COLGOI.dM007.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 0,
+			"file" : "COLGOI.dN000.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 1,
+			"file" : "COLGOI.dN001.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 2,
+			"file" : "COLGOI.dN002.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 3,
+			"file" : "COLGOI.dN003.png"
+		},
+		{
+			"group" : 13,
+			"frame" : 4,
+			"file" : "COLGOI.dN004.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 0,
+			"file" : "COLGOI.d_006.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 1,
+			"file" : "COLGOI.d_007.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 2,
+			"file" : "COLGOI.d_008.png"
+		},
+		{
+			"group" : 14,
+			"frame" : 3,
+			"file" : "COLGOI.d_009.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 0,
+			"file" : "COLGOI.d_009.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 1,
+			"file" : "COLGOI.d_008.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 2,
+			"file" : "COLGOI.d_007.png"
+		},
+		{
+			"group" : 15,
+			"frame" : 3,
+			"file" : "COLGOI.d_006.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 0,
+			"file" : "COLGOI.dR000.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 1,
+			"file" : "COLGOI.dR001.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 2,
+			"file" : "COLGOI.dR002.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 3,
+			"file" : "COLGOI.dR003.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 4,
+			"file" : "COLGOI.dR004.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 5,
+			"file" : "COLGOI.dR005.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 6,
+			"file" : "COLGOI.dR006.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 7,
+			"file" : "COLGOI.dR007.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 8,
+			"file" : "COLGOI.dR008.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 9,
+			"file" : "COLGOI.dR009.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 10,
+			"file" : "COLGOI.dR010.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 11,
+			"file" : "COLGOI.dR011.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 12,
+			"file" : "COLGOI.dR012.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 13,
+			"file" : "COLGOI.dR013.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 14,
+			"file" : "COLGOI.dR014.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 15,
+			"file" : "COLGOI.dR015.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 16,
+			"file" : "COLGOI.dR016.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 17,
+			"file" : "COLGOI.dR017.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 18,
+			"file" : "COLGOI.dR018.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 19,
+			"file" : "COLGOI.dR019.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 20,
+			"file" : "COLGOI.dR020.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 21,
+			"file" : "COLGOI.dR021.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 22,
+			"file" : "COLGOI.dR022.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 23,
+			"file" : "COLGOI.dR023.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 24,
+			"file" : "COLGOI.dR024.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 25,
+			"file" : "COLGOI.dR025.png"
+		},
+		{
+			"group" : 17,
+			"frame" : 26,
+			"file" : "COLGOI.dR026.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 0,
+			"file" : "COLGOI.dS000.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 1,
+			"file" : "COLGOI.dS001.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 2,
+			"file" : "COLGOI.dS002.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 3,
+			"file" : "COLGOI.dS003.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 4,
+			"file" : "COLGOI.dS004.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 5,
+			"file" : "COLGOI.dS005.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 6,
+			"file" : "COLGOI.dS006.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 7,
+			"file" : "COLGOI.dS007.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 8,
+			"file" : "COLGOI.dS008.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 9,
+			"file" : "COLGOI.dS009.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 10,
+			"file" : "COLGOI.dS010.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 11,
+			"file" : "COLGOI.dS011.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 12,
+			"file" : "COLGOI.dS012.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 13,
+			"file" : "COLGOI.dS013.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 14,
+			"file" : "COLGOI.dS014.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 15,
+			"file" : "COLGOI.dS015.png"
+		},
+		{
+			"group" : 18,
+			"frame" : 16,
+			"file" : "COLGOI.dS016.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 0,
+			"file" : "COLGOI.dO000.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 1,
+			"file" : "COLGOI.dO001.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 2,
+			"file" : "COLGOI.dO002.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 3,
+			"file" : "COLGOI.dO003.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 4,
+			"file" : "COLGOI.dO004.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 5,
+			"file" : "COLGOI.dO005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 6,
+			"file" : "COLGOI.dO006.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 7,
+			"file" : "COLGOI.dO007.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 8,
+			"file" : "COLGOI.dO008.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 9,
+			"file" : "COLGOI.dO009.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 10,
+			"file" : "COLGOI.dO010.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 11,
+			"file" : "COLGOI.dO011.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 12,
+			"file" : "COLGOI.dO012.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 13,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 14,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 15,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 16,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 17,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 18,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 50,
+			"frame" : 19,
+			"file" : "COLGOI.d_005.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 0,
+			"file" : "COLGOI.dP000.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 1,
+			"file" : "COLGOI.dP001.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 2,
+			"file" : "COLGOI.dP002.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 3,
+			"file" : "COLGOI.dP003.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 4,
+			"file" : "COLGOI.dP004.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 5,
+			"file" : "COLGOI.dP005.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 6,
+			"file" : "COLGOI.dP006.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 7,
+			"file" : "COLGOI.dP007.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 8,
+			"file" : "COLGOI.dP008.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 9,
+			"file" : "COLGOI.dP009.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 10,
+			"file" : "COLGOI.dP010.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 11,
+			"file" : "COLGOI.dP011.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 12,
+			"file" : "COLGOI.dP012.png"
+		},
+		{
+			"group" : 51,
+			"frame" : 13,
+			"file" : "COLGOI.dP013.png"
+		}
+	]
+}

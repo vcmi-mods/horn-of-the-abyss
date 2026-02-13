@@ -1,0 +1,33 @@
+{
+	"name" : "Pathfinding",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author" : "Kuririn, avatar, wnukos",
+	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
+	"version" : "1.0",
+
+	"skills" : [
+		"config/hotaGameBalance/skills.json"
+	],
+	"chinese" : {
+		"name" : "寻路术",
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"german" : {
+		"name" : "Pfadfindung",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"czech" : {
+		"name" : "Hledání cest",
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
+	}
+}

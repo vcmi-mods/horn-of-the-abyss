@@ -1,0 +1,230 @@
+{
+	"yetiRunemaster" : {
+		"name" : {
+			"singular" : "Yeti Runemaster",
+			"plural" : "Yeti Runemasters"
+		},
+		"faction" : "bulwark",
+		"level" : 4,
+		"cost" : {
+			"gold" : 400
+		},
+		"speed" : 7,
+		"hitPoints" : 45,
+		"attack" : 11,
+		"defense" : 9,
+		"damage" : {
+			"min" : 7,
+			"max" : 9
+		},
+		"aiValue" : 751,
+		"fightValue" : 626,
+		"doubleWide" : true,
+		"growth" : 4,
+		"advMapAmount" : {
+			"min" : 10,
+			"max" : 16
+		},
+		"abilities" : {
+			"yetiCure" : {
+				"type" : "ENCHANTED",
+				"subtype" : "yetiCure",
+				"val" : 0,
+				"icon" : "hota/bulwark/bonuses/yetiCure",
+				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
+			},
+			"runeMaster" : {
+				"type" : "NONE",
+				"icon" : "hota/bulwark/bonuses/runeMaster",
+				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\nShould the hero have mastered the lore of the Runes as well, the bonuses stack."
+			},
+
+			// runes functionality
+			"yetiRunesCap" : {
+				"type" : "YETI_RUNE_LEVEL_COUNTER",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 9
+			},
+			"yetiRunesBase" : {
+				"type" : "YETI_RUNE_LEVEL_COUNTER",
+				"val" : 0
+			},
+
+			"yetiRunesBonusAttackTier1" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 2,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 1,
+					"bonusMaxValue" : 3
+				}
+			},
+			"yetiRunesBonusAttackTier2" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 4,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 4,
+					"bonusMaxValue" : 6
+				}
+			},
+			"yetiRunesBonusAttackTier3" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 6,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 7,
+					"bonusMaxValue" : 9
+				}
+			},
+
+			"yetiRunesBonusDefenseTier1" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 2,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 2,
+					"bonusMaxValue" : 4
+				}
+			},
+			"yetiRunesBonusDefenseTier2" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 4,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 5,
+					"bonusMaxValue" : 7
+				}
+			},
+			"yetiRunesBonusDefenseTier3" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 6,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 8,
+					"bonusMaxValue" : 9
+				}
+			},
+
+			"yetiRunesBonusSpeedTier1" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 3,
+					"bonusMaxValue" : 5
+				}
+			},
+			"yetiRunesBonusSpeedTier2" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 6,
+					"bonusMaxValue" : 8
+				}
+			},
+			"yetiRunesBonusSpeedTier3" : {
+				"type" : "STACKS_SPEED",
+				"val" : 3,
+				"limiters" : {
+					"type" : "HAS_ANOTHER_BONUS_LIMITER",
+					"bonusType" : "YETI_RUNE_LEVEL_COUNTER",
+					"bonusMinValue" : 9,
+					"bonusMaxValue" : 9
+				}
+			},
+
+			"yetiCombatAttackRuneLevels" : {
+				"type" : "ON_COMBAT_EVENT",
+				"subtype" : "combatEventAfterAttack",
+				"addInfo" : {
+					"effect" : [
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "YETI_RUNE_LEVEL_COUNTER",
+								"val" : 1,
+								"duration" : "ONE_BATTLE"
+							}
+						}
+					]
+				}
+			},
+			"yetiCombatAttackedRuneLevels" : {
+				"type" : "ON_COMBAT_EVENT",
+				"subtype" : "combatEventAfterAttacked",
+				"addInfo" : {
+					"effect" : [
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "YETI_RUNE_LEVEL_COUNTER",
+								"val" : 2,
+								"duration" : "ONE_BATTLE"
+							}
+						}
+					]
+				}
+			},
+			"yetiCombatDefendRuneLevels" : {
+				"type" : "ON_COMBAT_EVENT",
+				"subtype" : "combatEventDefend",
+				"addInfo" : {
+					"effect" : [
+						{
+							"action" : "bonus",
+							"targetEnemy" : false,
+							"bonus" : {
+								"type" : "YETI_RUNE_LEVEL_COUNTER",
+								"val" : 3,
+								"duration" : "ONE_BATTLE"
+							}
+						}
+					]
+				}
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yetiRunemaster.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/yetiRunemaster.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWMSPRT.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CMSPIR.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.8
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/yetiRunemasterRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/yetiRunemasterLeft.png"
+		},
+		"sound" : {
+			"attack" : "hota/bulwark/creatures/yetiRunemaster/YETIATTK.wav",
+			"defend" : "hota/bulwark/creatures/yetiRunemaster/YETIDFND.wav",
+			"killed" : "hota/bulwark/creatures/yetiRunemaster/YETIKILL.wav",
+			"move" : "hota/bulwark/creatures/yetiRunemaster/YETIMOVE.wav",
+			"wince" : "hota/bulwark/creatures/yetiRunemaster/YETIWNCE.wav"
+		}
+	}
+}

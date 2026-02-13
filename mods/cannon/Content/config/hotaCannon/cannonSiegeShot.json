@@ -1,0 +1,86 @@
+{
+	"cannonSiegeShot" : {
+		"targetType" : "LOCATION",
+		"type" : "ability",
+		"name" : "Cannon",
+		"school" : {},
+		"level" : 1,
+		"power" : 1,
+		"defaultGainChance" : 0,
+		"animation" : {
+			// should be no arc, just a regular shot
+		},
+		"targetCondition" : {},
+		"gainChance" : {},
+		"levels" : {
+			"base" : {
+				"description" : "Cannon Siege Shot",
+				"power" : 1,
+				"cost" : 0,
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"catapult" : {
+						"targetsToAttack" : 1,
+						"type" : "core:catapult"
+					}
+				},
+				"range" : "0"
+			},
+			"none" : {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitKeep" : 5,
+						"chanceToHitGate" : 25,
+						"chanceToHitTower" : 10,
+						"chanceToHitWall" : 50,
+						"chanceToNormalHit" : 60,
+						"chanceToCrit" : 30
+					}
+				}
+			},
+			"basic" : {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitKeep" : 7,
+						"chanceToHitGate" : 60,
+						"chanceToHitTower" : 15,
+						"chanceToHitWall" : 60,
+						"chanceToNormalHit" : 50,
+						"chanceToCrit" : 50
+					}
+				}
+			},
+			"advanced" : {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitKeep" : 7,
+						"chanceToHitGate" : 60,
+						"chanceToHitTower" : 15,
+						"chanceToHitWall" : 60,
+						"chanceToNormalHit" : 50,
+						"chanceToCrit" : 50
+					}
+				}
+			},
+			"expert" : {
+				"battleEffects" : {
+					"catapult" : {
+						"chanceToHitKeep" : 100,
+						"chanceToHitGate" : 100,
+						"chanceToHitTower" : 100,
+						"chanceToHitWall" : 100,
+						"chanceToNormalHit" : 0,
+						"chanceToCrit" : 100
+					}
+				}
+			}
+		},
+		"flags" : {
+			"nonMagical" : true,
+			"indifferent" : true,
+			"special" : true
+		}
+	}
+}

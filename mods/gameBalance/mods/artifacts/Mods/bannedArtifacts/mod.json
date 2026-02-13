@@ -1,0 +1,19 @@
+{
+	"name" : "Banned Artifacts",
+	"description" : "Bans these artifacts - Recanter's Cloak, Orb of Inhibition, Garniture of Interference, Boots of Polarity, Surcoat of Counterpoise, Sleepkeeper and Horn of the Abyss",
+	"modType" : "Mechanics",
+	"author" : "HotA crew, ported by VCMI team",
+	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
+	"version" : "1.0",
+	"softDepends" : [
+		"hota.artifacts",
+		"hota.neutralcreatures"
+	],
+	"artifacts" : [
+		"config/hotaGameBalance/artifactsDefaultBanned.json"
+	],
+	"czech" : {
+		"name" : "Zakázané artefakty",
+		"description" : "Zakáže tyto artefakty - Plášť odvolání, Blokující koule, Ozdoba odolnosti, Boty odolnosti, Kabát odolnosti a Roh propasti"
+	}
+}

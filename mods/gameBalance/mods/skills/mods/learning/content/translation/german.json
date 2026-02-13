@@ -1,0 +1,5 @@
+{
+	"skill.core.learning.description.advanced" : "{Verbessert Lernen}\n\nVerbessert Lernen erhöht die vom Helden erhaltenen Erfahrungspunkte um 40 %.",
+	"skill.core.learning.description.basic" : "{Einfach Lernen}\n\nEinfach Lernen erhöht die vom Helden erhaltenen Erfahrungspunkte um 20 %.",
+	"skill.core.learning.description.expert" : "{Meisterhaft Lernen}\n\nMeisterhaft Lernen erhöht die vom Helden erhaltenen Erfahrungspunkte um 60 %."
+}

@@ -60,3 +60,99 @@ jobs:
           default_author: github_actions
           message: "Auto-format JSON files"
           add: '*.json'
+
+  package-artifact:
+    name: Create release
+    needs: [validate-json, format-json]
+    if: >-
+      ${{
+        needs.validate-json.result == 'success' &&
+        github.event_name != 'pull_request' &&
+        github.repository_owner == 'vcmi-mods' &&
+        startsWith(github.ref_name, 'vcmi-')
+      }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 0
+
+      - name: Prepare content ZIPs
+        run: |
+          set -euo pipefail
+
+          ROOT="$(pwd)"
+          mapfile -d '' CONTENT_DIRS < <(find . -type d -name content -print0)
+          echo "Found ${#CONTENT_DIRS[@]} content directories"
+
+          for d in "${CONTENT_DIRS[@]}"; do
+            parent="$(dirname "$d")"
+            out="$ROOT/${parent#./}/content.zip"
+
+            echo "Packaging CONTENT of: $d -> $out"
+
+            # ensure no leftover
+            rm -f "$out"
+
+            # Zip CONTENTS (not the folder), store-only
+            (
+              cd "$d"
+              zip -0 -r -q "$out" .
+            )
+
+            rm -rf "$d"
+          done
+
+      - name: Package release archive
+        run: |
+          set -euo pipefail
+
+          mkdir -p dist
+
+          REPO_NAME="${GITHUB_REPOSITORY##*/}"
+          WRAP="${REPO_NAME}-${GITHUB_REF_NAME}"
+          OUT="dist/${WRAP}.zip"
+
+          rm -rf ".pack"
+          mkdir -p ".pack/${WRAP}"
+
+          # Copy repo content into wrapper folder, excluding .git and dist and the staging itself
+          rsync -a \
+            --exclude ".git/" \
+            --exclude "dist/" \
+            --exclude ".pack/" \
+            "./" ".pack/${WRAP}/"
+
+          # Create zip so that it contains the wrapper folder at top level
+          ( cd ".pack" && zip -9 -r -q "../${OUT}" "${WRAP}" )
+
+          echo "Created: ${OUT}"
+
+      - name: Move tag to current commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+          git tag -f "${GITHUB_REF_NAME}" "${GITHUB_SHA}"
+          git push origin "${GITHUB_REF_NAME}" --force
+
+      - name: Upload release
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
+          body: |
+            Automated build for branch `${{ github.ref_name }}`.
+            Commit: `${{ github.sha }}`
+          artifacts: dist/${{ github.event.repository.name }}-${{ github.ref_name }}.zip
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: false
+          commit: ${{ github.sha }}

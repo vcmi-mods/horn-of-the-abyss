@@ -1,0 +1,76 @@
+{
+	"name" : "Spell Research",
+	"description" : "This submod enables basic Spell Research system to mimic similar feature in HotA.",
+	"modType" : "Mechanics",
+	"author" : "avatar",
+	"contact" : "https://forum.vcmi.eu/",
+	"version" : "1.1",
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
+	"settings" : {
+		"towns" : {
+			"spellResearch" : true,
+			"spellResearchCostMultiplierPerReroll" : [
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"spellResearchCost" : [
+				{
+					"gold" : 1000,
+					"mercury" : 2,
+					"sulfur" : 2,
+					"crystal" : 2,
+					"gems" : 2
+				},
+				{
+					"gold" : 1000,
+					"mercury" : 4,
+					"sulfur" : 4,
+					"crystal" : 4,
+					"gems" : 4
+				},
+				{
+					"gold" : 1000,
+					"mercury" : 6,
+					"sulfur" : 6,
+					"crystal" : 6,
+					"gems" : 6
+				},
+				{
+					"gold" : 1000,
+					"mercury" : 8,
+					"sulfur" : 8,
+					"crystal" : 8,
+					"gems" : 8
+				},
+				{
+					"gold" : 1000,
+					"mercury" : 10,
+					"sulfur" : 8,
+					"crystal" : 10,
+					"gems" : 10
+				}
+			]
+		}
+	},
+	"chinese" : {
+		"name" : "法术研究",
+		"description" : "这个子mod启用基本的法术研究，以模仿HotA中的类似功能。"
+	},
+	"czech" : {
+		"name" : "Výzkum kouzel",
+		"description" : "Tato modifikace aktivuje základní systém výzkumu kouzel ve věži kouzel"
+	},
+	"polish" : {
+		"name" : "Badanie zaklęć",
+		"description" : "Podmoduł włącza podstawowy system badań zaklęć na wzór rozwiązania w HotA"
+	},
+	"portuguese" : {
+		"name" : "Pesquisa de Feitiços",
+		"description" : "Este submod ativa o sistema básico de Pesquisa de Feitiços para imitar uma característica semelhante no HotA."
+	}
+}

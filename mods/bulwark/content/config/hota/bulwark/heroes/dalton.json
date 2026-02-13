@@ -1,0 +1,147 @@
+{
+	"12dalton" : {
+		"class" : "elder",
+		"female" : false,
+		"images" : {
+			"large" : "hota/bulwark/heroes/dalton/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/dalton/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/dalton/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/dalton/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"base" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeMelee",
+				"targetSourceType" : "SPELL_EFFECT",
+				"valueType" : "PERCENT_TO_TARGET_TYPE",
+				"updater" : {
+					"type" : "GROWS_WITH_LEVEL",
+					"valPer20" : 60
+				}
+			},
+			"bonuses" : {
+				"tier1Creatures" : {
+					"updater" : {
+						"stepSize" : 1
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"maxlevel" : 2
+						}
+					]
+				},
+				"tier2Creatures" : {
+					"updater" : {
+						"stepSize" : 2
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 3
+						}
+					]
+				},
+				"tier3Creatures" : {
+					"updater" : {
+						"stepSize" : 3
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 4
+						}
+					]
+				},
+				"tier4Creatures" : {
+					"updater" : {
+						"stepSize" : 4
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 4,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"tier5Creatures" : {
+					"updater" : {
+						"stepSize" : 5
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 6
+						}
+					]
+				},
+				"tier6Creatures" : {
+					"updater" : {
+						"stepSize" : 6
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 6,
+							"maxlevel" : 7
+						}
+					]
+				},
+				"tier7Creatures" : {
+					"updater" : {
+						"stepSize" : 7
+					},
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 7
+						}
+					]
+				}
+			}
+		},
+		"spellbook" : [
+			"shield"
+		],
+		"texts" : {
+			"name" : "Dalton",
+			"biography" : "Plain weapons can barely scratch a Jotunn, but believing these hulks neglect protection exposes a fool. Dalton is the most adept armorer capable of forging equipment of such immense size. Lean as Vori's ores are, Dalton has penetrated the secrets of magic to ensure his creations can withstand anything, an ice demon's fury included.",
+			"specialty" : {
+				"name" : "Shield",
+				"description" : "Casts Shield with effect increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"tooltip" : "Spell Bonus: Shield"
+			}
+		}
+	}
+}

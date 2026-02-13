@@ -1,0 +1,1206 @@
+{
+	"factory" : {
+		"alignment" : "neutral",
+		"creatureBackground" : {
+			"120px" : "hota/factory/TPCASFAC.png",
+			"130px" : "hota/factory/CRBKGFAC.png"
+		},
+		"name" : "Factory",
+		"nativeTerrain" : "wasteland",
+		"boat" : "boatCastle",
+		"town" : {
+			"defaultTavern" : 5,
+			"buildings" : {
+				"mageGuild1" : {
+					"name" : "Mage Guild Level 1",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					}
+				},
+				"mageGuild2" : {
+					"name" : "Mage Guild Level 2",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					}
+				},
+				"mageGuild3" : {
+					"name" : "Mage Guild Level 3",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					}
+				},
+				"mageGuild4" : {
+					"name" : "Mage Guild Level 4",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					}
+				},
+				"mageGuild5" : {
+					"name" : "Mage Guild Level 5",
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" : {
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					}
+				},
+				"tavern" : {
+					"name" : "Tavern",
+					"description" : "The Tavern increases the morale for troops defending the city by +1.",
+					"cost" : {
+						"wood" : 5,
+						"gold" : 500
+					}
+				},
+				"fort" : {
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" : {
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					}
+				},
+				"citadel" : {
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep and a moat to your town's defenses.",
+					"cost" : {
+						"ore" : 5,
+						"gold" : 2500
+					}
+				},
+				"castle" : {
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" : {
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					}
+				},
+				"villageHall" : {
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and provides your kingdom with 500 gold per day."
+				},
+				"townHall" : {
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and provides your kingdom with 1000 gold per day.",
+					"cost" : {
+						"gold" : 2500
+					}
+				},
+				"cityHall" : {
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and provides your kingdom with 2000 gold per day.",
+					"cost" : {
+						"gold" : 5000
+					}
+				},
+				"capitol" : {
+					"name" : "Capitol",
+					"description" : "The Capitol provides your kingdom with 4000 gold per day.",
+					"cost" : {
+						"gold" : 10000
+					}
+				},
+				"marketplace" : {
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates improve with each Marketplace you own).",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5
+					}
+				},
+				"resourceSilo" : {
+					"name" : "Resource Silo",
+					"description" : "The Resource Silo provides you with an additional +1 crystal each day.",
+					"cost" : {
+						"gold" : 5000,
+						"ore" : 5
+					},
+					"produce" : {
+						"crystal" : 1
+					}
+				},
+				"blacksmith" : {
+					"name" : "Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ammo Carts.",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"warMachine" : "ammoCart"
+				},
+				"special3" : {
+					"description" : "Artifact Merchants allows a visiting hero to purchase artifacts.",
+					"name" : "Artifact Merchants",
+					"cost" : {
+						"gold" : 10000
+					},
+					"marketModes" : [
+						"resource-artifact",
+						"artifact-resource"
+					],
+					"requires" : [
+						"marketplace"
+					]
+				},
+				"horde1" : {
+					"description" : "The Pen increases Armadillo growth by +3 per week.",
+					"name" : "Pen",
+					"cost" : {
+						"gold" : 1000
+					},
+					"upgrades" : "dwellingLvl3",
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				"horde1Upgr" : {
+					"description" : "The Pen increases Armadillo and Bellwether Armadillo growth by +3 per week.",
+					"name" : "Pen",
+					"cost" : {
+						"gold" : 1000
+					},
+					"requires" : [
+						"horde1"
+					],
+					"upgrades" : "dwellingUpLvl3"
+				},
+				"special1" : {
+					"description" : "Allows the player to get a loan of 2500 Gold immediately but decreases the town's income by 500 Gold for 5 days.",
+					"name" : "Bank",
+					"type" : "bank",
+					"cost" : {
+						"gold" : 500,
+						"ore" : 5
+					}
+				},
+				"special2" : {
+					"description" : "Gives a garrisoned hero 20 additional Spell Points while defending in siege combat.",
+					"name" : "Mana Generator",
+					"bonuses" : [
+						{
+							"type" : "COMBAT_MANA_BONUS",
+							"val" : 20
+						}
+					],
+					"cost" : {
+						"gold" : 1000,
+						"ore" : 5
+					},
+					"requires" : [
+						"fort"
+					]
+				},
+				"grail" : {
+					"description" : "The presence of the Lightning Rod increases weekly creature growth by 50%, provides your empire with an additional 5000 gold each day. Strikes all enemy stacks with lightning at the beginning of every battle the player participates in, anywhere on the map.",
+					"name" : "Lightning Rod",
+					"bonuses" : [
+						{
+							"type" : "OPENING_BATTLE_SPELL",
+							"val" : 3,
+							"subtype" : "teslaLightning",
+							"propagator" : "PLAYER"
+						}
+					]
+				},
+				"dwellingLvl1" : {
+					"description" : "The Halfling Adobe allows you to recruit Halflings.",
+					"name" : "Halfling Adobe",
+					"cost" : {
+						"gold" : 500,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [
+						"fort"
+					]
+				},
+				"dwellingLvl2" : {
+					"description" : "The Foundry allows you to recruit Mechanics.",
+					"name" : "Foundry",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingLvl3" : {
+					"description" : "The Ranch allows you to recruit Armadillos.",
+					"name" : "Ranch",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"requires" : [
+						"dwellingLvl1"
+					]
+				},
+				"dwellingLvl4" : {
+					"description" : "The Manufactory allows you to recruit Automatons.",
+					"name" : "Manufactory",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 10,
+						"wood" : 5
+					},
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"dwellingLvl2"
+						]
+					]
+				},
+				"dwellingLvl5" : {
+					"description" : "The Catacombs allows you to recruit Sandworms.",
+					"name" : "Catacombs",
+					"cost" : {
+						"gold" : 3000,
+						"ore" : 5,
+						"wood" : 5,
+						"gems" : 2,
+						"crystal" : 2
+					},
+					"requires" : [
+						"dwellingLvl3"
+					]
+				},
+				"dwellingLvl6" : {
+					"description" : "The Watchtower allows you to recruit Gunslingers.",
+					"name" : "Watchtower",
+					"cost" : {
+						"gold" : 4000,
+						"ore" : 5,
+						"wood" : 5,
+						"sulfur" : 5,
+						"mercury" : 5
+					},
+					"requires" : [
+						"dwellingLvl4"
+					]
+				},
+				"dwellingLvl7" : {
+					"description" : "The Serpentarium allows you to recruit Couatls.",
+					"name" : "Serpentarium",
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 10,
+						"wood" : 10,
+						"crystal" : 10
+					},
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl5"
+						],
+						[
+							"mageGuild1"
+						]
+					]
+				},
+				"dwellingLvl8" : {
+					"description" : "The Gantry allows you to recruit Dreadnoughts.",
+					"name" : "Gantry",
+					"cost" : {
+						"gold" : 10000,
+						"ore" : 20,
+						"crystal" : 20
+					},
+					"requires" : [
+						"dwellingLvl6"
+					]
+				},
+				"dwellingUpLvl1" : {
+					"description" : "The Halfling Adobe allows you to recruit Halfling Grenadiers.",
+					"name" : "Upg. Halfling Adobe",
+					"cost" : {
+						"gold" : 1000,
+						"mercury" : 5,
+						"sulfur" : 5
+					},
+					"requires" : [
+						"blacksmith"
+					],
+					"upgrades" : "dwellingLvl1"
+				},
+				"dwellingUpLvl2" : {
+					"description" : "The Foundry allows you to recruit Engineers.",
+					"name" : "Upg. Foundry",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5,
+						"ore" : 5
+					},
+					"requires" : [
+						"blacksmith"
+					],
+					"upgrades" : "dwellingLvl2"
+				},
+				"dwellingUpLvl3" : {
+					"description" : "The Ranch allows you to recruit Bellwether Armadillos.",
+					"name" : "Upg. Ranch",
+					"cost" : {
+						"gold" : 1000,
+						"wood" : 5
+					},
+					"upgrades" : "dwellingLvl3"
+				},
+				"dwellingUpLvl4" : {
+					"description" : "The Manufactory allows you to recruit Sentinel Automatons.",
+					"name" : "Upg. Manufactory",
+					"cost" : {
+						"gold" : 2000,
+						"ore" : 10,
+						"mercury" : 5
+					},
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl5" : {
+					"description" : "The Catacombs allows you to recruit Olgoi-Khorkhoi.",
+					"name" : "Upg. Catacombs",
+					"cost" : {
+						"gold" : 2000,
+						"gems" : 5
+					},
+					"requires" : [
+						"mageGuild1"
+					],
+					"upgrades" : "dwellingLvl5"
+				},
+				"dwellingUpLvl6" : {
+					"description" : "The Watchtower allows you to recruit Bounty Hunters.",
+					"name" : "Upg. Watchtower",
+					"cost" : {
+						"gold" : 3000,
+						"sulfur" : 5,
+						"mercury" : 5,
+						"wood" : 10
+					},
+					"requires" : [
+						"marketplace"
+					],
+					"upgrades" : "dwellingLvl6"
+				},
+				"dwellingUpLvl7" : {
+					"description" : "The Serpentarium allows you to recruit Crimson Couatls.",
+					"name" : "Upg. Serpentarium",
+					"cost" : {
+						"gold" : 15000,
+						"wood" : 10,
+						"ore" : 10,
+						"crystal" : 20
+					},
+					"requires" : [
+						"mageGuild2"
+					],
+					"upgrades" : "dwellingLvl7"
+				},
+				"dwellingUpLvl8" : {
+					"description" : "The Gantry allows you to recruit Juggernauts.",
+					"name" : "Upg. Gantry",
+					"cost" : {
+						"gold" : 15000,
+						"ore" : 10,
+						"crystal" : 20
+					},
+					"requires" : [
+						"marketplace"
+					],
+					"upgrades" : "dwellingLvl8"
+				}
+			},
+			"buildingsIcons" : "hota/factory/town/townhall/town-hall.def",
+			"creatures" : [
+				[
+					"halfling",
+					"halflingGrenadier"
+				],
+				[
+					"hotaMechanic",
+					"hotaEngineer"
+				],
+				[
+					"armadillo",
+					"bellwetherArmadillo"
+				],
+				[
+					"automaton",
+					"sentinelAutomaton"
+				],
+				[
+					"sandworm",
+					"olgoiKhorkhoi"
+				],
+				[
+					"gunslinger",
+					"bountyHunter"
+				],
+				[
+					"hotaCouatl",
+					"crimsonCouatl"
+				],
+				[
+					"hotaDreadnought",
+					"hotaJuggernaut"
+				]
+			],
+			"guildBackground" : "TPMAGE.png",
+			"guildSpells" : {
+				"bless" : 3,
+				"bloodlust" : 5,
+				"cure" : 5,
+				"curse" : 0,
+				"dispel" : 10,
+				"haste" : 10,
+				"magicArrow" : 30,
+				"protectFire" : 3,
+				"protectWater" : 3,
+				"shield" : 5,
+				"slow" : 5,
+				"stoneSkin" : 10,
+				"summonBoat" : 5,
+				"viewAir" : 3,
+				"viewEarth" : 3,
+
+				"blind" : 8,
+				"deathRipple" : 0,
+				"disguise" : 2,
+				"disruptingRay" : 4,
+				"fireWall" : 4,
+				"fortune" : 2,
+				"iceBolt" : 4,
+				"lightningBolt" : 50,
+				"precision" : 6,
+				"protectAir" : 2,
+				"quicksand" : 4,
+				"removeObstacle" : 4,
+				"scuttleBoat" : 4,
+				"visions" : 2,
+				"weakness" : 4,
+
+				"airShield" : 8,
+				"animateDead" : 0,
+				"antiMagic" : 8,
+				"destroyUndead" : 4,
+				"earthquake" : 8,
+				"fireball" : 12,
+				"forceField" : 8,
+				"forgetfulness" : 4,
+				"frostRing" : 12,
+				"hypnotize" : 4,
+				"landMine" : 8,
+				"mirth" : 4,
+				"misfortune" : 6,
+				"protectEarth" : 4,
+				"teleport" : 10,
+
+				"armageddon" : 0,
+				"berserk" : 5,
+				"chainLightning" : 10,
+				"clone" : 5,
+				"counterstrike" : 5,
+				"fireShield" : 5,
+				"frenzy" : 5,
+				"inferno" : 10,
+				"meteorShower" : 10,
+				"prayer" : 5,
+				"resurrection" : 10,
+				"slayer" : 5,
+				"sorrow" : 5,
+				"townPortal" : 10,
+				"waterWalk" : 10,
+
+				"airElemental" : 16,
+				"dimensionDoor" : 16,
+				"earthElemental" : 16,
+				"fireElemental" : 0,
+				"fly" : 20,
+				"implosion" : 16,
+				"magicMirror" : 16,
+				"sacrifice" : 0,
+				"waterElemental" : 0
+			},
+			"guildWindow" : "hota/factory/town-screen/CRBKGFAC.png",
+			"hallBackground" : "hota/factory/town-screen/TPTHBKFC.png",
+			"horde" : [
+				2,
+				-1
+			],
+			"icons" : {
+				"village" : {
+					"normal" : {
+						"small" : "hota/factory/town/icons/hall-small.png",
+						"large" : "hota/factory/town/icons/hall-big.png"
+					},
+					"built" : {
+						"small" : "hota/factory/town/icons/hall-builded-small.png",
+						"large" : "hota/factory/town/icons/hall-builded-big.png"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "hota/factory/town/icons/fort-small.png",
+						"large" : "hota/factory/town/icons/fort-big.png"
+					},
+					"built" : {
+						"small" : "hota/factory/town/icons/fort-builded-small.png",
+						"large" : "hota/factory/town/icons/fort-builded-big.png"
+					}
+				}
+			},
+			"mapObject" : {
+				"filters" : {
+					"castle" : [
+						"allOf",
+						[
+							"castle"
+						],
+						[
+							"noneOf",
+							[
+								"capitol"
+							]
+						]
+					],
+					"citadel" : [
+						"allOf",
+						[
+							"citadel"
+						],
+						[
+							"noneOf",
+							[
+								"castle"
+							]
+						]
+					],
+					"fort" : [
+						"allOf",
+						[
+							"fort"
+						],
+						[
+							"noneOf",
+							[
+								"citadel"
+							]
+						]
+					]
+				},
+				"templates" : {
+					"capitol" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacZ0.def"
+					},
+					"castle" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacX0.def"
+					},
+					"citadel" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacC0.def"
+					},
+					"fort" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacF0.def"
+					},
+					"village" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacE0.def"
+					}
+				}
+			},
+			"mageGuild" : 5,
+
+			"musicTheme" : [
+				"music/factions/factoryTown"
+			],
+			"names" : [
+				"Arcadia",
+				"Ardon",
+				"Aurichalcum",
+				"Burton",
+				"Corakstone",
+				"Darentor",
+				"Endurance",
+				"Fort Rotwang",
+				"Kerger",
+				"Mount Copper",
+				"New Dolere",
+				"Prospero",
+				"Ridder",
+				"Salda",
+				"Volta",
+				"Vulcan"
+			],
+			"primaryResource" : "crystal",
+			"siege" : {
+				"shooter" : "gunslinger",
+				"imagePrefix" : "hota/factory/siege/SGFa",
+				"towerIconSmall" : "hota/factory/town/icons/towerSmall",
+				"towerIconLarge" : "hota/factory/town/icons/towerLarge",
+				"gate" : {
+					"arch" : {
+						"x" : 481,
+						"y" : 212
+					},
+					"gate" : {
+						"x" : 427,
+						"y" : 281
+					}
+				},
+				"moat" : {
+					"bank" : {
+						"x" : 415,
+						"y" : 80
+					},
+					"moat" : {
+						"x" : 415,
+						"y" : 80
+					}
+				},
+				"static" : {
+					"background" : {
+						"x" : 631,
+						"y" : 56
+					},
+					"bottom" : {
+						"x" : 530,
+						"y" : 368
+					},
+					"top" : {
+						"x" : 511,
+						"y" : 88
+					}
+				},
+				"towers" : {
+					"bottom" : {
+						"battlement" : {
+							"x" : 613,
+							"y" : 508
+						},
+						"creature" : {
+							"x" : 391,
+							"y" : 311
+						},
+						"tower" : {
+							"x" : 613,
+							"y" : 508
+						}
+					},
+					"keep" : {
+						"battlement" : {
+							"x" : 715,
+							"y" : 156
+						},
+						"creature" : {
+							"x" : 536,
+							"y" : -26
+						},
+						"tower" : {
+							"x" : 715,
+							"y" : 156
+						}
+					},
+					"top" : {
+						"battlement" : {
+							"x" : 584,
+							"y" : 14
+						},
+						"creature" : {
+							"x" : 356,
+							"y" : -171
+						},
+						"tower" : {
+							"x" : 584,
+							"y" : 14
+						}
+					}
+				},
+				"walls" : {
+					"bottom" : {
+						"x" : 580,
+						"y" : 459
+					},
+					"bottomMid" : {
+						"x" : 507,
+						"y" : 318
+					},
+					"upper" : {
+						"x" : 557,
+						"y" : 65
+					},
+					"upperMid" : {
+						"x" : 496,
+						"y" : 185
+					}
+				}
+			},
+			"structures" : {
+				"decorationBridge" : {
+					"animation" : "hota/factory/town/buildings/TBFaExt1",
+					"x" : 245,
+					"y" : 201,
+					"z" : -1
+				},
+				"decorationHouse" : {
+					"animation" : "hota/factory/town/buildings/TBFaExt2",
+					"x" : 499,
+					"y" : 295,
+					"z" : -2
+				},
+				"decorationRoad" : {
+					"animation" : "hota/factory/town/buildings/TBFaExt3",
+					"x" : 429,
+					"y" : 217,
+					"z" : -2
+				},
+				"mageGuild1" : {
+					"animation" : "hota/factory/town/buildings/TBFamage",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamage",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamage",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg1",
+					"x" : 132,
+					"y" : 235,
+					"z" : -1
+				},
+				"mageGuild2" : {
+					"animation" : "hota/factory/town/buildings/TBFamag2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamag2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamag2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg2",
+					"x" : 132,
+					"y" : 211,
+					"z" : -1
+				},
+				"mageGuild3" : {
+					"animation" : "hota/factory/town/buildings/TBFamag3",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamag3",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamag3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg3",
+					"x" : 132,
+					"y" : 189,
+					"z" : -1
+				},
+				"mageGuild4" : {
+					"animation" : "hota/factory/town/buildings/TBFamag4",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamag4",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamag4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg4",
+					"x" : 132,
+					"y" : 166,
+					"z" : -1
+				},
+				"mageGuild5" : {
+					"animation" : "hota/factory/town/buildings/TBFamag5",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamag5",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamag5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgmg5",
+					"x" : 132,
+					"y" : 117,
+					"z" : -1
+				},
+				"tavern" : {
+					"animation" : "hota/factory/town/buildings/TBFaTVRN",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaTVRN",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaTVRN",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCtav",
+					"x" : 680,
+					"y" : 230,
+					"z" : 2
+				},
+				"fort" : {
+					"animation" : "hota/factory/town/buildings/TBFaCSTL",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaCSTL",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaCSTL",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas1",
+					"x" : 369,
+					"y" : 63
+				},
+				"citadel" : {
+					"animation" : "hota/factory/town/buildings/TBFaCAS2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaCAS2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaCAS2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas2",
+					"x" : 366,
+					"y" : 17
+				},
+				"castle" : {
+					"animation" : "hota/factory/town/buildings/TBFaCAS3",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaCAS3",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaCAS3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcas3",
+					"x" : 366,
+					"y" : 17
+				},
+				"villageHall" : {
+					"animation" : "hota/factory/town/buildings/TBFahall",
+					"area" : "hota/factory/town-screen/buildings-area/TZFahall",
+					"border" : "hota/factory/town-screen/buildings-border/TOFahall",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal1",
+					"x" : 0,
+					"y" : 264,
+					"z" : 0
+				},
+				"townHall" : {
+					"animation" : "hota/factory/town/buildings/TBFahal2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFahal2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFahal2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal2",
+					"x" : 0,
+					"y" : 256,
+					"z" : 0
+				},
+				"cityHall" : {
+					"animation" : "hota/factory/town/buildings/TBFahal3",
+					"area" : "hota/factory/town-screen/buildings-area/TZFahal3",
+					"border" : "hota/factory/town-screen/buildings-border/TOFahal3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal3",
+					"x" : 0,
+					"y" : 225,
+					"z" : 0
+				},
+				"capitol" : {
+					"animation" : "hota/factory/town/buildings/TBFahal4",
+					"area" : "hota/factory/town-screen/buildings-area/TZFahal4",
+					"border" : "hota/factory/town-screen/buildings-border/TOFahal4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFChal4",
+					"x" : 0,
+					"y" : 163,
+					"z" : 0
+				},
+				"marketplace" : {
+					"animation" : "hota/factory/town/buildings/TBFamark",
+					"area" : "hota/factory/town-screen/buildings-area/TZFamark",
+					"border" : "hota/factory/town-screen/buildings-border/TOFamark",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrk1",
+					"x" : 316,
+					"y" : 310,
+					"z" : 2
+				},
+				"resourceSilo" : {
+					"animation" : "hota/factory/town/buildings/TBFasilo",
+					"area" : "hota/factory/town-screen/buildings-area/TZFasilo",
+					"border" : "hota/factory/town-screen/buildings-border/TOFasilo",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrk2",
+					"x" : 227,
+					"y" : 347,
+					"z" : 3
+				},
+				"blacksmith" : {
+					"animation" : "hota/factory/town/buildings/TBFaBLAK",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaBLAK",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaBLAK",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsmth",
+					"x" : 347,
+					"y" : 189
+				},
+				"horde1" : {
+					"animation" : "hota/factory/town/buildings/TBFaHRD1",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaHRD1",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaHRD1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn1H",
+					"x" : 187,
+					"y" : 162,
+					"z" : -2,
+					"hidden" : true
+				},
+				"horde1Upgr" : {
+					"animation" : "hota/factory/town/buildings/TBFaHRD2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaHRD2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaHRD2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn2H",
+					"x" : 187,
+					"y" : 95,
+					"z" : -2,
+					"hidden" : true
+				},
+				"special1" : {
+					"animation" : "hota/factory/town/buildings/TBFaSpc1",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaSpc1",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaSpc1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCbank",
+					"x" : 0,
+					"y" : 301,
+					"z" : 1
+				},
+				"special2" : {
+					"animation" : "hota/factory/town/buildings/TBFaSpc2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaSpc2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaSpc2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCspc2",
+					"x" : 117,
+					"y" : 9,
+					"z" : -1
+				},
+				"special3" : {
+					"animation" : "hota/factory/town/buildings/TBFaMrch",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaMrch",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaMrch",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCmrch",
+					"x" : 270,
+					"y" : 272,
+					"z" : 1
+				},
+				"grail" : {
+					"animation" : "hota/factory/town/buildings/TBFaHoly",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaHoly",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaHoly",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCholy",
+					"x" : 580,
+					"y" : 0
+				},
+				"dwellingLvl1" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_0",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_0",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_0",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCadb1",
+					"x" : 670,
+					"y" : 139
+				},
+				"dwellingLvl2" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_1",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_1",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCfnd1",
+					"x" : 252,
+					"y" : 0
+				},
+				"dwellingLvl3" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran1",
+					"x" : 187,
+					"y" : 174,
+					"z" : -2
+				},
+				"dwellingLvl4" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_3",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_3",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman1",
+					"x" : 516,
+					"y" : 211,
+					"z" : 1
+				},
+				"dwellingLvl5" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_4",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_4",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcat1",
+					"x" : 662,
+					"y" : 239
+				},
+				"dwellingLvl6" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_5",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_5",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCwtc1",
+					"x" : 714,
+					"y" : 55
+				},
+				"dwellingLvl7" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_6",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_6",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_6",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsrp1",
+					"x" : 0,
+					"y" : 71
+				},
+				"dwellingLvl8" : {
+					"animation" : "hota/factory/town/buildings/TBFadw_7",
+					"area" : "hota/factory/town-screen/buildings-area/TZFadw_7",
+					"border" : "hota/factory/town-screen/buildings-border/TOFadw_7",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
+					"x" : 427,
+					"y" : 181
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_0",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_0",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_0",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCadb2",
+					"x" : 670,
+					"y" : 139
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_1",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_1",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_1",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCfnd2",
+					"x" : 252,
+					"y" : 0
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_2",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_2",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_2",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran2",
+					"x" : 187,
+					"y" : 95,
+					"z" : -2
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_3",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_3",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_3",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman2",
+					"x" : 516,
+					"y" : 211,
+					"z" : 1
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_4",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_4",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_4",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCcat2",
+					"x" : 662,
+					"y" : 239
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_5",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_5",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_5",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCwtc2",
+					"x" : 714,
+					"y" : 5
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_6",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_6",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_6",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsrp2",
+					"x" : 0,
+					"y" : 51
+				},
+				"dwellingUpLvl8" : {
+					"animation" : "hota/factory/town/buildings/TBFaup_7",
+					"area" : "hota/factory/town-screen/buildings-area/TZFaup_7",
+					"border" : "hota/factory/town-screen/buildings-border/TOFaup_7",
+					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
+					"x" : 427,
+					"y" : 162
+				}
+			},
+			"tavernVideo" : "TAVERN.BIK",
+			"townBackground" : "hota/factory/town-screen/TBFaBack.png",
+			"moatAbility" : "castleMoat",
+			"hallSlots" : [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4",
+						"mageGuild5"
+					],
+					[
+						"special2"
+					]
+				],
+				[
+					[
+						"special3"
+					],
+					[
+						"special1"
+					],
+					[
+						"horde1",
+						"horde1Upgr"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					],
+					[
+						"dwellingLvl8",
+						"dwellingUpLvl8"
+					]
+				]
+			]
+		}
+	}
+}

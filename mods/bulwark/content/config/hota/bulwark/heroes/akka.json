@@ -1,0 +1,60 @@
+{
+	"15akka" : {
+		"class" : "elder",
+		"female" : true,
+		"images" : {
+			"large" : "hota/bulwark/heroes/akka/portraitLarge.png",
+			"small" : "hota/bulwark/heroes/akka/portraitSmall.png",
+			"specialtyLarge" : "hota/bulwark/heroes/akka/specialtyLarge.png",
+			"specialtySmall" : "hota/bulwark/heroes/akka/specialtySmall.png"
+		},
+		"army" : [
+			{
+				"creature" : "kobold",
+				"min" : 20,
+				"max" : 30
+			},
+			{
+				"creature" : "mountainRam",
+				"min" : 6,
+				"max" : 8
+			},
+			{
+				"creature" : "snowElf",
+				"min" : 3,
+				"max" : 5
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "mysticism",
+				"level" : "basic"
+			}
+		],
+		"spellbook" : [
+			"bloodlust"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"bloodlust" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bloodlust",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		},
+		"texts" : {
+			"name" : "Akka",
+			"biography" : "The yeti's knack for survival in the frost is often attributed to their thick hides and dense fur. However, their resilience stems from an innate magical power that radiates warmth throughout their bodies. Only a select few can consciously harness it, and Akka is among the most adept. Her expertise stems from her deep understanding of the warlike furor her clansmen tend to give in to.",
+			"specialty" : {
+				"name" : "Bloodlust",
+				"description" : "Casts Bloodlust with effect increased by 3 for level 1–2 creatures, by 2 for level 3–4 creatures, and by 1 for level 5–6 creatures.",
+				"tooltip" : "Spell Bonus: Bloodlust"
+			}
+		}
+	}
+}

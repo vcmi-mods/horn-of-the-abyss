@@ -1,0 +1,25 @@
+{
+	"core:faerieRing" : {
+		"types" : {
+			"faerieRing" : {
+				"templates" : {
+					"highlandsFaerieRing" : {
+						"animation" : "AVSRING0.def",
+						"mask" : [
+							"VVV",
+							"VAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"++-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"highlands"
+						]
+					}
+				}
+			}
+		}
+	}
+}

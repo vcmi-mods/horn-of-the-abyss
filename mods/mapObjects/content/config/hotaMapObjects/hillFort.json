@@ -1,0 +1,97 @@
+{
+	"miniHillFort" : {
+		"handler" : "hillFort",
+		"name" : "Hill Fort",
+		"types" : {
+			"miniHillFort" : {
+				"description" : "Upgrade level 1-5 creatures at double the price from the associated town.",
+				"unavailableUpgradeMessage" : "This building cannot upgrade creatures of level 5 and higher.",
+				"rmg" : {
+					"value" : 7000,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
+
+				"upgradeCostFactor" : [
+					200, // level 1
+					200,
+					200,
+					200,
+					200,
+					-1 // level 6+
+				],
+
+				"sounds" : {
+					"ambient" : [
+						"LOOPSWAR"
+					],
+					"visit" : [
+						"MILITARY"
+					]
+				},
+				"base" : {
+					"mask" : [
+						"VVV",
+						"VVV",
+						"VBA"
+					],
+					"visitableFrom" : [
+						"---",
+						"-++",
+						"+++"
+					]
+				},
+				"templates" : {
+					"minifort" : {
+						"animation" : "hota/hillFort/minifort",
+						"allowedTerrains" : [
+							"grass"
+						]
+					},
+					"miniftdr" : {
+						"animation" : "hota/hillFort/miniftdr",
+						"allowedTerrains" : [
+							"dirt"
+						]
+					},
+					"miniftlv" : {
+						"animation" : "hota/hillFort/miniftlv",
+						"allowedTerrains" : [
+							"lava"
+						]
+					},
+					"miniftrg" : {
+						"animation" : "hota/hillFort/miniftrg",
+						"allowedTerrains" : [
+							"rough"
+						]
+					},
+					"miniftsb" : {
+						"animation" : "hota/hillFort/miniftsb",
+						"allowedTerrains" : [
+							"subterra"
+						]
+					},
+					"miniftsd" : {
+						"animation" : "hota/hillFort/miniftsd",
+						"allowedTerrains" : [
+							"sand"
+						]
+					},
+					"miniftsn" : {
+						"animation" : "hota/hillFort/miniftsn",
+						"allowedTerrains" : [
+							"snow"
+						]
+					},
+					"miniftsw" : {
+						"animation" : "hota/hillFort/miniftsw",
+						"allowedTerrains" : [
+							"swamp"
+						]
+					}
+				}
+			}
+		}
+	}
+}

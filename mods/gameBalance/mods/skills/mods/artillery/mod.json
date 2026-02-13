@@ -1,0 +1,22 @@
+{
+	"name" : "Artillery",
+	"description" : "",
+	"modType" : "Mechanics",
+	"author" : "Hota Crew, ported by mrhaandi",
+	"contact" : "VCMI Discord: https://discord.gg/chBT42V",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"version" : "1.0",
+
+	"skills" : [
+		"config/hotaGameBalance/skills.json"
+	],
+	"chinese" : {
+		"name" : "炮术",
+		"description" : ""
+	},
+	"czech" : {
+		"name" : "Artilerie",
+		"description" : ""
+	}
+}
