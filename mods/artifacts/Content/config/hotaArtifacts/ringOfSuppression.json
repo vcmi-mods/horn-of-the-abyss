@@ -24,7 +24,7 @@
 		},
 		"text" : {
 			"name" : "Ring of Suppression",
-			"description" : "{Ring of Suppression}\r\n\r\nWorn on the finger, this ring decreases enemy's Morale by 1.",
+			"description" : "{Ring of Suppression}\n\nWorn on the finger, this ring decreases enemy's Morale by 1.",
 			"event" : "You ordered fried eggs for breakfast. The cook managed to find the eggs for you. He also found a ring in the bird's nest that he passed to you."
 		}
 	}

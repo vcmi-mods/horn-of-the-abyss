@@ -23,7 +23,7 @@
 		},
 		"targetCondition" : {},
 		"sounds" : {
-			"cast" : "MAGICBLT"
+			"cast" : "MAGCBLTH"
 		},
 		"graphics" : {},
 		"levels" : {
