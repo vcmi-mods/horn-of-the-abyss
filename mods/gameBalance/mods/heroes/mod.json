@@ -186,7 +186,10 @@
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem"
+		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"german" : {
 		"name" : "Helden",

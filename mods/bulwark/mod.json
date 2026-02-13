@@ -101,7 +101,7 @@
 		"name" : "Bulwark",
 		"description" : "Nové město se severskou tématikou",
 		"translations" : [
-			"translation/chinese.json"
+			"translation/czech.json"
 		]
 	}
 }
