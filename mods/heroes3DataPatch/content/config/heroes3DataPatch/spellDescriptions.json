@@ -1,0 +1,930 @@
+{
+	"core:summonBoat" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Summon Boat}\n\nSummons an existing, neutral or own, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Summon Boat}\n\nSummons an existing, neutral or own, unoccupied boat from anywhere in the world to your location.\n\nChances for success are 50%.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Summon Boat}\n\nSummons an existing, neutral or own, unoccupied boat from anywhere in the world to your location.  If no such boats exist, one is created.\n\nChances for success are 75%.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Summon Boat}\n\nSummons an existing, neutral or own, unoccupied boat from anywhere in the world to your location.  If no such boats exist, one is created.\n"
+			}
+		}
+	},
+	"core:scuttleBoat" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Scuttle Boat}\n\nDestroys a boat of caster's choice in hero visibility zone.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Scuttle Boat}\n\nDestroys a boat of caster's choice in hero visibility zone.  Use with caution, the effects are permanent.\n\nChances for success are 50%.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Scuttle Boat}\n\nDestroys a boat of caster's choice in hero visibility zone.  Use with caution, the effects are permanent.\n\nChances for success are 75%.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Scuttle Boat}\n\nDestroys a boat of caster's choice in hero visibility zone.  Use with caution, the effects are permanent.\n"
+			}
+		}
+	},
+	"core:visions" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Visions}\n\nProvides you with exact numbers of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Range is equal to Spell Power or three, whichever is greater. Valid for 1 turn.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Visions}\n\nProvides you with exact numbers of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed). Range is equal to Spell Power or three, whichever is greater. Valid for 1 turn.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Visions}\n\nProvides you with exact numbers of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed).  Allows you to view a nearby enemy hero's general statistics, creature type and quantity, as if the hero was part of your kingdom. Range is (Spell Power x 2) or three, whichever is greater. Valid for 1 turn.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Visions}\n\nProvides you with exact numbers of wandering monsters and tells you if they would be willing to join your hero, flee or be acquired via Diplomacy skill (exact fee will be revealed).  Allows you to view a nearby enemy hero's general statistics, creature type and quantity, as if the hero was part of your kingdom, as well as a nearby town's statistics, garrison creatures and quantity. Range is (Spell Power x 3) or three, whichever is greater. Valid for 1 turn.\n"
+			}
+		}
+	},
+	"core:viewEarth" : {
+		"levels" : {
+			"none" : {
+				"description" : "{View Earth}\n\nReveals the location of all resources to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"basic" : {
+				"description" : "{Basic View Earth}\n\nReveals the location of all resources to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced View Earth}\n\nReveals the location of all resources and mines to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"expert" : {
+				"description" : "{Expert View Earth}\n\nReveals the location of all resources and mines and reveals all terrain to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			}
+		}
+	},
+	"core:disguise" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Disguise}\n\nMakes all units in your hero army look like your most powerful unit to enemies trying to view your hero for 1 turn.  Numbers in each group are unchanged.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Disguise}\n\nMakes all units in your hero army look like your most powerful unit to enemies trying to view your hero for 1 turn.  Numbers in each group are unchanged.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Disguise}\n\nMakes all units in your hero army look like your most powerful unit to enemies trying to view your hero for 1 turn.  Numbers in each group appear as zero.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Disguise}\n\nMakes all units in your hero army look like the most powerful unit affiliated to player starting town to enemies trying to view your hero for 1 turn.  Numbers in each group appear as zero.\n"
+			}
+		}
+	},
+	"core:viewAir" : {
+		"levels" : {
+			"none" : {
+				"description" : "{View Air}\n\nReveals the location of all unclaimed artifacts to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"basic" : {
+				"description" : "{Basic View Air}\n\nReveals the location of all unclaimed artifacts to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			},
+			"expert" : {
+				"description" : "{Expert View Air}\n\nReveals the location of all unclaimed artifacts, plus enemy heroes and all towns to the caster. After casting, the information can be accessed through View World window until the end of the turn.\n"
+			}
+		}
+	},
+	"core:fly" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Fly}\n\nAllows your army to fly over obstacles and rough terrain with 40% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Fly}\n\nAllows your army to fly over obstacles and rough terrain with 40% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Fly}\n\nAllows your army to fly over obstacles and rough terrain with 20% penalty to movement cost. Valid for 1 turn. You must land at the end of the turn.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Fly}\n\nAllows your army to fly over obstacles and rough terrain without any penalty. Valid for 1 turn. You must land at the end of the turn.\n"
+			}
+		}
+	},
+	"core:waterWalk" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Water Walk}\n\nAllows your army to walk across bodies of water with 40% penalty to movement cost. Valid for 1 turn. You must end your movement on dry land.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Water Walk}\n\nAllows your army to walk across bodies of water with 40% penalty to movement cost. Valid for 1 turn. You must end your movement on dry land.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Water Walk}\n\nAllows your army to walk across bodies of water with 20% penalty to movement cost. Valid for 1 turn. You must end your movement on dry land.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Water Walk}\n\nAllows your army to walk across bodies of water without any penalty. Valid for 1 turn. You must end your movement on dry land.\n"
+			}
+		}
+	},
+	"core:dimensionDoor" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Dimension Door}\n\nOnce per day (for each hero), you may teleport your hero to an unoccupied location on the adventure map in hero visibility zone. This spends 300 movement points.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Dimension Door}\n\nTwice per day (for each hero), you may teleport your hero to an unoccupied location on the adventure map in hero visibility zone. This spends 300 movement points.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Dimension Door}\n\nThree times per day (for each hero), you may teleport your hero to an unoccupied location on the adventure map in hero visibility zone. This spends 300 movement points.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Dimension Door}\n\nFour times per day (for each hero), you may teleport your hero to an unoccupied location on the adventure map in hero visibility zone. This spends 200 movement points.\n"
+			}
+		}
+	},
+	"core:townPortal" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Town Portal}\n\nTeleports your hero to the nearest friendly town. Requires 300 movement points. The town must be unoccupied.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Town Portal}\n\nTeleports your hero to the nearest friendly town. Requires 300 movement points. The town must be unoccupied.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Town Portal}\n\nTeleports your hero to any chosen friendly town. Requires 300 movement points. The town must be unoccupied.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Town Portal}\n\nTeleports your hero to any chosen friendly town. Requires 200 movement points. The town must be unoccupied.\n"
+			}
+		}
+	},
+	"core:quicksand" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Quicksand}\n\nRandomly places four small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a non-flying unit's movement for the turn and makes quicksand visible to all. Quicksand duration is unlimited.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Quicksand}\n\nRandomly places four small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a non-flying unit's movement for the turn and makes quicksand visible to all. Quicksand duration is unlimited.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Quicksand}\n\nRandomly places six small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a non-flying unit's movement for the turn and makes quicksand visible to all. Quicksand duration is unlimited.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Quicksand}\n\nRandomly places eight small patches of quicksand on the battlefield which are only visible to the caster and creatures native to the terrain.  Walking into quicksand ends a non-flying unit's movement for the turn and makes quicksand visible to all. Quicksand duration is unlimited.\n"
+			}
+		}
+	},
+	"core:landMine" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts (Spell Power x 10 + 25) damage to any unit walking over it, which doesn’t see it, and disappears. Otherwise landmine duration is unlimited.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Land Mine}\n\nRandomly places four small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts (Spell Power x 10 + 25) damage to any unit walking over it, which doesn’t see it, and disappears. Otherwise landmine duration is unlimited.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Land Mine}\n\nRandomly places six small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts (Spell Power x 10 + 50) damage to any unit walking over it, which doesn’t see it, and disappears. Otherwise landmine duration is unlimited.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Land Mine}\n\nRandomly places eight small areas of landmines on the battlefield which are only visible to the caster and creatures native to the terrain.  It inflicts (Spell Power x 10 + 100) damage to any unit walking over it, which doesn’t see it, and disappears. Otherwise landmine duration is unlimited.\n"
+			}
+		}
+	},
+	"core:forceField" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Force Field}\n\nPlaces a 2-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Force Field}\n\nPlaces a 2-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Force Field}\n\nPlaces a 3-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Force Field}\n\nPlaces a 3-hex Force Field on the battlefield at a point specified by the caster for 2 rounds. Movement through these hexes is blocked.\n"
+			}
+		}
+	},
+	"core:earthquake" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Earthquake}\n\nRandomly damages two sections of castle wall, gate or tower in combat.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Earthquake}\n\nRandomly damages two sections of castle wall, gate or tower in combat.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Earthquake}\n\nRandomly damages three sections of castle wall, gate or tower in combat.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Earthquake}\n\nRandomly damages four sections of castle wall, gate or tower in combat.\n"
+			}
+		}
+	},
+	"core:magicArrow" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit. Inflicts (Spell Power x 10 + 10) damage.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit. Inflicts (Spell Power x 10 + 10) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit. Inflicts (Spell Power x 10 + 20) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Magic Arrow}\n\nCauses a bolt of magical energy to strike the selected enemy unit. Inflicts (Spell Power x 10 + 30) damage.\n"
+			}
+		}
+	},
+	"core:iceBolt" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Ice Bolt}\n\nIce drains the body heat from the selected enemy unit. Inflicts (Spell Power x 20 + 10) damage.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Ice Bolt}\n\nIce drains the body heat from the selected enemy unit. Inflicts (Spell Power x 20 + 10) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Ice Bolt}\n\nIce drains the body heat from the selected enemy unit. Inflicts (Spell Power x 20 + 20) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Ice Bolt}\n\nIce drains the body heat from the selected enemy unit. Inflicts (Spell Power x 20 + 50) damage.\n"
+			}
+		}
+	},
+	"core:lightningBolt" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected enemy unit. It takes (Spell Power x 25 + 10) damage.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected enemy unit. It takes (Spell Power x 25 + 10) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected enemy unit. It takes (Spell Power x 25 + 20) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Lightning Bolt}\n\nCauses a bolt of lightning to strike the selected enemy unit. It takes (Spell Power x 25 + 50) damage.\n"
+			}
+		}
+	},
+	"core:implosion" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Implosion}\n\nInflicts (Spell Power x 75 + 100) damage to a single enemy creature stack. Does not affect War Machines.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Implosion}\n\nInflicts (Spell Power x 75 + 100) damage to a single enemy creature stack. Does not affect War Machines.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Implosion}\n\nInflicts (Spell Power x 75 + 200) damage to a single enemy creature stack. Does not affect War Machines.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Implosion}\n\nInflicts (Spell Power x 75 + 300) damage to a single enemy creature stack. Does not affect War Machines.\n"
+			}
+		}
+	},
+	"core:chainLightning" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Chain Lightning}\n\nFires a bolt of lightning at the selected enemy unit for (Spell Power x 40 + 25) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half of previous target damage, etc.  Strikes four units.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Chain Lightning}\n\nFires a bolt of lightning at the selected enemy unit for (Spell Power x 40 + 25) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half of previous target damage, etc.  Strikes four units.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Chain Lightning}\n\nFires a bolt of lightning at the selected enemy unit for (Spell Power x 40 + 50) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half of previous target damage, etc.  Strikes five units.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Chain Lightning}\n\nFires a bolt of lightning at the selected enemy unit for (Spell Power x 40 + 100) damage which then travels to the nearest adjacent unit, inflicting half damage before traveling to the next adjacent unit, again inflicting half of previous target damage, etc.  Strikes five units.\n"
+			}
+		}
+	},
+	"core:frostRing" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Frost Ring}\n\nIce drains the body heat of any units adjacent to the target location. Each unit takes (Spell Power x 10 + 15) damage. Target hex is unaffected.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Frost Ring}\n\nIce drains the body heat of any units adjacent to the target location. Each unit takes (Spell Power x 10 + 15) damage. Target hex is unaffected.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Frost Ring}\n\nIce drains the body heat of any units adjacent to the target location. Each unit takes (Spell Power x 10 + 30) damage. Target hex is unaffected.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Frost Ring}\n\nIce drains the body heat of any units adjacent to the target location. Each unit takes (Spell Power x 10 + 60) damage. Target hex is unaffected.\n"
+			}
+		}
+	},
+	"core:fireball" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Fireball}\n\nCauses the selected target to burst into flames, inflicting (Spell Power x 10 + 15) fire damage to the target and any units adjacent to target location.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Fireball}\n\nCauses the selected target to burst into flames, inflicting (Spell Power x 10 + 15) fire damage to the target and any units adjacent to target location.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Fireball}\n\nCauses the selected target to burst into flames, inflicting (Spell Power x 10 + 30) fire damage to the target and any units adjacent to target location.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Fireball}\n\nCauses the selected target to burst into flames, inflicting (Spell Power x 10 + 60) fire damage to the target and any units adjacent to target location.\n"
+			}
+		}
+	},
+	"core:inferno" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Inferno}\n\nCauses a huge blast of fire to strike the selected target and any units 1 and 2 hexes away from target location. Each unit takes (Spell Power x 10 + 20) damage.  Don't be near this when it goes off!\n"
+			},
+			"basic" : {
+				"description" : "{Basic Inferno}\n\nCauses a huge blast of fire to strike the selected target and any units 1 and 2 hexes away from target location. Each unit takes (Spell Power x 10 + 20) damage.  Don't be near this when it goes off!\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Inferno}\n\nCauses a huge blast of fire to strike the selected target and any units 1 and 2 hexes away from target location. Each unit takes (Spell Power x 10 + 40) damage.  Don't be near this when it goes off!\n"
+			},
+			"expert" : {
+				"description" : "{Expert Inferno}\n\nCauses a huge blast of fire to strike the selected target and any units 1 and 2 hexes away from target location. Each unit takes (Spell Power x 10 + 80) damage.  Don't be near this when it goes off!\n"
+			}
+		}
+	},
+	"core:meteorShower" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any units adjacent to target location. Each unit takes (Spell Power x 25 + 25) damage.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any units adjacent to target location. Each unit takes (Spell Power x 25 + 25) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any units adjacent to target location. Each unit takes (Spell Power x 25 + 50) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Meteor Shower}\n\nCauses a meteor shower to rain down on the selected target and any units adjacent to target location. Each unit takes (Spell Power x 25 + 100) damage.\n"
+			}
+		}
+	},
+	"core:deathRipple" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Death Ripple}\n\nSends a wave of death across the battlefield which damages all units except undead and War Mañhines for (Spell Power x 5 + 10) hit points.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Death Ripple}\n\nSends a wave of death across the battlefield which damages all units except undead and War Mañhines for (Spell Power x 5 + 10) hit points.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Death Ripple}\n\nSends a wave of death across the battlefield which damages all units except undead and War Mañhines for (Spell Power x 5 + 20) hit points.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Death Ripple}\n\nSends a wave of death across the battlefield which damages all units except undead and War Mañhines for (Spell Power x 5 + 30) hit points.\n"
+			}
+		}
+	},
+	"core:destroyUndead" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield. Each undead unit takes (Spell Power x 10 + 10) damage.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield. Each undead unit takes (Spell Power x 10 + 10) damage.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield. Each undead unit takes (Spell Power x 10 + 20) damage.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Destroy Undead}\n\nAttempts to destroy any undead creatures on the battlefield. Each undead unit takes (Spell Power x 10 + 50) damage.\n"
+			}
+		}
+	},
+	"core:shield" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 15%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 15%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from hand-to-hand attacks by 30%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Shield}\n\nShields all friendly units, reducing the amount of damage received from hand-to-hand attacks by 30%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:airShield" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 25%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 25%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Air Shield}\n\nShields a selected friendly unit, reducing the amount of damage received from ranged attacks by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Air Shield}\n\nShields all friendly units, reducing the amount of damage received from ranged attacks by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:fireShield" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 20% of what it inflicts. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 20% of what it inflicts. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 25% of what it inflicts. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Fire Shield}\n\nCast on a friendly unit, it does not provide any additional protection, but any enemy making hand-by-hand attack through the fire shield will suffer damage equal to 30% of what it inflicts. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:antiMagic" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Anti-magic}\n\nProtects the selected friendly unit from all 1-3 level spells except Dispel. Removes negative spells level 1-3 except Disrupting Ray. Does not affect duplicates created with Clone spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Anti-magic}\n\nProtects the selected friendly unit from all 1-3 level spells except Dispel. Removes negative spells level 1-3 except Disrupting Ray. Does not affect duplicates created with Clone spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Anti-magic}\n\nProtects the selected friendly unit from all 1-4 level spells except Dispel. Removes negative spells level 1-4 except Disrupting Ray. Does not affect duplicates created with Clone spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Anti-magic}\n\nProtects the selected friendly unit from all spells except Dispel. Removes all negative spells except Disrupting Ray. Does not affect duplicates created with Clone spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:dispel" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Dispel}\n\nRemoves all spells and effects except Disrupting Ray and poison from a friendly unit. Ignores target creature natural immunities to magic.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Dispel}\n\nRemoves all spells and effects except Disrupting Ray and poison from a friendly unit. Ignores target creature natural immunities to magic.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Dispel}\n\nRemoves all spells and effects except Disrupting Ray and poison from a friendly or hostile unit. Ignores target creature chances to resist a spell and natural immunities.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Dispel}\n\nRemoves all spells and effects except Disrupting Ray and poison from all units on the battlefield and destroys all magic obstacles. Ignores target creature chances to resist a spell and natural immunities.\n"
+			}
+		}
+	},
+	"core:magicMirror" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Magic Mirror}\n\nReflects hostile spells from selected friendly unit towards a random enemy creature 20% of the time. Protects from Hypnotize spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Magic Mirror}\n\nReflects hostile spells from selected friendly unit towards a random enemy creature 20% of the time. Protects from Hypnotize spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Magic Mirror}\n\nReflects hostile spells from selected friendly unit towards a random enemy creature 30% of the time. Protects from Hypnotize spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Magic Mirror}\n\nReflects hostile spells from selected friendly unit towards a random enemy creature 40% of the time. Protects from Hypnotize spell. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:cure" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Cure}\n\nRemoves all negative spells and effects except Disrupting Ray and dendroid binding and heals (Spell Power x 5 + 10) hit points on the selected friendly unit. Restores health decremented with poison.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Cure}\n\nRemoves all negative spells and effects except Disrupting Ray and dendroid binding and heals (Spell Power x 5 + 10) hit points on the selected friendly unit. Restores health decremented with poison.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Cure}\n\nRemoves all negative spells and effects except Disrupting Ray and dendroid binding and heals (Spell Power x 5 + 20) hit points on the selected friendly unit. Restores health decremented with poison.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Cure}\n\nRemoves all negative spells and effects except Disrupting Ray and dendroid binding and heals (Spell Power x 5 + 30) hit points on all friendly units. Restores health decremented with poison.\n"
+			}
+		}
+	},
+	"core:resurrection" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Resurrection}\n\nResurrects units in the selected friendly group of living creatures until the end of the battle by restoring (Spell Power x 50 + 40) hit points to the target.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Resurrection}\n\nResurrects units in the selected friendly group of living creatures until the end of the battle by restoring (Spell Power x 50 + 40) hit points to the target.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Resurrection}\n\nResurrects units in the selected friendly group of living creatures permanently by restoring (Spell Power x 50 + 80) hit points to the target.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Resurrection}\n\nResurrects units in the selected friendly group of living creatures permanently by restoring (Spell Power x 50 + 160) hit points to the target.\n"
+			}
+		}
+	},
+	"core:animateDead" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Animate Dead}\n\nRe-animates any destroyed undead in the selected friendly group by restoring (Spell Power x 50 + 30) hit points to the target.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Animate Dead}\n\nRe-animates any destroyed undead in the selected friendly group by restoring (Spell Power x 50 + 30) hit points to the target.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Animate Dead}\n\nRe-animates any destroyed undead in the selected friendly group by restoring (Spell Power x 50 + 60) hit points to the target.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Animate Dead}\n\nRe-animates any destroyed undead in the selected friendly group by restoring (Spell Power x 50 + 160) hit points to the target.\n"
+			}
+		}
+	},
+	"core:sacrifice" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group.  Resurrection power is ((Spell Power + Sacrificed Troop's Creature Base Health + 3) x Number of Creatures Sacrificed) hit points.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group.  Resurrection power is ((Spell Power + Sacrificed Troop's Creature Base Health + 3) x Number of Creatures Sacrificed) hit points.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group.  Resurrection power is ((Spell Power + Sacrificed Troop's Creature Base Health + 6) x Number of Creatures Sacrificed) hit points.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Sacrifice}\n\nPermanently destroys a friendly living creature group in order to resurrect another friendly living creature group.  Resurrection power is ((Spell Power + Sacrificed Troop's Creature Base Health + 10) x Number of Creatures Sacrificed) hit points.\n"
+			}
+		}
+	},
+	"core:bless" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Bless}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Bless}\n\nCauses the selected friendly unit to inflict maximum damage in combat. Removes Curse effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Bless}\n\nCauses the selected friendly unit to inflict damage, greater than their normal maximum damage in combat by 1. Removes Curse effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Bless}\n\nCauses all friendly units to inflict damage, greater than their normal maximum damage in combat by 1. Removes Curse effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:curse" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Curse}\n\nCauses the selected enemy unit to inflict minimum damage in combat. Removes Bless effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Curse}\n\nCauses the selected enemy unit to inflict minimum damage in combat. Removes Bless effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Curse}\n\nCauses the selected enemy unit to inflict damage, less than their normal minimum damage in combat by 1. Removes Bless effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Curse}\n\nCauses all enemy units to inflict damage, less than their normal minimum damage in combat by 1. Removes Bless effect. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:bloodlust" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Bloodlust}\n\nIncreases the hand-to-hand attack strength of the selected friendly unit by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Bloodlust}\n\nIncreases the hand-to-hand attack strength of the selected friendly unit by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Bloodlust}\n\nIncreases the hand-to-hand attack strength of the selected friendly unit by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Bloodlust}\n\nIncreases the hand-to-hand attack strength of all friendly units by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:precision" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Precision}\n\nIncreases the attack strength of the selected friendly unit ranged attack by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Precision}\n\nIncreases the attack strength of the selected friendly unit ranged attack by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Precision}\n\nIncreases the attack strength of the selected friendly unit ranged attack by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Precision}\n\nIncreases the attack strength of any friendly units ranged attack by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:weakness" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Weakness}\n\nReduces the selected enemy unit's attack strength by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Weakness}\n\nReduces the selected enemy unit's attack strength by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Weakness}\n\nReduces the selected enemy unit's attack strength by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Weakness}\n\nReduces the attack strength of all enemy units by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:stoneSkin" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 3. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Stone Skin}\n\nIncreases the selected friendly unit's defense strength by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Stone Skin}\n\nIncreases the defense strength of all friendly units by 6. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:disruptingRay" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3.  A single enemy may be targeted multiple times by this spell. Undispellable. The effect persists through death and resurrection of a unit. Disrupting Ray duration is unlimited.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 3.  A single enemy may be targeted multiple times by this spell. Undispellable. The effect persists through death and resurrection of a unit. Disrupting Ray duration is unlimited.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 4.  A single enemy may be targeted multiple times by this spell. Undispellable. The effect persists through death and resurrection of a unit. Disrupting Ray duration is unlimited.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Disrupting Ray}\n\nReduces the selected enemy unit's defense strength by 5.  A single enemy may be targeted multiple times by this spell. Undispellable. The effect persists through death and resurrection of a unit. Disrupting Ray duration is unlimited.\n"
+			}
+		}
+	},
+	"core:prayer" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Prayer}\n\nBestows a +2 bonus to the attack strength, defense strength and speed of the selected friendly unit. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Prayer}\n\nBestows a +2 bonus to the attack strength, defense strength and speed of the selected friendly unit. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Prayer}\n\nBestows a +4 bonus to the attack strength, defense strength and speed of the selected friendly unit. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Prayer}\n\nBestows a +4 bonus to the attack strength, defense strength and speed of all friendly units. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:mirth" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Mirth}\n\nMind spell. Increases the selected friendly unit's morale by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Mirth}\n\nMind spell. Increases the selected friendly unit's morale by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Mirth}\n\nMind spell. Increases the selected friendly unit's morale by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Mirth}\n\nMind spell. Increases the morale of all friendly units by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:sorrow" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Sorrow}\n\nMind spell. Reduces the morale of the selected enemy unit by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Sorrow}\n\nMind spell. Reduces the morale of the selected enemy unit by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Sorrow}\n\nMind spell. Reduces the morale of the selected enemy unit by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Sorrow}\n\nMind spell. Reduces the morale of all enemy units by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:fortune" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Fortune}\n\nIncreases the selected friendly unit's luck by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Fortune}\n\nIncreases the selected friendly unit's luck by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Fortune}\n\nIncreases the selected friendly unit's luck by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Fortune}\n\nIncreases the luck of all friendly units by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:misfortune" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Misfortune}\n\nReduces the luck of the selected enemy unit by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Misfortune}\n\nReduces the luck of the selected enemy unit by 1. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Misfortune}\n\nReduces the luck of the selected enemy unit by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Misfortune}\n\nReduces the luck of all enemy units by 2. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:haste" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Haste}\n\nIncreases the speed of the selected friendly unit by 3. Removes Slow effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Haste}\n\nIncreases the speed of the selected friendly unit by 3. Removes Slow effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Haste}\n\nIncreases the speed of the selected friendly unit by 5. Removes Slow effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Haste}\n\nIncreases the speed of all friendly units by 5. Removes Slow effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:slayer" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Slayer}\n\nIncreases the selected friendly unit's attack strength against Dragons, Behemoths, Hydras, Firebirds, Sea Serpents and Couatls by 8. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Slayer}\n\nIncreases the selected friendly unit's attack strength against Dragons, Behemoths, Hydras, Firebirds, Sea Serpents and Couatls by 8. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Slayer}\n\nIncreases the selected friendly unit's attack strength against Dragons, Behemoths, Hydras, Firebirds, Sea Serpents, Couatls, Devils and Angels by 8. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Slayer}\n\nIncreases the selected friendly unit's attack strength against Dragons, Behemoths, Hydras, Firebirds, Sea Serpents, Couatls, Dreadnoughts, Jotunns, Devils, Angels and Titans by 8. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:frenzy" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Frenzy}\n\nMind spell. Selected friendly troop intentionally lowers its defenses to 0 to increase the ferocity of its attack. Bonus to attack strength is equal to unit’s former defense. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Frenzy}\n\nMind spell. Selected friendly troop intentionally lowers its defenses to 0 to increase the ferocity of its attack. Bonus to attack strength is equal to unit’s former defense. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Frenzy}\n\nMind spell. Selected friendly troop intentionally lowers its defenses to 0 to increase the ferocity of its attack. Bonus to attack strength is 1.5 times more than unit’s former defense. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Frenzy}\n\nMind spell. Selected friendly troop intentionally lowers its defenses to 0 to increase the ferocity of its attack. Bonus to attack strength is 2 times more than unit’s former defense. The spell takes effect immediately and lasts during the closest turn of the target. After that, the spell effect lasts until the beginning of the target next turn.\n"
+			}
+		}
+	},
+	"core:counterstrike" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Counterstrike}\n\nThe selected friendly unit gains one additional retaliation attack immediately and will gain one additional retaliation attack at the beginning of each round. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Counterstrike}\n\nThe selected friendly unit gains one additional retaliation attack immediately and will gain one additional retaliation attack at the beginning of each round. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Counterstrike}\n\nThe selected friendly unit gains two additional retaliation attacks immediately and will gain two additional retaliations attack at the beginning of each round. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Counterstrike}\n\nAll friendly units gain two additional retaliation attacks immediately and will gain two additional retaliations attack at the beginning of each round. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:berserk" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Berserk}\n\nMind spell. The targeted unit will randomly attack the nearest unit, be it friend or foe. Hypnotize effect is dispelled from target. Spell effect is valid until target make an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Berserk}\n\nMind spell. The targeted unit will randomly attack the nearest unit, be it friend or foe. Hypnotize effect is dispelled from target. Spell effect is valid until target make an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Berserk}\n\nMind spell. The targeted unit as well as units adjacent to the target location will randomly attack the nearest units, be they friends or foes. Hypnotize effect is dispelled from targets. Spell effect is valid until target make an attack, otherwise Berserk duration is unlimited.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Berserk}\n\nMind spell. The targeted unit as well as any units 1 and 2 hexes away from target location will randomly attack the nearest units, be they friends or foes. Hypnotize effect is dispelled from targets. Spell effect is valid until target make an attack, otherwise Berserk duration is unlimited.\n"
+			}
+		}
+	},
+	"core:hypnotize" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Hypnotize}\n\nMind spell. Puts the selected enemy unit of not more than (Spell Power x 25 + 10) Health temporarily under your control. Removes Berserk effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Hypnotize}\n\nMind spell. Puts the selected enemy unit of not more than (Spell Power x 25 + 10) Health temporarily under your control. Removes Berserk effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Hypnotize}\n\nMind spell. Puts the selected enemy unit of not more than (Spell Power x 25 + 20) Health temporarily under your control. Removes Berserk effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Hypnotize}\n\nMind spell. Puts the selected enemy unit of not more than (Spell Power x 25 + 50) Health temporarily under your control. Removes Berserk effect. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:forgetfulness" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Forgetfulness}\n\nMind spell. Causes the selected enemy ranged unit to forget to use its ranged attack in combat. Half of unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Forgetfulness}\n\nMind spell. Causes all enemy ranged troops to forget to use their ranged attack in combat. Half of each unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:blind" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Blind}\n\nMind spell. Temporary blinds the selected enemy unit so that it cannot move and causes it to counterattack at half its normal damage.  Blindness persists until the unit is attacked or dispelled. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Blind}\n\nMind spell. Temporary blinds the selected enemy unit so that it cannot move and causes it to counterattack at half its normal damage.  Blindness persists until the unit is attacked or dispelled. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Blind}\n\nMind spell. Temporary blinds the selected enemy unit so that it cannot move and causes it to counterattack at one-quarter of its normal damage.  Blindness persists until the unit is attacked or dispelled. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Blind}\n\nMind spell. Temporary blinds the selected enemy unit so that it cannot move or counterattack.  Blindness persists until the unit is attacked or dispelled. Does not affect undead. Spell is active for number of rounds equal to hero Spell Power.\n"
+			}
+		}
+	},
+	"core:teleport" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Teleport}\n\nTeleports any friendly unit to any unoccupied spot on the battlefield. Removes dendroid binding effect.\n\nTroop cannot teleport over walls or moats.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Teleport}\n\nTeleports any friendly unit to an unoccupied spot on the battlefield. Removes dendroid binding effect.\n\nTroop cannot teleport over walls or moats.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Teleport}\n\nTeleports any friendly unit to an unoccupied spot on the battlefield. Removes dendroid binding effect.\n\nTroop cannot teleport over walls.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Teleport}\n\nTeleports any friendly unit to any unoccupied spot on the battlefield. Removes dendroid binding effect.\n"
+			}
+		}
+	},
+	"core:removeObstacle" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Remove Obstacle}\n\nRemoves any normal non-integrated obstacle (trees, rocks, etc.) of the caster's choice from the battlefield.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Remove Obstacle}\n\nRemoves any normal non-integrated obstacle (trees, rocks, etc.) of the caster's choice from the battlefield.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Remove Obstacle}\n\nRemoves any normal non-integrated obstacle (trees, rocks, etc.) or Fire Wall of the caster's choice from the battlefield.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Remove Obstacle}\n\nRemoves any normal non-integrated or magical obstacle of the caster's choice from the battlefield.\n"
+			}
+		}
+	},
+	"core:clone" : {
+		"levels" : {
+			"none" : {
+				"description" : "{Clone}\n\nCreates a temporary duplicate of the selected friendly unit stack.  The image is dispelled if it is damaged or if prototype dies. Each unit may have only one clone. Does not affect War Machines. Clone is alive for number of rounds equal to hero Spell Power.\n\nClones creatures of levels 1-5.\n"
+			},
+			"basic" : {
+				"description" : "{Basic Clone}\n\nCreates a temporary duplicate of the selected friendly unit stack.  The image is dispelled if it is damaged or if prototype dies. Each unit may have only one clone. Does not affect War Machines. Clone is alive for number of rounds equal to hero Spell Power.\n\nClones creatures of levels 1-5.\n"
+			},
+			"advanced" : {
+				"description" : "{Advanced Clone}\n\nCreates a temporary duplicate of the selected friendly unit stack.  The image is dispelled if it is damaged or if prototype dies. Each unit may have only one clone. Does not affect War Machines. Clone is alive for number of rounds equal to hero Spell Power.\n\nClones creatures of levels 1-6.\n"
+			},
+			"expert" : {
+				"description" : "{Expert Clone}\n\nCreates a temporary duplicate of the selected friendly unit stack.  The image is dispelled if it is damaged or if prototype dies. Each unit may have only one clone. Does not affect War Machines. Clone is alive for number of rounds equal to hero Spell Power.\n\nClones creatures of any level.\n"
+			}
+		}
+	}
+}
