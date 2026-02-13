@@ -42,6 +42,9 @@
 		"name" : "Oprava grafiky pro Heroes 3",
 		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
 	},
+	"artifacts" : [
+		"config/heroes3DataPatch/artifactDescriptions.json"
+	],
 	"factions" : [
 		"config/heroes3DataPatch/confluxTerrain.json",
 		"config/heroes3DataPatch/structures.json",

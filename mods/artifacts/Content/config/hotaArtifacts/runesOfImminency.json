@@ -24,7 +24,7 @@
 		},
 		"text" : {
 			"name" : "Runes of Imminency",
-			"description" : "{Runes of Imminency}\r\n\r\nDecrease enemy's Luck by 1.",
+			"description" : "{Runes of Imminency}\n\nDecrease enemy's Luck by 1.",
 			"event" : "Close by, on a mountain edge you see a mage trying to cast a  Fiery symbols are already flashing in the sky, when he, while blinded by the light, trips and falls down. The mage perishes, and you gather the chain of mysterious stones in your backpack."
 		}
 	}
