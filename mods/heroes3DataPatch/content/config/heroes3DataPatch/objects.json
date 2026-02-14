@@ -5,5 +5,68 @@
 				"boat" : "boatNeutral"
 			}
 		}
+	},
+	"core:swanPond" : {
+		"types" : {
+			"swanPond" : {
+				"description" : "(+2 luck until next battle for all remained movement)"
+			}
+		}
+	},
+	"core:fountainOfFortune" : {
+		"types" : {
+			"fountainOfFortune" : {
+				"description" : "(+1, +2, +3, or -1 luck until next battle)"
+			}
+		}
+	},
+	"core:fountainOfYouth" : {
+		"types" : {
+			"fountainOfYouth" : {
+				"description" : "(+1 morale until next battle and +400 movement points for one day)"
+			}
+		}
+	},
+	"core:rallyFlag" : {
+		"types" : {
+			"rallyFlag" : {
+				"description" : "(+1 luck and morale until next battle and +400 movement points for one day)"
+			}
+		}
+	},
+	"core:treeOfKnowledge" : {
+		"types" : {
+			"treeOfKnowledge" : {
+				"description" : "(+1 level for free, 2000 gold, or 10 gems)"
+			}
+		}
+	},
+	"core:idolOfFortune" : {
+		"types" : {
+			"idolOfFortune" : {
+				"description" : "(+1 luck and/or +1 morale until next battle)"
+			}
+		}
+	},
+	"core:temple" : {
+		"types" : {
+			"temple" : {
+				"description" : "(+1 or +2 morale until next battle)"
+			}
+		}
+	},
+	"core:oasis" : {
+		"types" : {
+			"oasis" : {
+				"description" : "(+1 morale until next battle and +800 movement points for one day)"
+			}
+		}
+	},
+	"core:wateringHole" : {
+		"types" : {
+			"wateringHole" : {
+				"description" : "(+1 morale until next battle and +400 movement points for one day)"
+			}
+		}
 	}
 }
