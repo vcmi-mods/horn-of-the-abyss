@@ -847,22 +847,6 @@
 			}
 		}
 	},
-	"core:forgetfulness" : {
-		"levels" : {
-			"none" : {
-				"description" : "{Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Forgetfulness}\n\nMind spell. Causes the selected enemy ranged unit to forget to use its ranged attack in combat. Half of unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"expert" : {
-				"description" : "{Expert Forgetfulness}\n\nMind spell. Causes all enemy ranged troops to forget to use their ranged attack in combat. Half of each unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			}
-		}
-	},
 	"core:blind" : {
 		"levels" : {
 			"none" : {
