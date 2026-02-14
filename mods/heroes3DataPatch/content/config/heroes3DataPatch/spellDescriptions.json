@@ -910,5 +910,11 @@
 				"description" : "{Expert Clone}\n\nCreates a temporary duplicate of the selected friendly unit stack.  The image is dispelled if it is damaged or if prototype dies. Each unit may have only one clone. Does not affect War Machines. Clone is alive for number of rounds equal to hero Spell Power.\n\nClones creatures of any level.\n"
 			}
 		}
+	},
+	"core:acidBreath" : {
+		"name" : "Acid Breath"
+	},
+	"core:acidBreathDamage" : {
+		"name" : "Acid Breath"
 	}
 }
