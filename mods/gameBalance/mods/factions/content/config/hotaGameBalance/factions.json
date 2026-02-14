@@ -116,6 +116,14 @@
 					"cost" : {
 						"sulfur" : 4
 					}
+				},
+				"special2" : {
+					"bonuses" : {
+						"modify@1" : {
+							"val" : 5
+						}
+					},
+					"description" : "The Necromancy Amplifier increases the Necromancy skill of all heroes you control (with the Necromancy skill) by 5%."
 				}
 			}
 		}
