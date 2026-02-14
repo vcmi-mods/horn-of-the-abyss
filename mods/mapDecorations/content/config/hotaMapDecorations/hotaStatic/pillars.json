@@ -293,7 +293,10 @@
 						"animation" : "hota/pillars/AVLwaC08"
 					},
 					"AVLwaC09" : {
-						"animation" : "hota/pillars/AVLwaC09"
+						"animation" : "hota/pillars/AVLwaC09",
+						"mask" : [
+							"BB"
+						]
 					},
 					"AVLwaC10" : {
 						"animation" : "hota/pillars/AVLwaC10",
