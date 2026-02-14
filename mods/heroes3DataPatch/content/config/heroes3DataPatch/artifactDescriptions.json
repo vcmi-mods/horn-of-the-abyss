@@ -1,6 +1,7 @@
 {
 	"core:centaurAxe" : {
 		"text": {
+			"name" : "Centaur's Axe",
 			"description" : "{Centaur's Axe}\n\nThis right-handed weapon increases your Attack skill by +2."
 		}
 	},
