@@ -20,7 +20,7 @@
 		},
 		"text" : {
 			"name" : "Wayfarer's Boots",
-			"description" : "{Wayfarer's Boots}\r\n\r\nWorn on the feet, these boots allow your hero to move over rough terrain without penalty.",
+			"description" : "{Wayfarer's Boots}\n\nWorn on the feet, these boots remove movement penalty on rough terrains, allowing to move at 100% cost on any terrain.",
 			"event" : "You meet a wanderer in rugs on a shallow path. He offers you to exchange your cape for his old boots. You agree without much of enthusiasm. As he disappears over the horizon you realize the advantage of the transaction."
 		}
 	}

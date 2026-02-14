@@ -4,7 +4,7 @@
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.3.12",
+	"version" : "1.3.13",
 	"settings" : {
 		"spells" : {
 			"dimensionDoorTriggersGuards" : true

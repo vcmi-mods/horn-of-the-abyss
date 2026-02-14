@@ -4,8 +4,12 @@
 	"modType" : "Graphical",
 	"author" : "Graphics and sounds: HotA Crew, mod: Kuririn & avatar",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
-	"version" : "1.3.6",
+	"version" : "1.3.7",
 	"changelog" : {
+		"1.3.7" : [
+			"Added artifact descriptions",
+			"Added spell descriptions"
+		],
 		"1.3.6" : [
 			"Added all changed sounds"
 		]
@@ -42,6 +46,12 @@
 		"name" : "Oprava grafiky pro Heroes 3",
 		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
 	},
+	"artifacts" : [
+		"config/heroes3DataPatch/artifactDescriptions.json"
+	],
+	"spells" : [
+		"config/heroes3DataPatch/spellDescriptions.json"
+	],
 	"factions" : [
 		"config/heroes3DataPatch/confluxTerrain.json",
 		"config/heroes3DataPatch/structures.json",

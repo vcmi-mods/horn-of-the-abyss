@@ -26,7 +26,7 @@
 		},
 		"text" : {
 			"name" : "Plate of Dying Light",
-			"description" : "{Plate of Dying Light}\r\n\r\nWorn on a torso, this item reduces the Power skill of enemy hero by 25% during combat.",
+			"description" : "{Plate of Dying Light}\n\nWorn on a torso, this item reduces the Power skill of enemy hero by 25% during combat.",
 			"event" : "The goblin you met at the tavern is acting incredibly brazenly, and the reason for that is obviously the luxurious armor on his chest. It becomes apparent quickly that the armor offers poor protection from a good kick in the ass, yet it still is good for something — but how would a dumb goblin know that?"
 		}
 	}
