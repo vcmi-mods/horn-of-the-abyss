@@ -4,26 +4,21 @@
 		"name" : "Rubble",
 		"types" : {
 			"rubble" : {
+				"base" : {
+					"allowedTerrains" : [
+						"water"
+					],
+					"mask" : [
+						"VV",
+						"VB"
+					]
+				},
 				"templates" : {
 					"AVLpilr0" : {
-						"animation" : "hota/rubble/AVLpilr0",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/rubble/AVLpilr0"
 					},
 					"AVLpilr1" : {
-						"animation" : "hota/rubble/AVLpilr1",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/rubble/AVLpilr1"
 					},
 					"AVLpilr2" : {
 						"animation" : "hota/rubble/AVLpilr2",
@@ -31,20 +26,10 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"AVLpilr3" : {
-						"animation" : "hota/rubble/AVLpilr3",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/rubble/AVLpilr3"
 					},
 					"AVLpilr4" : {
 						"animation" : "hota/rubble/AVLpilr4",
@@ -52,36 +37,24 @@
 							"VVVV",
 							"VVVV",
 							"VBBB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"AVLpilr5" : {
 						"animation" : "hota/rubble/AVLpilr5",
 						"mask" : [
 							"B"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"AVLpilr6" : {
 						"animation" : "hota/rubble/AVLpilr6",
 						"mask" : [
 							"B"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"AVLpilr7" : {
 						"animation" : "hota/rubble/AVLpilr7",
 						"mask" : [
 							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					}
 				}

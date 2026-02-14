@@ -4,6 +4,11 @@
 		"handler" : "static",
 		"types" : {
 			"pillars" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"AVLcoD01" : {
 						"animation" : "hota/pillars/AVLcoD01",
@@ -11,9 +16,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoD02" : {
@@ -22,9 +24,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoD03" : {
@@ -33,9 +32,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoD04" : {
@@ -44,9 +40,6 @@
 							"VV",
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoG01" : {
@@ -55,9 +48,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoG02" : {
@@ -66,9 +56,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoG03" : {
@@ -77,9 +64,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoG04" : {
@@ -88,9 +72,6 @@
 							"VV",
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM01" : {
@@ -100,9 +81,6 @@
 							"VVV",
 							"VVV",
 							"VVB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM02" : {
@@ -112,9 +90,6 @@
 							"VVVV",
 							"VVVV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM03" : {
@@ -124,9 +99,6 @@
 							"VVVVV",
 							"VVVVV",
 							"VVBBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM04" : {
@@ -136,9 +108,6 @@
 							"VV",
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM05" : {
@@ -148,9 +117,6 @@
 							"VVV",
 							"VVV",
 							"VVB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM07" : {
@@ -160,9 +126,6 @@
 							"VVV",
 							"VVV",
 							"VBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM08" : {
@@ -172,9 +135,6 @@
 							"VVVV",
 							"VVVV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM10" : {
@@ -184,9 +144,6 @@
 							"VVVVV",
 							"VVVVV",
 							"VVBBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM11" : {
@@ -196,9 +153,6 @@
 							"VVVVV",
 							"VVVVV",
 							"VVBBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM12" : {
@@ -208,9 +162,6 @@
 							"VVVVV",
 							"VVVVV",
 							"VVBBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}
@@ -223,15 +174,16 @@
 		"handler" : "static",
 		"types" : {
 			"rubble" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"AVLcoF01" : {
 						"animation" : "hota/pillars/AVLcoF01",
 						"mask" : [
 							"BB"
-						],
-
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoF02" : {
@@ -239,9 +191,6 @@
 						"mask" : [
 							"VBB",
 							"BBV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoM06" : {
@@ -249,9 +198,6 @@
 						"mask" : [
 							"VVV",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoF03" : {
@@ -259,9 +205,6 @@
 						"mask" : [
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLcoF04" : {
@@ -269,9 +212,6 @@
 						"mask" : [
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}
@@ -284,37 +224,28 @@
 		"handler" : "generic",
 		"types" : {
 			"stele" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					],
+					"mask" : [
+						"VV",
+						"VV",
+						"VB"
+					]
+				},
 				"templates" : {
 					"AVLobD01" : {
 						"animation" : "hota/pillars/AVLobD01",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
 					},
 					"AVLobD02" : {
 						"animation" : "hota/pillars/AVLobD02",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
 					},
 					"AVLwaD01" : {
 						"animation" : "hota/pillars/AVLwaD01",
 						"mask" : [
 							"V",
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}
@@ -327,220 +258,104 @@
 		"handler" : "generic",
 		"types" : {
 			"sandWalls" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					],
+					"mask" : [
+						"BB",
+						"BB"
+					]
+				},
 				"templates" : {
 					"AVLwaC01" : {
-						"animation" : "hota/pillars/AVLwaC01",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC01"
 					},
 					"AVLwaC02" : {
-						"animation" : "hota/pillars/AVLwaC02",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC02"
 					},
 					"AVLwaC03" : {
 						"animation" : "hota/pillars/AVLwaC03",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
 					},
 					"AVLwaC04" : {
-						"animation" : "hota/pillars/AVLwaC04",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC04"
 					},
 					"AVLwaC05" : {
-						"animation" : "hota/pillars/AVLwaC05",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC05"
 					},
 					"AVLwaC06" : {
-						"animation" : "hota/pillars/AVLwaC06",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC06"
 					},
 					"AVLwaC07" : {
-						"animation" : "hota/pillars/AVLwaC07",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC07"
 					},
 					"AVLwaC08" : {
-						"animation" : "hota/pillars/AVLwaC08",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC08"
 					},
 					"AVLwaC09" : {
-						"animation" : "hota/pillars/AVLwaC09",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaC09"
 					},
 					"AVLwaC10" : {
 						"animation" : "hota/pillars/AVLwaC10",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaH01" : {
-						"animation" : "hota/pillars/AVLwaH01",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH01"
 					},
 					"AVLwaH02" : {
 						"animation" : "hota/pillars/AVLwaH02",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaH03" : {
-						"animation" : "hota/pillars/AVLwaH03",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH03"
 					},
 					"AVLwaH04" : {
-						"animation" : "hota/pillars/AVLwaH04",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH04"
 					},
 					"AVLwaH05" : {
 						"animation" : "hota/pillars/AVLwaH05",
 						"mask" : [
 							"B",
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaH06" : {
 						"animation" : "hota/pillars/AVLwaH06",
 						"mask" : [
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaH07" : {
-						"animation" : "hota/pillars/AVLwaH07",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH07"
 					},
 					"AVLwaH08" : {
-						"animation" : "hota/pillars/AVLwaH08",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH08"
 					},
 					"AVLwaH09" : {
 						"animation" : "hota/pillars/AVLwaH09",
 						"mask" : [
 							"B",
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaH10" : {
-						"animation" : "hota/pillars/AVLwaH10",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaH10"
 					},
 					"AVLwaM01" : {
 						"animation" : "hota/pillars/AVLwaM01",
 						"mask" : [
 							"BBB",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaM02" : {
 						"animation" : "hota/pillars/AVLwaM02",
 						"mask" : [
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaM03" : {
@@ -548,9 +363,6 @@
 						"mask" : [
 							"BBB",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaM04" : {
@@ -558,9 +370,6 @@
 						"mask" : [
 							"BBB",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaM05" : {
@@ -568,96 +377,46 @@
 						"mask" : [
 							"BBB",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaV01" : {
-						"animation" : "hota/pillars/AVLwaV01",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaV01"
 					},
 					"AVLwaV02" : {
-						"animation" : "hota/pillars/AVLwaV02",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaV02"
 					},
 					"AVLwaV03" : {
-						"animation" : "hota/pillars/AVLwaV03",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaV03"
 					},
 					"AVLwaV04" : {
-						"animation" : "hota/pillars/AVLwaV04",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaV04"
 					},
 					"AVLwaV05" : {
 						"animation" : "hota/pillars/AVLwaV05",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaV06" : {
 						"animation" : "hota/pillars/AVLwaV06",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaV07" : {
 						"animation" : "hota/pillars/AVLwaV07",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaV08" : {
 						"animation" : "hota/pillars/AVLwaV08",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaV09" : {
-						"animation" : "hota/pillars/AVLwaV09",
-						"mask" : [
-							"BB",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/pillars/AVLwaV09"
 					}
 				}
 			}
@@ -669,15 +428,17 @@
 		"handler" : "generic",
 		"types" : {
 			"sandStairs" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"AVLwaS01" : {
 						"animation" : "hota/pillars/AVLwaS01",
 						"mask" : [
 							"VV",
 							"VV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaS02" : {
@@ -685,9 +446,6 @@
 						"mask" : [
 							"B",
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaS03" : {
@@ -695,9 +453,6 @@
 						"mask" : [
 							"B",
 							"B"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaS04" : {
@@ -706,9 +461,6 @@
 							"VV",
 							"VV",
 							"VV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"AVLwaS05" : {
@@ -717,9 +469,6 @@
 							"VV",
 							"VV",
 							"VV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}

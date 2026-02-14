@@ -4,44 +4,33 @@
 		"handler" : "static",
 		"types" : {
 			"crates" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VB"
+					],
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"crates01" : {
 						"animation" : "hota/crates/crates01",
 						"mask" : [
 							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"crates11" : {
-						"animation" : "hota/crates/crates11",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates11"
 					},
 					"crates12" : {
-						"animation" : "hota/crates/crates12",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates12"
 					},
 					"crates13" : {
 						"animation" : "hota/crates/crates13",
 						"mask" : [
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}

@@ -4,46 +4,27 @@
 		"handler" : "static",
 		"types" : {
 			"hotaSeaweeds" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VV"
+					],
+					"allowedTerrains" : [
+						"water"
+					]
+				},
 				"templates" : {
 					"AVLklp50" : {
-						"animation" : "hota/kelps/AVLklp50",
-						"mask" : [
-							"VV",
-							"VV"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/kelps/AVLklp50"
 					},
 					"AVLklp60" : {
-						"animation" : "hota/kelps/AVLklp60",
-						"mask" : [
-							"VV",
-							"VV"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/kelps/AVLklp60"
 					},
 					"AVLklp70" : {
-						"animation" : "hota/kelps/AVLklp70",
-						"mask" : [
-							"VV",
-							"VV"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/kelps/AVLklp70"
 					},
 					"AVLklp80" : {
-						"animation" : "hota/kelps/AVLklp80",
-						"mask" : [
-							"VV",
-							"VV"
-						],
-						"allowedTerrains" : [
-							"water"
-						]
+						"animation" : "hota/kelps/AVLklp80"
 					}
 				}
 			}
