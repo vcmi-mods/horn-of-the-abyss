@@ -139,10 +139,10 @@ jobs:
           fetch-depth: 0
 
       - name: Prepare content ZIPs
-        run: .github/create_content_zip.sh
+        run: bash .github/create_content_zip.sh
 
       - name: Package release archive
-        run: .github/create_release_package.sh
+        run: bash .github/create_release_package.sh
 
       - name: Move tag to current commit
         run: |
