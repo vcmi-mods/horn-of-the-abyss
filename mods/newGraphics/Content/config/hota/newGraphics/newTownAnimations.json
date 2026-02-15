@@ -3,18 +3,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -61,18 +49,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -119,18 +95,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -177,18 +141,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -235,18 +187,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -293,18 +233,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -351,18 +279,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -409,18 +325,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -467,18 +371,6 @@
 		"town" : {
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -520,63 +412,51 @@
 				}
 			}
 		}
-	},
-	"core:randomTown" : {
-		"town" : {
-			"mapObject" : {
-				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
-					"citadel" : [
-						"allOf",
-						[
-							"citadel"
-						],
-						[
-							"noneOf",
-							[
-								"castle"
-							]
-						]
-					],
-					"castle" : [
-						"allOf",
-						[
-							"castle"
-						],
-						[
-							"noneOf",
-							[
-								"capitol"
-							]
-						]
-					]
-				},
-				"templates" : {
-					"fort" : {
-						"animation" : "hota/random/adventureMap/town/AVCranf0.def"
-					},
-					"citadel" : {
-						"animation" : "hota/random/adventureMap/town/AVCRAND0.def"
-					},
-					"castle" : {
-						"animation" : "hota/random/adventureMap/town/avcranx0.def"
-					},
-					"capitol" : {
-						"animation" : "hota/random/adventureMap/town/avcranz0.def"
-					}
-				}
-			}
-		}
 	}
+//	"core:randomTown" : {
+//		"town" : {
+//			"mapObject" : {
+//				"filters" : {
+//					"citadel" : [
+//						"allOf",
+//						[
+//							"citadel"
+//						],
+//						[
+//							"noneOf",
+//							[
+//								"castle"
+//							]
+//						]
+//					],
+//					"castle" : [
+//						"allOf",
+//						[
+//							"castle"
+//						],
+//						[
+//							"noneOf",
+//							[
+//								"capitol"
+//							]
+//						]
+//					]
+//				},
+//				"templates" : {
+//					"fort" : {
+//						"animation" : "hota/random/adventureMap/town/AVCranf0.def"
+//					},
+//					"citadel" : {
+//						"animation" : "hota/random/adventureMap/town/AVCRAND0.def"
+//					},
+//					"castle" : {
+//						"animation" : "hota/random/adventureMap/town/avcranx0.def"
+//					},
+//					"capitol" : {
+//						"animation" : "hota/random/adventureMap/town/avcranz0.def"
+//					}
+//				}
+//			}
+//		}
+//	}
 }
