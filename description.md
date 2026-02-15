@@ -73,9 +73,9 @@ Several combination artifacts have been added that were once planned for the rel
 
 Still hungry for more boons to get an edge over your enemies? Look no further than the assorted wares that _Horn of the Abyss_ has to offer:
 
-* **Plate of Dying Light:** _\-25% enemy Power skill_
-* **Seal of Sunset:** _\-10% enemy Power skill_
-* **Charm of Eclipse:** _\-10% enemy Power skill_
+* **Plate of Dying Light:** _\-25% enemy Spell Power skill_
+* **Seal of Sunset:** _\-10% enemy Spell Power skill_
+* **Charm of Eclipse:** _\-10% enemy Spell Power skill_
 * **Pendant of Downfall:** _\-2 enemy Morale_
 * **Ring of Suppression:** _\-1 enemy Morale_
 * **Hideous Mask:** _\-1 enemy Morale_
