@@ -6,7 +6,7 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" : {
-		"min" : "1.7.2"
+		"min" : "1.7.3"
 	},
 	"version" : "1.8.001",
 	"changelog" : {
