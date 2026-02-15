@@ -50,7 +50,7 @@ A new set of golden armour infused with the power of the ocean lies in wait to b
 
 * **Trident of Dominion:** _+7 Attack skill_
 * **Shield of Naval Glory:** _+7 Defense skill_
-* **Royal Armor of Nix:** _+6 Power skill_
+* **Royal Armor of Nix:** _+6 Spell Power skill_
 * **Crown of the Five Seas:** _+6 Knowledge skill_
 
 Two incredibly powerful artifacts have been added that can completely change the tide of a scenario:
@@ -61,12 +61,12 @@ Two incredibly powerful artifacts have been added that can completely change the
 Several combination artifacts have been added that were once planned for the release of _Shadow of Death_ with new names and fully fleshed-out abilities:
 
 * **Ironfist of the Ogre:**
-    * _+5 Attack skill, +5 Defense skill, +4 Power skill, +4 Knowledge skill_
+    * _+5 Attack skill, +5 Defense skill, +4 Spell Power skill, +4 Knowledge skill_
     * _Casts Expert Bloodlust, Counterstrike, Fire Shield, and Haste on all allies for 50 rounds_
-    * _**Weapon**/Shield/Helm/Torso slots_
+    * _**Weapon**/Shield/Head/Torso slots_
 * **Pendant of Reflection:**
     * _+50% Magic Resistance_
-    * _**Necklace**/Cape/Feet slots_
+    * _**Necklace**/Shoulders/Feet slots_
 * **Golden Goose:**
     * _+7000 Gold/day_
     * _**Misc**/Misc/Misc slots_
@@ -92,7 +92,6 @@ Still hungry for more boons to get an edge over your enemies? Look no further th
 * Small yet appropriate changes to overall town building cost balance
 * Small yet appropriate changes to various creatures
 * New **map objects** and **creature hordes**
-* New **Template Editor** to aid with Random Map Generation
 * The **Vault of Ashes**, a new **Conflux** dwelling that boosts Firebird/Phoenix Growth
 * **Spell Research** system that guarantees essential spells with enough research
 * New terrains - **Highlands** and **Wasteland**
