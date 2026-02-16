@@ -9,14 +9,7 @@
 					}
 				}
 			},
-			"none" : {
-				"description" : "{Protection from Air}\n\nProtects the selected friendly unit, reducing damage received from Air spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Protection from Air}\n\nProtects the selected friendly unit, reducing damage received from Air spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
 			"advanced" : {
-				"description" : "{Advanced Protection from Air}\n\nProtects the selected friendly unit, reducing damage received from Air spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -24,7 +17,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Protection from Air}\n\nProtects all friendly units, reducing damage received from Air spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -42,14 +34,7 @@
 					}
 				}
 			},
-			"none" : {
-				"description" : "{Protection from Earth}\n\nProtects the selected friendly unit, reducing damage received from Earth spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Protection from Earth}\n\nProtects the selected friendly unit, reducing damage received from Earth spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
 			"advanced" : {
-				"description" : "{Advanced Protection from Earth}\n\nProtects the selected friendly unit, reducing damage received from Earth spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -57,7 +42,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Protection from Earth}\n\nProtects all friendly units, reducing damage received from Earth spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -75,14 +59,7 @@
 					}
 				}
 			},
-			"none" : {
-				"description" : "{Protection from Fire}\n\nProtects the selected friendly unit, reducing damage received from Fire spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Protection from Fire}\n\nProtects the selected friendly unit, reducing damage received from Fire spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
 			"advanced" : {
-				"description" : "{Advanced Protection from Fire}\n\nProtects the selected friendly unit, reducing damage received from Fire spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -90,7 +67,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Protection from Fire}\n\nProtects all friendly units, reducing damage received from Fire spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -108,14 +84,7 @@
 					}
 				}
 			},
-			"none" : {
-				"description" : "{Protection from Water}\n\nProtects the selected friendly unit, reducing damage received from Water spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Protection from Water}\n\nProtects the selected friendly unit, reducing damage received from Water spells by 50%. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
 			"advanced" : {
-				"description" : "{Advanced Protection from Water}\n\nProtects the selected friendly unit, reducing damage received from Water spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -123,7 +92,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Protection from Water}\n\nProtects all friendly units, reducing damage received from Water spells by 75%. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"spellDamageReduction" : {
 						"val" : 75
@@ -134,73 +102,28 @@
 	},
 	// The damage of Armageddon spell reduced form 50*(spell power) + 30/30/60/120 to 40*(spell power) + 30/30/60/120
 	"core:armageddon" : {
-		"power" : 40,
-		"levels" : {
-			"none" : {
-				"description" : "{Armageddon}\n\nRains fire down upon the battlefield, damaging all units for (Spell Power x 40 + 30) hit points.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Armageddon}\n\nRains fire down upon the battlefield, damaging all units for (Spell Power x 40 + 30) hit points.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Armageddon}\n\nRains fire down upon the battlefield, damaging all units for (Spell Power x 40 + 60) hit points.\n"
-			},
-			"expert" : {
-				"description" : "{Expert Armageddon}\n\nRains fire down upon the battlefield, damaging all units for (Spell Power x 40 + 120) hit points.\n"
-			}
-		}
+		"power" : 40
 	},
 
 	"core:slow" : {
 		"levels" : {
-			"base#override" : {
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
+			"advanced" : {
 				"effects" : {
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : -25,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-
 					"hotaNerf" : {
 						"type" : "STACKS_SPEED",
 						"valueType" : "ADDITIVE_VALUE",
-						"val" : 0,
+						"val" : 2,
 						"duration" : "N_TURNS"
 					}
 				}
 			},
-			"none" : {
-				"description" : "{Slow}\n\nReduces the speed of the selected enemy unit by the formula (old speed x 0.75). Removes Haste effect. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Slow}\n\nReduces the speed of the selected enemy unit by the formula (old speed x 0.75). Removes Haste effect. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Slow}\n\nReduces the speed of the selected enemy unit by the formula (old speed x 0.5 + 1). Removes Haste effect. Spell is active for number of rounds equal to hero Spell Power.\n",
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					},
-					"hotaNerf" : {
-						"val" : 2
-					}
-				}
-			},
-
 			"expert" : {
-				"description" : "{Expert Slow}\n\nReduces the speed of all enemy units by the formula (old speed x 0.5 + 1). Removes Haste effect. Spell is active for number of rounds equal to hero Spell Power.\n",
-				"range" : "X",
 				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					},
 					"hotaNerf" : {
-						"val" : 2
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 2,
+						"duration" : "N_TURNS"
 					}
 				}
 			}
@@ -220,20 +143,16 @@
 				}
 			},
 			"none" : {
-				"power" : 70,
-				"description" : "{Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2) fire elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 70
 			},
 			"basic" : {
-				"power" : 70,
-				"description" : "{Basic Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2) fire elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 70
 			},
 			"advanced" : {
-				"power" : 88,
-				"description" : "{Advanced Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 2.5) fire elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 88
 			},
 			"expert" : {
-				"power" : 105,
-				"description" : "{Expert Summon Fire Elemental}\n\nAllows you to summon (Spell Power x 3) fire elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 105
 			}
 		}
 	},
@@ -248,20 +167,16 @@
 				}
 			},
 			"none" : {
-				"power" : 80,
-				"description" : "{Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2) earth elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 80
 			},
 			"basic" : {
-				"power" : 80,
-				"description" : "{Basic Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2) earth elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 80
 			},
 			"advanced" : {
-				"power" : 100,
-				"description" : "{Advanced Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 2.5) earth elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 100
 			},
 			"expert" : {
-				"power" : 120,
-				"description" : "{Expert Summon Earth Elemental}\n\nAllows you to summon (Spell Power x 3) earth elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
+				"power" : 120
 			}
 		}
 	},
@@ -273,18 +188,6 @@
 						"exclusive" : false
 					}
 				}
-			},
-			"none" : {
-				"description" : "{Summon Water Elemental}\n\nAllows you to summon (Spell Power x 2) water elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Summon Water Elemental}\n\nAllows you to summon (Spell Power x 2) water elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Summon Water Elemental}\n\nAllows you to summon (Spell Power x 3) water elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"expert" : {
-				"description" : "{Expert Summon Water Elemental}\n\nAllows you to summon (Spell Power x 4) water elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
 			}
 		}
 	},
@@ -296,18 +199,6 @@
 						"exclusive" : false
 					}
 				}
-			},
-			"none" : {
-				"description" : "{Summon Air Elemental}\n\nAllows you to summon (Spell Power x 2) air elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Summon Air Elemental}\n\nAllows you to summon (Spell Power x 2) air elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Summon Air Elemental}\n\nAllows you to summon (Spell Power x 3) air elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
-			},
-			"expert" : {
-				"description" : "{Expert Summon Air Elemental}\n\nAllows you to summon (Spell Power x 4) air elementals on the random position of your edge of the battlefield. Elementals will serve you until the end of the battle.\n"
 			}
 		}
 	},
@@ -324,32 +215,13 @@
 	"core:fireWallTrigger" : {
 		"power" : 15
 	},
+	// necessary for the damage tooltip, not for the damage itself
 	"core:fireWall" : {
-		"levels" : {
-			"none" : {
-				"description" : "{Fire Wall}\n\nPlaces a 2-hex wildfire on the battlefield at a point specified by the caster for 2 rounds. Any units passing through the wall take (Spell Power x 15 + 10) damage.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Fire Wall}\n\nPlaces a 2-hex wildfire on the battlefield at a point specified by the caster for 2 rounds.  Any units passing through the wall take (Spell Power x 15 + 10) damage.\n"
-			},
-			"advanced" : {
-				"description" : "{Advanced Fire Wall}\n\nPlaces a 3-hex wildfire on the battlefield at a point specified by the caster for 2 rounds.  Any units passing through the wall take (Spell Power x 15 + 20) damage.\n"
-			},
-			"expert" : {
-				"description" : "{Expert Fire Wall}\n\nPlaces a 3-hex wildfire on the battlefield at a point specified by the caster for 2 rounds.  Any units passing through the wall take (Spell Power x 15 + 50) damage.\n"
-			}
-		}
+		"power" : 15
 	},
 	"core:forgetfulness" : {
 		"levels" : {
-			"none" : {
-				"description" : "{Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
-			"basic" : {
-				"description" : "{Basic Forgetfulness}\n\nMind spell. Half of the selected enemy ranged unit forgets to use its attack. Spell is active for number of rounds equal to hero Spell Power.\n"
-			},
 			"advanced" : {
-				"description" : "{Advanced Forgetfulness}\n\nMind spell. Causes the selected enemy ranged unit to forget to use its ranged attack in combat. Half of unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"meleeAttackDamageReduction" : {
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
@@ -360,7 +232,6 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Forgetfulness}\n\nMind spell. Causes all enemy ranged troops to forget to use their ranged attack in combat. Half of each unit also forget to use hand-to-hand attack. Spell is active for number of rounds equal to hero Spell Power.\n",
 				"effects" : {
 					"meleeAttackDamageReduction" : {
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
