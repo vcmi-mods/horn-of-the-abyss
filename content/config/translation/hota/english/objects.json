@@ -1,0 +1,22 @@
+{
+	// swanPond
+	"core.xtrainfo.1" : "(+2 luck until next battle for all remained movement)",
+	// fountainOfFortune
+	"core.xtrainfo.3" : "(+1, +2, +3, or -1 luck until next battle)",
+	// fountainOfYouth
+	"core.xtrainfo.13" : "(+1 morale until next battle and +400 movement points for one day)",
+	// rallyFlag
+	"core.xtrainfo.17" : "(+1 luck and morale until next battle and +400 movement points for one day)",
+	// treeOfKnowledge
+	"core.xtrainfo.18" : "(+1 level for free, 2000 gold, or 10 gems)",
+	// idolOfFortune
+	"core.xtrainfo.22" : "(+1 luck and/or +1 morale until next battle)",
+	// temple
+	"core.xtrainfo.23" : "(+1 or +2 morale until next battle)",
+	// oasis
+	"core.xtrainfo.26" : "(+1 morale until next battle and +800 movement points for one day)",
+	//wateringHole
+	"core.xtrainfo.27" : "(+1 morale until next battle and +400 movement points for one day)",
+	// hillFort - will work once VCMI allows indirect strings in hillFort
+	"core.xtrainfo.14" : "(Upgrade creatures level 1 for free, 2 — for 25% price, 3 — for 50%, 4 — for 75%, 5–7 — for 100%)"
+}
