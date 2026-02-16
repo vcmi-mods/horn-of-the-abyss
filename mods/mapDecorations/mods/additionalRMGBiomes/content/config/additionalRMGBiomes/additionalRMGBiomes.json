@@ -127,5 +127,10 @@
 			"avrdtr05",
 			"avrdtr06"
 		]
+	},
+	"core:templateSet139" : {
+		"biome" : {
+			"objectType" : "tree"
+		}
 	}
 }
