@@ -125,7 +125,7 @@
 	"predatoryPlants" : {
 		"biome" : {
 			"terrain" : "swamp",
-			"objectType" : "plant"
+			"objectType" : "other"
 		},
 		"templates" : [
 			"TPMTREE1",
