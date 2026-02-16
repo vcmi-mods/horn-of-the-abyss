@@ -1,7 +1,14 @@
 {
-	"artifact.core.amuletOfTheUndertaker.description" : "{亡灵护身符}\n\n佩带亡灵护身符可使你的招魂术提高3%。",
-	"artifact.core.angelicAlliance.description" : "{天使联盟}\n\n允许正义和中立城镇（例如：城堡、壁垒、塔楼、据点、要塞、元素城、港口和工厂）的兵种在混合部队时不受士气惩罚，在战斗一开始就自动施展高级的祈祷魔法，持续效果为10个回合。如果英雄部队里有邪恶生物，则士气-1。",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{鬼王斗篷}\n\n招魂术增强15%。此外，招魂术等级越高，招出的亡灵等级也越高。\n初级：行尸\n中级：幽灵\n高级：尸巫",
-	"artifact.core.deadMansBoots.description" : "{死神靴}\n\n穿上死神靴可使你的招魂术提高7%。",
-	"artifact.core.vampiresCowl.description" : "{吸血鬼披风}\n\n穿上吸血鬼披风可使你的招魂术提高5%。"
+//	"artifact.core.amuletOfTheUndertaker.description" : "{亡灵护身符}\n\n佩带亡灵护身符可使你的招魂术提高3%。",
+//	"artifact.core.cloakOfTheUndeadKing.description" : "{鬼王斗篷}\n\n招魂术增强15%。此外，招魂术等级越高，招出的亡灵等级也越高。\n初级：行尸\n中级：幽灵\n高级：尸巫",
+//	"artifact.core.deadMansBoots.description" : "{死神靴}\n\n穿上死神靴可使你的招魂术提高7%。",
+//	"artifact.core.vampiresCowl.description" : "{吸血鬼披风}\n\n穿上吸血鬼披风可使你的招魂术提高5%。"
+
+	// these should be added for polishing
+	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
+	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
+	//move this into global hota translations:
+	//	"artifact.core.angelicAlliance.description" : "{天使联盟}\n\n允许正义和中立城镇（例如：城堡、壁垒、塔楼、据点、要塞、元素城、港口和工厂）的兵种在混合部队时不受士气惩罚，在战斗一开始就自动施展高级的祈祷魔法，持续效果为10个回合。如果英雄部队里有邪恶生物，则士气-1。",
+	// original string:
+	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 }

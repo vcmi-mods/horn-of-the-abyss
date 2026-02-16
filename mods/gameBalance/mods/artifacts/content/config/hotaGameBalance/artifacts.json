@@ -47,9 +47,6 @@
 			"movement" : {
 				"val" : 400
 			}
-		},
-		"text" : {
-			"description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
 		}
 	},
 	"core:equestriansGloves" : {
@@ -57,9 +54,6 @@
 			"movement" : {
 				"val" : 200
 			}
-		},
-		"text" : {
-			"description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points."
 		}
 	},
 	"core:badgeOfCourage" : {
@@ -80,9 +74,6 @@
 					}
 				]
 			}
-		},
-		"text" : {
-			"description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 		}
 	},
 	// 1.7.2:
