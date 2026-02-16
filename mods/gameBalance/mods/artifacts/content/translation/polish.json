@@ -1,5 +1,11 @@
 {
-	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet Grabarza}\n\nNoszony na szyi, ten amulet zwiększa umiejętność Nekromancji o 3%.",
-	"artifact.core.deadMansBoots.description" : "{Buty Trupa}\n\nNoszone na stopach, te buty zwiększają umiejętność Nekromancji o 7%.",
-	"artifact.core.vampiresCowl.description" : "{Kaptur Wampira}\n\nNoszony na ramionach, ten kaptur zwiększa umiejętność Nekromancji o 5%."
+//	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet Grabarza}\n\nNoszony na szyi, ten amulet zwiększa umiejętność Nekromancji o 3%.",
+//	"artifact.core.deadMansBoots.description" : "{Buty Trupa}\n\nNoszone na stopach, te buty zwiększają umiejętność Nekromancji o 7%.",
+//	"artifact.core.vampiresCowl.description" : "{Kaptur Wampira}\n\nNoszony na ramionach, ten kaptur zwiększa umiejętność Nekromancji o 5%."
+
+	// these should be added for polishing
+	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
+	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
+	// add this in global hota translations:
+	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 }
