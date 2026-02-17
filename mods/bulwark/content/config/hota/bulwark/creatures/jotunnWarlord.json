@@ -1,8 +1,8 @@
 {
 	"jotunnWarlord" : {
 		"name" : {
-			"plural" : "Jotunn Warlord",
-			"singular" : "Jotunn Warlords"
+			"singular" : "Jotunn Warlord",
+			"plural" : "Jotunn Warlords"
 		},
 		"faction" : "bulwark",
 		"level" : 7,

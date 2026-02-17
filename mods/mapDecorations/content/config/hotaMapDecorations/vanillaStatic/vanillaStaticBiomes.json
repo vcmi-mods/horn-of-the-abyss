@@ -187,32 +187,6 @@
 			]
 		}
 	},
-	"redTrees" : {
-		"biome" : {
-			"terrain" : [
-				"dirt",
-				"rough",
-				"grass"
-			],
-			"objectType" : "tree"
-		},
-		"templates" : [
-			"AVLswt17",
-			"AVLswt20",
-			"AVLswt21",
-			"AVLswt22",
-			"AVLswt23",
-			"AVLswt24",
-			"AVLswt25",
-			"AVLswt26",
-			"avrdtr01",
-			"avrdtr02",
-			"avrdtr03",
-			"avrdtr04",
-			"avrdtr05",
-			"avrdtr06"
-		]
-	},
 	"reef" : {
 		"biome" : {
 			"terrain" : "water",
@@ -252,21 +226,6 @@
 		"templates" : {
 			"append" : "avlsh9x0"
 		}
-	},
-	"predatoryPlants" : {
-		"biome" : {
-			"terrain" : "swamp",
-			"objectType" : "plant"
-		},
-		"templates" : [
-			"TPMTREE1",
-			"TPMTREE2",
-			"TPMTREE3",
-			"TPMTREE4",
-			"TPMTREE5",
-			"TPMTREE6",
-			"avswplnt"
-		]
 	},
 	"dirtTree" : {
 		"biome" : {

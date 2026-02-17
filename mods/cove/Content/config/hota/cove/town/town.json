@@ -163,18 +163,6 @@
 
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -201,6 +189,9 @@
 					]
 				},
 				"templates" : {
+					"village" : {
+						"animation" : "hota/cove/town/adventureMap/AVCCOVE0.def"
+					},
 					"fort" : {
 						"animation" : "hota/cove/town/adventureMap/AVCcovf0.def"
 					},
@@ -209,9 +200,6 @@
 					},
 					"castle" : {
 						"animation" : "hota/cove/town/adventureMap/AVCCOVX0.def"
-					},
-					"village" : {
-						"animation" : "hota/cove/town/adventureMap/AVCCOVE0.def"
 					},
 					"capitol" : {
 						"animation" : "hota/cove/town/adventureMap/AVCcovz0.def"

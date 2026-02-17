@@ -103,5 +103,12 @@
 		"translations" : [
 			"translation/czech.json"
 		]
+	},
+	"german" : {
+		"name" : "Bollwerk",
+		"description" : "Neue Stadt mit nordischer Thematik",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }

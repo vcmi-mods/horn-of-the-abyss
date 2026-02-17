@@ -8,8 +8,11 @@
 	"compatibility" : {
 		"min" : "1.7.2"
 	},
-	"version" : "1.8.000",
+	"version" : "1.8.001",
 	"changelog" : {
+		"1.8.001" : [
+			"Fixed loading of saves made with 1.7 versions of the mod"
+		],
 		"1.8.000" : [
 			"Added new town Bulwark",
 			"Added new HotA 1.8.0 map content",

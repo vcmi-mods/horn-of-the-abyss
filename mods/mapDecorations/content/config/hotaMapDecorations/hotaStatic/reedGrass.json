@@ -4,32 +4,28 @@
 		"handler" : "static",
 		"types" : {
 			"reedGrass" : {
+				"base" : {
+					"allowedTerrains" : [
+						"swamp"
+					]
+				},
 				"templates" : {
 					"AVLs01s0" : {
 						"animation" : "AVLs01s0",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"swamp"
 						]
 					},
 					"AVLs02s0" : {
 						"animation" : "AVLs02s0",
 						"mask" : [
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"swamp"
 						]
 					},
 					"AVLs03s0" : {
 						"animation" : "AVLs03s0",
 						"mask" : [
 							"BBBBB"
-						],
-						"allowedTerrains" : [
-							"swamp"
 						]
 					},
 					"AVLswp10" : {
@@ -37,9 +33,6 @@
 						"mask" : [
 							"VBBBB",
 							"BBBBB"
-						],
-						"allowedTerrains" : [
-							"swamp"
 						]
 					}
 				}

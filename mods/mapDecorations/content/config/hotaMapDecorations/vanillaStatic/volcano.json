@@ -4,6 +4,15 @@
 		"handler" : "static",
 		"types" : {
 			"volcanicVent" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"BB"
+					],
+					"allowedTerrains" : [
+						"lava"
+					]
+				},
 				"templates" : {
 					"AVLvol60" : {
 						"animation" : "hota/volcano/AVLvol60",
@@ -11,39 +20,19 @@
 							"VVVV",
 							"VBBB",
 							"VBBB"
-						],
-						"allowedTerrains" : [
-							"lava"
 						]
 					},
 					"AVLvol10" : {
-						"animation" : "AVLvol10",
-						"mask" : [
-							"VV",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"animation" : "AVLvol10"
 					},
 					"AVLvol20" : {
-						"animation" : "AVLvol20",
-						"mask" : [
-							"VV",
-							"BB"
-						],
-						"allowedTerrains" : [
-							"lava"
-						]
+						"animation" : "AVLvol20"
 					},
 					"AVLvol40" : {
 						"animation" : "AVLvol40",
 						"mask" : [
 							"VBV",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"lava"
 						]
 					}
 				}

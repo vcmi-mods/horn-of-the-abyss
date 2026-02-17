@@ -608,35 +608,23 @@
 								"castle"
 							]
 						]
-					],
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
 					]
 				},
 				"templates" : {
-					"capitol" : {
-						"animation" : "hota/factory/town/adventureMap/AVCfacZ0.def"
-					},
-					"castle" : {
-						"animation" : "hota/factory/town/adventureMap/AVCfacX0.def"
-					},
-					"citadel" : {
-						"animation" : "hota/factory/town/adventureMap/AVCfacC0.def"
+					"village" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacE0.def"
 					},
 					"fort" : {
 						"animation" : "hota/factory/town/adventureMap/AVCfacF0.def"
 					},
-					"village" : {
-						"animation" : "hota/factory/town/adventureMap/AVCfacE0.def"
+					"citadel" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacC0.def"
+					},
+					"castle" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacX0.def"
+					},
+					"capitol" : {
+						"animation" : "hota/factory/town/adventureMap/AVCfacZ0.def"
 					}
 				}
 			},

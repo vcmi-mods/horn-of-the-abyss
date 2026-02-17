@@ -4,15 +4,17 @@
 		"handler" : "static",
 		"types" : {
 			"waterfalls" : {
+				"base" : {
+					"allowedTerrains" : [
+						"water"
+					]
+				},
 				"templates" : {
 					"h4wt1f" : {
 						"animation" : "hota/waterfall/h4wt1f",
 						"mask" : [
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"h4wt2f" : {
@@ -21,9 +23,6 @@
 							"VVV",
 							"VVV",
 							"VBB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					},
 					"h4wt3f" : {
@@ -31,9 +30,6 @@
 						"mask" : [
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"water"
 						]
 					}
 				}

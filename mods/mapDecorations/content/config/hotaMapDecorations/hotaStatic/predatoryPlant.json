@@ -4,72 +4,34 @@
 		"handler" : "static",
 		"types" : {
 			"predatoryPlant" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VV",
+						"VB"
+					],
+					"allowedTerrains" : [
+						"swamp"
+					]
+				},
 				"templates" : {
 					"TPMTREE1" : {
-						"animation" : "hota/trees/TPMTREE1",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE1"
 					},
 					"TPMTREE2" : {
-						"animation" : "hota/trees/TPMTREE2",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE2"
 					},
 					"TPMTREE3" : {
-						"animation" : "hota/trees/TPMTREE3",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE3"
 					},
 					"TPMTREE4" : {
-						"animation" : "hota/trees/TPMTREE4",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE4"
 					},
 					"TPMTREE5" : {
-						"animation" : "hota/trees/TPMTREE5",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE5"
 					},
 					"TPMTREE6" : {
-						"animation" : "hota/trees/TPMTREE6",
-						"mask" : [
-							"VV",
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/trees/TPMTREE6"
 					}
 				}
 			}

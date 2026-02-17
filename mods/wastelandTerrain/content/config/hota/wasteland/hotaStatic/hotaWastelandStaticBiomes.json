@@ -1,5 +1,5 @@
 {
-	"wastelandTarPit" : {
+	"wastelandLakes" : {
 		"biome" : {
 			"terrain" : "wasteland",
 			"objectType" : "lake"
@@ -9,16 +9,7 @@
 			"AVLwloi2",
 			"AVLwloi3",
 			"AVLwloi4",
-			"AVLwloi5"
-		]
-	},
-	"limestoneLake" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "lake"
-		},
-		"templates" : [
-			"avlhlws0",
+			"AVLwloi5",
 			"AVLwll00",
 			"AVLwll01",
 			"AVLwll02"

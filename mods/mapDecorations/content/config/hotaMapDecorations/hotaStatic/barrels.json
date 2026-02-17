@@ -4,24 +4,20 @@
 		"handler" : "static",
 		"types" : {
 			"barrels" : {
+				"base" : {
+					"mask" : [
+						"VB"
+					],
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"crates02" : {
-						"animation" : "hota/crates/crates02",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates02"
 					},
 					"crates03" : {
-						"animation" : "hota/crates/crates03",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates03"
 					}
 				}
 			}

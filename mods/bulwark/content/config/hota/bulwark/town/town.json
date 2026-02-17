@@ -156,18 +156,6 @@
 
 			"mapObject" : {
 				"filters" : {
-					"fort" : [
-						"allOf",
-						[
-							"fort"
-						],
-						[
-							"noneOf",
-							[
-								"citadel"
-							]
-						]
-					],
 					"citadel" : [
 						"allOf",
 						[
@@ -194,6 +182,9 @@
 					]
 				},
 				"templates" : {
+					"village" : {
+						"animation" : "hota/bulwark/town/adventureMap/AVCBlwr0.def"
+					},
 					"fort" : {
 						"animation" : "hota/bulwark/town/adventureMap/AVCBulF0.def"
 					},
@@ -202,9 +193,6 @@
 					},
 					"castle" : {
 						"animation" : "hota/bulwark/town/adventureMap/AVCbulX0.def"
-					},
-					"village" : {
-						"animation" : "hota/bulwark/town/adventureMap/AVCBlwr0.def"
 					},
 					"capitol" : {
 						"animation" : "hota/bulwark/town/adventureMap/AVCbulZ0.def"
