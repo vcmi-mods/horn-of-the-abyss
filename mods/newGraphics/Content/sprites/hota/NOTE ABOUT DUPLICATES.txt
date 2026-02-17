@@ -1,0 +1,9 @@
+// Concerns duplicates: citadel.def, castle.def, capitol.def in subfolders .../adventureMap/town/:
+//
+// They are here to provide save-game support for the HotA 1.8.000 release!
+// Since HotA 1.8.000, new references to them will not be created so they are
+// safe to delete in the future when it's unlikely that users still continue playing
+// saves created prior to that era.
+//
+// relevant commit:
+// https://github.com/vcmi-mods/horn-of-the-abyss/commit/adaabf5968faba9c365026fe172a3e8714ca12cd
