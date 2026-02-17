@@ -1,12 +1,13 @@
 {
-//	"artifact.core.amuletOfTheUndertaker.description" : "{Амулет некроманта}\n\nЦей амулет, який носять на шиї, покращує ваше вміння некромантії на 3%.",
-//	"artifact.core.cloakOfTheUndeadKing.description" : "{Накидка Короля нежиті}\n\n15% вбитих на полі бою відроджуються у вигляді Скелетів. Якщо герой володіє навичкою \"Некромантія\", бонус від навички додається, а рівень навички визначає тип відроджених воїнів.\n1-й рівень: Зомбі\n2-й рівень: Примари\n3-й рівень:\nЛічи",
-//	"artifact.core.deadMansBoots.description" : "{Черевики мерця}\n\nЦі черевики, які носять на ногах, покращують ваше вміння некромантії на 7%.",
-//	"artifact.core.vampiresCowl.description" : "{Плащ вампіра}\n\nЦей плащ з каптуром, який носять на плечах, покращує ваше вміння некромантії на 5%.",
+	"artifact.core.amuletOfTheUndertaker.description" : "{Амулет некроманта}\n\nЦей амулет, який носять на шиї, покращує ваше вміння некромантії на 5%.",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Накидка Короля нежиті}\n\n15% вбитих на полі бою відроджуються у вигляді Скелетів. Якщо герой володіє навичкою \"Некромантія\", бонус від навички додається, а рівень навички визначає тип відроджених воїнів.\n1-й рівень: Зомбі\n2-й рівень: Примари\n3-й рівень:\nЛічи",
+	"artifact.core.deadMansBoots.description" : "{Черевики мерця}\n\nЦі черевики, які носять на ногах, покращують ваше вміння некромантії на 15%.",
+	"artifact.core.vampiresCowl.description" : "{Плащ вампіра}\n\nЦей плащ з каптуром, який носять на плечах, покращує ваше вміння некромантії на 10%.",
 
 	// these should be added for polishing
 	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
 	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
-	// add this in global hota translations:
+
+	// translate and add this in global hota translations:
 	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 }
