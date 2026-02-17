@@ -4,24 +4,21 @@
 		"handler" : "static",
 		"types" : {
 			"rope" : {
+				"base" : {
+					"mask" : [
+						"VB"
+					],
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"crates06" : {
-						"animation" : "hota/crates/crates06",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates06"
+
 					},
 					"crates07" : {
-						"animation" : "hota/crates/crates07",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates07"
 					}
 				}
 			}

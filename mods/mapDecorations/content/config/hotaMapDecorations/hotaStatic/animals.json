@@ -115,24 +115,20 @@
 						"hota/FROGS02"
 					]
 				},
+				"base" : {
+					"mask" : [
+						"VB"
+					],
+					"allowedTerrains" : [
+						"swamp"
+					]
+				},
 				"templates" : {
 					"frog_02" : {
-						"animation" : "hota/animals/frog_02",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/animals/frog_02"
 					},
 					"frog_03" : {
-						"animation" : "hota/animals/frog_03",
-						"mask" : [
-							"VB"
-						],
-						"allowedTerrains" : [
-							"swamp"
-						]
+						"animation" : "hota/animals/frog_03"
 					}
 				}
 			}

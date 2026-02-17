@@ -4,6 +4,11 @@
 		"handler" : "static",
 		"types" : {
 			"barchanDunes" : {
+				"base" : {
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"hotaAVLmtdn1" : {
 						"animation" : "hota/dunes/AVLmtdn1",
@@ -12,9 +17,6 @@
 							"VBBBBV",
 							"VBBBBB",
 							"VVVBBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"hotaAVLmtdn2" : {
@@ -24,9 +26,6 @@
 							"VVBBBB",
 							"VBBBBB",
 							"VBBBVV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"hotaAVLmtdn3" : {
@@ -35,9 +34,6 @@
 							"VVVV",
 							"VBBB",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"hotaAVLmtdn4" : {
@@ -46,9 +42,6 @@
 							"VVVV",
 							"VBBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"hotaAVLmtdn5" : {
@@ -56,9 +49,6 @@
 						"mask" : [
 							"VBBV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					},
 					"hotaAVLmtdn6" : {
@@ -66,9 +56,6 @@
 						"mask" : [
 							"VVBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"sand"
 						]
 					}
 				}

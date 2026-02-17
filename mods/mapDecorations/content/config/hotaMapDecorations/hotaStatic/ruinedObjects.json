@@ -4,45 +4,27 @@
 		"name" : "Burnt Structure",
 		"types" : {
 			"abandonedHouse" : {
+				"base" : {
+					"mask" : [
+						"VVV",
+						"VBB",
+						"VBB"
+					],
+					"allowedTerrains" : [
+						"dirt",
+						"lava",
+						"rough"
+					]
+				},
 				"templates" : {
 					"AVbhou01" : {
-						"animation" : "hota/ruinedObjects/AVbhou01",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"dirt",
-							"lava",
-							"rough"
-						]
+						"animation" : "hota/ruinedObjects/AVbhou01"
 					},
 					"AVbhou02" : {
-						"animation" : "hota/ruinedObjects/AVbhou02",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"dirt",
-							"lava",
-							"rough"
-						]
+						"animation" : "hota/ruinedObjects/AVbhou02"
 					},
 					"AVbhou03" : {
-						"animation" : "hota/ruinedObjects/AVbhou03",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"dirt",
-							"lava",
-							"rough"
-						]
+						"animation" : "hota/ruinedObjects/AVbhou03"
 					}
 				}
 			}
@@ -54,30 +36,27 @@
 		"name" : "Crumbled Fountain",
 		"types" : {
 			"abandonedFountains" : {
+				"base" : {
+					"mask" : [
+						"VVV",
+						"VBB",
+						"VBB"
+					],
+					"allowedTerrains" : [
+						"dirt",
+						"lava",
+						"rough"
+					]
+				},
 				"templates" : {
 					"TPDESTR2" : {
-						"animation" : "hota/ruinedObjects/TPDESTR2",
-						"mask" : [
-							"VVV",
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"dirt",
-							"lava",
-							"rough"
-						]
+						"animation" : "hota/ruinedObjects/TPDESTR2"
 					},
 					"TPDESTR4" : {
 						"animation" : "hota/ruinedObjects/TPDESTR4",
 						"mask" : [
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"dirt",
-							"lava",
-							"rough"
 						]
 					}
 				}

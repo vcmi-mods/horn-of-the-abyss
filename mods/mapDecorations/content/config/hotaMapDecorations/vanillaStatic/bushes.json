@@ -5,51 +5,35 @@
 		"handler" : "static",
 		"types" : {
 			"hotaBushes" : {
+				"base" : {
+					"mask" : [
+						"BB"
+					],
+					"allowedTerrains" : [
+						"dirt"
+					]
+				},
 				"templates" : {
 					"AVLs09s0" : {
 						"animation" : "AVLs09s0",
-						"mask" : [
-							"BB"
-						],
 						"allowedTerrains" : [
 							"swamp"
 						]
 					},
 
 					"AVLsh2d0" : {
-						"animation" : "AVLsh2d0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"dirt"
-						]
+						"animation" : "AVLsh2d0"
 					},
 					"AVLsh3d0" : {
-						"animation" : "AVLsh3d0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"dirt"
-						]
+						"animation" : "AVLsh3d0"
 					},
 					"AVLsh4d0" : {
-						"animation" : "AVLsh4d0",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"dirt"
-						]
+						"animation" : "AVLsh4d0"
 					},
 					"AVLsh5d0" : {
 						"animation" : "AVLsh5d0",
 						"mask" : [
 							"B"
-						],
-						"allowedTerrains" : [
-							"dirt"
 						]
 					},
 

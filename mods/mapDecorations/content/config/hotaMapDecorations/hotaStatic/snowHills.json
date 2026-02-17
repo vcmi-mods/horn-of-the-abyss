@@ -4,26 +4,21 @@
 		"handler" : "static",
 		"types" : {
 			"snowHills" : {
+				"base" : {
+					"mask" : [
+						"VBB",
+						"VBB"
+					],
+					"allowedTerrains" : [
+						"snow"
+					]
+				},
 				"templates" : {
 					"avlxsn01" : {
-						"animation" : "hota/trees/avlxsn01",
-						"mask" : [
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"animation" : "hota/trees/avlxsn01"
 					},
 					"avlxsn02" : {
-						"animation" : "hota/trees/avlxsn02",
-						"mask" : [
-							"VBB",
-							"VBB"
-						],
-						"allowedTerrains" : [
-							"snow"
-						]
+						"animation" : "hota/trees/avlxsn02"
 					},
 					"avlxsn03" : {
 						"animation" : "hota/trees/avlxsn03",
@@ -31,9 +26,6 @@
 							"VVV",
 							"VBB",
 							"VBB"
-						],
-						"allowedTerrains" : [
-							"snow"
 						]
 					}
 				}

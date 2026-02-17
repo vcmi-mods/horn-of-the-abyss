@@ -4,24 +4,20 @@
 		"handler" : "static",
 		"types" : {
 			"abandonedBoat" : {
+				"base" : {
+					"mask" : [
+						"BB"
+					],
+					"allowedTerrains" : [
+						"sand"
+					]
+				},
 				"templates" : {
 					"crates08" : {
-						"animation" : "hota/crates/crates08",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates08"
 					},
 					"crates09" : {
-						"animation" : "hota/crates/crates09",
-						"mask" : [
-							"BB"
-						],
-						"allowedTerrains" : [
-							"sand"
-						]
+						"animation" : "hota/crates/crates09"
 					}
 				}
 			}

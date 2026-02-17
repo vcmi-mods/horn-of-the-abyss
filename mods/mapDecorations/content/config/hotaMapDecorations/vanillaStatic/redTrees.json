@@ -4,102 +4,41 @@
 		"handler" : "static",
 		"types" : {
 			"hotaMaples" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VB"
+					],
+					"allowedTerrains" : [
+						"rough",
+						"grass",
+						"dirt"
+					]
+				},
 				"templates" : {
 					"AVLswt17" : {
-						"animation" : "hota/trees/AVLswt17",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt17"
 					},
 					"AVLswt20" : {
-						"animation" : "hota/trees/AVLswt20",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt20"
 					},
 					"AVLswt21" : {
-						"animation" : "hota/trees/AVLswt21",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt21"
 					},
 					"AVLswt22" : {
-						"animation" : "hota/trees/AVLswt22",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt22"
 					},
 					"AVLswt23" : {
-						"animation" : "hota/trees/AVLswt23",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt23"
 					},
 					"AVLswt24" : {
-						"animation" : "hota/trees/AVLswt24",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt24"
 					},
 					"AVLswt25" : {
-						"animation" : "hota/trees/AVLswt25",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt25"
 					},
 					"AVLswt26" : {
-						"animation" : "hota/trees/AVLswt26",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
-						]
+						"animation" : "hota/trees/AVLswt26"
 					},
 					"avrdtr01" : {
 						"animation" : "hota/trees/Avrdtr01",
@@ -108,11 +47,6 @@
 							"VVBB",
 							"VBBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					},
 					"avrdtr02" : {
@@ -122,11 +56,6 @@
 							"VBBV",
 							"VBBB",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					},
 					"avrdtr03" : {
@@ -135,11 +64,6 @@
 							"VVVV",
 							"VVBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					},
 					"avrdtr04" : {
@@ -148,11 +72,6 @@
 							"VVVV",
 							"VVBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					},
 					"avrdtr05" : {
@@ -161,11 +80,6 @@
 							"VVVV",
 							"VBBV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					},
 					"avrdtr06" : {
@@ -174,11 +88,6 @@
 							"VVVV",
 							"VBBV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"rough",
-							"grass",
-							"dirt"
 						]
 					}
 				}

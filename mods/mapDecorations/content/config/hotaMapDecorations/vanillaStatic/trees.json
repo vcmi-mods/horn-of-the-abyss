@@ -151,15 +151,17 @@
 		"name" : "Willow Trees",
 		"types" : {
 			"willowTrees" : {
+				"base" : {
+					"allowedTerrains" : [
+						"grass"
+					]
+				},
 				"templates" : {
 					"AVLwlw10" : {
 						"animation" : "AVLwlw10",
 						"mask" : [
 							"VVV",
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"grass"
 						]
 					},
 					"AVLwlw20" : {
@@ -167,9 +169,6 @@
 						"mask" : [
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"grass"
 						]
 					},
 					"AVLwlw30" : {
@@ -177,9 +176,6 @@
 						"mask" : [
 							"V",
 							"B"
-						],
-						"allowedTerrains" : [
-							"grass"
 						]
 					}
 				}
