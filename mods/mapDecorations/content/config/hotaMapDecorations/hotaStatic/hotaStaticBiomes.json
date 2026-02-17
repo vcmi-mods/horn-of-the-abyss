@@ -1,54 +1,4 @@
 {
-	"core:templateSet112" : {
-		// carnivorous plant into swamp foliage biome instead of it's own
-		"templates" : {
-			"append" : "avswplnt"
-		}
-	},
-	"abandonedBoat" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"crates08",
-			"crates09"
-		]
-	},
-	"sackRope" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"crates05",
-			"crates06",
-			"crates07",
-			"crates10"
-		]
-	},
-	"barrels" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"crates02",
-			"crates03"
-		]
-	},
-	"crates" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"crates01",
-			"crates11",
-			"crates12",
-			"crates13"
-		]
-	},
 	"chickensAndPig" : {
 		"biome" : {
 			"terrain" : [
@@ -152,17 +102,6 @@
 			"AVLpilr7"
 		]
 	},
-	//	"ruinedObjects" : {
-	//		"biome" : {
-	//			"terrain" : "dirt",
-	//			"objectType" : "structure"
-	//		},
-	//		"templates" : [
-	//			"TPDESTR2",
-	//			"TPDESTR3",
-	//			"TPDESTR4"
-	//		]
-	//	},
 	"core:sandYucca" : {
 		"templates" : {
 			"appendItems" : [
@@ -183,65 +122,19 @@
 			"avlxsn03"
 		]
 	},
-	"hotaStone" : {
+	"predatoryPlants" : {
 		"biome" : {
-			"terrain" : "subterra",
-			"objectType" : "rock"
+			"terrain" : "swamp",
+			"objectType" : "other"
 		},
 		"templates" : [
-			"udrock01",
-			"udrock02",
-			"udrock03",
-			"udrock04",
-			"udrock05",
-			"udrock06",
-			"udrock07",
-			"udrock08"
-		]
-	},
-	//	"abandonedHouse" : {
-	//		"biome" : {
-	//			"terrain" : "lava",
-	//			"level" : "surface",
-	//			"objectType" : "structure"
-	//		},
-	//		"templates" : [
-	//			"AVbhou01",
-	//			"AVbhou02",
-	//			"AVbhou03"
-	//		]
-	//	},
-	//	"abandonedWells" : {
-	//		"biome" : {
-	//			"terrain" : [
-	//				"dirt",
-	//				"rough"
-	//			],
-	//			"level" : "surface",
-	//			"objectType" : "structure"
-	//		},
-	//		"templates" : [
-	//			"avtcvrui",
-	//			"TPDESTR2",
-	//			"TPDESTR3",
-	//			"TPDESTR4"
-	//		]
-	//	},
-	"hotaSandColumns" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "structure"
-		},
-		"templates" : [
-			"AVLcoD01",
-			"AVLcoD02",
-			"AVLcoD03",
-			"AVLcoD04",
-			"AVLcoF01",
-			"AVLcoF02",
-			"AVLcoF03",
-			"AVLcoF04",
-			"AVLcoM06"
+			"TPMTREE1",
+			"TPMTREE2",
+			"TPMTREE3",
+			"TPMTREE4",
+			"TPMTREE5",
+			"TPMTREE6",
+			"avswplnt"
 		]
 	}
 }

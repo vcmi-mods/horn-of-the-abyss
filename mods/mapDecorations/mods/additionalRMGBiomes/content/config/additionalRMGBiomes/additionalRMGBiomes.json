@@ -1,0 +1,136 @@
+{
+	"abandonedHouse" : {
+		"biome" : {
+			"terrain" : "lava",
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"AVbhou01",
+			"AVbhou02",
+			"AVbhou03"
+		]
+	},
+	"abandonedWells" : {
+		"biome" : {
+			"terrain" : [
+				"dirt",
+				"rough"
+			],
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"avtcvrui",
+			"TPDESTR2",
+			"TPDESTR3",
+			"TPDESTR4"
+		]
+	},
+	"hotaStone" : {
+		"biome" : {
+			"terrain" : "subterra",
+			"objectType" : "rock"
+		},
+		"templates" : [
+			"udrock01",
+			"udrock02",
+			"udrock03",
+			"udrock04",
+			"udrock05",
+			"udrock06",
+			"udrock07",
+			"udrock08"
+		]
+	},
+	"hotaSandColumns" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "structure"
+		},
+		"templates" : [
+			"AVLcoD01",
+			"AVLcoD02",
+			"AVLcoD03",
+			"AVLcoD04",
+			"AVLcoF01",
+			"AVLcoF02",
+			"AVLcoF03",
+			"AVLcoF04",
+			"AVLcoM06"
+		]
+	},
+	"abandonedBoat" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"crates08",
+			"crates09"
+		]
+	},
+	"sackRope" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"crates05",
+			"crates06",
+			"crates07",
+			"crates10"
+		]
+	},
+	"barrels" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"crates02",
+			"crates03"
+		]
+	},
+	"crates" : {
+		"biome" : {
+			"terrain" : "sand",
+			"objectType" : "other"
+		},
+		"templates" : [
+			"crates01",
+			"crates11",
+			"crates12",
+			"crates13"
+		]
+	},
+	"redTrees" : {
+		"biome" : {
+			"terrain" : [
+				"dirt",
+				"rough",
+				"grass"
+			],
+			"objectType" : "tree"
+		},
+		"templates" : [
+			"AVLswt17",
+			"AVLswt20",
+			"AVLswt21",
+			"AVLswt22",
+			"AVLswt23",
+			"AVLswt24",
+			"AVLswt25",
+			"AVLswt26",
+			"avrdtr01",
+			"avrdtr02",
+			"avrdtr03",
+			"avrdtr04",
+			"avrdtr05",
+			"avrdtr06"
+		]
+	},
+	"core:templateSet139" : {
+		"biome" : {
+			"objectType" : "tree"
+		}
+	}
+}
