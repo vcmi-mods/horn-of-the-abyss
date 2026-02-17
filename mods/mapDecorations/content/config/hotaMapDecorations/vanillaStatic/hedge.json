@@ -4,23 +4,22 @@
 		"handler" : "static",
 		"types" : {
 			"hotaHedges" : {
+				"base" : {
+					"allowedTerrains" : [
+						"grass"
+					]
+				},
 				"templates" : {
 					"AVLsh1g0" : {
 						"animation" : "AVLsh1g0",
 						"mask" : [
 							"VBBB"
-						],
-						"allowedTerrains" : [
-							"grass"
 						]
 					},
 					"AVLsh2g0" : {
 						"animation" : "AVLsh2g0",
 						"mask" : [
 							"BBB"
-						],
-						"allowedTerrains" : [
-							"grass"
 						]
 					}
 				}

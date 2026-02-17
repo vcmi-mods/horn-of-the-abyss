@@ -7,7 +7,7 @@
 						"animation" : "hota/seerHut/AVXseec0",
 						"mask" : [
 							"VVV",
-							"VBV",
+							"VVV",
 							"VAV"
 						],
 						"visitableFrom" : [
@@ -41,7 +41,7 @@
 						"animation" : "hota/seerHut/wt_seerh",
 						"mask" : [
 							"VVV",
-							"BBB",
+							"VBV",
 							"BAB"
 						],
 						"visitableFrom" : [
