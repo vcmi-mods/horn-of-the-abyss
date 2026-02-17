@@ -211,10 +211,10 @@
 				},
 				"templates" : {
 					"AVLobD01" : {
-						"animation" : "hota/pillars/AVLobD01",
+						"animation" : "hota/pillars/AVLobD01"
 					},
 					"AVLobD02" : {
-						"animation" : "hota/pillars/AVLobD02",
+						"animation" : "hota/pillars/AVLobD02"
 					},
 					"AVLwaD01" : {
 						"animation" : "hota/pillars/AVLwaD01",
@@ -250,7 +250,7 @@
 						"animation" : "hota/pillars/AVLwaC02"
 					},
 					"AVLwaC03" : {
-						"animation" : "hota/pillars/AVLwaC03",
+						"animation" : "hota/pillars/AVLwaC03"
 					},
 					"AVLwaC04" : {
 						"animation" : "hota/pillars/AVLwaC04"
