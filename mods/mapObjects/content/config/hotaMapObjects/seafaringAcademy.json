@@ -9,11 +9,7 @@
 					"resource-skill"
 				],
 				"offer" : [
-					{
-						"anyOf" : [
-							"navigation"
-						]
-					},
+					"navigation",
 					{
 						"noneOf" : [
 							"necromancy"
