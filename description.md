@@ -4,7 +4,7 @@ Embark on an epic journey in **Horn of the Abyss**, a fan-made expansion for _He
 
 ## A True Tribute to Heroes of Might and Magic
 
-_Horn of the Abyss_ enhances the original game with a wealth of new features while preserving its legendary charm. Explore the new **Cove** and **Factory** factions, engage in challenging campaigns, and discover sparkling new artifacts and interesting map objects that enhance the game's strategic depth.
+_Horn of the Abyss_ enhances the original game with a wealth of new features while preserving its legendary charm. Explore the new **Cove**, **Factory** and **Bulwark** factions, engage in challenging campaigns, and discover sparkling new artifacts and interesting map objects that enhance the game's strategic depth.
 
 Painstakingly balanced and polished, _Horn of the Abyss_ has been crafted with an unwavering commitment to quality. With carefully refined mechanics and a host of improvements, this expansion is a must-play for both new players and seasoned veterans. This expansion includes the careful balance changes and fixes, removal of graphical imperfections left by the developers, and the addition of a considerable amount of new content. The project is lore-oriented and attempts to keep connected with the original Might and Magic universe, with changes made to honour the vision of the original game while greatly enhancing players' experience.
 
