@@ -30,7 +30,7 @@
 			"iconScroll" : "artifactsCampaignBonuses/fakehornScroll.png",
 			"iconScenarioBonus" : "artifactsCampaignBonuses/fakehornScene.png",
 			"iconImmune" : "artifactsCampaignBonuses/fakehornImmune.png",
-			"iconEffect" : "artifactsCampaignBonuses/fakehornEffect.png"
+			"iconEffect" : "artifactsCampaignBonuses/hornSpellEffect.png"
 		},
 		"targetCondition" : {
 			"noneOf" : {
