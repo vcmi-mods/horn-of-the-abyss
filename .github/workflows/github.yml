@@ -152,15 +152,30 @@ jobs:
           git tag -f "${GITHUB_REF_NAME}" "${GITHUB_SHA}"
           git push origin "${GITHUB_REF_NAME}" --force
 
-      - name: Upload release
+      - name: Strip vcmi- prefix for TAG
+        run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
+
+      - name: Upload Mod Release Package
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ github.ref_name }}
+          tag: ${{ env.RELEASE_TAG }}     # 1.7, 1.8 etc.
           name: ${{ github.ref_name }}
           body: |
             Automated build for branch `${{ github.ref_name }}`.
             Commit: `${{ github.sha }}`
           artifacts: dist/${{ github.event.repository.name }}-${{ github.ref_name }}.zip
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: false
+          commit: ${{ github.sha }}
+
+      # Upload mod.json after Release Package is uploaded to correctly notify end users
+      - name: Upload mod.json
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.RELEASE_TAG }}     # 1.7, 1.8 etc.
+          name: ${{ github.ref_name }}
+          artifacts: mod.json
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: false
