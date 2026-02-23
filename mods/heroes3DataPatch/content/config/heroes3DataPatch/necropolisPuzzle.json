@@ -1,0 +1,14 @@
+{
+	"core:necropolis" : {
+		"puzzleMap" : {
+			"pieces" : {
+				"modify@11" : {
+					"y" : 270
+				},
+				"modify@12" : {
+					"x" : 70
+				}
+			}
+		}
+	}
+}
