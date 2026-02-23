@@ -99,12 +99,12 @@
 		},
 		"sound" : {
 			// TODO: GAP? - SHAMSPEC
-			"attack" : "hota/bulwark/creatures/greatShaman/SHAMATTK.wav",
-			"defend" : "hota/bulwark/creatures/greatShaman/SHAMDFND.wav",
-			"killed" : "hota/bulwark/creatures/greatShaman/SHAMKILL.wav",
-			"move" : "hota/bulwark/creatures/greatShaman/SHAMMOVE.wav",
-			"shoot" : "hota/bulwark/creatures/greatShaman/SHAMSHOT.wav",
-			"wince" : "hota/bulwark/creatures/greatShaman/SHAMWNCE.wav"
+			"attack" : "hota/bulwark/creatures/shaman/SHAMATTK.wav",
+			"defend" : "hota/bulwark/creatures/shaman/SHAMDFND.wav",
+			"killed" : "hota/bulwark/creatures/shaman/SHAMKILL.wav",
+			"move" : "hota/bulwark/creatures/shaman/SHAMMOVE.wav",
+			"shoot" : "hota/bulwark/creatures/shaman/SHAMSHOT.wav",
+			"wince" : "hota/bulwark/creatures/shaman/SHAMWNCE.wav"
 		}
 	}
 }

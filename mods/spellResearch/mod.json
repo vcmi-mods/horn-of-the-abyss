@@ -8,6 +8,9 @@
 	"compatibility" : {
 		"min" : "1.7.2"
 	},
+	"softDepends" : [
+		"vcmi"
+	],
 	"settings" : {
 		"towns" : {
 			"spellResearch" : true,

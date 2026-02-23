@@ -7,7 +7,7 @@
 			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon",
-				"icon" : "bonuses/turnintobonedragon.png"
+				"icon" : "hota/bonuses/turnintobonedragon.png"
 			}
 		}
 	}

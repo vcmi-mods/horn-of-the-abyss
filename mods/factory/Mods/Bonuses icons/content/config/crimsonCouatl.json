@@ -5,7 +5,7 @@
 				"icon" : "bonuses/meditation_crimson.png"
 			},
 			"dragonSkeleton" : {
-				"icon" : "bonuses/turnintobonedragon.png"
+				"icon" : "hota/bonuses/turnintobonedragon.png"
 			}
 		}
 	}
