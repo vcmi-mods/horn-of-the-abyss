@@ -1,6 +1,9 @@
 {
 	"core:creatureGeneratorCommon" : {
 		"types" : {
+			"thatchedHut" : {
+				"bannedForRandomDwelling" : true
+			},
 			"factoryLevel1" : {
 				"name" : "Halfling Adobe",
 				"creatures" : [

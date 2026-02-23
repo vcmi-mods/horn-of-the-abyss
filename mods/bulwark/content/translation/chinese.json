@@ -1,5 +1,6 @@
 {
 	"core.bonus.RUNE_LEVEL_COUNTER.description" : "如果这条信息被展示，那么应该是RUNE_LEVEL_COUNTER的bug。",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0" : "该单位在战斗中会获得符文等级。",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.1" : "等级1符文加成：\n+2攻击",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.2" : "等级2符文加成：\n+2攻击\n+2防御",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.3" : "等级3符文加成：\n+2攻击\n+2防御\n+1速度",
@@ -10,6 +11,7 @@
 	"core.bonus.RUNE_LEVEL_COUNTER.description.8" : "等级8符文加成：\n+6攻击\n+6防御\n+2速度",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.9" : "等级9符文加成：\n+6攻击\n+6防御\n+3速度",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description" : "如果这条信息被展示，那么应该是YETI_RUNE_LEVEL_COUNTERR的bug。",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0" : "雪人符文师在战斗中会获得符文等级。",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1" : "等级1符文加成：\n+2攻击",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2" : "等级2符文加成：\n+2攻击\n+2防御",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3" : "等级3符文加成：\n+2攻击\n+2防御\n+1速度",
