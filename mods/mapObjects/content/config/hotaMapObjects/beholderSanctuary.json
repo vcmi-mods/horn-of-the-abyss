@@ -23,7 +23,7 @@
 				},
 				"sounds" : {
 					"ambient" : [
-						"hota/LOOPBEHD.wav"
+						"hota/dwellings/LOOPBEHD.wav"
 					]
 				},
 				"variables" : {
