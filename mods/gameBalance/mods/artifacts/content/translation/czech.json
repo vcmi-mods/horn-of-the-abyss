@@ -1,7 +1,15 @@
 {
-	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet hrobníka}\n\nPo umístění amuletu na krk se zvýší tvá druhotná schopnost nekromancie o 3%.",
-	"artifact.core.angelicAlliance.description" : "{Andělská aliance}\n\nDovoluje kombinovat armádu z jednotek hradů typu Hrad, Bašta, Věž, Pevnost, Tvrz, Soutok, Zátoka a Továrna bez ztráty morálky. Na začátku boje dostávají pak všechny oddíly kouzlo modlitba na expertní úrovni. Pokud má hrdina v armádě jakoukoli zlou jednotku, morálka se sníží o 1.",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{Plášť nemrtvého krále}\n\nOživuje 15% padlých nepřátelských bojovníků jako kostlivce. Pokud má hrdina druhotnou schopnost nekromancie, pak se procenta přidávají k už dosažené úrovni. Úroveň schopnosti nekromancie určuje, jaký typ bojovníků bude oživen. Základní: Zombie\nLepší: Duchové \nExpertní: Lichové",
-	"artifact.core.deadMansBoots.description" : "{Boty mrtvého muže}\n\nPokud si nasadíš na nohy tyto boty, zvýší se tvá druhotná schopnost nekromancie o 7%.",
-	"artifact.core.vampiresCowl.description" : "{Upíří kutna}\n\nS touto kutnou přes ramena vzroste tvá druhotná schopnost nekromancie o 5%."
+	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet hrobníka}\n\nPo umístění amuletu na krk se zvýší tvá druhotná schopnost nekromancie o 5%.",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Plášť nemrtvého krále}\n\nOživuje 30% padlých nepřátelských bojovníků jako kostlivce. Pokud má hrdina druhotnou schopnost nekromancie, pak se procenta přidávají k už dosažené úrovni. Úroveň schopnosti nekromancie určuje, jaký typ bojovníků bude oživen. Základní: Zombie\nLepší: Duchové \nExpertní: Lichové",
+	"artifact.core.deadMansBoots.description" : "{Boty mrtvého muže}\n\nPokud si nasadíš na nohy tyto boty, zvýší se tvá druhotná schopnost nekromancie o 15%.",
+	"artifact.core.vampiresCowl.description" : "{Upíří kutna}\n\nS touto kutnou přes ramena vzroste tvá druhotná schopnost nekromancie o 10%.",
+
+	// these should be added for polishing
+	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
+	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
+
+	// this should be updated and moved to global
+	"artifact.core.angelicAlliance.description" : "{Andělská aliance}\n\nDovoluje kombinovat armádu z jednotek hradů typu Hrad, Bašta, Věž, Pevnost, Tvrz, Soutok, Zátoka a Továrna bez ztráty morálky. Na začátku boje dostávají pak všechny oddíly kouzlo modlitba na expertní úrovni. Pokud má hrdina v armádě jakoukoli zlou jednotku, morálka se sníží o 1."
+	// original:
+	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 }

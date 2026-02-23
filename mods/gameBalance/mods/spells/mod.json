@@ -21,5 +21,13 @@
 	"czech" : {
 		"name" : "Kouzla",
 		"description" : ""
+	},
+	"english" : {
+		// Part of the english string polishing! Is not required to be translated!
+		"name" : "Spells",
+		"description" : "This mod implements the balance changes to spells made by Horn of the Abyss",
+		"translations" : [
+			"translation/english.json"
+		]
 	}
 }

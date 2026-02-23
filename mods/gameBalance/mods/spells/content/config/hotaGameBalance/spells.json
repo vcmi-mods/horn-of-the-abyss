@@ -107,47 +107,23 @@
 
 	"core:slow" : {
 		"levels" : {
-			"base#override" : {
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
+			"advanced" : {
 				"effects" : {
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : -25,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-
 					"hotaNerf" : {
 						"type" : "STACKS_SPEED",
 						"valueType" : "ADDITIVE_VALUE",
-						"val" : 0,
+						"val" : 2,
 						"duration" : "N_TURNS"
 					}
 				}
 			},
-
-			"advanced" : {
-				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					},
-					"hotaNerf" : {
-						"val" : 2
-					}
-				}
-			},
-
 			"expert" : {
-				"range" : "X",
 				"effects" : {
-					"stacksSpeed" : {
-						"val" : -50
-					},
 					"hotaNerf" : {
-						"val" : 2
+						"type" : "STACKS_SPEED",
+						"valueType" : "ADDITIVE_VALUE",
+						"val" : 2,
+						"duration" : "N_TURNS"
 					}
 				}
 			}
@@ -239,9 +215,23 @@
 	"core:fireWallTrigger" : {
 		"power" : 15
 	},
+	// necessary for the damage tooltip, not for the damage itself
+	"core:fireWall" : {
+		"power" : 15
+	},
 	"core:forgetfulness" : {
 		"levels" : {
-			"base" : {
+			"advanced" : {
+				"effects" : {
+					"meleeAttackDamageReduction" : {
+						"type" : "PERCENTAGE_DAMAGE_BOOST",
+						"subtype" : "damageTypeMelee",
+						"duration" : "N_TURNS",
+						"val" : -50
+					}
+				}
+			},
+			"expert" : {
 				"effects" : {
 					"meleeAttackDamageReduction" : {
 						"type" : "PERCENTAGE_DAMAGE_BOOST",

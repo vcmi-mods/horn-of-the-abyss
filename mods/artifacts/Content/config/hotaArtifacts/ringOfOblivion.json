@@ -44,7 +44,7 @@
 		},
 		"text" : {
 			"name" : "Ring of Oblivion",
-			"description" : "{Ring of Oblivion}\r\n\r\nWhen worn, makes all losses in the battle irrevocable.",
+			"description" : "{Ring of Oblivion}\n\nWorn on a finger, this item makes all losses in the battle irrevocable:  lost creatures in a unit cannot be restored by any means, and corpses disappear right after the unit's death.",
 			"event" : "You stand on a field, where a large battle was fought not so long ago. You are troubled by the complete absence of corpses. Amongst the broken swords and armors you discover a ring."
 		}
 	}
