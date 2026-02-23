@@ -12,5 +12,4 @@
 	"artifact.core.angelicAlliance.description" : "{Engelische Allianz}\n\nErmöglicht es Kreaturen von Burg, Wall, Turm, Festung, Bollwerk, Konflux, Bucht und Fabrik Horn der Abyss ohne Moralstrafe zu mischen. Wirkt zu Beginn des Kampfes 10 Runden lang Expertengebet. Wenn eine böse Einheit in Eurer Heldenarmee ist, wird die Moral um 1 verringert."
 	// original string:
 	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
-
 }
