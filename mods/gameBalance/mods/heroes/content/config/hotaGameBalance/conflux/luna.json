@@ -4,6 +4,9 @@
 			"bonuses" : {
 				"fireWall" : {
 					"val" : 25
+				},
+				"fireWallTooltip" : {
+					"val" : 25
 				}
 			}
 		},
