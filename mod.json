@@ -8,8 +8,17 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.001",
+	"version" : "1.8.002",
 	"changelog" : {
+		"1.8.002" : [
+			"Fixed crashes in Factory campaign",
+			"Added Turkish translation (by Erthon)",
+			"Fixed Tark and Bidley portraits and Horn of the Abyss spell icon (by Aph-Ra)",
+			"Updated descriptions of spells, artifacts and map objects",
+			"Moved biomes with map-editor-only decorations to their own submod",
+			"Fixed Necropolis puzzle",
+			"Various smaller fixes"
+		],
 		"1.8.001" : [
 			"Fixed loading of saves made with 1.7 versions of the mod"
 		],
@@ -647,7 +656,6 @@
 	"english" : {
 		// ENGLISH text polishing, not needed for other translations!
 		"name" : "Horn of the Abyss",
-		"description" : "English text polishing of spells, objects and artifacts.",
 		"translations" : [
 			"config/translation/hota/english/artifactDescriptions.json",
 			"config/translation/hota/english/objectDescriptions.json",
