@@ -139,7 +139,7 @@
 	"building.hota.bulwark.bulwark.mageGuild4.name" : "Věž kouzel 4. stupeň",
 	"building.hota.bulwark.bulwark.marketplace.description" : "V tržnici můžeš kupovat a prodávat suroviny (směnný kurz se zlepšuje s vlastnictvím každé další tržnice).",
 	"building.hota.bulwark.bulwark.marketplace.name" : "Tržnice",
-	"building.hota.bulwark.bulwark.resourceSilo.description" : "Silo surovin ti poskytuje další 1 dřevo a 1 rudu denně.",
+	"building.hota.bulwark.bulwark.resourceSilo.description" : "Silo surovin ti poskytuje další +1 dřevo a +1 rudu denně.",
 	"building.hota.bulwark.bulwark.resourceSilo.name" : "Skladiště surovin",
 	"building.hota.bulwark.bulwark.ship.description" : "V přístavu můžeš koupit loď.",
 	"building.hota.bulwark.bulwark.ship.name" : "Přístav",
