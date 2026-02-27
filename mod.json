@@ -646,6 +646,7 @@
 	},
 	"english" : {
 		// ENGLISH text polishing, not needed for other translations!
+		"name" : "Horn of the Abyss",
 		"translations" : [
 			"config/translation/hota/english/artifactDescriptions.json",
 			"config/translation/hota/english/objectDescriptions.json"
