@@ -53,13 +53,5 @@
 		"translations" : [
 			"translation/ukrainian.json"
 		]
-	},
-	"english" : {
-		// Part of the english string polishing! Is not required to be translated!
-		"name" : "Artifacts",
-		"description" : "This mod implements the artifact balance changes done in Horn of the Abyss",
-		"translations" : [
-			"translation/english.json"
-		]
 	}
 }
