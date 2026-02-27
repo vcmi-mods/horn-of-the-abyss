@@ -22,7 +22,7 @@
 				"rewards" : [
 					{
 						"spellCast" : {
-							"spell" : "townPortal",
+							"spell" : "townGateHelper",
 							"schoolLevel" : 3
 						}
 					}

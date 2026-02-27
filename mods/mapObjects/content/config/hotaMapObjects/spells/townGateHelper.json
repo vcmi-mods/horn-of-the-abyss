@@ -1,0 +1,56 @@
+{
+	"townGateHelper" : {
+		"name" : "Town Gate Helper",
+		"type" : "adventure",
+		"flags" : {
+			"special" : true,
+			"indifferent" : true
+		},
+		"gainChance" : {
+		},
+		"defaultGainChance" : 0,
+		"power" : 0,
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"sounds" : {
+			"cast" : "TELPTOUT"
+		},
+		"graphics":
+		{
+			"iconImmune": "hota/townGate/spell/scrollTownGate",
+			"iconScenarioBonus": "hota/townGate/spell/scrollTownGate",
+			"iconEffect": "hota/townGate/spell/scrollTownGate",
+			"iconBook": "hota/townGate/spell/scrollTownGate",
+			"iconScroll": "hota/townGate/spell/scrollTownGate"
+		},
+		"targetType" : "NO_TARGET",
+		"level" : 4,
+		"levels" : {
+			"base" : {
+				"adventureEffect" : {
+					"type" : "townPortal",
+					"allowTownSelection" : true,
+					"movementPointsRequired" : 0,
+					"movementPointsTaken" : 0,
+					"skipOccupiedTowns" : false
+				},
+				"cost" : 0,
+				"description" : "Description not shown",
+				"power" : 0,
+				"range" : "X"
+			},
+			"none" : {
+			},
+			"basic" : {
+			},
+			"advanced" : {
+			},
+			"expert" : {
+			}
+		}
+	}
+}
