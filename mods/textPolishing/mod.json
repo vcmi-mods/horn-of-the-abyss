@@ -27,5 +27,5 @@
 		]
 	},
 	"description" : "Changes the ingame description of spells, map objects and artifacts to the ones used in HotA.",
-	"keepDisabled": true
+	"keepDisabled" : true
 }
