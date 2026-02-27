@@ -106,7 +106,7 @@
 				],
 				"sounds" : {
 					"ambient" : [
-						"hota/bulwark/dwellings/shamanFane.wav"
+						"hota/dwellings/LOOPSORC.wav"
 					]
 				},
 				"guards" : true,

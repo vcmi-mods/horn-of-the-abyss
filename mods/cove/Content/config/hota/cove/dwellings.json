@@ -106,7 +106,7 @@
 				],
 				"sounds" : {
 					"ambient" : [
-						"hota/cove/dwellings/LOOPSORC.wav"
+						"hota/dwellings/LOOPSORC.wav"
 					]
 				},
 				"guards" : true,

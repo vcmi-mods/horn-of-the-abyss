@@ -78,11 +78,11 @@
 		},
 		"sound" : {
 			// TODO: GAP? - using mountain ram sounds for now
-			"attack" : "hota/bulwark/creatures/argali/MRAMATTK.wav",
-			"defend" : "hota/bulwark/creatures/argali/MRAMDFND.wav",
-			"killed" : "hota/bulwark/creatures/argali/MRAMKILL.wav",
-			"move" : "hota/bulwark/creatures/argali/MRAMMOVE.wav",
-			"wince" : "hota/bulwark/creatures/argali/MRAMWNCE.wav"
+			"attack" : "hota/bulwark/creatures/mountainRam/MRAMATTK.wav",
+			"defend" : "hota/bulwark/creatures/mountainRam/MRAMDFND.wav",
+			"killed" : "hota/bulwark/creatures/mountainRam/MRAMKILL.wav",
+			"move" : "hota/bulwark/creatures/mountainRam/MRAMMOVE.wav",
+			"wince" : "hota/bulwark/creatures/mountainRam/MRAMWNCE.wav"
 		}
 	}
 }
