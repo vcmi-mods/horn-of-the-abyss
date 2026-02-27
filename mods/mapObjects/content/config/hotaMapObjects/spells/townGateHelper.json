@@ -6,8 +6,7 @@
 			"special" : true,
 			"indifferent" : true
 		},
-		"gainChance" : {
-		},
+		"gainChance" : {},
 		"defaultGainChance" : 0,
 		"power" : 0,
 		"school" : {
@@ -19,13 +18,12 @@
 		"sounds" : {
 			"cast" : "TELPTOUT"
 		},
-		"graphics":
-		{
-			"iconImmune": "hota/townGate/spell/scrollTownGate",
-			"iconScenarioBonus": "hota/townGate/spell/scrollTownGate",
-			"iconEffect": "hota/townGate/spell/scrollTownGate",
-			"iconBook": "hota/townGate/spell/scrollTownGate",
-			"iconScroll": "hota/townGate/spell/scrollTownGate"
+		"graphics" : {
+			"iconImmune" : "hota/townGate/spell/scrollTownGate",
+			"iconScenarioBonus" : "hota/townGate/spell/scrollTownGate",
+			"iconEffect" : "hota/townGate/spell/scrollTownGate",
+			"iconBook" : "hota/townGate/spell/scrollTownGate",
+			"iconScroll" : "hota/townGate/spell/scrollTownGate"
 		},
 		"targetType" : "NO_TARGET",
 		"level" : 4,
@@ -43,14 +41,10 @@
 				"power" : 0,
 				"range" : "X"
 			},
-			"none" : {
-			},
-			"basic" : {
-			},
-			"advanced" : {
-			},
-			"expert" : {
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }
