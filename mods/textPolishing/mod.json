@@ -1,0 +1,31 @@
+{
+	"name" : "Text Polishing",
+	"modType" : "Other",
+	"author" : "Karyoplasma. Game texts by HotA Crew.",
+	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss",
+	"compatibility" : {
+		"min" : "1.7.2"
+	},
+	"depends" : [
+		"hota.gamebalance.spells",
+		"hota.gamebalance.artifacts"
+	],
+	"version" : "1.0.0",
+	"changelog" : {
+		"1.0.0" : [
+			"Initial release",
+			"Added English HotA texts"
+		]
+	},
+	"english" : {
+		"name" : "English Text Polishing",
+		"description" : "Changes the English ingame description of spells, map objects and artifacts to the ones used in HotA.",
+		"translations" : [
+			"config/englishTextPolishing/artifactDescriptions.json",
+			"config/englishTextPolishing/objectDescriptions.json",
+			"config/englishTextPolishing/spellDescriptions.json"
+		]
+	},
+	"description" : "Changes the ingame description of spells, map objects and artifacts to the ones used in HotA.",
+	"keepDisabled" : true
+}

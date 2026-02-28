@@ -97,6 +97,9 @@
 		"config/hotaMapObjects/templeOfLoyalty",
 		"config/hotaMapObjects/townGate"
 	],
+	"spells" : [
+		"config/hotaMapObjects/spells/townGateHelper.json"
+	],
 	"settings" : {
 		"combat" : {
 			"layouts" : {
