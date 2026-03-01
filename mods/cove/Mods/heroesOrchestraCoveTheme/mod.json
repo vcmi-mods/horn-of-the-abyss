@@ -5,6 +5,7 @@
 	"author" : "Heroes Orchestra",
 	"contact" : "",
 	"version" : "1.0",
+	"keepDisabled" : true,
 	"depends" : [
 		"hota.cove"
 	],
