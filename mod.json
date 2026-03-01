@@ -6,10 +6,19 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"compatibility" : {
-		"min" : "1.7.2"
+		"min" : "1.7.3"
 	},
-	"version" : "1.8.001",
+	"version" : "1.8.002",
 	"changelog" : {
+		"1.8.002" : [
+			"Fixed crashes in Factory campaign",
+			"Added Turkish translation (by Erthon)",
+			"Fixed Tark and Bidley portraits and Horn of the Abyss spell icon (by Aph-Ra)",
+			"Added submod with updated descriptions of spells, artifacts and map objects",
+			"Moved biomes with map-editor-only decorations to their own submod",
+			"Fixed Necropolis puzzle",
+			"Various smaller fixes"
+		],
 		"1.8.001" : [
 			"Fixed loading of saves made with 1.7 versions of the mod"
 		],
