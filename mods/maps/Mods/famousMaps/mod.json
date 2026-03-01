@@ -5,6 +5,7 @@
 	"modType" : "Maps",
 	"author" : "Tadanga, Qrazy, M.A.S., kogeT, Picquendar, PmUeT, Nebel 74, wsezare, François Papyjama",
 	"contact" : "",
+	"keepDisabled" : true,
 	"changelog" : {
 		"1.0.1" : [
 			"Updated Mysterious Island to v1.5.c"
