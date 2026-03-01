@@ -9,7 +9,7 @@
 					"campaignBonus" : "hota/campaignBonuses/BoEHRD3.png",
 					"x" : 685,
 					"y" : 105,
-					"z" : 1
+					"z" : 3
 				},
 				"hordePhoenixUpgr" : {
 					"animation" : "hota/TBELHrd4.def",
@@ -18,7 +18,7 @@
 					"campaignBonus" : "hota/campaignBonuses/BoEHRD4.png",
 					"x" : 685,
 					"y" : 105,
-					"z" : 1
+					"z" : 3
 				}
 			},
 			"horde" : [
