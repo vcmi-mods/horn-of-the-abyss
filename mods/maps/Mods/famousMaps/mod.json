@@ -1,12 +1,15 @@
 {
 	"name" : "Famous community maps",
 	"description" : "Famous community maps collection - Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King and Mysterious Island",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"modType" : "Maps",
 	"author" : "Tadanga, Qrazy, M.A.S., kogeT, Picquendar, PmUeT, Nebel 74, wsezare, François Papyjama",
 	"contact" : "",
 	"keepDisabled" : true,
 	"changelog" : {
+		"1.0.2" : [
+			"Updated Mysterious Island to v1.5.d"
+		],
 		"1.0.1" : [
 			"Updated Mysterious Island to v1.5.c"
 		],
