@@ -46,7 +46,8 @@
 					"border" : "hota/cove/town/border/TBCVCSTL",
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvcstl",
 					"x" : 438,
-					"y" : 109
+					"y" : 109,
+					"z" : 2
 				},
 				"citadel" : {
 					"animation" : "hota/cove/town/buildings/TBCVCAS2",
@@ -54,7 +55,8 @@
 					"border" : "hota/cove/town/border/TBCVCAS2",
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvcas2",
 					"x" : 438,
-					"y" : 109
+					"y" : 109,
+					"z" : 2
 				},
 				"castle" : {
 					"animation" : "hota/cove/town/buildings/TBCVCAS3",
@@ -134,7 +136,8 @@
 					"border" : "hota/cove/town/border/TBCVGROT",
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvgrot",
 					"x" : 236,
-					"y" : 147
+					"y" : 147,
+					"z" : -1
 				},
 				"horde1" : {
 					"animation" : "hota/cove/town/buildings/TBCVSA1P",
@@ -187,7 +190,7 @@
 					"animation" : "hota/cove/town/buildings/TBCVWHTR",
 					"x" : 0,
 					"y" : 211,
-					"z" : -1
+					"z" : -2
 				},
 
 				"mageGuild1" : {
@@ -251,7 +254,7 @@
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPIR1",
 					"x" : 588,
 					"y" : 191,
-					"z" : 2
+					"z" : 3
 				},
 				"dwellingLvl4" : {
 					"animation" : "hota/cove/town/buildings/TBCVASS1",
@@ -312,7 +315,7 @@
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPIR2",
 					"x" : 588,
 					"y" : 64,
-					"z" : 2
+					"z" : 3
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "hota/cove/town/buildings/TBCVASS2",
@@ -356,7 +359,7 @@
 					"campaignBonus" : "hota/cove/town/icons/campaignBonuses/BoCvPGR3",
 					"x" : 588,
 					"y" : 64,
-					"z" : 2
+					"z" : 3
 				}
 			}
 		}

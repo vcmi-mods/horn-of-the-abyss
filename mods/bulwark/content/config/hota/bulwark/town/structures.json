@@ -92,7 +92,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/marketplace",
 					"x" : 397,
 					"y" : 249,
-					"z" : 0
+					"z" : -1
 				},
 				"resourceSilo" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuSilo",
@@ -129,7 +129,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special1",
 					"x" : 464,
 					"y" : 281,
-					"z" : 1
+					"z" : 2
 				},
 				"special2" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuSpc1",
@@ -138,7 +138,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special2",
 					"x" : 489,
 					"y" : 170,
-					"z" : 1
+					"z" : 2
 				},
 				"special3" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuS201",
@@ -147,7 +147,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/special3",
 					"x" : 489,
 					"y" : 140,
-					"z" : 1
+					"z" : 2
 				},
 				"horde1" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuH101",
@@ -193,7 +193,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild1",
 					"x" : 558,
 					"y" : 112,
-					"z" : 1
+					"z" : 3
 				},
 				"mageGuild2" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuM201",
@@ -202,7 +202,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild2",
 					"x" : 558,
 					"y" : 81,
-					"z" : 1
+					"z" : 3
 				},
 				"mageGuild3" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuM301",
@@ -211,7 +211,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild3",
 					"x" : 558,
 					"y" : 55,
-					"z" : 1
+					"z" : 3
 				},
 				"mageGuild4" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuM401",
@@ -220,7 +220,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/mageGuild4",
 					"x" : 558,
 					"y" : 33,
-					"z" : 1
+					"z" : 3
 				},
 
 				"dwellingLvl1" : {
@@ -230,7 +230,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl1",
 					"x" : 0,
 					"y" : 140,
-					"z" : 1
+					"z" : 2
 				},
 				"dwellingLvl2" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuDw_1",
@@ -266,7 +266,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl5",
 					"x" : 447,
 					"y" : 167,
-					"z" : 0
+					"z" : 1
 				},
 				"dwellingLvl6" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuD501",
@@ -284,7 +284,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingLvl7",
 					"x" : 380,
 					"y" : 35,
-					"z" : 0
+					"z" : 1
 				},
 
 				"dwellingUpLvl1" : {
@@ -294,7 +294,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl1",
 					"x" : 0,
 					"y" : 94,
-					"z" : 1
+					"z" : 2
 				},
 				"dwellingUpLvl2" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuU101",
@@ -330,7 +330,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl5",
 					"x" : 444,
 					"y" : 163,
-					"z" : 0
+					"z" : 1
 				},
 				"dwellingUpLvl6" : {
 					"animation" : "hota/bulwark/town/buildings/TBBuU501",
@@ -348,7 +348,7 @@
 					"campaignBonus" : "hota/bulwark/town/icons/campaignBonuses/dwellingUpLvl7",
 					"x" : 380,
 					"y" : 13,
-					"z" : 0
+					"z" : 1
 				}
 			}
 		}

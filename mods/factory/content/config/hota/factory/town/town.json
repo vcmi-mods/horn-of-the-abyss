@@ -759,7 +759,7 @@
 					"animation" : "hota/factory/town/buildings/TBFaExt1",
 					"x" : 245,
 					"y" : 201,
-					"z" : -1
+					"z" : -2
 				},
 				"decorationHouse" : {
 					"animation" : "hota/factory/town/buildings/TBFaExt2",
@@ -911,7 +911,8 @@
 					"border" : "hota/factory/town-screen/buildings-border/TOFaBLAK",
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCsmth",
 					"x" : 347,
-					"y" : 189
+					"y" : 189,
+					"z" : 1
 				},
 				"horde1" : {
 					"animation" : "hota/factory/town/buildings/TBFaHRD1",
@@ -920,7 +921,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn1H",
 					"x" : 187,
 					"y" : 162,
-					"z" : -2,
+					"z" : -3,
 					"hidden" : true
 				},
 				"horde1Upgr" : {
@@ -930,7 +931,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCrn2H",
 					"x" : 187,
 					"y" : 95,
-					"z" : -2,
+					"z" : -3,
 					"hidden" : true
 				},
 				"special1" : {
@@ -991,7 +992,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran1",
 					"x" : 187,
 					"y" : 174,
-					"z" : -2
+					"z" : -3
 				},
 				"dwellingLvl4" : {
 					"animation" : "hota/factory/town/buildings/TBFadw_3",
@@ -1000,7 +1001,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman1",
 					"x" : 516,
 					"y" : 211,
-					"z" : 1
+					"z" : 3
 				},
 				"dwellingLvl5" : {
 					"animation" : "hota/factory/town/buildings/TBFadw_4",
@@ -1032,7 +1033,8 @@
 					"border" : "hota/factory/town-screen/buildings-border/TOFadw_7",
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
 					"x" : 427,
-					"y" : 181
+					"y" : 181,
+					"z" : 2
 				},
 				"dwellingUpLvl1" : {
 					"animation" : "hota/factory/town/buildings/TBFaup_0",
@@ -1057,7 +1059,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCran2",
 					"x" : 187,
 					"y" : 95,
-					"z" : -2
+					"z" : -3
 				},
 				"dwellingUpLvl4" : {
 					"animation" : "hota/factory/town/buildings/TBFaup_3",
@@ -1066,7 +1068,7 @@
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCman2",
 					"x" : 516,
 					"y" : 211,
-					"z" : 1
+					"z" : 3
 				},
 				"dwellingUpLvl5" : {
 					"animation" : "hota/factory/town/buildings/TBFaup_4",
@@ -1098,7 +1100,8 @@
 					"border" : "hota/factory/town-screen/buildings-border/TOFaup_7",
 					"campaignBonus" : "hota/factory/town/icons/campaignBonuses/BOFCgnt1",
 					"x" : 427,
-					"y" : 162
+					"y" : 162,
+					"z" : 2
 				}
 			},
 			"tavernVideo" : "TAVERN.BIK",

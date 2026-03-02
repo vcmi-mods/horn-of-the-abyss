@@ -37,7 +37,7 @@
 				"special3" : {
 					"x" : 208,
 					"y" : 143,
-					"z" : -2
+					"z" : -3
 				},
 				"dwellingUpLvl4" : {
 					"x" : 414,
@@ -74,6 +74,12 @@
 				"extraCityHall" : {
 					"x" : 486,
 					"y" : 203
+				},
+				"dwellingLvl6" : {
+					"z" : 10
+				},
+				"dwellingUpLvl6" : {
+					"z" : 10
 				},
 				"dwellingUpLvl7" : {
 					"x" : 43
