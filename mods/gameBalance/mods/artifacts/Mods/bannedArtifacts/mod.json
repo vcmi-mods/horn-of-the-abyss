@@ -12,6 +12,10 @@
 	"artifacts" : [
 		"config/hotaGameBalance/artifactsDefaultBanned.json"
 	],
+	"chinese" : {
+		"name" : "禁用宝物",
+		"description" : "禁用以下宝物：禁魔披风、禁魔球、抗魔链、抗魔靴、抗魔披风、安眠塑像和深渊号角。"
+	},
 	"czech" : {
 		"name" : "Zakázané artefakty",
 		"description" : "Zakáže tyto artefakty - Plášť odvolání, Blokující koule, Ozdoba odolnosti, Boty odolnosti, Kabát odolnosti a Roh propasti"

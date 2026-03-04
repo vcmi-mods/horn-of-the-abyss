@@ -16,7 +16,7 @@
 		"wake-of-gods.woggraphicfix.wf_mapobjects"
 	],
 	"chinese" : {
-		"name" : "地图装饰",
+		"name" : "地图装饰物",
 		"description" : "新增和原有物体属性一致的新物体。"
 	},
 	"czech" : {
