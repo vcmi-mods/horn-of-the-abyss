@@ -20,7 +20,8 @@
 		"config/olgoiKhorkhoi.json",
 		"config/sandworm.json",
 		"config/sandwormLarva.json",
-		"config/sentinelAutomaton.json"
+		"config/sentinelAutomaton.json",
+		"config/stackExperience.json"
 	],
 	"chinese" : {
 		"name" : "额外技能图标",
