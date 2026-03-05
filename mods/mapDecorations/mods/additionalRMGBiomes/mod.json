@@ -8,5 +8,9 @@
 	"biomes" : [
 		"config/additionalRMGBiomes/additionalRMGBiomes.json"
 	],
-	"keepDisabled" : true
+	"keepDisabled" : true,
+	"chinese" : {
+		"name" : "额外随机地图物体群系",
+		"description" : "允许随机地图生成器生成原本仅在地图编辑器中使用的装饰物，例如烧毁的建筑和坍塌的喷泉。"
+	}
 }

@@ -11,6 +11,10 @@
 	"objects" : [
 		"config/hotaGameBalance/disabledDecorations.json"
 	],
+	"chinese" : {
+		"name" : "禁用装饰物",
+		"description" : "阻止某些仅供地图编辑器使用的装饰物在随机地图上生成。"
+	},
 	"czech" : {
 		"name" : "Zakázané dekorace",
 		"description" : "Zamezí generování některých dekorací na náhodných mapách určených výhradně pro použití v editoru map."

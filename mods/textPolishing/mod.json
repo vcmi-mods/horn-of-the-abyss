@@ -26,6 +26,10 @@
 			"config/englishTextPolishing/spellDescriptions.json"
 		]
 	},
+	"chinese" : {
+		"name" : "英文文本润色",
+		"description" : "将游戏内法术、地图物体和宝物的英文描述修改为深渊号角所使用的版本（仅在语言为英文时生效）。"
+	},
 	"description" : "Changes the ingame description of spells, map objects and artifacts to the ones used in HotA.",
 	"keepDisabled" : true
 }
