@@ -5,8 +5,6 @@
 				"icon" : "bonuses/poison.png"
 			},
 			"dragonSkeleton" : {
-				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "boneDragon",
 				"icon" : "hota/bonuses/turnintobonedragon.png"
 			}
 		}
