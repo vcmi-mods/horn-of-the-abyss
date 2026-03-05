@@ -11,9 +11,9 @@
 		"config/nixWarrior",
 		"config/nymph",
 		"config/oceanid",
-		"config/seaWitch",
 		"config/seadog",
 		"config/seaserpent",
+		"config/seaWitch",
 		"config/sorceress",
 		"config/stormbird",
 		"config/stackExperience",
@@ -27,7 +27,7 @@
 		]
 	},
 	"german" : {
-		"name" : "Zusatzfähigkeiten-Symbole",
+		"name" : "Zusätzliche Fähigkeitssymbole",
 		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
 		"translations" : [
 			"translation/german.json"
