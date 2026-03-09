@@ -11,7 +11,7 @@
 				},
 				"base" : {
 					"allowedTerrains" : [
-							"wasteland"
+						"wasteland"
 					],
 					"zIndex" : 100
 				},
