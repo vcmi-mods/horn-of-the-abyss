@@ -3,14 +3,19 @@
 		"types" : {
 			"hotaPuddle" : {
 				"name" : "Stone",
+				"base" : {
+					"mask" : [
+						"B"
+					],
+					"allowedTerrains" : [
+						"highlands"
+					]
+				},
 				"templates" : {
 					"avlrhl00" : {
 						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl00",
 						"mask" : [
 							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl01" : {
@@ -18,18 +23,12 @@
 						"mask" : [
 							"VV",
 							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl02" : {
 						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl02",
 						"mask" : [
 							"BB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl03" : {
@@ -37,54 +36,30 @@
 						"mask" : [
 							"VV",
 							"BB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl04" : {
 						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl04",
 						"mask" : [
 							"VBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl05" : {
-						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl05",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl05"
 					},
 					"avlrhl06" : {
 						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl06",
 						"mask" : [
 							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlrhl07" : {
-						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl07",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl07"
 					},
 					"avlrhl08" : {
 						"animation" : "hota/highlands/vanillaStatic/stones/avlrhl08",
 						"mask" : [
 							"VBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					}
 				}

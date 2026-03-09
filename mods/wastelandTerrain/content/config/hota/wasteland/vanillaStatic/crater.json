@@ -4,28 +4,26 @@
 		"handler" : "static",
 		"types" : {
 			"wastelandsFissures" : {
+				"base" : {
+					"allowedTerrains" : [
+						"wasteland"
+					],
+					"zIndex" : 100
+				},
 				"templates" : {
 					"AVLwcr01" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr01",
 						"mask" : [
 							"BBBB",
 							"BBBB"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						],
-						"zIndex" : 100
+						]
 					},
 					"AVLwcr02" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr02",
 						"mask" : [
 							"BBBBV",
 							"BBBBV"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						],
-						"zIndex" : 100
+						]
 					},
 					"AVLwcr03" : {
 						"animation" : "hota/wasteland/vanillaStatic/craters/AVLwcr03",
@@ -34,11 +32,7 @@
 							"VBBV",
 							"VBBV",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						],
-						"zIndex" : 100
+						]
 					}
 				}
 			}
@@ -66,7 +60,7 @@
 						"mask" : [
 							"VBBBB",
 							"VBBBV",
-							"VVBVVB"
+							"VVBVV"
 						],
 						"allowedTerrains" : [
 							"wasteland"

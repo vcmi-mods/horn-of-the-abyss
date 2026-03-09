@@ -3,6 +3,11 @@
 		"types" : {
 			"hotaHLakes" : {
 				"name" : "Lake",
+				"base" : {
+					"allowedTerrains" : [
+						"highlands"
+					]
+				},
 				"templates" : {
 					"avlhll00" : {
 						"animation" : "hota/highlands/vanillaStatic/lakes/avlhll00",
@@ -10,9 +15,6 @@
 							"VBBBBBB",
 							"BBBBBBB",
 							"VBBBBBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhll01" : {
@@ -21,9 +23,6 @@
 							"BBBBB",
 							"BBBBB",
 							"BBBBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhll02" : {
@@ -32,9 +31,6 @@
 							"VVVVV",
 							"BBBBB",
 							"BBBBB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhll03" : {
@@ -43,9 +39,6 @@
 							"VVVV",
 							"VBBB",
 							"VVVV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					}
 				}

@@ -4,65 +4,36 @@
 		"handler" : "static",
 		"types" : {
 			"spruces" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VB"
+					],
+					"allowedTerrains" : [
+						"highlands"
+					]
+				},
 				"templates" : {
 					"avlhpn00" : {
-						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn00",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn00"
 					},
 					"avlhpn01" : {
-						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn01",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn01"
 					},
 					"avlhpn02" : {
-						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn02",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn02"
 					},
 					"avlhpn03" : {
-						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn03",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn03"
 					},
 					"avlhpn04" : {
-						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn04",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn04"
 					},
 					"avlhpn05" : {
 						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn05",
 						"mask" : [
 							"VVV",
 							"VBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn06" : {
@@ -71,9 +42,6 @@
 							"VVV",
 							"VBV",
 							"VBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn07" : {
@@ -82,9 +50,6 @@
 							"VVVV",
 							"VVBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn08" : {
@@ -93,9 +58,6 @@
 							"VVVV",
 							"VVBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn09" : {
@@ -104,9 +66,6 @@
 							"VVVV",
 							"VBBV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn10" : {
@@ -115,9 +74,6 @@
 							"VVVV",
 							"VBBV",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn11" : {
@@ -127,12 +83,8 @@
 							"VBBV",
 							"VBBB",
 							"VVBB"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
-
 					"avlhpn12" : {
 						"animation" : "hota/highlands/hotaStatic/spruces/avlhpn12",
 						"mask" : [
@@ -140,9 +92,6 @@
 							"VVBB",
 							"VBBB",
 							"VBBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"avlhpn13" : {
@@ -150,9 +99,6 @@
 						"mask" : [
 							"VVV",
 							"VBV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					}
 				}

@@ -89,7 +89,7 @@
 					"AVLsh9xw" : {
 						"animation" : "hota/wasteland/vanillaStatic/shrub/AVLsh9xw",
 						"mask" : [
-							"VBB"
+							"BBB"
 						],
 						"allowedTerrains" : [
 							"wasteland"

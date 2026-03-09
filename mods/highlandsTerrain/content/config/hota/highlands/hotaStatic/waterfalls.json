@@ -9,6 +9,17 @@
 						"hota/highlands/LOOPWATR.wav"
 					]
 				},
+				"base" : {
+					"mask" : [
+						"VVVVV",
+						"VBBBV",
+						"VBBBV",
+						"VVVVV"
+					],
+					"allowedTerrains" : [
+						"highlands"
+					]
+				},
 				"templates" : {
 					"hotaAVLwtf00" : {
 						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf00",
@@ -17,34 +28,13 @@
 							"VVBBV",
 							"VBBBV",
 							"VVVVV"
-						],
-						"allowedTerrains" : [
-							"highlands"
 						]
 					},
 					"hotaAVLwtf01" : {
-						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf01",
-						"mask" : [
-							"VVVVV",
-							"VBBBV",
-							"VBBBV",
-							"VVVVV"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf01"
 					},
 					"hotaAVLwtf02" : {
-						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf02",
-						"mask" : [
-							"VVVVV",
-							"VBBBV",
-							"VBBBV",
-							"VVVVV"
-						],
-						"allowedTerrains" : [
-							"highlands"
-						]
+						"animation" : "hota/highlands/hotaStatic/waterfall/AVLwtf02"
 					}
 				}
 			}

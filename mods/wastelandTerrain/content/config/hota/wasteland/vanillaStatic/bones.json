@@ -3,56 +3,32 @@
 		"types" : {
 			"hotaSkulls" : {
 				"name" : "Skull",
+				"base" : {
+					"mask" : [
+						"B"
+					],
+					"allowedTerrains" : [
+						"rough",
+						"sand",
+						"wasteland"
+					]
+				},
 				"templates" : {
 					"AVLskul0Hota" : {
-						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul0",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"sand",
-							"wasteland"
-						]
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul0"
 					},
+
 					"AVLskul1" : {
-						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul1",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"sand",
-							"wasteland"
-						]
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul1"
 					},
 					"AVLskul2" : {
-						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul2",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"sand",
-							"wasteland"
-						]
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul2"
 					},
 					"AVLskul3" : {
-						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul3",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"sand",
-							"wasteland"
-						]
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLskul3"
 					},
 					"AVLwcsk0" : {
-						"animation" : "hota/wasteland/vanillaStatic/bones/AVLwcsk0",
-						"mask" : [
-							"B"
-						],
-						"allowedTerrains" : [
-							"sand",
-							"wasteland"
-						]
+						"animation" : "hota/wasteland/vanillaStatic/bones/AVLwcsk0"
 					}
 				}
 			}
