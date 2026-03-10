@@ -25,7 +25,7 @@
 		]
 	},
 	"german" : {
-		"name" : "Wirtschaft",
+		"name" : "Grundbesitz",
 		"description" : "",
 		"translations" : [
 			"translation/german.json"
@@ -50,6 +50,13 @@
 		"description" : "",
 		"translations" : [
 			"translation/ukrainian.json"
+		]
+	},
+	"russian" : {
+		"name" : "Казначей",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
 		]
 	}
 }

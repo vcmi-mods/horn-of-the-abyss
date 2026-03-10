@@ -56,5 +56,12 @@
 		"translations" : [
 			"translation/ukrainian.json"
 		]
+	},
+	"russian" : {
+		"name" : "Логистика",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Разум 2 ступени}\n\nУвеличивает максимальное количество очков магии героя на 35%.",
+	"skill.core.intelligence.description.basic" : "{Разум 1 ступени}\n\nУвеличивает максимальное количество очков магии героя на 20%.",
+	"skill.core.intelligence.description.expert" : "{Разум 3 ступени}\n\nУвеличивает максимальное количество очков магии героя на 50%."
+}
