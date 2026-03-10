@@ -8,8 +8,14 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.002",
+	"version" : "1.8.003",
 	"changelog" : {
+		"1.8.003" : [
+			"Fixed Russian translation mistakes",
+			"Fixed some obstacles in battlefields",
+			"Fixed block masks of a few wasteland objects",
+			"Fixed town gate map object movement cost"
+		],
 		"1.8.002" : [
 			"Fixed crashes in Factory campaign",
 			"Added Turkish translation (by Erthon)",
