@@ -14,7 +14,7 @@
 			"Fixed Russian translation mistakes",
 			"Fixed some obstacles in battlefields",
 			"Fixed block masks of a few wasteland objects",
-			"Fixed town gate map object movement cost"
+			"Fixed some visual glitches in Conflux and Inferno town screens"
 		],
 		"1.8.002" : [
 			"Fixed crashes in Factory campaign",
