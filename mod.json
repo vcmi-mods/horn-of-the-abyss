@@ -11,7 +11,7 @@
 	"version" : "1.8.003",
 	"changelog" : {
 		"1.8.003" : [
-			"Fixed Russian translation mistakes",
+			"Added Russian Bulwark translation and fixed some translation mistakes",
 			"Fixed some obstacles in battlefields",
 			"Fixed block masks of a few wasteland objects",
 			"Fixed some visual glitches in Conflux and Inferno town screens"
