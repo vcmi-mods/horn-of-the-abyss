@@ -30,7 +30,7 @@
 		]
 	},
 	"german" : {
-		"name" : "Erforscher",
+		"name" : "Spähen",
 		"description" : "",
 		"translations" : [
 			"translation/german.json"
@@ -55,6 +55,13 @@
 		"description" : "",
 		"translations" : [
 			"translation/ukrainian.json"
+		]
+	},
+	"russian" : {
+		"name" : "Разведка",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
 		]
 	}
 }

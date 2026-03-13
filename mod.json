@@ -8,8 +8,14 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.002",
+	"version" : "1.8.003",
 	"changelog" : {
+		"1.8.003" : [
+			"Overhauled Russian translation and added Russian Bulwark translation",
+			"Fixed some obstacles in battlefields",
+			"Fixed block masks of a few wasteland objects",
+			"Fixed some visual glitches in Conflux and Inferno town screens"
+		],
 		"1.8.002" : [
 			"Fixed crashes in Factory campaign",
 			"Added Turkish translation (by Erthon)",

@@ -17,7 +17,7 @@
 		]
 	},
 	"german" : {
-		"name" : "Magie",
+		"name" : "Zauberei",
 		"description" : "",
 		"translations" : [
 			"translation/german.json"
@@ -28,6 +28,13 @@
 		"description" : "",
 		"translations" : [
 			"translation/czech.json"
+		]
+	},
+	"russian" : {
+		"name" : "Ворожба",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
 		]
 	}
 }
