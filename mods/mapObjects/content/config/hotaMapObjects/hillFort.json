@@ -4,7 +4,7 @@
 		"name" : "Hill Fort",
 		"types" : {
 			"miniHillFort" : {
-				"description" : "Upgrade level 1-5 creatures at double the price from the associated town.",
+				"description" : "(Upgrade level 1-5 creatures for double the price)\n",
 				"unavailableUpgradeMessage" : "This building cannot upgrade creatures of level 5 and higher.",
 				"rmg" : {
 					"value" : 7000,

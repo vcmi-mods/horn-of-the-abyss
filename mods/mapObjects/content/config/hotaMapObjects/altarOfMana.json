@@ -5,7 +5,7 @@
 		"types" : {
 			"altarOfMana" : {
 				"name" : "Altar of Mana",
-				"description" : "(Heroes may sacrifice creatures for spell points, up to 4x the normal cap).",
+				"description" : "(Heroes may sacrifice creatures for spell points, up to 4x the normal cap)\n",
 				"sounds" : {
 					"visit" : [
 						"MYSTERY"

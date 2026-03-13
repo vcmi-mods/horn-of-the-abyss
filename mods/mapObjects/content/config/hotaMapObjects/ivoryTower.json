@@ -43,8 +43,8 @@
 					"rarity" : 100
 				},
 				"blockedVisitable" : false,
-				"onGuardedMessage" : 32,
-				"onVisitedMessage" : 33,
+				"onGuardedMessage" : "You stand in front of an Ivory Tower. Mage foes keep the prisoners captured. Taking their side will allow you to gain valuable allies. Are you ready to test your fortune?",
+				"onVisitedMessage" : "You enter the Ivory Tower, however nobody is home.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankNarrow",

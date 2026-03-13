@@ -49,7 +49,7 @@
 							"max" : 20
 						},
 						"mapDice" : 1,
-						"message" : "{Sea Barrel}\r\n\r\nThis barrel is full of sea water. You have no idea why it is still afloat.",
+						"message" : "{Sea Barrel}\n\nThis barrel is full of sea water. You have no idea why it is still afloat.",
 						"removeObject" : true
 					},
 					{
@@ -63,7 +63,7 @@
 								"amount" : "@gainedAmount"
 							}
 						],
-						"message" : "{Sea Barrel}\r\n\r\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
+						"message" : "{Sea Barrel}\n\nThis barrel is holding neither water nor wine, but rather some smuggled goods.",
 						"removeObject" : true
 					}
 				],

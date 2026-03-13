@@ -31,7 +31,7 @@
 							"max" : 25
 						},
 						"mapDice" : 0,
-						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Nothing of value can be found.",
+						"message" : "{Jetsam}\n\nYou inspect the jettisoned cargo. Nothing of value can be found.",
 						"removeObject" : true
 					},
 					{
@@ -43,7 +43,7 @@
 						"resources" : {
 							"ore" : 5
 						},
-						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Most of it is spoilt by sea water, but you are able to salvage some ore.",
+						"message" : "{Jetsam}\n\nYou inspect the jettisoned cargo. Most of it is spoilt by sea water, but you are able to salvage some ore.",
 						"removeObject" : true
 					},
 					{
@@ -56,7 +56,7 @@
 							"gold" : 200
 						},
 						"mapDice" : 2,
-						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
+						"message" : "{Jetsam}\n\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
 						"removeObject" : true
 					},
 					{
@@ -69,7 +69,7 @@
 							"gold" : 500
 						},
 						"mapDice" : 3,
-						"message" : "{Jetsam}\r\n\r\nYou inspect the jettisoned cargo. Some ore and gold go into your coffers.",
+						"message" : "{Jetsam}\n\nYou inspect the jettisoned cargo. Considerable amounts of ore and gold are found within.",
 						"removeObject" : true
 					}
 				],

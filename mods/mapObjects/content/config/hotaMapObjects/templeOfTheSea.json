@@ -2,7 +2,7 @@
 	"core:creatureBank" : {
 		"types" : {
 			"templeOfTheSea" : {
-				"name" : "Temple Of The Sea",
+				"name" : "Temple of the Sea",
 				"templates" : {
 					"base" : {
 						"animation" : "hota/banks/AVSutopW.def",

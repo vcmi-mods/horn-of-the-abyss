@@ -12,7 +12,7 @@
 				},
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
-				"description" : "(Learn 4th level spell)",
+				"description" : "(Learn 4th level spell)\n",
 				"showScoutedPreview" : true,
 				"variables" : {
 					"spell" : {
@@ -38,10 +38,10 @@
 							"@gainedSpell"
 						],
 						"description" : "@core.genrltxt.355",
-						"message" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}."
+						"message" : "{Shrine of Magic Mystery}\n\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}."
 					}
 				],
-				"onVisitedMessage" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you already have knowledge of this spell, so there is nothing more for them to teach you.",
+				"onVisitedMessage" : "{Shrine of Magic Mystery}\n\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you already have knowledge of this spell, so there is nothing more for them to teach you.",
 				"onEmpty" : [
 					{
 						"limiter" : {
@@ -51,10 +51,10 @@
 								}
 							]
 						},
-						"message" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you do not have the wisdom to understand the spell, and are unable to learn it."
+						"message" : "{Shrine of Magic Mystery}\n\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you do not have the wisdom to understand the spell, and are unable to learn it."
 					},
 					{
-						"message" : "{Shrine of Magic Mystery}\r\n\r\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you have no Spell Book to record the spell with."
+						"message" : "{Shrine of Magic Mystery}\n\nYou come across an ancient shrine attended by a group of ascetic hermits. In exchange for your protection, they agree to teach you a spell - {%s}. Unfortunately, you have no Spell Book to record the spell with."
 					}
 				],
 				"base" : {

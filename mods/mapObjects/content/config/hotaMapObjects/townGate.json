@@ -5,7 +5,7 @@
 		"types" : {
 			"townGate" : {
 				"name" : "Town Gate",
-				"description" : "(Teleport hero to any allied town)",
+				"description" : "(Teleport hero to any allied town)\n",
 				"rmg" : {
 					"value" : 10000,
 					"rarity" : 20,
@@ -17,7 +17,7 @@
 					]
 				},
 				"blockedVisitable" : true,
-				"onVisitedMessage" : "{Town Gate}\r\n\r\nSelect a destination", //TODO: In HoTA there is no extra message, but custom icon
+				"onVisitedMessage" : "{Town Gate}\n\nSelect a destination:", //TODO: In HoTA there is no extra message, but custom icon
 				"visitMode" : "unlimited",
 				"rewards" : [
 					{
