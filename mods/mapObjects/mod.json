@@ -66,6 +66,13 @@
 			"translation/mapObjects/portuguese.json"
 		]
 	},
+	"russian" : {
+		"name" : "Объекты карты",
+		"description" : "Добавляет в VCMI различные объекты карты, представленные в HotA",
+		"translations" : [
+			"translation/mapObjects/russian.json"
+		]
+	},
 
 	"objects" : [
 		"config/hotaMapObjects/ancientLamp.json",
