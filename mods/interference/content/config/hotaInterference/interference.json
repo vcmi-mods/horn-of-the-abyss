@@ -30,7 +30,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Interference}\n\nReduces enemy hero spell power during combat by 10%.",
+			"description" : "{Basic Interference}\n\nBasic Interference reduces the Power skill of enemy hero by 10% during combat.",
 			"effects" : {
 				"main" : {
 					"val" : -10
@@ -47,7 +47,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Interference}\n\nReduces enemy hero spell power during combat by 20%.",
+			"description" : "{Advanced Interference}\n\nAdvanced Interference reduces the Power skill of enemy hero by 20% during combat.",
 			"effects" : {
 				"main" : {
 					"val" : -20
@@ -64,7 +64,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Interference}\n\nReduces enemy hero spell power during combat by 30%.",
+			"description" : "{Expert Interference}\n\nExpert Interference reduces the Power skill of enemy hero by 30% during combat.",
 			"effects" : {
 				"main" : {
 					"val" : -30
