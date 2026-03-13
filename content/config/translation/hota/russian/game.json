@@ -961,7 +961,7 @@
 	"mapObject.hota.wastelandterrain.grave.grave.onEmpty" : "{Могила}\n\nЭта могила свежая, и даже лопату, которой её рыли, никто не успел унести.\n\nОднако поиск артефактов занимает целый день.",
 	"mapObject.hota.wastelandterrain.grave.grave.rewards.0" : "{Могила}\n\nЭта могила свежая, и даже лопату, которой её рыли, никто не успел унести. Воспользовавшись ей и завязав платком нос, вы извлекаете из земли кое-что ценное.",
 	"mapObject.hota.wastelandterrain.grave.grave.rewards.1" : "{Могила}\n\nЭта могила свежая, и даже лопату, которой её рыли, никто не успел унести. Воспользовавшись ей и завязав платком нос, вы извлекаете из земли кое-что ценное.",
-	"mapObject.hota.highlandsterrain.mineralSpring.mineralSpring.name" : "Минеральный Источник",
+	"mapObject.hota.highlandsterrain.mineralSpring.mineralSpring.description" : "(+1 к удаче до следующего боя и +600 к передвижению на 1 день)\n",
 	"mapObject.hota.highlandsterrain.mineralSpring.mineralSpring.onVisited" : "{Минеральный Источник}\n\nЖивоты лошадей и солдат булькают от выпитой воды. На сегодня целебных процедур достаточно.",
 	"mapObject.hota.highlandsterrain.mineralSpring.mineralSpring.rewards.0" : "{Минеральный Источник}\n\nЛошади пьют солоноватую воду из источника неохотно, но вскоре вы видите, что сил у скакунов явно прибавилось. В брызгах воды над пузырящимся источником появляется весёлая радуга, что приводит ваш отряд в отличное настроение.",
 	"mapObject.hota.wastelandterrain.prospector.prospector.onVisited" : "{Старатель}\n\nСтаратель то ругается на истощенную жилу, то причитает и умоляет. Очевидно, на этой неделе от него больше ничего не добиться.",
@@ -1044,7 +1044,7 @@
 	"object.hota.highlandsterrain.junkman.name" : "Старьёвщик",
 	"object.hota.wastelandterrain.limestoneLake.name" : "Известняковое Озеро",
 	"object.hota.wastelandterrain.limestonePuddles.name" : "Известняковые лужи",
-	"object.hota.highlandsterrain.mineralSpring.name" : "Минеральный источник",
+	"object.hota.highlandsterrain.mineralSpring.name" : "Минеральный Источник",
 	"object.hota.wastelandterrain.prospector.name" : "Старатель",
 	"object.hota.wastelandterrain.puddles.name" : "Лужи",
 	"object.hota.wastelandterrain.spruces.name" : "Ели",
@@ -1101,7 +1101,6 @@
 	"spell.hota.factoryspells.teslaLightning.name" : "Молния",
 	"mapObject.hota.mapdecorations.redwoodObservatory.hotaObservationTower.name" : "Смотровая башня",
 	"mapObject.hota.mapobjects.altarOfMana.altarOfMana.name" : "Алтарь маны (Герои могут жертвовать существами за очки заклинаний, в четыре раза превышающие обычный предел).",
-	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Погост",
 	"mapObject.hota.mapobjects.seafaringAcademy.seafaringAcademy.title" : "Академия Мореплавания",
 	"mapObject.hota.mapobjects.seafaringAcademy.seafaringAcademy.speech" : "Шум парусов и визг канатов — музыка для ушей тех, кто окончил эту древнюю академию. Здесь мичман может освоить следующие навыки.",
 	"mapObject.hota.mapobjects.shrineOfMagicLevel1.shrineOfMagicMystery.description" : "\n(Изучение заклинания 4 уровня)\n",
@@ -1121,7 +1120,6 @@
 	"mapObject.hota.wastelandterrain.rock.hotaW2Stones.name" : "Камень",
 	"terrain.hota.highlandsterrain.highlands.name" : "Высокогорье",
 	"terrain.hota.wastelandterrain.wasteland.name" : "Пустоши",
-	"mapObject.hota.highlandsterrain.creatureBank.churchyard.name" : "Погост",
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onGuarded" : "Вы находитесь перед заброшенным кладбищем. Хотите ли вы обыскать его?",
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onVisited.0" : "Ваши войска с неохотой обыскивают кладбище, но ничего не находят. Это подрывает боевой дух вашей армии.",
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.rewards.0" : "Победив мертвецов, вы обыскиваете кладбище и находите кое-что ценное!",
@@ -1139,5 +1137,5 @@
 	//"skill.core.eagleEye.description.advanced" : "{Продвинутый орлиный глаз}\n\nПродвинутый орлиный глаз даёт вашему герою 50%-й шанс выучить в бою любое использованное заклинание до 3‑го уровня включительно.",
 	//"skill.core.eagleEye.description.basic" : "{Базовый орлиный глаз}\n\nБазовый Орлиный глаз даёт вашему герою 40%-й шанс выучить в бою любое использованное заклинание 1‑го или 2‑го уровня.",
 	//"skill.core.eagleEye.description.expert" : "{Экспертный Орлиный глаз}\n\nЭкспертное орлиное око даёт вашему герою 60%-й шанс выучить в бою любое использованное заклинание до 4‑го уровня включительно.",
-	"object.core.questGuard.name" : "Страж задания"
+	"object.core.questGuard.name" : "Врата Задания"
 }
