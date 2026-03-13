@@ -12,7 +12,7 @@
 		"types" : {
 			"trailblazer" : {
 				"name" : "Trailblazer",
-				"description" : "\nReduces movement cost on wastelands down to 75% until the end of the week.\n",
+				"description" : "(Reduces movement cost on wastelands down to 75% until the end of the week)\n",
 				"aiValue" : 3000,
 				"rmg" : {
 					"value" : 200,
