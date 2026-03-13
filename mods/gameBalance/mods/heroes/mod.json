@@ -197,5 +197,12 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"russian" : {
+		"name" : "Герои",
+		"description" : "Изменяет прогрессию баланса героев на ту, что используется в HotA",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }
