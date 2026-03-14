@@ -18,5 +18,9 @@
 	"czech" : {
 		"name" : "Artilerie",
 		"description" : ""
+	},
+	"russian" : {
+		"name" : "Боевая машина",
+		"description" : ""
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"creatures.core.ammoCart.bonus.noLuck" : "{No Luck}\nThe Ammo Cart is unaffected by luck.",
+	"creatures.core.archDevil.bonus.decreaseLuck" : "{Архидьявол}\n-2 к удаче противника",
+	"creatures.core.catapult.bonus.noLuck" : "{No Luck}\nThe Catapult is unaffected by luck.",
+	"creatures.core.devil.bonus.decreaseLuck" : "{Дьявол}\n-1 к удаче противника",
+	"creatures.core.firstAidTent.bonus.noLuck" : "{No Luck}\nThe First Aid Tent is unaffected by luck."
+}

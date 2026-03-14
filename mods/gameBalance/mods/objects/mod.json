@@ -19,7 +19,13 @@
 		"config/hotaGameBalance/cartographer.json",
 		"config/hotaGameBalance/stables.json"
 	],
-
+	"russian" : {
+		"name" : "Объекты",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
 	"chinese" : {
 		"name" : "物体",
 		"description" : ""

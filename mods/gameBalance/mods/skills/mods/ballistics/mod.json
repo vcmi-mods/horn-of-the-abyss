@@ -20,7 +20,10 @@
 		"name" : "Balistika",
 		"description" : ""
 	},
-
+	"russian" : {
+		"name" : "Баллистика",
+		"description" : ""
+	},
 	"spells" : [
 		"config/hotaCatapult/catapultShot.json"
 	],
