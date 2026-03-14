@@ -5,7 +5,7 @@
 		"types" : {
 			"gazebo" : {
 				"name" : "Gazebo",
-				"description" : "(+2000 experience for 1000 gold once per hero)",
+				"description" : "(+2000 experience for 1000 gold once per hero)\n",
 				"rmg" : {
 					"value" : 1500,
 					"rarity" : 50,
@@ -23,15 +23,15 @@
 								"gold" : 1000
 							}
 						},
-						"message" : "{Gazebo}\r\n\r\nAnd old Knight appears on the steps of gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. A thousand gold will suffice.\"",
+						"message" : "{Gazebo}\n\nAn old Knight appears on the steps of the gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. A thousand gold will suffice.\"",
 						"heroExperience" : 2000,
 						"resources" : {
 							"gold" : -1000
 						}
 					}
 				],
-				"onVisitedMessage" : "{Gazebo}\r\n\r\nYou can hear loud snoring coming from gazebo. Apparently, the League has already put your donation to good use.",
-				"onEmptyMessage" : "{Gazebo}\r\n\r\nAn old Knight appears on the steps of the gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. Come back when you scrape up a thousand gold.\"",
+				"onVisitedMessage" : "{Gazebo}\n\nYou can hear loud snoring coming from the gazebo. Apparently, the League has already put your donation to good use.",
+				"onEmptyMessage" : "{Gazebo}\n\nAn old Knight appears on the steps of the gazebo. \"I will teach you all that I know to aid you in your travels. However, I'll let you know a small donation to the Retired Knights' League is required. Come back when you scrape up a thousand gold.\"",
 				"canRefuse" : true,
 				"visitMode" : "hero",
 				"templates" : {

@@ -5,7 +5,7 @@
 		"types" : {
 			"trapperLodge" : {
 				"name" : "Trapper Lodge",
-				"description" : "50% chance of getting 300-500 Gold\n25% chance of getting 3-5 Gremlins.\n25% chance of getting 3-5 Kobolds.",
+				"description" : "(50% chance of getting 300-500 Gold; 25% chance of getting 3-5 Gremlins; 25% chance of getting 3-5 Kobolds)\n",
 				"visitMode" : "once",
 				"onVisitedMessage" : "{Trapper Lodge}\n\nSomeone has already been in the lodge. Nothing's left here.",
 				"canRefuse" : true,

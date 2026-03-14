@@ -4,6 +4,7 @@
 		"name" : "Observatory",
 		"types" : {
 			"observatory" : {
+				"description" : "(+2 scouting radius until the end of the week)\n",
 				"sounds" : {
 					"visit" : [
 						"LIGHTHOUSE"
@@ -16,7 +17,7 @@
 				},
 				"rewards" : [
 					{
-						"message" : "{Observatory}\r\n\r\nAn astronomer offers you to take his apprentice for a shipboy. You might find his lookout skill useful, while the youth could do with a break from studies. However, the astronomer will need him back in a week for the next round of planned observations.",
+						"message" : "{Observatory}\n\nAn astronomer offers you to take his apprentice for a shipboy. You might find his lookout skill useful, while the youth could do with a break from studies. However, the astronomer will need him back in a week for the next round of planned observations.",
 						"bonuses" : [
 							{
 								"type" : "SIGHT_RADIUS",
@@ -28,7 +29,7 @@
 					}
 				],
 				"blockedVisitable" : false,
-				"onVisitedMessage" : "{Observatory}\r\n\r\nThe astronomer is absent from his tower. A note posted on the door reads: \"Will be back in a week\".",
+				"onVisitedMessage" : "{Observatory}\n\nThe astronomer is absent from his tower. A note posted on the door reads: \"Will be back in a week.\"",
 				"canRefuse" : false,
 				"visitMode" : "bonus",
 				"selectMode" : "selectPlayer",

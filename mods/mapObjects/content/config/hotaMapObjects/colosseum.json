@@ -1,11 +1,11 @@
 {
 	"colosseumOfTheMagi" : {
-		"name" : "Colosseum Of The Magi",
+		"name" : "Colosseum of the Magi",
 		"handler" : "configurable",
 		"types" : {
 			"colosseumOfTheMagi" : {
-				"name" : "Colosseum Of The Magi",
-				"description" : "(+2 spellpower or knowledge\nonce per hero)",
+				"name" : "Colosseum of the Magi",
+				"description" : "(+2 spell power or knowledge once per hero)\n",
 				"rmg" : {
 					"value" : 3000,
 					"rarity" : 50,
@@ -31,8 +31,8 @@
 						}
 					}
 				],
-				"onSelectMessage" : "{Colosseum Of The Magi}\r\n\r\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks.",
-				"onVisitedMessage" : "{Colosseum Of The Magi}\r\n\r\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. You probably should rather be featuring as a talent judge here!",
+				"onSelectMessage" : "{Colosseum Of The Magi}\n\nA big show is taking place at the Colosseum today. You enter the arena and hold the audience in awe with your magical prowess. Insatiable hunger for knowledge is what makes a true mage, so you gladly accept the first prize, which is one the newest academical handbooks.",
+				"onVisitedMessage" : "{Colosseum Of The Magi}\n\nModerator of the Colosseum instantly recognises you but respectfully denies entrance to the competitor zone. \"You probably should rather be featuring as a talent judge here!\"",
 				"visitMode" : "hero",
 				"selectMode" : "selectPlayer",
 				"templates" : {

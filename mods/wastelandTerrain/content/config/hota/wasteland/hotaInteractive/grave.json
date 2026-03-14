@@ -14,7 +14,7 @@
 		"types" : {
 			"grave" : {
 				"name" : "Grave",
-				"description" : "(Digging gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle.)",
+				"description" : "(Digging gives 1500-4000 gold, a random Treasure or Minor artifact, and -3 morale until the next battle)\n",
 				"rmg" : {
 					"value" : 500,
 					"rarity" : 30
@@ -92,7 +92,7 @@
 							"+++",
 							"+++",
 							"+++"
-						], //disabled for not spawning at random maps
+						],
 						"allowedTerrains" : [
 							"wasteland"
 						]
