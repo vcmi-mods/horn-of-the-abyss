@@ -140,6 +140,23 @@
 						]
 					}
 				},
+				"combatCastRuneLevels" : {
+					"type" : "ON_COMBAT_EVENT",
+					"subtype" : "combatEventCast",
+					"addInfo" : {
+						"effect" : [
+							{
+								"action" : "bonus",
+								"targetEnemy" : false,
+								"bonus" : {
+									"type" : "RUNE_LEVEL_COUNTER",
+									"val" : 1,
+									"duration" : "ONE_BATTLE"
+								}
+							}
+						]
+					}
+				},
 				"combatAttackedRuneLevels" : {
 					"type" : "ON_COMBAT_EVENT",
 					"subtype" : "combatEventAfterAttacked",
