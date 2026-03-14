@@ -74,7 +74,7 @@
 				},
 				"tavern" : {
 					"name" : "Tavern",
-					"description" : "The Tavern increases the morale for troops defending the city by +1.",
+					"description" : "The Tavern allows hiring heroes, hearing the latest gossip and visiting the Thieves' Guild. It also increases morale for troops defending the city.",
 					"cost" : {
 						"wood" : 5,
 						"gold" : 500
