@@ -37,6 +37,13 @@
 			"translation/czech.json"
 		]
 	},
+	"russian" : {
+		"name" : "Существа",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
 	"polish" : {
 		"name" : "Creatures",
 		"description" : ""

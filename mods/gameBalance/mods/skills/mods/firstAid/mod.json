@@ -37,5 +37,12 @@
 		"translations" : [
 			"translation/czech.json"
 		]
+	},
+	"russian" : {
+		"name" : "Лечение",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

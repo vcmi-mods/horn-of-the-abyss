@@ -53,7 +53,7 @@
 		]
 	},
 	"russian" : {
-		"name" : "Factions",
+		"name" : "Фракции",
 		"description" : "",
 		"translations" : [
 			"translation/russian.json"

@@ -29,5 +29,12 @@
 		"translations" : [
 			"translation/czech.json"
 		]
+	},
+	"russian" : {
+		"name" : "Следопыт",
+		"description" : "",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

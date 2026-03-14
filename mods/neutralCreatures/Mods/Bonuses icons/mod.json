@@ -31,5 +31,12 @@
 		"translations" : [
 			"translation/czech.json"
 		]
+	},
+	"russian" : {
+		"name" : "Дополнительные иконки бонусов",
+		"description" : "Дополнительные иконки для способностей существ.",
+		"translations" : [
+			"translation/russian.json"
+		]
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"creatures.core.ammoCart.bonus.noLuck" : "{Без удачи}\nНе зависит от удачи.",
+	"creatures.core.archDevil.bonus.decreaseLuck" : "{Архидьявол}\n-2 к удаче противника",
+	"creatures.core.catapult.bonus.noLuck" : "{Без удачи}\nНе зависит от удачи.",
+	"creatures.core.devil.bonus.decreaseLuck" : "{Дьявол}\n-1 к удаче противника",
+	"creatures.core.firstAidTent.bonus.noLuck" : "{Без удачи}\nНе зависит от удачи."
+}
