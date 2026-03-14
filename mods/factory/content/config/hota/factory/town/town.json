@@ -91,7 +91,7 @@
 				},
 				"citadel" : {
 					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep and a moat to your town's defenses.",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
@@ -108,32 +108,32 @@
 				},
 				"villageHall" : {
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and provides your kingdom with 500 gold per day."
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" : {
 					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and provides your kingdom with 1000 gold per day.",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					}
 				},
 				"cityHall" : {
 					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and provides your kingdom with 2000 gold per day.",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					}
 				},
 				"capitol" : {
 					"name" : "Capitol",
-					"description" : "The Capitol provides your kingdom with 4000 gold per day.",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					}
 				},
 				"marketplace" : {
 					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates improve with each Marketplace you own).",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -160,7 +160,7 @@
 					"warMachine" : "ammoCart"
 				},
 				"special3" : {
-					"description" : "Artifact Merchants allows a visiting hero to purchase artifacts.",
+					"description" : "For a nominal fee, you can purchase artifacts from the Artifact Merchants.",
 					"name" : "Artifact Merchants",
 					"cost" : {
 						"gold" : 10000
@@ -174,7 +174,7 @@
 					]
 				},
 				"horde1" : {
-					"description" : "The Pen increases Armadillo growth by +3 per week.",
+					"description" : "The Pen increases Armadillos production by 3 per week.",
 					"name" : "Pen",
 					"cost" : {
 						"gold" : 1000
@@ -185,7 +185,7 @@
 					]
 				},
 				"horde1Upgr" : {
-					"description" : "The Pen increases Armadillo and Bellwether Armadillo growth by +3 per week.",
+					"description" : "The Pen increases Bellwether Armadillos production by 3 per week.",
 					"name" : "Pen",
 					"cost" : {
 						"gold" : 1000
@@ -196,7 +196,7 @@
 					"upgrades" : "dwellingUpLvl3"
 				},
 				"special1" : {
-					"description" : "Allows the player to get a loan of 2500 Gold immediately but decreases the town's income by 500 Gold for 5 days.",
+					"description" : "The Bank allows you to get a loan of 2500 gold at once but decreases the gold income from the town for 5 days by 500.",
 					"name" : "Bank",
 					"type" : "bank",
 					"cost" : {
@@ -205,7 +205,7 @@
 					}
 				},
 				"special2" : {
-					"description" : "Gives a garrisoned hero 20 additional Spell Points while defending in siege combat.",
+					"description" : "The Mana Generator gives a garrison hero 20 additional spell points during any siege defense (these spell points do not follow a hero who leaves the town).",
 					"name" : "Mana Generator",
 					"bonuses" : [
 						{
@@ -222,7 +222,7 @@
 					]
 				},
 				"grail" : {
-					"description" : "The presence of the Lightning Rod increases weekly creature growth by 50%, provides your empire with an additional 5000 gold each day. Strikes all enemy stacks with lightning at the beginning of every battle the player participates in, anywhere on the map.",
+					"description" : "The Lightning Rod increases weekly creature generation by 50% and provides your kingdom with an additional 5000 gold each day, also striking all enemies of your hero with the lightning at the first round of every battle (the damage is based on town building count).",
 					"name" : "Lightning Rod",
 					"bonuses" : [
 						{
@@ -287,7 +287,7 @@
 					]
 				},
 				"dwellingLvl5" : {
-					"description" : "The Catacombs allows you to recruit Sandworms.",
+					"description" : "The Catacombs allow you to recruit Sandworms.",
 					"name" : "Catacombs",
 					"cost" : {
 						"gold" : 3000,
@@ -346,7 +346,7 @@
 					]
 				},
 				"dwellingUpLvl1" : {
-					"description" : "The Halfling Adobe allows you to recruit Halfling Grenadiers.",
+					"description" : "The Upg. Halfling Adobe allows you to recruit Halfling Grenadiers.",
 					"name" : "Upg. Halfling Adobe",
 					"cost" : {
 						"gold" : 1000,
@@ -359,7 +359,7 @@
 					"upgrades" : "dwellingLvl1"
 				},
 				"dwellingUpLvl2" : {
-					"description" : "The Foundry allows you to recruit Engineers.",
+					"description" : "The Upg. Foundry allows you to recruit Engineers.",
 					"name" : "Upg. Foundry",
 					"cost" : {
 						"gold" : 1000,
@@ -372,7 +372,7 @@
 					"upgrades" : "dwellingLvl2"
 				},
 				"dwellingUpLvl3" : {
-					"description" : "The Ranch allows you to recruit Bellwether Armadillos.",
+					"description" : "The Upg. Ranch allows you to recruit Bellwether Armadillos.",
 					"name" : "Upg. Ranch",
 					"cost" : {
 						"gold" : 1000,
@@ -381,7 +381,7 @@
 					"upgrades" : "dwellingLvl3"
 				},
 				"dwellingUpLvl4" : {
-					"description" : "The Manufactory allows you to recruit Sentinel Automatons.",
+					"description" : "The Upg. Manufactory allows you to recruit Sentinel Automatons.",
 					"name" : "Upg. Manufactory",
 					"cost" : {
 						"gold" : 2000,
@@ -391,7 +391,7 @@
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"description" : "The Catacombs allows you to recruit Olgoi-Khorkhoi.",
+					"description" : "The Upg. Catacombs allows you to recruit Olgoi-Khorkhoi.",
 					"name" : "Upg. Catacombs",
 					"cost" : {
 						"gold" : 2000,
@@ -403,7 +403,7 @@
 					"upgrades" : "dwellingLvl5"
 				},
 				"dwellingUpLvl6" : {
-					"description" : "The Watchtower allows you to recruit Bounty Hunters.",
+					"description" : "The Upg. Watchtower allows you to recruit Bounty Hunters.",
 					"name" : "Upg. Watchtower",
 					"cost" : {
 						"gold" : 3000,
@@ -417,7 +417,7 @@
 					"upgrades" : "dwellingLvl6"
 				},
 				"dwellingUpLvl7" : {
-					"description" : "The Serpentarium allows you to recruit Crimson Couatls.",
+					"description" : "The Upg. Serpentarium allows you to recruit Crimson Couatls.",
 					"name" : "Upg. Serpentarium",
 					"cost" : {
 						"gold" : 15000,
@@ -431,7 +431,7 @@
 					"upgrades" : "dwellingLvl7"
 				},
 				"dwellingUpLvl8" : {
-					"description" : "The Gantry allows you to recruit Juggernauts.",
+					"description" : "The Upg. Gantry allows you to recruit Juggernauts.",
 					"name" : "Upg. Gantry",
 					"cost" : {
 						"gold" : 15000,

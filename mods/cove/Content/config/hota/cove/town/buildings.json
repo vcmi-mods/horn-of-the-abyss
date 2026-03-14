@@ -4,25 +4,25 @@
 			"buildings" : {
 				"villageHall" : {
 					"name" : "Village Hall",
-					"description" : "The Village Hall allows you to purchase town structures and provides your kingdom with 500 gold per day."
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
 				"townHall" : {
 					"name" : "Town Hall",
-					"description" : "The Town Hall allows you to purchase town structures and provides your kingdom with 1000 gold per day.",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
 					"cost" : {
 						"gold" : 2500
 					}
 				},
 				"cityHall" : {
 					"name" : "City Hall",
-					"description" : "The City Hall allows you to purchase town structures and provides your with kingdom 2000 gold per day.",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
 					"cost" : {
 						"gold" : 5000
 					}
 				},
 				"capitol" : {
 					"name" : "Capitol",
-					"description" : "The Capitol provides your kingdom with 4000 gold per day.",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
 					"cost" : {
 						"gold" : 10000
 					}
@@ -30,7 +30,7 @@
 
 				"fort" : {
 					"name" : "Fort",
-					"description" : "The Fort adds defensive walls to your town.",
+					"description" : "The Fort provides your town with defensive walls.",
 					"cost" : {
 						"gold" : 5000,
 						"wood" : 20,
@@ -39,7 +39,7 @@
 				},
 				"citadel" : {
 					"name" : "Citadel",
-					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep and a moat to a town's defenses.",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5
@@ -65,7 +65,7 @@
 				},
 				"blacksmith" : {
 					"name" : "Blacksmith",
-					"description" : "The Blacksmith supplies your armies with Cannons.",
+					"description" : "The Blacksmith provides your armies with Cannons.",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5
@@ -74,7 +74,7 @@
 				},
 				"marketplace" : {
 					"name" : "Marketplace",
-					"description" : "With the Marketplace, you can buy and sell resources (exchange rates improve with each Marketplace you own).",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -107,7 +107,7 @@
 
 				"special3" : {
 					"name" : "Thieves' Guild",
-					"description" : "The Thieves' Guild reveals additional information about your foes in the tavern.",
+					"description" : "The Thieves' Guild reveals additional information about the foes in the tavern.",
 					"cost" : {
 						"gold" : 500,
 						"wood" : 5
@@ -125,7 +125,7 @@
 				},
 				"special4" : {
 					"name" : "Grotto",
-					"description" : "The Grotto allows a visiting hero to sacrifice creatures or artifacts in exchange for experience.",
+					"description" : "The Grotto allows you to sacrifice creatures or artifacts in exchange for experience.",
 					"cost" : {
 						"gold" : 7500,
 						"wood" : 15,
@@ -141,7 +141,7 @@
 				},
 				"horde1" : {
 					"name" : "Pub",
-					"description" : "The Pub increases Crew Mate growth by +4 per week.",
+					"description" : "The Pub increases Crew Mates production by 4 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -149,7 +149,7 @@
 				},
 				"horde1Upgr" : {
 					"name" : "Pub",
-					"description" : "The Pub increases Crew Mate and Seaman growth by +4 per week.",
+					"description" : "The Pub increases Seamen production by 4 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -160,7 +160,7 @@
 				},
 				"horde2" : {
 					"name" : "Roost",
-					"description" : "The Roost increases Stormbird growth by +3 per week.",
+					"description" : "The Roost increases Stormbirds production by 3 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
@@ -168,7 +168,7 @@
 				},
 				"horde2Upgr" : {
 					"name" : "Roost",
-					"description" : "The Roost increases Stormbird and Ayssid growth by +3 per week.",
+					"description" : "The Roost increases Ayssids production by 3 per week.",
 					"cost" : {
 						"gold" : 1000
 					},
