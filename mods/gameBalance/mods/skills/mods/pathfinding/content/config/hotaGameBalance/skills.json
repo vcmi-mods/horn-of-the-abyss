@@ -9,7 +9,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain by 25 points, down to a minimum cost of 95.",
+			"description" : "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 25% to a minimum cost of 95%.",
 			"effects" : {
 				"main" : {
 					"val" : 25
@@ -20,7 +20,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain by 50 points, down to a minimum cost of 90.",
+			"description" : "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 50% to a minimum cost of 90%.",
 			"effects" : {
 				"main" : {
 					"val" : 50
@@ -31,7 +31,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Pathfinding}\n\nExpert Pathfinding reduces the movement penalty for rough terrain by 75 points, down to a minimum cost of 85.",
+			"description" : "{Expert Pathfinding}\n\nExpert Pathfinding removes the movement penalty for rough terrain, reducing the cost of moving by 75% to a minimum cost of 85%.",
 			"effects" : {
 				"main" : {
 					"val" : 75
