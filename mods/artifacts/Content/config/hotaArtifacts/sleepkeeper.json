@@ -5,7 +5,7 @@
 		],
 		"slot" : "MISC",
 		"class" : "RELIC",
-		"value" : 50000,
+		"value" : 10000,
 		"bonuses" : {
 			"immunity" : {
 				"type" : "MIND_IMMUNITY",
