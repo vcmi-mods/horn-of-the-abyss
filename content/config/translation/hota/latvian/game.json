@@ -635,7 +635,6 @@
 	"mapObject.hota.mapobjects.seaBarrel.seaBarrel.name" : "Jūras muca",
 	"mapObject.hota.mapobjects.seaBarrel.seaBarrel.rewards.0" : "{Jūras muca}\n\nŠī muca ir piepildīta ar jūras ūdeni. Jums nav ne jausmas, kāpēc tā joprojām peld.",
 	"mapObject.hota.mapobjects.seaBarrel.seaBarrel.rewards.1" : "{Jūras muca}\n\nŠajā mucā nav ne ūdens, ne vīna, bet gan kontrabanda.",
-	"mapObject.hota.mapobjects.townGate.townGate.description" : "(Teleportējiet varoni uz jebkuru sabiedroto pilsētu)",
 	"mapObject.hota.mapobjects.townGate.townGate.name" : "Pilsētas vārti",
 	"mapObject.hota.mapobjects.townGate.townGate.onVisited" : "{Pilsētas vārti}\n\nIzvēlieties savu galamērķi",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name" : "Manas flakons (dod 30–60 burvestības punktus)",
