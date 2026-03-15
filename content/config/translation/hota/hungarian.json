@@ -747,7 +747,6 @@
 	"mapObject.hota.mapobjects.townGate.townGate.description" : "(Hős teleportálása bármelyik szövetséges városba)",
 	"mapObject.hota.mapobjects.townGate.townGate.name" : "Városkapu",
 	"mapObject.hota.mapobjects.townGate.townGate.onVisited" : "{Városkapu}\n\nVálassz egy úti célt",
-	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.description" : "(30-60 varázspontot ad)",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name" : "\nMana fiola",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0" : "{Mana fiola}\n\nMegszerzed a fiolát, de csalódottan látod, hogy nincs benne semmilyen üzenet. Csak víz van benne, meglepően friss.",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.1" : "{Mana fiola}\n\nMegszerzed a fiolát, de csalódottan látod, hogy nincs benne semmilyen üzenet. Csak víz van benne, meglepően friss.",

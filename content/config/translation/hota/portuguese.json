@@ -745,7 +745,6 @@
 	"mapObject.hota.mapobjects.townGate.townGate.description" : "(Teletransporta o herói para qualquer cidade aliada)",
 	"mapObject.hota.mapobjects.townGate.townGate.name" : "Portão da Cidade",
 	"mapObject.hota.mapobjects.townGate.townGate.onVisited" : "{Portão da Cidade}\r\n\r\nSelecione um destino",
-	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.description" : "(concede 30-60 pontos de mana)",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name" : "Frasco de Mana",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0" : "{Frasco de Mana}\r\n\r\nVocê pega o frasco, mas fica desapontado ao ver que não há nenhuma mensagem. Há apenas água dentro, surpreendentemente fresca, no entanto.",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.1" : "{Frasco de Mana}\r\n\r\nVocê pega o frasco, mas fica desapontado ao ver que não há nenhuma mensagem. Há apenas água dentro, surpreendentemente fresca, no entanto.",

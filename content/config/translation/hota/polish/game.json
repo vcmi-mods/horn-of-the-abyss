@@ -809,7 +809,6 @@
 	"mapObject.hota.mapobjects.townGate.townGate.description" : "(teleportuje bohatera do wybranego, przyjaznego miasta)",
 	"mapObject.hota.mapobjects.townGate.townGate.name" : "Brama miasta",
 	"mapObject.hota.mapobjects.townGate.townGate.onVisited" : "{Brama miasta}\r\n\r\nWybierz cel",
-	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.description" : "(zapewnia 30-60 punktów many)",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name" : "Fiolka many",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0" : "{Fiolka many}\r\n\r\nWyławiasz buteleczkę i od razu czujesz się zawiedziony widząc, że nie zawiera ona żadnej wiadomości. W środku znajduje się tylko czysta woda, która jednakże działa na ciebie niezwykle orzeźwiająco",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.1" : "{Fiolka many}\r\n\r\nWyławiasz buteleczkę i od razu czujesz się zawiedziony widząc, że nie zawiera ona żadnej wiadomości. W środku znajduje się tylko czysta woda, która jednakże działa na ciebie niezwykle orzeźwiająco",

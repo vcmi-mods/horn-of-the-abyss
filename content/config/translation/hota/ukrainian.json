@@ -759,7 +759,6 @@
 	"mapObject.hota.mapobjects.townGate.townGate.description" : "(Телепортує героя до будь-якого дружнього міста)",
 	"mapObject.hota.mapobjects.townGate.townGate.name" : "Брама Міста (телепортує героя до будь-якого дружнього міста)",
 	"mapObject.hota.mapobjects.townGate.townGate.onVisited" : "{Брама Міста}\r\n\r\nВиберіть місце призначення",
-	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.description" : "(Дає 30-60 очок мани)",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name" : "Флакон мани (дає 30-60 очок мани)",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0" : "{Флакон мани}\r\n\r\nВи отримуєте флакон, але розчаровуєтесь, оскільки там нема повідомлення. Всередині тільки вода, при чому на диво свіжа.",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.1" : "{Флакон мани}\r\n\r\nВи отримуєте флакон, але розчаровуєтесь, оскільки там нема повідомлення. Всередині тільки вода, при чому на диво свіжа.",
