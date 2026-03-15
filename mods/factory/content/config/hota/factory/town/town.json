@@ -391,7 +391,7 @@
 					"upgrades" : "dwellingLvl4"
 				},
 				"dwellingUpLvl5" : {
-					"description" : "The Upg. Catacombs allows you to recruit Olgoi-Khorkhoi.",
+					"description" : "The Upg. Catacombs allow you to recruit Olgoi-Khorkhoi.",
 					"name" : "Upg. Catacombs",
 					"cost" : {
 						"gold" : 2000,
