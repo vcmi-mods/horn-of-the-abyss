@@ -1,6 +1,6 @@
 {
 	"seaweeds" : {
-		"name" : "Seasweed",
+		"name" : "Seaweeds",
 		"handler" : "static",
 		"types" : {
 			"hotaSeaweeds" : {
@@ -32,7 +32,7 @@
 	},
 	//there are two diffirent portu.defs, this is needed for map support
 	"portu" : {
-		"name" : "Seasweed",
+		"name" : "Seaweeds",
 		"handler" : "static",
 		"types" : {
 			"portu" : {
