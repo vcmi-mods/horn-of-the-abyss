@@ -73,5 +73,5 @@
 	"skill.core.resistance.description.expert" : "{Expert Resistance}\n\n Expert Resistance increases your chance to resist a hostile spell by 20%.",
 	"skill.core.tactics.description.advanced" : "{Advanced Tactics}\n\nAdvanced Tactics allows the hero to rearrange their troops within 5 hex rows of the commanding hero before combat. It negates two levels of an enemy hero’s Tactics skill.",
 	"skill.core.tactics.description.basic" : "{Basic Tactics}\n\nBasic Tactics allows the hero to rearrange their troops within 3 hex rows of the commanding hero before combat. It negates one level of an enemy hero’s Tactics skill.",
-	"skill.core.tactics.description.expert" : "{Expert Tactics}\n\nExpert Tactics allows the hero to rearrange their troops within 7 hex rows of the commanding hero before combat. It negates an enemy hero’s Tactics skill.",
+	"skill.core.tactics.description.expert" : "{Expert Tactics}\n\nExpert Tactics allows the hero to rearrange their troops within 7 hex rows of the commanding hero before combat. It negates an enemy hero’s Tactics skill."
 }
