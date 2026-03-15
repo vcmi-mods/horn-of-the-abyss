@@ -22,6 +22,7 @@
 		"description" : "Changes the English ingame description of spells, map objects and artifacts to the ones used in HotA.",
 		"translations" : [
 			"config/englishTextPolishing/artifactDescriptions.json",
+			"config/englishTextPolishing/gameTextChanges.json",
 			"config/englishTextPolishing/objectDescriptions.json",
 			"config/englishTextPolishing/spellDescriptions.json"
 		]

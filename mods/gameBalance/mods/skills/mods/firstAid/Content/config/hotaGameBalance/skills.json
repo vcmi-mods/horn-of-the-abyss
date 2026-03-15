@@ -31,7 +31,7 @@
 			}
 		},
 		"basic" : {
-			"description" : "{Basic First Aid}\n\nBasic First Aid gives control of the first aid tent to the hero, healing 50 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 5%.",
+			"description" : "{Basic First Aid}\n\nBasic First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 50 points of Damage and grants all allied creatures +5% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack.",
 			"effects" : {
 				"stackhp" : {
 					"val" : 5
@@ -39,7 +39,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced First Aid}\n\nAdvanced First Aid gives control of the first aid tent to the hero, healing 75 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 10%.",
+			"description" : "{Advanced First Aid}\n\nAdvanced First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 75 points of Damage and grants all allied creatures +10% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack.",
 			"effects" : {
 				"stackhp" : {
 					"val" : 10
@@ -47,7 +47,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert First Aid}\n\nExpert First Aid gives control of the first aid tent to the hero, healing 100 points of damage to the first unit of the selected stack. It also increases the health of the hero's troops by 15%.",
+			"description" : "{Expert First Aid}\n\nExpert First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 100 points of Damage and grants all allied creatures +15% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack.",
 			"effects" : {
 				"stackhp" : {
 					"val" : 15
