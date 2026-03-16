@@ -10,8 +10,8 @@
 	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Meine Karten kosten 10.000 Gold, das du offenbar nicht hast. Verschwende nicht meine Zeit.",
 	"mapObject.core.cartographer.cartographerWater.onVisited" : "Du hast bereits alle meine Karten gesehen, Junge. Mach dich vom Acker.",
 	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Ihr findet einen alten Fischer, der die detailliertesten Seekarten besitzt, die Ihr je gesehen hast. Möchtet Ihr für 10.000 Gold ein Kartenset kaufen?",
-	"mapObject.core.scholar.scholar.rewards.0" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen, bevor er aufbricht.",
-	"mapObject.core.scholar.scholar.rewards.1" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen, bevor er aufbricht.",
-	"mapObject.core.scholar.scholar.rewards.2" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen, bevor er aufbricht.",
+	"mapObject.core.scholar.scholar.rewards.0" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen bevor er aufbricht.",
+	"mapObject.core.scholar.scholar.rewards.1" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen bevor er aufbricht.",
+	"mapObject.core.scholar.scholar.rewards.2" : "Als Ihr auf eine Lichtung reitet, bemerkt Ihr einen Universitätsgelehrten, der sein Pferd ausruhen lässt. Er bietet an, Euch einiges von seinem Wissen beizubringen bevor er aufbricht.",
 	"mapObject.core.witchHut.witchHut.rewards.0" : "{Hexenhütte}\n\nEine alte Hexe, die in einer seltsamen Hütte lebt, empfängt Euch und bietet an, Euch %s beizubringen, zu ihren eigenen unergründlichen Zwecken.",
 }
