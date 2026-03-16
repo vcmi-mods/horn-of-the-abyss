@@ -1,0 +1,18 @@
+{
+	"spell.core.airElemental.description.advanced" : "{Luftwesen verbessert}\n\nLäßt Euch Luftwesen herbeirufen.\n\nErschafft etwa anderthalb mal so viele Einheiten wie 'Luftwesen herbeirufen einfach'.\n",
+	"spell.core.airElemental.description.basic" : "{Luftwesen einfach}\n\nLäßt Euch Luftwesen herbeirufen.\n",
+	"spell.core.airElemental.description.expert" : "{Luftwesen Meisterhaft}\n\nLäßt Euch Luftwesen herbeirufen.\n\nErschafft etwa doppelt so viele Einheiten wie 'Luftwesen herbeirufen einfach'.\n",
+	"spell.core.airElemental.description.none" : "{Luftwesen}\n\nLäßt Euch Luftwesen herbeirufen.\n",
+	"spell.core.earthElemental.description.advanced" : "{Erdwesen verbessert}\n\nLäßt Euch Erdwesen herbeirufen.\n\nErschafft etwa anderthalb mal so viele Einheiten wie 'Erdwesen herbeirufen einfach'.\n",
+	"spell.core.earthElemental.description.basic" : "{Erdwesen einfach}\n\nLäßt Euch Erdwesen herbeirufen.\n",
+	"spell.core.earthElemental.description.expert" : "{Erdwesen Meisterhaft}\n\nLäßt Euch Erdwesen herbeirufen.\n\nErschafft etwa doppelt so viele Einheiten wie 'Erdwesen herbeirufen einfach'.\n",
+	"spell.core.earthElemental.description.none" : "{Erdwesen}\n\nLäßt Euch Erdwesen herbeirufen.\n",
+	"spell.core.fireElemental.description.advanced" : "{Feuerwesen verbessert}\n\nLäßt Euch Feuerwesen herbeirufen.\n\nErschafft etwa anderthalb mal so viele Einheiten wie 'Feuerwesen herbeirufen einfach'.\n",
+	"spell.core.fireElemental.description.basic" : "{Feuerwesen einfach}\n\nLäßt Euch Feuerwesen herbeirufen.\n",
+	"spell.core.fireElemental.description.expert" : "{Feuerwesen Meisterhaft}\n\nLäßt Euch Feuerwesen herbeirufen.\n\nErschafft etwa doppelt so viele Einheiten wie 'Feuerwesen herbeirufen einfach'.\n",
+	"spell.core.fireElemental.description.none" : "{Feuerwesen}\n\nLäßt Euch Feuerwesen herbeirufen.\n",
+	"spell.core.waterElemental.description.advanced" : "{Wasserwesen verbessert}\n\nLäßt Euch Wasserwesen herbeirufen.\n\nErschafft etwa anderthalb mal so viele Einheiten wie 'Wasserwesen herbeirufen einfach'.\n",
+	"spell.core.waterElemental.description.basic" : "{Wasserwesen einfach}\n\nLäßt Euch Wasserwesen herbeirufen.\n",
+	"spell.core.waterElemental.description.expert" : "{Wasserwesen Meisterhaft}\n\nLäßt Euch Wasserwesen herbeirufen.\n\nErschafft etwa doppelt so viele Einheiten wie 'Wasserwesen herbeirufen einfach'.\n",
+	"spell.core.waterElemental.description.none" : "{Wasserwesen}\n\nLäßt Euch Wasserwesen herbeirufen.\n"
+}

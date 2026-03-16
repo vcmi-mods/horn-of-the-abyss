@@ -137,8 +137,6 @@
 	"hero.hota.factory.05floribert.specialty.description" : "Увеличивает количество добавляемого Палаткой Первой Помощи здоровья на 5% за каждый уровень героя.",
 	"hero.hota.factory.08morton.specialty.description" : "Увеличивает атаку и защиту Баллисты на 30% за каждые 5 уровней героя (с округлением вверх).",
 	"hero.hota.factory.11celestine.specialty.description" : "Увеличивает скорость Броненосцев и Броненосцев-Вожаков на 1, а их атаку и защиту на 20% за каждые 3 уровня героя (с округлением вверх).",
-	"hero.hota.factory.11celestine.specialty.name" : "Броненосцы",
-	"hero.hota.factory.11celestine.specialty.tooltip" : "Бонусы для существ: броненосцы",
 	"hero.hota.factory.12todd.specialty.description" : "Увеличивает скорость Автоматонов и Автоматонов-Часовых на 1, а их атаку и защиту на 20% за каждые 4 уровня героя (с округлением вверх).",
 	"hero.hota.factory.13agar.specialty.description" : "Увеличивает скорость Песчаных Червей и Олгой-Хорхоев на 1, а их атаку и защиту на 20% за каждые 5 уровней героя (с округлением вверх).",
 	"hero.hota.factory.15wrathmont.specialty.description" : "Увеличивает бонус к атаке, добавляемый заклинанием Бешенство, на 10% за каждые n уровней героя, где n — уровень существа цели.",
