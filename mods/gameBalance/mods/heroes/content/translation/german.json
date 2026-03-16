@@ -78,8 +78,6 @@
 	"hero.core.rion.specialty.description" : "Erhält einen Bonus von 5 % pro Stufe auf die zusätzliche Gesundheit, die durch das Erste-Hilfe-Zelt bereitgestellt wird.",
 	"hero.core.roland.specialty.description" : "Erhöht die Geschwindigkeit verbündeter Schwertkämpfer und Kreuzritter um 1 und ihre Angriffs- und Verteidigungswerte um 20 % für je 4 Stufen (aufgerundet).",
 	"hero.core.ryland.specialty.description" : "Erhöht die Geschwindigkeit verbündeter Dendroid-Wachen und Dendroid-Soldaten um 1 und ihre Angriffs- und Verteidigungswerte um 20 % für je 5 Stufen (aufgerundet).",
-	"hero.core.ryland.specialty.name" : "Dendroid-Wachen",
-	"hero.core.ryland.specialty.tooltip" : "Einheitenbonus: Dendroid-Wachen",
 	"hero.core.septienna.specialty.description" : "Wirkt Todeswelle mit um 10 % erhöhtem Schaden für je N Heldenstufen, wobei N die Stufe der Zielkreatur ist.",
 	"hero.core.shakti.specialty.description" : "Erhöht die Geschwindigkeit verbündeter Troglodyten und Höllentroglodyten um 1 und ihre Angriffs- und Verteidigungswerte um 10 % pro Stufe (aufgerundet).",
 	"hero.core.shiva.specialty.description" : "Erhöht die Geschwindigkeit verbündeter Rocs und Donnervögel um 1 und ihre Angriffs- und Verteidigungswerte um 20 % für je 5 Stufen (aufgerundet).",
