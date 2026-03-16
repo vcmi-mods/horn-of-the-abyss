@@ -5,7 +5,6 @@
 		"types" : {
 			"townGate" : {
 				"name" : "Town Gate",
-				"description" : "(Teleport hero to any allied town)\n",
 				"rmg" : {
 					"value" : 10000,
 					"rarity" : 20,
