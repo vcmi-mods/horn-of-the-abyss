@@ -1,0 +1,17 @@
+{
+	"mapObject.core.arena.arena.onSelect" : "Ihr betretet die Arena und seht Euch einer Meute bösartiger Löwen gegenüber. Ihr besiegt sie geschickt, während die Zuschauer Euch wild anfeuern. Der alte Gladiatorentrainer ist von Euren Fähigkeiten beeindruckt und daher bereit, Euch in einer Fähigkeit Eurer Wahl zu unterrichten.",
+	"mapObject.core.arena.arena.onVisited" : "Die Arenawächter lassen Euch nicht herein. \"Ihr habt schon unsere Besten besiegt. Geht fort von hier.\"",
+	"mapObject.core.cartographer.cartographerLand.onEmpty" : "Meine Karten kosten 10.000 Gold, das du offenbar nicht hast. Verschwende nicht meine Zeit.",
+	"mapObject.core.cartographer.cartographerLand.onVisited" : "Du hast bereits alle meine Karten gesehen, Junge. Mach dich vom Acker.",
+	"mapObject.core.cartographer.cartographerLand.rewards.0" : "Ihr findet einen Kartographen, der Landkarten für 10.000 Gold verkauft. Würdet Ihr gerne eine Karte kaufen?",
+	"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "Meine Karten kosten 10.000 Gold, das du offenbar nicht hast. Verschwende nicht meine Zeit.",
+	"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "Du hast bereits alle meine Karten gesehen, Junge. Mach dich vom Acker.",
+	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "Ihr entdeckt einen alten Zwergenbergabeiter, der mehrere Karten aus seiner Dienstzeit behalten hat. Er würde Euch eine Karte der Tunnel für 10.000 Gold verkaufen. Nehmt Ihr das Angebot an?",
+	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Meine Karten kosten 10.000 Gold, das du offenbar nicht hast. Verschwende nicht meine Zeit.",
+	"mapObject.core.cartographer.cartographerWater.onVisited" : "Du hast bereits alle meine Karten gesehen, Junge. Mach dich vom Acker.",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Ihr findet einen alten Fischer, der die detailliertesten Seekarten hat, die Ihr je gesehen habt. Möchtet Ihr den Kartensatz für 10.000 Gold kaufen?",
+	"mapObject.core.scholar.scholar.rewards.0" : "Als Ihr auf eine Lichtung reitet, trefft Ihr dort einen Gelehrten aus der Universität, der sein Pferd ausruhen lässt. Er bietet an, Euch etwas von seinem Wissen zu vermitteln, bevor er weiterreitet.",
+	"mapObject.core.scholar.scholar.rewards.1" : "Als Ihr auf eine Lichtung reitet, trefft Ihr dort einen Gelehrten aus der Universität, der sein Pferd ausruhen lässt. Er bietet an, Euch etwas von seinem Wissen zu vermitteln, bevor er weiterreitet.",
+	"mapObject.core.scholar.scholar.rewards.2" : "Als Ihr auf eine Lichtung reitet, trefft Ihr dort einen Gelehrten aus der Universität, der sein Pferd ausruhen lässt. Er bietet an, Euch etwas von seinem Wissen zu vermitteln, bevor er weiterreitet.",
+	"mapObject.core.witchHut.witchHut.rewards.0" : "{Hexenhütte}\n\nEine uralte Hexe, die in einer seltsamen Hütte wohnt, heißt Euch willkommen und bietet Euch an %s zu lehren aus Gründen, die nur ihr selbst bekannt sind.",
+}

@@ -21,5 +21,12 @@
 	"czech" : {
 		"name" : "Kouzla",
 		"description" : ""
+	},
+	"german" : {
+		"name" : "Zaubersprüche",
+		"description" : "",
+		"translations" : [
+			"translation/german.json"
+		]
 	}
 }
