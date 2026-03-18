@@ -3,5 +3,5 @@
 	"building.core.dungeon.special2.onEmpty" : "Euer Held hat genügend Zauberpunkte und kann keine weiteren aus dem Mana-Strudel erhalten.",
 	"building.core.dungeon.special2.onVisited" : "Der Mana-Strudel wurde diese Woche bereits benutzt.",
 	"building.core.dungeon.special2.rewards.0" : "Als Ihr Euch dem Mana-Strudel nähert, spürt Ihr, dass er Euren Körper mit neuer Energie erfüllen könnte.\n\nMöchtet Ihr den Mana-Strudel nutzen, um die normalen Zauberpunkte Eures Helden zu verdoppeln?",
-	"building.core.necropolis.special2.description" : "Der Nekromantie-Verstärker erhöht die Nekromantie-Fertigkeit aller Helden, die Ihr kontrolliert (und die Nekromantie besitzen), um 5%."
+	"building.core.necropolis.special2.description" : "Der Nekromantie-Verstärker erhöht die Nekromantiefähigkeit aller kontrollierten Helden (die diese Fähigkeit besitzen) um +10%."
 }
