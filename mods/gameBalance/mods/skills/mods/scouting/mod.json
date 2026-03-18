@@ -38,17 +38,11 @@
 	},
 	"french" : {
 		"name" : "Scoutisme",
-		"description" : "",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : ""
 	},
 	"latvian" : {
 		"name" : "Skautu darbība",
-		"description" : "",
-		"translations" : [
-			"translation/latvian.json"
-		]
+		"description" : ""
 	},
 	"polish" : {
 		"name" : "Scouting",

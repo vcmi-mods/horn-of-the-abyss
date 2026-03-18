@@ -32,17 +32,11 @@
 	},
 	"french" : {
 		"name" : "Sorcellerie",
-		"description" : "",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : ""
 	},
 	"latvian" : {
 		"name" : "Burvestība",
-		"description" : "",
-		"translations" : [
-			"translation/latvian.json"
-		]
+		"description" : ""
 	},
 	"russian" : {
 		"name" : "Ворожба",

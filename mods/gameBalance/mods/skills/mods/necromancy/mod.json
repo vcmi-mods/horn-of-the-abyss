@@ -33,17 +33,11 @@
 	},
 	"french" : {
 		"name" : "Nécromancie",
-		"description" : "",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : ""
 	},
 	"latvian" : {
 		"name" : "Nekromantija",
-		"description" : "",
-		"translations" : [
-			"translation/latvian.json"
-		]
+		"description" : ""
 	},
 	"polish" : {
 		"name" : "Necromancy",

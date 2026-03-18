@@ -33,17 +33,11 @@
 	},
 	"french" : {
 		"name" : "Intelligence",
-		"description" : "",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : ""
 	},
 	"latvian" : {
 		"name" : "Intelekts",
-		"description" : "",
-		"translations" : [
-			"translation/latvian.json"
-		]
+		"description" : ""
 	},
 	"polish" : {
 		"name" : "Intelligence",
