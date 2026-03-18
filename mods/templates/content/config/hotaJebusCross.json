@@ -144,15 +144,16 @@
 								"value" : 500,
 								"zoneLimit" : 3
 							}
-						},
-						{
-							"type" : "hota.mapobjects:ancientLamp",
-							"subtype" : "hota.mapobjects:ancientLamp",
-							"rmg" : {
-								"rarity" : 200,
-								"value" : 5000
-							}
 						}
+						// FIXME: disabled until map objects can be limited to factions (should be Tower-only)
+						//{
+						//	"type" : "hota.mapobjects:ancientLamp",
+						//	"subtype" : "hota.mapobjects:ancientLamp",
+						//	"rmg" : {
+						//		"rarity" : 200,
+						//		"value" : 5000
+						//	}
+						//}
 					]
 				}
 			},
