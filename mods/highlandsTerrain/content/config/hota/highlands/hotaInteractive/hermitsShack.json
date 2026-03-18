@@ -21,8 +21,21 @@
 					]
 				},
 
-				"onVisitedMessage" : "{Hermit's Shack}\n\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely.",
-				"onEmptyMessage" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. There definitely is a lot to be learned here, but the material seems fairly advanced. You will have to get an introductory course elsewhere.",
+				"onVisitedMessage" : "{Hermit's Shack}\n\nOn entering the shack you see no renovations have been done since you were here last time. The wallpaper still features familiar writings.",
+				"onEmpty" : [
+					{
+						"limiter" : {
+							"canLearnSkills" : true
+						},
+						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. There definitely is a lot to be learned here, but the material seems fairly advanced. You will have to get an introductory course elsewhere."
+					},
+					{
+						"limiter" : {
+							"canLearnSkills" : false
+						},
+						"message" : "{Hermit's Shack}\n\nOn entering the shack you notice the walls are lined with pages from scholarly books. However, there's nothing to be learned, and, on top of that, the hermit owner of the place shows up and sees you out quite rudely."
+					}
+				],
 
 				"visitMode" : "hero",
 				"selectMode" : "selectRandom",
