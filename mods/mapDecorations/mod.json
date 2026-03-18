@@ -103,7 +103,7 @@
 		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
 		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "地图装饰物",
 		"description" : "新增和原有物体属性一致的新物体。"

@@ -23,7 +23,7 @@
 	"spells" : [
 		"config/hotaCannon/cannonSiegeShot.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "加农炮",
 		"description" : "这个模组添加新战争机器加农炮，可以在新地图物体铸炮厂里购买。"

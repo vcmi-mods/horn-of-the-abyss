@@ -62,7 +62,7 @@
 		"config/hota/wasteland/hotaStatic/hotaWastelandStaticBiomes.json",
 		"config/hota/wasteland/vanillaStatic/vanillaWastelandStaticBiomes.json"
 	],
-	
+
 	"chinese" : {
 		"name" : "荒地地形",
 		"description" : "新增荒地地形及多个该地形特有的地图物体。"

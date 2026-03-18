@@ -24,7 +24,7 @@
 		"config/hotaRay",
 		"config/hotaEnchanterArrow"
 	],
-	
+
 	"chinese" : {
 		"name" : "射击视觉效果改进",
 		"description" : "由Hota团队制作的射击生物视觉效果改进。"
