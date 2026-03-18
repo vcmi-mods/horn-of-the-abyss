@@ -1,6 +1,6 @@
 {
 	"name" : "Factory",
-	"description" : "New town Factory with steampunk theme",
+	"description" : "Town Factory with steampunk theme",
 
 	"author" : "HotA Crew, transplanted by Ben",
 	"contact" : "http://forum.vcmi.eu/index.php",
@@ -132,7 +132,15 @@
 			"New cowboy graphics by Kurek"
 		]
 	},
-
+	
+	"french" : {
+		"name" : "Usine",
+		"description" : "La ville Usine sur le thème steampunk"
+	},
+	"latvian" : {
+		"name" : "Rūpnīca",
+		"description" : "Pilsētas Rūpnīca ar steampunk tēmu"
+	},
 	"polish" : {
 		"name" : "Fabryka",
 		"description" : "Nowe miasto Fabryka w klimacie steampunkowym"

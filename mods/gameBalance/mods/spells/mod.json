@@ -28,5 +28,19 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"french" : {
+		"name" : "Sorts",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Burvestības",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	}
 }

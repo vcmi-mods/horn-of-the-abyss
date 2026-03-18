@@ -110,5 +110,13 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"french" : {
+		"name" : "Bulwark",
+		"description" : "Ville « Bulwark » sur le thème arctique Vori"
+	},
+	"latvian" : {
+		"name" : "Balwark",
+		"description" : "Pilsēta « Balwark » ar arktisku Vori tēmu"
 	}
 }

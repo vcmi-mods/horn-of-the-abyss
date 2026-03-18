@@ -31,6 +31,14 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Intelligence",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Intelekts",
+		"description" : ""
+	},
 	"polish" : {
 		"name" : "Intelligence",
 		"description" : "",

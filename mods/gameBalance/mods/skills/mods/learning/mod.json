@@ -30,6 +30,14 @@
 			"translation/czech.json"
 		]
 	},
+	"french" : {
+		"name" : "Apprentissage",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Mācīšanās",
+		"description" : ""
+	},
 	"russian" : {
 		"name" : "Обучение",
 		"description" : "",

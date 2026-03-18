@@ -17,6 +17,7 @@
 	"bonuses" : [
 		"config/hotaGameBalance/firstAidBonusType.json"
 	],
+
 	"chinese" : {
 		"name" : "急救术",
 		"description" : "",
@@ -36,6 +37,20 @@
 		"description" : "",
 		"translations" : [
 			"translation/czech.json"
+		]
+	},
+	"french" : {
+		"name" : "Premiers secours",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Pirmā palīdzība",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
 		]
 	},
 	"russian" : {

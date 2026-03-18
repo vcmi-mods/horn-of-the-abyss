@@ -34,14 +34,6 @@
 		"small-era-mods.new terrains",
 		"tides-of-war"
 	],
-	"chinese" : {
-		"name" : "英雄无敌3数据补丁",
-		"description" : "修复改进一些死亡阴影图像和声音资源。"
-	},
-	"czech" : {
-		"name" : "Oprava grafiky pro Heroes 3",
-		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
-	},
 	"factions" : [
 		"config/heroes3DataPatch/confluxTerrain.json",
 		"config/heroes3DataPatch/necropolisPuzzle.json",
@@ -55,6 +47,23 @@
 		"config/heroes3DataPatch/objects.json",
 		"config/heroes3DataPatch/dwellings"
 	],
+
+	"chinese" : {
+		"name" : "英雄无敌3数据补丁",
+		"description" : "修复改进一些死亡阴影图像和声音资源。"
+	},
+	"czech" : {
+		"name" : "Oprava grafiky pro Heroes 3",
+		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
+	},
+	"french" : {
+		"name" : "Patch de données de Heroes III",
+		"description" : "Corrections et améliorations apportées aux graphismes et aux sons de certains éléments du jeu SoD."
+	},
+	"latvian" : {
+		"name" : "Heroes III datu ielāps",
+		"description" : "Dažu SoD spēles resursu grafikas un skaņu labojumi un uzlabojumi."
+	},
 	"polish" : {
 		"name" : "Łatka danych Heroes III",
 		"description" : "Poprawki i ulepszenia grafiki oraz dźwięków dla niektórych zasobów z SoD"

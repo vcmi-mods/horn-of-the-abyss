@@ -31,6 +31,14 @@
 		"name" : "Méně náhodný start",
 		"description" : "Hrdinové s počáteční armádou vždy mají všechny jednotky a bojový stroj, bez možnosti, že by některá z nich chyběla. Města s tvrzí mají vždy automaticky postavené obydlí pro jednotky 2. úrovně."
 	},
+	"french" : {
+		"name" : "Démarrage moins aléatoire",
+		"description" : "Les héros disposant d'une armée de départ ont toujours toutes leurs troupes (et une machine de guerre), sans possibilité d'absence. Les villes avec un fort possèdent toujours une habitation de niveau 2 construite par défaut."
+	},
+	"latvian" : {
+		"name" : "Mazāk nejaušas sākšanas",
+		"description" : "Varoņiem ar sākuma armiju vienmēr ir visi karaspēki (un kara mašīna), bez iespējas, ka kāds no tiem varētu nebūt klāt. Pilsētās ar fortiem pēc noklusējuma vienmēr ir uzbūvēta 2. līmeņa mājokļa ēka."
+	},
 	"polish" : {
 		"name" : "Mniej losowy start",
 		"description" : "Bohaterowie zawsze zaczynają z pełną armią startową (i machiną wojenną), bez ryzyka braku jednostek. Miasta z Fortem mają zawsze zbudowany poziom 2 siedliska stworzeń."

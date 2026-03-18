@@ -21,14 +21,6 @@
 	"compatibility" : {
 		"min" : "1.3.0"
 	},
-	"chinese" : {
-		"name" : "社区扩展",
-		"description" : "这个模组引入了以下新元素：<br/><br/>宝物：<br/>- 末啸之牙<br/>- 神威战弓<br/>- 爬者浩劫<br/>- 空洞之眼<br/><br/>地图物体：<br/>- 哨塔<br/>- 钢魔像工厂<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>其他物体：<br/>- 袋鼠<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>注意：这是由社区创作的非官方内容。"
-	},
-	"czech" : {
-		"name" : "Komunitní rozšíření",
-		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Toto je neoficiální obsah vytvořený komunitou."
-	},
 	"artifacts" : [
 		"config/hota/supplementary/artifacts/newArtifacts.json"
 	],
@@ -41,6 +33,23 @@
 	"factions" : [
 		"config/hota/supplementary/factory/town.json"
 	],
+
+	"chinese" : {
+		"name" : "社区扩展",
+		"description" : "这个模组引入了以下新元素：<br/><br/>宝物：<br/>- 末啸之牙<br/>- 神威战弓<br/>- 爬者浩劫<br/>- 空洞之眼<br/><br/>地图物体：<br/>- 哨塔<br/>- 钢魔像工厂<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>其他物体：<br/>- 袋鼠<br/>- 闪电发生器<br/>- 风力涡轮机<br/><br/>注意：这是由社区创作的非官方内容。"
+	},
+	"czech" : {
+		"name" : "Komunitní rozšíření",
+		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Toto je neoficiální obsah vytvořený komunitou."
+	},
+	"french" : {
+		"name" : "Expansion de la communauté",
+		"description" : "Introduit les nouveaux éléments suivants :<br/><br/>Artefacts :<br/>- Croc du Dernier Cri<br/>- Grand Arc de Bataille<br/>- Grand Malheur des Rampants<br/>- Œil Creux<br/><br/>Objets de la carte :<br/>- Tour de Garde<br/>- Usine de Golems d'Acier<br/>- Générateur de Foudre<br/>- Éolienne<br/><br/>Autres objets :<br/>- Kangourou<br/>- Générateur de Foudre<br/>- Éolienne<br/><br/>Remarque : Ceci est un contenu non officiel créé par la communauté."
+	},
+	"latvian" : {
+		"name" : "Kopienas paplašināšana",
+		"description" : "Iepazīstina ar šādiem jauniem elementiem:<br/><br/>Artefakti:<br/>- Pēdējā kliedziena ilknis<br/>- Lielais kaujas loks<br/>- Rāpotāju lielās bēdas<br/>- Dobā acs<br/><br/>Kartes objekti:<br/>- Sargu tornis<br/>- Tērauda Golema fabrika<br/>- Zibens ģenerators<br/>- Vēja turbīna<br/><br/>Citi objekti:<br/>- Kengurs<br/>- Zibens ģenerators<br/>- Vēja turbīna<br/><br/>Piezīme. Šis ir neoficiāls saturs, ko izveidojusi kopiena."
+	},
 	"polish" : {
 		"name" : "Rozszerzenie społeczności",
 		"description" : "Mod wprowadza następujące nowe elementy:<br/><br/>Artefakty:<br/>- Kieł Ostatniego Krzyku<br/>- Wielki Łuk Bitewny<br/>- Wielka Zgroza Pełzaczy<br/>- Puste Oko<br/><br/>Obiekty na mapie:<br/>- Wieża Strażnicza<br/>- Fabryka Stalowych Golemów<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Inne obiekty:<br/>- Kangur<br/>- Generator Piorunów<br/>- Turbina Wiatrowa<br/><br/>Uwaga: To nieoficjalna zawartość stworzona przez społeczność."

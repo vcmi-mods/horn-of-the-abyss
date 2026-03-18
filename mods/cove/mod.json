@@ -1,6 +1,6 @@
 {
 	"name" : "Cove",
-	"description" : "New town Cove with pirate theme",
+	"description" : "Town Cove with pirate theme",
 
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
@@ -87,6 +87,14 @@
 		"config/hota/cove/boats"
 	],
 
+	"french" : {
+		"name" : "Crique",
+		"description" : "Ville Crique sur le thème des pirates"
+	},
+	"latvian" : {
+		"name" : "Līcis",
+		"description" : "Pilsēta « Līcis » ar pirātu tematiku"
+	},
 	"polish" : {
 		"name" : "Cove",
 		"description" : "Nowe miasto Cove o tematyce pirackiej"

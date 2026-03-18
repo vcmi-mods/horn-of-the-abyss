@@ -31,6 +31,14 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Mysticisme",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Misticisms",
+		"description" : ""
+	},
 	"polish" : {
 		"name" : "Mysticism",
 		"description" : "",

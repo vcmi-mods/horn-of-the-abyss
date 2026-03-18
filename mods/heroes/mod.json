@@ -34,6 +34,14 @@
 		"config/stronghold/heroes/gruezak",
 		"config/stronghold/heroes/zog"
 	],
+	"french" : {
+		"name" : "Héros",
+		"description" : "Nouveaux héros pour le jeu de base : Béatrice, Kinkeria et Ranloo.<br/>De plus, le comportement des héros Voy et Sylvia est modifié ; ils ne sont désormais disponibles que sur les cartes aquatiques. Enfin, une option permet d'activer les héros de la campagne HotA !"
+	},
+	"latvian" : {
+		"name" : "Varoņi",
+		"description" : "Jauni varoņi pamata spēlei — Beatrise, Kinkerija un Ranlū.<br/>Turklāt tas maina varoņu Voja un Silvijas uzvedību, kuri tagad ir pieejami tikai kartēs ar ūdeni. Papildus ir pieejama iespēja iespējot HotA kampaņas varoņus!"
+	},
 	"polish" : {
 		"name" : "Bohaterowie",
 		"description" : "Nowi bohaterowie do podstawowej gry – Beatrice, Kinkeria i Ranloo.<br/>Dodatkowo zmienia działanie bohaterów Voy i Sylvia, którzy są teraz dostępni tylko na mapach z wodą. Opcjonalnie można też włączyć bohaterów z kampanii HotA!"

@@ -27,6 +27,14 @@
 		"name" : "Ukazatel pohybu hrdiny",
 		"description" : "Ukazatel pohybu hrdiny"
 	},
+	"french" : {
+		"name" : "Flèche de déplacement du héros",
+		"description" : "Modifie le style de la flèche de déplacement du héros."
+	},
+	"latvian" : {
+		"name" : "Varoņa kustības bultiņa",
+		"description" : "Mainiet varoņa kustības bultiņas stilu."
+	},
 	"polish" : {
 		"name" : "Strzałka ruchu bohatera",
 		"description" : "Strzałka ruchu bohatera"

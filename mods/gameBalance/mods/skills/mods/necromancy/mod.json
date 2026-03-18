@@ -31,6 +31,14 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Nécromancie",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Nekromantija",
+		"description" : ""
+	},
 	"polish" : {
 		"name" : "Necromancy",
 		"description" : "",

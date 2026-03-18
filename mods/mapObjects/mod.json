@@ -45,6 +45,14 @@
 			"translation/mapObjects/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Objets de carte",
+		"description" : "Ajoute plusieurs nouveaux objets créés par HotA Crew à VCMI, disponibles sur des cartes aléatoires."
+	},
+	"latvian" : {
+		"name" : "Kartes objekti",
+		"description" : "Pievieno VCMI vairākus jaunus objektus, ko pievienojusi HotA Crew, un tie ir pieejami nejaušās kartēs."
+	},
 	"polish" : {
 		"name" : "Nowe obiekty",
 		"description" : "Mod dodaje wiele nowych obiektów stworzonych przez HotA Crew do VCMI, które pojawiają się na mapach losowych",

@@ -7,14 +7,6 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.61",
-	"chinese" : {
-		"name" : "加农炮",
-		"description" : "这个模组添加新战争机器加农炮，可以在新地图物体铸炮厂里购买。"
-	},
-	"czech" : {
-		"name" : "Dělo",
-		"description" : "Přidává nový válečný stroj - Dělo. Dělo lze zakoupit ve Zbojovce"
-	},
 	"artifacts" : [
 		"config/hotaCannon/cannonArtifact.json"
 	],
@@ -31,6 +23,23 @@
 	"spells" : [
 		"config/hotaCannon/cannonSiegeShot.json"
 	],
+	
+	"chinese" : {
+		"name" : "加农炮",
+		"description" : "这个模组添加新战争机器加农炮，可以在新地图物体铸炮厂里购买。"
+	},
+	"czech" : {
+		"name" : "Dělo",
+		"description" : "Přidává nový válečný stroj - Dělo. Dělo lze zakoupit ve Zbojovce"
+	},
+	"french" : {
+		"name" : "Canon",
+		"description" : "Ajoute une nouvelle machine de guerre : le canon, disponible à l'achat dans le nouvel objet de la carte : Chantier militaire"
+	},
+	"latvian" : {
+		"name" : "Lielgabals",
+		"description" : "Pievieno jaunu kara mašīnu: lielgabalu, ko var iegādāties jaunā kartes objektā: lielgabalu pagalmā."
+	},
 	"polish" : {
 		"name" : "Armata",
 		"description" : "Ten mod dodaje nową machinę wojenną: Armatę, dostępną w nowym obiekcie na mapie: Fabryka maszyn wojennych"

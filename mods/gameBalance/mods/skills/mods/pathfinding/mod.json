@@ -30,6 +30,20 @@
 			"translation/czech.json"
 		]
 	},
+	"french" : {
+		"name" : "Recherche de chemin",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Ceļa meklēšana",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"russian" : {
 		"name" : "Следопыт",
 		"description" : "",

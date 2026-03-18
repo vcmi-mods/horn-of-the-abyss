@@ -15,14 +15,6 @@
 	"softDepends" : [
 		"wake-of-gods.woggraphicfix.wf_mapobjects"
 	],
-	"chinese" : {
-		"name" : "地图装饰物",
-		"description" : "新增和原有物体属性一致的新物体。"
-	},
-	"czech" : {
-		"name" : "Dekorace map",
-		"description" : "Nové objekty pro mapy."
-	},
 	"objects" : [
 		"config/hotaMapDecorations/hotaInteractive/boats.json",
 		"config/hotaMapDecorations/hotaInteractive/monolithOneWayEntrance.json",
@@ -111,6 +103,23 @@
 		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
 		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
 	],
+	
+	"chinese" : {
+		"name" : "地图装饰物",
+		"description" : "新增和原有物体属性一致的新物体。"
+	},
+	"czech" : {
+		"name" : "Dekorace map",
+		"description" : "Nové objekty pro mapy."
+	},
+	"french" : {
+		"name" : "Décorations de cartes",
+		"description" : "Nouveaux objets pour les cartes."
+	},
+	"latvian" : {
+		"name" : "Kartes rotājumi",
+		"description" : "Jauni objekti kartēm."
+	},
 	"polish" : {
 		"name" : "Dekoracje mapy",
 		"description" : "Nowe obiekty mające takie same właściwości jak stare"

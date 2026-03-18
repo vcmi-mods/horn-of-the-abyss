@@ -28,5 +28,13 @@
 	"czech" : {
 		"name" : "Počáteční armády",
 		"description" : ""
+	},
+	"french" : {
+		"name" : "Armées de départ",
+		"description" : "Armées de départ"
+	},
+	"latvian" : {
+		"name" : "Sākotnējās armijas",
+		"description" : "Sākotnējās armijas"
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"name" : "Artifacts",
-	"description" : "",
+	"description" : "Game balance created by HotA Crew for the Horn of The Abyss expansion",
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
@@ -32,6 +32,14 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"french" : {
+		"name" : "Artefacts",
+		"description" : "Équilibrage du jeu créé par l'équipe de HotA pour l'extension Horn of the Abyss"
+	},
+	"latvian" : {
+		"name" : "Artefakti",
+		"description" : "Spēles līdzsvaru paplašinājumam “Horn of The Abyss” izveidoja HotA Crew"
 	},
 	"polish" : {
 		"name" : "Artefakty",

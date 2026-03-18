@@ -18,5 +18,13 @@
 	"czech" : {
 		"name" : "Úprava četnosti objektů",
 		"description" : ""
+	},
+	"french" : {
+		"name" : "Densité des objets",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Objekta blīvums",
+		"description" : ""
 	}
 }

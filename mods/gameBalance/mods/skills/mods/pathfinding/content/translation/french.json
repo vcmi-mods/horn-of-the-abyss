@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.basic" : "{Éclaireur de niveau 1}\n\nRéduit la pénalité de déplacement sur terrain accidenté, diminuant le coût de déplacement de 25 %, jusqu'à un minimum de 95 %.",
+	"skill.core.pathfinding.description.advanced" : "{Éclaireur de niveau 2}\n\nRéduit la pénalité de déplacement sur terrain accidenté, diminuant le coût du déplacement de 50 %, jusqu'à un minimum de 90 %.",
+	"skill.core.pathfinding.description.expert" : "{Éclaireur de niveau 3}\n\nRéduit la pénalité de déplacement sur terrain accidenté, diminuant le coût du déplacement de 75 %, jusqu'à un minimum de 85 %."
+}

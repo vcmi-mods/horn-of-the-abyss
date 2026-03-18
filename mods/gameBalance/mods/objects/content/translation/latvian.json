@@ -1,0 +1,17 @@
+{
+	"mapObject.core.arena.arena.onSelect" : "Tu ieej arēnā, kur tevi gaida piecpadsmit savvaļas lauvas. Par pūļa prieku tu tos viegli uzveic, un padzīvojis gladiatoru instruktors, iespaidots par tavu iespaidīgo ieeju, piedāvā iemācīt tev jebkuru prasmi pēc tavas izvēles.",
+	"mapObject.core.arena.arena.onVisited" : "Arēnas apsargi tevi neielaiž: \"Tu jau esi uzstājies arēnā. Ej prom.\"",
+	"mapObject.core.cartographer.cartographerLand.onEmpty" : "Manas kārtis ir 10 000 zelta vērtas. Tev to nav. Tāpēc netraucē mani.",
+	"mapObject.core.cartographer.cartographerLand.onVisited" : "Tu jau esi redzējis visas manas kārtis, puis, uz priekšu.",
+	"mapObject.core.cartographer.cartographerLand.rewards.0" : "Tu esi saticis kartogrāfu, kurš pārdod zemes kartes par 10 000 zelta. Vai vēlies tādu iegādāties?",
+	"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "Manas kārtis ir 10 000 zelta vērtas. Tev to nav. Tāpēc netraucē mani.",
+	"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "Tu jau esi redzējis visas manas kārtis, puis, uz priekšu.",
+	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "Tu esi atklājis vecu rūķu kalnraču, kurš ir saglabājis vairākas pazemes eju kartes no seniem laikiem. Viņš pārdod tuneļu karti par 10 000 zelta. Vai esi ar mieru to nopirkt?",
+	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Manas kārtis ir 10 000 zelta vērtas. Tev to nav. Tāpēc netraucē mani.",
+	"mapObject.core.cartographer.cartographerWater.onVisited" : "Tu jau esi redzējis visas manas kārtis, puis, uz priekšu.",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Tu esi saticis zvejnieku, kuram ir visdetalizētākās jūras kartes, kādas jebkad esi redzējis. Vai vēlies iegādāties karšu komplektu par 10 000 zelta?",
+	"mapObject.core.scholar.scholar.rewards.0" : "Izjājot tuksnesī, jūs redzat universitātes profesoru un viņa zirgu, kas tur nometnē. Viņš piedāvā jums pastāstīt kaut ko noderīgu jūsu brīvajā laikā.",
+	"mapObject.core.scholar.scholar.rewards.1" : "Izjājot tuksnesī, jūs redzat universitātes profesoru un viņa zirgu, kas tur nometnē. Viņš piedāvā jums pastāstīt kaut ko noderīgu jūsu brīvajā laikā.",
+	"mapObject.core.scholar.scholar.rewards.2" : "Izjājot tuksnesī, jūs redzat universitātes profesoru un viņa zirgu, kas tur nometnē. Viņš piedāvā jums pastāstīt kaut ko noderīgu jūsu brīvajā laikā.",
+	"mapObject.core.witchHut.witchHut.rewards.0" : "{Raganas būda}\n\nVecā ragana aicina tevi uz savu būdu. Bez liekas kavēšanās viņa piedāvā iemācīt tev prasmi %s."
+}

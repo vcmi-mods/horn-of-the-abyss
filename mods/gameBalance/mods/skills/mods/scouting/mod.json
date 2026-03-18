@@ -36,6 +36,14 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Scoutisme",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Skautu darbība",
+		"description" : ""
+	},
 	"polish" : {
 		"name" : "Scouting",
 		"description" : "",

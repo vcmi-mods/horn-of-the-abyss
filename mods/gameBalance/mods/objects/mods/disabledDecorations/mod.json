@@ -18,5 +18,13 @@
 	"czech" : {
 		"name" : "Zakázané dekorace",
 		"description" : "Zamezí generování některých dekorací na náhodných mapách určených výhradně pro použití v editoru map."
+	},
+	"french" : {
+		"name" : "Décors désactivés",
+		"description" : "Évite que certains décors destinés exclusivement à l'utilisation de l'éditeur de cartes ne servent pour les cartes aléatoires."
+	},
+	"latvian" : {
+		"name" : "Invalīdu rotājumi",
+		"description" : "Neļauj ģenerēt dažus dekorācijas, kas paredzētas tikai kartes redaktora lietošanai, nejaušās kartēs."
 	}
 }

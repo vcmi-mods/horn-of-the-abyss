@@ -13,14 +13,6 @@
 	"conflicts" : [
 		"hd-edition"
 	],
-	"chinese" : {
-		"name" : "城镇和生物的新冒险地图图像",
-		"description" : "这个选项启用HotA团队新增的新图像，目前，这个模组包含地图上城镇的新动画以及野外怪物的修复动画。"
-	},
-	"czech" : {
-		"name" : "Nové animace",
-		"description" : "Tato modifikace aktivuje nové animace jednotek a měst."
-	},
 	"factions" : [
 		"config/hota/newGraphics/newTownAnimations"
 	],
@@ -43,6 +35,23 @@
 		"config/hota/newGraphics/spells/iceBolt",
 		"config/hota/newGraphics/spells/magicArrow"
 	],
+
+	"chinese" : {
+		"name" : "城镇和生物的新冒险地图图像",
+		"description" : "这个选项启用HotA团队新增的新图像，目前，这个模组包含地图上城镇的新动画以及野外怪物的修复动画。"
+	},
+	"czech" : {
+		"name" : "Nové animace",
+		"description" : "Tato modifikace aktivuje nové animace jednotek a měst."
+	},
+	"french" : {
+		"name" : "Nouveaux graphismes",
+		"description" : "Active les nouveaux objets graphiques ajoutés par HotA Crew. Actuellement, ce mod comprend de nouvelles animations pour les villes sur la carte, ainsi que des animations corrigées pour les monstres errants et les sorts."
+	},
+	"latvian" : {
+		"name" : "Jauna grafika",
+		"description" : "Iespējo jaunus grafiskos objektus, ko pievienojusi HotA Crew. Pašlaik šajā modā ir iekļautas jaunas animācijas pilsētām kartē, kā arī labotas klejojošu monstru un burvestību animācijas."
+	},
 	"polish" : {
 		"name" : "Nowa grafika przygód dla miast i stworzeń",
 		"description" : "Opcja włącza nowe obiekty graficzne dodane przez HotA Crew. Obecnie mod zawiera nowe animacje miast oraz poprawione animacje potworów na mapie przygody"

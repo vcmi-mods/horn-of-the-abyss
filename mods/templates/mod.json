@@ -60,6 +60,14 @@
 		"name" : "Šablony náhodných map",
 		"description" : "Tato modifikace přidává šablony náhodných map z Horn of the Abyss"
 	},
+	"french" : {
+		"name" : "Modèles HotA",
+		"description" : "Des modèles qui proviennent de HotA"
+	},
+	"latvian" : {
+		"name" : "HotA veidnes",
+		"description" : "Dažas veidnes no HotA"
+	},
 	"polish" : {
 		"name" : "Szablony HotA",
 		"description" : "Szablony pochodzące z HotA"

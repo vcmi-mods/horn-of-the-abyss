@@ -13,5 +13,13 @@
 	"czech" : {
 		"name" : "Schopnosti",
 		"description" : ""
+	},
+	"french" : {
+		"name" : "Compétences",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Prasmes",
+		"description" : ""
 	}
 }

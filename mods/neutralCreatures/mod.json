@@ -18,15 +18,6 @@
 	},
 	"depends" : [],
 
-	"chinese" : {
-		"name" : "中立生物",
-		"description" : "在游戏中添加新中立生物：夺心魔、矮精灵和钢人。"
-	},
-	"czech" : {
-		"name" : "Neutrální jednotky",
-		"description" : "Tato modifikace přidává nové neutrální jednotky - Chapadlatce, Leprikóny, Satyry a Ocelové golemy"
-	},
-
 	"creatures" : [
 		"config/hotaNeutralCreatures/satyr",
 		"config/hotaNeutralCreatures/fangarm",
@@ -43,6 +34,23 @@
 	"spells" : [
 		"config/artiSpells/HornSpell"
 	],
+
+	"chinese" : {
+		"name" : "中立生物",
+		"description" : "在游戏中添加新中立生物：夺心魔、矮精灵和钢人。"
+	},
+	"czech" : {
+		"name" : "Neutrální jednotky",
+		"description" : "Tato modifikace přidává nové neutrální jednotky - Chapadlatce, Leprikóny, Satyry a Ocelové golemy"
+	},
+	"french" : {
+		"name" : "Créatures neutres",
+		"description" : "Ajoute de nouvelles créatures neutres au jeu : Fangarm, Leprechaun, Satyre, Golem d'Acier"
+	},
+	"latvian" : {
+		"name" : "Neitrālas radības",
+		"description" : "Pievieno spēlei jaunas neitrālas radības: Fangarmu, Leprechaunu, Satīru, Tērauda Golemu"
+	},
 	"polish" : {
 		"name" : "Neutralne jednostki",
 		"description" : "Dodaje nowe jednostki neutralne: Fangarm, Leprekaun, Satyr, Stalowy Golem"
