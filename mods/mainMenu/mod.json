@@ -48,10 +48,17 @@
 		"name" : "主菜单主题",
 		"description" : "将主菜单主题修改为深渊号角曾用的一个。"
 	},
-
 	"czech" : {
 		"name" : "Vzhled hlavního menu",
 		"description" : "Mění vzhled hlavního menu na ikonické menu Horn of the Abyss."
+	},
+	"french" : {
+		"name" : "Thème du menu principal",
+		"description" : "Modifie le thème du menu principal pour utiliser celui du mod Horn of the Abyss"
+	},
+	"latvian" : {
+		"name" : "Galvenās izvēlnes tēma",
+		"description" : "Maina galvenās izvēlnes tēmu uz tādu, kādu izmanto Horn of the Abyss mods."
 	},
 	"polish" : {
 		"name" : "Motyw menu głównego",

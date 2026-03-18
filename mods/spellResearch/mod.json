@@ -68,6 +68,14 @@
 		"name" : "Výzkum kouzel",
 		"description" : "Tato modifikace aktivuje základní systém výzkumu kouzel ve věži kouzel"
 	},
+	"french" : {
+		"name" : "Recherche de sorts",
+		"description" : "Permet au système de recherche de sorts de base d'imiter une fonctionnalité similaire dans HotA."
+	},
+	"latvian" : {
+		"name" : "Burvestību izpēte",
+		"description" : "Ļauj pamata burvestību izpētes sistēmai atdarināt līdzīgu funkciju HotA."
+	},
 	"polish" : {
 		"name" : "Badanie zaklęć",
 		"description" : "Podmoduł włącza podstawowy system badań zaklęć na wzór rozwiązania w HotA"

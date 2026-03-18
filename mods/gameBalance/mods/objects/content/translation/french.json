@@ -1,0 +1,17 @@
+{
+	"mapObject.core.arena.arena.onSelect" : "Vous entrez dans l'arène, où quinze lions sauvages vous attendent. Sous les acclamations de la foule, vous les terrassez sans difficulté, et un vieux maître gladiateur, impressionné par votre entrée spectaculaire, vous propose de vous enseigner la discipline de votre choix.",
+	"mapObject.core.arena.arena.onVisited" : "Les gardes de l'arène ne vous laisseront pas entrer : \" Vous avez déjà joué dans l'arène. Partez. \"",
+	"mapObject.core.cartographer.cartographerLand.onEmpty" : "Mes cartes valent 10 000 pièces d'or. Vous ne les avez pas. Alors, ne me dérangez pas.",
+	"mapObject.core.cartographer.cartographerLand.onVisited" : "Tu as déjà vu toutes mes cartes, mon garçon, va.",
+	"mapObject.core.cartographer.cartographerLand.rewards.0" : "Vous avez rencontré un cartographe qui vend des cartes géographiques pour 10 000 pièces d'or. Souhaiteriez-vous en acheter une ?",
+	"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "Mes cartes valent 10 000 pièces d'or. Vous ne les avez pas. Alors, ne me dérangez pas.",
+	"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "Tu as déjà vu toutes mes cartes, mon garçon, va.",
+	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "Vous avez découvert un vieux mineur nain qui a conservé plusieurs cartes de passages souterrains datant de l'Antiquité. Il vend une carte des tunnels pour 10 000 pièces d'or. Seriez-vous intéressé(e) ?",
+	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Mes cartes valent 10 000 pièces d'or. Vous ne les avez pas. Alors, ne me dérangez pas.",
+	"mapObject.core.cartographer.cartographerWater.onVisited" : "Tu as déjà vu toutes mes cartes, mon garçon, va.",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Vous avez rencontré un pêcheur qui possède les cartes marines les plus détaillées que vous ayez jamais vues. Souhaiteriez-vous acheter un jeu de cartes pour 10 000 pièces d'or ?",
+	"mapObject.core.scholar.scholar.rewards.0" : "En vous aventurant dans le désert, vous apercevez un professeur d'université et son cheval campés là. Il vous propose de vous donner des conseils utiles pendant votre temps libre.",
+	"mapObject.core.scholar.scholar.rewards.1" : "En vous aventurant dans le désert, vous apercevez un professeur d'université et son cheval campés là. Il vous propose de vous donner des conseils utiles pendant votre temps libre.",
+	"mapObject.core.scholar.scholar.rewards.2" : "En vous aventurant dans le désert, vous apercevez un professeur d'université et son cheval campés là. Il vous propose de vous donner des conseils utiles pendant votre temps libre.",
+	"mapObject.core.witchHut.witchHut.rewards.0" : "{Cabane de la sorcière}\n\nLa vieille sorcière vous invite dans sa cabane. Sans plus attendre, elle vous propose de vous enseigner la compétence %s."
+}

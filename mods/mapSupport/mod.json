@@ -47,6 +47,14 @@
 		"name" : "Suporte ao formato de mapa (HotA)",
 		"description" : "Este mod contém os arquivos de suporte necessários para carregar mapas no formato 'Horn of the Abyss' no VCMI"
 	},
+	"french" : {
+		"name" : "Prise en charge des formats de carte (HotA)",
+		"description" : "Contient les fichiers de support nécessaires au chargement des cartes au format « Horn of the Abyss » dans VCMI."
+	},
+	"latvian" : {
+		"name" : "Kartes formāta atbalsts (HotA)",
+		"description" : "Satur atbalsta failus, kas nepieciešami karšu ielādei formātā “Horn of the Abyss” programmā VCMI."
+	},
 
 	"campaignRegions" : {
 		"BgRoger" : {

@@ -8,6 +8,7 @@
 	"creatures" : [
 		"config/cannon.json"
 	],
+
 	"chinese" : {
 		"name" : "额外技能图标",
 		"description" : "生物技能的额外图标。",
@@ -27,6 +28,20 @@
 		"description" : "Ikony pro schopnosti jednotek.",
 		"translations" : [
 			"translation/czech.json"
+		]
+	},
+	"french" : {
+		"name" : "Icônes de bonus supplémentaires",
+		"description" : "Icônes supplémentaires pour les capacités des créatures.",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Papildu bonusu ikonas",
+		"description" : "Papildu ikonas radījumu spējām.",
+		"translations" : [
+			"translation/latvian.json"
 		]
 	}
 }

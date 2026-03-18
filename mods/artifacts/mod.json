@@ -7,14 +7,6 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.8",
-	"chinese" : {
-		"name" : "宝物",
-		"description" : "Hota团队为深渊号角资料片制作的一系列宝物。"
-	},
-	"czech" : {
-		"name" : "Artefakty",
-		"description" : "Sada artefaktů vytvořená týmem Hota Crew pro rozšíření Horn of the Abyss"
-	},
 	"artifacts" : [
 		"config/hotaArtifacts/capeOfSilence",
 		"config/hotaArtifacts/crownOfTheFiveSeas",
@@ -38,6 +30,23 @@
 		"config/hotaArtifacts/sealOfSunset",
 		"config/hotaArtifacts/plateofDyingLight"
 	],
+
+	"chinese" : {
+		"name" : "宝物",
+		"description" : "Hota团队为深渊号角资料片制作的一系列宝物。"
+	},
+	"czech" : {
+		"name" : "Artefakty",
+		"description" : "Sada artefaktů vytvořená týmem Hota Crew pro rozšíření Horn of the Abyss"
+	},
+	"french" : {
+		"name" : "Artefacts",
+		"description" : "Ensemble d'artefacts créés par Hota Crew pour l'extension Horn of the Abyss"
+	},
+	"latvian" : {
+		"name" : "Artefakti",
+		"description" : "Hota Crew izveidots artefaktu komplekts papildinājumam Horn of the Abyss"
+	},
 	"polish" : {
 		"name" : "Artefakty",
 		"description" : "Zestaw artefaktów stworzonych przez Hota Crew do dodatku Horn of the Abyss"

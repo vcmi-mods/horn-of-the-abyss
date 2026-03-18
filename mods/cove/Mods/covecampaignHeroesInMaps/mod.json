@@ -14,6 +14,10 @@
 	"depends" : [
 		"hota.cove"
 	],
+	"heroes" : [
+		"config/hotaCampaignHeroesInMaps.json"
+	],
+
 	"chinese" : {
 		"name" : "港口战役英雄",
 		"description" : "在随机地图上解锁彼得利和塔克。"
@@ -22,9 +26,14 @@
 		"name" : "Hrdinové kampaně",
 		"description" : "Tato modifikace odemkne ve hře tyto nové hrdiny z kampaní:<br/><br/>Balfour<br/>Bidley<br/>Tark"
 	},
-	"heroes" : [
-		"config/hotaCampaignHeroesInMaps.json"
-	],
+	"french" : {
+		"name" : "Les héros de la campagne « Crique » sur les cartes",
+		"description" : "Ce mod débloque les héros de campagne suivants dans le jeu :<br/><br/>Balfour<br/>Bidley<br/>Tark"
+	},
+	"latvian" : {
+		"name" : "« Līcis » kampaņas varoņi kartēs",
+		"description" : "Šī modifikācija spēlē atbloķē šādus kampaņas varoņus:<br/><br/>Balfūrs<br/>Bidlijs<br/>Tārks"
+	},
 	"polish" : {
 		"name" : "Bohaterowie kampanii Cove na mapach",
 		"description" : "Modyfikacja odblokowuje nowych bohaterów z kampanii:<br/><br/>Balfour<br/>Bidley<br/>Tark"

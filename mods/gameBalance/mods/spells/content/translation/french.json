@@ -1,0 +1,18 @@
+{
+	"spell.core.airElemental.description.advanced" : "{Êtres de l'Air améliorées}\n\nInvoquez des Êtres de l'Air.\n\nCréez environ une fois et demie plus d'unités qu'avec \" Invocation de Êtres de l'Air de base \".\n",
+	"spell.core.airElemental.description.basic" : "{Êtres de l'Air simples}\n\nInvoquer des Êtres de l'Air.\n",
+	"spell.core.airElemental.description.expert" : "{Êtres de l'Air magistrales}\n\nInvoquez des Êtres de l'Air.\n\nCréez environ deux fois plus d'unités qu'avec \" Invocation de Êtres de l'Air simple \".\n",
+	"spell.core.airElemental.description.none" : "{Êtres de l'Air}\n\nInvoquer des Êtres de l'Air.\n",
+	"spell.core.earthElemental.description.advanced" : "{Êtres de la Terre Amélioré}\n\nInvoquer des Êtres de la Terre.\n\nCrée environ une fois et demie plus d'unités qu'avec \" Invocation d'Êtres de la Terre Basique \".\n",
+	"spell.core.earthElemental.description.basic" : "{Êtres de la Terre en toute simplicité}\n\nFaites invoquer des Êtres de la Terre à vous.\n",
+	"spell.core.earthElemental.description.expert" : "{Maîtrise des Êtres de la Terre}\n\nInvoquer des Êtres de la Terre.\n\nCréez environ deux fois plus d'unités qu'avec \" Invocation simple d'Êtres de la Terre \".\n",
+	"spell.core.earthElemental.description.none" : "{Êtres de la Terre}\n\nFaites invoquer les Êtres de la Terre auprès de vous.\n",
+	"spell.core.fireElemental.description.advanced" : "{Êtres du Feu améliorées}\n\nInvoquez des Êtres du Feu.\n\nCréez environ une fois et demie plus d'unités qu'avec \" Invocation de Êtres du Feu de base \".\n",
+	"spell.core.fireElemental.description.basic" : "{Êtres du Feu faciles}\n\nInvoquer des Êtres du Feu.\n",
+	"spell.core.fireElemental.description.expert" : "{Maître des Êtres du Feu}\n\nInvoque des Êtres du Feu.\n\nCrée environ deux fois plus d'unités qu'avec \" Invocation de Êtres du Feu simple \".\n",
+	"spell.core.fireElemental.description.none" : "{Êtres du Feu}\n\nInvoquer des Êtres du Feu.\n",
+	"spell.core.waterElemental.description.advanced" : "{Êtres de l'Eau améliorées}\n\nInvoquez des Êtres de l'Eau.\n\nCréez environ une fois et demie plus d'unités qu'avec \" Invocation de Êtres de l'Eau de base \".\n",
+	"spell.core.waterElemental.description.basic" : "{Êtres de l'Eau simplifiées}\n\nInvoquez des Êtres de l'Eau.\n",
+	"spell.core.waterElemental.description.expert" : "{Maître des Êtres de l'Eau}\n\nInvoque des Êtres de l'Eau.\n\nCrée environ deux fois plus d'unités qu'avec \" Invocation de Êtres de l'Eau simple \".\n",
+	"spell.core.waterElemental.description.none" : "{Êtres de l'Eau}\n\nInvoquer des Êtres de l'Eau.\n"
+}

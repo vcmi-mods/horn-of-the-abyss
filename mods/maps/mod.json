@@ -30,6 +30,7 @@
 			"All official HotA 1.7.3 maps were added"
 		]
 	},
+
 	"chinese" : {
 		"name" : "地图",
 		"description" : "这个模组包含HotA团队新增的所有新地图。"
@@ -37,6 +38,14 @@
 	"czech" : {
 		"name" : "Mapy",
 		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA"
+	},
+	"french" : {
+		"name" : "Cartes",
+		"description" : "Contient toutes les nouvelles cartes ajoutées par l'équipe HotA"
+	},
+	"latvian" : {
+		"name" : "Kartes",
+		"description" : "Satur visas jaunās kartes, ko pievienojusi HotA Crew"
 	},
 	"polish" : {
 		"name" : "Mapy",

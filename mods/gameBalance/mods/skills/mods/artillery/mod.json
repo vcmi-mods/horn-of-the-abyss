@@ -19,6 +19,14 @@
 		"name" : "Artilerie",
 		"description" : ""
 	},
+	"french" : {
+		"name" : "Artillerie",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Artilērija",
+		"description" : ""
+	},
 	"russian" : {
 		"name" : "Боевая машина",
 		"description" : ""

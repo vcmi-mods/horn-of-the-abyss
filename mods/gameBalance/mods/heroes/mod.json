@@ -198,6 +198,20 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Héros",
+		"description" : "Modifications apportées aux compétences secondaires initiales d'Uland, Deemer et Gem.",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Varoņi",
+		"description" : "Izmaiņas Ulanda, Dīmera un Gema sākuma sekundārajās prasmēs",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"russian" : {
 		"name" : "Герои",
 		"description" : "Изменяет прогрессию баланса героев на ту, что используется в HotA",

@@ -9,5 +9,13 @@
 	"version" : "1.0",
 	"depends" : [
 		"vcmi-extras.adventuremap"
-	]
+	],
+	"french" : {
+		"name" : "Boutons de carte d'aventure",
+		"description" : "Ajoute les boutons Revisiter et Ancrer"
+	},
+	"latvian" : {
+		"name" : "Piedzīvojumu kartes pogas",
+		"description" : "Pievieno pogu “Atkārtota apmeklējums” un “Enkurs”."
+	}
 }

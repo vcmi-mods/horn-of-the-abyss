@@ -30,6 +30,20 @@
 			"translation/czech.json"
 		]
 	},
+	"french" : {
+		"name" : "Sorcellerie",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Burvestība",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"russian" : {
 		"name" : "Ворожба",
 		"description" : "",

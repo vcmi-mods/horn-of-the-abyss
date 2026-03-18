@@ -19,5 +19,13 @@
 	"czech" : {
 		"name" : "Zakázané artefakty",
 		"description" : "Zakáže tyto artefakty - Plášť odvolání, Blokující koule, Ozdoba odolnosti, Boty odolnosti, Kabát odolnosti a Roh propasti"
+	},
+	"french" : {
+		"name" : "Artefacts interdits",
+		"description" : "Interdit les artefacts suivants : Cape du Rétracteur, Orbe d'Inhibition, Garniture d'Interférence, Bottes de Polarité, Surcot de Contrepoids, Gardien du Sommeil et Corne de l'Abîme."
+	},
+	"latvian" : {
+		"name" : "Aizliegtie artefakti",
+		"description" : "Aizliedz šos artefaktus: Rekantera apmetni, Kavēšanas lodi, Traucēšanās rotājumu, Polaritātes zābakus, Pretlīdzekļa virsvalku, Miega sargu un Bezdibeņa ragu."
 	}
 }

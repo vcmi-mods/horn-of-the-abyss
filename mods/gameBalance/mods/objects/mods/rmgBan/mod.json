@@ -18,5 +18,13 @@
 	"czech" : {
 		"name" : "Zakázané objekty",
 		"description" : "Zabraňuje zobrazení vybraných objektů na náhodně generovaných mapách"
+	},
+	"french" : {
+		"name" : "Objets désactivés",
+		"description" : "Empêche l'apparition des objets sélectionnés sur les cartes aléatoires"
+	},
+	"latvian" : {
+		"name" : "Atspējoti objekti",
+		"description" : "Neļauj atlasītajiem objektiem parādīties nejaušās kartēs"
 	}
 }

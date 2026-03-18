@@ -1,0 +1,14 @@
+{
+	"name" : "French voice",
+	"description" : "French voice",
+	"version" : "1.0",
+	"modType" : "Compatibility",
+	"author" : "VCMI Team",
+	"contact" : "",
+	"depends" : [
+		"french-translation"
+	],
+	"softDepends" : [
+		"hota.maps"
+	]
+}

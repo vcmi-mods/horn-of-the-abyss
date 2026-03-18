@@ -18,6 +18,14 @@
 		"name" : "Hudební téma Zátoky",
 		"description" : "Orchestrální hudba Zátoky v úpravě od Heroes Orchestra."
 	},
+	"french" : {
+		"name" : "Thème musical « Crique » par Heroes Orchestra",
+		"description" : "Pistes orchestrales des villes et des combats de Heroes III, arrangées par Heroes Orchestra"
+	},
+	"latvian" : {
+		"name" : "« Līcis » mūzikas tēma, ko izpilda Heroes Orchestra",
+		"description" : "Orķestra dziesmas par Heroes III pilsētām un kaujām, ko aranžējis Heroes Orchestra"
+	},
 	"polish" : {
 		"name" : "Motyw muzyczny Cove od Heroes Orchestra",
 		"description" : "Utwory orkiestrowe z miast i bitew Heroes III, zaaranżowane przez Heroes Orchestra"

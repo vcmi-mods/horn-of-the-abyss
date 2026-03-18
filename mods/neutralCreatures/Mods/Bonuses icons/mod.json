@@ -32,6 +32,20 @@
 			"translation/czech.json"
 		]
 	},
+	"french" : {
+		"name" : "Icônes de bonus supplémentaires",
+		"description" : "Icônes supplémentaires pour les capacités des créatures.",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Papildu bonusu ikonas",
+		"description" : "Papildu ikonas radījumu spējām.",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"russian" : {
 		"name" : "Дополнительные иконки бонусов",
 		"description" : "Дополнительные иконки для способностей существ.",

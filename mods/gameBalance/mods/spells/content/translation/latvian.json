@@ -1,0 +1,18 @@
+{
+	"spell.core.airElemental.description.advanced" : "{Uzlabotas gaisa radības}\n\nIzsauc gaisa radības.\n\nIzveido aptuveni pusotru reizi vairāk vienību nekā ar \"Gaisa radību izsaukšanas pamatiem\".\n",
+	"spell.core.airElemental.description.basic" : "{Vienkāršas gaisa radības}\n\nIzsauc gaisa radības.\n",
+	"spell.core.airElemental.description.expert" : "{Meistarīgas gaisa radības}\n\nIzsauc gaisa radības.\n\nIzveido aptuveni divreiz vairāk vienību nekā ar \"Vienkārša gaisa radību izsaukšana\".\n",
+	"spell.core.airElemental.description.none" : "{Gaisa būtnes}\n\nIzsauc gaisa būtnes.\n",
+	"spell.core.earthElemental.description.advanced" : "{Zemes Gara Uzlabojums}\n\nIzsauc Zemes Garus.\n\nIzveido aptuveni pusotru reizi vairāk vienību nekā ar \"Zemes Gara Izsaukšanas Pamatu\".\n",
+	"spell.core.earthElemental.description.basic" : "{Zemes būtnes padarītas vienkāršas}\n\nIzsauc Zemes būtnes pie sevis.\n",
+	"spell.core.earthElemental.description.expert" : "{Zemes garu meistarība}\n\nIzsauc Zemes garus.\n\nIzveido aptuveni divreiz vairāk vienību nekā ar \"Vienkāršā Zemes garu izsaukšana\".\n",
+	"spell.core.earthElemental.description.none" : "{Zemes būtnes}\n\nLai Zemes būtnes tiek izsauktas pie jums.\n",
+	"spell.core.fireElemental.description.advanced" : "{Uzlabotas uguns radības}\n\nIzsauc uguns radības.\n\nIzveido aptuveni pusotru reizi vairāk vienību nekā ar \"Uguns radību izsaukšanas pamatlīniju\".\n",
+	"spell.core.fireElemental.description.basic" : "{Uguns gari viegli}\n\nIzsauc uguns garus.\n",
+	"spell.core.fireElemental.description.expert" : "{Uguns radību meistars}\n\nIzsauciet uguns radības.\n\nIzveidojiet aptuveni divreiz vairāk vienību nekā ar \"Vienkāršā uguns radību izsaukšana\".\n",
+	"spell.core.fireElemental.description.none" : "{Uguns būtnes}\n\nIzsauciet uguns būtnes.\n",
+	"spell.core.waterElemental.description.advanced" : "{Uzlabotas ūdens radības}\n\nIzsauciet ūdens radības.\n\nIzveidojiet aptuveni pusotru reizi vairāk vienību nekā ar \"Ūdens radību izsaukšanas pamatiem\".\n",
+	"spell.core.waterElemental.description.basic" : "{Ūdens radības vienkārši}\n\nIzsauciet ūdens radības.\n",
+	"spell.core.waterElemental.description.expert" : "{Ūdens radību meistars}\n\nIzsauc ūdens radības.\n\nIzveido aptuveni divreiz vairāk vienību nekā ar \"Ūdens radību izsaukšanas vienkāršo versiju\".\n",
+	"spell.core.waterElemental.description.none" : "{Ūdens būtnes}\n\nIzsauciet ūdens būtnes.\n"
+}

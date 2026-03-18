@@ -11,6 +11,9 @@
 			"Initial release"
 		]
 	},
+	"heroes" : [
+		"config/hotaCampaignHeroesInMaps.json"
+	],
 	"chinese" : {
 		"name" : "深渊号角战役英雄",
 		"description" : "此模组在游戏中解锁了以下新的战役英雄：<br/><br/>阿雷什拉克<br/>阿瑟<br/>博伊德<br/>格鲁扎克<br/>凯多莫斯<br/>马克希姆斯<br/>米赛莉亚<br/>帕克塔尔<br/>佐格"
@@ -19,9 +22,14 @@
 		"name" : "Hrdinové kampaně",
 		"description" : "Tato modifikace odemkne ve hře tyto nové hrdiny z kampaní:<br/><br/>Areshrak<br/>Athe<br/>Boyd<br/>Gruezak<br/>Kydoimos<br/>Maximus<br/>Miseria<br/>Pactal<br/>Zog"
 	},
-	"heroes" : [
-		"config/hotaCampaignHeroesInMaps.json"
-	],
+	"french" : {
+		"name" : "Héros de la campagne HotA sur les cartes",
+		"description" : "Débloque les nouveaux héros de campagne suivants dans le jeu :<br/><br/>Areshrak<br/>Athe<br/>Boyd<br/>Gruezak<br/>Kydoimos<br/>Maximus<br/>Miseria<br/>Pactal<br/>Zog"
+	},
+	"latvian" : {
+		"name" : "HotA kampaņas varoņi kartēs",
+		"description" : "Atbloķē šādus jaunus kampaņas varoņus spēlē:<br/><br/>Arešraks<br/>Ate<br/>Boids<br/>Gruezaks<br/>Kidoimoss<br/>Maksimuss<br/>Misērija<br/>Paktāls<br/>Zogs"
+	},
 	"polish" : {
 		"name" : "Bohaterowie kampanii HotA na mapach",
 		"description" : "Modyfikacja odblokowuje nowych bohaterów kampanii:<br/><br/>Areshrak<br/>Athe<br/>Boyd<br/>Gruezak<br/>Kydoimos<br/>Maximus<br/>Miseria<br/>Pactal<br/>Zog"

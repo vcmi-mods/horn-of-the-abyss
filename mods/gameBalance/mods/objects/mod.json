@@ -40,5 +40,19 @@
 		"translations" : [
 			"translation/german.json"
 		]
+	},
+	"french" : {
+		"name" : "Objets",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Objekti",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	}
 }

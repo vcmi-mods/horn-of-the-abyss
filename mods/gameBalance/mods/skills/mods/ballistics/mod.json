@@ -7,6 +7,12 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.0",
+	"spells" : [
+		"config/hotaCatapult/catapultShot.json"
+	],
+	"skills" : [
+		"config/hotaCatapult/skills.json"
+	],
 
 	"chinese" : {
 		"name" : "弹道术",
@@ -16,6 +22,14 @@
 		"name" : "Balistika",
 		"description" : ""
 	},
+	"french" : {
+		"name" : "Balistique",
+		"description" : ""
+	},
+	"latvian" : {
+		"name" : "Ballistika",
+		"description" : ""
+	},
 	"polish" : {
 		"name" : "Balistika",
 		"description" : ""
@@ -23,12 +37,5 @@
 	"russian" : {
 		"name" : "Баллистика",
 		"description" : ""
-	},
-	"spells" : [
-		"config/hotaCatapult/catapultShot.json"
-	],
-
-	"skills" : [
-		"config/hotaCatapult/skills.json"
-	]
+	}
 }

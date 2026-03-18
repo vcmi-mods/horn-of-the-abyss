@@ -43,6 +43,14 @@
 		"name" : "Vzhled hlavního menu (klasické)",
 		"description" : "Mění vzhled hlavního menu na ikonické menu Horn of the Abyss."
 	},
+	"french" : {
+		"name" : "Thème du menu principal (ancien)",
+		"description" : "Modifie le thème du menu principal pour utiliser celui du mod Horn of the Abyss"
+	},
+	"latvian" : {
+		"name" : "Galvenās izvēlnes tēma (mantota)",
+		"description" : "Maina galvenās izvēlnes tēmu uz tādu, kādu izmanto Horn of the Abyss mods."
+	},
 	"polish" : {
 		"name" : "Motyw menu głównego (wersja starsza)",
 		"description" : "Zmienia motyw muzyczny menu głównego na ten z Horn of the Abyss"

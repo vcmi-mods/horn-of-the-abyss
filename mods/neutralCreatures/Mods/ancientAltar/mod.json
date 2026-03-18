@@ -15,5 +15,14 @@
 	],
 	"objects" : [
 		"config/hotaBanks/ancientAltar.json"
-	]
+	],
+
+	"french" : {
+		"name" : "Autel Antique",
+		"description" : "Ajoute la banque de l'Autel Antique (objet de campagne)"
+	},
+	"latvian" : {
+		"name" : "Senais altāris",
+		"description" : "Pievieno seno altāru banku (kampaņas objekts)"
+	}
 }

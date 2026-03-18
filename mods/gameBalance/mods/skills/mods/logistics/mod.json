@@ -36,6 +36,20 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Logistique",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Loģistika",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"polish" : {
 		"name" : "Logistics",
 		"description" : "",

@@ -657,8 +657,9 @@
 	},
 	"french" : {
 		"name" : "Horn of the Abyss",
-		"description" : "Pour l'instant, seules les cartes ont été traduites, peut-être que quelqu'un se chargera du reste de la traduction.",
+		"description" : "Merci à Hakas_FR pour les traductions. Les mods et les cartes ont été traduits.",
 		"translations" : [
+			"config/translation/hota/french/campaigns.json",
 			"config/translation/hota/french/maps.json"
 		]
 	},

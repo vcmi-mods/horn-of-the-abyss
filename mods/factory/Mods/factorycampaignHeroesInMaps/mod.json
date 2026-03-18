@@ -14,6 +14,10 @@
 	"depends" : [
 		"hota.factory"
 	],
+	"heroes" : [
+		"config/hotaCampaignHeroesInMaps.json"
+	],
+
 	"chinese" : {
 		"name" : "工厂战役英雄",
 		"description" : "此模组在游戏中解锁了以下新的战役英雄：<br/><br/>埃尔德里安<br/>弗雷德里克<br/>扬加德<br/>默多克<br/>斯蒂娜<br/>塔文<br/>乌门德尔<br/>瓦尔奎斯特<br/>温泽尔斯"
@@ -22,9 +26,14 @@
 		"name" : "Hrdinové kampaně",
 		"description" : "Tato modifikace odemkne ve hře tyto nové hrdiny z kampaní:<br/><br/>Elderian<br/>Frederick<br/>Jangaard<br/>Murdoch<br/>Stina<br/>Tavin<br/>Umender<br/>Valquest<br/>Winzells"
 	},
-	"heroes" : [
-		"config/hotaCampaignHeroesInMaps.json"
-	],
+	"french" : {
+		"name" : "Les héros de la campagne Usine dans les cartes",
+		"description" : "Ce mod débloque les nouveaux héros de campagne suivants dans le jeu :<br/><br/>Elderian<br/>Frederick<br/>Jangaard<br/>Murdoch<br/>Stina<br/>Tavin<br/>Umender<br/>Valquest<br/>Winzells"
+	},
+	"latvian" : {
+		"name" : "Rūpnīca kampaņas varoņi kartēs",
+		"description" : "Šī modifikācija spēlē atbloķē šādus jaunus kampaņas varoņus:<br/><br/>Elderian<br/>Frederick<br/>Jangaard<br/>Murdoch<br/>Stina<br/>Tavin<br/>Umender<br/>Valquest<br/>Winzells"
+	},
 	"polish" : {
 		"name" : "Bohaterowie kampanii Fabryki na mapach",
 		"description" : "Modyfikacja odblokowuje nowych bohaterów kampanii:<br/><br/>Elderian<br/>Frederick<br/>Jangaard<br/>Murdoch<br/>Stina<br/>Tavin<br/>Umender<br/>Valquest<br/>Winzells"

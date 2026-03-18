@@ -24,5 +24,13 @@
 	"czech" : {
 		"name" : "Slavné komunitní mapy",
 		"description" : "Kolekce slavných komunitních map – Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King a Mysterious Island"
+	},
+	"french" : {
+		"name" : "Cartes célèbres de la communauté",
+		"description" : "Collection de cartes communautaires célèbres : Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King et Mysterious Island"
+	},
+	"latvian" : {
+		"name" : "Slavenas kopienas kartes",
+		"description" : "Slavena kopienas karšu kolekcija — Elementu zeme, Fauna labirints, Līnas atrašana, Līnas atrašana II, Gelu un Hota, Gelu un Hota 2.0, Varenība un maģija, Cēlā ienaidniece, Portisheda, Šķīstītava, Liču karaļa pārākums un Noslēpumainā sala"
 	}
 }

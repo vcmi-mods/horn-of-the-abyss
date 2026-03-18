@@ -1,10 +1,17 @@
 {
 	"name" : "Conflux - Vault of Ashes",
-	"description" : "This mod adds a new building to Confulx: Vault of Ashes, that increases growth of Firebird and Phoenix by 1",
+	"description" : "This mod adds a new building to Conflux: Vault of Ashes, that increases growth of Firebird and Phoenix by 1",
 	"modType" : "Mechanics",
 	"author" : "Graphics: HotA Crew, mod: Kuririn & avatar",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.3.6",
+	"factions" : [
+		"config/hotaConfluxVaultOfAshes/confluxTown.json"
+	],
+	"creatures" : [
+		"config/hotaConfluxVaultOfAshes/creatures.json"
+	],
+
 	"chinese" : {
 		"name" : "元素城 - 灰烬穹顶",
 		"description" : "这个模组为元素城添加了一个新建筑：灰烬穹顶，使火鸟和凤凰的产量+1。"
@@ -13,12 +20,14 @@
 		"name" : "Soutok - Síň uren",
 		"description" : "Tato modifikace přidává novou budovu do Soutoku. Síň uren zvyšuje produkci Ohniváků a Fénixů o 1 týdně."
 	},
-	"factions" : [
-		"config/hotaConfluxVaultOfAshes/confluxTown.json"
-	],
-	"creatures" : [
-		"config/hotaConfluxVaultOfAshes/creatures.json"
-	],
+	"french" : {
+		"name" : "Conflux - Coffre-fort des cendres",
+		"description" : "Ce mod ajoute un nouveau bâtiment à Conflux : Coffre-fort des cendres, qui augmente la croissance de Oiseau de Feu et de Phénix de 1."
+	},
+	"latvian" : {
+		"name" : "Conflux - Pelnu velve",
+		"description" : "Šis mods pievieno jaunu ēku spēlei Conflux: Pelnu velve, kas palielina Firebird un Phoenix izaugsmi par 1."
+	},
 	"polish" : {
 		"name" : "Conflux – Sanktuarium Popiołów",
 		"description" : "Mod dodaje nowy budynek dla Conflux: Sanktuarium Popiołów, zwiększający przyrost Ognistych Ptaków i Feniksów o 1"

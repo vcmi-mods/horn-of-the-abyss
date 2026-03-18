@@ -30,6 +30,20 @@
 			"translation/german.json"
 		]
 	},
+	"french" : {
+		"name" : "Créatures",
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"latvian" : {
+		"name" : "Radības",
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
 	"czech" : {
 		"name" : "Vlastnosti jednotek",
 		"description" : "",

@@ -1,0 +1,6 @@
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description" : "{Pirmās palīdzības telts}\nVaronim ir pirmās palīdzības telts.",
+	"skill.core.firstAid.description.advanced" : "{2. posms Dziedināšana}\n\nPiešķir varonim kontroli pār Pirmās palīdzības telti, ļaujot tam dziedināt 75 veselības punktus no pirmās radības mērķa vienībā. Pirmās palīdzības telts palielina varoņa radību veselību par 5 %. Pirmās palīdzības telts var zaudēt tikai līdz 40 % no savas veselības ar katru sitienu.",
+	"skill.core.firstAid.description.basic" : "{1. līmeņa dziedināšana}\n\nPiešķir varonim kontroli pār Pirmās palīdzības telti, ļaujot tam dziedināt 50 veselības punktus no pirmās radības mērķa vienībā. Pirmās palīdzības telts palielina varoņa radību veselību par 5 %. Pirmās palīdzības telts var zaudēt tikai līdz 40 % no savas veselības ar katru trāpījumu.",
+	"skill.core.firstAid.description.expert" : "{3. līmeņa dziedināšana}\n\nPiešķir varonim kontroli pār Pirmās palīdzības telti, ļaujot tam dziedināt 100 veselības punktus no pirmās radības mērķa vienībā. Pirmās palīdzības telts palielina varoņa radību veselību par 5%. Pirmās palīdzības telts var zaudēt tikai līdz 40% no savas veselības par katru trāpījumu."
+}

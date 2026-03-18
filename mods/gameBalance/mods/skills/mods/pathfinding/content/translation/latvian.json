@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{2. līmeņa Pathfinder}\n\nSamazina sodu par pārvietošanos pa nelīdzenu reljefu, samazinot pārvietošanās izmaksas par 50 % līdz vismaz 90 %.",
+	"skill.core.pathfinding.description.basic" : "{1. līmeņa Pathfinder}\n\nSamazina sodu par pārvietošanos pa nelīdzenu reljefu, samazinot pārvietošanās izmaksas par 25 % līdz vismaz 95 %.",
+	"skill.core.pathfinding.description.expert" : "{3. līmeņa Pathfinder}\n\nSamazina sodu par pārvietošanos pa nelīdzenu reljefu, samazinot pārvietošanās izmaksas par 75 % līdz vismaz 85 %."
+}

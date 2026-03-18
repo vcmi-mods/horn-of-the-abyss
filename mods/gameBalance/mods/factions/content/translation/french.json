@@ -1,0 +1,6 @@
+{
+	"building.core.dungeon.special2.onEmpty" : "Votre héros possède suffisamment de mana et ne peut pas en obtenir davantage grâce au Vortex de Mana.",
+	"building.core.dungeon.special2.onVisited" : "Le Mana Vortex a déjà été utilisé cette semaine.",
+	"building.core.dungeon.special2.rewards.0" : "À proximité du Vortex de Mana, votre corps peut se remplir d'une force nouvelle.\n\nSouhaitez-vous utiliser le Vortex de Mana pour doubler le Mana de votre héros ?",
+	"building.core.necropolis.special2.description" : "Le Booster de Nécromancie augmente de 5 % la compétence Nécromancie de tous les héros sous votre contrôle (qui possèdent cette compétence)."
+}

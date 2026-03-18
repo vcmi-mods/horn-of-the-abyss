@@ -26,6 +26,14 @@
 	"czech" : {
 		"name" : "Vyvážení hry",
 		"description" : "Zlepšené vyvážení hry provedené týmem HotA pro rozšíření Horn of The Abyss."
+	},	
+	"french" : {
+		"name" : "Équilibre du jeu",
+		"description" : "Améliorations d'équilibrage apportées par l'équipe de HotA pour l'extension Horn of the Abyss."
+	},
+	"latvian" : {
+		"name" : "Spēles līdzsvars",
+		"description" : "HotA Crew veiktie līdzsvara uzlabojumi paplašinājumam 'Horn of The Abyss'."
 	},
 	"polish" : {
 		"name" : "Balans gry",
