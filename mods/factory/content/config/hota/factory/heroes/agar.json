@@ -5,7 +5,7 @@
 
 		"texts" : {
 			"name" : "Agar",
-			"biography" : "Many thought that the warlock Agar was a madman, and then a dead man. While the latter has been proven incorrect, there is still no unanimity in Enroth's scientific community on the former. Indeed, Agar's creations are undeniably viable and functional - but could a scientist in his right mind think of instilling such nasty inclinations and proclivities in a living being?",
+			"biography" : "Many thought the warlock Agar a madman, and then a dead man. While the latter has been proven incorrect, there is still no unanimity in Enroth's scientific community on the former. Indeed, Agar's creations are undeniably viable and functional - but could a scientist in his right mind think of instilling such nasty inclinations and proclivities in a living being?",
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Sandworms",
 				"name" : "Sandworms",
