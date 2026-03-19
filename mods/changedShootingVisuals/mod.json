@@ -48,5 +48,9 @@
 	"portuguese" : {
 		"name" : "Visuais de Disparo Alterados",
 		"description" : "Adições visuais para criaturas de disparo feitas pela Equipe HotA"
+	},
+	"german" : {
+		"name" : "Neue Fernkampfgrafiken",
+		"description" : "Fügt neue Angriffsgrafiken für Schießer hinzu.\nOriginale Grafiken wurden vom HotA Team bereitgestellt.",
 	}
 }

@@ -67,5 +67,9 @@
 	"portuguese" : {
 		"name" : "Tema do Menu Principal",
 		"description" : "Altera o tema do menu principal para o usado pelo mod Horn of the Abyss"
+	},
+	"german" : {
+		"name" : "Hauptmenü",
+		"description" : "Ändert die Grafik im Hauptmenü zu der aus der Horn of the Abyss Mod."
 	}
 }

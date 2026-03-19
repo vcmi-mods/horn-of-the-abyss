@@ -21,5 +21,9 @@
 	"latvian" : {
 		"name" : "Prasmes",
 		"description" : ""
+	},
+	"german" : {
+		"name" : "Sekundärfähigkeiten",
+		"description" : "Individuell auswählbare Mods, die die Balanceänderungen der Sekundärfähigkeiten in HotA ins Spiel übernehmen."
 	}
 }

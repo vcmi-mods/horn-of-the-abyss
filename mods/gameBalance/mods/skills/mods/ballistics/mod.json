@@ -37,5 +37,9 @@
 	"russian" : {
 		"name" : "Баллистика",
 		"description" : ""
-	}
+	},
+	"german" : {
+		"name" : "Ballistik",
+		"description" : ""
+	},
 }

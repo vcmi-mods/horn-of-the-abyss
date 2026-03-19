@@ -1,6 +1,6 @@
 {
 	"name" : "HotA templates",
-	"description" : "Some templates that come from HotA",
+	"description" : "Some templates introduced in HotA",
 	"author" : "Olegmods.INC, Karyoplasma",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -75,5 +75,9 @@
 	"portuguese" : {
 		"name" : "Modelos do HotA",
 		"description" : "Alguns modelos que vêm do HotA"
+	},
+	"german" : {
+		"name" : "HotA Templates",
+		"description" : "Enthält einige aus HotA geportete Templates.",
 	}
 }

@@ -55,6 +55,10 @@
 		"name" : "Kartes formāta atbalsts (HotA)",
 		"description" : "Satur atbalsta failus, kas nepieciešami karšu ielādei formātā “Horn of the Abyss” programmā VCMI."
 	},
+	"german" : {
+		"name" : "HotA-Kartenunterstützung",
+		"description" : "**Aktivierung dringend empfohlen**. Ermöglicht das Laden von Karten im 'Horn of the Abyss'-Format (HotA). Diese Komponente ist für die Kompatibilität mit HotA-Inhalten zwingend erforderlich.",
+	},
 
 	"campaignRegions" : {
 		"BgRoger" : {

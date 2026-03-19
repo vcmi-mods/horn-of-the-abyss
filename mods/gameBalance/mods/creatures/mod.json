@@ -25,7 +25,7 @@
 	},
 	"german" : {
 		"name" : "Kreaturen",
-		"description" : "",
+		"description" : "Gleicht die Kreaturen aus dem Basisspiel an die HotA-Änderungen an.",
 		"translations" : [
 			"translation/german.json"
 		]

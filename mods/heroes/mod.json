@@ -7,14 +7,6 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.7",
-	"chinese" : {
-		"name" : "英雄",
-		"description" : "为基础游戏新增英雄 - Beatrice、Kinkeria 和 Ranloo。<br/>此外，更改了英雄 Voy 和 Sylvia 的行为，他们现在仅在有水的地图上可用。"
-	},
-	"czech" : {
-		"name" : "Hrdinové",
-		"description" : "Noví hrdinové pro základní hru - Beatrice, Kinkeria a Ranloo.<br/>Navíc mění chování hrdinů Voy a Sylvia, kteří jsou nyní k dispozici pouze na mapách s vodou."
-	},
 	"heroes" : [
 		"config/bannedOnMapsWithoutWater/heroes/sylvia",
 		"config/bannedOnMapsWithoutWater/heroes/voy",
@@ -49,5 +41,17 @@
 	"portuguese" : {
 		"name" : "Heróis",
 		"description" : "Novos heróis para o jogo base - Beatrice, Kinkeria e Ranloo.<br/>Além disso, altera o comportamento dos heróis Voy e Sylvia, que agora estão disponíveis apenas em mapas com água. Adicionalmente, possui uma opção para habilitar os heróis da campanha HotA!"
+	},
+	"chinese" : {
+		"name" : "英雄",
+		"description" : "为基础游戏新增英雄 - Beatrice、Kinkeria 和 Ranloo。<br/>此外，更改了英雄 Voy 和 Sylvia 的行为，他们现在仅在有水的地图上可用。"
+	},
+	"czech" : {
+		"name" : "Hrdinové",
+		"description" : "Noví hrdinové pro základní hru - Beatrice, Kinkeria a Ranloo.<br/>Navíc mění chování hrdinů Voy a Sylvia, kteří jsou nyní k dispozici pouze na mapách s vodou."
+	},
+	"german" : {
+		"name" : "Neue Helden",
+		"description" : "Fügt die neuen Helden (**Beatrice, Kinkeria und Ranloo**) aus HotA dem Spiel hinzu. Ändert zudem **Voy und Sylvia** dahingehend, dass sie nur noch auf Wasserkarten auswählbar sind."
 	}
 }

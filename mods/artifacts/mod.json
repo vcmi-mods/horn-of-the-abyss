@@ -54,5 +54,9 @@
 	"portuguese" : {
 		"name" : "Artefatos",
 		"description" : "Conjunto de artefatos criados pela Hota Crew para a expansão Horn of the Abyss"
+	},
+	"german" : {
+		"name" : "Neue Artefakte",
+		"description" : "Fügt die von HotA eingeführten Artefakte zum Spiel hinzu.",
 	}
 }

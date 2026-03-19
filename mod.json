@@ -598,7 +598,7 @@
 	},
 	"german" : {
 		"name" : "Horn of the Abyss",
-		"description" : "In Arbeit befindliche Portierung der Erweiterung Horn of the Abyss erstellt durch Hota Crew",
+		"description" : "Deutsche Übersetzung des Ports von 'Horn of the Abyss' auf VCMI. Credits: HotA Team für die Mod!",
 		"translations" : [
 			"config/translation/hota/german/game.json",
 			"config/translation/hota/german/maps.json"

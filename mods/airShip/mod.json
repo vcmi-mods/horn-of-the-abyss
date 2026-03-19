@@ -29,5 +29,9 @@
 	"latvian" : {
 		"name" : "Dirižablis",
 		"description" : "Šis mods pievieno gaisa kuģi ar gaisa kuģu pagalmu"
+	},
+	"german" : {
+		"name" : "Luftschiff",
+		"description" : "Fügt das Luftschiff und die Luftschiffwerft hinzu.\n\n**Experimentell - Fehler möglich**"
 	}
 }

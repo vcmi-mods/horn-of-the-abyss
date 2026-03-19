@@ -26,5 +26,9 @@
 	"latvian" : {
 		"name" : "Objekta blīvums",
 		"description" : ""
+	},
+	"german" : {
+		"name" : "Objektdichte-Fix",
+		"description" : "Passt die Dichte, mit der manche Objekte auf zufälligen Karten generiert werden, an die HotA-Werte an."
 	}
 }

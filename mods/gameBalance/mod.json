@@ -50,5 +50,9 @@
 	"portuguese" : {
 		"name" : "Equilíbrio do Jogo",
 		"description" : "Melhorias de equilíbrio feitas pela Equipe HotA para a expansão Horn of The Abyss."
+	},
+	"german" : {
+		"name" : "Spielbalance",
+		"description" : "Implementiert die Balance-Verbesserungen von HotA in vielen auswählbaren Modulen."
 	}
 }

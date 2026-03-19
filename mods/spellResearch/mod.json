@@ -83,5 +83,9 @@
 	"portuguese" : {
 		"name" : "Pesquisa de Feitiços",
 		"description" : "Este submod ativa o sistema básico de Pesquisa de Feitiços para imitar uma característica semelhante no HotA."
+	},
+	"german" : {
+		"name" : "Zaubererforschung",
+		"description" : "Eine abgeänderte Version für die in HotA eingeführte Zaubererforschung in der Magiergilde."
 	}
 }

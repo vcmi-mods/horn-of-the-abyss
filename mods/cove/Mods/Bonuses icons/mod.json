@@ -27,8 +27,8 @@
 		]
 	},
 	"german" : {
-		"name" : "Zusätzliche Fähigkeitssymbole",
-		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
+		"name" : "Zusatzsymbole - Bucht",
+		"description" : "Zusätzliche Symbole und Beschreibungen für die Fähigkeiten der Buchtkreaturen.",
 		"translations" : [
 			"translation/german.json"
 		]

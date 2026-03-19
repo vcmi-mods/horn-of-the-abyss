@@ -57,5 +57,9 @@
 	"portuguese" : {
 		"name" : "Expansão da Comunidade",
 		"description" : "Este mod introduz os seguintes novos elementos:<br/><br/>Artefatos:<br/>- Presa do Último Grito<br/>- Grande Arco de Batalha<br/>- Grande Desgraça dos Rastejantes<br/>- Olho Oco<br/><br/>Objetos do Mapa:<br/>- Torre de Guarda<br/>- Fábrica de Golems de Aço<br/>- Gerador de Raios<br/>- Turbina Eólica<br/><br/>Outros Objetos:<br/>- Canguru<br/>- Gerador de Raios<br/>- Turbina Eólica<br/><br/>Nota: Este é um conteúdo não oficial criado pela comunidade."
+	},
+	"german" : {
+		"name" : "VCMI Community Add-On",
+		"description" : "Diese Mod fügt folgende, von der VCMI Community ausgedachten, Elemente hinzu:<br/><br/>Artifacts:<br/>- Fang of the Last Scream<br/>- Great Battle Bow<br/>- Great Woe of the Crawlers<br/>- Hollow Eye<br/><br/>Map Objects:<br/>- Guard Tower<br/>- Steel Golem Factory<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Other Objects:<br/>- Kangaroo<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Bitte beachten: Dies ist eine inoffizielle Community-Mod und nicht Teil von HotA. Noch nicht ins Deutsche übersetzt!"
 	}
 }

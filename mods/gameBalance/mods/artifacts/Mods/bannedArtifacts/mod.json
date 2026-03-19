@@ -27,5 +27,9 @@
 	"latvian" : {
 		"name" : "Aizliegtie artefakti",
 		"description" : "Aizliedz šos artefaktus: Rekantera apmetni, Kavēšanas lodi, Traucēšanās rotājumu, Polaritātes zābakus, Pretlīdzekļa virsvalku, Miega sargu un Bezdibeņa ragu."
+	},
+	"german" : {
+		"name" : "Verbotene Artefakte",
+		"description" : "Verbietet die in HotA standardmäßig deaktivierten Artefakte.\nBetroffen sind: Widerrufermantel, Kugel der Hemmung, Schmuck der Interferenz, Stiefel der Polarität, Schutzrock, Schlafwächter und Horn des Abgrunds."
 	}
 }

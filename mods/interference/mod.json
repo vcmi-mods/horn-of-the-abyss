@@ -53,5 +53,9 @@
 	"portuguese" : {
 		"name" : "Habilidade Interferência",
 		"description" : "Este mod adiciona a nova habilidade 'Interferência', uma nova heroína, Giselle, com especialidade na habilidade de interferência e altera os heróis com a habilidade de resistência para usar interferência em seu lugar"
+	},
+	"german" : {
+		"name" : "Interferenz",
+		"description" : "Ersetzt die Sekundärfähigkeit 'Resistenz' mit 'Interferenz'. Fügt **Giselle**, eine auf Interferenz spezialisierte Heldin, hinzu und ändert Helden, die mit 'Resistenz' starten so ab, dass sie stattdessen Interferenz benutzen."
 	}
 }

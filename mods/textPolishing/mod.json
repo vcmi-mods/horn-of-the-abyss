@@ -40,5 +40,9 @@
 	"latvian" : {
 		"name" : "Teksta pulēšana",
 		"description" : "Maina burvestību, kartes objektu un artefaktu aprakstus spēlē uz tiem, kas tiek izmantoti HotA."
+	},
+	"german" : {
+		"name" : "Nicht Aktivieren",
+		"description" : "Diese Mod ist ausschließlich für die Englische Sprache und hat keinen Effekt auf die Deutsche Übersetzung."
 	}
 }

@@ -29,5 +29,9 @@
 	"polish" : {
 		"name" : "Motyw muzyczny Cove od Heroes Orchestra",
 		"description" : "Utwory orkiestrowe z miast i bitew Heroes III, zaaranżowane przez Heroes Orchestra"
+	},
+	"german" : {
+		"name" : "Orchestriertes Titellied",
+		"description" : "Orchestriertes Titellied der Bucht, arrangiert und eingespielt von **Heroes Orchestra.**"
 	}
 }

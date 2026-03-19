@@ -24,7 +24,7 @@
 	},
 	"german" : {
 		"name" : "Zaubersprüche",
-		"description" : "",
+		"description" : "Übernimmt die Balanceänderungen an Zaubersprüchen, die in HotA eingeführt wurden.",
 		"translations" : [
 			"translation/german.json"
 		]

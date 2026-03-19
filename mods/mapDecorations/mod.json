@@ -127,5 +127,9 @@
 	"portuguese" : {
 		"name" : "Decorações do Mapa",
 		"description" : "Novos objetos para os mapas."
+	},
+	"german" : {
+		"name" : "Dekorationen",
+		"description" : "Fügt die neuen Kartendekorationen und alternative Versionen von Kartenobjekten aus HotA zum Spiel hinzu."
 	}
 }

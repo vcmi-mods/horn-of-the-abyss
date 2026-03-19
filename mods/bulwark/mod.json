@@ -106,7 +106,7 @@
 	},
 	"german" : {
 		"name" : "Bollwerk",
-		"description" : "Neue Stadt mit nordischer Thematik",
+		"description" : "Fügt die neue Stadt 'Bollwerk' aus HotA zum Spiel hinzu. Die Stadt hat eine arktische Thematik, in der ein Volk aus Vori und seine Häuptlinge und Ältesten im Mittelpunkt steht.",
 		"translations" : [
 			"translation/german.json"
 		]

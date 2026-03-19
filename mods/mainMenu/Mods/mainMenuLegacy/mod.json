@@ -54,5 +54,10 @@
 	"polish" : {
 		"name" : "Motyw menu głównego (wersja starsza)",
 		"description" : "Zmienia motyw muzyczny menu głównego na ten z Horn of the Abyss"
+	},
+	"german" : {
+		"name" : "Hauptmenü (klassisch)",
+		"description" : "Stellt die Grafiken des Hauptmenüs aus den älteren HotA-Versionen wieder her."
 	}
+
 }
