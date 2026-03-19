@@ -53,16 +53,16 @@
 				}
 			},
 			"none" : {
-				"description" : "{Detonation}\r\n\r\nYour birthday cake！"
+				"description" : "{Detonation}\n\nYour birthday cake！"
 			},
 			"basic" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
+				"description" : "{Detonation}\n\nYou cannot see this description."
 			},
 			"advanced" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
+				"description" : "{Detonation}\n\nYou cannot see this description."
 			},
 			"expert" : {
-				"description" : "{Detonation}\r\n\r\nYou cannot see this description."
+				"description" : "{Detonation}\n\nYou cannot see this description."
 			}
 		}
 	}

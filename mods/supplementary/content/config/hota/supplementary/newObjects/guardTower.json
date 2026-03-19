@@ -34,10 +34,10 @@
 					"value" : 7000,
 					"rarity" : 10
 				},
-				"onGuardedMessage" : "{Guard Tower}\r\n\r\nYou wandered around the sentry post and learned that there were many mercenary gunslingers guarding this tower. Of course, they had been hired for a long time and had accumulated a lot of treasures. Do you want to enter here to challenge?",
+				"onGuardedMessage" : "{Guard Tower}\n\nYou wandered around the sentry post and learned that there were many mercenary gunslingers guarding this tower. Of course, they had been hired for a long time and had accumulated a lot of treasures. Do you want to enter here to challenge?",
 				"onVisited" : [
 					{
-						"message" : "{Guard Tower}\r\n\r\nYou climbed up to this unmanned watchtower and found that there was nothing valuable except some empty boxes, tables and chairs. Finally, you climbed to the top of the tower, which was indeed a great viewing point.", // Such a despicable act reduces your army's morale.
+						"message" : "{Guard Tower}\n\nYou climbed up to this unmanned watchtower and found that there was nothing valuable except some empty boxes, tables and chairs. Finally, you climbed to the top of the tower, which was indeed a great viewing point.", // Such a despicable act reduces your army's morale.
 						"revealTiles" : {
 							"radius" : 15,
 							"surface" : 1,

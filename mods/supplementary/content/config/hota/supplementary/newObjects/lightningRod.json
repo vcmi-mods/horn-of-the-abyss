@@ -18,7 +18,7 @@
 				"canRefuse" : true,
 				"rewards" : [
 					{
-						"message" : "{Lightning Generator}\r\n\r\nThe Lightning Generator is a small experiment in the use of electrical energy. Now that the controller is fully charged, do you want to experience the power of lightning?",
+						"message" : "{Lightning Generator}\n\nThe Lightning Generator is a small experiment in the use of electrical energy. Now that the controller is fully charged, do you want to experience the power of lightning?",
 						"bonuses" : [
 							{
 								"type" : "OPENING_BATTLE_SPELL",
@@ -30,7 +30,7 @@
 						]
 					}
 				],
-				"onVisitedMessage" : "{Lightning Generator}\r\n\r\nThe Lightning Generator is being charged, waiting for the next startup experiment.",
+				"onVisitedMessage" : "{Lightning Generator}\n\nThe Lightning Generator is being charged, waiting for the next startup experiment.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"resetParameters" : {
@@ -83,7 +83,7 @@
 					"object"
 				],
 
-				"onVisitedMessage" : "{Wind Turbine}\r\n\r\nThe wind turbine is not producing any more energy at the moment, you can wait for it to recharge.",
+				"onVisitedMessage" : "{Wind Turbine}\n\nThe wind turbine is not producing any more energy at the moment, you can wait for it to recharge.",
 				"resetParameters" : {
 					"period" : 7,
 					"visitors" : true,
@@ -131,7 +131,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -154,7 +154,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -177,7 +177,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -200,7 +200,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -223,7 +223,7 @@
 								"amount" : 10
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -246,7 +246,7 @@
 								"amount" : 10
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					},
 					{
 						"appearChance" : {
@@ -269,7 +269,7 @@
 								"amount" : 2000
 							}
 						],
-						"message" : "{Wind Turbine}\r\n\r\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
 					}
 				]
 			}
