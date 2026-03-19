@@ -38,5 +38,9 @@
 	"polish" : {
 		"name" : "Strzałka ruchu bohatera",
 		"description" : "Strzałka ruchu bohatera"
+	},
+	"german" : {
+		"name" : "Bewegungsindikator",
+		"description" : "Ändert die Bewegungspfeile der Helden auf der Abenteuerkarte zu einer verbesserten Version."
 	}
 }

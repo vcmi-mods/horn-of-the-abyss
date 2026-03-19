@@ -148,5 +148,9 @@
 	"portuguese" : {
 		"name" : "Fábrica",
 		"description" : "Nova cidade Fábrica com tema steampunk"
+	},
+	"german" : {
+		"name" : "Fabrik",
+		"description" : "Fügt die Stadt 'Fabrik' aus HotA zum Spiel hinzu. Die Stadt hat die Thematik des Wilden Westens, und erkundet die Region Terra Nova mit den neuen Heldenklassen der Söldner und Kunsthandwerker.",
 	}
 }

@@ -45,8 +45,8 @@
 		]
 	},
 	"german" : {
-		"name" : "Zusätzliche Fähigkeitssymbole",
-		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
+		"name" : "Zusatzsymbole - Fabrik",
+		"description" : "Zusätzliche Symbole und Beschreibungen für die Fähigkeiten der Fabrikkreaturen.",
 		"translations" : [
 			"translation/german.json"
 		]

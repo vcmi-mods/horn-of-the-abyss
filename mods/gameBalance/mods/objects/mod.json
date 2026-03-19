@@ -36,7 +36,7 @@
 	},
 	"german" : {
 		"name" : "Objekte",
-		"description" : "",
+		"description" : "Erweitert das Spiel um neue Funktionen, wie das Ablehnen von Belohnungen in Gelehrten- und Hexenhütten und übernimmt die von HotA angepasste Balance von Kartenobjekten.",
 		"translations" : [
 			"translation/german.json"
 		]

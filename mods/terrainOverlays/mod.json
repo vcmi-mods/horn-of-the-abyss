@@ -62,5 +62,9 @@
 	"portuguese" : {
 		"name" : "Terrenos Mágicos",
 		"description" : "Esta opção adiciona três novos terrenos especiais: Gelo Rachado, Dunas e Campos de Glória."
+	},
+	"german" : {
+		"name" : "Magische Terrains",
+		"description" : "Fügt drei neue Spezialgelände hinzu: Gesprungenes Eis, Dünen und Felder des Ruhms."
 	}
 }

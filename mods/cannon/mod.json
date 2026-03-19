@@ -47,5 +47,9 @@
 	"portuguese" : {
 		"name" : "Canhão",
 		"description" : "Este mod adiciona uma nova máquina de guerra: Canhão, que pode ser comprado no novo objeto do mapa: Pátio de Canhões"
+	},
+	"german" : {
+		"name" : "Kanone",
+		"description" : "Fügt eine neue Kriegsmaschine, die Kanone, hinzu. Sie ist beim neuen Kartenobjekt, dem Kanonenhof, beziehungsweise in der Schmiede der Bucht erwerblich.",
 	}
 }

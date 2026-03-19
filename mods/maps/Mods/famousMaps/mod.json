@@ -32,5 +32,9 @@
 	"latvian" : {
 		"name" : "Slavenas kopienas kartes",
 		"description" : "Slavena kopienas karšu kolekcija — Elementu zeme, Fauna labirints, Līnas atrašana, Līnas atrašana II, Gelu un Hota, Gelu un Hota 2.0, Varenība un maģija, Cēlā ienaidniece, Portisheda, Šķīstītava, Liču karaļa pārākums un Noslēpumainā sala"
+	},
+	"german" : {
+		"name" : "Beliebte Karten",
+		"description" : "Kollektion von beliebten Karten aus der Heroes III Community. Enthält: Mysterious Island, Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory und Supremacy of the Lich King"
 	}
 }

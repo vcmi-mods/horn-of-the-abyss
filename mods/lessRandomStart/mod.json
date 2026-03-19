@@ -46,5 +46,9 @@
 	"portuguese" : {
 		"name" : "Início Menos Aleatório",
 		"description" : "Heróis com um exército inicial sempre têm todas as tropas (e uma máquina de guerra), sem a possibilidade de ausência de nenhuma delas. Cidades com Forte sempre têm a moradia de nível 2 construída por padrão."
+	},
+	"german" : {
+		"name" : "Garantierter Start",
+		"description" : "Helden beginnen das Spiel stets mit 3 Truppen oder 2 Truppen und einer Kriegsmachine. Städte mit Fort verfügen garantiert über das Kreaturengebäude der zweiten Stufe."
 	}
 }

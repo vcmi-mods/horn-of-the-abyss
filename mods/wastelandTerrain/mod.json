@@ -86,5 +86,9 @@
 	"portuguese" : {
 		"name" : "Terreno da Terra Devastada",
 		"description" : "Adiciona o terreno da Terra Devastada, bem como vários objetos de mapa exclusivos para este terreno"
+	},
+	"german" : {
+		"name" : "Ödland Terrain",
+		"description" : "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu."
 	}
 }

@@ -193,7 +193,7 @@
 	},
 	"german" : {
 		"name" : "Helden",
-		"description" : "Ändert die Anfangs-Spezialfähigkeiten von Yoland, Tima und Jenny",
+		"description" : "Übernimmt die aktualisierte Helden-Balance der HotA-Mod für alle Helden.",
 		"translations" : [
 			"translation/german.json"
 		]

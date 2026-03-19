@@ -17,5 +17,9 @@
 	"latvian" : {
 		"name" : "Piedzīvojumu kartes pogas",
 		"description" : "Pievieno pogu “Atkārtota apmeklējums” un “Enkurs”."
+	},
+	"german" : {
+		"name" : "Abenteuerkarten-Buttons",
+		"description" : "Fügt auf der Abenteuerkarte 2 Schaltflächen zum Spielinterface hinzu:\nErneutes Besuchen eines Objekts und einen Anker-Knopf für das Luftschiff."
 	}
 }

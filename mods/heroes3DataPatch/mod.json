@@ -71,5 +71,9 @@
 	"portuguese" : {
 		"name" : "Patch de dados do Heroes III",
 		"description" : "Correções e melhorias nos gráficos e sons de alguns recursos do SoD."
+	},
+	"german" : {
+		"name" : "Heroes III Daten Patch",
+		"description" : "Grafik- und Soundkorrekturen für diverse SoD-Spielinhalte. **Aktivierung empfohlen.**",
 	}
 }

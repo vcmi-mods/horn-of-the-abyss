@@ -37,5 +37,9 @@
 	"polish" : {
 		"name" : "Bohaterowie kampanii Cove na mapach",
 		"description" : "Modyfikacja odblokowuje nowych bohaterów z kampanii:<br/><br/>Balfour<br/>Bidley<br/>Tark"
+	},
+	"german" : {
+		"name" : "Kampagnenhelden - Bucht",
+		"description" : "Diese Mod erlaubt das Spielen von den Kampagnenhelden der Bucht auf allen Karten. Erlaubt die Helden: **Balfour, Bidley und Tark.**"
 	}
 }

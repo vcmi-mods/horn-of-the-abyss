@@ -21,5 +21,9 @@
 	"latvian" : {
 		"name" : "Papildu RMG biomas",
 		"description" : "Ļauj RMG ģenerēt tikai kartes redaktoram paredzētus dekorācijas, piemēram, nodegušas mājas un sabrukušas strūklakas."
+	},
+	"german" : {
+		"name" : "Mehr RMG-Dekorationen",
+		"description" : "Erlaubt dem Zufallskartengenerator, standardmäßig deaktivierte Dekorationen wie ausgebrannte Häuser oder zerfallene Brunnen zu platzieren."
 	}
 }

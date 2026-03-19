@@ -17,8 +17,8 @@
 		]
 	},
 	"german" : {
-		"name" : "Zusatzfähigkeiten-Symbole",
-		"description" : "Zusätzliche Symbole für Kreaturenfähigkeiten.",
+		"name" : "Zusatzsymbole - Kanone",
+		"description" : "Zusätzliche Symbole und Beschreibungen für die Fähigkeiten der Kanone.",
 		"translations" : [
 			"translation/german.json"
 		]

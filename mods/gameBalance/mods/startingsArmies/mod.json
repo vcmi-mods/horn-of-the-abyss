@@ -36,5 +36,9 @@
 	"latvian" : {
 		"name" : "Sākotnējās armijas",
 		"description" : "Sākotnējās armijas"
+	},
+	"german" : {
+		"name" : "Startarmeen",
+		"description" : "Übernimmt die Anpassungen der Armeen, mit denen Helden ein Szenario starten, aus HotA."
 	}
 }

@@ -35,5 +35,9 @@
 	"portuguese" : {
 		"name" : "Confluxo - Cripta das Cinzas",
 		"description" : "Este mod adiciona um novo edifício ao Confluxo: Cripta das Cinzas, que aumenta a produção de Pássaros de Fogo e Fênixes em 1"
+	},
+	"german" : {
+		"name" : "Konflux - Gruft der Asche",
+		"description" : "Fügt ein neues Gebäude zum Konflux hinzu: Gruft der Asche. Es erhöht erhöht die Produktion von Feuervögeln und Phönixen um 1 pro Woche."
 	}
 }

@@ -120,5 +120,9 @@
 	"portuguese" : {
 		"name" : "Terreno do Planalto",
 		"description" : "Adiciona o terreno do Planalto, bem como vários objetos de mapa exclusivos para este terreno"
+	},
+	"german" : {
+		"name" : "Hochland Terrain",
+		"description" : "Fügt das Gelände 'Hochland' und die dazugehörigen Kartenobjekte hinzu."
 	}
 }

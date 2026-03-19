@@ -26,5 +26,9 @@
 	"latvian" : {
 		"name" : "Invalīdu rotājumi",
 		"description" : "Neļauj ģenerēt dažus dekorācijas, kas paredzētas tikai kartes redaktora lietošanai, nejaušās kartēs."
+	},
+	"german" : {
+		"name" : "Verbotene Dekorationen",
+		"description" : "Verhindert, dass Dekorationen, die in HotA ausschließlich für die Verwendung im Karteneditor vorgesehen sind, auf zufälligen Karten generiert werden.",
 	}
 }

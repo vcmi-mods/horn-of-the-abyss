@@ -10,5 +10,9 @@
 	],
 	"softDepends" : [
 		"hota.maps"
-	]
+	],
+	"german" : {
+		"name" : "Deutsche Synchro (AI)",
+		"description" : "Fügt eine deutsche Synchronisation der Kampagnenvideos (HotA, Fabrik und Bucht) hinzu."
+	}
 }

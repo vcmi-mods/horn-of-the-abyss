@@ -59,5 +59,9 @@
 	"portuguese" : {
 		"name" : "Novos gráficos do mapa de aventura para cidades e criaturas",
 		"description" : "Esta opção ativa os novos objetos gráficos adicionados pela Equipe HotA. Atualmente, este mod consiste em novas animações para as cidades no mapa, bem como animações corrigidas de monstros errantes"
+	},
+	"german" : {
+		"name" : "Neue Animationen",
+		"description" : "Diese Mod enhält vom HotA-Team verbesserte Grafiken. Bisher beinhaltet sie korrigierte Animationen für Städte und Kreaturen auf der Abenteuerkarte, sowie überarbeitete Animationen für Zaubersprüche im Kampf.",
 	}
 }
