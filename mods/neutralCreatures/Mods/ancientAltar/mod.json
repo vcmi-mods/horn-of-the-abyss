@@ -24,5 +24,9 @@
 	"latvian" : {
 		"name" : "Senais altāris",
 		"description" : "Pievieno seno altāru banku (kampaņas objekts)"
+	},
+	"german" : {
+		"name" : "Alter Altar",
+		"description" : "Diese Mod wird für die Kampagne benötigt und enthält die Kreaturenbank 'Alter Altar'."
 	}
 }
