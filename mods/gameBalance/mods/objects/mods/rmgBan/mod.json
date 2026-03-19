@@ -29,6 +29,6 @@
 	},
 	"german" : {
 		"name" : "Verbotene Objekte",
-		"description" : "Verbietet Kartenobjekte, die in HotA standardmäßig deaktiviert sind, auf zufälligen Karten.",
+		"description" : "Verbietet Kartenobjekte, die in HotA standardmäßig deaktiviert sind, auf zufälligen Karten."
 	}
 }

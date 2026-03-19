@@ -57,7 +57,7 @@
 	},
 	"german" : {
 		"name" : "HotA-Kartenunterstützung",
-		"description" : "**Aktivierung dringend empfohlen**. Ermöglicht das Laden von Karten im 'Horn of the Abyss'-Format (HotA). Diese Komponente ist für die Kompatibilität mit HotA-Inhalten zwingend erforderlich.",
+		"description" : "**Aktivierung dringend empfohlen**. Ermöglicht das Laden von Karten im 'Horn of the Abyss'-Format (HotA). Diese Komponente ist für die Kompatibilität mit HotA-Inhalten zwingend erforderlich."
 	},
 
 	"campaignRegions" : {

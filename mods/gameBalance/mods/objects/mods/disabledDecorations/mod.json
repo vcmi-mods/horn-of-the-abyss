@@ -29,6 +29,6 @@
 	},
 	"german" : {
 		"name" : "Verbotene Dekorationen",
-		"description" : "Verhindert, dass Dekorationen, die in HotA ausschließlich für die Verwendung im Karteneditor vorgesehen sind, auf zufälligen Karten generiert werden.",
+		"description" : "Verhindert, dass Dekorationen, die in HotA ausschließlich für die Verwendung im Karteneditor vorgesehen sind, auf zufälligen Karten generiert werden."
 	}
 }
