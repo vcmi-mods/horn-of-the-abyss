@@ -294,7 +294,7 @@
 	"building.hota.factory.factory.resourceSilo.name" : "Rohstoff-Silo",
 	"building.hota.factory.factory.special1.description" : "Die Bank erlaubt Euch einen Sofortkredit von 2500 Gold. Danach verringert sich jedoch das Einkommen der Stadt für 5 Tage um 500 Gold.",
 	"building.hota.factory.factory.special1.name" : "Bank",
-	"building.hota.factory.factory.special2.description" : "Der Managenerator gibt einem Garnisonshelden während jeder Belagerungsverteidigung zusätzliche 20 Zauberpunkte (diese Zauberpunkte folgen Eurem Helden nicht, wenn der die Stadt verlässt).",
+	"building.hota.factory.factory.special2.description" : "Der Managenerator gewährt dem Garnisonshelden zusätzliche 20 Zauberpunkte bei einer Belagerung (verfallen zum Kampfende).",
 	"building.hota.factory.factory.special2.name" : "Managenerator",
 	"building.hota.factory.factory.special3.description" : "Für einen äußerst geringen Preis könnt Ihr bei den Artefakt-Händlern Artefakte kaufen.",
 	"building.hota.factory.factory.special3.name" : "Artefakt-Händler",
