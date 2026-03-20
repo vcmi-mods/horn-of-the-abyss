@@ -1,15 +1,10 @@
 {
-	"artifact.core.amuletOfTheUndertaker.description" : "{Amulett des Totengräbers}\n\nUm den Hals getragen erhöht dieses Amulett Eure Nekromantie-Fertigkeit um 5%.",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{Mantel des Untoten Königs}\n\n30 % der auf dem Schlachtfeld Gefallenen werden als Skelette wiederbelebt. Wenn Euer Held bereits die Nekromantie-Fertigkeit besitzt, werden die Prozentsätze zur Fertigkeit addiert, und das Fertigkeitslevel bestimmt die Art der Wiederbelebten.\nEinfach: Zombies\nFortgeschritten: Wights\nMeisterhaft:\nLiches",
-	"artifact.core.deadMansBoots.description" : "{Stiefel des Totenmanns}\n\nAn den Füßen getragen erhöhen diese Stiefel Eure Nekromantie-Fertigkeit um 15%.",
-	"artifact.core.vampiresCowl.description" : "{Kapuze des Vampirs}\n\nÜber die Schultern getragen erhöht diese Kapuze Eure Nekromantie-Fertigkeit um 10%.",
+	"artifact.core.amuletOfTheUndertaker.description" : "{Amulett der Totengräber}\n\nUm den Hals getragen, erhöht dieser Gegenstand die Nekromantiefähigkeit um 5%.",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Umhang des Untoten-Königs}\n\n30% der Toten eines Kampfes werden als Skelette wiederbelebt. Hat der Held schon die Fähigkeit Nekromantie, so wird dieser Prozentsatz hinzugefügt und ihr Level bestimmt welche Art wiedererweckt werden.\nEinfach: Zombies\nVerbessert: Geister\nMeisterhaft: Liche",
+	"artifact.core.deadMansBoots.description" : "{Totenstiefel}\n\nAn den Füßen getragen, erhöhen diese Stiefel die Nekromantiefähigkeit um 15%.",
+	"artifact.core.vampiresCowl.description" : "{Vampirkutte}\n\nÜber die Schultern geworfen, erhöht diese Kutte die Nekromantiefähigkeit um 10%.",
 
 	// these should be added for polishing
 	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
 	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
-
-	// update and move this into global hota translations:
-	"artifact.core.angelicAlliance.description" : "{Engelische Allianz}\n\nErmöglicht es Kreaturen von Burg, Wall, Turm, Festung, Bollwerk, Konflux, Bucht und Fabrik Horn der Abyss ohne Moralstrafe zu mischen. Wirkt zu Beginn des Kampfes 10 Runden lang Expertengebet. Wenn eine böse Einheit in Eurer Heldenarmee ist, wird die Moral um 1 verringert."
-	// original string:
-	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
 }

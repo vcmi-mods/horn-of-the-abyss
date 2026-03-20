@@ -1,4 +1,5 @@
 {
+	"artifact.core.angelicAlliance.description" : "{Engelsallianz}\n\nInklusive seiner Bestandteile erhöht Engelsallianz alle Primärfahigkeiten des Helden um +21 und ermöglicht es alle Truppen aus neutralen oder guten Städten ohne Moralstrafe zu mischen. Am Anfang eines Kampfes wird 'Gebet Meisterhaft' ausgesprochen.",
 	"artifact.hota.artifacts.capeOfSilence.description" : "{Umhang der Stille}\n\nWährend Ihr diesen Umhang tragt, könnt weder Ihr noch Euer Gegner während des Kampfes Zauber der Stufe 1-2 wirken.",
 	"artifact.hota.artifacts.capeOfSilence.event" : "Als Ihr am Friedhof vorbeikommt, bemerkt Ihr einen alten Mann, der um seine Frau trauert. Als Ihr Euch ihm nähert, fällt der alte Mann tot um. Nachdem Ihr ihn begraben habt, beschließt Ihr, seinen Umhang zu nehmen.",
 	"artifact.hota.artifacts.capeOfSilence.name" : "Umhang der Stille",
