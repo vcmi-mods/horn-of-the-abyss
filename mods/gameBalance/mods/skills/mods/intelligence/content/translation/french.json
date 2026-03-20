@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Esprit de niveau 2}\n\nAugmente la Magie maximale du héros de 35 %.",
+	"skill.core.intelligence.description.basic" : "{Esprit de niveau 1}\n\nAugmente la Magie maximale du héros de 20 %.",
+	"skill.core.intelligence.description.expert" : "{Esprit de niveau 3}\n\nAugmente la Magie maximale du héros de 50 %."
+}

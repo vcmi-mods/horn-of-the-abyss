@@ -1,7 +1,7 @@
 {
 	"creatures.core.ammoCart.bonus.noLuck" : "{Pas de chance}\nCe n'est pas une question de chance.",
-	"creatures.core.archDevil.bonus.decreaseLuck" : "{Архидьявол}\n-2 к удаче противника",
+	"creatures.core.archDevil.bonus.decreaseLuck" : "{Archidiable}\n-2 pour la chance de l'ennemi",
 	"creatures.core.catapult.bonus.noLuck" : "{Pas de chance}\nCe n'est pas une question de chance.",
-	"creatures.core.devil.bonus.decreaseLuck" : "{Дьявол}\n-1 к удаче противника",
+	"creatures.core.devil.bonus.decreaseLuck" : "{Diable} -1 pour la chance de l'ennemi",
 	"creatures.core.firstAidTent.bonus.noLuck" : "{Pas de chance}\nCe n'est pas une question de chance."
 }

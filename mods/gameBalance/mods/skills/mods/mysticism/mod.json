@@ -33,11 +33,17 @@
 	},
 	"french" : {
 		"name" : "Mysticisme",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Misticisms",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Mysticism",

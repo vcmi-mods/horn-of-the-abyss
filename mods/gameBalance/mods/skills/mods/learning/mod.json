@@ -32,11 +32,17 @@
 	},
 	"french" : {
 		"name" : "Apprentissage",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Mācīšanās",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"russian" : {
 		"name" : "Обучение",

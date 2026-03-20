@@ -1,0 +1,5 @@
+{
+	"skill.core.logistics.description.advanced" : "{Logistique de niveau 2}\n\nAugmente la mobilité terrestre de 10 %.",
+	"skill.core.logistics.description.basic" : "{Logistique de niveau 1}\n\nAugmente la mobilité terrestre de 5 %.",
+	"skill.core.logistics.description.expert" : "{Logistique de niveau 3}\n\nAugmente la mobilité terrestres de 20 %."
+}

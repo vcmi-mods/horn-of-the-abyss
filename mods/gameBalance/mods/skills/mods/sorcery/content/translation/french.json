@@ -1,0 +1,5 @@
+{
+	"skill.core.sorcery.description.advanced" : "{Divination de niveau 2}\n\nAugmente les dégâts des sorts de combat du héros de 20 %.",
+	"skill.core.sorcery.description.basic" : "{Divination de niveau 1}\n\nAugmente les dégâts des sorts de combat du héros de 10 %.",
+	"skill.core.sorcery.description.expert" : "{Divination de niveau 3}\n\nAugmente les dégâts des sorts de combat du héros de 30 %."
+}
