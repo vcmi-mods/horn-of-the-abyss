@@ -44,7 +44,7 @@
 
 		"levels" : {
 			"base" : {
-				"description" : "{Summon Fangarms}\r\n\r\nRise Fangarms from any corpses from both side, except non-living creatures.",
+				"description" : "{Summon Fangarms}\n\nRaise Fangarms from any corpses on the battlefield, excepting corpses of non-living creatures.",
 				"power" : 40,
 				"cost" : 0,
 				"targetModifier" : {

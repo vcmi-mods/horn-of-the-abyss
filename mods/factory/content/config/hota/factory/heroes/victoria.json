@@ -5,7 +5,7 @@
 
 		"texts" : {
 			"name" : "Victoria",
-			"biography" : "Higher magic can restore the dead, but can a simple infantryman who stepped on a landmine count on having someone work it on him? Victoria's fascination with such an insidious weapon did not earn her colleagues' respect, yet she committed her life to perfecting it. After meeting Floribert, the inventor found another use for her engineering knowledge, designing mechanical limbs for crippled warriors.",
+			"biography" : "Higher magic can even restore the dead, but can a simple infantryman who stepped on a landmine count on having someone work it on him? Victoria's fascination with such an insidious weapon did not earn her colleagues' respect, yet she committed her life to perfecting it. After meeting Floribert, the inventor found another use for her engineering knowledge, designing mechanical limbs for crippled warriors.",
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Land Mine",
 				"name" : "Land Mine",

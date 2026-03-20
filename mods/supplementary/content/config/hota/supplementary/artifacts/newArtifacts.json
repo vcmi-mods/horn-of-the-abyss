@@ -25,7 +25,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/hollowEyeBonus"
 		},
 		"text" : {
-			"description" : "{Hollow Eye}\r\n\r\nThe Hollow Eye increases the scouting radius by +2. It also makes hero's troops immune to Blind spell.",
+			"description" : "{Hollow Eye}\n\nThe Hollow Eye increases the scouting radius by +2. It also makes hero's troops immune to Blind spell.",
 			"event" : "After exploring in the dark swamp for a long time, you finally found a mysterious spyglass. You picked it up, hoping that it could help you get out of this endless swamp.",
 			"name" : "Hollow Eye"
 		}
@@ -60,7 +60,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/greaterBowBonus"
 		},
 		"text" : {
-			"description" : "{Great Battle Bow}\r\n\r\nGreat Battle Bow increases hero's Archery skill by +15%.",
+			"description" : "{Great Battle Bow}\n\nGreat Battle Bow increases hero's Archery skill by +15%.",
 			"event" : "An archer trying to draw the huge bow, but he couldn't do it no matter how hard he tried. Then you passed by and easily drew the bow, leaving him stunned. He was too embarrassed to ask for the bow back.",
 			"name" : "Great Battle Bow"
 		}
@@ -91,7 +91,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/fangScreamBonus"
 		},
 		"text" : {
-			"description" : "{Fang of the Last Scream}\r\n\r\nHeld with the right hand, Fang of the Last Scream gives +5 to hero's attack skill. It also gives the specialty of Bloodlust to hero who equipped it.",
+			"description" : "{Fang of the Last Scream}\n\nHeld with the right hand, Fang of the Last Scream gives +5 to hero's attack skill. It also gives the specialty of Bloodlust to hero who equipped it.",
 			"event" : "After exploring in the dark swamp for a long time, you finally found a steel battle claw. You picked it up, hoping that it could help you cut down the brambles and get out of this endless swamp.",
 			"name" : "Fang of the Last Scream"
 		}
@@ -110,7 +110,7 @@
 		},
 		"slot" : "RIGHT_HAND",
 		"text" : {
-			"description" : "{Great Woe of the Crawlers}\r\n\r\nThe Great Woe of the Crawlers is an ancient weapon from Pactal's family. It increases all your Primary Skills by 3, and increases Fortress creatures' damages by 30% and speed by 2.",
+			"description" : "{Great Woe of the Crawlers}\n\nThe Great Woe of the Crawlers is an ancient weapon from Pactal's family. It increases all your Primary Skills by 3, and increases Fortress creatures' damages by 30% and speed by 2.",
 			"event" : "The sharp claws sticking out of the ground make you think it is the remains of some beast, but when you get closer, you find the Great Woe of the Crawlers.",
 			"name" : "Great Woe of the Crawlers"
 		},

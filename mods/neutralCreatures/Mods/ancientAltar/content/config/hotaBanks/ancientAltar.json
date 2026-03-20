@@ -35,14 +35,14 @@
 				//					"rarity" : 20
 				//				},
 				"blockedVisitable" : true,
-				"onGuardedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\r\nDo you want to fight them?",
-				"onVisitedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
+				"onGuardedMessage" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\nDo you want to fight them?",
+				"onVisitedMessage" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "default",
 				"rewards" : [
 					{
-						"message" : "{Ancient Altar}\r\n\r\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",
+						"message" : "{Ancient Altar}\n\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",
 						"appearChance" : {
 							"min" : 0,
 							"max" : 100
@@ -87,14 +87,14 @@
 					]
 				},
 				"blockedVisitable" : true,
-				"onGuardedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\r\nDo you want to fight them?",
-				"onVisitedMessage" : "{Ancient Altar}\r\n\r\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
+				"onGuardedMessage" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\nDo you want to fight them?",
+				"onVisitedMessage" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "default",
 				"rewards" : [
 					{
-						"message" : "{Ancient Altar}\r\n\r\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",
+						"message" : "{Ancient Altar}\n\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!",
 						"appearChance" : {
 							"min" : 0,
 							"max" : 100
