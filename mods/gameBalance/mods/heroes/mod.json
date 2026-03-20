@@ -200,7 +200,10 @@
 	},
 	"french" : {
 		"name" : "Héros",
-		"description" : "Modifications apportées aux compétences secondaires initiales d'Uland, Deemer et Gem."
+		"description" : "Modifications apportées aux compétences secondaires initiales d'Uland, Deemer et Gem.",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Varoņi",

@@ -33,11 +33,17 @@
 	},
 	"french" : {
 		"name" : "Domaines",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Īpašumi",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Estates",

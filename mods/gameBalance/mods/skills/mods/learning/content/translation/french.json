@@ -1,0 +1,5 @@
+{
+	"skill.core.learning.description.advanced" : "{Entraînement de niveau 2}\n\nAugmente de 40 % les points d'expérience gagnés en combat.",
+	"skill.core.learning.description.basic" : "{Entraînement de niveau 1}\n\nAugmente de 20 % les points d'expérience gagnés en combat.",
+	"skill.core.learning.description.expert" : "{Entraînement de niveau 3}\n\nAugmente de 60 % les points d'expérience gagnés en combat."
+}

@@ -47,11 +47,17 @@
 	},
 	"french" : {
 		"name" : "Objets de carte",
-		"description" : "Ajoute plusieurs nouveaux objets créés par HotA Crew à VCMI, disponibles sur des cartes aléatoires."
+		"description" : "Ajoute plusieurs nouveaux objets créés par HotA Crew à VCMI, disponibles sur des cartes aléatoires.",
+		"translations" : [
+			"translation/mapObjects/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Kartes objekti",
-		"description" : "Pievieno VCMI vairākus jaunus objektus, ko pievienojusi HotA Crew, un tie ir pieejami nejaušās kartēs."
+		"description" : "Pievieno VCMI vairākus jaunus objektus, ko pievienojusi HotA Crew, un tie ir pieejami nejaušās kartēs.",
+		"translations" : [
+			"translation/mapObjects/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Nowe obiekty",

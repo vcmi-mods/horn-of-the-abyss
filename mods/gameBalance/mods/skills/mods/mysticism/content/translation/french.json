@@ -1,0 +1,5 @@
+{
+	"skill.core.mysticism.description.advanced" : "{Mysticisme niveau 2}\n\nPermet au héros de récupérer 10 points de magie par jour.",
+	"skill.core.mysticism.description.basic" : "{Mysticisme niveau 1}\n\nPermet au héros de récupérer 5 points de magie par jour.",
+	"skill.core.mysticism.description.expert" : "{Mysticisme niveau 3}\n\nPermet au héros de récupérer 15 points de magie par jour."
+}

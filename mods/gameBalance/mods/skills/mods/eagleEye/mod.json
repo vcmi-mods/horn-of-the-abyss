@@ -33,11 +33,17 @@
 	},
 	"french" : {
 		"name" : "Œil d'aigle",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Ērgļa acs",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Eagle Eye",

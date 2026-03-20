@@ -1,0 +1,5 @@
+{
+	"skill.core.necromancy.description.advanced" : "{Nécromancie niveau 2}\n\nPermet de ressusciter 10 % des créatures tuées au combat sous forme de squelettes.",
+	"skill.core.necromancy.description.basic" : "{Nécromancie niveau 1}\n\nPermet de ressusciter 5 % des créatures tuées au combat sous forme de squelettes.",
+	"skill.core.necromancy.description.expert" : "{Nécromancie niveau 3}\n\nPermet de ressusciter 15 % des créatures tuées au combat sous forme de squelettes."
+}
