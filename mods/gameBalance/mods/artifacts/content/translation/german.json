@@ -1,6 +1,6 @@
 {
 	"artifact.core.amuletOfTheUndertaker.description" : "{Amulett der Totengräber}\n\nUm den Hals getragen, erhöht dieser Gegenstand die Nekromantiefähigkeit um 5%.",
-	"artifact.core.cloakOfTheUndeadKing.description" : "{Umhang des Untoten-Königs}\n\n30% der Toten eines Kampfes werden als Skelette wiederbelebt. Hat der Held schon die Fähigkeit Nekromantie, so wird dieser Prozentsatz hinzugefügt und ihr Level bestimmt welche Art wiedererweckt werden.\nEinfach: Zombies\nVerbessert: Geister\nMeisterhaft: Liche",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Umhang des Untoten-Königs}\n\n30% der Toten eines Kampfes erstehen als Skelette wieder auf. Wenn der Held bereits die Fähigkeit Nekromantie besitzt, wird der Prozentsatz zu der Fähigkeit hinzu addiert, und ihr Level bestimmt die Art der auferstehenden Kreaturen.\nEinfach: Wandelnde Toten\nVerbessert: Geister\nMeisterhaft: Liche",
 	"artifact.core.deadMansBoots.description" : "{Totenstiefel}\n\nAn den Füßen getragen, erhöhen diese Stiefel die Nekromantiefähigkeit um 15%.",
 	"artifact.core.vampiresCowl.description" : "{Vampirkutte}\n\nÜber die Schultern geworfen, erhöht diese Kutte die Nekromantiefähigkeit um 10%."
 
