@@ -659,7 +659,6 @@
 		"name" : "Horn of the Abyss",
 		"description" : "Merci à Hakas_FR pour les traductions. Les mods et les cartes ont été traduits.",
 		"translations" : [
-			"config/translation/hota/french/campaigns.json",
 			"config/translation/hota/french/maps.json"
 		]
 	},
