@@ -54,7 +54,7 @@
 			"biography" : "Since young age Elmore has dreamt about becoming a great sailor. Spending years far from the shore, he has put a lot of effort to make his dream come true. Many pirate captains are famous for their skill of navigation, but Elmore is capable of true magic even onboard the poorest junk.",
 			"specialty" : {
 				"name" : "Navigation",
-				"description" : "Receives a 5% per level bonus to movement points at sea.",
+				"description" : "In the presence of Navigation skill hero receives a bonus of 5% extra movement points at sea per level.",
 				"tooltip" : "Secondary Skill Bonus: Navigation"
 			}
 		}
