@@ -1,6 +1,6 @@
 {
 	"building.core.dungeon.special2.onEmpty" : "Tavam varonim ir pietiekami daudz manas, un viņš nevar iegūt vairāk no Manas virpuļa.",
-	"building.core.dungeon.special2.onVisited" : "Mana Vortex šonedēļ jau ir izmantots.",
-	"building.core.dungeon.special2.rewards.0" : "Manas virpuļa tuvumā jūsu ķermenis var piepildīties ar jaunu spēku.\n\nVai vēlaties izmantot Manas virpuli, lai dubultotu sava varoņa manu?",
+	"building.core.dungeon.special2.onVisited" : "Manas Virpulis šonedēļ jau ir izmantots.",
+	"building.core.dungeon.special2.rewards.0" : "Manas Virpuļa tuvumā jūsu ķermenis var piepildīties ar jaunu spēku.\n\nVai vēlaties izmantot Manas Virpuli, lai dubultotu sava varoņa manu?",
 	"building.core.necropolis.special2.description" : "Nekromantijas pastiprinātājs palielina visu jūsu kontrolēto varoņu (kuriem ir šī prasme) nekromantijas prasmi par 5%."
 }
