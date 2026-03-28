@@ -1,7 +1,7 @@
 {
 	"creatures.core.ammoCart.bonus.noLuck" : "{Neveiksmes}\nNav atkarīgs no veiksmes.",
-	"creatures.core.archDevil.bonus.decreaseLuck" : "{Archidiable}\n-2 pour la chance de l'ennemi",
+	"creatures.core.archDevil.bonus.decreaseLuck" : "{Arhivelns}\n-2 pretinieka veiksmei",
 	"creatures.core.catapult.bonus.noLuck" : "{Neveiksmes}\nNav atkarīgs no veiksmes.",
-	"creatures.core.devil.bonus.decreaseLuck" : "{Archidiable}\n-1 pour la chance de l'ennemi",
+	"creatures.core.devil.bonus.decreaseLuck" : "{Velns}\n-1 pretinieka veiksmei",
 	"creatures.core.firstAidTent.bonus.noLuck" : "{Neveiksmes}\nNav atkarīgs no veiksmes."
 }
