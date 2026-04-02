@@ -9,7 +9,7 @@
 			"water" : false
 		},
 		"targetType" : "NO_TARGET",
-		"level" : 1,
+		"level" : 0,
 		"power" : 1,
 		"defaultGainChance" : 0,
 		"gainChance" : {},
