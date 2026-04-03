@@ -1,5 +1,6 @@
 {
-	"skill.core.mysticism.description.advanced" : "{Mystik (Utvecklad)}\n\nMystik på utvecklad nivå tillåter din hjälte att regenerera tio (10) trollformelspoäng per dag.",
-	"skill.core.mysticism.description.basic" : "{Mystik (Grundläggande)}\n\nMystik på grundläggande nivå tillåter din hjälte att regenerera fem (5) trollformelspoäng per dag.",
-	"skill.core.mysticism.description.expert" : "{Mystik (Mästerlig)}\n\nMystik på mästerlig nivå tillåter din hjälte att regenerera femton (15) trollformelspoäng per dag."
+	// NOTE: should also state percentage mana regen per day (10%/20%/30% - does not stack with flat regen, instead chooses the higher value)
+	"skill.core.mysticism.description.advanced" : "{Avancerad Mystik}\n\nLåter hjälten återfå 10 trolleripoäng per dag.",
+	"skill.core.mysticism.description.basic" : "{Basal Mystik}\n\nLåter hjälten återfå 5 trolleripoäng per dag.",
+	"skill.core.mysticism.description.expert" : "{Mästerlig Mystik}\n\nLåter hjälten återfå 15 trolleripoäng per dag."
 }
