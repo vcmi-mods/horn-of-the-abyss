@@ -2,12 +2,7 @@
 	"artifact.core.amuletOfTheUndertaker.description" : "{Dödgrävarens Amulett}\n\nÖkar hjältens nekromantikfärdighet med 5%.",
 	"artifact.core.cloakOfTheUndeadKing.description" : "{Den Odöda Kungens Mantel}\n\nÅteruppväcker 30% av de stupade fiendekrigarna som skelett. Om hjälten har nekromantikfärdigheten adderas procenten till den färdigheten och starkare varelser kan återuppväckas:\n\nBasal Nekromantik återuppväcker Dödgångare.\nAvancerad Nekromantik återuppväcker Gastar.\nMästerlig Nekromantik återuppväcker Dödsmagiker.",
 	"artifact.core.deadMansBoots.description" : "{Död Mans Stövlar}\n\nÖkar hjältens nekromantikfärdighet med 15%.",
-	"artifact.core.vampiresCowl.description" : "{Vampyrens Kåpa}\n\nÖkar hjältens nekromantikfärdighet med 10%."
-
-	// these should be added for polishing
-	//"artifact.core.equestriansGloves.description" : "{Equestrian's Gloves}\n\nWorn on the hands, these gloves increase your hero's movement rate over land by 200 points.",
-	//"artifact.core.bootsOfSpeed.description" : "{Boots of Speed}\n\nWorn on the feet, these boots increase your hero's movement rate over land by 400 points."
-
-	// translate and add this in global translations:
-	// "artifact.core.angelicAlliance.description" : "{Angelic Alliance}\n\nCounting component effects the Angelic Alliance gives hero +21 to all primary skills and grants each army of player to mix good and neutral town creatures without morale penalty. At the beginning of each combat the Angelic Alliance will cast Expert Prayer for 10 rounds."
+	"artifact.core.vampiresCowl.description" : "{Vampyrens Kåpa}\n\nÖkar hjältens nekromantikfärdighet med 10%.",
+	"artifact.core.equestriansGloves.description" : "{Ryttarens Handskar}\n\nDessa handskar gör så att din hjälte kan färdas längre på land (+200 färdpoäng när artefakten är utrustad på hjältens ringfingerplats).",
+	"artifact.core.bootsOfSpeed.description" : "{Snabbhetens Stövlar}\n\nDessa stövlar gör så att din hjälte kan färdas längre på land (+400 färdpoäng när artefakten är utrustad på hjältens fötter)."
 }
