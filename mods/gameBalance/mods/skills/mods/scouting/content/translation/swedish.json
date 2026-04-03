@@ -1,5 +1,5 @@
 {
-	"skill.core.scouting.description.advanced" : "{Spaning (Utvecklad)}\n\nSpaning på utvecklad nivå tillåter din hjälte att se tre (3) rutor längre bort.",
-	"skill.core.scouting.description.basic" : "{Spaning (Grundläggande)}\n\nSpaning på grundläggande nivå tillåter din hjälte att se en (1) ruta längre bort.",
-	"skill.core.scouting.description.expert" : "{Spaning (Mästerlig)}\n\nSpaning på mästerlig nivå tillåter din hjälte att se fem (5) rutor längre bort."
+	"skill.core.scouting.description.advanced" : "{Avancerad Spaning}\n\nLåter hjälten se 3 rutor längre in i det okända.",
+	"skill.core.scouting.description.basic" : "{Basal Spaning}\n\nLåter hjälten se 1 ruta längre in i det okända.",
+	"skill.core.scouting.description.expert" : "{Mästerlig Spaning}\n\nLåter hjälten se 5 rutor längre in i det okända."
 }
