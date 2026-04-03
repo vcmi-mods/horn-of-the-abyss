@@ -29,7 +29,6 @@
 	"objects" : [
 		"config/hotaInterference/hermitsShack"
 	],
-
 	"chinese" : {
 		"name" : "干扰术技能",
 		"description" : "这个模组添加新技能干扰术和特长干扰术的新英雄吉赛尔，并将其他英雄的抵抗力技能替换为干扰术。"
@@ -47,8 +46,8 @@
 		"description" : "Pievieno jaunu prasmi « Iejaukšanās », jaunu varoni Žizeli ar specializāciju iejaukšanās prasmē un maina varoņus ar pretestības prasmi, lai tā vietā izmantotu iejaukšanos."
 	},
 	"polish" : {
-		"name" : "Umiejętność Interferencja",
-		"description" : "Mod dodaje nową umiejętność – Interferencję, nową bohaterkę Giselle ze specjalizacją w tej umiejętności oraz zmienia bohaterów z odpornością na czary, by korzystali z Interferencji"
+		"name" : "Umiejętność - Zakłócanie",
+		"description" : "Mod dodaje nową umiejętność – Zakłócanie, nową bohaterkę Giselle ze specjalizacją w tej umiejętności oraz zmienia bohaterów z odpornością na czary, by korzystali z zakłócania"
 	},
 	"portuguese" : {
 		"name" : "Habilidade Interferência",

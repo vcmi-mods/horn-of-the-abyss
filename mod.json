@@ -8,8 +8,13 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.003",
+	"version" : "1.8.004",
 	"changelog" : {
+		"1.8.004" : [
+			"Polish translation of Bulwark town",
+			"Game balance partial polish translation",
+			"Updated swedish translation"
+		],
 		"1.8.003" : [
 			"Overhauled Russian translation and added Russian Bulwark translation",
 			"Fixed some obstacles in battlefields",
