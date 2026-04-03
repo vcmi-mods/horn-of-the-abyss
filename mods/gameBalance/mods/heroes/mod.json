@@ -218,5 +218,12 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"polish" : {
+		"name" : "Bohaterowie",
+		"description" : "Lokalizacja wszystkich tekstów specjalizacji HoTA na polski",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
