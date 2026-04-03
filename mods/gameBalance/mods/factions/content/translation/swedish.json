@@ -1,8 +1,7 @@
 {
-	// TRANSLATION REQUIRED!!!
-	//"building.core.dungeon.special2.description" : "The Mana Vortex doubles the spell points for one visiting hero, once per week.",
-	//"building.core.dungeon.special2.onEmpty" : "Your hero has enough spell points and cannot get more from the Mana Vortex.",
-	//"building.core.dungeon.special2.onVisited" : "The Mana Vortex has been already used this week.",
-	//"building.core.dungeon.special2.rewards.0" : "As you near the Mana Vortex, you sense that it could fill your body with new energy.\n\nDo you want to use the Mana Vortex to double your hero's normal spell points?",
-	"building.core.necropolis.special2.description" : "Nekromantiförstärkaren höjer Nekromantiförmågan hos alla de hjältar du kontrollerar (med Nekromantiförmågan) med 5%."
+	"building.core.dungeon.special2.description" : "Manavirveln fördubblar trolleripoängen för en besökande hjälte, en gång per vecka.",
+	"building.core.dungeon.special2.onEmpty" : "Din hjälte har tillräckligt med trolleripoäng och kan inte få fler från Manavirveln.",
+	"building.core.dungeon.special2.onVisited" : "Manavirveln har redan använts denna vecka.",
+	"building.core.dungeon.special2.rewards.0" : "När du närmar dig Manavirveln känner du att den skulle kunna fylla din kropp med ny energi.\n\nVill du använda Manavirveln för att fördubbla din hjältes normala trolleripoäng?",
+	"building.core.necropolis.special2.description" : "Nekromantikförstärkaren ökar nekromantikfärdigheten hos alla hjältar du kontrollerar (+10% Nekromantik till samtliga hjältar under din kontroll)."
 }
