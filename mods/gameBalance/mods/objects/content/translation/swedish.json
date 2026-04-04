@@ -1,18 +1,17 @@
 {
-	// REQUIRES TRANSLATION
-	//"mapObject.core.arena.arena.onSelect" : "You enter the arena and face a pack of vicious lions.  You handily defeat them, to the wild cheers of the crowd.  Impressed by your skill, the aged trainer of gladiators agrees to train you in a skill of your choice.",
-	//"mapObject.core.arena.arena.onVisited" : "The Arena guards prevent you from entering.  \"You've already beaten our best.  Begone from here.\"",
-	//"mapObject.core.cartographer.cartographerLand.onEmpty" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",
-	//"mapObject.core.cartographer.cartographerLand.onVisited" : "You have already seen all my maps laddy, now run along.",
-	//"mapObject.core.cartographer.cartographerLand.rewards.0" : "You find a cartographer who sells maps of the land for 10000 gold. Would you like to buy a map?",
-	//"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",
-	//"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "You have already seen all my maps laddy, now run along.",
-	//"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "You discover an old dwarven miner who has kept several sets of maps from his working days. He is willing to sell you a map of the tunnels for 10000 gold. Do you agree?",
-	//"mapObject.core.cartographer.cartographerWater.onEmpty" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",
-	//"mapObject.core.cartographer.cartographerWater.onVisited" : "You have already seen all my maps laddy, now run along.",
-	//"mapObject.core.cartographer.cartographerWater.rewards.0" : "You find an old fisherman who has the most detailed maps of the seas that you have ever seen. Would you like to purchase a set of maps for 10000 gold?",
-	//"mapObject.core.scholar.scholar.rewards.0" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",
-	//"mapObject.core.scholar.scholar.rewards.1" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",
-	//"mapObject.core.scholar.scholar.rewards.2" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",
-	//"mapObject.core.witchHut.witchHut.rewards.0" : "{Witch's Hut}\n\nAn ancient witch living in a strange hut welcomes you, offering to teach you %s for her own inscrutable purposes."
+	"mapObject.core.arena.arena.onSelect" : "Du går in i arenan och konfronteras av en flock rovlystna lejon. Du besegrar dem skickligt inför åskådarnas vilda jubel. Den åldrade gladiatortränaren imponeras av dina färdigheter och går därför med på att träna dig i en valfri förmåga.",
+	"mapObject.core.arena.arena.onVisited" : "Arenans vakter låter dig inte passera. \"Du har redan besegrat våra lejon. Ge dig iväg.\"",
+	"mapObject.core.cartographer.cartographerLand.onEmpty" : "Mina kartor kostar 10 000 guld, vilket du inte verkar ha. Sluta slösa bort min tid.",
+	"mapObject.core.cartographer.cartographerLand.onVisited" : "Du har redan sett alla mina kartor, grabben. Så stick iväg nu.",
+	"mapObject.core.cartographer.cartographerLand.rewards.0" : "Du träffar på en kartograf som säljer landskartor för 10 000 guld. Vill du köpa en karta?",
+	"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "Mina kartor kostar 10 000 guld, vilket du inte verkar ha. Sluta slösa bort min tid.",
+	"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "Du har redan sett alla mina kartor, grabben. Så stick iväg nu.",
+	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "Du upptäcker en gammal dvärggruvarbetare som har sparat flera uppsättningar kartor från sin tid i gruvan. Han är villig att sälja en karta över tunnlarna till dig för 10 000 guld. Går du med på det?",
+	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Mina kartor kostar 10 000 guld, vilket du inte verkar ha. Sluta slösa bort min tid.",
+	"mapObject.core.cartographer.cartographerWater.onVisited" : "Du har redan sett alla mina kartor, grabben. Så stick iväg nu.",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Du hittar en gammal fiskare som har de mest detaljerade sjökartorna du någonsin sett. Vill du köpa en uppsättning kartor för 10 000 guld?",
+	"mapObject.core.scholar.scholar.rewards.0" : "När du rider in i en glänta får du syn på en lärd man från universitetet som låter sin häst vila. Han erbjuder sig att lära dig lite av det han kan innan han ger sig av.",
+	"mapObject.core.scholar.scholar.rewards.1" : "När du rider in i en glänta får du syn på en lärd man från universitetet som låter sin häst vila. Han erbjuder sig att lära dig lite av det han kan innan han ger sig av.",
+	"mapObject.core.scholar.scholar.rewards.2" : "När du rider in i en glänta får du syn på en lärd man från universitetet som låter sin häst vila. Han erbjuder sig att lära dig lite av det han kan innan han ger sig av.",
+	"mapObject.core.witchHut.witchHut.rewards.0" : "{Häxkoja}\n\nEn gammal häxa som bor i en märklig hydda välkomnar dig och erbjuder sig att lära dig %s för sina egna outgrundliga syften."
 }
