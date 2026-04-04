@@ -1,6 +1,5 @@
 {
-	// NOTE: should also state percentage mana regen per day (10%/20%/30% - does not stack with flat regen, instead chooses the higher value)
-	"skill.core.mysticism.description.advanced" : "{Avancerad Mystik}\n\nLåter hjälten återfå 10 trolleripoäng per dag.",
-	"skill.core.mysticism.description.basic" : "{Basal Mystik}\n\nLåter hjälten återfå 5 trolleripoäng per dag.",
-	"skill.core.mysticism.description.expert" : "{Mästerlig Mystik}\n\nLåter hjälten återfå 15 trolleripoäng per dag."
+	"skill.core.mysticism.description.advanced" : "{Avancerad Mystik}\n\nLåter hjälten återfå minst 10 trolleripoäng per dag eller 20% av hjältens maximala trolleripoäng per dag, beroende på vilket värde som är högst.",
+	"skill.core.mysticism.description.basic" : "{Basal Mystik}\n\nLåter hjälten återfå minst 5 trolleripoäng per dag eller 10% av hjältens maximala trolleripoäng per dag, beroende på vilket värde som är högst.",
+	"skill.core.mysticism.description.expert" : "{Mästerlig Mystik}\n\nLåter hjälten återfå minst 15 trolleripoäng per dag eller 30% av hjältens maximala trolleripoäng per dag, beroende på vilket värde som är högst."
 }
