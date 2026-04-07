@@ -170,13 +170,14 @@
 		"value" : 10000
 	},
 	"helmetAnduran" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
 		"class" : "MAJOR",
 		"value" : 8000,
 		"bonuses" : {
-			"knowledge" : 
-			{
+			"knowledge" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.knowledge",
 				"valueType" : "BASE_NUMBER",
@@ -195,13 +196,14 @@
 		}
 	},
 	"swordAnduran" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
 		"class" : "MAJOR",
 		"value" : 8000,
 		"bonuses" : {
-			"attack":
-			{
+			"attack" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.attack",
 				"val" : 5,
@@ -220,13 +222,14 @@
 		}
 	},
 	"plateAnduran" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "TORSO",
 		"class" : "MAJOR",
 		"value" : 8000,
 		"bonuses" : {
-			"spellpower":
-			{
+			"spellpower" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.spellpower",
 				"val" : 5,
@@ -245,13 +248,14 @@
 		}
 	},
 	"shieldAnduran" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
 		"class" : "MAJOR",
 		"value" : 8000,
 		"bonuses" : {
-			"defence":
-			{
+			"defence" : {
 				"type" : "PRIMARY_SKILL",
 				"subtype" : "primarySkill.defence",
 				"val" : 5,
@@ -270,10 +274,17 @@
 		}
 	},
 	"garbAnduran" : {
-		"type" : [ "HERO" ],
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
 		"class" : "RELIC",
-		"components" : [ "helmetAnduran", "swordAnduran", "plateAnduran", "shieldAnduran" ],
+		"components" : [
+			"helmetAnduran",
+			"swordAnduran",
+			"plateAnduran",
+			"shieldAnduran"
+		],
 		"fusedComponents" : true,
 		"value" : 15000,
 		"bonuses" : {
@@ -325,7 +336,7 @@
 		},
 		"text" : {
 			"description" : "{Battle Garb of Anduran}\r\n\r\nHeld with the left hand, this item increases your all primary skills by +5, +3 morale and luck, it allows hero to use highest level {Town Portal} as well.",
-			"event" :  "You've heard that the Battle Garb of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"event" : "You've heard that the Battle Garb of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Battle Garb of Anduran"
 		}
 	}
