@@ -392,7 +392,6 @@
 	"mapObject.hota.neutralcreatures.creatureGeneratorCommon.alehouse.name" : "Taberna",
 	"mapObject.hota.neutralcreatures.creatureGeneratorCommon.wineyard.name" : "Viñedo",
 	"mapObject.hota.neutralcreatures.creatureGeneratorCommon.ziggurat.name" : "Ziggurat",
-	"mapObject.hota.terrains.creatureBank.churchyard.name" : "Cementerio",
 	"mapObject.hota.terrains.creatureBank.ruins.name" : "Ruinas",
 	"mapObject.hota.terrains.derrick.derrick.name" : "Torre de perforación (En la primera semana, proporciona al jugador visitante 500 unidades de oro. En las siguientes visitas semanales proporciona al jugador visitante 1000 unidades de oro.)",
 	"mapObject.hota.terrains.derrick.derrick.onVisited" : "{Torre de perforación}\r\n\r\nEl capataz está muy ocupado. Al estar cerca, logras escuchar fragmentos de quejas sobre la falta de suficiente petróleo extraído. Debes volver la próxima semana.",

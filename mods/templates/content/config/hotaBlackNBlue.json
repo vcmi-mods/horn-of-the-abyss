@@ -704,7 +704,7 @@
 								"value" : 1500,
 								"zoneLimit" : 1
 							},
-							"subtype" : "hota.highlandsterrain:churchyard",
+							"subtype" : "hota.mapobjects:churchyard",
 							"type" : "core:creatureBank"
 						},
 						{
@@ -994,7 +994,7 @@
 								"value" : 1500,
 								"zoneLimit" : 3
 							},
-							"subtype" : "hota.highlandsterrain:churchyard",
+							"subtype" : "hota.mapobjects:churchyard",
 							"type" : "core:creatureBank"
 						},
 						{
@@ -1563,7 +1563,7 @@
 								"value" : 1500,
 								"zoneLimit" : 3
 							},
-							"subtype" : "hota.highlandsterrain:churchyard",
+							"subtype" : "hota.mapobjects:churchyard",
 							"type" : "core:creatureBank"
 						},
 						{

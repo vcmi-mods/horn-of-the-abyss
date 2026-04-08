@@ -10,7 +10,10 @@
 		"min" : "1.7.2"
 	},
 	"depends" : [],
-	"softDepends" : [],
+	"softDepends" : [
+		"hota.highlandsterrain",
+		"hota.mapobjects"
+	],
 
 	"factions" : [
 		"config/hota/bulwark/faction.json",
