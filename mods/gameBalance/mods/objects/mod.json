@@ -61,5 +61,12 @@
 		"translations" : [
 			"translation/swedish.json"
 		]
+	},
+	"polish" : {
+		"name" : "Objects",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
