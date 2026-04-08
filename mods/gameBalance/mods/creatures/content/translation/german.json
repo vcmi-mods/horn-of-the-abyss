@@ -1,7 +1,7 @@
 {
-	"creatures.core.ammoCart.bonus.noLuck" : "{Ohne Glück}\nDie Munitionskarre wird nicht vom Glück beeinflusst",
+	"creatures.core.ammoCart.bonus.noLuck" : "{Ohne Glück}\nDie Munitionskarre wird nicht vom Glück beeinflusst.",
 	"creatures.core.archDevil.bonus.decreaseLuck" : "{Verringert Gegnerglück}\nErzteufel reduzieren das Glück des Gegners um zwei.",
-	"creatures.core.catapult.bonus.noLuck" : "{Ohne Glück}\nDas Katapult wird nicht vom Glück beeinflusst",
+	"creatures.core.catapult.bonus.noLuck" : "{Ohne Glück}\nDas Katapult wird nicht vom Glück beeinflusst.",
 	"creatures.core.devil.bonus.decreaseLuck" : "{Verringert Gegnerglück}\nTeufel reduzieren das Glück des Gegners um eins.",
-	"creatures.core.firstAidTent.bonus.noLuck" : "{Ohne Glück}\nDas Erste Hilfe-Zelt wird nicht vom Glück beeinflusst"
+	"creatures.core.firstAidTent.bonus.noLuck" : "{Ohne Glück}\nDas Erste Hilfe-Zelt wird nicht vom Glück beeinflusst."
 }
