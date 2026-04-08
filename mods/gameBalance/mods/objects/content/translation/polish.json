@@ -9,7 +9,7 @@
 	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "Odkrywasz starego krasnoludzkiego górnika, który zachował kilka zestawów map z czasów swojej pracy. Jest gotów sprzedać ci mapę tuneli za {10 000} złota. Zgadzasz się?",
 	"mapObject.core.cartographer.cartographerWater.onEmpty" : "Moje mapy kosztują {10 000} złota, którego, jak widzę, nie masz. Nie trać mojego czasu.",
 	"mapObject.core.cartographer.cartographerWater.onVisited" : "Już widziałeś wszystkie moje mapy. Nic tu po Tobie!",
-	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Znajdujesz starego rybaka, który ma najbardziej szczegółowe mapy mórz, jakie kiedykolwiek widziałeś. Czy chcesz kupić zestaw map za {10 000} złota?",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "Znajdujesz starego rybaka, który ma najbardziej szczegółowe mapy mórz, jakie kiedykolwiek widziałeś. Czy chcesz kupić zestaw map za {10 000} złota?"
 	// TRANSLATION REQUIRED
 	//"mapObject.core.scholar.scholar.rewards.0" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",
 	//"mapObject.core.scholar.scholar.rewards.1" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",

@@ -985,7 +985,7 @@
 	"mapObject.hota.highlandsterrain.mineralSpring.mineralSpring.rewards.0" : "{Źródło mineralne}\r\n\r\nKonie nie wyglądają na zachwycone piciem słonej wody, ale wkrótce zauważasz, że podskakują z nową energią. Tęcza tworzy się w kroplach nad błyszczącym źródłem, a widok ten wprawia wszystkich w radosny nastrój.",
 	"mapObject.hota.mapdecorations.redwoodObservatory.hotaObservationTower.name" : "Wieża obserwacyjna",
 	"mapObject.hota.mapobjects.altarOfMana.altarOfMana.name" : "Ołtarz many (bohaterowie mogą ofiarować stworzenia dla {punktów many}, do {4x} większej niż normalna czapka).",
-		"mapObject.hota.mapobjects.ancientLamp.ancientLamp.description" : "(Pozwala jednorazowo rekrutować {4}-{6} wielkich dżinnów.)\n",
+	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.description" : "(Pozwala jednorazowo rekrutować {4}-{6} wielkich dżinnów.)\n",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.name" : "Starożytna lampa",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.onEmpty" : "{Starożytna Lampa}\n\nniszczony turban wyłania się z lampy umieszczonej na głowie jego właściciela – dżina. \"Och, czyż to nie są jacyś pracodawcy? Znowu. Masz pieniądze? Nie będziemy więcej pracować za magiczne fasolki. I NIE spełnimy żadnych życzeń. Wróć gdy będziesz mieć więcej złota.\"",
 	"mapObject.hota.mapobjects.ancientLamp.ancientLamp.rewards.0" : "{Starożytna Lampa}\n\nniszczony turban wyłania się z lampy umieszczonej na głowie jego właściciela – dżina. \"Och, czyż to nie są jacyś pracodawcy? Znowu. Masz pieniądze? Nie będziemy więcej pracować za magiczne fasolki. I NIE spełnimy żadnych życzeń. W pozostałych kwestiach możesz na nas liczyć.\"",
