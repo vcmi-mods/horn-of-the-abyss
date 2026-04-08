@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 50% to a minimum cost of 90%.",
+	"skill.core.pathfinding.description.basic" : "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 25% to a minimum cost of 95%.",
+	"skill.core.pathfinding.description.expert" : "{Expert Pathfinding}\n\nExpert Pathfinding removes the movement penalty for rough terrain, reducing the cost of moving by 75% to a minimum cost of 85%."
+}

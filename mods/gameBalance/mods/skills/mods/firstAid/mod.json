@@ -59,5 +59,12 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"polish" : {
+		"name" : "First Aid",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }

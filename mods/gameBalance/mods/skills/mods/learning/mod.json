@@ -50,5 +50,12 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"polish" : {
+		"name" : "Learning",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
