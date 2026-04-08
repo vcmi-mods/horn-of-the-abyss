@@ -29,6 +29,7 @@
 	"objects" : [
 		"config/hotaInterference/hermitsShack"
 	],
+
 	"chinese" : {
 		"name" : "干扰术技能",
 		"description" : "这个模组添加新技能干扰术和特长干扰术的新英雄吉赛尔，并将其他英雄的抵抗力技能替换为干扰术。"
