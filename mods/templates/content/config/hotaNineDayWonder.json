@@ -99,7 +99,7 @@
 					],
 					"bannedObjects" : {
 						"core:creatureBank" : {
-							"hota.highlandsterrain:churchyard" : true,
+							"hota.mapobjects:churchyard" : true,
 							"hota.mapobjects:experimentalShop" : true,
 							"hota.mapobjects:mansion" : true,
 							"nagaBank" : true
@@ -1012,7 +1012,7 @@
 								"rarity" : 200,
 								"value" : 1500
 							},
-							"subtype" : "hota.highlandsterrain:churchyard",
+							"subtype" : "hota.mapobjects:churchyard",
 							"type" : "core:creatureBank"
 						}
 					]
