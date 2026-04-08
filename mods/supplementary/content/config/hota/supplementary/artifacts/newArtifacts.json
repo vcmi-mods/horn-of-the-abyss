@@ -168,5 +168,176 @@
 			"HERO"
 		],
 		"value" : 10000
+	},
+	"helmetAnduran" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "HEAD",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.knowledge",
+				"valueType" : "BASE_NUMBER",
+				"val" : 5
+			}
+		},
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/anHem",
+			"map" : "hota/supplementary/artifacts/andu1Map",
+			"scenarioBonus" : "hota/supplementary/artifacts/anduran1"
+		},
+		"text" : {
+			"description" : "{Helmet of Anduran}\r\n\r\nWorn on the head, this item increases your Knowledge skill by +5.",
+			"event" : "You've heard that the Helmet of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"name" : "Helmet of Anduran"
+		}
+	},
+	"swordAnduran" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "RIGHT_HAND",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.attack",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/anSword",
+			"map" : "hota/supplementary/artifacts/andu2Map",
+			"scenarioBonus" : "hota/supplementary/artifacts/anduran2"
+		},
+		"text" : {
+			"description" : "{Sword of Anduran}\r\n\r\nHeld with the right hand, this item increases your Attack skill by +5.",
+			"event" : "You've heard that the Sword of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"name" : "Sword of Anduran"
+		}
+	},
+	"plateAnduran" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "TORSO",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.spellpower",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/anPlate",
+			"map" : "hota/supplementary/artifacts/andu3Map",
+			"scenarioBonus" : "hota/supplementary/artifacts/anduran3"
+		},
+		"text" : {
+			"description" : "{Breastplate of Anduran}\r\n\r\nWorn on the torso, this item increases your Spellpower skill by +5.",
+			"event" : "You've heard that the Breastplate of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"name" : "Breastplate of Anduran"
+		}
+	},
+	"shieldAnduran" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "LEFT_HAND",
+		"class" : "MAJOR",
+		"value" : 8000,
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "primarySkill.defence",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/anShield",
+			"map" : "hota/supplementary/artifacts/andu4Map",
+			"scenarioBonus" : "hota/supplementary/artifacts/anduran4"
+		},
+		"text" : {
+			"description" : "{Shield of Anduran}\r\n\r\nHeld with the left hand, this item increases your Defense skill by +5.",
+			"event" : "You've heard that the Shield of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"name" : "Shield of Anduran"
+		}
+	},
+	"garbAnduran" : {
+		"type" : [
+			"HERO"
+		],
+		"slot" : "LEFT_HAND",
+		"class" : "RELIC",
+		"components" : [
+			"helmetAnduran",
+			"swordAnduran",
+			"plateAnduran",
+			"shieldAnduran"
+		],
+		"fusedComponents" : true,
+		"value" : 15000,
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defence" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"luck" : {
+				"type" : "LUCK",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"townPortal" : {
+				"subtype" : "spell.townPortal",
+				"type" : "SPELL",
+				"val" : 3,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		},
+		"graphics" : {
+			"image" : "hota/supplementary/artifacts/anGarb",
+			"map" : "hota/supplementary/artifacts/andu5Map",
+			"scenarioBonus" : "hota/supplementary/artifacts/anduran5"
+		},
+		"text" : {
+			"description" : "{Battle Garb of Anduran}\r\n\r\nHeld with the left hand, this item increases your all primary skills by +5, +3 morale and luck, it allows hero to use highest level {Town Portal} as well.",
+			"event" : "You've heard that the Battle Garb of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
+			"name" : "Battle Garb of Anduran"
+		}
 	}
 }

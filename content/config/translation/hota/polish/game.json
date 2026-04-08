@@ -851,9 +851,12 @@
 	"mapObject.hota.factory.creatureGeneratorCommon.factoryLevel6.name" : "Stanica",
 	"mapObject.hota.factory.creatureGeneratorCommon.factoryLevel7-2.name" : "Montownia",
 	"mapObject.hota.factory.creatureGeneratorCommon.factoryLevel7.name" : "Serpentarium",
+<<<<<<< Bulwark-polish-translation
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onGuarded" : "Jesteś blisko opuszczonego cmentarza. Chcesz go przeszukać?",
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onVisited.0" : "Twoje jednostki niechętnie przeszukują cmentarz, bez powodzenia. {Morale} twojej armii spada.",
 	"mapObject.hota.highlandsterrain.creatureBank.churchyard.rewards.0" : "Po pokonaniu nieumarłych przeszukujesz cmentarz i znajdujesz coś przydatnego!",
+=======
+>>>>>>> vcmi-1.7
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.name" : "Ruiny",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.onGuarded" : "Grzechotanie kości i nieziemskie wycia rozbrzmiewają między rozpadającymi się murami i wieżami. Czy chcesz zbadać ruiny?",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.onVisited.0" : "Wiatr gwiżdżący melodyjnie jest najciekawszą rzeczą, jaką znajdziesz w ruinach. Cóż, przynajmniej udaje ci się dobrze rozejrzeć po okolicy z wieży.",
@@ -921,7 +924,10 @@
 	"mapObject.hota.mapobjects.creatureBank.blackTower.name" : "Czarna wieża",
 	"mapObject.hota.mapobjects.creatureBank.blackTower.onGuarded" : "Stoisz przed domem smoka. Okrutne stworzenie terroryzuje okoliczne ziemie. Czy chciałbyś z nim walczyć?",
 	"mapObject.hota.mapobjects.creatureBank.blackTower.onVisited" : "Kiedyś w tej wieży mieszkał smok, jednak teraz jest pusta i nie ma w niej nic interesującego.",
-	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Kościół",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Cmentarz",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.onGuarded" : "Jesteś blisko opuszczonego cmentarza. Chcesz go przeszukać?",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.onVisited.0" : "Twoje jednostki niechętnie przeszukują cmentarz, bez powodzenia. Morale twojej armii spada.",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.rewards.0" : "Po pokonaniu nieumarłych przeszukujesz cmentarz i znajdujesz coś przydatnego!",
 	"mapObject.hota.mapobjects.creatureBank.experimentalShop.name" : "Cech rzemieślniczy",
 	"mapObject.hota.mapobjects.creatureBank.ivoryTower.name" : "Wieża z kości słoniowej",
 	"mapObject.hota.mapobjects.creatureBank.ivoryTower.onGuarded" : "Stajesz przed wieżą z kości słoniowej. Wewnątrz niej magowie przetrzymują jeńców. Jesteś gotów by rzucić im wyzwanie?",
@@ -1274,5 +1280,38 @@
 	"spell.hota.shootingvisuals.hotaRay.name" : "Promień ognia",
 	"spell.hota.shootingvisuals.hotaStorm.name" : "Błyskawica",
 	"terrain.hota.highlandsterrain.highlands.name" : "Wyżyny",
+<<<<<<< Bulwark-polish-translation
 	"terrain.hota.wastelandterrain.wasteland.name" : "Pustkowie"
+=======
+	"terrain.hota.wastelandterrain.wasteland.name" : "Pustkowie",
+	"artifact.core.amuletOfTheUndertaker.description" : "{Amulet Grabarza}\n\nNoszony na szyi, ten amulet zwiększa umiejętność Nekromancji o 3%.",
+	"artifact.core.angelicAlliance.description" : "{Sojusz Anielski}\n\nPozwala na mieszanie stworzeń bez kary moralnej z miast: Zamek, Bastion, Forteca, Twierdza, Cytadela, Wrota Żywiołów, Przystań oraz Fabryka. Na początku walki rzuca Modlitwę na poziomie mistrzowskim na 10 rund. Jeśli w armii bohatera znajduje się jednostka zła, morale spadają o 1.",
+	"artifact.core.cloakOfTheUndeadKing.description" : "{Płaszcz Nieumarłego Króla}\n\n15% poległych na polu bitwy zostaje wskrzeszonych jako szkielety. Jeśli bohater posiada umiejętność nekromancji, wartości procentowe są dodawane, a poziom umiejętności decyduje o tym, jaki typ szkieletu zostanie wskrzeszony.\nPods.: Ożywieńcy\nZaaw.: Zjawy\nMistrz.: Lisze",
+	"artifact.core.deadMansBoots.description" : "{Buty Umarlaka}\n\nNoszone na stopach, te buty zwiększają umiejętność Nekromancji o 7%.",
+	"artifact.core.vampiresCowl.description" : "{Kaptur Wampira}\n\nNoszony na ramionach, ten kaptur zwiększa umiejętność Nekromancji o 5%.",
+	"building.core.necropolis.special2.description" : "Nekromatron powiększa o 5% umiejętność nekromancji u wszystkich twoich nekromantów.",
+	"skill.core.eagleEye.description.advanced" : "{Sokoli Wzrok - Zaawansowany}\n\nSokoli wzrok daje Twojemu bohaterowi 50% szans na nauczenie się dowolnego zaklęcia 1-3 poziomu użytego w walce.",
+	"skill.core.eagleEye.description.basic" : "{Sokoli Wzrok - Podstawowy}\n\nSokoli wzrok daje Twojemu bohaterowi 40% szans na nauczenie się dowolnego zaklęcia 1 lub 2 poziomu użytego w walce.",
+	"skill.core.eagleEye.description.expert" : "{Sokoli Wzrok - Mistrzowski}\n\nSokoli wzrok daje Twojemu bohaterowi 60% szans na nauczenie się dowolnego zaklęcia 1-4 poziomu użytego w walce.",
+	"skill.core.estates.description.advanced" : "{Finanse - Zaawansowany}\n\nBohater dostarcza królestwu dziennie 500 sztuk złota.",
+	"skill.core.estates.description.basic" : "{Finanse - Podstawowy}\n\nBohater dostarcza królestwu dziennie 250 sztuk złota.",
+	"skill.core.estates.description.expert" : "{Finanse - Mistrzowski}\n\nBohater dostarcza królestwu dziennie 1000 sztuk złota.",
+	"skill.core.intelligence.description.advanced" : "{Inteligencja - Zaawansowany}\n\nZaawansowana Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 35%.",
+	"skill.core.intelligence.description.basic" : "{Inteligencja - Podstawowy}\n\nPodstawowa Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 20%.",
+	"skill.core.intelligence.description.expert" : "{Inteligencja - Mistrzowski}\n\nMistrzowska Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 50%.",
+	"skill.core.logistics.description.advanced" : "{Logistyka - Zaawansowany}\n\nZaawansowana Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 10%.",
+	"skill.core.logistics.description.basic" : "{Logistyka - Podstawowy}\n\nPodstawowa Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 5%.",
+	"skill.core.logistics.description.expert" : "{Logistyka - Mistrzowski}\n\nMistrzowska Logistyka zwiększa liczbę punktów ruchu bohatera na lądzie o 20%.",
+	"skill.core.mysticism.description.advanced" : "{Mistycyzm - Zaawansowany}\n\nZaawansowany mistycyzm regeneruje bohaterowi 10 punktów magii dziennie.",
+	"skill.core.mysticism.description.basic" : "{Mistycyzm - Podstawowy}\n\nPodstawowy mistycyzm regeneruje bohaterowi 5 punktów magii dziennie.",
+	"skill.core.mysticism.description.expert" : "{Mistycyzm - Mistrzowski}\n\nMistrzowski mistycyzm regeneruje bohaterowi 15 punktów magii dziennie.",
+	"skill.core.necromancy.description.advanced" : "{Nekromancja - Zaawansowany}\n\nZaawansowana Nekromancja pozwala na ożywienie 10% zabitych stworzeń jako Szkielety.",
+	"skill.core.necromancy.description.basic" : "{Nekromancja - Podstawowy}\n\nPodstawowa Nekromancja pozwala na ożywienie 5% zabitych stworzeń jako Szkielety.",
+	"skill.core.necromancy.description.expert" : "{Nekromancja - Mistrzowski}\n\nMistrzowska Nekromancja pozwala na ożywienie 15% zabitych stworzeń jako Szkielety.",
+	"skill.core.scouting.description.advanced" : "{Odkrywanie - Zaawansowany}\n\nZaawansowane Odkrywanie pozwala bohaterowi widzieć 3 pola dalej przez mgłę.",
+	"skill.core.scouting.description.basic" : "{Odkrywanie - Podstawowy}\n\nPodstawowe Odkrywanie pozwala bohaterowi widzieć 1 pole dalej przez mgłę.",
+	"skill.core.scouting.description.expert" : "{Odkrywanie - Mistrzowski}\n\nMistrzowskie Odkrywanie pozwala bohaterowi widzieć 5 pól dalej przez mgłę.",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Cmentarz",
+	"object.core.questGuard.name" : "Brama zadań"
+>>>>>>> vcmi-1.7
 }

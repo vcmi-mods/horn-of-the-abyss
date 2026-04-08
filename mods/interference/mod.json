@@ -5,6 +5,9 @@
 	"author" : "avatar",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.4.0",
+	"softDepends" : [
+		"hota.highlandsterrain"
+	],
 	"changelog" : {
 		"1.4.0" : [
 			"Mod now also contains interference skill itself"

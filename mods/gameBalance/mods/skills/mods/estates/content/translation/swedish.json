@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced" : "{Förmögenhet (Utvecklad)}\n\nFörmögenhet på utvecklad nivå förser ditt rike med 500 guldmynt per dag.",
-	"skill.core.estates.description.basic" : "{Förmögenhet (Grundläggande)}\n\nFörmögenhet på grundläggande nivå förser ditt rike med 250 guldmynt per dag.",
-	"skill.core.estates.description.expert" : "{Förmögenhet (Mästerlig)}\n\nFörmögenhet på mästerlig nivå förser ditt rike med 1000 guldmynt per dag."
+	"skill.core.estates.description.advanced" : "{Avancerad Förmögenhet}\n\nHjälten bidrar med 500 guld per dag till ditt rike.",
+	"skill.core.estates.description.basic" : "{Basal Förmögenhet}\n\nHjälten bidrar med 250 guld per dag till ditt rike.",
+	"skill.core.estates.description.expert" : "{Mästerlig Förmögenhet}\n\nHjälten bidrar med 1000 guld per dag till ditt rike."
 }

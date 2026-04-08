@@ -54,5 +54,12 @@
 		"translations" : [
 			"translation/latvian.json"
 		]
+	},
+	"swedish" : {
+		"name" : "Objects",
+		"description" : "",
+		"translations" : [
+			"translation/swedish.json"
+		]
 	}
 }

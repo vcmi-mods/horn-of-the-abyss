@@ -609,6 +609,10 @@
 	"mapObject.hota.mapobjects.creatureBank.blackTower.name" : "Melnais tornis",
 	"mapObject.hota.mapobjects.creatureBank.blackTower.onGuarded" : "Tu stāvi pūķa migas priekšā. Šis ļaunais radījums terorizē apkārtējās zemes. Vai vēlies ar to cīnīties?",
 	"mapObject.hota.mapobjects.creatureBank.blackTower.onVisited" : "Šajā tornī kādreiz dzīvoja pūķis, bet tagad tas ir tukšs un tur nav nekā interesanta.",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Baznīcas pagalms",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.onGuarded" : "Jūs atrodaties pamestas kapsētas tuvumā. Vai vēlaties sākt meklēšanu?",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.onVisited.0" : "Jūsu karavīri negribīgi pārmeklē kapsētu, bet neko neatrod. Armijas morāle strauji krītas.",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.rewards.0" : "Pēc nemirstīgo uzveikšanas jūs pārmeklējat kapsētu un atrodat kaut ko noderīgu!",
 	"mapObject.hota.mapobjects.creatureBank.experimentalShop.name" : "Eksperimentālā darbnīca",
 	"mapObject.hota.mapobjects.creatureBank.ivoryTower.name" : "Ziloņkaula tornis",
 	"mapObject.hota.mapobjects.creatureBank.mansion.name" : "Savrupmāja",
@@ -811,9 +815,6 @@
 	"mapObject.hota.wastelandterrain.rock.hotaW2Stones.name" : "Akmens",
 	"terrain.hota.highlandsterrain.highlands.name" : "Augstienes",
 	"terrain.hota.wastelandterrain.wasteland.name" : "Tuksnesis",
-	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onGuarded" : "Jūs atrodaties pamestas kapsētas tuvumā. Vai vēlaties sākt meklēšanu?",
-	"mapObject.hota.highlandsterrain.creatureBank.churchyard.onVisited.0" : "Jūsu karavīri negribīgi pārmeklē kapsētu, bet neko neatrod. Armijas morāle strauji krītas.",
-	"mapObject.hota.highlandsterrain.creatureBank.churchyard.rewards.0" : "Pēc nemirstīgo uzveikšanas jūs pārmeklējat kapsētu un atrodat kaut ko noderīgu!",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.name" : "Drupa",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.onGuarded" : "Kauli grab, un spocīgi gaudojumi atbalsojas starp drūpošajām sienām un torņiem. Vai vēlaties izpētīt drupas?",
 	"mapObject.hota.highlandsterrain.creatureBank.ruins.onVisited.0" : "Visinteresantākais, ko var atrast drupās, ir melodiskā vēja svilpošana. Vismaz no torņa var labi apskatīt apkārtni.",
@@ -850,6 +851,6 @@
 	"skill.core.scouting.description.advanced" : "{Uzlabotā izlūkošana}\n\nUzlabotā izlūkošana ļauj jūsu varonim kara miglā redzēt 3 šūnas tālāk.",
 	"skill.core.scouting.description.basic" : "{Pamata izlūkošana}\n\nPamata izlūkošana ļauj jūsu varonim kara miglā redzēt 1 lauciņu tālāk.",
 	"skill.core.scouting.description.expert" : "{Eksperta izlūkošana}\n\nEksperta izlūkošana ļauj jūsu varonim kara miglā redzēt 5 šūnas tālāk.",
-	"mapObject.hota.highlandsterrain.creatureBank.churchyard.name" : "Baznīcas pagalms",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.name" : "Baznīcas pagalms",
 	"object.core.questGuard.name" : "Uzdevuma aizbildnis"
 }
