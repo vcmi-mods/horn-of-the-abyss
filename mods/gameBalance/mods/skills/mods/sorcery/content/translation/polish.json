@@ -1,0 +1,5 @@
+{
+	"skill.core.sorcery.description.advanced" : "{Advanced Sorcery}\n\nAdvanced Sorcery causes a hero's spells to inflict an additional 20% damage in combat.",
+	"skill.core.sorcery.description.basic" : "{Basic Sorcery}\n\nBasic Sorcery causes a hero's spells to inflict an additional 10% damage in combat.",
+	"skill.core.sorcery.description.expert" : "{Expert Sorcery}\n\nExpert Sorcery causes a hero's spells to inflict an additional 30% damage in combat."
+}

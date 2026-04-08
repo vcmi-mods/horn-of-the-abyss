@@ -50,5 +50,13 @@
 		"translations" : [
 			"translation/russian.json"
 		]
+	},
+	"polish" : {
+		"name" : "Pathfinding",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
+}
 }
