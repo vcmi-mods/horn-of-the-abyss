@@ -190,7 +190,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/anduran1"
 		},
 		"text" : {
-			"description" : "{Helmet of Anduran}\r\n\r\nWorn on the head, this item increases your Knowledge skill by +5.",
+			"description" : "{Helmet of Anduran}\r\n\r\nThe mind of its bearer remains clear and undisturbed. Increases Knowledge by +5.",
 			"event" : "You've heard that the Helmet of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Helmet of Anduran"
 		}
@@ -216,7 +216,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/anduran2"
 		},
 		"text" : {
-			"description" : "{Sword of Anduran}\r\n\r\nHeld with the right hand, this item increases your Attack skill by +5.",
+			"description" : "{Sword of Anduran}\r\n\r\nIts blade shines with righteous fury. Increases Attack by +5.",
 			"event" : "You've heard that the Sword of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Sword of Anduran"
 		}
@@ -242,7 +242,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/anduran3"
 		},
 		"text" : {
-			"description" : "{Breastplate of Anduran}\r\n\r\nWorn on the torso, this item increases your Spellpower skill by +5.",
+			"description" : "{Breastplate of Anduran}\r\n\r\nMagical energy flows through it with extraordinary strength. Increases Spell Power by +5.",
 			"event" : "You've heard that the Breastplate of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Breastplate of Anduran"
 		}
@@ -268,7 +268,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/anduran4"
 		},
 		"text" : {
-			"description" : "{Shield of Anduran}\r\n\r\nHeld with the left hand, this item increases your Defense skill by +5.",
+			"description" : "{Shield of Anduran}\r\n\r\nLegend says it has withstood even the most devastating blows. Increases Defense by +5.",
 			"event" : "You've heard that the Shield of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Shield of Anduran"
 		}
@@ -335,7 +335,7 @@
 			"scenarioBonus" : "hota/supplementary/artifacts/anduran5"
 		},
 		"text" : {
-			"description" : "{Battle Garb of Anduran}\r\n\r\nHeld with the left hand, this item increases your all primary skills by +5, +3 morale and luck, it allows hero to use highest level {Town Portal} as well.",
+			"description" : "{Battle Garb of Anduran}\r\n\r\nIt is said that its bearer walks in the light of the gods themselves. Increases all primary skills by +5, and Morale and Luck by +3. Allows the hero to cast {Town Portal} at the highest level.",
 			"event" : "You've heard that the Battle Garb of Anduran is the equipment of a holy knight, so you pick it up, hoping that its divine light will protect you.",
 			"name" : "Battle Garb of Anduran"
 		}
