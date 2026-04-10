@@ -1,0 +1,18 @@
+{
+	"name" : "Highscore Creatures",
+	"description" : "Adds creatures from HotA to the highscore list.",
+	"modType" : "Graphical",
+	"author" : "HotA Crew, mod: Karyoplasma, by003",
+	"contact" : "",
+	"version" : "1.0.0",
+	"depends" : [
+		"hota.cove",
+		"hota.bulwark",
+		"hota.factory",
+		"hota.neutralcreatures"
+	],
+	"german" : {
+		"name" : "Highscore-Kreaturen",
+		"description" : "Fügt HotA-Kreaturen zu der Rangliste hinzu."
+	}
+}
