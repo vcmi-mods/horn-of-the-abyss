@@ -2,7 +2,7 @@
 	"name" : "Highscore Creatures",
 	"description" : "Adds creatures from HotA to the highscore list.",
 	"modType" : "Graphical",
-	"author" : "HotA Crew, mod: Karyoplasma",
+	"author" : "HotA Crew, mod: Karyoplasma, by003",
 	"contact" : "",
 	"version" : "1.0.0",
 	"depends" : [
