@@ -38,7 +38,7 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "spell.freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
-				"description" : "Immune to Freezing Shot."
+				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			},
 			"spellDamageIncreaseAura" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
