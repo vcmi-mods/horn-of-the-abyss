@@ -115,8 +115,8 @@
 		]
 	},
 	"french" : {
-		"name" : "Bulwark",
-		"description" : "Ville « Bulwark » sur le thème arctique Vori",
+		"name" : "Fortification",
+		"description" : "Ville « Fortification » sur le thème arctique Vori",
 		"translations" : [
 			"translation/french.json"
 		]
