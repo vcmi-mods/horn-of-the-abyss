@@ -38,6 +38,10 @@
 				"battleEffects" : {
 					"frozen" : {
 						"type" : "core:timed",
+						"battleLogMessage" : {
+							"singular" : "The %s is frozen.",
+							"plural" : "The %s are frozen."
+						},
 						"bonus" : {
 							"notActive" : {
 								"val" : 0,
