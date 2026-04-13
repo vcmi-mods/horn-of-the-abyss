@@ -37,6 +37,7 @@
 				"battleEffects" : {
 					"frozen" : {
 						"type" : "core:timed",
+						"battleLogMessage" : "The Great Shamans cast Freezing on the %s.",
 						"bonus" : {
 							"notActive" : {
 								"val" : 0,
