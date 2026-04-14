@@ -135,11 +135,17 @@
 
 	"french" : {
 		"name" : "Usine",
-		"description" : "La ville Usine sur le thème steampunk"
+		"description" : "La ville Usine sur le thème steampunk",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Rūpnīca",
-		"description" : "Pilsētas Rūpnīca ar steampunk tēmu"
+		"description" : "Pilsētas Rūpnīca ar steampunk tēmu",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Fabryka",
