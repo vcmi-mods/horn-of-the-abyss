@@ -279,5 +279,5 @@
 	"spell.hota.cove.specialClone.description.none" : "{Clone de spécialiste}\n\nCrée 2 copies de l'unité sélectionnée. L'image disparaît si elle est attaquée.\n\nUtilisable une seule fois par combat.\n\nClone les créatures de niveau 1 à 5.\n",
 	"spell.hota.cove.specialClone.description.basic" : "{Clonage basique de spécialiste}\n\nCrée 2 copies de l'unité sélectionnée. L'image disparaît si elle est attaquée.\n\nUtilisable une seule fois par combat.\n\nClone les créatures de niveau 1 à 5.\n",
 	"spell.hota.cove.specialClone.description.advanced" : "{Clone avancé de spécialiste}\n\nCrée 2 copies de l'unité sélectionnée. L'image disparaît si elle est attaquée.\n\nUtilisable une seule fois par combat.\n\nClone les créatures de niveau 1 à 6.\n",
-	"spell.hota.cove.specialClone.description.expert" : "{Clone expert du spécialiste}\n\nCrée 2 copies de l'unité sélectionnée. L'image disparaît si elle est attaquée.\n\nUtilisable une seule fois par combat.\n\nClone les créatures de tous niveaux.\n",
+	"spell.hota.cove.specialClone.description.expert" : "{Clone expert du spécialiste}\n\nCrée 2 copies de l'unité sélectionnée. L'image disparaît si elle est attaquée.\n\nUtilisable une seule fois par combat.\n\nClone les créatures de tous niveaux.\n"
 }
