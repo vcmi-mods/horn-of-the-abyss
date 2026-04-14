@@ -89,11 +89,17 @@
 
 	"french" : {
 		"name" : "Crique",
-		"description" : "Ville Crique sur le thème des pirates"
+		"description" : "Ville Crique sur le thème des pirates",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Līcis",
-		"description" : "Pilsēta « Līcis » ar pirātu tematiku"
+		"description" : "Pilsēta « Līcis » ar pirātu tematiku",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Cove",

@@ -43,6 +43,10 @@
 		"name" : "Cartes",
 		"description" : "Contient toutes les nouvelles cartes ajoutées par l'équipe HotA"
 	},
+	"german" : {
+		"name" : "Neue Karten",
+		"description" : "Enthält alle Karten, die von HotA zum Spiel hinzugefügt wurden."
+	},
 	"latvian" : {
 		"name" : "Kartes",
 		"description" : "Satur visas jaunās kartes, ko pievienojusi HotA Crew"
@@ -55,8 +59,8 @@
 		"name" : "Mapas",
 		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA"
 	},
-	"german" : {
-		"name" : "Neue Karten",
-		"description" : "Enthält alle Karten, die von HotA zum Spiel hinzugefügt wurden."
+	"russian" : {
+		"name" : "Карты",
+		"description" : "Этот мод содержит все новые карты, добавленные командой HotA Crew."
 	}
 }
