@@ -62,6 +62,10 @@
 				"val" : 0,
 				"description" : "{Meditation}\nCan cast Meditation without skipping its turn."
 			},
+			"spellpower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
 			"castsCount" : {
 				"type" : "CASTS",
 				"val" : 1

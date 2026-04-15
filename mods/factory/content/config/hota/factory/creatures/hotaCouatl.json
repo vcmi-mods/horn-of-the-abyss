@@ -68,6 +68,10 @@
 				"type" : "CASTS",
 				"val" : 1
 			},
+			"spellpower" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			},
 			// Will be affected by Slayer with no expertise
 			"KING_1" : {
 				"type" : "KING",
