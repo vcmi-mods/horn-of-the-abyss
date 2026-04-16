@@ -6,7 +6,7 @@
 
 		"texts" : {
 			"name" : "Winzells",
-			"biography" : "Winzells is a defender of Burton once Kastore took control.",
+			"biography" : "Winzells, who always considers himself a gentleman, pays particular attention to his appearance, constantly sourcing the finest fabrics to make his clothes. However, when he appears on the battlefield, he is anything but gentlemanly.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
 				"tooltip" : "Skill Bonus: Offense",

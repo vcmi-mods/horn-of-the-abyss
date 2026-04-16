@@ -6,7 +6,7 @@
 
 		"texts" : {
 			"name" : "Elderian",
-			"biography" : "Elderian is a defender of Burton once Kastore took control.",
+			"biography" : "Elderian, living in Enroth, seeks to research forbidden magic. He has visited many scholars but cannot find what he truly seeks. It is said that he can complete his research in Burton. He wouldn't care even if it meant joining the ranks of evil.",
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Automatons",
 				"name" : "Automatons",

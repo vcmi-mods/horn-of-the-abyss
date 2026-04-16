@@ -6,7 +6,7 @@
 
 		"texts" : {
 			"name" : "Umender",
-			"biography" : "Umender is a defender of Burton once Kastore took control.",
+			"biography" : "The elderly Umender had spent much time studying mechanical operation; he was an expert in the field. It was precisely because of this that, after arriving in Burton by chance, he developed many strange mechanical devices for King Kastore. But he was not satisfied with his current achievements.",
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Automatons",
 				"name" : "Automatons",
