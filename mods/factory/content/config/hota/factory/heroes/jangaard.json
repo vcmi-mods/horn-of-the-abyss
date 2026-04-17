@@ -6,7 +6,7 @@
 
 		"texts" : {
 			"name" : "Jangaard",
-			"biography" : "Jangaard is a defender of Burton once Kastore took control.",
+			"biography" : "Jangaard, inherently cruel, was once feared throughout Raven Shore's pirate crew. He now appears to have joined Kastore's guard, serving his ruthless master. On the battlefield, Jangaard always delivers a surprise attack.",
 			"specialty" : {
 				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Gunslingers",
