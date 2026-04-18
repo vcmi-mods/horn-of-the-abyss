@@ -6,7 +6,7 @@
 	"author" : "VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"depends" : [
-		"mega-pack-rus"
+		"russian-translation"
 	],
 	"softDepends" : [
 		"hota.maps"
