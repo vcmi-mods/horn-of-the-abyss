@@ -17,7 +17,6 @@
 			"conflux" : 0
 		},
 
-		//forgetfulness animation
 		"animation" : {
 			"affect" : [
 				{
@@ -27,6 +26,7 @@
 		},
 
 		"flags" : {
+			"persistent" : true,
 			"positive" : true,
 			"nonMagical" : true,
 			"rising" : true
@@ -62,12 +62,6 @@
 				},
 
 				"battleEffects" : {
-					"heal" : {
-						"type" : "core:heal",
-						"healLevel" : "heal",
-						"healPower" : "permanent",
-						"optional" : true
-					},
 					"blockHelp" : {
 						"type" : "core:timed",
 						"cumulative" : false,
@@ -76,29 +70,17 @@
 								"type" : "SPELL_AFTER_ATTACK",
 								"subtype" : "detonation",
 								"val" : 100,
-								"duration" : "PERMANENT"
+								"duration" : "ONE_BATTLE"
 							},
 							"giftStrength" : {
 								"type" : "SPECIFIC_SPELL_POWER",
 								"subtype" : "detonation",
 								"val" : 40,
-								"duration" : "PERMANENT"
-							},
-							"immnunityDispel" : {
-								"type" : "SPELL_IMMUNITY",
-								"subtype" : "dispel",
-								"duration" : "PERMANENT"
-							},
-							"immnunityDispelHelpful" : {
-								"type" : "SPELL_IMMUNITY",
-								"subtype" : "dispelHelpful",
-								"duration" : "PERMANENT"
+								"duration" : "ONE_BATTLE"
 							},
 							"redeem2" : {
-								"type" : "HP_REGENERATION",
-								"val" : 100,
-								"valueType" : "BASE_NUMBER",
-								"duration" : "PERMANENT"
+								"type" : "DISINTEGRATE",
+								"duration" : "ONE_BATTLE"
 							}
 						}
 					}
