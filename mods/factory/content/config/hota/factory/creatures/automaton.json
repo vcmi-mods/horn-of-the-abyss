@@ -22,7 +22,7 @@
 		"defense" : 10,
 		"fightValue" : 553,
 		"graphics" : {
-			"animation" : "hota/factory/creatures/battle/CAUTO2.def",
+			"animation" : "hota/factory/creatures/battle/CAUTO.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWauto.def",
 			"mapMask" : [
 				"VVV",
