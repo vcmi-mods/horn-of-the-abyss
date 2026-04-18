@@ -22,7 +22,7 @@
 		"defense" : 10,
 		"fightValue" : 672,
 		"graphics" : {
-			"animation" : "hota/factory/creatures/battle/CHAUTO2.def",
+			"animation" : "hota/factory/creatures/battle/CHAUTO.def",
 			"map" : "hota/factory/creatures/adventureMap/AVWauth.def",
 			"mapMask" : [
 				"VVV",
