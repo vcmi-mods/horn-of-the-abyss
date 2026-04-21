@@ -2,9 +2,9 @@
 
 {
 	"airshipYard" : {
-		//"handler" : "shipyard",
+		"handler" : "shipyard",
 		//"handler" : "generic",
-		"handler" : "configurable",
+		//"handler" : "configurable",
 		"name" : "Airship Yard",
 		//"rmg" : {
 		//  "value" : 0,
@@ -20,23 +20,18 @@
 					"STORE"
 				]
 			},
-			"description" : "Welcome to the Airship Yard!\n\nUnfortunately, it is still under construction.",
+			//"description" : "Welcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
 			//"onEmptyMessage": "You find nothing here. The airship yard is not operational yet.",
 			//"notVisitedTooltip": "You have not visited this airship yard.",
 			//"visitedTooltip": "This airship yard has already been visited.",
-			"showScoutedPreview" : true,
-			"blockedVisitable" : true
+			//"showScoutedPreview" : true,
+			//"blockedVisitable" : true
 		},
 		//"description": "An Airship Yard is under construction. This feature is not yet implemented.",
-		//"onVisitedMessage": "{Airship Yard}\n\nThis Airship Yard is not operational yet. Please check back later!",
+		//"onVisitedMessage": "{Airship Yard}\r\n\r\nThis Airship Yard is not operational yet. Please check back later!",
 		"types" : {
 			"airshipYard" : {
-				"rewards" : [
-					{
-						"message" : "{Airship Yard}\n\nWelcome to the Airship Yard!\n\nUnfortunately, it is still under construction.",
-						"removeObject" : false
-					}
-				],
+        "boat" : "airship",
 				"templates" : {
 					"default" : {
 						"animation" : "airship/AVGairy0.def",
@@ -65,7 +60,7 @@
 				"special" : true,
 				//"rmg" : {
 				//},
-				"layer" : "air",
+				"layer" : "aviate",
 				"onboardAssaultAllowed" : true,
 				"onboardVisitAllowed" : true,
 				"actualAnimation" : "airship/AAir00.def",
