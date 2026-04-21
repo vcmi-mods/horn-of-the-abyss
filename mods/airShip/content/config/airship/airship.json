@@ -19,7 +19,7 @@
 				"visit" : [
 					"STORE"
 				]
-			},
+			}
 			//"description" : "Welcome to the Airship Yard!\r\n\r\nUnfortunately, it is still under construction.",
 			//"onEmptyMessage": "You find nothing here. The airship yard is not operational yet.",
 			//"notVisitedTooltip": "You have not visited this airship yard.",
@@ -31,7 +31,7 @@
 		//"onVisitedMessage": "{Airship Yard}\r\n\r\nThis Airship Yard is not operational yet. Please check back later!",
 		"types" : {
 			"airshipYard" : {
-        "boat" : "airship",
+				"boat" : "airship",
 				"templates" : {
 					"default" : {
 						"animation" : "airship/AVGairy0.def",

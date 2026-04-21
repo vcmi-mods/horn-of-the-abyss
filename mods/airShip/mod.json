@@ -12,7 +12,7 @@
 	},
 	"objects" : [
 		"config/airship/airship.json",
-    	"config/cursors.json"
+		"config/cursors.json"
 	],
 	"chinese" : {
 		"name" : "飞艇",
