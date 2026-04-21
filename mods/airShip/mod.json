@@ -12,7 +12,7 @@
 	},
 	"objects" : [
 		"config/airship/airship.json",
-    "config/cursors.json"
+    	"config/cursors.json"
 	],
 	"chinese" : {
 		"name" : "飞艇",
@@ -25,5 +25,17 @@
 	"portuguese" : {
 		"name" : "Dirigível",
 		"description" : "Este mod adiciona o Dirigível e o Estaleiro de Dirigíveis"
+	},
+	"french" : {
+		"name" : "Dirigeable",
+		"description" : "Ce mod ajoute un dirigeable avec un chantier aérien."
+	},
+	"latvian" : {
+		"name" : "Dirižablis",
+		"description" : "Šis mods pievieno gaisa kuģi ar gaisa kuģu pagalmu"
+	},
+	"german" : {
+		"name" : "Luftschiff",
+		"description" : "Fügt das Luftschiff und die Luftschiffwerft hinzu"
 	}
 }
