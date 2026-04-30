@@ -89,7 +89,7 @@
 	},
 	"japanese" : {
 		"translations" : [
-			"translation/japanese.json"
+			"translation/mapObjects/japanese.json"
 		]
 	},
 
