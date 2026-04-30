@@ -43,5 +43,10 @@
 		"translations" : [
 			"translation/latvian.json"
 		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }

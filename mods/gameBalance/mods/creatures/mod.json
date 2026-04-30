@@ -69,5 +69,10 @@
 	"ukrainian" : {
 		"name" : "Creatures",
 		"description" : ""
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }

@@ -1,0 +1,5 @@
+{
+	"skill.core.pathfinding.description.advanced" : "{「行軍」熟練者レベル}\n\n足場の悪い地形の移動ペナルティーが50%削減し、最低コストを90%に抑える。",
+	"skill.core.pathfinding.description.basic" : "{「行軍」修得者レベル}\n\n足場の悪い地形の移動ペナルティーが25%削減し、最低コストを95%に抑える。",
+	"skill.core.pathfinding.description.expert" : "{「行軍」達人レベル}\n\n足場の悪い地形の移動ペナルティーが75%削減し、最低コストを85%に抑える。"
+}
