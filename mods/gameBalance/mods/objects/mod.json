@@ -68,5 +68,12 @@
 		"translations" : [
 			"translation/polish.json"
 		]
+	},
+	"japanese" : {
+		"name" : "Objects",
+		"description" : "",
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }

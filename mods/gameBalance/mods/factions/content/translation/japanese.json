@@ -1,4 +1,7 @@
 {
 	"building.core.dungeon.special2.description" : "週に1回、街を訪れている勇者の呪文ポインを2倍にする",
+	"building.core.dungeon.special2.onEmpty" : "あなたのヒーローは十分なスペルポイントを持っており、マナボルテックスからこれ以上のスペルポイントを得ることはできません。",
+	"building.core.dungeon.special2.onVisited" : "魔力の渦は今週すでに使用されています。",
+	"building.core.dungeon.special2.rewards.0" : "魔力の渦に近づくと、新たなエネルギーが体中に満ち溢れるのを感じます。\n\n魔力の渦を使って、ヒーローの通常のスペルポイントを2倍にしたいですか？",
 	"building.core.necropolis.special2.description" : "配下にある全ネクロマンサーの「妖術」技能が5%向上する。"
 }
