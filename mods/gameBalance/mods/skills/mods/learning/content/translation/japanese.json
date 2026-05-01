@@ -1,0 +1,5 @@
+{
+	"skill.core.learning.description.advanced" : "{「習得」熟練者レベル}\n\n獲得する経験ポイントが40%増える。",
+	"skill.core.learning.description.basic" : "{「習得」修得者レベル}\n\n獲得する経験ポイントが20%増える。",
+	"skill.core.learning.description.expert" : "{「習得」達人レベル}\n\n獲得する経験ポイントが60%増える。"
+}

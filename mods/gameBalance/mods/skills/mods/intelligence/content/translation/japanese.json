@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{「知性」熟練者レベル}\n\n最大呪文ポイントが35%増える。",
+	"skill.core.intelligence.description.basic" : "{「知性」修得者レベル}\n\n最大呪文ポイントが20%増える。",
+	"skill.core.intelligence.description.expert" : "{「知性」達人レベル}\n\nエ最大呪文ポイントが50%増える。"
+}

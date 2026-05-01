@@ -87,6 +87,11 @@
 			"translation/mapObjects/russian.json"
 		]
 	},
+	"japanese" : {
+		"translations" : [
+			"translation/mapObjects/japanese.json"
+		]
+	},
 
 	"objects" : [
 		"config/hotaMapObjects/ancientLamp.json",

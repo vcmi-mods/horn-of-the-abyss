@@ -1,0 +1,5 @@
+{
+	"skill.core.necromancy.description.advanced" : "{「妖術」熟練者レベル}\n\n戦死したクリーチャーの10%を、スケルトンとして蘇らせることができる。",
+	"skill.core.necromancy.description.basic" : "{「妖術」修得者レベル}\n\n戦死したクリーチャーの5%を、スケルトンとして蘇らせることができる。",
+	"skill.core.necromancy.description.expert" : "{「妖術」達人レベル}\n\n熟戦死したクリーチャーの15%を、スケルトンとして蘇らせることができる。"
+}
