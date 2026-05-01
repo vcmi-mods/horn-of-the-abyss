@@ -1,0 +1,17 @@
+{
+	"mapObject.core.arena.arena.onSelect" : "あなたは闘技場に入り、獰猛なライオンの群れと対峙します。観衆の熱狂的な歓声の中、あなたは難なくライオンたちを打ち負かします。あなたの腕前に感銘を受けた老練な剣闘士の調教師は、あなたが選んだ技を訓練してくれることに同意します。",
+	"mapObject.core.arena.arena.onVisited" : "アリーナの警備兵が入場を阻止する。「お前は既に我々の最強の選手を倒した。ここから出て行け。」",
+	"mapObject.core.cartographer.cartographerLand.onEmpty" : "私の地図は10000ゴールドかかりますが、あなたにはそんなお金はないようですね。もう私の時間を無駄にするのはやめてください。",
+	"mapObject.core.cartographer.cartographerLand.onVisited" : "坊や、もう私の地図は全部見ただろう。さあ、行きなさい。",
+	"mapObject.core.cartographer.cartographerLand.rewards.0" : "地図製作者が土地の地図を10000ゴールドで売っているのを見つけました。地図を購入しますか？",
+	"mapObject.core.cartographer.cartographerSubterranean.onEmpty" : "私の地図は10000ゴールドかかりますが、あなたにはそんなお金はないようですね。もう私の時間を無駄にするのはやめてください。",
+	"mapObject.core.cartographer.cartographerSubterranean.onVisited" : "坊や、もう私の地図は全部見ただろう。さあ、行きなさい。",
+	"mapObject.core.cartographer.cartographerSubterranean.rewards.0" : "あなたは、現役時代の地図を何枚も保管している老ドワーフ鉱夫に出会いました。彼はトンネルの地図を1万ゴールドで売ってくれると言っています。あなたはそれに応じますか？",
+	"mapObject.core.cartographer.cartographerWater.onEmpty" : "私の地図は10000ゴールドかかりますが、あなたにはそんなお金はないようですね。もう私の時間を無駄にするのはやめてください。",
+	"mapObject.core.cartographer.cartographerWater.onVisited" : "坊や、もう私の地図は全部見ただろう。さあ、行きなさい。",
+	"mapObject.core.cartographer.cartographerWater.rewards.0" : "あなたは、これまで見たこともないほど詳細な海図を持っている老漁師に出会いました。その海図一式を10000ゴールドで購入してみませんか？",
+	"mapObject.core.scholar.scholar.rewards.0" : "開けた場所に差し掛かると、大学の学者が馬を休ませているのが目に入った。彼は出発前に、自分の知識を少し教えてくれると申し出た。",
+	"mapObject.core.scholar.scholar.rewards.1" : "開けた場所に差し掛かると、大学の学者が馬を休ませているのが目に入った。彼は出発前に、自分の知識を少し教えてくれると申し出た。",
+	"mapObject.core.scholar.scholar.rewards.2" : "開けた場所に差し掛かると、大学の学者が馬を休ませているのが目に入った。彼は出発前に、自分の知識を少し教えてくれると申し出た。",
+	"mapObject.core.witchHut.witchHut.rewards.0" : "{魔女の小屋}\n\n奇妙な小屋に住む古代の魔女があなたを歓迎し、彼女自身の不可解な目的のために%sを教えると申し出ます。"
+}
