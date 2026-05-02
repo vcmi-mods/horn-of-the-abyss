@@ -7,8 +7,12 @@
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "0.1",
+	"compatibility" : {
+		"min" : "1.8.0"
+	},
 	"objects" : [
-		"config/airship/airship.json"
+		"config/airship/airship.json",
+		"config/cursors.json"
 	],
 	"chinese" : {
 		"name" : "飞艇",
@@ -32,6 +36,6 @@
 	},
 	"german" : {
 		"name" : "Luftschiff",
-		"description" : "Fügt das Luftschiff und die Luftschiffwerft hinzu.\n\n**Experimentell - Fehler möglich**"
+		"description" : "Fügt das Luftschiff und die Luftschiffwerft hinzu"
 	}
 }
