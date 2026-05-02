@@ -225,5 +225,10 @@
 		"translations" : [
 			"translation/polish.json"
 		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }

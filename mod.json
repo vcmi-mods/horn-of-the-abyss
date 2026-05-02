@@ -8,8 +8,11 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.003",
+	"version" : "1.8.004",
 	"changelog" : {
+		"1.8.004" : [
+			"Added japanese (by Carson-N)"
+		],
 		"1.8.003" : [
 			"Overhauled Russian translation and added Russian Bulwark translation",
 			"Fixed some obstacles in battlefields",
@@ -657,7 +660,7 @@
 	},
 	"french" : {
 		"name" : "Horn of the Abyss",
-		"description" : "Horn of the Abyss est une extension non officielle pour Heroes of Might and Magic III, créée par Hota Crew. Merci à Hakas_FR pour les traductions. Les mods et les cartes ont été traduits.",
+		"description" : "Horn of the Abyss est une extension non officielle pour Heroes of Might and Magic III, créée par Hota Crew. Merci à Hakas_FR pour les traductions. Autre communauté de traduction : https://github.com/nomises/Traduction-Hota-FR",
 		"translations" : [
 			"config/translation/hota/french/campaigns.json",
 			"config/translation/hota/french/maps.json"
@@ -668,6 +671,15 @@
 		"description" : "Hota Crew ekibi tarafından geliştirilen Horn of the Abyss genişletme paketi.",
 		"translations" : [
 			"config/translation/hota/turkish/game.json"
+		]
+	},
+	"japanese" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Hota Crewチームによって開発された拡張パック『Horn of the Abyss』。",
+		"translations" : [
+			"config/translation/hota/japanese/game.json",
+			"config/translation/hota/japanese/maps.json",
+			"config/translation/hota/japanese/campaigns.json"
 		]
 	}
 }

@@ -1,0 +1,5 @@
+{
+	"skill.core.mysticism.description.advanced" : "{「神秘学」熟練者レベル}\n\n呪文ポイントが1日に20%を回復する。回復量の最低値は10です。",
+	"skill.core.mysticism.description.basic" : "{「神秘学」修得者レベル}\n\n呪文ポイントが1日に10%復する。回復量の最低値は5です。",
+	"skill.core.mysticism.description.expert" : "{「神秘学」達人レベル}\n\n呪文ポイントが1日に30%復する。回復量の最低値は15です。"
+}
