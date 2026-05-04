@@ -77,7 +77,8 @@
 		"translations" : [
 			"name" : "Eagle Eye",
 			"description" : "",
-			"translation/japanese.json"
-		]
+			"translations" : [
+				"translation/japanese.json"
+			]
 	}
 }
