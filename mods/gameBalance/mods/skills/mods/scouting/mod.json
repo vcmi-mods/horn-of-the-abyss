@@ -79,6 +79,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Scouting",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

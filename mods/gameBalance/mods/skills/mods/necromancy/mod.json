@@ -74,6 +74,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Necromancy",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

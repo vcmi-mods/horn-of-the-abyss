@@ -68,6 +68,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "First Aid",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]
