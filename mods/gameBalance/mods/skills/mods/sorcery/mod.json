@@ -59,6 +59,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Sorcery",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

@@ -74,6 +74,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Eagle Eye",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

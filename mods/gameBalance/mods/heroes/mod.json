@@ -227,6 +227,9 @@
 		]
 	},
 	"japanese" : {
+		// Placeholder name+description, should be translated
+		"name" : "Heroes",
+		"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
 		"translations" : [
 			"translation/japanese.json"
 		]

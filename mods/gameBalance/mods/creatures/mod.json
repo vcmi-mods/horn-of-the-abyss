@@ -71,6 +71,8 @@
 		"description" : ""
 	},
 	"japanese" : {
+		"name" : "Creatures",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

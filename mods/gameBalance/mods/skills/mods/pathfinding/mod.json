@@ -59,6 +59,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Pathfinding",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

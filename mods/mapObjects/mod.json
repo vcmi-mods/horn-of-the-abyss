@@ -88,6 +88,9 @@
 		]
 	},
 	"japanese" : {
+		// placeholder name+description, should be translated
+		"name" : "Map objects",
+		"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps",
 		"translations" : [
 			"translation/mapObjects/japanese.json"
 		]
