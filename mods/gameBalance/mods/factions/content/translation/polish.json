@@ -1,6 +1,4 @@
 {
-	// REQUIRED TRANSLATION
-	// "building.core.dungeon.special2.description" : "The Mana Vortex doubles the spell points for one visiting hero, once per week.",
 	"building.core.dungeon.special2.onEmpty" : "Twój bohater ma wystarczającą ilość many i nie może skorzystać z wiru many.",
 	"building.core.dungeon.special2.onVisited" : "Wir many był już użyty w tym tygodniu.",
 	"building.core.dungeon.special2.rewards.0" : "Gdy zbliżasz się do wiru many czujesz jak mógłby wypełnić cię swoją mocą.\n\nCzy chcesz skorzystać z wiru many by podwoić liczbę punktów many twojego bohatera?",

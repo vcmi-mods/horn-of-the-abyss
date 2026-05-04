@@ -1,0 +1,5 @@
+{
+	"skill.core.mysticism.description.advanced" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows the hero to regenerate 20% of their maximum spell points per day, with a minimum of 10 spell points regenerated per day.",
+	"skill.core.mysticism.description.basic" : "{Basic Mysticism}\n\nBasic Mysticism allows the hero to regenerate 10% of their maximum spell points per day, with a minimum of 5 spell points regenerated per day.",
+	"skill.core.mysticism.description.expert" : "{Expert Mysticism}\n\nExpert Mysticism allows the hero to regenerate 30% of their maximum spell points per day, with a minimum of 15 spell points regenerated per day."
+}

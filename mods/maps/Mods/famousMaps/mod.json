@@ -19,22 +19,82 @@
 	},
 	"chinese" : {
 		"name" : "知名社区地图",
-		"description" : "知名社区地图合集——Element Land、Fawn's Labyrinth、Finding Leena、Finding Leena II、Gelu and Hota、Gelu and Hota 2.0、Might and Magic、Noble Nemesis、Portishead、Purgatory、Supremacy of the Lich King 以及 Mysterious Islan"
+		"description" : "知名社区地图合集——Element Land、Fawn's Labyrinth、Finding Leena、Finding Leena II、Gelu and Hota、Gelu and Hota 2.0、Might and Magic、Noble Nemesis、Portishead、Purgatory、Supremacy of the Lich King 以及 Mysterious Islan",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Slavné komunitní mapy",
-		"description" : "Kolekce slavných komunitních map – Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King a Mysterious Island"
+		"description" : "Kolekce slavných komunitních map – Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King a Mysterious Island",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"french" : {
 		"name" : "Cartes célèbres de la communauté",
-		"description" : "Collection de cartes communautaires célèbres : Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King et Mysterious Island"
+		"description" : "Collection de cartes communautaires célèbres : Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory, Supremacy of the Lich King et Mysterious Island",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Slavenas kopienas kartes",
-		"description" : "Slavena kopienas karšu kolekcija — Elementu zeme, Fauna labirints, Līnas atrašana, Līnas atrašana II, Gelu un Hota, Gelu un Hota 2.0, Varenība un maģija, Cēlā ienaidniece, Portisheda, Šķīstītava, Liču karaļa pārākums un Noslēpumainā sala"
+		"description" : "Slavena kopienas karšu kolekcija — Elementu zeme, Fauna labirints, Līnas atrašana, Līnas atrašana II, Gelu un Hota, Gelu un Hota 2.0, Varenība un maģija, Cēlā ienaidniece, Portisheda, Šķīstītava, Liču karaļa pārākums un Noslēpumainā sala",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"german" : {
 		"name" : "Beliebte Karten",
-		"description" : "Kollektion von beliebten Karten aus der Heroes III Community. Enthält: Mysterious Island, Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory und Supremacy of the Lich King"
+		"description" : "Kollektion von beliebten Karten aus der Heroes III Community. Enthält: Mysterious Island, Element Land, Fawn's Labyrinth, Finding Leena, Finding Leena II, Gelu and Hota, Gelu and Hota 2.0, Might and Magic, Noble Nemesis, Portishead, Purgatory und Supremacy of the Lich King",
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
+		]
 	}
 }

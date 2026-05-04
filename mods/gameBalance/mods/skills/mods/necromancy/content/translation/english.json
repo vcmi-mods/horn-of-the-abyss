@@ -1,0 +1,5 @@
+{
+	"skill.core.necromancy.description.advanced" : "{Advanced Necromancy}\n\nAdvanced Necromancy allows 10% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+	"skill.core.necromancy.description.basic" : "{Basic Necromancy}\n\nBasic Necromancy allows 5% of the creatures killed in combat to be brought back from the dead as Skeletons.",
+	"skill.core.necromancy.description.expert" : "{Expert Necromancy}\n\nExpert Necromancy allows 15% of the creatures killed in combat to be brought back from the dead as Skeletons."
+}
