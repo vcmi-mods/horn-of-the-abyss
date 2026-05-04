@@ -74,11 +74,10 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Eagle Eye",
+		"description" : "",
 		"translations" : [
-			"name" : "Eagle Eye",
-			"description" : "",
-			"translations" : [
 				"translation/japanese.json"
-			]
+		]
 	}
 }
