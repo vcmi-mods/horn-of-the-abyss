@@ -79,6 +79,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Logistics",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

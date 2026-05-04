@@ -45,6 +45,9 @@
 		]
 	},
 	"japanese" : {
+		// Placeholder modname + description, should be translated
+		"name" : "Additional bonuses icons",
+		"description" : "Additional icons for creatures abilities.",
 		"translations" : [
 			"translation/japanese.json"
 		]

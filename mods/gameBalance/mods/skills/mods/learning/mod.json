@@ -59,6 +59,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Learning",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]

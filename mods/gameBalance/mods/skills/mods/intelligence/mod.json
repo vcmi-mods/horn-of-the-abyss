@@ -74,6 +74,8 @@
 		]
 	},
 	"japanese" : {
+		"name" : "Intelligence",
+		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
 		]
