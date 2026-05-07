@@ -34,7 +34,7 @@
 				"subtype" : "spell.teleport",
 				"val" : 3,
 				"icon" : "hota/bulwark/bonuses/castsTeleport",
-				"description" : "{Spellcaster}\nExpert Teleport (once per combat)"
+				"description" : "{Spellcaster}\nCan cast Expert Teleport (once per combat)."
 			},
 			"casts" : {
 				"type" : "CASTS",
@@ -60,7 +60,7 @@
 				// this is just to show the bonus icon
 				"type" : "NONE",
 				"icon" : "hota/bulwark/bonuses/jotunnReduceFlyingSpeed",
-				"description" : "{Flyer Speed Reduction}\n-1 enemy flying units' Speed"
+				"description" : "{Flyer Speed Reduction}\n-1 enemy flying units' Speed."
 			},
 			"KING_3" : {
 				"type" : "KING",

@@ -36,8 +36,7 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.airShield",
 				"val" : 2,
-				"icon" : "hota/bulwark/bonuses/castsAirshield",
-				"description" : "{Spellcaster}\nAdvanced Airshield"
+				"icon" : "hota/bulwark/bonuses/castsAirshield"
 			},
 			"casts" : {
 				"type" : "CASTS",
