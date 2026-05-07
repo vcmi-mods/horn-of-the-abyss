@@ -204,7 +204,7 @@
 			}
 		]
 	},
-	
+
 	"jotunn" : {
 		"stackExperience" : [
 			{
@@ -315,11 +315,21 @@
 				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	},
@@ -434,15 +444,25 @@
 				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	},
-	
+
 	"kobold" : {
 		"stackExperience" : [
 			{
@@ -573,7 +593,7 @@
 			}
 		]
 	},
-	
+
 	"koboldForeman" : {
 		"stackExperience" : [
 			{
@@ -704,7 +724,7 @@
 			}
 		]
 	},
-	
+
 	"mammoth" : {
 		"stackExperience" : [
 			{
@@ -813,17 +833,27 @@
 					4,
 					5
 				]
-			},	
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	},
-	
+
 	"mountainRam" : {
 		"stackExperience" : [
 			{
@@ -1157,11 +1187,21 @@
 				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	},
@@ -1276,7 +1316,7 @@
 			},
 			{
 				"bonus" : {
-					"type" : "MIND_IMMUNITY" 
+					"type" : "MIND_IMMUNITY"
 				},
 				"values" : [
 					false,
@@ -1292,15 +1332,25 @@
 				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "MAGIC_RESISTANCE"
 				},
-				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+				"values" : [
+					2,
+					4,
+					6,
+					8,
+					10,
+					12,
+					14,
+					16,
+					18,
+					20
+				]
 			}
 		]
 	},
-	
+
 	"warMammoth" : {
 		"stackExperience" : [
 			{
@@ -1409,13 +1459,23 @@
 					5,
 					6
 				]
-			},	
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_ATTACK"
 				},
-				"values" : [ 0, 0, 0, 0, 0, 0, 1, 1, 1, 1 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1
+				]
 			}
 		]
 	},
@@ -1530,12 +1590,21 @@
 				]
 			},
 			{
-				"bonus" : 
-				{ 
-					"type" : "HP_REGENERATION" 
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 10,20, 30, 40, 50, 60, 70, 80, 90, 100 ]
-
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			}
 		]
 	},
@@ -1650,13 +1719,22 @@
 				]
 			},
 			{
-				"bonus" : 
-				{ 
-					"type" : "HP_REGENERATION" 
+				"bonus" : {
+					"type" : "HP_REGENERATION"
 				},
-				"values" : [ 10,20, 30, 40, 50, 60, 70, 80, 90, 100 ]
-
+				"values" : [
+					10,
+					20,
+					30,
+					40,
+					50,
+					60,
+					70,
+					80,
+					90,
+					100
+				]
 			}
 		]
-	}	
+	}
 }
