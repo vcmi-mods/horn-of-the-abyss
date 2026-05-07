@@ -8,7 +8,7 @@
 			"name" : "Valquest",
 			"biography" : "Valquest, who traverses the desert, possesses exceptional medical skills. He has joined Kastore's ranks and is teaching his skills to others. Although he appears cruel, he has a compassionate heart for small animals.",
 			"specialty" : {
-				"description" : "Receives a 5% per level bonus to First Aid Tent healing efficiency.",
+				"description" : "Receives a 5% per level bonus to First Aid skill.",
 				"tooltip" : "Skill Bonus: First Aid",
 				"name" : "First Aid"
 			}
