@@ -58,6 +58,115 @@
 				"description" : "{Spell Damage Aura}\nAdjacent enemies receive +20% spell damage."
 			}
 		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			}
+		],
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/argali.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/argali.png",

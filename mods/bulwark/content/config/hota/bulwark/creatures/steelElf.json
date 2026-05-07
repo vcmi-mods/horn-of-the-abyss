@@ -36,6 +36,139 @@
 				"type" : "FREE_SHOOTING"
 			}
 		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin"
+				},
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					1,
+					2,
+					4,
+					5,
+					7,
+					8,
+					10,
+					11,
+					13,
+					14
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "MIND_IMMUNITY" // Not Immune Beneficial Mind Spells
+					// "subtype" : 1 //all except positive - TODO - implement
+				},
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+			}
+		],
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/steelElf.png",
 			"iconSmall" : "hota/bulwark/creatures/iconsSmall/steelElf.png",

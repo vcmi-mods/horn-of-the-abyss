@@ -325,6 +325,8 @@
 	"creatures.hota.bulwark.argali.bonus.spellDamageIncreaseAura" : "{法术易伤光环}\n相邻的敌方单位受到的法术伤害提高20%。",
 	"creatures.hota.bulwark.argali.name.plural" : "盘羊",
 	"creatures.hota.bulwark.argali.name.singular" : "盘羊",
+	"creatures.hota.bulwark.grandshaman.name.plural" : "萨满首领",
+	"creatures.hota.bulwark.grandshaman.name.singular" : "萨满首领",
 	"creatures.hota.bulwark.greatShaman.bonus.castsAirShield" : "{施法者}\n中级大气神盾",
 	"creatures.hota.bulwark.greatShaman.bonus.freezingShot" : "{寒霜射击}\n进行远程攻击后有20%的几率冻结敌人。",
 	"creatures.hota.bulwark.greatShaman.name.plural" : "大萨满",

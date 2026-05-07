@@ -39,7 +39,8 @@
 		"config/hota/bulwark/creatures/yeti.json",
 		"config/hota/bulwark/creatures/yetiRunemaster.json",
 		// freezingShot immunes
-		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json"
+		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json",
+		"config/hota/bulwark/creatures/bulwarkcommander.json"
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
@@ -126,14 +127,6 @@
 		"description" : "Pilsēta « Balwark » ar arktisku Vori tēmu",
 		"translations" : [
 			"translation/latvian.json"
-		]
-	},
-	"japanese" : {
-		// Placeholder name+description, should be translated
-		"name" : "Bulwark",
-		"description" : "New town Bulwark with arctic Vori theme",
-		"translations" : [
-			"translation/japanese.json"
 		]
 	}
 }
