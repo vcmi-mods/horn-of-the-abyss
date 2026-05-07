@@ -129,5 +129,13 @@
 		"translations" : [
 			"translation/latvian.json"
 		]
+	},
+	"japanese" : {
+		// Placeholder name+description, should be translated
+		"name" : "Bulwark",
+		"description" : "New town Bulwark with arctic Vori theme",
+		"translations" : [
+			"translation/japanese.json"
+		]
 	}
 }
