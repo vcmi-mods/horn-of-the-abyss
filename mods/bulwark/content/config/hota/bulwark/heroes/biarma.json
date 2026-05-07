@@ -47,7 +47,7 @@
 			"biography" : "Everyone in Vori knows: when all remedies fail, the last and only resort for the ailing is to seek out old Biarma. Those who dare to face her no longer care for Biarma's motives as to who will be granted a new lease on life, and who will instead donate their skull to the eerie adornment of her remote abode's palisade.",
 			"specialty" : {
 				"name" : "First Aid",
-				"description" : "Receives a 5% per level bonus to First Aid skill.",
+				"description" : "Receives a 5% per level bonus to First Aid Tent health increase efficiency.",
 				"tooltip" : "Skill Bonus: First Aid"
 			}
 		}
