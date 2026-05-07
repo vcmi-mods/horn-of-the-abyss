@@ -1,0 +1,101 @@
+{
+	"grandshaman" : {
+		"name" : {
+			"singular" : "Grand Shaman",
+			"plural" : "Grand Shamans"
+		},
+		"faction" : "bulwark",
+		"level" : 0,
+		"speed" : 4,
+		"hitPoints" : 40,
+		"attack" : 5,
+		"defense" : 5,
+		"damage" : {
+			"min" : 6,
+			"max" : 12
+		},
+		"growth" : 9,
+		"aiValue" : 156,
+		"fightValue" : 130,
+		"doubleWide" : false,
+		"special" : true,
+		"shots" : 24,
+		"cost" : {
+			"gold" : 2000
+		},
+		"abilities" : {
+			"canCast" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.airShield",
+				"val" : 1
+			},
+			"castsAmount" : {
+				"type" : "CASTS",
+				"val" : 1
+			},
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 5
+			},
+			"enchant" : {
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 1
+			}
+		},
+		"graphics" : {
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/greatShaman.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/greatShaman.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWGSHMN.def",
+			"mapMask" : [
+				"VVV",
+				"VAV"
+			],
+			"animation" : "hota/bulwark/creatures/battle/CGSHMN.def",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.2
+			},
+			"timeBetweenFidgets" : 1,
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/greatShamanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/greatShamanLeft.png",
+			"missile" : {
+				"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAM.def",
+				"attackClimaxFrame" : 6,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90
+				],
+				"offset" : {
+					"upperX" : 40,
+					"upperY" : -57,
+					"middleX" : 45,
+					"middleY" : -50,
+					"lowerX" : 25,
+					"lowerY" : -20
+				}
+			}
+		},
+		"sound" : {
+			// TODO: GAP? - SHAMSPEC
+			"attack" : "hota/bulwark/creatures/shaman/SHAMATTK.wav",
+			"defend" : "hota/bulwark/creatures/shaman/SHAMDFND.wav",
+			"killed" : "hota/bulwark/creatures/shaman/SHAMKILL.wav",
+			"move" : "hota/bulwark/creatures/shaman/SHAMMOVE.wav",
+			"shoot" : "hota/bulwark/creatures/shaman/SHAMSHOT.wav",
+			"wince" : "hota/bulwark/creatures/shaman/SHAMWNCE.wav"
+		}
+	}
+}

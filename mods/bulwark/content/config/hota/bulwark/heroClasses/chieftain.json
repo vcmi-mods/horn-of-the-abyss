@@ -4,7 +4,7 @@
 		"faction" : "bulwark",
 		"affinity" : "might",
 		"defaultTavern" : 5,
-		"commander" : "shaman", // placeholder
+		"commander" : "grandshaman", // placeholder
 		"animation" : {
 			"battle" : {
 				"female" : "hota/bulwark/heroClasses/chieftain/battle/CH22b_08.def",

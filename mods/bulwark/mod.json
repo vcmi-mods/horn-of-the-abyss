@@ -39,7 +39,9 @@
 		"config/hota/bulwark/creatures/yeti.json",
 		"config/hota/bulwark/creatures/yetiRunemaster.json",
 		// freezingShot immunes
-		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json"
+		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json",
+		"config/hota/bulwark/creatures/bulwarkcommander.json",
+		"config/hota/bulwark/creatures/stackexp.json"
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
