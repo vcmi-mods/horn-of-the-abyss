@@ -1263,5 +1263,6 @@
 	"spell.hota.neutralcreatures.hornSpell.description.none": "{Summon Fangarms}\n\nRise Fangarms from any corpses from both side, except non-living creatures.",
 	"spell.hota.neutralcreatures.hornSpell.name": "Summon Fangarms",
 	"terrain.hota.highlandsterrain.highlands.name": "Высокогорье",
-	"terrain.hota.wastelandterrain.wasteland.name": "Пустоши"
+	"terrain.hota.wastelandterrain.wasteland.name": "Пустоши",
+	"mapObject.core.witchHut.witchHut.rewards.0": "{Хижина Ведьмы}\n\nСтарая ведьма приглашает вас зайти к ней в хижину. Не разводя лишних разговоров, она предлагает изучить у неё навык %s."
 }
