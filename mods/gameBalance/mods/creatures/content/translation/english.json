@@ -1,0 +1,4 @@
+{
+	"creatures.core.archDevil.bonus.decreaseLuck" : "{Reduces enemy luck}\nArch Devils reduce enemy luck by two",
+	"creatures.core.devil.bonus.decreaseLuck" : "{Reduces enemy luck}\nDevils reduce enemy luck by one"
+}

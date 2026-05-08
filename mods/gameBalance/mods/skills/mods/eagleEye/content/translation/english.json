@@ -1,0 +1,5 @@
+{
+	"skill.core.eagleEye.description.advanced" : "{Advanced Eagle Eye}\n\nAdvanced Eagle Eye gives your hero a 50% chance to learn any spell up to 3rd level used in combat.",
+	"skill.core.eagleEye.description.basic" : "{Basic Eagle Eye}\n\nBasic Eagle Eye gives your hero a 40% chance to learn any 1st or 2nd level spell used in combat.",
+	"skill.core.eagleEye.description.expert" : "{Expert Eagle Eye}\n\nExpert Eagle Eye gives your hero a 60% chance to learn any spell up to 4th level used in combat."
+}

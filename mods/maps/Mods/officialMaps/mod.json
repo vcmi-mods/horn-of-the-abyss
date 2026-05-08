@@ -1,0 +1,103 @@
+{
+	"name" : "Maps",
+	"description" : "This mod contains all new maps added by HotA Crew",
+	"modType" : "Compatibility",
+	"author" : "Ivan",
+	"contact" : "https://forum.vcmi.eu/",
+	"version" : "1.2",
+	"compatibility" : {
+		"min" : "1.7"
+	},
+	"depends" : [
+		"hota.mapsupport"
+	],
+	"softDepends" : [
+		"czech-translation",
+		"german-translation",
+		"polish-translation",
+		"russian-translation"
+	],
+	"changelog" : {
+		"1.2" : [
+			"Added AI generated voice for Czech, English and German for all 5 campaigns",
+			"Added Polish voice for all 5 campaigns",
+			"Added Russian voice for first 3 campaigns"
+		],
+		"1.1" : [
+			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
+		],
+		"1.0" : [
+			"All official HotA 1.7.3 maps were added"
+		]
+	},
+	"chinese" : {
+		"translations" : [
+			"translation/chinese.json"
+		]
+	},
+	"czech" : {
+		"translations" : [
+			"translation/czech.json"
+		]
+	},
+	"french" : {
+		"translations" : [
+			"translation/french.json"
+		]
+	},
+	"german" : {
+		"translations" : [
+			"translation/german.json"
+		]
+	},
+	"latvian" : {
+		"translations" : [
+			"translation/latvian.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
+		]
+	}
+}

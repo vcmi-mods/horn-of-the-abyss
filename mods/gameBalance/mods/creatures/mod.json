@@ -15,7 +15,6 @@
 		"config/hotaGameBalance/creaturesCove.json",
 		"config/hotaGameBalance/creaturesFactory.json"
 	],
-
 	"chinese" : {
 		"name" : "生物",
 		"description" : "",
@@ -60,21 +59,50 @@
 	},
 	"polish" : {
 		"name" : "Creatures",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	},
 	"swedish" : {
 		"name" : "Creatures",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/swedish.json"
+		]
 	},
 	"ukrainian" : {
 		"name" : "Creatures",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/ukrainian.json"
+		]
 	},
 	"japanese" : {
 		"name" : "Creatures",
 		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
 		]
 	}
 }

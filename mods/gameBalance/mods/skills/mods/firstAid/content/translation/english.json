@@ -1,0 +1,6 @@
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description" : "{First Aid Tent}\nHero carries a First Aid Tent.",
+	"skill.core.firstAid.description.advanced" : "{Advanced First Aid}\n\nAdvanced First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 75 points of Damage and grants all allied creatures +10% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack.",
+	"skill.core.firstAid.description.basic" : "{Basic First Aid}\n\nBasic First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 50 points of Damage and grants all allied creatures +5% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack.",
+	"skill.core.firstAid.description.expert" : "{Expert First Aid}\n\nExpert First Aid gives the hero control of the First Aid Tent. The First Aid Tent heals the first unit in a stack for 100 points of Damage and grants all allied creatures +15% Health. The First Aid Tent cannot be dealt more than 40% of its Health as Damage from any single attack."
+}

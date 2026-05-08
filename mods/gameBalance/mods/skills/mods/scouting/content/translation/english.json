@@ -1,0 +1,5 @@
+{
+	"skill.core.scouting.description.advanced" : "{Advanced Scouting}\n\nAdvanced Scouting allows your hero to see 3 squares further into the shroud.",
+	"skill.core.scouting.description.basic" : "{Basic Scouting}\n\nBasic Scouting allows your hero to see 1 square further into the shroud.",
+	"skill.core.scouting.description.expert" : "{Expert Scouting}\n\nExpert Scouting allows your hero to see 5 squares further into the shroud."
+}

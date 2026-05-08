@@ -30,37 +30,90 @@
 			"All official HotA 1.7.3 maps were added"
 		]
 	},
-
 	"chinese" : {
 		"name" : "地图",
-		"description" : "这个模组包含HotA团队新增的所有新地图。"
+		"description" : "这个模组包含HotA团队新增的所有新地图。",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Mapy",
-		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA"
+		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"french" : {
 		"name" : "Cartes",
-		"description" : "Contient toutes les nouvelles cartes ajoutées par l'équipe HotA"
+		"description" : "Contient toutes les nouvelles cartes ajoutées par l'équipe HotA",
+		"translations" : [
+			"translation/french.json"
+		]
 	},
 	"german" : {
 		"name" : "Neue Karten",
-		"description" : "Enthält alle Karten, die von HotA zum Spiel hinzugefügt wurden."
+		"description" : "Enthält alle Karten, die von HotA zum Spiel hinzugefügt wurden.",
+		"translations" : [
+			"translation/german.json"
+		]
 	},
 	"latvian" : {
 		"name" : "Kartes",
-		"description" : "Satur visas jaunās kartes, ko pievienojusi HotA Crew"
+		"description" : "Satur visas jaunās kartes, ko pievienojusi HotA Crew",
+		"translations" : [
+			"translation/latvian.json"
+		]
 	},
 	"polish" : {
 		"name" : "Mapy",
-		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew"
+		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew",
+		"translations" : [
+			"translation/polish.json"
+		]
 	},
 	"portuguese" : {
 		"name" : "Mapas",
-		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA"
+		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA",
+		"translations" : [
+			"translation/portuguese.json"
+		]
 	},
 	"russian" : {
 		"name" : "Карты",
-		"description" : "Этот мод содержит все новые карты, добавленные командой HotA Crew."
+		"description" : "Этот мод содержит все новые карты, добавленные командой HotA Crew.",
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"japanese" : {
+		"translations" : [
+			"translation/japanese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
+		]
 	}
 }

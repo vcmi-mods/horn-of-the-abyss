@@ -1,0 +1,5 @@
+{
+	"skill.core.intelligence.description.advanced" : "{Advanced Intelligence}\n\nAdvanced Intelligence increases a hero's normal maximum spell points by 35%.",
+	"skill.core.intelligence.description.basic" : "{Basic Intelligence}\n\nBasic Intelligence increases a hero's normal maximum spell points by 20%.",
+	"skill.core.intelligence.description.expert" : "{Expert Intelligence}\n\nExpert Intelligence increases a hero's normal maximum spell points by 50%."
+}

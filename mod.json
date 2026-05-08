@@ -584,102 +584,94 @@
 		"name" : "深渊号角（HotA）",
 		"description" : "深渊号角（Horn of the Abyss）是《英雄无敌 III》的非官方资料片，由 Hota Crew制作，VCMI Team & edeksumo & avatar导入。该模组对原有的平衡性进行了调整，并增加了全新的阵营“港口”（Cove）和“工厂”（Factory），工厂族使用阿土的汉化文本，1.7地图汉化从WoG论坛导入，缺失部分由紫玥炎霄汉化。1.8地图和知名社区地图均由紫玥炎霄汉化。",
 		"translations" : [
-			"config/translation/hota/chinese/game.json",
-			"config/translation/hota/chinese/campaigns.json",
-			"config/translation/hota/chinese/maps.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Rozpracovaný port rozšíření Horn of the Abyss vytvořený týmem Hota Crew",
 		"translations" : [
-			"config/translation/hota/czech/game.json",
-			"config/translation/hota/czech/campaigns.json",
-			"config/translation/hota/czech/maps.json",
-			"config/translation/hota/czech/custommaps.json"
+			"translation/czech.json"
 		]
 	},
 	"german" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Deutsche Übersetzung des Ports von 'Horn of the Abyss' auf VCMI. Credits: HotA Team für die Mod!",
 		"translations" : [
-			"config/translation/hota/german/campaigns.json",
-			"config/translation/hota/german/game.json"
+			"translation/german.json"
 		]
 	},
 	"latvian" : {
 		"name" : "Horn of the Abyss",
 		"description" : "'Horn of the Abyss' ir neoficiāls Heroes of Might and Magic III paplašinājums, ko izveidojis Hota Crew. Šis mods pielāgo oriģinālās spēles līdzsvaru un pievieno jaunas frakcijas 'Cove' un 'Factory'.",
 		"translations" : [
-			"config/translation/hota/latvian/game.json",
-			"config/translation/hota/latvian/maps.json",
-			"config/translation/hota/latvian/campaigns.json",
-			"config/translation/hota/latvian/custommaps.json"
+			"translation/latvian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Trwają prace nad portem dodatku Horn of the Abyss stworzonego przez Hota Crew",
 		"translations" : [
-			"config/translation/hota/polish/game.json",
-			"config/translation/hota/polish/maps.json",
-			"config/translation/hota/polish/campaigns.json"
+			"translation/polish.json"
 		]
 	},
 	"ukrainian" : {
 		"name" : "Horn of the Abyss / Ріг Безодні",
 		"description" : "Поточна версія доповнення Horn of the Abyss (від команди Hota Crew)",
 		"translations" : [
-			"config/translation/hota/ukrainian.json"
+			"translation/ukrainian.json"
 		]
 	},
 	"spanish" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Spanish translation made by macomarivas",
 		"translations" : [
-			"config/translation/hota/spanish/game.json",
-			"config/translation/hota/spanish/maps.json",
-			"config/translation/hota/spanish/campaigns.json"
+			"translation/spanish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Horn of the Abyss / Рог Бездны",
 		"description" : "Дополнение от Hota Crew, портированное на движок VCMI",
 		"translations" : [
-			"config/translation/hota/russian/game.json",
-			"config/translation/hota/russian/maps.json",
-			"config/translation/hota/russian/campaigns.json"
+			"translation/russian.json"
 		]
 	},
 	"portuguese" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Horn of the Abyss é uma expansão não oficial para Heroes of Might and Magic III, criada pela Hota Crew. Este mod ajusta o equilíbrio do jogo original e adiciona as novas facções 'Enseada' e 'Fábrica'.",
 		"translations" : [
-			"config/translation/hota/portuguese.json"
+			"translation/portuguese.json"
 		]
 	},
 	"french" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Horn of the Abyss est une extension non officielle pour Heroes of Might and Magic III, créée par Hota Crew. Merci à Hakas_FR pour les traductions. Autre communauté de traduction : https://github.com/nomises/Traduction-Hota-FR",
 		"translations" : [
-			"config/translation/hota/french/campaigns.json",
-			"config/translation/hota/french/maps.json"
+			"translation/french.json"
 		]
 	},
 	"turkish" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Hota Crew ekibi tarafından geliştirilen Horn of the Abyss genişletme paketi.",
 		"translations" : [
-			"config/translation/hota/turkish/game.json"
+			"translation/turkish.json"
 		]
 	},
 	"japanese" : {
 		"name" : "Horn of the Abyss",
 		"description" : "Hota Crewチームによって開発された拡張パック『Horn of the Abyss』。",
 		"translations" : [
-			"config/translation/hota/japanese/game.json",
-			"config/translation/hota/japanese/maps.json",
-			"config/translation/hota/japanese/campaigns.json"
+			"translation/japanese.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
 		]
 	}
 }
