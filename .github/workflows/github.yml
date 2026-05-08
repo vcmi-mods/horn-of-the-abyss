@@ -144,16 +144,16 @@ jobs:
       - name: Package release archive
         run: bash .github/create_release_package.sh
 
+      - name: Strip vcmi- prefix for TAG
+        run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
+
       - name: Move tag to current commit
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-          git tag -f "${GITHUB_REF_NAME}" "${GITHUB_SHA}"
-          git push origin "${GITHUB_REF_NAME}" --force
-
-      - name: Strip vcmi- prefix for TAG
-        run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
+          git tag -f "${RELEASE_TAG}" "${GITHUB_SHA}"
+          git push origin "${RELEASE_TAG}" --force
 
       - name: Upload Mod Release Package
         uses: ncipollo/release-action@v1
