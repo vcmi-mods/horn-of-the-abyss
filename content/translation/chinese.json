@@ -1324,5 +1324,7 @@
 	"spell.hota.neutralcreatures.hornSpell.description.none": "{召唤夺心魔}\r\n\r\n从敌我双方任一生物尸体中召唤夺心魔，对非生命无效。",
 	"spell.hota.neutralcreatures.hornSpell.name": "召唤夺心魔",
 	"terrain.hota.highlandsterrain.highlands.name": "高地",
-	"terrain.hota.wastelandterrain.wasteland.name": "荒地"
+	"terrain.hota.wastelandterrain.wasteland.name": "荒地",
+	"creatures.hota.bulwark.grandshaman.name.plural": "萨满首领",
+	"creatures.hota.bulwark.grandshaman.name.singular": "萨满首领"
 }
