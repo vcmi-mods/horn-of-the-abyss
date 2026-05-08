@@ -98,7 +98,7 @@ jobs:
 
       - name: Format JSON files with Prettier
         run: |
-          prettier --write "**/*.json" \
+          prettier --write "**/*.json" "!**/translation/**" \
                    --parser jsonc \
                    --use-tabs \
                    --tab-width 4 \
