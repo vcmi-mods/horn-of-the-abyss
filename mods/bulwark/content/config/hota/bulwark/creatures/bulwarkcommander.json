@@ -1,69 +1,69 @@
 {
-	"shaman" : {
+	"grandshaman" : {
 		"name" : {
-			"singular" : "Shaman",
-			"plural" : "Shamans"
+			"singular" : "Grand Shaman",
+			"plural" : "Grand Shamans"
 		},
 		"faction" : "bulwark",
-		"level" : 5,
-		"upgrades" : [
-			"greatShaman"
-		],
-		"cost" : {
-			"gold" : 450
-		},
-		"speed" : 5,
-		"hitPoints" : 35,
-		"attack" : 11,
-		"defense" : 8,
+		"level" : 0,
+		"speed" : 4,
+		"hitPoints" : 40,
+		"attack" : 5,
+		"defense" : 5,
 		"damage" : {
-			"min" : 11,
-			"max" : 13
+			"min" : 6,
+			"max" : 12
 		},
-		"fightValue" : 571,
-		"aiValue" : 685,
-		"shots" : 12,
-		"growth" : 3,
-		"advMapAmount" : {
-			"min" : 8,
-			"max" : 16
+		"growth" : 9,
+		"aiValue" : 156,
+		"fightValue" : 130,
+		"doubleWide" : false,
+		"special" : true,
+		"shots" : 24,
+		"cost" : {
+			"gold" : 2000
 		},
 		"abilities" : {
-			"shooter" : {
-				"type" : "SHOOTER"
-			},
-			"castsAirShield" : {
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.airShield",
-				"val" : 2,
-				"icon" : "hota/bulwark/bonuses/castsAirshield"
+				"val" : 1
 			},
-			"casts" : {
+			"castsAmount" : {
 				"type" : "CASTS",
-				"val" : 3
+				"val" : 1
 			},
-			"enchantPower" : {
+			"spellpower" : {
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"magicResistance" : {
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "spellSchool.any",
+				"val" : 5
+			},
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 6
+				"val" : 1
 			}
 		},
 		"graphics" : {
-			"iconLarge" : "hota/bulwark/creatures/iconsLarge/shaman.png",
-			"iconSmall" : "hota/bulwark/creatures/iconsSmall/shaman.png",
-			"map" : "hota/bulwark/creatures/adventureMap/AVWSHAMN.def",
+			"iconLarge" : "hota/bulwark/creatures/iconsLarge/greatShaman.png",
+			"iconSmall" : "hota/bulwark/creatures/iconsSmall/greatShaman.png",
+			"map" : "hota/bulwark/creatures/adventureMap/AVWGSHMN.def",
 			"mapMask" : [
 				"VVV",
 				"VAV"
 			],
-			"animation" : "hota/bulwark/creatures/battle/CSHAMN.def",
+			"animation" : "hota/bulwark/creatures/battle/CGSHMN.def",
 			"animationTime" : {
 				"attack" : 1,
 				"idle" : 10,
 				"walk" : 1.2
 			},
 			"timeBetweenFidgets" : 1,
-			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/shamanRight.png",
-			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/shamanLeft.png",
+			"mapAttackFromRight" : "hota/bulwark/creatures/AVWattack/greatShamanRight.png",
+			"mapAttackFromLeft" : "hota/bulwark/creatures/AVWattack/greatShamanLeft.png",
 			"missile" : {
 				"projectile" : "hota/bulwark/creatures/battle/projectile/PSHAM.def",
 				"attackClimaxFrame" : 6,

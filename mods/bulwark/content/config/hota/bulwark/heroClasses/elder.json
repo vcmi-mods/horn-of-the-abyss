@@ -4,7 +4,7 @@
 		"faction" : "bulwark",
 		"affinity" : "magic",
 		"defaultTavern" : 5,
-		"commander" : "shaman", // placeholder
+		"commander" : "grandshaman", // placeholder
 		"animation" : {
 			"battle" : {
 				"female" : "hota/bulwark/heroClasses/elder/battle/CH23b_08.DEF",
