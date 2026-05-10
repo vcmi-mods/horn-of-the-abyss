@@ -1015,7 +1015,7 @@
 	"mapObject.hota.mapobjects.shrineOfMagicLevel1.shrineOfMagicMystery.onVisited": "{Świątynia Magicznej Tajemnicy}\r\n\r\nNatrafiasz na starożytną świątynię, do której uczęszcza grupa ascetycznych pustelników. W zamian za twoją ochronę zgadzają się nauczyć cię zaklęcia - {%s}. Znasz już to zaklęcie, więc nie mogą cię już niczego więcej nauczyć.",
 	"mapObject.hota.mapobjects.shrineOfMagicLevel1.shrineOfMagicMystery.rewards.0": "{Świątynia Magicznej Tajemnicy}\r\n\r\nNatrafiasz na starożytną świątynię, do której uczęszcza grupa ascetycznych pustelników. W zamian za twoją ochronę zgadzają się nauczyć cię zaklęcia - {%s}.",
 	"mapObject.hota.mapobjects.townGate.townGate.name": "Brama miasta",
-	"mapObject.hota.mapobjects.townGate.townGate.onVisited": "{Brama miasta}\r\n\r\nWybierz cel",
+	"mapObject.hota.mapobjects.townGate.townGate.onVisited": "{Brama miasta}\n\nWybierz cel:",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.name": "Fiolka many",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0": "{Fiolka many}\r\n\r\nWyławiasz buteleczkę i od razu czujesz się zawiedziony widząc, że nie zawiera ona żadnej wiadomości. W środku znajduje się tylko czysta woda, która jednakże działa na ciebie niezwykle orzeźwiająco",
 	"mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.1": "{Fiolka many}\r\n\r\nWyławiasz buteleczkę i od razu czujesz się zawiedziony widząc, że nie zawiera ona żadnej wiadomości. W środku znajduje się tylko czysta woda, która jednakże działa na ciebie niezwykle orzeźwiająco",
@@ -1296,5 +1296,6 @@
 	"spell.hota.neutralcreatures.hornSpell.description.none": "{Przyzwanie Fangarmów}\n\nPrzywołuje {fangarmy} ze wszystkich zwłok po obu stronach, z wyjątkiem istot nieżyjących.",
 	"spell.hota.neutralcreatures.hornSpell.name": "Przyzwanie Fangarmów",
 	"terrain.hota.highlandsterrain.highlands.name": "Wyżyny",
-	"terrain.hota.wastelandterrain.wasteland.name": "Pustkowie"
+	"terrain.hota.wastelandterrain.wasteland.name": "Pustkowie",
+	"hero.hota.cove.12casmetra.specialty.description": "Zwiększa {szybkość} zaklinaczek i czarodziejek o {1} oraz ich {atak} i {obronę} o {5%} dla każdego poziomu doświadczenia bohatera powyżej poziomu piątego (zaokrąglając w górę)."
 }
