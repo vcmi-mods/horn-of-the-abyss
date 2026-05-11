@@ -13,6 +13,8 @@ jobs:
     defaults:
       run:
         shell: bash
+    outputs:
+      translations_present: ${{ steps.check.outputs.translations_present }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -34,21 +36,47 @@ jobs:
           mkdir -p ~/.config/vcmi
           7za x -o"$HOME/.local/share/vcmi/" heroes3.7z
 
-      - name: Install Mod (all but HotA)
-        if: ${{ !contains(github.repository, 'horn-of-the-abyss') }}
+      - name: Extract Mod Name
         run: |
           MOD_NAME=$(basename ${{ github.repository }})
-          ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
-          echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
+          # Hota mod name differs from repository name. Compensate
+          if [[ "${{ github.repository }}" == *"horn-of-the-abyss"* ]]; then
+            MOD_NAME="hota"
+          fi
+          echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
 
-      - name: Install Mod (HotA only)
-        if: ${{ contains(github.repository, 'horn-of-the-abyss') }}
+      - name: Install Mod
         run: |
-          ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/hota
-          echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "hota" ]}}}' >~/.config/vcmi/modSettings.json
+          ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
+
+      - name: Export translations
+        run: |
+          if ! jq -e '.modType == "Translation"' mod.json >/dev/null; then
+            echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
+            vcmiserver --translate-mod=${MOD_NAME}
+          fi
+
+      - name: Check translations folder
+        id: check
+        run: |
+          DIR="$HOME/.cache/vcmi/extracted/translationFull/${{ env.MOD_NAME }}/"
+          if [ -d "$DIR" ] && [ "$(ls -A "$DIR")" ]; then
+            echo "translations_present=true" >> $GITHUB_OUTPUT
+          else
+            echo "translations_present=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload Translation Files
+        if: steps.check.outputs.translations_present == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-export
+          path: ~/.cache/vcmi/extracted/translationFull/${{ env.MOD_NAME }}/
+          retention-days: 1
 
       - name: Run VCMI
         run: |
+          echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
           vcmiserver --dummy-run 2> >(tee error.log)
           if [ ! -s error.log ]; then
               echo "Validation OK!"
@@ -82,7 +110,7 @@ jobs:
 
   format-json:
     name: Format JSON
-    needs: validate-json
+    needs: [validate-json, validate-startup]
     if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     defaults:
@@ -95,6 +123,20 @@ jobs:
       - name: Install dependencies
         run: |
           npm install -g prettier
+
+      - name: Download translation artifacts
+        if: needs.validate-startup.outputs.translations_present == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: translation-export
+          path: ./translation-export
+
+      - name: Refresh translation files
+        if: needs.validate-startup.outputs.translations_present == 'true'
+        run: |
+          mv translation-export ..
+          find . -name english.json -delete
+          python3 .github/merge_dirs.py ../translation-export .
 
       - name: Format JSON files with Prettier
         run: |
