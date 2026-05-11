@@ -59,7 +59,7 @@
 			"heatStroke" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "heatStrokeJuggernaut",
-				"description" : "{Heat Stroke}\nCan buff itself to deal damage to all units within a semi-circular area",
+				"description" : "{Heat Stroke}\nCan buff itself to deal damage to all units within a semi-circular area.",
 				"icon" : "hota/factory/creatures/iconsBonuses/hotshoot.png"
 			},
 			"casts" : {

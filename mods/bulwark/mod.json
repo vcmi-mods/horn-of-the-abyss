@@ -5,7 +5,6 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"version" : "1.0.0",
 	"modType" : "Town",
-
 	"compatibility" : {
 		"min" : "1.7.2"
 	},
@@ -14,7 +13,6 @@
 		"hota.highlandsterrain",
 		"hota.mapobjects"
 	],
-
 	"factions" : [
 		"config/hota/bulwark/faction.json",
 		"config/hota/bulwark/town/town.json",
@@ -38,8 +36,9 @@
 		"config/hota/bulwark/creatures/warMammoth.json",
 		"config/hota/bulwark/creatures/yeti.json",
 		"config/hota/bulwark/creatures/yetiRunemaster.json",
-		// freezingShot immunes
-		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json"
+		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json",
+		"config/hota/bulwark/creatures/bulwarkcommander.json",
+		"config/hota/bulwark/creatures/stackexp.json"
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
@@ -92,7 +91,6 @@
 	"biomes" : [
 		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
 	],
-
 	"chinese" : {
 		"name" : "坚垒",
 		"description" : "深渊号角1.8.0的新城镇坚垒",
@@ -129,11 +127,50 @@
 		]
 	},
 	"japanese" : {
-		// Placeholder name+description, should be translated
 		"name" : "Bulwark",
 		"description" : "New town Bulwark with arctic Vori theme",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"russian" : {
+		"translations" : [
+			"translation/russian.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }

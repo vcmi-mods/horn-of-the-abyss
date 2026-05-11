@@ -1,5 +1,4 @@
 {
-	// missing mana% regeneration in description
 	"skill.core.mysticism.description.advanced" : "{Мистицизм 2 ступени}\n\nПозволяет герою восстанавливать 10 очка магии ежедневно.",
 	"skill.core.mysticism.description.basic" : "{Мистицизм 1 ступени}\n\nПозволяет герою восстанавливать 5 очка магии ежедневно.",
 	"skill.core.mysticism.description.expert" : "{Мистицизм 3 ступени}\n\nПозволяет герою восстанавливать 15 очка магии ежедневно."

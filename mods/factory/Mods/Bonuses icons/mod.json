@@ -66,11 +66,45 @@
 		]
 	},
 	"japanese" : {
-		// Placeholder name+description, should be translated
 		"name" : "Additional bonuses icons",
 		"description" : "Additional icons for creatures abilities.",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }

@@ -23,79 +23,76 @@
 		"hota.cove",
 		"hota.neutralcreatures"
 	],
-
 	"chinese" : {
 		"name" : "地图物体",
 		"description" : "模组将HotA团队添加的多个新物体引入VCMI，并在随机地图上可用。",
 		"translations" : [
-			"translation/mapObjects/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"czech" : {
 		"name" : "Nové objekty",
 		"description" : "Modifikace přidává několik nových objektů vytvořených týmem HotA do VCMI, dostupných na náhodných mapách.",
 		"translations" : [
-			"translation/mapObjects/czech.json"
+			"translation/czech.json"
 		]
 	},
 	"german" : {
 		"name" : "Neue Objekte",
 		"description" : "Die Mod fügt viele vom HotA-Team erstellte Objekte zu VCMI hinzu, die auf zufälligen Karten verfügbar sind.",
 		"translations" : [
-			"translation/mapObjects/german.json"
+			"translation/german.json"
 		]
 	},
 	"french" : {
 		"name" : "Objets de carte",
 		"description" : "Ajoute plusieurs nouveaux objets créés par HotA Crew à VCMI, disponibles sur des cartes aléatoires.",
 		"translations" : [
-			"translation/mapObjects/french.json"
+			"translation/french.json"
 		]
 	},
 	"latvian" : {
 		"name" : "Kartes objekti",
 		"description" : "Pievieno VCMI vairākus jaunus objektus, ko pievienojusi HotA Crew, un tie ir pieejami nejaušās kartēs.",
 		"translations" : [
-			"translation/mapObjects/latvian.json"
+			"translation/latvian.json"
 		]
 	},
 	"polish" : {
 		"name" : "Nowe obiekty",
 		"description" : "Mod dodaje wiele nowych obiektów stworzonych przez HotA Crew do VCMI, które pojawiają się na mapach losowych",
 		"translations" : [
-			"translation/mapObjects/polish.json"
+			"translation/polish.json"
 		]
 	},
 	"ukrainian" : {
 		"name" : "Об'єкти мапи",
 		"description" : "Мод додає кілька нових об'єктів, створених командою HotA Crew у VCMI, які доступні на випадкових мапах",
 		"translations" : [
-			"translation/mapObjects/ukrainian.json"
+			"translation/ukrainian.json"
 		]
 	},
 	"portuguese" : {
 		"name" : "Objetos do Mapa",
 		"description" : "O mod adiciona vários novos objetos criados pela Equipe HotA ao VCMI, disponíveis em mapas aleatórios",
 		"translations" : [
-			"translation/mapObjects/portuguese.json"
+			"translation/portuguese.json"
 		]
 	},
 	"russian" : {
 		"name" : "Объекты карты",
 		"description" : "Добавляет в VCMI различные объекты карты, представленные в HotA",
 		"translations" : [
-			"translation/mapObjects/russian.json"
+			"translation/russian.json"
 		]
 	},
 	"japanese" : {
-		// placeholder name+description, should be translated
 		"name" : "Map objects",
 		"description" : "Mod adds multiple new objects added by HotA Crew to VCMI, available on random maps",
 		"translations" : [
-			"translation/mapObjects/japanese.json"
+			"translation/japanese.json"
 		]
 	},
-
 	"objects" : [
 		"config/hotaMapObjects/ancientLamp.json",
 		"config/hotaMapObjects/beholderSanctuary.json",
@@ -179,5 +176,25 @@
 				}
 			}
 		}
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
 	}
 }

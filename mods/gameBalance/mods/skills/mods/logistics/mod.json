@@ -10,11 +10,9 @@
 			"originalFlyRules" : false
 		}
 	},
-
 	"skills" : [
 		"config/hotaGameBalance/skills.json"
 	],
-
 	"chinese" : {
 		"name" : "后勤学",
 		"description" : "",
@@ -83,6 +81,26 @@
 		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
 		]
 	}
 }

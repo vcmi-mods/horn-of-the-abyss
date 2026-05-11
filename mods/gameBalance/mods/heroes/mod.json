@@ -28,7 +28,6 @@
 		"config/hotaGameBalance/bulwark/kynr.json",
 		"config/hotaGameBalance/bulwark/sial.json",
 		"config/hotaGameBalance/bulwark/spadum.json",
-
 		"config/hotaGameBalance/castle/adela.json",
 		"config/hotaGameBalance/castle/adelaide.json",
 		"config/hotaGameBalance/castle/catherine.json",
@@ -42,7 +41,6 @@
 		"config/hotaGameBalance/castle/sorsha.json",
 		"config/hotaGameBalance/castle/tyris.json",
 		"config/hotaGameBalance/castle/valeska.json",
-
 		"config/hotaGameBalance/conflux/aenain.json",
 		"config/hotaGameBalance/conflux/brissa.json",
 		"config/hotaGameBalance/conflux/erdamon.json",
@@ -56,9 +54,7 @@
 		"config/hotaGameBalance/conflux/monere.json",
 		"config/hotaGameBalance/conflux/pasis.json",
 		"config/hotaGameBalance/conflux/thunar.json",
-
 		"config/hotaGameBalance/cove/anabel.json",
-		//	"config/hotaGameBalance/cove/astra.json",
 		"config/hotaGameBalance/cove/casmetra.json",
 		"config/hotaGameBalance/cove/cassiopeia.json",
 		"config/hotaGameBalance/cove/dargem.json",
@@ -67,8 +63,6 @@
 		"config/hotaGameBalance/cove/jeremy.json",
 		"config/hotaGameBalance/cove/manfred.json",
 		"config/hotaGameBalance/cove/tark.json",
-		//	"config/hotaGameBalance/cove/zilare.json",
-
 		"config/hotaGameBalance/dungeon/ajit.json",
 		"config/hotaGameBalance/dungeon/alamar.json",
 		"config/hotaGameBalance/dungeon/arlach.json",
@@ -81,12 +75,11 @@
 		"config/hotaGameBalance/dungeon/mutareDrake.json",
 		"config/hotaGameBalance/dungeon/shakti.json",
 		"config/hotaGameBalance/dungeon/synca.json",
-
 		"config/hotaGameBalance/factory/agar.json",
 		"config/hotaGameBalance/factory/celestine.json",
 		"config/hotaGameBalance/factory/eanswythe.json",
 		"config/hotaGameBalance/factory/floribert.json",
-		"config/hotaGameBalance/factory/frederick.json", // Frederick only has a placeholder specialty
+		"config/hotaGameBalance/factory/frederick.json",
 		"config/hotaGameBalance/factory/henrietta.json",
 		"config/hotaGameBalance/factory/morton.json",
 		"config/hotaGameBalance/factory/sam.json",
@@ -97,7 +90,6 @@
 		"config/hotaGameBalance/factory/victoria.json",
 		"config/hotaGameBalance/factory/wrathmont.json",
 		"config/hotaGameBalance/factory/ziph.json",
-
 		"config/hotaGameBalance/fortress/adrienne.json",
 		"config/hotaGameBalance/fortress/alkin.json",
 		"config/hotaGameBalance/fortress/areshak.json",
@@ -111,7 +103,6 @@
 		"config/hotaGameBalance/fortress/mirlanda.json",
 		"config/hotaGameBalance/fortress/verdish.json",
 		"config/hotaGameBalance/fortress/wystan.json",
-
 		"config/hotaGameBalance/inferno/ash.json",
 		"config/hotaGameBalance/inferno/calh.json",
 		"config/hotaGameBalance/inferno/fiona.json",
@@ -126,7 +117,6 @@
 		"config/hotaGameBalance/inferno/xarfax.json",
 		"config/hotaGameBalance/inferno/xeron.json",
 		"config/hotaGameBalance/inferno/xyron.json",
-
 		"config/hotaGameBalance/necropolis/aislinn.json",
 		"config/hotaGameBalance/necropolis/boyd.json",
 		"config/hotaGameBalance/necropolis/charna.json",
@@ -140,17 +130,14 @@
 		"config/hotaGameBalance/necropolis/thant.json",
 		"config/hotaGameBalance/necropolis/vokial.json",
 		"config/hotaGameBalance/necropolis/xsi.json",
-
 		"config/hotaGameBalance/rampart/aeris.json",
 		"config/hotaGameBalance/rampart/alagar.json",
 		"config/hotaGameBalance/rampart/clancy.json",
-		//	"config/hotaGameBalance/rampart/coronius.json",
 		"config/hotaGameBalance/rampart/gem.json",
 		"config/hotaGameBalance/rampart/ivor.json",
 		"config/hotaGameBalance/rampart/ryland.json",
 		"config/hotaGameBalance/rampart/ufretin.json",
-		"config/hotaGameBalance/rampart/uland.json", // specialty not changed yet (cure)
-
+		"config/hotaGameBalance/rampart/uland.json",
 		"config/hotaGameBalance/stronghold/boragus.json",
 		"config/hotaGameBalance/stronghold/gretchin.json",
 		"config/hotaGameBalance/stronghold/gruezak.json",
@@ -165,7 +152,6 @@
 		"config/hotaGameBalance/stronghold/yog.json",
 		"config/hotaGameBalance/stronghold/zog.json",
 		"config/hotaGameBalance/stronghold/zubin.json",
-
 		"config/hotaGameBalance/tower/astral.json",
 		"config/hotaGameBalance/tower/cyra.json",
 		"config/hotaGameBalance/tower/fafner.json",
@@ -227,11 +213,40 @@
 		]
 	},
 	"japanese" : {
-		// Placeholder name+description, should be translated
 		"name" : "Heroes",
 		"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"swedish" : {
+		"translations" : [
+			"translation/swedish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }

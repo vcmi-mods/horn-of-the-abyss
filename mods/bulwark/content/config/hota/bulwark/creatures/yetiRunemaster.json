@@ -36,7 +36,7 @@
 			"runeMaster" : {
 				"type" : "NONE",
 				"icon" : "hota/bulwark/bonuses/runeMaster",
-				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes\nShould the hero have mastered the lore of the Runes as well, the bonuses stack."
+				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes."
 			},
 
 			// runes functionality

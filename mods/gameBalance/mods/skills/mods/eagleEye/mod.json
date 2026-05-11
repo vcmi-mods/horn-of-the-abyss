@@ -5,11 +5,9 @@
 	"author" : "Kuririn, avatar, wnukos",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
 	"version" : "1.0",
-
 	"skills" : [
 		"config/hotaGameBalance/skills.json"
 	],
-
 	"chinese" : {
 		"name" : "鹰眼术",
 		"description" : "",
@@ -78,6 +76,26 @@
 		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"hungarian" : {
+		"translations" : [
+			"translation/hungarian.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"spanish" : {
+		"translations" : [
+			"translation/spanish.json"
+		]
+	},
+	"turkish" : {
+		"translations" : [
+			"translation/turkish.json"
 		]
 	}
 }
