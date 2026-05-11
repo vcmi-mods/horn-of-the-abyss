@@ -1,0 +1,45 @@
+name: Add new language to translation
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Identifier of language to add (lower-case)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    name: Generate translation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+          submodules: false
+
+      - name: Install jstyleson
+        run: pip3 install jstyleson
+
+      - name: Add Translation
+        run: |
+          python3 .github/add_translations.py --root . --lang '${{ inputs.language }}'
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: generate-translation-${{ inputs.language }}
+          base: ${{ github.ref_name }}
+          commit-message: "Added translation files for ${{ inputs.language }}"
+          title: "Added translation files for ${{ inputs.language }}"
+          body: |
+            This PR adds empty translation files to initialize translation to ${{ inputs.language }}.
+          delete-branch: true
