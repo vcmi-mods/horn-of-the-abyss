@@ -1002,5 +1002,11 @@
 	"creatures.hota.bulwark.argali.name.plural": "Архари",
 	"creatures.hota.bulwark.argali.name.singular": "Архар",
 	"creatures.hota.bulwark.grandshaman.name.plural": "Великі Шамани",
-	"creatures.hota.bulwark.grandshaman.name.singular": "Великий Шаман"
+	"creatures.hota.bulwark.grandshaman.name.singular": "Великий Шаман",
+	"creatures.hota.bulwark.jotunn.name.singular": "Йотун",
+	"creatures.hota.bulwark.jotunnWarlord.name.plural": "Йотун Воєводи",
+	"creatures.hota.bulwark.jotunnWarlord.name.singular": "Йотун Воєвода",
+	"creatures.hota.bulwark.jotunn.name.plural": "Йотуни",
+	"creatures.hota.bulwark.kobold.name.plural": "Кобольди",
+	"creatures.hota.bulwark.kobold.name.singular": "Кобольд"
 }
