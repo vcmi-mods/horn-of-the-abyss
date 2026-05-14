@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Zmniejszenie szczęścia wroga}\nArcydiabły zmniejszają szczęście wroga o 2",
+	"creatures.core.devil.bonus.decreaseLuck": "{Zmniejszenie szczęścia wroga}\nDiabły zmniejszają szczęście wroga o 1"
+}

@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.hota.cove.seadog.bonus.accurateShotFullRange": "{Snajperski strzał}\nMa 3% szans na natychmiastowe zabicie pojedynczej żywej istoty",
+	"creatures.hota.cove.seadog.bonus.accurateShotHalfRange": "{Precyzyjny strzał}\nMa 2% szans na natychmiastowe zabicie pojedynczej żywej istoty"
+}
