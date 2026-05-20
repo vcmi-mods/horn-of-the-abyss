@@ -25,6 +25,7 @@
 		"translations" : [
 			"config/englishTextPolishing/artifactDescriptions.json",
 			"config/englishTextPolishing/gameTextChanges.json",
+			"config/englishTextPolishing/heroTexts.json",
 			"config/englishTextPolishing/objectDescriptions.json",
 			"config/englishTextPolishing/spellDescriptions.json"
 		]
