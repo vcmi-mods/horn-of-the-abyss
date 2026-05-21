@@ -1,10 +1,10 @@
 {
 	"name" : "Campaigns",
-	"description" : "This mod contains all new campaigns added by HotA Crew",
-	"modType" : "Compatibility",
-	"author" : "Ivan",
+	"description" : "This mod contains all official campaigns created by HotA Crew",
+	"modType" : "Campaigns",
+	"author" : "Hota Crew",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.2",
+	"version" : "1.0",
 	"compatibility" : {
 		"min" : "1.7"
 	},
@@ -15,87 +15,108 @@
 		"czech-translation",
 		"german-translation",
 		"polish-translation",
+		"french-translation",
 		"russian-translation"
 	],
 	"changelog" : {
-		"1.2" : [
-			"Added AI generated voice for Czech, English and German for all 5 campaigns",
-			"Added Polish voice for all 5 campaigns",
-			"Added Russian voice for first 3 campaigns"
-		],
-		"1.1" : [
-			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
-		],
 		"1.0" : [
-			"All official HotA 1.7.3 maps were added"
+			"All official HotA 1.7.3 campaigns were added"
 		]
 	},
 	"chinese" : {
+		"name" : "战役",
+		"description" : "此模组包含 HotA 团队制作的所有官方战役。",
 		"translations" : [
 			"translation/chinese.json"
 		]
 	},
 	"czech" : {
+		"name" : "Kampaně",
+		"description" : "Tato modifikace obsahuje všechny oficiální kampaně vytvořené týmem HotA",
 		"translations" : [
 			"translation/czech.json"
 		]
 	},
 	"french" : {
+		"name" : "Campagnes",
+		"description" : "Ce mod contient toutes les campagnes officielles créées par l'équipe HotA",
 		"translations" : [
 			"translation/french.json"
 		]
 	},
 	"german" : {
+		"name" : "Kampagnen",
+		"description" : "Diese Mod enthält alle offiziellen Kampagnen, die vom HotA-Team erstellt wurden.",
 		"translations" : [
 			"translation/german.json"
 		]
 	},
 	"latvian" : {
+		"name" : "Kampaņas",
+		"description" : "Šis mods satur visas oficiālās kampaņas, ko izveidojusi HotA Crew",
 		"translations" : [
 			"translation/latvian.json"
 		]
 	},
 	"polish" : {
+		"name" : "Kampanie",
+		"description" : "Mod zawiera wszystkie oficjalne kampanie stworzone przez HotA Crew",
 		"translations" : [
 			"translation/polish.json"
 		]
 	},
 	"portuguese" : {
+		"name" : "Campanhas",
+		"description" : "Este mod contém todas as campanhas oficiais criadas pela Equipe HotA",
 		"translations" : [
 			"translation/portuguese.json"
 		]
 	},
 	"russian" : {
+		"name" : "Кампании",
+		"description" : "Этот мод содержит все официальные кампании, созданные командой HotA Crew.",
 		"translations" : [
 			"translation/russian.json"
 		]
 	},
 	"hungarian" : {
+		"name" : "Kampányok",
+		"description" : "Ez a mod az összes hivatalos, a HotA Crew által készített kampányt tartalmazza",
 		"translations" : [
 			"translation/hungarian.json"
 		]
 	},
 	"japanese" : {
+		"name" : "キャンペーン",
+		"description" : "このModには、HotA Crew によって作成されたすべての公式キャンペーンが含まれています。",
 		"translations" : [
 			"translation/japanese.json"
 		]
 	},
 	"spanish" : {
+		"name" : "Campañas",
+		"description" : "Este mod contiene todas las campañas oficiales creadas por HotA Crew",
 		"translations" : [
 			"translation/spanish.json"
 		]
 	},
 	"swedish" : {
+		"name" : "Kampanjer",
+		"description" : "Denna mod innehåller alla officiella kampanjer skapade av HotA Crew",
 		"translations" : [
 			"translation/swedish.json"
 		]
 	},
 	"turkish" : {
+		"name" : "Senaryolar",
+		"description" : "Bu mod, HotA Crew tarafından oluşturulan tüm resmi senaryoları içerir",
 		"translations" : [
 			"translation/turkish.json"
 		]
 	},
 	"ukrainian" : {
+		"name" : "Кампанії",
+		"description" : "Цей мод містить усі офіційні кампанії, створені командою HotA Crew.",
 		"translations" : [
 			"translation/ukrainian.json"
 		]

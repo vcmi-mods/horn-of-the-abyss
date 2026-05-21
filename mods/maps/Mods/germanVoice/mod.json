@@ -9,7 +9,7 @@
 		"german-translation"
 	],
 	"softDepends" : [
-		"hota.maps"
+		"hota.maps.officialcampaigns"
 	],
 	"german" : {
 		"name" : "Deutsche Synchro (AI)",

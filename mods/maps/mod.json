@@ -1,23 +1,20 @@
 {
 	"name" : "Maps",
-	"description" : "This mod contains all new maps added by HotA Crew",
+	"description" : "This mod contains official HotA maps and campaigns, along with famous community-made maps.",
 	"modType" : "Maps",
-	"author" : "Ivan",
+	"author" : "Hota Crew",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.2",
+	"version" : "1.3",
 	"compatibility" : {
 		"min" : "1.7"
 	},
 	"depends" : [
 		"hota.mapsupport"
 	],
-	"softDepends" : [
-		"czech-translation",
-		"german-translation",
-		"polish-translation",
-		"russian-translation"
-	],
 	"changelog" : {
+		"1.3" : [
+			"Restructured the mod into Maps, Campaigns, and Famous Maps submods"
+		],
 		"1.2" : [
 			"Added AI generated voice for Czech, English and German for all 5 campaigns",
 			"Added Polish voice for all 5 campaigns",
@@ -32,88 +29,34 @@
 	},
 	"chinese" : {
 		"name" : "地图",
-		"description" : "这个模组包含HotA团队新增的所有新地图。",
-		"translations" : [
-			"translation/chinese.json"
-		]
+		"description" : "此模组包含官方 HotA 地图与战役，以及著名的社区制作地图。"
 	},
 	"czech" : {
 		"name" : "Mapy",
-		"description" : "Tato modifikace přidává veškeré nové mapy vytvořené týmem HotA",
-		"translations" : [
-			"translation/czech.json"
-		]
+		"description" : "Tato modifikace obsahuje oficiální mapy a kampaně HotA spolu se slavnými komunitními mapami."
 	},
 	"french" : {
 		"name" : "Cartes",
-		"description" : "Contient toutes les nouvelles cartes ajoutées par l'équipe HotA",
-		"translations" : [
-			"translation/french.json"
-		]
+		"description" : "Ce mod contient les cartes et campagnes officielles de HotA ainsi que des cartes communautaires célèbres."
 	},
 	"german" : {
 		"name" : "Neue Karten",
-		"description" : "Enthält alle Karten, die von HotA zum Spiel hinzugefügt wurden.",
-		"translations" : [
-			"translation/german.json"
-		]
+		"description" : "Diese Mod enthält offizielle HotA-Karten und Kampagnen sowie berühmte Community-Karten."
 	},
 	"latvian" : {
 		"name" : "Kartes",
-		"description" : "Satur visas jaunās kartes, ko pievienojusi HotA Crew",
-		"translations" : [
-			"translation/latvian.json"
-		]
+		"description" : "Šis mods satur oficiālās HotA kartes un kampaņas, kā arī slavenas kopienas veidotas kartes."
 	},
 	"polish" : {
 		"name" : "Mapy",
-		"description" : "Mod zawiera wszystkie nowe mapy dodane przez HotA Crew",
-		"translations" : [
-			"translation/polish.json"
-		]
+		"description" : "Mod zawiera oficjalne mapy i kampanie HotA oraz słynne mapy stworzone przez społeczność."
 	},
 	"portuguese" : {
 		"name" : "Mapas",
-		"description" : "Este mod contém todos os novos mapas adicionados pela Equipe HotA",
-		"translations" : [
-			"translation/portuguese.json"
-		]
+		"description" : "Este mod contém mapas e campanhas oficiais do HotA, além de famosos mapas criados pela comunidade."
 	},
 	"russian" : {
 		"name" : "Карты",
-		"description" : "Этот мод содержит все новые карты, добавленные командой HotA Crew.",
-		"translations" : [
-			"translation/russian.json"
-		]
-	},
-	"hungarian" : {
-		"translations" : [
-			"translation/hungarian.json"
-		]
-	},
-	"japanese" : {
-		"translations" : [
-			"translation/japanese.json"
-		]
-	},
-	"spanish" : {
-		"translations" : [
-			"translation/spanish.json"
-		]
-	},
-	"swedish" : {
-		"translations" : [
-			"translation/swedish.json"
-		]
-	},
-	"turkish" : {
-		"translations" : [
-			"translation/turkish.json"
-		]
-	},
-	"ukrainian" : {
-		"translations" : [
-			"translation/ukrainian.json"
-		]
+		"description" : "Этот мод содержит официальные карты и кампании HotA, а также известные карты, созданные сообществом."
 	}
 }

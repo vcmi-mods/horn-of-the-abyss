@@ -1,101 +1,118 @@
 {
 	"name" : "Maps",
-	"description" : "This mod contains all new maps added by HotA Crew",
-	"modType" : "Compatibility",
-	"author" : "Ivan",
+	"description" : "This mod contains all official maps created by HotA Crew",
+	"modType" : "Maps",
+	"author" : "Hota Crew",
 	"contact" : "https://forum.vcmi.eu/",
-	"version" : "1.2",
+	"version" : "1.1",
 	"compatibility" : {
 		"min" : "1.7"
 	},
 	"depends" : [
 		"hota.mapsupport"
 	],
-	"softDepends" : [
-		"czech-translation",
-		"german-translation",
-		"polish-translation",
-		"russian-translation"
-	],
 	"changelog" : {
-		"1.2" : [
-			"Added AI generated voice for Czech, English and German for all 5 campaigns",
-			"Added Polish voice for all 5 campaigns",
-			"Added Russian voice for first 3 campaigns"
-		],
 		"1.1" : [
-			"Famous Mysterious Island map v1.4n added as it's latest playable in VCMI at the moment"
+			"All official HotA 1.8.0 maps were added"
 		],
 		"1.0" : [
 			"All official HotA 1.7.3 maps were added"
 		]
 	},
 	"chinese" : {
+		"name" : "地图",
+		"description" : "此模组包含 HotA 团队制作的所有官方地图。",
 		"translations" : [
 			"translation/chinese.json"
 		]
 	},
 	"czech" : {
+		"name" : "Mapy",
+		"description" : "Tato modifikace obsahuje všechny oficiální mapy vytvořené týmem HotA",
 		"translations" : [
 			"translation/czech.json"
 		]
 	},
 	"french" : {
+		"name" : "Cartes",
+		"description" : "Ce mod contient toutes les cartes officielles créées par l'équipe HotA",
 		"translations" : [
 			"translation/french.json"
 		]
 	},
 	"german" : {
+		"name" : "Karten",
+		"description" : "Diese Mod enthält alle offiziellen Karten, die vom HotA-Team erstellt wurden.",
 		"translations" : [
 			"translation/german.json"
 		]
 	},
 	"latvian" : {
+		"name" : "Kartes",
+		"description" : "Šis mods satur visas oficiālās kartes, ko izveidojusi HotA Crew",
 		"translations" : [
 			"translation/latvian.json"
 		]
 	},
 	"polish" : {
+		"name" : "Mapy",
+		"description" : "Mod zawiera wszystkie oficjalne mapy stworzone przez HotA Crew",
 		"translations" : [
 			"translation/polish.json"
 		]
 	},
 	"portuguese" : {
+		"name" : "Mapas",
+		"description" : "Este mod contém todos os mapas oficiais criados pela Equipe HotA",
 		"translations" : [
 			"translation/portuguese.json"
 		]
 	},
 	"russian" : {
+		"name" : "Карты",
+		"description" : "Этот мод содержит все официальные карты, созданные командой HotA Crew.",
 		"translations" : [
 			"translation/russian.json"
 		]
 	},
 	"hungarian" : {
+		"name" : "Térképek",
+		"description" : "Ez a mod az összes hivatalos, a HotA Crew által készített pályát tartalmazza",
 		"translations" : [
 			"translation/hungarian.json"
 		]
 	},
 	"japanese" : {
+		"name" : "マップ",
+		"description" : "このModには、HotA Crew によって作成されたすべての公式マップが含まれています。",
 		"translations" : [
 			"translation/japanese.json"
 		]
 	},
 	"spanish" : {
+		"name" : "Mapas",
+		"description" : "Este mod contiene todos los mapas oficiales creados por HotA Crew",
 		"translations" : [
 			"translation/spanish.json"
 		]
 	},
 	"swedish" : {
+		"name" : "Kartor",
+		"description" : "Denna mod innehåller alla officiella kartor skapade av HotA Crew",
 		"translations" : [
 			"translation/swedish.json"
 		]
 	},
 	"turkish" : {
+		"name" : "Haritalar",
+		"description" : "Bu mod, HotA Crew tarafından oluşturulan tüm resmi haritaları içerir",
 		"translations" : [
 			"translation/turkish.json"
 		]
 	},
 	"ukrainian" : {
+		"name" : "Мапи",
+		"description" : "Цей мод містить усі офіційні мапи, створені командою HotA Crew.",
 		"translations" : [
 			"translation/ukrainian.json"
 		]
