@@ -9,6 +9,6 @@
 		"czech-translation"
 	],
 	"softDepends" : [
-		"hota.maps"
+		"hota.maps.officialcampaigns"
 	]
 }

@@ -1,5 +1,5 @@
 {
-	"skill.core.pathfinding.description.advanced" : "{Advanced Pathfinding}\n\nAdvanced Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 50% to a minimum cost of 90%.",
-	"skill.core.pathfinding.description.basic" : "{Basic Pathfinding}\n\nBasic Pathfinding reduces the movement penalty for rough terrain, reducing the cost of moving by 25% to a minimum cost of 95%.",
-	"skill.core.pathfinding.description.expert" : "{Expert Pathfinding}\n\nExpert Pathfinding removes the movement penalty for rough terrain, reducing the cost of moving by 75% to a minimum cost of 85%."
+	"skill.core.pathfinding.description.advanced": "{Zaawansowane znajdowanie drogi}\n\nZaawansowane znajdowanie drogi zmniejsza karę ruchu w trudnym terenie o 50% do minimalnego kosztu 90%.",
+	"skill.core.pathfinding.description.basic": "{Podstawowe znajdowanie drogi}\n\nPodstawowe znajdowanie drogi zmniejsza karę ruchu w trudnym terenie o 25% do minimalnego kosztu 95%.",
+	"skill.core.pathfinding.description.expert": "{Mistrzowskie namierzanie ścieżki}\n\nMistrzowskie namierzanie ścieżki zmniejsza karę ruchu w trudnym terenie o 75% do minimalnego kosztu 85%."
 }

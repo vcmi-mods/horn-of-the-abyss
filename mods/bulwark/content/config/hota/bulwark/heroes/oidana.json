@@ -36,14 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"diplomacy" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SURRENDER_DISCOUNT",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE"
-				}
-			}
+			"secondary" : "diplomacy"
 		},
 		"texts" : {
 			"name" : "Oidana",

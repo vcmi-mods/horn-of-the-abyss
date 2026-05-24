@@ -1257,7 +1257,7 @@
 	"spell.hota.factory.sandVigour.description.advanced": "nicht angezeigt",
 	"spell.hota.factory.sandVigour.description.basic": "nicht angezeigt",
 	"spell.hota.factory.sandVigour.description.expert": "nicht angezeigt",
-	"spell.hota.factory.sandVigour.description.none": "Sandwurmkraft,",
+	"spell.hota.factory.sandVigour.description.none": "Sandwurmkraft.",
 	"spell.hota.factory.sandVigour.name": "Sandwurmkraft",
 	"spell.hota.factory.sandephemeral.description.advanced": "IMMOLATION DAMAGE",
 	"spell.hota.factory.sandephemeral.description.basic": "IMMOLATION DAMAGE",
@@ -1351,5 +1351,7 @@
 	"mapObject.hota.supplementary.windGenerator.windGenerator.rewards.6": "{Windturbine}\n\nEine Windturbine ist eine komplexe Vorrichtung, die Windenergie zur Stromerzeugung nutzt. Die Nutzung von Windenergie zur Stromerzeugung kann Ihre Produktionseffizienz erheblich steigern.",
 	"object.hota.supplementary.kangaroo.name": "Känguru",
 	"object.hota.supplementary.lightningRod.name": "Blitzgenerator",
-	"object.hota.supplementary.windGenerator.name": "Windturbine"
+	"object.hota.supplementary.windGenerator.name": "Windturbine",
+	"creatures.hota.bulwark.grandshaman.name.plural": "Großschamanen",
+	"creatures.hota.bulwark.grandshaman.name.singular": "Großschamane"
 }

@@ -5,6 +5,7 @@
 			"nagaBank" : {
 				"rewards" : [
 					{
+						"message" : 34,
 						"appearChance" : {
 							"min" : 0,
 							"max" : 30
@@ -39,6 +40,7 @@
 						}
 					},
 					{
+						"message" : 34,
 						"appearChance" : {
 							"min" : 30,
 							"max" : 60
@@ -73,6 +75,7 @@
 						}
 					},
 					{
+						"message" : 34,
 						"appearChance" : {
 							"min" : 60,
 							"max" : 90
@@ -107,6 +110,7 @@
 						}
 					},
 					{
+						"message" : 34,
 						"appearChance" : {
 							"min" : 90,
 							"max" : 100
