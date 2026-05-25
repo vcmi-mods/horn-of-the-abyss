@@ -39,7 +39,6 @@
 		"allowedTerrains" : [],
 		"animation" : "fieldsOfGlory/obstacles/ob_fg003.def",
 		"absolute" : false,
-		"foreground" : true,
 		"width" : 6,
 		"height" : 3,
 		"blockedTiles" : [
