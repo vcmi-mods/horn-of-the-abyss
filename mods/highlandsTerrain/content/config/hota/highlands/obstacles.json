@@ -10,7 +10,8 @@
 			2,
 			-15
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD00.def"
+		"animation" : "hota/highlands/obstacles/ObHLD00.def",
+		"foreground" : true
 	},
 	"hotaHLD01" : {
 		"allowedTerrains" : [
@@ -23,7 +24,8 @@
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD01.def"
+		"animation" : "hota/highlands/obstacles/ObHLD01.def",
+		"foreground" : true
 	},
 	"hotaHLD02" : {
 		"allowedTerrains" : [
@@ -35,7 +37,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD02.def"
+		"animation" : "hota/highlands/obstacles/ObHLD02.def",
+		"foreground" : true
 	},
 	"hotaHLD03" : {
 		"allowedTerrains" : [
@@ -47,7 +50,8 @@
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD03.def"
+		"animation" : "hota/highlands/obstacles/ObHLD03.def",
+		"foreground" : true
 	},
 	"hotaHLD04" : {
 		"allowedTerrains" : [
@@ -59,7 +63,8 @@
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD04.def"
+		"animation" : "hota/highlands/obstacles/ObHLD04.def",
+		"foreground" : true
 	},
 	"hotaHLD05" : {
 		"allowedTerrains" : [
@@ -71,7 +76,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD05.def"
+		"animation" : "hota/highlands/obstacles/ObHLD05.def",
+		"foreground" : true
 	},
 	"hotaHLD06" : {
 		"allowedTerrains" : [
@@ -83,7 +89,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD06.def"
+		"animation" : "hota/highlands/obstacles/ObHLD06.def",
+		"foreground" : true
 	},
 	"hotaHLD07" : {
 		"allowedTerrains" : [
@@ -95,7 +102,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD07.def"
+		"animation" : "hota/highlands/obstacles/ObHLD07.def",
+		"foreground" : true
 	},
 	"hotaHLD08" : {
 		"allowedTerrains" : [
@@ -107,7 +115,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD08.def"
+		"animation" : "hota/highlands/obstacles/ObHLD08.def",
+		"foreground" : true
 	},
 	"hotaHLD09" : {
 		"allowedTerrains" : [
@@ -119,7 +128,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD09.def"
+		"animation" : "hota/highlands/obstacles/ObHLD09.def",
+		"foreground" : true
 	},
 	"hotaHLD10" : {
 		"allowedTerrains" : [
@@ -131,7 +141,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD10.def"
+		"animation" : "hota/highlands/obstacles/ObHLD10.def",
+		"foreground" : true
 	},
 	"hotaHLD11" : {
 		"allowedTerrains" : [
@@ -143,7 +154,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD11.def"
+		"animation" : "hota/highlands/obstacles/ObHLD11.def",
+		"foreground" : true
 	},
 	"hotaHLD12" : {
 		"allowedTerrains" : [
@@ -155,7 +167,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD12.def"
+		"animation" : "hota/highlands/obstacles/ObHLD12.def",
+		"foreground" : true
 	},
 	"hotaHLD13" : {
 		"allowedTerrains" : [
@@ -167,7 +180,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD13.def"
+		"animation" : "hota/highlands/obstacles/ObHLD13.def",
+		"foreground" : true
 	},
 	"hotaHLD14" : {
 		"allowedTerrains" : [
@@ -185,7 +199,8 @@
 			3,
 			4
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD14.def"
+		"animation" : "hota/highlands/obstacles/ObHLD14.def",
+		"foreground" : true
 	},
 	"hotaHLD15" : {
 		"allowedTerrains" : [
@@ -281,6 +296,7 @@
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD19.def"
+		"animation" : "hota/highlands/obstacles/ObHLD19.def",
+		"foreground" : true
 	}
 }

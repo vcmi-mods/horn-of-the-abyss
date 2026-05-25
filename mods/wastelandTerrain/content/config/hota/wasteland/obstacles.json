@@ -8,7 +8,8 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD00"
+		"animation" : "hota/wasteland/obstacles/ObWLD00",
+		"foreground" : true
 	},
 	"hotaWLD01" : {
 		"allowedTerrains" : [
@@ -19,7 +20,8 @@
 		"blockedTiles" : [
 			-16
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD01"
+		"animation" : "hota/wasteland/obstacles/ObWLD01",
+		"foreground" : true
 	},
 	"hotaWLD02" : {
 		"allowedTerrains" : [
@@ -32,7 +34,8 @@
 			1,
 			2
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD02"
+		"animation" : "hota/wasteland/obstacles/ObWLD02",
+		"foreground" : true
 	},
 	"hotaWLD03" : {
 		"allowedTerrains" : [
@@ -44,7 +47,8 @@
 			1,
 			2
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD03"
+		"animation" : "hota/wasteland/obstacles/ObWLD03",
+		"foreground" : true
 	},
 	"hotaWLD04" : {
 		"allowedTerrains" : [
@@ -55,7 +59,8 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD04"
+		"animation" : "hota/wasteland/obstacles/ObWLD04",
+		"foreground" : true
 	},
 	"hotaWLD05" : {
 		"allowedTerrains" : [
@@ -66,7 +71,8 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD05"
+		"animation" : "hota/wasteland/obstacles/ObWLD05",
+		"foreground" : true
 	},
 	"hotaWLD06" : {
 		"allowedTerrains" : [
@@ -77,7 +83,8 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD06"
+		"animation" : "hota/wasteland/obstacles/ObWLD06",
+		"foreground" : true
 	},
 	"hotaWLD07" : {
 		"allowedTerrains" : [
@@ -88,7 +95,8 @@
 		"blockedTiles" : [
 			-15
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD07"
+		"animation" : "hota/wasteland/obstacles/ObWLD07",
+		"foreground" : true
 	},
 	"hotaWLD08" : {
 		"allowedTerrains" : [
@@ -101,7 +109,8 @@
 			-15,
 			-14
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD08"
+		"animation" : "hota/wasteland/obstacles/ObWLD08",
+		"foreground" : true
 	},
 	"hotaWLD09" : {
 		"allowedTerrains" : [
@@ -114,7 +123,8 @@
 			-15,
 			-14
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD09"
+		"animation" : "hota/wasteland/obstacles/ObWLD09",
+		"foreground" : true
 	},
 	"hotaWLD10" : {
 		"allowedTerrains" : [

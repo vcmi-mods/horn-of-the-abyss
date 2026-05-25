@@ -11,7 +11,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_du002" : {
 		"specialBattlefields" : [
@@ -27,7 +28,8 @@
 			1,
 			2,
 			3
-		]
+		],
+		"foreground" : true
 	},
 	"ob_du003" : {
 		"specialBattlefields" : [
@@ -41,7 +43,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : false
 	},
 	"ob_du004" : {
 		"specialBattlefields" : [
@@ -56,6 +59,7 @@
 			0,
 			1,
 			2
-		]
+		],
+		"foreground" : false
 	}
 }
