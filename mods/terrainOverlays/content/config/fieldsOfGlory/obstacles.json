@@ -30,7 +30,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_fg003" : {
 		"specialBattlefields" : [
@@ -39,7 +40,6 @@
 		"allowedTerrains" : [],
 		"animation" : "fieldsOfGlory/obstacles/ob_fg003.def",
 		"absolute" : false,
-		"foreground" : true,
 		"width" : 6,
 		"height" : 3,
 		"blockedTiles" : [
@@ -49,7 +49,8 @@
 			3,
 			-13,
 			-12
-		]
+		],
+		"foreground" : true
 	},
 	"ob_fg004" : {
 		"specialBattlefields" : [
@@ -62,7 +63,8 @@
 		"height" : 2,
 		"blockedTiles" : [
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_fg005" : {
 		"specialBattlefields" : [
@@ -76,7 +78,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_fg006" : {
 		"specialBattlefields" : [
@@ -91,6 +94,7 @@
 			1,
 			2,
 			-16
-		]
+		],
+		"foreground" : true
 	}
 }
