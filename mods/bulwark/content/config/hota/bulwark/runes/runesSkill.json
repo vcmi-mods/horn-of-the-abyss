@@ -1,6 +1,10 @@
 {
 	"runes" : {
 		"name" : "Runes",
+		"tags" : {
+			"bannedForWitchHut" : true,
+			"bannedForUniversity" : true
+		},
 		"gainChance" : {
 			"might" : 0,
 			"magic" : 0

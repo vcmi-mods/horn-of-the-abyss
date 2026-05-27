@@ -83,10 +83,7 @@
 		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
 		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
 		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json",
-		"config/hota/bulwark/runes/mapObjects/hermitsShack.json",
-		"config/hota/bulwark/runes/mapObjects/seafaringAcademy.json",
-		"config/hota/bulwark/runes/mapObjects/university.json",
-		"config/hota/bulwark/runes/mapObjects/witchHut.json"
+		"config/hota/bulwark/runes/hermitsShackReward.json"
 	],
 	"biomes" : [
 		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
