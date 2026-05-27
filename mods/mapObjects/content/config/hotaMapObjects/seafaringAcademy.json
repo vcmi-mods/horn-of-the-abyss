@@ -13,7 +13,7 @@
 					{
 						"noneOf" : [
 							{
-								"tag" : "bannedForWitchHut"
+								"tag" : "bannedForUniversity"
 							}
 						]
 					},
