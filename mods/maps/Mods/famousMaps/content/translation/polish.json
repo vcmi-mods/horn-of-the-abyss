@@ -422,5 +422,7 @@
 	"map.[hota] a gambling place.town.96.10.0.event.0.description": "2",
 	"map.[hota] a gambling place.town.96.10.0.name": "Wuxia Coffin",
 	"map.[hota] a gambling place.town.98.118.0.name": "Bottle Mountai",
-	"map.[hota] element land.event.0.description": "\"Przynoszę wieści z innych królestw, mój panie. Ich przywódcy nie zdążyli uciec, nim czarodziej rzucił na nich zaklęcie, tym samym doprowadzając ich wszystkich do szaleństwa wynikłego z żądzy krwi! Wszyscy wypowiedzieli nam wojnę! Musimy przygotować nasze garnizony na nadchodzącą inwazję. Wielu naszych legendarnych bohaterów jest gdzieś w podróży, musimy ich odnaleźć, zanim i oni zostaną otruci przeciwko nam.\""
+	"map.[hota] element land.event.0.description": "\"Przynoszę wieści z innych królestw, mój panie. Ich przywódcy nie zdążyli uciec, nim czarodziej rzucił na nich zaklęcie, tym samym doprowadzając ich wszystkich do szaleństwa wynikłego z żądzy krwi! Wszyscy wypowiedzieli nam wojnę! Musimy przygotować nasze garnizony na nadchodzącą inwazję. Wielu naszych legendarnych bohaterów jest gdzieś w podróży, musimy ich odnaleźć, zanim i oni zostaną otruci przeciwko nam.\"",
+	"map.[hota] element land.event.1.description": "„Mój panie, nasi zwiadowcy donoszą, że zły czarodziej schronił się w tajnej podziemnej kryjówce. Powinniśmy go wytropić i zabić, zanim zdoła zgromadzić więcej mocy i powrócić, by nas dobić. Wierzymy, że jego siła życiowa jest związana z purpurowym imperium - zdobycie wszystkich i zamków może również go unicestwić.\"",
+	"map.[hota] element land.event.11.description": "Prości ludzie zbierają, co mogą, by wesprzeć waszą kampanię."
 }
