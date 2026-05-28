@@ -12,12 +12,16 @@
 					"navigation",
 					{
 						"noneOf" : [
-							"necromancy"
+							{
+								"tag" : "bannedForUniversity"
+							}
 						]
 					},
 					{
 						"noneOf" : [
-							"necromancy"
+							{
+								"tag" : "bannedForUniversity"
+							}
 						]
 					}
 				],
