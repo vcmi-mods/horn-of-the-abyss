@@ -43,7 +43,7 @@
 			"biography" : "Many believe that Kynr is not a name, but rather a rank or title, because Kynr has always been among kobolds. Whenever disaster strikes the mines, and tunnels collapse, it is Kynr who leads the rescue parties. At his call, every kobold immediately suspends their dealings and obeys without question, knowing full well that lives are at stake.",
 			"specialty" : {
 				"name" : "Kobolds",
-				"description" : "Increases the Speed of allied Kobolds and Kobold Foremen by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"description" : "Increases the Speed of any Kobolds or Kobold Foremen by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip" : "Creature Bonus: Kobolds"
 			}
 		}

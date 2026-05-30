@@ -9,7 +9,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Sandworms",
 				"name" : "Sandworms",
-				"description" : "Increases the Speed of allied Sandworms and Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
+				"description" : "Increases the Speed of any Sandworms or Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)."
 			}
 		},
 

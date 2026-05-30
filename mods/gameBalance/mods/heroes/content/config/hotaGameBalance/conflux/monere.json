@@ -8,7 +8,7 @@
 		"texts" : {
 			"specialty" : {
 				"name" : "Psychic Elem.",
-				"description" : "Increases allied Psychic Elementals' and Magic Elementals' Attack and Defense by 5."
+				"description" : "Psychic Elementals and Magic Elementals receive +5 Attack and +5 Defense."
 			}
 		}
 	}

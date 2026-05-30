@@ -47,7 +47,7 @@
 			"specialty" : {
 				"name" : "Sorcery",
 				"description" : "Receives a 5% per level bonus to Sorcery skill percentage.",
-				"tooltip" : "Skill Bonus: Sorcery"
+				"tooltip" : "Secondary Skill Bonus: Sorcery"
 			}
 		}
 	}

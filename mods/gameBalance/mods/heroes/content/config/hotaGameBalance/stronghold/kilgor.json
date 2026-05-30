@@ -12,7 +12,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases allied Behemoths and Ancient Behemoths' Attack, Defense, and Damage by 10."
+				"description" : "Increases Behemoths or Ancient Behemoths Attack, Defense, and Damage by 10."
 			}
 		}
 	}

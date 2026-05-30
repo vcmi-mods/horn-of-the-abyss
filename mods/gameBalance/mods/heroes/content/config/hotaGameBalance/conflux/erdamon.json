@@ -12,7 +12,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases allied Earth Elementals and Magma Elementals' Attack by 3, Defense by 2, and Damage by 5.",
+				"description" : "Earth Elementals and Magma Elementals receive +3 Attack, +2 Defense, and +5 Damage.",
 				"name" : "Earth Elem."
 			}
 		}

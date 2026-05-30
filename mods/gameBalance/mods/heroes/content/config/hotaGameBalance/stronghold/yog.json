@@ -2,7 +2,7 @@
 	"core:yog" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Cyclopes and Cyclops Kings by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+				"description" : "Increases the Speed of any Cyclopes or Cyclops Kings by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		}
 	}

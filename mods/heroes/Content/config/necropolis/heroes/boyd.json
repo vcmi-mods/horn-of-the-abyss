@@ -47,8 +47,8 @@
 			"biography" : "All scary stories feature a horseman who had been hanged, stabbed or even beheaded and now rides by night, intending to exact revenge on his killers. Nonsense, a necromancer would say, a dead man risen by himself cannot have memory or will. It may well be so, but then Boyd has scores to settle not only with the traitor who slayed him, but also with the one who denied him rest in peace.",
 			"specialty" : {
 				"name" : "Skeletons",
-				"tooltip" : "Creature Bonus: Skeleton",
-				"description" : "Increases the speed of Skeletons or Skeleton Warriors by 1 and their Attack and Defense skills for each level attained after 1st level."
+				"tooltip" : "Creature Bonus: Skeletons",
+				"description" : "Increases the Speed of any Skeletons or Skeleton Warriors by 1 and their Attack and Defense skills by 5% for every level (rounded up)."
 			}
 		}
 	}

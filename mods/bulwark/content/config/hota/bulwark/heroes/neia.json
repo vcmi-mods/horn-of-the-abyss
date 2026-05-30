@@ -40,7 +40,7 @@
 			"specialty" : {
 				"name" : "Archery",
 				"description" : "Receives a 5% per level bonus to Archery skill percentage.",
-				"tooltip" : "Skill Bonus: Archery"
+				"tooltip" : "Secondary Skill Bonus: Archery"
 			}
 		}
 	}

@@ -44,7 +44,7 @@
 			"specialty" : {
 				"name" : "Diplomacy",
 				"description" : "Receives a 5% per level bonus to Diplomacy skill percentage when surrendering.",
-				"tooltip" : "Skill Bonus: Diplomacy"
+				"tooltip" : "Secondary Skill Bonus: Diplomacy"
 			}
 		}
 	}

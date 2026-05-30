@@ -2,7 +2,7 @@
 	"core:vey" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Ogres and Ogre Magi by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+				"description" : "Increases the Speed of any Ogres or Ogre Magi by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
 			}
 		}
 	}

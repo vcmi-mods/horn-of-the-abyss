@@ -2,7 +2,7 @@
 	"core:clancy" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Unicorns and War Unicorns by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+				"description" : "Increases the Speed of any Unicorns or War Unicorns by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 {
 	"freezingShot" : {
-		"name" : "Freezing Shot",
+		"name" : "Freezing",
 		"type" : "ability",
 		"targetType" : "CREATURE",
 		"level" : 4,
