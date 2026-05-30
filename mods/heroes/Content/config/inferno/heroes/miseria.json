@@ -55,7 +55,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Resurrection",
 				"name" : "Resurrection",
-				"description" : "Casts Resurrection with increased effect, based on her level compared to the level of the target unit."
+				"description" : "Casts Resurrection with effect increased by 3% for every N hero levels, where N is the level of the target creature."
 			}
 		}
 	}

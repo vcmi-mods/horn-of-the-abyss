@@ -43,7 +43,7 @@
 			"biography" : "In Kilgor's army, everyone fights, from the chieftain himself to the lowliest pack-bearer, not to mention the cooks, whose managery spans not only over cauldrons, but also over huge butcher's cleavers. Should one take a close look at Gruezak, one would be surprized to find out he also possesses an array of combat skills hardly expected from a pan and ladle expert; but who on earth would want to scrutinize a run-of-the-mill cook, and an orc, to boot?",
 			"name" : "Gruezak",
 			"specialty" : {
-				"tooltip" : "Ballista specialist",
+				"tooltip" : "Artillery Bonus: Ballista",
 				"name" : "Ballista",
 				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
 			}
