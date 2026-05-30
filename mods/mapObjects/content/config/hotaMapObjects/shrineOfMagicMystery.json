@@ -8,7 +8,8 @@
 				"rmg" : {
 					"value" : 7000,
 					"rarity" : 100,
-					"zoneLimit" : 1
+					"zoneLimit" : 1,
+					"mapLimit" : 32
 				},
 				"visitMode" : "limiter",
 				"visitedTooltip" : 354,
