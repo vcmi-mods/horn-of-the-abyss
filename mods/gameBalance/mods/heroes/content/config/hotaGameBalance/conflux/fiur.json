@@ -13,7 +13,7 @@
 		"texts" : {
 			"specialty" : {
 				"name" : "Fire Elem.",
-				"description" : "Increases allied Fire Elementals and Energy Elementals' Attack by 3, Defense by 4, and their Damage by 2."
+				"description" : "Fire Elementals and Energy Elementals receive +3 Attack, +4 Defense, and +2 Damage."
 			}
 		}
 	}

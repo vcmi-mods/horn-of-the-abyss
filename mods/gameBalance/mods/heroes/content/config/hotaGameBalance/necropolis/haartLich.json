@@ -12,7 +12,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases allied Black Knights and Dread Knights' Attack, Defense, and Damage by 10."
+				"description" : "Increases Black Knights or Dread Knights Attack, Defense, and Damage by 10."
 			}
 		}
 	}

@@ -7,7 +7,7 @@
 			"name" : "Tancred",
 			"biography" : "Back in his alchemist days, Tancred discovered an ancient recipe for a concoction that exploded without the use of magic. To his great dismay, the crucial component - saltpeter - was nearly entirely absent from Antagarich. Only in Jadame did Tancred discover vast caves full of this rare element and perfect the design of the arquebus that hurls tiny bullets with awesome power.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Gunslingers and Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
+				"description" : "Increases the Speed of any Gunslingers or Bounty Hunters by 1 and their Attack and Defense skills by 5% for every 6 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Gunslingers",
 				"name" : "Gunslingers"
 			}

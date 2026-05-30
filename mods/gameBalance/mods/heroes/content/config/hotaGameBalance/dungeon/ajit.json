@@ -2,7 +2,7 @@
 	"core:ajit" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Beholders and Evil Eyes by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+				"description" : "Increases the Speed of any Beholders or Evil Eyes by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
 			}
 		}
 	}

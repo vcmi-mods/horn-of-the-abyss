@@ -55,7 +55,7 @@
 			"specialty" : {
 				"name" : "Pathfinding",
 				"description" : "Receives a 5% reduction to the cost of moving on rough terrain.",
-				"tooltip" : "Skill Bonus: Pathfinding"
+				"tooltip" : "Secondary Skill Bonus: Pathfinding"
 			}
 		}
 	}

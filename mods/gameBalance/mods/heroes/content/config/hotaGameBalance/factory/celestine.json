@@ -2,7 +2,7 @@
 	"hota.factory:11celestine" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Armadillos and Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
+				"description" : "Increases the Speed of any Armadillos or Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."
 			}
 		}
 	}
