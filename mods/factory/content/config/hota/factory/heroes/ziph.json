@@ -9,7 +9,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Lightning Bolt",
 				"name" : "Lightning Bolt",
-				"description" : "Casts Lightning Bolt with damage increased by 3% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Lightning Bolt with Damage increased by 3% for every N hero levels, where N is the level of the target creature."
 			}
 		},
 
