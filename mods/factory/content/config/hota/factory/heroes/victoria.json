@@ -9,7 +9,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Land Mine",
 				"name" : "Land Mine",
-				"description" : "Casts Land Mine with damage increased by 3% for every N hero levels, where N is the level of the creature stepping into the mine."
+				"description" : "Casts Land Mine with Damage increased by 10% for every N hero levels, where N is the level of the targeted creature."
 			}
 		},
 

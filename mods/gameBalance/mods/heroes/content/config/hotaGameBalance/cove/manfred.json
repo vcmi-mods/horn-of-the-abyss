@@ -9,7 +9,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts Fireball with damage increased by 10% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Fireball with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
 			}
 		}
 	}
