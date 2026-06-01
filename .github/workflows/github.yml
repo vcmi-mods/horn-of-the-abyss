@@ -49,6 +49,9 @@ jobs:
         run: |
           ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
 
+      - name: Install Mod Dependencies
+        run: python3 .github/install_mod_dependencies.py "$GITHUB_REF_NAME"
+
       - name: Export translations
         run: |
           if ! jq -e '.modType == "Translation"' mod.json >/dev/null; then
