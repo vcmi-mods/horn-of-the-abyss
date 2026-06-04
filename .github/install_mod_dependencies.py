@@ -7,6 +7,7 @@ import sys
 import urllib.request
 import zipfile
 import tempfile
+import jstyleson
 from pathlib import Path
 
 
@@ -30,7 +31,7 @@ def collect_dependencies(root: Path) -> set:
     deps = set()
     for mod_file in find_mod_json_files(root):
         with open(mod_file) as f:
-            data = json.load(f)
+            data = jstyleson.load(f)
         for dep in data.get("depends", []):
             deps.add(dep.split(".")[0])
     return deps
