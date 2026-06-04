@@ -39,7 +39,7 @@
 			"bonus6" : {
 				"type" : "LIFE_DRAIN",
 				"valueType" : "INDEPENDENT_MIN",
-				"value" : 0,
+				"val" : 0,
 				"propagator" : "BATTLE_WIDE"
 			}
 		},
