@@ -35,6 +35,12 @@
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
 				"propagator" : "BATTLE_WIDE"
+			},
+			"bonus6" : {
+				"type" : "LIFE_DRAIN",
+				"valueType" : "INDEPENDENT_MIN",
+				"value" : 0,
+				"propagator" : "BATTLE_WIDE"
 			}
 		},
 		"graphics" : {
