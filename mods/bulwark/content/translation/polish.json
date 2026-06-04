@@ -19,5 +19,6 @@
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6": "Premie za runę poziomu 6:\n+4 do ataku\n+4 do obrony\n+2 do szybkości",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7": "Premie za runę poziomu 7:\n+6 do ataku\n+4 do obrony\n+2 do szybkości",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8": "Premie za runę poziomu 8:\n+6 do ataku\n+6 do obrony\n+2 do szybkości",
-	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "Premie za runę poziomu 9:\n+6 do ataku\n+6 do obrony\n+3 do szybkości"
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "Premie za runę poziomu 9:\n+6 do ataku\n+6 do obrony\n+3 do szybkości",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0": "Runowładny yeti zdobywa poziomy Run w trakcie walki."
 }
