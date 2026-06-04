@@ -62,12 +62,14 @@ def download_and_install(dep_id: str, download_url: str, install_dir: Path) -> N
 
 
 def main() -> None:
-    branch = os.environ.get("GITHUB_REF_NAME", "vcmi-1.7")
+    if len(sys.argv) < 2:
+        print("Usage: install_mod_dependencies.py <branch> [install_dir] [root]", file=sys.stderr)
+        sys.exit(1)
+
+    branch = sys.argv[1]
     install_dir = Path.home() / ".local/share/vcmi/Mods"
     root = Path.cwd()
 
-    if len(sys.argv) > 1:
-        branch = sys.argv[1]
     if len(sys.argv) > 2:
         install_dir = Path(sys.argv[2])
     if len(sys.argv) > 3:
