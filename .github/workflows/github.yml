@@ -27,7 +27,7 @@ jobs:
 
       - name: Install VCMI
         run: sudo apt install vcmi
-
+        
       - name: Install H3 Data Placeholder
         run: |
           data_url="https://github.com/vcmi-mods/vcmi-test-data/releases/download/v2.0/heroes3.7z"
