@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.hota.cove.seadog.bonus.accurateShotFullRange": "{Teljes hatótávolságú pontos lövés}\n3%-os eséllyel azonnal megöl egy élő lényt",
+	"creatures.hota.cove.seadog.bonus.accurateShotHalfRange": "{Részleges hatávolságú pontos lövés}\n2% eséllyel azonnal megöl egy élő lényt"
+}
