@@ -10,9 +10,11 @@
 	"compatibility" : {
 		"min" : "1.8.0"
 	},
+	"depends" : [
+		"vcmi"
+	],
 	"objects" : [
-		"config/airship/airship.json",
-		"config/cursors.json"
+		"config/airship/airship.json"
 	],
 	"chinese" : {
 		"name" : "飞艇",
