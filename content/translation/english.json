@@ -1145,6 +1145,7 @@
 	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.name" : "Trailblazer",
 	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.onVisited" : "{Trailblazer}\n\n\"Hey, that's my tent. Better be sure it's not my fault we're running in circles,\" the trailblazer shrugs.",
 	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.rewards.0" : "{Trailblazer}\n\n\"I know these wastelands like the back of my hand. Even if I haven't been somewhere, I'll figure out how to find the way. I suppose I could tag along with you for a week if you need a hand,\" says the man in this tent.",
+	"object.hota.airship.airshipYard.name" : "Airship Yard",
 	"object.hota.bulwark.glacier.name" : "Glacier",
 	"object.hota.bulwark.trapperLodge.name" : "Trapper Lodge",
 	"object.hota.highlandsterrain.gazebo.name" : "Gazebo",
