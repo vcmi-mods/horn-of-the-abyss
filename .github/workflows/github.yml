@@ -19,16 +19,27 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Detect VCMI Version
+        run: |
+          BRANCH="${GITHUB_BASE_REF:-$GITHUB_REF_NAME}"
+          if [[ "$BRANCH" =~ ^vcmi-1\.[0-9]+(-.*)?$ ]]; then
+            echo "VCMI_VERSION=$BRANCH" >> $GITHUB_ENV
+          fi
+
       - name: Add VCMI PPA Repository
+        if: env.VCMI_VERSION != ''
         run: sudo add-apt-repository ppa:vcmi/vcmi-latest
 
       - name: Update Repository
+        if: env.VCMI_VERSION != ''
         run: sudo apt update
 
       - name: Install VCMI
-        run: sudo apt install vcmi
-        
+        if: env.VCMI_VERSION != ''
+        run: sudo apt install ${{ env.VCMI_VERSION }}
+
       - name: Install H3 Data Placeholder
+        if: env.VCMI_VERSION != ''
         run: |
           data_url="https://github.com/vcmi-mods/vcmi-test-data/releases/download/v2.0/heroes3.7z"
           wget "$data_url" -O heroes3.7z
@@ -37,6 +48,7 @@ jobs:
           7za x -o"$HOME/.local/share/vcmi/" heroes3.7z
 
       - name: Extract Mod Name
+        if: env.VCMI_VERSION != ''
         run: |
           MOD_NAME=$(basename ${{ github.repository }})
           # Hota mod name differs from repository name. Compensate
@@ -46,6 +58,7 @@ jobs:
           echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
 
       - name: Install Mod
+        if: env.VCMI_VERSION != ''
         run: |
           ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
 
@@ -53,9 +66,11 @@ jobs:
         run: pip install jstyleson
 
       - name: Install Mod Dependencies
-        run: python3 .github/install_mod_dependencies.py "${GITHUB_BASE_REF:-$GITHUB_REF_NAME}"
+        if: env.VCMI_VERSION != ''
+        run: python3 .github/install_mod_dependencies.py "${VCMI_VERSION}"
 
       - name: Export translations
+        if: env.VCMI_VERSION != ''
         run: |
           if ! jq -e '.modType == "Translation"' mod.json >/dev/null; then
             echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
@@ -64,6 +79,7 @@ jobs:
 
       - name: Check translations folder
         id: check
+        if: env.VCMI_VERSION != ''
         run: |
           DIR="$HOME/.cache/vcmi/extracted/translationFull/${{ env.MOD_NAME }}/"
           if [ -d "$DIR" ] && [ "$(ls -A "$DIR")" ]; then
@@ -81,6 +97,7 @@ jobs:
           retention-days: 1
 
       - name: Run VCMI
+        if: env.VCMI_VERSION != ''
         run: |
           echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
           vcmiserver --dummy-run 2> >(tee error.log)
