@@ -7,7 +7,7 @@
 			"name" : "Henrietta",
 			"biography" : "Even a humble halfling from the Eeofol backwoods is capable of a feat when an unprecedented calamity knocks at the door. The new world, devoid of thatched roofs, carrot beds, or the incessant grumbling of geezers, has changed Henrietta, and she is now ready to change it herself. Kreegan fire reduced her homeland to ashes and scorched her heart, but she used it to forge herself a steel will.",
 			"specialty" : {
-				"description" : "Increases the Speed of allied Halflings and Halfling Grenadiers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
+				"description" : "Increases the Speed of any Halflings or Halfling Grenadiers by 1 and their Attack and Defense skills by 5% for every level (rounded up).",
 				"tooltip" : "Creature Bonus: Halflings",
 				"name" : "Halflings"
 			}

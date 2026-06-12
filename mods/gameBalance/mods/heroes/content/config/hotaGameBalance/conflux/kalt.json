@@ -10,7 +10,7 @@
 		"texts" : {
 			"specialty" : {
 				"name" : "Water Elem.",
-				"description" : "Increases allied Water Elementals' and Ice Elementals' Attack by 12."
+				"description" : "Water Elementals and Ice Elementals receive +12 Attack."
 			}
 		}
 	}

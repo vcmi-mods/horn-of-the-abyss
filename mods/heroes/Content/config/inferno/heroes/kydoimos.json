@@ -62,7 +62,7 @@
 			"specialty" : {
 				"tooltip" : "Creature Bonus: Dragons",
 				"name" : "Dragons",
-				"description" : "All Dragons receive +5 Attack and +5 Defense."
+				"description" : "Increases all Dragons’ Attack and Defense by 5."
 			}
 		}
 	}

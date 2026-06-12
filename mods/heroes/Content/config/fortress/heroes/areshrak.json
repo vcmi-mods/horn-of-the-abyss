@@ -44,7 +44,7 @@
 			"biography" : "Areshrak is a lizardman from the Couatl Islands off the coast of Jadame, who is a subordinate of Pactal. Usurped control of breeding wyverns, gorgons and other creatures after betraying the former breeder, and he handles relations with the local flight of Rust Dragons.",
 			"name" : "Areshrak",
 			"specialty" : {
-				"tooltip" : "Ballista specialist",
+				"tooltip" : "Artillery Bonus: Ballista",
 				"name" : "Ballista",
 				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels (rounded up)."
 			}

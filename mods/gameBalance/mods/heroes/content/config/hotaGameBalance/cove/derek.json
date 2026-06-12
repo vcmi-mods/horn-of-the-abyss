@@ -2,7 +2,7 @@
 	"hota.cove:05derek" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Crew Mates and Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
+				"description" : "Increases the Speed of any Crew Mates or Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up)."
 			}
 		}
 	}

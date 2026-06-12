@@ -43,7 +43,7 @@
 			"specialty" : {
 				"name" : "Offense",
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
-				"tooltip" : "Skill Bonus: Offense"
+				"tooltip" : "Secondary Skill Bonus: Offense"
 			}
 		}
 	}

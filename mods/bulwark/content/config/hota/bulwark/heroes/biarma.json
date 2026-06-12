@@ -48,7 +48,7 @@
 			"specialty" : {
 				"name" : "First Aid",
 				"description" : "Receives a 5% per level bonus to First Aid skill.",
-				"tooltip" : "Skill Bonus: First Aid"
+				"tooltip" : "Secondary Skill Bonus: First Aid"
 			}
 		}
 	}

@@ -2,7 +2,7 @@
 	"hota.bulwark:05creyle" : {
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of allied Mammoths and War Mammoths by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
+				"description" : "Increases the Speed of any Mammoths or War Mammoths by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up)."
 			}
 		}
 	}

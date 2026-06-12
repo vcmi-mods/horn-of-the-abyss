@@ -9,7 +9,7 @@
 			"biography" : "Tavin might be the only halfling to have ever joined the army of Erathia. His kinsmen disapprove of his lifestyle as these creatures abhor adventure. However, they do respect Tavin, even if they are wary around him and tend to avoid his company. When Kreegans invaded Eeofol, Tavin quickly became a leader of local resistance; to this day he stands ready to defend his homeland.",
 			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offense skill percentage.",
-				"tooltip" : "Skill Bonus: Offense",
+				"tooltip" : "Secondary Skill Bonus: Offense",
 				"name" : "Offense"
 			}
 		},

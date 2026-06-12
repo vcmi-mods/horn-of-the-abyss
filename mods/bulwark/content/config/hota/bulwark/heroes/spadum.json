@@ -43,7 +43,7 @@
 			"biography" : "Spadum is not the strongest warrior or the most skilled hunter among the Yeti; still, his kin hold him in the highest regard. The answer as to why is simple: he is fluent in the languages of all races in Vori. This often helps him settle disputes over valuable land in favor of his people without the parties resorting to needless violence.",
 			"specialty" : {
 				"name" : "Yeti",
-				"description" : "Increases the Speed of allied Yeti and Yeti Runemasters by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
+				"description" : "Increases the Speed of any Yeti or Yeti Runemasters by 1 and their Attack and Defense skills by 5% for every 4 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Yeti"
 			}
 		}

@@ -43,7 +43,7 @@
 			"biography" : "The Jotunns are serious about celestial omens. Those born in the days when the Great Aries dominates the starry expanse know that their fates are forever intertwined with mountain rams, willful and awesomely brave. Ever since he learned to walk, Eikthurn has been fearlessly scaling mountain peaks in the company of his tough-horned friends, adamant in that they are the only ones incapable of betrayal.",
 			"specialty" : {
 				"name" : "Mountain Rams",
-				"description" : "Increases the Speed of allied Mountain Rams and Argali by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
+				"description" : "Increases the Speed of any Mountain Rams or Argali by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up).",
 				"tooltip" : "Creature Bonus: Mountain Rams"
 			}
 		}
