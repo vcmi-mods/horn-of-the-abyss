@@ -5,14 +5,14 @@
 		],
 		"base" : {
 			"effects" : {
-			//	"main" : {
-			//		"type" : "LEARN_BATTLE_SPELL_CHANCE",
-			//		"valueType" : "BASE_NUMBER"
-			//	},
-			//	"val2" : {
-			//		"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
-			//		"valueType" : "BASE_NUMBER"
-			//	}
+				//	"main" : {
+				//		"type" : "LEARN_BATTLE_SPELL_CHANCE",
+				//		"valueType" : "BASE_NUMBER"
+				//	},
+				//	"val2" : {
+				//		"type" : "LEARN_BATTLE_SPELL_LEVEL_LIMIT",
+				//		"valueType" : "BASE_NUMBER"
+				//	}
 				"preBattleChance" : {
 					"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
 					"valueType" : "BASE_NUMBER"

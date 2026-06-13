@@ -1,6 +1,5 @@
 {
-	"core:birdOfPerception":
-	{
+	"core:birdOfPerception" : {
 		"bonuses" : {
 			"eagleEye" : {
 				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
@@ -15,8 +14,7 @@
 			}
 		}
 	},
-	"core:stoicWatchman":
-	{
+	"core:stoicWatchman" : {
 		"bonuses" : {
 			"eagleEye" : {
 				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
@@ -31,8 +29,7 @@
 			}
 		}
 	},
-	"core:emblemOfCognizance":
-	{
+	"core:emblemOfCognizance" : {
 		"bonuses" : {
 			"eagleEye" : {
 				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
