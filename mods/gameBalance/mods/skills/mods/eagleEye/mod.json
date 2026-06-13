@@ -8,6 +8,9 @@
 	"skills" : [
 		"config/hotaGameBalance/skills.json"
 	],
+	"artifacts" : [
+		"config/hotaGameBalance/artifacts.json"
+	],
 	"chinese" : {
 		"name" : "鹰眼术",
 		"description" : "",
