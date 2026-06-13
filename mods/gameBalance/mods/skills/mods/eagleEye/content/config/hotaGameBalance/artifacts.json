@@ -1,0 +1,50 @@
+{
+	"core:birdOfPerception":
+	{
+		"bonuses" : {
+			"eagleEye" : {
+				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "eagleEye"
+					}
+				]
+			}
+		}
+	},
+	"core:stoicWatchman":
+	{
+		"bonuses" : {
+			"eagleEye" : {
+				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "eagleEye"
+					}
+				]
+			}
+		}
+	},
+	"core:emblemOfCognizance":
+	{
+		"bonuses" : {
+			"eagleEye" : {
+				"type" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LEARN_BATTLE_SPELL_CHANCE_PRE_BATTLE",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "eagleEye"
+					}
+				]
+			}
+		}
+	}
+}
