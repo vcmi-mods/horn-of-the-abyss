@@ -2365,5 +2365,14 @@
 	"map.h4fact:2.quest.82.99.0.completed": "Piraci wycofali się do swojej twierdzy. Część z nich, po usłyszeniu o upadku Dargema, wsiadła na statki i uciekła z wyspy.\n\nCzy chcesz ruszyć do fortecy?",
 	"map.h4fact:2.quest.82.99.0.firstVisit": "Ten posterunek jest strzeżony przez dużą bandę piratów. Być może część z nich ucieknie, jeśli pokonamy Dargema?",
 	"map.h4fact:2.quest.82.99.0.nextVisit": "Ten posterunek jest strzeżony przez dużą bandę piratów. Być może część z nich ucieknie, jeśli pokonamy Dargema?",
-	"map.h4fact:2.quest.96.90.0.completed": "Czy chcesz przyjąć ofertę trytona?"
+	"map.h4fact:2.quest.96.90.0.completed": "Czy chcesz przyjąć ofertę trytona?",
+	"map.h4fact:3.header.heroNames.173": "Ascalabus",
+	"map.h4fact:3.header.heroNames.196": "Henrietta",
+	"map.h4fact:3.header.heroNames.237": "Keio",
+	"map.h4fact:3.heroes.173.name": "Ascalabus",
+	"map.h4fact:3.heroes.196.name": "Henrietta",
+	"map.h4fact:3.heroes.237.name": "Keio",
+	"map.h4fact:2.quest.96.90.0.firstVisit": "Kierowany nieznanymi pobudkami, tryton pragnie spotkać się z Frederickiem, aby osobiście go wyszkolić.",
+	"map.h4fact:2.quest.96.90.0.nextVisit": "Kierowany nieznanymi pobudkami, tryton pragnie spotkać się z Frederickiem, aby osobiście go wyszkolić.",
+	"map.h4fact:3.quest.61.3.0.completed": "\"Smoki z Sal Iluzji... zostały zgładzone?\", zapytał licz, a w jego głosie pobrzmiewała nuta niedowierzania. \"Cóż...\" - gdyby tylko było to możliwe, że idealnie czysty czerep mógłby się uśmiechać, przysiągłbyś, że właśnie to zrobił - \"nie mam większych powodów, by ci nie wierzyć. Możesz przejść do portalu, a my się wycofamy. Od Trophona nie nadeszły żadne nowe rozkazy, a nam się nie uśmiecha pozostawanie tutaj z tym problemem na głowie.\n\nCzy chcesz przejść?"
 }
