@@ -1,1 +1,4 @@
-{}
+{
+	"building.core.dungeon.special2.description": "A mannaörvény hetente egyszer megduplázza egy ide látogató hős varázspontjainak számát.",
+	"building.core.necropolis.special2.description": "A nekromanciaerősítő 5%-kal növeli az összes, a játékos által irányított hős (akik rendelkeznek nekromancia képességgel) nekromancia képességét."
+}

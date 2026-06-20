@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.sorcery.description.advanced": "{Fejlett varázslás}\n\nA fejlett varázslás hatására a hős varázslatai harc közben további 20%-kal nagyobb kárt okoznak.",
+	"skill.core.sorcery.description.basic": "{Alap varázslás}\n\nAz alap varázslás hatására a hős varázslatai harc közben további 10%-kal nagyobb kárt okoznak.",
+	"skill.core.sorcery.description.expert": "{Szakértő varázslás}\n\nA szakértő varázslás hatására a hős varázslatai harc közben további 30%-kal nagyobb kárt okoznak."
+}
