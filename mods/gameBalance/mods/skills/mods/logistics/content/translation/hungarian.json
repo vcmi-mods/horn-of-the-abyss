@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.logistics.description.advanced": "{Tapasztalt logisztika}\n\nA tapasztalt logisztika 10%-kal növeli a hősöd mozgáspontjait a szárazföldön.",
+	"skill.core.logistics.description.basic": "{Logisztika}\n\nA logisztika 5%-kal növeli a hősöd mozgáspontjait a szárazföldön.",
+	"skill.core.logistics.description.expert": "{Szakértő logisztika}\n\nA szakértő logisztika 20%-kal növeli a hősöd mozgáspontjait a szárazföldön."
+}

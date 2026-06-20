@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.necromancy.description.advanced": "{Tapasztalt nekromancia}\n\nA tapasztalt nekromancia lehetővé teszi, hogy a harcban megölt lények 10%-a csontvázként támadjon fel a halálból.",
+	"skill.core.necromancy.description.basic": "{Nekromancia}\n\nA nekromancia lehetővé teszi, hogy a harcban megölt lények 5%-a csontvázként támadjon fel a halálból.",
+	"skill.core.necromancy.description.expert": "{Szakértő nekromancia}\n\nA szakértő nekromancia lehetővé teszi, hogy a harcban megölt lények 15%-a csontvázként támadjon fel a halálból."
+}

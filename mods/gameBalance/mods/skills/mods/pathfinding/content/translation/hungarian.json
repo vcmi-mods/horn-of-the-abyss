@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.pathfinding.description.advanced": "{Tapasztalt útkeresés}\n\nA tapasztalt útkeresés csökkenti a nehéz terep miatti mozgási büntetést, 50%-kal csökkentve a mozgás költségét, legfeljebb 90%-os minimális költségig.",
+	"skill.core.pathfinding.description.basic": "{Útkeresés}\n\nAz útkeresés csökkenti a nehéz terep miatti mozgási büntetést, 25%-kal csökkentve a mozgás költségét, legfeljebb 95%-os minimális költségig.",
+	"skill.core.pathfinding.description.expert": "{Szakértő útkeresés}\n\nA szakértő útkeresés megszünteti a nehéz terep miatti mozgási büntetést, 75%-kal csökkentve a mozgás költségét, legfeljebb 85%-os minimális költségig."
+}

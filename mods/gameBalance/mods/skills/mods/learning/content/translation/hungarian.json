@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.learning.description.advanced": "{Tapasztalt tanulás}\n\nA tapasztalt tanulás 40%-kal növeli a hős által megszerzett tapasztalati pontokat.",
+	"skill.core.learning.description.basic": "{Tanulás}\n\nA tanulás 20%-kal növeli a hős által megszerzett tapasztalati pontokat.",
+	"skill.core.learning.description.expert": "{Szakértő tanulás}\n\nA szakértő tanulás 60%-kal növeli a hős által megszerzett tapasztalati pontokat."
+}
