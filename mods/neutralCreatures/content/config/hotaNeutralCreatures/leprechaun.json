@@ -24,7 +24,6 @@
 			"max" : 25
 		},
 		"growth" : 9,
-		"hasDoubleWeek" : true,
 		"abilities" : {
 			"castsFortune" : {
 				"type" : "SPELLCASTER",

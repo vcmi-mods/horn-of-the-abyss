@@ -24,7 +24,6 @@
 			"max" : 16
 		},
 		"growth" : 4,
-		"hasDoubleWeek" : false,
 		"abilities" : {
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",

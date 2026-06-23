@@ -27,7 +27,6 @@
 			"max" : 30
 		},
 		"growth" : 9,
-		"hasDoubleWeek" : true,
 		"doubleWide" : true,
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/mountainRam.png",

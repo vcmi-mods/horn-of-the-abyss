@@ -5,6 +5,9 @@
 	},
 
 	// conflux
+	"core:sprite" : {
+		"hasDoubleWeek" : true
+	},
 	"core:fireElemental" : {
 		"advMapAmount" : {
 			"min" : 10,
