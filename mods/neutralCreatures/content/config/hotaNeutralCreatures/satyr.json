@@ -24,7 +24,6 @@
 			"max" : 16
 		},
 		"growth" : 4,
-		"hasDoubleWeek" : true,
 		"abilities" : {
 			"mirth" : {
 				"type" : "SPELLCASTER",

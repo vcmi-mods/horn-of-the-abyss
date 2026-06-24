@@ -24,7 +24,6 @@
 			"max" : 12
 		},
 		"growth" : 3,
-		"hasDoubleWeek" : true,
 		"abilities" : {
 			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
