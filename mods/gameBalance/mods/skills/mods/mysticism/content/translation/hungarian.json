@@ -1,5 +1,5 @@
 {
 	"skill.core.mysticism.description.advanced": "{Tapasztalt miszticizmus}\n\nA tapasztalt miszticizmus lehetővé teszi a hős számára, hogy naponta a maximális varázspontjainak 20%-át visszanyerje, naponta legalább 10 varázspontos regenerációval.",
-	"skill.core.mysticism.description.basic": "{Miszticizmus}\n\nA miszticizmus lehetővé teszi a hős számára, hogy naponta a maximális varázspontjainak 10%-át visszanyerje, naponta legalább 5 varázspontos regenerációval.",
+	"skill.core.mysticism.description.basic": "{Kezdő miszticizmus}\n\nA miszticizmus lehetővé teszi a hős számára, hogy naponta a maximális varázspontjainak 10%-át visszanyerje, naponta legalább 5 varázspontos regenerációval.",
 	"skill.core.mysticism.description.expert": "{Szakértő miszticizmus}\n\nA szakértő miszticizmus lehetővé teszi a hős számára, hogy naponta a maximális varázspontjainak 30%-át visszanyerje, naponta legalább 15 varázspontos regenerációval."
 }

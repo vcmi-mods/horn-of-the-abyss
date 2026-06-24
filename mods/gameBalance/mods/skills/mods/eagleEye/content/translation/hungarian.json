@@ -1,5 +1,5 @@
 {
 	"skill.core.eagleEye.description.advanced": "{Tapasztalt sasszem}\n\nA tapasztalt sasszem-képességnek köszönhetően hősödnek 50%-os esélye van arra, hogy megtanuljon bármely, harc közben használt, legfeljebb 3. szintű varázslatot.",
-	"skill.core.eagleEye.description.basic": "{Sasszem}\n\nAz sasszem-képességnek köszönhetően hősödnek 40%-os esélye van arra, hogy megtanuljon bármely, harc közben használt, legfeljebb 1. vagy 2. szintű varázslatot.",
+	"skill.core.eagleEye.description.basic": "{Kezdő sasszem}\n\nA kezdő sasszem-képességnek köszönhetően hősödnek 40%-os esélye van arra, hogy megtanuljon bármely, harc közben használt, legfeljebb 1. vagy 2. szintű varázslatot.",
 	"skill.core.eagleEye.description.expert": "{Szakértő sasszem}\n\nA szakértő sasszem-képességnek köszönhetően hősödnek 60%-os esélye van arra, hogy megtanuljon bármely, harc közben használt, legfeljebb 4. szintű varázslatot."
 }
