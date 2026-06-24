@@ -68,7 +68,7 @@
 	"map.[hota] a gambling place.header.heroes.115": "Shultak",
 	"map.[hota] a gambling place.header.heroes.137": "Togawa",
 	"map.[hota] a gambling place.header.heroes.15": "Lao Hu",
-	"map.[hota] a gambling place.header.heroes.154": "Bragg0",
+	"map.[hota] a gambling place.header.heroes.154": "Praga",
 	"map.[hota] a gambling place.header.heroes.169": "Elena",
 	"map.[hota] a gambling place.header.heroes.175": "Yorunai",
 	"map.[hota] a gambling place.header.heroes.181": "Timoris",
@@ -661,5 +661,18 @@
 	"map.[hota] element land.monster.25.9.1.message": "„Zły czarodziej wynajął nas, aby pozbyć się tych wszystkich natrętnych aniołów w okolicy - wygląda na to, że będziemy musieli zająć się także tobą!”",
 	"map.[hota] element land.monster.31.158.1.message": "„Hehehe, jesteśmy diabłami, hehehe, i nie mamy dobrych zamiarów, hehehe, to nasza historia, hehehe!”",
 	"map.[hota] element land.monster.32.239.1.message": "„POTĘŻNA BANDA CYKLOPÓW POWSTAJE I ZACZYNA PODBIJAĆ ŚWIAT NA POWIERZCHNI!!”",
-	"map.[hota] element land.monster.4.211.0.message": "\"Przyjaciel!\""
+	"map.[hota] element land.monster.4.211.0.message": "\"Przyjaciel!\"",
+	"map.[hota] element land.monster.46.34.1.message": "„Gdy świat został stworzony, moja jaszczurza chata została tu umieszczona z jakiegoś powodu. Niezbadane są wyroki boskie.”",
+	"map.[hota] element land.monster.48.1.1.message": "\"Podczas gdy ty walczyłeś, ja zjadłem całe pudełko pączków z czekoladą. Rób, co musisz - ja już wygrałem.\"",
+	"map.[hota] element land.monster.50.23.1.message": "\"BLAUGRAAARAAAA!\"",
+	"map.[hota] element land.monster.51.3.1.message": "„Udało ci się! Zły czarodziej nie żyje, a świat został ocalony! Hip hip hura! Hip hip hura!”",
+	"map.[hota] element land.monster.56.110.1.message": "\"Nigdy nie pozwolę ci ukraść Świętego Graala!\"",
+	"map.[hota] element land.monster.58.207.0.message": "\"Nawet siłą nie weźmiecie oszczędności życia mej rodziny!\"",
+	"map.[hota] element land.monster.63.163.0.message": "Przyjaciel.",
+	"map.[hota] element land.monster.64.133.0.message": "„Aaa, zakopałem cały mój skarb na wyspie tawern, takem uczynił. Przy tych całych wojenkach, może bym się tam wybrał i go odzyskał, powiadam ja.”",
+	"map.[hota] element land.monster.65.87.0.message": "„Dziękujemy, że przyprowadziłeś nam więcej worków z mięsem do zjedzenia!”",
+	"map.[hota] element land.monster.74.235.1.message": "„Jeśli mnie powalisz, stanę się potężniejszy, niż możesz sobie wyobrazić.”",
+	"map.[hota] element land.monster.87.231.1.message": "\"Jesteś teraz w trybie ręcznego oddychania.\"",
+	"map.[hota] element land.monster.89.17.1.message": "\"Dowódca!\"",
+	"map.[hota] element land.monster.90.42.1.message": "„Czym jest muzyka życia?”"
 }
