@@ -87,7 +87,7 @@ jobs:
         run: |
           git fetch origin "${GITHUB_REF_NAME}"
           git checkout "${GITHUB_REF_NAME}"
-          git pull --ff-only origin "${GITHUB_REF_NAME}"
+          git rebase origin/"${GITHUB_REF_NAME}"
 
       - name: Detect VCMI Version
         run: |
