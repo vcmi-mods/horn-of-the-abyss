@@ -34,6 +34,8 @@ jobs:
     needs: [validate-json]
     if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         shell: bash
@@ -69,6 +71,8 @@ jobs:
     needs: [validate-json, format-json]
     if: ${{ always() && needs.validate-json.result == 'success' && (needs.format-json.result == 'success' || needs.format-json.result == 'skipped') }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     defaults:
       run:
         shell: bash
@@ -77,6 +81,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
+
+      - name: Synchronize branch before generated commits
+        if: github.event_name != 'pull_request'
+        run: |
+          git fetch origin "${GITHUB_REF_NAME}"
+          git checkout "${GITHUB_REF_NAME}"
+          git pull --ff-only origin "${GITHUB_REF_NAME}"
 
       - name: Detect VCMI Version
         run: |
@@ -146,6 +157,20 @@ jobs:
           else
             echo "translations_present=false" >> $GITHUB_OUTPUT
           fi
+
+      - name: Refresh translation files
+        if: steps.check.outputs.translations_present == 'true' && github.event_name != 'pull_request'
+        run: |
+          find . -name english.json -delete
+          python3 .github/merge_dirs.py "$HOME/.cache/vcmi/extracted/translationFull/${MOD_NAME}" .
+
+      - name: Commit translation changes if needed
+        if: steps.check.outputs.translations_present == 'true' && github.event_name != 'pull_request'
+        uses: EndBug/add-and-commit@v10
+        with:
+          default_author: github_actions
+          message: "Update generated translations"
+          add: '*.json'
 
       - name: Upload Translation Files
         if: steps.check.outputs.translations_present == 'true'
