@@ -43,7 +43,7 @@
 				"small" : "hota/skills/interference/icons/small/basic",
 				"medium" : "hota/skills/interference/icons/medium/basic",
 				"large" : "hota/skills/interference/icons/large/basic",
-				"scenarioBonus" : "hota/skills/interference/icons/large/basic"
+				"scenarioBonus" : "hota/skills/interference/icons/bonus/basic"
 			}
 		},
 		"advanced" : {
@@ -60,7 +60,7 @@
 				"small" : "hota/skills/interference/icons/small/advanced",
 				"medium" : "hota/skills/interference/icons/medium/advanced",
 				"large" : "hota/skills/interference/icons/large/advanced",
-				"scenarioBonus" : "hota/skills/interference/icons/large/advanced"
+				"scenarioBonus" : "hota/skills/interference/icons/bonus/advanced"
 			}
 		},
 		"expert" : {
@@ -77,7 +77,7 @@
 				"small" : "hota/skills/interference/icons/small/expert",
 				"medium" : "hota/skills/interference/icons/medium/expert",
 				"large" : "hota/skills/interference/icons/large/expert",
-				"scenarioBonus" : "hota/skills/interference/icons/large/expert"
+				"scenarioBonus" : "hota/skills/interference/icons/bonus/expert"
 			}
 		}
 	},
