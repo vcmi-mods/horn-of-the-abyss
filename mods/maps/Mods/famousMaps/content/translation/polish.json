@@ -813,5 +813,14 @@
 	"map.[hota] element land.town.63.138.0.name": "Rainbow Coast",
 	"map.[hota] element land.town.74.50.0.name": "Death Harbour",
 	"map.[hota] element land.town.85.88.0.name": "Metal Head",
-	"map.[hota] element land.town.89.173.0.name": "High Tower"
+	"map.[hota] element land.town.89.173.0.name": "High Tower",
+	"map.[hota] element land.quest.172.107.1.firstVisit": "Witaj! Jestem Rysiek Naciągacz. Co powiesz na legendarną tarczę za jedyne 300 drewna i 50 000 złota?",
+	"map.[hota] element land.quest.172.107.1.nextVisit": "Och, to zdecydowanie za mało. Za tarczę potrzebuję 300 drewna i 50 000 sztuk złota.",
+	"map.[hota] element land.quest.172.107.1.completed": "Wreszcie! Daj mi 300 drewna i 50 000 złota, a w zamian otrzymasz to.",
+	"map.[hota] element land.quest.193.211.1.firstVisit": "Witaj! Jestem renomowanym rzemieślnikiem specjalizującym się w protezach gałek ocznych. Przynieś mi trochę części i drobiazgów, a zabiorę się do pracy!",
+	"map.[hota] element land.quest.193.211.1.nextVisit": "Nie udało ci się znaleźć żadnego obserwatora i złego oka?",
+	"map.[hota] element land.quest.193.211.1.completed": "Wreszcie dostałem obserwatora i złe oko. Czas do pracy!",
+	"map.[hota] element land.quest.213.144.1.firstVisit": "Likwidacja sklepu - smoki po 100 złota za sztukę.",
+	"map.[hota] element land.quest.213.144.1.nextVisit": "Och, to zdecydowanie za mało. Potrzebuję 500 złota. ",
+	"map.[hota] element land.quest.213.144.1.completed": "Wreszcie! Daj mi 500 złota, a w zamian dam ci te oto stworzenia."
 }
