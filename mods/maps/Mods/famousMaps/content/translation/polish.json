@@ -822,5 +822,15 @@
 	"map.[hota] element land.quest.193.211.1.completed": "Wreszcie dostałem obserwatora i złe oko. Czas do pracy!",
 	"map.[hota] element land.quest.213.144.1.firstVisit": "Likwidacja sklepu - smoki po 100 złota za sztukę.",
 	"map.[hota] element land.quest.213.144.1.nextVisit": "Och, to zdecydowanie za mało. Potrzebuję 500 złota. ",
-	"map.[hota] element land.quest.213.144.1.completed": "Wreszcie! Daj mi 500 złota, a w zamian dam ci te oto stworzenia."
+	"map.[hota] element land.quest.213.144.1.completed": "Wreszcie! Daj mi 500 złota, a w zamian dam ci te oto stworzenia.",
+	"map.[hota] element land.quest.223.26.1.firstVisit": "Udowodnij, że jesteś prawdziwym pogromcą smoków, a przyłączę się do twojej sprawy.",
+	"map.[hota] element land.quest.223.26.1.nextVisit": "Przyprowadź tu smoki i zabij je. Nic innego mnie nie zadowoli.",
+	"map.[hota] element land.quest.223.26.1.completed": "Doskonale! Udało ci się schwytać smoki. Teraz wrzuć je do ognistej czeluści, a dołączę do ciebie.",
+	"map.[hota] element land.quest.226.22.1.firstVisit": "Tę wieżę zamieszkuje potężny czarodziej. Nie pozwoli ci przejść, dopóki nie przyniesiesz mu Mocy Ojca Smoków, aby mógł ją zniszczyć.",
+	"map.[hota] element land.quest.23.21.1.firstVisit": "Tylko prawdziwy pirat może otworzyć te drzwi.",
+	"map.[hota] element land.quest.23.21.1.nextVisit": "Tylko prawdziwy pirat może otworzyć te drzwi.",
+	"map.[hota] element land.quest.23.21.1.completed": "Pirat pyta, czy jesteś gotów przejść?",
+	"map.[hota] element land.quest.249.236.0.firstVisit": "Witaj, wędrowcze. Jestem znanym artystą - być może mógłbyś pomóc mi wyrazić mój talent!",
+	"map.[hota] element land.quest.249.236.0.nextVisit": "Nie udało ci się znaleźć 5 złotych smoków? Proszę, pospiesz się.",
+	"map.[hota] element land.quest.249.236.0.completed": "Nareszcie, 5 złotych smoków! Zobaczmy teraz… może powinienem użyć niebieskiej farby?"
 }
