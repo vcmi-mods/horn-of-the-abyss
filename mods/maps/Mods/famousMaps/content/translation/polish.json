@@ -832,5 +832,8 @@
 	"map.[hota] element land.quest.23.21.1.completed": "Pirat pyta, czy jesteś gotów przejść?",
 	"map.[hota] element land.quest.249.236.0.firstVisit": "Witaj, wędrowcze. Jestem znanym artystą - być może mógłbyś pomóc mi wyrazić mój talent!",
 	"map.[hota] element land.quest.249.236.0.nextVisit": "Nie udało ci się znaleźć 5 złotych smoków? Proszę, pospiesz się.",
-	"map.[hota] element land.quest.249.236.0.completed": "Nareszcie, 5 złotych smoków! Zobaczmy teraz… może powinienem użyć niebieskiej farby?"
+	"map.[hota] element land.quest.249.236.0.completed": "Nareszcie, 5 złotych smoków! Zobaczmy teraz… może powinienem użyć niebieskiej farby?",
+	"map.[hota] element land.quest.31.28.0.firstVisit": "Muahaha! Posiadam jedyną kopię zaklęcia ożywienia zmarłych w całym naszym królestwie - podzielę się nią z tobą za 60 uncji siarki. I nie, nie znajdziesz go w swoich wymuskanych gildiach magów, hahahaha!",
+	"map.[hota] element land.quest.31.28.0.nextVisit": "Ponieważ nie przyniosłeś 60 uncji siarki, strażnicy zabraniają ci przejścia.",
+	"map.[hota] element land.quest.31.28.0.completed": "Ach, wreszcie 60 uncji siarki. Czy jesteś gotów dokonać wymiany?"
 }
