@@ -42,5 +42,12 @@
 		"translations" : [
 			"translation/latvian.json"
 		]
+	},
+	"polish" : {
+		"name" : "Zmiany balansujące zaklęcia",
+		"description" : "",
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }

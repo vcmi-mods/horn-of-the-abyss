@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.estates.description.advanced": "{Tapasztalt birtokok}\n\nA hősöd naponta 500 arannyal járul hozzá a célodhoz.",
+	"skill.core.estates.description.basic": "{Kezdő birtokok}\n\nA hősöd naponta 250 arannyal járul hozzá a célodhoz.",
+	"skill.core.estates.description.expert": "{Szakértő birtokok}\n\nA hősöd naponta 1000 arannyal járul hozzá a célodhoz."
+}

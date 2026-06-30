@@ -1,1 +1,6 @@
-{}
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description": "{Elsősegélynyújtó sátor}\nA hősöd magával visz egy elsősegélynyújtó sátrat.",
+	"skill.core.firstAid.description.advanced": "{Tapasztalt elsősegélynyújtás}\n\nA tapasztalt elsősegélynyújtással a hős kezébe adja az elsősegélynyújtó sátor irányítását. Az elsősegélysátor 75 pontnyi sebzést gyógyít a halom első egységének, és minden szövetséges lénynek +10% életerőt ad. Az elsősegélysátor egyetlen támadásból sem kaphat életerejének 40%-ánál többet sebzésként.",
+	"skill.core.firstAid.description.basic": "{Kezdő elsősegélynyújtás}\n\nAz elsősegélynyújtással a hős kezébe adja az elsősegélynyújtó sátor irányítását. Az elsősegélysátor 50 pontnyi sebzést gyógyít a halom első egységének, és minden szövetséges lénynek +5% életerőt ad. Az elsősegélysátor egyetlen támadásból sem kaphat életerejének 40%-ánál többet sebzésként.",
+	"skill.core.firstAid.description.expert": "{Szakértő elsősegélynyújtás}\n\nA szakértő elsősegélynyújtással a hős kezébe adja az elsősegélynyújtó sátor irányítását. Az elsősegélysátor 100 pontnyi sebzést gyógyít a halom első egységének, és minden szövetséges lénynek +15% életerőt ad. Az elsősegélysátor egyetlen támadásból sem kaphat életerejének 40%-ánál többet sebzésként."
+}

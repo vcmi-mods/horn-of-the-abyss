@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Ellenség szerencséjének csökkentése}\nA főördögök 2 ponttal csökkentik az ellenség szerencséjét",
+	"creatures.core.devil.bonus.decreaseLuck": "{Ellenség szerencséjének csökkentése}\nAz ördögök 1 ponttal csökkentik az ellenség szerencséjét"
+}
