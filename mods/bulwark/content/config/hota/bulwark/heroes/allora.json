@@ -1,5 +1,8 @@
 {
-	"17allora" : {
+	"16allora" : {
+		"compatibilityIdentifiers" : [
+			"17allora"
+		],
 		"class" : "elder",
 		"female" : true,
 		"images" : {

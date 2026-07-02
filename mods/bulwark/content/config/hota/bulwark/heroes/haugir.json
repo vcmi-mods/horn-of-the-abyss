@@ -1,5 +1,8 @@
 {
-	"14haugir" : {
+	"17haugir" : {
+		"compatibilityIdentifiers" : [
+			"14haugir"
+		],
 		"class" : "elder",
 		"onlyOnWaterMap" : true,
 		"female" : false,

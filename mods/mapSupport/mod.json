@@ -579,10 +579,10 @@
 					"11sial" : 208,
 					"12dalton" : 209,
 					"13biarma" : 210,
-					"14haugir" : 214,
-					"15akka" : 211,
-					"16vehr" : 212,
-					"17allora" : 213
+					"14akka" : 211,
+					"15vehr" : 212,
+					"16allora" : 213,
+					"17haugir" : 214
 				},
 
 				"portraits" : {
@@ -667,10 +667,10 @@
 					"11sial" : 238,
 					"12dalton" : 239,
 					"13biarma" : 240,
-					"14haugir" : 241,
-					"15akka" : 242,
-					"16vehr" : 243,
-					"17allora" : 244
+					"14akka" : 241,
+					"15vehr" : 242,
+					"16allora" : 243,
+					"17haugir" : 244
 				},
 				"artifacts" : {
 					"diplomatsCloak" : 141,
