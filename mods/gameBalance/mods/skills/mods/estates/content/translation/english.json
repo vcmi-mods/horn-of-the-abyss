@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced" : "{Advanced Estates}\n\nYour hero contributes 500 gold per day to your cause.",
-	"skill.core.estates.description.basic" : "{Basic Estates}\n\nYour hero contributes 250 gold per day to your cause.",
-	"skill.core.estates.description.expert" : "{Expert Estates}\n\nYour hero contributes 1000 gold per day to your cause."
+	"skill.core.estates.description.advanced" : "{Advanced Estates}\n\nWith Estates, a hero contributes 500 gold per day to your cause.",
+	"skill.core.estates.description.basic" : "{Basic Estates}\n\nWith Estates, a hero contributes 250 gold per day to your cause.",
+	"skill.core.estates.description.expert" : "{Expert Estates}\n\nWith Estates, a hero contributes 1000 gold per day to your cause."
 }
