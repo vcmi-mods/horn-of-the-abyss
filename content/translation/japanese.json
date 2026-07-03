@@ -1283,5 +1283,7 @@
 	"hero.hota.bulwark.16allora.specialty.tooltip": "スキルボーナス：魔術",
 	"hero.hota.bulwark.17haugir.biography": "ハウギルの母親は海を航海し、ある日、遠い異国への航海から、胎内に子を宿して帰ってきた。息子の最大の不満は、自分の目に真の霜の巨人のような氷の輝きがないことで、彼は最も大きく純粋な水晶を手に入れ、そこから新しい水晶を彫り出すことを誓った。これまでのところ、ハウギルは目的に合う水晶を一つ見つけたが、まだ完璧な水晶を探し求めている。",
 	"hero.hota.bulwark.17haugir.name": "ハウギル",
-	"hero.hota.bulwark.17haugir.specialty.description": "海上での移動ポイントに、レベルごとに5%のボーナスが加算される。"
+	"hero.hota.bulwark.17haugir.specialty.description": "海上での移動ポイントに、レベルごとに5%のボーナスが加算される。",
+	"hero.hota.bulwark.17haugir.specialty.name": "航海術",
+	"hero.hota.bulwark.17haugir.specialty.tooltip": "二次スキルボーナス：航海術"
 }

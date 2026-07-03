@@ -150,5 +150,6 @@
 	"hero.hota.heroes.kydoimos.specialty.description": "Zwiększa {atak} i {obronę} wszystkich rodzajów smoków o {10}.",
 	"hero.hota.heroes.miseria.specialty.description": "Pozwala rzucać {wskrzeszenie} z efektywnością zwiększoną o {5%} za każdy poziom bohatera, proporcjonalnie do poziomu, na którym znajduje się bohater i atakowany oddział (efekt jest tym większy im słabsza jest atakowana jednostka).",
 	"hero.hota.heroes.ranloo.specialty.description": "Zwiększa zdolność {ataku} i {obrony} balisty o {30%} za każde pięć poziomów bohatera (zaokrąglając w górę).",
-	"hero.hota.heroes.zog.specialty.description": "Zwiększa {szybkość} ogrów i ogrzych szamanów o {1} oraz ich {atak} i {obronę} o {20%} dla każdego poziomu doświadczenia bohatera powyżej poziomu czwartego (zaokrąglając w górę)."
+	"hero.hota.heroes.zog.specialty.description": "Zwiększa {szybkość} ogrów i ogrzych szamanów o {1} oraz ich {atak} i {obronę} o {20%} dla każdego poziomu doświadczenia bohatera powyżej poziomu czwartego (zaokrąglając w górę).",
+	"hero.hota.bulwark.14akka.specialty.description": "Pozwala rzucać {żądzę krwi} z efektywnością zwiększoną o:\\n{+10} za istoty poziomu 1-2,\\n{+8} za istoty poziomu 3-4,\\n{+6} za istoty poziomu 5-6,\\n{+4} za istoty 7 poziomu."
 }
