@@ -1246,5 +1246,6 @@
 	"terrain.hota.wastelandterrain.wasteland.name": "Пустоши",
 	"mapObject.core.witchHut.witchHut.rewards.0": "{Хижина Ведьмы}\n\nСтарая ведьма приглашает вас зайти к ней в хижину. Не разводя лишних разговоров, она предлагает изучить у неё навык %s.",
 	"building.core.dungeon.special2.onEmpty": "Ваш герой имеет достаточно много маны и не может получить ещё больше от Вихря Маны.",
-	"building.core.dungeon.special2.onVisited": "На этой неделе Вихрь Маны уже использовали."
+	"building.core.dungeon.special2.onVisited": "На этой неделе Вихрь Маны уже использовали.",
+	"building.core.dungeon.special2.rewards.0": "Близ Вихря Маны вы чувствуете, что он мог бы наполнить ваше тело новой силой.\n\nХотите ли вы использовать Вихрь Маны, чтобы удвоить количество маны вашего героя?"
 }
