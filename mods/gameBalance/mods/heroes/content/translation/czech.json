@@ -150,5 +150,6 @@
 	"hero.core.xsi.specialty.description": "Sesílá kouzlo kamennou kůži s účinkem zvýšeným o 10 pro jednotky úrovně 1–2, o 8 pro jednotky úrovně 3–4, o 6 pro jednotky úrovně 5–6 a o 4 pro jednotky úrovně 7.",
 	"hero.core.xyron.specialty.description": "Sesílá kouzlo peklo s poškozením zvýšeným o 10% za každých N úrovní hrdiny, kde N odpovídá úrovni cílové jednotky.",
 	"hero.core.yog.specialty.description": "Zvyšuje rychlost spojeneckých kyklopů a králů kyklopů o 1 a jejich útočnou a obrannou sílu o 20% za každých 6 úrovní hrdiny (zaokrouhleno nahoru).",
-	"hero.core.zubin.specialty.description": "Sesílá kouzlo přesnost s účinkem zvýšeným o 10 pro jednotky úrovně 1–2, o 8 pro jednotky úrovně 3–4, o 6 pro jednotky úrovně 5–6 a o 4 pro jednotky úrovně 7."
+	"hero.core.zubin.specialty.description": "Sesílá kouzlo přesnost s účinkem zvýšeným o 10 pro jednotky úrovně 1–2, o 8 pro jednotky úrovně 3–4, o 6 pro jednotky úrovně 5–6 a o 4 pro jednotky úrovně 7.",
+	"hero.hota.bulwark.14akka.specialty.description": "Sesílá kouzlo krvežíznivost s účinkem zvýšeným o 10 pro jednotky úrovně 1–2, o 8 pro jednotky úrovně 3–4, o 6 pro jednotky úrovně 5–6 a o 4 pro jednotky úrovně 7."
 }
