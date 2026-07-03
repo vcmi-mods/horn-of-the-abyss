@@ -1,5 +1,8 @@
 {
-	"16vehr" : {
+	"15vehr" : {
+		"compatibilityIdentifiers" : [
+			"16vehr"
+		],
 		"class" : "elder",
 		"female" : true,
 		"images" : {
