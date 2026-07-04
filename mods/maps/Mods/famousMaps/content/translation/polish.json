@@ -1174,5 +1174,8 @@
 	"map.[hota] fawn's labyrinth.quest.38.70.1.completed": "Dwie złote monety za każdego wojownika! Czy chcesz uiścić opłatę?",
 	"map.[hota] fawn's labyrinth.quest.39.234.1.completed": "Wreszcie! To ty, Gandalfie. Mam coś dla ciebie. Przyjmujesz to?",
 	"map.[hota] fawn's labyrinth.quest.39.234.1.firstVisit": "To, co mam, jest tylko dla Gandalfa. Nikomu innemu tego nie przekażę.",
-	"map.[hota] fawn's labyrinth.quest.39.234.1.nextVisit": "Nie jesteś Gandalfem. Odejdź!"
+	"map.[hota] fawn's labyrinth.quest.39.234.1.nextVisit": "Nie jesteś Gandalfem. Odejdź!",
+	"map.[hota] fawn's labyrinth.quest.45.215.1.firstVisit": "Witaj, nieznajomy. Jestem alchemikiem. Niedawno odkryłem sposób na skupianie energii ifrytów i przekazanie jej żywiołakom ognia. Niestety są one dość dzikie i nie przepadają za moimi eksperymentami. Bez odpowiedniej liczby prób nie mogę dokonać żadnych sensownych odkryć. Czy pomożesz mi zgromadzić wystarczającą liczbę żywiołaków?",
+	"map.[hota] fawn's labyrinth.quest.45.215.1.nextVisit": "Nie udało ci się ich znaleźć? Proszę, pośpiesz się.",
+	"map.[hota] fawn's labyrinth.quest.45.215.1.completed": "Wreszcie, mamy dość próbek! Mogę rozpocząć eksperyment. Czy jesteś gotów?"
 }
