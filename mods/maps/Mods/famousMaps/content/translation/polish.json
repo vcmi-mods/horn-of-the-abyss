@@ -1183,5 +1183,18 @@
 	"map.[hota] fawn's labyrinth.quest.47.36.1.completed": "Masz siłę samego Hadesa by otworzyć więzienie. Czy chcesz przejść?",
 	"map.[hota] fawn's labyrinth.quest.53.70.1.completed": "Masz siłę samego Boga. Czy chcesz przejść?",
 	"map.[hota] fawn's labyrinth.quest.53.70.1.firstVisit": "By otworzyć to więzienie wymagana jest siła Boga.",
-	"map.[hota] fawn's labyrinth.quest.53.70.1.nextVisit": "By otworzyć to więzienie wymagana jest siła Boga."
+	"map.[hota] fawn's labyrinth.quest.53.70.1.nextVisit": "By otworzyć to więzienie wymagana jest siła Boga.",
+	"map.[hota] fawn's labyrinth.quest.58.59.1.firstVisit": "By otworzyć wrota Elizjum wymagana jest siła boga.",
+	"map.[hota] fawn's labyrinth.quest.58.59.1.nextVisit": "By otworzyć wrota Elizjum wymagana jest siła boga.",
+	"map.[hota] fawn's labyrinth.quest.58.59.1.completed": "Posiadasz siłę boga by otworzyć wrota Elizjum. Chcesz przejść dalej?",
+	"map.[hota] fawn's labyrinth.sign.127.81.0.message": "Więzienie dusz",
+	"map.[hota] fawn's labyrinth.sign.130.213.0.message": "Brak przejścia!",
+	"map.[hota] fawn's labyrinth.sign.138.138.0.message": "Ave Legion!",
+	"map.[hota] fawn's labyrinth.sign.156.180.0.message": "Brak przejścia!",
+	"map.[hota] fawn's labyrinth.sign.166.75.0.message": "Kryształowe groty",
+	"map.[hota] fawn's labyrinth.sign.191.135.0.message": "Brak przejścia!",
+	"map.[hota] fawn's labyrinth.sign.200.90.1.message": "Brak przejścia!",
+	"map.[hota] fawn's labyrinth.sign.17.20.1.message": "Droga prób",
+	"map.[hota] fawn's labyrinth.sign.21.91.0.message": "<---- Kopalnie Morii\n-----> Las jednorożców",
+	"map.[hota] fawn's labyrinth.sign.220.123.0.message": "Lepiej nie..."
 }
