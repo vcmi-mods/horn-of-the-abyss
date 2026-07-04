@@ -1177,5 +1177,11 @@
 	"map.[hota] fawn's labyrinth.quest.39.234.1.nextVisit": "Nie jesteś Gandalfem. Odejdź!",
 	"map.[hota] fawn's labyrinth.quest.45.215.1.firstVisit": "Witaj, nieznajomy. Jestem alchemikiem. Niedawno odkryłem sposób na skupianie energii ifrytów i przekazanie jej żywiołakom ognia. Niestety są one dość dzikie i nie przepadają za moimi eksperymentami. Bez odpowiedniej liczby prób nie mogę dokonać żadnych sensownych odkryć. Czy pomożesz mi zgromadzić wystarczającą liczbę żywiołaków?",
 	"map.[hota] fawn's labyrinth.quest.45.215.1.nextVisit": "Nie udało ci się ich znaleźć? Proszę, pośpiesz się.",
-	"map.[hota] fawn's labyrinth.quest.45.215.1.completed": "Wreszcie, mamy dość próbek! Mogę rozpocząć eksperyment. Czy jesteś gotów?"
+	"map.[hota] fawn's labyrinth.quest.45.215.1.completed": "Wreszcie, mamy dość próbek! Mogę rozpocząć eksperyment. Czy jesteś gotów?",
+	"map.[hota] fawn's labyrinth.quest.47.36.1.firstVisit": "By otworzyć to więzienie jest wymagana siła Hadesa.",
+	"map.[hota] fawn's labyrinth.quest.47.36.1.nextVisit": "By otworzyć to więzienie jest wymagana siła Hadesa.",
+	"map.[hota] fawn's labyrinth.quest.47.36.1.completed": "Masz siłę samego Hadesa by otworzyć więzienie. Czy chcesz przejść?",
+	"map.[hota] fawn's labyrinth.quest.53.70.1.completed": "Masz siłę samego Boga. Czy chcesz przejść?",
+	"map.[hota] fawn's labyrinth.quest.53.70.1.firstVisit": "By otworzyć to więzienie wymagana jest siła Boga.",
+	"map.[hota] fawn's labyrinth.quest.53.70.1.nextVisit": "By otworzyć to więzienie wymagana jest siła Boga."
 }
