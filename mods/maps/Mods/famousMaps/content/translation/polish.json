@@ -1150,5 +1150,17 @@
 	"map.[hota] fawn's labyrinth.town.245.91.0.event.0.description": "Podatki!",
 	"map.[hota] fawn's labyrinth.town.248.176.0.event.0.description": "Nadciąga kolejne wojsko!",
 	"map.[hota] fawn's labyrinth.town.248.176.0.event.1.description": "Podatki!",
-	"map.[hota] fawn's labyrinth.town.25.115.0.event.1.description": "Podatki!"
+	"map.[hota] fawn's labyrinth.town.25.115.0.event.1.description": "Podatki!",
+	"map.[hota] fawn's labyrinth.quest.27.8.1.firstVisit": "Dawno temu potężni magowie potrafili tworzyć magiczne artefakty, lecz upływ czasu sprawił, że zapomnieliśmy, jak kreować nowe przedmioty. Chciałbym sam nauczyć się dawnych technik, ale najpierw muszę zobaczyć jeden z takich artefaktów, by zrozumieć, jak został wykonany. Jeśli przyniesiesz mi pięć znaków świętości, zostaniesz hojnie wynagrodzony. ",
+	"map.[hota] fawn's labyrinth.quest.27.8.1.nextVisit": "Nic… cóż, jestem pewien, że szybko znajdziesz pięć statuetki znaków świętości. Szukaj dalej.",
+	"map.[hota] fawn's labyrinth.quest.27.8.1.completed": "Ach, dokładnie tego potrzebowałem! Oto nagroda, którą obiecałem. Nadal chcesz wymienić pięć znaków świętości, tak?",
+	"map.[hota] fawn's labyrinth.quest.3.3.1.firstVisit": "To, co mam, jest tylko dla brata Shana. Nikomu innemu tego nie przekażę.",
+	"map.[hota] fawn's labyrinth.quest.3.3.1.nextVisit": "Nie jesteś bratem Shanem. Odejdź!",
+	"map.[hota] fawn's labyrinth.quest.3.3.1.completed": "Wreszcie! To ty, bracie Shanie. Mam coś dla ciebie. Przyjmujesz to?",
+	"map.[hota] fawn's labyrinth.quest.30.22.1.completed": "Wreszcie! To ty, Zuku. Mam coś dla ciebie. Przyjmujesz to?",
+	"map.[hota] fawn's labyrinth.quest.30.22.1.firstVisit": "To, co mam, jest tylko dla Zuku. Nikomu innemu tego nie przekażę.",
+	"map.[hota] fawn's labyrinth.quest.30.22.1.nextVisit": "Nie jesteś Zuku. Odejdź!",
+	"map.[hota] fawn's labyrinth.quest.32.175.0.completed": "Wiedza to potęga!",
+	"map.[hota] fawn's labyrinth.quest.32.175.0.firstVisit": "Wiedza to potęga!",
+	"map.[hota] fawn's labyrinth.quest.32.175.0.nextVisit": "Wiedza to potęga!"
 }
