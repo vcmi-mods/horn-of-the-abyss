@@ -1196,5 +1196,21 @@
 	"map.[hota] fawn's labyrinth.sign.200.90.1.message": "Brak przejścia!",
 	"map.[hota] fawn's labyrinth.sign.17.20.1.message": "Droga prób",
 	"map.[hota] fawn's labyrinth.sign.21.91.0.message": "<---- Kopalnie Morii\n-----> Las jednorożców",
-	"map.[hota] fawn's labyrinth.sign.220.123.0.message": "Lepiej nie..."
+	"map.[hota] fawn's labyrinth.sign.220.123.0.message": "Lepiej nie...",
+	"map.[hota] fawn's labyrinth.sign.235.81.1.message": "Brak przejścia!",
+	"map.[hota] fawn's labyrinth.sign.248.74.0.message": "Więzienie Kilgora. Zakaz wstępu!",
+	"map.[hota] fawn's labyrinth.sign.48.41.1.message": "Elyzjum",
+	"map.[hota] fawn's labyrinth.sign.67.196.1.message": "Trzymać się z daleka!",
+	"map.[hota] fawn's labyrinth.sign.79.227.1.message": "Trzymać się z daleka!",
+	"map.[hota] fawn's labyrinth.sign.9.25.0.message": "Opuszczone kopalnie.\nNIEBEZPIECZEŃSTWO!\nTrzymać się z daleka!",
+	"map.[hota] fawn's labyrinth.town.10.159.1.name": "Świątynia magii",
+	"map.[hota] fawn's labyrinth.town.112.89.0.event.0.description": "Wdzięczni mieszkańcy dołączają do twojej armii!",
+	"map.[hota] fawn's labyrinth.town.114.52.0.name": "Gniazdo wiwern",
+	"map.[hota] fawn's labyrinth.town.115.15.0.name": "Darkburrow",
+	"map.[hota] fawn's labyrinth.town.127.59.0.name": "Świątynia ziemi",
+	"map.[hota] fawn's labyrinth.town.13.136.0.name": "Świątynia wody",
+	"map.[hota] fawn's labyrinth.town.138.210.0.event.0.description": "Nadchodzą posiłki!",
+	"map.[hota] fawn's labyrinth.town.148.65.0.name": "Świątynia ognia",
+	"map.[hota] fawn's labyrinth.town.158.236.0.event.1.description": "Wdzięczni mieszkańcy dołączają do twojej armii!",
+	"map.[hota] fawn's labyrinth.town.158.236.0.name": "Moczary"
 }
