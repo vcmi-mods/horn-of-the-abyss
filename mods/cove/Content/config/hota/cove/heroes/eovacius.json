@@ -37,8 +37,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"clone" : {
-					"type" : "SPELL",
-					"subtype" : "spell.specialClone"
+					"type" : "SPECIALTY_CLONE",
+					"val" : 1
 				}
 			}
 		},
