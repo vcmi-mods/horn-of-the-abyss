@@ -119,7 +119,6 @@
 	"hero.hota.bulwark.11sial.specialty.description": "対象のクリーチャーのレベルをNとすると、ヒーローのレベルがN上がるごとにダメージが10%増加する「アイスボルト」を発動する。",
 	"hero.hota.bulwark.12dalton.specialty.description": "対象のクリーチャーのレベルをNとすると、ヒーローのレベルがN上がるごとに効果が10%増加する「シールド」を発動する。",
 	"hero.hota.bulwark.13biarma.specialty.description": "救護テントから得られるボーナス体力に、レベルごとに5%のボーナスが加算されます。",
-	"hero.hota.bulwark.15akka.specialty.description": "レベル1～2のクリーチャーに対しては効果が10増加し、レベル3～4のクリーチャーに対しては8増加し、レベル5～6のクリーチャーに対しては6増加し、レベル7のクリーチャーに対しては4増加した「ブラッドラスト」を発動する。",
 	"hero.hota.cove.02jeremy.specialty.description": "6レベルごとに大砲の攻撃力と防御力が20%増加します（切り上げ）。",
 	"hero.hota.cove.03illor.specialty.description": "4レベルごとに（切り上げ）、味方のストームバードとアイシッドのスピードを1増加させ、攻撃力と防御力を20%増加させる。",
 	"hero.hota.cove.05derek.specialty.description": "2レベルごとに（切り上げ）、味方のクルーメイトとシーマンのスピードを1増加させ、攻撃力と防御力を20%増加させる。",
@@ -151,5 +150,6 @@
 	"hero.hota.heroes.kydoimos.specialty.description": "味方のドラゴンの攻撃力と防御力を10増加させる。",
 	"hero.hota.heroes.miseria.specialty.description": "対象のクリーチャーのレベルをNとすると、ヒーローのレベルがN上がるごとに効果が5%増加する「レザレクション」呪文を発動する。",
 	"hero.hota.heroes.ranloo.specialty.description": "バリスタの攻撃力と防御力が、5レベルごとに30%増加します（切り上げ）。",
-	"hero.hota.heroes.zog.specialty.description": "4レベルごとに（切り上げ）、味方のオーガとオーガメイジのスピードを1増加させ、攻撃力と防御力を20%増加させる。"
+	"hero.hota.heroes.zog.specialty.description": "4レベルごとに（切り上げ）、味方のオーガとオーガメイジのスピードを1増加させ、攻撃力と防御力を20%増加させる。",
+	"hero.hota.bulwark.14akka.specialty.description": "レベル1～2のクリーチャーに対しては効果が10増加し、レベル3～4のクリーチャーに対しては8増加し、レベル5～6のクリーチャーに対しては6増加し、レベル7のクリーチャーに対しては4増加した「ブラッドラスト」を発動する。"
 }

@@ -9,7 +9,6 @@
 	"hero.hota.bulwark.11sial.specialty.description": "Palielina Ledus bultas burvestības bojājumus par 10% par katriem n varoņa līmeņiem, kur n ir mērķa radības līmenis.",
 	"hero.hota.bulwark.12dalton.specialty.description": "Palielina Vairoga burvestības efektivitāti par 10% par katriem n varoņa līmeņiem, kur n ir mērķa radības līmenis.",
 	"hero.hota.bulwark.13biarma.specialty.description": "Palielina Pirmās palīdzības telts pievienotās veselības daudzumu par 5% par katru varoņa līmeni.",
-	"hero.hota.bulwark.15akka.specialty.description": "Palielina Asinskāres burvestības efektivitāti par 10 punktiem 1.–2. līmeņa radībām, par 8 punktiem 3.–4. līmeņa radībām, par 6 punktiem 5.–6. līmeņa radībām un par 4 punktiem 7. līmeņa radībām.",
 	"hero.core.adela.specialty.description": "Palielina Svētības ietekmē esošo vienību bojājumus par 10% par katriem n varoņa līmeņiem, kur n ir vienības līmenis vienībā.",
 	"hero.core.adelaide.specialty.description": "Palielina \"Sala gredzena\" burvestības bojājumus par 10% par katriem n varoņa līmeņiem, kur n ir mērķa radības līmenis.",
 	"hero.core.adrienne.specialty.description": "Palielina Uguns maģijas burvestību bojājumus par 50%.",
@@ -151,5 +150,6 @@
 	"hero.hota.heroes.kydoimos.specialty.description": "Visi pūķi iegūst +10 uzbrukumā un aizsardzībā.",
 	"hero.hota.heroes.miseria.specialty.description": "Palielina Augšāmcelšanās burvestības efektivitāti par 5% par katriem n varoņa līmeņiem, kur n ir mērķa radības līmenis.",
 	"hero.hota.heroes.ranloo.specialty.description": "Palielina Balistas uzbrukumu un aizsardzību par 30% par katriem 5 varoņa līmeņiem (noapaļojot uz augšu).",
-	"hero.hota.heroes.zog.specialty.description": "Palielina Ogru un Ogru burvju ātrumu par 1, bet uzbrukuma un aizsardzības ātrumu par 20% par katriem 4 varoņu līmeņiem (noapaļojot uz augšu)."
+	"hero.hota.heroes.zog.specialty.description": "Palielina Ogru un Ogru burvju ātrumu par 1, bet uzbrukuma un aizsardzības ātrumu par 20% par katriem 4 varoņu līmeņiem (noapaļojot uz augšu).",
+	"hero.hota.bulwark.14akka.specialty.description": "Palielina Asinskāres burvestības efektivitāti par 10 punktiem 1.–2. līmeņa radībām, par 8 punktiem 3.–4. līmeņa radībām, par 6 punktiem 5.–6. līmeņa radībām un par 4 punktiem 7. līmeņa radībām."
 }

@@ -119,7 +119,6 @@
 	"hero.hota.bulwark.11sial.specialty.description": "每N级提高霹雳寒冰法术的伤害10%，N为目标生物的等级。",
 	"hero.hota.bulwark.12dalton.specialty.description": "每N级提高护体神盾法术的效果10%，N为目标生物的等级。",
 	"hero.hota.bulwark.13biarma.specialty.description": "每级提高急救帐篷恢复的生命值5%",
-	"hero.hota.bulwark.15akka.specialty.description": "提高嗜血奇术法术的效果：1-2级生物10点，3-4级生物8点，5-6级生物6点，7级生物4点。",
 	"hero.hota.cove.02jeremy.specialty.description": "每6级提高加农炮的攻击力和防御力20%（向上取整）。",
 	"hero.hota.cove.03illor.specialty.description": "提高暴风鸟和暴风雕的速度1，每4级提高其攻击力和防御力20%（向上取整）。",
 	"hero.hota.cove.05derek.specialty.description": "提高水手和海员的速度1，每2级提高其攻击力和防御力20%（向上取整）。",
@@ -151,5 +150,6 @@
 	"hero.hota.heroes.kydoimos.specialty.description": "提高龙的攻击力和防御力各10。",
 	"hero.hota.heroes.miseria.specialty.description": "每N级提高转世重生法术的效果5%，N为目标生物的等级。",
 	"hero.hota.heroes.ranloo.specialty.description": "每5级提高弩车的攻击力和防御力30%（向上取整）。",
-	"hero.hota.heroes.zog.specialty.description": "提高食人魔和食人魔法师的速度1，每4级提高其攻击力和防御力20%（向上取整）。"
+	"hero.hota.heroes.zog.specialty.description": "提高食人魔和食人魔法师的速度1，每4级提高其攻击力和防御力20%（向上取整）。",
+	"hero.hota.bulwark.14akka.specialty.description": "提高嗜血奇术法术的效果：1-2级生物10点，3-4级生物8点，5-6级生物6点，7级生物4点。"
 }

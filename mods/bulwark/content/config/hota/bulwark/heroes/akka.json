@@ -1,5 +1,8 @@
 {
-	"15akka" : {
+	"14akka" : {
+		"compatibilityIdentifiers" : [
+			"15akka"
+		],
 		"class" : "elder",
 		"female" : true,
 		"images" : {

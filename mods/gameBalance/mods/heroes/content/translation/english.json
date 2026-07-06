@@ -119,7 +119,7 @@
 	"hero.hota.bulwark.11sial.specialty.description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature.",
 	"hero.hota.bulwark.12dalton.specialty.description" : "Casts Shield with effect increased by 10% for every N hero levels, where N is the level of the target creature.",
 	"hero.hota.bulwark.13biarma.specialty.description" : "Receives a 5% per level bonus to bonus Health provided by the First Aid Tent.",
-	"hero.hota.bulwark.15akka.specialty.description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
+	"hero.hota.bulwark.14akka.specialty.description" : "Casts Bloodlust with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures.",
 	"hero.hota.cove.02jeremy.specialty.description" : "Increases the Cannon's Attack and Defense skills by 20% for every 6 levels (rounded up).",
 	"hero.hota.cove.03illor.specialty.description" : "Increases the Speed of any Stormbirds or Ayssids by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 	"hero.hota.cove.05derek.specialty.description" : "Increases the Speed of any Crew Mates or Seamen by 1 and their Attack and Defense skills by 20% for every 2 levels (rounded up).",
