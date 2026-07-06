@@ -6,7 +6,7 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
-	"version" : "1.3.7",
+	"version" : "1.3.8",
 	"heroes" : [
 		"config/bannedOnMapsWithoutWater/heroes/sylvia",
 		"config/bannedOnMapsWithoutWater/heroes/voy",
@@ -22,6 +22,7 @@
 		"config/necropolis/heroes/boyd",
 		"config/necropolis/heroes/galthran",
 		"config/necropolis/heroes/maximus",
+		"config/necropolis/heroes/lordHaart",
 		"config/rampart/heroes/thorgrim",
 		"config/stronghold/heroes/gruezak",
 		"config/stronghold/heroes/zog"
