@@ -8,6 +8,7 @@
 		"gainChance": {},
 		"defaultGainChance": 0,
 		"flags": {
+			"persistent" : true,
 			"special": true,
 			"indifferent": true
 		},
@@ -22,7 +23,7 @@
 				"range" : "x",
 				"battleEffects": {
 					"obstacle": {
-						"type": "dunesQuicksand",
+						"type": "dunesQuicksand"
 					}
 				}
 			},

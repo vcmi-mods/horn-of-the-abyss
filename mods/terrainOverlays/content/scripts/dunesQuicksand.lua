@@ -38,7 +38,7 @@ end
 function Script:apply(mechanics, server, target)
     local battle = mechanics:getBattle()
     local spell  = mechanics:getSpell()
-    local patchCount = server:rngInt(15, 19)
+    local patchCount = server:rngInt(15, 20)
     local available = {}
     for _, hex in ipairs(hexesFromArray(battle:getAllPossibleHexes())) do
         if isHexAvailable(battle, hex) then
@@ -58,18 +58,19 @@ function Script:apply(mechanics, server, target)
             pos              = hex,
             obstacleType     = ENUM.ObstacleType.spellCreated,
             spell            = spell,
-            casterSpellPower = mechanics:getEffectPower(),
-            spellLevel       = mechanics:getEffectLevel(),
-            casterSide       = -1,
+            casterSpellPower = 20,
+            spellLevel       = 3,
+            casterSide       = 1,
             turnsRemaining   = -1,
-            hidden           = false,
+            hidden           = true,
             passable         = true,
             nativeVisible    = false,
             trap             = true,
             removeOnTrigger  = false,
             appearSound      = "QUIKSAND",
             appearAnimation  = "C17SPE0",
-            animation        = "C17SPE1"
+            animation        = "C17SPE1",
+			customSize		 = { hex }
         }
 
         server:addObstacle(battle, descriptor)
