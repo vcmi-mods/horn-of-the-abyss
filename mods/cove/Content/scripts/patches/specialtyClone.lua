@@ -23,7 +23,7 @@ function Script:apply(mechanics, server, target)
     end
 
     local remainingCharges = totalHeroCharges - totalSpecialtyCastsThisBattle[casterID]
-	
+
     if remainingCharges > 0 then
         totalSpecialtyCastsThisBattle[casterID] = (totalSpecialtyCastsThisBattle[casterID] or 0) + 1
         Base.apply(self, mechanics, server, target)
