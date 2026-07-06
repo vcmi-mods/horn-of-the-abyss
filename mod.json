@@ -8,8 +8,19 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.004",
+	"version" : "1.8.005",
 	"changelog" : {
+		"1.8.005" : [
+			"Updated translations (Czech, French, German, Latvian, Polish, Russian and Ukrainian)",
+			"Added Bulwark Commander and stack experience system",
+			"Adjusted Diplomacy specialty scaling",
+			"Fixed various text/source string issues (including Fireball typo and First Aid consistency)",
+			"Fixed turn duration display",
+			"Fixed Field of Glory battlefield obstacles",
+			"Updated The Mysterious Island map to v1.5f",
+			"Added missing biographies for campaign-only heroes",
+			"Added Highscore creatures list"
+		],
 		"1.8.004" : [
 			"Added japanese (by Carson-N)"
 		],
