@@ -1220,5 +1220,15 @@
 	"map.[hota] fawn's labyrinth.town.216.37.0.name": "Fort Knix",
 	"map.[hota] fawn's labyrinth.town.245.91.0.event.1.description": "Wdzięczni mieszkańcy dołączają do twojej armii!",
 	"map.[hota] fawn's labyrinth.town.25.115.0.event.0.description": "Z gór schodzą kolejne Behemoty!",
-	"map.[hota] fawn's labyrinth.town.25.115.0.name": "Grań behemotów"
+	"map.[hota] fawn's labyrinth.town.25.115.0.name": "Grań behemotów",
+	"map.[hota] finding leena ii.event.0.description": "Raz... dwa... trzy... START!\n\n",
+	"map.[hota] finding leena ii.event.1.description": "Nie za ciężki z ciebie biegacz?",
+	"map.[hota] finding leena ii.guards.0.133.0.message": "Znalazłeś sekretną ścieżkę nr 34",
+	"map.[hota] finding leena ii.guards.0.32.0.message": "Znalazłeś sekretne miejsce nr 39",
+	"map.[hota] finding leena ii.guards.0.32.1.message": "Znalazłeś sekretne miejsce nr 72",
+	"map.[hota] finding leena ii.guards.1.15.1.message": "!!! GRATULACJE !!!\nOdkryłeś ostatnią sekretną lokację nr 74!\nOdnalazłeś Leenę!\n\n\n\n\n",
+	"map.[hota] finding leena ii.guards.1.81.0.message": "Opuszczasz ten obszar i już nigdy tu nie powrócisz. Upewnij się, że zdobyłeś wszystko, co najważniejsze... Płaszcz nieumarłego króla, Zbroję przeklętego, Żelazną pięść ogra, Łuk strzelca, Kulę płonącego ognia oraz Kulę sztormów. Powodzenia w kolejnej przygodzie.",
+	"map.[hota] finding leena ii.guards.100.52.0.message": "Znalazłeś sekretne miejsce nr 5",
+	"map.[hota] finding leena ii.guards.100.56.0.message": "Znalazłeś sekretne miejsce nr 7",
+	"map.[hota] finding leena ii.guards.101.48.0.message": "Znalazłeś sekretną ścieżkę nr 6"
 }
