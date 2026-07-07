@@ -17,9 +17,9 @@
 		},
 		"levels": {
 			"base": {
-				"description": "Places 15 to 19 hidden quicksand patches randomly on the battlefield.",
+				"description": "Places 15 to 20 hidden quicksand patches randomly on the battlefield.",
 				"power" : 0,
-				"cost": 8,
+				"cost": 0,
 				"range" : "x",
 				"battleEffects": {
 					"obstacle": {

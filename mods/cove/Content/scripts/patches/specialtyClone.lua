@@ -1,31 +1,42 @@
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
-local totalSpecialtyCastsThisBattle = {0, 0, 0, 0, 0, 0, 0, 0}
+local function shouldCastSpecialtyClone(mechanics)
+	local caster = mechanics:getHeroCaster()
+	if not caster then
+		return false
+	end
 
-function Script:apply(mechanics, server, target)
-    local caster = mechanics:getHeroCaster()
-	local casterID = caster:getOwner() + 1
-
-    if not caster then
-        Base.apply(self, mechanics, server, target)
-        return
-    end
-
-    local filteredHeroBonuses = caster:getBonuses(function(bonus)
+	local filteredHeroBonuses = caster:getBonuses(function(bonus)
         return bonus:getType() == "SPECIALTY_CLONE"
     end)
+	if filteredHeroBonuses:size() < 1 then
+		return false
+	end
 
-    local totalHeroCharges = 0
+	local specialtyCharges = 0
     for i = 1, filteredHeroBonuses:size() do
         local bonus = filteredHeroBonuses:getBonus(i)
-        totalHeroCharges = totalHeroCharges + bonus:getVal()
+        specialtyCharges = specialtyCharges + bonus:getVal()
     end
+	if specialtyCharges == 0 then
+		return false
+	end
 
-    local remainingCharges = totalHeroCharges - totalSpecialtyCastsThisBattle[casterID]
+	return true
+end
 
-    if remainingCharges > 0 then
-        totalSpecialtyCastsThisBattle[casterID] = (totalSpecialtyCastsThisBattle[casterID] or 0) + 1
+function Script:apply(mechanics, server, target)
+    if shouldCastSpecialtyClone(mechanics) then
+		server:addBattleBonus(mechanics:getBattle(), {
+			type       = "SPECIALTY_CLONE",
+			sourceType = ENUM.BonusSource.spellEffect,
+			val        = -1,
+			valueType  = 0,
+			sourceID   = mechanics:getSpell():getJsonKey(),
+			propagator = BONUS_OWNER_PROPAGATOR,
+			limiters   = { noneOf, OPPOSITE_SIDE }
+		})
         Base.apply(self, mechanics, server, target)
         Base.apply(self, mechanics, server, target)
     else
