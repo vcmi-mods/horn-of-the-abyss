@@ -17,7 +17,8 @@
 			"Fixed various text/source string issues (including Fireball typo and First Aid consistency)",
 			"Fixed turn duration display",
 			"Fixed Field of Glory battlefield obstacles",
-			"Updated The Mysterious Island map to v1.5f",
+			"Fixed Ring of Oblivion to correctly negate Vampire Lords resurrecting",
+			"Updated The Mysterious Island map to v1.5h",
 			"Added missing biographies for campaign-only heroes",
 			"Added Highscore creatures list"
 		],
