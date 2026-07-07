@@ -23,7 +23,7 @@ function Script:apply(mechanics, server, target)
     if shouldCastSpecialtyClone(mechanics) then
 		server:addBattleBonus(mechanics:getBattle(), {
 			type       = "SPECIALTY_CLONE",
-			sourceType = ENUM.BonusSource.spellEffect,
+			sourceType = ENUM.BonusSource.other,
 			val        = -1,
 			valueType  = 0,
 			sourceID   = mechanics:getSpell():getJsonKey(),
