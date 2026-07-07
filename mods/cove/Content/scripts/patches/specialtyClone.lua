@@ -10,20 +10,13 @@ local function shouldCastSpecialtyClone(mechanics)
 	local filteredHeroBonuses = caster:getBonuses(function(bonus)
         return bonus:getType() == "SPECIALTY_CLONE"
     end)
-	if filteredHeroBonuses:size() < 1 then
-		return false
-	end
 
 	local specialtyCharges = 0
     for i = 1, filteredHeroBonuses:size() do
-        local bonus = filteredHeroBonuses:getBonus(i)
-        specialtyCharges = specialtyCharges + bonus:getVal()
+        specialtyCharges = specialtyCharges + filteredHeroBonuses:getBonus(i):getVal()
     end
-	if specialtyCharges == 0 then
-		return false
-	end
 
-	return true
+	return specialtyCharges > 0
 end
 
 function Script:apply(mechanics, server, target)
