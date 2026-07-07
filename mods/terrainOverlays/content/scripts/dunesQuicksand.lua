@@ -56,7 +56,7 @@ function Script:apply(mechanics, server, target)
         local hex = available[i]
         local descriptor = {
             pos              = hex,
-            obstacleType     = ENUM.ObstacleType.spellCreated,
+            obstacleType     = ENUM.ObstacleType.usual,
             spell            = spell,
             casterSpellPower = 20,
             spellLevel       = 3,
