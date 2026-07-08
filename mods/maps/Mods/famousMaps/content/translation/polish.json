@@ -1361,5 +1361,8 @@
 	"map.[hota] finding leena.sign.71.132.0.message": "Znajdź dwa artefakty",
 	"map.[hota] finding leena.sign.77.6.0.message": "Znajdź ukryte w dżungli miasto. ",
 	"map.[hota] finding leena.sign.79.31.0.message": "Droga wiedzie dalej przez wodę. Użyj spaceru po wodzie.",
-	"map.[hota] finding leena.town.5.5.1.event.0.description": "Zabierz"
+	"map.[hota] finding leena.town.5.5.1.event.0.description": "Zabierz",
+	"map.[hota] valiant beast hunting (allied).event.0.description": "Notka od autora:\nZalecam rozgrywanie tej mapy na poziomie trudnym, bardzo trudnym lub super trudnym. Dla każdego z tych poziomów ustawiono odpowiednie modyfikatory trudności. Bossowie będą dysponować różnymi punktami ruchu w zależności od wybranego poziomu. Powodzenia i udanych łowów na bestie!",
+	"map.[hota] valiant beast hunting (allied).event.1.description": "Po świecie rozeszły się wieści, że Zaklinaczka Władców Bestii zawładnęła centralnymi wyspami. Jej słudzy nie oszczędzą nikogo, poszerzając granice swego imperium. Jednakże wiele dzikich bestii wciąż pozostaje nieokiełznanych, zagradzając szlaki handlowe i hamując ekspansję. Lecz ona nie spocznie, dopóki nie podporządkuje sobie całego świata.",
+	"map.[hota] valiant beast hunting (allied).event.10.description": "Po świecie krążą wieści, że Mistyczna Brama, dzięki której Zaklinaczka mogła pozostać ukryta i bez przeszkód gromadzić potężne zastępy, zaczęła tracić swą moc. Pozostało nam zaledwie 7 dni, nim zaklęcie się rozproszy, a ona ponownie wkroczy do świata. Zaledwie ubiegłej nocy usłyszałem opowieść starego mędrca, który twierdził, że zanim Zaklinaczka zawładnęła wyspami, zdołała wykuć Żelazną Pięść Ogra. Słusznie uczyniliśmy, szykując się na jej nadejście. Jej potęga będzie ogromna."
 }
