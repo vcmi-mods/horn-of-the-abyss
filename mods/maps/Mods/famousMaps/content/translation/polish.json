@@ -1558,5 +1558,22 @@
 	"map.[hota] valiant beast hunting.guards.38.171.0.message": "Ta skrzynia jest strzeżona przez 50–99 piratów i korsarzy. Czy chcesz kontynuować?",
 	"map.[hota] valiant beast hunting.guards.38.171.1.message": "Ta skrzynia jest strzeżona przez 50–99 piratów i korsarzy. Czy chcesz kontynuować?",
 	"map.[hota] valiant beast hunting.guards.6.23.0.message": "Ta skrzynia jest strzeżona przez 50–99 piratów i korsarzy. Czy chcesz kontynuować?",
-	"map.[hota] valiant beast hunting.guards.9.23.1.message": "Ta skrzynia jest strzeżona przez 50–99 piratów i korsarzy. Czy chcesz kontynuować?"
+	"map.[hota] valiant beast hunting.guards.9.23.1.message": "Ta skrzynia jest strzeżona przez 50–99 piratów i korsarzy. Czy chcesz kontynuować?",
+	"map.[hota] valiant beast hunting (allied).guards.69.98.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting (allied).guards.80.94.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting (allied).guards.83.72.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting (allied).guards.94.99.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting (allied).guards.98.72.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.100.86.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.69.98.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.80.94.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.83.72.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.94.99.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting.guards.98.72.0.message": "Musimy być już blisko",
+	"map.[hota] valiant beast hunting (allied).guards.73.36.1.message": "Legendarna gwardia Władców Bestii",
+	"map.[hota] valiant beast hunting (allied).guards.30.111.0.message": "Legendarna Gwardia Władców Bestii",
+	"map.[hota] valiant beast hunting (allied).guards.77.148.0.message": "Legendarna Gwardia Władców Bestii",
+	"map.[hota] valiant beast hunting (allied).guards.77.75.0.message": "Jeśli jesteś gotów stawić czoła Zaklinaczce, ten portal przeniesie cię do ukrytej bramy na centralnych wyspach.\n{Przeciwniczka jest niezwykle wymagająca. Zalecane statystyki bohatera: 60/60/60/60.}\n\nPo pokonaniu Zaklinaczki powinniśmy dokładnie przeszukać wyspy. Być może odnajdziemy tam skarby przechowywane przez Władców Bestii - łupy odebrane ich dawnym rywalom. Możliwe, że znajdziemy również wskazówkę dotyczącą tego, kiedy Król Bestii ujawni się światu. Skarbce Zaklinaczki z pewnością kryją wiele cennych przedmiotów.\n\n",
+	"map.[hota] valiant beast hunting (allied).guards.78.134.1.message": "My, 30 Błękitnych Smoków, będziemy strzec Naszyjnika Morskiego Przewodnictwa aż do ostatniego tchnienia. Nigdy przed wami nie uciekniemy. ",
+	"map.[hota] valiant beast hunting (allied).guards.78.75.1.message": "Jeśli jesteś gotów stawić czoła Zaklinaczce, ten portal przeniesie cię do ukrytej bramy na centralnych wyspach.\n{Zaklinaczka jest niezwykle potężnym przeciwnikiem. Zalecane statystyki bohatera: 60/60/60/60.}\n\nPo pokonaniu Zaklinaczki powinniśmy dokładnie przeszukać wyspy. W jej skarbcach ukryto wiele cennych przedmiotów, z których część z pewnością okaże się niezbędna w nadchodzącym starciu z Królem Bestii.\n\n"
 }
