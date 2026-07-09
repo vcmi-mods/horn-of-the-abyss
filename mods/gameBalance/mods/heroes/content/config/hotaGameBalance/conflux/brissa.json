@@ -1,48 +1,5 @@
 {
 	"core:brissa" : {
-		"specialty#override" : {
-			"base" : {
-				"type" : "STACKS_SPEED",
-				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusSourceType" : "SPELL_EFFECT",
-						"bonusSourceID" : "spell.haste"
-					}
-				]
-			},
-			"bonuses" : {
-				"bonusSpeed14" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"maxlevel" : 5
-						}
-					},
-					"val" : 3
-				},
-				"bonusSpeed56" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 7
-						}
-					},
-					"val" : 2
-				},
-				"bonusSpeed7" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7
-						}
-					},
-					"val" : 1
-				}
-			}
-		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Haste with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures."
