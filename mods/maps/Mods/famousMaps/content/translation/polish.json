@@ -1508,5 +1508,8 @@
 	"map.[hota] valiant beast hunting.guards.168.18.0.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
 	"map.[hota] valiant beast hunting.guards.19.165.0.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
 	"map.[hota] valiant beast hunting.guards.19.165.1.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
-	"map.[hota] valiant beast hunting.guards.34.4.1.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek"
+	"map.[hota] valiant beast hunting.guards.34.4.1.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
+	"map.[hota] valiant beast hunting (allied).event.4.description": "Czarodzieje przebadali zniszczoną wieżę. Wśród gruzów odnaleźli zbiór starożytnych zwojów i manuskryptów. Po wielu godzinach ich mozolnego odczytywania odkryli, że twierdza ta była niegdyś potężnym sanktuarium Magii powietrza. Nie ulega wątpliwości, że odbudowa tego miejsca oraz zgłębianie tajników Magii Powietrza zapewni nam ogromną przewagę nad wrogami.",
+	"map.[hota] valiant beast hunting (allied).event.40.description": "Zwiadowcy donoszą, że w tym miesiącu na wodach dostrzeżono dodatkowe patrole Władców Bestii. Wygląda na to, że zaciągają kolejnych wojowników, by umocnić swoje panowanie nad centralnymi wyspami archipelagu. Powinniśmy zachować szczególną ostrożność na morzu - nie sposób przewidzieć, jak bardzo urośli w siłę.",
+	"map.[hota] valiant beast hunting (allied).event.42.description": "Powinniśmy zachować czujność. Znajdujący się nieopodal miasta złoty monolit wejścia istnieje od setek lat, lecz jego wyjście już dawno popadło w zapomnienie. Treść listu od Króla Bestii zdradza, że jest on przekonany o możliwości łatwego dotarcia do naszych ziem. Być może odnalazł wyjście ze złotego monolitu. "
 }
