@@ -1584,5 +1584,8 @@
 	"map.[hota] valiant beast hunting (allied).guards.96.103.0.message": "To kluczowy artefakt potrzebny do otwarcia drzwi skarbca. Jeśli go utracisz, nie będzie możliwości zdobycia kolejnego. Drugi skarbiec znajduje się gdzieś na centralnych wyspach.",
 	"map.[hota] valiant beast hunting (allied).guards.15.175.0.message": "Świat jest rozległy i pełen niebezpieczeństw. Powinniśmy wykorzystać Kulę osłabienia, aby móc wskrzeszać czarne smoki. ",
 	"map.[hota] valiant beast hunting (allied).guards.150.65.1.message": "Za darmo",
-	"map.[hota] valiant beast hunting (allied).guards.150.84.0.message": "Strzeżony przez 200 Hydr legendarny skarb Władców Bestii "
+	"map.[hota] valiant beast hunting (allied).guards.150.84.0.message": "Strzeżony przez 200 Hydr legendarny skarb Władców Bestii ",
+	"map.[hota] valiant beast hunting (allied).guards.97.128.0.message": "20 starożytnych behemotów",
+	"map.[hota] valiant beast hunting (allied).guards.99.91.0.message": "Premia do szybkości",
+	"map.[hota] valiant beast hunting (allied).header.heroNames.115": "Zaklinaczka"
 }
