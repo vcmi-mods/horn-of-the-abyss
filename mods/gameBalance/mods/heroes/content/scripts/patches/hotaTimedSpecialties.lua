@@ -51,6 +51,21 @@ function Script:applyHeroSpecialty(mechanics, buffer, unit)
 					end
 				end
 				goto endpeculiar
+			elseif spellKey == "core:bless" then
+				local increments = math.floor(peculiar:getBonus(1):getVal() / tier)
+				if increments > 0 then
+					local bonus = {
+						type = "GENERAL_DAMAGE_PREMY",
+						val = 10 * increments,
+						valueType = "BASE_NUMBER",
+						duration = "N_TURNS",
+						turns = mechanics:getEffectDuration(),
+						sourceType = "SPELL_EFFECT",
+						sourceID = "core:bless"
+					}
+					buffer["adelaDamagePremy"] = self:deepCopyBonus(bonus)
+				end
+				goto endpeculiar
 			end
 		end
 		if power ~= 0 then
