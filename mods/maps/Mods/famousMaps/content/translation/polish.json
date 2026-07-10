@@ -1743,5 +1743,19 @@
 	"map.[hota] valiant beast hunting.quest.98.103.0.nextVisit": "Sekretny skarbiec Zaklinaczki",
 	"map.[hota] valiant beast hunting (allied).quest.82.88.0.firstVisit": "Sekretny skarbiec Zaklinaczki",
 	"map.[hota] valiant beast hunting (allied).sign.131.102.1.message": "20/200/15/40/15/200/20",
-	"map.[hota] valiant beast hunting (allied).sign.131.106.1.message": "Czynne wulkany"
+	"map.[hota] valiant beast hunting (allied).sign.131.106.1.message": "Czynne wulkany",
+	"map.[hota] valiant beast hunting (allied).guards.153.26.0.message": "Kości mamy w nadmiarze. Hehehe... HAHAHAHA!",
+	"map.[hota] valiant beast hunting (allied).guards.154.159.1.message": "To musi być mój szczęśliwy dzień\n",
+	"map.[hota] valiant beast hunting (allied).guards.154.161.0.message": "Uuuu La LA!",
+	"map.[hota] valiant beast hunting (allied).guards.154.25.1.message": "Morze jest bezkresne, a manę trudno odnowić. ",
+	"map.[hota] valiant beast hunting (allied).guards.157.20.0.message": "Ach, wreszcie człowiek z jakimś celem. A przynajmniej mam taką nadzieję.",
+	"map.[hota] valiant beast hunting (allied).guards.157.4.0.message": "Z niedowierzaniem podnosisz Amulet grabarza. Wcześniej odnalazłeś już Całun oraz Buty truposza. Wszystko wskazuje na to, że elementy legendarnego Płaszcza nieumarłego króla zaczynają się odnajdywać. Czyżby Płaszcz nieumarłego króla był już na wyciągnięcie ręki? Czy też jego niezwykła moc pozostaje jedynie legendą?",
+	"map.[hota] valiant beast hunting (allied).guards.161.149.1.message": "Oby przed nami znalazło się dość miejsca dla naszego okrętu...",
+	"map.[hota] valiant beast hunting (allied).guards.162.148.0.message": "Oby przed nami znalazło się dość miejsca dla naszego okrętu...",
+	"map.[hota] valiant beast hunting (allied).guards.162.2.0.message": "Ukryte złoto chłopów",
+	"map.[hota] valiant beast hunting (allied).guards.164.6.1.message": "Ukryta dolina dzików po lewej",
+	"map.[hota] valiant beast hunting (allied).guards.166.5.0.message": "Jakże wiele kości... Muahahahahaha!!! Przeczucie mówi mi, że powinniśmy uratować każdego chłopa i w przyszłości upomnieć się o należną nagrodę. Lecz cóż... rzeź ma w sobie również pewien urok.",
+	"map.[hota] valiant beast hunting (allied).guards.167.7.0.message": "Krążą pogłoski o mieszkającym pośród mórz jasnowidzu, który poszukuje 4000 chłopów uchodźców. Nagroda, jaką oferuje, podobno jest naprawdę niezwykła... możliwe, że nawet jakiś wyjątkowo elegancki płaszcz. Mimo wszystko... kilka dodatkowych trupów nie zrobi większej różnicy.",
+	"map.[hota] valiant beast hunting (allied).guards.170.160.0.message": "Mówi się, że fragmenty Eliksiru życia zostały ukryte w różnych zakątkach tej krainy. Musimy podjąć wysiłek i odnaleźć je wszystkie, gdyż jego moc może okazać się dla nas bezcenna.",
+	"map.[hota] valiant beast hunting (allied).guards.170.7.0.message": "Zwiadowca:\n\"Panie, przed nami dostrzegam kilku posłańców. Lepiej wysłuchajmy ich słów, zanim podejmiemy jakiekolwiek działania wobec tych chłopów.\""
 }
