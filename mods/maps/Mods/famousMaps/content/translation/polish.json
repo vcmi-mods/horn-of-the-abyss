@@ -1869,5 +1869,9 @@
 	"map.[hota] valiant beast hunting (allied).sign.99.102.1.message": "Tajny kod to: 32167",
 	"map.[hota] valiant beast hunting (allied).town.10.37.1.name": "Strażnica",
 	"map.[hota] valiant beast hunting (allied).town.105.102.0.name": "Przeklęty fort",
-	"map.[hota] valiant beast hunting (allied).town.105.102.1.name": "Wrota królów"
+	"map.[hota] valiant beast hunting (allied).town.105.102.1.name": "Wrota królów",
+	"map.[hota] valiant beast hunting (allied).town.12.36.0.name": "Pustynne czerwie",
+	"map.[hota] valiant beast hunting.event.0.description": "Notka od autora:\nZalecam rozgrywanie tej mapy na poziomie trudnym, bardzo trudnym lub super trudnym. Dla każdego z tych poziomów ustawiono odpowiednie modyfikatory trudności. Bossowie będą dysponować różnymi punktami ruchu w zależności od wybranego poziomu. Powodzenia i udanych łowów na bestie!",
+	"map.[hota] valiant beast hunting.event.1.description": "Po świecie rozeszły się wieści, że Zaklinaczka Władców Bestii zawładnęła centralnymi wyspami. Jej słudzy nie oszczędzą nikogo, poszerzając granice swego imperium. Jednakże wiele dzikich bestii wciąż pozostaje nieokiełznanych, zagradzając szlaki handlowe i hamując ekspansję. Lecz ona nie spocznie, dopóki nie podporządkuje sobie całego świata.",
+	"map.[hota] valiant beast hunting.event.10.description": "Po świecie krążą wieści, iż mistyczna brama, dzięki której Zaklinaczka mogła pozostać ukryta i bez przeszkód gromadzić potężne zastępy, zaczęła tracić swą moc. Pozostało nam zaledwie siedem dni, nim zaklęcie się rozproszy, a ona ponownie wkroczy do świata. Zaledwie ubiegłej nocy usłyszałem opowieść starego mędrca, który twierdził, że zanim Zaklinaczka zawładnęła wyspami, zdołała wykuć Żelazną pięść ogra. Słusznie uczyniliśmy, szykując się na jej nadejście. Jej potęga będzie ogromna."
 }
