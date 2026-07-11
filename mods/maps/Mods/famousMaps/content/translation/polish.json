@@ -1841,5 +1841,19 @@
 	"map.[hota] valiant beast hunting.sign.177.158.1.message": "Trzęsawisko",
 	"map.[hota] valiant beast hunting.quest.96.104.0.completed": "Król Bestii gromadzi swe siły w podziemiach centralnych wysp. Aby zapewnić sobie zwycięstwo, musisz go pokonać. Możesz do niego dotrzeć, przeszukując trzęsawiska znajdujące się w podziemnym oceanie, w najdalszym południowo-wschodnim zakątku krainy. Choć jeśli nie potrafisz latać... nawet nie próbuj.",
 	"map.[hota] valiant beast hunting.quest.96.104.0.firstVisit": "Król Bestii gromadzi swe siły w podziemiach centralnych wysp. Aby zapewnić sobie zwycięstwo, musisz go pokonać. Możesz do niego dotrzeć, przeszukując trzęsawiska znajdujące się w podziemnym oceanie, w najdalszym południowo-wschodnim zakątku krainy. Choć jeśli nie potrafisz latać... nawet nie próbuj.",
-	"map.[hota] valiant beast hunting.quest.96.104.0.nextVisit": "Król Bestii gromadzi swe siły w podziemiach centralnych wysp. Aby zapewnić sobie zwycięstwo, musisz go pokonać. Możesz do niego dotrzeć, przeszukując trzęsawiska znajdujące się w podziemnym oceanie, w najdalszym południowo-wschodnim zakątku krainy. Choć jeśli nie potrafisz latać... nawet nie próbuj."
+	"map.[hota] valiant beast hunting.quest.96.104.0.nextVisit": "Król Bestii gromadzi swe siły w podziemiach centralnych wysp. Aby zapewnić sobie zwycięstwo, musisz go pokonać. Możesz do niego dotrzeć, przeszukując trzęsawiska znajdujące się w podziemnym oceanie, w najdalszym południowo-wschodnim zakątku krainy. Choć jeśli nie potrafisz latać... nawet nie próbuj.",
+	"map.[hota] valiant beast hunting (allied).sign.158.6.0.message": "Wschód: nieodkryte sekrety Nekromancji.\n\nPółnoc: warty odwiedzenia Jasnowidz.\n\nWskazówka: Płaszcz nieumarłego króla jest możliwy do zdobycia, lecz dopiero w późniejszym etapie wyprawy.",
+	"map.[hota] valiant beast hunting (allied).sign.16.4.0.message": "Podążaj drogą na południe, aż dotrzesz do kolejnego miasta.",
+	"map.[hota] valiant beast hunting (allied).sign.164.6.0.message": "Tyle chłopów w jednym miejscu... ",
+	"map.[hota] valiant beast hunting (allied).sign.16.67.0.message": "Jałowe nadbrzeże",
+	"map.[hota] valiant beast hunting (allied).sign.160.120.0.message": "Jałowe nadbrzeże",
+	"map.[hota] valiant beast hunting (allied).sign.164.72.0.message": "Jałowe nadbrzeże",
+	"map.[hota] valiant beast hunting (allied).sign.165.138.0.message": "Pomocy! Zostałam pojmana przez Władców Bestii. Nie jestem w stanie się uwolnić. Jeśli czytasz tę wiadomość, podążaj na południe przez chmury. Znajdziesz mnie na wybrzeżu.\n\n- Neia",
+	"map.[hota] valiant beast hunting (allied).sign.170.122.0.message": "Te schody są jedynie iluzją. A tak przy okazji - ta wyspa jest całkowicie opuszczona.\n",
+	"map.[hota] valiant beast hunting (allied).sign.173.12.1.message": "Północ - Miejski portal\nPołudnie - stocznia\nZachód - miasto",
+	"map.[hota] valiant beast hunting (allied).sign.173.17.1.message": "Kamień nagrobny\n\n\"Thorgrim - Wygnaniec, Ten, Który Zaginął\"\n\nWygnany za nauczanie zakazanych sztuk: Odporności i Run..\n\nZbiegł w miejsce o współrzędnych: 175, 175, 1",
+	"map.[hota] valiant beast hunting (allied).sign.173.7.1.message": "Pomysł na nowe zaklęcie dla Inferno\n\nDostępne wyłącznie dla frakcji Inferno: „Bicz Potępieńców”.\n\nPoziom 3 - Magia ognia. Wskrzesza poległe jednostki Inferno, przemieniając je w demony.\n",
+	"map.[hota] valiant beast hunting (allied).sign.175.171.1.message": "Wasilix, jak udało ci się tutaj dotrzeć tak szybko?\n- V",
+	"map.[hota] valiant beast hunting (allied).sign.176.169.1.message": "Za nic w świecie nie zbliżaj się do Białego namiotu.",
+	"map.[hota] valiant beast hunting (allied).sign.177.119.0.message": "Un-Wavering shore\n\nCelowa (i nieprzetłumaczalna) gra słów."
 }
