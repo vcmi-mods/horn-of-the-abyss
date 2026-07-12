@@ -1792,7 +1792,7 @@
 	"map.[hota] valiant beast hunting (allied).quest.165.4.0.firstVisit": "To okropne sprzedawać ludzi za drewno... lecz zapasy drewna topnieją w zastraszającym tempie. Dostarcz mi 38 sztuk drewna, a otrzymasz 75 Chłopów. Możemy zawierać tak umowę podczas każdych odwiedzin. Ach... chyba naprawdę zatraciłem wszelkie skrupuły.",
 	"map.[hota] valiant beast hunting (allied).quest.165.4.0.nextVisit": "Cóż, to nie wystarczy. Dostarcz mi 38 sągów drewna i ani jednego mniej. \n",
 	"map.[hota] valiant beast hunting (allied).quest.165.4.0.completed": "W końcu... Przekaż mi 38 sztuk drewna, a ja oddam ci... ludzi. Nie pytaj.",
-	"map.[hota] valiant beast hunting (allied).quest.174.161.0.nextVisit": "Czyżbyś wciąż nie odnalazł 16 górskich garłaczy?",
+	"map.[hota] valiant beast hunting (allied).quest.174.161.0.nextVisit": "Czyżbyś wciąż nie odnalazł 16 koziorożców?",
 	"map.[hota] valiant beast hunting (allied).quest.174.161.0.completed": "Proszę, oto moja szesnastka. Dziękuję za odwiedziny.",
 	"map.[hota] valiant beast hunting (allied).quest.177.166.1.firstVisit": "Strażnicy oznajmiają, że mają rozkaz przepuścić wyłącznie Thorgrima. Nikt inny nie może przejść.",
 	"map.[hota] valiant beast hunting (allied).quest.180.166.1.firstVisit": "Strażnicy oznajmiają, że mają rozkaz przepuścić wyłącznie Thorgrima. Nikt inny nie może przejść.",
@@ -1956,5 +1956,17 @@
 	"map.[hota] valiant beast hunting.guards.157.4.0.message": "Z niedowierzaniem podnosisz Amulet grabarza. Wcześniej odnalazłeś już Całun oraz Buty truposza. Wszystko wskazuje na to, że elementy legendarnego Płaszcza nieumarłego króla zaczynają się odnajdywać. Czyżby Płaszcz nieumarłego króla był już na wyciągnięcie ręki? Czy też jego niezwykła moc pozostaje jedynie legendą?",
 	"map.[hota] valiant beast hunting.guards.161.149.1.message": "Oby przed nami znalazło się dość miejsca dla naszego okrętu...",
 	"map.[hota] valiant beast hunting.guards.162.148.0.message": "Oby przed nami znalazło się dość miejsca dla naszego okrętu...",
-	"map.[hota] valiant beast hunting.guards.162.2.0.message": "Ukryte złoto chłopów"
+	"map.[hota] valiant beast hunting.guards.162.2.0.message": "Ukryte złoto chłopów",
+	"map.[hota] valiant beast hunting.guards.164.6.1.message": "Ukryta dolina dzików po lewej",
+	"map.[hota] valiant beast hunting.guards.166.5.0.message": "Jakże wiele kości... Muahahahahaha!!! Przeczucie mówi mi, że powinniśmy uratować każdego chłopa i w przyszłości upomnieć się o należną nagrodę. Lecz cóż... rzeź ma w sobie również pewien urok.",
+	"map.[hota] valiant beast hunting.guards.167.7.0.message": "Krążą pogłoski o mieszkającym pośród mórz jasnowidzu, który poszukuje 4000 chłopów uchodźców. Nagroda, jaką oferuje, podobno jest naprawdę niezwykła... możliwe, że nawet jakiś wyjątkowo elegancki płaszcz. Mimo wszystko... kilka dodatkowych trupów nie zrobi większej różnicy.",
+	"map.[hota] valiant beast hunting.quest.174.161.0.nextVisit": "Czyżbyś wciąż nie odnalazł 16 koziorożców?",
+	"map.[hota] valiant beast hunting.guards.170.160.0.message": "Mówi się, że fragmenty Eliksiru życia zostały ukryte w różnych zakątkach tej krainy. Musimy podjąć wysiłek i odnaleźć je wszystkie, gdyż jego moc może okazać się dla nas bezcenna.",
+	"map.[hota] valiant beast hunting.guards.170.7.0.message": "Zwiadowca:\n\"Panie, przed nami dostrzegam kilku posłańców. Lepiej wysłuchajmy ich słów, zanim podejmiemy jakiekolwiek działania wobec tych chłopów.\"",
+	"map.[hota] valiant beast hunting.guards.176.172.0.message": "Na mapie odkryto nowego jasnowidza, który może zaoferować niezwykle cenną nagrodę. Udaj się na zachód i odszukaj jałowe pustkowia. Tam powinieneś go znaleźć!",
+	"map.[hota] valiant beast hunting.guards.176.173.0.message": "Mówi się, że fragmenty Eliksiru życia zostały ukryte w różnych zakątkach tej krainy. Musimy podjąć wysiłek i odnaleźć je wszystkie, gdyż jego moc może okazać się dla nas bezcenna.",
+	"map.[hota] valiant beast hunting.guards.176.5.0.message": "Zwiadowcy oznaczyli na południowo-wschodnim krańcu mapy miejsce pobytu cennego jasnowidza. Powinniśmy udać się tam i wysłuchać, co ma nam do powiedzenia.",
+	"map.[hota] valiant beast hunting.guards.23.10.0.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
+	"map.[hota] valiant beast hunting.guards.24.10.1.message": "Skarb Władców Bestii - średnio strzeżony przez 8 wiwern, 30 jaszczuroludzi i 30 ważek",
+	"map.[hota] valiant beast hunting.guards.28.6.0.message": "Głos z bocianiego gniazda:\nKapitanie! Więzienie! Na północy!!"
 }
