@@ -1014,5 +1014,8 @@
 	"artifact.hota.supplementary.garbAnduran.name": "Бойове Вбрання Андурана",
 	"artifact.hota.supplementary.helmetAnduran.description": "{Шолом Андурана}\n\nДумка того, хто його носить, залишається чистою і непорушною. Збільшує Знання на 5.",
 	"artifact.hota.supplementary.helmetAnduran.event": "Ви чули, що Шолом Андурана належав святому лицарю, тому ви його підбираєте в надії що його священе світло захистить вас.",
-	"artifact.hota.supplementary.helmetAnduran.name": "Шолом Андурана"
+	"artifact.hota.supplementary.helmetAnduran.name": "Шолом Андурана",
+	"artifact.hota.supplementary.plateAnduran.description": "{Обладунки Андурана}\n\nМагічна енергія проходить через них з більшою силою. Збільшує Силу Магії на 5.",
+	"artifact.hota.supplementary.plateAnduran.event": "Ви чули, що Обладунки Андурана належали святому лицарю, тому ви їх підбираєте в надії що їх священе світло захистить вас.",
+	"artifact.hota.supplementary.plateAnduran.name": "Обладунки Андурана"
 }
