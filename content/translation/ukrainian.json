@@ -1017,5 +1017,14 @@
 	"artifact.hota.supplementary.helmetAnduran.name": "Шолом Андурана",
 	"artifact.hota.supplementary.plateAnduran.description": "{Обладунки Андурана}\n\nМагічна енергія проходить через них з більшою силою. Збільшує Силу Магії на 5.",
 	"artifact.hota.supplementary.plateAnduran.event": "Ви чули, що Обладунки Андурана належали святому лицарю, тому ви їх підбираєте в надії що їх священе світло захистить вас.",
-	"artifact.hota.supplementary.plateAnduran.name": "Обладунки Андурана"
+	"artifact.hota.supplementary.plateAnduran.name": "Обладунки Андурана",
+	"artifact.hota.supplementary.shieldAnduran.description": "{Щит Андурана}\n\nЗгідно з легендами, він витримав навіть найсильніші удари. Збільшує Захист на 5.",
+	"artifact.hota.supplementary.shieldAnduran.event": "Ви чули, що Щит Андурана належав святому лицарю, тому ви його підбираєте в надії що його священе світло захистить вас.",
+	"artifact.hota.supplementary.shieldAnduran.name": "Щит Андурана",
+	"artifact.hota.supplementary.swordAnduran.description": "{Меч Андурана}\n\nЙого лезо сяє люттю справедливості. Збільшує Атаку на 5.",
+	"artifact.hota.supplementary.swordAnduran.event": "Ви чули, що Меч Андурана належав святому лицарю, тому ви його підбираєте в надії що його священе світло захистить вас.",
+	"artifact.hota.supplementary.swordAnduran.name": "Меч Андурана",
+	"creatures.hota.bulwark.greatShaman.bonus.freezingShot": "{Заморожуючий Постріл}\nМає 20% шанс заморозити ворожий загін після пострілу.",
+	"creatures.hota.bulwark.greatShaman.name.plural": "Старших Шаманів",
+	"creatures.hota.bulwark.greatShaman.name.singular": "Старший Шаман"
 }
