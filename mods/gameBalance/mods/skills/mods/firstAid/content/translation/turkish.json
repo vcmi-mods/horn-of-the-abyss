@@ -1,1 +1,6 @@
-{}
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description": "{İlk Yardım Çadırı}\nHero, bir İlk Yardım Çadırı taşıyor.",
+	"skill.core.firstAid.description.advanced": "{Gelişmiş İlk Yardım}\n\nGelişmiş İlk Yardım, kahramana İlk Yardım Çadırı’nın kontrolünü verir. İlk Yardım Çadırı, bir yığındaki ilk birimin aldığı hasarı 75 puan iyileştirir ve tüm müttefik yaratıklara +%10 Sağlık kazandırır. İlk Yardım Çadırı, tek bir saldırıdan Sağlık değerinin %40’ından fazla hasar alamaz.",
+	"skill.core.firstAid.description.basic": "{Temel İlk Yardım}\n\nTemel İlk Yardım, kahramana İlk Yardım Çadırı’nın kontrolünü verir. İlk Yardım Çadırı, bir yığındaki ilk birimin aldığı hasarı 50 puan iyileştirir ve tüm müttefik yaratıklara %5 Sağlık kazandırır. İlk Yardım Çadırı, tek bir saldırıdan aldığı hasar, Sağlık değerinin %40’ını aşamaz.",
+	"skill.core.firstAid.description.expert": "{Uzman İlk Yardım}\n\nUzman İlk Yardım, kahramana İlk Yardım Çadırı’nın kontrolünü verir. İlk Yardım Çadırı, bir yığındaki ilk birimin aldığı hasarı 100 puan iyileştirir ve tüm müttefik yaratıklara +%15 Sağlık kazandırır. İlk Yardım Çadırı, tek bir saldırıdan dolayı Sağlık değerinin %40’ından fazla hasar alamaz."
+}

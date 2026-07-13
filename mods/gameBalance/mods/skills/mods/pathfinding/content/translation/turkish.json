@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.pathfinding.description.advanced": "{Gelişmiş Yol Bulma}\n\nGelişmiş Yol Bulma, engebeli arazide hareket cezasını azaltır; böylece hareket maliyetini %50 oranında düşürür ve minimum maliyetini %90’a indirir.",
+	"skill.core.pathfinding.description.basic": "{Temel Yol Bulma}\n\nTemel Yol Bulma, engebeli arazide hareket cezasını azaltır ve hareket maliyetini %25 oranında düşürerek minimum %95’e indirir.",
+	"skill.core.pathfinding.description.expert": "{Uzman Yol Bulma}\n\nUzman Yol Bulma, engebeli arazide hareket cezasını ortadan kaldırarak hareket maliyetini %75 oranında azaltır ve minimum maliyetini %85’e düşürür."
+}

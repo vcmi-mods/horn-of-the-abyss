@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.learning.description.advanced": "{İleri Düzey Öğrenme}\n\nİleri Düzey Öğrenme, kahramanın kazandığı deneyim puanlarını %40 artırır.",
+	"skill.core.learning.description.basic": "{Temel Öğrenme}\n\nTemel Öğrenme, kahramanın kazandığı deneyim puanlarını %20 artırır.",
+	"skill.core.learning.description.expert": "{Uzman Öğrenme}\n\nUzman Öğrenme, kahramanın kazandığı deneyim puanlarını %60 artırır."
+}
