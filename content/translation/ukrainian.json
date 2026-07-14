@@ -1028,5 +1028,7 @@
 	"creatures.hota.bulwark.greatShaman.name.plural": "Старших Шаманів",
 	"creatures.hota.bulwark.greatShaman.name.singular": "Старший Шаман",
 	"creatures.hota.bulwark.jotunn.bonus.castsTeleport": "{Чарівник}\nМоже використовувати Телепорт 3-го рівня (1 раз за бій).",
-	"creatures.hota.bulwark.jotunn.bonus.windAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога нс 1."
+	"creatures.hota.bulwark.jotunn.bonus.windAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога нс 1.",
+	"creatures.hota.bulwark.jotunnWarlord.bonus.castsTeleport": "{Чарівник}\nМоже використовувати Телепорт 3-го рівня (необмежено).",
+	"creatures.hota.bulwark.jotunnWarlord.bonus.improvedWindAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога на 2."
 }
