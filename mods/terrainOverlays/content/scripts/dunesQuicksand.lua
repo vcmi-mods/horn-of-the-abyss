@@ -16,11 +16,9 @@ local function isHexAvailable(battle, hex)
     if battle:getUnitByPos(hex, true) ~= nil then return false end
 
     local obstacles = battle:getObstaclesOnPos(hex, false)
-    if #obstacles > 0 then
-        for _, o in ipairs(obstacles) do
-            if o:getObstacleType() ~= ENUM.ObstacleType.moat then
-                return false
-            end
+    for _, o in ipairs(obstacles or {}) do
+        if o:getObstacleType() ~= ENUM.ObstacleType.moat then
+            return false
         end
     end
 
@@ -60,7 +58,7 @@ function Script:apply(mechanics, server, target)
             spell            = spell,
             casterSpellPower = 20,
             spellLevel       = 3,
-            casterSide       = 1,
+            casterSide       = -1,
             turnsRemaining   = -1,
             hidden           = true,
             passable         = true,
