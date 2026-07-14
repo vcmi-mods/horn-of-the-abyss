@@ -2164,5 +2164,14 @@
 	"map.[hota] gelu and hota 20.event.31.description": "złoto",
 	"map.[hota] gelu and hota 20.event.4.description": "Po pokonaniu Water Girl rozgniewałeś Fire Boya. Przysięga, że się na tobie zemści. Zachowaj ostrożność, w przyszłym tygodniu wyruszy, by cię odnaleźć!",
 	"map.[hota] gelu and hota 20.event.5.description": "Nadeszły złe wieści! Lord Drake zgromadził potężną armię smoków, aby odebrać ci Róg! W tej chwili jest zbyt silny, by stawić mu czoła. Lepiej szybko znajdźmy nowe schronienie! Pośpiesz się!",
-	"map.[hota] gelu and hota 20.event.6.description": "Zwiadowcy ostrzegają - z północy zbliżają się ogromne zastępy nieumarłych. Nasz garnizon nie zdoła długo stawiać im oporu. Zbierzcie siły i przygotujcie się na nadchodzącą bitwę!"
+	"map.[hota] gelu and hota 20.event.6.description": "Zwiadowcy ostrzegają - z północy zbliżają się ogromne zastępy nieumarłych. Nasz garnizon nie zdoła długo stawiać im oporu. Zbierzcie siły i przygotujcie się na nadchodzącą bitwę!",
+	"map.[hota] gelu and hota 20.event.7.description": "Nasz stary przyjaciel Dracon został uwięziony przez czarodziejów z Fortecy na biegunie południowym! Musimy go uratować. Mówi się, że posiada on zdolność szkolenia Czarodziejów, co będzie dla nas niezwykle pomocne!",
+	"map.[hota] gelu and hota 20.event.8.description": "Najlepsi spośród naszych zwiadowców wyruszyli, by odnaleźć przejście na biegun południowy. Miejmy nadzieję, że wkrótce powrócą z wieściami!",
+	"map.[hota] gelu and hota 20.event.9.description": "Po kilku dniach poszukiwań nasi zwiadowcy w końcu odnaleźli wejście do skutej lodem krainy. Wygląda jednak na to, że aby się tam dostać, musisz pokonać potężnego demona strzegącego przejścia!",
+	"map.[hota] gelu and hota 20.guards.103.98.0.message": "Portal! Ale przejście przez niego nie będzie bezpieczne!",
+	"map.[hota] gelu and hota 20.guards.105.60.0.message": "Nie możemy czuć się bezpieczni w tym mieście. Nomadzi wkrótce nadejdą z pustyni!",
+	"map.[hota] gelu and hota 20.guards.106.38.1.message": "Musisz zwyciężyć w tym wyścigu! Ruszaj!!",
+	"map.[hota] gelu and hota 20.guards.11.153.1.message": "Dobra odpowiedź!",
+	"map.[hota] gelu and hota 20.guards.11.157.1.message": "Zła odpowiedź!!",
+	"map.[hota] gelu and hota 20.guards.11.161.1.message": "Zła odpowiedź!!"
 }
