@@ -1030,5 +1030,11 @@
 	"creatures.hota.bulwark.jotunn.bonus.castsTeleport": "{Чарівник}\nМоже використовувати Телепорт 3-го рівня (1 раз за бій).",
 	"creatures.hota.bulwark.jotunn.bonus.windAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога нс 1.",
 	"creatures.hota.bulwark.jotunnWarlord.bonus.castsTeleport": "{Чарівник}\nМоже використовувати Телепорт 3-го рівня (необмежено).",
-	"creatures.hota.bulwark.jotunnWarlord.bonus.improvedWindAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога на 2."
+	"creatures.hota.bulwark.jotunnWarlord.bonus.improvedWindAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога на 2.",
+	"creatures.hota.bulwark.kobold.bonus.generatesGold": "{Добуває Золото}\nГенерує 1 Золота за кожного Кобольда в армії.",
+	"creatures.hota.bulwark.koboldForeman.bonus.generatesGold": "{Добуває Золото}\nГенерує 1 Золота за кожного Кобольда-Бригадира в армії.",
+	"creatures.hota.bulwark.koboldForeman.name.plural": "Кобольдів-Бригадирів",
+	"creatures.hota.bulwark.koboldForeman.name.singular": "Кобольд-Бригадир",
+	"creatures.hota.bulwark.mammoth.name.singular": "Мамонт",
+	"creatures.hota.bulwark.mountainRam.name.plural": "Гірських Баранів"
 }
