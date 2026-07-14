@@ -1036,5 +1036,22 @@
 	"creatures.hota.bulwark.koboldForeman.name.plural": "Кобольдів-Бригадирів",
 	"creatures.hota.bulwark.koboldForeman.name.singular": "Кобольд-Бригадир",
 	"creatures.hota.bulwark.mammoth.name.singular": "Мамонт",
-	"creatures.hota.bulwark.mountainRam.name.plural": "Гірських Баранів"
+	"creatures.hota.bulwark.mountainRam.name.plural": "Гірських Баранів",
+	"creatures.hota.bulwark.mountainRam.name.singular": "Гірський Баран",
+	"creatures.hota.bulwark.shaman.name.plural": "Шаманів",
+	"creatures.hota.bulwark.shaman.name.singular": "Шаман",
+	"creatures.hota.bulwark.snowElf.name.plural": "Снігових Ельфів",
+	"creatures.hota.bulwark.snowElf.name.singular": "Сніговий Ельф",
+	"creatures.hota.bulwark.steelElf.name.plural": "Сталевих Ельфів",
+	"creatures.hota.bulwark.steelElf.name.singular": "Сталевий Ельф",
+	"creatures.hota.bulwark.warMammoth.bonus.showTheIcon": "{Бонус Захисту}\nПодвоює Захист при використанні захисної стійки.",
+	"creatures.hota.bulwark.warMammoth.name.plural": "Бойових Мамонтів",
+	"creatures.hota.bulwark.warMammoth.name.singular": "Бойовий Мамонт",
+	"creatures.hota.bulwark.yeti.bonus.yetiCure": "{Саморозсіювання}\nЗнімає з себе негативні ефекти протягом раунду битви.",
+	"creatures.hota.bulwark.yeti.name.plural": "Єті",
+	"creatures.hota.bulwark.yeti.name.singular": "Єті",
+	"creatures.hota.bulwark.yetiRunemaster.bonus.runeMaster": "{Володіє Рунами}\nЗавжди отримує бонуси від Рун 3-го рівня.",
+	"creatures.hota.bulwark.yetiRunemaster.bonus.yetiCure": "{Саморозсіювання}\nЗнімає з себе негативні ефекти протягом раунду битви.",
+	"creatures.hota.bulwark.yetiRunemaster.name.plural": "Майстрів Рун",
+	"creatures.hota.bulwark.yetiRunemaster.name.singular": "Майстер Рун"
 }
