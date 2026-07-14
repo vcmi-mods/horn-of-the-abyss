@@ -1026,5 +1026,7 @@
 	"artifact.hota.supplementary.swordAnduran.name": "Меч Андурана",
 	"creatures.hota.bulwark.greatShaman.bonus.freezingShot": "{Заморожуючий Постріл}\nМає 20% шанс заморозити ворожий загін після пострілу.",
 	"creatures.hota.bulwark.greatShaman.name.plural": "Старших Шаманів",
-	"creatures.hota.bulwark.greatShaman.name.singular": "Старший Шаман"
+	"creatures.hota.bulwark.greatShaman.name.singular": "Старший Шаман",
+	"creatures.hota.bulwark.jotunn.bonus.castsTeleport": "{Чарівник}\nМоже використовувати Телепорт 3-го рівня (1 раз за бій).",
+	"creatures.hota.bulwark.jotunn.bonus.windAura": "{Аура Вітру}\nЗменшує швидкість літаючих загонів ворога нс 1."
 }
