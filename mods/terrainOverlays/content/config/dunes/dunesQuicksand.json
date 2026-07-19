@@ -1,40 +1,35 @@
 {
-	"dunesQuicksand": {
-		"type": "combat",
-		"name": "Dunes Quicksand",
-		"school": {},
-		"level": 2,
+	"dunesQuicksand" : {
+		"type" : "combat",
+		"name" : "Dunes Quicksand",
+		"school" : {},
+		"level" : 2,
 		"power" : 0,
-		"gainChance": {},
-		"defaultGainChance": 0,
-		"flags": {
+		"gainChance" : {},
+		"defaultGainChance" : 0,
+		"flags" : {
 			"persistent" : true,
-			"special": true,
-			"indifferent": true
+			"special" : true,
+			"indifferent" : true
 		},
-		"targetType": "NO_TARGET",
-		"graphics": {
-		},
-		"levels": {
-			"base": {
-				"description": "Places 15 to 20 hidden quicksand patches randomly on the battlefield.",
+		"targetType" : "NO_TARGET",
+		"graphics" : {},
+		"levels" : {
+			"base" : {
+				"description" : "Places 15 to 20 hidden quicksand patches randomly on the battlefield.",
 				"power" : 0,
-				"cost": 0,
+				"cost" : 0,
 				"range" : "x",
-				"battleEffects": {
-					"obstacle": {
-						"type": "dunesQuicksand"
+				"battleEffects" : {
+					"obstacle" : {
+						"type" : "dunesQuicksand"
 					}
 				}
 			},
-			"none" : {
-			},
-			"basic": {
-			},
-			"advanced": {
-			},
-			"expert": {
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

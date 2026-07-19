@@ -2,7 +2,7 @@
 	"dunesQuicksand" : {
 		"type" : "lua",
 		"script" : "dunesQuicksand",
-		"patches" : [ ],
+		"patches" : [],
 		"schema" : {
 			"properties" : {
 				"type" : {}
