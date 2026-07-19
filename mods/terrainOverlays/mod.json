@@ -27,6 +27,12 @@
 		"config/dunes/obstacles.json",
 		"config/fieldsOfGlory/obstacles.json"
 	],
+	"spells" : [
+		"config/dunes/dunesQuicksand.json"
+	],
+	"spellEffects" : [
+		"config/dunes/spellEffects.json"
+	],
 	"terrains" : [
 		"config/hotaTerrains.json"
 	],

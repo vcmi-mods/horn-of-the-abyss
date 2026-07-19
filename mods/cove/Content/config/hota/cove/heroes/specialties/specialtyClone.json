@@ -1,0 +1,7 @@
+{
+	"core:clone" : {
+		"patches" : {
+			"append" : "patches/specialtyClone"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"dunesQuicksand" : {
+		"type" : "lua",
+		"script" : "dunesQuicksand",
+		"patches" : [ ],
+		"schema" : {
+			"properties" : {
+				"type" : {}
+			},
+			"additionalProperties" : false
+		}
+	}
+}

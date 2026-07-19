@@ -75,12 +75,14 @@
 		"config/hota/cove/heroes/balfour"
 	],
 	"bonuses" : [
-		"config/hota/cove/spells/specialCloneTrait"
+		"config/hota/cove/heroes/specialties/specialtyCloneTrait"
 	],
 	"spells" : [
 		"config/hota/cove/spells/accurateShot",
-		"config/hota/cove/spells/specialClone",
 		"config/hota/cove/spells/moat"
+	],
+	"spellEffects" : [
+		"config/hota/cove/heroes/specialties/specialtyClone"
 	],
 	"objects" : [
 		"config/hota/cove/dwellings",
