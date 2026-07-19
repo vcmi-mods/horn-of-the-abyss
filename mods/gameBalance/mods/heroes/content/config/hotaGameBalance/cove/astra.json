@@ -1,15 +1,5 @@
 {
-	"core:uland" : {
-		"skills" : [
-			{
-				"skill" : "wisdom",
-				"level" : "basic"
-			},
-			{
-				"skill" : "ballistics",
-				"level" : "basic"
-			}
-		],
+	"hota.cove:18astra" : {
 		"specialty#override" : {
 			"bonuses" : {
 				"cureSpecialty" : {

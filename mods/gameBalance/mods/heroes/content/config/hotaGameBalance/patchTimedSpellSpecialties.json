@@ -1,7 +1,0 @@
-{
-	"core:timed" : {
-		"patches" : {
-			"append" : "patches/hotaTimedSpecialties"
-		}
-	}
-}

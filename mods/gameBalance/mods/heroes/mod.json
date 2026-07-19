@@ -55,6 +55,7 @@
 		"config/hotaGameBalance/conflux/pasis.json",
 		"config/hotaGameBalance/conflux/thunar.json",
 		"config/hotaGameBalance/cove/anabel.json",
+		"config/hotaGameBalance/cove/astra.json",
 		"config/hotaGameBalance/cove/casmetra.json",
 		"config/hotaGameBalance/cove/cassiopeia.json",
 		"config/hotaGameBalance/cove/dargem.json",
@@ -165,7 +166,10 @@
 		"config/hotaGameBalance/tower/torosar.json"
 	],
 	"spellEffects" : [
-		"config/hotaGameBalance/patchTimedSpellSpecialties.json"
+		"config/hotaGameBalance/patchSpellSpecialties.json"
+	],
+	"bonuses" : [
+		"config/hotaGameBalance/hotaSpecialtyBonuses.json"
 	],
 	"chinese" : {
 		"name" : "英雄",
