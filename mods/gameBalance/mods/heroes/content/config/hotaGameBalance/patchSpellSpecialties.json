@@ -1,0 +1,12 @@
+{
+	"core:timed" : {
+		"patches" : {
+			"append" : "patches/hotaTimedSpecialties"
+		}
+	},
+	"core:heal" : {
+		"patches" : {
+			"append" : "patches/hotaHealSpecialties"
+		}
+	},
+}

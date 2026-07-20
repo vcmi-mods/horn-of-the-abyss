@@ -1,59 +1,5 @@
 {
 	"core:labetha" : {
-		"specialty#override" : {
-			"base" : {
-				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
-				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusSourceType" : "SPELL_EFFECT",
-						"bonusSourceID" : "spell.stoneSkin"
-					}
-				]
-			},
-			"bonuses" : {
-				"bonusDefense12" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"maxlevel" : 3
-						}
-					},
-					"val" : 10
-				},
-				"bonusDefense34" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 3,
-							"maxlevel" : 5
-						}
-					},
-					"val" : 8
-				},
-				"bonusDefense56" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 7
-						}
-					},
-					"val" : 6
-				},
-				"bonusDefense7" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7
-						}
-					},
-					"val" : 4
-				}
-			}
-		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Stone Skin with effect increased by 10 for level 1–2 creatures, by 8 for level 3–4 creatures, by 6 for level 5–6 creatures, and by 4 for level 7 creatures."
