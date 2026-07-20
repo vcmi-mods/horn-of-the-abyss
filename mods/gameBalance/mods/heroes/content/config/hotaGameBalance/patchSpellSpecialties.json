@@ -8,5 +8,5 @@
 		"patches" : {
 			"append" : "patches/hotaHealSpecialties"
 		}
-	},
+	}
 }
