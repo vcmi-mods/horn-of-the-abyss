@@ -36,15 +36,14 @@
 					"default" : {
 						"animation" : "airship/AVGairy0.def",
 						"visitableFrom" : [
-							"+++",
-							"+-+",
+							"---",
+							"---",
 							"+++"
 						],
 						"mask" : [
-							"VVV",
-							"VVV",
-							"VVV",
-							"VAV"
+							"VVVV",
+							"VVBV",
+							"VBAB"
 						]
 					}
 				}
