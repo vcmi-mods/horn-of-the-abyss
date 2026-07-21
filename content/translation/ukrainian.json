@@ -1177,5 +1177,15 @@
 	"mapObject.core.arena.arena.onVisited": "Вартові арени перешкоджають вам увійти.  \\\"Ви вже побили наших найкращих воїнів.  Забирайтеся звідси.\\\"",
 	"mapObject.core.scholar.scholar.rewards.0": "Виїхавши на прогалину, ви бачите вченого книжника, що відпочиває поруч зі своїм конем. Він погоджується передати вам частину своїх знань, перш ніж продовжити шлях.",
 	"mapObject.core.scholar.scholar.rewards.1": "Виїхавши на прогалину, ви бачите вченого книжника, що відпочиває поруч зі своїм конем. Він погоджується передати вам частину своїх знань, перш ніж продовжити шлях.",
-	"mapObject.core.scholar.scholar.rewards.2": "Виїхавши на прогалину, ви бачите вченого книжника, що відпочиває поруч зі своїм конем. Він погоджується передати вам частину своїх знань, перш ніж продовжити шлях."
+	"mapObject.core.scholar.scholar.rewards.2": "Виїхавши на прогалину, ви бачите вченого книжника, що відпочиває поруч зі своїм конем. Він погоджується передати вам частину своїх знань, перш ніж продовжити шлях.",
+	"mapObject.core.witchHut.witchHut.rewards.0": "{Хижа Відьми}\n\nДревня відьма, що живе у жалюгідній халупі, вітає вас і навчає навичці %s для якихось їй одній відомих цілей.",
+	"mapObject.hota.airship.airshipYard.airshipYard.description": "Вітаємо на Заводі Дирижаблів!\n\nНа жаль, він все ще на будівництві.",
+	"mapObject.hota.airship.airshipYard.airshipYard.rewards.0": "{Завод Дирижаблів}\n\nВітаємо на Заводі Дирижаблів!\n\nНа жаль, він все ще на будівництві.",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.colliery.name": "Вугільна Копальня",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.frigidSpur.name": "Стиглий Отрог",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.frosthome.name": "Морозні Хороми",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.hallOfTheBold.name": "Зала Сміливих",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.mammothStalls.name": "Скирти Мамонтів",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.mountainEmbassy.name": "Гірське Консульство",
+	"mapObject.hota.bulwark.creatureGeneratorCommon.shamanFane.name": "Капищє Шаманів"
 }
