@@ -52,7 +52,6 @@ function Script:apply(mechanics, server, target)
 				searchOrigin = isAttacker and unitPos:copyToSouthEast() or unitPos:copyToSouthWest()
 			end
 			if not searchOrigin:isValid() then
-				print("falling back to unitPos")
 				searchOrigin = unitPos
 			end
 
