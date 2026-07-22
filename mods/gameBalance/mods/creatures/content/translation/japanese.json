@@ -1,4 +1,4 @@
 {
-	"creatures.core.archDevil.bonus.decreaseLuck" : "{不運}\nアークデビルは敵の運を2低下させる。",
-	"creatures.core.devil.bonus.decreaseLuck" : "{不運}\nデビルは敵の運を1下げる。"
+	"creatures.core.archDevil.bonus.decreaseLuck": "{不運}\nアークデビルは敵の運を2低下させる。",
+	"creatures.core.devil.bonus.decreaseLuck": "{不運}\nデビルは敵の運を1下げる。"
 }
