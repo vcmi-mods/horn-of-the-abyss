@@ -20,21 +20,72 @@ local function shouldCastSpecialtyClone(mechanics)
 end
 
 function Script:apply(mechanics, server, target)
-    if shouldCastSpecialtyClone(mechanics) then
-		server:addBattleBonus(mechanics:getBattle(), {
-			type       = "SPECIALTY_CLONE",
-			sourceType = ENUM.BonusSource.other,
-			val        = -1,
-			valueType  = 0,
-			sourceID   = mechanics:getSpell():getJsonKey(),
-			propagator = BONUS_OWNER_PROPAGATOR,
-			limiters   = { noneOf, OPPOSITE_SIDE }
-		})
-        Base.apply(self, mechanics, server, target)
-        Base.apply(self, mechanics, server, target)
-    else
-        Base.apply(self, mechanics, server, target)
-    end
+	if not shouldCastSpecialtyClone(mechanics) then
+		Base.apply(self, mechanics, server, target)
+		return
+	end
+
+	local battle = mechanics:getBattle()
+	local casterSide = mechanics:getCasterSide()
+	local isAttacker = (casterSide == 0)
+
+	server:addBattleBonus(battle, {
+		type       = "SPECIALTY_CLONE",
+		sourceType = ENUM.BonusSource.other,
+		val        = -1,
+		valueType  = 0,
+		sourceID   = mechanics:getSpell():getJsonKey()
+	})
+
+	for _, dest in ipairs(target) do
+		local unit = dest.unit
+		if unit == nil or unit:getCount() < 1 then goto continue end
+
+		local creature = unit:getCreature()
+		local unitPos = unit:getPosition()
+
+		for cloneIndex = 1, 2 do
+			local searchOrigin
+			if cloneIndex == 1 then
+				searchOrigin = isAttacker and unitPos:copyToNorthEast() or unitPos:copyToNorthWest()
+			else
+				searchOrigin = isAttacker and unitPos:copyToSouthEast() or unitPos:copyToSouthWest()
+			end
+			if not searchOrigin:isValid() then
+				searchOrigin = unitPos
+			end
+
+			local hex = battle:getAvailableHex(creature, casterSide, searchOrigin)
+			if not hex:isValid() then break end
+
+			local cloneUnit = server:addUnit(battle, {
+				count    = unit:getCount(),
+				type     = creature,
+				side     = casterSide,
+				position = hex,
+				summoned = true
+			})
+			if cloneUnit == nil then break end
+
+			local cloneState = cloneUnit:copy()
+			cloneState:setCloned(true)
+			server:changeUnit(battle, cloneState)
+
+			local originalState = unit:copy()
+			originalState:setClone(cloneUnit)
+			server:changeUnit(battle, originalState)
+
+			server:addUnitBonus(battle, cloneUnit, {
+				duration   = ENUM.BonusDuration.nTurns,
+				type       = "NONE",
+				sourceType = ENUM.BonusSource.spellEffect,
+				val        = 0,
+				sourceID   = mechanics:getSpell():getJsonKey(),
+				turns      = mechanics:getEffectDuration()
+			}, true)
+		end
+		::continue::
+	end
 end
 
 return Script

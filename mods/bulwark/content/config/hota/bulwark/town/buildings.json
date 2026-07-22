@@ -60,8 +60,7 @@
 						"ore" : 10
 					},
 					"fortifications" : {
-						// should be uncommented, but currently buggy - sets health to 1 instead
-						// "wallsHealth" : 4,
+						"wallsHealth" : 4,
 						"upperTowerHealth" : 3,
 						"lowerTowerHealth" : 3
 					}
