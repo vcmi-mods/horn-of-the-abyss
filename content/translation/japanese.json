@@ -1318,5 +1318,6 @@
 	"mod.maps.officialmaps.name": "マップ",
 	"mod.maps.officialmaps.description": "このModには、HotA Crew によって作成されたすべての公式マップが含まれています。",
 	"mod.neutralcreatures.bonuses icons.name": "Additional bonuses icons",
-	"mod.neutralcreatures.bonuses icons.description": "Additional icons for creatures abilities."
+	"mod.neutralcreatures.bonuses icons.description": "Additional icons for creatures abilities.",
+	"mod.description": "Hota Crewチームによって開発された拡張パック『Horn of the Abyss』。"
 }
