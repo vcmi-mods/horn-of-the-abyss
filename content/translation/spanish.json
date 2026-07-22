@@ -462,5 +462,11 @@
 	"object.hota.highlandsterrain.puddles.name": "Charcos",
 	"object.hota.highlandsterrain.spruces.name": "Piceas",
 	"terrain.hota.highlandsterrain.highlands.name": "Tierras Altas",
-	"terrain.hota.wastelandterrain.wasteland.name": "Yermo"
+	"terrain.hota.wastelandterrain.wasteland.name": "Yermo",
+	"mod.name": "Horn of the Abyss",
+	"mod.description": "Spanish translation made by macomarivas",
+	"mod.maps.officialcampaigns.name": "Campañas",
+	"mod.maps.officialcampaigns.description": "Este mod contiene todas las campañas oficiales creadas por HotA Crew",
+	"mod.maps.officialmaps.name": "Mapas",
+	"mod.maps.officialmaps.description": "Este mod contiene todos los mapas oficiales creados por HotA Crew"
 }
