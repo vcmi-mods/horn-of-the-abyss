@@ -2,21 +2,13 @@
 """Install dependencies for a VCMI mod from the vcmi-mods-repository."""
 
 import json
-import os
 import sys
 import urllib.request
 import zipfile
 import tempfile
-import jstyleson
 from pathlib import Path
 
-
-def find_mod_json_files(root: Path) -> list:
-    """Find every mod.json below root (case-insensitive)."""
-    return sorted(
-        (path for path in root.rglob("*") if path.is_file() and path.name.lower() == "mod.json"),
-        key=lambda path: path.as_posix().lower(),
-    )
+from mod_metadata_common import find_files_ci, load_jsonc
 
 
 def iter_depends_values(data):
@@ -35,20 +27,18 @@ def normalize_dependency_ids(depends_value) -> set:
     """Return package ids referenced by a depends value."""
     if isinstance(depends_value, str):
         return {depends_value.split(".")[0]}
-    if isinstance(depends_value, list):
-        return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
-    if isinstance(depends_value, dict):
+    # A list yields its items; a dict yields its keys - both are dependency ids.
+    if isinstance(depends_value, (list, dict)):
         return {dep.split(".")[0] for dep in depends_value if isinstance(dep, str)}
     return set()
 
 
 def collect_dependencies(root: Path) -> set:
     deps = set()
-    mod_files = find_mod_json_files(root)
+    mod_files = find_files_ci(root, "mod.json")
     print(f"Scanning {len(mod_files)} mod.json file(s) under {root} ...")
     for mod_file in mod_files:
-        with open(mod_file) as f:
-            data = jstyleson.load(f)
+        data = load_jsonc(mod_file)
         file_deps = set()
         for depends_value in iter_depends_values(data):
             file_deps.update(normalize_dependency_ids(depends_value))
@@ -83,6 +73,27 @@ def download_and_install(dep_id: str, download_url: str, install_dir: Path) -> N
     print(f"  {dep_id}: installed to {dest}")
 
 
+def resolve_dependencies(direct: set, deps_of) -> set:
+    """
+    Breadth-first walk over the dependency graph, calling deps_of(id) once per mod.
+
+    deps_of(id) installs the mod and returns its own dependencies (a set), or None
+    when the mod is unavailable. Cycles terminate because each id is visited once.
+    Returns the set of visited ids.
+    """
+    seen = set()
+    queue = sorted(direct)
+    while queue:
+        dep_id = queue.pop(0)
+        if dep_id in seen:
+            continue
+        seen.add(dep_id)
+        children = deps_of(dep_id)
+        if children:
+            queue.extend(sorted(c for c in children if c not in seen))
+    return seen
+
+
 def main() -> None:
     if len(sys.argv) < 2:
         print("Usage: install_mod_dependencies.py <branch> [install_dir] [root]", file=sys.stderr)
@@ -107,24 +118,27 @@ def main() -> None:
 
     available_mods = repo.get("availableMods", {})
 
-    deps = collect_dependencies(root)
-    if not deps:
+    direct = collect_dependencies(root)
+    if not direct:
         print("No dependencies found.")
         return
 
-    print(f"Found dependencies: {', '.join(sorted(deps))}")
+    print(f"Direct dependencies: {', '.join(sorted(direct))}")
     install_dir.mkdir(parents=True, exist_ok=True)
 
-    for dep_id in sorted(deps):
+    def deps_of(dep_id: str):
         if dep_id not in available_mods:
             print(f"  {dep_id}: not found in repository, skipping")
-            continue
+            return None
         download_url = available_mods[dep_id].get("download")
         if not download_url:
             print(f"  {dep_id}: no download URL, skipping")
-            continue
+            return None
         download_and_install(dep_id, download_url, install_dir)
+        # Recurse into the installed mod so its own dependencies are pulled in too.
+        return collect_dependencies(install_dir / dep_id)
 
+    resolve_dependencies(direct, deps_of)
     print("Dependency installation complete.")
 
 

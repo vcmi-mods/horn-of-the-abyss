@@ -6,9 +6,11 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Serialize with every other workflow in the repo: a shared group means CI, the
+# translation PR job and the star update never run concurrently and clobber commits.
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.run_id }}
-  cancel-in-progress: true
+  group: vcmi-mod-pipeline
+  cancel-in-progress: false
 
 jobs:
   validate-json:
@@ -17,86 +19,37 @@ jobs:
     defaults:
       run:
         shell: bash
-    outputs:
-      valid: ${{ steps.validate.outcome == 'success' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
 
       - name: Update repository
-        run: sudo apt update
+        run: sudo apt-get update
 
       - name: Install jstyleson
-        run: sudo apt install python3-jstyleson
+        run: sudo apt-get install -y python3-jstyleson
 
       - name: Validate JSON syntax
         id: validate
         run: python3 .github/validate_json.py
 
-  format-json:
-    name: Format JSON
-    needs: [validate-json]
-    if: ${{ needs.validate-json.result == 'success' && github.event_name != 'pull_request' }}
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    defaults:
-      run:
-        shell: bash
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
-      - name: Install dependencies
-        run: |
-          npm install -g prettier
-
-      - name: Format JSON files with Prettier
-        run: |
-          prettier --write "**/*.json" "!**/translation/**" \
-                   --parser jsonc \
-                   --use-tabs \
-                   --tab-width 4 \
-                   --trailing-comma none \
-                   --print-width 1
-
-      - name: Postprocess colon spacing
-        run: python3 .github/postprocess_colons.py
-
-      - name: Commit changes if needed
-        uses: EndBug/add-and-commit@v10
-        with:
-          default_author: github_actions
-          message: "Auto-format JSON files"
-          add: '*.json'
-
   validate-startup:
-    name: Test VCMI Startup
-    needs: [validate-json, format-json]
-    if: ${{ always() && needs.validate-json.result == 'success' && (needs.format-json.result == 'success' || needs.format-json.result == 'skipped') }}
+    name: Build & validate mod
+    needs: [validate-json]
     runs-on: ubuntu-latest
     permissions:
       contents: write
     defaults:
       run:
         shell: bash
-    outputs:
-      translations_present: ${{ steps.check.outputs.translations_present }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v7
 
-      - name: Synchronize branch before generated commits
-        if: github.event_name != 'pull_request'
-        run: |
-          git fetch origin "${GITHUB_REF_NAME}"
-          git checkout "${GITHUB_REF_NAME}"
-          git rebase origin/"${GITHUB_REF_NAME}"
-
       - name: Detect VCMI Version
         run: |
           BRANCH="${GITHUB_BASE_REF:-$GITHUB_REF_NAME}"
-          if [[ "$BRANCH" =~ ^vcmi-1\.[0-9]+(-.*)?$ ]]; then
+          if [[ "$BRANCH" =~ ^vcmi-[0-9]+\.[0-9]+(-.*)?$ ]]; then
             echo "VCMI_VERSION=$BRANCH" >> $GITHUB_ENV
           fi
 
@@ -137,7 +90,9 @@ jobs:
           ln -sf "$(pwd)" ~/.local/share/vcmi/Mods/${MOD_NAME}
 
       - name: Install jstyleson
-        run: pip install jstyleson
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-jstyleson
 
       - name: Install Mod Dependencies
         if: env.VCMI_VERSION != ''
@@ -146,8 +101,10 @@ jobs:
       - name: Export translations
         if: env.VCMI_VERSION != ''
         run: |
-          if ! jq -e '.modType == "Translation"' mod.json >/dev/null; then
-            echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
+          # jstyleson (not jq) - mod.json is JSON-with-comments, which jq cannot parse.
+          # Resolve mod.json case-insensitively (it may not be lower-case on disk).
+          if ! python3 -c "import jstyleson, sys, os; f=next((n for n in os.listdir('.') if n.lower()=='mod.json'), None); sys.exit(0 if f and jstyleson.load(open(f)).get('modType')=='Translation' else 1)"; then
+            printf '{ "activePreset": "default", "presets": { "default": { "mods": [ "vcmi", "core", "%s" ]}}}' "$MOD_NAME" >~/.config/vcmi/modSettings.json
             vcmiserver --translate-mod=${MOD_NAME}
           fi
 
@@ -165,29 +122,60 @@ jobs:
       - name: Refresh translation files
         if: steps.check.outputs.translations_present == 'true' && github.event_name != 'pull_request'
         run: |
-          find . -name english.json -delete
+          find . -iname english.json -delete
           python3 .github/merge_dirs.py "$HOME/.cache/vcmi/extracted/translationFull/${MOD_NAME}" .
 
-      - name: Commit translation changes if needed
-        if: steps.check.outputs.translations_present == 'true' && github.event_name != 'pull_request'
-        uses: EndBug/add-and-commit@v10
-        with:
-          default_author: github_actions
-          message: "Update generated translations"
-          add: '*.json'
+      # Generation must finish before the commit and before the dummy-run, so the
+      # commit captures every generated file and the dummy-run validates the final state.
 
-      - name: Upload Translation Files
-        if: steps.check.outputs.translations_present == 'true'
-        uses: actions/upload-artifact@v7
-        with:
-          name: translation-export
-          path: ~/.cache/vcmi/extracted/translationFull/${{ env.MOD_NAME }}/
-          retention-days: 1
+      # TEMPORARY: split legacy description.md into per-language description/<lang>.md.
+      # Remove this step (and migrate_description.py) once all mods have migrated.
+      - name: Migrate legacy mod descriptions
+        run: python3 .github/migrate_description.py
+
+      # TEMPORARY: seed translation/<lang>.json from per-language name/description
+      # blocks already in mod.json. Remove this step (and migrate_translations.py)
+      # once all mods have migrated. Runs before wire so new <lang>.json get wired.
+      - name: Migrate legacy mod name/description translations
+        run: python3 .github/migrate_translations.py
+
+      - name: Export mod metadata to Weblate source
+        run: python3 .github/mod_metadata.py export
+
+      - name: Wire up translation files in mod.json
+        run: python3 .github/mod_metadata.py wire
+
+      # Format after generation so the committed mod.json is already normalized and
+      # does not churn on the next run. Push-only: PRs are validated, not committed.
+      - name: Install Prettier
+        if: github.event_name != 'pull_request'
+        run: npm install -g prettier
+
+      - name: Format JSON files with Prettier
+        if: github.event_name != 'pull_request'
+        run: |
+          # find -ipath so the translation/ and .git/ exclusions are case-insensitive
+          # (prettier's own globs are not).
+          mapfile -d '' FILES < <(find . -iname '*.json' \
+                                       -not -ipath '*/translation/*' \
+                                       -not -ipath '*/.git/*' -print0)
+          if [ ${#FILES[@]} -gt 0 ]; then
+            prettier --write "${FILES[@]}" \
+                     --parser jsonc \
+                     --use-tabs \
+                     --tab-width 4 \
+                     --trailing-comma none \
+                     --print-width 1
+          fi
+
+      - name: Postprocess colon spacing
+        if: github.event_name != 'pull_request'
+        run: python3 .github/postprocess_colons.py
 
       - name: Run VCMI
         if: env.VCMI_VERSION != ''
         run: |
-          echo '{ "activePreset" : "default", "presets" : { "default" : { "mods" : [ "vcmi", "core", "' ${MOD_NAME} '" ]}}}' >~/.config/vcmi/modSettings.json
+          printf '{ "activePreset": "default", "presets": { "default": { "mods": [ "vcmi", "core", "%s" ]}}}' "$MOD_NAME" >~/.config/vcmi/modSettings.json
           vcmiserver --dummy-run 2> >(tee error.log)
           if [ ! -s error.log ]; then
               echo "Validation OK!"
@@ -197,14 +185,30 @@ jobs:
               exit 1
           fi
 
+      # Single commit so generated translations, exported metadata and migrated
+      # descriptions all persist. always() so they are committed even if the
+      # dummy-run above fails. add-and-commit is a no-op when nothing changed.
+      - name: Commit generated changes if needed
+        if: ${{ always() && github.event_name != 'pull_request' }}
+        uses: EndBug/add-and-commit@v10
+        with:
+          default_author: github_actions
+          message: "Update generated translations and metadata"
+          add: |
+            *.json
+            *.md
+
   package-artifact:
     name: Create release
     needs: [validate-startup]
+    # Release even when validate-startup failed: the dummy-run is pedantic and its
+    # failures are not release-blocking. Only a skipped/cancelled run (e.g. invalid
+    # JSON upstream) suppresses the release.
     if: >-
       ${{
-        needs.validate-startup.result == 'success' &&
+        !cancelled() &&
+        needs.validate-startup.result != 'skipped' &&
         github.event_name != 'pull_request' &&
-        github.repository_owner == 'vcmi-mods' &&
         startsWith(github.ref_name, 'vcmi-')
       }}
     runs-on: ubuntu-latest
@@ -214,17 +218,40 @@ jobs:
       run:
         shell: bash
     steps:
+      # Check out branch HEAD, not github.sha: the validate-startup job committed the
+      # generated translations/metadata on top of the pushed commit, and the release
+      # must reflect that committed state.
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
-          ref: ${{ github.sha }}
+          ref: ${{ github.ref_name }}
           fetch-depth: 0
+
+      - name: Resolve release commit
+        run: echo "RELEASE_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+      - name: Install jstyleson
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-jstyleson
+
+      # Fold translated name/description into the published mod.json. Must run before
+      # content/ is zipped away, since it reads content/translation/<lang>.json.
+      - name: Inject mod metadata into published mod.json
+        run: python3 .github/mod_metadata.py inject-names
 
       - name: Prepare content ZIPs
         run: bash .github/create_content_zip.sh
 
       - name: Package release archive
         run: bash .github/create_release_package.sh
+
+      # Must run after the ZIP exists (needs its size) and before mod.json is uploaded.
+      - name: Inject release metadata into published mod.json
+        env:
+          GITHUB_STARS: ${{ github.event.repository.stargazers_count }}
+          GITHUB_SHA: ${{ env.RELEASE_SHA }}
+        run: python3 .github/mod_metadata.py inject-release
 
       - name: Strip vcmi- prefix for TAG
         run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
@@ -234,7 +261,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-          git tag -f "${RELEASE_TAG}" "${GITHUB_SHA}"
+          git tag -f "${RELEASE_TAG}" "${RELEASE_SHA}"
           git push origin "${RELEASE_TAG}" --force
 
       - name: Upload Mod Release Package
@@ -244,12 +271,12 @@ jobs:
           name: ${{ github.ref_name }}
           body: |
             Automated build for branch `${{ github.ref_name }}`.
-            Commit: `${{ github.sha }}`
+            Commit: `${{ env.RELEASE_SHA }}`
           artifacts: dist/${{ github.event.repository.name }}-${{ github.ref_name }}.zip
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: false
-          commit: ${{ github.sha }}
+          commit: ${{ env.RELEASE_SHA }}
 
       # Upload mod.json after Release Package is uploaded to correctly notify end users
       - name: Upload mod.json
@@ -261,4 +288,4 @@ jobs:
           allowUpdates: true
           replacesArtifacts: true
           makeLatest: false
-          commit: ${{ github.sha }}
+          commit: ${{ env.RELEASE_SHA }}
