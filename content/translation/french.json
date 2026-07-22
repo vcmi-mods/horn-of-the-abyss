@@ -371,6 +371,5 @@
 	"mod.textpolishing.name": "Lissage de texte",
 	"mod.textpolishing.description": "Modifie la description en jeu des sorts, des objets de la carte et des artefacts pour qu'elle corresponde à celle utilisée dans HotA.",
 	"mod.wastelandterrain.name": "Terrain désertique",
-	"mod.wastelandterrain.description": "Ajoute le terrain des Terres désolées ainsi que plusieurs objets de carte uniques à ce terrain.",
-	"mod.description": "Horn of the Abyss est une extension non officielle pour Heroes of Might and Magic III, créée par Hota Crew. Merci à Hakas_FR pour les traductions. Autre communauté de traduction : https://github.com/nomises/Traduction-Hota-FR"
+	"mod.wastelandterrain.description": "Ajoute le terrain des Terres désolées ainsi que plusieurs objets de carte uniques à ce terrain."
 }

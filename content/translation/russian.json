@@ -1314,6 +1314,5 @@
 	"mod.maps.officialmaps.name": "Карты",
 	"mod.maps.officialmaps.description": "Этот мод содержит все официальные карты, созданные командой HotA Crew.",
 	"mod.neutralcreatures.bonuses icons.name": "Дополнительные иконки бонусов",
-	"mod.neutralcreatures.bonuses icons.description": "Дополнительные иконки для способностей существ.",
-	"mod.description": "Дополнение от Hota Crew, портированное на движок VCMI"
+	"mod.neutralcreatures.bonuses icons.description": "Дополнительные иконки для способностей существ."
 }
