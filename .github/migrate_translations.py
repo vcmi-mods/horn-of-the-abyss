@@ -25,6 +25,7 @@ from pathlib import Path
 from mod_metadata_common import (
     LANGUAGES,
     child_ci,
+    description_md,
     find_mods,
     load_jsonc,
     metadata_key,
@@ -59,13 +60,16 @@ def collect_updates(root: Path) -> dict:
         config = load_jsonc(mod_json_path(mod_dir))
         if config.get("modType") == "Translation":
             continue
+        # description/english.md is authoritative and translated as its own component;
+        # when present, don't seed description keys (matching export, which skips them).
+        fields = ("name",) if description_md(mod_dir, "english") is not None else ("name", "description")
         for language in LANGUAGES:
             if language == "english":
                 continue
             block = config.get(language)
             if not isinstance(block, dict):
                 continue
-            for field in ("name", "description"):
+            for field in fields:
                 value = block.get(field)
                 if isinstance(value, str) and value:
                     updates.setdefault(language, {})[metadata_key(segments, field)] = value
