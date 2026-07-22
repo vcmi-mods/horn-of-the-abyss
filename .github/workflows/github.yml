@@ -82,7 +82,9 @@ jobs:
           if [[ "${{ github.repository }}" == *"horn-of-the-abyss"* ]]; then
             MOD_NAME="hota"
           fi
-          echo "MOD_NAME=${MOD_NAME}" >> $GITHUB_ENV
+          # VCMI mod IDs are lower-case; a mixed-case repo name (e.g. HD-remastered)
+          # would not match the mod VCMI loaded from the (lower-cased) folder.
+          echo "MOD_NAME=${MOD_NAME,,}" >> $GITHUB_ENV
 
       - name: Install Mod
         if: env.VCMI_VERSION != ''
@@ -194,9 +196,10 @@ jobs:
         with:
           default_author: github_actions
           message: "Update generated translations and metadata"
-          add: |
-            *.json
-            *.md
+          # JSON array (not a multiline string) so add-and-commit runs a separate
+          # git add per glob. A single atomic `git add *.json *.md` aborts entirely
+          # when a repo has no .md files, silently dropping the generated *.json too.
+          add: '["*.json", "*.md"]'
 
   package-artifact:
     name: Create release
