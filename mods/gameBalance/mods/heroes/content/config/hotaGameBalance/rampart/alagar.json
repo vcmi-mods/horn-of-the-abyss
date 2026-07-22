@@ -1,11 +1,7 @@
 {
 	"core:alagar" : {
 		"specialty" : {
-			"bonuses" : {
-				"iceBolt" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

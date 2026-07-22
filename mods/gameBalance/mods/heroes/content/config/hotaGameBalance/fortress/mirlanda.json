@@ -1,5 +1,8 @@
 {
 	"core:mirlanda" : {
+		"specialty" : {
+			"spellFixedValues" : [ -4, -4, -6, -6, -8, -8, -10]
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Weakness with effect increased by 4 for level 1–2 creatures, by 6 for level 3–4 creatures, by 8 for level 5–6 creatures, and by 10 for level 7 creatures."

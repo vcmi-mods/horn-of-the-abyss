@@ -1,11 +1,7 @@
 {
 	"core:thant" : {
 		"specialty" : {
-			"bonuses" : {
-				"animateDead" : {
-					"val" : 5
-				}
-			}
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {

@@ -1,11 +1,7 @@
 {
 	"core:astral" : {
 		"specialty" : {
-			"bonuses" : {
-				"hypnotize" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

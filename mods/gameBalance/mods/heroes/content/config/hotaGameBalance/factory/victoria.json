@@ -1,11 +1,7 @@
 {
 	"hota.factory:17victoria" : {
 		"specialty" : {
-			"bonuses" : {
-				"landMine" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

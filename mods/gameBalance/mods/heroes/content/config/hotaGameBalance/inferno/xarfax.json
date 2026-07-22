@@ -1,11 +1,7 @@
 {
 	"core:xarfax" : {
 		"specialty" : {
-			"bonuses" : {
-				"fireball" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

@@ -50,15 +50,8 @@
 				"skill" : "estates"
 			}
 		],
-
 		"specialty" : {
-			"bonuses" : {
-				"weakness" : {
-					"addInfo" : 0,
-					"subtype" : "weakness",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
-				}
-			}
+			"spellFixedAdditive" : "weakness"
 		}
 	}
 }

@@ -42,13 +42,7 @@
 			"bloodlust"
 		],
 		"specialty" : {
-			"bonuses" : {
-				"bloodlust" : {
-					"addInfo" : 0,
-					"subtype" : "spell.bloodlust",
-					"type" : "SPECIAL_PECULIAR_ENCHANT"
-				}
-			}
+			"spellFixedAdditive" : "bloodlust"
 		},
 		"texts" : {
 			"name" : "Akka",

@@ -1,11 +1,7 @@
 {
 	"core:deemer" : {
 		"specialty" : {
-			"bonuses" : {
-				"meteorShower" : {
-					"val" : 5
-				}
-			}
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {
