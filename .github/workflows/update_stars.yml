@@ -1,0 +1,38 @@
+name: Update GitHub Stars
+on:
+  watch:
+    types: [started]
+  workflow_dispatch:
+
+# Shared with the CI and translation workflows so none of them run concurrently.
+concurrency:
+  group: vcmi-mod-pipeline
+  cancel-in-progress: false
+
+jobs:
+  update-stars:
+    name: Refresh githubStars in releases
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Patch githubStars in every release mod.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          STARS=$(gh api "repos/${GITHUB_REPOSITORY}" -q .stargazers_count)
+          for tag in $(gh release list --limit 100 --json tagName -q '.[].tagName'); do
+            # Older releases may have no mod.json asset - skip them.
+            if gh release download "$tag" --pattern mod.json --clobber 2>/dev/null; then
+              # --indent 4 matches the release job's json.dumps style so the star
+              # update does not reformat the published asset.
+              jq --indent 4 --argjson stars "$STARS" '.githubStars = $stars' mod.json > mod.json.tmp
+              mv mod.json.tmp mod.json
+              gh release upload "$tag" mod.json --clobber
+              rm -f mod.json
+            fi
+          done

@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 
-import re
 import sys
 from pathlib import Path
-from pprint import pprint
 
 # VCMI supports JSON with comments, but not JSON5
-import jstyleson 
+import jstyleson
 
 validation_failed = False
 

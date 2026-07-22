@@ -3,7 +3,7 @@
 set -euo pipefail
 
 ROOT="$(pwd)"
-mapfile -d '' CONTENT_DIRS < <(find . -type d -name content -print0)
+mapfile -d '' CONTENT_DIRS < <(find . -type d -iname content -print0)
 echo "Found ${#CONTENT_DIRS[@]} content directories"
 
 for d in "${CONTENT_DIRS[@]}"; do
