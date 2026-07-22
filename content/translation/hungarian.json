@@ -1353,5 +1353,9 @@
 	"hero.hota.bulwark.17haugir.name": "Haugir",
 	"hero.hota.bulwark.17haugir.specialty.description": "A navigáció jártasság jelenlétében a hős szintenként 5% bónusz extra mozgáspontot kap a tengeren.",
 	"hero.hota.bulwark.17haugir.specialty.name": "Navigáció",
-	"hero.hota.bulwark.17haugir.specialty.tooltip": "Másodlagos jártásságbónusz: navigáció"
+	"hero.hota.bulwark.17haugir.specialty.tooltip": "Másodlagos jártásságbónusz: navigáció",
+	"mod.maps.officialcampaigns.name": "Kampányok",
+	"mod.maps.officialcampaigns.description": "Ez a mod az összes hivatalos, a HotA Crew által készített kampányt tartalmazza",
+	"mod.maps.officialmaps.name": "Térképek",
+	"mod.maps.officialmaps.description": "Ez a mod az összes hivatalos, a HotA Crew által készített pályát tartalmazza"
 }

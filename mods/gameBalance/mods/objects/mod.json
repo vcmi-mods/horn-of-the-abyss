@@ -28,11 +28,17 @@
 	},
 	"chinese" : {
 		"name" : "物体",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Objekty",
-		"description" : ""
+		"description" : "",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"german" : {
 		"name" : "Objekte",
@@ -74,6 +80,16 @@
 		"description" : "",
 		"translations" : [
 			"translation/japanese.json"
+		]
+	},
+	"portuguese" : {
+		"translations" : [
+			"translation/portuguese.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
 		]
 	}
 }

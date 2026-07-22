@@ -1247,5 +1247,10 @@
 	"hero.hota.bulwark.17haugir.name": "Haugir",
 	"hero.hota.bulwark.17haugir.specialty.description": "Denizde hareket puanlarına seviye başına %5 bonus alır.",
 	"hero.hota.bulwark.17haugir.specialty.name": "Navigasyon",
-	"hero.hota.bulwark.17haugir.specialty.tooltip": "İkincil Beceri Bonusu: Navigasyon"
+	"hero.hota.bulwark.17haugir.specialty.tooltip": "İkincil Beceri Bonusu: Navigasyon",
+	"mod.name": "Horn of the Abyss",
+	"mod.maps.officialcampaigns.name": "Senaryolar",
+	"mod.maps.officialcampaigns.description": "Bu mod, HotA Crew tarafından oluşturulan tüm resmi senaryoları içerir",
+	"mod.maps.officialmaps.name": "Haritalar",
+	"mod.maps.officialmaps.description": "Bu mod, HotA Crew tarafından oluşturulan tüm resmi haritaları içerir"
 }
