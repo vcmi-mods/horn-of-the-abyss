@@ -1474,5 +1474,8 @@
 	"mod.textpolishing.name": "Nicht Aktivieren",
 	"mod.textpolishing.description": "Diese Mod ist ausschließlich für die Englische Sprache und hat keinen Effekt auf die Deutsche Übersetzung.",
 	"mod.wastelandterrain.name": "Ödland Terrain",
-	"mod.wastelandterrain.description": "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu."
+	"mod.wastelandterrain.description": "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu.",
+	"mod.gamebalance.artifacts.description": "Übernimmt die Balanceänderungen an Artefakten aus HotA",
+	"mod.mainmenu.buttonsgerman.name": "Deutsche Schaltflächen",
+	"mod.mainmenu.buttonsgerman.description": "Deutsche Schaltflächen"
 }
