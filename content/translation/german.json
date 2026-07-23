@@ -1477,5 +1477,11 @@
 	"mod.wastelandterrain.description": "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu.",
 	"mod.gamebalance.artifacts.description": "Übernimmt die Balanceänderungen an Artefakten aus HotA",
 	"mod.mainmenu.buttonsgerman.name": "Deutsche Schaltflächen",
-	"mod.mainmenu.buttonsgerman.description": "Deutsche Schaltflächen"
+	"mod.mainmenu.buttonsgerman.description": "Deutsche Schaltflächen",
+	"mod.gamebalance.creatures.description": "Gleicht die Kreaturen aus dem Basisspiel an die HotA-Änderungen an.",
+	"mod.gamebalance.factions.description": "Implementiert die in HotA eingeführten Änderungen an den Fraktionen des Basisspiels.",
+	"mod.gamebalance.objects.description": "Erweitert das Spiel um neue Funktionen, wie das Ablehnen von Belohnungen in Gelehrten- und Hexenhütten und übernimmt die von HotA angepasste Balance von Kartenobjekten.",
+	"mod.gamebalance.objects.rmgtweak.description": "Passt die Dichte, mit der manche Objekte auf zufälligen Karten generiert werden, an die HotA-Werte an.",
+	"mod.gamebalance.skills.description": "Individuell auswählbare Mods, die die Balanceänderungen der Sekundärfähigkeiten in HotA ins Spiel übernehmen.",
+	"mod.gamebalance.spells.description": "Übernimmt die Balanceänderungen an Zaubersprüchen, die in HotA eingeführt wurden."
 }
