@@ -1,0 +1,7 @@
+{
+	"core:heal" : {
+		"patches" : {
+			"append" : "patches/specialtyCurePatch"
+		}
+	}
+}

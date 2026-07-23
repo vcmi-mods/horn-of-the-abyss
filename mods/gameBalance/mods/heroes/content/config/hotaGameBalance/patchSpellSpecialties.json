@@ -1,7 +1,0 @@
-{
-	"core:heal" : {
-		"patches" : {
-			"append" : "patches/hotaHealSpecialties"
-		}
-	}
-}

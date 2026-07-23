@@ -1,6 +1,6 @@
 {
 	"name" : "Heroes",
-	"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
+	"description" : "Changes starting secondary skills for Uland, Deemer and Gem and adjusts hero specialty scaling.",
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
@@ -168,6 +168,9 @@
 	],
 	"bonuses" : [
 		"config/hotaGameBalance/hotaSpecialtyBonuses.json"
+	],
+	"spellEffects" : [
+		"config/hotaGameBalance/hotaSpecialtyPatches.json"
 	],
 	"chinese" : {
 		"name" : "英雄",
