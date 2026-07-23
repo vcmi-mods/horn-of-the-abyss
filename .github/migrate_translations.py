@@ -60,9 +60,16 @@ def collect_updates(root: Path) -> dict:
         config = load_jsonc(mod_json_path(mod_dir))
         if config.get("modType") == "Translation":
             continue
-        # description/english.md is authoritative and translated as its own component;
-        # when present, don't seed description keys (matching export, which skips them).
-        fields = ("name",) if description_md(mod_dir, "english") is not None else ("name", "description")
+        # Only seed a field that export writes to english.json; otherwise the seeded
+        # <lang> key has no Weblate source and gets stripped on sync, which our commit
+        # re-adds - an endless CI<->Weblate loop. Mirror export's emission rule: name
+        # when non-empty; description only when non-empty AND no authoritative english.md.
+        fields = []
+        if isinstance(config.get("name"), str) and config["name"]:
+            fields.append("name")
+        if (isinstance(config.get("description"), str) and config["description"]
+                and description_md(mod_dir, "english") is None):
+            fields.append("description")
         for language in LANGUAGES:
             if language == "english":
                 continue
