@@ -40,14 +40,8 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"resurrection" : {
-					"subtype" : "spell.resurrection",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "resurrection",
+			"spellScalingVal" : 3
 		},
 		"texts" : {
 			"biography" : "Miseria is a young demon in Kreegan, wild and irresponsible. She rarely thinks about the consequences of her actions. Or does she not care? She acts on her feelings, and that's all she cares about.",
