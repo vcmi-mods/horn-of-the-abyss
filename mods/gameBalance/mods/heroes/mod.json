@@ -11,11 +11,6 @@
 		"hota.factory",
 		"hota.heroes"
 	],
-	"settings" : {
-		"heroes" : {
-			"specialtyCreatureGrowth" : 20
-		}
-	},
 	"heroes" : [
 		"config/hotaGameBalance/bulwark/akka.json",
 		"config/hotaGameBalance/bulwark/biarma.json",
