@@ -1,5 +1,5 @@
 {
-	"skill.core.eagleEye.description.advanced" : "{Œil d'aigle niveau 2}\n\nLe héros a 50 % de chances d'apprendre un sort de niveau 3 ou moins lancé par un ennemi pendant un combat.",
-	"skill.core.eagleEye.description.basic" : "{Œil d'aigle niveau 1}\n\nLe héros a 40 % de chances d'apprendre un sort de niveau 1 ou 2 lancé par un ennemi pendant un combat.",
-	"skill.core.eagleEye.description.expert" : "{Œil d'aigle niveau 3}\n\nLe héros a 60 % de chances d'apprendre un sort de niveau 4 ou moins lancé par un ennemi en combat."
+	"skill.core.eagleEye.description.advanced": "{Œil d'aigle niveau 2}\n\nLe héros a 50 % de chances d'apprendre un sort de niveau 3 ou moins lancé par un ennemi pendant un combat.",
+	"skill.core.eagleEye.description.basic": "{Œil d'aigle niveau 1}\n\nLe héros a 40 % de chances d'apprendre un sort de niveau 1 ou 2 lancé par un ennemi pendant un combat.",
+	"skill.core.eagleEye.description.expert": "{Œil d'aigle niveau 3}\n\nLe héros a 60 % de chances d'apprendre un sort de niveau 4 ou moins lancé par un ennemi en combat."
 }
