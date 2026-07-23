@@ -13,8 +13,8 @@ local function getAdjustedEffectValue(mechanics, unit)
 		return b:getType() == "SPECIALTY_CURE"
 	end)
 	if specialty:size() > 0 then
-		local increments = math.floor(specialty:getBonus(1):getVal() / (8 - tier))
-		base = math.floor(base * (1 + (increments * 0.10)))
+		local percent = specialty:getBonus(1):getVal() * math.floor(hero:getLevel() / (8 - tier))
+		base = math.floor(base * (100 + percent) / 100)
 	end
 
 	return base
