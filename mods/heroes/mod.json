@@ -54,5 +54,10 @@
 	"german" : {
 		"name" : "Neue Helden",
 		"description" : "Fügt die neuen Helden (**Beatrice, Kinkeria und Ranloo**) aus HotA dem Spiel hinzu. Ändert zudem **Voy und Sylvia** dahingehend, dass sie nur noch auf Wasserkarten auswählbar sind."
+	},
+	"ukrainian" : {
+		"translations" : [
+			"translation/ukrainian.json"
+		]
 	}
 }
