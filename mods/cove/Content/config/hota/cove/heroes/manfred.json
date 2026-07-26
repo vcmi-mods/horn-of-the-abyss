@@ -35,14 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"fireball" : {
-					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.fireball",
-					"val" : 3,
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"spellScalingPercentage" : "fireball"
 		},
 		"spellbook" : [
 			"fireball"

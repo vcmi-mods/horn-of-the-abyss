@@ -1,0 +1,12 @@
+{
+	"core:coronius" : {
+		"specialty" : {
+			"spellFixedValues" : [ 20, 20, 16, 16, 12, 12, 8 ]
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Slayer with effect increased by 20 for 1-2 level creatures, by 16 for 3-4 level creatures, by 12 for 5-6 level creatures, and by 8 for 7 level creatures."
+			}
+		}
+	}
+}

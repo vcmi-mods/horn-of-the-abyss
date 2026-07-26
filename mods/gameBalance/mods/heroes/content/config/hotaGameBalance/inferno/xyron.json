@@ -1,11 +1,7 @@
 {
 	"core:xyron" : {
 		"specialty" : {
-			"bonuses" : {
-				"inferno" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

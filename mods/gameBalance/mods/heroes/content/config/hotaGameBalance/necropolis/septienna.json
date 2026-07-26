@@ -1,11 +1,7 @@
 {
 	"core:septienna" : {
 		"specialty" : {
-			"bonuses" : {
-				"deathRipple" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

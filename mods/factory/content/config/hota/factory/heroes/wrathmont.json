@@ -52,14 +52,7 @@
 		],
 
 		"specialty" : {
-			"bonuses" : {
-				"frenzy" : {
-					"subtype" : "spell.frenzy",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "frenzy"
 		}
 	}
 }

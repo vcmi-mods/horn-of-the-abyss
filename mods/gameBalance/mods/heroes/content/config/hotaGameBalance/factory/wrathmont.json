@@ -1,11 +1,7 @@
 {
 	"hota.factory:15wrathmont" : {
 		"specialty" : {
-			"bonuses" : {
-				"frenzy" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

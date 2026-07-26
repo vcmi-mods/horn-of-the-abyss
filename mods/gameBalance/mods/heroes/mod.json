@@ -1,6 +1,6 @@
 {
 	"name" : "Heroes",
-	"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
+	"description" : "Changes starting secondary skills for Uland, Deemer and Gem and adjusts hero specialty scaling.",
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
@@ -135,6 +135,7 @@
 		"config/hotaGameBalance/rampart/aeris.json",
 		"config/hotaGameBalance/rampart/alagar.json",
 		"config/hotaGameBalance/rampart/clancy.json",
+		"config/hotaGameBalance/rampart/coronius.json",
 		"config/hotaGameBalance/rampart/gem.json",
 		"config/hotaGameBalance/rampart/ivor.json",
 		"config/hotaGameBalance/rampart/ryland.json",
@@ -165,11 +166,11 @@
 		"config/hotaGameBalance/tower/theodorus.json",
 		"config/hotaGameBalance/tower/torosar.json"
 	],
-	"spellEffects" : [
-		"config/hotaGameBalance/patchSpellSpecialties.json"
-	],
 	"bonuses" : [
 		"config/hotaGameBalance/hotaSpecialtyBonuses.json"
+	],
+	"spellEffects" : [
+		"config/hotaGameBalance/hotaSpecialtyPatches.json"
 	],
 	"chinese" : {
 		"name" : "英雄",

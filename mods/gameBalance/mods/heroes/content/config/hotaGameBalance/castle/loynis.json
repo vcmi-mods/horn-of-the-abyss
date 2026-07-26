@@ -1,5 +1,8 @@
 {
 	"core:loynis" : {
+		"specialty" : {
+			"spellFixedValues" : [ 3, 3, 3, 3, 2, 2, 1 ]
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Casts Prayer with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures."
