@@ -1,7 +1,9 @@
 {
 	"core:aenain" : {
 		"specialty" : {
-			"spellFixedValues" : [ -10 ]
+			"spellFixedValues" : [
+				-10
+			]
 		},
 		"texts" : {
 			"specialty" : {

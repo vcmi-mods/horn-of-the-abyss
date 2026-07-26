@@ -1,7 +1,15 @@
 {
 	"core:cuthbert" : {
 		"specialty" : {
-			"spellFixedValues" : [ -4, -4, -6, -6, -8, -8, -10]
+			"spellFixedValues" : [
+				-4,
+				-4,
+				-6,
+				-6,
+				-8,
+				-8,
+				-10
+			]
 		},
 		"texts" : {
 			"specialty" : {

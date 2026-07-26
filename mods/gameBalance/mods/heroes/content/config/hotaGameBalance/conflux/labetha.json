@@ -1,7 +1,15 @@
 {
 	"core:labetha" : {
 		"specialty" : {
-			"spellFixedValues" : [ 10, 10, 8, 8, 6, 6, 4 ]
+			"spellFixedValues" : [
+				10,
+				10,
+				8,
+				8,
+				6,
+				6,
+				4
+			]
 		},
 		"texts" : {
 			"specialty" : {

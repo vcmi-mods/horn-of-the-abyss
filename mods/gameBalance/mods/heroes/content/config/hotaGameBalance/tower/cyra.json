@@ -1,7 +1,15 @@
 {
 	"core:cyra" : {
 		"specialty" : {
-			"spellFixedValues" : [ 3, 3, 3, 3, 2, 2, 1 ]
+			"spellFixedValues" : [
+				3,
+				3,
+				3,
+				3,
+				2,
+				2,
+				1
+			]
 		},
 		"texts" : {
 			"specialty" : {

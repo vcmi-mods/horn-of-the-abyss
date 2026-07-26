@@ -21,6 +21,7 @@
 	"hero.core.charna.specialty.description" : "Increases the Speed of any Wights or Wraiths by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 	"hero.core.christian.specialty.description" : "Increases the Attack and Defense skills of any Ballista by 30% for every 5 levels (rounded up).",
 	"hero.core.clancy.specialty.description" : "Increases the Speed of any Unicorns or War Unicorns by 1 and their Attack and Defense skills by 20% for every 6 levels (rounded up).",
+	"hero.core.coronius.specialty.description" : "Casts Slayer with effect increased by 20 for 1-2 level creatures, by 16 for 3-4 level creatures, by 12 for 5-6 level creatures, and by 8 for 7 level creatures.",
 	"hero.core.cuthbert.specialty.description" : "Casts Weakness with effect increased by 4 for level 1–2 creatures, by 6 for level 3–4 creatures, by 8 for level 5–6 creatures, and by 10 for level 7 creatures.",
 	"hero.core.cyra.specialty.description" : "Casts Haste with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures.",
 	"hero.core.dace.specialty.description" : "Increases the Speed of any Minotaurs or Minotaur Kings by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",

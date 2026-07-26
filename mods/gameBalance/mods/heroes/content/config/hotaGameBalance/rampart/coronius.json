@@ -1,7 +1,15 @@
 {
 	"core:coronius" : {
 		"specialty" : {
-			"spellFixedValues" : [ 20, 20, 16, 16, 12, 12, 8 ]
+			"spellFixedValues" : [
+				20,
+				20,
+				16,
+				16,
+				12,
+				12,
+				8
+			]
 		},
 		"texts" : {
 			"specialty" : {
