@@ -2011,7 +2011,7 @@
 	"map.[hota] valiant beast hunting.sign.14.120.0.message": "Jałowe nadbrzeże",
 	"map.[hota] valiant beast hunting.sign.15.37.0.message": "Pomocy! Jestem więziona! Na samym krańcu północy, w zapomnianej niszy mapy, te przeklęte bestie porzuciły mnie, bym zgniła w samotności!\nSzukaj śladu lodu i podążaj jego ścieżką.\n\n- Anabelle",
 	"map.[hota] valiant beast hunting.sign.150.11.1.message": "Muszę obejść to miejsce.\n\n- Thant",
-	"map.[hota] valiant beast hunting.sign.151.12.0.message": "Muszę znaleźć drogę dookoła.",
+	"map.[hota] valiant beast hunting.sign.151.12.0.message": "Muszę znaleźć okrężną drogę.",
 	"map.[hota] valiant beast hunting.sign.151.141.0.message": "Kopanie bez pozwolenia wzbronione!",
 	"map.[hota] valiant beast hunting.sign.158.6.0.message": "Wschód: nieodkryte sekrety Nekromancji.\n\nPółnoc: warty odwiedzenia Jasnowidz.\n\nWskazówka: Płaszcz nieumarłego króla jest możliwy do zdobycia, lecz dopiero w późniejszym etapie wyprawy.",
 	"map.[hota] valiant beast hunting.sign.16.4.0.message": "Podążaj drogą na południe, aż dotrzesz do kolejnego miasta.",
@@ -2299,5 +2299,6 @@
 	"map.[hota] gelu and hota 20.quest.125.6.1.completed": "Jesteś zwycięzcą! Możesz przejść!!",
 	"map.[hota] gelu and hota 20.quest.125.6.1.firstVisit": "Tylko dla Zwycięzcy!",
 	"map.[hota] gelu and hota 20.quest.125.6.1.nextVisit": "Tylko dla Zwycięzcy!",
-	"map.[hota] gelu and hota 20.quest.175.56.1.completed": "Gotowi?? 3... 2... 1... START!!!"
+	"map.[hota] gelu and hota 20.quest.175.56.1.completed": "Gotowi?? 3... 2... 1... START!!!",
+	"map.[hota] valiant beast hunting.guards.15.89.0.message": "Mocno strzeżony skarb Władców Bestii - 40 wiwern, 20 hydr i 40 wielkich gorgon"
 }
