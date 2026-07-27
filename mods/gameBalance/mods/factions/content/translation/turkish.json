@@ -1,1 +1,4 @@
-{}
+{
+	"building.core.dungeon.special2.description": "Mana Girdabı, haftada bir kez, ziyaret eden bir kahramanın büyü puanlarını iki katına çıkarır.",
+	"building.core.necropolis.special2.description": "Nekromansi Güçlendiricisi, kontrol ettiğiniz tüm kahramanların (Nekromansi becerisine sahip olanların) Nekromansi becerisini %5 oranında artırır."
+}

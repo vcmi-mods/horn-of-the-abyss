@@ -1,1 +1,24 @@
-{}
+{
+	"core.bonus.RUNE_LEVEL_COUNTER.description": "Bu mesaj görüntüleniyorsa, bu RUNE_LEVEL_COUNTER ile ilgili bir hatadır.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Bu birim, savaş sırasında Rune seviyeleri kazanır.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1": "1. seviye rune için bonus:\n+2 Saldırı",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.2": "2. seviye rün bonusları:\n+2 Saldırı\n+2 Savunma",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.3": "3. seviye rün bonusları:\n+2 Saldırı\n+2 Savunma\n+1 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.4": "4. seviye rün bonusları:\n+4 Saldırı\n+2 Savunma\n+1 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.5": "5. seviye rün bonusları:\n+4 Saldırı\n+4 Savunma\n+1 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.6": "6. seviye rün bonusları:\n+4 Saldırı\n+4 Savunma\n+2 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.7": "7. seviye rün bonusları:\n+6 Saldırı\n+4 Savunma\n+2 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.8": "8. seviye rün bonusları:\n+6 Saldırı\n+6 Savunma\n+2 Hız",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.9": "9. seviye rün bonusları:\n+6 Saldırı\n+6 Savunma\n+3 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description": "Bu mesaj görüntüleniyorsa, bu YETI_RUNE_LEVEL_COUNTER ile ilgili bir hatadır.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0": "Yeti Runemaster, savaş sırasında Rune seviyeleri kazanır.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1": "1. seviye rune için bonus:\n+2 Saldırı",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2": "2. seviye rün bonusları:\n+2 Saldırı\n+2 Savunma",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3": "3. seviye rün bonusları:\n+2 Saldırı\n+2 Savunma\n+1 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.4": "4. seviye rün bonusları:\n+4 Saldırı\n+2 Savunma\n+1 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.5": "5. seviye rün bonusları:\n+4 Saldırı\n+4 Savunma\n+1 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6": "6. seviye rün bonusları:\n+4 Saldırı\n+4 Savunma\n+2 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7": "7. seviye rün bonusları:\n+6 Saldırı\n+4 Savunma\n+2 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8": "8. seviye rün bonusları:\n+6 Saldırı\n+6 Savunma\n+2 Hız",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "9. seviye rün bonusları:\n+6 Saldırı\n+6 Savunma\n+3 Hız"
+}

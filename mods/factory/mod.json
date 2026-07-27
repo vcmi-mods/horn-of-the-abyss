@@ -47,6 +47,7 @@
 		"config/hota/factory/creatures/hotaCouatl.json",
 		"config/hota/factory/creatures/crimsonCouatl.json",
 		"config/hota/factory/creatures/stackExperience",
+		"config/hota/factory/creatures/ballistaPatch.json",
 		"config/hota/factory/commander/cowboy.json"
 	],
 

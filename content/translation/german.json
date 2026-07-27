@@ -1370,7 +1370,7 @@
 	"mod.changedshootingvisuals.name": "Neue Fernkampfgrafiken",
 	"mod.changedshootingvisuals.description": "Fügt neue Angriffsgrafiken für Schießer hinzu.\nOriginale Grafiken wurden vom HotA Team bereitgestellt.",
 	"mod.confluxvaultofashes.name": "Konflux - Gruft der Asche",
-	"mod.confluxvaultofashes.description": "Fügt ein neues Gebäude zum Konflux hinzu: Gruft der Asche. Es erhöht erhöht die Produktion von Feuervögeln und Phönixen um 1 pro Woche.",
+	"mod.confluxvaultofashes.description": "Fügt ein neues Gebäude zum Konflux hinzu: Gruft der Asche. Es erhöht die Produktion von Feuervögeln und Phönixen um 1 pro Woche.",
 	"mod.cove.name": "Bucht",
 	"mod.cove.description": "Fügt die Stadt 'Bucht' aus HotA zum Spiel hinzu. Die Stadt hat eine Piratenthematik und handelt von den Kapitänen und Navigatoren von Regna.",
 	"mod.cove.bonuses icons.name": "Zusatzsymbole - Bucht",
@@ -1472,7 +1472,7 @@
 	"mod.spellresearch.name": "Zaubererforschung",
 	"mod.spellresearch.description": "Eine abgeänderte Version für die in HotA eingeführte Zaubererforschung in der Magiergilde.",
 	"mod.supplementary.name": "VCMI Community Add-On",
-	"mod.supplementary.description": "Diese Mod fügt folgende, von der VCMI Community ausgedachten, Elemente hinzu:<br/><br/>Artifacts:<br/>- Fang of the Last Scream<br/>- Great Battle Bow<br/>- Great Woe of the Crawlers<br/>- Hollow Eye<br/><br/>Map Objects:<br/>- Guard Tower<br/>- Steel Golem Factory<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Other Objects:<br/>- Kangaroo<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Bitte beachten: Dies ist eine inoffizielle Community-Mod und nicht Teil von HotA. Noch nicht ins Deutsche übersetzt!",
+	"mod.supplementary.description": "Diese Mod fügt folgende, von der VCMI Community ausgedachten, Elemente hinzu:<br/><br/>Artifacts:<br/>- Fang of the Last Scream<br/>- Great Battle Bow<br/>- Great Woe of the Crawlers<br/>- Hollow Eye<br/><br/>Map Objects:<br/>- Guard Tower<br/>- Steel Golem Factory<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Other Objects:<br/>- Kangaroo<br/>- Lightning Generator<br/>- Wind Turbine<br/><br/>Bitte beachten: Dies ist eine inoffizielle Community-Mod und nicht Teil von HotA.",
 	"mod.templates.name": "HotA Templates",
 	"mod.templates.description": "Enthält einige aus HotA geportete Templates.",
 	"mod.terrainoverlays.name": "Magische Terrains",
@@ -1480,5 +1480,8 @@
 	"mod.textpolishing.name": "Nicht Aktivieren",
 	"mod.textpolishing.description": "Diese Mod ist ausschließlich für die Englische Sprache und hat keinen Effekt auf die Deutsche Übersetzung.",
 	"mod.wastelandterrain.name": "Ödland Terrain",
-	"mod.wastelandterrain.description": "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu."
+	"mod.wastelandterrain.description": "Fügt das Gelände 'Ödland' und die dazugehörigen Kartenobjekte hinzu.",
+	"mod.gamebalance.artifacts.description": "Übernimmt die Balanceänderungen an Artefakten aus HotA",
+	"mod.mainmenu.buttonsgerman.name": "Deutsche Schaltflächen",
+	"mod.mainmenu.buttonsgerman.description": "Deutsche Schaltflächen"
 }

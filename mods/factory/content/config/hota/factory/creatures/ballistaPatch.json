@@ -1,0 +1,10 @@
+{
+	"core:ballista" : {
+		"abilities" : {
+			"blocksRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"hidden" : true
+			}
+		}
+	}
+}

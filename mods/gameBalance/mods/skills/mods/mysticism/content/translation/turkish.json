@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.mysticism.description.advanced": "{İleri Düzey Mistiklik}\n\nİleri Düzey Mistiklik, kahramanın her gün maksimum büyü puanının %20’sini yenilemesini sağlar; ancak her gün yenilenen büyü puanı en az 10 olur.",
+	"skill.core.mysticism.description.basic": "{Temel Mistiklik}\n\nTemel Mistiklik, kahramanın her gün maksimum büyü puanının %10’unu yenilemesini sağlar; ancak her gün yenilenen büyü puanı en az 5 olur.",
+	"skill.core.mysticism.description.expert": "{Uzman Mistiklik}\n\nUzman Mistiklik yeteneği, kahramanın her gün maksimum büyü puanının %30’unu yenilemesini sağlar; ancak her gün yenilenen büyü puanı en az 15 olur."
+}

@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.estates.description.advanced": "{Gelişmiş Mülkler}\n\nMülkler sayesinde, bir kahraman her gün davanıza 500 altın katkıda bulunur.",
+	"skill.core.estates.description.basic": "{Temel Mülkler}\n\nMülkler sayesinde, bir kahraman her gün davanıza 250 altın katkıda bulunur.",
+	"skill.core.estates.description.expert": "{Uzman Mülkler}\n\n“Mülkler” özelliği sayesinde, bir kahraman her gün davanıza 1000 altın katkıda bulunur."
+}

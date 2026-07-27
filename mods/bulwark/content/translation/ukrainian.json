@@ -1,3 +1,24 @@
 {
-	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Цей загін отримує рівні Рун під час бою."
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Цей загін отримує рівні Рун під час бою.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description": "Якщо це показано, значить є баг з RUNE_LEVEL_COUNTER.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1": "Бонус від 1-го рівня Рун:\n+2 Атаки",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.2": "Бонус від 2-го рівня Рун:\n+2 Атаки\n+2 Захисту",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.3": "Бонус від 3-го рівня Рун:\n+2 Атаки\n+2 Захисту\n+1 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.4": "Бонус від 4-го рівня Рун:\n+4 Атаки\n+2 Захисту\n+1 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.5": "Бонус від 5-го рівня Рун:\n+4 Атаки\n+4 Захисту\n+1 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.6": "Бонус від 6-го рівня Рун:\n+4 Атаки\n+4 Захисту\n+2 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.7": "Бонус від 7-го рівня Рун:\n+6 Атаки\n+4 Захисту\n+2 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.8": "Бонус від 8-го рівня Рун:\n+6 Атаки\n+6 Захисту\n+2 Швидкість",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.9": "Бонус від 9-го рівня Рун:\n+6 Атаки\n+6 Захисту\n+3 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description": "Якщо це показано, то є баг з YETI_RUNE_LEVEL_COUNTER.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0": "Майстер Рун отримує рівні Рун під час битви.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1": "Бонус від 1-го рівня Рун:\n+2 Атаки",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2": "Бонус від 2-го рівня Рун:\n+2 Атаки\n+2 Захисту",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3": "Бонус від 3-го рівня Рун:\n+2 Атаки\n+2 Захисту\n+1 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.4": "Бонус від 4-го рівня Рун:\n+4 Атаки\n+2 Захисту\n+1 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.5": "Бонус від 5-го рівня Рун:\n+4 Атаки\n+4 Захисту\n+1 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6": "Бонус від 6-го рівня Рун:\n+4 Атаки\n+4 Захисту\n+2 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7": "Бонус від 7-го рівня Рун:\n+6 Атаки\n+4 Захисту\n+2 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8": "Бонус від 8-го рівня Рун:\n+6 Атаки\n+6 Захисту\n+2 Швидкість",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "Бонус від 9-го рівня Рун:\n+6 Атаки\n+6 Захисту\n+3 Швидкість"
 }

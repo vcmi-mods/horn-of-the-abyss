@@ -75,8 +75,11 @@
 				"subtype" : "cannonSiegeShot"
 			},
 			"noRetaliation" : {
-				"type" : "NO_RETALIATION",
-				"val" : 0
+				"type" : "NO_RETALIATION"
+			},
+			"blocksRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"hidden" : true
 			},
 			"cpuControlledCannon" : {
 				"hidden" : true,

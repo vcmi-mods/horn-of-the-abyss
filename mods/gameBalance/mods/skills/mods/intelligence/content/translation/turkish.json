@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.intelligence.description.advanced": "{Gelişmiş Zeka}\n\nGelişmiş Zeka, bir kahramanın normal maksimum büyü puanı değerini %35 artırır.",
+	"skill.core.intelligence.description.basic": "{Temel Zeka}\n\nTemel Zeka, bir kahramanın normal maksimum büyü puanı değerini %20 artırır.",
+	"skill.core.intelligence.description.expert": "{Uzman Zeka}\n\nUzman Zeka, bir kahramanın normal maksimum büyü puanı değerini %50 artırır."
+}

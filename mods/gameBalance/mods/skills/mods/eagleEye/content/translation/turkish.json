@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.eagleEye.description.advanced": "{Gelişmiş Kartal Gözü}\n\nGelişmiş Kartal Gözü, kahramanınıza savaşta kullanılan 3. seviyeye kadar herhangi bir büyüyü %50 olasılıkla öğrenme şansı verir.",
+	"skill.core.eagleEye.description.basic": "{Temel Kartal Gözü}\n\nTemel Kartal Gözü, kahramanınıza savaş sırasında kullanılan herhangi bir 1. veya 2. seviye büyüyü %40 olasılıkla öğrenme şansı verir.",
+	"skill.core.eagleEye.description.expert": "{Uzman Kartal Gözü}\n\nUzman Kartal Gözü, kahramanınıza savaş sırasında kullanılan 4. seviyeye kadar herhangi bir büyüyü %60 olasılıkla öğrenme şansı verir."
+}

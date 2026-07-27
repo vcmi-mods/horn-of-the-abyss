@@ -1,4 +1,4 @@
 {
-	"creatures.core.archDevil.bonus.decreaseLuck" : "{Snižuje štěstí nepřátel}\nArciďáblové snižují štěstí nepřátel o -2 body",
-	"creatures.core.devil.bonus.decreaseLuck" : "{Snižuje štěstí nepřátel}\nĎáblové snižují štěstí nepřátel o -1 bod"
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Snižuje štěstí nepřátel}\nArciďáblové snižují štěstí nepřátel o -2 body",
+	"creatures.core.devil.bonus.decreaseLuck": "{Snižuje štěstí nepřátel}\nĎáblové snižují štěstí nepřátel o -1 bod"
 }
