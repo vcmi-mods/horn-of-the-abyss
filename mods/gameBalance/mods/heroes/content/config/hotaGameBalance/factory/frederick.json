@@ -1,8 +1,10 @@
 // Should be:
 // Increases the Damage dealt by Automatons and Sentinel Automatons' Detonation by 5% for every level (rounded up).
-// author's note: I didn't look into how the spell is coded, he has regular Automaton creature specialty atm tho, so I just update the description.
 {
 	"hota.factory:19frederick" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."

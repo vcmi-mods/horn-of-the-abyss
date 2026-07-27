@@ -192,16 +192,6 @@
 				"type" : "NO_LUCK",
 				"description" : "{No Luck}\nThe Ammo Cart is unaffected by luck.",
 				"icon" : "hotaGameBalance/creatures/noLuck.png"
-			},
-			"immuneToMisfortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.misfortune",
-				"hidden" : true
-			},
-			"immuneToFortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.fortune",
-				"hidden" : true
 			}
 		}
 	},
@@ -211,16 +201,6 @@
 				"type" : "NO_LUCK",
 				"description" : "{No Luck}\nThe First Aid Tent is unaffected by luck.",
 				"icon" : "hotaGameBalance/creatures/noLuck.png"
-			},
-			"immuneToMisfortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.misfortune",
-				"hidden" : true
-			},
-			"immuneToFortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.fortune",
-				"hidden" : true
 			}
 		}
 	},
@@ -230,16 +210,6 @@
 				"type" : "NO_LUCK",
 				"description" : "{No Luck}\nThe Catapult is unaffected by luck.",
 				"icon" : "hotaGameBalance/creatures/noLuck.png"
-			},
-			"immuneToMisfortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.misfortune",
-				"hidden" : true
-			},
-			"immuneToFortune" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.fortune",
-				"hidden" : true
 			}
 		}
 	}
