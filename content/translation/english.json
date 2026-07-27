@@ -719,7 +719,7 @@
 	"hero.hota.cove.19dargem.specialty.tooltip" : "Spell Bonus: Air Shield",
 	"hero.hota.cove.balfour.biography" : "Black Balfour is a powerful pirate leader who loves to collect treasures from all over the world, but in fact he has no interest in appreciating treasures. To be honest, he is an uncouth and all-around nasty character.",
 	"hero.hota.cove.balfour.name" : "Balfour",
-	"hero.hota.cove.balfour.specialty.description" : "Casts Forgetfulness with double duration.",
+	"hero.hota.cove.balfour.specialty.description" : "Casts Forgetfulness with number of disabled creatures increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.hota.cove.balfour.specialty.name" : "Forgetfulness",
 	"hero.hota.cove.balfour.specialty.tooltip" : "Spell Bonus: Forgetfulness",
 	"hero.hota.factory.01henrietta.biography" : "Even a humble halfling from the Eeofol backwoods is capable of a feat when an unprecedented calamity knocks at the door. The new world, devoid of thatched roofs, carrot beds, or the incessant grumbling of geezers, has changed Henrietta, and she is now ready to change it herself. Kreegan fire reduced her homeland to ashes and scorched her heart, but she used it to forge herself a steel will.",
