@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.scouting.description.advanced": "{Gelişmiş Keşif}\n\nGelişmiş Keşif, kahramanınızın sis perdesinin 3 kare ötesini görmesini sağlar.",
+	"skill.core.scouting.description.basic": "{Temel Keşif}\n\nTemel Keşif, kahramanınızın sis perdesinin 1 kare daha ötesini görmesini sağlar.",
+	"skill.core.scouting.description.expert": "{Uzman Keşif}\n\nUzman Keşif, kahramanınızın sis perdesinin 5 kare ötesini görmesini sağlar."
+}

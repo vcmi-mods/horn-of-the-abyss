@@ -1,5 +1,5 @@
 {
-	"skill.core.eagleEye.description.advanced" : "{「観察眼」熟練者レベル}\n\n戦闘中に使用されたレベル3までの呪文を、50%の確率で習得することができる。",
-	"skill.core.eagleEye.description.basic" : "{「観察眼」修得者レベル}\n\n戦闘で使用されたレベル1またはレベル2の呪文を、40%の確率で習得することができる。",
-	"skill.core.eagleEye.description.expert" : "{「観察眼」達人レベル}\n\n戦闘で使用されたレベル4までの呪文を、60%の確率で習得することができる。"
+	"skill.core.eagleEye.description.advanced": "{「観察眼」熟練者レベル}\n\n戦闘中に使用されたレベル3までの呪文を、50%の確率で習得することができる。",
+	"skill.core.eagleEye.description.basic": "{「観察眼」修得者レベル}\n\n戦闘で使用されたレベル1またはレベル2の呪文を、40%の確率で習得することができる。",
+	"skill.core.eagleEye.description.expert": "{「観察眼」達人レベル}\n\n戦闘で使用されたレベル4までの呪文を、60%の確率で習得することができる。"
 }

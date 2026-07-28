@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.necromancy.description.advanced": "{İleri Düzey Necromancy}\n\nİleri Düzey Necromancy, savaşta öldürülen yaratıkların %10’unun iskelet olarak diriltilmesini sağlar.",
+	"skill.core.necromancy.description.basic": "{Temel Necromansi}\n\nTemel Necromansi, savaşta öldürülen yaratıkların %5’inin iskelet olarak diriltilmesini sağlar.",
+	"skill.core.necromancy.description.expert": "{Uzman Necromancy}\n\nUzman Necromancy, savaşta öldürülen yaratıkların %15’inin iskelet olarak diriltilmesini sağlar."
+}

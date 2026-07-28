@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.logistics.description.advanced": "{Gelişmiş Lojistik}\n\nGelişmiş Lojistik, kahramanınızın karada hareket puanını %10 artırır.",
+	"skill.core.logistics.description.basic": "{Temel Lojistik}\n\nTemel Lojistik, kahramanınızın karada hareket puanını %5 artırır.",
+	"skill.core.logistics.description.expert": "{Uzman Lojistik}\n\nUzman Lojistik, kahramanınızın karada hareket puanını %20 artırır."
+}

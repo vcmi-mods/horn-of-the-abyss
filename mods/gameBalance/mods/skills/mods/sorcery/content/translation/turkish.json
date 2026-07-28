@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.sorcery.description.advanced": "{İleri Düzey Büyücülük}\n\nİleri Düzey Büyücülük, bir kahramanın büyülerinin savaşta %20 daha fazla hasar vermesini sağlar.",
+	"skill.core.sorcery.description.basic": "{Temel Büyücülük}\n\nTemel Büyücülük, bir kahramanın büyülerinin savaşta %10 daha fazla hasar vermesini sağlar.",
+	"skill.core.sorcery.description.expert": "{Usta Büyücülük}\n\nUsta Büyücülük, bir kahramanın büyülerinin savaşta %30 daha fazla hasar vermesini sağlar."
+}
