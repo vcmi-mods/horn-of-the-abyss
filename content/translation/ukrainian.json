@@ -1260,5 +1260,10 @@
 	"mapObject.hota.neutralcreatures.ancientaltar.creatureBank.ancientAltarOld.name": "Древній Вівтар",
 	"mapObject.hota.neutralcreatures.ancientaltar.creatureBank.ancientAltarOld.onGuarded": "{Древній Вівтар}\n\nГлибоко під землею ви знаходите древній храм, де Гаспиди охороняють могутній артефакт.\nХочете битися з ними?",
 	"mapObject.hota.neutralcreatures.ancientaltar.creatureBank.ancientAltarOld.onVisited": "{Древній Вівтар}\n\nГлибоко під землею ви знаходите древній храм. Колись тут був могутній артефакт, але зараз храм пустий.",
-	"mapObject.hota.neutralcreatures.ancientaltar.creatureBank.ancientAltarOld.rewards.0": "{Древній Вівтар}\n\nПісля перемоги над монстрами, ви обшукуєте вівтар храму і знаходите легендарний Ріг Безодні!"
+	"mapObject.hota.neutralcreatures.ancientaltar.creatureBank.ancientAltarOld.rewards.0": "{Древній Вівтар}\n\nПісля перемоги над монстрами, ви обшукуєте вівтар храму і знаходите легендарний Ріг Безодні!",
+	"mapObject.hota.wastelandterrain.grave.grave.onEmpty": "{Могила}\n\nЦя могила свіжа, навіть лопату, якою її копали, ще ніхто не вкрав.\n\nАле розкопка артефактів займає цілий день.",
+	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.description": "(Зменшує ціну руху по Пустищу до 75% до кінця тижня)\n",
+	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.name": "Першопроходець",
+	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.onVisited": "{Першопроходець}\n\n\"Ей, це мій намет. Будь впевнений, це не моя вина що ми ходимо колами,\" - каже першопроходець.",
+	"mapObject.hota.wastelandterrain.trailblazer.trailblazer.rewards.0": "{Першопроходець}\n\n\"Я знаю цю пустку як свої п'ять пальців. Навіть якщо я десь не був, я зможу знайти шлях. Думаю я можу піти з тобою на тиждень якщо тобі потрібна допомога,\" - каже чоловік в наметі."
 }
