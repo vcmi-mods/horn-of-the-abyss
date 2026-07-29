@@ -3,24 +3,16 @@
 		"type" : "ability",
 		"targetType" : "CREATURE",
 		"name" : "Repair",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
-		},
+		"school" : {},
 		"level" : 0,
 		"power" : 0,
-
 		"defaultGainChance" : 0,
 		"gainChance" : {},
-
 		"animation" : {
 			"affect" : [
 				"hota/factory/spells/CSPhea03.def"
 			]
 		},
-
 		"flags" : {
 			"positive" : true,
 			"rising" : true,
@@ -37,17 +29,14 @@
 				"bonus.UNDEAD" : "absolute"
 			}
 		},
-
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/icmal100.png"
 		},
-
 		"sounds" : {
 			"cast" : "hota/spells/Repair.wav"
 		},
-
 		"levels" : {
-			"base" : {
+			"none" : {
 				"description" : "not shown",
 				"cost" : 0,
 				"range" : "0",
@@ -70,11 +59,7 @@
 				"targetModifier" : {
 					"smart" : true
 				}
-			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+			}
 		}
 	}
 }

@@ -1,8 +1,13 @@
 {
-	"hotaGrenade" : {
+	"hotaEnchanterArrow" : {
 		"type" : "ability",
-		"name" : "Grenades",
+		"name" : "Enchanter Visuals",
 		"school" : {},
+		"flags" : {
+			"damage": true,
+			"negative": true,
+			"nonMagical": true
+		},
 		"level" : 0,
 		"power" : 0,
 		"defaultGainChance" : 0,
@@ -10,28 +15,24 @@
 		"targetType" : "CREATURE",
 		"animation" : {
 			"hit" : [
-				"hota/factory/spells/Expl_07.def"
+				"C20SPX"
 			]
 		},
+		"targetCondition" : {},
 		"sounds" : {
-			"cast" : "hota/spells/GRENEXPL.wav"
-		},
-		"flags" : {
-			"damage": true,
-			"negative": true,
-			"nonMagical": true
+			"cast" : "MAGCBLTH"
 		},
 		"graphics" : {},
 		"levels" : {
 			"none" : {
 				"range" : "0",
+				"power" : 0,
+				"cost" : 0,
 				"battleEffects" : {
-					"directDamage" : {
+					"damage" : {
 						"type" : "core:damage"
 					}
 				},
-				"cost" : 0,
-				"power" : 0,
 				"description" : "not shown"
 			}
 		}

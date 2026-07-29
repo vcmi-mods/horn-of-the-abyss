@@ -15,6 +15,9 @@
 		"config/hotaGameBalance/creaturesCove.json",
 		"config/hotaGameBalance/creaturesFactory.json"
 	],
+	"spells" : [
+		"config/hotaGameBalance/creatureAbilities.json"
+	],
 	"chinese" : {
 		"name" : "生物",
 		"description" : "",
