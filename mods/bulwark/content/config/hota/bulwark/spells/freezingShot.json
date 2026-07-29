@@ -27,10 +27,9 @@
 			"iconEffect" : "hota/bulwark/spells/freezingShot.png"
 		},
 		"levels" : {
-			"none" : {
-				"cost" : 0,
-				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks.\n",
+			"base" : {
 				"range" : "0",
+				"cost" : 0,
 				"power" : 0,
 				"targetModifier" : {
 					"smart" : true
@@ -61,6 +60,18 @@
 						}
 					}
 				}
+			},
+			"none" : {
+				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks.\n"
+			},
+			"basic" : {
+				"description" : "not shown"
+			},
+			"advanced" : {
+				"description" : "not shown"
+			},
+			"expert" : {
+				"description" : "not shown"
 			}
 		},
 		"targetCondition" : {
