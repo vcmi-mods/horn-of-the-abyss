@@ -1,37 +1,38 @@
 {
-	"hotaGrenade" : {
+	"hotaLightning" : {
 		"type" : "ability",
-		"name" : "Grenades",
+		"name" : "Storm Elemental Visuals",
 		"school" : {},
-		"level" : 0,
-		"power" : 0,
-		"defaultGainChance" : 0,
-		"gainChance" : {},
 		"targetType" : "CREATURE",
-		"animation" : {
-			"hit" : [
-				"hota/factory/spells/Expl_07.def"
-			]
-		},
-		"sounds" : {
-			"cast" : "hota/spells/GRENEXPL.wav"
-		},
 		"flags" : {
 			"damage" : true,
 			"negative" : true,
 			"nonMagical" : true
 		},
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"hit" : [
+				"lightningyTitan/Expl_04"
+			]
+		},
+		"targetCondition" : {},
+		"sounds" : {
+			"cast" : "MAGCBLTH"
+		},
 		"graphics" : {},
 		"levels" : {
 			"none" : {
 				"range" : "0",
+				"power" : 0,
+				"cost" : 0,
 				"battleEffects" : {
-					"directDamage" : {
+					"damage" : {
 						"type" : "core:damage"
 					}
 				},
-				"cost" : 0,
-				"power" : 0,
 				"description" : "not shown"
 			}
 		}

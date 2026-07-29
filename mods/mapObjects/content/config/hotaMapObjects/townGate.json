@@ -21,8 +21,7 @@
 				"rewards" : [
 					{
 						"spellCast" : {
-							"spell" : "townGateHelper",
-							"schoolLevel" : 3
+							"spell" : "townGateHelper"
 						}
 					}
 				],

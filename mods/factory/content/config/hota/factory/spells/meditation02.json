@@ -6,12 +6,7 @@
 		"power" : 0,
 		"defaultGainChance" : 0,
 		"gainChance" : {},
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
-		},
+		"school" : {},
 		"animation" : {
 			"affect" : [
 				{
@@ -33,7 +28,7 @@
 		"sounds" : {},
 		"targetType" : "CREATURE",
 		"levels" : {
-			"base" : {
+			"none" : {
 				"description" : "{Meditation}\n\nTemporary invulnerability.\n",
 				"range" : "0",
 				"power" : 0,
@@ -61,11 +56,7 @@
 						}
 					}
 				}
-			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+			}
 		}
 	}
 }

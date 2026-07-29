@@ -9,12 +9,7 @@
 		"gainChance" : {},
 		"defaultGainChance" : 0,
 		"power" : 0,
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
-		},
+		"school" : {},
 		"sounds" : {
 			"cast" : "TELPTOUT"
 		},
@@ -28,7 +23,7 @@
 		"targetType" : "NO_TARGET",
 		"level" : 4,
 		"levels" : {
-			"base" : {
+			"none" : {
 				"adventureEffect" : {
 					"type" : "townPortal",
 					"allowTownSelection" : true,
@@ -40,11 +35,7 @@
 				"description" : "Description not shown",
 				"power" : 0,
 				"range" : "X"
-			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+			}
 		}
 	}
 }

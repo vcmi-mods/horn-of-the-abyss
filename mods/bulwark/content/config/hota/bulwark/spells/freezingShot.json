@@ -1,7 +1,7 @@
 {
 	"freezingShot" : {
 		"name" : "Freezing",
-		"type" : "ability",
+		"type" : "combat",
 		"targetType" : "CREATURE",
 		"level" : 4,
 		"power" : 0,
@@ -27,7 +27,7 @@
 			"iconEffect" : "hota/bulwark/spells/freezingShot.png"
 		},
 		"levels" : {
-			"base" : {
+			"none" : {
 				"cost" : 0,
 				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks.\n",
 				"range" : "0",
@@ -61,11 +61,7 @@
 						}
 					}
 				}
-			},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {},
-			"none" : {}
+			}
 		},
 		"targetCondition" : {
 			"noneOf" : {
