@@ -1,0 +1,79 @@
+{
+	"core:monk" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaLightGlobe",
+				"hidden" : true
+			}
+		}
+	},
+	"core:zealot" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaLightGlobe",
+				"hidden" : true
+			}
+		}
+	},
+	"core:iceElemental" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaIce",
+				"hidden" : true
+			}
+		}
+	},
+	"core:stormElemental" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaStorm",
+				"hidden" : true
+			}
+		}
+	},
+	"core:beholder" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaRay",
+				"hidden" : true
+			}
+		}
+	},
+	"core:evilEye" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaRay",
+				"hidden" : true
+			}
+		}
+	},
+	"core:titan" : {
+		"abilities" : {
+			"shootingVisuals" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaLightning",
+				"hidden" : true
+			}
+		}
+	},
+	"core:enchanter" : {
+		"abilities" : {
+			"magicArrow" : {
+				"type" : "SPELL_LIKE_ATTACK",
+				"subtype" : "hotaEnchanterArrow",
+				"hidden" : true
+			}
+		},
+		"graphics" : {
+			"missile" : {
+				"projectile" : "C20SPX0.DEF"
+			}
+		}
+	}
+}

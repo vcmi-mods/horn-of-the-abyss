@@ -8,21 +8,15 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"version" : "1.3.6",
 	"creatures" : [
-		"config/stormyElemental",
-		"config/icyElemental",
-		"config/lightningyTitan",
-		"config/powerMonks",
-		"config/fieryBeholders",
-		"config/enchanterArrow"
+		"config/changedShootingVisuals/creaturePatches.json"
 	],
 	"spells" : [
-		"config/hotaStorm",
-		"config/hotaIce",
-		"config/hotaLightning",
-		"config/hotaLightGlobe",
-		"config/gogFireball",
-		"config/hotaRay",
-		"config/hotaEnchanterArrow"
+		"config/changedShootingVisuals/spells/hotaStorm.json",
+		"config/changedShootingVisuals/spells/hotaIce.json",
+		"config/changedShootingVisuals/spells/hotaLightning.json",
+		"config/changedShootingVisuals/spells/hotaLightGlobe.json",
+		"config/changedShootingVisuals/spells/hotaRay.json",
+		"config/changedShootingVisuals/spells/hotaEnchanterArrow.json"
 	],
 
 	"chinese" : {
