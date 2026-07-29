@@ -5,9 +5,9 @@
 		"school" : {},
 		"targetType" : "CREATURE",
 		"flags" : {
-			"damage": true,
-			"negative": true,
-			"nonMagical": true
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true
 		},
 		"level" : 0,
 		"power" : 0,

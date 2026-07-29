@@ -17,9 +17,9 @@
 			"cast" : "hota/spells/GRENEXPL.wav"
 		},
 		"flags" : {
-			"damage": true,
-			"negative": true,
-			"nonMagical": true
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true
 		},
 		"graphics" : {},
 		"levels" : {
