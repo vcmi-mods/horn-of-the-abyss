@@ -2,12 +2,7 @@
 	"accurateShot" : {
 		"type" : "ability",
 		"name" : "Accurate Shot",
-		"school" : {
-			"air" : false,
-			"earth" : false,
-			"fire" : false,
-			"water" : false
-		},
+		"school" : {},
 		"targetType" : "NO_TARGET",
 		"level" : 0,
 		"power" : 1,
@@ -27,7 +22,7 @@
 		},
 		"graphics" : {},
 		"levels" : {
-			"base" : {
+			"none" : {
 				"battleEffects" : {
 					"destruction" : {
 						"type" : "core:damage",
@@ -35,14 +30,10 @@
 					}
 				},
 				"range" : "0",
-				"description" : "Placeholder description for Accurate Shot",
+				"description" : "not shown",
 				"power" : 1,
 				"cost" : 0
-			},
-			"none" : {},
-			"basic" : {},
-			"advanced" : {},
-			"expert" : {}
+			}
 		}
 	}
 }
