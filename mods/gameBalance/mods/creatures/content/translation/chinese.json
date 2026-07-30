@@ -1,4 +1,4 @@
 {
-	"creatures.core.archDevil.bonus.decreaseLuck": "{降低敌人运气}\n大恶魔降低敌人2点运气",
-	"creatures.core.devil.bonus.decreaseLuck": "{降低敌人运气}\n恶魔降低敌人1点运气"
+	"creatures.core.archDevil.bonus.decreaseLuck": "{降低敌人运气}\n大恶魔降低敌人2点运气。",
+	"creatures.core.devil.bonus.decreaseLuck": "{降低敌人运气}\n恶魔降低敌人1点运气。"
 }
