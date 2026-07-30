@@ -1,97 +1,97 @@
-Embark on an epic journey in **Horn of the Abyss**, a fan-made expansion for _Heroes of Might and Magic III_, standing proudly alongside the official expansions of **Armageddon's Blade** and **Shadow of Death**.
+在**深渊号角**中踏上史诗之旅——这是一个基于_魔法门之英雄无敌3_的粉丝自制扩展，与**末日之刃**和**死亡阴影**官方资料片并驾齐驱。
 
-## A True Tribute to Heroes of Might and Magic
+## 英雄无敌的致敬之作
 
-_Horn of the Abyss_ enhances the original game with a wealth of new features while preserving its legendary charm. Explore the new **Cove**, **Factory** and **Bulwark** factions, engage in challenging campaigns, and discover sparkling new artifacts and interesting map objects that enhance the game's strategic depth.
+_深渊号角_在保留其传奇魅力的同时，为原版游戏增添了丰富的新内容。探索全新的**港口**、**工厂**和**坚垒**阵营，挑战富有难度的战役，发掘闪亮的新宝物和有趣的地图物件，提升游戏的策略深度。
 
-Painstakingly balanced and polished, _Horn of the Abyss_ has been crafted with an unwavering commitment to quality. With carefully refined mechanics and a host of improvements, this expansion is a must-play for both new players and seasoned veterans. This expansion includes the careful balance changes and fixes, removal of graphical imperfections left by the developers, and the addition of a considerable amount of new content. The project is lore-oriented and attempts to keep connected with the original Might and Magic universe, with changes made to honour the vision of the original game while greatly enhancing players' experience.
+经过精心的平衡与打磨，_深渊号角_以对品质的坚定承诺而打造。凭借精心改良的机制和大量优化，无论是新玩家还是资深老手，这部资料片都是必玩之作。本资料片包含了细致的平衡调整与修复，移除了开发者遗留的画面瑕疵，并增加了大量新内容。该项目注重世界观，致力于与魔法门原版宇宙保持关联，所有改动旨在尊重原版游戏的设计理念，同时极大提升玩家体验。
 
-## Cove Town
+## 港口城镇
 
-Sail the seven seas with the Captains and Navigators of the **Cove** and unleash the might of the depths unto your foes. The Cove is home to fearless Crewmates and their Pirate captains, assisted in their navigation of the seas by powerful Sea Witches. However, this Regnan town has attracted more than just humans: from the water-borne Nymphs and Sea Serpents protected by their Nix friends to the soaring Stormbirds of the skies, the Cove is a place of marine diversity of all sorts. Take out your enemies from afar with giant metal Cannon shots and the deadly accuracy of Sea Dogs aided by the shattering magic of Sorceresses; plunder their loot up close and personal with swift strikes from Haspids and Ayssids; and defend your ill-gotten gains with your dependable Seamen and Nix Warriors.
+与**港口**的船长和领航员们一同遨游七海，向敌人释放深海的威能。港口是不畏艰险的水手和他们的海盗船长们的家园，强大的海洋术士协助他们在海上航行。然而，这座瑞格南城镇吸引的不只有人类：从水生自然精灵和受到鱼人朋友庇护的海蛇，到翱翔天际的暴风鸟，港口尽显海洋生物的多样性。用巨型加农炮的火力和皇家海盗致命的精准打击远程消灭敌人，搭配海洋术士粉碎性的魔法；用深渊海蛇和暴风雕的迅捷突击近身掠夺战利品；用可靠的海员和鱼人勇士守卫你不义之财。
 
-## Factory Town
+## 工厂城镇
 
-Dive into new-age technology with the Mercenaries and Artificers of the **Factory** and unlock your creatures' full potential with the might of industry. Take to the skies and transcend the need for navigating tricky terrain with the brand new Airship, bringing you closer to victory with great haste. The Factory is home to plucky Halflings and their slow and steady Armadillo friends, protected by local Gunslingers, but not all natural creatures are as nice as they are - beware the burrowing Sandworm and jungle-dwelling Couatl, for they are fearsome in numbers, even if the Couatl needs some provoking to unlock its full potential. The natural evolution of humans resulted in the forming of new and curious technologies, which some have embraced fully: Mechanics were trained to help great engineers construct the explosive Automaton and eventually the colossal laser-shooting Dreadnought, both of which are able to be repaired on the battlefield if need be.
+与**工厂**的雇佣兵和工匠师一同深入新时代科技，用工业之力释放你生物的完全潜能。搭乘全新的飞艇翱翔天际，跨越崎岖地形的阻碍，以极快的速度迈向胜利。工厂是勇敢的投石矮人和他们缓慢稳重的犰狳伙伴的家园，受到当地雇佣杀手的保护，但并非所有自然生物都如此友好——小心掘地的沙虫和栖居丛林的羽蛇，它们成群结队时极为可怖，尽管羽蛇需要一些激怒才能释放全部潜能。人类的自然进化催生了新奇的技术，一些人全盘接受：机械师受训协助伟大工程师制造爆炸性的自行机器，乃至最终打造出巨型激光射击的无畏机甲，两者在必要时都能在战场上被修复。
 
-## Bulwark Town
+## 坚垒城镇
 
-Stand firm against the biting chill of Vori and lead the resilient defenders of the **Bulwark** to glory, where ancient traditions meet the ruthlessness of the eternal frost. As a Chieftain or Elder, you command the frozen reaches, turning the harsh elements into a shield for your people. The Bulwark is a haven for proud Snow Elves and resourceful Kobolds, bolstered by loyal Argali and the crushing charge of colossal Mammoths. Amid ancient standing stones, wise Shamans invoke old spirits to guide your warriors, and from the swirling snows emerge legendary allies: towering Jotunns and elusive Yeti, their spirits tempered by mastering the lore of the runes. While others falter in the whiteout, your forces thrive, wielding the wind and mountain stillness as a weapon. Hold fast behind walls of rime and resolve — the legends of Vori are no longer mere songs, but a freezing tide ready to sweep across the world.
+在沃里的刺骨严寒中屹立不倒，带领**坚垒**坚韧的守护者走向荣耀，古老传统与永冻冰霜的无情在此交汇。作为酋长或长老，你统御着冰封之地，将严酷的自然元素化为子民的坚盾。坚垒是骄傲的雪精灵和足智多谋的狗头人的避风港，忠诚的盘羊和巨型猛玛的碾压冲锋为它们提供了强有力的支援。在古老的立石之间，睿智的萨满呼唤古老的精魂庇护你的战士，从纷飞的雪幕中现身的传奇盟友——巍峨的约顿巨人和难以捉摸的雪怪，通过掌握符文奥义锤炼了他们的精魂。当他人迷失于白茫茫的雪幕中，你的部队却愈发强大，以狂风和群山之静为武器。牢牢守住冰霜与决心筑成的壁垒——沃里的传说不再只是歌谣，而是一股即将席卷世界的冰封浪潮。
 
-## Heroes
+## 英雄
 
-In addition to the regular 16 heroes per town and campaign/map-editor-exclusive heroes from the **Cove** and **Factory** and the 17 heroes from the **Bulwark**, there are a few smaller additions and changes to the roster of familiar heroes:
+除了每个城镇常规的16位英雄、**港口**和**工厂**的战役/地图编辑器专属英雄，以及**坚垒**的17位英雄外，熟悉英雄名册中还有一些较小的新增和调整：
 
-* **Lord Haart the Knight**
-    * Was originally in _Restoration of Erathia_, but was swapped out for **Sir Mullich the Knight** in _Armageddon's Blade_ and _Shadow of Death_ - he has now returned in _Horn of the Abyss_
-* **Beatrice the Knight**
-    * **Scouting** specialist
-* **Giselle the Ranger**
-    * **Interference** specialist
-* **Ranloo the Death Knight**
-    * **Ballista** specialist
-* **Kinkeria the Witch**
-    * **Learning** specialist
-* **Miscellaneous Changes**
-    * **Lord Haart the Death Knight** has been renamed to **Haart Lich the Death Knight** to avoid confusion
-    * In regular _Horn of the Abyss_, heroes that would be replaced by new heroes would also be disabled - this is not the case in VCMI, where every hero is available unless banned by the map or template
+* **哈特爵士**
+    * 最初登场于_埃拉西亚的光复_，但在_末日之刃_和_死亡阴影_中被**姆拉克爵士**取代——如今在_深渊号角_中回归
+* **碧特莱丝**
+    * **侦察术**特长
+* **吉赛尔**
+    * **干扰术**特长
+* **兰路**
+    * **弩车**特长
+* **金凯丽亚**
+    * **学习能力**特长
+* **其他变更**
+    * **死亡骑士哈特**已更名为**尸巫哈特**以避免混淆
+    * 在普通_深渊号角_中，被新英雄替换的英雄也会被禁用——但VCMI中并非如此，除非被地图或模板禁止，所有英雄均可使用
 
-## Secondary Skills
+## 辅助技能
 
-Horn of the Abyss introduces **Interference** as a Secondary Skill to replace **Resistance**, which itself is now banned by default. This skill is a fairer and more balanced way to mitigate magic, as it decreases enemy Spell Power as opposed to being an unbalanced "roll-of-the-dice" skill that had the potential to render magic utterly ineffective.
+深渊号角引入了**干扰术**作为辅助技能，取代了默认被封禁的**抵抗力**。该技能是一种更公平、更平衡的魔法应对方式，它降低敌方英雄的力量，而非一个不平衡的"掷骰子"技能——后者有可能让魔法完全无效。
 
-It also adds **Runes** as an additional Secondary Skill. During combat, this skill improves your creatures' Attack, Defense and Speed the more they participate.
+此外还新增了**符文学**作为额外的辅助技能。战斗中，你的生物参与战斗越多，其攻击力、防御力和速度提升越高。
 
-## Artifacts
+## 宝物
 
-A new set of golden armour infused with the power of the ocean lies in wait to be adorned by only the mightiest of heroes:
+一套注入了海洋之力的全新金色铠甲等待着最强大的英雄来穿戴：
 
-* **Trident of Dominion:** _+7 Attack skill_
-* **Shield of Naval Glory:** _+7 Defense skill_
-* **Royal Armor of Nix:** _+6 Spell Power skill_
-* **Crown of the Five Seas:** _+6 Knowledge skill_
+* **统御三叉戟：**_攻击力+7_
+* **海军荣耀之盾：**_防御力+7_
+* **皇家海妖战甲：**_力量+6_
+* **七海之冠：**_知识+6_
 
-Two incredibly powerful artifacts have been added that can completely change the tide of a scenario:
+新增了两件极其强大的宝物，能够彻底改变战局：
 
-* **Horn of the Abyss:** _Raises Fangarms from slain stacks of living creatures_
-* **Sleepkeeper:** _Provides immunity to Mind spells_
+* **深渊号角：**_从被击杀的活体生物堆叠中召唤夺心魔_
+* **安眠塑像：**_使英雄的生物免疫心智魔法_
 
-Several combination artifacts have been added that were once planned for the release of _Shadow of Death_ with new names and fully fleshed-out abilities:
+新增了数件组合宝物，它们最初计划在_死亡阴影_发行时推出，如今被赋予了新名称和完整的能力：
 
-* **Ironfist of the Ogre:**
-    * _+5 Attack skill, +5 Defense skill, +4 Spell Power skill, +4 Knowledge skill_
-    * _Casts Expert Bloodlust, Counterstrike, Fire Shield, and Haste on all allies for 50 rounds_
-    * _**Weapon**/Shield/Head/Torso slots_
-* **Pendant of Reflection:**
-    * _+50% Magic Resistance_
-    * _**Necklace**/Shoulders/Feet slots_
-* **Golden Goose:**
-    * _+7000 Gold/day_
-    * _**Misc**/Misc/Misc slots_
+* **食人魔铁拳：**
+    * _攻击力+5，防御力+5，力量+4，知识+4_
+    * _对全体友军施放专家级嗜血奇术、反戈一击、火盾和攻击加速，持续50回合_
+    * _**武器**/盾牌/头部/躯干槽位_
+* **抗魔坠饰：**
+    * _魔法抗性+50%_
+    * _**项链**/肩部/脚部槽位_
+* **金鹅：**
+    * _每日金币+7000_
+    * _**杂物**/杂物/杂物槽位_
 
-Still hungry for more boons to get an edge over your enemies? Look no further than the assorted wares that _Horn of the Abyss_ has to offer:
+还想获得更多增益来压制敌人？看看_深渊号角_提供的各式装备：
 
-* **Plate of Dying Light:** _\-25% enemy Spell Power skill_
-* **Seal of Sunset:** _\-10% enemy Spell Power skill_
-* **Charm of Eclipse:** _\-10% enemy Spell Power skill_
-* **Pendant of Downfall:** _\-2 enemy Morale_
-* **Ring of Suppression:** _\-1 enemy Morale_
-* **Hideous Mask:** _\-1 enemy Morale_
-* **Shaman's Puppet:** _\-2 enemy Luck_
-* **Runes of Imminency:** _\-1 enemy Luck_
-* **Demon's Horseshoe:** _\-1 enemy Luck_
-* **Wayfarer's Boots:** _No movement penalty over rough terrain_
-* **Cape of Silence:** _Prevents either player from casting level 1 or 2 spells_
-* **Ring of Oblivion:** _Prevents either player from resurrecting casualties during battle_
+* **死光战甲：**_敌方英雄力量-25%_
+* **黄昏之戒：**_敌方英雄力量-10%_
+* **日暮护符：**_敌方英雄力量-10%_
+* **堕落坠饰：**_敌方士气-2_
+* **压制之戒：**_敌方士气-1_
+* **魔鬼面具：**_敌方士气-1_
+* **萨满人偶：**_敌方幸运-2_
+* **压制符文：**_敌方幸运-1_
+* **恶魔马蹄铁：**_敌方幸运-1_
+* **远行之靴：**_在崎岖地形移动无惩罚_
+* **沉默斗篷：**_阻止双方施放1-2级魔法_
+* **湮没之戒：**_阻止双方在战斗中复活阵亡单位_
 
-## Miscellaneous Changes
+## 其他变更
 
-* External dwellings now accumulate creatures weekly as long as they are owned by a player
-* Small yet appropriate changes to overall town building cost balance
-* Small yet appropriate changes to various creatures
-* New **map objects** and **creature hordes**
-* The **Vault of Ashes**, a new **Conflux** dwelling that boosts Firebird/Phoenix Growth
-* **Spell Research** system that guarantees essential spells with enough research
-* New terrains - **Highlands** and **Wasteland**
-* **Conflux's** native terrain is changed to **Highlands**
-* **Halflings** belong to **Factory** instead of being **Neutral**
+* 外部生物巢穴现在每周积累生物，只要它们属于某位玩家
+* 轻微但合理的城镇建筑费用平衡调整
+* 对各类生物的轻微但合理的调整
+* 新的**地图物件**和**生物群落**
+* **灰烬穹顶**，**元素城**的新巢穴，增加火鸟/凤凰的产量
+* **法术研究**系统，投入足够研究即可确保获得关键法术
+* 新地形——**高地**和**荒地**
+* **元素城**的本土地形改为**高地**
+* **投石矮人**归属**工厂**阵营而非**中立**
