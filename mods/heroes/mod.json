@@ -48,7 +48,10 @@
 	},
 	"chinese" : {
 		"name" : "英雄",
-		"description" : "为基础游戏新增英雄 - Beatrice、Kinkeria 和 Ranloo。<br/>此外，更改了英雄 Voy 和 Sylvia 的行为，他们现在仅在有水的地图上可用。"
+		"description" : "为基础游戏新增英雄 - Beatrice、Kinkeria 和 Ranloo。<br/>此外，更改了英雄 Voy 和 Sylvia 的行为，他们现在仅在有水的地图上可用。",
+		"translations" : [
+			"translation/chinese.json"
+		]
 	},
 	"czech" : {
 		"name" : "Hrdinové",
