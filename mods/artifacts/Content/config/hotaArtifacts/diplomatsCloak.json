@@ -11,6 +11,21 @@
 			"diplomatsRing",
 			"ambassadorsSash"
 		],
+		"bonuses" : {
+			"surrenderWithoutEnemyHero" : {
+				"type" : "SURRENDER_WITHOUT_ENEMY_HERO",
+			},
+			"escapeFromSiege" : {
+				"type" : "BATTLE_ESCAPE_FROM_SIEGE",
+			},
+			"escapeAfterSpellcast" : {
+				"type" : "BATTLE_ESCAPE_AFTER_SPELLCAST",
+			},
+			"diplomacy" : {
+				"type" : "DIPLOMACY_ARMY_STRENGTH_MULTIPLIER",
+				"val" : 300
+			}
+		},
 		"graphics" : {
 			"image" : "hota/artifactsIcons/diplomatsCloak",
 			"map" : "hota/artifactsMap/AVA0142",
@@ -18,7 +33,7 @@
 		},
 		"text" : {
 			"name" : "Diplomat's Cloak",
-			"description" : "{Diplomat's Cloak}\n\nCounting component effects this cloak reduces the cost of surrendering by 30% and allows your hero to surrender when battling enemy without a hero. Allows to retreat or surrender when defending a town or attacking and casting a spell in the first round of a combat. Multiplies your hero army strength by 3 for neutral armies (when determining their desire to join hero or run away) and Thieves Guild.\n\n{THESE EFFECTS ARE NOT IMPLEMENTED!!!}",
+			"description" : "{Diplomat's Cloak}\n\nCounting component effects this cloak reduces the cost of surrendering by 30% and allows your hero to surrender when battling enemy without a hero. Allows to retreat or surrender when defending a town or attacking and casting a spell in the first round of a combat. Multiplies your hero army strength by 3 for neutral armies (when determining their desire to join hero or run away) and Thieves Guild.",
 			"event" : "You met an unusual scarecrow today. Instead of scaring the, well, crows, it was intelligently persuading them to leave the field. You agreed to help the scarecrow to find the closest seer in exchange for the secret. The scarecrow gives you its cloak."
 		}
 	}
