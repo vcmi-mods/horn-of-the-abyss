@@ -212,5 +212,10 @@
 				"icon" : "hotaGameBalance/creatures/noLuck.png"
 			}
 		}
+	},
+	"core:arrowTower" : {
+		"abilities": {
+			"attackAlwaysZero" : null
+		}
 	}
 }
