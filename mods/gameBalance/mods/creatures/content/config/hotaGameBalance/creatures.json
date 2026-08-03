@@ -214,7 +214,7 @@
 		}
 	},
 	"core:arrowTower" : {
-		"abilities": {
+		"abilities" : {
 			"attackAlwaysZero" : null,
 			"noArcheryBonuses" : null
 		}
