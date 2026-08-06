@@ -20,7 +20,6 @@
 				"stackhp" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE",
-					"propagator" : "ARMY",
 					"limiters" : [
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
