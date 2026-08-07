@@ -1,10 +1,13 @@
 {
 	"core:mysticism" : {
+		"specialty" : {
+			"append" : "manapercent"
+		},
 		"base" : {
 			"effects" : {
 				"manapercent" : {
 					"type" : "MANA_PERCENTAGE_REGENERATION",
-					"valueType" : "ADDITIVE_VALUE"
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},
@@ -12,7 +15,7 @@
 			"description" : "{Basic Mysticism}\n\nBasic Mysticism allows the hero to regenerate 10% of their maximum spell points per day, with a minimum of 5 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 5
+					"val" : 4
 				},
 				"manapercent" : {
 					"val" : 10
@@ -23,7 +26,7 @@
 			"description" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows the hero to regenerate 20% of their maximum spell points per day, with a minimum of 10 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 10
+					"val" : 9
 				},
 				"manapercent" : {
 					"val" : 20
@@ -34,7 +37,7 @@
 			"description" : "{Expert Mysticism}\n\nExpert Mysticism allows the hero to regenerate 30% of their maximum spell points per day, with a minimum of 15 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 15
+					"val" : 14
 				},
 				"manapercent" : {
 					"val" : 30
