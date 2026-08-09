@@ -15,7 +15,7 @@
 			"description" : "{Basic Mysticism}\n\nBasic Mysticism allows the hero to regenerate 10% of their maximum spell points per day, with a minimum of 5 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 4
+					"val" : 5
 				},
 				"manapercent" : {
 					"val" : 10
@@ -26,7 +26,7 @@
 			"description" : "{Advanced Mysticism}\n\nAdvanced Mysticism allows the hero to regenerate 20% of their maximum spell points per day, with a minimum of 10 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 9
+					"val" : 10
 				},
 				"manapercent" : {
 					"val" : 20
@@ -37,7 +37,7 @@
 			"description" : "{Expert Mysticism}\n\nExpert Mysticism allows the hero to regenerate 30% of their maximum spell points per day, with a minimum of 15 spell points regenerated per day.",
 			"effects" : {
 				"main" : {
-					"val" : 14
+					"val" : 15
 				},
 				"manapercent" : {
 					"val" : 30
