@@ -36,16 +36,22 @@
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"accurateShotFullRange" : {
-				"type" : "DEATH_STARE",
-				"subtype" : "deathStareNoRangePenalty",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "combatScript.deathStare",
 				"val" : 3,
-				"addInfo" : "spell.accurateShot"
+				"addInfo" : {
+					"situation" : "ranged",
+					"spell" : "accurateShot"
+				}
 			},
 			"accurateShotHalfRange" : {
-				"type" : "DEATH_STARE",
-				"subtype" : "deathStareRangePenalty",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "combatScript.deathStare",
 				"val" : 2,
-				"addInfo" : "spell.accurateShot"
+				"addInfo" : {
+					"situation" : "rangedDistancePenalty",
+					"spell" : "accurateShot"
+				}
 			}
 		},
 		"graphics" : {
