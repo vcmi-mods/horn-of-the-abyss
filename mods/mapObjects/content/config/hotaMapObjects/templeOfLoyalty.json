@@ -23,8 +23,7 @@
 						"bonuses" : [
 							{
 								"type" : "ALIGNMENT_MIX",
-								"duration" : "N_DAYS",
-								"turns" : 1
+								"duration" : "ONE_DAY"
 							}
 						]
 					}
