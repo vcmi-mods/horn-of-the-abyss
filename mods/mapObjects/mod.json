@@ -118,10 +118,11 @@
 		"config/hotaMapObjects/altarOfMana.json",
 		"config/hotaMapObjects/hillFort.json",
 		"config/hotaMapObjects/questGate.json",
-		"config/hotaMapObjects/seafaringAcademy",
-		"config/hotaMapObjects/skeletonTransformer",
-		"config/hotaMapObjects/templeOfLoyalty",
-		"config/hotaMapObjects/townGate"
+		"config/hotaMapObjects/seafaringAcademy.json",
+		"config/hotaMapObjects/skeletonTransformer.json",
+		"config/hotaMapObjects/templeOfLoyalty.json",
+		"config/hotaMapObjects/townGate.json",
+		"config/hotaMapObjects/waterWheel.json"
 	],
 	"spells" : [
 		"config/hotaMapObjects/spells/townGateHelper.json"

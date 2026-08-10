@@ -1,0 +1,77 @@
+{
+	"core:waterWheel": {
+		"types": {
+			"waterWheel" : {
+				"rmg" : null
+			},
+			"hotaWaterWheel": {
+				"aiValue": 750,
+				"rmg": {
+					"rarity": 50,
+					"value": 750,
+					"mapLimit" : 32
+				},
+				"onVisitedMessage": 165,
+				"visitMode": "once",
+				"resetParameters": {
+					"visitors": true,
+					"weeks": 1
+				},
+				"selectMode": "selectFirst",
+				"rewards": [
+					{
+						"limiter": {
+							"daysPassed": 8
+						},
+						"message": 164,
+						"resources": {
+							"gold": 1000
+						}
+					},
+					{
+						"message": 164,
+						"resources": {
+							"gold": 500
+						}
+					}
+				],
+				"templates": {
+					"hotaWaterWheelGrass": {
+						"allowedTerrains": [
+							"dirt",
+							"grass",
+							"swamp"
+						],
+						"animation": "AVMwwhl0.def",
+						"mask": [
+							"VVV",
+							"BBB",
+							"BBA"
+						],
+						"visitableFrom": [
+							"---",
+							"-++",
+							"+++"
+						]
+					},
+					"hotaWaterWheelSnow": {
+						"allowedTerrains": [
+							"snow"
+						],
+						"animation": "AVMwwsn0.def",
+						"mask": [
+							"VVV",
+							"BBB",
+							"BBA"
+						],
+						"visitableFrom": [
+							"---",
+							"-++",
+							"+++"
+						]
+					}
+				}
+			}
+		}
+	}
+}
