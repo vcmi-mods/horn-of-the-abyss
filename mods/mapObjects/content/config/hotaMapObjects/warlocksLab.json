@@ -1,14 +1,24 @@
 {
 	"warlocksLab" : {
-		"handler" : "generic",
+		"handler" : "market",
 		"name" : "Warlock's Lab",
 		"types" : {
 			"warlocksLab" : {
-				//				"rmg" : {
-				//					"value"	: 10000,
-				//					"rarity" : 100,
-				//					"zoneLimit" : 1
-				//				},
+				"modes" : [
+					"resource-resource"
+				],
+				"resources" : [
+					"mercury",
+					"sulfur",
+					"crystal",
+					"gems"
+				],
+				"rate" : 1,
+				"rmg" : {
+					"value" : 10000,
+					"rarity" : 100,
+					"zoneLimit" : 1
+				},
 				"sounds" : {
 					"visit" : [
 						"STORE"
