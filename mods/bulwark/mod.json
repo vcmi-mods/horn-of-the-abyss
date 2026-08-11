@@ -43,7 +43,8 @@
 	"combatScripts" : {
 		"runes" : {
 			"type" : "lua",
-			"script" : "runes"
+			"script" : "runes",
+			"priority" : 500
 		}
 	},
 	"heroClasses" : [

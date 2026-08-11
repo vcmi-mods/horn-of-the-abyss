@@ -154,31 +154,31 @@ function Script:addRuneLevel(server, battle, unit, oldLevel, amount, runeType, c
 
 	if oldLevel == targetLevel then return oldLevel end
 
-	Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, runeType)
+	self:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, runeType)
 
 	return targetLevel
 end
 
 function Script:addHeroRuneLevels(server, battle, unit, oldLevel, amount)
-	local cap = Script:getRuneLevelCap(battle, unit)
+	local cap = self:getRuneLevelCap(battle, unit)
 
-	return Script:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.hero, cap)
+	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.hero, cap)
 end
 
 function Script:addYetiRuneLevels(server, battle, unit, oldLevel, amount)
-	return Script:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.yeti, 9)
+	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.yeti, 9)
 end
 
-function Script:processRuneGain(server, battle, unit, amount)
+function Script:processRuneGain(server, battle, unit, amount, describe)
 	if not unit:isAlive() then return end
 
 	local isYeti = unit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
-	local heroRuneLevel, yetiRuneLevel = Script:getCurrentRuneLevels(unit)
+	local heroRuneLevel, yetiRuneLevel = self:getCurrentRuneLevels(unit)
 	local oldLevel = isYeti and yetiRuneLevel or heroRuneLevel
 
-	heroRuneLevel = Script:addHeroRuneLevels(server, battle, unit, heroRuneLevel, amount)
+	heroRuneLevel = self:addHeroRuneLevels(server, battle, unit, heroRuneLevel, amount)
 	if isYeti then
-		yetiRuneLevel = Script:addYetiRuneLevels(server, battle, unit, yetiRuneLevel, amount)
+		yetiRuneLevel = self:addYetiRuneLevels(server, battle, unit, yetiRuneLevel, amount)
 	end
 
 	local newLevel = isYeti and yetiRuneLevel or heroRuneLevel
@@ -193,26 +193,30 @@ function Script:processRuneGain(server, battle, unit, amount)
 	if animation then
 		server:showBattleAnimation(	battle,	{ { unit = unit } }, animation,	SOUND, 1.0)
 	end
+
+	if describe then
+		self:describe(server, battle, unit, newLevel)
+	end
 end
 
 --- Called after `unit` attacked `other`.
 function Script:onAfterAttack(server, battle, unit, other)
-	Script:processRuneGain(server, battle, unit, 1)
+	self:processRuneGain(server, battle, unit, 1, true)
 end
 
 --- Called after `unit` was attacked by `other`.
 function Script:onAfterAttacked(server, battle, unit, other)
-	Script:processRuneGain(server, battle, unit, 2)
+	self:processRuneGain(server, battle, unit, 2, true)
 end
 
 --- Called when `unit` defends.
 function Script:onDefend(server, battle, unit, other)
-	Script:processRuneGain(server, battle, unit, 3)
+	self:processRuneGain(server, battle, unit, 3, true)
 end
 
 --- Called when `unit` casts a spell.
-function Script:onUnitSpellcast(server, battle, unit, other)
-	Script:processRuneGain(server, battle, unit, 1)
+function Script:onUnitSpellcast(server, battle, unit, other, payload)
+	self:processRuneGain(server, battle, unit, 1, true)
 end
 
 --- Called once for every unit present when the battle starts, after tactics are over.
@@ -224,7 +228,16 @@ function Script:onBattleStart(server, battle, unit, other)
 	for i = 1, bonusList:size() do
 		targetLevel = targetLevel + bonusList:getBonus(i):getVal()
 	end
-	Script:processRuneGain(server, battle, unit, targetLevel)
+	self:processRuneGain(server, battle, unit, targetLevel, false)
+end
+
+function Script:describe(server, battle, unit, newLevel)
+	local count = unit:getCount()
+	server:appendLog(battle, {
+		append         = { count == 1 and "core.bonus.RUNE_LEVEL_COUNTER.description" or "core.bonus.YETI_RUNE_LEVEL_COUNTER.description" },
+		replaceStrings = { unit:getCreature():getNameTextID(count) },
+		replaceNumbers = { newLevel }
+	})
 end
 
 return Script

@@ -7,7 +7,7 @@
 	},
 	"RUNE_LEVEL_COUNTER" : {
 		"hidden" : false,
-		"description" : "If this is shown, it's a bug with the RUNE_LEVEL_COUNTER.",
+		"description" : "%s achieves %d Rune Level.",
 		"graphics" : {
 			"valueIcons" : {
 				"0" : "hota/bulwark/skills/runes/icons/runeLevels/startCounter",
@@ -38,7 +38,7 @@
 	},
 	"YETI_RUNE_LEVEL_COUNTER" : {
 		"hidden" : false,
-		"description" : "If this is shown, it's a bug with the YETI_RUNE_LEVEL_COUNTER.",
+		"description" : "%s achieve %d Rune Level.",
 		"graphics" : {
 			"valueIcons" : {
 				"0" : "hota/bulwark/skills/runes/icons/runeLevels/startCounterYeti",
