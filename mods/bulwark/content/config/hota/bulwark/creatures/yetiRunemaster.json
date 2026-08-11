@@ -35,7 +35,7 @@
 			},
 			"runeMaster" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "combatScript.runes",
+				"subtype" : "combatScript.yetiRunes",
 				"icon" : "hota/bulwark/bonuses/runeMaster",
 				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes."
 			}

@@ -50,24 +50,24 @@ local SPEED_BONUS = {
 	[9] = 3
 }
 local SOUND = "FIRESHIE"
-local SOURCE = "runes"
+local SOURCE = "yetiRunemaster"
 
-function Script:getRuneLevelCap(battle, unit)
-	local cap = 0
-
-	local capList = unit:getBonuses(function(bonus)
-		return bonus:getType() == "RUNE_LEVEL_CAP"
+function Script:getHeroRuneLevels(unit)
+	local levels = 0
+	local bonusList = unit:getBonuses(function(bonus)
+		return bonus:getType() == "RUNE_LEVEL_COUNTER"
 	end)
-	for i = 1, capList:size() do
-		cap = cap + capList:getBonus(i):getVal()
+	for i = 1, bonusList:size() do
+		levels = levels + bonusList:getBonus(i):getVal()
 	end
-	return cap
+
+	return levels
 end
 
 function Script:getCurrentRuneLevel(unit)
 	local runeLevel = 0
 	local runeLevelBonuses = unit:getBonuses(function(bonus)
-		return bonus:getType() == "RUNE_LEVEL_COUNTER"
+		return bonus:getType() == "YETI_RUNE_LEVEL_COUNTER"
 	end)
 	for i = 1, runeLevelBonuses:size() do
 		runeLevel = runeLevel + runeLevelBonuses:getBonus(i):getVal()
@@ -77,8 +77,8 @@ end
 
 function Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
 	server:addUnitBonus(battle, unit, {
-			type       = "RUNE_LEVEL_COUNTER",
-			sourceType = ENUM.BonusSource.secondarySkill,
+			type       = "YETI_RUNE_LEVEL_COUNTER",
+			sourceType = ENUM.BonusSource.creatureAbility,
 			val        = targetLevel - oldLevel,
 			valueType  = ENUM.BonusValueType.baseNumber,
 			sourceID   = SOURCE,
@@ -112,8 +112,8 @@ end
 function Script:setRuneLevel(server, battle, unit, targetLevel)
 	if targetLevel == 0 then
 		server:addUnitBonus(battle, unit, {
-			type       = "RUNE_LEVEL_COUNTER",
-			sourceType = ENUM.BonusSource.secondarySkill,
+			type       = "YETI_RUNE_LEVEL_COUNTER",
+			sourceType = ENUM.BonusSource.creatureAbility,
 			val        = 0,
 			valueType  = ENUM.BonusValueType.baseNumber,
 			sourceID   = SOURCE,
@@ -122,10 +122,9 @@ function Script:setRuneLevel(server, battle, unit, targetLevel)
 		return
 	end
 
-	local cap = Script:getRuneLevelCap(battle, unit)
-
-	if targetLevel > cap then
-		targetLevel = cap
+	-- Clamp the target level between 0 and the maximum cap
+	if targetLevel > 9 then
+		targetLevel = 9
 	elseif targetLevel < 0 then
 		targetLevel = 0
 	end
@@ -134,18 +133,16 @@ function Script:setRuneLevel(server, battle, unit, targetLevel)
 
 	if oldLevel == targetLevel then return end
 
-
 	Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
-	if targetLevel > 0 and ANIMATIONS[targetLevel] then
+	local heroLevels = Script:getHeroRuneLevels(unit)
+
+	if targetLevel > 0 and heroLevels < targetLevel and ANIMATIONS[targetLevel] then
 		server:showBattleAnimation(battle, { { unit = unit } }, ANIMATIONS[targetLevel], SOUND, 1.0)
 	end
 end
 
 function Script:addRuneLevels(server, battle, unit, amount)
-	local applyRunes = unit:isAlive()
-
-
-	if not applyRunes then return end
+	if not unit:isAlive() then return end
 	local current = Script:getCurrentRuneLevel(unit)
 	Script:setRuneLevel(server, battle, unit, current + amount)
 end

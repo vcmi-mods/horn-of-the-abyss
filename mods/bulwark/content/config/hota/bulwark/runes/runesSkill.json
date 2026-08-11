@@ -17,7 +17,14 @@
 				},
 				"runesEffect" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
-					"subtype" : "combatScript.runes"
+					"subtype" : "combatScript.runes",
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SIEGE_WEAPON"
+						}
+					]
 				}
 			}
 		},
