@@ -105,7 +105,8 @@
 		"config/hota/factory/dwellings.json"
 	],
 	"artifacts" : [
-		"config/hota/factory/artifacts/factoryRingOfOblivion"
+		"config/hota/factory/artifacts/factoryRingOfOblivion.json",
+		"config/hota/factory/artifacts/factoryPendantOfNegativity.json"
 	],
 	"changelog" : {
 		"1.0.0" : [

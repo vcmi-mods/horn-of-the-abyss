@@ -1,0 +1,13 @@
+{
+	"core:pendantOfNegativity" : {
+		"bonuses" : {
+			"lightningStorm" : {
+				"subtype" : "teslaLightning",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER",
+				"hidden" : true
+			}
+		}
+	}
+}
