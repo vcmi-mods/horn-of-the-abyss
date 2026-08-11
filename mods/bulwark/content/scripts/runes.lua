@@ -83,7 +83,7 @@ function Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
 			valueType  = ENUM.BonusValueType.baseNumber,
 			sourceID   = SOURCE,
 			duration   = ENUM.BonusDuration.oneBattle
-	}, false)
+	}, true)
 	server:addUnitBonus(battle, unit, {
 			type       = "PRIMARY_SKILL",
 			subtype    = "attack",
@@ -118,7 +118,7 @@ function Script:setRuneLevel(server, battle, unit, targetLevel)
 			valueType  = ENUM.BonusValueType.baseNumber,
 			sourceID   = SOURCE,
 			duration   = ENUM.BonusDuration.oneBattle
-	}, false)
+	}, true)
 		return
 	end
 
@@ -138,6 +138,13 @@ function Script:setRuneLevel(server, battle, unit, targetLevel)
 	Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
 	if targetLevel > 0 and ANIMATIONS[targetLevel] then
 		server:showBattleAnimation(battle, { { unit = unit } }, ANIMATIONS[targetLevel], SOUND, 1.0)
+		if unit:getCreature().getJsonKey ~= "hota.bulwark:yetiRunemaster" then
+			server:appendLog(battle, {
+				append         = { "%s gain rune level %d" },
+				replaceStrings = { unit:getCreature():getNameTextID(unit:getCount()) },
+				replaceNumbers = { targetLevel }
+			})
+		end
 	end
 end
 
