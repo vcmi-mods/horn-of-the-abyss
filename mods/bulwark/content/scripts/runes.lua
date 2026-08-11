@@ -50,7 +50,6 @@ local SPEED_BONUS = {
 	[9] = 3
 }
 local SOUND = "FIRESHIE"
-local SOURCE = "runes"
 
 function Script:getRuneLevelCap(battle, unit)
 	local cap = 0
@@ -64,26 +63,38 @@ function Script:getRuneLevelCap(battle, unit)
 	return cap
 end
 
-function Script:getCurrentRuneLevel(unit)
-	local runeLevel = 0
+function Script:getCurrentRuneLevels(unit)
+	local heroRuneLevel = 0
+	local yetiRuneLevel = 0
+	local runeLevelBonuses = unit:getBonuses(function(bonus)
+		local btype = bonus:getType()
+		return btype == "RUNE_LEVEL_COUNTER" or btype == "YETI_RUNE_LEVEL_COUNTER"
+	end)
+	for i = 1, runeLevelBonuses:size() do
+		local bonus = runeLevelBonuses:getBonus(i)
+		local btype = bonus:getType()
+		if btype == "YETI_RUNE_LEVEL_COUNTER" then
+			yetiRuneLevel = yetiRuneLevel + bonus:getVal()
+		else
+			heroRuneLevel = heroRuneLevel + bonus:getVal()
+		end
+	end
+	return heroRuneLevel, yetiRuneLevel
+end
+
+function Script:updateHeroBonuses(server, battle, unit, targetLevel, oldLevel)
 	local runeLevelBonuses = unit:getBonuses(function(bonus)
 		return bonus:getType() == "RUNE_LEVEL_COUNTER"
 	end)
-	for i = 1, runeLevelBonuses:size() do
-		runeLevel = runeLevel + runeLevelBonuses:getBonus(i):getVal()
-	end
-	return runeLevel
-end
-
-function Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
+	server:removeUnitBonuses(battle, unit, runeLevelBonuses)
 	server:addUnitBonus(battle, unit, {
 			type       = "RUNE_LEVEL_COUNTER",
 			sourceType = ENUM.BonusSource.secondarySkill,
-			val        = targetLevel - oldLevel,
+			sourceID   = "runes",
+			val        = targetLevel,
 			valueType  = ENUM.BonusValueType.baseNumber,
-			sourceID   = SOURCE,
 			duration   = ENUM.BonusDuration.oneBattle
-	}, true)
+	}, false)
 	server:addUnitBonus(battle, unit, {
 			type       = "PRIMARY_SKILL",
 			subtype    = "attack",
@@ -109,20 +120,62 @@ function Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
 	}, false)
 end
 
-function Script:setRuneLevel(server, battle, unit, targetLevel)
+function Script:updateYetiBonuses(server, battle, unit, targetLevel, oldLevel)
+	local runeLevelBonuses = unit:getBonuses(function(bonus)
+		return bonus:getType() == "YETI_RUNE_LEVEL_COUNTER"
+	end)
+	server:removeUnitBonuses(battle, unit, runeLevelBonuses)
+	server:addUnitBonus(battle, unit, {
+			type       = "YETI_RUNE_LEVEL_COUNTER",
+			sourceType = ENUM.BonusSource.creatureAbility,
+			sourceID     = "yetiRunemaster",
+			val        = targetLevel,
+			valueType  = ENUM.BonusValueType.baseNumber,
+			duration   = ENUM.BonusDuration.oneBattle
+	}, false)
+	server:addUnitBonus(battle, unit, {
+			type       = "PRIMARY_SKILL",
+			subtype    = "attack",
+			sourceType = ENUM.BonusSource.other,
+			val        = ATTACK_BONUS[targetLevel] - ATTACK_BONUS[oldLevel],
+			valueType  = ENUM.BonusValueType.baseNumber,
+			duration   = ENUM.BonusDuration.oneBattle
+	}, false)
+	server:addUnitBonus(battle, unit, {
+			type       = "PRIMARY_SKILL",
+			subtype    = "defence",
+			sourceType = ENUM.BonusSource.other,
+			val        = DEFENSE_BONUS[targetLevel] - DEFENSE_BONUS[oldLevel],
+			valueType  = ENUM.BonusValueType.baseNumber,
+			duration   = ENUM.BonusDuration.oneBattle
+	}, false)
+	server:addUnitBonus(battle, unit, {
+			type       = "STACKS_SPEED",
+			sourceType = ENUM.BonusSource.other,
+			val        = SPEED_BONUS[targetLevel] - SPEED_BONUS[oldLevel],
+			valueType  = ENUM.BonusValueType.baseNumber,
+			duration   = ENUM.BonusDuration.oneBattle
+	}, false)
+end
+
+function Script:addHeroRuneLevels(server, battle, unit, oldLevel, amount)
+	local targetLevel = oldLevel + amount
+	local cap = Script:getRuneLevelCap(battle, unit)
+	if cap == 0 then
+		return 0
+	end
+
 	if targetLevel == 0 then
 		server:addUnitBonus(battle, unit, {
 			type       = "RUNE_LEVEL_COUNTER",
 			sourceType = ENUM.BonusSource.secondarySkill,
+			sourceID     = "runes",
 			val        = 0,
 			valueType  = ENUM.BonusValueType.baseNumber,
-			sourceID   = SOURCE,
 			duration   = ENUM.BonusDuration.oneBattle
-	}, true)
-		return
+		}, true)
+		return 0
 	end
-
-	local cap = Script:getRuneLevelCap(battle, unit)
 
 	if targetLevel > cap then
 		targetLevel = cap
@@ -130,31 +183,67 @@ function Script:setRuneLevel(server, battle, unit, targetLevel)
 		targetLevel = 0
 	end
 
-	local oldLevel = Script:getCurrentRuneLevel(unit)
+	if oldLevel == targetLevel then return oldLevel end
 
-	if oldLevel == targetLevel then return end
+	Script:updateHeroBonuses(server, battle, unit, targetLevel, oldLevel)
 
+	return targetLevel
+end
 
-	Script:updateBonuses(server, battle, unit, targetLevel, oldLevel)
-	if targetLevel > 0 and ANIMATIONS[targetLevel] then
-		server:showBattleAnimation(battle, { { unit = unit } }, ANIMATIONS[targetLevel], SOUND, 1.0)
-		if unit:getCreature().getJsonKey ~= "hota.bulwark:yetiRunemaster" then
-			server:appendLog(battle, {
-				append         = { "%s gain rune level %d" },
-				replaceStrings = { unit:getCreature():getNameTextID(unit:getCount()) },
-				replaceNumbers = { targetLevel }
-			})
-		end
+function Script:addYetiRuneLevels(server, battle, unit, oldLevel, amount)
+	local targetLevel = oldLevel + amount
+	if targetLevel == 0 then
+		server:addUnitBonus(battle, unit, {
+			type       = "YETI_RUNE_LEVEL_COUNTER",
+			sourceType = ENUM.BonusSource.creatureAbility,
+			sourceID     = "yetiRunemaster",
+			val        = 0,
+			valueType  = ENUM.BonusValueType.baseNumber,
+			duration   = ENUM.BonusDuration.oneBattle
+		}, true)
+		return 0
 	end
+
+	if targetLevel > 9 then
+		targetLevel = 9
+	elseif targetLevel < 0 then
+		targetLevel = 0
+	end
+
+	if oldLevel == targetLevel then return oldLevel end
+
+	Script:updateYetiBonuses(server, battle, unit, targetLevel, oldLevel)
+
+	return targetLevel
 end
 
 function Script:addRuneLevels(server, battle, unit, amount)
-	local applyRunes = unit:isAlive()
+	if not unit:isAlive() then return end
+	local isYeti = unit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
+	local heroRuneLevel, yetiRuneLevel = Script:getCurrentRuneLevels(unit)
+	local oldHeroRuneLevel = heroRuneLevel
+	local oldYetiRuneLevel = yetiRuneLevel
+	heroRuneLevel = Script:addHeroRuneLevels(server, battle, unit, heroRuneLevel, amount)
+	if isYeti then
+		yetiRuneLevel = Script:addYetiRuneLevels(server, battle, unit, yetiRuneLevel, amount)
+	end
 
+	if heroRuneLevel == oldHeroRuneLevel and yetiRuneLevel == oldYetiRuneLevel then
+		return
+	end
 
-	if not applyRunes then return end
-	local current = Script:getCurrentRuneLevel(unit)
-	Script:setRuneLevel(server, battle, unit, current + amount)
+	local animationIndex = 0
+	if isYeti then
+		animationIndex = yetiRuneLevel
+		--- TODO append yeti message (functionality not available yet)
+	else
+		animationIndex = heroRuneLevel
+		--- TODO append generic message (functionality not available yet)
+	end
+
+	if animationIndex > 0 and ANIMATIONS[animationIndex] then
+		server:showBattleAnimation(battle, { { unit = unit } }, ANIMATIONS[animationIndex], SOUND, 1.0)
+	end
 end
 
 --- Called after `unit` attacked `other`.
@@ -186,7 +275,7 @@ function Script:onBattleStart(server, battle, unit, other)
 	for i = 1, bonusList:size() do
 		targetLevel = targetLevel + bonusList:getBonus(i):getVal()
 	end
-	Script:setRuneLevel(server, battle, unit, targetLevel)
+	Script:addRuneLevels(server, battle, unit, targetLevel)
 end
 
 return Script

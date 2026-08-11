@@ -2,9 +2,5 @@
 	"runes" : {
 		"type" : "lua",
 		"script" : "runes"
-	},
-	"yetiRunes" : {
-		"type" : "lua",
-		"script" : "yetiRunes"
 	}
 }
