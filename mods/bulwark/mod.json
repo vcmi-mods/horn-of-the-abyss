@@ -40,9 +40,12 @@
 		"config/hota/bulwark/creatures/bulwarkcommander.json",
 		"config/hota/bulwark/creatures/stackexp.json"
 	],
-	"combatScripts" : [
-		"config/hota/bulwark/runes/runesCombatScript.json"
-	],
+	"combatScripts" : {
+		"runes" : {
+			"type" : "lua",
+			"script" : "runes"
+		}
+	},
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
 		"config/hota/bulwark/heroClasses/elder.json"

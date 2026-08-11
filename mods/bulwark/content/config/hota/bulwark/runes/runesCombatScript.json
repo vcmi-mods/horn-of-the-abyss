@@ -1,6 +1,0 @@
-{
-	"runes" : {
-		"type" : "lua",
-		"script" : "runes"
-	}
-}
