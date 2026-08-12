@@ -187,8 +187,6 @@ function Script:processRuneGain(server, battle, unit, amount, describe)
 		return
 	end
 
-	--- TODO append battle log message
-
 	local animation = ANIMATIONS[newLevel]
 	if animation then
 		server:showBattleAnimation(	battle,	{ { unit = unit } }, animation,	SOUND, 1.0)
@@ -197,6 +195,49 @@ function Script:processRuneGain(server, battle, unit, amount, describe)
 	if describe then
 		self:describe(server, battle, unit, newLevel)
 	end
+end
+
+function Script:processAltar(server, battle, unit, startLevel)
+	if not unit then return end
+
+	local side = unit:getSide()
+	local sideUnits = battle:getUnitsIf(function(battleUnit)
+		return battleUnit:getSide() == side
+	end)
+
+	local animationTargets = {}
+
+	for _, sideUnit in ipairs(sideUnits) do
+		local bonusList = sideUnit:getBonuses(function(bonus)
+			return bonus:getType() == "SIEGE_WEAPON"
+		end)
+
+		if bonusList:size() == 0 then
+			local heroRuneLevel, yetiRuneLevel = self:getCurrentRuneLevels(sideUnit)
+
+			local isYeti = sideUnit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
+			local oldLevel = isYeti and yetiRuneLevel or heroRuneLevel
+
+			heroRuneLevel = self:addHeroRuneLevels(server, battle, sideUnit, heroRuneLevel, startLevel)
+
+			if isYeti then
+				yetiRuneLevel = self:addYetiRuneLevels(server, battle, sideUnit, yetiRuneLevel, startLevel)
+			end
+
+			local newLevel = isYeti and yetiRuneLevel or heroRuneLevel
+
+			if newLevel ~= oldLevel and newLevel > 0 then
+				animationTargets[newLevel] = animationTargets[newLevel] or {}
+				table.insert(animationTargets[newLevel], { unit = sideUnit })
+			end
+		end
+	end
+
+	for level, targets in pairs(animationTargets) do
+		server:showBattleAnimation(battle, targets, ANIMATIONS[level], SOUND, 1.0)
+	end
+
+	--- TODO add altar battle log message
 end
 
 --- Called after `unit` attacked `other`.
@@ -215,20 +256,32 @@ function Script:onDefend(server, battle, unit, other)
 end
 
 --- Called when `unit` casts a spell.
-function Script:onUnitSpellcast(server, battle, unit, other, payload)
+function Script:onUnitSpellcast(server, battle, unit, other)
 	self:processRuneGain(server, battle, unit, 1, true)
 end
 
 --- Called once for every unit present when the battle starts, after tactics are over.
 function Script:onBattleStart(server, battle, unit, other)
-	local targetLevel = 0
+	local cap = self:getRuneLevelCap(battle, unit)
+	if cap == 0 then return end
+
+	local startLevel, currentLevel = 0, 0
 	local bonusList = unit:getBonuses(function(bonus)
-		return bonus:getType() == "STARTING_RUNE_LEVEL"
+		local bType = bonus:getType()
+		return bType == "STARTING_RUNE_LEVEL" or bType == "RUNE_LEVEL_COUNTER"
 	end)
 	for i = 1, bonusList:size() do
-		targetLevel = targetLevel + bonusList:getBonus(i):getVal()
+		local bonus = bonusList:getBonus(i)
+		if bonus:getType() == "STARTING_RUNE_LEVEL" then
+			startLevel = startLevel + bonus:getVal()
+		else
+			currentLevel = currentLevel + bonus:getVal()
+		end
 	end
-	self:processRuneGain(server, battle, unit, targetLevel, false)
+
+	if startLevel ~= currentLevel then
+		self:processAltar(server, battle, unit, startLevel)
+	end
 end
 
 function Script:describe(server, battle, unit, newLevel)

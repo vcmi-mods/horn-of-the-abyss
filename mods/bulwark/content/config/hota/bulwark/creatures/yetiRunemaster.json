@@ -38,6 +38,10 @@
 				"subtype" : "combatScript.runes",
 				"icon" : "hota/bulwark/bonuses/runeMaster",
 				"description" : "{Possesses Runes}\nAlways benefits from the effects of Expert Runes."
+			},
+			"runeLevelCap" : {
+				"type" : "RUNE_LEVEL_CAP",
+				"val" : 9
 			}
 		},
 		"graphics" : {
