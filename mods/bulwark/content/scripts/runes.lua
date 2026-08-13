@@ -107,29 +107,38 @@ function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, r
 			valueType  = ENUM.BonusValueType.baseNumber,
 			duration   = ENUM.BonusDuration.oneBattle
 	}, false)
-	server:addUnitBonus(battle, unit, {
-			type       = "PRIMARY_SKILL",
-			subtype    = "attack",
-			sourceType = ENUM.BonusSource.other,
-			val        = ATTACK_BONUS[targetLevel] - ATTACK_BONUS[oldLevel],
-			valueType  = ENUM.BonusValueType.baseNumber,
-			duration   = ENUM.BonusDuration.oneBattle
-	}, false)
-	server:addUnitBonus(battle, unit, {
-			type       = "PRIMARY_SKILL",
-			subtype    = "defence",
-			sourceType = ENUM.BonusSource.other,
-			val        = DEFENSE_BONUS[targetLevel] - DEFENSE_BONUS[oldLevel],
-			valueType  = ENUM.BonusValueType.baseNumber,
-			duration   = ENUM.BonusDuration.oneBattle
-	}, false)
-	server:addUnitBonus(battle, unit, {
-			type       = "STACKS_SPEED",
-			sourceType = ENUM.BonusSource.other,
-			val        = SPEED_BONUS[targetLevel] - SPEED_BONUS[oldLevel],
-			valueType  = ENUM.BonusValueType.baseNumber,
-			duration   = ENUM.BonusDuration.oneBattle
-	}, false)
+	local bonusVal = ATTACK_BONUS[targetLevel] - ATTACK_BONUS[oldLevel]
+	if bonusVal > 0 then
+		server:addUnitBonus(battle, unit, {
+				type       = "PRIMARY_SKILL",
+				subtype    = "attack",
+				sourceType = ENUM.BonusSource.other,
+				val        = bonusVal,
+				valueType  = ENUM.BonusValueType.baseNumber,
+				duration   = ENUM.BonusDuration.oneBattle
+		}, false)
+	end
+	bonusVal = DEFENSE_BONUS[targetLevel] - DEFENSE_BONUS[oldLevel]
+	if bonusVal > 0 then
+		server:addUnitBonus(battle, unit, {
+				type       = "PRIMARY_SKILL",
+				subtype    = "defence",
+				sourceType = ENUM.BonusSource.other,
+				val        = bonusVal,
+				valueType  = ENUM.BonusValueType.baseNumber,
+				duration   = ENUM.BonusDuration.oneBattle
+		}, false)
+	end
+	bonusVal = SPEED_BONUS[targetLevel] - SPEED_BONUS[oldLevel]
+	if bonusVal > 0 then
+		server:addUnitBonus(battle, unit, {
+				type       = "STACKS_SPEED",
+				sourceType = ENUM.BonusSource.other,
+				val        = bonusVal,
+				valueType  = ENUM.BonusValueType.baseNumber,
+				duration   = ENUM.BonusDuration.oneBattle
+		}, false)
+	end
 end
 
 function Script:addRuneLevel(server, battle, unit, oldLevel, amount, runeType, cap)
@@ -139,14 +148,6 @@ function Script:addRuneLevel(server, battle, unit, oldLevel, amount, runeType, c
 	local targetLevel = oldLevel + amount
 
 	if targetLevel == 0 then
-		server:addUnitBonus(battle, unit, {
-			type       = runeType.counterType,
-			sourceType = runeType.sourceType,
-			sourceID   = runeType.sourceID,
-			val        = 0,
-			valueType  = ENUM.BonusValueType.baseNumber,
-			duration   = ENUM.BonusDuration.oneBattle
-		}, true)
 		return 0
 	end
 
