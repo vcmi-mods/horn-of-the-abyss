@@ -11,7 +11,13 @@
 	"artifacts" : [
 		"config/hotaGameBalance/artifacts.json"
 	],
-
+	"settings" : {
+		"creatures" : {
+			// Emulates SoD bug where Conflux creatures can not be mixed with other alignments under Angelic Alliance / troop-mixing effects.
+			// If this option is off, Conflux is treated as a regular neutral-alignment faction and can be mixed normally
+			"h3BugConfluxAlignmentMix" : false
+		}
+	},
 	"chinese" : {
 		"name" : "宝物",
 		"description" : "",
