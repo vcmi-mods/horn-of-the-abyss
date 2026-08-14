@@ -37,7 +37,10 @@
 				"battleEffects" : {
 					"frozen" : {
 						"type" : "core:timed",
-						"battleLogMessage" : "The Great Shamans cast Freezing on the %s.",
+						"battleLogMessage" : {
+							"singular" : "The Great Shamans cast Freezing on the %s.", // plural is determined from the target stack
+							"plural" : "The Great Shamans cast Freezing on the %s."
+						},
 						"bonus" : {
 							"notActive" : {
 								"val" : 0,

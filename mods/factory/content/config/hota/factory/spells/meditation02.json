@@ -39,7 +39,10 @@
 				"battleEffects" : {
 					"crimsonMeditation" : {
 						"type" : "core:timed",
-						"battleLogMessage" : "%s become invulnerable!",
+						"battleLogMessage" : {
+							"singular" : "%s becomes invulnerable!",
+							"plural" : "%s become invulnerable!"
+						},
 						"bonus" : {
 							"invincible" : {
 								"type" : "INVINCIBLE",

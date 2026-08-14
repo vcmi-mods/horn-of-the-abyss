@@ -39,7 +39,10 @@
 				"battleEffects" : {
 					"couatlMeditation" : {
 						"type" : "core:timed",
-						"battleLogMessage" : "%s skip a turn to become invulnerable!",
+						"battleLogMessage" : {
+							"singular" : "%s skips a turn to become invulnerable!",
+							"plural" : "%s skip a turn to become invulnerable!"
+						},
 						"bonus" : {
 							"invincible" : {
 								"type" : "INVINCIBLE",
