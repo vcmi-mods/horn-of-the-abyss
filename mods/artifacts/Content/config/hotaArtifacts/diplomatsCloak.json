@@ -12,14 +12,13 @@
 			"ambassadorsSash"
 		],
 		"bonuses" : {
-			"surrenderWithoutEnemyHero" : {
-				"type" : "SURRENDER_WITHOUT_ENEMY_HERO",
+			"canFlee" : {
+				"type" : "BATTLE_CAN_FLEE",
+				"val" : 50
 			},
-			"escapeFromSiege" : {
-				"type" : "BATTLE_ESCAPE_FROM_SIEGE",
-			},
-			"escapeAfterSpellcast" : {
-				"type" : "BATTLE_ESCAPE_AFTER_SPELLCAST",
+			"canSurrender" : {
+				"type" : "BATTLE_CAN_SURRENDER",
+				"val" : 50
 			},
 			"diplomacy" : {
 				"type" : "DIPLOMACY_ARMY_STRENGTH_MULTIPLIER",
