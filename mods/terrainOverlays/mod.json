@@ -31,7 +31,7 @@
 		"config/dunes/dunesQuicksand.json"
 	],
 	"scripts" : [
-		"config/dunes/scriptsSpells.json"
+		"config/dunes/dunesQuicksandBinding.json"
 	],
 	"terrains" : [
 		"config/hotaTerrains.json"

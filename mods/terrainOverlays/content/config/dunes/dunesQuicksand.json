@@ -16,7 +16,7 @@
 		"graphics" : {},
 		"levels" : {
 			"base" : {
-				"description" : "Places 15 to 20 hidden quicksand patches randomly on the battlefield.",
+				"description" : "not shown",
 				"power" : 0,
 				"cost" : 0,
 				"range" : "x",
