@@ -238,7 +238,7 @@ function Script:processAltar(server, battle, unit, startLevel)
 		server:showBattleAnimation(battle, targets, ANIMATIONS[level], SOUND, 1.0)
 	end
 
-	--- TODO add altar battle log message
+	self:describe(server, battle, nil, startLevel)
 end
 
 --- Called after `unit` attacked `other`.
@@ -289,12 +289,25 @@ function Script:onBattleStart(server, battle, unit, other)
 end
 
 function Script:describe(server, battle, unit, newLevel)
-	local count = unit:getCount()
-	server:appendLog(battle, {
-		append         = { count == 1 and "core.bonus.RUNE_LEVEL_COUNTER.description" or "core.bonus.YETI_RUNE_LEVEL_COUNTER.description" },
-		replaceStrings = { unit:getCreature():getNameTextID(count) },
-		replaceNumbers = { newLevel }
-	})
+	if not unit then
+		if newLevel == 1 then
+			server:appendLog(battle, {
+				append         = { "core.bonus.RUNE_LEVEL_CAP.description" }
+			})
+		else
+			server:appendLog(battle, {
+				append         = { "core.bonus.STARTING_RUNE_LEVEL.description" },
+				replaceNumbers = { newLevel }
+			})
+		end
+	else
+		local count = unit:getCount()
+		server:appendLog(battle, {
+			append         = { count == 1 and "core.bonus.RUNE_LEVEL_COUNTER.description" or "core.bonus.YETI_RUNE_LEVEL_COUNTER.description" },
+			replaceStrings = { unit:getCreature():getNameTextID(count) },
+			replaceNumbers = { newLevel }
+		})
+	end
 end
 
 return Script

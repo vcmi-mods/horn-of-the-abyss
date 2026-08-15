@@ -24,7 +24,8 @@
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "yetiRunemaster",
 						}
-					]
+					],
+					"hidden" : true
 				},
 				"runesEffect" : {
 					"type" : "COMBAT_EVENT_TRIGGER",

@@ -1,9 +1,11 @@
 {
 	"RUNE_LEVEL_CAP" : {
-		"hidden" : true
+		"description" : "Altar of the Runes gives units 1 starting rune level.",
+		"hidden" : false
 	},
 	"STARTING_RUNE_LEVEL" : {
-		"hidden" : true
+		"description" : "Altars of the Runes give units %d starting rune level.",
+		"hidden" : false
 	},
 	"RUNE_LEVEL_COUNTER" : {
 		"hidden" : false,

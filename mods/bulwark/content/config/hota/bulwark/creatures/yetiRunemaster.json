@@ -44,7 +44,8 @@
 			},
 			"runeLevelCap" : {
 				"type" : "RUNE_LEVEL_CAP",
-				"val" : 9
+				"val" : 9,
+				"hidden" : true
 			}
 		},
 		"graphics" : {
