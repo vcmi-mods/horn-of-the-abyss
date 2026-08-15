@@ -81,7 +81,7 @@
 		"config/hota/cove/spells/accurateShot",
 		"config/hota/cove/spells/moat"
 	],
-	"spellEffects" : [
+	"scripts" : [
 		"config/hota/cove/heroes/specialties/specialtyClone"
 	],
 	"objects" : [

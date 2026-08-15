@@ -1,4 +1,4 @@
-local Base = require("combatScript")
+local Base = require("combat/combatScript")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
@@ -242,12 +242,15 @@ function Script:processAltar(server, battle, unit, startLevel)
 end
 
 --- Called after `unit` attacked `other`.
-function Script:onAfterAttack(server, battle, unit, other)
+function Script:onAfterAttack(server, battle, unit, other, payload)
+	if payload.isCounter then return end
+	if payload.attackIndex ~= 0 then return end
 	self:processRuneGain(server, battle, unit, 1, true)
 end
 
 --- Called after `unit` was attacked by `other`.
-function Script:onAfterAttacked(server, battle, unit, other)
+function Script:onAfterAttacked(server, battle, unit, other, payload)
+	if payload.attackIndex ~= 0 then return end
 	self:processRuneGain(server, battle, unit, 2, true)
 end
 

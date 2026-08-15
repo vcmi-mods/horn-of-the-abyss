@@ -28,7 +28,7 @@
 				},
 				"runesEffect" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
-					"subtype" : "combatScript.runes",
+					"subtype" : "runes",
 					"limiters" : [
 						"noneOf",
 						{

@@ -37,7 +37,7 @@
 			},
 			"accurateShotFullRange" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "combatScript.deathStare",
+				"subtype" : "deathStare",
 				"val" : 3,
 				"addInfo" : {
 					"situation" : "ranged",
@@ -46,7 +46,7 @@
 			},
 			"accurateShotHalfRange" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "combatScript.deathStare",
+				"subtype" : "deathStare",
 				"val" : 2,
 				"addInfo" : {
 					"situation" : "rangedDistancePenalty",

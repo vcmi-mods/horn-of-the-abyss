@@ -1,0 +1,10 @@
+{
+	"runes" : {
+		"type" : "lua",
+		"implements" : "combatEvent",
+		"script" : "combat/runes.lua",
+		"patches" : [ ],
+		"schema" : { "properties" : {}, "additionalProperties" : false },
+		"priority" : 500
+	}
+}

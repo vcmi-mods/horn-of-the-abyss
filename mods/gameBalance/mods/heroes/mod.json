@@ -168,7 +168,7 @@
 	"bonuses" : [
 		"config/hotaGameBalance/hotaSpecialtyBonuses.json"
 	],
-	"spellEffects" : [
+	"scripts" : [
 		"config/hotaGameBalance/hotaSpecialtyPatches.json"
 	],
 	"chinese" : {
