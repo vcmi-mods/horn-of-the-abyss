@@ -1,4 +1,5 @@
 {
+	"core.bonus.RUNE_LEVEL_CAP.description" : "Altar der Runen gibt Einheiten 1 Startrunenlevel.",
 	"core.bonus.RUNE_LEVEL_COUNTER.description" : "%s erreicht Runenlevel %d.",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.0" : "Diese Einheit gewinnt während des Kampfes Runenlevel.",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.1" : "Bonus für Runenlevel 1:\n+2 Angriff",
@@ -10,6 +11,7 @@
 	"core.bonus.RUNE_LEVEL_COUNTER.description.7" : "Boni für Runenlevel 7:\n+6 Angriff\n+4 Verteidigung\n+2 Geschwindigkeit",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.8" : "Boni für Runenlevel 8:\n+6 Angriff\n+6 Verteidigung\n+2 Geschwindigkeit",
 	"core.bonus.RUNE_LEVEL_COUNTER.description.9" : "Boni für Runenlevel 9:\n+6 Angriff\n+6 Verteidigung\n+3 Geschwindigkeit",
+	"core.bonus.STARTING_RUNE_LEVEL.description" : "Altare der Runen geben Einheiten %d Startrunenlevel.",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description" : "%s erreichen Runenlevel %d.",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0" : "Der Yeti-Runenmeister gewinnt während des Kampfes Runenlevel.",
 	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1" : "Bonus für Runenlevel 1:\n+2 Angriff",

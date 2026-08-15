@@ -1,6 +1,5 @@
 {
 	"dunesQuicksand" : {
-		"type" : "lua",
 		"implements" : "spellEffect",
 		"script" : "spells/dunesQuicksand.lua",
 		"patches" : [],

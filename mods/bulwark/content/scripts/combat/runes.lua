@@ -170,7 +170,7 @@ function Script:addYetiRuneLevels(server, battle, unit, oldLevel, amount)
 	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.yeti, 9)
 end
 
-function Script:processRuneGain(server, battle, unit, amount, describe)
+function Script:processRuneGain(server, battle, unit, amount)
 	if not unit:isAlive() then return end
 
 	local isYeti = unit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
@@ -193,9 +193,7 @@ function Script:processRuneGain(server, battle, unit, amount, describe)
 		server:showBattleAnimation(	battle,	{ { unit = unit } }, animation,	SOUND, 1.0)
 	end
 
-	if describe then
-		self:describe(server, battle, unit, newLevel)
-	end
+	self:describe(server, battle, unit, newLevel)
 end
 
 function Script:processAltar(server, battle, unit, startLevel)
@@ -245,23 +243,23 @@ end
 function Script:onAfterAttack(server, battle, unit, other, payload)
 	if payload.isCounter then return end
 	if payload.attackIndex ~= 0 then return end
-	self:processRuneGain(server, battle, unit, 1, true)
+	self:processRuneGain(server, battle, unit, 1)
 end
 
 --- Called after `unit` was attacked by `other`.
 function Script:onAfterAttacked(server, battle, unit, other, payload)
 	if payload.attackIndex ~= 0 then return end
-	self:processRuneGain(server, battle, unit, 2, true)
+	self:processRuneGain(server, battle, unit, 2)
 end
 
 --- Called when `unit` defends.
 function Script:onDefend(server, battle, unit, other)
-	self:processRuneGain(server, battle, unit, 3, true)
+	self:processRuneGain(server, battle, unit, 3)
 end
 
 --- Called when `unit` casts a spell.
 function Script:onUnitSpellcast(server, battle, unit, other)
-	self:processRuneGain(server, battle, unit, 1, true)
+	self:processRuneGain(server, battle, unit, 1)
 end
 
 --- Called once for every unit present when the battle starts, after tactics are over.
