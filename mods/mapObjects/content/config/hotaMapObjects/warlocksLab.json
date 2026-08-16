@@ -13,7 +13,7 @@
 					"crystal",
 					"gems"
 				],
-				"rate" : 1,
+				"effectiveness" : 1.0,
 				"rmg" : {
 					"value" : 10000,
 					"rarity" : 100,

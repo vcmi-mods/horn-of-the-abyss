@@ -145,6 +145,7 @@
 		}
 	},
 	"core:conflux" : {
+		"alignment" : "neutral",
 		"town" : {
 			"buildings" : {
 				"dwellingUpLvl1" : {

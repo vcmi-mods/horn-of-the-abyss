@@ -23,6 +23,22 @@
 						"bonuses" : [
 							{
 								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentGood",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentNeutral",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentEvil",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentNone",
 								"duration" : "ONE_DAY"
 							}
 						]
