@@ -19,10 +19,6 @@
 						{
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "SIEGE_WEAPON"
-						},
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "yetiRunemaster",
 						}
 					],
 					"hidden" : true
@@ -30,6 +26,9 @@
 				"runesEffect" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "runes",
+					"addInfo" : {
+						"isYeti" : false
+					},
 					"limiters" : [
 						"noneOf",
 						{

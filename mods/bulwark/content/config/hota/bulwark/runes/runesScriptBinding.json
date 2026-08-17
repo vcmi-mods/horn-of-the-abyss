@@ -4,7 +4,9 @@
 		"script" : "combat/runes.lua",
 		"patches" : [],
 		"schema" : {
-			"properties" : {},
+			"properties" : {
+				"isYeti" : { "type" : "boolean", "description" : "is the intended bonus bearer a Yeti Runemaster" },
+			},
 			"additionalProperties" : false
 		},
 		"priority" : 500,

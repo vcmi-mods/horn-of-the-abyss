@@ -172,8 +172,7 @@ end
 
 function Script:processRuneGain(server, battle, unit, amount, animate)
 	if not unit:isAlive() then return end
-
-	local isYeti = unit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
+	local isYeti = self.isYeti
 	local heroRuneLevel, yetiRuneLevel = self:getCurrentRuneLevels(unit)
 	local oldLevel = isYeti and yetiRuneLevel or heroRuneLevel
 
@@ -264,16 +263,19 @@ end
 
 --- Called once for every unit present when the battle starts, after tactics are over.
 function Script:onBattleStart(server, battle, unit, other)
-	local cap = self:getRuneLevelCap(battle, unit)
+	local cap = self.isYeti and 9 or self:getRuneLevelCap(battle, unit)
 	if cap == 0 then return end
 
 	local startLevel, currentLevel = 0, 0
+	local targetCounterType = self.isYeti and "YETI_RUNE_LEVEL_COUNTER" or "RUNE_LEVEL_COUNTER"
 	local bonusList = unit:getBonuses(function(bonus)
 		local bType = bonus:getType()
-		return bType == "STARTING_RUNE_LEVEL" or bType == "RUNE_LEVEL_COUNTER"
+		return bType == "STARTING_RUNE_LEVEL" or bType == targetCounterType
 	end)
+
 	for i = 1, bonusList:size() do
 		local bonus = bonusList:getBonus(i)
+
 		if bonus:getType() == "STARTING_RUNE_LEVEL" then
 			startLevel = startLevel + bonus:getVal()
 		else
@@ -281,7 +283,7 @@ function Script:onBattleStart(server, battle, unit, other)
 		end
 	end
 
-	if startLevel ~= currentLevel then
+	if math.min(startLevel, cap) > currentLevel then
 		self:processAltar(server, battle, unit, startLevel)
 	end
 end
