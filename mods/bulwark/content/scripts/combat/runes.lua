@@ -61,7 +61,7 @@ local SPEED_BONUS = {
 	[8] = 2,
 	[9] = 3
 }
-local SOUND = "FIRESHIE"
+local SOUND = "hota/bulwark/spells/RUNE"
 
 function Script:getRuneLevelCap(battle, unit)
 	local cap = 0
