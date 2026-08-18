@@ -1,0 +1,62 @@
+{
+	"abilityIgnition" : {
+		"type" : "ability",
+		"name" : "Ignition",
+		"school" : {
+		},
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {
+		},
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
+		},
+		"flags" : {
+			"persistent" : true,
+			"positive" : true
+		},
+		"canCastWithoutSkip" : true,
+		"canCastOnSelf" : true,
+		"canCastOnlyOnSelf" : true,
+		"targetCondition" : {
+		},
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/detonates.png"
+		},
+		"targetType" : "CREATURE",
+		"levels" : {
+			"base" : {
+				"description" : "not shown",
+				"cost" : 0,
+				"power" : 0,
+				"range" : "0",
+				"targetModifier" : {
+					"smart" : true
+				},
+				"battleEffects" : {
+					"ignition" : {
+						"type" : "timed",
+						"bonus" : {
+							"addEventScript" : {
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "abilityDetonation",
+								"duration" : "ONE_BATTLE"
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Activate detonation at death}\n\nForce unit to explode at death. The detonation cannot be deactivated until the end of the combat.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

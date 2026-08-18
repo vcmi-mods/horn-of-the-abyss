@@ -1,0 +1,14 @@
+{
+	"abilityDetonation" : {
+		"implements" : "combatEvent",
+		"script" : "combat/abilityDetonation.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : ""
+	}
+}
