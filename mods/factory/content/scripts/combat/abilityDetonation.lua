@@ -11,15 +11,19 @@ function Script:getAffectedUnits(battle, unit)
 
 	for i = 1, hexes:size() do
 		local hex = hexes:at(i)
-    	local targetUnit = battle:getUnitByPos(hex, true)
-		if targetUnit and targetUnit:unitID() ~= unit:unitID() then
-			if not uniqueUnits[targetUnit] then
-				local bonuses = targetUnit:getBonuses(function(bonus)
-					return bonus:getType() == "INVINCIBLE"
-				end)
-				if bonuses:size() == 0 then
-					uniqueUnits[targetUnit] = true
-					table.insert(affectedUnits, targetUnit)
+		local targetUnit = battle:getUnitByPos(hex, true)
+		if targetUnit then
+			local id = targetUnit:unitID()
+
+			if id ~= unit:unitID() then
+				if not uniqueUnits[id] then
+					local bonuses = targetUnit:getBonuses(function(bonus)
+						return bonus:getType() == "INVINCIBLE"
+					end)
+					if bonuses:size() == 0 then
+						uniqueUnits[id] = true
+						table.insert(affectedUnits, targetUnit)
+					end
 				end
 			end
 		end
