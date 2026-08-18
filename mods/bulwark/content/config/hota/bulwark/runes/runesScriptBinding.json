@@ -5,7 +5,10 @@
 		"patches" : [],
 		"schema" : {
 			"properties" : {
-				"isYeti" : { "type" : "boolean", "description" : "is the intended bonus bearer a Yeti Runemaster" },
+				"isYeti" : {
+					"type" : "boolean",
+					"description" : "is the intended bonus bearer a Yeti Runemaster"
+				}
 			},
 			"additionalProperties" : false
 		},

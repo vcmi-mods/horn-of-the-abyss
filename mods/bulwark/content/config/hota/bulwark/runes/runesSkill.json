@@ -37,7 +37,7 @@
 						},
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "yetiRunemaster",
+							"creature" : "yetiRunemaster"
 						}
 					]
 				}
