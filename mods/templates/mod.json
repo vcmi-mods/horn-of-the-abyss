@@ -7,6 +7,9 @@
 	"contact" : "vcmi.eu",
 	"modType" : "Templates",
 	"version" : "1.4",
+	"depends" : [
+		"hota.mapobjects"
+	],
 	"changelog" : {
 		"1.0" : [
 			"Initial release",
