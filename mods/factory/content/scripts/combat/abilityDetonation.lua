@@ -84,7 +84,12 @@ function Script:onAfterAttacked(server, battle, unit, other, payload)
 			totalDamage = totalDamage + dealt
 			totalKilled = totalKilled + killed
 		end
-		print(string.format("dealt %d damage, killed %d.", totalDamage, totalKilled))
+		local victim
+		if #targets == 1 then
+			victim = targets[1]
+		end
+		local spell = LIBRARY:getSpellByName("abilityIgnition")
+		BattleLog.spellDamage(server, battle, spell, victim, totalDamage, totalKilled)
 	end
 end
 
