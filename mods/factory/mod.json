@@ -94,14 +94,13 @@
 		"config/hota/factory/spells/sandViguor.json",
 		"config/hota/factory/spells/ephemeralAbility.json",
 		"config/hota/factory/spells/abilityIgnition.json",
-		"config/hota/factory/spells/detonation.json",
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json",
 		"config/hota/factory/spells/heatStroke/heatStrokeJuggernaut.json",
 		"config/hota/factory/spells/heatStroke/heatStrokeDreadnought.json"
 	],
 	"bonuses" : [
-		"config/hota/factory/spells/heatStroke/heatStrokeBonusType.json"
+		"config/hota/factory/spells/abilityBonusTypes.json"
 	],
 	"objects" : [
 		"config/hota/factory/dwellings.json"
