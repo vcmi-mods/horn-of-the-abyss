@@ -35,7 +35,21 @@ end
 --- Calculate the damage the explosion should do to each adjacent unit
 function Script:getExplosionDamage(unit, killed)
 	local baseDamage = 90 + 5 * killed
+	local unitBonuses = unit:getBonuses(function(bonus)
+		return bonus:getType() == "AUTOMATON_EXPLOSION_DAMAGE"
+	end)
 
+	if unitBonuses:size() == 0 then
+		return baseDamage
+	end
+
+	local specialtyPercent = 100
+
+	for i = 1, unitBonuses:size() do
+		specialtyPercent = specialtyPercent + unitBonuses:getBonus(i):getVal()
+	end
+
+	baseDamage = math.ceil((baseDamage * specialtyPercent) / 100)
 	return baseDamage
 end
 
