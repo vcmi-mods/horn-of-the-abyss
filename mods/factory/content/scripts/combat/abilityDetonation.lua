@@ -57,12 +57,20 @@ function Script:onAfterAttacked(server, battle, unit, other, payload)
 	end
 	local entry = self:ownEntry(unit, payload)
 	if entry and entry.killed > 0 then
-		local damage = self:getExplosionDamage(unit, entry.killed)
-		print(string.format("should do %d Damage", damage))
+		local animation = unit:getCreature():getJsonKey() == "hota.factory:sentinelAutomaton" and "hota/factory/spells/detonationSentinel" or "hota/factory/spells/detonationAutomaton"
+		server:showBattleAnimation(battle, { { unit = unit } }, animation, "hota/factory/creatures/automaton/AUTOSPEC", 1.0, true)
 		local targets = self:getAffectedUnits(battle, unit)
-		for _, target in ipairs(targets) do
-			print(target:getCreature():getJsonKey())
+		if #targets == 0 then
+			return
 		end
+		local damage = self:getExplosionDamage(unit, entry.killed)
+		local totalDamage, totalKilled = 0, 0
+		for _, target in ipairs(targets) do
+			local dealt, killed = server:damageUnit(battle, target, damage)
+			totalDamage = totalDamage + dealt
+			totalKilled = totalKilled + killed
+		end
+		print(string.format("dealt %d damage, killed %d.", totalDamage, totalKilled))
 	end
 end
 

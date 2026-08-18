@@ -17,7 +17,7 @@
 			]
 		},
 		"flags" : {
-			"persistent" : true,
+			// add persistent later when fixed
 			"positive" : true
 		},
 		"canCastWithoutSkip" : true,
@@ -46,6 +46,10 @@
 								"type" : "COMBAT_EVENT_TRIGGER",
 								"subtype" : "abilityDetonation",
 								"duration" : "ONE_BATTLE"
+							},
+							"removeCorpse" : {
+								"type" : "DISINTEGRATE",
+								"hidden" : true
 							}
 						}
 					}
