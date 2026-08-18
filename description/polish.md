@@ -34,7 +34,7 @@ Poza standardową szesnastką bohaterów każdej frakcji oraz bohaterami dostęp
 * **Kinkeria, Wiedźma**
     * Specjalista w zdolności **Nauka**
 * **Mniejsze bądź większe zmiany**
-    * **Lord Haart, Rycerz śmierci ** teraz nazywa się **Lisz Haart, Rycerz śmierci** by uniknąć pomieszania
+    * **Lord Haart, Rycerz śmierci** teraz nazywa się **Lisz Haart, Rycerz śmierci** by uniknąć pogubienia się
     * W oryginalnym dodatku _Róg otchłani_ bohaterowie, których zastąpili ich odpowiedniki byli także usuwani z puli dostępnych bohaterów. W VCMI działa to inaczej - każdy bohater pozostaje dostępny, o ile nie zostanie zablokowany przez mapę lub generator szablonów
 
 ## Zdolności drugorzędne
@@ -63,7 +63,7 @@ Dodano kilka artefaktów składanych, które pierwotnie planowano wprowadzić wr
     * _+5 do ataku, +5 do obrony, +4 do mocy, +4 do wiedzy_
     * _Rzuca na wszystkie sojusznicze jednostki mistrzowską Żądzę krwi, Kontratak, Ognistą tarczę oraz Przyspieszenie trwające 50 rund._
     * _Zajmuje sloty na **broń**/tarcze/głowę/tułów_
-* **{Medalion odbicia:**
+* **Medalion odbicia:**
     * _+50% do odporności na magię_
     * _Zajmuje sloty na **szyję**/ramiona/stopy_
 * **Złota gęś:**
@@ -91,8 +91,8 @@ Szukasz kolejnych sposobów na zdobycie przewagi nad wrogami? Oto różnorodne s
 * Drobne, lecz uzasadnione zmiany w kosztach budowy niektórych budynków
 * Drobne, lecz uzasadnione zmiany w statystykach różnych stworzeń
 * Nowe **obiekty na mapie** i **hordy stworzeń**
-* **Sanktuarium popiołu**, nowy budynek we **Wrotach żywiołów **, który zwiększa przyrost Ognistych ptaków i Feniksów
+* **Sanktuarium popiołu**, nowy budynek we **Wrotach żywiołów**, który zwiększa przyrost Ognistych ptaków i Feniksów
 * **System badań zaklęć**, zapewniający zdobycie najważniejszych zaklęć po przeprowadzeniu odpowiedniej liczby badań
 * Nowe tereny - **Wyżyny** i **Pustkowia**
 * Teren natywny **Wrót żywiołów** został zmieniony na **Wyżyny**
-* Odtąd**Niziołki** należą do frakcji **Fabryki**, nie są już stworzeniami **neutralnymi**
+* Odtąd **Niziołki** należą do frakcji **Fabryki**, nie są już stworzeniami **neutralnymi**
