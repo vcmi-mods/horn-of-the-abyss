@@ -63,6 +63,8 @@ local SPEED_BONUS = {
 }
 local SOUND = "hota/bulwark/spells/RUNE"
 
+--- Returns the Rune Level Cap of the Runes secondary skill.
+--- Yetis have to respect this as well, so they don't gain hero-granted rune levels beyond the cap
 function Script:getRuneLevelCap(battle, unit)
 	local cap = 0
 
@@ -75,6 +77,7 @@ function Script:getRuneLevelCap(battle, unit)
 	return cap
 end
 
+--- Returns both hero-granted and Yeti-ability granted current rune levels
 function Script:getCurrentRuneLevels(unit)
 	local heroRuneLevel = 0
 	local yetiRuneLevel = 0
@@ -94,7 +97,9 @@ function Script:getCurrentRuneLevels(unit)
 	return heroRuneLevel, yetiRuneLevel
 end
 
+--- Updates the current rune level bonuses from oldLevel to targetLevel
 function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, runeType)
+	--- remove and re-add the counter to keep the icon up-to-date
 	local runeLevelBonuses = unit:getBonuses(function(bonus)
 		return bonus:getType() == runeType.counterType
 	end)
@@ -107,6 +112,7 @@ function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, r
 			valueType  = ENUM.BonusValueType.baseNumber,
 			duration   = ENUM.BonusDuration.oneBattle
 	}, false)
+
 	local bonusVal = ATTACK_BONUS[targetLevel] - ATTACK_BONUS[oldLevel]
 	if bonusVal > 0 then
 		server:addUnitBonus(battle, unit, {
@@ -141,35 +147,37 @@ function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, r
 	end
 end
 
+--- Adds both types of rune levels, any positive amount, up to the cap
 function Script:addRuneLevel(server, battle, unit, oldLevel, amount, runeType, cap)
 	if cap == 0 then
 		return 0
 	end
-	local targetLevel = oldLevel + amount
 
-	if targetLevel == 0 then
-		return 0
+	local targetLevel = math.min(oldLevel + amount, cap)
+
+	if targetLevel == oldLevel then
+		return oldLevel
 	end
-
-	targetLevel = math.max(0, math.min(targetLevel, cap))
-
-	if oldLevel == targetLevel then return oldLevel end
 
 	self:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, runeType)
 
 	return targetLevel
 end
 
+--- Adds hero-granted rune levels
 function Script:addHeroRuneLevels(server, battle, unit, oldLevel, amount)
 	local cap = self:getRuneLevelCap(battle, unit)
 
 	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.hero, cap)
 end
 
+--- Adds Yeti-ability rune levels
 function Script:addYetiRuneLevels(server, battle, unit, oldLevel, amount)
 	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.yeti, 9)
 end
 
+--- Attempts to add "amount" of rune levels, both hero-granted and Yeti-ability granted ones.
+--- If any rune level was successfully added, it plays the animation of the reached rune level.
 function Script:processRuneGain(server, battle, unit, amount, deferAnimation)
 	if not unit:isAlive() then return end
 	local isYeti = self.isYeti
@@ -195,44 +203,36 @@ function Script:processRuneGain(server, battle, unit, amount, deferAnimation)
 	self:describe(server, battle, unit, newLevel)
 end
 
+--- Batch-processes the starting rune levels (both types) and adds them to every non-siege unit on the caller's side.
+--- Plays an animation on all units that changed any rune level. Animations are played in ascending order of rune level acquired.
 function Script:processAltar(server, battle, unit, startLevel)
-	if not unit then return end
-
 	local side = unit:getSide()
 	local sideUnits = battle:getUnitsIf(function(battleUnit)
-		return battleUnit:getSide() == side
+		return battleUnit:getSide() == side and battleUnit:getSlot() >= 0
 	end)
-
 	local animationTargets = {}
 
 	for _, sideUnit in ipairs(sideUnits) do
-		local bonusList = sideUnit:getBonuses(function(bonus)
-			return bonus:getType() == "SIEGE_WEAPON"
-		end)
+		local heroRuneLevel, yetiRuneLevel = self:getCurrentRuneLevels(sideUnit)
+		local isYeti = sideUnit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
+		local oldLevel = isYeti and yetiRuneLevel or heroRuneLevel
+		heroRuneLevel = self:addHeroRuneLevels(server, battle, sideUnit, heroRuneLevel, startLevel)
+		if isYeti then
+			yetiRuneLevel = self:addYetiRuneLevels(server, battle, sideUnit, yetiRuneLevel, startLevel)
+		end
 
-		if bonusList:size() == 0 then
-			local heroRuneLevel, yetiRuneLevel = self:getCurrentRuneLevels(sideUnit)
-
-			local isYeti = sideUnit:getCreature():getJsonKey() == "hota.bulwark:yetiRunemaster"
-			local oldLevel = isYeti and yetiRuneLevel or heroRuneLevel
-
-			heroRuneLevel = self:addHeroRuneLevels(server, battle, sideUnit, heroRuneLevel, startLevel)
-
-			if isYeti then
-				yetiRuneLevel = self:addYetiRuneLevels(server, battle, sideUnit, yetiRuneLevel, startLevel)
-			end
-
-			local newLevel = isYeti and yetiRuneLevel or heroRuneLevel
-
-			if newLevel ~= oldLevel and newLevel > 0 then
-				animationTargets[newLevel] = animationTargets[newLevel] or {}
-				table.insert(animationTargets[newLevel], { unit = sideUnit })
-			end
+		local newLevel = isYeti and yetiRuneLevel or heroRuneLevel
+		if newLevel ~= oldLevel and newLevel > 0 then
+			animationTargets[newLevel] = animationTargets[newLevel] or {}
+			table.insert(animationTargets[newLevel], { unit = sideUnit })
 		end
 	end
 
-	for level, targets in pairs(animationTargets) do
-		server:showBattleAnimation(battle, targets, ANIMATIONS[level], SOUND, 1.0)
+	for level = 1, 9 do
+		local targets = animationTargets[level]
+		if targets then
+			server:showBattleAnimation(battle, targets, ANIMATIONS[level], SOUND, 1.0)
+		end
 	end
 
 	self:describe(server, battle, nil, startLevel)
@@ -288,6 +288,7 @@ function Script:onBattleStart(server, battle, unit, other)
 	end
 end
 
+--- Dispatches battle log descriptions.
 function Script:describe(server, battle, unit, newLevel)
 	if not unit then
 		if newLevel == 1 then
