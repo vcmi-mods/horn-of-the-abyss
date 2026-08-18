@@ -30,12 +30,15 @@
 		},
 		"abilities" : {
 			"yetiCure" : {
-				"type" : "ENCHANTED",
-				"subtype" : "yetiCure",
-				"val" : 0,
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : {
+					"spell" : "yetiCure",
+					"level" : 0
+				},
 				"icon" : "hota/bulwark/bonuses/yetiCure",
 				"description" : "{Self-dispelling}\nRecovers from negative effects in one round of combat."
-			}
+			},
 		},
 		"graphics" : {
 			"iconLarge" : "hota/bulwark/creatures/iconsLarge/yeti.png",

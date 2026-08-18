@@ -1,4 +1,4 @@
-local Base = require("spellEffect")
+local Base = require("spells/spellEffect")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 

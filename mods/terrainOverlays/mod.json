@@ -30,8 +30,8 @@
 	"spells" : [
 		"config/dunes/dunesQuicksand.json"
 	],
-	"spellEffects" : [
-		"config/dunes/spellEffects.json"
+	"scripts" : [
+		"config/dunes/dunesQuicksandBinding.json"
 	],
 	"terrains" : [
 		"config/hotaTerrains.json"

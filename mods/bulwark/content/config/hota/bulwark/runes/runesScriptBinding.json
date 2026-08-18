@@ -1,0 +1,15 @@
+{
+	"runes" : {
+		"implements" : "combatEvent",
+		"script" : "combat/runes.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"isYeti" : { "type" : "boolean", "description" : "is the intended bonus bearer a Yeti Runemaster" },
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 500,
+		"description" : ""
+	}
+}

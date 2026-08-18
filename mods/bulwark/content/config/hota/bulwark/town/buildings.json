@@ -231,23 +231,11 @@
 						{
 							"propagator" : "PLAYER",
 							"val" : 1,
-							"type" : "RUNE_LEVEL_COUNTER",
+							"type" : "STARTING_RUNE_LEVEL",
 							"limiters" : [
 								"CREATURES_ONLY"
 							],
 							"hidden" : true
-						},
-						{
-							"propagator" : "PLAYER",
-							"type" : "YETI_RUNE_LEVEL_COUNTER",
-							"val" : 1,
-							"limiters" : [
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "yetiRunemaster",
-									"includeUpgrades" : false
-								}
-							]
 						}
 					]
 				},
