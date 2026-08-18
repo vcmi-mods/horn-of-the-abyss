@@ -1,4 +1,4 @@
 {
 	"building.core.dungeon.special2.description": "Manavirveln fördubblar trolleripoängen för en besökande hjälte, en gång per vecka.",
-	"building.core.necropolis.special2.description": "Nekromantikförstärkaren ökar nekromantikfärdigheten hos alla hjältar du kontrollerar (+5% Nekromantik till samtliga hjältar under din kontroll)."
+	"building.core.necropolis.special2.description": "Nekromantikförstärkaren ökar nekromantikfärdigheten hos alla hjältar som du kontrollerar (och som har nekromantikfärdigheten) med 5%."
 }

@@ -1801,5 +1801,14 @@
 	"map.[hota] with sword and fire.event.0.description": "你没有金币或资源。",
 	"map.[hota] with sword and fire.header.description": "当有一天，就连凯琳这样的传奇游侠也无法走出森林迷宫。更糟糕的是，如今的森林被谜题机关和致命陷阱所充斥。即使精灵的信条是绝不能伤害林木生灵，为了求生她将不得不与他们刀剑相向。",
 	"map.[hota] with sword and fire.header.name": "火与剑",
-	"map.[hota] with sword and fire.monster.11.2.0.message": "精灵不得进入。"
+	"map.[hota] with sword and fire.monster.11.2.0.message": "精灵不得进入。",
+	"map.[hota] dead man's tales.header.heroNames.163": "库尔科斯",
+	"map.[hota] dead man's tales.heroes.163.name": "库尔科斯",
+	"map.[hota] ice assault.header.heroNames.193": "奥西安",
+	"map.[hota] ice assault.header.heroNames.237": "阿特雷亚",
+	"map.[hota] ice assault.heroes.193.name": "奥西安",
+	"map.[hota] ice assault.heroes.207.name": "斯特拉顿",
+	"map.[hota] ice assault.heroes.237.name": "阿特雷亚",
+	"map.[hota] seven days.header.heroNames.200": "马格拉",
+	"map.[hota] seven days.heroes.200.name": "马格拉"
 }
