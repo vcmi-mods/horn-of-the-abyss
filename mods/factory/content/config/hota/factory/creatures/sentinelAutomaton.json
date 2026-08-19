@@ -58,9 +58,9 @@
 			"noRetaliation" : {
 				"type" : "BLOCKS_RETALIATION"
 			},
-			"castsymMeditation" : {
+			"castsDetonation" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "abilityIgnition",
+				"subtype" : "abilityDetonation",
 				"val" : 0
 			},
 			"castsCount" : {

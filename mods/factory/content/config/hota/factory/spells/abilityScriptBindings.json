@@ -1,7 +1,7 @@
 {
-	"abilityDetonation" : {
+	"automatonDetonation" : {
 		"implements" : "combatEvent",
-		"script" : "combat/abilityDetonation.lua",
+		"script" : "combat/automatonDetonation.lua",
 		"patches" : [],
 		"schema" : {
 			"properties" : {

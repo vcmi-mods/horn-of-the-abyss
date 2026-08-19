@@ -1,5 +1,5 @@
 {
-	"abilityIgnition" : {
+	"abilityDetonation" : {
 		"type" : "ability",
 		"name" : "Detonation",
 		"school" : {
@@ -44,7 +44,7 @@
 						"bonus" : {
 							"addEventScript" : {
 								"type" : "COMBAT_EVENT_TRIGGER",
-								"subtype" : "abilityDetonation",
+								"subtype" : "automatonDetonation",
 								"duration" : "ONE_BATTLE"
 							},
 							"removeCorpse" : {
