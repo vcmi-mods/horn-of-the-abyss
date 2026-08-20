@@ -1,4 +1,5 @@
 {
 	"core.bonus.RUNE_LEVEL_COUNTER.description": "Om detta visas är det ett fel i RUNE_LEVEL_COUNTER.",
-	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Denna enhet stiger i runnivåer under strid."
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Denna enhet stiger i runnivåer under strid.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1": "Bonus för runnivå 1:\n+2 Attack"
 }
