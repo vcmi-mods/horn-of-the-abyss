@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced": "{Avancerad Förmögenhet}\n\nHjälten bidrar med 500 guld per dag till ditt rike.",
-	"skill.core.estates.description.basic": "{Basal Förmögenhet}\n\nHjälten bidrar med 250 guld per dag till ditt rike.",
-	"skill.core.estates.description.expert": "{Mästerlig Förmögenhet}\n\nHjälten bidrar med 1000 guld per dag till ditt rike."
+	"skill.core.estates.description.advanced": "{Avancerad Förmögenhet}\n\nMed Förmögenhet bidrar hjälten med 500 guld per dag till ditt rike.",
+	"skill.core.estates.description.basic": "{Basal Förmögenhet}\n\nMed Förmögenhet bidrar hjälten med 250 guld per dag till ditt rike.",
+	"skill.core.estates.description.expert": "{Mästerlig Förmögenhet}\n\nMed Förmögenhet bidrar hjälten med 1000 guld per dag till ditt rike."
 }

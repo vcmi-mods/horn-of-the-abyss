@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.sorcery.description.advanced": "{Avancerad Trolldom}\n\nÖkar skadan från hjältens trollformler med 20%.",
+	"skill.core.sorcery.description.basic": "{Basal Trolldom}\n\nÖkar skadan från hjältens trollformler med 10%.",
+	"skill.core.sorcery.description.expert": "{Mästerlig Trolldom}\n\nÖkar skadan från hjältens trollformler med 30%."
+}
