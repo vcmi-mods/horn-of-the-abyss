@@ -41,6 +41,8 @@
 				"battleEffects" : {
 					"ignition" : {
 						"type" : "timed",
+						"battleLogSingular" : "%s activates detonation at death mode!",
+						"battleLogPlural" : "%s activate detonation at death mode!",
 						"bonus" : {
 							"addEventScript" : {
 								"type" : "COMBAT_EVENT_TRIGGER",
@@ -49,6 +51,7 @@
 							},
 							"removeCorpse" : {
 								"type" : "DISINTEGRATE",
+								"duration" : "ONE_BATTLE",
 								"hidden" : true
 							}
 						}
