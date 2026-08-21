@@ -4,8 +4,7 @@
 		"script" : "combat/automatonDetonation.lua",
 		"patches" : [],
 		"schema" : {
-			"properties" : {
-			},
+			"properties" : {},
 			"additionalProperties" : false
 		},
 		"priority" : 0,

@@ -1,0 +1,3 @@
+{
+	"core.bonus.AUTOMATON_EXPLOSION_DAMAGE.description" : "{High Explosives}\nThis unit deals +${val}% Damage when it detonates."
+}
