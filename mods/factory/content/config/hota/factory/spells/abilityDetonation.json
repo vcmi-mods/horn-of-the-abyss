@@ -17,7 +17,7 @@
 			]
 		},
 		"flags" : {
-			// add persistent later when fixed
+			"persistent" : true,
 			"positive" : true
 		},
 		"canCastWithoutSkip" : true,
