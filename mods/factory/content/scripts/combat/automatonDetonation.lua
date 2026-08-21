@@ -64,33 +64,37 @@ function Script:ownEntry(unit, payload)
 	return nil
 end
 
---- Called after `unit` was attacked by `other`
-function Script:onAfterAttacked(server, battle, unit, other, payload)
-	if unit:isAlive() then
-		return
-	end
+--- Plays the detonation death animation of 'unit' and damages all surrounding targets
+function Script:processTriggerEvent(server, battle, unit, payload)
+	if unit:isAlive() then return end
 	local entry = self:ownEntry(unit, payload)
+
 	if entry and entry.killed > 0 then
 		local animation = unit:getCreature():getJsonKey() == "hota.factory:sentinelAutomaton" and "hota/factory/spells/detonationSentinel" or "hota/factory/spells/detonationAutomaton"
 		server:showBattleAnimation(battle, { { unit = unit } }, animation, "hota/factory/creatures/automaton/AUTOSPEC", 1.0, true)
 		local targets = self:getAffectedUnits(battle, unit)
-		if #targets == 0 then
-			return
-		end
+
+		if #targets == 0 then return end
 		local damage = self:getExplosionDamage(unit, entry.killed)
 		local totalDamage, totalKilled = 0, 0
+
 		for _, target in ipairs(targets) do
 			local dealt, killed = server:damageUnit(battle, target, damage)
 			totalDamage = totalDamage + dealt
 			totalKilled = totalKilled + killed
 		end
-		local victim
-		if #targets == 1 then
-			victim = targets[1]
-		end
+
+		local victim = #targets == 1 and targets[1] or nil
 		local spell = LIBRARY:getSpellByName("abilityDetonation")
 		BattleLog.spellDamage(server, battle, spell, victim, totalDamage, totalKilled)
 	end
 end
+
+--- Called after `unit` was attacked by `other`
+function Script:onAfterAttacked(server, battle, unit, other, payload)
+	self:processTriggerEvent(server, battle, unit, payload)
+end
+
+--- TODO - add trigger for taking spell damage here and call processTriggerEvent like onAfterAttacked
 
 return Script
