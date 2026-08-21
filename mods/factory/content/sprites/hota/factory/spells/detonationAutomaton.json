@@ -1,16 +1,15 @@
 {
 	"basepath" : "hota/factory/spells/detonationAutomaton/",
 	"images" : [
-		{ "group" : 0, "frame" : 0, "file" : "CAUTO2.dF000.png" },
-		{ "group" : 0, "frame" : 1, "file" : "CAUTO2.dF001.png" },
-		{ "group" : 0, "frame" : 2, "file" : "CAUTO2.dF002.png" },
-		{ "group" : 0, "frame" : 3, "file" : "CAUTO2.dF003.png" },
-		{ "group" : 0, "frame" : 4, "file" : "CAUTO2.dF004.png" },
-		{ "group" : 0, "frame" : 5, "file" : "CAUTO2.dF005.png" },
-		{ "group" : 0, "frame" : 6, "file" : "CAUTO2.dF006.png" },
-		{ "group" : 0, "frame" : 7, "file" : "CAUTO2.dF007.png" },
-		{ "group" : 0, "frame" : 8, "file" : "CAUTO2.dF008.png" },
-		{ "group" : 0, "frame" : 9, "file" : "CAUTO2.dF009.png" },
-		{ "group" : 0, "frame" : 10, "file" : "CAUTO2.dF010.png" }
+		{ "group" : 0, "frame" : 0, "file" : "CAUTO2.dF001.png" },
+		{ "group" : 0, "frame" : 1, "file" : "CAUTO2.dF002.png" },
+		{ "group" : 0, "frame" : 2, "file" : "CAUTO2.dF003.png" },
+		{ "group" : 0, "frame" : 3, "file" : "CAUTO2.dF004.png" },
+		{ "group" : 0, "frame" : 4, "file" : "CAUTO2.dF005.png" },
+		{ "group" : 0, "frame" : 5, "file" : "CAUTO2.dF006.png" },
+		{ "group" : 0, "frame" : 6, "file" : "CAUTO2.dF007.png" },
+		{ "group" : 0, "frame" : 7, "file" : "CAUTO2.dF008.png" },
+		{ "group" : 0, "frame" : 8, "file" : "CAUTO2.dF009.png" },
+		{ "group" : 0, "frame" : 9, "file" : "CAUTO2.dF010.png" }
 	]
 }

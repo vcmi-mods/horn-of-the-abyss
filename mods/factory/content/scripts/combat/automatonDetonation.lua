@@ -88,7 +88,7 @@ function Script:onAfterAttacked(server, battle, unit, other, payload)
 		if #targets == 1 then
 			victim = targets[1]
 		end
-		local spell = LIBRARY:getSpellByName("abilityIgnition")
+		local spell = LIBRARY:getSpellByName("abilityDetonation")
 		BattleLog.spellDamage(server, battle, spell, victim, totalDamage, totalKilled)
 	end
 end
