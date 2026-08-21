@@ -1,0 +1,14 @@
+{
+	"automatonDetonation" : {
+		"implements" : "combatEvent",
+		"script" : "combat/automatonDetonation.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : ""
+	}
+}

@@ -1,13 +1,17 @@
-// Should be:
-// Increases the Damage dealt by Automatons and Sentinel Automatons' Detonation by 5% for every level (rounded up).
 {
 	"hota.factory:19frederick" : {
 		"specialty" : {
-			"stepSize" : 20
+			"bonuses" : {
+				"automatonExplosions" : {
+					"updater" : {
+						"valPer20" : 100
+					}
+				}
+			}
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up)."
+				"description" : "Increases Damage dealt by explosion of Automatons and Sentinel Automatons by 5% for every level (rounded up)."
 			}
 		}
 	}

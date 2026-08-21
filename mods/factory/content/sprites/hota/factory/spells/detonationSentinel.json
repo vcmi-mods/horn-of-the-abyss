@@ -1,0 +1,14 @@
+{
+	"basepath" : "hota/factory/spells/detonationSentinel/",
+	"images" : [
+		{ "group" : 0, "frame" : 0, "file" : "CHAUTO2.F002.png" },
+		{ "group" : 0, "frame" : 1, "file" : "CHAUTO2.F003.png" },
+		{ "group" : 0, "frame" : 2, "file" : "CHAUTO2.F004.png" },
+		{ "group" : 0, "frame" : 3, "file" : "CHAUTO2.F005.png" },
+		{ "group" : 0, "frame" : 4, "file" : "CHAUTO2.F006.png" },
+		{ "group" : 0, "frame" : 5, "file" : "CHAUTO2.F007.png" },
+		{ "group" : 0, "frame" : 6, "file" : "CHAUTO2.F008.png" },
+		{ "group" : 0, "frame" : 7, "file" : "CHAUTO2.F009.png" },
+		{ "group" : 0, "frame" : 8, "file" : "CHAUTO2.F010.png" }
+	]
+}

@@ -83,6 +83,9 @@
 		"config/hota/factory/heroes/elderian.json",
 		"config/hota/factory/heroes/umender.json"
 	],
+	"scripts" : [
+		"config/hota/factory/spells/abilityScriptBindings.json"
+	],
 	"spells" : [
 		"config/hota/factory/spells/teslaLightning.json",
 		"config/hota/factory/spells/hotaRepair.json",
@@ -90,16 +93,14 @@
 		"config/hota/factory/spells/summonLarva.json",
 		"config/hota/factory/spells/sandViguor.json",
 		"config/hota/factory/spells/ephemeralAbility.json",
-		"config/hota/factory/spells/detonates01.json",
-		"config/hota/factory/spells/detonates02.json",
-		"config/hota/factory/spells/detonation.json",
+		"config/hota/factory/spells/abilityDetonation.json",
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json",
 		"config/hota/factory/spells/heatStroke/heatStrokeJuggernaut.json",
 		"config/hota/factory/spells/heatStroke/heatStrokeDreadnought.json"
 	],
 	"bonuses" : [
-		"config/hota/factory/spells/heatStroke/heatStrokeBonusType.json"
+		"config/hota/factory/spells/abilityBonusTypes.json"
 	],
 	"objects" : [
 		"config/hota/factory/dwellings.json"

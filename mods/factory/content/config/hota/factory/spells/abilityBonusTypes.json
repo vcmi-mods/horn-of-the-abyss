@@ -1,0 +1,12 @@
+{
+	"USED_HEATSTROKE_ABILITY" : {
+		"hidden" : true
+	},
+	"AUTOMATON_EXPLOSION_DAMAGE" : {
+		"graphics" : {
+			"icon" : "hota/factory/bonusIcons/automatonExplosion"
+		},
+		"description" : "{High Explosives}\nThis unit deals +${val}% Damage when it detonates."
+	}
+
+}
