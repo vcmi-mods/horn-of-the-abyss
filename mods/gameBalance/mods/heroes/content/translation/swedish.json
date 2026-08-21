@@ -1,6 +1,6 @@
 {
 	"hero.core.adela.specialty.description": "Ökar skadan för enheter som påverkas av trollformeln Välsigna med 10% för varje nivå målenheten har.",
-	"hero.core.adelaide.specialty.description": "Kastar Frostring med skada som ökar beroende på förhållandet mellan hjältenivån och målnivån (bonus = 10% × hjältenivå / målnivå).",
+	"hero.core.adelaide.specialty.description": "Kastar Frostring med skada som ökar med 10% × (hjältenivå ÷ målnivå).",
 	"hero.core.adrienne.specialty.description": "Ökar skadan från Eld‑trollformler med 50%.",
 	"hero.core.aenain.specialty.description": "Kastar Störande Stråle med effekten ökad med 10.",
 	"hero.core.aeris.specialty.description": "Ökar kvickheten för alla Pegaser och Silverpegaser med 1 samt deras Attack- och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
