@@ -38,7 +38,7 @@
 	"coveMoat" : {
 		"targetType" : "NO_TARGET",
 		"type" : "ability",
-		"name" : "Ditch",
+		"name" : "",
 		"school" : {},
 		"level" : 0,
 		"power" : 0,

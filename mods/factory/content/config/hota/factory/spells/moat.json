@@ -1,8 +1,8 @@
 {
-	"bulwarkMoatTrigger" : {
+	"factoryMoatTrigger" : {
 		"targetType" : "CREATURE",
 		"type" : "ability",
-		"name" : "Tusks",
+		"name" : "Barbs",
 		"school" : {},
 		"level" : 0,
 		"power" : 0,
@@ -35,7 +35,7 @@
 		},
 		"targetCondition" : {}
 	},
-	"bulwarkMoat" : {
+	"factoryMoat" : {
 		"targetType" : "NO_TARGET",
 		"type" : "ability",
 		"name" : "",
@@ -57,7 +57,7 @@
 						"type" : "moat",
 						"hidden" : false,
 						"trap" : true,
-						"triggerAbility" : "bulwarkMoatTrigger",
+						"triggerAbility" : "factoryMoatTrigger",
 						"dispellable" : false,
 						"removeOnTrigger" : false,
 						"moatDamage" : 70,
