@@ -28,8 +28,8 @@
 		"sounds" : {},
 		"targetType" : "CREATURE",
 		"levels" : {
-			"none" : {
-				"description" : "{Meditation}\n\nTemporary invulnerability.\n",
+			"base" : {
+				"description" : "",
 				"range" : "0",
 				"power" : 0,
 				"cost" : 0,
@@ -58,7 +58,13 @@
 						}
 					}
 				}
-			}
+			},
+			"none" : {
+				"description" : "{Meditation}\n\nTemporary invulnerability.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

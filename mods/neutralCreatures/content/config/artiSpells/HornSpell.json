@@ -53,7 +53,7 @@
 				"range" : "0",
 				"battleEffects" : {
 					"demonSummon" : {
-						"id" : "hota.neutralcreatures:fangarm",
+						"id" : "fangarm",
 						"permanent" : true,
 						"type" : "demonSummon"
 					}

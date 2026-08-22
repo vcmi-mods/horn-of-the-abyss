@@ -40,7 +40,7 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "IMMOLATION DAMAGE",
+				"description" : "",
 
 				"battleEffects" : {
 					"directDamage" : {
@@ -52,15 +52,9 @@
 			"none" : {
 				"description" : "IMMOLATION DAMAGE"
 			},
-			"basic" : {
-				"description" : "IMMOLATION DAMAGE"
-			},
-			"advanced" : {
-				"description" : "IMMOLATION DAMAGE"
-			},
-			"expert" : {
-				"description" : "IMMOLATION DAMAGE"
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

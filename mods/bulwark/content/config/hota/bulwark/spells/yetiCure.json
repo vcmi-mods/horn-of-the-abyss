@@ -10,7 +10,7 @@
 		"levels" : {
 			"base" : {
 				"cost" : 0,
-				"description" : "not shown",
+				"description" : "",
 				"battleEffects" : {
 					"cure" : {
 						"dispelNegative" : true,

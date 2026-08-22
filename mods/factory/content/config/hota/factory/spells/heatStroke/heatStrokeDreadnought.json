@@ -32,7 +32,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{Heat Stroke}\nCan deal damage to all units within a semi-circular area.\n",
+				"description" : "",
 				"cost" : 0,
 				"power" : 0,
 				"range" : "0",
@@ -72,16 +72,12 @@
 					"smart" : false
 				}
 			},
-			"none" : {},
-			"basic" : {
-				"description" : ""
+			"none" : {
+				"description" : "{Heat Stroke}\nCan deal damage to all units within a semi-circular area.\n"
 			},
-			"advanced" : {
-				"description" : ""
-			},
-			"expert" : {
-				"description" : ""
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

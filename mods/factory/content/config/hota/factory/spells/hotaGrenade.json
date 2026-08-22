@@ -23,7 +23,7 @@
 		},
 		"graphics" : {},
 		"levels" : {
-			"none" : {
+			"base" : {
 				"range" : "0",
 				"battleEffects" : {
 					"directDamage" : {
@@ -32,8 +32,12 @@
 				},
 				"cost" : 0,
 				"power" : 0,
-				"description" : "not shown"
-			}
+				"description" : ""
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

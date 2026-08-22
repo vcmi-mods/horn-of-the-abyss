@@ -36,8 +36,8 @@
 			"cast" : "hota/spells/Repair.wav"
 		},
 		"levels" : {
-			"none" : {
-				"description" : "not shown",
+			"base" : {
+				"description" : "",
 				"cost" : 0,
 				"range" : "0",
 				"power" : 0,
@@ -59,7 +59,11 @@
 				"targetModifier" : {
 					"smart" : true
 				}
-			}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }
