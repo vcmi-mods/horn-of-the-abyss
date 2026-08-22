@@ -33,7 +33,8 @@
 				"type" : "NO_MELEE_PENALTY"
 			},
 			"noRangeBlock" : {
-				"type" : "FREE_SHOOTING"
+				"type" : "FREE_SHOOTING",
+				"subtype" : "freeShootingExceptAdjacent"
 			}
 		},
 		"graphics" : {
