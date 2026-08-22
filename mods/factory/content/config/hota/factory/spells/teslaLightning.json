@@ -51,9 +51,7 @@
 				},
 				"description" : ""
 			},
-			"none" : {
-				"description" : "Warning! Lightning Storm created!"
-			},
+			"none" : {},
 			"basic" : {},
 			"advanced" : {},
 			"expert" : {}
