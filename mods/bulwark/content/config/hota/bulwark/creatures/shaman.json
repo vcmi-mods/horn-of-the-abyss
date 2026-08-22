@@ -34,7 +34,7 @@
 			},
 			"castsAirShield" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.airShield",
+				"subtype" : "airShield",
 				"val" : 2,
 				"icon" : "hota/bulwark/bonuses/castsAirshield"
 			},

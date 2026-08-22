@@ -1,12 +1,10 @@
 {
 	"name" : "Factory",
 	"description" : "Town Factory with steampunk theme",
-
 	"author" : "HotA Crew, transplanted by Ben",
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "1.1.6",
 	"modType" : "Town",
-
 	"depends" : [
 		"hota.wastelandTerrain",
 		"hota.cove"
@@ -15,100 +13,93 @@
 		"hota.newgraphics"
 	],
 
-	"chinese" : {
-		"name" : "工厂种族",
-		"description" : "由HotA团队制作的新种族，由刚出圣龙移植。"
-	},
-	"czech" : {
-		"name" : "Továrna",
-		"description" : "Nové město Továrna se steampunkovou tématikou"
-	},
+	"artifacts" : [
+		"config/hota/factory/artifacts/factoryPendantOfNegativity.json",
+		"config/hota/factory/artifacts/factoryRingOfOblivion.json"
+	],
+	"bonuses" : [
+		"config/hota/factory/spells/abilityBonusTypes.json"
+	],
+	"creatures" : [
+		"config/hota/factory/creatures/armadillo.json",
+		"config/hota/factory/creatures/automaton.json",
+		"config/hota/factory/creatures/bellwetherArmadillo.json",
+		"config/hota/factory/creatures/bountyHunter.json",
+		"config/hota/factory/creatures/crimsonCouatl.json",
+		"config/hota/factory/creatures/gunslinger.json",
+		"config/hota/factory/creatures/halfling.json",
+		"config/hota/factory/creatures/halflingGrenadier.json",
+		"config/hota/factory/creatures/hotaCouatl.json",
+		"config/hota/factory/creatures/hotaDreadnought.json",
+		"config/hota/factory/creatures/hotaEngineer.json",
+		"config/hota/factory/creatures/hotaJuggernaut.json",
+		"config/hota/factory/creatures/hotaMechanic.json",
+		"config/hota/factory/creatures/olgoiKhorkhoi.json",
+		"config/hota/factory/creatures/sandworm.json",
+		"config/hota/factory/creatures/sandwormLarva.json",
+		"config/hota/factory/creatures/sentinelAutomaton.json",
 
+		"config/hota/factory/commander/cowboy.json",
+		"config/hota/factory/creatures/stackExperience.json",
+
+		"config/hota/factory/creatures/ballistaPatch.json"
+	],
 	"factions" : [
 		"config/hota/factory/town/town.json",
 		"config/hota/factory/town/puzzleMap.json"
 	],
-	"creatures" : [
-		"config/hota/factory/creatures/halfling.json",
-		"config/hota/factory/creatures/halflingGrenadier.json",
-		"config/hota/factory/creatures/hotaMechanic.json",
-		"config/hota/factory/creatures/hotaEngineer.json",
-		"config/hota/factory/creatures/armadillo.json",
-		"config/hota/factory/creatures/bellwetherArmadillo.json",
-		"config/hota/factory/creatures/automaton.json",
-		"config/hota/factory/creatures/sentinelAutomaton.json",
-		"config/hota/factory/creatures/sandworm.json",
-		"config/hota/factory/creatures/sandwormLarva.json",
-		"config/hota/factory/creatures/olgoiKhorkhoi.json",
-		"config/hota/factory/creatures/gunslinger.json",
-		"config/hota/factory/creatures/bountyHunter.json",
-		"config/hota/factory/creatures/hotaDreadnought.json",
-		"config/hota/factory/creatures/hotaJuggernaut.json",
-		"config/hota/factory/creatures/hotaCouatl.json",
-		"config/hota/factory/creatures/crimsonCouatl.json",
-		"config/hota/factory/creatures/stackExperience",
-		"config/hota/factory/creatures/ballistaPatch.json",
-		"config/hota/factory/commander/cowboy.json"
-	],
-
 	"heroClasses" : [
 		"config/hota/factory/heroClasses/mercenary.json",
 		"config/hota/factory/heroClasses/artificer.json"
 	],
-
 	"heroes" : [
-		"config/hota/factory/heroes/henrietta.json",
-		"config/hota/factory/heroes/sam.json",
-		"config/hota/factory/heroes/tancred.json",
-		"config/hota/factory/heroes/melchior.json",
-		"config/hota/factory/heroes/floribert.json",
-		"config/hota/factory/heroes/wynona.json",
-		"config/hota/factory/heroes/dury.json",
-		"config/hota/factory/heroes/morton.json",
-		"config/hota/factory/heroes/tavin.json",
-		"config/hota/factory/heroes/murdoch.json",
-		"config/hota/factory/heroes/celestine.json",
-		"config/hota/factory/heroes/todd.json",
 		"config/hota/factory/heroes/agar.json",
 		"config/hota/factory/heroes/bertram.json",
-		"config/hota/factory/heroes/wrathmont.json",
-		"config/hota/factory/heroes/ziph.json",
-		"config/hota/factory/heroes/victoria.json",
+		"config/hota/factory/heroes/celestine.json",
+		"config/hota/factory/heroes/dury.json",
 		"config/hota/factory/heroes/eanswythe.json",
-		"config/hota/factory/heroes/frederick.json",
-		"config/hota/factory/heroes/jangaard.json",
-		"config/hota/factory/heroes/stina.json",
-		"config/hota/factory/heroes/valquest.json",
-		"config/hota/factory/heroes/winzells.json",
 		"config/hota/factory/heroes/elderian.json",
-		"config/hota/factory/heroes/umender.json"
+		"config/hota/factory/heroes/floribert.json",
+		"config/hota/factory/heroes/frederick.json",
+		"config/hota/factory/heroes/henrietta.json",
+		"config/hota/factory/heroes/jangaard.json",
+		"config/hota/factory/heroes/melchior.json",
+		"config/hota/factory/heroes/morton.json",
+		"config/hota/factory/heroes/murdoch.json",
+		"config/hota/factory/heroes/sam.json",
+		"config/hota/factory/heroes/stina.json",
+		"config/hota/factory/heroes/tancred.json",
+		"config/hota/factory/heroes/tavin.json",
+		"config/hota/factory/heroes/todd.json",
+		"config/hota/factory/heroes/umender.json",
+		"config/hota/factory/heroes/valquest.json",
+		"config/hota/factory/heroes/victoria.json",
+		"config/hota/factory/heroes/winzells.json",
+		"config/hota/factory/heroes/wrathmont.json",
+		"config/hota/factory/heroes/wynona.json",
+		"config/hota/factory/heroes/ziph.json"
+	],
+	"objects" : [
+		"config/hota/factory/dwellings.json"
 	],
 	"scripts" : [
 		"config/hota/factory/spells/abilityScriptBindings.json"
 	],
 	"spells" : [
-		"config/hota/factory/spells/teslaLightning.json",
-		"config/hota/factory/spells/hotaRepair.json",
-		"config/hota/factory/spells/hotaGrenade.json",
-		"config/hota/factory/spells/summonLarva.json",
-		"config/hota/factory/spells/sandViguor.json",
-		"config/hota/factory/spells/ephemeralAbility.json",
 		"config/hota/factory/spells/abilityDetonation.json",
+		"config/hota/factory/spells/ephemeralAbility.json",
+		"config/hota/factory/spells/hotaGrenade.json",
+		"config/hota/factory/spells/heatStrokeJuggernaut.json",
+		"config/hota/factory/spells/heatStrokeDreadnought.json",
+		"config/hota/factory/spells/hotaRepair.json",
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json",
-		"config/hota/factory/spells/heatStroke/heatStrokeJuggernaut.json",
-		"config/hota/factory/spells/heatStroke/heatStrokeDreadnought.json"
+		"config/hota/factory/spells/moat.json",
+		"config/hota/factory/spells/sandViguor.json",
+		"config/hota/factory/spells/summonLarva.json",
+		"config/hota/factory/spells/teslaLightning.json"
 	],
-	"bonuses" : [
-		"config/hota/factory/spells/abilityBonusTypes.json"
-	],
-	"objects" : [
-		"config/hota/factory/dwellings.json"
-	],
-	"artifacts" : [
-		"config/hota/factory/artifacts/factoryRingOfOblivion.json",
-		"config/hota/factory/artifacts/factoryPendantOfNegativity.json"
-	],
+
 	"changelog" : {
 		"1.0.0" : [
 			"Initial release"
@@ -135,13 +126,24 @@
 			"New cowboy graphics by Kurek"
 		]
 	},
-
+	"chinese" : {
+		"name" : "工厂种族",
+		"description" : "由HotA团队制作的新种族，由刚出圣龙移植。"
+	},
+	"czech" : {
+		"name" : "Továrna",
+		"description" : "Nové město Továrna se steampunkovou tématikou"
+	},
 	"french" : {
 		"name" : "Usine",
 		"description" : "La ville Usine sur le thème steampunk",
 		"translations" : [
 			"translation/french.json"
 		]
+	},
+	"german" : {
+		"name" : "Fabrik",
+		"description" : "Fügt die Stadt 'Fabrik' aus HotA zum Spiel hinzu. Die Stadt hat die Thematik des Wilden Westens, und erkundet die Region Terra Nova mit den neuen Heldenklassen der Söldner und Kunsthandwerker."
 	},
 	"latvian" : {
 		"name" : "Rūpnīca",
@@ -157,9 +159,5 @@
 	"portuguese" : {
 		"name" : "Fábrica",
 		"description" : "Nova cidade Fábrica com tema steampunk"
-	},
-	"german" : {
-		"name" : "Fabrik",
-		"description" : "Fügt die Stadt 'Fabrik' aus HotA zum Spiel hinzu. Die Stadt hat die Thematik des Wilden Westens, und erkundet die Region Terra Nova mit den neuen Heldenklassen der Söldner und Kunsthandwerker."
 	}
 }

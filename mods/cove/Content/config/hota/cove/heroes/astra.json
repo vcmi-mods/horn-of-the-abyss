@@ -39,7 +39,7 @@
 			"bonuses" : {
 				"frostRing" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.cure",
+					"subtype" : "cure",
 					"val" : 3,
 					"updater" : "TIMES_HERO_LEVEL"
 				}

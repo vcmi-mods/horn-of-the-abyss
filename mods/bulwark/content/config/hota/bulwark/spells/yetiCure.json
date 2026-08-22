@@ -10,14 +10,14 @@
 		"levels" : {
 			"base" : {
 				"cost" : 0,
-				"description" : "not shown",
+				"description" : "",
 				"battleEffects" : {
 					"cure" : {
 						"dispelNegative" : true,
 						"dispelNeutral" : false,
 						"dispelPositive" : false,
 						"optional" : true,
-						"type" : "core:dispel"
+						"type" : "dispel"
 					}
 				},
 				"power" : 0,

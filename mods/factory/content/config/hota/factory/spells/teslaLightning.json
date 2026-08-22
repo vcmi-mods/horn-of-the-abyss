@@ -39,42 +39,22 @@
 		"levels" : {
 			"base" : {
 				"range" : "X",
+				"cost" : 0,
 				"power" : 100,
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage"
-						//						"val" : 0,
-						//						"valueType" : "INDEPENDENT_MIN"
+						"type" : "damage"
 					}
 				},
 				"targetModifier" : {
 					"smart" : true
-				}
+				},
+				"description" : ""
 			},
-			"none" : {
-				"description" : "Warning! Lightning Storm created!",
-
-				"cost" : 0,
-				"power" : 100
-			},
-			"basic" : {
-				"description" : "Warning! Lightning Storm created!",
-
-				"cost" : 0,
-				"power" : 100
-			},
-			"advanced" : {
-				"description" : "Warning! Lightning Storm created!",
-
-				"cost" : 0,
-				"power" : 100
-			},
-			"expert" : {
-				"description" : "Warning! Lightning Storm created!",
-
-				"cost" : 0,
-				"power" : 100
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

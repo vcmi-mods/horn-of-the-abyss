@@ -1,15 +1,84 @@
 {
 	"name" : "Cove",
 	"description" : "Town Cove with pirate theme",
-
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",
 	"version" : "1.3.62",
 	"modType" : "Town",
-
 	"depends" : [
 		"hota.cannon"
 	],
+
+	"bonuses" : [
+		"config/hota/cove/heroes/specialties/specialtyCloneTrait.json"
+	],
+	"creatures" : [
+		"config/hota/cove/creatures/ayssid.json",
+		"config/hota/cove/creatures/corsair.json",
+		"config/hota/cove/creatures/crewmate.json",
+		"config/hota/cove/creatures/haspid.json",
+		"config/hota/cove/creatures/nix.json",
+		"config/hota/cove/creatures/nixWarrior.json",
+		"config/hota/cove/creatures/nymph.json",
+		"config/hota/cove/creatures/oceanid.json",
+		"config/hota/cove/creatures/pirate.json",
+		"config/hota/cove/creatures/seadog.json",
+		"config/hota/cove/creatures/seaman.json",
+		"config/hota/cove/creatures/seaserpent.json",
+		"config/hota/cove/creatures/seaWitch.json",
+		"config/hota/cove/creatures/sorceress.json",
+		"config/hota/cove/creatures/stormbird.json",
+
+		"config/hota/cove/commander/blackbeard.json",
+		"config/hota/cove/creatures/stackExperience.json",
+		"config/hota/cove/creatures/wiki.json"
+	],
+	"factions" : [
+		"config/hota/cove/faction.json",
+		"config/hota/cove/puzzleMap.json",
+		"config/hota/cove/town/buildings.json",
+		"config/hota/cove/town/siege.json",
+		"config/hota/cove/town/structures.json",
+		"config/hota/cove/town/town.json"
+	],
+	"heroClasses" : [
+		"config/hota/cove/heroClasses/captain.json",
+		"config/hota/cove/heroClasses/navigator.json"
+	],
+	"heroes" : [
+		"config/hota/cove/heroes/anabel.json",
+		"config/hota/cove/heroes/andal.json",
+		"config/hota/cove/heroes/astra.json",
+		"config/hota/cove/heroes/balfour.json",
+		"config/hota/cove/heroes/bidley.json",
+		"config/hota/cove/heroes/casmetra.json",
+		"config/hota/cove/heroes/cassiopeia.json",
+		"config/hota/cove/heroes/corkes.json",
+		"config/hota/cove/heroes/dargem.json",
+		"config/hota/cove/heroes/derek.json",
+		"config/hota/cove/heroes/elmore.json",
+		"config/hota/cove/heroes/eovacius.json",
+		"config/hota/cove/heroes/illor.json",
+		"config/hota/cove/heroes/jeremy.json",
+		"config/hota/cove/heroes/leena.json",
+		"config/hota/cove/heroes/manfred.json",
+		"config/hota/cove/heroes/miriam.json",
+		"config/hota/cove/heroes/spint.json",
+		"config/hota/cove/heroes/tark.json",
+		"config/hota/cove/heroes/zilare.json"
+	],
+	"objects" : [
+		"config/hota/cove/boats.json",
+		"config/hota/cove/dwellings.json"
+	],
+	"spells" : [
+		"config/hota/cove/spells/accurateShot.json",
+		"config/hota/cove/spells/moat.json"
+	],
+	"scripts" : [
+		"config/hota/cove/heroes/specialties/specialtyClone.json"
+	],
+
 
 	"chinese" : {
 		"name" : "港口种族",
@@ -19,82 +88,16 @@
 		"name" : "Zátoka",
 		"description" : "Nové město Zátoka s pirátskou tématikou"
 	},
-
-	"factions" : [
-		"config/hota/cove/faction",
-		"config/hota/cove/town/town",
-		"config/hota/cove/town/buildings",
-		"config/hota/cove/town/structures",
-		"config/hota/cove/town/siege",
-		"config/hota/cove/puzzleMap"
-	],
-	"creatures" : [
-		"config/hota/cove/creatures/ayssid",
-		"config/hota/cove/creatures/corsair",
-		"config/hota/cove/creatures/crewmate",
-		"config/hota/cove/creatures/haspid",
-		"config/hota/cove/creatures/nix",
-		"config/hota/cove/creatures/nixWarrior",
-		"config/hota/cove/creatures/nymph",
-		"config/hota/cove/creatures/oceanid",
-		"config/hota/cove/creatures/pirate",
-		"config/hota/cove/creatures/seaWitch",
-		"config/hota/cove/creatures/seadog",
-		"config/hota/cove/creatures/seaman",
-		"config/hota/cove/creatures/seaserpent",
-		"config/hota/cove/creatures/sorceress",
-		"config/hota/cove/creatures/stormbird",
-		"config/hota/cove/creatures/stackExperience",
-		"config/hota/cove/commander/blackbeard",
-		"config/hota/cove/creatures/wiki"
-	],
-	"heroClasses" : [
-		"config/hota/cove/heroClasses/captain",
-		"config/hota/cove/heroClasses/navigator"
-	],
-	"heroes" : [
-		"config/hota/cove/heroes/anabel",
-		"config/hota/cove/heroes/andal",
-		"config/hota/cove/heroes/astra",
-		"config/hota/cove/heroes/bidley",
-		"config/hota/cove/heroes/casmetra",
-		"config/hota/cove/heroes/cassiopeia",
-		"config/hota/cove/heroes/corkes",
-		"config/hota/cove/heroes/dargem",
-		"config/hota/cove/heroes/derek",
-		"config/hota/cove/heroes/elmore",
-		"config/hota/cove/heroes/eovacius",
-		"config/hota/cove/heroes/illor",
-		"config/hota/cove/heroes/jeremy",
-		"config/hota/cove/heroes/leena",
-		"config/hota/cove/heroes/manfred",
-		"config/hota/cove/heroes/miriam",
-		"config/hota/cove/heroes/spint",
-		"config/hota/cove/heroes/tark",
-		"config/hota/cove/heroes/zilare",
-		"config/hota/cove/heroes/balfour"
-	],
-	"bonuses" : [
-		"config/hota/cove/heroes/specialties/specialtyCloneTrait"
-	],
-	"spells" : [
-		"config/hota/cove/spells/accurateShot",
-		"config/hota/cove/spells/moat"
-	],
-	"scripts" : [
-		"config/hota/cove/heroes/specialties/specialtyClone"
-	],
-	"objects" : [
-		"config/hota/cove/dwellings",
-		"config/hota/cove/boats"
-	],
-
 	"french" : {
 		"name" : "Crique",
 		"description" : "Ville Crique sur le thème des pirates",
 		"translations" : [
 			"translation/french.json"
 		]
+	},
+	"german" : {
+		"name" : "Bucht",
+		"description" : "Fügt die Stadt 'Bucht' aus HotA zum Spiel hinzu. Die Stadt hat eine Piratenthematik und handelt von den Kapitänen und Navigatoren von Regna."
 	},
 	"latvian" : {
 		"name" : "Līcis",
@@ -110,9 +113,5 @@
 	"portuguese" : {
 		"name" : "Enseada",
 		"description" : "Nova cidade Enseada com tema de piratas"
-	},
-	"german" : {
-		"name" : "Bucht",
-		"description" : "Fügt die Stadt 'Bucht' aus HotA zum Spiel hinzu. Die Stadt hat eine Piratenthematik und handelt von den Kapitänen und Navigatoren von Regna."
 	}
 }

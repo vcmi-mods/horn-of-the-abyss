@@ -1,7 +1,7 @@
 {
 	"hotaRay" : {
 		"type" : "ability",
-		"name" : "Beholder Visuals",
+		"name" : "",
 		"school" : {},
 		"targetType" : "CREATURE",
 		"flags" : {
@@ -21,17 +21,21 @@
 		"targetCondition" : {},
 		"graphics" : {},
 		"levels" : {
-			"none" : {
+			"base" : {
 				"range" : "0",
 				"power" : 0,
 				"cost" : 0,
 				"battleEffects" : {
 					"damage" : {
-						"type" : "core:damage"
+						"type" : "damage"
 					}
 				},
-				"description" : "not shown"
-			}
+				"description" : ""
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

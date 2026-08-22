@@ -1106,7 +1106,7 @@
 			},
 			"tavernVideo" : "TAVERN.BIK",
 			"townBackground" : "hota/factory/town-screen/TBFaBack.png",
-			"moatAbility" : "castleMoat",
+			"moatAbility" : "factoryMoat",
 			"hallSlots" : [
 				[
 					[

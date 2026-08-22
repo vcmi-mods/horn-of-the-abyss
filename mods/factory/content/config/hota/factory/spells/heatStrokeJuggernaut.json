@@ -31,14 +31,14 @@
 			"iconScenarioBonus" : "hota/factory/spells/heatstrokeJuggernaut.png"
 		},
 		"levels" : {
-			"none" : {
-				"description" : "{Heat Stroke}\nCan deal damage to all units within a semi-circular area.\n",
+			"base" : {
+				"description" : "",
 				"cost" : 0,
 				"power" : 0,
 				"range" : "0",
 				"battleEffects" : {
 					"heatStroke" : {
-						"type" : "core:timed",
+						"type" : "timed",
 						"bonus" : {
 							"noRetaliation" : {
 								"type" : "BLOCKS_RETALIATION",
@@ -71,7 +71,14 @@
 				"targetModifier" : {
 					"smart" : false
 				}
-			}
+			},
+			"none" : {
+				"description" : "{Heat Stroke}\nCan deal damage to all units within a semi-circular area.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+
 		}
 	}
 }

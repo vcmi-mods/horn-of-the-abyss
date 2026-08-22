@@ -68,9 +68,11 @@
 						}
 					}
 				},
+				"description" : ""
+			},
+			"none" : {
 				"description" : "Revenge effects."
 			},
-			"none" : {},
 			"basic" : {},
 			"advanced" : {},
 			"expert" : {}

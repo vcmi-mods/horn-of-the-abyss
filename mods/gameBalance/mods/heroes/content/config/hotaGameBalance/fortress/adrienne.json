@@ -4,7 +4,7 @@
 			"bonuses" : {
 				"fireMagic" : {
 					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 50,
 					"valueType" : "BASE_NUMBER"
 				}

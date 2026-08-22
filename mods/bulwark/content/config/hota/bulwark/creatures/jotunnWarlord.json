@@ -29,7 +29,7 @@
 		"abilities" : {
 			"castsTeleport" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.teleport",
+				"subtype" : "teleport",
 				"val" : 3,
 				"icon" : "hota/bulwark/bonuses/castsTeleport",
 				"description" : "{Spellcaster}\nCan cast Expert Teleport (unlimited)."

@@ -34,14 +34,14 @@
 		"specialty" : {
 			"base" : {
 				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "creature.seadog"
+				"addInfo" : "seadog"
 			},
 			"bonuses" : {
 				"pirate2seadog" : {
-					"subtype" : "creature.pirate"
+					"subtype" : "pirate"
 				},
 				"corsair2seadog" : {
-					"subtype" : "creature.corsair"
+					"subtype" : "corsair"
 				}
 			}
 		},

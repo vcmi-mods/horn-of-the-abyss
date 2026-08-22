@@ -36,19 +36,19 @@
 			"cast" : "hota/spells/Repair.wav"
 		},
 		"levels" : {
-			"none" : {
-				"description" : "not shown",
+			"base" : {
+				"description" : "",
 				"cost" : 0,
 				"range" : "0",
 				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
-						"type" : "core:heal",
+						"type" : "heal",
 						"healLevel" : "resurrect",
 						"healPower" : "permanent"
 					},
 					"cure" : {
-						"type" : "core:dispel",
+						"type" : "dispel",
 						"indirect" : true,
 						"optional" : true,
 						"dispelNegative" : true,
@@ -59,7 +59,13 @@
 				"targetModifier" : {
 					"smart" : true
 				}
-			}
+			},
+			"none" : {
+				"description" : "{Repair mechanical creatures}\n\nForce unit to repair mechanical creatures in the target hex instead of moving there.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

@@ -28,6 +28,7 @@
 		},
 		"levels" : {
 			"base" : {
+				"description" : "",
 				"range" : "0",
 				"cost" : 0,
 				"power" : 0,
@@ -36,14 +37,14 @@
 				},
 				"battleEffects" : {
 					"frozen" : {
-						"type" : "core:timed",
+						"type" : "timed",
 						"battleLogSingular" : "The Great Shamans cast Freezing on the %s.", // plural is determined from the target stack
 						"battleLogPlural" : "The Great Shamans cast Freezing on the %s.",
 						"bonus" : {
 							"notActive" : {
 								"val" : 0,
 								"type" : "NOT_ACTIVE",
-								"subtype" : "spell.freezingShot",
+								"subtype" : "freezingShot",
 								"duration" : [
 									"UNTIL_BEING_ATTACKED",
 									"N_TURNS"
@@ -66,15 +67,9 @@
 			"none" : {
 				"description" : "{Frozen}\n\nIncapacitates the enemy for 3 turns. During the frozen period, the enemy receives 25% increased damage from attacks.\n"
 			},
-			"basic" : {
-				"description" : "not shown"
-			},
-			"advanced" : {
-				"description" : "not shown"
-			},
-			"expert" : {
-				"description" : "not shown"
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		},
 		"targetCondition" : {
 			"noneOf" : {

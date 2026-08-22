@@ -28,7 +28,7 @@
 		"targetType" : "CREATURE",
 		"levels" : {
 			"base" : {
-				"description" : "not shown",
+				"description" : "",
 				"cost" : 0,
 				"power" : 0,
 				"range" : "0",

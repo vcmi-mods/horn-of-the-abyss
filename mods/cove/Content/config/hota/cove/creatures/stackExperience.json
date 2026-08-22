@@ -1239,7 +1239,7 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.weakness",
+					"subtype" : "weakness",
 					"addInfo" : 1000
 				},
 				"values" : [
@@ -1258,7 +1258,7 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disruptingRay",
+					"subtype" : "disruptingRay",
 					"addInfo" : 1000
 				},
 				"values" : [
@@ -1389,7 +1389,7 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.weakness",
+					"subtype" : "weakness",
 					"addInfo" : 1001
 				},
 				"values" : [
@@ -1408,7 +1408,7 @@
 			{
 				"bonus" : {
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disruptingRay",
+					"subtype" : "disruptingRay",
 					"addInfo" : 1001
 				},
 				"values" : [

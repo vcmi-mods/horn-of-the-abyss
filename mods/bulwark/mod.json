@@ -13,13 +13,12 @@
 		"hota.highlandsterrain",
 		"hota.mapobjects"
 	],
-	"factions" : [
-		"config/hota/bulwark/faction.json",
-		"config/hota/bulwark/town/town.json",
-		"config/hota/bulwark/town/buildings.json",
-		"config/hota/bulwark/town/structures.json",
-		"config/hota/bulwark/town/siege.json",
-		"config/hota/bulwark/puzzleMap.json"
+
+	"biomes" : [
+		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
+	],
+	"bonuses" : [
+		"config/hota/bulwark/runes/runeLevelCounter.json"
 	],
 	"creatures" : [
 		"config/hota/bulwark/creatures/argali.json",
@@ -36,27 +35,23 @@
 		"config/hota/bulwark/creatures/warMammoth.json",
 		"config/hota/bulwark/creatures/yeti.json",
 		"config/hota/bulwark/creatures/yetiRunemaster.json",
-		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json",
+
 		"config/hota/bulwark/creatures/bulwarkcommander.json",
-		"config/hota/bulwark/creatures/stackexp.json"
+		"config/hota/bulwark/creatures/stackexp.json",
+
+		"config/hota/bulwark/spells/freezingShotImmunities/freezingShotImmunities.json"
 	],
-	"scripts" : [
-		"config/hota/bulwark/runes/runesScriptBinding.json"
+	"factions" : [
+		"config/hota/bulwark/faction.json",
+		"config/hota/bulwark/puzzleMap.json",
+		"config/hota/bulwark/town/buildings.json",
+		"config/hota/bulwark/town/siege.json",
+		"config/hota/bulwark/town/structures.json",
+		"config/hota/bulwark/town/town.json"
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
 		"config/hota/bulwark/heroClasses/elder.json"
-	],
-	"skills" : [
-		"config/hota/bulwark/runes/runesSkill.json"
-	],
-	"bonuses" : [
-		"config/hota/bulwark/runes/runeLevelCounter.json"
-	],
-	"spells" : [
-		"config/hota/bulwark/spells/yetiCure.json",
-		"config/hota/bulwark/spells/moat.json",
-		"config/hota/bulwark/spells/freezingShot.json"
 	],
 	"heroes" : [
 		"config/hota/bulwark/heroes/akka.json",
@@ -80,17 +75,26 @@
 	"objects" : [
 		"config/hota/bulwark/boats.json",
 		"config/hota/bulwark/dwellings.json",
-		"config/hota/bulwark/mapObjects/static/glaciers.json",
+		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json",
+		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
 		"config/hota/bulwark/mapObjects/mine/mines.json",
 		"config/hota/bulwark/mapObjects/interactive/seersHut.json",
 		"config/hota/bulwark/mapObjects/interactive/trapperLodge.json",
-		"config/hota/bulwark/mapObjects/garrisons/garrisonsVertical.json",
-		"config/hota/bulwark/mapObjects/garrisons/garrisonsHorizontal.json",
+		"config/hota/bulwark/mapObjects/static/glaciers.json",
 		"config/hota/bulwark/runes/hermitsShackReward.json"
 	],
-	"biomes" : [
-		"config/hota/bulwark/mapObjects/static/staticBiomes.json"
+	"scripts" : [
+		"config/hota/bulwark/runes/runesScriptBinding.json"
 	],
+	"skills" : [
+		"config/hota/bulwark/runes/runesSkill.json"
+	],
+	"spells" : [
+		"config/hota/bulwark/spells/freezingShot.json",
+		"config/hota/bulwark/spells/moat.json",
+		"config/hota/bulwark/spells/yetiCure.json"
+	],
+
 	"chinese" : {
 		"name" : "坚垒",
 		"description" : "深渊号角1.8.0的新城镇坚垒",

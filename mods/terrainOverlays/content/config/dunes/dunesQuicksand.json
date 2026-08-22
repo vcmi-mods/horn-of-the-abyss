@@ -1,7 +1,7 @@
 {
 	"dunesQuicksand" : {
 		"type" : "combat",
-		"name" : "Dunes Quicksand",
+		"name" : "",
 		"school" : {},
 		"level" : 2,
 		"power" : 0,
@@ -16,7 +16,7 @@
 		"graphics" : {},
 		"levels" : {
 			"base" : {
-				"description" : "not shown",
+				"description" : "",
 				"power" : 0,
 				"cost" : 0,
 				"range" : "x",
