@@ -43,7 +43,6 @@
 		"config/hota/factory/creatures/stackExperience.json",
 
 		"config/hota/factory/creatures/ballistaPatch.json"
-
 	],
 	"factions" : [
 		"config/hota/factory/town/town.json",

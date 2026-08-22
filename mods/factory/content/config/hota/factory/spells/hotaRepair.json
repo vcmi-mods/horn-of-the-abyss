@@ -60,7 +60,9 @@
 					"smart" : true
 				}
 			},
-			"none" : {},
+			"none" : {
+				"description" : "{Repair mechanical creatures}\n\nForce unit to repair mechanical creatures in the target hex instead of moving there.\n"
+			},
 			"basic" : {},
 			"advanced" : {},
 			"expert" : {}
