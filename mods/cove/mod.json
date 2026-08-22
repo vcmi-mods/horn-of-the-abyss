@@ -35,11 +35,11 @@
 	],
 	"factions" : [
 		"config/hota/cove/faction.json",
-		"config/hota/cove/puzzleMap.json"
+		"config/hota/cove/puzzleMap.json",
 		"config/hota/cove/town/buildings.json",
 		"config/hota/cove/town/siege.json",
 		"config/hota/cove/town/structures.json",
-		"config/hota/cove/town/town.json",
+		"config/hota/cove/town/town.json"
 	],
 	"heroClasses" : [
 		"config/hota/cove/heroClasses/captain.json",
@@ -68,8 +68,8 @@
 		"config/hota/cove/heroes/zilare.json"
 	],
 	"objects" : [
-		"config/hota/cove/boats.json"
-		"config/hota/cove/dwellings.json",
+		"config/hota/cove/boats.json",
+		"config/hota/cove/dwellings.json"
 	],
 	"spells" : [
 		"config/hota/cove/spells/accurateShot.json",
