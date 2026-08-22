@@ -30,10 +30,10 @@
 				"cost" : 0,
 				"battleEffects" : {
 					"damage" : {
-						"type" : "core:damage"
+						"type" : "damage"
 					}
 				},
-				"description" : "not shown"
+				"description" : ""
 			}
 		}
 	}

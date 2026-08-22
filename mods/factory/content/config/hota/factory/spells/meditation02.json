@@ -38,7 +38,7 @@
 				},
 				"battleEffects" : {
 					"crimsonMeditation" : {
-						"type" : "core:timed",
+						"type" : "timed",
 						"battleLogSingular" : "%s becomes invulnerable!",
 						"battleLogPlural" : "%s become invulnerable!",
 						"bonus" : {
@@ -50,7 +50,7 @@
 							},
 							"immunityToHarmfulEffects" : {
 								"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-								"subtype" : "spellSchool.any",
+								"subtype" : "any",
 								"duration" : [
 									"STACK_GETS_TURN"
 								]

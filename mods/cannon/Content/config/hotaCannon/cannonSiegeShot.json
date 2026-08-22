@@ -23,7 +23,7 @@
 				"battleEffects" : {
 					"catapult" : {
 						"targetsToAttack" : 1,
-						"type" : "core:catapult"
+						"type" : "catapult"
 					}
 				},
 				"range" : "0"

@@ -27,7 +27,7 @@
 				"range" : "0",
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage"
+						"type" : "damage"
 					}
 				},
 				"cost" : 0,

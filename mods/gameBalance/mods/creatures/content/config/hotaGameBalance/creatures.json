@@ -47,7 +47,7 @@
 		"abilities" : {
 			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.fire",
+				"subtype" : "fire",
 				"val" : 50
 			},
 			"immuneToFire" : null
@@ -142,7 +142,7 @@
 		"abilities" : {
 			"boneDragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "creature.boneDragon"
+				"subtype" : "boneDragon"
 			}
 		}
 	},
@@ -152,7 +152,7 @@
 		"abilities" : {
 			"boneDragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
-				"subtype" : "creature.boneDragon"
+				"subtype" : "boneDragon"
 			}
 		}
 	},

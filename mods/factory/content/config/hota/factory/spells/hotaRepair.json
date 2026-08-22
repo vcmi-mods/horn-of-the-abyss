@@ -43,12 +43,12 @@
 				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
-						"type" : "core:heal",
+						"type" : "heal",
 						"healLevel" : "resurrect",
 						"healPower" : "permanent"
 					},
 					"cure" : {
-						"type" : "core:dispel",
+						"type" : "dispel",
 						"indirect" : true,
 						"optional" : true,
 						"dispelNegative" : true,

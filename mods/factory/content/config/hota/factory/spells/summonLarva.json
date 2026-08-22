@@ -32,7 +32,7 @@
 					"demonSummon" : {
 						"id" : "sandwormLarva",
 						"permanent" : false,
-						"type" : "core:demonSummon"
+						"type" : "demonSummon"
 					}
 				}
 			},

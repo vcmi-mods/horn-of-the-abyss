@@ -17,7 +17,7 @@
 						"dispelNeutral" : false,
 						"dispelPositive" : false,
 						"optional" : true,
-						"type" : "core:dispel"
+						"type" : "dispel"
 					}
 				},
 				"power" : 0,

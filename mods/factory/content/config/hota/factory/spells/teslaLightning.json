@@ -42,9 +42,7 @@
 				"power" : 100,
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage"
-						//						"val" : 0,
-						//						"valueType" : "INDEPENDENT_MIN"
+						"type" : "damage"
 					}
 				},
 				"targetModifier" : {

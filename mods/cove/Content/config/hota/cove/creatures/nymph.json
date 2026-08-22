@@ -34,11 +34,11 @@
 			},
 			"iceBoltImmunity" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.iceBolt"
+				"subtype" : "iceBolt"
 			},
 			"frostRingImmunity" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.frostRing"
+				"subtype" : "frostRing"
 			}
 		},
 		"graphics" : {

@@ -55,7 +55,7 @@
 					"demonSummon" : {
 						"id" : "hota.neutralcreatures:fangarm",
 						"permanent" : true,
-						"type" : "core:demonSummon"
+						"type" : "demonSummon"
 					}
 				}
 			},

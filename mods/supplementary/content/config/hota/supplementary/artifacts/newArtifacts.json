@@ -49,7 +49,7 @@
 						"bonusType" : "PERCENTAGE_DAMAGE_BOOST",
 						"bonusSubtype" : "damageTypeRanged",
 						"bonusSourceType" : "SECONDARY_SKILL",
-						"bonusSourceID" : "secondarySkill.archery"
+						"bonusSourceID" : "archery"
 					}
 				]
 			}
@@ -179,7 +179,7 @@
 		"bonuses" : {
 			"knowledge" : {
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.knowledge",
+				"subtype" : "knowledge",
 				"valueType" : "BASE_NUMBER",
 				"val" : 5
 			}
@@ -205,7 +205,7 @@
 		"bonuses" : {
 			"attack" : {
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			}
@@ -231,7 +231,7 @@
 		"bonuses" : {
 			"spellpower" : {
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.spellpower",
+				"subtype" : "spellpower",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			}
@@ -257,7 +257,7 @@
 		"bonuses" : {
 			"defence" : {
 				"type" : "PRIMARY_SKILL",
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			}
@@ -289,25 +289,25 @@
 		"value" : 15000,
 		"bonuses" : {
 			"attack" : {
-				"subtype" : "primarySkill.attack",
+				"subtype" : "attack",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
 			"defence" : {
-				"subtype" : "primarySkill.defence",
+				"subtype" : "defence",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
 			"spellpower" : {
-				"subtype" : "primarySkill.spellpower",
+				"subtype" : "spellpower",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
 			"knowledge" : {
-				"subtype" : "primarySkill.knowledge",
+				"subtype" : "knowledge",
 				"type" : "PRIMARY_SKILL",
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
@@ -323,7 +323,7 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			"townPortal" : {
-				"subtype" : "spell.townPortal",
+				"subtype" : "townPortal",
 				"type" : "SPELL",
 				"val" : 3,
 				"valueType" : "INDEPENDENT_MAX"
