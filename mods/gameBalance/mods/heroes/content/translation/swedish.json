@@ -4,8 +4,13 @@
 	"hero.core.adrienne.specialty.description": "Ökar skadan från Eld‑trollformler med 50%.",
 	"hero.core.aenain.specialty.description": "Kastar Störande Stråle med effekten ökad med 10.",
 	"hero.core.aeris.specialty.description": "Ökar kvickheten för alla Pegaser och Silverpegaser med 1 samt deras Attack- och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
-	"hero.core.aislinn.specialty.description": "Kastar Meteorregn med skada som ökar med 5% × (hjältenivå ÷ målnivå).",
+	"hero.core.aislinn.specialty.description": "Kastar Meteorskur med skada som ökar med 5% × (hjältenivå ÷ målnivå).",
 	"hero.core.ajit.specialty.description": "Ökar kvickheten för alla Ögonväktare och Onda Ögon med 1 samt deras Attack‑ och Försvarsvärden med 20% för var tredje nivå (avrundat uppåt).",
 	"hero.core.alagar.specialty.description": "Kastar Ispil med skada som ökar med 10% × (hjältenivå ÷ målnivå).",
-	"hero.core.alamar.specialty.description": "Kastar Återuppliva med effekt som ökar med 5% × (hjältenivå ÷ målnivå)."
+	"hero.core.alamar.specialty.description": "Kastar Återuppliva med effekt som ökar med 5% × (hjältenivå ÷ målnivå).",
+	"hero.core.alkin.specialty.description": "Ökar kvickheten för alla Gorgoner och Mäktiga Gorgoner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var femte nivå (avrundat uppåt).",
+	"hero.core.arlach.specialty.description": "Ökar Attack‑ och Försvarsvärdena för alla Ballister med 30% för var femte nivå (avrundat uppåt).",
+	"hero.core.ash.specialty.description": "Kastar Blodtörst med effekt som ökar med 10 för nivå 1–2‑varelser, med 8 för nivå 3–4‑varelser, med 6 för nivå 5–6‑varelser och med 4 för nivå 7‑varelser.",
+	"hero.core.astral.specialty.description": "Kastar Hypnotisera med maxhälsogräns som ökar med 10% × (hjältenivå ÷ målnivå).",
+	"hero.core.boragus.specialty.description": "Ökar kvickheten för alla Resar och Resemagiker med 1 samt deras Attack‑ och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt)."
 }
