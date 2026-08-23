@@ -184,6 +184,11 @@
 	"core:ballista" : {
 		"cost" : {
 			"gold" : 1500
+		},
+		"abilities" : {
+			"hotaDamageOverride" : {
+				"type" : "BALLISTA_DAMAGE_OVERRIDE"
+			}
 		}
 	},
 	"core:ammoCart" : {

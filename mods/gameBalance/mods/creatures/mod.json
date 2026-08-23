@@ -10,11 +10,23 @@
 		"hota.cannon",
 		"hota.factory"
 	],
+	"bonuses" : {
+		"BALLISTA_DAMAGE_OVERRIDE" : {
+			"hidden" : true
+		}
+	},
 	"creatures" : [
 		"config/hotaGameBalance/creatures.json",
 		"config/hotaGameBalance/creaturesCove.json",
 		"config/hotaGameBalance/creaturesFactory.json"
 	],
+	"scripts" : {
+		"core:damageCalculator" : {
+			"patches" : {
+				"append" : "damage/ballistaDamageOverride.lua"
+			}
+		}
+	},
 	"spells" : [
 		"config/hotaGameBalance/creatureAbilities.json"
 	],
