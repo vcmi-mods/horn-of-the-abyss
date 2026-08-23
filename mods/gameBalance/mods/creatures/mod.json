@@ -23,7 +23,7 @@
 	"scripts" : {
 		"core:damageCalculator" : {
 			"patches" : {
-				"append" : "damage/ballistaDamageOverride.lua"
+				"modify@1" : "damage/modifySiegeDamage.lua"
 			}
 		}
 	},
