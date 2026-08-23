@@ -52,8 +52,6 @@ function Script:calculate(battle, info)
 	return {
 		damage = { min = damageMin, max = damageMax },
 		kills = { min = killsMin, max = killsMax },
-		-- what the blow would have been worth had the target no defences at all, which is what an
-		-- ability reflecting a strike works from
 		damageBeforeDefense = { min = apply(baseMin, raising), max = apply(baseMax, raising) }
 	}
 end

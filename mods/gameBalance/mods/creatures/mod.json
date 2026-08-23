@@ -23,6 +23,7 @@
 	"scripts" : {
 		"core:damageCalculator" : {
 			"patches" : {
+				// we have to swap out core's siegeDamage patch because else baseDamage will increase twice
 				"modify@1" : "damage/modifySiegeDamage.lua"
 			}
 		}
