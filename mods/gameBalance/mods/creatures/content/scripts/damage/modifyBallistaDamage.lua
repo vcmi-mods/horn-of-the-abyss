@@ -1,12 +1,7 @@
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
-function Script:getBaseDamageSingle(info)
-	local minDamage, maxDamage = Base.getBaseDamageSingle(self, info)
-
-	if not self:hasBonusOfType(info.attackerBonuses, "SIEGE_WEAPON") then return minDamage, maxDamage end
-	if info.attacker:isTurret() then return minDamage, maxDamage end
-
+function Script:getBallistaDamageRange(info, minDamage, maxDamage)
 	local heroAttack = info.attacker:getBonusesValue({type = "PRIMARY_SKILL", subtype = "attack", sourceType = ENUM.BonusSource.artifact})
 		+ info.attacker:getBonusesValue({type = "PRIMARY_SKILL", subtype = "attack", sourceType = ENUM.BonusSource.heroBaseSkill})
 
@@ -17,7 +12,7 @@ function Script:getBaseDamageSingle(info)
 	end
 end
 
-Script:declareBonus("SIEGE_WEAPON")
+Script:declareBonus("PRIMARY_SKILL")
 Script:declareBonus("BALLISTA_DAMAGE_OVERRIDE")
 
 return Script
