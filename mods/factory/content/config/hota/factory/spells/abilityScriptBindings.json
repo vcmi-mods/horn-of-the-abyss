@@ -9,5 +9,16 @@
 		},
 		"priority" : 0,
 		"description" : ""
+	},
+	"heatStroke" : {
+		"implements" : "spellEffect",
+		"script" : "spells/heatstroke.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {}
+			},
+			"additionalProperties" : false
+		}
 	}
 }
