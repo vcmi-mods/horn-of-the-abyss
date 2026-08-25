@@ -2,19 +2,8 @@ local Base = require("spells/unitEffect")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
-local function getConeHexes(mechanics, sourceHex, centerTargetHex)
-    local affected = { centerTargetHex }
-
-    local leftHex = centerTargetHex:copyToWest()
-    local rightHex = centerTargetHex:copyToEast()
-
-    if leftHex then table.insert(affected, leftHex) end
-    if rightHex then table.insert(affected, rightHex) end
-
-    return affected
-end
-
-local function getAffectedHexes(casterPos, direction)
+--- Returns the pattern for the given direction. Can return invalid hexes, so needs to be checked later
+local function getPatternFromDirection(casterPos, direction)
 	local hexes = {}
 	if direction == 0 then
 		local first = casterPos:copyToEast()
@@ -123,6 +112,7 @@ local function getAffectedHexes(casterPos, direction)
 	return hexes
 end
 
+--- Thank you, ChatGPT
 local function getHexDirection(castX, castY, destX, destY)
     local dx = destX - castX
     local dy = destY - castY
@@ -145,25 +135,48 @@ local function getHexDirection(castX, castY, destX, destY)
     return math.floor((angle + 22.5) / 45) % 8
 end
 
+function Script:isEligible(mechanics, unit, target)
+	if unit:unitID() == target:unitID() or target:isInvincible() then
+		return false
+	end
+
+	return mechanics:isReceptive(target)
+end
+
+local function getAffectedHexes(mechanics, spellTarget)
+	if #spellTarget == 0 then return {} end
+	local hex = spellTarget[1].hex
+	local caster = mechanics:getUnitCaster():getPosition()
+	return getPatternFromDirection(caster, getHexDirection(caster:getX(), caster:getY(), hex:getX(), hex:getY()))
+end
+
 function Script:transformTarget(mechanics, aimPoint, spellTarget)
-	local ret = {}
 	local battle = mechanics:getBattle()
 	local casterUnit = mechanics:getUnitCaster()
-	local sourceHex = casterUnit:getPosition()
-	local leftHex = sourceHex:copyToWest()
-	local rightHex = sourceHex:copyToEast()
+	local pattern = getAffectedHexes(mechanics, spellTarget)
+	local targets = {}
+	local seenUnits = {}
+	table.insert(targets, { unit = nil, hex = spellTarget[1].hex })
+	for _, hex in ipairs(pattern) do
+		if hex:isValid() then
+			local target = battle:getUnitByPos(hex, true)
+			if not target or not target:isValidTarget(false) or not self:isEligible(mechanics, casterUnit, target) then
+				goto continue
+			end
+			local id = target:unitID()
+			if not seenUnits[id] then
+				seenUnits[id] = true
+				table.insert(targets, { unit = target, hex = hex })
+			end
+		end
+		::continue::
+	end
 
-	table.insert(ret, { hex = leftHex, unit = battle:getUnitByPos(leftHex, true) })
-	table.insert(ret, { hex = rightHex, unit = battle:getUnitByPos(rightHex, true) })
-
-    return ret
+    return targets
 end
 
 function Script:adjustAffectedHexes(mechanics, hexes, spellTarget)
-	if #spellTarget == 0 then return end
-	local hex = spellTarget[1].hex
-	local caster = mechanics:getUnitCaster():getPosition()
-	local pattern = getAffectedHexes(caster, getHexDirection(caster:getX(), caster:getY(), hex:getX(), hex:getY()))
+	local pattern = getAffectedHexes(mechanics, spellTarget)
 	for _, h in ipairs(pattern) do
 		if h:isValid() then
 			hexes:insert(h)
@@ -172,15 +185,39 @@ function Script:adjustAffectedHexes(mechanics, hexes, spellTarget)
 	return hexes
 end
 
+--- unit-only spell
 function Script:applicableGeneral(mechanics, problem)
+	local caster = mechanics:getUnitCaster()
+	if not caster then
+		problem:addGeneric(mechanics)
+		return false
+	end
 	return true
 end
 
 function Script:applicableTarget(mechanics, problem, target)
-	return true
+	local pattern = getAffectedHexes(mechanics, target)
+	local targetHex = target[1].hex
+	if not targetHex then
+		problem:addStandard(mechanics, ENUM.SpellCastProblem.wrongSpellTarget)
+		return false
+	end
+	for _, hex in ipairs(pattern) do
+		if targetHex == hex then
+			return true
+		end
+	end
+	problem:addStandard(mechanics, ENUM.SpellCastProblem.wrongSpellTarget)
+	return false
 end
 
 function Script:apply(mechanics, server, target)
+	for _, dest in ipairs(target) do
+		local unit = dest.unit
+		if unit then
+			print(unit:getCreature():getJsonKey())
+		end
+	end
     return
 end
 
