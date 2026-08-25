@@ -17,10 +17,7 @@ function Script:getAffectedUnits(battle, unit)
 
 			if id ~= unit:unitID() then
 				if not uniqueUnits[id] then
-					local bonuses = targetUnit:getBonuses(function(bonus)
-						return bonus:getType() == "INVINCIBLE"
-					end)
-					if bonuses:size() == 0 then
+					if not targetUnit:hasBonuses({ type = "INVINCIBLE" }) then
 						uniqueUnits[id] = true
 						table.insert(affectedUnits, targetUnit)
 					end
@@ -35,22 +32,10 @@ end
 --- Calculate the damage the explosion should do to each adjacent unit
 function Script:getExplosionDamage(unit, killed)
 	local baseDamage = 90 + 5 * killed
-	local unitBonuses = unit:getBonuses(function(bonus)
-		return bonus:getType() == "AUTOMATON_EXPLOSION_DAMAGE"
-	end)
+	local specialtyPercent = unit:getBonusesValue({ type = "AUTOMATON_EXPLOSION_DAMAGE" })
 
-	if unitBonuses:size() == 0 then
-		return baseDamage
-	end
-
-	local specialtyPercent = 100
-
-	for i = 1, unitBonuses:size() do
-		specialtyPercent = specialtyPercent + unitBonuses:getBonus(i):getVal()
-	end
-
-	baseDamage = math.ceil((baseDamage * specialtyPercent) / 100)
-	return baseDamage
+	baseDamage = math.ceil((baseDamage * (100 + specialtyPercent)) / 100)
+	return baseDamage > 0 and baseDamage or 1
 end
 
 --- The entry of the payload describing the hit this unit took.

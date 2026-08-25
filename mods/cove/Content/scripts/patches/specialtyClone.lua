@@ -1,26 +1,20 @@
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
-local function shouldCastSpecialtyClone(mechanics)
+local function shouldCastSpecialtyClone(mechanics, spellKey)
 	local caster = mechanics:getHeroCaster()
-	if not caster then
+	if not caster or spellKey ~= "core:clone" then
 		return false
 	end
 
-	local filteredHeroBonuses = caster:getBonuses(function(bonus)
-        return bonus:getType() == "SPECIALTY_CLONE"
-    end)
-
-	local specialtyCharges = 0
-    for i = 1, filteredHeroBonuses:size() do
-        specialtyCharges = specialtyCharges + filteredHeroBonuses:getBonus(i):getVal()
-    end
+	local specialtyCharges = caster:getBonusesValue({ type = "SPECIALTY_CLONE" })
 
 	return specialtyCharges > 0
 end
 
 function Script:apply(mechanics, server, target)
-	if not shouldCastSpecialtyClone(mechanics) then
+	local spellKey = mechanics:getSpell():getJsonKey()
+	if not shouldCastSpecialtyClone(mechanics, spellKey) then
 		Base.apply(self, mechanics, server, target)
 		return
 	end
@@ -31,10 +25,10 @@ function Script:apply(mechanics, server, target)
 
 	server:addBattleBonus(battle, {
 		type       = "SPECIALTY_CLONE",
-		sourceType = ENUM.BonusSource.other,
+		sourceType = "OTHER",
 		val        = -1,
-		valueType  = 0,
-		sourceID   = mechanics:getSpell():getJsonKey()
+		valueType  = "ADDITIVE_VALUE",
+		sourceID   = spellKey
 	})
 
 	for _, dest in ipairs(target) do
@@ -80,7 +74,7 @@ function Script:apply(mechanics, server, target)
 				type       = "NONE",
 				sourceType = ENUM.BonusSource.spellEffect,
 				val        = 0,
-				sourceID   = mechanics:getSpell():getJsonKey(),
+				sourceID   = spellKey,
 				turns      = mechanics:getEffectDuration()
 			}, true)
 		end

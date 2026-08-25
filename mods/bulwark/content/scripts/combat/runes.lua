@@ -63,46 +63,27 @@ local SPEED_BONUS = {
 }
 local SOUND = "hota/bulwark/spells/RUNE"
 
---- Returns the Rune Level Cap of the Runes secondary skill.
---- Yetis have to respect this as well, so they don't gain hero-granted rune levels beyond the cap
-function Script:getRuneLevelCap(battle, unit)
-	local cap = 0
-
-	local capList = unit:getBonuses(function(bonus)
-		return bonus:getType() == "RUNE_LEVEL_CAP"
-	end)
-	for i = 1, capList:size() do
-		cap = cap + capList:getBonus(i):getVal()
-	end
-	return cap
-end
-
 --- Returns both hero-granted and Yeti-ability granted current rune levels
 function Script:getCurrentRuneLevels(unit)
-	local heroRuneLevel = 0
-	local yetiRuneLevel = 0
-	local runeLevelBonuses = unit:getBonuses(function(bonus)
-		local btype = bonus:getType()
-		return btype == "RUNE_LEVEL_COUNTER" or btype == "YETI_RUNE_LEVEL_COUNTER"
+	local runeLevelBonuses = unit:getBonuses({}):filter(function(b)
+		local bType = b:getType()
+		return bType == "RUNE_LEVEL_COUNTER" or bType == "YETI_RUNE_LEVEL_COUNTER"
 	end)
-	for i = 1, runeLevelBonuses:size() do
-		local bonus = runeLevelBonuses:getBonus(i)
-		local btype = bonus:getType()
-		if btype == "YETI_RUNE_LEVEL_COUNTER" then
-			yetiRuneLevel = yetiRuneLevel + bonus:getVal()
-		else
-			heroRuneLevel = heroRuneLevel + bonus:getVal()
-		end
-	end
+
+	local heroRuneLevel = 	runeLevelBonuses:filter(function(b)
+								return b:getType() == "RUNE_LEVEL_COUNTER"
+							end):totalValue()
+	local yetiRuneLevel = 	runeLevelBonuses:filter(function(b)
+								return b:getType() == "YETI_RUNE_LEVEL_COUNTER"
+							end):totalValue()
+
 	return heroRuneLevel, yetiRuneLevel
 end
 
 --- Updates the current rune level bonuses from oldLevel to targetLevel
 function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, runeType)
 	--- remove and re-add the counter to keep the icon up-to-date
-	local runeLevelBonuses = unit:getBonuses(function(bonus)
-		return bonus:getType() == runeType.counterType
-	end)
+	local runeLevelBonuses = unit:getBonuses({ type = runeType.counterType })
 	server:removeUnitBonuses(battle, unit, runeLevelBonuses)
 	server:addUnitBonus(battle, unit, {
 			type       = runeType.counterType,
@@ -166,7 +147,7 @@ end
 
 --- Adds hero-granted rune levels
 function Script:addHeroRuneLevels(server, battle, unit, oldLevel, amount)
-	local cap = self:getRuneLevelCap(battle, unit)
+	local cap = unit:getBonusesValue({ type = "RUNE_LEVEL_CAP" })
 
 	return self:addRuneLevel(server, battle, unit, oldLevel, amount, RUNE_TYPES.hero, cap)
 end
@@ -263,25 +244,21 @@ end
 
 --- Called once for every unit present when the battle starts, after tactics are over.
 function Script:onBattleStart(server, battle, unit, other)
-	local cap = self.isYeti and 9 or self:getRuneLevelCap(battle, unit)
+	local cap = self.isYeti and 9 or unit:getBonusesValue({ type = "RUNE_LEVEL_CAP" })
 	if cap == 0 then return end
 
-	local startLevel, currentLevel = 0, 0
 	local targetCounterType = self.isYeti and "YETI_RUNE_LEVEL_COUNTER" or "RUNE_LEVEL_COUNTER"
-	local bonusList = unit:getBonuses(function(bonus)
-		local bType = bonus:getType()
+	local bonusList = unit:getBonuses({}):filter(function(b)
+		local bType = b:getType()
 		return bType == "STARTING_RUNE_LEVEL" or bType == targetCounterType
 	end)
 
-	for i = 1, bonusList:size() do
-		local bonus = bonusList:getBonus(i)
-
-		if bonus:getType() == "STARTING_RUNE_LEVEL" then
-			startLevel = startLevel + bonus:getVal()
-		else
-			currentLevel = currentLevel + bonus:getVal()
-		end
-	end
+	local startLevel 	=	bonusList:filter(function(b)
+								return b:getType() == "STARTING_RUNE_LEVEL"
+							end):totalValue()
+	local currentLevel	=	bonusList:filter(function(b)
+								return b:getType() == targetCounterType
+							end):totalValue()
 
 	if math.min(startLevel, cap) > currentLevel then
 		self:processAltar(server, battle, unit, startLevel)

@@ -3,18 +3,16 @@ Script.__index = Script
 
 local function getAdjustedEffectValue(mechanics, unit)
 	local base = mechanics:applySpellBonus(mechanics:getEffectValue(), unit)
-	if mechanics:getSpell():getJsonKey() ~= "core:cure" then return base end
-
 	local hero = mechanics:getHeroCaster()
-	if not hero then return base end
+
+	if not hero or mechanics:getSpell():getJsonKey() ~= "core:cure" then return base end
 
 	local tier = math.min(math.max(unit:creatureLevel(), 1), 7)
-	local specialty = hero:getBonuses(function(b)
-		return b:getType() == "SPECIALTY_CURE"
-	end)
-	if specialty:size() > 0 then
-		local percent = specialty:getBonus(1):getVal() * math.floor(hero:getLevel() / (8 - tier))
-		base = math.floor(base * (100 + percent) / 100)
+	local specialtyValue = hero:getBonusesValue({ type = "SPECIALTY_CURE" })
+
+	if specialtyValue ~= 0 then
+		local percent = specialtyValue * math.floor(hero:getLevel() / (8 - tier))
+		base = math.max(math.floor(base * (100 + percent) / 100), 0)
 	end
 
 	return base
@@ -28,7 +26,7 @@ function Script:getHealthChange(mechanics, spellTarget)
 			local copy = unit:copy()
 			local effectValue = getAdjustedEffectValue(mechanics, unit)
 			local healedHP, resurrected = copy:heal(effectValue, self:getHealLevel(), self:getHealPower())
-			result.hpDelta   = result.hpDelta   + healedHP
+			result.hpDelta = result.hpDelta + healedHP
 			result.unitsDelta = result.unitsDelta + resurrected
 			result.unitType  = unit:getCreature()
 		end

@@ -221,7 +221,7 @@
 	},
 	"core:forgetfulness" : {
 		"levels" : {
-			"advanced" : {
+			"base" : {
 				"effects" : {
 					"meleeAttackDamageReduction" : {
 						"type" : "PERCENTAGE_DAMAGE_BOOST",
@@ -231,16 +231,12 @@
 					}
 				}
 			},
-			"expert" : {
-				"effects" : {
-					"meleeAttackDamageReduction" : {
-						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" : "damageTypeMelee",
-						"duration" : "N_TURNS",
-						"val" : -50
-					}
-				}
-			}
+			"none" : {},
+			"basic" : {},
+			"advanced" : {
+				"range" : "0"
+			},
+			"expert" : {}
 		}
 	}
 }
