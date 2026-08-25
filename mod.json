@@ -21,7 +21,7 @@
 			"Creatures that are immune to Chain Lightning are now also immune to Factory's Grail spell",
 			"Dunes terrain now casts it's own version of Quicksand that creates 15-20 patches",
 			"Bulwark walls now have 3 health with Fort and Citadel and 4 health with Castle",
-			"War Machines are not immune to Gunslinger's/Bounty Hunter's Pre-emptive Shot ability",
+			"War Machines are now immune to Gunslinger's/Bounty Hunter's Pre-emptive Shot ability",
 			"Some forgotten campaign-only heroes now also scale to HotA values when Game Balance Heroes is activated",
 			"Submod that adds the Heroes Orchestra Cove theme is now working again",
 			"Other, smaller bugfixes"
