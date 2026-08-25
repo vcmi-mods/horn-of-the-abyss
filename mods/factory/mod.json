@@ -45,12 +45,12 @@
 		"config/hota/factory/creatures/ballistaPatch.json"
 	],
 	"factions" : [
-		"config/hota/factory/town/town.json",
-		"config/hota/factory/town/puzzleMap.json"
+		"config/hota/factory/town/puzzleMap.json",
+		"config/hota/factory/town/town.json"
 	],
 	"heroClasses" : [
-		"config/hota/factory/heroClasses/mercenary.json",
-		"config/hota/factory/heroClasses/artificer.json"
+		"config/hota/factory/heroClasses/artificer.json",
+		"config/hota/factory/heroClasses/mercenary.json"
 	],
 	"heroes" : [
 		"config/hota/factory/heroes/agar.json",
@@ -89,8 +89,7 @@
 		"config/hota/factory/spells/abilityDetonation.json",
 		"config/hota/factory/spells/ephemeralAbility.json",
 		"config/hota/factory/spells/hotaGrenade.json",
-		"config/hota/factory/spells/heatStrokeJuggernaut.json",
-		"config/hota/factory/spells/heatStrokeDreadnought.json",
+		"config/hota/factory/spells/heatStroke.json",
 		"config/hota/factory/spells/hotaRepair.json",
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json",

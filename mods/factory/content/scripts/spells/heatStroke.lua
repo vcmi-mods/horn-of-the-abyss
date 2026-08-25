@@ -1,4 +1,5 @@
 local Base = require("spells/unitEffect")
+local BattleLog = require("battleLog")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
@@ -135,6 +136,15 @@ local function getHexDirection(castX, castY, destX, destY)
     return math.floor((angle + 22.5) / 45) % 8
 end
 
+local function rollForLuck(server, luckDice)
+	if luckDice <= 0 then
+		return false
+	end
+
+	return server:rngInt(1, 24) <= luckDice
+end
+
+--- Cannot target itself and cannot target an invincible unit
 function Script:isEligible(mechanics, unit, target)
 	if unit:unitID() == target:unitID() or target:isInvincible() then
 		return false
@@ -212,13 +222,42 @@ function Script:applicableTarget(mechanics, problem, target)
 end
 
 function Script:apply(mechanics, server, target)
+	local battle = mechanics:getBattle()
+	local caster = mechanics:getUnitCaster()
+	local luckDice = caster:getBonusesValue({ type = "LUCK" })
+	luckDice = math.max(math.min(luckDice, 3), -3)
+	local isUnluck = luckDice < 0
+	luckDice = isUnluck and -luckDice * 2 or luckDice
+	local count = caster:getCount()
+	local baseDamMin = caster:getMinDamage(false) * count
+	local baseMaxDam = caster:getMaxDamage(false) * count
+	local attack = caster:getAttack(false)
+	local totalDamage, totalKilled = 0, 0
+	--- TODO: actual damage calculation (probably needs engine support for accuracy)
 	for _, dest in ipairs(target) do
 		local unit = dest.unit
 		if unit then
-			print(unit:getCreature():getJsonKey())
+			local damage = server:rngInt(baseDamMin, baseMaxDam) --- note: not quite correct mechanics-wise, but fine for temporary
+			local defense = unit:getDefense(false)
+			local add = attack - defense
+			local factor = 0
+			if add > 0 then
+				factor = math.min(1 + add * 0.05, 4.0)
+			else
+				factor = math.max(1 + add * 0.025, 0.3)
+			end
+			damage = damage * factor
+			if rollForLuck(server, luckDice) then
+				damage = isUnluck and math.floor(damage * 0.5) or math.floor(damage * 2)
+			end
+			local dealt, killed = server:damageUnit(battle, unit, damage)
+			totalDamage = totalDamage + dealt
+			totalKilled = totalKilled + killed
 		end
 	end
-    return
+	local victim = #target == 2 and target[2].unit or nil
+	local spell = LIBRARY:getSpellByName("heatStroke")
+	BattleLog.spellDamage(server, battle, spell, victim, totalDamage, totalKilled)
 end
 
 return Script

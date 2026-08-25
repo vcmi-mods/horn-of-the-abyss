@@ -17,7 +17,7 @@ function Script:getAffectedUnits(battle, unit)
 
 			if id ~= unit:unitID() then
 				if not uniqueUnits[id] then
-					if not targetUnit:hasBonuses({ type = "INVINCIBLE" }) then
+					if not targetUnit:isInvincible() then
 						uniqueUnits[id] = true
 						table.insert(affectedUnits, targetUnit)
 					end

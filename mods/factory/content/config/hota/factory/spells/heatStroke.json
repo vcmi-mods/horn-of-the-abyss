@@ -1,5 +1,5 @@
 {
-	"heatStrokeJuggernaut" : {
+	"heatStroke" : {
 		"type" : "ability",
 		"name" : "Heat Stroke",
 		"school" : {},
@@ -9,13 +9,7 @@
 		"gainChance" : {},
 		"targetType" : "LOCATION",
 		"targetCondition" : {},
-		"animation" : {
-			"affect" : [
-				{
-					"effectName" : "bloodlust"
-				}
-			]
-		},
+		"animation" : {},
 		"sounds" : {},
 		"flags" : {
 			"damage" : true,
@@ -24,11 +18,11 @@
 			"special" : true
 		},
 		"graphics" : {
-			"iconImmune" : "hota/factory/spells/heatstrokeJuggernaut.png",
-			"iconEffect" : "hota/factory/spells/heatstrokeJuggernaut.png",
-			"iconBook" : "hota/factory/spells/heatstrokeJuggernaut.png",
-			"iconScroll" : "hota/factory/spells/heatstrokeJuggernaut.png",
-			"iconScenarioBonus" : "hota/factory/spells/heatstrokeJuggernaut.png"
+			"iconImmune" : "hota/factory/spells/icmal090.png",
+			"iconEffect" : "hota/factory/spells/icmal090.png",
+			"iconBook" : "hota/factory/spells/icmal090.png",
+			"iconScroll" : "hota/factory/spells/icmal090.png",
+			"iconScenarioBonus" : "hota/factory/spells/icmal090.png"
 		},
 		"levels" : {
 			"base" : {
@@ -43,7 +37,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Heat Stroke}\nCan deal damage to all units within a semi-circular area.\n"
+				"description" : "{Attack with a Heat Stroke}\n\nSelect a target for Heat Stroke area attack without retaliation instead of moving."
 			},
 			"basic" : {},
 			"advanced" : {},

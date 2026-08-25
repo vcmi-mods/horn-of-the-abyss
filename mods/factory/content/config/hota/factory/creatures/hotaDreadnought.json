@@ -61,49 +61,13 @@
 			},
 			"heatStroke" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "heatStrokeDreadnought",
-				"description" : "{Heat Stroke}\nCan buff itself to deal damage to all units within a semi-circular area.",
+				"subtype" : "heatStroke",
+				"description" : "{Heat Stroke}\nCan cast Heat Stroke to damage all units within a semi-circular area.",
 				"icon" : "hota/factory/creatures/iconsBonuses/hotshoot.png"
 			},
 			"casts" : {
 				"type" : "CASTS",
 				"val" : 99
-			},
-			"multiHexAttack" : {
-				"type" : "MULTIHEX_UNIT_ATTACK",
-				"addInfo" : [
-					"L",
-					"LL",
-					"FL",
-					"FF",
-					"RF",
-					"RR",
-					"R"
-				],
-				"limiters" : [
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "USED_HEATSTROKE_ABILITY"
-					}
-				]
-			},
-			"multiHexAnimation" : {
-				"type" : "MULTIHEX_ANIMATION",
-				"addInfo" : [
-					"L",
-					"LL",
-					"FL",
-					"FF",
-					"RF",
-					"RR",
-					"R"
-				],
-				"limiters" : [
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusType" : "USED_HEATSTROKE_ABILITY"
-					}
-				]
 			},
 			// Will be affected by Expert Slayer only
 			"KING_3" : {
