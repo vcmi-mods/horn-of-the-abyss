@@ -28,12 +28,23 @@
 		"schema" : {
 			"properties" : {
 				"type" : {},
-				"battleLogSingular" : { "type" : "string" },
-				"battleLogPlural" : { "type" : "string" },
-				"bonus" : { "additionalProperties" : { "$ref" : "bonusInstance.json" } }
+				"battleLogSingular" : {
+					"type" : "string"
+				},
+				"battleLogPlural" : {
+					"type" : "string"
+				},
+				"bonus" : {
+					"additionalProperties" : {
+						"$ref" : "bonusInstance.json"
+					}
+				}
 			},
 			"additionalProperties" : false
 		},
-		"stringRegistrations" : ["battleLogSingular", "battleLogPlural"]
+		"stringRegistrations" : [
+			"battleLogSingular",
+			"battleLogPlural"
+		]
 	}
 }
