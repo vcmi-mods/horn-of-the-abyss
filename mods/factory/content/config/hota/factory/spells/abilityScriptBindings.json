@@ -20,5 +20,20 @@
 			},
 			"additionalProperties" : false
 		}
+	},
+	"attachSelfCastAbility" : {
+		"implements" : "spellEffect",
+		"script" : "spells/attachSelfCastAbility.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {},
+				"battleLogSingular" : { "type" : "string" },
+				"battleLogPlural" : { "type" : "string" },
+				"bonus" : { "additionalProperties" : { "$ref" : "bonusInstance.json" } }
+			},
+			"additionalProperties" : false
+		},
+		"stringRegistrations" : ["battleLogSingular", "battleLogPlural"]
 	}
 }

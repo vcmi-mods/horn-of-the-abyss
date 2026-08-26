@@ -17,28 +17,25 @@
 		"flags" : {
 			"persistent" : true,
 			"positive" : true,
-			"special" : true
+			"special" : true,
+			"nonMagical" : true
 		},
 		"targetCondition" : {},
 		"canCastWithoutSkip" : true,
-		"canCastOnlyOnSelf" : true,
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/medi001.png"
 		},
 		"sounds" : {},
-		"targetType" : "CREATURE",
+		"targetType" : "NO_TARGET",
 		"levels" : {
 			"base" : {
 				"description" : "",
-				"range" : "0",
+				"range" : "X",
 				"power" : 0,
 				"cost" : 0,
-				"targetModifier" : {
-					"smart" : true
-				},
 				"battleEffects" : {
 					"crimsonMeditation" : {
-						"type" : "timed",
+						"type" : "attachSelfCastAbility",
 						"battleLogSingular" : "%s becomes invulnerable!",
 						"battleLogPlural" : "%s become invulnerable!",
 						"bonus" : {
