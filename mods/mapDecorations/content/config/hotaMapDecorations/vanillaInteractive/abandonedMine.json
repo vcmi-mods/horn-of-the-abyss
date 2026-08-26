@@ -34,6 +34,22 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
+					},
+					"AVXamSn2_1" : {
+						"animation" : "hota/mines/AVXamSn2_1", //hota ice formation
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			}

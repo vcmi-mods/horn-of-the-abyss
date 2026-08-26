@@ -9,7 +9,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the Damage of units affected by Bless by 10% for every N hero levels, where N is the level of the targeted creature."
+				"description" : "Increases the Damage of units affected by Bless by 10% for every N hero levels, where N is the level of the target creature."
 			}
 		}
 	}
