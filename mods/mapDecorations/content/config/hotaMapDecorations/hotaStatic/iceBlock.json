@@ -1,13 +1,13 @@
 {
 	"iceBlock" : {
-		"name" : "Ice Block",
+		"name" : "Ice Formations",
 		"handler" : "static",
 		"types" : {
 			"iceBlock" : {
 				"base" : {
 					"mask" : [
-						"VV",
-						"BB"
+						"VVV",
+						"VBB"
 					],
 					"allowedTerrains" : [
 						"snow"
@@ -15,19 +15,108 @@
 				},
 				"templates" : {
 					"TPICECR1" : {
-						"animation" : "hota/iceBlock/TPICECR1"
+						"animation" : "hota/iceBlock/TPICECR1",
+						"mask" : [
+							"VV",
+							"BB"
+						]
 					},
 					"TPICECR2" : {
-						"animation" : "hota/iceBlock/TPICECR2"
+						"animation" : "hota/iceBlock/TPICECR2",
+						"mask" : [
+							"VV",
+							"BB"
+						]
 					},
 					"TPICECR3" : {
-						"animation" : "hota/iceBlock/TPICECR3"
+						"animation" : "hota/iceBlock/TPICECR3",
+						"mask" : [
+							"VV",
+							"BB"
+						]
 					},
 					"TPICECR4" : {
 						"animation" : "hota/iceBlock/TPICECR4",
 						"mask" : [
-							"VV",
-							"VB"
+							"B"
+						]
+					},
+					"AVLifar0" : {
+						"animation" : "hota/iceBlock/AVLifar0",
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBVB"
+						]
+					},
+					"AVLifar1" : {
+						"animation" : "hota/iceBlock/AVLifar1",
+						"mask" : [
+							"VVVV",
+							"VVVB",
+							"VBVV"
+						]
+					},
+					"AVLific0" : {
+						"animation" : "hota/iceBlock/AVLific0"
+					},
+					"AVLific1" : {
+						"animation" : "hota/iceBlock/AVLific1"
+					},
+					"AVLific2" : {
+						"animation" : "hota/iceBlock/AVLific2"
+					},
+					"AVLific3" : {
+						"animation" : "hota/iceBlock/AVLific3"
+					},
+					"AVLifmt0" : {
+						"animation" : "hota/iceBlock/AVLifmt0",
+						"mask" : [
+							"VVVVVV",
+							"VVBBBB",
+							"VBBBBB",
+							"VBBBVV"
+						]
+					},
+					"AVLifmt1" : {
+						"animation" : "hota/iceBlock/AVLifmt1",
+						"mask" : [
+							"VVVVVV",
+							"VBBBBV",
+							"VBBBBB",
+							"VVVBBB"
+						]
+					},
+					"AVLifmt2" : {
+						"animation" : "hota/iceBlock/AVLifmt2",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VBBV"
+						]
+					},
+					"AVLifmt3" : {
+						"animation" : "hota/iceBlock/AVLifmt3",
+						"mask" : [
+							"VVVV",
+							"VBBB",
+							"VVBB"
+						]
+					},
+					"AVLifmt4" : {
+						"animation" : "hota/iceBlock/AVLifmt4",
+						"mask" : [
+							"VVVV",
+							"VVBB",
+							"VBBV"
+						]
+					},
+					"AVLifmt5" : {
+						"animation" : "hota/iceBlock/AVLifmt5",
+						"mask" : [
+							"VVVV",
+							"VBBV",
+							"VVBB"
 						]
 					}
 				}
