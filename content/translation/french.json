@@ -368,5 +368,6 @@
 	"mod.textpolishing.name": "Lissage de texte",
 	"mod.textpolishing.description": "Modifie la description en jeu des sorts, des objets de la carte et des artefacts pour qu'elle corresponde à celle utilisée dans HotA.",
 	"mod.wastelandterrain.name": "Terrain désertique",
-	"mod.wastelandterrain.description": "Ajoute le terrain des Terres désolées ainsi que plusieurs objets de carte uniques à ce terrain."
+	"mod.wastelandterrain.description": "Ajoute le terrain des Terres désolées ainsi que plusieurs objets de carte uniques à ce terrain.",
+	"artifact.hota.artifacts.crownOfTheFiveSeas.description": "{Couronne des Cinq Mers}\n\nPorté sur la tête, cet accessoire augmente votre Savoir de +6."
 }
