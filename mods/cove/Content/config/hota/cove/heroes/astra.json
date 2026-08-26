@@ -53,7 +53,7 @@
 			"biography" : "There is little known about Astra's past, and she does not hurry to tell much. The only detail known is that she visited almost every corner of the world in order to master the Water Magic. She fulfilled her wish of mastering this school after joining the Sea Priestesses.",
 			"specialty" : {
 				"name" : "Cure",
-				"description" : "Casts Cure with effect increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Cure with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Cure"
 			}
 		}

@@ -51,7 +51,7 @@
 			"biography" : "Dargem's past is quite legendary. They say that he alone captured a fort; the defenders' arrows simply could not reach him. Little is known of the time Dargem spent in the dungeons of Nighon as an apprentice warlock, but it's obvious that underworld magic is his ace. Barraging his ship with cannonballs and arrows is a notorious waste of time.",
 			"specialty" : {
 				"name" : "Air Shield",
-				"description" : "Casts Air Shield with effect increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Air Shield with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Air Shield"
 			}
 		}

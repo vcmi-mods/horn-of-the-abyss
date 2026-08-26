@@ -122,8 +122,8 @@
 					"name" : "Fair",
 					"description" : "The Fair improves the market rate of Marketplace.",
 					"cost" : {
-						"gold" : 1000,
-						"wood" : 5
+						"gold" : 2000,
+						"wood" : 10
 					},
 					"requires" : [
 						"allOf",
