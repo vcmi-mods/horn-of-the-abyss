@@ -23,4 +23,35 @@ function Script:applicableGeneral(mechanics, problem)
 	return false
 end
 
+function Script:apply(mechanics, server, target)
+	local battle   = mechanics:getBattle()
+	local describe = server:describeChanges()
+	local converted = self:convertBonuses(mechanics)
+	local unit = target[1].unit
+
+	local buffer = {}
+	for name, nb in pairs(converted) do
+		buffer[name] = self:deepCopyBonus(nb)
+	end
+
+	if describe then
+		self:describeEffect(server, battle, unit)
+	end
+
+	for _, nb in pairs(buffer) do
+		server:addUnitBonus(battle, unit, nb, self.cumulative or false)
+	end
+end
+
+function Script:describeEffect(server, battle, unit)
+	if not self.battleLogPlural or self.battleLogPlural == "" then return end
+	local count = unit:getCount()
+	local textID = (self.battleLogSingular and self.battleLogSingular ~= "" and count == 1) and self.battleLogSingular or self.battleLogPlural
+	local nameTextID = unit:getCreature():getNameTextID(count)
+	server:appendLog(battle, {
+		append         = { textID },
+		replaceStrings = { nameTextID }
+	})
+end
+
 return Script
