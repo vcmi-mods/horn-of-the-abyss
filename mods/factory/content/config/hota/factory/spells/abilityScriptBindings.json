@@ -9,5 +9,31 @@
 		},
 		"priority" : 0,
 		"description" : ""
+	},
+	"heatStroke" : {
+		"implements" : "spellEffect",
+		"script" : "spells/heatstroke.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {}
+			},
+			"additionalProperties" : false
+		}
+	},
+	"attachSelfCastAbility" : {
+		"implements" : "spellEffect",
+		"script" : "spells/attachSelfCastAbility.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {},
+				"battleLogSingular" : { "type" : "string" },
+				"battleLogPlural" : { "type" : "string" },
+				"bonus" : { "additionalProperties" : { "$ref" : "bonusInstance.json" } }
+			},
+			"additionalProperties" : false
+		},
+		"stringRegistrations" : ["battleLogSingular", "battleLogPlural"]
 	}
 }

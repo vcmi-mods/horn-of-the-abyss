@@ -16,28 +16,25 @@
 		},
 		"flags" : {
 			"persistent" : true,
-			"positive" : true
+			"positive" : true,
+			"special" : true,
+			"nonMagical" : true
 		},
 		"canCastWithoutSkip" : true,
-		"canCastOnSelf" : true,
-		"canCastOnlyOnSelf" : true,
 		"targetCondition" : {},
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/detonates.png"
 		},
-		"targetType" : "CREATURE",
+		"targetType" : "NO_TARGET",
 		"levels" : {
 			"base" : {
 				"description" : "",
 				"cost" : 0,
 				"power" : 0,
-				"range" : "0",
-				"targetModifier" : {
-					"smart" : true
-				},
+				"range" : "X",
 				"battleEffects" : {
 					"ignition" : {
-						"type" : "timed",
+						"type" : "attachSelfCastAbility",
 						"battleLogSingular" : "%s activates detonation at death mode!",
 						"battleLogPlural" : "%s activate detonation at death mode!",
 						"bonus" : {

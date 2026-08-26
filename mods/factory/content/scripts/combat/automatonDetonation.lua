@@ -3,10 +3,18 @@ local BattleLog = require("battleLog")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
+function Script:isEligible(unit, target, targetID)
+	if unit:unitID() == targetID or not target:isValidTarget(false) or target:isInvincible() then
+		return false
+	end
+
+	return true
+end
+
 --- Returns all affected units
 function Script:getAffectedUnits(battle, unit)
 	local affectedUnits = {}
-	local uniqueUnits = {}
+	local seenUnits = {}
 	local hexes = unit:getSurroundingHexes()
 
 	for i = 1, hexes:size() do
@@ -15,12 +23,11 @@ function Script:getAffectedUnits(battle, unit)
 		if targetUnit then
 			local id = targetUnit:unitID()
 
-			if id ~= unit:unitID() then
-				if not uniqueUnits[id] then
-					if not targetUnit:hasBonuses({ type = "INVINCIBLE" }) then
-						uniqueUnits[id] = true
-						table.insert(affectedUnits, targetUnit)
-					end
+			if not seenUnits[id] then
+				seenUnits[id] = true
+
+				if self:isEligible(unit, targetUnit, id) then
+					table.insert(affectedUnits, targetUnit)
 				end
 			end
 		end
@@ -64,6 +71,10 @@ function Script:processTriggerEvent(server, battle, unit, payload)
 		local totalDamage, totalKilled = 0, 0
 
 		for _, target in ipairs(targets) do
+			local cap = target:getBonusesValue({ type = "DAMAGE_RECEIVED_CAP" })
+			if cap > 0 then
+				damage = math.max(math.floor(target:getMaxHealth() * cap / 100), 1)
+			end
 			local dealt, killed = server:damageUnit(battle, target, damage)
 			totalDamage = totalDamage + dealt
 			totalKilled = totalKilled + killed

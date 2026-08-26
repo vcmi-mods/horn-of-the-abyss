@@ -1,0 +1,47 @@
+{
+	"heatStroke" : {
+		"type" : "ability",
+		"name" : "Heat Stroke",
+		"school" : {},
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"targetType" : "LOCATION",
+		"targetCondition" : {},
+		"animation" : {},
+		"sounds" : {},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+		"graphics" : {
+			"iconImmune" : "hota/factory/spells/icmal090.png",
+			"iconEffect" : "hota/factory/spells/icmal090.png",
+			"iconBook" : "hota/factory/spells/icmal090.png",
+			"iconScroll" : "hota/factory/spells/icmal090.png",
+			"iconScenarioBonus" : "hota/factory/spells/icmal090.png"
+		},
+		"levels" : {
+			"base" : {
+				"description" : "",
+				"cost" : 0,
+				"power" : 0,
+				"range" : "0",
+				"battleEffects" : {
+					"heatStroke" : {
+						"type" : "heatStroke"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Attack with a Heat Stroke}\n\nSelect a target for Heat Stroke area attack without retaliation instead of moving."
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}
