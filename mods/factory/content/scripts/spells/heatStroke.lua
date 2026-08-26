@@ -3,6 +3,8 @@ local BattleLog = require("battleLog")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
+local SPELL = LIBRARY:getSpellByName("heatStroke")
+
 --- Returns the pattern for the given direction. Can return invalid hexes, so needs to be checked later
 local function getPatternFromDirection(casterPos, direction)
 	local hexes = {}
@@ -276,8 +278,8 @@ function Script:apply(mechanics, server, target)
 		end
 	end
 	local victim = #target == 2 and target[2].unit or nil
-	local spell = LIBRARY:getSpellByName("heatStroke")
-	BattleLog.spellDamage(server, battle, spell, victim, totalDamage, totalKilled)
+
+	BattleLog.spellDamage(server, battle, SPELL, victim, totalDamage, totalKilled)
 end
 
 return Script
