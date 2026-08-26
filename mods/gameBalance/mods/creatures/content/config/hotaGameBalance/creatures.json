@@ -139,14 +139,14 @@
 	},
 	// necropolis
 	"core:wight" : {
-		"abilities": {
+		"abilities" : {
 			"regenerate" : {
 				"val" : 5000
 			}
 		}
 	},
 	"core:wraith" : {
-		"abilities": {
+		"abilities" : {
 			"regenerate" : {
 				"val" : 5000
 			}
