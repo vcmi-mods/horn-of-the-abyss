@@ -138,6 +138,20 @@
 		}
 	},
 	// necropolis
+	"core:wight" : {
+		"abilities": {
+			"regenerate" : {
+				"val" : 5000
+			}
+		}
+	},
+	"core:wraith" : {
+		"abilities": {
+			"regenerate" : {
+				"val" : 5000
+			}
+		}
+	},
 	"core:boneDragon" : {
 		"abilities" : {
 			"boneDragonSkeleton" : {

@@ -40,12 +40,22 @@
 				"baseTileCost" : {
 					"type" : "BASE_TILE_MOVEMENT_COST",
 					"valueType" : "ADDITIVE_VALUE",
-					"val" : -5
+					"val" : -10,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "pathfinding"
+					}
 				},
 				"terrainCostReduction" : {
 					"type" : "ROUGH_TERRAIN_DISCOUNT",
 					"valueType" : "ADDITIVE_VALUE",
-					"val" : 5
+					"val" : 10,
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusSourceType" : "SECONDARY_SKILL",
+						"bonusSourceID" : "pathfinding"
+					}
 				}
 			}
 		},
@@ -54,7 +64,7 @@
 			"biography" : "Ergon spent his long life in constant movement. He served in Lord Slayer's guard in Enroth, guarded elven caravans in Jadame, and sold his sword in Antagarich, only to realize in his later years that he yearned for the place whereto time itself seemed to come to rest. That said, his skill in arranging swift marches is still there, whenever need arises.",
 			"specialty" : {
 				"name" : "Pathfinding",
-				"description" : "Receives a 5% reduction to the cost of moving on rough terrain.",
+				"description" : "Enhances the effect of the Pathfinding skill, reducing the cost of moving on rough terrain by additional 10%.",
 				"tooltip" : "Secondary Skill Bonus: Pathfinding"
 			}
 		}

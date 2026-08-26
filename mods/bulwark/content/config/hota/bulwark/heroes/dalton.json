@@ -139,7 +139,7 @@
 			"biography" : "Plain weapons can barely scratch a Jotunn, but believing these hulks neglect protection exposes a fool. Dalton is the most adept armorer capable of forging equipment of such immense size. Lean as Vori's ores are, Dalton has penetrated the secrets of magic to ensure his creations can withstand anything, an ice demon's fury included.",
 			"specialty" : {
 				"name" : "Shield",
-				"description" : "Casts Shield with effect increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Shield with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Shield"
 			}
 		}

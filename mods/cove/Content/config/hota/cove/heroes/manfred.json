@@ -52,7 +52,7 @@
 			"biography" : "Even the most vicious pirate hunters stay away from this outlander. Nobody knows where Manfred came, but it is known that he can wage fire on galleons with a single hand swing. Pirates dislike Manfred for his horrible accent and his not any less horrible character; however they respect him as a mercenary battle mage.",
 			"specialty" : {
 				"name" : "Fireball",
-				"description" : "Casts Fireball with Damage increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Fireball with Damage increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Fireball"
 			}
 		}

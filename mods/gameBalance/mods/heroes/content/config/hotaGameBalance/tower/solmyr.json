@@ -10,7 +10,7 @@
 		"texts" : {
 			"specialty" : {
 				"name" : "Chain Lightning",
-				"description" : "Casts Chain Lightning with Damage increased by 5% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Chain Lightning with Damage increased by 5% for every N hero levels, where N is the level of the targeted creature."
 			}
 		}
 	}
