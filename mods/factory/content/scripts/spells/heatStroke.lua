@@ -113,29 +113,38 @@ local function getPatternFromDirection(casterPos, direction)
 	return hexes
 end
 
---- Thank you, ChatGPT
+--- Thank you, ChatGPT! I left all its comments in as a tribute to its service.
 local function getHexDirection(castX, castY, destX, destY)
-    local dx = destX - castX
-    local dy = destY - castY
+	local dx = destX - castX
+	local dy = destY - castY
 
-    -- Even rows are shifted right
-    if castY % 2 == 0 then
-        dx = dx - 0.5
-    end
+	-- Even rows are shifted right
+	if castY % 2 == 0 then
+		dx = dx - 0.5
+	end
 
-    if destY % 2 == 0 then
-        dx = dx + 0.5
-    end
+	if destY % 2 == 0 then
+		dx = dx + 0.5
+	end
 
-    local angle = math.deg(math.atan2(dy, dx))
-    if angle < 0 then
-        angle = angle + 360
-    end
+	local angle = math.deg(math.atan2(dy, dx))
+	if angle < 0 then
+		angle = angle + 360
+	end
 
-    -- Convert to 8 directions
-    return math.floor((angle + 22.5) / 45) % 8
+	-- Convert to 8 directions
+	return math.floor((angle + 22.5) / 45) % 8
 end
 
+--- Convenience function for getPatternFromDirection
+local function getAffectedHexes(mechanics, spellTarget)
+	if #spellTarget == 0 then return {} end
+	local hex = spellTarget[1].hex
+	local caster = mechanics:getUnitCaster():getPosition()
+	return getPatternFromDirection(caster, getHexDirection(caster:getX(), caster:getY(), hex:getX(), hex:getY()))
+end
+
+--- Returns true if the strike is lucky or unlucky
 local function rollForLuck(server, luckDice)
 	if luckDice <= 0 then
 		return false
@@ -144,47 +153,46 @@ local function rollForLuck(server, luckDice)
 	return server:rngInt(1, 24) <= luckDice
 end
 
---- Cannot target itself and cannot target an invincible unit
-function Script:isEligible(mechanics, unit, target)
-	if unit:unitID() == target:unitID() or target:isInvincible() then
+--- Cannot target itself, dead units, units specifically immune to Heat Stroke and cannot target an invincible unit
+function Script:isEligible(mechanics, unit, target, targetID)
+	if unit:unitID() == targetID or not target:isValidTarget(false) or target:isInvincible() then
 		return false
 	end
 
 	return mechanics:isReceptive(target)
 end
 
-local function getAffectedHexes(mechanics, spellTarget)
-	if #spellTarget == 0 then return {} end
-	local hex = spellTarget[1].hex
-	local caster = mechanics:getUnitCaster():getPosition()
-	return getPatternFromDirection(caster, getHexDirection(caster:getX(), caster:getY(), hex:getX(), hex:getY()))
-end
-
+--- Here, targets[1] needs to contain the spellTarget hex (which is the one we are aiming at)
+--- It is used to lock casting to the cursor being inside the pattern hexes
 function Script:transformTarget(mechanics, aimPoint, spellTarget)
 	local battle = mechanics:getBattle()
 	local casterUnit = mechanics:getUnitCaster()
 	local pattern = getAffectedHexes(mechanics, spellTarget)
 	local targets = {}
 	local seenUnits = {}
+
 	table.insert(targets, { unit = nil, hex = spellTarget[1].hex })
+
 	for _, hex in ipairs(pattern) do
 		if hex:isValid() then
 			local target = battle:getUnitByPos(hex, true)
-			if not target or not target:isValidTarget(false) or not self:isEligible(mechanics, casterUnit, target) then
-				goto continue
-			end
-			local id = target:unitID()
-			if not seenUnits[id] then
-				seenUnits[id] = true
-				table.insert(targets, { unit = target, hex = hex })
+
+			if target then
+				local id = target:unitID()
+				if not seenUnits[id] then
+					seenUnits[id] = true
+					if self:isEligible(mechanics, casterUnit, target, id) then
+						table.insert(targets, { unit = target, hex = hex })
+					end
+				end
 			end
 		end
-		::continue::
 	end
 
-    return targets
+	return targets
 end
 
+--- Affected hexes are the pattern of the direction, nothing else
 function Script:adjustAffectedHexes(mechanics, hexes, spellTarget)
 	local pattern = getAffectedHexes(mechanics, spellTarget)
 	for _, h in ipairs(pattern) do
@@ -195,7 +203,7 @@ function Script:adjustAffectedHexes(mechanics, hexes, spellTarget)
 	return hexes
 end
 
---- unit-only spell
+--- Unit-only spell
 function Script:applicableGeneral(mechanics, problem)
 	local caster = mechanics:getUnitCaster()
 	if not caster then
@@ -205,18 +213,22 @@ function Script:applicableGeneral(mechanics, problem)
 	return true
 end
 
+--- No need to check target units here, just lock casting into the pattern hexes
 function Script:applicableTarget(mechanics, problem, target)
 	local pattern = getAffectedHexes(mechanics, target)
 	local targetHex = target[1].hex
+
 	if not targetHex then
 		problem:addStandard(mechanics, ENUM.SpellCastProblem.wrongSpellTarget)
 		return false
 	end
+
 	for _, hex in ipairs(pattern) do
 		if targetHex == hex then
 			return true
 		end
 	end
+
 	problem:addStandard(mechanics, ENUM.SpellCastProblem.wrongSpellTarget)
 	return false
 end
@@ -224,15 +236,17 @@ end
 function Script:apply(mechanics, server, target)
 	local battle = mechanics:getBattle()
 	local caster = mechanics:getUnitCaster()
-	local luckDice = caster:getBonusesValue({ type = "LUCK" })
-	luckDice = math.max(math.min(luckDice, 3), -3)
-	local isUnluck = luckDice < 0
-	luckDice = isUnluck and -luckDice * 2 or luckDice
 	local count = caster:getCount()
 	local baseDamMin = caster:getMinDamage(false) * count
 	local baseMaxDam = caster:getMaxDamage(false) * count
 	local attack = caster:getAttack(false)
 	local totalDamage, totalKilled = 0, 0
+	local luckDice = caster:getBonusesValue({ type = "LUCK" })
+	local isUnluck = luckDice < 0
+
+	luckDice = math.max(math.min(luckDice, 3), -3)
+	luckDice = isUnluck and -luckDice * 2 or luckDice
+
 	--- TODO: actual damage calculation (probably needs engine support for accuracy)
 	for _, dest in ipairs(target) do
 		local unit = dest.unit
