@@ -100,29 +100,29 @@
 	],
 
 	"changelog" : {
-		"1.0.0" : [
-			"Initial release"
-		],
-		"1.1.0" : [
-			"Update new creatures and heroes"
-		],
-		"1.1.1" : [
-			"Update new models of couatls and crimson couatls"
-		],
-		"1.1.2" : [
-			"Update new abilities"
-		],
-		"1.1.3" : [
-			"Fix meditation and detonation abilities for relevant creatures"
-		],
-		"1.1.4" : [
-			"Add campaign heroes and dependency of cove"
+		"1.1.6" : [
+			"New cowboy graphics by Kurek"
 		],
 		"1.1.5" : [
 			"Change naming conventions and file directories to fit the cove format"
 		],
-		"1.1.6" : [
-			"New cowboy graphics by Kurek"
+		"1.1.4" : [
+			"Add campaign heroes and dependency of cove"
+		],
+		"1.1.3" : [
+			"Fix meditation and detonation abilities for relevant creatures"
+		],
+		"1.1.2" : [
+			"Update new abilities"
+		],
+		"1.1.1" : [
+			"Update new models of couatls and crimson couatls"
+		],
+		"1.1.0" : [
+			"Update new creatures and heroes"
+		],
+		"1.0.0" : [
+			"Initial release"
 		]
 	},
 	"chinese" : {
