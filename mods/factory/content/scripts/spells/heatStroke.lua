@@ -206,7 +206,7 @@ end
 --- Unit-only spell
 function Script:applicableGeneral(mechanics, problem)
 	local caster = mechanics:getUnitCaster()
-	if not caster then
+	if not caster or not caster:isAlive() then
 		problem:addGeneric(mechanics)
 		return false
 	end
@@ -263,6 +263,12 @@ function Script:apply(mechanics, server, target)
 			damage = damage * factor
 			if rollForLuck(server, luckDice) then
 				damage = isUnluck and math.floor(damage * 0.5) or math.floor(damage * 2)
+			end
+			local cap = unit:getBonusesValue({ type = "DAMAGE_RECEIVED_CAP" })
+			if cap > 0 then
+				local capDamage = math.floor(unit:getMaxHealth() * cap / 100)
+				print(capDamage)
+				damage = math.max(capDamage, 1)
 			end
 			local dealt, killed = server:damageUnit(battle, unit, damage)
 			totalDamage = totalDamage + dealt
