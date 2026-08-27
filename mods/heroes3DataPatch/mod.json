@@ -11,8 +11,6 @@
 		]
 	},
 	"depends" : [
-		"hota.mapdecorations",
-		"hota.highlandsterrain"
 	],
 	"conflicts" : [
 		"hd-edition"
@@ -35,16 +33,13 @@
 		"tides-of-war"
 	],
 	"factions" : [
-		"config/heroes3DataPatch/confluxTerrain.json",
 		"config/heroes3DataPatch/necropolisPuzzle.json",
-		"config/heroes3DataPatch/structures.json",
-		"config/heroes3DataPatch/boats.json"
+		"config/heroes3DataPatch/structures.json"
 	],
 	"creatures" : [
 		"config/heroes3DataPatch/creatures.json"
 	],
 	"objects" : [
-		"config/heroes3DataPatch/objects.json",
 		"config/heroes3DataPatch/dwellings"
 	],
 

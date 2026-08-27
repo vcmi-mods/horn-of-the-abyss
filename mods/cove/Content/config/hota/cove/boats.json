@@ -17,10 +17,6 @@
 				"templates" : {
 					"default" : {
 						"animation" : "hota/cove/mapObjects/boats/AVXBOAT4",
-						"mask" : [
-							"VVV",
-							"VAV"
-						],
 						"allowedTerrains" : [
 							"water"
 						]
