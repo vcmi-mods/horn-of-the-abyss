@@ -79,5 +79,13 @@
 	"hero.hota.heroes.gruezak.specialty.description": "Ökar Attack‑ och Försvarsvärdena för alla Ballister med 30% för var femte nivå (avrundat uppåt).",
 	"hero.hota.heroes.ranloo.specialty.description": "Ökar Attack‑ och Försvarsvärdena för alla Ballister med 30% för var femte nivå (avrundat uppåt).",
 	"hero.core.marius.specialty.description": "Ökar Kvickheten för alla Demoner och Behornade Demoner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
-	"hero.core.moandor.specialty.description": "Ökar Kvickheten för alla Dödsmagiker och Mäktiga Dödsmagiker med 1 samt deras Attack‑ och Försvarsvärden med 20% för var femte nivå (avrundat uppåt)."
+	"hero.core.moandor.specialty.description": "Ökar Kvickheten för alla Dödsmagiker och Mäktiga Dödsmagiker med 1 samt deras Attack‑ och Försvarsvärden med 20% för var femte nivå (avrundat uppåt).",
+	"hero.core.nymus.specialty.description": "Ökar Kvickheten för alla Avgrundsbövlar och Avgrundsmästare med 1 samt deras Attack‑ och Försvarsvärden med 20% för var femte nivå (avrundat uppåt).",
+	"hero.core.piquedram.specialty.description": "Ökar Kvickheten för alla Stenfigurer och Obsidianfigurer med 1 samt deras Attack‑ och Försvarsvärden med 20% för varannan nivå (avrundat uppåt).",
+	"hero.core.rashka.specialty.description": "Ökar Kvickheten för alla Ifriter och Ifritsultaner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var sjätte nivå (avrundat uppåt).",
+	"hero.core.rion.specialty.description": "Får en bonus på 5% per färdighetsnivå till den extra Hälsa som Första Hjälpen‑tältet ger.",
+	"hero.core.verdish.specialty.description": "Får en bonus på 5% per färdighetsnivå till den extra Hälsa som Första Hjälpen‑tältet ger.",
+	"hero.hota.bulwark.13biarma.specialty.description": "Får en bonus på 5% per färdighetsnivå till den extra Hälsa som Första Hjälpen‑tältet ger.",
+	"hero.hota.factory.05floribert.specialty.description": "Får en bonus på 5% per färdighetsnivå till den extra Hälsa som Första Hjälpen‑tältet ger.",
+	"hero.hota.factory.valquest.specialty.description": "Får en bonus på 5% per färdighetsnivå till den extra Hälsa som Första Hjälpen‑tältet ger."
 }
