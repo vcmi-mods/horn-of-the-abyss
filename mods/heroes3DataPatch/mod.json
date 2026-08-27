@@ -10,8 +10,7 @@
 			"Added all changed sounds"
 		]
 	},
-	"depends" : [
-	],
+	"depends" : [],
 	"conflicts" : [
 		"hd-edition"
 	],
