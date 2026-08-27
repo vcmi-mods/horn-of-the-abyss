@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.learning.description.advanced": "{Avancerad Lärande}\n\nÖkar hjältens intjänade erfarenhetspoäng med 40%.",
+	"skill.core.learning.description.basic": "{Basal Lärande}\n\nÖkar hjältens intjänade erfarenhetspoäng med 20%.",
+	"skill.core.learning.description.expert": "{Mästerlig Lärande}\n\nÖkar hjältens intjänade erfarenhetspoäng med 60%."
+}

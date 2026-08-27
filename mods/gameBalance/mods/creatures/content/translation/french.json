@@ -1,4 +1,4 @@
 {
-	"creatures.core.archDevil.bonus.decreaseLuck": "{Archidiable}\n-2 pour la chance de l'ennemi",
-	"creatures.core.devil.bonus.decreaseLuck": "{Diable} -1 pour la chance de l'ennemi"
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Archidiable}\nRéduisent la Chance de l'ennemi de 2.",
+	"creatures.core.devil.bonus.decreaseLuck": "{Diable} \nRéduit la chance de l'ennemi de 1."
 }

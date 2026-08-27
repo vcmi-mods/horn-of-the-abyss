@@ -1,11 +1,11 @@
 {
 	"hota.bulwark:12dalton" : {
 		"specialty" : {
-			"spellScalingVal" : 10
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts Shield with effect increased by 10% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Shield with effect increased by 5% for every N hero levels, where N is the level of the targeted creature."
 			}
 		}
 	}

@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.pathfinding.description.advanced": "{Avancerad Stigfinnare}\n\nMinskar rörelseförlusten i svårframkomlig terräng och reducerar förflyttningskostnaden med 50%, ned till en minimikostnad på 90%.",
+	"skill.core.pathfinding.description.basic": "{Basal Stigfinnare}\n\nMinskar rörelseförlusten i svårframkomlig terräng och reducerar förflyttningskostnaden med 25%, ned till en minimikostnad på 95%.",
+	"skill.core.pathfinding.description.expert": "{Mästerlig Stigfinnare}\n\nMinskar rörelseförlusten i svårframkomlig terräng och reducerar förflyttningskostnaden med 75%, ned till en minimikostnad på 85%."
+}

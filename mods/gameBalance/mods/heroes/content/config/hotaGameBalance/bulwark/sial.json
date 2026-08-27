@@ -5,7 +5,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Ice Bolt with Damage increased by 10% for every N hero levels, where N is the level of the targeted creature."
 			}
 		}
 	}

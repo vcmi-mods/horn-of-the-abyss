@@ -46,13 +46,25 @@
 	"iceBlock" : {
 		"biome" : {
 			"terrain" : "snow",
-			"objectType" : "rock"
+			"objectType" : "mountain"
 		},
 		"templates" : [
 			"TPICECR1",
 			"TPICECR2",
 			"TPICECR3",
-			"TPICECR4"
+			"TPICECR4",
+			"AVLifar0",
+			"AVLifar1",
+			"AVLific0",
+			"AVLific1",
+			"AVLific2",
+			"AVLific3",
+			"AVLifmt0",
+			"AVLifmt1",
+			"AVLifmt2",
+			"AVLifmt3",
+			"AVLifmt4",
+			"AVLifmt5"
 		]
 	},
 	"core:swampPalms" : {

@@ -46,7 +46,7 @@
 			"biography" : "The expanses of Vori, covered with years of snow, only seem lifeless; those who know what to look for will find out that the disembodied inhabitants of these lands make fine interlocutors, or maybe even sources of power. Glacius has a reputation for being the Bane of Spirits: their empty shells crumble into bursts of magical light, as he greedily devours their energy and unleashes it upon his enemies.",
 			"specialty" : {
 				"name" : "Frost Ring",
-				"description" : "Casts Frost Ring with Damage increased by 3% for every N hero levels, where N is the level of the target creature.",
+				"description" : "Casts Frost Ring with Damage increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 				"tooltip" : "Spell Bonus: Frost Ring"
 			}
 		}
