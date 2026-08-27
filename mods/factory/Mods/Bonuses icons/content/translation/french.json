@@ -1,4 +1,4 @@
 {
-	"creatures.hota.factory.olgoiKhorkhoi.bonus.teleports": "Déménage sous terre",
-	"creatures.hota.factory.sandworm.bonus.teleports": "Déménage sous terre"
+	"creatures.hota.factory.olgoiKhorkhoi.bonus.teleports": "{Enfouissement}\n\nCette unité se déplace en creusant et ignore tous les obstacles du champ de bataille.",
+	"creatures.hota.factory.sandworm.bonus.teleports": "{Enfouissement}\n\nCette unité se déplace en creusant et ignore tous les obstacles du champ de bataille."
 }
