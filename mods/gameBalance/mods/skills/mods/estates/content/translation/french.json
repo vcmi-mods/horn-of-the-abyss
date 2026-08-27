@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced": "{Trésorier niveau 2}\n\nLe héros ajoute 500 pièces d'or à sa réserve totale chaque jour.",
-	"skill.core.estates.description.basic": "{Trésorier niveau 1}\n\nLe héros ajoute 250 pièces d'or à sa réserve totale chaque jour.",
-	"skill.core.estates.description.expert": "{Trésorier niveau 3}\n\nLe héros ajoute 1000 pièces d'or à sa réserve totale chaque jour."
+	"skill.core.estates.description.advanced": "{Fermage Avancé}\n\nCette compétence permet au héros d'ajoute 500 pièces d'or à sa réserve totale chaque jour.",
+	"skill.core.estates.description.basic": "{Fermage Basique}\n\nLe héros ajoute 250 pièces d'or à sa réserve totale chaque jour.",
+	"skill.core.estates.description.expert": "{Fermage Expert}\n\nLe héros ajoute 1000 pièces d'or à sa réserve totale chaque jour."
 }

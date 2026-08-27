@@ -1,1 +1,6 @@
-{}
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description": "{Första Hjälpen-tält}\nHjälten bär på ett Första Hjälpen-tält.",
+	"skill.core.firstAid.description.advanced": "{Avancerad Första Hjälpen}\n\nHjälten får kontroll över första hjälpen‑tältet. Tältet läker den första enheten i en stapel med 75 skadepoäng och ger alla allierade varelser +10% hälsa. Tältet kan inte ta mer än 40% av sin hälsa i skada från en enskild attack.",
+	"skill.core.firstAid.description.basic": "{Basal Första Hjälpen}\n\nHjälten får kontroll över första hjälpen‑tältet. Tältet läker den första enheten i en stapel med 50 skadepoäng och ger alla allierade varelser +5% hälsa. Tältet kan inte ta mer än 40% av sin hälsa i skada från en enskild attack.",
+	"skill.core.firstAid.description.expert": "{Mästerlig Första Hjälpen}\n\nHjälten får kontroll över första hjälpen‑tältet. Tältet läker den första enheten i en stapel med 100 skadepoäng och ger alla allierade varelser +15% hälsa. Tältet kan inte ta mer än 40% av sin hälsa i skada från en enskild attack."
+}

@@ -1,1 +1,24 @@
-{}
+{
+	"core.bonus.RUNE_LEVEL_COUNTER.description": "Om detta visas är det ett fel i RUNE_LEVEL_COUNTER.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Denna enhet stiger i runnivåer under strid.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1": "Bonus för runnivå 1:\n+2 Attack",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.2": "Bonusar för runnivå 2:\n+2 Attack\n+2 Försvar",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.3": "Bonusar för runnivå 3:\n+2 Attack\n+2 Försvar\n+1 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.4": "Bonusar för runnivå 4:\n+4 Attack\n+2 Försvar\n+1 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.5": "Bonusar för runnivå 5:\n+4 Attack\n+4 Försvar\n+1 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.6": "Bonusar för runnivå 6:\n+4 Attack\n+4 Försvar\n+2 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.7": "Bonusar för runnivå 7:\n+6 Attack\n+4 Försvar\n+2 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.8": "Bonusar för runnivå 8:\n+6 Attack\n+6 Försvar\n+2 Kvickhet",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.9": "Bonusar för runnivå 9:\n+6 Attack\n+6 Försvar\n+3 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description": "Om detta visas är det ett fel i YETI_RUNE_LEVEL_COUNTER.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0": "Yeti‑runmästaren stiger i runnivå under strid.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1": "Bonus för runnivå 1:\n+2 Attack",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2": "Bonusar för runnivå 2:\n+2 Attack\n+2 Försvar",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3": "Bonusar för runnivå 3:\n+2 Attack\n+2 Försvar\n+1 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.4": "Bonusar för runnivå 4:\n+4 Attack\n+2 Försvar\n+1 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.5": "Bonusar för runnivå 5:\n+4 Attack\n+4 Försvar\n+1 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6": "Bonusar för runnivå 6:\n+4 Attack\n+4 Försvar\n+2 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7": "Bonusar för runnivå 7:\n+6 Attack\n+4 Försvar\n+2 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8": "Bonusar för runnivå 8:\n+6 Attack\n+6 Försvar\n+2 Kvickhet",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "Bonusar för runnivå 9:\n+6 Attack\n+6 Försvar\n+3 Kvickhet"
+}

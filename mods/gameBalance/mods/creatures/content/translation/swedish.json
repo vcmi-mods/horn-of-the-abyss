@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Minskar fiendens lycka}\nÄrkedjävular minskar fiendens lycka med två.",
+	"creatures.core.devil.bonus.decreaseLuck": "{Minskar fiendens lycka}\nDjävular minskar fiendens lycka med ett."
+}

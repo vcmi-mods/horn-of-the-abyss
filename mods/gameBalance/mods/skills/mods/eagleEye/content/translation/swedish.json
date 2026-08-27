@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.eagleEye.description.advanced": "{Avancerad Skarpsynthet}\n\nGer hjälten 50% chans att lära sig trollformler upp till nivå 3 som kastas av fiendehjältar under strid.",
+	"skill.core.eagleEye.description.basic": "{Basal Skarpsynthet}\n\nGer hjälten 40% chans att lära sig trollformler av nivå 1 och 2 som kastas av fiendehjältar under strid.",
+	"skill.core.eagleEye.description.expert": "{Mästerlig Skarpsynthet}\n\nGer hjälten 60% chans att lära sig trollformler upp till nivå 4 som kastas av fiendehjältar under strid."
+}

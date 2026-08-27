@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.hota.cove.seadog.bonus.accurateShotFullRange": "{Fullräckviddsskott}\nHar 3% chans att omedelbart döda en enskild levande varelse.",
+	"creatures.hota.cove.seadog.bonus.accurateShotHalfRange": "{Halvräckviddsskott}\nHar 2% chans att omedelbart döda en enskild levande varelse."
+}

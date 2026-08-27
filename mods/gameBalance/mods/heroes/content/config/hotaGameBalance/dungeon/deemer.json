@@ -5,7 +5,7 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Casts Meteor Shower with Damage increased by 5% for every N hero levels, where N is the level of the target creature."
+				"description" : "Casts Meteor Shower with Damage increased by 5% for every N hero levels, where N is the level of the targeted creature."
 			}
 		},
 		"skills" : [

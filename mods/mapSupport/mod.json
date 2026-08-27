@@ -1470,7 +1470,6 @@
 				"templates" : {
 					"airShip/AVGairy0.def" : "AVGairy0.def",
 					"airship/AVXAir00.def" : "AVXAir00",
-
 					"hota/shrines/4lvlxshrn.def" : "4lvlxshrn.def",
 					"hota/cove/heroClasses/captain/adventureMap/AH18_e.def" : "ah18_e.def",
 					"hota/cove/heroClasses/navigator/adventureMap/AH19_e.def" : "ah19_e.def",
@@ -1478,7 +1477,6 @@
 					"hota/factory/heroClasses/mercenary/adventureMap/AH20_e.def" : "AH20_e.def",
 					"hota/bulwark/heroClasses/chieftain/adventureMap/AH22_e.def" : "AH22_e.def",
 					"hota/bulwark/heroClasses/elder/adventureMap/AH23_e.def" : "AH23_e.def",
-
 					"hota/pandoraBox/ava0128w.def" : "AVA0128w.def",
 					"hota/artifactsMap/AVA0142.def" : "AVA0142.def",
 					"hota/artifactsMap/AVA0143.def" : "AVA0143.def",
@@ -2198,10 +2196,28 @@
 					"hota/ruinedObjects/AVbhou02.def" : "AVbhou02.def",
 					"hota/ruinedObjects/AVbhou03.def" : "AVbhou03.def",
 					"hota/ruinedObjects/avtcvrui.def" : "avtcvrui.def",
+
 					"hota/iceBlock/TPICECR1.DEF" : "TPIceCr1.def",
 					"hota/iceBlock/TPICECR2.DEF" : "TPIceCr2.def",
 					"hota/iceBlock/TPICECR3.DEF" : "TPIceCr3.def",
 					"hota/iceBlock/TPICECR4.DEF" : "TPIceCr4.def",
+					// HotA 1.8.1 Ice Formations (def name is speculation)
+					"hota/iceBlock/AVLifar0.DEF" : "AVLifar0.def",
+					"hota/iceBlock/AVLifar1.DEF" : "AVLifar1.def",
+					"hota/iceBlock/AVLific0.DEF" : "AVLific0.def",
+					"hota/iceBlock/AVLific1.DEF" : "AVLific1.def",
+					"hota/iceBlock/AVLific2.DEF" : "AVLific2.def",
+					"hota/iceBlock/AVLific3.DEF" : "AVLific3.def",
+					"hota/iceBlock/AVLifmt0.DEF" : "AVLifmt0.def",
+					"hota/iceBlock/AVLifmt1.DEF" : "AVLifmt1.def",
+					"hota/iceBlock/AVLifmt2.DEF" : "AVLifmt2.def",
+					"hota/iceBlock/AVLifmt3.DEF" : "AVLifmt3.def",
+					"hota/iceBlock/AVLifmt4.DEF" : "AVLifmt4.def",
+					"hota/iceBlock/AVLifmt5.DEF" : "AVLifmt5.def",
+					"hota/mines/AVMcrIce0.def" : "AVMcrIce0.def",
+					"hota/mines/AVMgoIce0.def" : "AVMgoIce0.def",
+					"hota/mines/AVXamSn2_1.def" : "AVXamSn2_1.def",
+
 					"hota/trees/TPMTREE1.DEF" : "TPMTREE1.def",
 					"hota/trees/TPMTREE2.DEF" : "TPMTREE2.def",
 					"hota/trees/TPMTREE3.DEF" : "TPMTREE3.def",

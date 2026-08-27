@@ -34,6 +34,22 @@
 						"allowedTerrains" : [
 							"swamp"
 						]
+					},
+					"AVMcrIce0" : {
+						"animation" : "hota/mines/AVMcrIce0", //hota ice formation
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
+						]
 					}
 				}
 			},
@@ -68,6 +84,22 @@
 						],
 						"allowedTerrains" : [
 							"swamp"
+						]
+					},
+					"AVMgoIce0" : {
+						"animation" : "hota/mines/AVMgoIce0", //hota ice formation
+						"mask" : [
+							"VVVV",
+							"VVVV",
+							"VBAB"
+						],
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"snow"
 						]
 					}
 				}
