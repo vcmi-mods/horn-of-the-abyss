@@ -30,6 +30,9 @@
 	"battlefields" : [
 		"config/hota/highlands/battlefields.json"
 	],
+	"factions" : [
+		"config/hota/highlands/confluxTerrain.json"
+	],
 	"obstacles" : [
 		"config/hota/highlands/obstacles.json"
 	],

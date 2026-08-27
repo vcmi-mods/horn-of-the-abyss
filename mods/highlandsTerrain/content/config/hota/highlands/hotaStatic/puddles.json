@@ -1,6 +1,6 @@
 {
 	"puddles" : {
-		"handler" : "static",
+		"handler" : "generic",
 		"name" : "Puddles",
 		"types" : {
 			"puddles" : {

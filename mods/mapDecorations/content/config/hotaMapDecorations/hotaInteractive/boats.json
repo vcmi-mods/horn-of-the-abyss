@@ -17,10 +17,6 @@
 				"templates" : {
 					"default" : {
 						"animation" : "hota/boats/AVXBOAT5",
-						"mask" : [
-							"VVV",
-							"VAV"
-						],
 						"allowedTerrains" : [
 							"water"
 						]
@@ -43,15 +39,18 @@
 				"templates" : {
 					"default" : {
 						"animation" : "hota/boats/AVXBOAT6",
-						"mask" : [
-							"VVV",
-							"VAV"
-						],
 						"allowedTerrains" : [
 							"water"
 						]
 					}
 				}
+			}
+		}
+	},
+	"core:shipyard" : {
+		"types" : {
+			"object" : {
+				"boat" : "boatNeutral"
 			}
 		}
 	}
