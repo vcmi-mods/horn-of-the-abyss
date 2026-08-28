@@ -1,995 +1,865 @@
 {
-	"basepath" : "un44/",
-	"images" : [
+	"basepath": "un44/",
+	"images": [
 		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "archery.png"
+			"frame": 0,
+			"file": "un44.def_000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "crossbow.png"
+			"frame": 1,
+			"file": "un44.defA001.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "griff.png"
+			"frame": 2,
+			"file": "un44.defA002.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 3,
-			"file" : "navigat.png"
+			"frame": 3,
+			"file": "un44.def_001.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 4,
-			"file" : "estates.png"
+			"frame": 4,
+			"file": "un44.defA004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 5,
-			"file" : "swordsm.png"
+			"frame": 5,
+			"file": "un44.def_002.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 6,
-			"file" : "ballist.png"
+			"frame": 6,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 7,
-			"file" : "champ.png"
+			"frame": 7,
+			"file": "un44.defA007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 8,
-			"file" : "firstaid.png"
+			"frame": 8,
+			"file": "un44.def_004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 9,
-			"file" : "bless.png"
+			"frame": 9,
+			"file": "un44.defA009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 10,
-			"file" : "weakness.png"
+			"frame": 10,
+			"file": "un44.def_005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 11,
-			"file" : "frostri.png"
+			"frame": 11,
+			"file": "un44.def_006.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 12,
-			"file" : "monk.png"
+			"frame": 12,
+			"file": "un44.defA012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 13,
-			"file" : "eagleeye.png"
+			"frame": 13,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 14,
-			"file" : "pray.png"
+			"frame": 14,
+			"file": "un44.defA014.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 15,
-			"file" : "gold.png"
+			"frame": 15,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 16,
-			"file" : "armor.png"
+			"frame": 16,
+			"file": "un44.def_009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 17,
-			"file" : "dwarf.png"
+			"frame": 17,
+			"file": "un44.defA017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 18,
-			"file" : "gold.png"
+			"frame": 18,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 19,
-			"file" : "dendroid.png"
+			"frame": 19,
+			"file": "un44.defA019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 20,
-			"file" : "resist.png"
+			"frame": 20,
+			"file": "un44.defA020.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 21,
-			"file" : "elf.png"
+			"frame": 21,
+			"file": "un44.defA021.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 22,
-			"file" : "unicorn.png"
+			"frame": 22,
+			"file": "un44.defA022.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 23,
-			"file" : "logisti.png"
+			"frame": 23,
+			"file": "un44.def_010.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 24,
-			"file" : "slayer.png"
+			"frame": 24,
+			"file": "un44.defA024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 25,
-			"file" : "cure.png"
+			"frame": 25,
+			"file": "un44.def_011.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 26,
-			"file" : "intell.png"
+			"frame": 26,
+			"file": "un44.def_012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 27,
-			"file" : "firstaid.png"
+			"frame": 27,
+			"file": "un44.def_004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 28,
-			"file" : "eagleeye.png"
+			"frame": 28,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 29,
-			"file" : "fortune.png"
+			"frame": 29,
+			"file": "un44.def_013.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 30,
-			"file" : "icebolt.png"
+			"frame": 30,
+			"file": "un44.def_014.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 31,
-			"file" : "pegas.png"
+			"frame": 31,
+			"file": "un44.defA031.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 32,
-			"file" : "gargl.png"
+			"frame": 32,
+			"file": "un44.defA032.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 33,
-			"file" : "genie.png"
+			"frame": 33,
+			"file": "un44.def_015.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 34,
-			"file" : "stonegol.png"
+			"frame": 34,
+			"file": "un44.defA034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 35,
-			"file" : "armor.png"
+			"frame": 35,
+			"file": "un44.def_009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 36,
-			"file" : "ballist.png"
+			"frame": 36,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 37,
-			"file" : "naga.png"
+			"frame": 37,
+			"file": "un44.defA037.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 38,
-			"file" : "mercur.png"
+			"frame": 38,
+			"file": "un44.defA038.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 39,
-			"file" : "genie.png"
+			"frame": 39,
+			"file": "un44.def_015.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 40,
-			"file" : "hypn.png"
+			"frame": 40,
+			"file": "un44.defA040.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 41,
-			"file" : "myst.png"
+			"frame": 41,
+			"file": "un44.def_016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 42,
-			"file" : "eagleeye.png"
+			"frame": 42,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 43,
-			"file" : "fortune.png"
+			"frame": 43,
+			"file": "un44.def_013.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 44,
-			"file" : "mage.png"
+			"frame": 44,
+			"file": "un44.defA044.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 45,
-			"file" : "chainlgt.png"
+			"frame": 45,
+			"file": "un44.defA045.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 46,
-			"file" : "haste.png"
+			"frame": 46,
+			"file": "un44.def_017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 47,
-			"file" : "gold.png"
+			"frame": 47,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 48,
-			"file" : "hellhoun.png"
+			"frame": 48,
+			"file": "un44.defA048.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 49,
-			"file" : "efree.png"
+			"frame": 49,
+			"file": "un44.defA049.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 50,
-			"file" : "demon.png"
+			"frame": 50,
+			"file": "un44.defA050.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 51,
-			"file" : "imp.png"
+			"frame": 51,
+			"file": "un44.defA051.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 52,
-			"file" : "gold.png"
+			"frame": 52,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 53,
-			"file" : "gog.png"
+			"frame": 53,
+			"file": "un44.defA053.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 54,
-			"file" : "ballist.png"
+			"frame": 54,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 55,
-			"file" : "pit.png"
+			"frame": 55,
+			"file": "un44.defA055.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 56,
-			"file" : "intell.png"
+			"frame": 56,
+			"file": "un44.def_012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 57,
-			"file" : "inferno.png"
+			"frame": 57,
+			"file": "un44.defA057.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 58,
-			"file" : "myst.png"
+			"frame": 58,
+			"file": "un44.def_016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 59,
-			"file" : "weakness.png"
+			"frame": 59,
+			"file": "un44.def_005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 60,
-			"file" : "sulfur.png"
+			"frame": 60,
+			"file": "un44.defA060.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 61,
-			"file" : "bllust.png"
+			"frame": 61,
+			"file": "un44.def_018.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 62,
-			"file" : "sorcery.png"
+			"frame": 62,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 63,
-			"file" : "fireball.png"
+			"frame": 63,
+			"file": "un44.def_020.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 64,
-			"file" : "zombie.png"
+			"frame": 64,
+			"file": "un44.defA064.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 65,
-			"file" : "vampire.png"
+			"frame": 65,
+			"file": "un44.defA065.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 66,
-			"file" : "lich.png"
+			"frame": 66,
+			"file": "un44.defA066.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 67,
-			"file" : "wight.png"
+			"frame": 67,
+			"file": "un44.defA067.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 68,
-			"file" : "ddknight.png"
+			"frame": 68,
+			"file": "un44.def_021.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 69,
-			"file" : "necro.png"
+			"frame": 69,
+			"file": "un44.def_022.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 70,
-			"file" : "gold.png"
+			"frame": 70,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 71,
-			"file" : "skel.png"
+			"frame": 71,
+			"file": "un44.defA071.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 72,
-			"file" : "deathrpl.png"
+			"frame": 72,
+			"file": "un44.defA072.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 73,
-			"file" : "meteor.png"
+			"frame": 73,
+			"file": "un44.def_023.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 74,
-			"file" : "sorcery.png"
+			"frame": 74,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 75,
-			"file" : "eagleeye.png"
+			"frame": 75,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 76,
-			"file" : "animate.png"
+			"frame": 76,
+			"file": "un44.defA076.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 77,
-			"file" : "stonesk.png"
+			"frame": 77,
+			"file": "un44.def_024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 78,
-			"file" : "necro.png"
+			"frame": 78,
+			"file": "un44.def_022.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 79,
-			"file" : "gold.png"
+			"frame": 79,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 80,
-			"file" : "harpy.png"
+			"frame": 80,
+			"file": "un44.defA080.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 81,
-			"file" : "ballist.png"
+			"frame": 81,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 82,
-			"file" : "minot.png"
+			"frame": 82,
+			"file": "un44.defA082.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 83,
-			"file" : "beholder.png"
+			"frame": 83,
+			"file": "un44.defA083.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 84,
-			"file" : "gold.png"
+			"frame": 84,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 85,
-			"file" : "logisti.png"
+			"frame": 85,
+			"file": "un44.def_010.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 86,
-			"file" : "manticor.png"
+			"frame": 86,
+			"file": "un44.defA086.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 87,
-			"file" : "trogl.png"
+			"frame": 87,
+			"file": "un44.defA087.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 88,
-			"file" : "ressur.png"
+			"frame": 88,
+			"file": "un44.def_025.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 89,
-			"file" : "myst.png"
+			"frame": 89,
+			"file": "un44.def_016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 90,
-			"file" : "sorcery.png"
+			"frame": 90,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 91,
-			"file" : "ressur.png"
+			"frame": 91,
+			"file": "un44.def_025.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 92,
-			"file" : "eagleeye.png"
+			"frame": 92,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 93,
-			"file" : "meteor.png"
+			"frame": 93,
+			"file": "un44.def_023.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 94,
-			"file" : "crystal.png"
+			"frame": 94,
+			"file": "un44.def_026.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 95,
-			"file" : "stonesk.png"
+			"frame": 95,
+			"file": "un44.def_024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 96,
-			"file" : "cyclop.png"
+			"frame": 96,
+			"file": "un44.defA096.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 97,
-			"file" : "ballist.png"
+			"frame": 97,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 98,
-			"file" : "orc.png"
+			"frame": 98,
+			"file": "un44.defA098.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 99,
-			"file" : "roc.png"
+			"frame": 99,
+			"file": "un44.defA099.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 100,
-			"file" : "goblin.png"
+			"frame": 100,
+			"file": "un44.defA100.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 101,
-			"file" : "ogre.png"
+			"frame": 101,
+			"file": "un44.def_027.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 102,
-			"file" : "offence.png"
+			"frame": 102,
+			"file": "un44.def_028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 103,
-			"file" : "wolf.png"
+			"frame": 103,
+			"file": "un44.defA103.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 104,
-			"file" : "sorcery.png"
+			"frame": 104,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 105,
-			"file" : "ogre.png"
+			"frame": 105,
+			"file": "un44.def_027.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 106,
-			"file" : "logisti.png"
+			"frame": 106,
+			"file": "un44.def_010.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 107,
-			"file" : "haste.png"
+			"frame": 107,
+			"file": "un44.def_017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 108,
-			"file" : "precis.png"
+			"frame": 108,
+			"file": "un44.defA108.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 109,
-			"file" : "offence.png"
+			"frame": 109,
+			"file": "un44.def_028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 110,
-			"file" : "eagleeye.png"
+			"frame": 110,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 111,
-			"file" : "gem.png"
+			"frame": 111,
+			"file": "un44.defA111.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 112,
-			"file" : "basil.png"
+			"frame": 112,
+			"file": "un44.defA112.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 113,
-			"file" : "gnoll.png"
+			"frame": 113,
+			"file": "un44.defA113.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 114,
-			"file" : "lizard.png"
+			"frame": 114,
+			"file": "un44.defA114.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 115,
-			"file" : "armor.png"
+			"frame": 115,
+			"file": "un44.def_009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 116,
-			"file" : "gorgon.png"
+			"frame": 116,
+			"file": "un44.defA116.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 117,
-			"file" : "drfly.png"
+			"frame": 117,
+			"file": "un44.defA117.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 118,
-			"file" : "ballist.png"
+			"frame": 118,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 119,
-			"file" : "wyvern.png"
+			"frame": 119,
+			"file": "un44.defA119.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 120,
-			"file" : "weakness.png"
+			"frame": 120,
+			"file": "un44.def_005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 121,
-			"file" : "myst.png"
+			"frame": 121,
+			"file": "un44.def_016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 122,
-			"file" : "navigat.png"
+			"frame": 122,
+			"file": "un44.def_001.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 123,
-			"file" : "firstaid.png"
+			"frame": 123,
+			"file": "un44.def_004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 124,
-			"file" : "stonesk.png"
+			"frame": 124,
+			"file": "un44.def_024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 125,
-			"file" : "sorcery.png"
+			"frame": 125,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 126,
-			"file" : "intell.png"
+			"frame": 126,
+			"file": "un44.def_012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 127,
-			"file" : "eagleeye.png"
+			"frame": 127,
+			"file": "un44.def_007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 128,
-			"file" : "psych.png"
+			"frame": 128,
+			"file": "un44.def_029.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 129,
-			"file" : "earth.png"
+			"frame": 129,
+			"file": "un44.def_030.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 130,
-			"file" : "fireelem.png"
+			"frame": 130,
+			"file": "un44.def_031.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 131,
-			"file" : "watrelem.png"
+			"frame": 131,
+			"file": "un44.def_032.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 132,
-			"file" : "psych.png"
+			"frame": 132,
+			"file": "un44.def_029.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 133,
-			"file" : "earth.png"
+			"frame": 133,
+			"file": "un44.def_030.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 134,
-			"file" : "fireelem.png"
+			"frame": 134,
+			"file": "un44.def_031.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 135,
-			"file" : "watrelem.png"
+			"frame": 135,
+			"file": "un44.def_032.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 136,
-			"file" : "firewall.png"
+			"frame": 136,
+			"file": "un44.defA136.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 137,
-			"file" : "haste.png"
+			"frame": 137,
+			"file": "un44.def_017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 138,
-			"file" : "magarrw.png"
+			"frame": 138,
+			"file": "un44.defA138.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 139,
-			"file" : "stonesk.png"
+			"frame": 139,
+			"file": "un44.def_024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 140,
-			"file" : "bllust.png"
+			"frame": 140,
+			"file": "un44.def_018.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 141,
-			"file" : "disrupt.png"
+			"frame": 141,
+			"file": "un44.defA141.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 142,
-			"file" : "gold.png"
+			"frame": 142,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 143,
-			"file" : "gold.png"
+			"frame": 143,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 144,
-			"file" : "speed.png"
+			"frame": 144,
+			"file": "un44.defA144.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 145,
-			"file" : "firemagc.png"
+			"frame": 145,
+			"file": "un44.defA145.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 146,
-			"file" : "swordsm.png"
+			"frame": 146,
+			"file": "un44.def_002.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 147,
-			"file" : "enchant.png"
+			"frame": 147,
+			"file": "un44.defA147.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 148,
-			"file" : "sharp.png"
+			"frame": 148,
+			"file": "un44.defA148.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 149,
-			"file" : "behemoth.png"
+			"frame": 149,
+			"file": "un44.defA149.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 150,
-			"file" : "ddknight.png"
+			"frame": 150,
+			"file": "un44.def_021.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 151,
-			"file" : "dragon.png"
+			"frame": 151,
+			"file": "un44.def_033.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 152,
-			"file" : "swordsm.png"
+			"frame": 152,
+			"file": "un44.def_002.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 153,
-			"file" : "dragon.png"
+			"frame": 153,
+			"file": "un44.def_033.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 154,
-			"file" : "ogre.png"
+			"frame": 154,
+			"file": "un44.def_027.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 155,
-			"file" : "devi.png"
+			"frame": 155,
+			"file": "un44.defA155.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 156,
-			"file" : "offence.png"
+			"frame": 156,
+			"file": "un44.def_028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 157,
-			"file" : "cannon.png"
+			"frame": 157,
+			"file": "un44.defA157.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 158,
-			"file" : "assid.png"
+			"frame": 158,
+			"file": "un44.defA158.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 159,
-			"file" : "crewmate.png"
+			"frame": 159,
+			"file": "un44.defA159.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 160,
-			"file" : "gold.png"
+			"frame": 160,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 161,
-			"file" : "pirate.png"
+			"frame": 161,
+			"file": "un44.defA161.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 162,
-			"file" : "nymph.png"
+			"frame": 162,
+			"file": "un44.defA162.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 163,
-			"file" : "scout.png"
+			"frame": 163,
+			"file": "un44.def_034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 164,
-			"file" : "seawitch.png"
+			"frame": 164,
+			"file": "un44.defA164.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 165,
-			"file" : "clone.png"
+			"frame": 165,
+			"file": "un44.defA165.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 166,
-			"file" : "sorcery.png"
+			"frame": 166,
+			"file": "un44.def_019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 167,
-			"file" : "crystal.png"
+			"frame": 167,
+			"file": "un44.def_026.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 168,
-			"file" : "fireball.png"
+			"frame": 168,
+			"file": "un44.def_020.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 169,
-			"file" : "forgetf.png"
+			"frame": 169,
+			"file": "un44.defA169.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 170,
-			"file" : "cure.png"
+			"frame": 170,
+			"file": "un44.def_011.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 171,
-			"file" : "airshild.png"
+			"frame": 171,
+			"file": "un44.defA171.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 172,
-			"file" : "3pirate.png"
+			"frame": 172,
+			"file": "un44.defA172.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 173,
-			"file" : "nix.png"
+			"frame": 173,
+			"file": "un44.defA173.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 174,
-			"file" : "navigat.png"
+			"frame": 174,
+			"file": "un44.def_001.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 175,
-			"file" : "scout.png"
+			"frame": 175,
+			"file": "un44.def_034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 176,
-			"file" : "know.png"
+			"frame": 176,
+			"file": "un44.defA176.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 177,
-			"file" : "ballist.png"
+			"frame": 177,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 178,
-			"file" : "interfe.png"
+			"frame": 178,
+			"file": "un44.defA178.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 179,
-			"file" : "halfling.png"
+			"frame": 179,
+			"file": "un44.defA179.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 180,
-			"file" : "mechanic.png"
+			"frame": 180,
+			"file": "un44.defA180.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 181,
-			"file" : "gunslinger.png"
+			"frame": 181,
+			"file": "un44.defA181.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 182,
-			"file" : "diplomacy.png"
+			"frame": 182,
+			"file": "un44.def_035.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 183,
-			"file" : "firstaid.png"
+			"frame": 183,
+			"file": "un44.def_004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 184,
-			"file" : "scout.png"
+			"frame": 184,
+			"file": "un44.def_034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 185,
-			"file" : "armor.png"
+			"frame": 185,
+			"file": "un44.def_009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 186,
-			"file" : "ballist.png"
+			"frame": 186,
+			"file": "un44.def_003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 187,
-			"file" : "armadillo.png"
+			"frame": 187,
+			"file": "un44.defA187.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 188,
-			"file" : "automaton.png"
+			"frame": 188,
+			"file": "un44.def_036.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 189,
-			"file" : "sandworm.png"
+			"frame": 189,
+			"file": "un44.defA189.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 190,
-			"file" : "gold.png"
+			"frame": 190,
+			"file": "un44.def_008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 191,
-			"file" : "frenzy.png"
+			"frame": 191,
+			"file": "un44.defA191.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 192,
-			"file" : "lbolt.png"
+			"frame": 192,
+			"file": "un44.defA192.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 193,
-			"file" : "mines.png"
+			"frame": 193,
+			"file": "un44.defA193.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 194,
-			"file" : "weakness.png"
+			"frame": 194,
+			"file": "un44.def_005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 195,
-			"file" : "automaton.png"
+			"frame": 195,
+			"file": "un44.def_036.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 196,
-			"file" : "offence.png"
+			"frame": 196,
+			"file": "un44.def_028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 197,
-			"file" : "archery.png"
+			"frame": 197,
+			"file": "un44.def_000.png"
+		},
+		{
+			"frame": 198,
+			"file": "un44.defA198.png"
+		},
+		{
+			"frame": 199,
+			"file": "un44.def_035.png"
+		},
+		{
+			"frame": 200,
+			"file": "un44.def_000.png"
+		},
+		{
+			"frame": 201,
+			"file": "un44.defA201.png"
+		},
+		{
+			"frame": 202,
+			"file": "un44.defA202.png"
+		},
+		{
+			"frame": 203,
+			"file": "un44.defA203.png"
+		},
+		{
+			"frame": 204,
+			"file": "un44.defA204.png"
+		},
+		{
+			"frame": 205,
+			"file": "un44.defA205.png"
+		},
+		{
+			"frame": 206,
+			"file": "un44.defA206.png"
+		},
+		{
+			"frame": 207,
+			"file": "un44.def_006.png"
+		},
+		{
+			"frame": 208,
+			"file": "un44.def_014.png"
+		},
+		{
+			"frame": 209,
+			"file": "un44.defA209.png"
+		},
+		{
+			"frame": 210,
+			"file": "un44.def_004.png"
+		},
+		{
+			"frame": 211,
+			"file": "un44.def_018.png"
+		},
+		{
+			"frame": 212,
+			"file": "un44.def_008.png"
+		},
+		{
+			"frame": 213,
+			"file": "un44.def_019.png"
+		},
+		{
+			"frame": 214,
+			"file": "un44.def_001.png"
 		}
 	]
 }

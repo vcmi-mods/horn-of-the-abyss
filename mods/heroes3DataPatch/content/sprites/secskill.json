@@ -1,455 +1,377 @@
 {
-	"basepath" : "secskill/",
-	"images" : [
+	"basepath": "secskill/",
+	"images": [
 		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "skill000.png"
+			"frame": 0,
+			"file": "secskill_000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "skill000.png"
+			"frame": 1,
+			"file": "secskill_000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "skill000.png"
+			"frame": 2,
+			"file": "secskill_000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 3,
-			"file" : "skill12a.png"
+			"frame": 3,
+			"file": "secskillA003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 4,
-			"file" : "skill12b.png"
+			"frame": 4,
+			"file": "secskillA004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 5,
-			"file" : "skill12c.png"
+			"frame": 5,
+			"file": "secskillA005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 6,
-			"file" : "skill01a.png"
+			"frame": 6,
+			"file": "secskillA006.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 7,
-			"file" : "skill01b.png"
+			"frame": 7,
+			"file": "secskillA007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 8,
-			"file" : "skill01c.png"
+			"frame": 8,
+			"file": "secskillA008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 9,
-			"file" : "skill07a.png"
+			"frame": 9,
+			"file": "secskillA009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 10,
-			"file" : "skill07b.png"
+			"frame": 10,
+			"file": "secskillA010.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 11,
-			"file" : "skill07c.png"
+			"frame": 11,
+			"file": "secskillA011.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 12,
-			"file" : "skill13a.png"
+			"frame": 12,
+			"file": "secskillA012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 13,
-			"file" : "skill13b.png"
+			"frame": 13,
+			"file": "secskillA013.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 14,
-			"file" : "skill13c.png"
+			"frame": 14,
+			"file": "secskillA014.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 15,
-			"file" : "skill03a.png"
+			"frame": 15,
+			"file": "secskillA015.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 16,
-			"file" : "skill03b.png"
+			"frame": 16,
+			"file": "secskillA016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 17,
-			"file" : "skill03c.png"
+			"frame": 17,
+			"file": "secskillA017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 18,
-			"file" : "skill10a.png"
+			"frame": 18,
+			"file": "secskillA018.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 19,
-			"file" : "skill10b.png"
+			"frame": 19,
+			"file": "secskillA019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 20,
-			"file" : "skill10c.png"
+			"frame": 20,
+			"file": "secskillA020.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 21,
-			"file" : "skill06a.png"
+			"frame": 21,
+			"file": "secskillA021.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 22,
-			"file" : "skill06b.png"
+			"frame": 22,
+			"file": "secskillA022.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 23,
-			"file" : "skill06c.png"
+			"frame": 23,
+			"file": "secskillA023.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 24,
-			"file" : "skill14a.png"
+			"frame": 24,
+			"file": "secskillA024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 25,
-			"file" : "skill14b.png"
+			"frame": 25,
+			"file": "secskillA025.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 26,
-			"file" : "skill14c.png"
+			"frame": 26,
+			"file": "secskillA026.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 27,
-			"file" : "skill09a.png"
+			"frame": 27,
+			"file": "secskillA027.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 28,
-			"file" : "skill09b.png"
+			"frame": 28,
+			"file": "secskillA028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 29,
-			"file" : "skill09c.png"
+			"frame": 29,
+			"file": "secskillA029.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 30,
-			"file" : "skill08a.png"
+			"frame": 30,
+			"file": "secskillA030.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 31,
-			"file" : "skill08b.png"
+			"frame": 31,
+			"file": "secskillA031.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 32,
-			"file" : "skill08c.png"
+			"frame": 32,
+			"file": "secskillA032.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 33,
-			"file" : "skill02a.png"
+			"frame": 33,
+			"file": "secskillA033.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 34,
-			"file" : "skill02b.png"
+			"frame": 34,
+			"file": "secskillA034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 35,
-			"file" : "skill02c.png"
+			"frame": 35,
+			"file": "secskillA035.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 36,
-			"file" : "skill04a.png"
+			"frame": 36,
+			"file": "secskillA036.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 37,
-			"file" : "skill04b.png"
+			"frame": 37,
+			"file": "secskillA037.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 38,
-			"file" : "skill04c.png"
+			"frame": 38,
+			"file": "secskillA038.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 39,
-			"file" : "skill11a.png"
+			"frame": 39,
+			"file": "secskillA039.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 40,
-			"file" : "skill11b.png"
+			"frame": 40,
+			"file": "secskillA040.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 41,
-			"file" : "skill11c.png"
+			"frame": 41,
+			"file": "secskillA041.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 42,
-			"file" : "skill05a.png"
+			"frame": 42,
+			"file": "secskillA042.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 43,
-			"file" : "skill05b.png"
+			"frame": 43,
+			"file": "secskillA043.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 44,
-			"file" : "skill05c.png"
+			"frame": 44,
+			"file": "secskillA044.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 45,
-			"file" : "skill15a.png"
+			"frame": 45,
+			"file": "secskillA045.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 46,
-			"file" : "skill15b.png"
+			"frame": 46,
+			"file": "secskillA046.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 47,
-			"file" : "skill15c.png"
+			"frame": 47,
+			"file": "secskillA047.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 48,
-			"file" : "skill16a.png"
+			"frame": 48,
+			"file": "secskillA048.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 49,
-			"file" : "skill16b.png"
+			"frame": 49,
+			"file": "secskillA049.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 50,
-			"file" : "skill16c.png"
+			"frame": 50,
+			"file": "secskillA050.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 51,
-			"file" : "skill17a.png"
+			"frame": 51,
+			"file": "secskillA051.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 52,
-			"file" : "skill17b.png"
+			"frame": 52,
+			"file": "secskillA052.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 53,
-			"file" : "skill17c.png"
+			"frame": 53,
+			"file": "secskillA053.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 54,
-			"file" : "skill18a.png"
+			"frame": 54,
+			"file": "secskillA054.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 55,
-			"file" : "skill18b.png"
+			"frame": 55,
+			"file": "secskillA055.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 56,
-			"file" : "skill18c.png"
+			"frame": 56,
+			"file": "secskillA056.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 57,
-			"file" : "skill19a.png"
+			"frame": 57,
+			"file": "secskillA057.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 58,
-			"file" : "skill19b.png"
+			"frame": 58,
+			"file": "secskillA058.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 59,
-			"file" : "skill19c.png"
+			"frame": 59,
+			"file": "secskillA059.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 60,
-			"file" : "skill20a.png"
+			"frame": 60,
+			"file": "secskillA060.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 61,
-			"file" : "skill20b.png"
+			"frame": 61,
+			"file": "secskillA061.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 62,
-			"file" : "skill20c.png"
+			"frame": 62,
+			"file": "secskillA062.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 63,
-			"file" : "skill21a.png"
+			"frame": 63,
+			"file": "secskillA063.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 64,
-			"file" : "skill21b.png"
+			"frame": 64,
+			"file": "secskillA064.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 65,
-			"file" : "skill21c.png"
+			"frame": 65,
+			"file": "secskillA065.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 66,
-			"file" : "skill22a.png"
+			"frame": 66,
+			"file": "secskillA066.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 67,
-			"file" : "skill22b.png"
+			"frame": 67,
+			"file": "secskillA067.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 68,
-			"file" : "skill22c.png"
+			"frame": 68,
+			"file": "secskillA068.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 69,
-			"file" : "skill23a.png"
+			"frame": 69,
+			"file": "secskillA069.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 70,
-			"file" : "skill23b.png"
+			"frame": 70,
+			"file": "secskillA070.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 71,
-			"file" : "skill23c.png"
+			"frame": 71,
+			"file": "secskillA071.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 72,
-			"file" : "skill24a.png"
+			"frame": 72,
+			"file": "secskillA072.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 73,
-			"file" : "skill24b.png"
+			"frame": 73,
+			"file": "secskillA073.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 74,
-			"file" : "skill24c.png"
+			"frame": 74,
+			"file": "secskillA074.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 75,
-			"file" : "skill25a.png"
+			"frame": 75,
+			"file": "secskillA075.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 76,
-			"file" : "skill25b.png"
+			"frame": 76,
+			"file": "secskillA076.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 77,
-			"file" : "skill25c.png"
+			"frame": 77,
+			"file": "secskillA077.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 78,
-			"file" : "skill26a.png"
+			"frame": 78,
+			"file": "secskillA078.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 79,
-			"file" : "skill26b.png"
+			"frame": 79,
+			"file": "secskillA079.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 80,
-			"file" : "skill26c.png"
+			"frame": 80,
+			"file": "secskillA080.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 81,
-			"file" : "skill27a.png"
+			"frame": 81,
+			"file": "secskillA081.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 82,
-			"file" : "skill27b.png"
+			"frame": 82,
+			"file": "secskillA082.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 83,
-			"file" : "skill27c.png"
+			"frame": 83,
+			"file": "secskillA083.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 84,
-			"file" : "skill28a.png"
+			"frame": 84,
+			"file": "secskillA084.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 85,
-			"file" : "skill28b.png"
+			"frame": 85,
+			"file": "secskillA085.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 86,
-			"file" : "skill28c.png"
+			"frame": 86,
+			"file": "secskillA086.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 87,
-			"file" : "intf44_1.png"
+			"frame": 87,
+			"file": "secskillA087.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 88,
-			"file" : "intf44_2.png"
+			"frame": 88,
+			"file": "secskillA088.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 89,
-			"file" : "intf44_3.png"
+			"frame": 89,
+			"file": "secskillA089.png"
+		},
+		{
+			"frame": 90,
+			"file": "secskillA090.png"
+		},
+		{
+			"frame": 91,
+			"file": "secskillA091.png"
+		},
+		{
+			"frame": 92,
+			"file": "secskillA092.png"
 		}
 	]
 }

@@ -1,840 +1,673 @@
 {
-	"basepath" : "artifact/",
-	"images" : [
+	"basepath": "artifact/",
+	"images": [
 		{
-			"group" : 0,
-			"frame" : 0,
-			"file" : "ArtIm000.png"
+			"frame": 0,
+			"file": "artifactA000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 1,
-			"file" : "ArtIm001.png"
+			"frame": 1,
+			"file": "artifactA001.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 2,
-			"file" : "ArtIm002.png"
+			"frame": 2,
+			"file": "artifactA002.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 3,
-			"file" : "ArtIm003.png"
+			"frame": 3,
+			"file": "artifactA003.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 4,
-			"file" : "ArtIm004.png"
+			"frame": 4,
+			"file": "artifactA004.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 5,
-			"file" : "ArtIm005.png"
+			"frame": 5,
+			"file": "artifactA005.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 6,
-			"file" : "ArtIm006.png"
+			"frame": 6,
+			"file": "artifactA006.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 7,
-			"file" : "ArtIm007.png"
+			"frame": 7,
+			"file": "artifactA007.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 8,
-			"file" : "ArtIm008.png"
+			"frame": 8,
+			"file": "artifactA008.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 9,
-			"file" : "ArtIm009.png"
+			"frame": 9,
+			"file": "artifactA009.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 10,
-			"file" : "ArtIm010.png"
+			"frame": 10,
+			"file": "artifactA010.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 11,
-			"file" : "ArtIm011.png"
+			"frame": 11,
+			"file": "artifactA011.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 12,
-			"file" : "ArtIm012.png"
+			"frame": 12,
+			"file": "artifactA012.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 13,
-			"file" : "ArtIm013.png"
+			"frame": 13,
+			"file": "artifactA013.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 14,
-			"file" : "ArtIm014.png"
+			"frame": 14,
+			"file": "artifactA014.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 15,
-			"file" : "ArtIm015.png"
+			"frame": 15,
+			"file": "artifactA015.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 16,
-			"file" : "ArtIm016.png"
+			"frame": 16,
+			"file": "artifactA016.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 17,
-			"file" : "ArtIm017.png"
+			"frame": 17,
+			"file": "artifactA017.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 18,
-			"file" : "ArtIm018.png"
+			"frame": 18,
+			"file": "artifactA018.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 19,
-			"file" : "ArtIm019.png"
+			"frame": 19,
+			"file": "artifactA019.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 20,
-			"file" : "ArtIm020.png"
+			"frame": 20,
+			"file": "artifactA020.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 21,
-			"file" : "ArtIm021.png"
+			"frame": 21,
+			"file": "artifactA021.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 22,
-			"file" : "ArtIm022.png"
+			"frame": 22,
+			"file": "artifactA022.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 23,
-			"file" : "ArtIm023.png"
+			"frame": 23,
+			"file": "artifactA023.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 24,
-			"file" : "ArtIm024.png"
+			"frame": 24,
+			"file": "artifactA024.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 25,
-			"file" : "ArtIm025.png"
+			"frame": 25,
+			"file": "artifactA025.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 26,
-			"file" : "ArtIm026.png"
+			"frame": 26,
+			"file": "artifactA026.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 27,
-			"file" : "ArtIm027.png"
+			"frame": 27,
+			"file": "artifactA027.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 28,
-			"file" : "ArtIm028.png"
+			"frame": 28,
+			"file": "artifactA028.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 29,
-			"file" : "ArtIm029.png"
+			"frame": 29,
+			"file": "artifactA029.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 30,
-			"file" : "ArtIm030.png"
+			"frame": 30,
+			"file": "artifactA030.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 31,
-			"file" : "ArtIm031.png"
+			"frame": 31,
+			"file": "artifactA031.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 32,
-			"file" : "ArtIm032.png"
+			"frame": 32,
+			"file": "artifactA032.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 33,
-			"file" : "ArtIm033.png"
+			"frame": 33,
+			"file": "artifactA033.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 34,
-			"file" : "ArtIm034.png"
+			"frame": 34,
+			"file": "artifactA034.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 35,
-			"file" : "ArtIm035.png"
+			"frame": 35,
+			"file": "artifactA035.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 36,
-			"file" : "ArtIm036.png"
+			"frame": 36,
+			"file": "artifactA036.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 37,
-			"file" : "ArtIm037.png"
+			"frame": 37,
+			"file": "artifactA037.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 38,
-			"file" : "ArtIm038.png"
+			"frame": 38,
+			"file": "artifactA038.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 39,
-			"file" : "ArtIm039.png"
+			"frame": 39,
+			"file": "artifactA039.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 40,
-			"file" : "ArtIm040.png"
+			"frame": 40,
+			"file": "artifactA040.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 41,
-			"file" : "ArtIm041.png"
+			"frame": 41,
+			"file": "artifactA041.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 42,
-			"file" : "ArtIm042.png"
+			"frame": 42,
+			"file": "artifactA042.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 43,
-			"file" : "ArtIm043.png"
+			"frame": 43,
+			"file": "artifactA043.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 44,
-			"file" : "ArtIm044.png"
+			"frame": 44,
+			"file": "artifactA044.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 45,
-			"file" : "ArtIm045.png"
+			"frame": 45,
+			"file": "artifactA045.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 46,
-			"file" : "ArtIm046.png"
+			"frame": 46,
+			"file": "artifactA046.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 47,
-			"file" : "ArtIm047.png"
+			"frame": 47,
+			"file": "artifactA047.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 48,
-			"file" : "ArtIm048.png"
+			"frame": 48,
+			"file": "artifactA048.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 49,
-			"file" : "ArtIm049.png"
+			"frame": 49,
+			"file": "artifactA049.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 50,
-			"file" : "ArtIm050.png"
+			"frame": 50,
+			"file": "artifactA050.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 51,
-			"file" : "ArtIm051.png"
+			"frame": 51,
+			"file": "artifactA051.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 52,
-			"file" : "ArtIm052.png"
+			"frame": 52,
+			"file": "artifactA052.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 53,
-			"file" : "ArtIm053.png"
+			"frame": 53,
+			"file": "artifactA053.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 54,
-			"file" : "ArtIm054.png"
+			"frame": 54,
+			"file": "artifactA054.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 55,
-			"file" : "ArtIm055.png"
+			"frame": 55,
+			"file": "artifactA055.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 56,
-			"file" : "ArtIm056.png"
+			"frame": 56,
+			"file": "artifactA056.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 57,
-			"file" : "ArtIm057.png"
+			"frame": 57,
+			"file": "artifactA057.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 58,
-			"file" : "ArtIm058.png"
+			"frame": 58,
+			"file": "artifactA058.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 59,
-			"file" : "ArtIm059.png"
+			"frame": 59,
+			"file": "artifactA059.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 60,
-			"file" : "ArtIm060.png"
+			"frame": 60,
+			"file": "artifactA060.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 61,
-			"file" : "ArtIm061.png"
+			"frame": 61,
+			"file": "artifactA061.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 62,
-			"file" : "ArtIm062.png"
+			"frame": 62,
+			"file": "artifactA062.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 63,
-			"file" : "ArtIm063.png"
+			"frame": 63,
+			"file": "artifactA063.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 64,
-			"file" : "ArtIm064.png"
+			"frame": 64,
+			"file": "artifactA064.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 65,
-			"file" : "ArtIm065.png"
+			"frame": 65,
+			"file": "artifactA065.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 66,
-			"file" : "ArtIm066.png"
+			"frame": 66,
+			"file": "artifactA066.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 67,
-			"file" : "ArtIm067.png"
+			"frame": 67,
+			"file": "artifactA067.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 68,
-			"file" : "ArtIm068.png"
+			"frame": 68,
+			"file": "artifactA068.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 69,
-			"file" : "ArtIm069.png"
+			"frame": 69,
+			"file": "artifactA069.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 70,
-			"file" : "ArtIm070.png"
+			"frame": 70,
+			"file": "artifactA070.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 71,
-			"file" : "ArtIm071.png"
+			"frame": 71,
+			"file": "artifactA071.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 72,
-			"file" : "ArtIm072.png"
+			"frame": 72,
+			"file": "artifactA072.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 73,
-			"file" : "ArtIm073.png"
+			"frame": 73,
+			"file": "artifactA073.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 74,
-			"file" : "ArtIm074.png"
+			"frame": 74,
+			"file": "artifactA074.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 75,
-			"file" : "ArtIm075.png"
+			"frame": 75,
+			"file": "artifactA075.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 76,
-			"file" : "ArtIm076.png"
+			"frame": 76,
+			"file": "artifactA076.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 77,
-			"file" : "ArtIm077.png"
+			"frame": 77,
+			"file": "artifactA077.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 78,
-			"file" : "ArtIm078.png"
+			"frame": 78,
+			"file": "artifactA078.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 79,
-			"file" : "ArtIm079.png"
+			"frame": 79,
+			"file": "artifactA079.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 80,
-			"file" : "ArtIm080.png"
+			"frame": 80,
+			"file": "artifactA080.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 81,
-			"file" : "ArtIm081.png"
+			"frame": 81,
+			"file": "artifactA081.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 82,
-			"file" : "ArtIm082.png"
+			"frame": 82,
+			"file": "artifactA082.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 83,
-			"file" : "ArtIm083.png"
+			"frame": 83,
+			"file": "artifactA083.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 84,
-			"file" : "ArtIm084.png"
+			"frame": 84,
+			"file": "artifactA084.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 85,
-			"file" : "ArtIm085.png"
+			"frame": 85,
+			"file": "artifactA085.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 86,
-			"file" : "ArtIm086.png"
+			"frame": 86,
+			"file": "artifactA086.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 87,
-			"file" : "ArtIm087.png"
+			"frame": 87,
+			"file": "artifactA087.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 88,
-			"file" : "ArtIm088.png"
+			"frame": 88,
+			"file": "artifactA088.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 89,
-			"file" : "ArtIm089.png"
+			"frame": 89,
+			"file": "artifactA089.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 90,
-			"file" : "ArtIm090.png"
+			"frame": 90,
+			"file": "artifactA090.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 91,
-			"file" : "ArtIm091.png"
+			"frame": 91,
+			"file": "artifactA091.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 92,
-			"file" : "ArtIm092.png"
+			"frame": 92,
+			"file": "artifactA092.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 93,
-			"file" : "ArtIm093.png"
+			"frame": 93,
+			"file": "artifactA093.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 94,
-			"file" : "ArtIm094.png"
+			"frame": 94,
+			"file": "artifactA094.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 95,
-			"file" : "ArtIm095.png"
+			"frame": 95,
+			"file": "artifactA095.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 96,
-			"file" : "ArtIm096.png"
+			"frame": 96,
+			"file": "artifactA096.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 97,
-			"file" : "ArtIm097.png"
+			"frame": 97,
+			"file": "artifactA097.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 98,
-			"file" : "ArtIm098.png"
+			"frame": 98,
+			"file": "artifactA098.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 99,
-			"file" : "ArtIm099.png"
+			"frame": 99,
+			"file": "artifactA099.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 100,
-			"file" : "ArtIm100.png"
+			"frame": 100,
+			"file": "artifactA100.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 101,
-			"file" : "ArtIm101.png"
+			"frame": 101,
+			"file": "artifactA101.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 102,
-			"file" : "ArtIm102.png"
+			"frame": 102,
+			"file": "artifactA102.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 103,
-			"file" : "ArtIm103.png"
+			"frame": 103,
+			"file": "artifactA103.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 104,
-			"file" : "ArtIm104.png"
+			"frame": 104,
+			"file": "artifactA104.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 105,
-			"file" : "ArtIm105.png"
+			"frame": 105,
+			"file": "artifactA105.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 106,
-			"file" : "ArtIm106.png"
+			"frame": 106,
+			"file": "artifactA106.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 107,
-			"file" : "ArtIm107.png"
+			"frame": 107,
+			"file": "artifactA107.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 108,
-			"file" : "ArtIm108.png"
+			"frame": 108,
+			"file": "artifactA108.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 109,
-			"file" : "ArtIm109.png"
+			"frame": 109,
+			"file": "artifactA109.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 110,
-			"file" : "ArtIm110.png"
+			"frame": 110,
+			"file": "artifactA110.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 111,
-			"file" : "ArtIm111.png"
+			"frame": 111,
+			"file": "artifactA111.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 112,
-			"file" : "ArtIm112.png"
+			"frame": 112,
+			"file": "artifactA112.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 113,
-			"file" : "ArtIm113.png"
+			"frame": 113,
+			"file": "artifactA113.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 114,
-			"file" : "ArtIm114.png"
+			"frame": 114,
+			"file": "artifactA114.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 115,
-			"file" : "ArtIm115.png"
+			"frame": 115,
+			"file": "artifactA115.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 116,
-			"file" : "ArtIm116.png"
+			"frame": 116,
+			"file": "artifactA116.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 117,
-			"file" : "ArtIm117.png"
+			"frame": 117,
+			"file": "artifactA117.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 118,
-			"file" : "ArtIm118.png"
+			"frame": 118,
+			"file": "artifactA118.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 119,
-			"file" : "ArtIm119.png"
+			"frame": 119,
+			"file": "artifactA119.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 120,
-			"file" : "ArtIm120.png"
+			"frame": 120,
+			"file": "artifactA120.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 121,
-			"file" : "ArtIm121.png"
+			"frame": 121,
+			"file": "artifactA121.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 122,
-			"file" : "ArtIm122.png"
+			"frame": 122,
+			"file": "artifactA122.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 123,
-			"file" : "ArtIm123.png"
+			"frame": 123,
+			"file": "artifactA123.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 124,
-			"file" : "ArtIm124.png"
+			"frame": 124,
+			"file": "artifactA124.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 125,
-			"file" : "ArtIm125.png"
+			"frame": 125,
+			"file": "artifactA125.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 126,
-			"file" : "ArtIm126.png"
+			"frame": 126,
+			"file": "artifactA126.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 127,
-			"file" : "ArtIm127.png"
+			"frame": 127,
+			"file": "artifactA127.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 128,
-			"file" : "ArtIm128.png"
+			"frame": 128,
+			"file": "artifactA128.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 129,
-			"file" : "ArtIm129.png"
+			"frame": 129,
+			"file": "artifactA129.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 130,
-			"file" : "ArtIm130.png"
+			"frame": 130,
+			"file": "artifactA130.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 131,
-			"file" : "ArtIm131.png"
+			"frame": 131,
+			"file": "artifactA131.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 132,
-			"file" : "ArtIm132.png"
+			"frame": 132,
+			"file": "artifactA132.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 133,
-			"file" : "ArtIm133.png"
+			"frame": 133,
+			"file": "artifactA133.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 134,
-			"file" : "ArtIm134.png"
+			"frame": 134,
+			"file": "artifactA134.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 135,
-			"file" : "ArtIm135.png"
+			"frame": 135,
+			"file": "artifactA135.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 136,
-			"file" : "ArtIm136.png"
+			"frame": 136,
+			"file": "artifactA136.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 137,
-			"file" : "ArtIm137.png"
+			"frame": 137,
+			"file": "artifactA137.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 138,
-			"file" : "ArtIm138.png"
+			"frame": 138,
+			"file": "artifactA138.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 139,
-			"file" : "ArtIm139.png"
+			"frame": 139,
+			"file": "artifactA139.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 140,
-			"file" : "ArtIm140.png"
+			"frame": 140,
+			"file": "artifactA140.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 141,
-			"file" : "ArtIm141.png"
+			"frame": 141,
+			"file": "artifactA141.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 142,
-			"file" : "ArtIm142.png"
+			"frame": 142,
+			"file": "artifactA142.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 143,
-			"file" : "ArtIm143.png"
+			"frame": 143,
+			"file": "artifactA143.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 144,
-			"file" : "ArtIm144.png"
+			"frame": 144,
+			"file": "artifact_000.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 145,
-			"file" : "ArtIm145.png"
+			"frame": 145,
+			"file": "artifactA145.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 146,
-			"file" : "ArtIm146.png"
+			"frame": 146,
+			"file": "artifactA146.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 147,
-			"file" : "ArtIm147.png"
+			"frame": 147,
+			"file": "artifactA147.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 148,
-			"file" : "ArtIm148.png"
+			"frame": 148,
+			"file": "artifactA148.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 149,
-			"file" : "ArtIm149.png"
+			"frame": 149,
+			"file": "artifactA149.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 150,
-			"file" : "ArtIm150.png"
+			"frame": 150,
+			"file": "artifactA150.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 151,
-			"file" : "ArtIm151.png"
+			"frame": 151,
+			"file": "artifactA151.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 152,
-			"file" : "ArtIm152.png"
+			"frame": 152,
+			"file": "artifactA152.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 153,
-			"file" : "ArtIm153.png"
+			"frame": 153,
+			"file": "artifactA153.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 154,
-			"file" : "ArtIm154.png"
+			"frame": 154,
+			"file": "artifactA154.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 155,
-			"file" : "ArtIm155.png"
+			"frame": 155,
+			"file": "artifactA155.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 156,
-			"file" : "ArtIm156.png"
+			"frame": 156,
+			"file": "artifactA156.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 157,
-			"file" : "ArtIm157.png"
+			"frame": 157,
+			"file": "artifactA157.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 158,
-			"file" : "ArtIm158.png"
+			"frame": 158,
+			"file": "artifactA158.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 159,
-			"file" : "ArtIm159.png"
+			"frame": 159,
+			"file": "artifactA159.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 160,
-			"file" : "ArtIm160.png"
+			"frame": 160,
+			"file": "artifactA160.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 161,
-			"file" : "ArtIm161.png"
+			"frame": 161,
+			"file": "artifactA161.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 162,
-			"file" : "ArtIm162.png"
+			"frame": 162,
+			"file": "artifactA162.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 163,
-			"file" : "ArtIm163.png"
+			"frame": 163,
+			"file": "artifactA163.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 164,
-			"file" : "ArtIm164.png"
+			"frame": 164,
+			"file": "artifactA164.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 165,
-			"file" : "ArtIm165.png"
+			"frame": 165,
+			"file": "artifactA165.png"
 		},
 		{
-			"group" : 0,
-			"frame" : 166,
-			"file" : "ArtIm166.png"
+			"frame": 166,
+			"file": "artifact_000.png"
 		}
 	]
 }
