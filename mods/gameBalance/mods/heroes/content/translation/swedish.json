@@ -140,5 +140,16 @@
 	"hero.hota.cove.19dargem.specialty.description": "Kastar Luftsköld med effekt som ökar med 10% × (hjältenivå ÷ målnivå).",
 	"hero.hota.factory.01henrietta.specialty.description": "Ökar Kvickheten för alla Halvlingar och Halvlinggrenadjärer med 1 samt deras Attack‑ och Försvarsvärden med 10% för varje nivå (avrundat uppåt).",
 	"hero.hota.factory.02sam.specialty.description": "Ökar Kvickheten för alla Mekaniker och Ingenjörer med 1 samt deras Attack‑ och Försvarsvärden med 20% för varannan nivå (avrundat uppåt).",
-	"hero.hota.factory.03tancred.specialty.description": "Ökar Kvickheten för alla Revolvermän och Prisjägare med 1 samt deras Attack‑ och Försvarsvärden med 20% för var sjätte nivå (avrundat uppåt)."
+	"hero.hota.factory.03tancred.specialty.description": "Ökar Kvickheten för alla Revolvermän och Prisjägare med 1 samt deras Attack‑ och Försvarsvärden med 20% för var sjätte nivå (avrundat uppåt).",
+	"hero.hota.factory.11celestine.specialty.description": "Ökar Kvickheten för alla Bältdjur och Ledarbältdjur med 1 samt deras Attack‑ och Försvarsvärden med 20% för var tredje nivå (avrundat uppåt).",
+	"hero.hota.factory.12todd.specialty.description": "Ökar Kvickheten för alla Automatoner och Vaktautomatoner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
+	"hero.hota.factory.13agar.specialty.description": "Ökar Kvickheten för alla Sandmaskar och Olgoi‑Khorkhoi med 1 samt deras Attack‑ och Försvarsvärden med 20% för var femte nivå (avrundat uppåt).",
+	"hero.hota.factory.15wrathmont.specialty.description": "Kastar Raseri med effekt som ökar med 10% × (hjältenivå ÷ målnivå).",
+	"hero.hota.factory.16ziph.specialty.description": "Kastar Åskblixt med skada som ökar med 10% × (hjältenivå ÷ målnivå).",
+	"hero.hota.factory.17victoria.specialty.description": "Kastar Landmina med skada som ökar med 10% × (hjältenivå ÷ målnivå).",
+	"hero.hota.factory.19frederick.specialty.description": "Ökar Kvickheten för alla Automatoner och Vaktautomatoner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
+	"hero.hota.factory.umender.specialty.description": "Ökar Kvickheten för alla Automatoner och Vaktautomatoner med 1 samt deras Attack‑ och Försvarsvärden med 20% för var fjärde nivå (avrundat uppåt).",
+	"hero.hota.heroes.boyd.specialty.description": "Ökar Kvickheten för alla Skelett och Skelettkrigare med 1 samt deras Attack‑ och Försvarsvärden med 10% för varje nivå (avrundat uppåt).",
+	"hero.hota.heroes.kinkeria.specialty.description": "Får en bonus på 5% per färdighetsnivå till procentsatsen för Lärande‑färdigheten.",
+	"hero.hota.heroes.kydoimos.specialty.description": "Alla Drakar får +10 Attack och +10 Försvar."
 }
