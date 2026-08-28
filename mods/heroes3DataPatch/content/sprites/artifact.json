@@ -1,673 +1,673 @@
 {
-	"basepath": "artifact/",
-	"images": [
+	"basepath" : "artifact/",
+	"images" : [
 		{
-			"frame": 0,
-			"file": "artifactA000.png"
+			"frame" : 0,
+			"file" : "artifactA000.png"
 		},
 		{
-			"frame": 1,
-			"file": "artifactA001.png"
+			"frame" : 1,
+			"file" : "artifactA001.png"
 		},
 		{
-			"frame": 2,
-			"file": "artifactA002.png"
+			"frame" : 2,
+			"file" : "artifactA002.png"
 		},
 		{
-			"frame": 3,
-			"file": "artifactA003.png"
+			"frame" : 3,
+			"file" : "artifactA003.png"
 		},
 		{
-			"frame": 4,
-			"file": "artifactA004.png"
+			"frame" : 4,
+			"file" : "artifactA004.png"
 		},
 		{
-			"frame": 5,
-			"file": "artifactA005.png"
+			"frame" : 5,
+			"file" : "artifactA005.png"
 		},
 		{
-			"frame": 6,
-			"file": "artifactA006.png"
+			"frame" : 6,
+			"file" : "artifactA006.png"
 		},
 		{
-			"frame": 7,
-			"file": "artifactA007.png"
+			"frame" : 7,
+			"file" : "artifactA007.png"
 		},
 		{
-			"frame": 8,
-			"file": "artifactA008.png"
+			"frame" : 8,
+			"file" : "artifactA008.png"
 		},
 		{
-			"frame": 9,
-			"file": "artifactA009.png"
+			"frame" : 9,
+			"file" : "artifactA009.png"
 		},
 		{
-			"frame": 10,
-			"file": "artifactA010.png"
+			"frame" : 10,
+			"file" : "artifactA010.png"
 		},
 		{
-			"frame": 11,
-			"file": "artifactA011.png"
+			"frame" : 11,
+			"file" : "artifactA011.png"
 		},
 		{
-			"frame": 12,
-			"file": "artifactA012.png"
+			"frame" : 12,
+			"file" : "artifactA012.png"
 		},
 		{
-			"frame": 13,
-			"file": "artifactA013.png"
+			"frame" : 13,
+			"file" : "artifactA013.png"
 		},
 		{
-			"frame": 14,
-			"file": "artifactA014.png"
+			"frame" : 14,
+			"file" : "artifactA014.png"
 		},
 		{
-			"frame": 15,
-			"file": "artifactA015.png"
+			"frame" : 15,
+			"file" : "artifactA015.png"
 		},
 		{
-			"frame": 16,
-			"file": "artifactA016.png"
+			"frame" : 16,
+			"file" : "artifactA016.png"
 		},
 		{
-			"frame": 17,
-			"file": "artifactA017.png"
+			"frame" : 17,
+			"file" : "artifactA017.png"
 		},
 		{
-			"frame": 18,
-			"file": "artifactA018.png"
+			"frame" : 18,
+			"file" : "artifactA018.png"
 		},
 		{
-			"frame": 19,
-			"file": "artifactA019.png"
+			"frame" : 19,
+			"file" : "artifactA019.png"
 		},
 		{
-			"frame": 20,
-			"file": "artifactA020.png"
+			"frame" : 20,
+			"file" : "artifactA020.png"
 		},
 		{
-			"frame": 21,
-			"file": "artifactA021.png"
+			"frame" : 21,
+			"file" : "artifactA021.png"
 		},
 		{
-			"frame": 22,
-			"file": "artifactA022.png"
+			"frame" : 22,
+			"file" : "artifactA022.png"
 		},
 		{
-			"frame": 23,
-			"file": "artifactA023.png"
+			"frame" : 23,
+			"file" : "artifactA023.png"
 		},
 		{
-			"frame": 24,
-			"file": "artifactA024.png"
+			"frame" : 24,
+			"file" : "artifactA024.png"
 		},
 		{
-			"frame": 25,
-			"file": "artifactA025.png"
+			"frame" : 25,
+			"file" : "artifactA025.png"
 		},
 		{
-			"frame": 26,
-			"file": "artifactA026.png"
+			"frame" : 26,
+			"file" : "artifactA026.png"
 		},
 		{
-			"frame": 27,
-			"file": "artifactA027.png"
+			"frame" : 27,
+			"file" : "artifactA027.png"
 		},
 		{
-			"frame": 28,
-			"file": "artifactA028.png"
+			"frame" : 28,
+			"file" : "artifactA028.png"
 		},
 		{
-			"frame": 29,
-			"file": "artifactA029.png"
+			"frame" : 29,
+			"file" : "artifactA029.png"
 		},
 		{
-			"frame": 30,
-			"file": "artifactA030.png"
+			"frame" : 30,
+			"file" : "artifactA030.png"
 		},
 		{
-			"frame": 31,
-			"file": "artifactA031.png"
+			"frame" : 31,
+			"file" : "artifactA031.png"
 		},
 		{
-			"frame": 32,
-			"file": "artifactA032.png"
+			"frame" : 32,
+			"file" : "artifactA032.png"
 		},
 		{
-			"frame": 33,
-			"file": "artifactA033.png"
+			"frame" : 33,
+			"file" : "artifactA033.png"
 		},
 		{
-			"frame": 34,
-			"file": "artifactA034.png"
+			"frame" : 34,
+			"file" : "artifactA034.png"
 		},
 		{
-			"frame": 35,
-			"file": "artifactA035.png"
+			"frame" : 35,
+			"file" : "artifactA035.png"
 		},
 		{
-			"frame": 36,
-			"file": "artifactA036.png"
+			"frame" : 36,
+			"file" : "artifactA036.png"
 		},
 		{
-			"frame": 37,
-			"file": "artifactA037.png"
+			"frame" : 37,
+			"file" : "artifactA037.png"
 		},
 		{
-			"frame": 38,
-			"file": "artifactA038.png"
+			"frame" : 38,
+			"file" : "artifactA038.png"
 		},
 		{
-			"frame": 39,
-			"file": "artifactA039.png"
+			"frame" : 39,
+			"file" : "artifactA039.png"
 		},
 		{
-			"frame": 40,
-			"file": "artifactA040.png"
+			"frame" : 40,
+			"file" : "artifactA040.png"
 		},
 		{
-			"frame": 41,
-			"file": "artifactA041.png"
+			"frame" : 41,
+			"file" : "artifactA041.png"
 		},
 		{
-			"frame": 42,
-			"file": "artifactA042.png"
+			"frame" : 42,
+			"file" : "artifactA042.png"
 		},
 		{
-			"frame": 43,
-			"file": "artifactA043.png"
+			"frame" : 43,
+			"file" : "artifactA043.png"
 		},
 		{
-			"frame": 44,
-			"file": "artifactA044.png"
+			"frame" : 44,
+			"file" : "artifactA044.png"
 		},
 		{
-			"frame": 45,
-			"file": "artifactA045.png"
+			"frame" : 45,
+			"file" : "artifactA045.png"
 		},
 		{
-			"frame": 46,
-			"file": "artifactA046.png"
+			"frame" : 46,
+			"file" : "artifactA046.png"
 		},
 		{
-			"frame": 47,
-			"file": "artifactA047.png"
+			"frame" : 47,
+			"file" : "artifactA047.png"
 		},
 		{
-			"frame": 48,
-			"file": "artifactA048.png"
+			"frame" : 48,
+			"file" : "artifactA048.png"
 		},
 		{
-			"frame": 49,
-			"file": "artifactA049.png"
+			"frame" : 49,
+			"file" : "artifactA049.png"
 		},
 		{
-			"frame": 50,
-			"file": "artifactA050.png"
+			"frame" : 50,
+			"file" : "artifactA050.png"
 		},
 		{
-			"frame": 51,
-			"file": "artifactA051.png"
+			"frame" : 51,
+			"file" : "artifactA051.png"
 		},
 		{
-			"frame": 52,
-			"file": "artifactA052.png"
+			"frame" : 52,
+			"file" : "artifactA052.png"
 		},
 		{
-			"frame": 53,
-			"file": "artifactA053.png"
+			"frame" : 53,
+			"file" : "artifactA053.png"
 		},
 		{
-			"frame": 54,
-			"file": "artifactA054.png"
+			"frame" : 54,
+			"file" : "artifactA054.png"
 		},
 		{
-			"frame": 55,
-			"file": "artifactA055.png"
+			"frame" : 55,
+			"file" : "artifactA055.png"
 		},
 		{
-			"frame": 56,
-			"file": "artifactA056.png"
+			"frame" : 56,
+			"file" : "artifactA056.png"
 		},
 		{
-			"frame": 57,
-			"file": "artifactA057.png"
+			"frame" : 57,
+			"file" : "artifactA057.png"
 		},
 		{
-			"frame": 58,
-			"file": "artifactA058.png"
+			"frame" : 58,
+			"file" : "artifactA058.png"
 		},
 		{
-			"frame": 59,
-			"file": "artifactA059.png"
+			"frame" : 59,
+			"file" : "artifactA059.png"
 		},
 		{
-			"frame": 60,
-			"file": "artifactA060.png"
+			"frame" : 60,
+			"file" : "artifactA060.png"
 		},
 		{
-			"frame": 61,
-			"file": "artifactA061.png"
+			"frame" : 61,
+			"file" : "artifactA061.png"
 		},
 		{
-			"frame": 62,
-			"file": "artifactA062.png"
+			"frame" : 62,
+			"file" : "artifactA062.png"
 		},
 		{
-			"frame": 63,
-			"file": "artifactA063.png"
+			"frame" : 63,
+			"file" : "artifactA063.png"
 		},
 		{
-			"frame": 64,
-			"file": "artifactA064.png"
+			"frame" : 64,
+			"file" : "artifactA064.png"
 		},
 		{
-			"frame": 65,
-			"file": "artifactA065.png"
+			"frame" : 65,
+			"file" : "artifactA065.png"
 		},
 		{
-			"frame": 66,
-			"file": "artifactA066.png"
+			"frame" : 66,
+			"file" : "artifactA066.png"
 		},
 		{
-			"frame": 67,
-			"file": "artifactA067.png"
+			"frame" : 67,
+			"file" : "artifactA067.png"
 		},
 		{
-			"frame": 68,
-			"file": "artifactA068.png"
+			"frame" : 68,
+			"file" : "artifactA068.png"
 		},
 		{
-			"frame": 69,
-			"file": "artifactA069.png"
+			"frame" : 69,
+			"file" : "artifactA069.png"
 		},
 		{
-			"frame": 70,
-			"file": "artifactA070.png"
+			"frame" : 70,
+			"file" : "artifactA070.png"
 		},
 		{
-			"frame": 71,
-			"file": "artifactA071.png"
+			"frame" : 71,
+			"file" : "artifactA071.png"
 		},
 		{
-			"frame": 72,
-			"file": "artifactA072.png"
+			"frame" : 72,
+			"file" : "artifactA072.png"
 		},
 		{
-			"frame": 73,
-			"file": "artifactA073.png"
+			"frame" : 73,
+			"file" : "artifactA073.png"
 		},
 		{
-			"frame": 74,
-			"file": "artifactA074.png"
+			"frame" : 74,
+			"file" : "artifactA074.png"
 		},
 		{
-			"frame": 75,
-			"file": "artifactA075.png"
+			"frame" : 75,
+			"file" : "artifactA075.png"
 		},
 		{
-			"frame": 76,
-			"file": "artifactA076.png"
+			"frame" : 76,
+			"file" : "artifactA076.png"
 		},
 		{
-			"frame": 77,
-			"file": "artifactA077.png"
+			"frame" : 77,
+			"file" : "artifactA077.png"
 		},
 		{
-			"frame": 78,
-			"file": "artifactA078.png"
+			"frame" : 78,
+			"file" : "artifactA078.png"
 		},
 		{
-			"frame": 79,
-			"file": "artifactA079.png"
+			"frame" : 79,
+			"file" : "artifactA079.png"
 		},
 		{
-			"frame": 80,
-			"file": "artifactA080.png"
+			"frame" : 80,
+			"file" : "artifactA080.png"
 		},
 		{
-			"frame": 81,
-			"file": "artifactA081.png"
+			"frame" : 81,
+			"file" : "artifactA081.png"
 		},
 		{
-			"frame": 82,
-			"file": "artifactA082.png"
+			"frame" : 82,
+			"file" : "artifactA082.png"
 		},
 		{
-			"frame": 83,
-			"file": "artifactA083.png"
+			"frame" : 83,
+			"file" : "artifactA083.png"
 		},
 		{
-			"frame": 84,
-			"file": "artifactA084.png"
+			"frame" : 84,
+			"file" : "artifactA084.png"
 		},
 		{
-			"frame": 85,
-			"file": "artifactA085.png"
+			"frame" : 85,
+			"file" : "artifactA085.png"
 		},
 		{
-			"frame": 86,
-			"file": "artifactA086.png"
+			"frame" : 86,
+			"file" : "artifactA086.png"
 		},
 		{
-			"frame": 87,
-			"file": "artifactA087.png"
+			"frame" : 87,
+			"file" : "artifactA087.png"
 		},
 		{
-			"frame": 88,
-			"file": "artifactA088.png"
+			"frame" : 88,
+			"file" : "artifactA088.png"
 		},
 		{
-			"frame": 89,
-			"file": "artifactA089.png"
+			"frame" : 89,
+			"file" : "artifactA089.png"
 		},
 		{
-			"frame": 90,
-			"file": "artifactA090.png"
+			"frame" : 90,
+			"file" : "artifactA090.png"
 		},
 		{
-			"frame": 91,
-			"file": "artifactA091.png"
+			"frame" : 91,
+			"file" : "artifactA091.png"
 		},
 		{
-			"frame": 92,
-			"file": "artifactA092.png"
+			"frame" : 92,
+			"file" : "artifactA092.png"
 		},
 		{
-			"frame": 93,
-			"file": "artifactA093.png"
+			"frame" : 93,
+			"file" : "artifactA093.png"
 		},
 		{
-			"frame": 94,
-			"file": "artifactA094.png"
+			"frame" : 94,
+			"file" : "artifactA094.png"
 		},
 		{
-			"frame": 95,
-			"file": "artifactA095.png"
+			"frame" : 95,
+			"file" : "artifactA095.png"
 		},
 		{
-			"frame": 96,
-			"file": "artifactA096.png"
+			"frame" : 96,
+			"file" : "artifactA096.png"
 		},
 		{
-			"frame": 97,
-			"file": "artifactA097.png"
+			"frame" : 97,
+			"file" : "artifactA097.png"
 		},
 		{
-			"frame": 98,
-			"file": "artifactA098.png"
+			"frame" : 98,
+			"file" : "artifactA098.png"
 		},
 		{
-			"frame": 99,
-			"file": "artifactA099.png"
+			"frame" : 99,
+			"file" : "artifactA099.png"
 		},
 		{
-			"frame": 100,
-			"file": "artifactA100.png"
+			"frame" : 100,
+			"file" : "artifactA100.png"
 		},
 		{
-			"frame": 101,
-			"file": "artifactA101.png"
+			"frame" : 101,
+			"file" : "artifactA101.png"
 		},
 		{
-			"frame": 102,
-			"file": "artifactA102.png"
+			"frame" : 102,
+			"file" : "artifactA102.png"
 		},
 		{
-			"frame": 103,
-			"file": "artifactA103.png"
+			"frame" : 103,
+			"file" : "artifactA103.png"
 		},
 		{
-			"frame": 104,
-			"file": "artifactA104.png"
+			"frame" : 104,
+			"file" : "artifactA104.png"
 		},
 		{
-			"frame": 105,
-			"file": "artifactA105.png"
+			"frame" : 105,
+			"file" : "artifactA105.png"
 		},
 		{
-			"frame": 106,
-			"file": "artifactA106.png"
+			"frame" : 106,
+			"file" : "artifactA106.png"
 		},
 		{
-			"frame": 107,
-			"file": "artifactA107.png"
+			"frame" : 107,
+			"file" : "artifactA107.png"
 		},
 		{
-			"frame": 108,
-			"file": "artifactA108.png"
+			"frame" : 108,
+			"file" : "artifactA108.png"
 		},
 		{
-			"frame": 109,
-			"file": "artifactA109.png"
+			"frame" : 109,
+			"file" : "artifactA109.png"
 		},
 		{
-			"frame": 110,
-			"file": "artifactA110.png"
+			"frame" : 110,
+			"file" : "artifactA110.png"
 		},
 		{
-			"frame": 111,
-			"file": "artifactA111.png"
+			"frame" : 111,
+			"file" : "artifactA111.png"
 		},
 		{
-			"frame": 112,
-			"file": "artifactA112.png"
+			"frame" : 112,
+			"file" : "artifactA112.png"
 		},
 		{
-			"frame": 113,
-			"file": "artifactA113.png"
+			"frame" : 113,
+			"file" : "artifactA113.png"
 		},
 		{
-			"frame": 114,
-			"file": "artifactA114.png"
+			"frame" : 114,
+			"file" : "artifactA114.png"
 		},
 		{
-			"frame": 115,
-			"file": "artifactA115.png"
+			"frame" : 115,
+			"file" : "artifactA115.png"
 		},
 		{
-			"frame": 116,
-			"file": "artifactA116.png"
+			"frame" : 116,
+			"file" : "artifactA116.png"
 		},
 		{
-			"frame": 117,
-			"file": "artifactA117.png"
+			"frame" : 117,
+			"file" : "artifactA117.png"
 		},
 		{
-			"frame": 118,
-			"file": "artifactA118.png"
+			"frame" : 118,
+			"file" : "artifactA118.png"
 		},
 		{
-			"frame": 119,
-			"file": "artifactA119.png"
+			"frame" : 119,
+			"file" : "artifactA119.png"
 		},
 		{
-			"frame": 120,
-			"file": "artifactA120.png"
+			"frame" : 120,
+			"file" : "artifactA120.png"
 		},
 		{
-			"frame": 121,
-			"file": "artifactA121.png"
+			"frame" : 121,
+			"file" : "artifactA121.png"
 		},
 		{
-			"frame": 122,
-			"file": "artifactA122.png"
+			"frame" : 122,
+			"file" : "artifactA122.png"
 		},
 		{
-			"frame": 123,
-			"file": "artifactA123.png"
+			"frame" : 123,
+			"file" : "artifactA123.png"
 		},
 		{
-			"frame": 124,
-			"file": "artifactA124.png"
+			"frame" : 124,
+			"file" : "artifactA124.png"
 		},
 		{
-			"frame": 125,
-			"file": "artifactA125.png"
+			"frame" : 125,
+			"file" : "artifactA125.png"
 		},
 		{
-			"frame": 126,
-			"file": "artifactA126.png"
+			"frame" : 126,
+			"file" : "artifactA126.png"
 		},
 		{
-			"frame": 127,
-			"file": "artifactA127.png"
+			"frame" : 127,
+			"file" : "artifactA127.png"
 		},
 		{
-			"frame": 128,
-			"file": "artifactA128.png"
+			"frame" : 128,
+			"file" : "artifactA128.png"
 		},
 		{
-			"frame": 129,
-			"file": "artifactA129.png"
+			"frame" : 129,
+			"file" : "artifactA129.png"
 		},
 		{
-			"frame": 130,
-			"file": "artifactA130.png"
+			"frame" : 130,
+			"file" : "artifactA130.png"
 		},
 		{
-			"frame": 131,
-			"file": "artifactA131.png"
+			"frame" : 131,
+			"file" : "artifactA131.png"
 		},
 		{
-			"frame": 132,
-			"file": "artifactA132.png"
+			"frame" : 132,
+			"file" : "artifactA132.png"
 		},
 		{
-			"frame": 133,
-			"file": "artifactA133.png"
+			"frame" : 133,
+			"file" : "artifactA133.png"
 		},
 		{
-			"frame": 134,
-			"file": "artifactA134.png"
+			"frame" : 134,
+			"file" : "artifactA134.png"
 		},
 		{
-			"frame": 135,
-			"file": "artifactA135.png"
+			"frame" : 135,
+			"file" : "artifactA135.png"
 		},
 		{
-			"frame": 136,
-			"file": "artifactA136.png"
+			"frame" : 136,
+			"file" : "artifactA136.png"
 		},
 		{
-			"frame": 137,
-			"file": "artifactA137.png"
+			"frame" : 137,
+			"file" : "artifactA137.png"
 		},
 		{
-			"frame": 138,
-			"file": "artifactA138.png"
+			"frame" : 138,
+			"file" : "artifactA138.png"
 		},
 		{
-			"frame": 139,
-			"file": "artifactA139.png"
+			"frame" : 139,
+			"file" : "artifactA139.png"
 		},
 		{
-			"frame": 140,
-			"file": "artifactA140.png"
+			"frame" : 140,
+			"file" : "artifactA140.png"
 		},
 		{
-			"frame": 141,
-			"file": "artifactA141.png"
+			"frame" : 141,
+			"file" : "artifactA141.png"
 		},
 		{
-			"frame": 142,
-			"file": "artifactA142.png"
+			"frame" : 142,
+			"file" : "artifactA142.png"
 		},
 		{
-			"frame": 143,
-			"file": "artifactA143.png"
+			"frame" : 143,
+			"file" : "artifactA143.png"
 		},
 		{
-			"frame": 144,
-			"file": "artifact_000.png"
+			"frame" : 144,
+			"file" : "artifact_000.png"
 		},
 		{
-			"frame": 145,
-			"file": "artifactA145.png"
+			"frame" : 145,
+			"file" : "artifactA145.png"
 		},
 		{
-			"frame": 146,
-			"file": "artifactA146.png"
+			"frame" : 146,
+			"file" : "artifactA146.png"
 		},
 		{
-			"frame": 147,
-			"file": "artifactA147.png"
+			"frame" : 147,
+			"file" : "artifactA147.png"
 		},
 		{
-			"frame": 148,
-			"file": "artifactA148.png"
+			"frame" : 148,
+			"file" : "artifactA148.png"
 		},
 		{
-			"frame": 149,
-			"file": "artifactA149.png"
+			"frame" : 149,
+			"file" : "artifactA149.png"
 		},
 		{
-			"frame": 150,
-			"file": "artifactA150.png"
+			"frame" : 150,
+			"file" : "artifactA150.png"
 		},
 		{
-			"frame": 151,
-			"file": "artifactA151.png"
+			"frame" : 151,
+			"file" : "artifactA151.png"
 		},
 		{
-			"frame": 152,
-			"file": "artifactA152.png"
+			"frame" : 152,
+			"file" : "artifactA152.png"
 		},
 		{
-			"frame": 153,
-			"file": "artifactA153.png"
+			"frame" : 153,
+			"file" : "artifactA153.png"
 		},
 		{
-			"frame": 154,
-			"file": "artifactA154.png"
+			"frame" : 154,
+			"file" : "artifactA154.png"
 		},
 		{
-			"frame": 155,
-			"file": "artifactA155.png"
+			"frame" : 155,
+			"file" : "artifactA155.png"
 		},
 		{
-			"frame": 156,
-			"file": "artifactA156.png"
+			"frame" : 156,
+			"file" : "artifactA156.png"
 		},
 		{
-			"frame": 157,
-			"file": "artifactA157.png"
+			"frame" : 157,
+			"file" : "artifactA157.png"
 		},
 		{
-			"frame": 158,
-			"file": "artifactA158.png"
+			"frame" : 158,
+			"file" : "artifactA158.png"
 		},
 		{
-			"frame": 159,
-			"file": "artifactA159.png"
+			"frame" : 159,
+			"file" : "artifactA159.png"
 		},
 		{
-			"frame": 160,
-			"file": "artifactA160.png"
+			"frame" : 160,
+			"file" : "artifactA160.png"
 		},
 		{
-			"frame": 161,
-			"file": "artifactA161.png"
+			"frame" : 161,
+			"file" : "artifactA161.png"
 		},
 		{
-			"frame": 162,
-			"file": "artifactA162.png"
+			"frame" : 162,
+			"file" : "artifactA162.png"
 		},
 		{
-			"frame": 163,
-			"file": "artifactA163.png"
+			"frame" : 163,
+			"file" : "artifactA163.png"
 		},
 		{
-			"frame": 164,
-			"file": "artifactA164.png"
+			"frame" : 164,
+			"file" : "artifactA164.png"
 		},
 		{
-			"frame": 165,
-			"file": "artifactA165.png"
+			"frame" : 165,
+			"file" : "artifactA165.png"
 		},
 		{
-			"frame": 166,
-			"file": "artifact_000.png"
+			"frame" : 166,
+			"file" : "artifact_000.png"
 		}
 	]
 }

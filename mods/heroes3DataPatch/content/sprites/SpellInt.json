@@ -1,373 +1,373 @@
 {
-	"basepath": "SpellInt/",
-	"images": [
+	"basepath" : "SpellInt/",
+	"images" : [
 		{
-			"frame": 0,
-			"file": "SpellInt_000.png"
+			"frame" : 0,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 1,
-			"file": "SpellIntA001.png"
+			"frame" : 1,
+			"file" : "SpellIntA001.png"
 		},
 		{
-			"frame": 2,
-			"file": "SpellIntA002.png"
+			"frame" : 2,
+			"file" : "SpellIntA002.png"
 		},
 		{
-			"frame": 3,
-			"file": "SpellIntA003.png"
+			"frame" : 3,
+			"file" : "SpellIntA003.png"
 		},
 		{
-			"frame": 4,
-			"file": "SpellIntA004.png"
+			"frame" : 4,
+			"file" : "SpellIntA004.png"
 		},
 		{
-			"frame": 5,
-			"file": "SpellIntA005.png"
+			"frame" : 5,
+			"file" : "SpellIntA005.png"
 		},
 		{
-			"frame": 6,
-			"file": "SpellIntA006.png"
+			"frame" : 6,
+			"file" : "SpellIntA006.png"
 		},
 		{
-			"frame": 7,
-			"file": "SpellIntA007.png"
+			"frame" : 7,
+			"file" : "SpellIntA007.png"
 		},
 		{
-			"frame": 8,
-			"file": "SpellIntA008.png"
+			"frame" : 8,
+			"file" : "SpellIntA008.png"
 		},
 		{
-			"frame": 9,
-			"file": "SpellIntA009.png"
+			"frame" : 9,
+			"file" : "SpellIntA009.png"
 		},
 		{
-			"frame": 10,
-			"file": "SpellIntA010.png"
+			"frame" : 10,
+			"file" : "SpellIntA010.png"
 		},
 		{
-			"frame": 11,
-			"file": "SpellIntA011.png"
+			"frame" : 11,
+			"file" : "SpellIntA011.png"
 		},
 		{
-			"frame": 12,
-			"file": "SpellIntA012.png"
+			"frame" : 12,
+			"file" : "SpellIntA012.png"
 		},
 		{
-			"frame": 13,
-			"file": "SpellIntA013.png"
+			"frame" : 13,
+			"file" : "SpellIntA013.png"
 		},
 		{
-			"frame": 14,
-			"file": "SpellIntA014.png"
+			"frame" : 14,
+			"file" : "SpellIntA014.png"
 		},
 		{
-			"frame": 15,
-			"file": "SpellIntA015.png"
+			"frame" : 15,
+			"file" : "SpellIntA015.png"
 		},
 		{
-			"frame": 16,
-			"file": "SpellIntA016.png"
+			"frame" : 16,
+			"file" : "SpellIntA016.png"
 		},
 		{
-			"frame": 17,
-			"file": "SpellIntA017.png"
+			"frame" : 17,
+			"file" : "SpellIntA017.png"
 		},
 		{
-			"frame": 18,
-			"file": "SpellIntA018.png"
+			"frame" : 18,
+			"file" : "SpellIntA018.png"
 		},
 		{
-			"frame": 19,
-			"file": "SpellIntA019.png"
+			"frame" : 19,
+			"file" : "SpellIntA019.png"
 		},
 		{
-			"frame": 20,
-			"file": "SpellIntA020.png"
+			"frame" : 20,
+			"file" : "SpellIntA020.png"
 		},
 		{
-			"frame": 21,
-			"file": "SpellIntA021.png"
+			"frame" : 21,
+			"file" : "SpellIntA021.png"
 		},
 		{
-			"frame": 22,
-			"file": "SpellIntA022.png"
+			"frame" : 22,
+			"file" : "SpellIntA022.png"
 		},
 		{
-			"frame": 23,
-			"file": "SpellIntA023.png"
+			"frame" : 23,
+			"file" : "SpellIntA023.png"
 		},
 		{
-			"frame": 24,
-			"file": "SpellIntA024.png"
+			"frame" : 24,
+			"file" : "SpellIntA024.png"
 		},
 		{
-			"frame": 25,
-			"file": "SpellIntA025.png"
+			"frame" : 25,
+			"file" : "SpellIntA025.png"
 		},
 		{
-			"frame": 26,
-			"file": "SpellIntA026.png"
+			"frame" : 26,
+			"file" : "SpellIntA026.png"
 		},
 		{
-			"frame": 27,
-			"file": "SpellIntA027.png"
+			"frame" : 27,
+			"file" : "SpellIntA027.png"
 		},
 		{
-			"frame": 28,
-			"file": "SpellIntA028.png"
+			"frame" : 28,
+			"file" : "SpellIntA028.png"
 		},
 		{
-			"frame": 29,
-			"file": "SpellIntA029.png"
+			"frame" : 29,
+			"file" : "SpellIntA029.png"
 		},
 		{
-			"frame": 30,
-			"file": "SpellIntA030.png"
+			"frame" : 30,
+			"file" : "SpellIntA030.png"
 		},
 		{
-			"frame": 31,
-			"file": "SpellIntA031.png"
+			"frame" : 31,
+			"file" : "SpellIntA031.png"
 		},
 		{
-			"frame": 32,
-			"file": "SpellIntA032.png"
+			"frame" : 32,
+			"file" : "SpellIntA032.png"
 		},
 		{
-			"frame": 33,
-			"file": "SpellIntA033.png"
+			"frame" : 33,
+			"file" : "SpellIntA033.png"
 		},
 		{
-			"frame": 34,
-			"file": "SpellIntA034.png"
+			"frame" : 34,
+			"file" : "SpellIntA034.png"
 		},
 		{
-			"frame": 35,
-			"file": "SpellIntA035.png"
+			"frame" : 35,
+			"file" : "SpellIntA035.png"
 		},
 		{
-			"frame": 36,
-			"file": "SpellIntA036.png"
+			"frame" : 36,
+			"file" : "SpellIntA036.png"
 		},
 		{
-			"frame": 37,
-			"file": "SpellIntA037.png"
+			"frame" : 37,
+			"file" : "SpellIntA037.png"
 		},
 		{
-			"frame": 38,
-			"file": "SpellIntA038.png"
+			"frame" : 38,
+			"file" : "SpellIntA038.png"
 		},
 		{
-			"frame": 39,
-			"file": "SpellIntA039.png"
+			"frame" : 39,
+			"file" : "SpellIntA039.png"
 		},
 		{
-			"frame": 40,
-			"file": "SpellIntA040.png"
+			"frame" : 40,
+			"file" : "SpellIntA040.png"
 		},
 		{
-			"frame": 41,
-			"file": "SpellIntA041.png"
+			"frame" : 41,
+			"file" : "SpellIntA041.png"
 		},
 		{
-			"frame": 42,
-			"file": "SpellIntA042.png"
+			"frame" : 42,
+			"file" : "SpellIntA042.png"
 		},
 		{
-			"frame": 43,
-			"file": "SpellIntA043.png"
+			"frame" : 43,
+			"file" : "SpellIntA043.png"
 		},
 		{
-			"frame": 44,
-			"file": "SpellIntA044.png"
+			"frame" : 44,
+			"file" : "SpellIntA044.png"
 		},
 		{
-			"frame": 45,
-			"file": "SpellIntA045.png"
+			"frame" : 45,
+			"file" : "SpellIntA045.png"
 		},
 		{
-			"frame": 46,
-			"file": "SpellIntA046.png"
+			"frame" : 46,
+			"file" : "SpellIntA046.png"
 		},
 		{
-			"frame": 47,
-			"file": "SpellIntA047.png"
+			"frame" : 47,
+			"file" : "SpellIntA047.png"
 		},
 		{
-			"frame": 48,
-			"file": "SpellIntA048.png"
+			"frame" : 48,
+			"file" : "SpellIntA048.png"
 		},
 		{
-			"frame": 49,
-			"file": "SpellIntA049.png"
+			"frame" : 49,
+			"file" : "SpellIntA049.png"
 		},
 		{
-			"frame": 50,
-			"file": "SpellIntA050.png"
+			"frame" : 50,
+			"file" : "SpellIntA050.png"
 		},
 		{
-			"frame": 51,
-			"file": "SpellIntA051.png"
+			"frame" : 51,
+			"file" : "SpellIntA051.png"
 		},
 		{
-			"frame": 52,
-			"file": "SpellIntA052.png"
+			"frame" : 52,
+			"file" : "SpellIntA052.png"
 		},
 		{
-			"frame": 53,
-			"file": "SpellIntA053.png"
+			"frame" : 53,
+			"file" : "SpellIntA053.png"
 		},
 		{
-			"frame": 54,
-			"file": "SpellIntA054.png"
+			"frame" : 54,
+			"file" : "SpellIntA054.png"
 		},
 		{
-			"frame": 55,
-			"file": "SpellIntA055.png"
+			"frame" : 55,
+			"file" : "SpellIntA055.png"
 		},
 		{
-			"frame": 56,
-			"file": "SpellIntA056.png"
+			"frame" : 56,
+			"file" : "SpellIntA056.png"
 		},
 		{
-			"frame": 57,
-			"file": "SpellIntA057.png"
+			"frame" : 57,
+			"file" : "SpellIntA057.png"
 		},
 		{
-			"frame": 58,
-			"file": "SpellIntA058.png"
+			"frame" : 58,
+			"file" : "SpellIntA058.png"
 		},
 		{
-			"frame": 59,
-			"file": "SpellIntA059.png"
+			"frame" : 59,
+			"file" : "SpellIntA059.png"
 		},
 		{
-			"frame": 60,
-			"file": "SpellIntA060.png"
+			"frame" : 60,
+			"file" : "SpellIntA060.png"
 		},
 		{
-			"frame": 61,
-			"file": "SpellIntA061.png"
+			"frame" : 61,
+			"file" : "SpellIntA061.png"
 		},
 		{
-			"frame": 62,
-			"file": "SpellIntA062.png"
+			"frame" : 62,
+			"file" : "SpellIntA062.png"
 		},
 		{
-			"frame": 63,
-			"file": "SpellIntA063.png"
+			"frame" : 63,
+			"file" : "SpellIntA063.png"
 		},
 		{
-			"frame": 64,
-			"file": "SpellIntA064.png"
+			"frame" : 64,
+			"file" : "SpellIntA064.png"
 		},
 		{
-			"frame": 65,
-			"file": "SpellIntA065.png"
+			"frame" : 65,
+			"file" : "SpellIntA065.png"
 		},
 		{
-			"frame": 66,
-			"file": "SpellIntA066.png"
+			"frame" : 66,
+			"file" : "SpellIntA066.png"
 		},
 		{
-			"frame": 67,
-			"file": "SpellIntA067.png"
+			"frame" : 67,
+			"file" : "SpellIntA067.png"
 		},
 		{
-			"frame": 68,
-			"file": "SpellIntA068.png"
+			"frame" : 68,
+			"file" : "SpellIntA068.png"
 		},
 		{
-			"frame": 69,
-			"file": "SpellIntA069.png"
+			"frame" : 69,
+			"file" : "SpellIntA069.png"
 		},
 		{
-			"frame": 70,
-			"file": "SpellIntA070.png"
+			"frame" : 70,
+			"file" : "SpellIntA070.png"
 		},
 		{
-			"frame": 71,
-			"file": "SpellIntA071.png"
+			"frame" : 71,
+			"file" : "SpellIntA071.png"
 		},
 		{
-			"frame": 72,
-			"file": "SpellIntA072.png"
+			"frame" : 72,
+			"file" : "SpellIntA072.png"
 		},
 		{
-			"frame": 73,
-			"file": "SpellIntA073.png"
+			"frame" : 73,
+			"file" : "SpellIntA073.png"
 		},
 		{
-			"frame": 74,
-			"file": "SpellIntA074.png"
+			"frame" : 74,
+			"file" : "SpellIntA074.png"
 		},
 		{
-			"frame": 75,
-			"file": "SpellIntA075.png"
+			"frame" : 75,
+			"file" : "SpellIntA075.png"
 		},
 		{
-			"frame": 76,
-			"file": "SpellIntA076.png"
+			"frame" : 76,
+			"file" : "SpellIntA076.png"
 		},
 		{
-			"frame": 77,
-			"file": "SpellInt_000.png"
+			"frame" : 77,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 78,
-			"file": "SpellInt_000.png"
+			"frame" : 78,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 79,
-			"file": "SpellInt_000.png"
+			"frame" : 79,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 80,
-			"file": "SpellInt_000.png"
+			"frame" : 80,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 81,
-			"file": "SpellInt_000.png"
+			"frame" : 81,
+			"file" : "SpellInt_000.png"
 		},
 		{
-			"frame": 82,
-			"file": "SpellIntA082.png"
+			"frame" : 82,
+			"file" : "SpellIntA082.png"
 		},
 		{
-			"frame": 83,
-			"file": "SpellIntA083.png"
+			"frame" : 83,
+			"file" : "SpellIntA083.png"
 		},
 		{
-			"frame": 84,
-			"file": "SpellIntA084.png"
+			"frame" : 84,
+			"file" : "SpellIntA084.png"
 		},
 		{
-			"frame": 85,
-			"file": "SpellIntA085.png"
+			"frame" : 85,
+			"file" : "SpellIntA085.png"
 		},
 		{
-			"frame": 86,
-			"file": "SpellIntA086.png"
+			"frame" : 86,
+			"file" : "SpellIntA086.png"
 		},
 		{
-			"frame": 87,
-			"file": "SpellIntA087.png"
+			"frame" : 87,
+			"file" : "SpellIntA087.png"
 		},
 		{
-			"frame": 88,
-			"file": "SpellIntA088.png"
+			"frame" : 88,
+			"file" : "SpellIntA088.png"
 		},
 		{
-			"frame": 89,
-			"file": "SpellIntA089.png"
+			"frame" : 89,
+			"file" : "SpellIntA089.png"
 		},
 		{
-			"frame": 90,
-			"file": "SpellIntA090.png"
+			"frame" : 90,
+			"file" : "SpellIntA090.png"
 		},
 		{
-			"frame": 91,
-			"file": "SpellIntA091.png"
+			"frame" : 91,
+			"file" : "SpellIntA091.png"
 		}
 	]
 }

@@ -1,669 +1,669 @@
 {
-	"basepath": "artifbon",
-	"images": [
+	"basepath" : "artifbon",
+	"images" : [
 		{
-			"frame": 0,
-			"file": "artifbonA000.png"
+			"frame" : 0,
+			"file" : "artifbonA000.png"
 		},
 		{
-			"frame": 1,
-			"file": "artifbonA001.png"
+			"frame" : 1,
+			"file" : "artifbonA001.png"
 		},
 		{
-			"frame": 2,
-			"file": "artifbonA002.png"
+			"frame" : 2,
+			"file" : "artifbonA002.png"
 		},
 		{
-			"frame": 3,
-			"file": "artifbonA003.png"
+			"frame" : 3,
+			"file" : "artifbonA003.png"
 		},
 		{
-			"frame": 4,
-			"file": "artifbonA004.png"
+			"frame" : 4,
+			"file" : "artifbonA004.png"
 		},
 		{
-			"frame": 5,
-			"file": "artifbonA005.png"
+			"frame" : 5,
+			"file" : "artifbonA005.png"
 		},
 		{
-			"frame": 6,
-			"file": "artifbonA006.png"
+			"frame" : 6,
+			"file" : "artifbonA006.png"
 		},
 		{
-			"frame": 7,
-			"file": "artifbonA007.png"
+			"frame" : 7,
+			"file" : "artifbonA007.png"
 		},
 		{
-			"frame": 8,
-			"file": "artifbonA008.png"
+			"frame" : 8,
+			"file" : "artifbonA008.png"
 		},
 		{
-			"frame": 9,
-			"file": "artifbonA009.png"
+			"frame" : 9,
+			"file" : "artifbonA009.png"
 		},
 		{
-			"frame": 10,
-			"file": "artifbonA010.png"
+			"frame" : 10,
+			"file" : "artifbonA010.png"
 		},
 		{
-			"frame": 11,
-			"file": "artifbonA011.png"
+			"frame" : 11,
+			"file" : "artifbonA011.png"
 		},
 		{
-			"frame": 12,
-			"file": "artifbonA012.png"
+			"frame" : 12,
+			"file" : "artifbonA012.png"
 		},
 		{
-			"frame": 13,
-			"file": "artifbonA013.png"
+			"frame" : 13,
+			"file" : "artifbonA013.png"
 		},
 		{
-			"frame": 14,
-			"file": "artifbonA014.png"
+			"frame" : 14,
+			"file" : "artifbonA014.png"
 		},
 		{
-			"frame": 15,
-			"file": "artifbonA015.png"
+			"frame" : 15,
+			"file" : "artifbonA015.png"
 		},
 		{
-			"frame": 16,
-			"file": "artifbonA016.png"
+			"frame" : 16,
+			"file" : "artifbonA016.png"
 		},
 		{
-			"frame": 17,
-			"file": "artifbonA017.png"
+			"frame" : 17,
+			"file" : "artifbonA017.png"
 		},
 		{
-			"frame": 18,
-			"file": "artifbonA018.png"
+			"frame" : 18,
+			"file" : "artifbonA018.png"
 		},
 		{
-			"frame": 19,
-			"file": "artifbonA019.png"
+			"frame" : 19,
+			"file" : "artifbonA019.png"
 		},
 		{
-			"frame": 20,
-			"file": "artifbonA020.png"
+			"frame" : 20,
+			"file" : "artifbonA020.png"
 		},
 		{
-			"frame": 21,
-			"file": "artifbonA021.png"
+			"frame" : 21,
+			"file" : "artifbonA021.png"
 		},
 		{
-			"frame": 22,
-			"file": "artifbonA022.png"
+			"frame" : 22,
+			"file" : "artifbonA022.png"
 		},
 		{
-			"frame": 23,
-			"file": "artifbonA023.png"
+			"frame" : 23,
+			"file" : "artifbonA023.png"
 		},
 		{
-			"frame": 24,
-			"file": "artifbonA024.png"
+			"frame" : 24,
+			"file" : "artifbonA024.png"
 		},
 		{
-			"frame": 25,
-			"file": "artifbonA025.png"
+			"frame" : 25,
+			"file" : "artifbonA025.png"
 		},
 		{
-			"frame": 26,
-			"file": "artifbonA026.png"
+			"frame" : 26,
+			"file" : "artifbonA026.png"
 		},
 		{
-			"frame": 27,
-			"file": "artifbonA027.png"
+			"frame" : 27,
+			"file" : "artifbonA027.png"
 		},
 		{
-			"frame": 28,
-			"file": "artifbonA028.png"
+			"frame" : 28,
+			"file" : "artifbonA028.png"
 		},
 		{
-			"frame": 29,
-			"file": "artifbonA029.png"
+			"frame" : 29,
+			"file" : "artifbonA029.png"
 		},
 		{
-			"frame": 30,
-			"file": "artifbonA030.png"
+			"frame" : 30,
+			"file" : "artifbonA030.png"
 		},
 		{
-			"frame": 31,
-			"file": "artifbonA031.png"
+			"frame" : 31,
+			"file" : "artifbonA031.png"
 		},
 		{
-			"frame": 32,
-			"file": "artifbonA032.png"
+			"frame" : 32,
+			"file" : "artifbonA032.png"
 		},
 		{
-			"frame": 33,
-			"file": "artifbonA033.png"
+			"frame" : 33,
+			"file" : "artifbonA033.png"
 		},
 		{
-			"frame": 34,
-			"file": "artifbonA034.png"
+			"frame" : 34,
+			"file" : "artifbonA034.png"
 		},
 		{
-			"frame": 35,
-			"file": "artifbonA035.png"
+			"frame" : 35,
+			"file" : "artifbonA035.png"
 		},
 		{
-			"frame": 36,
-			"file": "artifbonA036.png"
+			"frame" : 36,
+			"file" : "artifbonA036.png"
 		},
 		{
-			"frame": 37,
-			"file": "artifbonA037.png"
+			"frame" : 37,
+			"file" : "artifbonA037.png"
 		},
 		{
-			"frame": 38,
-			"file": "artifbonA038.png"
+			"frame" : 38,
+			"file" : "artifbonA038.png"
 		},
 		{
-			"frame": 39,
-			"file": "artifbonA039.png"
+			"frame" : 39,
+			"file" : "artifbonA039.png"
 		},
 		{
-			"frame": 40,
-			"file": "artifbonA040.png"
+			"frame" : 40,
+			"file" : "artifbonA040.png"
 		},
 		{
-			"frame": 41,
-			"file": "artifbonA041.png"
+			"frame" : 41,
+			"file" : "artifbonA041.png"
 		},
 		{
-			"frame": 42,
-			"file": "artifbonA042.png"
+			"frame" : 42,
+			"file" : "artifbonA042.png"
 		},
 		{
-			"frame": 43,
-			"file": "artifbonA043.png"
+			"frame" : 43,
+			"file" : "artifbonA043.png"
 		},
 		{
-			"frame": 44,
-			"file": "artifbonA044.png"
+			"frame" : 44,
+			"file" : "artifbonA044.png"
 		},
 		{
-			"frame": 45,
-			"file": "artifbonA045.png"
+			"frame" : 45,
+			"file" : "artifbonA045.png"
 		},
 		{
-			"frame": 46,
-			"file": "artifbonA046.png"
+			"frame" : 46,
+			"file" : "artifbonA046.png"
 		},
 		{
-			"frame": 47,
-			"file": "artifbonA047.png"
+			"frame" : 47,
+			"file" : "artifbonA047.png"
 		},
 		{
-			"frame": 48,
-			"file": "artifbonA048.png"
+			"frame" : 48,
+			"file" : "artifbonA048.png"
 		},
 		{
-			"frame": 49,
-			"file": "artifbonA049.png"
+			"frame" : 49,
+			"file" : "artifbonA049.png"
 		},
 		{
-			"frame": 50,
-			"file": "artifbonA050.png"
+			"frame" : 50,
+			"file" : "artifbonA050.png"
 		},
 		{
-			"frame": 51,
-			"file": "artifbonA051.png"
+			"frame" : 51,
+			"file" : "artifbonA051.png"
 		},
 		{
-			"frame": 52,
-			"file": "artifbonA052.png"
+			"frame" : 52,
+			"file" : "artifbonA052.png"
 		},
 		{
-			"frame": 53,
-			"file": "artifbonA053.png"
+			"frame" : 53,
+			"file" : "artifbonA053.png"
 		},
 		{
-			"frame": 54,
-			"file": "artifbonA054.png"
+			"frame" : 54,
+			"file" : "artifbonA054.png"
 		},
 		{
-			"frame": 55,
-			"file": "artifbonA055.png"
+			"frame" : 55,
+			"file" : "artifbonA055.png"
 		},
 		{
-			"frame": 56,
-			"file": "artifbonA056.png"
+			"frame" : 56,
+			"file" : "artifbonA056.png"
 		},
 		{
-			"frame": 57,
-			"file": "artifbonA057.png"
+			"frame" : 57,
+			"file" : "artifbonA057.png"
 		},
 		{
-			"frame": 58,
-			"file": "artifbonA058.png"
+			"frame" : 58,
+			"file" : "artifbonA058.png"
 		},
 		{
-			"frame": 59,
-			"file": "artifbonA059.png"
+			"frame" : 59,
+			"file" : "artifbonA059.png"
 		},
 		{
-			"frame": 60,
-			"file": "artifbonA060.png"
+			"frame" : 60,
+			"file" : "artifbonA060.png"
 		},
 		{
-			"frame": 61,
-			"file": "artifbonA061.png"
+			"frame" : 61,
+			"file" : "artifbonA061.png"
 		},
 		{
-			"frame": 62,
-			"file": "artifbonA062.png"
+			"frame" : 62,
+			"file" : "artifbonA062.png"
 		},
 		{
-			"frame": 63,
-			"file": "artifbonA063.png"
+			"frame" : 63,
+			"file" : "artifbonA063.png"
 		},
 		{
-			"frame": 64,
-			"file": "artifbonA064.png"
+			"frame" : 64,
+			"file" : "artifbonA064.png"
 		},
 		{
-			"frame": 65,
-			"file": "artifbonA065.png"
+			"frame" : 65,
+			"file" : "artifbonA065.png"
 		},
 		{
-			"frame": 66,
-			"file": "artifbonA066.png"
+			"frame" : 66,
+			"file" : "artifbonA066.png"
 		},
 		{
-			"frame": 67,
-			"file": "artifbonA067.png"
+			"frame" : 67,
+			"file" : "artifbonA067.png"
 		},
 		{
-			"frame": 68,
-			"file": "artifbonA068.png"
+			"frame" : 68,
+			"file" : "artifbonA068.png"
 		},
 		{
-			"frame": 69,
-			"file": "artifbonA069.png"
+			"frame" : 69,
+			"file" : "artifbonA069.png"
 		},
 		{
-			"frame": 70,
-			"file": "artifbonA070.png"
+			"frame" : 70,
+			"file" : "artifbonA070.png"
 		},
 		{
-			"frame": 71,
-			"file": "artifbonA071.png"
+			"frame" : 71,
+			"file" : "artifbonA071.png"
 		},
 		{
-			"frame": 72,
-			"file": "artifbonA072.png"
+			"frame" : 72,
+			"file" : "artifbonA072.png"
 		},
 		{
-			"frame": 73,
-			"file": "artifbonA073.png"
+			"frame" : 73,
+			"file" : "artifbonA073.png"
 		},
 		{
-			"frame": 74,
-			"file": "artifbonA074.png"
+			"frame" : 74,
+			"file" : "artifbonA074.png"
 		},
 		{
-			"frame": 75,
-			"file": "artifbonA075.png"
+			"frame" : 75,
+			"file" : "artifbonA075.png"
 		},
 		{
-			"frame": 76,
-			"file": "artifbonA076.png"
+			"frame" : 76,
+			"file" : "artifbonA076.png"
 		},
 		{
-			"frame": 77,
-			"file": "artifbonA077.png"
+			"frame" : 77,
+			"file" : "artifbonA077.png"
 		},
 		{
-			"frame": 78,
-			"file": "artifbonA078.png"
+			"frame" : 78,
+			"file" : "artifbonA078.png"
 		},
 		{
-			"frame": 79,
-			"file": "artifbonA079.png"
+			"frame" : 79,
+			"file" : "artifbonA079.png"
 		},
 		{
-			"frame": 80,
-			"file": "artifbonA080.png"
+			"frame" : 80,
+			"file" : "artifbonA080.png"
 		},
 		{
-			"frame": 81,
-			"file": "artifbonA081.png"
+			"frame" : 81,
+			"file" : "artifbonA081.png"
 		},
 		{
-			"frame": 82,
-			"file": "artifbonA082.png"
+			"frame" : 82,
+			"file" : "artifbonA082.png"
 		},
 		{
-			"frame": 83,
-			"file": "artifbonA083.png"
+			"frame" : 83,
+			"file" : "artifbonA083.png"
 		},
 		{
-			"frame": 84,
-			"file": "artifbonA084.png"
+			"frame" : 84,
+			"file" : "artifbonA084.png"
 		},
 		{
-			"frame": 85,
-			"file": "artifbonA085.png"
+			"frame" : 85,
+			"file" : "artifbonA085.png"
 		},
 		{
-			"frame": 86,
-			"file": "artifbonA086.png"
+			"frame" : 86,
+			"file" : "artifbonA086.png"
 		},
 		{
-			"frame": 87,
-			"file": "artifbonA087.png"
+			"frame" : 87,
+			"file" : "artifbonA087.png"
 		},
 		{
-			"frame": 88,
-			"file": "artifbonA088.png"
+			"frame" : 88,
+			"file" : "artifbonA088.png"
 		},
 		{
-			"frame": 89,
-			"file": "artifbonA089.png"
+			"frame" : 89,
+			"file" : "artifbonA089.png"
 		},
 		{
-			"frame": 90,
-			"file": "artifbonA090.png"
+			"frame" : 90,
+			"file" : "artifbonA090.png"
 		},
 		{
-			"frame": 91,
-			"file": "artifbonA091.png"
+			"frame" : 91,
+			"file" : "artifbonA091.png"
 		},
 		{
-			"frame": 92,
-			"file": "artifbonA092.png"
+			"frame" : 92,
+			"file" : "artifbonA092.png"
 		},
 		{
-			"frame": 93,
-			"file": "artifbonA093.png"
+			"frame" : 93,
+			"file" : "artifbonA093.png"
 		},
 		{
-			"frame": 94,
-			"file": "artifbonA094.png"
+			"frame" : 94,
+			"file" : "artifbonA094.png"
 		},
 		{
-			"frame": 95,
-			"file": "artifbonA095.png"
+			"frame" : 95,
+			"file" : "artifbonA095.png"
 		},
 		{
-			"frame": 96,
-			"file": "artifbonA096.png"
+			"frame" : 96,
+			"file" : "artifbonA096.png"
 		},
 		{
-			"frame": 97,
-			"file": "artifbonA097.png"
+			"frame" : 97,
+			"file" : "artifbonA097.png"
 		},
 		{
-			"frame": 98,
-			"file": "artifbonA098.png"
+			"frame" : 98,
+			"file" : "artifbonA098.png"
 		},
 		{
-			"frame": 99,
-			"file": "artifbonA099.png"
+			"frame" : 99,
+			"file" : "artifbonA099.png"
 		},
 		{
-			"frame": 100,
-			"file": "artifbonA100.png"
+			"frame" : 100,
+			"file" : "artifbonA100.png"
 		},
 		{
-			"frame": 101,
-			"file": "artifbonA101.png"
+			"frame" : 101,
+			"file" : "artifbonA101.png"
 		},
 		{
-			"frame": 102,
-			"file": "artifbonA102.png"
+			"frame" : 102,
+			"file" : "artifbonA102.png"
 		},
 		{
-			"frame": 103,
-			"file": "artifbonA103.png"
+			"frame" : 103,
+			"file" : "artifbonA103.png"
 		},
 		{
-			"frame": 104,
-			"file": "artifbonA104.png"
+			"frame" : 104,
+			"file" : "artifbonA104.png"
 		},
 		{
-			"frame": 105,
-			"file": "artifbonA105.png"
+			"frame" : 105,
+			"file" : "artifbonA105.png"
 		},
 		{
-			"frame": 106,
-			"file": "artifbonA106.png"
+			"frame" : 106,
+			"file" : "artifbonA106.png"
 		},
 		{
-			"frame": 107,
-			"file": "artifbonA107.png"
+			"frame" : 107,
+			"file" : "artifbonA107.png"
 		},
 		{
-			"frame": 108,
-			"file": "artifbonA108.png"
+			"frame" : 108,
+			"file" : "artifbonA108.png"
 		},
 		{
-			"frame": 109,
-			"file": "artifbonA109.png"
+			"frame" : 109,
+			"file" : "artifbonA109.png"
 		},
 		{
-			"frame": 110,
-			"file": "artifbonA110.png"
+			"frame" : 110,
+			"file" : "artifbonA110.png"
 		},
 		{
-			"frame": 111,
-			"file": "artifbonA111.png"
+			"frame" : 111,
+			"file" : "artifbonA111.png"
 		},
 		{
-			"frame": 112,
-			"file": "artifbonA112.png"
+			"frame" : 112,
+			"file" : "artifbonA112.png"
 		},
 		{
-			"frame": 113,
-			"file": "artifbonA113.png"
+			"frame" : 113,
+			"file" : "artifbonA113.png"
 		},
 		{
-			"frame": 114,
-			"file": "artifbonA114.png"
+			"frame" : 114,
+			"file" : "artifbonA114.png"
 		},
 		{
-			"frame": 115,
-			"file": "artifbonA115.png"
+			"frame" : 115,
+			"file" : "artifbonA115.png"
 		},
 		{
-			"frame": 116,
-			"file": "artifbonA116.png"
+			"frame" : 116,
+			"file" : "artifbonA116.png"
 		},
 		{
-			"frame": 117,
-			"file": "artifbonA117.png"
+			"frame" : 117,
+			"file" : "artifbonA117.png"
 		},
 		{
-			"frame": 118,
-			"file": "artifbonA118.png"
+			"frame" : 118,
+			"file" : "artifbonA118.png"
 		},
 		{
-			"frame": 119,
-			"file": "artifbonA119.png"
+			"frame" : 119,
+			"file" : "artifbonA119.png"
 		},
 		{
-			"frame": 120,
-			"file": "artifbonA120.png"
+			"frame" : 120,
+			"file" : "artifbonA120.png"
 		},
 		{
-			"frame": 121,
-			"file": "artifbonA121.png"
+			"frame" : 121,
+			"file" : "artifbonA121.png"
 		},
 		{
-			"frame": 122,
-			"file": "artifbonA122.png"
+			"frame" : 122,
+			"file" : "artifbonA122.png"
 		},
 		{
-			"frame": 123,
-			"file": "artifbonA123.png"
+			"frame" : 123,
+			"file" : "artifbonA123.png"
 		},
 		{
-			"frame": 124,
-			"file": "artifbonA124.png"
+			"frame" : 124,
+			"file" : "artifbonA124.png"
 		},
 		{
-			"frame": 125,
-			"file": "artifbonA125.png"
+			"frame" : 125,
+			"file" : "artifbonA125.png"
 		},
 		{
-			"frame": 126,
-			"file": "artifbonA126.png"
+			"frame" : 126,
+			"file" : "artifbonA126.png"
 		},
 		{
-			"frame": 127,
-			"file": "artifbonA127.png"
+			"frame" : 127,
+			"file" : "artifbonA127.png"
 		},
 		{
-			"frame": 128,
-			"file": "artifbonA128.png"
+			"frame" : 128,
+			"file" : "artifbonA128.png"
 		},
 		{
-			"frame": 129,
-			"file": "artifbonA129.png"
+			"frame" : 129,
+			"file" : "artifbonA129.png"
 		},
 		{
-			"frame": 130,
-			"file": "artifbonA130.png"
+			"frame" : 130,
+			"file" : "artifbonA130.png"
 		},
 		{
-			"frame": 131,
-			"file": "artifbonA131.png"
+			"frame" : 131,
+			"file" : "artifbonA131.png"
 		},
 		{
-			"frame": 132,
-			"file": "artifbonA132.png"
+			"frame" : 132,
+			"file" : "artifbonA132.png"
 		},
 		{
-			"frame": 133,
-			"file": "artifbonA133.png"
+			"frame" : 133,
+			"file" : "artifbonA133.png"
 		},
 		{
-			"frame": 134,
-			"file": "artifbonA134.png"
+			"frame" : 134,
+			"file" : "artifbonA134.png"
 		},
 		{
-			"frame": 135,
-			"file": "artifbonA135.png"
+			"frame" : 135,
+			"file" : "artifbonA135.png"
 		},
 		{
-			"frame": 136,
-			"file": "artifbonA136.png"
+			"frame" : 136,
+			"file" : "artifbonA136.png"
 		},
 		{
-			"frame": 137,
-			"file": "artifbonA137.png"
+			"frame" : 137,
+			"file" : "artifbonA137.png"
 		},
 		{
-			"frame": 138,
-			"file": "artifbonA138.png"
+			"frame" : 138,
+			"file" : "artifbonA138.png"
 		},
 		{
-			"frame": 139,
-			"file": "artifbonA139.png"
+			"frame" : 139,
+			"file" : "artifbonA139.png"
 		},
 		{
-			"frame": 140,
-			"file": "artifbonA140.png"
+			"frame" : 140,
+			"file" : "artifbonA140.png"
 		},
 		{
-			"frame": 141,
-			"file": "artifbonA141.png"
+			"frame" : 141,
+			"file" : "artifbonA141.png"
 		},
 		{
-			"frame": 142,
-			"file": "artifbonA142.png"
+			"frame" : 142,
+			"file" : "artifbonA142.png"
 		},
 		{
-			"frame": 143,
-			"file": "artifbonA143.png"
+			"frame" : 143,
+			"file" : "artifbonA143.png"
 		},
 		{
-			"frame": 144,
-			"file": "artifbon_000.png"
+			"frame" : 144,
+			"file" : "artifbon_000.png"
 		},
 		{
-			"frame": 145,
-			"file": "artifbon_000.png"
+			"frame" : 145,
+			"file" : "artifbon_000.png"
 		},
 		{
-			"frame": 146,
-			"file": "artifbonA146.png"
+			"frame" : 146,
+			"file" : "artifbonA146.png"
 		},
 		{
-			"frame": 147,
-			"file": "artifbonA147.png"
+			"frame" : 147,
+			"file" : "artifbonA147.png"
 		},
 		{
-			"frame": 148,
-			"file": "artifbonA148.png"
+			"frame" : 148,
+			"file" : "artifbonA148.png"
 		},
 		{
-			"frame": 149,
-			"file": "artifbonA149.png"
+			"frame" : 149,
+			"file" : "artifbonA149.png"
 		},
 		{
-			"frame": 150,
-			"file": "artifbonA150.png"
+			"frame" : 150,
+			"file" : "artifbonA150.png"
 		},
 		{
-			"frame": 151,
-			"file": "artifbonA151.png"
+			"frame" : 151,
+			"file" : "artifbonA151.png"
 		},
 		{
-			"frame": 152,
-			"file": "artifbonA152.png"
+			"frame" : 152,
+			"file" : "artifbonA152.png"
 		},
 		{
-			"frame": 153,
-			"file": "artifbonA153.png"
+			"frame" : 153,
+			"file" : "artifbonA153.png"
 		},
 		{
-			"frame": 154,
-			"file": "artifbonA154.png"
+			"frame" : 154,
+			"file" : "artifbonA154.png"
 		},
 		{
-			"frame": 155,
-			"file": "artifbonA155.png"
+			"frame" : 155,
+			"file" : "artifbonA155.png"
 		},
 		{
-			"frame": 156,
-			"file": "artifbonA156.png"
+			"frame" : 156,
+			"file" : "artifbonA156.png"
 		},
 		{
-			"frame": 157,
-			"file": "artifbonA157.png"
+			"frame" : 157,
+			"file" : "artifbonA157.png"
 		},
 		{
-			"frame": 158,
-			"file": "artifbonA158.png"
+			"frame" : 158,
+			"file" : "artifbonA158.png"
 		},
 		{
-			"frame": 159,
-			"file": "artifbonA159.png"
+			"frame" : 159,
+			"file" : "artifbonA159.png"
 		},
 		{
-			"frame": 160,
-			"file": "artifbonA160.png"
+			"frame" : 160,
+			"file" : "artifbonA160.png"
 		},
 		{
-			"frame": 161,
-			"file": "artifbonA161.png"
+			"frame" : 161,
+			"file" : "artifbonA161.png"
 		},
 		{
-			"frame": 162,
-			"file": "artifbonA162.png"
+			"frame" : 162,
+			"file" : "artifbonA162.png"
 		},
 		{
-			"frame": 163,
-			"file": "artifbonA163.png"
+			"frame" : 163,
+			"file" : "artifbonA163.png"
 		},
 		{
-			"frame": 164,
-			"file": "artifbonA164.png"
+			"frame" : 164,
+			"file" : "artifbonA164.png"
 		},
 		{
-			"frame": 165,
-			"file": "artifbonA165.png"
+			"frame" : 165,
+			"file" : "artifbonA165.png"
 		}
 	]
 }

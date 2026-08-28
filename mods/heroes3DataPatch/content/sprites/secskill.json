@@ -1,377 +1,377 @@
 {
-	"basepath": "secskill/",
-	"images": [
+	"basepath" : "secskill/",
+	"images" : [
 		{
-			"frame": 0,
-			"file": "secskill_000.png"
+			"frame" : 0,
+			"file" : "secskill_000.png"
 		},
 		{
-			"frame": 1,
-			"file": "secskill_000.png"
+			"frame" : 1,
+			"file" : "secskill_000.png"
 		},
 		{
-			"frame": 2,
-			"file": "secskill_000.png"
+			"frame" : 2,
+			"file" : "secskill_000.png"
 		},
 		{
-			"frame": 3,
-			"file": "secskillA003.png"
+			"frame" : 3,
+			"file" : "secskillA003.png"
 		},
 		{
-			"frame": 4,
-			"file": "secskillA004.png"
+			"frame" : 4,
+			"file" : "secskillA004.png"
 		},
 		{
-			"frame": 5,
-			"file": "secskillA005.png"
+			"frame" : 5,
+			"file" : "secskillA005.png"
 		},
 		{
-			"frame": 6,
-			"file": "secskillA006.png"
+			"frame" : 6,
+			"file" : "secskillA006.png"
 		},
 		{
-			"frame": 7,
-			"file": "secskillA007.png"
+			"frame" : 7,
+			"file" : "secskillA007.png"
 		},
 		{
-			"frame": 8,
-			"file": "secskillA008.png"
+			"frame" : 8,
+			"file" : "secskillA008.png"
 		},
 		{
-			"frame": 9,
-			"file": "secskillA009.png"
+			"frame" : 9,
+			"file" : "secskillA009.png"
 		},
 		{
-			"frame": 10,
-			"file": "secskillA010.png"
+			"frame" : 10,
+			"file" : "secskillA010.png"
 		},
 		{
-			"frame": 11,
-			"file": "secskillA011.png"
+			"frame" : 11,
+			"file" : "secskillA011.png"
 		},
 		{
-			"frame": 12,
-			"file": "secskillA012.png"
+			"frame" : 12,
+			"file" : "secskillA012.png"
 		},
 		{
-			"frame": 13,
-			"file": "secskillA013.png"
+			"frame" : 13,
+			"file" : "secskillA013.png"
 		},
 		{
-			"frame": 14,
-			"file": "secskillA014.png"
+			"frame" : 14,
+			"file" : "secskillA014.png"
 		},
 		{
-			"frame": 15,
-			"file": "secskillA015.png"
+			"frame" : 15,
+			"file" : "secskillA015.png"
 		},
 		{
-			"frame": 16,
-			"file": "secskillA016.png"
+			"frame" : 16,
+			"file" : "secskillA016.png"
 		},
 		{
-			"frame": 17,
-			"file": "secskillA017.png"
+			"frame" : 17,
+			"file" : "secskillA017.png"
 		},
 		{
-			"frame": 18,
-			"file": "secskillA018.png"
+			"frame" : 18,
+			"file" : "secskillA018.png"
 		},
 		{
-			"frame": 19,
-			"file": "secskillA019.png"
+			"frame" : 19,
+			"file" : "secskillA019.png"
 		},
 		{
-			"frame": 20,
-			"file": "secskillA020.png"
+			"frame" : 20,
+			"file" : "secskillA020.png"
 		},
 		{
-			"frame": 21,
-			"file": "secskillA021.png"
+			"frame" : 21,
+			"file" : "secskillA021.png"
 		},
 		{
-			"frame": 22,
-			"file": "secskillA022.png"
+			"frame" : 22,
+			"file" : "secskillA022.png"
 		},
 		{
-			"frame": 23,
-			"file": "secskillA023.png"
+			"frame" : 23,
+			"file" : "secskillA023.png"
 		},
 		{
-			"frame": 24,
-			"file": "secskillA024.png"
+			"frame" : 24,
+			"file" : "secskillA024.png"
 		},
 		{
-			"frame": 25,
-			"file": "secskillA025.png"
+			"frame" : 25,
+			"file" : "secskillA025.png"
 		},
 		{
-			"frame": 26,
-			"file": "secskillA026.png"
+			"frame" : 26,
+			"file" : "secskillA026.png"
 		},
 		{
-			"frame": 27,
-			"file": "secskillA027.png"
+			"frame" : 27,
+			"file" : "secskillA027.png"
 		},
 		{
-			"frame": 28,
-			"file": "secskillA028.png"
+			"frame" : 28,
+			"file" : "secskillA028.png"
 		},
 		{
-			"frame": 29,
-			"file": "secskillA029.png"
+			"frame" : 29,
+			"file" : "secskillA029.png"
 		},
 		{
-			"frame": 30,
-			"file": "secskillA030.png"
+			"frame" : 30,
+			"file" : "secskillA030.png"
 		},
 		{
-			"frame": 31,
-			"file": "secskillA031.png"
+			"frame" : 31,
+			"file" : "secskillA031.png"
 		},
 		{
-			"frame": 32,
-			"file": "secskillA032.png"
+			"frame" : 32,
+			"file" : "secskillA032.png"
 		},
 		{
-			"frame": 33,
-			"file": "secskillA033.png"
+			"frame" : 33,
+			"file" : "secskillA033.png"
 		},
 		{
-			"frame": 34,
-			"file": "secskillA034.png"
+			"frame" : 34,
+			"file" : "secskillA034.png"
 		},
 		{
-			"frame": 35,
-			"file": "secskillA035.png"
+			"frame" : 35,
+			"file" : "secskillA035.png"
 		},
 		{
-			"frame": 36,
-			"file": "secskillA036.png"
+			"frame" : 36,
+			"file" : "secskillA036.png"
 		},
 		{
-			"frame": 37,
-			"file": "secskillA037.png"
+			"frame" : 37,
+			"file" : "secskillA037.png"
 		},
 		{
-			"frame": 38,
-			"file": "secskillA038.png"
+			"frame" : 38,
+			"file" : "secskillA038.png"
 		},
 		{
-			"frame": 39,
-			"file": "secskillA039.png"
+			"frame" : 39,
+			"file" : "secskillA039.png"
 		},
 		{
-			"frame": 40,
-			"file": "secskillA040.png"
+			"frame" : 40,
+			"file" : "secskillA040.png"
 		},
 		{
-			"frame": 41,
-			"file": "secskillA041.png"
+			"frame" : 41,
+			"file" : "secskillA041.png"
 		},
 		{
-			"frame": 42,
-			"file": "secskillA042.png"
+			"frame" : 42,
+			"file" : "secskillA042.png"
 		},
 		{
-			"frame": 43,
-			"file": "secskillA043.png"
+			"frame" : 43,
+			"file" : "secskillA043.png"
 		},
 		{
-			"frame": 44,
-			"file": "secskillA044.png"
+			"frame" : 44,
+			"file" : "secskillA044.png"
 		},
 		{
-			"frame": 45,
-			"file": "secskillA045.png"
+			"frame" : 45,
+			"file" : "secskillA045.png"
 		},
 		{
-			"frame": 46,
-			"file": "secskillA046.png"
+			"frame" : 46,
+			"file" : "secskillA046.png"
 		},
 		{
-			"frame": 47,
-			"file": "secskillA047.png"
+			"frame" : 47,
+			"file" : "secskillA047.png"
 		},
 		{
-			"frame": 48,
-			"file": "secskillA048.png"
+			"frame" : 48,
+			"file" : "secskillA048.png"
 		},
 		{
-			"frame": 49,
-			"file": "secskillA049.png"
+			"frame" : 49,
+			"file" : "secskillA049.png"
 		},
 		{
-			"frame": 50,
-			"file": "secskillA050.png"
+			"frame" : 50,
+			"file" : "secskillA050.png"
 		},
 		{
-			"frame": 51,
-			"file": "secskillA051.png"
+			"frame" : 51,
+			"file" : "secskillA051.png"
 		},
 		{
-			"frame": 52,
-			"file": "secskillA052.png"
+			"frame" : 52,
+			"file" : "secskillA052.png"
 		},
 		{
-			"frame": 53,
-			"file": "secskillA053.png"
+			"frame" : 53,
+			"file" : "secskillA053.png"
 		},
 		{
-			"frame": 54,
-			"file": "secskillA054.png"
+			"frame" : 54,
+			"file" : "secskillA054.png"
 		},
 		{
-			"frame": 55,
-			"file": "secskillA055.png"
+			"frame" : 55,
+			"file" : "secskillA055.png"
 		},
 		{
-			"frame": 56,
-			"file": "secskillA056.png"
+			"frame" : 56,
+			"file" : "secskillA056.png"
 		},
 		{
-			"frame": 57,
-			"file": "secskillA057.png"
+			"frame" : 57,
+			"file" : "secskillA057.png"
 		},
 		{
-			"frame": 58,
-			"file": "secskillA058.png"
+			"frame" : 58,
+			"file" : "secskillA058.png"
 		},
 		{
-			"frame": 59,
-			"file": "secskillA059.png"
+			"frame" : 59,
+			"file" : "secskillA059.png"
 		},
 		{
-			"frame": 60,
-			"file": "secskillA060.png"
+			"frame" : 60,
+			"file" : "secskillA060.png"
 		},
 		{
-			"frame": 61,
-			"file": "secskillA061.png"
+			"frame" : 61,
+			"file" : "secskillA061.png"
 		},
 		{
-			"frame": 62,
-			"file": "secskillA062.png"
+			"frame" : 62,
+			"file" : "secskillA062.png"
 		},
 		{
-			"frame": 63,
-			"file": "secskillA063.png"
+			"frame" : 63,
+			"file" : "secskillA063.png"
 		},
 		{
-			"frame": 64,
-			"file": "secskillA064.png"
+			"frame" : 64,
+			"file" : "secskillA064.png"
 		},
 		{
-			"frame": 65,
-			"file": "secskillA065.png"
+			"frame" : 65,
+			"file" : "secskillA065.png"
 		},
 		{
-			"frame": 66,
-			"file": "secskillA066.png"
+			"frame" : 66,
+			"file" : "secskillA066.png"
 		},
 		{
-			"frame": 67,
-			"file": "secskillA067.png"
+			"frame" : 67,
+			"file" : "secskillA067.png"
 		},
 		{
-			"frame": 68,
-			"file": "secskillA068.png"
+			"frame" : 68,
+			"file" : "secskillA068.png"
 		},
 		{
-			"frame": 69,
-			"file": "secskillA069.png"
+			"frame" : 69,
+			"file" : "secskillA069.png"
 		},
 		{
-			"frame": 70,
-			"file": "secskillA070.png"
+			"frame" : 70,
+			"file" : "secskillA070.png"
 		},
 		{
-			"frame": 71,
-			"file": "secskillA071.png"
+			"frame" : 71,
+			"file" : "secskillA071.png"
 		},
 		{
-			"frame": 72,
-			"file": "secskillA072.png"
+			"frame" : 72,
+			"file" : "secskillA072.png"
 		},
 		{
-			"frame": 73,
-			"file": "secskillA073.png"
+			"frame" : 73,
+			"file" : "secskillA073.png"
 		},
 		{
-			"frame": 74,
-			"file": "secskillA074.png"
+			"frame" : 74,
+			"file" : "secskillA074.png"
 		},
 		{
-			"frame": 75,
-			"file": "secskillA075.png"
+			"frame" : 75,
+			"file" : "secskillA075.png"
 		},
 		{
-			"frame": 76,
-			"file": "secskillA076.png"
+			"frame" : 76,
+			"file" : "secskillA076.png"
 		},
 		{
-			"frame": 77,
-			"file": "secskillA077.png"
+			"frame" : 77,
+			"file" : "secskillA077.png"
 		},
 		{
-			"frame": 78,
-			"file": "secskillA078.png"
+			"frame" : 78,
+			"file" : "secskillA078.png"
 		},
 		{
-			"frame": 79,
-			"file": "secskillA079.png"
+			"frame" : 79,
+			"file" : "secskillA079.png"
 		},
 		{
-			"frame": 80,
-			"file": "secskillA080.png"
+			"frame" : 80,
+			"file" : "secskillA080.png"
 		},
 		{
-			"frame": 81,
-			"file": "secskillA081.png"
+			"frame" : 81,
+			"file" : "secskillA081.png"
 		},
 		{
-			"frame": 82,
-			"file": "secskillA082.png"
+			"frame" : 82,
+			"file" : "secskillA082.png"
 		},
 		{
-			"frame": 83,
-			"file": "secskillA083.png"
+			"frame" : 83,
+			"file" : "secskillA083.png"
 		},
 		{
-			"frame": 84,
-			"file": "secskillA084.png"
+			"frame" : 84,
+			"file" : "secskillA084.png"
 		},
 		{
-			"frame": 85,
-			"file": "secskillA085.png"
+			"frame" : 85,
+			"file" : "secskillA085.png"
 		},
 		{
-			"frame": 86,
-			"file": "secskillA086.png"
+			"frame" : 86,
+			"file" : "secskillA086.png"
 		},
 		{
-			"frame": 87,
-			"file": "secskillA087.png"
+			"frame" : 87,
+			"file" : "secskillA087.png"
 		},
 		{
-			"frame": 88,
-			"file": "secskillA088.png"
+			"frame" : 88,
+			"file" : "secskillA088.png"
 		},
 		{
-			"frame": 89,
-			"file": "secskillA089.png"
+			"frame" : 89,
+			"file" : "secskillA089.png"
 		},
 		{
-			"frame": 90,
-			"file": "secskillA090.png"
+			"frame" : 90,
+			"file" : "secskillA090.png"
 		},
 		{
-			"frame": 91,
-			"file": "secskillA091.png"
+			"frame" : 91,
+			"file" : "secskillA091.png"
 		},
 		{
-			"frame": 92,
-			"file": "secskillA092.png"
+			"frame" : 92,
+			"file" : "secskillA092.png"
 		}
 	]
 }
