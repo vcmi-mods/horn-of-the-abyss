@@ -1,5 +1,5 @@
 {
-	"skill.core.scouting.description.advanced" : "{Zaawansowane Odkrywanie}\n\nZaawansowane Odkrywanie pozwala bohaterowi widzieć 3 pola dalej przez mgłę.",
-	"skill.core.scouting.description.basic" : "{Podstawowe Odkrywanie}\n\nPodstawowe Odkrywanie pozwala bohaterowi widzieć 1 pole dalej przez mgłę.",
-	"skill.core.scouting.description.expert" : "{Ekspercke Odkrywanie}\n\nEkspercke Odkrywanie pozwala bohaterowi widzieć 5 pól dalej przez mgłę."
+	"skill.core.scouting.description.advanced": "{Odkrywanie - poziom zaawansowany}\n\nZwiększa pole widzenia bohatera o {3}.",
+	"skill.core.scouting.description.basic": "{Odkrywanie - poziom podstawowy}\n\nZwiększa pole widzenia bohatera o {1}.",
+	"skill.core.scouting.description.expert": "{Odkrywanie - poziom ekspercki}\n\nZwiększa pole widzenia bohatera o {5}."
 }

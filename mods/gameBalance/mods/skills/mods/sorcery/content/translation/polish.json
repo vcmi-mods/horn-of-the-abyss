@@ -1,5 +1,5 @@
 {
-	"skill.core.sorcery.description.advanced": "{Zaawansowana Magia}\n\nZaawansowana Magia sprawia, że zaklęcia bohatera zadają dodatkowe 20% obrażeń w walce.",
-	"skill.core.sorcery.description.basic": "{Podstawowa Magia}\n\nPodstawowa Magia sprawia, że zaklęcia bohatera zadają dodatkowe 10% obrażeń w walce.",
-	"skill.core.sorcery.description.expert": "{Mistrzowska Magia}\n\nMistrzowska Magia sprawia, że zaklęcia bohatera zadają dodatkowe 30% obrażeń w walce."
+	"skill.core.sorcery.description.advanced": "{Talent magiczny - poziom zaawansowany}\n\nZaklęcia rzucone przez bohatera zadają wrogom o {20%} więcej obrażeń.",
+	"skill.core.sorcery.description.basic": "{Talent magiczny - poziom podstawowy}\n\nZaklęcia rzucone przez bohatera zadają wrogom o {10%} więcej obrażeń.",
+	"skill.core.sorcery.description.expert": "{Talent magiczny - poziom ekspercki}\n\nZaklęcia rzucone przez bohatera zadają wrogom o {30%} więcej obrażeń."
 }

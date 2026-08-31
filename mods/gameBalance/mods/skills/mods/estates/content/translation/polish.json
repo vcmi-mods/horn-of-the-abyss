@@ -1,5 +1,5 @@
 {
-	"skill.core.estates.description.advanced": "{Zaawansowane Finanse}\n\nZ Finansami twój bohater wnosi 500 złota dziennie na rzecz sprawy.",
-	"skill.core.estates.description.basic": "{Podstawowe Finanse}\n\nZ Finansami twój bohater wnosi 250 złota dziennie na rzecz sprawy.",
-	"skill.core.estates.description.expert": "{Eksperckie Finanse}\n\nZ Finansami twój bohater wnosi 1000 złota dziennie na rzecz sprawy."
+	"skill.core.estates.description.advanced": "{Finanse - poziom zaawansowany}\n\nBohater dostarcza królestwu {500} złotych monet dziennie.",
+	"skill.core.estates.description.basic": "{Finanse - poziom podstawowy}\n\nBohater dostarcza królestwu {250} złotych monet dziennie.",
+	"skill.core.estates.description.expert": "{Finanse - poziom ekspercki}\n\nBohater dostarcza królestwu {1000} złotych monet dziennie."
 }

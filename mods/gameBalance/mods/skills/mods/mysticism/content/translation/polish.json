@@ -1,5 +1,5 @@
 {
-	"skill.core.mysticism.description.advanced" : "{Zaawansowany Mistycyzm}\n\nZaawansowany Mistycyzm pozwala bohaterowi regenerować 10 punktów magii dziennie.",
-	"skill.core.mysticism.description.basic" : "{Podstawowy Mistycyzm}\n\nPodstawowy Mistycyzm pozwala bohaterowi regenerować 5 punktów magii dziennie.",
-	"skill.core.mysticism.description.expert" : "{Ekspercki Mistycyzm}\n\nEkspercki Mistycyzm pozwala bohaterowi regenerować 15 punktów magii dziennie."
+	"skill.core.mysticism.description.advanced": "{Mistycyzm - poziom zaawansowany}\n\nRegeneruje dziennie {20%} maksymalnych pkt. many, co najmniej {10} punktów.",
+	"skill.core.mysticism.description.basic": "{Mistycyzm - poziom podstawowy}\n\nRegeneruje dziennie {10%} maksymalnych pkt. many, co najmniej {5} punktów.",
+	"skill.core.mysticism.description.expert": "{Mistycyzm - poziom ekspercki}\n\nRegeneruje dziennie {30%} maksymalnych pkt. many, co najmniej {15} punktów."
 }
