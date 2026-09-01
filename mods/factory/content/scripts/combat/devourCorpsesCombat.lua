@@ -34,10 +34,7 @@ end
 function Script:onAfterAttack(server, battle, unit, other, payload)
 	if payload.attackIndex == 0 then return end
 	local creatureKey = unit:getCreature():getJsonKey()
-	local devourCorpsesAttacks = unit:getBonuses(function(bonus)
-
-		return bonus:getType() == "ADDITIONAL_ATTACK" and bonus:getSourceID() == creatureKey
-	end)
+	local devourCorpsesAttacks = unit:getBonuses({ type = "ADDITIONAL_ATTACK", sourceID == creatureKey})
 	if devourCorpsesAttacks:size() == 1 then
 		server:removeUnitBonuses(battle, unit, devourCorpsesAttacks)
 	elseif devourCorpsesAttacks:size() > 1 then
@@ -47,10 +44,6 @@ end
 
 function Script:onAfterMove(server, battle, unit, other, payload)
 	self:castDevourCorpses(server, battle, unit)
-	local creatureKey = unit:getCreature():getJsonKey()
-	local devourCorpsesAttacks = unit:getBonuses(function(bonus)
-		return bonus:getType() == "ADDITIONAL_ATTACK" and bonus:getSourceID() == creatureKey
-	end)
 end
 
 return Script
