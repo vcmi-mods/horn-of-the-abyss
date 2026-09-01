@@ -14,6 +14,7 @@
 			]
 		},
 		"flags" : {
+			"nonMagical" : true,
 			"positive" : true,
 			"rising" : true,
 			"special" : true

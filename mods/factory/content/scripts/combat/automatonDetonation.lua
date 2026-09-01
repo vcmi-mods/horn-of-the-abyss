@@ -67,10 +67,11 @@ function Script:processTriggerEvent(server, battle, unit, payload)
 		local targets = self:getAffectedUnits(battle, unit)
 
 		if #targets == 0 then return end
-		local damage = self:getExplosionDamage(unit, entry.killed)
+		local baseDamage = self:getExplosionDamage(unit, entry.killed)
 		local totalDamage, totalKilled = 0, 0
 
 		for _, target in ipairs(targets) do
+			local damage = baseDamage
 			local cap = target:getBonusesValue({ type = "DAMAGE_RECEIVED_CAP" })
 			if cap > 0 then
 				damage = math.max(math.floor(target:getMaxHealth() * cap / 100), 1)
