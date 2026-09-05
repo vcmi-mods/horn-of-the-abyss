@@ -8,8 +8,26 @@
 	"compatibility" : {
 		"min" : "1.7.3"
 	},
-	"version" : "1.8.005",
+	"version" : "1.8.100",
 	"changelog" : {
+		"1.8.100" : [
+			"Many translations were updated and are now much more complete",
+			"Added Diplomat's Cloak, Temple of Loyalty and Warlock's Lab",
+			"All hero specialties are now working properly (including Eovacius' Clone and Coronius' Slayer specialties)",
+			"Luck now doubles or halves (Bad Luck) the total attack damage instead of just doubling/halving base damage",
+			"(Sentinel) Automatons can now use their ability to explode on death, damaging all surrounding units",
+			"Dreadnoughts and Juggernauts can now use Heat Stroke",
+			"Self-cast abilities like Meditation and Detonation can now be activated without having to target the creature",
+			"Fixed Magogs hitting fire-immune creatures with their AoE attack (can still directly target them)",
+			"Ballista's damage now scales with baseDam * (heroAttack + 5) instead of baseDam * (heroAttack + 1)",
+			"Creatures that are immune to Chain Lightning are now also immune to Factory's Grail spell",
+			"Dunes terrain now casts it's own version of Quicksand that creates 15-20 patches",
+			"Bulwark walls now have 3 health with Fort and Citadel and 4 health with Castle",
+			"War Machines are now immune to Gunslinger's/Bounty Hunter's Pre-emptive Shot ability",
+			"Some forgotten campaign-only heroes now also scale to HotA values when Game Balance Heroes is activated",
+			"Submod that adds the Heroes Orchestra Cove theme is now working again",
+			"Other, smaller bugfixes"
+		],
 		"1.8.005" : [
 			"Updated translations (Czech, French, German, Latvian, Polish, Russian and Ukrainian)",
 			"Added Bulwark Commander and stack experience system",
