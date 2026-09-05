@@ -16,6 +16,8 @@
 			"All hero specialties are now working properly (including Eovacius' Clone and Coronius' Slayer specialties)",
 			"Luck now doubles or halves (Bad Luck) the total attack damage instead of just doubling/halving base damage",
 			"(Sentinel) Automatons can now use their ability to explode on death, damaging all surrounding units",
+			"Dreadnoughts and Juggernauts can now use Heat Stroke",
+			"Self-cast abilities like Meditation and Detonation can now be activated without having to target the creature",
 			"Fixed Magogs hitting fire-immune creatures with their AoE attack (can still directly target them)",
 			"Ballista's damage now scales with baseDam * (heroAttack + 5) instead of baseDam * (heroAttack + 1)",
 			"Creatures that are immune to Chain Lightning are now also immune to Factory's Grail spell",
