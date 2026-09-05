@@ -12,8 +12,11 @@
 		"hota.gamebalance.spells",
 		"hota.gamebalance.artifacts"
 	],
-	"version" : "1.0.0",
+	"version" : "1.1.0",
 	"changelog" : {
+		"1.1.0" : [
+			"Prepared translations for Weblate"
+		],
 		"1.0.0" : [
 			"Initial release",
 			"Added English HotA texts"
@@ -23,11 +26,11 @@
 		"name" : "English Text Polishing",
 		"description" : "Changes the English ingame description of spells, map objects and artifacts to the ones used in HotA.",
 		"translations" : [
-			"config/englishTextPolishing/artifactDescriptions.json",
-			"config/englishTextPolishing/gameTextChanges.json",
-			"config/englishTextPolishing/heroTexts.json",
-			"config/englishTextPolishing/objectDescriptions.json",
-			"config/englishTextPolishing/spellDescriptions.json"
+			"config/english/artifactDescriptions.json",
+			"config/english/gameTextChanges.json",
+			"config/english/heroTexts.json",
+			"config/english/objectDescriptions.json",
+			"config/english/spellDescriptions.json"
 		]
 	},
 	"chinese" : {
