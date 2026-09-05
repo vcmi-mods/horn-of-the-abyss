@@ -46,5 +46,17 @@
 			"battleLogSingular",
 			"battleLogPlural"
 		]
+	},
+	"devourCorpsesCombat" : {
+		"implements" : "combatEvent",
+		"script" : "combat/devourCorpsesCombat.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+			},
+			"additionalProperties" : false
+		},
+		"priority" : 0,
+		"description" : "{Devours Corpses}\nDevours corpses it stands on to gain additional attacks."
 	}
 }
