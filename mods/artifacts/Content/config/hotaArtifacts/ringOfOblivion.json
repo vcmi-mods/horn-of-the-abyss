@@ -9,32 +9,37 @@
 		"bonuses" : {
 			"bonus1" : {
 				"type" : "GARGOYLE",
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			},
 			"bonus2" : {
 				"type" : "DISINTEGRATE",
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			},
 			"bonus3" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "sacrifice",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			},
 			"bonus4" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "animateDead",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			},
 			"bonus5" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "resurrection",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			},
 			"bonus6" : {
 				"type" : "LIFE_DRAIN",

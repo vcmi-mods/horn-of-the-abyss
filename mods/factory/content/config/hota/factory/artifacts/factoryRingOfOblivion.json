@@ -6,7 +6,8 @@
 				"subtype" : "hotaRepair",
 				"valueType" : "BASE_NUMBER",
 				"val" : 0,
-				"propagator" : "BATTLE_WIDE"
+				"propagator" : "BATTLE_WIDE",
+				"hidden" : true
 			}
 		}
 	}

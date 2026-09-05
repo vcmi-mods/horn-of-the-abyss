@@ -23,6 +23,8 @@
 				6
 			],
 			"areaShotCanTargetEmptyHex" : true,
+			"oneHexTriggersObstacles" : true,
+			"luckyStrikeAffectsAllTargets" : true,
 			"noSpellHitAndRunRounds" : 1
 		}
 	},
