@@ -33,6 +33,17 @@
 			"config/english/spellDescriptions.json"
 		]
 	},
+	"polish" : {
+		"name" : "Poprawki tłumaczeń",
+		"description" : "Zmienia opisy bohaterów, zaklęć, obiektów na mapie i artefaktów w grze na te używane w HotA.",
+		"translations" : [
+			"config/polish/artifactDescriptions.json",
+			"config/polish/gameTextChanges.json",
+			"config/polish/heroTexts.json",
+			"config/polish/objectDescriptions.json",
+			"config/polish/spellDescriptions.json"
+		]
+	},
 	"chinese" : {
 		"name" : "英文文本润色",
 		"description" : "将游戏内法术、地图物体和宝物的英文描述修改为深渊号角所使用的版本（仅在语言为英文时生效）。"
