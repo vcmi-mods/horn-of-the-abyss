@@ -4,6 +4,11 @@
 // [+] Learning increases the hero's experience gains by 25/50/75%.
 {
 	"core:learning" : {
+		// Hero gains a level each time Learning is learned or upgraded; on that level-up Learning
+		// is not offered again if any other skill can be upgraded. Requires VCMI 1.8 (grantsLevelUp tag).
+		"tags" : {
+			"grantsLevelUp" : true
+		},
 		"basic" : {
 			"description" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20%.",
 			"effects" : {
