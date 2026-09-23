@@ -429,6 +429,7 @@
 		"mapFormat" : {
 			"hornOfTheAbyss" : {
 				"supported" : true,
+				"maxVersion" : 10,
 				"iconIndex" : 5,
 
 				"factions" : {
