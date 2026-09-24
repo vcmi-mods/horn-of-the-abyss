@@ -1,5 +1,5 @@
 {
-	"basepath" : "spells/"
+	"basepath" : "spells/",
 	"images" : [
 		{ "frame" : 0, "file" : "spellsA000.png" },
 		{ "frame" : 1, "file" : "spellsA001.png" },
