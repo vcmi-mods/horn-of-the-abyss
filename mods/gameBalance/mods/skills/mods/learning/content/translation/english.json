@@ -1,5 +1,5 @@
 {
-	"skill.core.learning.description.advanced" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 40%.",
-	"skill.core.learning.description.basic" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20%.",
-	"skill.core.learning.description.expert" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 60%."
+	"skill.core.learning.description.advanced" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 40% and grants them an additional level upon improving the skill.",
+	"skill.core.learning.description.basic" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20% and grants them an additional level upon learning the skill.",
+	"skill.core.learning.description.expert" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 60% and grants them an additional level upon improving the skill."
 }
