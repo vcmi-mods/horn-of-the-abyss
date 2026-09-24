@@ -1,5 +1,5 @@
 {
-	"skill.core.eagleEye.description.advanced": "{Zaawansowany Sokoli wzrok}\n\nZaawansowany Sokoli wzrok daje bohaterowi 50% szansę na nauczenie się każdego zaklęcia do 3. poziomu, które zostało użyte w walce.",
-	"skill.core.eagleEye.description.basic": "{Podstawowy Sokoli wzrok}\n\nPodstawowy Sokoli wzrok daje bohaterowi 40% szansę na nauczenie się każdego zaklęcia 1. bądź 2. poziomu, który zostało użyte w walce.",
-	"skill.core.eagleEye.description.expert": "{Mistrzowski Sokoli wzrok}\n\nMistrzowski Sokoli wzrok daje bohaterowi 60% szansę na nauczenie się każdego zaklęcia do 4. poziomu, które zostało użyte w walce."
+	"skill.core.eagleEye.description.advanced": "{Sokoli wzrok - poziom zaawansowany}\n\nDaje bohaterowi 50% szansę na nauczenie się każdego zaklęcia do 3. poziomu, które zostało użyte w walce.",
+	"skill.core.eagleEye.description.basic": "{Sokoli wzrok - poziom podstawowy}\n\nDaje bohaterowi 40% szansę na nauczenie się każdego zaklęcia 1. bądź 2. poziomu, który zostało użyte w walce.",
+	"skill.core.eagleEye.description.expert": "{Sokoli wzrok - poziom ekspercki}\n\nDaje bohaterowi 60% szansę na nauczenie się każdego zaklęcia do 4. poziomu, które zostało użyte w walce."
 }

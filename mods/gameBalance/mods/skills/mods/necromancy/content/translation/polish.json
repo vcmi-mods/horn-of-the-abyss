@@ -1,5 +1,5 @@
 {
-	"skill.core.necromancy.description.advanced" : "{Zaawansowana Nekromancja}\n\nZaawansowana Nekromancja pozwala na ożywienie 10% zabitych stworzeń jako Szkielety.",
-	"skill.core.necromancy.description.basic" : "{Podstawowa Nekromancja}\n\nPodstawowa Nekromancja pozwala na ożywienie 5% zabitych stworzeń jako Szkielety.",
-	"skill.core.necromancy.description.expert" : "{Ekspercka Nekromancja}\n\nEkspercka Nekromancja pozwala na ożywienie 15% zabitych stworzeń jako Szkielety."
+	"skill.core.necromancy.description.advanced": "{Nekromancja - poziom zaawansowany}\n\nPozwala wskrzesić w postaci szkieletów {10%} poległych w walce stworzeń.",
+	"skill.core.necromancy.description.basic": "{Nekromancja - poziom podstawowy}\n\nPozwala wskrzesić w postaci szkieletów {5%} poległych w walce stworzeń.",
+	"skill.core.necromancy.description.expert": "{Nekromancja - poziom ekspercki}\n\nPozwala wskrzesić w postaci szkieletów {15%} poległych w walce stworzeń."
 }
