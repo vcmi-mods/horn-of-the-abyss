@@ -15,6 +15,7 @@
 			"Added Diplomat's Cloak, Temple of Loyalty and Warlock's Lab",
 			"All hero specialties are now working properly (including Eovacius' Clone and Coronius' Slayer specialties)",
 			"Luck now doubles or halves (Bad Luck) the total attack damage instead of just doubling/halving base damage",
+			"Learning now correctly grants the level-up when taking or upgrading it",
 			"(Sentinel) Automatons can now use their ability to explode on death, damaging all surrounding units",
 			"Dreadnoughts and Juggernauts can now use Heat Stroke",
 			"Self-cast abilities like Meditation and Detonation can now be activated without having to target the creature",
