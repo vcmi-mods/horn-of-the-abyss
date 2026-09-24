@@ -1,5 +1,5 @@
 {
-	"skill.core.intelligence.description.advanced" : "{Zaawansowana Inteligencja}\n\nZaawansowana Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 35%.",
-	"skill.core.intelligence.description.basic" : "{Podstawowa Inteligencja}\n\nPodstawowa Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 20%.",
-	"skill.core.intelligence.description.expert" : "{Ekspercka Inteligencja}\n\nEkspercka Inteligencja zwiększa maksymalną liczbę punktów magii bohatera o 50%."
+	"skill.core.intelligence.description.advanced": "{Inteligencja - poziom zaawansowany}\n\nZwiększa liczbę posiadanych pkt. many o {35%}.",
+	"skill.core.intelligence.description.basic": "{Inteligencja - poziom podstawowy}\n\nZwiększa liczbę posiadanych pkt. many o {20%}.",
+	"skill.core.intelligence.description.expert": "{Inteligencja - poziom ekspercki}\n\nZwiększa liczbę posiadanych pkt. many o {50%}."
 }

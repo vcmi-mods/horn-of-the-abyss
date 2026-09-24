@@ -1,97 +1,97 @@
-Embark on an epic journey in **Horn of the Abyss**, a fan-made expansion for _Heroes of Might and Magic III_, standing proudly alongside the official expansions of **Armageddon's Blade** and **Shadow of Death**.
+Вирушайте в епічну подорож у **Розі Безодні** — фанатському доповненні до _Heroes of Might and Magic III_, яке гідно стоїть поруч з офіційними доповненнями **Клинок Армагеддону** та **Подих Смерті**.
 
-## A True Tribute to Heroes of Might and Magic
+## Справжня данина шани Heroes of Might and Magic
 
-_Horn of the Abyss_ enhances the original game with a wealth of new features while preserving its legendary charm. Explore the new **Cove**, **Factory** and **Bulwark** factions, engage in challenging campaigns, and discover sparkling new artifacts and interesting map objects that enhance the game's strategic depth.
+_Ріг Безодні_ збагачує оригінальну гру безліччю нових можливостей, водночас зберігаючи її легендарну чарівність. Досліджуйте нові фракції — **Причал**, **Фабрика** та **Кронверк**, проходьте складні кампанії й знаходьте блискучі нові артефакти та цікаві об'єкти мапи, що поглиблюють стратегічну складову гри.
 
-Painstakingly balanced and polished, _Horn of the Abyss_ has been crafted with an unwavering commitment to quality. With carefully refined mechanics and a host of improvements, this expansion is a must-play for both new players and seasoned veterans. This expansion includes the careful balance changes and fixes, removal of graphical imperfections left by the developers, and the addition of a considerable amount of new content. The project is lore-oriented and attempts to keep connected with the original Might and Magic universe, with changes made to honour the vision of the original game while greatly enhancing players' experience.
+Ретельно збалансований і відшліфований, _Ріг Безодні_ створений із непохитним прагненням до якості. Завдяки продуманим механікам і численним поліпшенням це доповнення варто спробувати як новачкам, так і досвідченим гравцям. Воно містить виважені зміни балансу й виправлення, усуває графічні недоліки, залишені розробниками, та додає чимало нового вмісту. Проєкт спирається на усталений світ гри й намагається зберігати зв'язок з оригінальним всесвітом Might and Magic: зміни шанують задум оригінальної гри й водночас значно поліпшують ігровий досвід.
 
-## Cove Town
+## Місто Причалу
 
-Sail the seven seas with the Captains and Navigators of the **Cove** and unleash the might of the depths unto your foes. The Cove is home to fearless Crewmates and their Pirate captains, assisted in their navigation of the seas by powerful Sea Witches. However, this Regnan town has attracted more than just humans: from the water-borne Nymphs and Sea Serpents protected by their Nix friends to the soaring Stormbirds of the skies, the Cove is a place of marine diversity of all sorts. Take out your enemies from afar with giant metal Cannon shots and the deadly accuracy of Sea Dogs aided by the shattering magic of Sorceresses; plunder their loot up close and personal with swift strikes from Haspids and Ayssids; and defend your ill-gotten gains with your dependable Seamen and Nix Warriors.
+Вирушайте підкорювати сім морів із капітанами й навігаторами **Причалу** та спрямуйте силу глибин проти ворогів. У Причалі живуть безстрашні матроси та їхні капітани-пірати, яким у морських мандрах допомагають могутні жриці морів. Утім, це регнанське місто привабило не лише людей: тут співіснують народжені водою німфи й морські змії під захистом своїх друзів-ніксів, а в небі ширяють духи океану. Вражайте ворогів здалеку пострілами величезних металевих гармат і смертоносно влучним вогнем морських вовків, підсиленим руйнівною магією заклиначок; грабуйте їх зблизька стрімкими атаками гаспидів та ассид; а здобич захищайте надійними головорізами й ніксами-воїнами.
 
-## Factory Town
+## Місто Фабрики
 
-Dive into new-age technology with the Mercenaries and Artificers of the **Factory** and unlock your creatures' full potential with the might of industry. Take to the skies and transcend the need for navigating tricky terrain with the brand new Airship, bringing you closer to victory with great haste. The Factory is home to plucky Halflings and their slow and steady Armadillo friends, protected by local Gunslingers, but not all natural creatures are as nice as they are - beware the burrowing Sandworm and jungle-dwelling Couatl, for they are fearsome in numbers, even if the Couatl needs some provoking to unlock its full potential. The natural evolution of humans resulted in the forming of new and curious technologies, which some have embraced fully: Mechanics were trained to help great engineers construct the explosive Automaton and eventually the colossal laser-shooting Dreadnought, both of which are able to be repaired on the battlefield if need be.
+Пориньте у світ новітніх технологій із найманцями й винахідниками **Фабрики** та розкрийте весь потенціал своїх істот завдяки могутності промисловості. Підійміться в небо на новому дирижаблі, долайте складну місцевість без зайвих перешкод і стрімко наближайте перемогу. У Фабриці живуть відважні напіврослики та їхні повільні, але невтомні друзі-броненосці, яких захищають місцеві стрільці. Проте не всі тутешні істоти такі приязні: остерігайтеся піщаного хробака, що пересувається під землею, та коатля з джунглів — у великій кількості вони надзвичайно небезпечні, хоча коатля ще треба спровокувати, щоб він розкрив усю свою силу. Розвиток людської майстерності породив нові дивовижні технології, які дехто прийняв цілковито: механіків навчено допомагати видатним інженерам створювати вибухових автоматонів, а згодом і велетенських дредноутів із лазерними гарматами. За потреби обидві машини можна ремонтувати просто на полі бою.
 
-## Bulwark Town
+## Місто Кронверка
 
-Stand firm against the biting chill of Vori and lead the resilient defenders of the **Bulwark** to glory, where ancient traditions meet the ruthlessness of the eternal frost. As a Chieftain or Elder, you command the frozen reaches, turning the harsh elements into a shield for your people. The Bulwark is a haven for proud Snow Elves and resourceful Kobolds, bolstered by loyal Argali and the crushing charge of colossal Mammoths. Amid ancient standing stones, wise Shamans invoke old spirits to guide your warriors, and from the swirling snows emerge legendary allies: towering Jotunns and elusive Yeti, their spirits tempered by mastering the lore of the runes. While others falter in the whiteout, your forces thrive, wielding the wind and mountain stillness as a weapon. Hold fast behind walls of rime and resolve — the legends of Vori are no longer mere songs, but a freezing tide ready to sweep across the world.
+Вистійте проти пронизливого холоду Ворі та приведіть незламних оборонців **Кронверка** до слави — там, де давні традиції зустрічаються з безжальністю вічного морозу. Як вождь або старійшина, ви керуєте крижаними просторами й перетворюєте суворі стихії на щит для свого народу. Кронверк є прихистком гордих снігових ельфів і винахідливих кобольдів, яких підтримують вірні архари та нищівний натиск величезних мамонтів. Серед прадавніх каменів мудрі шамани закликають давніх духів, щоб ті вели ваших воїнів, а з вихору снігу постають легендарні союзники: велетенські йотуни та невловні єті, загартовані опануванням таємниць рун. Поки інші губляться в сніговій імлі, ваші війська міцнішають, перетворюючи вітер і тишу гір на зброю. Стійте непохитно за стінами з інею та рішучості — легенди Ворі вже не просто пісні, а крижана хвиля, готова прокотитися світом.
 
-## Heroes
+## Герої
 
-In addition to the regular 16 heroes per town and campaign/map-editor-exclusive heroes from the **Cove** and **Factory** and the 17 heroes from the **Bulwark**, there are a few smaller additions and changes to the roster of familiar heroes:
+Окрім звичних 16 героїв кожного міста, героїв **Причалу** й **Фабрики**, доступних лише в кампаніях і редакторі мап, та 17 героїв **Кронверка**, список знайомих героїв отримав кілька менших доповнень і змін:
 
-* **Lord Haart the Knight**
-    * Was originally in _Restoration of Erathia_, but was swapped out for **Sir Mullich the Knight** in _Armageddon's Blade_ and _Shadow of Death_ - he has now returned in _Horn of the Abyss_
-* **Beatrice the Knight**
-    * **Scouting** specialist
-* **Giselle the Ranger**
-    * **Interference** specialist
-* **Ranloo the Death Knight**
-    * **Ballista** specialist
-* **Kinkeria the Witch**
-    * **Learning** specialist
-* **Miscellaneous Changes**
-    * **Lord Haart the Death Knight** has been renamed to **Haart Lich the Death Knight** to avoid confusion
-    * In regular _Horn of the Abyss_, heroes that would be replaced by new heroes would also be disabled - this is not the case in VCMI, where every hero is available unless banned by the map or template
+* **Лорд Хаарт, лицар**
+    * Спочатку був у _Відродженні Ерафії_, але в _Клинку Армагеддону_ та _Подиху Смерті_ його замінив **Сер Мюлліх, лицар**. Тепер він повернувся в _Розі Безодні_.
+* **Беатрис, лицар**
+    * Спеціалістка з **Розвідки**
+* **Жизель, рейнджер**
+    * Спеціалістка із **Завад**
+* **Ранлу, лицар смерті**
+    * Спеціаліст із **Балісти**
+* **Кінкерія, відьма**
+    * Спеціалістка з **Освіти**
+* **Інші зміни**
+    * **Лорда Хаарта, лицаря смерті** перейменовано на **Харта-Ліча, лицаря смерті**, щоб уникнути плутанини.
+    * У звичайному _Розі Безодні_ героїв, яких замінюють нові герої, також вимкнено. У VCMI це не так: тут доступні всі герої, якщо їх не заборонено мапою або шаблоном.
 
-## Secondary Skills
+## Вторинні навички
 
-Horn of the Abyss introduces **Interference** as a Secondary Skill to replace **Resistance**, which itself is now banned by default. This skill is a fairer and more balanced way to mitigate magic, as it decreases enemy Spell Power as opposed to being an unbalanced "roll-of-the-dice" skill that had the potential to render magic utterly ineffective.
+Ріг Безодні додає вторинну навичку **Завади** на заміну **Опору**, який тепер заборонено за замовчуванням. Ця навичка чесніше й збалансованіше послаблює магію: вона зменшує силу магії ворожого героя, тоді як незбалансований Опір залежав від випадку й міг зробити магію цілковито неефективною.
 
-It also adds **Runes** as an additional Secondary Skill. During combat, this skill improves your creatures' Attack, Defense and Speed the more they participate.
+Також доповнення додає вторинну навичку **Руни**. Під час бою вона поліпшує атаку, захист і швидкість істот залежно від того, наскільки активно вони беруть участь у битві.
 
-## Artifacts
+## Артефакти
 
-A new set of golden armour infused with the power of the ocean lies in wait to be adorned by only the mightiest of heroes:
+Новий набір золотих обладунків, насичених силою океану, чекає на наймогутніших героїв:
 
-* **Trident of Dominion:** _+7 Attack skill_
-* **Shield of Naval Glory:** _+7 Defense skill_
-* **Royal Armor of Nix:** _+6 Spell Power skill_
-* **Crown of the Five Seas:** _+6 Knowledge skill_
+* **Тризуб Могутності:** _+7 до атаки_
+* **Щит Морської Слави:** _+7 до захисту_
+* **Королівські Обладунки Ніксів:** _+6 до сили магії_
+* **Корона П'яти Морів:** _+6 до знань_
 
-Two incredibly powerful artifacts have been added that can completely change the tide of a scenario:
+Додано два неймовірно могутні артефакти, здатні докорінно змінити перебіг сценарію:
 
-* **Horn of the Abyss:** _Raises Fangarms from slain stacks of living creatures_
-* **Sleepkeeper:** _Provides immunity to Mind spells_
+* **Ріг Безодні:** _піднімає фангармів із полеглих загонів живих істот_
+* **Сонник:** _надає імунітет до заклять Розуму_
 
-Several combination artifacts have been added that were once planned for the release of _Shadow of Death_ with new names and fully fleshed-out abilities:
+Додано кілька збірних артефактів, які свого часу планували для _Подиху Смерті_, — тепер вони мають нові назви й повноцінні властивості:
 
-* **Ironfist of the Ogre:**
-    * _+5 Attack skill, +5 Defense skill, +4 Spell Power skill, +4 Knowledge skill_
-    * _Casts Expert Bloodlust, Counterstrike, Fire Shield, and Haste on all allies for 50 rounds_
-    * _**Weapon**/Shield/Head/Torso slots_
-* **Pendant of Reflection:**
-    * _+50% Magic Resistance_
-    * _**Necklace**/Shoulders/Feet slots_
-* **Golden Goose:**
-    * _+7000 Gold/day_
-    * _**Misc**/Misc/Misc slots_
+* **Залізний Кулак Огра:**
+    * _+5 до атаки, +5 до захисту, +4 до сили магії, +4 до знань_
+    * _Накладає на всіх союзників закляття "Жага крові", "Контрудар", "Вогняний щит" і "Поспіх" 3-го рівня на 50 раундів_
+    * _Комірки **Зброя**/Щит/Голова/Тулуб_
+* **Кулон Віддзеркалення:**
+    * _+50% до опору магії_
+    * _Комірки **Шия**/Плечі/Ступні_
+* **Золотий Гусак:**
+    * _+7000 золотих на день_
+    * _Комірки **Різне**/Різне/Різне_
 
-Still hungry for more boons to get an edge over your enemies? Look no further than the assorted wares that _Horn of the Abyss_ has to offer:
+Прагнете ще більше переваг над ворогами? Зверніть увагу на різноманітні скарби, які пропонує _Ріг Безодні_:
 
-* **Plate of Dying Light:** _\-25% enemy Spell Power skill_
-* **Seal of Sunset:** _\-10% enemy Spell Power skill_
-* **Charm of Eclipse:** _\-10% enemy Spell Power skill_
-* **Pendant of Downfall:** _\-2 enemy Morale_
-* **Ring of Suppression:** _\-1 enemy Morale_
-* **Hideous Mask:** _\-1 enemy Morale_
-* **Shaman's Puppet:** _\-2 enemy Luck_
-* **Runes of Imminency:** _\-1 enemy Luck_
-* **Demon's Horseshoe:** _\-1 enemy Luck_
-* **Wayfarer's Boots:** _No movement penalty over rough terrain_
-* **Cape of Silence:** _Prevents either player from casting level 1 or 2 spells_
-* **Ring of Oblivion:** _Prevents either player from resurrecting casualties during battle_
+* **Лати Гаснучих Світил:** _\-25% до сили магії ворога_
+* **Печать Заходу:** _\-10% до сили магії ворога_
+* **Амулет Затемнення:** _\-10% до сили магії ворога_
+* **Кулон Нівечення:** _\-2 до моралі ворога_
+* **Перстень Придушення:** _\-1 до моралі ворога_
+* **Страхітлива Маска:** _\-1 до моралі ворога_
+* **Лялька Шамана:** _\-2 до удачі ворога_
+* **Руни Неминучості:** _\-1 до удачі ворога_
+* **Підкова Демона:** _\-1 до удачі ворога_
+* **Черевики Мандрівника:** _усувають штраф за пересування пересіченою місцевістю_
+* **Накидка Мовчання:** _забороняє обом гравцям накладати закляття 1-го та 2-го рівнів_
+* **Перстень Забуття:** _не дозволяє обом гравцям воскрешати полеглих під час бою_
 
-## Miscellaneous Changes
+## Інші зміни
 
-* External dwellings now accumulate creatures weekly as long as they are owned by a player
-* Small yet appropriate changes to overall town building cost balance
-* Small yet appropriate changes to various creatures
-* New **map objects** and **creature hordes**
-* The **Vault of Ashes**, a new **Conflux** dwelling that boosts Firebird/Phoenix Growth
-* **Spell Research** system that guarantees essential spells with enough research
-* New terrains - **Highlands** and **Wasteland**
-* **Conflux's** native terrain is changed to **Highlands**
-* **Halflings** belong to **Factory** instead of being **Neutral**
+* Зовнішні житла щотижня накопичують істот, доки належать гравцеві
+* Невеликі, але доречні зміни загального балансу вартості міських споруд
+* Невеликі, але доречні зміни різних істот
+* Нові **об'єкти мапи** та **орди істот**
+* **Склепіння попелу** — нове житло **Злиття Стихій**, яке збільшує приріст жар-птиць і феніксів
+* Система **Дослідження заклять**, яка за достатньої кількості досліджень гарантує появу необхідних заклять
+* Нові типи місцевості — **Високогір'я** та **Пустище**
+* Рідну місцевість **Злиття Стихій** змінено на **Високогір'я**
+* **Напіврослики** належать до **Фабрики**, а не до **нейтральних істот**
