@@ -1,17 +1,18 @@
+// VCMI 1.8 HotA parity:
+// Hero gains a level each time Learning is learned or upgraded;
+// on that level-up Learning is not offered again if any other skill can be upgraded.
 // 1.7.3:
 // [-] Learning experience bonus: 25/50/75% -> 20/40/60%.
 // 1.7.2:
 // [+] Learning increases the hero's experience gains by 25/50/75%.
 {
 	"core:learning" : {
-		// Hero gains a level each time Learning is learned or upgraded; on that level-up Learning
-		// is not offered again if any other skill can be upgraded. Requires VCMI 1.8.
 		"tags" : {
 			"grantsLevelUp" : true
 		},
 		"offerCooldown" : 1,
 		"basic" : {
-			"description" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20%.",
+			"description" : "{Basic Learning}\n\nBasic Learning increases the hero’s earned experience points by 20% and grants them an additional level upon learning the skill.",
 			"effects" : {
 				"main" : {
 					"val" : 20
@@ -19,7 +20,7 @@
 			}
 		},
 		"advanced" : {
-			"description" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 40%.",
+			"description" : "{Advanced Learning}\n\nAdvanced Learning increases the hero’s earned experience points by 40% and grants them an additional level upon improving the skill.",
 			"effects" : {
 				"main" : {
 					"val" : 40
@@ -27,7 +28,7 @@
 			}
 		},
 		"expert" : {
-			"description" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 60%.",
+			"description" : "{Expert Learning}\n\nExpert Learning increases the hero’s earned experience points by 60% and grants them an additional level upon improving the skill.",
 			"effects" : {
 				"main" : {
 					"val" : 60
