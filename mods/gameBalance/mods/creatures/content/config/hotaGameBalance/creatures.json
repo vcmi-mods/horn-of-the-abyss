@@ -200,8 +200,8 @@
 			"gold" : 1500
 		},
 		"abilities" : {
-			"hotaDamageOverride" : {
-				"type" : "BALLISTA_DAMAGE_OVERRIDE"
+			"heroAttackDamage" : {
+				"val" : 5
 			}
 		}
 	},

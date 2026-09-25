@@ -38,6 +38,9 @@
 		},
 		"creatureNature" : false
 	},
+	"RUNE_LEVEL_PENDING" : {
+		"hidden" : true
+	},
 	"YETI_RUNE_LEVEL_COUNTER" : {
 		"hidden" : false,
 		"description" : "%s achieve %d Rune Level.",

@@ -84,6 +84,11 @@
 			"cpuControlledCannon" : {
 				"hidden" : true,
 				"type" : "CPU_CONTROLLED"
+			},
+			"heroAttackDamage" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "ballistaDamage",
+				"val" : 1
 			}
 		},
 		"stackExperience" : [
