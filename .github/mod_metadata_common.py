@@ -152,3 +152,53 @@ def detect_language(heading: str) -> Optional[str]:
         if lang in lowered:
             return lang
     return None
+
+
+def resolve_ci(base: Path, relative: str) -> Optional[Path]:
+    """Resolve a '/'-separated relative path under `base`, matching each segment case-insensitively."""
+    current = base
+    for segment in relative.split("/"):
+        current = child_ci(current, segment)
+        if current is None:
+            return None
+    return current
+
+
+def weblate_dirs(root: Path) -> set:
+    """
+    Directories holding the files a mod.json declares as "translations".
+
+    Their content comes from Weblate - directly, or distributed by
+    heroes-translations - so CI must leave its formatting alone, otherwise every
+    sync is followed by a reformat commit that the next sync reverts. Whole
+    directories, because a sibling file (e.g. chronicles.json) may be shipped
+    without being declared.
+    """
+    dirs = set()
+    for mod_dir, _ in find_mods(root):
+        config = load_jsonc(mod_json_path(mod_dir))
+        content = child_ci(mod_dir, "content")
+        if content is None:
+            continue
+        blocks = [config] + [value for value in config.values() if isinstance(value, dict)]
+        for block in blocks:
+            for relative in block.get("translations") or []:
+                if not isinstance(relative, str):
+                    continue
+                path = resolve_ci(content, relative)
+                if path is not None:
+                    dirs.add(path.parent.resolve())
+    return dirs
+
+
+def iter_formattable_json(root: Path):
+    """Yield every *.json under `root` that CI may reformat."""
+    skip = weblate_dirs(root)
+    for path in sorted(root.rglob("*.json")):
+        if not path.is_file() or ".git" in path.parts:
+            continue
+        if any(part.lower() == "translation" for part in path.parts):
+            continue
+        if path.parent.resolve() in skip:
+            continue
+        yield path

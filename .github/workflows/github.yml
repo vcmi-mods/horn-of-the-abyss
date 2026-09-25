@@ -156,11 +156,9 @@ jobs:
       - name: Format JSON files with Prettier
         if: github.event_name != 'pull_request'
         run: |
-          # find -ipath so the translation/ and .git/ exclusions are case-insensitive
-          # (prettier's own globs are not).
-          mapfile -d '' FILES < <(find . -iname '*.json' \
-                                       -not -ipath '*/translation/*' \
-                                       -not -ipath '*/.git/*' -print0)
+          # The helper also skips Weblate-owned files, which neither prettier globs
+          # nor find can single out - they are declared in each mod.json.
+          mapfile -d '' FILES < <(python3 .github/list_json_files.py)
           if [ ${#FILES[@]} -gt 0 ]; then
             prettier --write "${FILES[@]}" \
                      --parser jsonc \
