@@ -35,8 +35,7 @@
 			"7" : "Bonuses for rune level 7:\n+6 Attack\n+4 Defense\n+2 Speed",
 			"8" : "Bonuses for rune level 8:\n+6 Attack\n+6 Defense\n+2 Speed",
 			"9" : "Bonuses for rune level 9:\n+6 Attack\n+6 Defense\n+3 Speed"
-		},
-		"creatureNature" : false
+		}
 	},
 	"RUNE_LEVEL_PENDING" : {
 		"hidden" : true
@@ -69,7 +68,6 @@
 			"7" : "Bonuses for rune level 7:\n+6 Attack\n+4 Defense\n+2 Speed",
 			"8" : "Bonuses for rune level 8:\n+6 Attack\n+6 Defense\n+2 Speed",
 			"9" : "Bonuses for rune level 9:\n+6 Attack\n+6 Defense\n+3 Speed"
-		},
-		"creatureNature" : false
+		}
 	}
 }
