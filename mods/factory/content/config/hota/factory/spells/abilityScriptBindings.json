@@ -7,7 +7,8 @@
 			"properties" : {},
 			"additionalProperties" : false
 		},
-		"priority" : 0,
+		// Execute after resurrection handlers.
+		"priority" : 100,
 		"description" : ""
 	},
 	"heatStroke" : {
