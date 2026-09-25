@@ -50,7 +50,7 @@
 	},
 	"devourCorpsesCombat" : {
 		"implements" : "combatEvent",
-		"script" : "combat/devourCorpsesCombat.lua",
+		"script" : "combat/devourCorpses.lua",
 		"patches" : [],
 		"schema" : {
 			"properties" : {
