@@ -16,5 +16,7 @@
 	"mod.maps.officialcampaigns.name": "Kampanjer",
 	"mod.maps.officialcampaigns.description": "Denna modd innehåller alla officiella kampanjer som skapats av HotA-teamet",
 	"mod.maps.officialmaps.name": "Kartor",
-	"mod.maps.officialmaps.description": "Denna modd innehåller alla officiella kartor som skapats av HotA-teamet"
+	"mod.maps.officialmaps.description": "Denna modd innehåller alla officiella kartor som skapats av HotA-teamet",
+	"mod.gamebalance.artifacts.bannedartifacts.name": "Bannlysta Artefakter",
+	"mod.gamebalance.artifacts.bannedartifacts.description": "Bannlyser följande Artefakter: Förhindrarens Mantel, Upphävandets Klot, Garnityr av Interferens, Stövlar av Polaritet, Motviktens Överrock, Sömnbevararen och Avgrundens Horn"
 }
