@@ -26,6 +26,7 @@
 		"river" : "waterRiver",
 		"rockTerrain" : "rock",
 		"shortIdentifier" : "hl",
+		"grailRumor" : "up in the highlands",
 		"terrainViewPatterns" : "hota",
 		"battleFields" : [
 			"highlands_flowers"
