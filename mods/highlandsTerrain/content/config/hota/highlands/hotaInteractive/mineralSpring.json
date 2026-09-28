@@ -23,7 +23,8 @@
 							{
 								"type" : "LUCK",
 								"val" : 1,
-								"duration" : "ONE_BATTLE"
+								"duration" : "ONE_BATTLE",
+								"description" : "Mineral Spring +1"
 							}
 						]
 					}
