@@ -46,5 +46,6 @@
 	"mod.gamebalance.spells.name": "Trollformler",
 	"mod.gamebalance.startingsarmies.description": "Startarméer",
 	"mod.heroes.name": "Hjältar",
-	"mod.gamebalance.startingsarmies.name": "Startarméer"
+	"mod.gamebalance.startingsarmies.name": "Startarméer",
+	"mod.gamebalance.objects.rmgtweak.name": "Objektdensitet"
 }
