@@ -175,7 +175,7 @@ jobs:
       - name: Run VCMI
         if: env.VCMI_VERSION != ''
         run: |
-          printf '{ "activePreset": "default", "presets": { "default": { "mods": [ "vcmi", "core", "%s" ]}}}' "$MOD_NAME" >~/.config/vcmi/modSettings.json
+          PYTHONPATH=.github python3 .github/write_mod_preset.py "$MOD_NAME"
           vcmiserver --dummy-run 2> >(tee error.log)
           if [ ! -s error.log ]; then
               echo "Validation OK!"
