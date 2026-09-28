@@ -45,5 +45,6 @@
 	"mod.gamebalance.skills.sorcery.name": "Trolldom",
 	"mod.gamebalance.spells.name": "Trollformler",
 	"mod.gamebalance.startingsarmies.description": "Startarméer",
-	"mod.heroes.name": "Hjältar"
+	"mod.heroes.name": "Hjältar",
+	"mod.gamebalance.startingsarmies.name": "Startarméer"
 }
