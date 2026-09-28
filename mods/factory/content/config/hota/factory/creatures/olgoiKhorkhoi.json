@@ -46,6 +46,7 @@
 			"attack" : "hota/factory/creatures/sandworm/WORMATTK.wav",
 			"defend" : "hota/factory/creatures/sandworm/WORMDFND.wav",
 			"killed" : "hota/factory/creatures/sandworm/WORMKILL.wav",
+			"shoot" : "hota/factory/creatures/sandworm/WORMSPEC.wav",
 			"move" : "hota/factory/creatures/sandworm/WORMMOVE.wav",
 			"wince" : "hota/factory/creatures/sandworm/WORMWNCE.wav",
 			"startMoving" : "hota/factory/creatures/sandworm/WORMEXT1.wav",
@@ -64,14 +65,10 @@
 					}
 				]
 			},
-			"castsymMeditation" : {
-				"type" : "SPELLCASTER",
-				"subtype" : "summonLarva",
-				"val" : 1
-			},
-			"castsCount" : {
-				"type" : "CASTS",
-				"val" : 50
+			"devoursCorpses" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "devourCorpsesCombat",
+				"icon" : "hota/factory/bonusIcons/sandvigour.png"
 			},
 			"blindImmunity" : {
 				"type" : "SPELL_IMMUNITY",

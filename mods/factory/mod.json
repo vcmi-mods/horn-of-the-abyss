@@ -36,7 +36,6 @@
 		"config/hota/factory/creatures/hotaMechanic.json",
 		"config/hota/factory/creatures/olgoiKhorkhoi.json",
 		"config/hota/factory/creatures/sandworm.json",
-		"config/hota/factory/creatures/sandwormLarva.json",
 		"config/hota/factory/creatures/sentinelAutomaton.json",
 
 		"config/hota/factory/commander/cowboy.json",
@@ -87,15 +86,12 @@
 	],
 	"spells" : [
 		"config/hota/factory/spells/abilityDetonation.json",
-		"config/hota/factory/spells/ephemeralAbility.json",
-		"config/hota/factory/spells/hotaGrenade.json",
-		"config/hota/factory/spells/heatStroke.json",
 		"config/hota/factory/spells/hotaRepair.json",
+		"config/hota/factory/spells/hotaGrenade.json",
 		"config/hota/factory/spells/meditation01.json",
 		"config/hota/factory/spells/meditation02.json",
 		"config/hota/factory/spells/moat.json",
-		"config/hota/factory/spells/sandViguor.json",
-		"config/hota/factory/spells/summonLarva.json",
+		"config/hota/factory/spells/heatStroke.json",
 		"config/hota/factory/spells/teslaLightning.json"
 	],
 
