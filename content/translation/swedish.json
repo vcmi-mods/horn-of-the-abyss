@@ -47,5 +47,6 @@
 	"mod.gamebalance.startingsarmies.description": "Startarméer",
 	"mod.heroes.name": "Hjältar",
 	"mod.gamebalance.startingsarmies.name": "Startarméer",
-	"mod.gamebalance.objects.rmgtweak.name": "Objektdensitet"
+	"mod.gamebalance.objects.rmgtweak.name": "Objektdensitet",
+	"mod.heroes.description": "Nya hjältar till grundspelet - Beatrice, Kinkeria och Ranloo.<br/>Dessutom ändras beteendet hos hjältarna Voy och Sylvia, som nu endast är tillgängliga på kartor med vatten. Dessutom finns det ett alternativ för att aktivera hjältarna från HotA-kampanjen!"
 }
