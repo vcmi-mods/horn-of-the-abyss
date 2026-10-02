@@ -107,5 +107,17 @@
 	"mod.neutralcreatures.name": "Neutrala varelser",
 	"mod.neutralcreatures.description": "Lägger till nya neutrala varelser i spelet: Fångarm, Pyssling, Satyr, Stålgolem",
 	"mod.neutralcreatures.ancientaltar.name": "Forntida Altare",
-	"mod.neutralcreatures.ancientaltar.description": "Lägger till Forntida Altarförråd (kampanjobjekt)"
+	"mod.neutralcreatures.ancientaltar.description": "Lägger till Forntida Altarförråd (kampanjobjekt)",
+	"mod.neutralcreatures.bonuses icons.name": "Alternativa bonusikoner",
+	"mod.neutralcreatures.bonuses icons.description": "Alternativa ikoner för varelsernas förmågor.",
+	"mod.newgraphics.name": "Ny grafik",
+	"mod.newgraphics.description": "Det här alternativet aktiverar nya grafiska objekt som lagts till av HotA-teamet. För närvarande består den här modden av nya animationer för städer på kartan samt korrigerade animationer för vandrande monster och trollformler.",
+	"mod.spellresearch.name": "Trollformelforskning",
+	"mod.spellresearch.description": "Den här undermodden aktiverar ett grundläggande system för trollformelforskning som efterliknar en liknande funktion i HotA.",
+	"mod.supplementary.name": "Expansion av spelgemenskapen",
+	"mod.supplementary.description": "Denna modd introducerar följande nya element:<br/><br/>Artefakter:<br/>- Sista Skrikets Huggtand<br/>- Den Stora Stridsbågen<br/>- Kryparnas Stora Ve<br/>- Det Ihåliga Ögat<br/><br/>Kartobjekt:<br/> - Vaktorn<br/>- Stålgolemfabrik<br/>- Blixtgenerator<br/>- Vindturbin<br/><br/>Övriga objekt:<br/>- Känguru<br/>- Blixtgenerator<br/>- Vindturbin<br/><br/>Obs! Detta är inofficiellt innehåll som skapats av spelgemenskapen.",
+	"mod.templates.name": "HotA-mallar",
+	"mod.templates.description": "Några mallar som introducerats i HotA",
+	"mod.terrainoverlays.name": "Magiska terrängtyper",
+	"mod.terrainoverlays.description": "Det här tillvalet lägger till tre nya speciella terrängtyper: Sprickis, Sanddyner och Glansfält."
 }
