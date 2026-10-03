@@ -1,10 +1,10 @@
-Embark on an epic journey in **Horn of the Abyss**, a fan-made expansion for _Heroes of Might and Magic III_, standing proudly alongside the official expansions of **Armageddon's Blade** and **Shadow of Death**.
+Hãy bắt đầu cuộc hành trình kỳ vĩ trong **Horn of the Abyss **, một bản mở rộng do người hâm mộ phát triển dành cho _Heroes of Might and Magic III_, tiếp nối di sản của hai bản mở rộng chính thức đã trở thành huyền thoại là **Armageddon's Blade** và **Shadow of Death**. Bản dịch tiếng Việt của Bé Còi Team.
 
-## A True Tribute to Heroes of Might and Magic
+## Lời Tri Ân Đặc Biệt Dành Cho Heroes of Might and Magic
 
-_Horn of the Abyss_ enhances the original game with a wealth of new features while preserving its legendary charm. Explore the new **Cove**, **Factory** and **Bulwark** factions, engage in challenging campaigns, and discover sparkling new artifacts and interesting map objects that enhance the game's strategic depth.
+_Horn of the Abyss_ nâng tầm trò chơi gốc với nhiều tính năng mới nhưng vẫn giữ nguyên sức hấp dẫn huyền thoại vốn có. Khám phá các phe phái mới **Cove**, **Factory** và **Bulwark**, tham gia những chiến dịch đầy thử thách, đồng thời tìm kiếm những báu vật mới cùng nhiều đối tượng bản đồ thú vị, giúp tăng thêm chiều sâu chiến thuật của trò chơi.
 
-Painstakingly balanced and polished, _Horn of the Abyss_ has been crafted with an unwavering commitment to quality. With carefully refined mechanics and a host of improvements, this expansion is a must-play for both new players and seasoned veterans. This expansion includes the careful balance changes and fixes, removal of graphical imperfections left by the developers, and the addition of a considerable amount of new content. The project is lore-oriented and attempts to keep connected with the original Might and Magic universe, with changes made to honour the vision of the original game while greatly enhancing players' experience.
+Được tinh chỉnh và cân bằng một cách kỹ lưỡng, _Horn of the Abyss_ được phát triển với cam kết mạnh mẽ về chất lượng. Nhằm mang đến trải nghiệm tốt nhất cho những người chơi mới và cả những người chơi lâu năm. Bản mở rộng bao gồm những thay đổi cân bằng và sửa lỗi được thực hiện một cách cẩn thận, loại bỏ các khuyết điểm đồ họa còn sót lại từ trò chơi gốc, đồng thời bổ sung một lượng lớn nội dung mới. Dự án chú trọng đến cốt truyện và cố gắng duy trì sự liên kết với vũ trụ Might and Magic nguyên bản. Những thay đổi được thực hiện nhằm tôn trọng tầm nhìn của trò chơi gốc, đồng thời nâng cao đáng kể trải nghiệm của người chơi.
 
 ## Cove Town
 
