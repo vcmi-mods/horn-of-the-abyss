@@ -687,6 +687,8 @@
 		]
 	},
 	"vietnamese" : {
+		"name" : "Horn of the Abyss",
+		"description" : "Horn of the Abyss (HotA) là bản mở rộng dành cho Heroes of Might and Magic III, do HotA Crew thực hiện. Bản mod này điều chỉnh và cân bằng lại nhiều cơ chế của trò chơi gốc, đồng thời bổ sung các phe mới gồm Cove, Factory và Bulwark, cùng với các tướng, quân, kỹ năng, phép thuật, báu vật và nhiều tính năng mới khác. Mod mang đến những trải nghiệm mới nhưng vẫn giữ phong cách và lối chơi đặc trưng của Heroes III. Bản dịch tiếng Việt của Bé Còi Team.",
 		"translations" : [
 			"translation/vietnamese.json"
 		]
