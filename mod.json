@@ -685,5 +685,10 @@
 		"translations" : [
 			"translation/swedish.json"
 		]
+	},
+	"vietnamese" : {
+		"translations" : [
+			"translation/vietnamese.json"
+		]
 	}
 }
