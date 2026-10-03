@@ -11,7 +11,7 @@
 	"artifact.hota.artifacts.demonsHorseshoe.description": "{Demon's Horseshoe}\n\nGiảm 1 may mắn của quân địch.",
 	"artifact.hota.artifacts.demonsHorseshoe.event": "Suốt đêm bạn nghe thấy tiếng vó ngựa ở rất gần, bạn nhìn xung quanh trong bóng tối và nhìn thấy bóng của một con Demons sẵn sàng đâm bạn với chiếc sừng nhọn hoắt của nó. Bạn nghĩ mình sẽ không thể sống sót nếu bị nó tấn công và giữ chiếc móng ngựa này như một chiến lợi phẩm.",
 	"artifact.hota.artifacts.demonsHorseshoe.name": "Demon's Horseshoe",
-	"artifact.hota.artifacts.diplomatsCloak.description": "{Diplomat's Cloak}\n\nTính cả tác dụng của các món đồ riêng lẻ, bộ đồ ghép này giảm 30% chi phí đầu hàng và tướng của bạn có thể đầu hàng khi chiến đấu với quân địch không có tướng. Cho phép tướng của bạn rút lui hay đầu hàng khi thủ thành hoặc khi tấn công và dùng phép ở lượt đầu tiên trong trận đấu. Tăng sức mạnh quân đội của bạn lên 3 lần khi đối đầu với Hội Gián Điệp và quân trung lập (khi chúng muốn gia nhập hoặc bỏ chạy).",
+	"artifact.hota.artifacts.diplomatsCloak.description": "{Diplomat's Cloak}\n\nTính cả tác dụng của các món đồ riêng lẻ, bộ đồ ghép này giảm 30% chi phí đầu hàng và tướng của bạn có thể đầu hàng khi chiến đấu với quân địch không có tướng. Cho phép tướng của bạn rút lui hay đầu hàng khi thủ thành hoặc khi tấn công và dùng phép ở lượt đầu tiên trong trận đấu. Tăng sức mạnh quân đội của bạn lên 3 lần khi đối đầu với Hội Gián Điệp và quân trung lập (khi chúng muốn gia nhập hoặc bỏ chạy).\n\n{CÁC HIỆU ỨNG NÀY CHƯA ĐƯỢC TRIỂN KHAI!!!}",
 	"artifact.hota.artifacts.diplomatsCloak.event": "Bạn gặp một con bù nhìn rất kỳ lạ ngày hôm nay. Thay vì xua đuổi lũ quạ, nó đã sử dụng trí lực của mình để thuyết phục chúng rời khỏi cánh đồng. Bạn nhận lời giúp con bù nhìn tìm nhà tiên tri gần nhất để trao đổi điều bí mật. Con bù nhìn đưa cho bạn chiếc áo choàng của nó.",
 	"artifact.hota.artifacts.diplomatsCloak.name": "Diplomat's Cloak",
 	"artifact.hota.artifacts.goldenGoose.description": "{Golden Goose}\n\nTính cả tác dụng của các món đồ riêng lẻ, bộ đồ ghép này sẽ tăng thêm 7000 vàng mỗi ngày.",
@@ -1406,5 +1406,6 @@
 	"mod.textpolishing.name": "Tinh chỉnh văn bản",
 	"mod.textpolishing.description": "Thay đổi phần mô tả của các phép thuật trong trò chơi, báu vật và đối tượng trên bản đồ thành văn bản được sử dụng trong HotA.",
 	"mod.wastelandterrain.name": "Địa hình hoang mạc",
-	"mod.wastelandterrain.description": "Thêm địa hình hoang mạc và một số đối tượng bản đồ độc đáo dành riêng cho địa hình này"
+	"mod.wastelandterrain.description": "Thêm địa hình hoang mạc và một số đối tượng bản đồ độc đáo dành riêng cho địa hình này",
+	"mapObject.hota.mapobjects.creatureBank.churchyard.name": "Nghĩa Địa"
 }
