@@ -1,4 +1,4 @@
-Hãy bắt đầu cuộc hành trình kỳ vĩ trong **Horn of the Abyss **, một bản mở rộng do người hâm mộ phát triển dành cho _Heroes of Might and Magic III_, tiếp nối di sản của hai bản mở rộng chính thức đã trở thành huyền thoại là **Armageddon's Blade** và **Shadow of Death**. Bản dịch tiếng Việt của Bé Còi Team.
+Hãy bắt đầu cuộc hành trình kỳ vĩ trong **Horn of the Abyss**, một bản mở rộng do người hâm mộ phát triển dành cho _Heroes of Might and Magic III_, tiếp nối di sản của hai bản mở rộng chính thức đã trở thành huyền thoại là **Armageddon's Blade** và **Shadow of Death**. Bản dịch tiếng Việt của **Bé Còi Team**.
 
 ## Lời Tri Ân Đặc Biệt Dành Cho Heroes of Might and Magic
 
