@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.core.archDevil.bonus.decreaseLuck": "{Giảm may mắn}\nArch Devils giảm 2 may mắn của kẻ địch.",
+	"creatures.core.devil.bonus.decreaseLuck": "{Giảm may mắn}\nDevils giảm 1 may mắn của kẻ địch."
+}
