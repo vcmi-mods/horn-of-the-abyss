@@ -1,3 +1,4 @@
+local BattleLog = require("battleLog")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
