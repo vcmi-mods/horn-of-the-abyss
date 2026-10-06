@@ -30,6 +30,21 @@
 		"config/hotaArtifacts/sealOfSunset",
 		"config/hotaArtifacts/plateofDyingLight"
 	],
+	"bonuses" : {
+		"HOTA_RING_OF_OBLIVION" : {
+			"hidden" : true
+		}
+	},
+	"scripts" : {
+		"core:lifeDrain" : {
+			"patches" : {
+				"append" : "patches/ringOfOblivionPatch.lua"
+			}
+		}
+	},
+	"spells" : [
+		"config/hotaArtifacts/spellChanges/spellChanges.json"
+	],
 
 	"chinese" : {
 		"name" : "宝物",

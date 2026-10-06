@@ -1,0 +1,23 @@
+{
+	"core:resurrection" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.HOTA_RING_OF_OBLIVION" : "absolute"
+			}
+		}
+	},
+	"core:animateDead" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.HOTA_RING_OF_OBLIVION" : "absolute"
+			}
+		}
+	},
+	"core:sacrifice" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"bonus.HOTA_RING_OF_OBLIVION" : "absolute"
+			}
+		}
+	},
+}

@@ -47,5 +47,18 @@
 			"battleLogSingular",
 			"battleLogPlural"
 		]
+	},
+	"hotaRepair" : {
+		"implements" : "spellEffect",
+		"script" : "spells/hotaRepair",
+		"patches" : [ ],
+		"schema" : {
+			"properties" : {
+				"type" : {},
+				"indirect" : {},
+				"optional" : {},
+			},
+			"additionalProperties" : false
+		}
 	}
 }
