@@ -1,6 +1,13 @@
 {
 	"core:questGuard" : {
-		"handler" : "questGuard",
+		"types" : {
+			"object" : {
+				"compatibilityIdentifiers" : [ "questGate" ] // save compatibility for 1.7 -> 1.8 migration
+			}
+		}
+	},
+	"questGate" : {
+		"handler" : "questGate",
 		"name" : "Quest Gate",
 		"types" : {
 			"questGate" : {
