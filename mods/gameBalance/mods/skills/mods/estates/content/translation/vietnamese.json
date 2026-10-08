@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.estates.description.advanced": "{Tài vận Thứ cấp}\n\nTướng có kỹ năng này cung cấp 500 vàng mỗi ngày.",
+	"skill.core.estates.description.basic": "{Tài vận Sơ cấp}\n\nTướng có kỹ năng này cung cấp 250 vàng mỗi ngày.",
+	"skill.core.estates.description.expert": "{Tài vận Cao cấp}\n\nTướng có kỹ năng này cung cấp 1000 vàng mỗi ngày."
+}

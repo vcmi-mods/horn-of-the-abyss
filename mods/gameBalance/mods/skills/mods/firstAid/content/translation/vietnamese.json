@@ -1,1 +1,6 @@
-{}
+{
+	"core.bonus.FIRST_AID_AVAILABLE.description": "{Lều Cứu Thương}\nTướng có lều cứu thương.",
+	"skill.core.firstAid.description.advanced": "{Cứu thương Thứ cấp}\n\nCứu thương Thứ cấp cho tướng điều khiển lều cứu thương, hồi 60-75 máu cho đơn vị đầu tiên trong đạo quân và tăng 10% máu cho tất cả các quân đồng minh của tướng. Sát thương mà lều cứu thương phải chịu từ một đòn đánh duy nhất không vượt quá 40% lượng máu tối đa của nó.",
+	"skill.core.firstAid.description.basic": "{Cứu thương Sơ cấp}\n\nCứu thương Sơ cấp cho tướng điều khiển lều cứu thương, hồi 50 máu cho đơn vị đầu tiên trong đạo quân và tăng 5% máu cho tất cả các quân đồng minh của tướng. Sát thương mà lều cứu thương phải chịu từ một đòn đánh duy nhất không vượt quá 40% lượng máu tối đa của nó.",
+	"skill.core.firstAid.description.expert": "{Cứu thương Cao cấp}\n\nCứu thương Cao cấp cho tướng điều khiển lều cứu thương, hồi 100 máu cho đơn vị đầu tiên trong đạo quân và tăng 15% máu cho tất cả các quân đồng minh của tướng. Sát thương mà lều cứu thương phải chịu từ một đòn đánh duy nhất không vượt quá 40% lượng máu tối đa của nó."
+}

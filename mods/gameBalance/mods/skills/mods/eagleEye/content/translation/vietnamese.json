@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.eagleEye.description.advanced": "{Ưng nhãn Thứ cấp}\n\nƯng nhãn Thứ cấp cho tướng 50% cơ hội học các phép từ cấp 3 trở xuống được dùng trong trận đấu.",
+	"skill.core.eagleEye.description.basic": "{Ưng nhãn Sơ cấp}\n\nƯng nhãn Sơ cấp cho tướng 40% cơ hội học các phép cấp 1 và cấp 2 được dùng trong trận đấu.",
+	"skill.core.eagleEye.description.expert": "{Ưng nhãn Cao cấp}\n\nƯng nhãn Cao cấp cho tướng 60% cơ hội học các phép từ cấp 4 trở xuống được dùng trong trận đấu."
+}
