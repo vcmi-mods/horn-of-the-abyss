@@ -14,7 +14,8 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				]
+				],
+				"description" : "Enemy has Pendant of Downfall: -2"
 			}
 		},
 		"graphics" : {
