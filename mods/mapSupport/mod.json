@@ -881,12 +881,10 @@
 							7
 						]
 					},
-					"questGuard" : {
-						"questGate" : [
+					"questGate" : [
 							212,
 							1000
-						]
-					},
+					],
 
 					"prison" : {
 						"prison" : [
