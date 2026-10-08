@@ -14,8 +14,7 @@
 	],
 
 	"artifacts" : [
-		"config/hota/factory/artifacts/factoryPendantOfNegativity.json",
-		"config/hota/factory/artifacts/factoryRingOfOblivion.json"
+		"config/hota/factory/artifacts/factoryPendantOfNegativity.json"
 	],
 	"bonuses" : [
 		"config/hota/factory/spells/abilityBonusTypes.json"

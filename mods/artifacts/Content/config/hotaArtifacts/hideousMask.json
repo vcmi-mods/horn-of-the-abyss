@@ -14,7 +14,8 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				]
+				],
+				"description" : "Enemy has Hideous Mask: -1"
 			}
 		},
 		"graphics" : {

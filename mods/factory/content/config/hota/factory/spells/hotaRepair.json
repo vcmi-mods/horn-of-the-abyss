@@ -44,9 +44,7 @@
 				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
-						"type" : "heal",
-						"healLevel" : "resurrect",
-						"healPower" : "permanent"
+						"type" : "hotaRepair"
 					},
 					"cure" : {
 						"type" : "dispel",
