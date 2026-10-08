@@ -1215,6 +1215,7 @@
 	"object.hota.mapobjects.jetsam.name" : "Jetsam",
 	"object.hota.mapobjects.miniHillFort.name" : "Hill Fort",
 	"object.hota.mapobjects.observatory.name" : "Observatory",
+	"object.hota.mapobjects.questGate.name" : "Quest Gate",
 	"object.hota.mapobjects.seaBarrel.name" : "Sea Barrel",
 	"object.hota.mapobjects.seafaringAcademy.name" : "Seafaring Academy",
 	"object.hota.mapobjects.skeletonTransformer.name" : "Skeleton Transformer",
