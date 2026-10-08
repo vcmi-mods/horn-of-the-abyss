@@ -38,7 +38,8 @@ def build_preset(root: Path, mod_id: str) -> dict:
     roots = set()
     for dep in dependency_ids(root):
         dep_root, _, submod = dep.lower().partition(".")
-        if dep_root == mod_id:  # self-dependency of a submod
+        # self-dependency of a submod, or a built-in mod already in the list - VCMI rejects duplicates
+        if dep_root in (mod_id, "vcmi", "core"):
             continue
         roots.add(dep_root)
         if submod:
