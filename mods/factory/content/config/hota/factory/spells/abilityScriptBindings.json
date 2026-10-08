@@ -51,12 +51,12 @@
 	"hotaRepair" : {
 		"implements" : "spellEffect",
 		"script" : "spells/hotaRepair",
-		"patches" : [ ],
+		"patches" : [],
 		"schema" : {
 			"properties" : {
 				"type" : {},
 				"indirect" : {},
-				"optional" : {},
+				"optional" : {}
 			},
 			"additionalProperties" : false
 		}
