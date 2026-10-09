@@ -867,20 +867,50 @@
 			},
 			{
 				"bonus" : {
-					"type" : "DEATH_STARE",
-					"subtype" : "deathStareGorgon"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "deathStare",
+					"stacking" : "accurateShotFullRange",
+					"description" : "Accurate Shot without range penalty, %",
+					"addInfo" : {
+						"situation" : "ranged",
+						"spell" : "accurateShot"
+					}
 				},
 				"values" : [
 					0,
-					1,
-					1,
-					2,
-					2,
+					4,
+					4,
+					5,
+					5,
+					6,
+					6,
+					7,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "deathStare",
+					"stacking" : "accurateShotHalfRange",
+					"description" : "Accurate Shot with range penalty, %",
+					"addInfo" : {
+						"situation" : "rangedDistancePenalty",
+						"spell" : "accurateShot"
+					}
+				},
+				"values" : [
+					0,
 					3,
 					3,
 					4,
 					4,
-					5
+					5,
+					5,
+					6,
+					6,
+					7
 				]
 			},
 			{
