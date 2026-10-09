@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.necromancy.description.advanced": "{Chiêu hồn Thứ cấp}\n\nChiêu hồn Thứ cấp biến 10% quân địch chết trận thành Skeleton.",
+	"skill.core.necromancy.description.basic": "{Chiêu hồn Sơ cấp}\n\nChiêu hồn Sơ cấp biến 5% quân địch chết trận thành Skeleton.",
+	"skill.core.necromancy.description.expert": "{Chiêu hồn Cao cấp}\n\nChiêu hồn Cao cấp biến 15% quân địch chết trận thành Skeleton."
+}

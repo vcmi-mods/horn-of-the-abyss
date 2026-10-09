@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.learning.description.advanced": "{Trải nghiệm Thứ cấp}\n\nTrải nghiệm Thứ cấp tăng 40% lượng kinh nghiệm mà tướng đạt được.",
+	"skill.core.learning.description.basic": "{Trải nghiệm Sơ cấp}\n\nTrải nghiệm Sơ cấp tăng 20% lượng kinh nghiệm mà tướng đạt được.",
+	"skill.core.learning.description.expert": "{Trải nghiệm Cao cấp}\n\nTrải nghiệm Cao cấp tăng 60% lượng kinh nghiệm mà tướng đạt được."
+}

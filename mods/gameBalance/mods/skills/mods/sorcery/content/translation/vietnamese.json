@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.sorcery.description.advanced": "{Ma pháp Thứ cấp}\n\nMa pháp Thứ cấp tăng 20% sát thương phép của tướng trong trận đấu.",
+	"skill.core.sorcery.description.basic": "{Ma pháp Sơ cấp}\n\nMa pháp Sơ cấp tăng 10% sát thương phép của tướng trong trận đấu.",
+	"skill.core.sorcery.description.expert": "{Ma pháp Cao cấp}\n\nMa pháp Cao cấp tăng 30% sát thương phép của tướng trong trận đấu."
+}

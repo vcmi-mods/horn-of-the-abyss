@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.scouting.description.advanced": "{Do thám Thứ cấp}\n\nDo thám Thứ cấp tăng 3 ô bán kính tầm nhìn cho tướng.",
+	"skill.core.scouting.description.basic": "{Do thám Sơ cấp}\n\nDo thám Sơ cấp tăng 1 ô bán kính tầm nhìn cho tướng.",
+	"skill.core.scouting.description.expert": "{Do thám Cao cấp}\n\nDo thám Cao cấp tăng 5 ô bán kính tầm nhìn cho tướng."
+}

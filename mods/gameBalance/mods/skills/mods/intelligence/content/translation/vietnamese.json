@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.intelligence.description.advanced": "{Thông thái Thứ cấp}\n\nThông thái Thứ cấp tăng 35% mức năng lượng tối đa của tướng.",
+	"skill.core.intelligence.description.basic": "{Thông thái Sơ cấp}\n\nThông thái Sơ cấp tăng 20% mức năng lượng tối đa của tướng.",
+	"skill.core.intelligence.description.expert": "{Thông thái Cao cấp}\n\nThông thái Cao cấp tăng 50% mức năng lượng tối đa của tướng."
+}

@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.mysticism.description.advanced": "{Bí thuật Thứ cấp}\n\nBí thuật Thứ cấp hồi lại 20% năng lượng tối đa của tướng mỗi ngày, tối thiểu là 10 năng lượng mỗi ngày.",
+	"skill.core.mysticism.description.basic": "{Bí thuật Sơ cấp}\n\nBí thuật Sơ cấp hồi lại 10% năng lượng tối đa của tướng mỗi ngày, tối thiểu là 5 năng lượng mỗi ngày.",
+	"skill.core.mysticism.description.expert": "{Bí thuật Cao cấp}\n\nBí thuật Cao cấp hồi lại 30% năng lượng tối đa của tướng mỗi ngày, tối thiểu là 15 năng lượng mỗi ngày."
+}

@@ -1,1 +1,5 @@
-{}
+{
+	"skill.core.pathfinding.description.advanced": "{Dò đường Thứ cấp}\n\nDò đường Thứ cấp giảm 50% chi phí di chuyển với mức phí tối thiểu còn 90%, khi tướng đi trên những địa hình bất lợi.",
+	"skill.core.pathfinding.description.basic": "{Dò đường Sơ cấp}\n\nDò đường Sơ cấp giảm 25% chi phí di chuyển với mức phí tối thiểu còn 95%, khi tướng đi trên những địa hình bất lợi.",
+	"skill.core.pathfinding.description.expert": "{Dò đường Cao cấp}\n\nDò đường Cao cấp giảm 75% chi phí di chuyển với mức phí tối thiểu còn 85%, khi tướng đi trên những địa hình bất lợi."
+}
