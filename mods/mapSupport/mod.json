@@ -444,10 +444,15 @@
 						"dwellingUp2Lvl3" : 20
 					},
 					"factory" : {
-						"dwellingLvl8" : 23, //factory dreadnoght - ?? don't know correct values
-						"dwellingUpLvl8" : 24, //factory juggernought - ?? don't know correct values
-						"special1" : 21, // bank
-						"special2" : 22 // mana generator
+						"special1" : 18, // bank
+						"dwellingLvl8" : 19, // gantry
+						"dwellingUpLvl8" : 20, // upgr. gantry
+						"special2" : 21 // mana generator
+					},
+					"bulwark" : {
+						"special1" : 18, // fair 
+						"special2" : 19, // siedi
+						"special3" : 20, // altar
 					}
 				},
 				"creatures" : {
