@@ -39,6 +39,7 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "deathStare",
 				"val" : 3,
+				"stacking" : "accurateShotFullRange",
 				"addInfo" : {
 					"situation" : "ranged",
 					"spell" : "accurateShot"
@@ -48,6 +49,7 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "deathStare",
 				"val" : 2,
+				"stacking" : "accurateShotHalfRange",
 				"addInfo" : {
 					"situation" : "rangedDistancePenalty",
 					"spell" : "accurateShot"
