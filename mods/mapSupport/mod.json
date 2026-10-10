@@ -450,9 +450,9 @@
 						"special2" : 21 // mana generator
 					},
 					"bulwark" : {
-						"special1" : 18, // fair 
+						"special1" : 18, // fair
 						"special2" : 19, // siedi
-						"special3" : 20, // altar
+						"special3" : 20 // altar
 					}
 				},
 				"creatures" : {
