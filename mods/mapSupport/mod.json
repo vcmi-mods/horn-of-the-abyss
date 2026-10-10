@@ -2334,30 +2334,31 @@
 				},
 
 				"campaignMusic" : {
-					// unused?
-					// "HotaMusic49" : 49,
-					// "HotaMusic50" : 50,
-					// "HotaMusic51" : 51,
-					// "HotaMusic52" : 52,
+					"factions/CoveTown" : 49,
+					"hota/HIGHLANDS" : 50,
+					"hota/WASTELAND" : 51,
+					"factions/FactoryTown" : 52,
 
-					"HotaMusic53" : 53, // H4FACT main theme
-					"HotaMusic54" : 54, // H4FACT Hota0402.h3m epilog
-					"HotaMusic55" : 55, // H4FACT Hota0403.h3m prolog
-					"HotaMusic56" : 56, // H4FACT Hota0403.h3m epilog
-					"HotaMusic57" : 57, // H4FACT Hota0404.h3m prolog
-					"HotaMusic58" : 58, // H4FACT Hota0405.h3m prolog
-					"HotaMusic59" : 59, // H4FACT Hota0405.h3m epilog & Hota0405.h3m epilog alt
-					"HotaMusic60" : 60, // H4FACT Hota0408.h3m epilog
-					"HotaMusic61" : 61, // H4FACT Hota0406.h3m prolog
-					"HotaMusic62" : 62, // H4FACT Hota0405.h3m prolog alt
+					"FactoryCampaign" : 53, // H4FACT main theme
+					"HotACampTheme01" : 54, // H4FACT Hota0402.h3m epilog
+					"HotACampTheme02" : 55, // H4FACT Hota0403.h3m prolog
+					"HotACampTheme03" : 56, // H4FACT Hota0403.h3m epilog
+					"HotACampTheme04" : 57, // H4FACT Hota0404.h3m prolog
+					"HotACampTheme05" : 58, // H4FACT Hota0405.h3m prolog
+					"HotACampTheme06" : 59, // H4FACT Hota0405.h3m epilog & Hota0405.h3m epilog alt
+					"HotACampTheme07" : 60, // H4FACT Hota0408.h3m epilog
+					"HotACampTheme08" : 61, // H4FACT Hota0406.h3m prolog
+					"HotACampTheme09" : 62, // H4FACT Hota0405.h3m prolog alt
 
-					"HotaMusic63" : 63, // H5ALLIN main theme
-					"HotaMusic64" : 64, // H5ALLIN HotA0501.h3m prolog
-					"HotaMusic65" : 65, // H5ALLIN HotA0502.h3m prolog
-					"HotaMusic66" : 66, // H5ALLIN HotA0503.h3m prolog
-					"HotaMusic67" : 67, // H5ALLIN HotA0504.h3m prolog
-					"HotaMusic68" : 68, // H5ALLIN HotA0505.h3m prolog
-					"HotaMusic69" : 69 // H5ALLIN HotA0505.h3m epilog
+					"DargemCampaignTheme" : 63, // H5ALLIN main theme
+					"DargemIntro1" : 64, // H5ALLIN HotA0501.h3m prolog
+					"DargemIntro2" : 65, // H5ALLIN HotA0502.h3m prolog
+					"DargemIntro3" : 66, // H5ALLIN HotA0503.h3m prolog
+					"DargemIntro4" : 67, // H5ALLIN HotA0504.h3m prolog
+					"DargemIntro5" : 68, // H5ALLIN HotA0505.h3m prolog
+					"DargemOutro5" : 69, // H5ALLIN HotA0505.h3m epilog
+
+					"factions/BulwarkTown" : 70
 				},
 
 				"campaignVideo" : {
