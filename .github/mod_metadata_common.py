@@ -32,7 +32,8 @@ from typing import Optional
 LANGUAGES = [
     "belarusian", "bulgarian", "czech", "chinese", "tchinese", "dutch",
     "english", "filipino", "finnish", "french", "german", "greek",
-    "hungarian", "italian", "japanese", "korean", "latvian", "norwegian",
+    "hungarian", "italian", "japanese", "korean", "latvian", "lithuanian",
+    "norwegian",
     "polish", "portuguese", "romanian", "russian", "serbian", "spanish",
     "swedish", "turkish", "ukrainian", "vietnamese",
 ]
