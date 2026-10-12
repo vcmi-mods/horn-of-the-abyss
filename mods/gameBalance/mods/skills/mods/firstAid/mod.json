@@ -16,6 +16,9 @@
 	"bonuses" : [
 		"config/hotaGameBalance/firstAidBonusType.json"
 	],
+	"spells" : [
+		"config/hotaGameBalance/firstAidSpell.json"
+	],
 	"chinese" : {
 		"name" : "急救术",
 		"description" : "",
