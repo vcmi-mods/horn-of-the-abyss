@@ -6,6 +6,7 @@ Subcommands:
   export          Write mod name/description into the Weblate source english.json.
   wire            Wire translation/<lang>.json references into mod.json (committed).
   inject-names    Fold translated name/description into the published mod.json (release).
+  measure-progress  Record per-language translation progress for inject-release (release).
   inject-release  Write release/repository fields into the published mod.json (release).
 
 Every operation takes --root (default '.'). Shared tree-walking / JSON helpers live
@@ -28,14 +29,18 @@ in mod_metadata_common.
                  english.md (when present) is injected.
   inject-release runs after the release ZIP is built (needs its size), before mod.json
                  is uploaded. Fields: download, downloadSize, screenshots, githubStars,
-                 updateDate (1.8+ only). updateDate is UTC ISO 8601 so std::get_time +
-                 timegm parse it and comparison against std::time needs no timezone.
+                 updateDate (1.8+ only), validated (only when the dummy-run ran),
+                 <lang>.progress (from measure-progress). updateDate is UTC ISO 8601
+                 so std::get_time + timegm parse it and comparison against std::time
+                 needs no timezone.
 """
 
 import argparse
 import json
 import os
 import re
+import sys
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -188,6 +193,62 @@ def inject_names(root: Path) -> None:
         inject_mod(mod_dir, segments, translations)
 
 
+# --- measure-progress -------------------------------------------------------
+
+# Outside the release ZIP (create_release_package.sh excludes dist/). Measured before
+# content/ is zipped away; injected only into the published mod.json, because the
+# game's mod.json schema rejects unknown keys in language blocks.
+PROGRESS_FILE = Path("dist") / "progress.json"
+
+
+def translation_progress(root: Path) -> dict:
+    """Percent (0-100, rounded down) of english strings translated per language, over all mods and submods."""
+    total = 0
+    translated = {}
+    for mod_dir, _ in find_mods(root):
+        files = dict(iter_language_files(mod_dir, include_english=True))
+        english = files.pop("english", None)
+        if english is None:
+            continue
+        keys = list(load_jsonc(english))
+        total += len(keys)
+        for language, path in files.items():
+            strings = load_jsonc(path)
+            # Only keys still present in english.json: removed strings may linger in translations
+            count = sum(1 for key in keys if isinstance(strings.get(key), str) and strings[key])
+            translated[language] = translated.get(language, 0) + count
+    if total == 0:
+        return {}
+    return {language: count * 100 // total for language, count in translated.items()}
+
+
+def self_test() -> None:
+    """Check translation_progress on a mod with a submod, a stale key and an empty string."""
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        files = {
+            "mod.json": {"name": "Root"},
+            "content/translation/english.json": {"a": "A", "b": "B", "c": "C"},
+            "content/translation/german.json": {"a": "a", "b": "", "stale": "x"},
+            "Mods/sub/mod.json": {"name": "Sub"},
+            "Mods/sub/content/translation/english.json": {"d": "D"},
+            "Mods/sub/content/translation/german.json": {"d": "d"},
+            "Mods/sub/content/translation/polish.json": {"d": "d"},
+        }
+        for name, data in files.items():
+            (root / name).parent.mkdir(parents=True, exist_ok=True)
+            write_json(root / name, data)
+        # german: a + d of 4; polish: d of 4; empty and stale keys don't count
+        assert translation_progress(root) == {"german": 50, "polish": 25}, translation_progress(root)
+    print("self-test OK")
+
+
+def measure_progress(root: Path) -> None:
+    path = root / PROGRESS_FILE
+    path.parent.mkdir(exist_ok=True)
+    write_json(path, translation_progress(root))
+
+
 # --- inject-release ---------------------------------------------------------
 
 IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"}
@@ -248,6 +309,19 @@ def inject_release(root: Path) -> None:
     if screenshots:
         config["screenshots"] = screenshots
 
+    # Unset when the VCMI version was not detected and the dummy-run never ran
+    validation = os.environ.get("VALIDATION_RESULT", "")
+    if validation:
+        config["validated"] = validation == "success"
+
+    progress_path = root / PROGRESS_FILE
+    progress = load_jsonc(progress_path) if progress_path.exists() else {}
+    if progress:
+        for language in LANGUAGES:
+            block = config.get(language)
+            if language != "english" and isinstance(block, dict):
+                block["progress"] = progress.get(language, 0)
+
     stars = os.environ.get("GITHUB_STARS", "").strip()
     if stars.isdigit():
         config["githubStars"] = int(stars)
@@ -262,11 +336,16 @@ OPERATIONS = {
     "export": export,
     "wire": wire,
     "inject-names": inject_names,
+    "measure-progress": measure_progress,
     "inject-release": inject_release,
 }
 
 
 def main() -> None:
+    if sys.argv[1:] == ["--self-test"]:
+        self_test()
+        return
+
     parser = argparse.ArgumentParser(description="Mod metadata operations over a mod tree.")
     sub = parser.add_subparsers(dest="command", required=True)
     for name in OPERATIONS:
