@@ -201,5 +201,10 @@
 		"translations" : [
 			"translation/vietnamese.json"
 		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
 	}
 }
