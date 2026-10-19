@@ -197,5 +197,15 @@
 		"translations" : [
 			"translation/turkish.json"
 		]
+	},
+	"vietnamese" : {
+		"translations" : [
+			"translation/vietnamese.json"
+		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
 	}
 }
