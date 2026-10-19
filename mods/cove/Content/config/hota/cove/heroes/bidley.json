@@ -32,16 +32,17 @@
 			}
 		],
 		"specialty" : {
-			"base" : {
-				"type" : "SPECIAL_UPGRADE",
-				"addInfo" : "seadog"
-			},
 			"bonuses" : {
 				"pirate2seadog" : {
-					"subtype" : "pirate"
-				},
-				"corsair2seadog" : {
-					"subtype" : "corsair"
+					"type" : "SPECIAL_UPGRADE",
+					"addInfo" : "seadog",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "pirate",
+							"includeUpgrades" : true
+						}
+					]
 				}
 			}
 		},
