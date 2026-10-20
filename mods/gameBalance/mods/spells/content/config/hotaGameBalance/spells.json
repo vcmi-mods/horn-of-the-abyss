@@ -3,23 +3,35 @@
 	"core:protectAir" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+				"battleEffects" : {
+					"protectAir" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectAir" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectAir" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			}
@@ -28,23 +40,35 @@
 	"core:protectEarth" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+				"battleEffects" : {
+					"protectEarth" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectEarth" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectEarth" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			}
@@ -53,23 +77,35 @@
 	"core:protectFire" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+				"battleEffects" : {
+					"protectFire" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectFire" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectFire" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			}
@@ -78,23 +114,35 @@
 	"core:protectWater" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 50
+				"battleEffects" : {
+					"protectWater" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectWater" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"spellDamageReduction" : {
-						"val" : 75
+				"battleEffects" : {
+					"protectWater" : {
+						"bonus" : {
+							"spellDamageReduction" : {
+								"val" : 75
+							}
+						}
 					}
 				}
 			}
@@ -108,22 +156,30 @@
 	"core:slow" : {
 		"levels" : {
 			"advanced" : {
-				"effects" : {
-					"hotaNerf" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "ADDITIVE_VALUE",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"slow" : {
+						"bonus" : {
+							"hotaNerf" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "ADDITIVE_VALUE",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
-				"effects" : {
-					"hotaNerf" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "ADDITIVE_VALUE",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"slow" : {
+						"bonus" : {
+							"hotaNerf" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "ADDITIVE_VALUE",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}
@@ -222,21 +278,22 @@
 	"core:forgetfulness" : {
 		"levels" : {
 			"base" : {
-				"effects" : {
-					"meleeAttackDamageReduction" : {
-						"type" : "PERCENTAGE_DAMAGE_BOOST",
-						"subtype" : "damageTypeMelee",
-						"duration" : "N_TURNS",
-						"val" : -50
+				"battleEffects" : {
+					"forgetfulness" : {
+						"bonus" : {
+							"meleeAttackDamageReduction" : {
+								"type" : "PERCENTAGE_DAMAGE_BOOST",
+								"subtype" : "damageTypeMelee",
+								"duration" : "N_TURNS",
+								"val" : -50
+							}
+						}
 					}
 				}
 			},
-			"none" : {},
-			"basic" : {},
 			"advanced" : {
 				"range" : "0"
-			},
-			"expert" : {}
+			}
 		}
 	}
 }
