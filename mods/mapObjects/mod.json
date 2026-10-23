@@ -133,7 +133,7 @@
 				"creatureBankChurchyard" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
-					"attackerCommander" : 86,
+					"attackerCommander" : 59,
 					"defenderCommander" : 83,
 					"attackerUnits" : [
 						57,
@@ -157,7 +157,7 @@
 				"creatureBankSpit" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
-					"attackerCommander" : 86,
+					"attackerCommander" : 59,
 					"defenderCommander" : 83,
 					"attackerUnits" : [
 						57,
