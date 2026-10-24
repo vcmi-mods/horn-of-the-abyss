@@ -438,6 +438,9 @@
 					"bulwark" : 11
 				},
 				"buildings" : {
+					"conflux" : {
+						"hordePhoenix" : 19 // vault of ashes
+					},
 					"cove" : {
 						"special3" : 18, // thievesGuild
 						"special4" : 19, // grotto
