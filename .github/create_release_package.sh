@@ -11,10 +11,11 @@ OUT="dist/${WRAP}.zip"
 rm -rf ".pack"
 mkdir -p ".pack/${WRAP}"
 
-# Whitelist: only what VCMI loads. content/ is already packed into content.zip by
-# create_content_zip.sh. find -iname because mods use any case (Mods/, Content.zip).
+# Whitelist: what VCMI loads plus screenshots for offline browsing. content/ is
+# already packed into content.zip by create_content_zip.sh. find -iname because
+# mods use any case (Mods/, Content.zip, Screenshots/).
 mapfile -d '' KEEP < <(find . -mindepth 1 -maxdepth 1 \
-	\( -iname mod.json -o -iname content.zip -o -iname mods \) -print0)
+	\( -iname mod.json -o -iname content.zip -o -iname mods -o -iname screenshots \) -print0)
 cp -a "${KEEP[@]}" ".pack/${WRAP}/"
 
 # Drop every description/ dir in submods (any case, any depth): its per-language .md
