@@ -114,6 +114,8 @@ def wire_mod(mod_dir: Path) -> None:
 
     changed = False
     for language, _entry in iter_language_files(mod_dir):
+        if not language_supported(language):
+            continue
         block = config.get(language)
         if not isinstance(block, dict):
             block = {}
@@ -158,7 +160,7 @@ def inject_mod(mod_dir: Path, segments, translations: dict) -> None:
     languages.update(lang for lang in LANGUAGES if description_md(mod_dir, lang) is not None)
 
     changed = False
-    for language in sorted(languages):
+    for language in sorted(filter(language_supported, languages)):
         block = config.get(language)
         if not isinstance(block, dict):
             block = {}
@@ -285,6 +287,18 @@ def version_at_least(ref_name: str, major: int, minor: int) -> bool:
     return (int(match.group(1)), int(match.group(2))) >= (major, minor)
 
 
+# Languages added in VCMI 1.8; older versions reject them in mod.json.
+LANGUAGES_SINCE_1_8 = {"tchinese", "norwegian", "lithuanian"}
+
+
+def language_supported(language: str) -> bool:
+    """False for 1.8-only languages when running on a vcmi-* branch older than 1.8."""
+    ref_name = os.environ.get("GITHUB_REF_NAME", "")
+    if language not in LANGUAGES_SINCE_1_8 or not ref_name.startswith("vcmi-"):
+        return True
+    return version_at_least(ref_name, 1, 8)
+
+
 def inject_release(root: Path) -> None:
     repository = os.environ["GITHUB_REPOSITORY"]          # owner/repo
     ref_name = os.environ["GITHUB_REF_NAME"]              # vcmi-1.8
@@ -317,7 +331,7 @@ def inject_release(root: Path) -> None:
     progress_path = root / PROGRESS_FILE
     progress = load_jsonc(progress_path) if progress_path.exists() else {}
     if progress:
-        for language in LANGUAGES:
+        for language in filter(language_supported, LANGUAGES):
             block = config.get(language)
             if language != "english" and isinstance(block, dict):
                 block["progress"] = progress.get(language, 0)

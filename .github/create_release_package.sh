@@ -11,15 +11,14 @@ OUT="dist/${WRAP}.zip"
 rm -rf ".pack"
 mkdir -p ".pack/${WRAP}"
 
-# Copy repo content into wrapper folder, excluding .git and dist and the staging itself.
-rsync -a \
-	--exclude ".git/" \
-	--exclude "dist/" \
-	--exclude ".pack/" \
-	"./" ".pack/${WRAP}/"
+# Whitelist: only what VCMI loads. content/ is already packed into content.zip by
+# create_content_zip.sh. find -iname because mods use any case (Mods/, Content.zip).
+mapfile -d '' KEEP < <(find . -mindepth 1 -maxdepth 1 \
+	\( -iname mod.json -o -iname content.zip -o -iname mods \) -print0)
+cp -a "${KEEP[@]}" ".pack/${WRAP}/"
 
-# Drop every description/ dir (any case, any depth): its per-language .md is folded
-# into mod.json at release time. rsync --exclude is case-sensitive, so do it here.
+# Drop every description/ dir in submods (any case, any depth): its per-language .md
+# is folded into mod.json at release time.
 find ".pack/${WRAP}" -type d -iname description -prune -exec rm -rf {} +
 
 # Create zip so that it contains the wrapper folder at top level
