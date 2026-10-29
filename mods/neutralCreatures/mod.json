@@ -18,6 +18,18 @@
 	},
 	"depends" : [],
 
+	"artifacts" : [
+		"config/hotaArtifacts/hornOfTheAbyss.json"
+	],
+	"bonuses" : {
+		"HORN_OF_THE_ABYSS" : {
+			"hidden" : false,
+			"valueDescriptions" : {
+				"0" : "Sea spirit approaches, drawn by the Horn's call. A %s joins the bearer's army.",
+				"1" : "Sea spirits approach, drawn by the Horn's call. %d %s join the bearer's army."
+			}
+		}
+	},
 	"creatures" : [
 		"config/hotaNeutralCreatures/satyr",
 		"config/hotaNeutralCreatures/fangarm",
@@ -28,12 +40,21 @@
 	"objects" : [
 		"config/hotaNeutralCreatures/dwellings"
 	],
-	"artifacts" : [
-		"config/hotaArtifacts/hornOfTheAbyss.json"
-	],
-	"spells" : [
-		"config/artiSpells/HornSpell"
-	],
+	"scripts" : {
+		"hornEffect" : {
+			"implements" : "combatEvent",
+			"script" : "combat/hornEffect",
+			"patches" : [],
+			"priority" : 0,
+			"schema" : {
+				"properties" : {
+					"raisedCreature" : { "type" : "string", "entity" : "creature" }
+				},
+				"additionalProperties" : false
+			},
+			"description" : ""
+		}
+	},
 
 	"chinese" : {
 		"name" : "中立生物",

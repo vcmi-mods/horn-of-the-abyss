@@ -2,6 +2,10 @@ local Base = require("combat/combatScript")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
+local EXCLUDED_SPELLS = {
+    ["hota.factory:meditation02"] = true,
+    ["hota.factory:abilityDetonation"] = true
+}
 local ANIMATIONS = {}
 for level = 1, 9 do
 	ANIMATIONS[level] = "hota/bulwark/skills/runes/runeLevels/rune" .. level .. "_01.def"
@@ -195,7 +199,8 @@ function Script:onSpellHit(server, battle, unit, other, payload)
 end
 
 --- Unit spell casts use the attack gain.
-function Script:onUnitSpellcast(server, battle, unit, other)
+function Script:onUnitSpellcast(server, battle, unit, other, payload)
+	if payload.spell and EXCLUDED_SPELLS[payload.spell:getJsonKey()] then return end
 	self:record(server, battle, unit, GAIN_ATTACK)
 end
 

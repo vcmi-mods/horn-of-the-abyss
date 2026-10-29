@@ -8,14 +8,33 @@
 		},
 		"slot" : "MISC",
 		"text" : {
-			"description" : "{Horn of the Abyss}\n\nUsing the spell of Horn of the Abyss, you can rise Fangarms from any corpses from both side, except non-living creatures.",
+			"description" : "{Horn of the Abyss}\n\nAfter a stack of living creatures is slain, a stack of Fangarms will rise in their stead and will stay loyal to the hero after the battle concludes. Total Hit Points of this stack will be equal to half of the slain stack's total Hit Points, but quantity of the Fangarms summoned thus should not exceed half of quantity of creatures in the slain stack. Slaying Fangarms will not trigger the Horn effect.",
 			"event" : "This waterfall sounds and looks exactly like a waterfall should. On closer inspection, though, you are amazed to find out the flow is headed upwards. You wonder what it took for such an impressive phenomenon to come into being. Surely a powerful artifact has to be in play? And indeed, an ornate horn is soon found levitating above the crest.",
 			"name" : "Horn of the Abyss"
 		},
 		"bonuses" : {
-			"spell" : {
-				"type" : "SPELL",
-				"subtype" : "hornSpell"
+			"hornEffect" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "hornEffect",
+				"addInfo" : {
+					"raisedCreature" : "fangarm"
+				},
+				"propagator" : "BATTLE_WIDE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
+			"tagAllies" : {
+				"type" : "HORN_OF_THE_ABYSS",
+				"hidden" : true
+			},
+			"suppressNecromancy" : {
+				"type" : "UNDEAD_RAISE_PERCENTAGE",
+				"valueType" : "INDEPENDENT_MIN",
+				"val" : 0
 			}
 		},
 
