@@ -17,7 +17,12 @@
 			"conflux" : 0
 		},
 		"targetType" : "CREATURE",
-		"targetCondition" : {},
+		"targetCondition" : {
+			"noneOf" : {
+				"core:creature.earthElemental" : "normal",
+				"core:creature.magmaElemental" : "normal"
+			}
+		},
 
 		"animation" : {
 			"affect" : [
