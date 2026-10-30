@@ -1,0 +1,9 @@
+{
+	"core:frenzy" : {
+		"targetCondition" : {
+			"noneOf" : {
+				"hota.cannon:creature.cannon" : "normal"
+			}
+		}
+	}
+}
