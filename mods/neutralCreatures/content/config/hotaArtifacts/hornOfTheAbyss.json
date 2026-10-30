@@ -35,6 +35,18 @@
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
 				"valueType" : "INDEPENDENT_MIN",
 				"val" : 0
+			},
+			"suppressRebirth" : {
+				"type" : "REBIRTH_SPENT",
+				"val" : 1,
+				"propagator" : "BATTLE_WIDE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "COMBAT_EVENT_TRIGGER",
+						"bonusSubtype" : "rebirth"
+					}
+				]
 			}
 		},
 

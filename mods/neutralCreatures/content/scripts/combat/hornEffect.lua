@@ -5,8 +5,20 @@ Script.__index = Script
 local ANIMATION = "hota/hornEffect/SP16.def"
 local SOUND     = "SUMMBOAT"
 
+--- Returns the back hex for double-wide creatures if the raised creature is single-wide. Front hex in all other cases.
+function Script:getRaisedStackPosition(killedUnit, raisedCreature)
+	local hexes = killedUnit:getHexes()
+	local frontHex = killedUnit:getPosition()
+
+	if hexes:size() > 1 and not raisedCreature:isDoubleWide() then
+		return hexes:at(1) == frontHex and hexes:at(2) or hexes:at(1)
+	else
+		return frontHex
+	end
+end
+
 --- Returns the raised creature stack
-function Script:getRaisedStack(server, unit)
+function Script:getRaisedStack(battle, unit)
 	local raisedCreature = LIBRARY:getCreatureByName(self.raisedCreature or "core:peasant")
 
 	if unit:getCreature():getJsonKey() == raisedCreature:getJsonKey() then return nil end
@@ -24,11 +36,15 @@ function Script:getRaisedStack(server, unit)
 		side = 1 - side
 	end
 
+	local hex = battle:getAvailableHex(raisedCreature, side, self:getRaisedStackPosition(unit, raisedCreature))
+
+	if not hex:isValid() then return nil end
+
 	return {
 		count    = count,
 		type     = raisedCreature,
 		side     = side,
-		position = unit:getPosition(),
+		position = hex,
 		summoned = false
 	}
 end
@@ -50,7 +66,7 @@ function Script:onDeath(server, battle, unit, other, payload)
 	if unit:isClone() then return end
 	if unit:isSummoned() then return end
 
-	local raisedStack = self:getRaisedStack(server, unit)
+	local raisedStack = self:getRaisedStack(battle, unit)
 
 	if not raisedStack then return end
 
