@@ -44,10 +44,6 @@
 			"unlimitedRetaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"spellImmunity" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "hornSpell"
-			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"
 			}
