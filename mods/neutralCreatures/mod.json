@@ -48,7 +48,10 @@
 			"priority" : 0,
 			"schema" : {
 				"properties" : {
-					"raisedCreature" : { "type" : "string", "entity" : "creature" }
+					"raisedCreature" : {
+						"type" : "string",
+						"entity" : "creature"
+					}
 				},
 				"additionalProperties" : false
 			},
