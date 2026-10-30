@@ -1,6 +1,14 @@
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
 
+local function idiv(dividend, divisor)
+	local quotient = dividend / divisor
+
+	if quotient < 0 then return math.ceil(quotient) end
+
+	return math.floor(quotient)
+end
+
 function Script:getLuckFactor(info)
 	return 0
 end
@@ -17,6 +25,16 @@ function Script:getHotALuckFactor(info)
 	else
 		return 1.0
 	end
+end
+
+function Script:getAttackFromFrenzy(info)
+	local frenzy = self:getBonusValueOfType(info.attacker, info.attackerBonuses, "IN_FRENZY")
+
+	if frenzy == 0 then return 0 end
+
+	local defense = info.attacker:getDefense(info.shooting)
+
+	return idiv(frenzy * defense, 100)
 end
 
 function Script:calculate(battle, info)
@@ -55,5 +73,7 @@ function Script:calculate(battle, info)
 		damageBeforeDefense = { min = apply(baseMin, raising), max = apply(baseMax, raising) }
 	}
 end
+
+Script:declareBonus("IN_FRENZY")
 
 return Script
