@@ -21,7 +21,8 @@
 		"config/hotaCannon/artillery.json"
 	],
 	"spells" : [
-		"config/hotaCannon/cannonSiegeShot.json"
+		"config/hotaCannon/cannonSiegeShot.json",
+		"config/hotaCannon/spellChanges.json"
 	],
 
 	"chinese" : {
