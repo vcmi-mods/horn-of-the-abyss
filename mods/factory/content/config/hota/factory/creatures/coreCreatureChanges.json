@@ -1,0 +1,48 @@
+{
+	"core:ballista" : {
+		"abilities" : {
+			"blocksRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"hidden" : true
+			}
+		}
+	},
+	"core:earthElemental" : {
+		"abilities" : {
+			"immuneToTeslaLightning" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "teslaLightning",
+				"hidden" : true
+			}
+		}
+	},
+	"core:magmaElemental" : {
+		"abilities" : {
+			"immuneToTeslaLightning" : {
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "teslaLightning",
+				"hidden" : true
+			}
+		}
+	},
+	"core:airElemental" : {
+		"abilities" : {
+			"vulnerableToTeslaLightning" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "teslaLightning",
+				"hidden" : true
+			}
+		}
+	},
+	"core:stormElemental" : {
+		"abilities" : {
+			"vulnerableToTeslaLightning" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"val" : 100,
+				"subtype" : "teslaLightning",
+				"hidden" : true
+			}
+		}
+	}
+}
