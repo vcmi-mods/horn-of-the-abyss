@@ -293,7 +293,8 @@ LANGUAGES_SINCE_1_8 = {"tchinese", "norwegian", "lithuanian"}
 
 def language_supported(language: str) -> bool:
     """False for 1.8-only languages when running on a vcmi-* branch older than 1.8."""
-    ref_name = os.environ.get("GITHUB_REF_NAME", "")
+    # Set by the detect step from the base branch, since GITHUB_REF_NAME is "<n>/merge" on PRs.
+    ref_name = os.environ.get("VCMI_VERSION", "")
     if language not in LANGUAGES_SINCE_1_8 or not ref_name.startswith("vcmi-"):
         return True
     return version_at_least(ref_name, 1, 8)
