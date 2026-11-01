@@ -182,11 +182,7 @@ function Script:purgeRuneBonuses(server, battle, unit)
 		setCounter(server, battle, unit, RUNE_TYPES.yeti.counterType, 0)
 	end
 
-	local runeBonuses = unit:getBonuses({sourceID = "runesStatGain"})
-
-	if runeBonuses:size() > 0 then
-		server:removeUnitBonuses(battle, unit, runeBonuses)
-	end
+	server:removeUnitBonuses(battle, unit, unit:getBonuses({sourceID = "runesStatGain"}))
 end
 
 --- Counterattack gain is recorded by onAfterAttacked for the same action.
