@@ -27,6 +27,12 @@ function Script:getHotALuckFactor(info)
 	end
 end
 
+function Script:getAttack(info)
+	local base = info.attacker:getAttack(info.shooting) + self:getAttackFromFrenzy(info)
+
+	return base + self:getAttackFromSlayer(info) + self:getAttackIgnored(info, base)
+end
+
 function Script:getAttackFromFrenzy(info)
 	local frenzy = self:getBonusValueOfType(info.attacker, info.attackerBonuses, "IN_FRENZY")
 
