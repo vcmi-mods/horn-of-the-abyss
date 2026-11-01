@@ -130,7 +130,12 @@ def main() -> None:
         if dep_id not in available_mods:
             print(f"  {dep_id}: not found in repository, skipping")
             return None
-        download_url = available_mods[dep_id].get("download")
+        entry = available_mods[dep_id]
+        # Plain string entry is URL to mod.json released by shared CI, which provides download URL
+        if isinstance(entry, str):
+            with urllib.request.urlopen(entry.replace(" ", "%20")) as resp:
+                entry = json.loads(resp.read())
+        download_url = entry.get("download")
         if not download_url:
             print(f"  {dep_id}: no download URL, skipping")
             return None
