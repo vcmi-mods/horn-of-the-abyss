@@ -44,6 +44,9 @@ local GAIN_ATTACK = 1
 --- Rune levels pending until ACTION_FINISHED
 local PENDING = "RUNE_LEVEL_PENDING"
 
+--- Rune stat bonuses sourceID
+local RUNE_STAT_KEY = "runesStatGain"
+
 --- Replaces the counter bonus because its icon refreshes only after re-adding it.
 local function setCounter(server, battle, unit, bonusType, value, sourceType, sourceID)
 	server:removeUnitBonuses(battle, unit, unit:getBonuses({ type = bonusType }))
@@ -71,6 +74,7 @@ function Script:updateRuneBonuses(server, battle, unit, targetLevel, oldLevel, r
 					type       = stat.type,
 					subtype    = stat.subtype,
 					sourceType = ENUM.BonusSource.other,
+					sourceID   = RUNE_STAT_KEY,
 					val        = gained,
 					valueType  = ENUM.BonusValueType.baseNumber,
 					duration   = ENUM.BonusDuration.oneBattle
@@ -173,6 +177,17 @@ function Script:processAltar(server, battle, unit, startLevel)
 	self:describeAltar(server, battle, startLevel)
 end
 
+--- Resets rune level to 0 and removes all stat bonuses gained from Runes.
+function Script:purgeRuneBonuses(server, battle, unit)
+	setCounter(server, battle, unit, PENDING, 0)
+	setCounter(server, battle, unit, RUNE_TYPES.hero.counterType, 0)
+	if self.isYeti then
+		setCounter(server, battle, unit, RUNE_TYPES.yeti.counterType, 0)
+	end
+
+	server:removeUnitBonuses(battle, unit, unit:getBonuses({sourceID = RUNE_STAT_KEY}))
+end
+
 --- Counterattack gain is recorded by onAfterAttacked for the same action.
 function Script:onAfterAttack(server, battle, unit, other, payload)
 	if payload.isCounter then return end
@@ -219,6 +234,11 @@ function Script:onBattleStart(server, battle, unit, other)
 	if math.min(startLevel, cap) > currentLevel then
 		self:processAltar(server, battle, unit, startLevel)
 	end
+end
+
+--- A unit that dies loses all gained Rune levels and bonuses therefrom.
+function Script:onDeath(server, battle, unit)
+	self:purgeRuneBonuses(server, battle, unit)
 end
 
 function Script:describeAltar(server, battle, startLevel)
