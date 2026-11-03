@@ -71,6 +71,9 @@
 		"config/hota/cove/boats.json",
 		"config/hota/cove/dwellings.json"
 	],
+	"rumors" : [
+		"config/hota/cove/coveRumors.json"
+	],
 	"spells" : [
 		"config/hota/cove/spells/accurateShot.json",
 		"config/hota/cove/spells/moat.json"

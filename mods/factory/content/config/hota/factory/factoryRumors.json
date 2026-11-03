@@ -1,0 +1,54 @@
+{
+	"factoryRumor0" : {
+		"text" : "Couatls and Dreadnoughts are the most powerful creatures of the Factories.",
+		"faction" : "factory"
+	},
+	"factoryRumor1" : {
+		"text" : "I've heard the residents of the Factory will build a Lightning Rod to honor any hero who brings them the Grail.",
+		"faction" : "factory"
+	},
+	"factoryRumor2" : {
+		"text" : "I've heard the bombs thrown by Halflings can break through any armor.",
+		"faction" : "factory"
+	},
+	"factoryRumor3" : {
+		"text" : "Mechanics can rebuild Automatons and Dreadnoughts even from scrap!",
+		"faction" : "factory"
+	},
+	"factoryRumor4" : {
+		"text" : "Some Automatons defeated in battle explode!",
+		"faction" : "factory"
+	},
+	"factoryRumor5" : {
+		"text" : "Olgoi-Khorkhoi devour the corpses of those fallen in battle.",
+		"faction" : "factory"
+	},
+	"factoryRumor6" : {
+		"text" : "Bounty Hunters always shoot first.",
+		"faction" : "factory"
+	},
+	"factoryRumor7" : {
+		"text" : "Couatls may enter into meditation state becoming invulnerable but only few of them can attack in this state.",
+		"faction" : "factory"
+	},
+	"factoryRumor8" : {
+		"text" : "The heat stroke of a Dreadnought can strike multiple enemies.",
+		"faction" : "factory"
+	},
+	"factoryRumor9" : {
+		"text" : "In a Bank you can take a good amount of gold in your hands, but then you will have to repay it.",
+		"faction" : "factory"
+	},
+	"factoryRumor10" : {
+		"text" : "A journey through wastelands is enduring and dangerous. Search for the Trailblazers who can help you discover the way through this terrain.",
+		"faction" : "factory"
+	},
+	"factoryRumor11" : {
+		"text" : "Halflings found their new home in the lands of Jadame.",
+		"faction" : "factory"
+	},
+	"factoryRumor12" : {
+		"text" : "They say some warlocks of Archibald Ironfist became Artificers.",
+		"faction" : "factory"
+	}
+}

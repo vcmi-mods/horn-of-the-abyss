@@ -72,6 +72,9 @@
 		"config/hota/highlands/hotaStatic/hotaHighlandsStaticBiomes.json",
 		"config/hota/highlands/vanillaStatic/vanillaHighlandsStaticBiomes.json"
 	],
+	"rumors" : [
+		"config/hota/highlands/confluxRumors.json"
+	],
 	"settings" : {
 		"combat" : {
 			"layouts" : {
