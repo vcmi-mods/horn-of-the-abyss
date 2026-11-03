@@ -30,6 +30,9 @@
 	"artifacts" : [
 		"config/hota/supplementary/artifacts/newArtifacts.json"
 	],
+	"biomes" : [
+		"config/hota/supplementary/newObjects/wastelandsBiome.json"
+	],
 	"objects" : [
 		"config/hota/supplementary/newObjects/kangaroo.json",
 		"config/hota/supplementary/newObjects/lightningRod.json",

@@ -1,0 +1,10 @@
+{
+	"hota.wastelandterrain:wastelandCactusVerdant" : {
+		"templates" : {
+			"appendItems" : [
+				"kang_01",
+				"kang_02"
+			]
+		}
+	}
+}

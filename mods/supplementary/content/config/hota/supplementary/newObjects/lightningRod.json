@@ -42,13 +42,13 @@
 						"animation" : "hota/supplementary/others/AVCnlr01",
 						"visitableFrom" : [
 							"---",
-							"-++",
+							"++-",
 							"+++"
 						],
 						"mask" : [
 							"VVV",
 							"VVV",
-							"VBA"
+							"VAB"
 						],
 						"allowedTerrains" : [
 							"wasteland"

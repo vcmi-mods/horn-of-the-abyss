@@ -354,67 +354,37 @@
 			{
 				"a" : "1",
 				"b" : "2",
-				"type" : "wide"
-			},
-			{
-				"a" : "1",
-				"b" : "2",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{
 				"a" : "1",
 				"b" : "3",
-				"type" : "wide"
-			},
-			{
-				"a" : "1",
-				"b" : "3",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{
 				"a" : "2",
 				"b" : "3",
-				"type" : "wide"
-			},
-			{
-				"a" : "2",
-				"b" : "3",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{
 				"a" : "4",
 				"b" : "5",
-				"type" : "wide"
-			},
-			{
-				"a" : "4",
-				"b" : "5",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{
 				"a" : "4",
 				"b" : "6",
-				"type" : "wide"
-			},
-			{
-				"a" : "4",
-				"b" : "6",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{
 				"a" : "5",
 				"b" : "6",
-				"type" : "wide"
-			},
-			{
-				"a" : "5",
-				"b" : "6",
-				"guard" : 0,
+				"type" : "wide",
 				"road" : "true"
 			},
 			{

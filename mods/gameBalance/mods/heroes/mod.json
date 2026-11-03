@@ -9,8 +9,17 @@
 		"hota.bulwark",
 		"hota.cove",
 		"hota.factory",
-		"hota.heroes"
+		"hota.heroes",
+		"hota.supplementary"
 	],
+	"artifacts" : [
+		"config/hotaGameBalance/supplementary/artifactChanges.json"
+	],
+	"bonuses" : {
+		"SPECIALTY_CURE" : {
+			"hidden" : true
+		}
+	},
 	"heroes" : [
 		"config/hotaGameBalance/bulwark/akka.json",
 		"config/hotaGameBalance/bulwark/biarma.json",
@@ -165,12 +174,13 @@
 		"config/hotaGameBalance/tower/theodorus.json",
 		"config/hotaGameBalance/tower/torosar.json"
 	],
-	"bonuses" : [
-		"config/hotaGameBalance/hotaSpecialtyBonuses.json"
-	],
-	"scripts" : [
-		"config/hotaGameBalance/hotaSpecialtyPatches.json"
-	],
+	"scripts" : {
+		"core:heal" : {
+			"patches" : {
+				"append" : "patches/specialtyCurePatch"
+			}
+		}
+	},
 	"chinese" : {
 		"name" : "英雄",
 		"description" : "改变尤兰德，蒂玛和珍尼的初始辅助技能",
