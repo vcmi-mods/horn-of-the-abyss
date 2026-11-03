@@ -36,14 +36,8 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"frostRing" : {
-					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "cure",
-					"val" : 3,
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+			"spellScalingPercentage" : "cure",
+			"spellScalingVal" : 3
 		},
 		"spellbook" : [
 			"cure"
