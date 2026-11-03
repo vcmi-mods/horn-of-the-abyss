@@ -80,7 +80,6 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			"spell" : {
-				"addInfo" : 0,
 				"subtype" : "bloodlust",
 				"type" : "SPECIAL_PECULIAR_ENCHANT"
 			}

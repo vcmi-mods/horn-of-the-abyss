@@ -34,7 +34,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"resetParameters" : {
-					"period" : 7,
+					"days" : 7,
 					"visitors" : true
 				},
 				"templates" : {
@@ -85,7 +85,7 @@
 
 				"onVisitedMessage" : "{Wind Turbine}\n\nThe wind turbine is not producing any more energy at the moment, you can wait for it to recharge.",
 				"resetParameters" : {
-					"period" : 7,
+					"days" : 7,
 					"visitors" : true,
 					"rewards" : true
 				},

@@ -60,9 +60,9 @@
 				"type" : "BLOCKS_RETALIATION"
 			},
 			"ephemeral" : {
-				"type" : "ENCHANTED",
-				"subtype" : "sandephemeral",
-				"val" : 1
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "sandephemeral", "level" : 1, "massive" : false }
 			},
 			"castsymMeditation" : {
 				"type" : "SPELLCASTER",

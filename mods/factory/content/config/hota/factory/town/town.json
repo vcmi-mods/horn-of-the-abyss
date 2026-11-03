@@ -6,7 +6,7 @@
 			"130px" : "hota/factory/CRBKGFAC.png"
 		},
 		"name" : "Factory",
-		"nativeTerrain" : "wasteland",
+		"nativeTerrain" : [ "wasteland" ],
 		"boat" : "boatCastle",
 		"town" : {
 			"defaultTavern" : 5,
