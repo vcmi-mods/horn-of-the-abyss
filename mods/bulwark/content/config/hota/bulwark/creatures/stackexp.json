@@ -574,8 +574,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "mirth",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "mirth" },
 					"icon" : "hota/bulwark/bonuses/enchantedmirth.png"
 				},
 				"values" : [
@@ -705,8 +706,9 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "mirth",
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "mirth" },
 					"icon" : "hota/bulwark/bonuses/enchantedmirth.png"
 				},
 				"values" : [

@@ -39,7 +39,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"resetParameters" : {
-					"days" : 7,
+					"weeks" : 1,
 					"visitors" : true
 				},
 				"templates" : {

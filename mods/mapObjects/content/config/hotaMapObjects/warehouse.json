@@ -14,7 +14,7 @@
 				]
 			},
 			"resetParameters" : {
-				"days" : 7,
+				"weeks" : 1,
 				"visitors" : true
 			},
 			"visitMode" : "once",

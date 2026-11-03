@@ -62,7 +62,8 @@
 			"ephemeral" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "sandephemeral", "level" : 1, "massive" : false }
+				"val" : 1,
+				"addInfo" : { "spell" : "sandephemeral" }
 			},
 			"castsymMeditation" : {
 				"type" : "SPELLCASTER",
