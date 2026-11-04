@@ -12,9 +12,6 @@
 		"hota.heroes",
 		"hota.supplementary"
 	],
-	"artifacts" : [
-		"config/hotaGameBalance/supplementary/artifactChanges.json"
-	],
 	"bonuses" : {
 		"SPECIALTY_CURE" : {
 			"hidden" : true
