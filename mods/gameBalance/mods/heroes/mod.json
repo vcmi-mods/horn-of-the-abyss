@@ -9,8 +9,7 @@
 		"hota.bulwark",
 		"hota.cove",
 		"hota.factory",
-		"hota.heroes",
-		"hota.supplementary"
+		"hota.heroes"
 	],
 	"bonuses" : {
 		"SPECIALTY_CURE" : {
