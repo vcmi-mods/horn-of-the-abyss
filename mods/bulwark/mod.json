@@ -83,6 +83,9 @@
 		"config/hota/bulwark/mapObjects/static/glaciers.json",
 		"config/hota/bulwark/runes/hermitsShackReward.json"
 	],
+	"rumors" : [
+		"config/hota/bulwark/bulwarkRumors.json"
+	],
 	"scripts" : [
 		"config/hota/bulwark/runes/runesScriptBinding.json"
 	],

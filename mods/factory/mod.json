@@ -81,6 +81,9 @@
 	"objects" : [
 		"config/hota/factory/dwellings.json"
 	],
+	"rumors" : [
+		"config/hota/factory/factoryRumors.json"
+	],
 	"scripts" : [
 		"config/hota/factory/spells/abilityScriptBindings.json"
 	],
