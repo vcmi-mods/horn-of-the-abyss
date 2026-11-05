@@ -3,7 +3,7 @@
 		"type" : "combat",
 		"name" : "",
 		"school" : {},
-		"level" : 2,
+		"level" : 0,
 		"power" : 0,
 		"gainChance" : {},
 		"defaultGainChance" : 0,
