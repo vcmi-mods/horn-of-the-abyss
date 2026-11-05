@@ -744,8 +744,8 @@
 			//			{ "a" : "18", "b" : "22", "guard" : 9000, "road" : "random" },
 			//			{ "a" : "19", "b" : "24", "guard" : 9000, "road" : "random" },
 			//			{ "a" : "20", "b" : "25", "guard" : 9000, "road" : "random" },
-			//			{ "a" : "21", "b" : "22", "type" : "wide", "road" },
-			//			{ "a" : "24", "b" : "25", "type" : "wide", "road" }
+			//			{ "a" : "21", "b" : "22", "type" : "wide", "road" : "true" },
+			//			{ "a" : "24", "b" : "25", "type" : "wide", "road" : "true" }
 
 			// forth road preset
 			//			{ "a" : "1", "b" : "9", "guard" : 6000, "road" : "true" },

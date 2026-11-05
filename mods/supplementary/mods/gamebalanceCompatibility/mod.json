@@ -1,0 +1,14 @@
+{
+	"name" : "HotA supplementary and gamebalance.heroes Compatibility",
+	"description" : "Scales the changes and additions from this mod in line with the Game Balance Heroes submod.",
+	"modType" : "Compatibility",
+	"author": "VCMI HotA Mod team",
+	"version" : "1.0.0",
+	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
+	"depends" : [
+		"hota.gamebalance.heroes"
+	],
+	"artifacts" : [
+		"config/gamebalanceCompat/fangOfTheLastScream.json"
+	]
+}
