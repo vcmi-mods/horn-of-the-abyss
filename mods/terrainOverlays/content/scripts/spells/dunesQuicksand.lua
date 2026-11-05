@@ -34,6 +34,9 @@ function Script:applicableTarget(mechanics, problem, target)
 end
 
 function Script:apply(mechanics, server, target)
+	if mechanics:getCasterSide() ~= ENUM.BattleSide.attacker then
+		return
+	end
     local battle = mechanics:getBattle()
     local spell  = mechanics:getSpell()
     local patchCount = server:rngInt(15, 20)
