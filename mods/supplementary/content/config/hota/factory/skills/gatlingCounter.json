@@ -1,4 +1,7 @@
 {
+	"GATLING_HAS_ATTACKED" : {
+		"hidden" : true
+	},
 	"GATLING_COUNTER" : {
 		"hidden" : false,
 		"description" : "If this is shown, it's a bug with the GATLING_COUNTER.",
