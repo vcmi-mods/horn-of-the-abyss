@@ -96,7 +96,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" }
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
@@ -284,7 +286,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "airShield" }
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					1,
@@ -416,7 +420,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "airShield" }
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					1,
@@ -1258,7 +1264,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" }
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
@@ -1429,7 +1437,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "slayer" }
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
