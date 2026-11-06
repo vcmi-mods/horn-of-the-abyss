@@ -1,0 +1,92 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"anchorBay" : 
+			{
+				"name" : "Anchor Bay",
+				"aiValue": 10000,
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "hota/supplementary/others/Avgcent0",
+						"visitableFrom" : [ "---", "+++", "+++" ], 
+						"mask" : [ "VVVVV", "VVVVV","VBBBB", "VBBAB","VVVVV"],
+						"allowedTerrains":["water"] 
+					}
+				},
+				"sounds": {
+					"ambient": ["LOOPAREN"]
+				},
+				"rmg" : {
+					"value"		: 7000,
+					"rarity"	: 10
+				},
+				"onGuardedMessage" : "{Anchor Bay}\r\n\r\nYou sail your ship to this small island, where you can see a large number of pirates gathered. You know this is a major stronghold for local pirates—a place from which they prey upon passing merchant vessels. Eliminating them would not only bring peace to these waters but also yield a great deal of treasure. Do you choose to launch an attack?",
+				"onVisited" : [
+					{
+						"message" : "{Anchor Bay}\r\n\r\nYou sail your ship to this small island; although it looks like a pirate stronghold, there isn’t a single pirate to be found. You moor your vessel and climb up to a high platform to take in the surroundings—the scenery is truly magnificent.",
+						"revealTiles" : {
+							"radius" : 20,
+							"surface" : 1,
+							"subterra" : 1,
+							"water" : 1,
+							"rock" : 1
+						}
+					}
+				],
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards" : [
+					{
+						"message" : "After the last pirate has been eliminated, you climb the tower and discover a great deal of treasure in their storeroom.",
+						"appearChance" : { "min" : 0, "max" : 50 },
+						"guards": [
+							{ "amount": 50, "type" : "pirate" },
+							{ "amount": 50, "type" : "corsair" },
+							{ "amount": 50, "type" : "seadog"},
+							{ "amount": 20, "type" : "seaWitch" },
+							{ "amount": 20, "type" : "sorceress" }
+						],
+						"resources":
+							{
+								"gold" : 10000,
+								"gems": 10,
+								"sulfur": 10
+							},
+							"artifacts": 
+							[ 
+								{ "class" : "MINOR" },
+								{ "class" : "MAJOR" } 
+							]
+					},
+					{
+						"message" : "After the last pirate has been eliminated, you climb the tower and discover a great deal of treasure in their storeroom.",
+						"appearChance" : { "min" : 50, "max" : 100 },
+						"guards": [
+							{ "amount": 70, "type" : "pirate" },
+							{ "amount": 70, "type" : "corsair" },
+							{ "amount": 70, "type" : "seadog"},
+							{ "amount": 35, "type" : "seaWitch" },
+							{ "amount": 30, "type" : "sorceress" }
+						],
+						"resources":
+							{
+								"gold" : 15000,
+								"gems": 15,
+								"sulfur": 15
+							},
+							"artifacts": 
+							[ 
+								{ "class" : "MAJOR" },
+								{ "class" : "RELIC" } 
+							]
+					}
+				]
+			}
+		}
+	}
+}

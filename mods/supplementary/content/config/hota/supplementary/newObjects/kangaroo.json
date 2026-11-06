@@ -1,39 +1,55 @@
 {
-	"kangaroo" : {
+	"kangaroo" :{
 		"handler" : "static",
 		"name" : "Kangaroo",
 		"types" : {
 			"kangaroo" : {
 				"templates" : {
-					"kang_01" : {
-						"animation" : "hota/supplementary/others/kangaroo",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						]
+					"kang_01" : { "animation" : "hota/supplementary/others/kangaroo",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "wasteland" ]
 					},
-					"kang_02" : {
-						"animation" : "hota/supplementary/others/kangaroo2",
-						"mask" : [
-							"VV",
-							"VB"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						]
+					"kang_02" : { "animation" : "hota/supplementary/others/kangaroo2",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "wasteland" ]
 					},
-					"kang_03" : {
-						"animation" : "hota/supplementary/others/kangaroo3",
-						"mask" : [
-							"VVVVV",
-							"VVVVV"
-						],
-						"allowedTerrains" : [
-							"wasteland"
-						]
+					"kang_03" : { "animation" : "hota/supplementary/others/kangaroo3",
+						"mask" : ["VVVVV","VVVVV"],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"kang_04" : { "animation" : "hota/supplementary/others/kangaroo4",
+						"mask" : ["VVV","VBB"],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"kang_05" : { "animation" : "hota/supplementary/others/kangaroo5",
+						"mask" : ["VVV","VBB"],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"kang_06" : { "animation" : "hota/supplementary/others/kangaroo6",
+						"mask" : ["VVV","VBB"],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}
+		}
+	},
+	"quokka" :{
+		"handler" : "static",
+		"name" : "Quokka",
+		"types" : {
+			"kangaroo" : {
+				"templates" : {
+					"quokka_01" : { "animation" : "hota/supplementary/others/quokka01",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"quokka_02" : { "animation" : "hota/supplementary/others/quokka02",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "wasteland" ]
+					},
+					"quokka_03" : { "animation" : "hota/supplementary/others/quokka03",
+						"mask" : ["VV","BB"],
+						"allowedTerrains": [ "wasteland" ]
 					}
 				}
 			}

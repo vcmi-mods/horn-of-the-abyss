@@ -1,0 +1,170 @@
+{
+	"gatlingCannon":
+	{
+		"name" :
+		{
+			"plural" : "Gatling Cannons",
+			"singular" : "Gatling Cannon"
+		},
+		"faction" : "neutral",
+		"level": 6,
+		"aiValue" : 1637,
+		"special" : true,
+		"attack" : 15,
+        "cost": 
+            {
+              "gold": 2500
+            },
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 1360,
+		"graphics" :
+		{
+			"animation" : "hota/factory/battle/creatures/SMGTLCN.def",
+			"iconSmall" : "hota/factory/iconsSmall/smallIcon.png",
+			"iconLarge" : "hota/factory/iconsBig/gatlingCreature.png",
+			"map": "hota/factory/map/gatlingMap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			},
+			"missile" :
+			{
+				"projectile" : "hota/factory/battle/creatures/SMGTLX.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 200,
+        "shots" : 55,
+		"sound" :
+		{
+			"attack" : "hota/gatlingCannon/GTLCSHOT.wav",
+			"killed": "hota/gatlingCannon/GTLCKILL.wav",
+			"shoot" : "hota/gatlingCannon/GTLCSHOT.wav",
+			"wince": "hota/gatlingCannon/GTLCWNCE.wav",
+			"cast": "FIREBLST"
+		},
+		"speed" : 0,
+		"abilities" :
+		{
+        	"shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"dummyIcon" : {
+				"type" : "NONE",
+				"icon" : "hota/factory/icons/bonuses/noretaliation.png",
+				"description" : "{War Machine}\nThe war machine is unable to strike back against the attack."
+			},
+			"heroAttackDamage" : { "type" : "COMBAT_EVENT_TRIGGER", "subtype" : "ballistaDamage", "val" : 1 },
+			"blockRetalitation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"blocksRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"hidden" : true
+			},
+			"warMachine" :
+			{
+				"type" : "SIEGE_WEAPON",
+				"icon" : "hota/factory/icons/bonuses/ballista.png",
+				"description" : "{War Machine}\nA weapon that fires ammunition at enemy forces"
+			},
+			"cpuControlled" :
+			{
+				"type" : "CPU_CONTROLLED",
+				"hidden": true
+			},
+			"gatlingCounterCap" : { "type" : "GATLING_COUNTER", "valueType" : "INDEPENDENT_MIN", "val" : 9 },
+			"gatlingCounterBase" : { "type" : "GATLING_COUNTER", "val" : 0 },
+			"gatlingAttackTier1" : { "type" : "ADDITIONAL_ATTACK",  "val" : 0, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 0, "bonusMaxValue" : 1 } },
+			"gatlingAttackTier2" : { "type" : "ADDITIONAL_ATTACK",  "val" : 0, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 1, "bonusMaxValue" : 2 } },
+			"gatlingAttackTier3" : { "type" : "ADDITIONAL_ATTACK",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 2, "bonusMaxValue" : 3 } },
+			"gatlingAttackTier4" : { "type" : "ADDITIONAL_ATTACK",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 3, "bonusMaxValue" : 4 } },
+			"gatlingAttackTier5" : { "type" : "ADDITIONAL_ATTACK",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 4, "bonusMaxValue" : 5 } },
+			"gatlingAttackTier6" : { "type" : "ADDITIONAL_ATTACK",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 5, "bonusMaxValue" : 6 } },
+			"gatlingAttackTier7" : { "type" : "ADDITIONAL_ATTACK",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 6, "bonusMaxValue" : 7 } },
+			"gatlingAttackTier8" : { "type" : "ADDITIONAL_ATTACK",  "val" : 2, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 7, "bonusMaxValue" : 8 } },
+			"gatlingAttackTier9" : { "type" : "ADDITIONAL_ATTACK",  "val" : 4, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 8, "bonusMaxValue" : 9 } },
+			"gatlingCast1" : { "type" : "CASTS",  "val" : 1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 0, "bonusMaxValue" : 8 } },
+			"gatlingCast2" : { "type" : "CASTS",  "val" : -1, "limiters" : { "type" : "HAS_ANOTHER_BONUS_LIMITER", "bonusType" : "GATLING_COUNTER", "bonusMinValue" : 9, "bonusMaxValue" : 9 } },
+			"CombatAttackLevels" :		{ "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventAfterAttack",		"addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "GATLING_COUNTER", "val" : 1, "duration" : "ONE_BATTLE" } } ] } },
+			"CombatCastLevels" :		{ "type" : "ON_COMBAT_EVENT", "subtype" : "combatEventCast",		"addInfo" : { "effect" : [ { "action" : "bonus", "targetEnemy" : false, "bonus" : { "type" : "GATLING_COUNTER", "val" : 8, "duration" : "ONE_BATTLE" } } ] } },
+			"noRetaliation" : 
+			{
+                "val" : 0,
+                "type" : "NO_RETALIATION"
+            },
+			"castsOverload": {
+				"type": "SPELLCASTER",
+				"subtype": "abilityOverload",
+				"val": 0,
+				"hidden": true
+				}
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [ 1, 2, 3, 3, 4, 5, 6, 6, 7, 8 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 1, 2, 3, 3, 4, 5, 6, 6, 7 ]
+			},
+			{
+				"bonus" :
+				{
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			}
+		]
+	}
+}

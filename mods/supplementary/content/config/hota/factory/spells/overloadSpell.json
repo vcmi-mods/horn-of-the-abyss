@@ -1,0 +1,60 @@
+{
+    "abilityOverload": {
+        "type": "ability",
+        "name": "Overload",
+        "school": {},
+        "level": 0,
+        "power": 0,
+        "defaultGainChance": 0,
+        "gainChance": {},
+        "flags": {
+            "persistent": true,
+            "positive": true,
+            "special": true,
+            "nonMagical": true
+        },
+        "canCastWithoutSkip": true,
+		"animation":{
+			"affect":[ {
+				"effectName" : "bloodlust"
+			} ]
+		},
+		"graphics":
+		{
+			"iconEffect": "hota/factory/spells/overload.png"
+		},
+        "targetCondition": {},
+        "targetType": "NO_TARGET",
+        "levels": {
+            "base": {
+                "description": "",
+                "cost": 0,
+                "power": 0,
+                "range": "X",
+                "battleEffects": {
+                    "overload": {
+                        "type": "attachSelfCastAbility",
+                        "battleLogSingular": "%s has engaged its overload mode; power is at maximum.",
+                        "battleLogPlural": "%s has engaged its overload mode; power is at maximum.",
+                        "bonus": {
+                            "primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"val" : -20,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "PERMANENT"
+							}
+                        }
+                    }
+                },
+				"targetModifier":{"smart":true}
+            },
+            "none": {
+                "description": "{Overload}\nThrough artillery control, the Gatling Cannon can be pushed to maximum power output, though this reduces the weapon's base defense by 2 points."
+            },
+            "basic": {},
+            "advanced": {},
+            "expert": {}
+        }
+    }
+}

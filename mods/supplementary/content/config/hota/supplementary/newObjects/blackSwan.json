@@ -1,0 +1,16 @@
+{
+	"core:swanPond" : {
+		"types" : {
+			"swanPond" : {
+				"templates" : {
+					"AVSclvW0" : {
+						"animation" : "hota/supplementary/others/swanWaste.def",
+						"mask" : [ "VAA" ],
+						"visitableFrom" : [ "---", "+++", "+++" ],
+						"allowedTerrains": [ "wasteland" ]
+					}
+				}
+			}	
+		}
+	}
+}

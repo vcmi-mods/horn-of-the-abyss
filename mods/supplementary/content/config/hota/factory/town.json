@@ -1,0 +1,63 @@
+{
+	"hota.factory:factory" : {
+		"town" : {
+		    "buildingsIcons" : "hota/factory/town-hall/town-hall.def",
+			"hallBackground" : "factory/town-screen/TPTHBKFC.png",
+			"buildings" : {
+				"special4" :
+				{
+					"description" : "The Armory can provide Gatling Cannons for your army.",
+					"name" : "Armory",
+                    "cost" : {
+                                    "gold" : 1500,
+									"wood": 5
+                              },
+					"warMachine": "gatlingCannon",
+					"requires" : [ "blacksmith" ]
+				}
+			},
+			"structures" : {
+				"special4" : 
+				{
+					"animation" : "hota/factory/town-screen/buildings/ARMORY.json",
+					"area" : "factory/town-screen/buildings-area/TZFaSpc3",
+					"border" : "factory/town-screen/buildings-border/TOFaSpc3",
+					"x" : 205,
+					"y" : 140,
+					"z" : 2
+				}
+			},
+		"hallSlots" : [
+				[
+					[ "villageHall", "townHall", "cityHall", "capitol" ],
+					[ "fort", "citadel", "castle" ],
+					[ "tavern" ],
+					[ "blacksmith" ]
+				],
+				[
+					[ "marketplace", "resourceSilo" ],
+					[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+					[ "special4" ],
+					[ "special2" ]
+				],
+				[ 
+					[ "special3" ],
+					[ "special1" ],
+			    	[ "horde1", "horde1Upgr" ]
+				],
+				[
+					[ "dwellingLvl1", "dwellingUpLvl1" ],
+					[ "dwellingLvl2", "dwellingUpLvl2" ],
+					[ "dwellingLvl3", "dwellingUpLvl3" ],
+					[ "dwellingLvl4", "dwellingUpLvl4" ]
+				],
+				[
+					[ "dwellingLvl5", "dwellingUpLvl5" ],
+					[ "dwellingLvl6", "dwellingUpLvl6" ],
+					[ "dwellingLvl7", "dwellingUpLvl7" ],
+					[ "dwellingLvl8", "dwellingUpLvl8" ]
+				]
+			]
+		}
+	}
+}

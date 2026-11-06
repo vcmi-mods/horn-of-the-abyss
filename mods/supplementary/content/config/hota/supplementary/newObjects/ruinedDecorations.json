@@ -1,0 +1,240 @@
+{
+	"abandoned01" :{
+		"handler" : "generic",
+		"name" : "Ruined Portal",//Ruined Portal
+		"types" : {
+			"abandoned01" : {
+				"templates" : {
+					"ruined01" : { "animation" : "hota/supplementary/others/ruinedObject01.def",
+						"mask" : ["V","B"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned02" :{
+		"handler" : "generic",
+		"name" : "Ruined Obelisk",//Ruined Obelisk
+		"types" : {
+			"abandoned02" : {
+				"templates" : {
+					"ruined02" : { "animation" : "hota/supplementary/others/ruinedObject02.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned03" :{
+		"handler" : "generic",
+		"name" : "Ruined Obelisk",//Ruined Obelisk
+		"types" : {
+			"abandoned03" : {
+				"templates" : {
+					"ruined03" : { "animation" : "hota/supplementary/others/ruinedObject03.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned04" :{
+		"handler" : "generic",
+		"name" : "Ruined Garrison",//Ruined Garrison
+		"types" : {
+			"abandoned04" : {
+				"templates" : {
+					"ruined04" : { "animation" : "hota/supplementary/others/ruinedObject04.def",
+						"mask" : ["VVVV","VBVB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned05" :{
+		"handler" : "generic",
+		"name" : "Ruined Griffin Conservatory",//Ruined Griffin Conservatory
+		"types" : {
+			"abandoned05" : {
+				"templates" : {
+					"ruined05" : { "animation" : "hota/supplementary/others/ruinedObject05.def",
+						"mask" : ["VVV","VVV","VBB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned06" :{
+		"handler" : "generic",
+		"name" : "Ruined Hillfort",//Ruined Hillfort
+		"types" : {
+			"abandoned06" : {
+				"templates" : {
+					"ruined06" : { "animation" : "hota/supplementary/others/ruinedObject06.def",
+						"mask" : ["VVV","VVV","VBB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned07" :{
+		"handler" : "generic",
+		"name" : "Ruined Magic School",//Ruined Magic School
+		"types" : {
+			"abandoned07" : {
+				"templates" : {
+					"ruined07" : { "animation" : "hota/supplementary/others/ruinedObject07.def",
+						"mask" : ["VV","VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned08" :{
+		"handler" : "generic",
+		"name" : "Ruined Tower",//Ruined Tower
+		"types" : {
+			"abandoned08" : {
+				"templates" : {
+					"ruined08" : { "animation" : "hota/supplementary/others/ruinedObject08.def",
+						"mask" : ["VVV","VVV","VBB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned09" :{
+		"handler" : "generic",
+		"name" : "Ruined Shrine",//Ruined Shrine
+		"types" : {
+			"abandoned09" : {
+				"templates" : {
+					"ruined09" : { "animation" : "hota/supplementary/others/ruinedObject09.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned10" :{
+		"handler" : "generic",
+		"name" : "Ruined Wisdom Garden",//Ruined Wisdom Garden
+		"types" : {
+			"abandoned10" : {
+				"templates" : {
+					"ruined10" : { "animation" : "hota/supplementary/others/ruinedObject10.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned11" :{
+		"handler" : "generic",
+		"name" : "Ruined Wisdom Library",//Ruined Wisdom Library
+		"types" : {
+			"abandoned11" : {
+				"templates" : {
+					"ruined11" : { "animation" : "hota/supplementary/others/ruinedObject11.def",
+						"mask" : ["VBBBB","VBBBB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned12" :{
+		"handler" : "generic",
+		"name" : "Dead Scholar",//Dead Scholar
+		"types" : {
+			"abandoned12" : {
+				"templates" : {
+					"ruined10" : { "animation" : "hota/supplementary/others/ruinedObject12.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned13" :{
+		"handler" : "generic",
+		"name" : "Ruined Tower",//Ruined Tower
+		"types" : {
+			"abandoned13" : {
+				"templates" : {
+					"ruined13" : { "animation" : "hota/supplementary/others/ruinedObject13.def",
+						"mask" : ["VV","VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned14" :{
+		"handler" : "generic",
+		"name" : "Ruined Learning Stone",//Ruined Stone
+		"types" : {
+			"abandoned14" : {
+				"templates" : {
+					"ruined14" : { "animation" : "hota/supplementary/others/ruinedObject14.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned15" :{
+		"handler" : "generic",
+		"name" : "Ruined Star Axis",//Ruined Star Axis
+		"types" : {
+			"abandoned15" : {
+				"templates" : {
+					"ruined15" : { "animation" : "hota/supplementary/others/ruinedObject15.def",
+						"mask" : ["VV","VB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned16" :{
+		"handler" : "generic",
+		"name" : "Dead Wisdom Tree",//Dead Wisdom Tree
+		"types" : {
+			"abandoned16" : {
+				"templates" : {
+					"ruined16" : { "animation" : "hota/supplementary/others/ruinedObject16.def",
+						"mask" : ["VVV","VVV","VBV"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	},
+	"abandoned17" :{
+		"handler" : "generic",
+		"name" : "Ruined University",//Ruined University
+		"types" : {
+			"abandoned17" : {
+				"templates" : {
+					"ruined17" : { "animation" : "hota/supplementary/others/ruinedObject17.def",
+						"mask" : ["VVVVV","VBBBB","VBBBB"],
+						"allowedTerrains": [ "dirt", "lava", "rough" ]
+					}
+				}
+			}
+		}
+	}
+}
