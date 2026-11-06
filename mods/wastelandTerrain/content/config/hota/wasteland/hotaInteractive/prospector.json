@@ -17,7 +17,7 @@
 					]
 				},
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true,
 					"rewards" : true
 				},
