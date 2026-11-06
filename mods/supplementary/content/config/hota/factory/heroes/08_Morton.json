@@ -1,32 +1,27 @@
 {
-	"hota.factory:08_Morton" :
-	{
-
-		"images" :
-		{
+	"hota.factory:08morton" : {
+		"images" : {
 			"specialtySmall" : "hota/factory/iconsSmall/skill32.png",
 			"specialtyLarge" : "hota/factory/iconsSmall/skill44.png"
 		},
-		
 		"specialty" : {
-			"creature" : "ballista",
 			"base" : {
-				"type": "PRIMARY_SKILL",
-				"val": 5,
-				"valueType": "PERCENT_TO_TARGET_TYPE",
-			"targetSourceType": "CREATURE_ABILITY",
-			"updater": {
-				"type": "TIMES_HERO_LEVEL",
-				"stepSize" : 6
-			},
-			"limiters": [
-				{
-					"type": "CREATURE_TYPE_LIMITER",
-					"creature": "gatlingCannon"
-				}
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "PERCENT_TO_TARGET_TYPE",
+				"targetSourceType" : "CREATURE_ABILITY",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 6
+				},
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "gatlingCannon"
+					}
 				]
 			},
-			"bonuses" : {	
+			"bonuses" : {
 				"gatlingCannonAttack" : {
 					"subtype" : "attack"
 				},
@@ -37,4 +32,3 @@
 		}
 	}
 }
-

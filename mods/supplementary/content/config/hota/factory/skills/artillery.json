@@ -1,30 +1,32 @@
 {
-  "core:artillery" : {
+	"core:artillery" : {
 		"base" : {
 			"effects" : {
 				"gatlingExtra" : {
-					"subtype" : "creature.gatlingCannon",
 					"type" : "BONUS_DAMAGE_CHANCE",
+					"subtype" : "gatlingCannon",
 					"valueType" : "BASE_NUMBER"
 				},
 				"damagePowerGatling" : {
-					"subtype" : "creature.gatlingCannon",
 					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"subtype" : "gatlingCannon",
+					"val" : 100,
 					"valueType" : "BASE_NUMBER"
 				},
 				"ctrlGatling" : {
-					"subtype" : "creature.gatlingCannon",
 					"type" : "MANUAL_CONTROL",
+					"subtype" : "gatlingCannon",
 					"val" : 100,
 					"valueType" : "BASE_NUMBER"
 				},
 				"damageCapGatling" : {
 					"type" : "DAMAGE_RECEIVED_CAP",
+					"val" : 40,
 					"propagator" : "ARMY",
 					"limiters" : [
 						{
-					"type" : "CREATURE_TYPE_LIMITER",
-					"creature" : "gatlingCannon"
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "gatlingCannon"
 						}
 					],
 					"valueType" : "INDEPENDENT_MIN"
@@ -33,24 +35,27 @@
 		},
 		"basic" : {
 			"effects" : {
-				"gatlingExtra" : { "val" : 0 },//can control to overload
-				"damagePowerGatling" : { "val" : 100 },
-				"damageCapGatling" : { "val" : 40 }
+				//can control to overload
+				"gatlingExtra" : {
+					"val" : 0
+				}
 			}
 		},
 		"advanced" : {
 			"effects" : {
-				"gatlingExtra" : { "val" : 50 },//can control to overload and 50% double damage
-				"damagePowerGatling" : { "val" : 100 },
-				"damageCapGatling" : { "val" : 40 }
+				//can control to overload and 50% double damage
+				"gatlingExtra" : {
+					"val" : 50
+				}
 			}
 		},
 		"expert" : {
 			"effects" : {
-				"gatlingExtra" : { "val" : 100 },//can control to overload and 100% double damage
-				"damagePowerGatling" : { "val" : 100 },
-				"damageCapGatling" : { "val" : 40 }
+				//can control to overload and 100% double damage
+				"gatlingExtra" : {
+					"val" : 100
+				}
 			}
 		}
-  }
+	}
 }

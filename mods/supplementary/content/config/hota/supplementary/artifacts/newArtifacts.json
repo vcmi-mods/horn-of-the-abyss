@@ -10,8 +10,7 @@
 			"spell" : {
 				"subtype" : "blind",
 				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER"
+				"addInfo" : 1
 			},
 			"scouting" : {
 				"type" : "SIGHT_RADIUS",
@@ -80,7 +79,6 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			"spell" : {
-				"addInfo" : 0,
 				"subtype" : "bloodlust",
 				"type" : "SPECIAL_PECULIAR_ENCHANT"
 			}
