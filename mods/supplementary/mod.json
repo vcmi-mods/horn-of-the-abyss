@@ -78,6 +78,19 @@
 
 		"config/hota/factory/cannonYard.json"
 	],
+	"scripts" : {
+		"gatlingShots" : {
+			"implements" : "combatEvent",
+			"script" : "combat/gatlingShots.lua",
+			"patches" : [],
+			"schema" : {
+				"properties" : {},
+				"additionalProperties" : false
+			},
+			"priority" : 500,
+			"description" : ""
+		}
+	},
 	"skills" : [
 		"config/hota/factory/skills/artillery.json"
 	],

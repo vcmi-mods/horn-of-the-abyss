@@ -1,35 +1,16 @@
 {
 	"GATLING_COUNTER" : {
 		"hidden" : false,
-		"description" : "If this is shown, it's a bug with the this COUNTER.",
+		"description" : "If this is shown, it's a bug with the GATLING_COUNTER.",
 		"graphics" : {
-			"valueIcons" : {
-				"0" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"1" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"2" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"3" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"4" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"5" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"6" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"7" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"8" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"9" : "hota/factory/icons/bonuses/gatlingShoot.png",
-				"10" : "hota/factory/icons/bonuses/gatlingShoot.png"
-			}
+			"icon" : "hota/factory/icons/bonuses/gatlingShoot.png"
 		},
 		"valueDescriptions" : {
-			"0" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 1.",
-			"1" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 2.",
-            "2" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 2.",
-			"3" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 3.",
-            "4" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 3.",
-			"5" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 3.",
-            "6" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 4.",
-			"7" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 4.",
-            "8" : "{Rapid Fire}\nAllows for 1 additional shot after each action; currently set to 4.",
-			"9" : "{Rapid Fire}\nAllows for 1 additional shot after each action; limit reached 5.",
-            "10" : "{Rapid Fire}\nAllows for 1 additional shot after each action; limit reached 5."
-		},
-		"creatureNature" : false
+			"0" : "{Rapid Fire}\nCurrent attacks: {1}",
+			"1" : "{Rapid Fire}\nCurrent attacks: {2}",
+			"2" : "{Rapid Fire}\nCurrent attacks: {3}",
+			"3" : "{Rapid Fire}\nCurrent attacks: {4}",
+			"4" : "{Rapid Fire}\nCurrent attacks: {5}"
+		}
 	}
 }

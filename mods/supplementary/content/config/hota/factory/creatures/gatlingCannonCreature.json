@@ -72,11 +72,6 @@
 			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"dummyIcon" : {
-				"type" : "NONE",
-				"icon" : "hota/factory/icons/bonuses/noretaliation.png",
-				"description" : "{War Machine}\nThe war machine is unable to strike back against the attack."
-			},
 			"heroAttackDamage" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "ballistaDamage",
@@ -95,173 +90,26 @@
 				"type" : "CPU_CONTROLLED",
 				"hidden" : true
 			},
-			"gatlingCounterCap" : {
-				"type" : "GATLING_COUNTER",
-				"valueType" : "INDEPENDENT_MIN",
-				"val" : 9
-			},
-			"heroAttackDamage" : {
-				"type" : "COMBAT_EVENT_TRIGGER",
-				"subtype" : "ballistaDamage",
-				"val" : 1
-			},
-			"gatlingCounterBase" : {
-				"type" : "GATLING_COUNTER",
-				"val" : 0
-			},
-			"gatlingAttackTier1" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 0,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 0,
-					"bonusMaxValue" : 1
-				}
-			},
-			"gatlingAttackTier2" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 0,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 1,
-					"bonusMaxValue" : 2
-				}
-			},
-			"gatlingAttackTier3" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 2,
-					"bonusMaxValue" : 3
-				}
-			},
-			"gatlingAttackTier4" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 3,
-					"bonusMaxValue" : 4
-				}
-			},
-			"gatlingAttackTier5" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 4,
-					"bonusMaxValue" : 5
-				}
-			},
-			"gatlingAttackTier6" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 5,
-					"bonusMaxValue" : 6
-				}
-			},
-			"gatlingAttackTier7" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 6,
-					"bonusMaxValue" : 7
-				}
-			},
-			"gatlingAttackTier8" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 2,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 7,
-					"bonusMaxValue" : 8
-				}
-			},
-			"gatlingAttackTier9" : {
-				"type" : "ADDITIONAL_ATTACK",
-				"val" : 4,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 8,
-					"bonusMaxValue" : 9
-				}
-			},
-			"gatlingCast1" : {
-				"type" : "CASTS",
-				"val" : 1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 0,
-					"bonusMaxValue" : 8
-				}
-			},
-			"gatlingCast2" : {
-				"type" : "CASTS",
-				"val" : -1,
-				"limiters" : {
-					"type" : "HAS_ANOTHER_BONUS_LIMITER",
-					"bonusType" : "GATLING_COUNTER",
-					"bonusMinValue" : 9,
-					"bonusMaxValue" : 9
-				}
-			},
-			"CombatAttackLevels" : {
-				"type" : "ON_COMBAT_EVENT",
-				"subtype" : "combatEventAfterAttack",
-				"addInfo" : {
-					"effect" : [
-						{
-							"action" : "bonus",
-							"targetEnemy" : false,
-							"bonus" : {
-								"type" : "GATLING_COUNTER",
-								"val" : 1,
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					]
-				}
-			},
-			"CombatCastLevels" : {
-				"type" : "ON_COMBAT_EVENT",
-				"subtype" : "combatEventCast",
-				"addInfo" : {
-					"effect" : [
-						{
-							"action" : "bonus",
-							"targetEnemy" : false,
-							"bonus" : {
-								"type" : "GATLING_COUNTER",
-								"val" : 8,
-								"duration" : "ONE_BATTLE"
-							}
-						}
-					]
-				}
-			},
 			"noRetaliation" : {
 				"val" : 0,
-				"type" : "NO_RETALIATION"
+				"type" : "NO_RETALIATION",
+				"icon" : "hota/factory/icons/bonuses/noretaliation.png",
+				"description" : "{War Machine}\nThe war machine is unable to strike back against the attack."
 			},
 			"castsOverload" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "abilityOverload",
 				"val" : 0,
 				"hidden" : true
+			},
+			"rapidFireIcon" : {
+				"type" : "NONE",
+				"icon" : "hota/factory/icons/bonuses/gatlingShoot.png",
+				"description" : "{Rapid Fire}\nEach attack grants +1 extra attack for subsequent turns. Limit of 5 attacks."
+			},
+			"rapidFireScript" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "gatlingShots"
 			}
 		},
 		"stackExperience" : [
