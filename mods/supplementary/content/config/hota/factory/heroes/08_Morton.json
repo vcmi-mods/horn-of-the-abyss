@@ -29,6 +29,13 @@
 					"subtype" : "defence"
 				}
 			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels and those of any Gatling Cannon by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Artillery Bonus: War Machines",
+				"name" : "War Machines"
+			}
 		}
 	}
 }
