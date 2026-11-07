@@ -1,0 +1,22 @@
+{
+	"gatlingCannon":
+	{
+		"type" : ["HERO"],
+		"warMachine" : "gatlingCannon",
+		"class" : "SPECIAL",
+		"slot" : "MACH1",
+		"value": 2500,
+		"text":
+		{
+			"name": "Gatling Cannon",
+			"description": "{Gatling Cannon}\n\nThe Gatling Cannon increases the number of attacks in the following turn after each shot, up to a maximum of 5 shots.",
+			"event": "The Gatling Cannon is an ingenious device that uses a light machine gun to rapidly attack enemies. After discovering it, you brought it back to your tent."
+		},
+		"graphics":
+		{
+			"image": "hota/factory/iconsSmall/gatlingArtifact.png",
+			"scenarioBonus" : "hota/factory/iconsBig/gatlingBonus.png",
+			"map": "hota/factory/map/gatlingMap.def"
+		}
+	}
+}

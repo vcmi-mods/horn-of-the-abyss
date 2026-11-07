@@ -1,0 +1,37 @@
+{
+	"hota.factory:factory" : {
+		"town" : {
+			"buildingsIcons" : "hota/factory/town-hall/town-hall.def",
+			"hallBackground" : "factory/town-screen/TPTHBKFC.png",
+			"buildings" : {
+				"special4" : {
+					"description" : "The Armory can provide Gatling Cannons for your army.",
+					"name" : "Armory",
+					"cost" : {
+						"gold" : 1500,
+						"wood" : 5
+					},
+					"warMachine" : "gatlingCannon",
+					"requires" : [
+						"blacksmith"
+					]
+				}
+			},
+			"structures" : {
+				"special4" : {
+					"animation" : "hota/factory/town-screen/buildings/ARMORY.json",
+					"area" : "factory/town-screen/buildings-area/TZFaSpc3",
+					"border" : "factory/town-screen/buildings-border/TOFaSpc3",
+					"x" : 205,
+					"y" : 140,
+					"z" : 2
+				}
+			},
+			"hallSlots" : {
+				"modify@2" : {
+					"insert@3" : [ "special4" ]
+				}
+			}
+		}
+	}
+}

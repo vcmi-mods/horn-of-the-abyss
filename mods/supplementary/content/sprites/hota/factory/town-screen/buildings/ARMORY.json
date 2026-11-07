@@ -1,0 +1,55 @@
+{
+	"basepath" : "hota/factory/town-screen/buildings/ARMORY/",
+	"images" : [
+		{
+			"group" : 0,
+			"frame" : 0,
+			"file" : "armory01.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 1,
+			"file" : "armory02.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 2,
+			"file" : "armory03.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 3,
+			"file" : "armory04.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 4,
+			"file" : "armory05.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 5,
+			"file" : "armory06.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 6,
+			"file" : "armory07.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 7,
+			"file" : "armory08.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 8,
+			"file" : "armory09.png"
+		},
+		{
+			"group" : 0,
+			"frame" : 9,
+			"file" : "armory10.png"
+		}
+	]
+}

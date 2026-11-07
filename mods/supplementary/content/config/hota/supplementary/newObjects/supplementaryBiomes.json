@@ -1,0 +1,40 @@
+{
+	"wastelandAnimals" : {
+		"biome" : {
+			"terrain" : "wasteland",
+			"objectType": "animal"
+		},
+		"templates" : [
+			"kang_01",
+			"kang_02",
+			"kang_04",
+			"kang_05",
+			"kang_06",
+			"quokka_01",
+			"quokka_02",
+			"quokka_03"
+		]
+	},
+	"supplementaryRuinedObjects" : {
+		"biome" : {
+			"terrain" : [
+				"dirt",
+				"lava",
+				"rough"
+			],
+			"alignment" : [
+				"evil"
+			],
+			"objectType": "other"
+		},
+		"templates" : [
+			"ruined01",
+			"ruined02",
+			"ruined03",
+			"ruined13",
+			"ruined14",
+			"ruined15",
+			"ruined16"
+		]
+	}
+}

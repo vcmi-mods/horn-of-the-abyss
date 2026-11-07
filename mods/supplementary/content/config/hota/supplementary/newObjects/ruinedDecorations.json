@@ -1,0 +1,366 @@
+{
+	"ruined01" : {
+		"handler" : "static",
+		"name" : "Ruined Portal",
+		"types" : {
+			"ruined01" : {
+				"templates" : {
+					"ruined01" : {
+						"animation" : "hota/supplementary/others/ruinedObject01.def",
+						"mask" : [
+							"V",
+							"B"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined02" : {
+		"handler" : "static",
+		"name" : "Ruined Obelisk",
+		"types" : {
+			"ruined02" : {
+				"base" : {
+					"mask" : [
+						"VV",
+						"VB"
+					],
+					"allowedTerrains" : [
+						"dirt",
+						"lava",
+						"rough"
+					]
+				},
+				"templates" : {
+					"ruined02" : {
+						"animation" : "hota/supplementary/others/ruinedObject02.def"
+					},
+					"ruined03" : {
+						"animation" : "hota/supplementary/others/ruinedObject03.def"
+					}
+				}
+			}
+		}
+	},
+	"ruined04" : {
+		"handler" : "static",
+		"name" : "Ruined Garrison",
+		"types" : {
+			"ruined04" : {
+				"templates" : {
+					"ruined04" : {
+						"animation" : "hota/supplementary/others/ruinedObject04.def",
+						"mask" : [
+							"VVVV",
+							"VBVB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined05" : {
+		"handler" : "static",
+		"name" : "Ruined Griffin Conservatory",
+		"types" : {
+			"ruined05" : {
+				"templates" : {
+					"ruined05" : {
+						"animation" : "hota/supplementary/others/ruinedObject05.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined06" : {
+		"handler" : "static",
+		"name" : "Ruined Hillfort",
+		"types" : {
+			"ruined06" : {
+				"templates" : {
+					"ruined06" : {
+						"animation" : "hota/supplementary/others/ruinedObject06.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined07" : {
+		"handler" : "static",
+		"name" : "Ruined School of Magic",
+		"types" : {
+			"ruined07" : {
+				"templates" : {
+					"ruined07" : {
+						"animation" : "hota/supplementary/others/ruinedObject07.def",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined08" : {
+		"handler" : "static",
+		"name" : "Ruined Marletto Tower",
+		"types" : {
+			"ruined08" : {
+				"templates" : {
+					"ruined08" : {
+						"animation" : "hota/supplementary/others/ruinedObject08.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined09" : {
+		"handler" : "static",
+		"name" : "Ruined Shrine",
+		"types" : {
+			"ruined09" : {
+				"templates" : {
+					"ruined09" : {
+						"animation" : "hota/supplementary/others/ruinedObject09.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined10" : {
+		"handler" : "static",
+		"name" : "Ruined Garden of Revelation",
+		"types" : {
+			"ruined10" : {
+				"templates" : {
+					"ruined10" : {
+						"animation" : "hota/supplementary/others/ruinedObject10.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined11" : {
+		"handler" : "static",
+		"name" : "Ruined Library of Enlightenment",
+		"types" : {
+			"ruined11" : {
+				"templates" : {
+					"ruined11" : {
+						"animation" : "hota/supplementary/others/ruinedObject11.def",
+						"mask" : [
+							"VBBBB",
+							"VBBBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined12" : {
+		"handler" : "static",
+		"name" : "Dead Scholar",
+		"types" : {
+			"ruined12" : {
+				"templates" : {
+					"ruined12" : {
+						"animation" : "hota/supplementary/others/ruinedObject12.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined13" : {
+		"handler" : "static",
+		"name" : "Ruined Redwood Observatory",
+		"types" : {
+			"ruined13" : {
+				"templates" : {
+					"ruined13" : {
+						"animation" : "hota/supplementary/others/ruinedObject13.def",
+						"mask" : [
+							"VV",
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined14" : {
+		"handler" : "static",
+		"name" : "Ruined Learning Stone",
+		"types" : {
+			"ruined14" : {
+				"templates" : {
+					"ruined14" : {
+						"animation" : "hota/supplementary/others/ruinedObject14.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined15" : {
+		"handler" : "static",
+		"name" : "Ruined Star Axis",
+		"types" : {
+			"ruined15" : {
+				"templates" : {
+					"ruined15" : {
+						"animation" : "hota/supplementary/others/ruinedObject15.def",
+						"mask" : [
+							"VV",
+							"VB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined16" : {
+		"handler" : "static",
+		"name" : "Dead Tree of Wisdom",
+		"types" : {
+			"ruined16" : {
+				"templates" : {
+					"ruined16" : {
+						"animation" : "hota/supplementary/others/ruinedObject16.def",
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBV"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	},
+	"ruined17" : {
+		"handler" : "static",
+		"name" : "Ruined University",
+		"types" : {
+			"ruined17" : {
+				"templates" : {
+					"ruined17" : {
+						"animation" : "hota/supplementary/others/ruinedObject17.def",
+						"mask" : [
+							"VVVVV",
+							"VBBBB",
+							"VBBBB"
+						],
+						"allowedTerrains" : [
+							"dirt",
+							"lava",
+							"rough"
+						]
+					}
+				}
+			}
+		}
+	}
+}
