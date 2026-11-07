@@ -37,24 +37,9 @@
 		"config/hota/supplementary/artifacts/newArtifacts.json",
 		"config/hota/factory/creatures/gatlingArtifact.json"
 	],
-	"biomes" : {
-		"wastelandAnimals" : {
-			"biome" : {
-				"terrain" : "wasteland",
-				"objectType": "animal"
-			},
-			"templates" : [
-				"kang_01",
-				"kang_02",
-				"kang_04",
-				"kang_05",
-				"kang_06",
-				"quokka_01",
-				"quokka_02",
-				"quokka_03"
-			]
-		}
-	},
+	"biomes" : [
+		"config/hota/supplementary/newObjects/supplementaryBiomes.json"
+	],
 	"bonuses" : [
 		"config/hota/factory/skills/gatlingCounter.json"
 	],
@@ -62,7 +47,7 @@
 		"config/hota/factory/creatures/gatlingCannonCreature.json"
 	],
 	"factions" : [
-		"config/hota/factory/town"
+		"config/hota/factory/town.json"
 	],
 	"heroes" : [
 		"config/hota/factory/heroes/08_Morton.json"
