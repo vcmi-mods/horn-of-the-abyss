@@ -11,14 +11,16 @@
 	"depends" : [
 		"hota.factory",
 		"hota.neutralCreatures",
-		"hota.wastelandTerrain"
-	],
-	"softDepends" : [
+		"hota.wastelandTerrain",
 		"hota.cannon"
 	],
 	"changelog" : {
 		"1.3.0" : [
-			"New update for Factory's war machine: Gatling Cannon"
+			"Added new war machine: Gatling Cannon. Purchasable from a new building in Factory town or at the Cannon Yard",
+			"Added new creature bank on water: Anchor Bay",
+			"Added more kangaroos and quokkas and made them spawn on RMG maps",
+			"Added destroyed objects, some of them exclusive to custom maps and a few of them spawning on random maps as well",
+			"Added a new variation of the Swan Pond for Wasteland terrain"
 		],
 		"1.2.0" : [
 			"Add new artifacts from HoMM2, which also be mentioned from HotA campaign All In"

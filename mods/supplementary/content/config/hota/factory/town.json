@@ -3,9 +3,10 @@
 		"town" : {
 			"buildingsIcons" : "hota/factory/town-hall/town-hall.def",
 			"hallBackground" : "factory/town-screen/TPTHBKFC.png",
+			"tavernVideo" : "tvrnFactory.bik",
 			"buildings" : {
 				"special4" : {
-					"description" : "The Armory can provide Gatling Cannons for your army.",
+					"description" : "The Armory provides your armies with Gatling Cannons.",
 					"name" : "Armory",
 					"cost" : {
 						"gold" : 1500,
