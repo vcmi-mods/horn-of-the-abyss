@@ -1,0 +1,24 @@
+{
+	"name" : "Disallow Cloak of the Undead King",
+	"description" : "Disables assembling of Cloak of the Undead King.",
+	"modType" : "Mechanics",
+	"author" : "HotA crew, ported by VCMI team",
+	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
+	"version" : "1.0",
+	"softDepends" : [
+		"vcmi"
+	],
+	"settings" : {
+		"artifacts" : {
+			"disabledCombinations" : [ "cloakOfTheUndeadKing" ]
+		}
+	},
+	"templates" : [
+		"config/hotaGameBalance/enableCotUK.json"
+	],
+	"settings" : {
+		"artifacts" : {
+			"disabledCombinations" : [ "cloakOfTheUndeadKing" ]
+		}
+	}
+}

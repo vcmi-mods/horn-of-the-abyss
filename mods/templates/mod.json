@@ -10,9 +10,6 @@
 	"depends" : [
 		"hota.mapobjects"
 	],
-	"softDepends" : [
-		"vcmi"
-	],
 	"changelog" : {
 		"1.0" : [
 			"Initial release",
@@ -55,9 +52,7 @@
 		"config/hotaNineDayWonder.json",
 		"config/hotaNostalgia.json",
 		"config/hotaSkirmish(M).json",
-		"config/hotaSpider.json",
-
-		"config/enabledCotUK.json"
+		"config/hotaSpider.json"
 	],
 
 	"chinese" : {

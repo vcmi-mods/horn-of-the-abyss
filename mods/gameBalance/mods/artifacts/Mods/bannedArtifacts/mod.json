@@ -1,6 +1,6 @@
 {
 	"name" : "Banned Artifacts",
-	"description" : "Bans these artifacts - Recanter's Cloak, Orb of Inhibition, Garniture of Interference, Boots of Polarity, Surcoat of Counterpoise, Sleepkeeper and Horn of the Abyss. Disables assembling of Cloak of the Undead King unless specifically enabled in the map.",
+	"description" : "Bans these artifacts - Recanter's Cloak, Orb of Inhibition, Garniture of Interference, Boots of Polarity, Surcoat of Counterpoise, Sleepkeeper and Horn of the Abyss",
 	"modType" : "Mechanics",
 	"author" : "HotA crew, ported by VCMI team",
 	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",
@@ -12,11 +12,6 @@
 	"artifacts" : [
 		"config/hotaGameBalance/artifactsDefaultBanned.json"
 	],
-	"settings" : {
-		"artifacts" : {
-			"disabledCombinations" : [ "cloakOfTheUndeadKing" ]
-		}
-	},
 	"chinese" : {
 		"name" : "禁用宝物",
 		"description" : "禁用以下宝物：禁魔披风、禁魔球、抗魔链、抗魔靴、抗魔披风、安眠塑像和深渊号角。"
