@@ -15,10 +15,5 @@
 	},
 	"templates" : [
 		"config/hotaGameBalance/enableCotUK.json"
-	],
-	"settings" : {
-		"artifacts" : {
-			"disabledCombinations" : [ "cloakOfTheUndeadKing" ]
-		}
-	}
+	]
 }
