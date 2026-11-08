@@ -21,7 +21,7 @@
 		"aiValue" : 518,
 		"advMapAmount" : {
 			"min" : 10,
-			"max" : 16
+			"max" : 20
 		},
 		"growth" : 4,
 		"abilities" : {
