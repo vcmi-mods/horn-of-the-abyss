@@ -1,0 +1,11 @@
+{
+ "core:warMachineFactory" : {
+        "types" : {
+            "cannonYard" : {
+                "creatures" : {
+					"append" : [ "gatlingCannon" ]
+				}
+            }
+        }
+    }
+}

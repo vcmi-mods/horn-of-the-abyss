@@ -1,0 +1,41 @@
+{
+	"hota.factory:08morton" : {
+		"images" : {
+			"specialtySmall" : "hota/factory/iconsSmall/skill32.png",
+			"specialtyLarge" : "hota/factory/iconsSmall/skill44.png"
+		},
+		"specialty" : {
+			"base" : {
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "PERCENT_TO_TARGET_TYPE",
+				"targetSourceType" : "CREATURE_ABILITY",
+				"updater" : {
+					"type" : "TIMES_HERO_LEVEL",
+					"stepSize" : 6
+				},
+				"limiters" : [
+					{
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "gatlingCannon"
+					}
+				]
+			},
+			"bonuses" : {
+				"gatlingCannonAttack" : {
+					"subtype" : "attack"
+				},
+				"gatlingCannonDefense" : {
+					"subtype" : "defence"
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels and those of any Gatling Cannon by 5% for every 6 levels (rounded up).",
+				"tooltip" : "Artillery Bonus: War Machines",
+				"name" : "War Machines"
+			}
+		}
+	}
+}

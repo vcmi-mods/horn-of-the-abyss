@@ -10,5 +10,8 @@
 	],
 	"artifacts" : [
 		"config/gamebalanceCompat/fangOfTheLastScream.json"
+	],
+	"heroes" : [
+		"config/gamebalanceCompat/morton.json"
 	]
 }

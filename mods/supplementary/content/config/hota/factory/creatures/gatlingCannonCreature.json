@@ -1,0 +1,207 @@
+{
+	"gatlingCannon" : {
+		"name" : {
+			"plural" : "Gatling Cannons",
+			"singular" : "Gatling Cannon"
+		},
+		"faction" : "neutral",
+		"level" : 6,
+		"aiValue" : 1637,
+		"special" : true,
+		"attack" : 15,
+		"cost" : {
+			"gold" : 2500
+		},
+		"damage" : {
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 10,
+		"fightValue" : 1360,
+		"graphics" : {
+			"animation" : "hota/factory/battle/creatures/SMGTLCN.def",
+			"iconSmall" : "hota/factory/iconsSmall/smallIcon.png",
+			"iconLarge" : "hota/factory/iconsBig/gatlingCreature.png",
+			"map" : "hota/factory/map/gatlingMap.def",
+			"timeBetweenFidgets" : 1,
+			"animationTime" : {
+				"walk" : 1.0,
+				"idle" : 10.0,
+				"attack" : 1.0
+			},
+			"missile" : {
+				"projectile" : "hota/factory/battle/creatures/SMGTLX.def",
+				"attackClimaxFrame" : 4,
+				"offset" : {
+					"lowerX" : 62,
+					"lowerY" : -93,
+					"middleX" : 62,
+					"middleY" : -93,
+					"upperX" : 62,
+					"upperY" : -93
+				},
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
+			}
+		},
+		"doubleWide" : true,
+		"growth" : 0,
+		"hitPoints" : 200,
+		"shots" : 55,
+		"sound" : {
+			"attack" : "hota/gatlingCannon/GTLCSHOT.wav",
+			"killed" : "hota/gatlingCannon/GTLCKILL.wav",
+			"shoot" : "hota/gatlingCannon/GTLCSHOT.wav",
+			"wince" : "hota/gatlingCannon/GTLCWNCE.wav",
+			"cast" : "FIREBLST"
+		},
+		"speed" : 0,
+		"abilities" : {
+			"shooter" : {
+				"type" : "SHOOTER"
+			},
+			"heroAttackDamage" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "ballistaDamage",
+				"val" : 1
+			},
+			"blocksRangedRetaliation" : {
+				"type" : "BLOCKS_RANGED_RETALIATION",
+				"hidden" : true
+			},
+			"warMachine" : {
+				"type" : "SIEGE_WEAPON",
+				"icon" : "hota/bonuses/ballista.png",
+				"description" : "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops."
+			},
+			"cpuControlled" : {
+				"type" : "CPU_CONTROLLED",
+				"hidden" : true
+			},
+			"noRetaliation" : {
+				"type" : "NO_RETALIATION",
+				"icon" : "hota/bonuses/noretaliation.png",
+				"description" : "{Cannot Retaliate}\nWar machine is unable to retaliate against attacks."
+			},
+			"castsOverload" : {
+				"type" : "SPELLCASTER",
+				"subtype" : "abilityOverload",
+				"val" : 0,
+				"hidden" : true
+			},
+			"rapidFireIcon" : {
+				"type" : "NONE",
+				"icon" : "hota/factory/icons/bonuses/gatlingShoot.png",
+				"description" : "{Rapid Fire}\nEach attack grants +1 extra attack for subsequent turns. Limit of 5 attacks."
+			},
+			"rapidFireScript" : {
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "gatlingShots"
+			}
+		},
+		"stackExperience" : [
+			{
+				"bonus" : {
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
+				},
+				"values" : [
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"subtype" : "creatureDamageBoth",
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7
+				]
+			},
+			{
+				"bonus" : {
+					"valueType" : "PERCENT_TO_BASE",
+					"type" : "STACK_HEALTH"
+				},
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
+			}
+		]
+	}
+}

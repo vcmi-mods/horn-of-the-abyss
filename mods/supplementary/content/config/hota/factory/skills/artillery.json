@@ -1,0 +1,61 @@
+{
+	"core:artillery" : {
+		"base" : {
+			"effects" : {
+				"gatlingExtra" : {
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"subtype" : "gatlingCannon",
+					"valueType" : "BASE_NUMBER"
+				},
+				"damagePowerGatling" : {
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"subtype" : "gatlingCannon",
+					"val" : 100,
+					"valueType" : "BASE_NUMBER"
+				},
+				"ctrlGatling" : {
+					"type" : "MANUAL_CONTROL",
+					"subtype" : "gatlingCannon",
+					"val" : 100,
+					"valueType" : "BASE_NUMBER"
+				},
+				"damageCapGatling" : {
+					"type" : "DAMAGE_RECEIVED_CAP",
+					"val" : 40,
+					"propagator" : "ARMY",
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "gatlingCannon"
+						}
+					],
+					"valueType" : "INDEPENDENT_MIN"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				//can control to overload
+				"gatlingExtra" : {
+					"val" : 0
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				//can control to overload and 50% double damage
+				"gatlingExtra" : {
+					"val" : 50
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				//can control to overload and 100% double damage
+				"gatlingExtra" : {
+					"val" : 100
+				}
+			}
+		}
+	}
+}
