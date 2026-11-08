@@ -5,9 +5,17 @@
 				"templates" : {
 					"swanPondWasteland" : {
 						"animation" : "hota/supplementary/others/swanWaste.def",
-						"mask" : [ "VAA" ],
-						"visitableFrom" : [ "---", "+++", "+++" ],
-						"allowedTerrains": [ "wasteland" ]
+						"mask" : [
+							"VAA"
+						],
+						"visitableFrom" : [
+							"---",
+							"+++",
+							"+++"
+						],
+						"allowedTerrains" : [
+							"wasteland"
+						]
 					}
 				}
 			}

@@ -2,13 +2,11 @@
 	"abilityOverload" : {
 		"type" : "ability",
 		"name" : "Overload",
-		"school" : {
-		},
+		"school" : {},
 		"level" : 0,
 		"power" : 0,
 		"defaultGainChance" : 0,
-		"gainChance" : {
-		},
+		"gainChance" : {},
 		"flags" : {
 			"persistent" : true,
 			"positive" : true,
@@ -26,8 +24,7 @@
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/overload.png"
 		},
-		"targetCondition" : {
-		},
+		"targetCondition" : {},
 		"targetType" : "NO_TARGET",
 		"levels" : {
 			"base" : {
@@ -58,12 +55,9 @@
 			"none" : {
 				"description" : "{Overload}\nThrough artillery control, the Gatling Cannon can be pushed to maximum power output, though this reduces the weapon's defense by 20%."
 			},
-			"basic" : {
-			},
-			"advanced" : {
-			},
-			"expert" : {
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

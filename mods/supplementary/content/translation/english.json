@@ -1,0 +1,10 @@
+{
+	"core.bonus.GATLING_COUNTER.description" : "If this is shown, it's a bug with the GATLING_COUNTER.",
+	"core.bonus.GATLING_COUNTER.description.0" : "{Rapid Fire}\nCurrent attacks: {1}",
+	"core.bonus.GATLING_COUNTER.description.1" : "{Rapid Fire}\nCurrent attacks: {2}",
+	"core.bonus.GATLING_COUNTER.description.2" : "{Rapid Fire}\nCurrent attacks: {3}",
+	"core.bonus.GATLING_COUNTER.description.3" : "{Rapid Fire}\nCurrent attacks: {4}",
+	"core.bonus.GATLING_COUNTER.description.4" : "{Rapid Fire}\nCurrent attacks: {5}",
+	"hero.hota.factory.08morton.specialty.name" : "War Machines",
+	"hero.hota.factory.08morton.specialty.tooltip" : "Artillery Bonus: War Machines"
+}

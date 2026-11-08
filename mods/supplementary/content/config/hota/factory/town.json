@@ -30,7 +30,9 @@
 			},
 			"hallSlots" : {
 				"modify@2" : {
-					"insert@3" : [ "special4" ]
+					"insert@3" : [
+						"special4"
+					]
 				}
 			}
 		}

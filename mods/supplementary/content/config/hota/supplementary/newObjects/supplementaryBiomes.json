@@ -2,7 +2,7 @@
 	"wastelandAnimals" : {
 		"biome" : {
 			"terrain" : "wasteland",
-			"objectType": "animal"
+			"objectType" : "animal"
 		},
 		"templates" : [
 			"kang_01",
@@ -25,7 +25,7 @@
 			"alignment" : [
 				"evil"
 			],
-			"objectType": "other"
+			"objectType" : "other"
 		},
 		"templates" : [
 			"ruined01",
