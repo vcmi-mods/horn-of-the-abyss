@@ -1442,6 +1442,8 @@
 	"mod.gamebalance.artifacts.description" : "Game balance created by HotA Crew for the Horn of The Abyss expansion",
 	"mod.gamebalance.artifacts.bannedartifacts.name" : "Banned Artifacts",
 	"mod.gamebalance.artifacts.bannedartifacts.description" : "Bans these artifacts - Recanter's Cloak, Orb of Inhibition, Garniture of Interference, Boots of Polarity, Surcoat of Counterpoise, Sleepkeeper and Horn of the Abyss",
+	"mod.gamebalance.artifacts.bannedcotuk.name" : "Disallow Cloak of the Undead King",
+	"mod.gamebalance.artifacts.bannedcotuk.description" : "Disables assembling of Cloak of the Undead King.",
 	"mod.gamebalance.creatures.name" : "Creatures",
 	"mod.gamebalance.factions.name" : "Factions",
 	"mod.gamebalance.heroes.name" : "Heroes",

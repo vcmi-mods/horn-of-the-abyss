@@ -10,7 +10,9 @@
 	],
 	"settings" : {
 		"artifacts" : {
-			"disabledCombinations" : [ "cloakOfTheUndeadKing" ]
+			"disabledCombinations" : [
+				"cloakOfTheUndeadKing"
+			]
 		}
 	},
 	"templates" : [
