@@ -83,18 +83,17 @@
 			},
 			"warMachine" : {
 				"type" : "SIEGE_WEAPON",
-				"icon" : "hota/factory/icons/bonuses/ballista.png",
-				"description" : "{War Machine}\nA weapon that fires ammunition at enemy forces"
+				"icon" : "hota/bonuses/ballista.png",
+				"description" : "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops."
 			},
 			"cpuControlled" : {
 				"type" : "CPU_CONTROLLED",
 				"hidden" : true
 			},
 			"noRetaliation" : {
-				"val" : 0,
 				"type" : "NO_RETALIATION",
-				"icon" : "hota/factory/icons/bonuses/noretaliation.png",
-				"description" : "{War Machine}\nThe war machine is unable to strike back against the attack."
+				"icon" : "hota/bonuses/noretaliation.png",
+				"description" : "{Cannot Retaliate}\nWar machine is unable to retaliate against attacks."
 			},
 			"castsOverload" : {
 				"type" : "SPELLCASTER",
