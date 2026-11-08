@@ -13,6 +13,7 @@
 		"1.8.100" : [
 			"Many translations were updated and are now much more complete",
 			"Implemented Diplomat's Cloak and Horn of the Abyss artifacts, fixed Ring of Oblivion",
+			"Disallowed assembly of Cloak of the Undead King by default (can be re-enabled in the Game Balance -> Artifacts section)",
 			"Implemented Temple of Loyalty and Warlock's Lab map objects",
 			"All hero specialties are now working properly (including Eovacius' Clone and Coronius' Slayer specialties)",
 			"Luck now doubles or halves (Bad Luck) the total attack damage instead of just doubling/halving base damage",
