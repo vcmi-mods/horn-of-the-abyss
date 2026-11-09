@@ -25,7 +25,8 @@
 	"obstacles" : [
 		"config/crackedIce/obstacles.json",
 		"config/dunes/obstacles.json",
-		"config/fieldsOfGlory/obstacles.json"
+		"config/fieldsOfGlory/obstacles.json",
+		"config/vanillaExtensions/cursedGround.json"
 	],
 	"spells" : [
 		"config/dunes/dunesQuicksand.json"
