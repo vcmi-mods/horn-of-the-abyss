@@ -1793,5 +1793,22 @@
 	"map.[hota] invasion.quest.1.62.0.nextVisit": "Das reicht nicht! Ich brauche 20.000 Gold, nicht weniger!",
 	"map.[hota] invasion.quest.28.47.0.completed": "Als der Jotunn von deinem Sieg erfährt, erklärt er sofort, dass er deine eigenen Jotunn kostenlos ausbilden wird.",
 	"map.[hota] invasion.quest.28.47.0.firstVisit": "Der auf dieser Insel lebende Jotunn beklagt sich über seine Erzfeinde, die Minotauren, die eine Nachbarinsel erobert haben und ihn ständig mit ungebetenen Besuchen belästigen. Der Riese erklärt sich bereit, dir bei der Ausbildung deiner eigenen Jotunns zu helfen, wenn du dich um diese gehörnten Bestien kümmerst.",
-	"map.[hota] invasion.quest.28.47.0.nextVisit": "Der Jotunn behauptet, er höre nachts immer noch das Gebrüll der Minotauren und weigert sich, dir zu helfen."
+	"map.[hota] invasion.quest.28.47.0.nextVisit": "Der Jotunn behauptet, er höre nachts immer noch das Gebrüll der Minotauren und weigert sich, dir zu helfen.",
+	"map.[hota] ice assault.guards.99.2.1.message": "",
+	"map.[hota] ice assault.quest.40.46.0.nextVisit": "",
+	"map.[hota] ice assault.guards.64.83.0.message": "",
+	"map.[hota] ice assault.guards.60.79.0.message": "",
+	"map.[hota] ice assault.guards.34.83.0.message": "",
+	"map.[hota] ice assault.guards.42.66.0.message": "",
+	"map.[hota] ice assault.guards.93.2.1.message": "",
+	"map.[hota] ice assault.guards.28.79.0.message": "",
+	"map.[hota] ice assault.quest.40.46.0.firstVisit": "",
+	"map.[hota] ice assault.guards.56.70.0.message": "",
+	"map.[hota] ice assault.guards.99.4.1.message": "",
+	"map.[hota] ice assault.guards.63.64.0.message": "",
+	"map.[hota] ice assault.guards.57.81.0.message": "",
+	"map.[hota] ice assault.quest.40.46.0.completed": "",
+	"map.[hota] ice assault.guards.64.2.0.message": "",
+	"map.[hota] ice assault.guards.34.71.0.message": "",
+	"map.[hota] ice assault.guards.44.75.0.message": ""
 }
