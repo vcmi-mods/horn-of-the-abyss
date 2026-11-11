@@ -1,1 +1,4 @@
-{}
+{
+	"creatures.hota.cove.seadog.bonus.accurateShotFullRange": "{Точный выстрел на любой дистанции}\nДаёт 3% шанс мгновенно убить одно живое существо.",
+	"creatures.hota.cove.seadog.bonus.accurateShotHalfRange": "{Точный выстрел со средней дистанции}\nС вероятностью 2% мгновенно убивает одно живое существо."
+}

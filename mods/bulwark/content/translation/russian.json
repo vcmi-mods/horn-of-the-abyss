@@ -1,1 +1,24 @@
-{}
+{
+	"core.bonus.RUNE_LEVEL_COUNTER.description": "Если вы видите это, значит в RUNE_LEVEL_COUNTER есть баг.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.0": "Этот отряд получает уровни Рун во время боя.",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.1": "Бонус 1-го уровня руны:\n+2 к Атаке",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.2": "Бонусы руны 2-го уровня:\n+2 к Атаке\n+2 к Защите",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.3": "Бонусы руны 3-го уровня:\n+2 к Атаке\n+2 к Защите\n+1 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.4": "Бонусы руны 4-го уровня:\n+4 к Атаке\n+2 к Защите\n+1 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.5": "Бонусы руны 5-го уровня:\n+4 к Атаке\n+4 к Защите\n+1 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.6": "Бонусы руны 6-го уровня:\n+4 к Атаке\n+4 к Защите\n+2 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.7": "Бонусы руны 7-го уровня:\n+6 к Атаке\n+4 к Защите\n+2 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.8": "Бонусы руны 8-го уровня:\n+6 к Атаке\n+6 к Защите\n+2 к Скорости",
+	"core.bonus.RUNE_LEVEL_COUNTER.description.9": "Бонусы руны 9-го уровня:\n+6 к Атаке\n+6 к Защите\n+3 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description": "Если вы видите это, значит в YETI_RUNE_LEVEL_COUNTER есть баг.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.0": "Мастер Рун получает уровни Рун во время битвы.",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.1": "Бонус 1-го уровня руны:\n+2 к Атаке",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.2": "Бонусы руны 2-го уровня:\n+2 к Атаке\n+2 к Защите",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.3": "Бонусы руны 3-го уровня:\n+2 к Атаке\n+2 к Защите\n+1 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.4": "Бонусы руны 4-го уровня:\n+4 к Атаке\n+2 к Защите\n+1 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.5": "Бонусы руны 5-го уровня:\n+4 к Атаке\n+4 к Защите\n+1 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.6": "Бонусы руны 6-го уровня:\n+4 к Атаке\n+4 к Защите\n+2 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.7": "Бонусы руны 7-го уровня:\n+6 к Атаке\n+4 к Защите\n+2 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.8": "Бонусы руны 8-го уровня:\n+6 к Атаке\n+6 к Защите\n+2 к Скорости",
+	"core.bonus.YETI_RUNE_LEVEL_COUNTER.description.9": "Бонусы руны 9-го уровня:\n+6 к Атаке\n+6 к Защите\n+3 к Скорости"
+}
