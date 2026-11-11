@@ -71,9 +71,9 @@
 			"translation/vietnamese.json"
 		]
 	},
-	"tchinese" : {
+	"russian" : {
 		"translations" : [
-			"translation/tchinese.json"
+			"translation/russian.json"
 		]
 	}
 }

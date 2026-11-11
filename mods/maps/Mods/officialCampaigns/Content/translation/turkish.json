@@ -2483,5 +2483,14 @@
 	"map.h5allin:4.sign.71.66.1.message": "Kampanyamıza katıldığınız için teşekkür ederiz! Umarız keyif almışsınızdır.",
 	"map.h5allin:4.town.15.17.0.name": "Marteena",
 	"map.h5allin:4.town.25.51.0.name": "Toothfang",
-	"map.h5allin:4.town.63.14.0.name": "Boşluk"
+	"map.h5allin:4.town.63.14.0.name": "Boşluk",
+	"map.h4fact:3.quest.164.30.1.completed": "",
+	"map.h4fact:3.quest.140.8.1.completed": "",
+	"campaign.h1roger.name": "",
+	"map.h4fact:2.quest.26.16.0.completed": "",
+	"map.h4fact:3.quest.145.8.1.completed": "",
+	"map.h4fact:3.quest.127.32.1.completed": "",
+	"map.h4fact:2.quest.64.3.0.nextVisit": "",
+	"map.h4fact:2.quest.73.47.0.completed": "",
+	"map.h4fact:4.quest.49.40.0.completed": ""
 }

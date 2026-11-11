@@ -1804,5 +1804,11 @@
 	"map.[hota] with sword and fire.event.0.description": "Elinde altın ya da kaynak yok.",
 	"map.[hota] with sword and fire.header.description": "Kyrre gibi efsanevi bir orman bekçisinin bile orman labirentinden çıkış yolunu bulamadığı bir gün gelir. Üstüne üstlük, orman tuzaklar ve bilmecelerle doludur. Elflerin ağaçlara zarar vermeye gönlü el vermediğine göre, Kyrre başka birini kesip yakmak zorunda kalacaktır.",
 	"map.[hota] with sword and fire.header.name": "Kılıç ve Ateşle",
-	"map.[hota] with sword and fire.monster.11.2.0.message": "Bu çizginin ötesinde Pixies yok."
+	"map.[hota] with sword and fire.monster.11.2.0.message": "Bu çizginin ötesinde Pixies yok.",
+	"map.[hota] a new day tomorrow.quest.128.81.1.nextVisit": "",
+	"map.[hota] a new day tomorrow.quest.138.101.1.firstVisit": "",
+	"map.[hota] a new day tomorrow.quest.128.81.1.firstVisit": "",
+	"map.[hota] challenge.sign.19.17.1.message": "",
+	"map.[hota] headhunting.event.0.description": "",
+	"map.[hota] a new day tomorrow.quest.138.101.1.nextVisit": ""
 }
