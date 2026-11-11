@@ -814,7 +814,7 @@
 	"hero.hota.factory.14bertram.specialty.tooltip" : "Resource Bonus: Gold",
 	"hero.hota.factory.15wrathmont.biography" : "Wrathmont's volatile temper got him into countless problems in his life, most notably during the carve-up of Archibald Ironfist's estate, when former colleagues banded together against the warlock, weary of his tantrums. Barely escaping them, Wrathmont fled Enroth. He spent years searching for and studying old stone tablets, learning to control his fury and stoke it in others instead.",
 	"hero.hota.factory.15wrathmont.name" : "Wrathmont",
-	"hero.hota.factory.15wrathmont.specialty.description" : "Casts Frenzy with effect increased by 3% for every N hero levels, where N is the level of the targeted creature.",
+	"hero.hota.factory.15wrathmont.specialty.description" : "Casts Frenzy with Attack bonus increased by 3% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.hota.factory.15wrathmont.specialty.name" : "Frenzy",
 	"hero.hota.factory.15wrathmont.specialty.tooltip" : "Spell Bonus: Frenzy",
 	"hero.hota.factory.16ziph.biography" : "Ziph had long served as a maid to an old mage who looked down on her and her kin. The wizard had no idea that \"ziph\" meant \"freedom\" in Gremlish, much less did he suspect that she was listening in on his lectures. One day, Ziph crammed half of her master's lab into a magic bag, hid in a ship's hold, and fled Bracada for good.",

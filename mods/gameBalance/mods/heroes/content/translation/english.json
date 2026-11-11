@@ -142,7 +142,7 @@
 	"hero.hota.factory.11celestine.specialty.description" : "Increases the Speed of any Armadillos or Bellwether Armadillos by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up).",
 	"hero.hota.factory.12todd.specialty.description" : "Increases the Speed of any Automatons or Sentinel Automatons by 1 and their Attack and Defense skills by 20% for every 4 levels (rounded up).",
 	"hero.hota.factory.13agar.specialty.description" : "Increases the Speed of any Sandworms or Olgoi-Khorkhoi by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up).",
-	"hero.hota.factory.15wrathmont.specialty.description" : "Casts Frenzy with effect increased by 10% for every N hero levels, where N is the level of the targeted creature.",
+	"hero.hota.factory.15wrathmont.specialty.description" : "Casts Frenzy with Attack bonus increased by 10% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.hota.factory.16ziph.specialty.description" : "Casts Lightning Bolt with Damage increased by 10% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.hota.factory.17victoria.specialty.description" : "Casts Land Mine with Damage increased by 10% for every N hero levels, where N is the level of the targeted creature.",
 	"hero.hota.factory.18eanswythe.specialty.description" : "Casts Weakness with effect increased by 4 for level 1–2 creatures, by 6 for level 3–4 creatures, by 8 for level 5–6 creatures, and by 10 for level 7 creatures.",
