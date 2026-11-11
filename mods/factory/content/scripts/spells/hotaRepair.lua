@@ -12,7 +12,12 @@ function Script:isValidTarget(mechanics, unit)
 	local allowDead = level ~= ENUM.HealLevel.heal
 	if not unit:isValidTarget(allowDead) then return false end
 
-	local injuries = unit:getTotalHealth() - unit:getAvailableHealth()
+	local injuries
+	if allowDead then
+		injuries = unit:getTotalHealth() - unit:getAvailableHealth()
+	else
+		injuries = unit:getMaxHealth() - unit:getFirstHPleft()
+	end
 	if injuries <= 0 then return false end
 
 	if unit:isDead() then
@@ -23,6 +28,7 @@ function Script:isValidTarget(mechanics, unit)
 				return other ~= unit and other:isValidTarget(false) and other:coversPos(hex)
 			end)
 			if #blockers > 0 then return false end
+			if #mechanics:getBattle():getObstaclesOnPos(hex, true) > 0 then return false end
 		end
 	end
 
