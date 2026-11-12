@@ -44,6 +44,31 @@
 			"config/polish/spellDescriptions.json"
 		]
 	},
+	"russian" : {
+		"translations" : [
+			"config/russian/artifactDescriptions.json",
+			"config/russian/gameTextChanges.json",
+			"config/russian/spellDescriptions.json"
+		]
+	},
+	"ukrainian" : {
+		"translations" : [
+			"config/ukrainian/artifactDescriptions.json",
+			"config/ukrainian/gameTextChanges.json",
+			"config/ukrainian/heroTexts.json",
+			"config/ukrainian/objectDescriptions.json",
+			"config/ukrainian/spellDescriptions.json"
+		]
+	},
+	"vietnamese" : {
+		"translations" : [
+			"config/vietnamese/artifactDescriptions.json",
+			"config/vietnamese/gameTextChanges.json",
+			"config/vietnamese/heroTexts.json",
+			"config/vietnamese/objectDescriptions.json",
+			"config/vietnamese/spellDescriptions.json"
+		]
+	},
 	"chinese" : {
 		"name" : "英文文本润色",
 		"description" : "将游戏内法术、地图物体和宝物的英文描述修改为深渊号角所使用的版本（仅在语言为英文时生效）。"
