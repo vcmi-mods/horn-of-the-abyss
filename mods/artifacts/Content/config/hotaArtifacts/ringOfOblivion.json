@@ -12,10 +12,22 @@
 				"propagator" : "BATTLE_WIDE",
 				"hidden" : true
 			},
-			"denyResurrections" : {
+			"denyRevivingSpells" : {
 				"type" : "HOTA_RING_OF_OBLIVION",
 				"propagator" : "BATTLE_WIDE",
 				"hidden" : true
+			},
+			"suppressRebirth" : {
+				"type" : "REBIRTH_SPENT",
+				"val" : 1,
+				"propagator" : "BATTLE_WIDE",
+				"limiters" : [
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "COMBAT_EVENT_TRIGGER",
+						"bonusSubtype" : "rebirth"
+					}
+				]
 			}
 		},
 		"graphics" : {
