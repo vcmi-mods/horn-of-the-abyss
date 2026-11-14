@@ -89,7 +89,7 @@
 			"selfLuck" : {
 				"type" : "LUCK",
 				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+				"valueType" : "AT_LEAST"
 			}
 		}
 	}

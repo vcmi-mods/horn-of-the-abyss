@@ -22,14 +22,11 @@
 				"damageCapGatling" : {
 					"type" : "DAMAGE_RECEIVED_CAP",
 					"val" : 40,
-					"propagator" : "ARMY",
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "gatlingCannon"
-						}
-					],
-					"valueType" : "INDEPENDENT_MIN"
+					"valueType" : "AT_MOST",
+					"limiters" : {
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "gatlingCannon"
+					}
 				}
 			}
 		},
