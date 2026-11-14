@@ -31,7 +31,7 @@ from typing import Optional
 # descending so e.g. "tchinese" wins over "chinese".
 LANGUAGES = [
     "belarusian", "bulgarian", "czech", "chinese", "tchinese", "dutch",
-    "english", "filipino", "finnish", "french", "german", "greek",
+    "english", "faroese", "filipino", "finnish", "french", "german", "greek",
     "hungarian", "italian", "japanese", "korean", "latvian", "lithuanian",
     "norwegian",
     "polish", "portuguese", "romanian", "russian", "serbian", "spanish",
