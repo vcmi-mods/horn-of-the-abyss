@@ -5,6 +5,7 @@
 	"core.bonus.GATLING_COUNTER.description.2" : "{Rapid Fire}\nCurrent attacks: {3}",
 	"core.bonus.GATLING_COUNTER.description.3" : "{Rapid Fire}\nCurrent attacks: {4}",
 	"core.bonus.GATLING_COUNTER.description.4" : "{Rapid Fire}\nCurrent attacks: {5}",
+	"hero.hota.factory.08morton.specialty.description" : "Increases the Attack and Defense skills of any Ballista by 5% for every 5 levels and those of any Gatling Cannon by 5% for every 6 levels (rounded up).",
 	"hero.hota.factory.08morton.specialty.name" : "War Machines",
 	"hero.hota.factory.08morton.specialty.tooltip" : "Artillery Bonus: War Machines"
 }
