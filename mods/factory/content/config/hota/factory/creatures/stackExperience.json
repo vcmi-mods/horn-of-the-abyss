@@ -116,7 +116,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
@@ -1284,7 +1284,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
@@ -1457,7 +1457,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},

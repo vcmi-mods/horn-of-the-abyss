@@ -7,25 +7,20 @@
 			"effects" : {
 				"damageCap" : {
 					"type" : "DAMAGE_RECEIVED_CAP",
-					"propagator" : "ARMY",
-					"limiters" : [
-						{
-							"type" : "CREATURE_TYPE_LIMITER",
-							"creature" : "firstAidTent"
-						}
-					],
-					"valueType" : "INDEPENDENT_MIN",
-					"val" : 40
+					"val" : 40,
+					"valueType" : "AT_MOST",
+					"limiters" : {
+						"type" : "CREATURE_TYPE_LIMITER",
+						"creature" : "firstAidTent"
+					}
 				},
 				"stackhp" : {
 					"type" : "STACK_HEALTH",
 					"valueType" : "PERCENT_TO_BASE",
-					"limiters" : [
-						{
-							"type" : "HAS_ANOTHER_BONUS_LIMITER",
-							"bonusType" : "FIRST_AID_AVAILABLE"
-						}
-					]
+					"limiters" : {
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "FIRST_AID_AVAILABLE"
+					}
 				}
 			}
 		},

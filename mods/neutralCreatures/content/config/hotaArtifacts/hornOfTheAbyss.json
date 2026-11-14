@@ -33,7 +33,7 @@
 			},
 			"suppressNecromancy" : {
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
-				"valueType" : "INDEPENDENT_MIN",
+				"valueType" : "AT_MOST",
 				"val" : 0
 			},
 			"suppressRebirth" : {

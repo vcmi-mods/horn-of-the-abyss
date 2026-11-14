@@ -87,13 +87,13 @@
 				//	{
 				//		"type" : "WATER_WALKING",
 				//		"val" : 0,
-				//		"valueType" : "INDEPENDENT_MIN",
+				//		"valueType" : "AT_MOST",
 				//		"propagator" : "HERO"
 				//	},
 				//	{
 				//		"type" : "FLYING_MOVEMENT",
 				//		"val" : 0,
-				//		"valueType" : "INDEPENDENT_MIN",
+				//		"valueType" : "AT_MOST",
 				//		"propagator" : "HERO"
 				//	},
 				//	{
