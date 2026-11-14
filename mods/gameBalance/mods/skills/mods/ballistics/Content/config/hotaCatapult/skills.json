@@ -5,7 +5,7 @@
 				"damageCap" : {
 					"type" : "DAMAGE_RECEIVED_CAP",
 					"val" : 40,
-					"valueType" : "AT_MOST"
+					"valueType" : "AT_MOST",
 					"limiters" : {
 						"type" : "CREATURE_TYPE_LIMITER",
 						"creature" : "catapult"
