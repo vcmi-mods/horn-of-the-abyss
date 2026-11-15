@@ -42,16 +42,26 @@
 			"script" : "combat/hornEffect",
 			"patches" : [],
 			"priority" : 0,
-			"stringRegistrations" : [ "messageSingular", "messagePlural" ],
+			"stringRegistrations" : [
+				"messageSingular",
+				"messagePlural"
+			],
 			"schema" : {
-				"required" : ["messageSingular", "messagePlural"],
+				"required" : [
+					"messageSingular",
+					"messagePlural"
+				],
 				"properties" : {
 					"raisedCreature" : {
 						"type" : "string",
 						"entity" : "creature"
 					},
-					"messageSingular" : { "type" : "string" },
-					"messagePlural" : { "type" : "string" }
+					"messageSingular" : {
+						"type" : "string"
+					},
+					"messagePlural" : {
+						"type" : "string"
+					}
 				},
 				"additionalProperties" : false
 			},

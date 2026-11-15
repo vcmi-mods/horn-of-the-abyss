@@ -71,6 +71,8 @@
 	"artifact.hota.cannon.cannon.description" : "{Cannon}\n\nUse this war machine to target your enemy troops and fortifications in combat.",
 	"artifact.hota.cannon.cannon.event" : "Lucky you, you've found a shiny and unused cannon :)",
 	"artifact.hota.cannon.cannon.name" : "Cannon",
+	"artifact.hota.neutralcreatures.hornOfTheAbyss.bonus.hornEffect.messagePlural" : "Sea spirits approach, drawn by the Horn's call. %d %s join the bearer's army.",
+	"artifact.hota.neutralcreatures.hornOfTheAbyss.bonus.hornEffect.messageSingular" : "Sea spirit approaches, drawn by the Horn's call. A %s joins the bearer's army.",
 	"artifact.hota.neutralcreatures.hornOfTheAbyss.description" : "{Horn of the Abyss}\n\nAfter a stack of living creatures is slain, a stack of Fangarms will rise in their stead and will stay loyal to the hero after the battle concludes. Total Hit Points of this stack will be equal to half of the slain stack's total Hit Points, but quantity of the Fangarms summoned thus should not exceed half of quantity of creatures in the slain stack. Slaying Fangarms will not trigger the Horn effect.",
 	"artifact.hota.neutralcreatures.hornOfTheAbyss.event" : "This waterfall sounds and looks exactly like a waterfall should. On closer inspection, though, you are amazed to find out the flow is headed upwards. You wonder what it took for such an impressive phenomenon to come into being. Surely a powerful artifact has to be in play? And indeed, an ornate horn is soon found levitating above the crest.",
 	"artifact.hota.neutralcreatures.hornOfTheAbyss.name" : "Horn of the Abyss",
