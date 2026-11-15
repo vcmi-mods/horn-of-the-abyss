@@ -51,35 +51,44 @@ function Script:getHealthChange(mechanics, spellTarget)
 	return result
 end
 
+function Script:emitBattleLog(server, battle, caster, target, healedHP, resurrected)
+	if not caster or healedHP <= 0 then return end
+	local casterCount = caster:getCount()
+	local targetName = target:getCreature():getNameTextID(target:getBaseAmount())
+
+	server:appendLog(battle, {
+		append = { casterCount == 1 and self.messageSingular or self.messagePlural },
+		replaceStrings = {
+			caster:getCreature():getNameTextID(casterCount),
+			targetName
+		},
+		replaceNumbers = { healedHP }
+	})
+
+	if resurrected > 0 then
+		server:appendLog(battle, {
+			append         = { resurrected == 1 and self.messageResurrectSingular or self.messageResurrectPlural },
+			replaceStrings = { targetName },
+			replaceNumbers = { resurrected }
+		})
+	end
+end
+
 --- Heals the target unit and emits battle log messages.
 function Script:apply(mechanics, server, target)
 	local battle       = mechanics:getBattle()
-	local isUnitCaster = mechanics:getHeroCaster() == nil
-
 	local unit = target[1].unit
+
 	if unit then
 		local healedHP, resurrected = server:healUnit(
-			battle, unit, mechanics:applySpellBonus(mechanics:getEffectValue(), unit), self:getHealLevel(unit), ENUM.HealPower.permanent)
+			battle,
+			unit,
+			mechanics:applySpellBonus(mechanics:getEffectValue(), unit),
+			self:getHealLevel(unit),
+			ENUM.HealPower.permanent
+		)
 
-		if resurrected > 0 then
-			local textID = resurrected == 1 and "core.genrltxt.117" or "core.genrltxt.116"
-			local nameTextID = unit:getCreature():getNameTextID(unit:getCount())
-			server:appendLog(battle, {
-				append         = { textID },
-				replaceStrings = { nameTextID },
-				replaceNumbers = { resurrected }
-			})
-		elseif healedHP > 0 and isUnitCaster then
-			local casterUnit = mechanics:getUnitCaster()
-			server:appendLog(battle, {
-				append         = { "core.genrltxt.414" },
-				replaceStrings = {
-					casterUnit:getCreature():getNameTextID(1),
-					unit:getCreature():getNameTextID(1)
-				},
-				replaceNumbers = { healedHP }
-			})
-		end
+		self:emitBattleLog(server, battle, mechanics:getUnitCaster(), unit, healedHP, resurrected)
 	end
 end
 

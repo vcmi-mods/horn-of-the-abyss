@@ -16,9 +16,14 @@
 	"artifacts" : [
 		"config/hota/factory/artifacts/factoryPendantOfNegativity.json"
 	],
-	"bonuses" : [
-		"config/hota/factory/spells/abilityBonusTypes.json"
-	],
+	"bonuses" : {
+		"AUTOMATON_EXPLOSION_DAMAGE" : {
+			"graphics" : {
+				"icon" : "hota/factory/bonusIcons/automatonExplosion"
+			},
+			"description" : "{High Explosives}\nThis unit deals +${val}% Damage when it detonates."
+		}
+	},
 	"creatures" : [
 		"config/hota/factory/creatures/armadillo.json",
 		"config/hota/factory/creatures/automaton.json",
