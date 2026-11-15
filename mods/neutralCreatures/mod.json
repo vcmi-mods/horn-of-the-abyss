@@ -23,11 +23,7 @@
 	],
 	"bonuses" : {
 		"HORN_OF_THE_ABYSS" : {
-			"hidden" : false,
-			"valueDescriptions" : {
-				"0" : "Sea spirit approaches, drawn by the Horn's call. A %s joins the bearer's army.",
-				"1" : "Sea spirits approach, drawn by the Horn's call. %d %s join the bearer's army."
-			}
+			"hidden" : true
 		}
 	},
 	"creatures" : [
@@ -46,12 +42,16 @@
 			"script" : "combat/hornEffect",
 			"patches" : [],
 			"priority" : 0,
+			"stringRegistrations" : [ "messageSingular", "messagePlural" ],
 			"schema" : {
+				"required" : ["messageSingular", "messagePlural"],
 				"properties" : {
 					"raisedCreature" : {
 						"type" : "string",
 						"entity" : "creature"
-					}
+					},
+					"messageSingular" : { "type" : "string" },
+					"messagePlural" : { "type" : "string" }
 				},
 				"additionalProperties" : false
 			},

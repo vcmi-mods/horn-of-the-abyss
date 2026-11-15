@@ -53,12 +53,10 @@ function Script:emitBattleLog(server, battle, raisedStack)
 	local count = raisedStack.count
 	if count <= 0 then return end
 
-	local textID = count == 1 and "core.bonus.HORN_OF_THE_ABYSS.description.0" or "core.bonus.HORN_OF_THE_ABYSS.description.1"
-	local nameTextID = raisedStack.type:getNameTextID(count)
 	server:appendLog(battle, {
-		append         = { textID },
+		append         = { count == 1 and self.messageSingular or self.messagePlural },
 		replaceNumbers = { count },
-		replaceStrings = { nameTextID }
+		replaceStrings = { raisedStack.type:getNameTextID(count) }
 	})
 end
 
