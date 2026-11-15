@@ -56,21 +56,29 @@
 			"messageSingular",
 			"messagePlural",
 			"messageResurrectSingular",
-			"messageResurrectPlural",
+			"messageResurrectPlural"
 		],
 		"schema" : {
 			"required" : [
 				"messageSingular",
 				"messagePlural",
 				"messageResurrectSingular",
-				"messageResurrectPlural",
+				"messageResurrectPlural"
 			],
 			"properties" : {
 				"type" : {},
-				"messageSingular" : { "type" : "string" },
-				"messagePlural" : { "type" : "string" },
-				"messageResurrectSingular" : { "type" : "string" },
-				"messageResurrectPlural" : { "type" : "string" }
+				"messageSingular" : {
+					"type" : "string"
+				},
+				"messagePlural" : {
+					"type" : "string"
+				},
+				"messageResurrectSingular" : {
+					"type" : "string"
+				},
+				"messageResurrectPlural" : {
+					"type" : "string"
+				}
 			},
 			"additionalProperties" : false
 		}
