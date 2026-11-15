@@ -17,7 +17,9 @@
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "hornEffect",
 				"addInfo" : {
-					"raisedCreature" : "fangarm"
+					"raisedCreature" : "fangarm",
+					"messageSingular" : "Sea spirit approaches, drawn by the Horn's call. A %s joins the bearer's army.",
+					"messagePlural" : "Sea spirits approach, drawn by the Horn's call. %d %s join the bearer's army."
 				},
 				"propagator" : "BATTLE_WIDE",
 				"limiters" : [
@@ -28,8 +30,7 @@
 				]
 			},
 			"tagAllies" : {
-				"type" : "HORN_OF_THE_ABYSS",
-				"hidden" : true
+				"type" : "HORN_OF_THE_ABYSS"
 			},
 			"suppressNecromancy" : {
 				"type" : "UNDEAD_RAISE_PERCENTAGE",
