@@ -44,7 +44,11 @@
 				"power" : 0,
 				"battleEffects" : {
 					"heal" : {
-						"type" : "hotaRepair"
+						"type" : "hotaRepair",
+						"messageSingular" : "The %s repairs %d hit points of %s.",
+						"messagePlural" : "The %s repair %d hit points of %s.",
+						"messageResurrectSingular" : "%d %s is restored!",
+						"messageResurrectPlural" : "%d %s are restored!"
 					},
 					"cure" : {
 						"type" : "dispel",

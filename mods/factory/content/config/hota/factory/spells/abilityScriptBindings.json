@@ -52,11 +52,25 @@
 		"implements" : "spellEffect",
 		"script" : "spells/hotaRepair",
 		"patches" : [],
+		"stringRegistrations" : [
+			"messageSingular",
+			"messagePlural",
+			"messageResurrectSingular",
+			"messageResurrectPlural",
+		],
 		"schema" : {
+			"required" : [
+				"messageSingular",
+				"messagePlural",
+				"messageResurrectSingular",
+				"messageResurrectPlural",
+			],
 			"properties" : {
 				"type" : {},
-				"indirect" : {},
-				"optional" : {}
+				"messageSingular" : { "type" : "string" },
+				"messagePlural" : { "type" : "string" },
+				"messageResurrectSingular" : { "type" : "string" },
+				"messageResurrectPlural" : { "type" : "string" }
 			},
 			"additionalProperties" : false
 		}
