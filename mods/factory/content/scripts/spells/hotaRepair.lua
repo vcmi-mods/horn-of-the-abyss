@@ -54,13 +54,13 @@ end
 function Script:emitBattleLog(server, battle, caster, target, healedHP, resurrected)
 	if not caster or healedHP <= 0 then return end
 	local casterCount = caster:getCount()
-	local targetName = target:getCreature():getNameTextID(target:getBaseAmount())
+	local targetCreature = target:getCreature()
 
 	server:appendLog(battle, {
 		append = { casterCount == 1 and self.messageSingular or self.messagePlural },
 		replaceStrings = {
 			caster:getCreature():getNameTextID(casterCount),
-			targetName
+			targetCreature:getNameTextID(target:getBaseAmount())
 		},
 		replaceNumbers = { healedHP }
 	})
@@ -68,7 +68,7 @@ function Script:emitBattleLog(server, battle, caster, target, healedHP, resurrec
 	if resurrected > 0 then
 		server:appendLog(battle, {
 			append         = { resurrected == 1 and self.messageResurrectSingular or self.messageResurrectPlural },
-			replaceStrings = { targetName },
+			replaceStrings = { targetCreature:getNameTextID(resurrected) },
 			replaceNumbers = { resurrected }
 		})
 	end
