@@ -162,7 +162,7 @@ function Script:apply(mechanics, server, target)
 	local caster = mechanics:getUnitCaster()
 	local count = caster:getCount()
 	local baseDamMin = caster:getMinDamage(false) * count
-	local baseMaxDam = caster:getMaxDamage(false) * count
+	local baseDamMax = caster:getMaxDamage(false) * count
 	local attack = caster:getAttack(false)
 	local totalDamage, totalKilled = 0, 0
 	-- Use effective luck after caps and unit exclusions.
@@ -171,14 +171,24 @@ function Script:apply(mechanics, server, target)
 	-- Negative luck uses twice as many rolls.
 	local luckDice = isUnluck and -luck * 2 or luck
 
+    --- Fix potentially swapped damage due to mods
+	if baseDamMin > baseDamMax then
+		print("minimum damage is bigger than maximum damage!")
+		baseDamMin, baseDamMax = baseDamMax, baseDamMin
+	end
+
 	-- TODO: Replace this approximation when the engine exposes creature attack damage calculation.
 	for _, dest in ipairs(target) do
 		local unit = dest.unit
 		if unit then
-			local damage = server:rngInt(baseDamMin, baseMaxDam) --- note: not quite correct mechanics-wise, but fine for temporary
+			--- note: not quite correct mechanics-wise, but fine for temporary
 			local defense = unit:getDefense(false)
 			local add = attack - defense
-			damage = damage * (add > 0 and math.min(1 + add * 0.05, 4.0) or math.max(1 + add * 0.025, 0.3))
+			local factor = (add > 0) and math.min(1 + add * 0.05, 4.0) or math.max(1 + add * 0.025, 0.3)
+			local scaledMin = math.floor(baseDamMin * factor)
+			local scaledMax = math.floor(baseDamMax * factor)
+			local damage = server:rngInt(scaledMin, scaledMax)
+
 			if rollForLuck(server, luckDice) then
 				damage = isUnluck and math.floor(damage * 0.5) or math.floor(damage * 2)
 			end
