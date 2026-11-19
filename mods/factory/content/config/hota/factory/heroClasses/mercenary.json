@@ -77,7 +77,9 @@
 			"intelligence" : 2,
 			"sorcery" : 2,
 			"resistance" : 4,
-			"firstAid" : 3
+			"firstAid" : 3,
+			"hota.interference:interference" : 4,
+			"hota.bulwark:runes" : 0
 		},
 		"tavern" : {
 			"castle" : 4,

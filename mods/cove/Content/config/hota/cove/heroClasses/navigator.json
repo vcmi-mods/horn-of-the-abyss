@@ -65,7 +65,9 @@
 			"sorcery" : 6,
 			"tactics" : 4,
 			"waterMagic" : 9,
-			"wisdom" : 8
+			"wisdom" : 8,
+			"hota.interference:interference" : 1,
+			"hota.bulwark:runes" : 0
 		},
 		"lowLevelChance" : {
 			"attack" : 15,
