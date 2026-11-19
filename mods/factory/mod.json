@@ -54,7 +54,8 @@
 	],
 	"heroClasses" : [
 		"config/hota/factory/heroClasses/artificer.json",
-		"config/hota/factory/heroClasses/mercenary.json"
+		"config/hota/factory/heroClasses/mercenary.json",
+		"config/hota/factory/heroClasses/tavernChances.json"
 	],
 	"heroes" : [
 		"config/hota/factory/heroes/agar.json",

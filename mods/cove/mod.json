@@ -43,7 +43,8 @@
 	],
 	"heroClasses" : [
 		"config/hota/cove/heroClasses/captain.json",
-		"config/hota/cove/heroClasses/navigator.json"
+		"config/hota/cove/heroClasses/navigator.json",
+		"config/hota/cove/heroClasses/tavernChances.json"
 	],
 	"heroes" : [
 		"config/hota/cove/heroes/anabel.json",

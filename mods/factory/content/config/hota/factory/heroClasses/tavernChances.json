@@ -1,0 +1,92 @@
+{
+	"core:knight" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:cleric" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:ranger" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:druid" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:alchemist" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	},
+	"core:wizard" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	},
+	"core:demoniac" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	},
+	"core:heretic" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	},
+	"core:deathknight" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:necromancer" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:overlord" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:warlock" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:barbarian" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:battlemage" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:beastmaster" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:witch" : {
+		"tavern" : {
+			"factory" : 5
+		}
+	},
+	"core:planeswalker" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	},
+	"core:elementalist" : {
+		"tavern" : {
+			"factory" : 6
+		}
+	}
+}

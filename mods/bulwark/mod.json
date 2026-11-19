@@ -48,7 +48,8 @@
 	],
 	"heroClasses" : [
 		"config/hota/bulwark/heroClasses/chieftain.json",
-		"config/hota/bulwark/heroClasses/elder.json"
+		"config/hota/bulwark/heroClasses/elder.json",
+		"config/hota/bulwark/heroClasses/tavernChances.json"
 	],
 	"heroes" : [
 		"config/hota/bulwark/heroes/akka.json",
