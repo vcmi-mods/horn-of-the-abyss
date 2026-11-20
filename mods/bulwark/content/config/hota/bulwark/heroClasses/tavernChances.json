@@ -1,0 +1,92 @@
+{
+	"core:knight" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:cleric" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:ranger" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:druid" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:alchemist" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:wizard" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:demoniac" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:heretic" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:deathknight" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:necromancer" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:overlord" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:warlock" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:barbarian" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:battlemage" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:beastmaster" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:witch" : {
+		"tavern" : {
+			"bulwark" : 6
+		}
+	},
+	"core:planeswalker" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	},
+	"core:elementalist" : {
+		"tavern" : {
+			"bulwark" : 5
+		}
+	}
+}

@@ -82,7 +82,18 @@
 			"knowledge" : 20
 		},
 		"tavern" : {
-			// no idea
+			"castle" : 5,
+			"rampart" : 5,
+			"tower" : 5,
+			"inferno" : 5,
+			"necropolis" : 5,
+			"dungeon" : 5,
+			"stronghold" : 5,
+			"fortress" : 5,
+			"conflux" : 5,
+			"hota.cove:cove" : 5,
+			"hota.factory:factory" : 5,
+			"bulwark" : 6
 		}
 	}
 }

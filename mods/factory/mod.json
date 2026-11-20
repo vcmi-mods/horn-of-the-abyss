@@ -6,8 +6,7 @@
 	"version" : "1.1.6",
 	"modType" : "Town",
 	"depends" : [
-		"hota.wastelandTerrain",
-		"hota.cove"
+		"hota.wastelandTerrain"
 	],
 	"softDepends" : [
 		"hota.newgraphics"
@@ -54,7 +53,8 @@
 	],
 	"heroClasses" : [
 		"config/hota/factory/heroClasses/artificer.json",
-		"config/hota/factory/heroClasses/mercenary.json"
+		"config/hota/factory/heroClasses/mercenary.json",
+		"config/hota/factory/heroClasses/tavernChances.json"
 	],
 	"heroes" : [
 		"config/hota/factory/heroes/agar.json",
