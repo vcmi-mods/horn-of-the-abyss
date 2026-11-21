@@ -92,7 +92,7 @@
 						}
 					},
 					{
-						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
+						"message" : "@mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.0",
 						"appearChance" : {
 							"min" : 30,
 							"max" : 60
@@ -132,7 +132,7 @@
 						}
 					},
 					{
-						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
+						"message" : "@mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.0",
 						"appearChance" : {
 							"min" : 60,
 							"max" : 90
@@ -172,7 +172,7 @@
 						}
 					},
 					{
-						"message" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
+						"message" : "@mapObject.hota.highlandsterrain.creatureBank.ruins.rewards.0",
 						"appearChance" : {
 							"min" : 90,
 							"max" : 100

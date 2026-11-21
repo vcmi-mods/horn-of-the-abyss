@@ -2,47 +2,24 @@
 	"core:stables" : {
 		"types" : {
 			"stables" : {
-				"rewards" : [
-					{
-						"bonuses" : [
-							{
-								"duration" : "ONE_WEEK",
-								"stacking" : "stables",
-								"subtype" : "heroMovementLand",
-								"type" : "MOVEMENT",
-								"val" : 300,
-								"valueType" : "ADDITIVE_VALUE"
+				"rewards" : {
+					"modify@1" : {
+						"bonuses" : {
+							"modify@1" : {
+								"val" : 300
 							}
-						],
-						"changeCreatures" : {
-							"cavalier" : "champion"
 						},
-						"limiter" : {
-							"creatures" : [
-								{
-									"amount" : 1,
-									"type" : "cavalier"
-								}
-							]
-						},
-						"message" : 138,
 						"movePoints" : 300
 					},
-					{
-						"bonuses" : [
-							{
-								"duration" : "ONE_WEEK",
-								"stacking" : "stables",
-								"subtype" : "heroMovementLand",
-								"type" : "MOVEMENT",
-								"val" : 300,
-								"valueType" : "ADDITIVE_VALUE"
+					"modify@2" : {
+						"bonuses" : {
+							"modify@1" : {
+								"val" : 300
 							}
-						],
-						"message" : 137,
+						},
 						"movePoints" : 300
 					}
-				]
+				}
 			}
 		}
 	}
