@@ -11,5 +11,8 @@
 	"softDepends" : [
 		"hota.maps.officialcampaigns"
 	],
-	"czech" : { "name" : "Francouzský dabing", "description" : "Přidává francouzský dabing do oficiálních kampaní." }
+	"czech" : {
+		"name" : "Francouzský dabing",
+		"description" : "Přidává francouzský dabing do oficiálních kampaní."
+	}
 }

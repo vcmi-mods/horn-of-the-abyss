@@ -11,7 +11,6 @@
 	"softDepends" : [
 		"hota.newgraphics"
 	],
-
 	"artifacts" : [
 		"config/hota/factory/artifacts/factoryPendantOfNegativity.json"
 	],
@@ -41,10 +40,8 @@
 		"config/hota/factory/creatures/sandworm.json",
 		"config/hota/factory/creatures/sandwormLarva.json",
 		"config/hota/factory/creatures/sentinelAutomaton.json",
-
 		"config/hota/factory/commander/cowboy.json",
 		"config/hota/factory/creatures/stackExperience.json",
-
 		"config/hota/factory/creatures/coreCreatureChanges.json"
 	],
 	"factions" : [
@@ -105,7 +102,6 @@
 		"config/hota/factory/spells/summonLarva.json",
 		"config/hota/factory/spells/teslaLightning.json"
 	],
-
 	"changelog" : {
 		"1.1.6" : [
 			"New cowboy graphics by Kurek"
@@ -138,7 +134,10 @@
 	},
 	"czech" : {
 		"name" : "Továrna",
-		"description" : "Nové město Továrna se steampunkovou tematikou."
+		"description" : "Nové město Továrna se steampunkovou tematikou.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"french" : {
 		"name" : "Usine",

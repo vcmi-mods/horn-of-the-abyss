@@ -55,7 +55,10 @@
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Přidává do základní hry nové hrdiny Beatrice, Kinkerii a Ranlooa.<br/>Zároveň omezuje dostupnost Voy a Sylvie pouze na mapy s vodou a umožňuje povolit hrdiny z kampaní Horn of the Abyss."
+		"description" : "Přidává do základní hry nové hrdiny Beatrice, Kinkerii a Ranlooa.<br/>Zároveň omezuje dostupnost Voy a Sylvie pouze na mapy s vodou a umožňuje povolit hrdiny z kampaní Horn of the Abyss.",
+		"translations" : [
+			"translation/czech.json"
+		]
 	},
 	"german" : {
 		"name" : "Neue Helden",

@@ -1,7 +1,10 @@
 {
 	"name" : "Czech buttons",
 	"description" : "Czech buttons",
-	"czech" : { "name" : "Česká tlačítka", "description" : "České popisky tlačítek hlavní nabídky." },
+	"czech" : {
+		"name" : "Česká tlačítka",
+		"description" : "České popisky tlačítek hlavní nabídky."
+	},
 	"version" : "1.0",
 	"modType" : "Compatibility",
 	"author" : "Hota Crew, ported by VCMI Team",
