@@ -53,7 +53,7 @@
 								"gold" : 3000
 							}
 						},
-						"message" : "{Ancient Lamp}\n\nA battered turban emerges from the lamp, sitting atop its genie owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
+						"message" : "@mapObject.hota.mapobjects.ancientLamp.ancientLamp.rewards.0",
 						"creatures" : [
 							{
 								"type" : "masterGenie",
@@ -71,7 +71,7 @@
 								"gold" : 2400
 							}
 						},
-						"message" : "{Ancient Lamp}\n\nA battered turban emerges from the lamp, sitting atop its genie owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
+						"message" : "@mapObject.hota.mapobjects.ancientLamp.ancientLamp.rewards.0",
 						"creatures" : [
 							{
 								"type" : "masterGenie",

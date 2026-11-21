@@ -19,7 +19,7 @@
 						"secondary" : {
 							"interference" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@mapObject.hota.highlandsterrain.hermitsShack.hermitsShack.rewards.0"
 					}
 				}
 			}
