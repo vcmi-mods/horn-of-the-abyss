@@ -11,6 +11,7 @@
 	"softDepends" : [
 		"hota.maps.officialcampaigns"
 	],
+	"czech" : { "name" : "Německý dabing", "description" : "Přidává německý dabing do oficiálních kampaní." },
 	"german" : {
 		"name" : "Deutsche Synchro (AI)",
 		"description" : "Fügt eine deutsche Synchronisation der Kampagnenvideos (HotA, Fabrik und Bucht) hinzu."

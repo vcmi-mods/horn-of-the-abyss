@@ -47,8 +47,8 @@
 		"description" : "修复改进一些死亡阴影图像和声音资源。"
 	},
 	"czech" : {
-		"name" : "Oprava grafiky pro Heroes 3",
-		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
+		"name" : "Oprava grafiky a zvuků",
+		"description" : "Opravuje grafiku a zvuky některých herních prvků z Heroes III."
 	},
 	"french" : {
 		"name" : "Patch de données de Heroes III",

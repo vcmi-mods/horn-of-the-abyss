@@ -186,7 +186,7 @@
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem",
+		"description" : "Mění počáteční druhotné schopnosti Ulanda, Deemera a Gem a upravuje růst bonusů specializací hrdinů.",
 		"translations" : [
 			"translation/czech.json"
 		]

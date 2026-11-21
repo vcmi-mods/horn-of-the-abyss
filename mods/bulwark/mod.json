@@ -104,7 +104,7 @@
 	},
 	"czech" : {
 		"name" : "Bulwark",
-		"description" : "Nové město se severskou tématikou",
+		"description" : "Nové město se severskou tematikou.",
 		"translations" : [
 			"translation/czech.json"
 		]

@@ -1,6 +1,7 @@
 {
 	"name" : "Text Polishing",
 	"description" : "Changes the ingame description of spells, map objects and artifacts to the ones used in HotA.",
+	"czech" : { "name" : "Úprava textů", "description" : "Nahrazuje popisy kouzel, objektů na mapě a artefaktů texty používanými v Horn of the Abyss." },
 	"keepDisabled" : true,
 	"modType" : "Other",
 	"author" : "Karyoplasma. Game texts by HotA Crew.",

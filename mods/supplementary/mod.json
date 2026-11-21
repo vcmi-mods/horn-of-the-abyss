@@ -91,7 +91,7 @@
 	},
 	"czech" : {
 		"name" : "Komunitní rozšíření",
-		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Toto je neoficiální obsah vytvořený komunitou."
+		"description" : "Tato modifikace přidává do hry následující nové prvky:<br/><br/>Artefakty:<br/>- Zub posledního výkřiku<br/>- Velký bitevní luk<br/>- Zhouba plazivých<br/>- Oko jasnozřivosti<br/><br/>Objekty na mapě:<br/>- Strážní věž<br/>- Továrna na ocelové golemy<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Další objekty:<br/>- Klokan quokka<br/>- Generátor blesků<br/>- Větrná turbína<br/><br/>Poznámka: Jde o neoficiální komunitní obsah, který není součástí Horn of the Abyss."
 	},
 	"french" : {
 		"name" : "Expansion de la communauté",

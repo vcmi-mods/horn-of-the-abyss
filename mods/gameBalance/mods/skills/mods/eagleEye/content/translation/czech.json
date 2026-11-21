@@ -1,5 +1,5 @@
 {
-	"skill.core.eagleEye.description.advanced": "{Lepší orlí oko}\n\nSchopnost lepší orlí oko dává hrdinovi 20% šanci naučit se kouzlo do 3. stupně, které proti němu v boji použije jiný hrdina.",
-	"skill.core.eagleEye.description.basic": "{Základní orlí oko}\n\nZákladní orlí oko dává hrdinovi 10% šanci naučit se kouzlo do 2. stupně, které proti němu v boji použije jiný hrdina.",
-	"skill.core.eagleEye.description.expert": "{Expert orlí oko}\n\nSchopnost expert orlí oko dává hrdinovi 30% šanci naučit se kouzlo do 4. stupně, které proti němu v boji použije jiný hrdina."
+	"skill.core.eagleEye.description.advanced": "{Lepší orlí oko}\n\nLepší orlí oko dává hrdinovi na začátku boje 40% šanci naučit se od nepřátelského hrdiny libovolné kouzlo 1.–4. stupně. Pokud nepřítel kouzlo během boje použije, hrdina se ho po boji naučí se 100% pravděpodobností.",
+	"skill.core.eagleEye.description.basic": "{Základní orlí oko}\n\nZákladní orlí oko dává hrdinovi na začátku boje 30% šanci naučit se od nepřátelského hrdiny libovolné kouzlo 1.–3. stupně. Pokud nepřítel kouzlo během boje použije, hrdina se ho po boji naučí se 100% pravděpodobností.",
+	"skill.core.eagleEye.description.expert": "{Expert orlí oko}\n\nExpert orlí oko dává hrdinovi na začátku boje 50% šanci naučit se od nepřátelského hrdiny libovolné kouzlo 1.–5. stupně. Pokud nepřítel kouzlo během boje použije, hrdina se ho po boji naučí se 100% pravděpodobností."
 }
