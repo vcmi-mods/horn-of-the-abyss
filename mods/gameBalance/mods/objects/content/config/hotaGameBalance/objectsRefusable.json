@@ -2,6 +2,7 @@
 	"core:arena" : {
 		"types" : {
 			"arena" : {
+				"onSelectMessage" : "You enter the arena and face a pack of vicious lions.  If you defeat them, the wild cheers of the crowd will ring out, and the aged trainer of gladiators will offer to train you in a skill of your choice.  Do you accept?",
 				"canRefuse" : true
 			}
 		}
