@@ -91,7 +91,7 @@
 						]
 					},
 					{
-						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
+						"message" : "@mapObject.hota.supplementary.creatureBank.guardTower.rewards.0",
 						"appearChance" : {
 							"min" : 30,
 							"max" : 60
@@ -130,7 +130,7 @@
 						]
 					},
 					{
-						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
+						"message" : "@mapObject.hota.supplementary.creatureBank.guardTower.rewards.0",
 						"appearChance" : {
 							"min" : 60,
 							"max" : 90
@@ -169,7 +169,7 @@
 						]
 					},
 					{
-						"message" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
+						"message" : "@mapObject.hota.supplementary.creatureBank.guardTower.rewards.0",
 						"appearChance" : {
 							"min" : 90,
 							"max" : 100

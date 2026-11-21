@@ -3,8 +3,8 @@
 		"types" : {
 			"arena" : {
 				"canRefuse" : true,
-				"onSelectMessage" : "You enter the arena and face a pack of vicious lions.  You handily defeat them, to the wild cheers of the crowd.  Impressed by your skill, the aged trainer of gladiators agrees to train you in a skill of your choice.",
-				"onVisitedMessage" : "The Arena guards prevent you from entering.  \"You've already beaten our best.  Begone from here.\""
+				//"onSelectMessage" : "You enter the arena and face a pack of vicious lions.  You handily defeat them, to the wild cheers of the crowd.  Impressed by your skill, the aged trainer of gladiators agrees to train you in a skill of your choice.",
+				//"onVisitedMessage" : "The Arena guards prevent you from entering.  \"You've already beaten our best.  Begone from here.\""
 			}
 		}
 	},
@@ -31,10 +31,10 @@
 						"message" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off."
 					},
 					"modify@2" : {
-						"message" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off."
+						"message" : "@mapObject.core.scholar.scholar.rewards.0"
 					},
 					"modify@3" : {
-						"message" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off."
+						"message" : "@mapObject.core.scholar.scholar.rewards.0"
 					}
 				}
 			}
