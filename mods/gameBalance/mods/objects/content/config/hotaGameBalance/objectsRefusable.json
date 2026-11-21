@@ -2,9 +2,7 @@
 	"core:arena" : {
 		"types" : {
 			"arena" : {
-				"canRefuse" : true,
-				//"onSelectMessage" : "You enter the arena and face a pack of vicious lions.  You handily defeat them, to the wild cheers of the crowd.  Impressed by your skill, the aged trainer of gladiators agrees to train you in a skill of your choice.",
-				//"onVisitedMessage" : "The Arena guards prevent you from entering.  \"You've already beaten our best.  Begone from here.\""
+				"canRefuse" : true
 			}
 		}
 	},
