@@ -1,6 +1,10 @@
 {
 	"name" : "Russian buttons",
 	"description" : "Russian buttons",
+	"czech" : {
+		"name" : "Ruská tlačítka",
+		"description" : "Ruské popisky tlačítek hlavní nabídky."
+	},
 	"version" : "1.0",
 	"modType" : "Compatibility",
 	"author" : "VCMI Team",

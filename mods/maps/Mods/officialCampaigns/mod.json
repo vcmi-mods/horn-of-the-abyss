@@ -32,7 +32,7 @@
 	},
 	"czech" : {
 		"name" : "Kampaně",
-		"description" : "Tato modifikace obsahuje všechny oficiální kampaně vytvořené týmem HotA",
+		"description" : "Tato modifikace obsahuje všechny oficiální kampaně vytvořené tvůrci rozšíření Horn of the Abyss.",
 		"translations" : [
 			"translation/czech.json"
 		]

@@ -1,6 +1,10 @@
 {
 	"name" : "Adventure map buttons",
 	"description" : "Adds Revisit and Anchor button",
+	"czech" : {
+		"name" : "Tlačítka mapy dobrodružství",
+		"description" : "Přidává tlačítka Opětovná návštěva a Zakotvit."
+	},
 	"modType" : "Compatibility",
 	"author" : "Hota Crew, ported by VCMI Team",
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?t=748",

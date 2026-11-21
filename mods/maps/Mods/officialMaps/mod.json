@@ -28,7 +28,7 @@
 	},
 	"czech" : {
 		"name" : "Mapy",
-		"description" : "Tato modifikace obsahuje všechny oficiální mapy vytvořené týmem HotA",
+		"description" : "Tato modifikace obsahuje všechny oficiální mapy vytvořené tvůrci rozšíření Horn of the Abyss.",
 		"translations" : [
 			"translation/czech.json"
 		]

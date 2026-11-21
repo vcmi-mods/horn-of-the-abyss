@@ -1,6 +1,10 @@
 {
 	"name" : "Spanish buttons",
 	"description" : "Spanish buttons",
+	"czech" : {
+		"name" : "Španělská tlačítka",
+		"description" : "Španělské popisky tlačítek hlavní nabídky."
+	},
 	"version" : "1.0",
 	"modType" : "Compatibility",
 	"author" : "VCMI Team",

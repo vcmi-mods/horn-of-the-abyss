@@ -1,6 +1,10 @@
 {
 	"name" : "Highscore Creatures",
 	"description" : "Adds creatures from HotA to the highscore list.",
+	"czech" : {
+		"name" : "Jednotky v síni slávy",
+		"description" : "Přidává jednotky z Horn of the Abyss do síně slávy."
+	},
 	"modType" : "Compatibility",
 	"author" : "HotA Crew, mod: Karyoplasma, by003",
 	"contact" : "",

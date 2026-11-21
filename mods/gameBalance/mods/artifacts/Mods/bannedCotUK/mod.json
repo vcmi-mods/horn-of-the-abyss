@@ -1,6 +1,10 @@
 {
 	"name" : "Disallow Cloak of the Undead King",
 	"description" : "Disables assembling of Cloak of the Undead King.",
+	"czech" : {
+		"name" : "Zákaz Pláště nemrtvého krále",
+		"description" : "Znemožňuje sestavení Pláště nemrtvého krále."
+	},
 	"modType" : "Mechanics",
 	"author" : "HotA crew, ported by VCMI team",
 	"contact" : "https://github.com/vcmi-mods/horn-of-the-abyss/",

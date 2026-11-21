@@ -32,7 +32,7 @@
 	},
 	"czech" : {
 		"name" : "Nové objekty",
-		"description" : "Modifikace přidává několik nových objektů vytvořených týmem HotA do VCMI, dostupných na náhodných mapách.",
+		"description" : "Modifikace přidává několik nových objektů vytvořených týmem Horn of the Abyss, které jsou dostupné na náhodných mapách.",
 		"translations" : [
 			"translation/czech.json"
 		]

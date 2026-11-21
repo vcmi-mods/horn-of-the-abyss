@@ -36,8 +36,8 @@
 	},
 
 	"czech" : {
-		"name" : "Podpora formátu map (HotA)",
-		"description" : "Tato modifikace přidává podporu načítání map ve formátu 'Horn of the Abyss'"
+		"name" : "Podpora map Horn of the Abyss",
+		"description" : "Přidává podporu načítání map ve formátu Horn of the Abyss."
 	},
 	"polish" : {
 		"name" : "Obsługa formatu map (HotA)",
