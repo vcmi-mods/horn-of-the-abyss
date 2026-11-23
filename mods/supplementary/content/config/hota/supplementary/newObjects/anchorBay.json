@@ -51,7 +51,7 @@
 				"guardsLayout" : "creatureBankNarrow",
 				"rewards" : [
 					{
-						"message" : "After the last pirate has been eliminated, you climb the tower and discover a great deal of treasure in their storeroom.",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.5",
 						"appearChance" : {
 							"min" : 0,
 							"max" : 50
@@ -93,7 +93,7 @@
 						]
 					},
 					{
-						"message" : "@mapObject.hota.supplementary.creatureBank.anchorBay.rewards.0",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.5",
 						"appearChance" : {
 							"min" : 50,
 							"max" : 100

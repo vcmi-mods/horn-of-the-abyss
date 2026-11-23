@@ -19,7 +19,7 @@
 						"secondary" : {
 							"interference" : 1
 						},
-						"message" : "@mapObject.hota.highlandsterrain.hermitsShack.hermitsShack.rewards.0"
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					}
 				}
 			}

@@ -27,13 +27,13 @@
 				"canRefuse" : true,
 				"rewards" : {
 					"modify@1" : {
-						"message" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.3"
 					},
 					"modify@2" : {
-						"message" : "@mapObject.core.scholar.scholar.rewards.0"
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.3"
 					},
 					"modify@3" : {
-						"message" : "@mapObject.core.scholar.scholar.rewards.0"
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.3"
 					}
 				}
 			}

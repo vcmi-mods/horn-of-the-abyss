@@ -587,6 +587,9 @@
 			"Small fixes"
 		]
 	},
+	"bonuses" : [
+		"config/hotaStringLibrary.json"
+	],
 	"settings" : {
 		"cheats" : {
 			"buildWithoutGrail" : true

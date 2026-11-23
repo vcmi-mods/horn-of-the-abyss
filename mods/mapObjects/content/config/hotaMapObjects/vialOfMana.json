@@ -24,7 +24,7 @@
 						"mapDice" : 0,
 						"manaPoints" : 30,
 						"manaOverflowFactor" : 50,
-						"message" : "{Vial of Mana}\n\nYou get hold of the vial, but are disappointed to see it lacking any message. There's only water inside, surprizingly fresh though.",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.4",
 						"removeObject" : true
 					},
 					{
@@ -35,7 +35,7 @@
 						"mapDice" : 1,
 						"manaPoints" : 40,
 						"manaOverflowFactor" : 50,
-						"message" : "@mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.4",
 						"removeObject" : true
 					},
 					{
@@ -46,7 +46,7 @@
 						"mapDice" : 2,
 						"manaPoints" : 50,
 						"manaOverflowFactor" : 50,
-						"message" : "@mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.4",
 						"removeObject" : true
 					},
 					{
@@ -57,7 +57,7 @@
 						"mapDice" : 3,
 						"manaPoints" : 60,
 						"manaOverflowFactor" : 50,
-						"message" : "@mapObject.hota.mapobjects.vialOfMana.vialOfMana.rewards.0",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.4",
 						"removeObject" : true
 					}
 				],
