@@ -37,8 +37,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
-				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
+				"onEmptyMessage" : "@core.bonus.HOTA_STRING_LIBRARY.description.2", // originally 28,
+				"onVisitedMessage" : 24
 			},
 			"cartographerLand" : {
 				"aiValue" : 10000,
@@ -70,8 +70,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
-				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
+				"onEmptyMessage" : "@core.bonus.HOTA_STRING_LIBRARY.description.2", // originally 28,
+				"onVisitedMessage" : 24
 			},
 			"cartographerSubterranean" : {
 				"aiValue" : 7500,
@@ -104,8 +104,8 @@
 						}
 					}
 				],
-				"onEmptyMessage" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.", // originally 28,
-				"onVisitedMessage" : "You have already seen all my maps laddy, now run along." // originally 24
+				"onEmptyMessage" : "@core.bonus.HOTA_STRING_LIBRARY.description.2", // originally 28,
+				"onVisitedMessage" : 24
 			}
 		}
 	}

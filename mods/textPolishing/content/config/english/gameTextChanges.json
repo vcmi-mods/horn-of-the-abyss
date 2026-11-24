@@ -43,6 +43,7 @@
 	"core.help.49.help" : "Selecting a difficulty level allows you to modify the overall difficulty of the gameplay",
 	"core.help.50.help" : "Displays a victory score multiplier based on the selected difficulty level",
 	"core.help.51.help" : "Map rating indicates how hard is it to complete the scenario: Easy, Normal, Hard, Expert or Impossible",
+	"mapObject.core.arena.arena.onSelect" : "You enter the arena and face a pack of vicious lions.  You handily defeat them, to the wild cheers of the crowd.  Impressed by your skill, the aged trainer of gladiators agrees to train you in a skill of your choice.",
 	"mapObject.core.creatureGeneratorCommon.airConflux.name" : "Altar of Air",
 	"mapObject.core.creatureGeneratorCommon.crystalCavern.name" : "Crystal Cave",
 	"mapObject.core.creatureGeneratorCommon.earthConflux.name" : "Altar of Earth",

@@ -14,7 +14,8 @@
 	},
 	"depends" : [
 		"hota.gamebalance.spells",
-		"hota.gamebalance.artifacts"
+		"hota.gamebalance.artifacts",
+		"hota.gamebalance.objects"
 	],
 	"version" : "1.1.0",
 	"changelog" : {

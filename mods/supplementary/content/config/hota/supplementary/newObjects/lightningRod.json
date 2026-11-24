@@ -131,7 +131,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -154,7 +154,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -177,7 +177,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -200,7 +200,7 @@
 								"amount" : 5
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -223,7 +223,7 @@
 								"amount" : 10
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -246,7 +246,7 @@
 								"amount" : 10
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					},
 					{
 						"appearChance" : {
@@ -269,7 +269,7 @@
 								"amount" : 2000
 							}
 						],
-						"message" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.7"
 					}
 				]
 			}
