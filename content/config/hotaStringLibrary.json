@@ -1,6 +1,8 @@
 {
 	"HOTA_STRING_LIBRARY" : {
-		"description" : "HotA String Library",
+		// HotA String Library
+		// This bonus just holds translatable strings, it has no effect.
+		"description" : "",
 		 "valueDescriptions" : {
 			"0" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace.",
             "1" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
