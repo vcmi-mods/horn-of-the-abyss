@@ -83,5 +83,10 @@
 		"translations" : [
 			"translation/tchinese.json"
 		]
+	},
+	"faroese" : {
+		"translations" : [
+			"translation/faroese.json"
+		]
 	}
 }
