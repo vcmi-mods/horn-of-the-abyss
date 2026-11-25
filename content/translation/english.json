@@ -1303,6 +1303,8 @@
 	"spell.hota.factory.abilityDetonation.name" : "Detonation",
 	"spell.hota.factory.factoryMoatTrigger.name" : "Barbs",
 	"spell.hota.factory.heatStroke.description.none" : "{Attack with a Heat Stroke}\n\nSelect a target for Heat Stroke area attack without retaliation instead of moving.",
+	"spell.hota.factory.heatStroke.heatStroke.blockedText" : "Pick a target for a Heat Stroke",
+	"spell.hota.factory.heatStroke.heatStroke.hoverText" : "Use Heat Stroke here",
 	"spell.hota.factory.heatStroke.name" : "Heat Stroke",
 	"spell.hota.factory.hotaGrenade.name" : "Grenades",
 	"spell.hota.factory.hotaRepair.description.none" : "{Repair mechanical creatures}\n\nForce unit to repair mechanical creatures in the target hex instead of moving there.\n",

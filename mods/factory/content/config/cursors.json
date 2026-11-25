@@ -1,8 +1,8 @@
 {
 	"combatHeatStroke" : {
-		"pivotX" :  16,
-		"pivotY" :  16,
+		"pivotX" : 16,
+		"pivotY" : 16,
 		"animation" : "hota/factory/cursors/combatHeatStroke",
-		"frame" :  0
+		"frame" : 0
 	}
 }

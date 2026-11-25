@@ -16,7 +16,10 @@
 		"script" : "spells/heatstroke.lua",
 		"patches" : [],
 		"schema" : {
-			"required" : [ "hoverText", "blockedText" ],
+			"required" : [
+				"hoverText",
+				"blockedText"
+			],
 			"properties" : {
 				"type" : {},
 				"hoverText" : {
