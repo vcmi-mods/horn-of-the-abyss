@@ -32,7 +32,9 @@
 				"range" : "0",
 				"battleEffects" : {
 					"heatStroke" : {
-						"type" : "heatStroke"
+						"type" : "heatStroke",
+						"hoverText" : "Use Heat Stroke here",
+						"blockedText" : "Pick a target for a Heat Stroke"
 					}
 				}
 			},
