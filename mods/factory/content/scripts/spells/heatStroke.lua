@@ -2,6 +2,9 @@ local Base = require("spells/unitEffect")
 local BattleLog = require("battleLog")
 local Script = setmetatable({}, {__index = Base})
 Script.__index = Script
+--- Parameters:
+--- hoverText: registered string for hovering over a valid target, required
+--- blockedText: registered string for hovering over an invalid target, required
 
 local E, W = "copyToEast", "copyToWest"
 local NE, NW = "copyToNorthEast", "copyToNorthWest"
@@ -93,6 +96,24 @@ local function rollForLuck(server, luckDice)
 	return server:rngInt(1, 24) <= luckDice
 end
 
+--- Returns the factor for the Attack-Defense difference between caster's `attack` and the `target`
+local function getDamageFactor(attack, target)
+	local add = attack - target:getDefense(false)
+	return (add > 0) and math.min(1 + add * 0.05, 4.0) or math.max(1 + add * 0.025, 0.3)
+end
+
+--- Applies the damage cap, should `target` request one
+local function applyDamageCap(rawDamage, target)
+	local cap = target:getBonusesValue({ type = "DAMAGE_RECEIVED_CAP" })
+	local damage = rawDamage
+
+	if cap > 0 then
+		damage = math.min(damage, math.max(math.floor(target:getMaxHealth() * cap / 100), 1))
+	end
+
+	return damage
+end
+
 --- Returns whether `target` is a valid receptive non-self unit.
 function Script:isEligible(mechanics, unit, target)
 	if unit:unitID() == target:unitID() or not target:isValidTarget(false) or target:isInvincible() then
@@ -157,6 +178,44 @@ function Script:applicableTarget(mechanics, problem, target)
 	return false
 end
 
+function Script:getHealthChange(mechanics, spellTarget)
+    local result = { hpDelta = 0, unitsDelta = 0 }
+	local caster = mechanics:getUnitCaster()
+	local baseDamage = ((caster:getMinDamage(false) + caster:getMaxDamage(false)) / 2) * caster:getCount()
+	local attack = caster:getAttack(false)
+
+	for _, dest in ipairs(spellTarget) do
+		local unit = dest.unit
+		if unit then
+			local damage = math.floor(baseDamage * getDamageFactor(attack, unit))
+			damage = applyDamageCap(damage, unit)
+
+			local copy = unit:copy()
+			local hpBefore    = copy:getAvailableHealth()
+			local countBefore = copy:getCount()
+			copy:damage(damage)
+
+			result.hpDelta = result.hpDelta - (hpBefore - copy:getAvailableHealth())
+			result.unitsDelta = result.unitsDelta - (countBefore - copy:getCount())
+		end
+	end
+
+	return result
+end
+
+function Script:describeTargetStep(mechanics, partialTarget, hoveredHex)
+	return {
+		cursor = "combatHeatStroke",
+		text = {
+			append = { self.hoverText }
+		},
+		blockedText = {
+			append = { self.blockedText }
+		},
+		healthGainTextID = 0
+	}
+end
+
 function Script:apply(mechanics, server, target)
 	local battle = mechanics:getBattle()
 	local caster = mechanics:getUnitCaster()
@@ -182,9 +241,7 @@ function Script:apply(mechanics, server, target)
 		local unit = dest.unit
 		if unit then
 			--- note: not quite correct mechanics-wise, but fine for temporary
-			local defense = unit:getDefense(false)
-			local add = attack - defense
-			local factor = (add > 0) and math.min(1 + add * 0.05, 4.0) or math.max(1 + add * 0.025, 0.3)
+			local factor = getDamageFactor(attack, unit)
 			local scaledMin = math.floor(baseDamMin * factor)
 			local scaledMax = math.floor(baseDamMax * factor)
 			local damage = server:rngInt(scaledMin, scaledMax)
@@ -192,10 +249,8 @@ function Script:apply(mechanics, server, target)
 			if rollForLuck(server, luckDice) then
 				damage = isUnluck and math.floor(damage * 0.5) or math.floor(damage * 2)
 			end
-			local cap = unit:getBonusesValue({ type = "DAMAGE_RECEIVED_CAP" })
-			if cap > 0 then
-				damage = math.min(damage, math.max(math.floor(unit:getMaxHealth() * cap / 100), 1))
-			end
+			damage = applyDamageCap(damage, unit)
+
 			local dealt, killed = server:damageUnit(battle, unit, damage)
 			totalDamage = totalDamage + dealt
 			totalKilled = totalKilled + killed

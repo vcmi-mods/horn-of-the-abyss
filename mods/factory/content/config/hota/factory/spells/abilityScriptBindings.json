@@ -16,11 +16,22 @@
 		"script" : "spells/heatstroke.lua",
 		"patches" : [],
 		"schema" : {
+			"required" : [ "hoverText", "blockedText" ],
 			"properties" : {
-				"type" : {}
+				"type" : {},
+				"hoverText" : {
+					"type" : "string"
+				},
+				"blockedText" : {
+					"type" : "string"
+				}
 			},
 			"additionalProperties" : false
-		}
+		},
+		"stringRegistrations" : [
+			"hoverText",
+			"blockedText"
+		]
 	},
 	"attachSelfCastAbility" : {
 		"implements" : "spellEffect",
