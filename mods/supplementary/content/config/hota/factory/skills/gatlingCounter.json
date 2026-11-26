@@ -1,0 +1,19 @@
+{
+	"GATLING_HAS_ATTACKED" : {
+		"hidden" : true
+	},
+	"GATLING_COUNTER" : {
+		"hidden" : false,
+		"description" : "If this is shown, it's a bug with the GATLING_COUNTER.",
+		"graphics" : {
+			"icon" : "hota/factory/icons/bonuses/gatlingShoot.png"
+		},
+		"valueDescriptions" : {
+			"0" : "{Rapid Fire}\nCurrent attacks: {1}",
+			"1" : "{Rapid Fire}\nCurrent attacks: {2}",
+			"2" : "{Rapid Fire}\nCurrent attacks: {3}",
+			"3" : "{Rapid Fire}\nCurrent attacks: {4}",
+			"4" : "{Rapid Fire}\nCurrent attacks: {5}"
+		}
+	}
+}

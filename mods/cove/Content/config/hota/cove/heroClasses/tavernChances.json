@@ -1,0 +1,92 @@
+{
+	"core:knight" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:cleric" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:ranger" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:druid" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:alchemist" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:wizard" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:demoniac" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:heretic" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:deathknight" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:necromancer" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:overlord" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:warlock" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:barbarian" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:battlemage" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:beastmaster" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:witch" : {
+		"tavern" : {
+			"cove" : 6
+		}
+	},
+	"core:planeswalker" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	},
+	"core:elementalist" : {
+		"tavern" : {
+			"cove" : 5
+		}
+	}
+}

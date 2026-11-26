@@ -3,7 +3,7 @@
 		"abilities" : {
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot",
+				"subtype" : "freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
 				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			}
@@ -13,7 +13,7 @@
 		"abilities" : {
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot",
+				"subtype" : "freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
 				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			}
@@ -23,7 +23,7 @@
 		"abilities" : {
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot",
+				"subtype" : "freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
 				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			}
@@ -33,7 +33,7 @@
 		"abilities" : {
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot",
+				"subtype" : "freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
 				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			}

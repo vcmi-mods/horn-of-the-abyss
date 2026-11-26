@@ -21,7 +21,7 @@
 		"aiValue" : 929,
 		"advMapAmount" : {
 			"min" : 8,
-			"max" : 12
+			"max" : 16
 		},
 		"growth" : 3,
 		"abilities" : {
@@ -43,10 +43,6 @@
 			},
 			"unlimitedRetaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS"
-			},
-			"spellImmunity" : {
-				"type" : "SPELL_IMMUNITY",
-				"subtype" : "hornSpell"
 			},
 			"immuneToMind" : {
 				"type" : "MIND_IMMUNITY"

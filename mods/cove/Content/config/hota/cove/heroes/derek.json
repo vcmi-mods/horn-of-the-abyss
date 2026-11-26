@@ -36,7 +36,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "hota.cove:crewmate"
+			"creature" : "crewmate"
 		},
 		"texts" : {
 			"name" : "Derek",

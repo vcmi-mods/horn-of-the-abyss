@@ -1,0 +1,12 @@
+{
+	"hota.cove:balfour" : {
+		"specialty" : {
+			"spellScalingVal" : 10
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Forgetfulness with number of disabled creatures increased by 10% for every N hero levels, where N is the level of the targeted creature."
+			}
+		}
+	}
+}

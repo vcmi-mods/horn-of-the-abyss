@@ -1,14 +1,3 @@
-// Defines battle obstacles. We have two vectors of them:
-// * "obstacles" are usual obtacles, that are randomly placed in the battlefield.
-// * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
-//
-// Their properties:
-// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
-// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored.
-// * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
-// * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
-// * "height" for usual obstacles it's count of tiles that must be free to the top for obstacle to be placed. For absolute obstacles, it's y offset for the graphics.
-// * "animation" is name of the graphics. It's def file for usual obstacles and bitmap for the absolute ones.
 {
 	"hotaWLD00" : {
 		"allowedTerrains" : [
@@ -19,19 +8,20 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD00"
+		"animation" : "hota/wasteland/obstacles/ObWLD00",
+		"foreground" : true
 	},
 	"hotaWLD01" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
 		"width" : 2,
-		"height" : 3,
+		"height" : 4,
 		"blockedTiles" : [
-			-33,
-			-34
+			-16
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD01"
+		"animation" : "hota/wasteland/obstacles/ObWLD01",
+		"foreground" : true
 	},
 	"hotaWLD02" : {
 		"allowedTerrains" : [
@@ -44,41 +34,45 @@
 			1,
 			2
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD02"
+		"animation" : "hota/wasteland/obstacles/ObWLD02",
+		"foreground" : true
 	},
 	"hotaWLD03" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
 		"width" : 3,
-		"height" : 3,
+		"height" : 2,
 		"blockedTiles" : [
 			1,
 			2
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD03"
+		"animation" : "hota/wasteland/obstacles/ObWLD03",
+		"foreground" : true
 	},
 	"hotaWLD04" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
-		"width" : 2,
+		"width" : 3,
 		"height" : 3,
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD04"
+		"animation" : "hota/wasteland/obstacles/ObWLD04",
+		"foreground" : true
 	},
 	"hotaWLD05" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
-		"width" : 2,
+		"width" : 3,
 		"height" : 3,
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD05"
+		"animation" : "hota/wasteland/obstacles/ObWLD05",
+		"foreground" : true
 	},
 	"hotaWLD06" : {
 		"allowedTerrains" : [
@@ -89,45 +83,48 @@
 		"blockedTiles" : [
 			1
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD06"
+		"animation" : "hota/wasteland/obstacles/ObWLD06",
+		"foreground" : true
 	},
 	"hotaWLD07" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
 		"width" : 3,
-		"height" : 3,
+		"height" : 4,
 		"blockedTiles" : [
-			-33,
-			-32
+			-15
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD07"
+		"animation" : "hota/wasteland/obstacles/ObWLD07",
+		"foreground" : true
 	},
 	"hotaWLD08" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
-		"width" : 5,
+		"width" : 4,
 		"height" : 3,
 		"blockedTiles" : [
-			-32,
-			-33,
-			-34,
-			-35
+			-16,
+			-15,
+			-14
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD08"
+		"animation" : "hota/wasteland/obstacles/ObWLD08",
+		"foreground" : true
 	},
 	"hotaWLD09" : {
 		"allowedTerrains" : [
 			"wasteland"
 		],
-		"width" : 5,
+		"width" : 4,
 		"height" : 3,
 		"blockedTiles" : [
-			-33,
-			-34
+			-16,
+			-15,
+			-14
 		],
-		"animation" : "hota/wasteland/obstacles/ObWLD09"
+		"animation" : "hota/wasteland/obstacles/ObWLD09",
+		"foreground" : true
 	},
 	"hotaWLD10" : {
 		"allowedTerrains" : [

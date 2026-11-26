@@ -1,42 +1,31 @@
-// Defines battle obstacles. We have two vectors of them:
-// * "obstacles" are usual obtacles, that are randomly placed in the battlefield.
-// * "absoluteObstacles" are a little special: there can be only one such obstacle in the battlefield and its position is always the same.
-//
-// Their properties:
-// * "allowedTerrains" vector of terrain types (TT format) where obstacle is appropriate
-// * "specialBattlefields" vector of battlefield images (BI format) where obstacle is appropriate. If there is a special battlefield image, then only this list is checked. Otherwise it's ignored.
-// * "blockedTiles": for absolute obstacles contains absolute coordinates. For usual obstacles contains offsets relative to the obstacle position (that is bottom left corner). If obstacle is placed in an odd row (counting from 0) and the blocked tile is in an even row, position will be shifted one tile to the left. Thanks to that ie. -16 is always top-right hex, no matter where the obstale will get placed.
-// * "width" for usual obstacles it's count of tiles that must be free to the right for obstacle to be placed. For absolute obstacles, it's x offset for the graphics.
-// * "height" for usual obstacles it's count of tiles that must be free to the top for obstacle to be placed. For absolute obstacles, it's y offset for the graphics.
-// * "animation" is name of the graphics. It's def file for usual obstacles and bitmap for the absolute ones.
 {
 	"hotaHLD00" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
 		"width" : 3,
-		"height" : 3,
+		"height" : 2,
 		"blockedTiles" : [
 			1,
 			2,
 			-15
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD00.def"
+		"animation" : "hota/highlands/obstacles/ObHLD00.def",
+		"foreground" : true
 	},
 	"hotaHLD01" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 4,
-		"height" : 3,
+		"width" : 3,
+		"height" : 2,
 		"blockedTiles" : [
 			0,
 			1,
-			2,
-			-15,
-			-16
+			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD01.def"
+		"animation" : "hota/highlands/obstacles/ObHLD01.def",
+		"foreground" : true
 	},
 	"hotaHLD02" : {
 		"allowedTerrains" : [
@@ -46,35 +35,36 @@
 		"height" : 2,
 		"blockedTiles" : [
 			0,
-			1,
-			-16
+			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD02.def"
+		"animation" : "hota/highlands/obstacles/ObHLD02.def",
+		"foreground" : true
 	},
 	"hotaHLD03" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 4,
-		"height" : 3,
+		"width" : 3,
+		"height" : 2,
 		"blockedTiles" : [
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD03.def"
+		"animation" : "hota/highlands/obstacles/ObHLD03.def",
+		"foreground" : true
 	},
 	"hotaHLD04" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 4,
-		"height" : 3,
+		"width" : 3,
+		"height" : 2,
 		"blockedTiles" : [
 			1,
-			2,
-			-15
+			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD04.def"
+		"animation" : "hota/highlands/obstacles/ObHLD04.def",
+		"foreground" : true
 	},
 	"hotaHLD05" : {
 		"allowedTerrains" : [
@@ -86,7 +76,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD05.def"
+		"animation" : "hota/highlands/obstacles/ObHLD05.def",
+		"foreground" : true
 	},
 	"hotaHLD06" : {
 		"allowedTerrains" : [
@@ -98,7 +89,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD06.def"
+		"animation" : "hota/highlands/obstacles/ObHLD06.def",
+		"foreground" : true
 	},
 	"hotaHLD07" : {
 		"allowedTerrains" : [
@@ -110,7 +102,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD07.def"
+		"animation" : "hota/highlands/obstacles/ObHLD07.def",
+		"foreground" : true
 	},
 	"hotaHLD08" : {
 		"allowedTerrains" : [
@@ -122,19 +115,21 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD08.def"
+		"animation" : "hota/highlands/obstacles/ObHLD08.def",
+		"foreground" : true
 	},
 	"hotaHLD09" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 3,
+		"width" : 2,
 		"height" : 1,
 		"blockedTiles" : [
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD09.def"
+		"animation" : "hota/highlands/obstacles/ObHLD09.def",
+		"foreground" : true
 	},
 	"hotaHLD10" : {
 		"allowedTerrains" : [
@@ -146,7 +141,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD10.def"
+		"animation" : "hota/highlands/obstacles/ObHLD10.def",
+		"foreground" : true
 	},
 	"hotaHLD11" : {
 		"allowedTerrains" : [
@@ -158,7 +154,8 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD11.def"
+		"animation" : "hota/highlands/obstacles/ObHLD11.def",
+		"foreground" : true
 	},
 	"hotaHLD12" : {
 		"allowedTerrains" : [
@@ -170,26 +167,28 @@
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD12.def"
+		"animation" : "hota/highlands/obstacles/ObHLD12.def",
+		"foreground" : true
 	},
 	"hotaHLD13" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 3,
-		"height" : 2,
+		"width" : 2,
+		"height" : 1,
 		"blockedTiles" : [
 			0,
 			1
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD13.def"
+		"animation" : "hota/highlands/obstacles/ObHLD13.def",
+		"foreground" : true
 	},
 	"hotaHLD14" : {
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 8,
-		"height" : 4,
+		"width" : 6,
+		"height" : 3,
 		"blockedTiles" : [
 			-15,
 			-14,
@@ -200,7 +199,8 @@
 			3,
 			4
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD14.def"
+		"animation" : "hota/highlands/obstacles/ObHLD14.def",
+		"foreground" : true
 	},
 	"hotaHLD15" : {
 		"allowedTerrains" : [
@@ -289,13 +289,14 @@
 		"allowedTerrains" : [
 			"highlands"
 		],
-		"width" : 4,
-		"height" : 2,
+		"width" : 3,
+		"height" : 1,
 		"blockedTiles" : [
 			0,
 			1,
 			2
 		],
-		"animation" : "hota/highlands/obstacles/ObHLD19.def"
+		"animation" : "hota/highlands/obstacles/ObHLD19.def",
+		"foreground" : true
 	}
 }

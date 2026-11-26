@@ -58,15 +58,10 @@
 			"mechanical" : {
 				"type" : "MECHANICAL"
 			},
-			"castsymMeditation" : {
+			"castsDetonation" : {
 				"type" : "SPELLCASTER",
-				"subtype" : "detonates01",
+				"subtype" : "abilityDetonation",
 				"val" : 0
-			},
-			"healPower" : {
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "detonates01",
-				"val" : 25
 			},
 			"castsCount" : {
 				"type" : "CASTS",

@@ -1,0 +1,9 @@
+{
+	"basepath" : "hota/factory/cursors/combatHeatStroke/",
+	"images" : [
+		{
+			"frame" : 0,
+			"file" : "combatHeatStroke.png"
+		}
+	]
+}

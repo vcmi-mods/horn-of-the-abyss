@@ -6,7 +6,9 @@
 			"130px" : "hota/factory/CRBKGFAC.png"
 		},
 		"name" : "Factory",
-		"nativeTerrain" : "wasteland",
+		"nativeTerrain" : [
+			"wasteland"
+		],
 		"boat" : "boatCastle",
 		"town" : {
 			"defaultTavern" : 5,
@@ -1106,7 +1108,7 @@
 			},
 			"tavernVideo" : "TAVERN.BIK",
 			"townBackground" : "hota/factory/town-screen/TBFaBack.png",
-			"moatAbility" : "castleMoat",
+			"moatAbility" : "factoryMoat",
 			"hallSlots" : [
 				[
 					[

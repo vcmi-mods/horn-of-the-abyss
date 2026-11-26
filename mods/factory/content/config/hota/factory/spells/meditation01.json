@@ -17,28 +17,26 @@
 		"flags" : {
 			"persistent" : true,
 			"positive" : true,
-			"special" : true
+			"special" : true,
+			"nonMagical" : true
 		},
 		"targetCondition" : {},
-		"canCastWithoutSkip" : false,
-		"canCastOnlyOnSelf" : true,
 		"graphics" : {
 			"iconEffect" : "hota/factory/spells/medi001.png"
 		},
 		"sounds" : {},
-		"targetType" : "CREATURE",
+		"targetType" : "NO_TARGET",
 		"levels" : {
-			"none" : {
-				"description" : "{Meditation}\n\nTemporary invulnerability.\n",
-				"range" : "0",
+			"base" : {
+				"description" : "",
+				"range" : "X",
 				"power" : 0,
 				"cost" : 0,
-				"targetModifier" : {
-					"smart" : true
-				},
 				"battleEffects" : {
 					"couatlMeditation" : {
-						"type" : "core:timed",
+						"type" : "attachSelfCastAbility",
+						"battleLogSingular" : "%s skips a turn to become invulnerable!",
+						"battleLogPlural" : "%s skip a turn to become invulnerable!",
 						"bonus" : {
 							"invincible" : {
 								"type" : "INVINCIBLE",
@@ -48,7 +46,7 @@
 							},
 							"immunityToHarmfulEffects" : {
 								"type" : "NEGATIVE_EFFECTS_IMMUNITY",
-								"subtype" : "spellSchool.any",
+								"subtype" : "any",
 								"duration" : [
 									"STACK_GETS_TURN"
 								]
@@ -56,7 +54,13 @@
 						}
 					}
 				}
-			}
+			},
+			"none" : {
+				"description" : "{Meditation}\n\nTemporary invulnerability.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

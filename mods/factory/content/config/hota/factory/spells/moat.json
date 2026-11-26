@@ -1,0 +1,102 @@
+{
+	"factoryMoatTrigger" : {
+		"targetType" : "CREATURE",
+		"type" : "ability",
+		"name" : "Barbs",
+		"school" : {},
+		"level" : 0,
+		"power" : 0,
+		"gainChance" : {},
+		"levels" : {
+			"base" : {
+				"power" : 0,
+				"range" : "0",
+				"description" : "", //For validation
+				"cost" : 0, //For validation
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "damage"
+					}
+				},
+				"targetModifier" : {
+					"smart" : false
+				}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		},
+		"flags" : {
+			"damage" : true,
+			"negative" : true,
+			"nonMagical" : true,
+			"special" : true
+		},
+		"targetCondition" : {}
+	},
+	"factoryMoat" : {
+		"targetType" : "NO_TARGET",
+		"type" : "ability",
+		"name" : "",
+		"school" : {},
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"levels" : {
+			"base" : {
+				"description" : "",
+				"power" : 0,
+				"cost" : 0,
+				"targetModifier" : {
+					"smart" : false
+				},
+				"battleEffects" : {
+					"moat" : {
+						"type" : "moat",
+						"hidden" : false,
+						"trap" : true,
+						"triggerAbility" : "factoryMoatTrigger",
+						"dispellable" : false,
+						"removeOnTrigger" : false,
+						"moatDamage" : 70,
+						"moatHexes" : [
+							[
+								11,
+								28,
+								44,
+								61,
+								77,
+								111,
+								129,
+								146,
+								164,
+								181
+							]
+						],
+						"defender" : {},
+						"bonus" : {
+							"primarySkill" : {
+								"val" : -3,
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "defence",
+								"valueType" : "ADDITIVE_VALUE"
+							}
+						}
+					}
+				},
+				"range" : "X"
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		},
+		"flags" : {
+			"nonMagical" : true,
+			"indifferent" : true
+		},
+		"targetCondition" : {}
+	}
+}

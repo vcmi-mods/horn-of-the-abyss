@@ -35,7 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"creature" : "hota.cove:stormbird"
+			"creature" : "stormbird"
 		},
 		"texts" : {
 			"name" : "Illor",

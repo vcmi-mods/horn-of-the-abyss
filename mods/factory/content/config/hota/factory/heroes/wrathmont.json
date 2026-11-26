@@ -9,7 +9,7 @@
 			"specialty" : {
 				"tooltip" : "Spell Bonus: Frenzy",
 				"name" : "Frenzy",
-				"description" : "Casts Frenzy with effect increased by 3% for every N hero levels, where N is the level of the targeted creature."
+				"description" : "Casts Frenzy with Attack bonus increased by 3% for every N hero levels, where N is the level of the targeted creature."
 			}
 		},
 
@@ -52,14 +52,7 @@
 		],
 
 		"specialty" : {
-			"bonuses" : {
-				"frenzy" : {
-					"subtype" : "spell.frenzy",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-				}
-			}
+			"spellScalingPercentage" : "frenzy"
 		}
 	}
 }

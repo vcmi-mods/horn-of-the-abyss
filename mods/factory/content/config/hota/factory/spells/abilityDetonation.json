@@ -1,0 +1,63 @@
+{
+	"abilityDetonation" : {
+		"type" : "ability",
+		"name" : "Detonation",
+		"school" : {},
+		"level" : 0,
+		"power" : 0,
+		"defaultGainChance" : 0,
+		"gainChance" : {},
+		"animation" : {
+			"affect" : [
+				{
+					"effectName" : "bloodlust"
+				}
+			]
+		},
+		"flags" : {
+			"persistent" : true,
+			"positive" : true,
+			"special" : true,
+			"nonMagical" : true
+		},
+		"canCastWithoutSkip" : true,
+		"targetCondition" : {},
+		"graphics" : {
+			"iconEffect" : "hota/factory/spells/detonates.png"
+		},
+		"targetType" : "NO_TARGET",
+		"levels" : {
+			"base" : {
+				"description" : "",
+				"cost" : 0,
+				"power" : 0,
+				"range" : "X",
+				"battleEffects" : {
+					"ignition" : {
+						"type" : "attachSelfCastAbility",
+						"battleLogSingular" : "%s activates detonation at death mode!",
+						"battleLogPlural" : "%s activate detonation at death mode!",
+						"bonus" : {
+							"addEventScript" : {
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "automatonDetonation",
+								"duration" : "ONE_BATTLE"
+							},
+							"removeCorpse" : {
+								"type" : "DISINTEGRATE",
+								"duration" : "ONE_BATTLE",
+								"hidden" : true
+							}
+						}
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Activate detonation at death}\n\nForce unit to explode at death. The detonation cannot be deactivated until the end of the combat.\n"
+			},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
+		}
+	}
+}

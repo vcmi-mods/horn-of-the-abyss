@@ -1,0 +1,50 @@
+{
+	"bulwarkRumor0" : {
+		"text" : "Jotunns are the most powerful creatures of the Bulwarks.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor1" : {
+		"text" : "I've heard that the residents of the Bulwark will invoke the Forebear Spirits to honor the one who brings them the Grail.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor2" : {
+		"text" : "The Kobolds are matchless miners. No one can find gold quite like them.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor3" : {
+		"text" : "Avoid the Argali at all costs. It is known that all kinds of magic become more dangerous when cast around them.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor4" : {
+		"text" : "The Snow Elves are unparalleled spear throwers.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor5" : {
+		"text" : "Many people only know the Yeti to be monsters, ferocious in battle, but there are Elders and Chieftains among them who wield the power of the Runes.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor6" : {
+		"text" : "Magic of the Shamans can protect their allies from missiles, and also turn their enemies into ice.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor7" : {
+		"text" : "Few creatures can match the Mammoths in resilience.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor8" : {
+		"text" : "It is said that the Jotunns are masters of teleportation magic.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor9" : {
+		"text" : "It is known that the Bulwarks are the only place where one can master the knowledge of the Runes.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor10" : {
+		"text" : "It is said that the people of the Bulwarks are particularly fond of holding fairs.",
+		"faction" : "bulwark"
+	},
+	"bulwarkRumor11" : {
+		"text" : "Rumor has it that the island of Vori is the womb whence all Elves came.",
+		"faction" : "bulwark"
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"name" : "Heroes",
-	"description" : "Changes starting secondary skills for Uland, Deemer and Gem",
+	"description" : "Changes starting secondary skills for Uland, Deemer and Gem and adjusts hero specialty scaling.",
 	"modType" : "Mechanics",
 	"author" : "Kuririn, avatar, wnukos, Karyoplasma",
 	"contact" : "http://forum.df2.ru/index.php?showtopic=32286",
@@ -11,9 +11,9 @@
 		"hota.factory",
 		"hota.heroes"
 	],
-	"settings" : {
-		"heroes" : {
-			"specialtyCreatureGrowth" : 20
+	"bonuses" : {
+		"SPECIALTY_CURE" : {
+			"hidden" : true
 		}
 	},
 	"heroes" : [
@@ -55,6 +55,8 @@
 		"config/hotaGameBalance/conflux/pasis.json",
 		"config/hotaGameBalance/conflux/thunar.json",
 		"config/hotaGameBalance/cove/anabel.json",
+		"config/hotaGameBalance/cove/astra.json",
+		"config/hotaGameBalance/cove/balfour.json",
 		"config/hotaGameBalance/cove/casmetra.json",
 		"config/hotaGameBalance/cove/cassiopeia.json",
 		"config/hotaGameBalance/cove/dargem.json",
@@ -63,6 +65,7 @@
 		"config/hotaGameBalance/cove/jeremy.json",
 		"config/hotaGameBalance/cove/manfred.json",
 		"config/hotaGameBalance/cove/tark.json",
+		"config/hotaGameBalance/cove/zilare.json",
 		"config/hotaGameBalance/dungeon/ajit.json",
 		"config/hotaGameBalance/dungeon/alamar.json",
 		"config/hotaGameBalance/dungeon/arlach.json",
@@ -78,11 +81,14 @@
 		"config/hotaGameBalance/factory/agar.json",
 		"config/hotaGameBalance/factory/celestine.json",
 		"config/hotaGameBalance/factory/eanswythe.json",
+		"config/hotaGameBalance/factory/elderian.json",
 		"config/hotaGameBalance/factory/floribert.json",
 		"config/hotaGameBalance/factory/frederick.json",
 		"config/hotaGameBalance/factory/henrietta.json",
+		"config/hotaGameBalance/factory/jangaard.json",
 		"config/hotaGameBalance/factory/morton.json",
 		"config/hotaGameBalance/factory/sam.json",
+		"config/hotaGameBalance/factory/stina.json",
 		"config/hotaGameBalance/factory/tancred.json",
 		"config/hotaGameBalance/factory/todd.json",
 		"config/hotaGameBalance/factory/umender.json",
@@ -92,7 +98,7 @@
 		"config/hotaGameBalance/factory/ziph.json",
 		"config/hotaGameBalance/fortress/adrienne.json",
 		"config/hotaGameBalance/fortress/alkin.json",
-		"config/hotaGameBalance/fortress/areshak.json",
+		"config/hotaGameBalance/fortress/areshrak.json",
 		"config/hotaGameBalance/fortress/broghild.json",
 		"config/hotaGameBalance/fortress/bron.json",
 		"config/hotaGameBalance/fortress/drakon.json",
@@ -133,6 +139,7 @@
 		"config/hotaGameBalance/rampart/aeris.json",
 		"config/hotaGameBalance/rampart/alagar.json",
 		"config/hotaGameBalance/rampart/clancy.json",
+		"config/hotaGameBalance/rampart/coronius.json",
 		"config/hotaGameBalance/rampart/gem.json",
 		"config/hotaGameBalance/rampart/ivor.json",
 		"config/hotaGameBalance/rampart/ryland.json",
@@ -163,6 +170,13 @@
 		"config/hotaGameBalance/tower/theodorus.json",
 		"config/hotaGameBalance/tower/torosar.json"
 	],
+	"scripts" : {
+		"core:heal" : {
+			"patches" : {
+				"append" : "patches/specialtyCurePatch"
+			}
+		}
+	},
 	"chinese" : {
 		"name" : "英雄",
 		"description" : "改变尤兰德，蒂玛和珍尼的初始辅助技能",
@@ -172,7 +186,7 @@
 	},
 	"czech" : {
 		"name" : "Hrdinové",
-		"description" : "Změní výchozí druhotné schopnosti u Ulanda, Deemera a Gem",
+		"description" : "Mění počáteční druhotné schopnosti Ulanda, Deemera a Gem a upravuje růst bonusů specializací hrdinů.",
 		"translations" : [
 			"translation/czech.json"
 		]
@@ -252,6 +266,16 @@
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
+		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
+	},
+	"faroese" : {
+		"translations" : [
+			"translation/faroese.json"
 		]
 	}
 }

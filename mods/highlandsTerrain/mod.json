@@ -30,6 +30,9 @@
 	"battlefields" : [
 		"config/hota/highlands/battlefields.json"
 	],
+	"factions" : [
+		"config/hota/highlands/confluxTerrain.json"
+	],
 	"obstacles" : [
 		"config/hota/highlands/obstacles.json"
 	],
@@ -69,13 +72,16 @@
 		"config/hota/highlands/hotaStatic/hotaHighlandsStaticBiomes.json",
 		"config/hota/highlands/vanillaStatic/vanillaHighlandsStaticBiomes.json"
 	],
+	"rumors" : [
+		"config/hota/highlands/confluxRumors.json"
+	],
 	"settings" : {
 		"combat" : {
 			"layouts" : {
 				"creatureBankRuins" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
-					"attackerCommander" : 86,
+					"attackerCommander" : 59,
 					"defenderCommander" : 83,
 					"attackerUnits" : [
 						57,
@@ -106,7 +112,7 @@
 	},
 	"czech" : {
 		"name" : "Vysočina",
-		"description" : "Přidává terén Vysočiny a několik unikátních objektů na mapu spojených s tímto terénem."
+		"description" : "Přidává terén Vysočina a několik jedinečných objektů, které se na něm mohou objevit."
 	},
 	"french" : {
 		"name" : "Terrain des Plateaux",

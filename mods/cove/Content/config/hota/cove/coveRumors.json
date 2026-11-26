@@ -1,0 +1,66 @@
+{
+	"coveRumor0" : {
+		"text" : "Haspids are the most powerful creature of the Coves.",
+		"faction" : "cove"
+	},
+	"coveRumor1" : {
+		"text" : "I've heard the residents of the Cove will light a Lodestar to honor any hero who brings them the Grail.",
+		"faction" : "cove"
+	},
+	"coveRumor2" : {
+		"text" : "It is said the Nymphs can move through any obstacles.",
+		"faction" : "cove"
+	},
+	"coveRumor3" : {
+		"text" : "Ice spells can do no harm to the Oceanids.",
+		"faction" : "cove"
+	},
+	"coveRumor4" : {
+		"text" : "Corsair is not the end of what a true pirate can achieve!",
+		"faction" : "cove"
+	},
+	"coveRumor5" : {
+		"text" : "Sea Dogs are accurate shooters. They can slay even a Dragon with one shot.",
+		"faction" : "cove"
+	},
+	"coveRumor6" : {
+		"text" : "Ayssids are dangerous creatures. Once they feel the taste of blood, they cannot stop.",
+		"faction" : "cove"
+	},
+	"coveRumor7" : {
+		"text" : "Sorceresses often cast weakening spells in battle.",
+		"faction" : "cove"
+	},
+	"coveRumor8" : {
+		"text" : "Nix have excellent armor.",
+		"faction" : "cove"
+	},
+	"coveRumor9" : {
+		"text" : "It is said gravely wounded Haspids can be extremely dangerous.",
+		"faction" : "cove"
+	},
+	"coveRumor10" : {
+		"text" : "One pirate was trying to convince me that he knows a formula of a secret powder that allows giant cannon balls to fly up from a single spark!",
+		"faction" : "cove"
+	},
+	"coveRumor11" : {
+		"text" : "They say that the Thieves Guild is cooperating with the pirates.",
+		"faction" : "cove"
+	},
+	"coveRumor12" : {
+		"text" : "They say that the lodestars are seen best from the maritime cities.",
+		"faction" : "cove"
+	},
+	"coveRumor13" : {
+		"text" : "They say that Sea Serpents have awakened from the depths and emerged on the lands. They crush everything in their way.",
+		"faction" : "cove"
+	},
+	"coveRumor14" : {
+		"text" : "Black-sailed ships are being traded in the shore-side Coves.",
+		"faction" : "cove"
+	},
+	"coveRumor15" : {
+		"text" : "Deep in the seas, on the very bottom, a mysterious Horn lies still. It will give you unmatched power.",
+		"faction" : "cove"
+	}
+}

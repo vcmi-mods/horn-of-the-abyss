@@ -1,0 +1,23 @@
+{
+	"HOTA_STRING_LIBRARY" : {
+		// HotA String Library
+		// This bonus just holds translatable strings, it has no effect.
+		"description" : "",
+		"valueDescriptions" : {
+			"0" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace.",
+			"1" : "You climb the mound of bones to reach the top of the highest standing tower, where you find a heap of ancient coins. You also take some time to read the land lying around.",
+			"2" : "My maps cost 10000 gold, which you don't seem to have. Please stop wasting my time.",
+			"3" : "As you ride into a clearing, you notice a university scholar resting his horse. He offers to teach you some of what he knows before setting off.",
+			"4" : "{Vial of Mana}\n\nYou get hold of the vial, but are disappointed to see it lacking any message. There's only water inside, surprizingly fresh though.",
+			"5" : "After the last pirate has been eliminated, you climb the tower and discover a great deal of treasure in their storeroom.",
+			"6" : "After you enter the tower, you get some treasures under the guidance of some traitors, and these traitors also join your army.",
+			"7" : "{Wind Turbine}\n\nIt seems that a wind turbine is a complex device that uses wind energy to generate electricity. Using wind energy to generate electricity can greatly improve your production efficiency.",
+			"8" : "{Derrick}\n\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time - come for your share in a week.\"",
+			"9" : "{Prospector}\n\nThe tired prospector makes an effort to look tough, but you can see he is afraid of you after all. He is willing to pay you a small sum regularly for the permission to continue mining here.",
+			"10" : "{Ancient Lamp}\n\nA battered turban emerges from the lamp, sitting atop its genie owner's head. \"Oh, aren't these some employers. Again. Got money? We aren't going to work for magic beans again. And we will NOT grant any wishes. The rest, you can count on us.\"",
+			"11" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple, where Haspids guard an artifact of great power.\nDo you want to fight them?",
+			"12" : "{Ancient Altar}\n\nDeep under the ground you find an ancient temple. An artifact of great power used to be kept here, but now the temple is empty.",
+			"13" : "{Ancient Altar}\n\nAfter defeating the monsters and searching the altar of the temple, you find the legendary Horn of the Abyss!"
+		}
+	}
+}

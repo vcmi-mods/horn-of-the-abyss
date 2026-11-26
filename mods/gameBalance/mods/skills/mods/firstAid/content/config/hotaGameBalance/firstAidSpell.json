@@ -1,0 +1,34 @@
+{
+	"core:firstAid" : {
+		"levels" : {
+			"none" : {
+				"battleEffects" : {
+					"heal" : {
+						"minValue" : 20
+					}
+				}
+			},
+			"basic" : {
+				"battleEffects" : {
+					"heal" : {
+						"minValue" : 40
+					}
+				}
+			},
+			"advanced" : {
+				"battleEffects" : {
+					"heal" : {
+						"minValue" : 60
+					}
+				}
+			},
+			"expert" : {
+				"battleEffects" : {
+					"heal" : {
+						"minValue" : 80
+					}
+				}
+			}
+		}
+	}
+}

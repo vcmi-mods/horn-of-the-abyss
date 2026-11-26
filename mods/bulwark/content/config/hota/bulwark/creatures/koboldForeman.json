@@ -27,7 +27,7 @@
 		"abilities" : {
 			"generatesGold" : {
 				"type" : "GENERATE_RESOURCE",
-				"subtype" : "resource.gold",
+				"subtype" : "gold",
 				"propagator" : "PLAYER",
 				"valueType" : "BASE_NUMBER",
 				"updater" : {

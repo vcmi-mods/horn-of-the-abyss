@@ -1,6 +1,7 @@
 {
 	"hota.cove:02jeremy" : {
 		"specialty" : {
+			"stepSize" : 20,
 			"creatureLevel" : 6
 		},
 		"texts" : {

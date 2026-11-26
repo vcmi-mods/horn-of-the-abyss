@@ -1,0 +1,17 @@
+{
+	"hota.cove:18astra" : {
+		"specialty#override" : {
+			"bonuses" : {
+				"cureSpecialty" : {
+					"type" : "SPECIALTY_CURE",
+					"val" : 10
+				}
+			}
+		},
+		"texts" : {
+			"specialty" : {
+				"description" : "Casts Cure with effect increased by 10% for every (8 – N) hero levels, where N is the level of the targeted creature."
+			}
+		}
+	}
+}

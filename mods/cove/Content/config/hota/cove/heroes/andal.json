@@ -38,7 +38,7 @@
 			"bonuses" : {
 				"gold" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.crystal",
+					"subtype" : "crystal",
 					"val" : 1
 				}
 			}

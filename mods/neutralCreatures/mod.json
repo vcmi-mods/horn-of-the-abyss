@@ -18,6 +18,14 @@
 	},
 	"depends" : [],
 
+	"artifacts" : [
+		"config/hotaArtifacts/hornOfTheAbyss.json"
+	],
+	"bonuses" : {
+		"HORN_OF_THE_ABYSS" : {
+			"hidden" : true
+		}
+	},
 	"creatures" : [
 		"config/hotaNeutralCreatures/satyr",
 		"config/hotaNeutralCreatures/fangarm",
@@ -28,12 +36,38 @@
 	"objects" : [
 		"config/hotaNeutralCreatures/dwellings"
 	],
-	"artifacts" : [
-		"config/hotaArtifacts/hornOfTheAbyss.json"
-	],
-	"spells" : [
-		"config/artiSpells/HornSpell"
-	],
+	"scripts" : {
+		"hornEffect" : {
+			"implements" : "combatEvent",
+			"script" : "combat/hornEffect",
+			"patches" : [],
+			"priority" : 0,
+			"stringRegistrations" : [
+				"messageSingular",
+				"messagePlural"
+			],
+			"schema" : {
+				"required" : [
+					"messageSingular",
+					"messagePlural"
+				],
+				"properties" : {
+					"raisedCreature" : {
+						"type" : "string",
+						"entity" : "creature"
+					},
+					"messageSingular" : {
+						"type" : "string"
+					},
+					"messagePlural" : {
+						"type" : "string"
+					}
+				},
+				"additionalProperties" : false
+			},
+			"description" : ""
+		}
+	},
 
 	"chinese" : {
 		"name" : "中立生物",

@@ -1,0 +1,19 @@
+{
+	"ObRgS07" : {
+		"allowedTerrains" : [
+			"rough"
+		],
+		"specialBattlefields" : [
+			"cursed_ground"
+		],
+		"width" : 3,
+		"height" : 2,
+		"blockedTiles" : [
+			0,
+			1,
+			2
+		],
+		"animation" : "vanillaExtensions/ObRgS07.def",
+		"foreground" : true
+	}
+}

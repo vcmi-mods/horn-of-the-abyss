@@ -1,5 +1,8 @@
 {
 	"core:alkin" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of any Gorgons or Mighty Gorgons by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."

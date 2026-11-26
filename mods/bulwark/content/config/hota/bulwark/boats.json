@@ -17,10 +17,6 @@
 				"templates" : {
 					"default" : {
 						"animation" : "hota/bulwark/mapObjects/boats/AB07_002.def",
-						"mask" : [
-							"VVV",
-							"VAV"
-						],
 						"allowedTerrains" : [
 							"water"
 						]

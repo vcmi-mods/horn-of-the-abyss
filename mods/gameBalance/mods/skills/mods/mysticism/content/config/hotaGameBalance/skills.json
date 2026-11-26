@@ -1,10 +1,13 @@
 {
 	"core:mysticism" : {
+		"specialty" : {
+			"append" : "manapercent"
+		},
 		"base" : {
 			"effects" : {
 				"manapercent" : {
 					"type" : "MANA_PERCENTAGE_REGENERATION",
-					"valueType" : "ADDITIVE_VALUE"
+					"valueType" : "BASE_NUMBER"
 				}
 			}
 		},

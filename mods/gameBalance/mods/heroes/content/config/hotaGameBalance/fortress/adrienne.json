@@ -4,7 +4,7 @@
 			"bonuses" : {
 				"fireMagic" : {
 					"type" : "SPELL_DAMAGE",
-					"subtype" : "spellSchool.fire",
+					"subtype" : "fire",
 					"val" : 50,
 					"valueType" : "BASE_NUMBER"
 				}
@@ -12,7 +12,8 @@
 		},
 		"texts" : {
 			"specialty" : {
-				"description" : "Increases the damage of Fire spells by 50%."
+				"description" : "Increases the Damage of Fire spells by 50%.",
+				"tooltip" : "Secondary Skill Bonus: Fire Magic"
 			}
 		}
 	}

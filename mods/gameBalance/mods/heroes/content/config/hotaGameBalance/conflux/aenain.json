@@ -1,11 +1,9 @@
 {
 	"core:aenain" : {
 		"specialty" : {
-			"bonuses" : {
-				"disruptingRay" : {
-					"addInfo" : -10
-				}
-			}
+			"spellFixedValues" : [
+				-10
+			]
 		},
 		"texts" : {
 			"specialty" : {

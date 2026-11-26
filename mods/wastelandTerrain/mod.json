@@ -69,7 +69,7 @@
 	},
 	"czech" : {
 		"name" : "Pustina",
-		"description" : "Přidává terén Pustiny a několik unikátních objektů na mapu spojených s tímto terénem."
+		"description" : "Přidává terén Pustina a několik jedinečných objektů, které se na něm mohou objevit."
 	},
 	"french" : {
 		"name" : "Terrain désertique",

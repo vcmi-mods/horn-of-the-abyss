@@ -1,20 +1,49 @@
 {
 	"templeOfLoyalty" : {
-		"handler" : "generic",
+		"handler" : "configurable",
 		"name" : "Temple of Loyalty",
 		"types" : {
 			"templeOfLoyalty" : {
-				//				"aiValue" : 1000,
-				//				"rmg" : {
-				//					"value"		: 100,
-				//					"rarity"	: 20,
-				//					"zoneLimit" : 1
-				//				},
+				"description" : "(Mixed faction morale penalty negated until next turn)\n",
+				"rmg" : {
+					"value" : 100,
+					"rarity" : 20,
+					"zoneLimit" : 1
+				},
 				"sounds" : {
 					"visit" : [
 						"TEMPLE"
 					]
 				},
+				"visitMode" : "bonus",
+				"onVisitedMessage" : "{Temple of Loyalty}\n\nThe prayer at the Temple of Loyalty helps to bring the troops together, however your army is united already.",
+				"rewards" : [
+					{
+						"message" : "{Temple of Loyalty}\n\nYou pray in an unusual temple and suddenly feel it has strengthened your troops' resolve.",
+						"bonuses" : [
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentGood",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentNeutral",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentEvil",
+								"duration" : "ONE_DAY"
+							},
+							{
+								"type" : "ALIGNMENT_MIX",
+								"subtype" : "alignmentNone",
+								"duration" : "ONE_DAY"
+							}
+						]
+					}
+				],
 				"templates" : {
 					"AVStmplt" : {
 						"animation" : "hota/templeOfLoyalty/AVStmplt",

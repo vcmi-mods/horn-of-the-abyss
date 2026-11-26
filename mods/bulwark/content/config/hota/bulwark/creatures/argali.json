@@ -28,21 +28,21 @@
 		"abilities" : {
 			"immuneToIceBolt" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.iceBolt"
+				"subtype" : "iceBolt"
 			},
 			"immuneToFrostRing" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.frostRing"
+				"subtype" : "frostRing"
 			},
 			"immuneToFreezingShot" : {
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.freezingShot",
+				"subtype" : "freezingShot",
 				"icon" : "hota/bulwark/bonuses/freezingShotImmunity",
 				"description" : "{Spell Immunity}\nImmune to Freezing Shot."
 			},
 			"spellDamageIncreaseAura" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
-				"subtype" : "spellSchool.any",
+				"subtype" : "any",
 				"propagator" : "BATTLE_WIDE",
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"val" : -20,

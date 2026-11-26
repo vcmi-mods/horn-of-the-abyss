@@ -1,6 +1,6 @@
 {
 	"townGateHelper" : {
-		"name" : "Town Gate Helper",
+		"name" : "",
 		"type" : "adventure",
 		"flags" : {
 			"special" : true,
@@ -23,7 +23,7 @@
 		"targetType" : "NO_TARGET",
 		"level" : 4,
 		"levels" : {
-			"none" : {
+			"base" : {
 				"adventureEffect" : {
 					"type" : "townPortal",
 					"allowTownSelection" : true,
@@ -32,10 +32,14 @@
 					"skipOccupiedTowns" : false
 				},
 				"cost" : 0,
-				"description" : "Description not shown",
+				"description" : "",
 				"power" : 0,
 				"range" : "X"
-			}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

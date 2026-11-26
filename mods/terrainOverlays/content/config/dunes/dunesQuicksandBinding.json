@@ -1,0 +1,13 @@
+{
+	"dunesQuicksand" : {
+		"implements" : "spellEffect",
+		"script" : "spells/dunesQuicksand.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {}
+			},
+			"additionalProperties" : false
+		}
+	}
+}

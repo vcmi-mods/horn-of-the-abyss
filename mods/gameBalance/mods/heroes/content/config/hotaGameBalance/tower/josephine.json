@@ -1,5 +1,8 @@
 {
 	"core:josephine" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of any Stone Golems or Iron Golems by 1 and their Attack and Defense skills by 20% for every 3 levels (rounded up)."

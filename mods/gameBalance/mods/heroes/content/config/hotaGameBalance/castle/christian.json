@@ -1,7 +1,8 @@
 {
 	"core:christian" : {
 		"specialty" : {
-			"stepSize" : 30
+			"stepSize" : 30,
+			"creatureLevel" : 5
 		},
 		"texts" : {
 			"specialty" : {

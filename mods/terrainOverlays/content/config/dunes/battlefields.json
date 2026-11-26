@@ -5,8 +5,8 @@
 		"bonuses" : [
 			{
 				"type" : "OPENING_BATTLE_SPELL",
-				"subtype" : "quicksand",
-				"val" : 4,
+				"subtype" : "dunesQuicksand",
+				"val" : 0,
 				"propagator" : "BATTLE_WIDE"
 			}
 		]

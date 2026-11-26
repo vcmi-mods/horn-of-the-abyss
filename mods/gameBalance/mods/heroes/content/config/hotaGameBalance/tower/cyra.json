@@ -1,47 +1,15 @@
 {
 	"core:cyra" : {
-		"specialty#override" : {
-			"base" : {
-				"type" : "STACKS_SPEED",
-				"valueType" : "ADDITIVE_VALUE",
-				"limiters" : [
-					{
-						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"bonusSourceType" : "SPELL_EFFECT",
-						"bonusSourceID" : "spell.haste"
-					}
-				]
-			},
-			"bonuses" : {
-				"bonusSpeed14" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"maxlevel" : 5
-						}
-					},
-					"val" : 3
-				},
-				"bonusSpeed56" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 5,
-							"maxlevel" : 7
-						}
-					},
-					"val" : 2
-				},
-				"bonusSpeed7" : {
-					"limiters" : {
-						"append" : {
-							"type" : "CREATURE_LEVEL_LIMITER",
-							"minLevel" : 7
-						}
-					},
-					"val" : 1
-				}
-			}
+		"specialty" : {
+			"spellFixedValues" : [
+				3,
+				3,
+				3,
+				3,
+				2,
+				2,
+				1
+			]
 		},
 		"texts" : {
 			"specialty" : {

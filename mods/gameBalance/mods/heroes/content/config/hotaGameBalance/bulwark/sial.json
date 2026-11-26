@@ -1,11 +1,7 @@
 {
 	"hota.bulwark:11sial" : {
 		"specialty" : {
-			"bonuses" : {
-				"iceBolt" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

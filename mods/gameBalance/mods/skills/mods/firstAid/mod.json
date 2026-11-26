@@ -16,6 +16,9 @@
 	"bonuses" : [
 		"config/hotaGameBalance/firstAidBonusType.json"
 	],
+	"spells" : [
+		"config/hotaGameBalance/firstAidSpell.json"
+	],
 	"chinese" : {
 		"name" : "急救术",
 		"description" : "",
@@ -105,6 +108,16 @@
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
+		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
+	},
+	"faroese" : {
+		"translations" : [
+			"translation/faroese.json"
 		]
 	}
 }

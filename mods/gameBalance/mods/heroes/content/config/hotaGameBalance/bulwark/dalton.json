@@ -1,11 +1,7 @@
 {
 	"hota.bulwark:12dalton" : {
 		"specialty" : {
-			"base" : {
-				"updater" : {
-					"valPer20" : 100
-				}
-			}
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {

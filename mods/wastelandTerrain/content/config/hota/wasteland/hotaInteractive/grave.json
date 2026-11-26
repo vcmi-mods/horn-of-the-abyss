@@ -72,7 +72,7 @@
 								"type" : "MORALE",
 								"val" : -3,
 								"duration" : "ONE_BATTLE",
-								"description" : "Grave Digging",
+								"description" : "Grave Digging -3",
 								"stacking" : "GraveDigging"
 							}
 						],

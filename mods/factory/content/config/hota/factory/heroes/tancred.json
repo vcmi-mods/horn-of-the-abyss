@@ -45,7 +45,7 @@
 		],
 
 		"specialty" : {
-			"creature" : "hota.factory:gunslinger"
+			"creature" : "gunslinger"
 		}
 	}
 }

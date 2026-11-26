@@ -32,7 +32,7 @@
 	},
 	"czech" : {
 		"name" : "Nové objekty",
-		"description" : "Modifikace přidává několik nových objektů vytvořených týmem HotA do VCMI, dostupných na náhodných mapách.",
+		"description" : "Modifikace přidává několik nových objektů vytvořených týmem Horn of the Abyss, které jsou dostupné na náhodných mapách.",
 		"translations" : [
 			"translation/czech.json"
 		]
@@ -118,10 +118,11 @@
 		"config/hotaMapObjects/altarOfMana.json",
 		"config/hotaMapObjects/hillFort.json",
 		"config/hotaMapObjects/questGate.json",
-		"config/hotaMapObjects/seafaringAcademy",
-		"config/hotaMapObjects/skeletonTransformer",
-		"config/hotaMapObjects/templeOfLoyalty",
-		"config/hotaMapObjects/townGate"
+		"config/hotaMapObjects/seafaringAcademy.json",
+		"config/hotaMapObjects/skeletonTransformer.json",
+		"config/hotaMapObjects/templeOfLoyalty.json",
+		"config/hotaMapObjects/townGate.json",
+		"config/hotaMapObjects/waterWheel.json"
 	],
 	"spells" : [
 		"config/hotaMapObjects/spells/townGateHelper.json"
@@ -132,7 +133,7 @@
 				"creatureBankChurchyard" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
-					"attackerCommander" : 86,
+					"attackerCommander" : 59,
 					"defenderCommander" : 83,
 					"attackerUnits" : [
 						57,
@@ -156,7 +157,7 @@
 				"creatureBankSpit" : {
 					"tacticsAllowed" : false,
 					"obstaclesAllowed" : false,
-					"attackerCommander" : 86,
+					"attackerCommander" : 59,
 					"defenderCommander" : 83,
 					"attackerUnits" : [
 						57,
@@ -200,6 +201,16 @@
 	"vietnamese" : {
 		"translations" : [
 			"translation/vietnamese.json"
+		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
+	},
+	"faroese" : {
+		"translations" : [
+			"translation/faroese.json"
 		]
 	}
 }

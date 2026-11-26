@@ -49,7 +49,7 @@
 		],
 
 		"specialty" : {
-			"creature" : "hota.factory:hotaMechanic"
+			"creature" : "hotaMechanic"
 		}
 	}
 }

@@ -1,11 +1,7 @@
 {
 	"core:solmyr" : {
 		"specialty" : {
-			"bonuses" : {
-				"chainLightning" : {
-					"val" : 5
-				}
-			}
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {

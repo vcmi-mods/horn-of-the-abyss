@@ -52,7 +52,7 @@
 								"type" : "BASE_TILE_MOVEMENT_COST",
 								"val" : 75,
 								"duration" : "ONE_WEEK",
-								"valueType" : "INDEPENDENT_MAX",
+								"valueType" : "AT_LEAST",
 								"limiters" : [
 									{
 										"type" : "TERRAIN_LIMITER",

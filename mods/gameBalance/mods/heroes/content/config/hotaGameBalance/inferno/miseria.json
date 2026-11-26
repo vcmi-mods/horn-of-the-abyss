@@ -1,11 +1,7 @@
 {
 	"hota.heroes:miseria" : {
 		"specialty" : {
-			"bonuses" : {
-				"resurrection" : {
-					"val" : 5
-				}
-			}
+			"spellScalingVal" : 5
 		},
 		"texts" : {
 			"specialty" : {

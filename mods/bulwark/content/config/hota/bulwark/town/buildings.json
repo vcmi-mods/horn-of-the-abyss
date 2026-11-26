@@ -60,8 +60,7 @@
 						"ore" : 10
 					},
 					"fortifications" : {
-						// should be uncommented, but currently buggy - sets health to 1 instead
-						// "wallsHealth" : 4,
+						"wallsHealth" : 4,
 						"upperTowerHealth" : 3,
 						"lowerTowerHealth" : 3
 					}
@@ -232,23 +231,11 @@
 						{
 							"propagator" : "PLAYER",
 							"val" : 1,
-							"type" : "RUNE_LEVEL_COUNTER",
+							"type" : "STARTING_RUNE_LEVEL",
 							"limiters" : [
 								"CREATURES_ONLY"
 							],
 							"hidden" : true
-						},
-						{
-							"propagator" : "PLAYER",
-							"type" : "YETI_RUNE_LEVEL_COUNTER",
-							"val" : 1,
-							"limiters" : [
-								{
-									"type" : "CREATURE_TYPE_LIMITER",
-									"creature" : "yetiRunemaster",
-									"includeUpgrades" : false
-								}
-							]
 						}
 					]
 				},
@@ -277,7 +264,7 @@
 					"bonuses" : [
 						{
 							"type" : "PRIMARY_SKILL",
-							"subtype" : "primarySkill.defence",
+							"subtype" : "defence",
 							"val" : 20
 						}
 					]

@@ -2,839 +2,672 @@
 	"basepath" : "artifact/",
 	"images" : [
 		{
-			"group" : 0,
 			"frame" : 0,
-			"file" : "ArtIm000.png"
+			"file" : "artifactA000.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 1,
-			"file" : "ArtIm001.png"
+			"file" : "artifactA001.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 2,
-			"file" : "ArtIm002.png"
+			"file" : "artifactA002.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 3,
-			"file" : "ArtIm003.png"
+			"file" : "artifactA003.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 4,
-			"file" : "ArtIm004.png"
+			"file" : "artifactA004.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 5,
-			"file" : "ArtIm005.png"
+			"file" : "artifactA005.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 6,
-			"file" : "ArtIm006.png"
+			"file" : "artifactA006.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 7,
-			"file" : "ArtIm007.png"
+			"file" : "artifactA007.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 8,
-			"file" : "ArtIm008.png"
+			"file" : "artifactA008.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 9,
-			"file" : "ArtIm009.png"
+			"file" : "artifactA009.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 10,
-			"file" : "ArtIm010.png"
+			"file" : "artifactA010.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 11,
-			"file" : "ArtIm011.png"
+			"file" : "artifactA011.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 12,
-			"file" : "ArtIm012.png"
+			"file" : "artifactA012.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 13,
-			"file" : "ArtIm013.png"
+			"file" : "artifactA013.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 14,
-			"file" : "ArtIm014.png"
+			"file" : "artifactA014.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 15,
-			"file" : "ArtIm015.png"
+			"file" : "artifactA015.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 16,
-			"file" : "ArtIm016.png"
+			"file" : "artifactA016.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 17,
-			"file" : "ArtIm017.png"
+			"file" : "artifactA017.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 18,
-			"file" : "ArtIm018.png"
+			"file" : "artifactA018.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 19,
-			"file" : "ArtIm019.png"
+			"file" : "artifactA019.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 20,
-			"file" : "ArtIm020.png"
+			"file" : "artifactA020.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 21,
-			"file" : "ArtIm021.png"
+			"file" : "artifactA021.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 22,
-			"file" : "ArtIm022.png"
+			"file" : "artifactA022.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 23,
-			"file" : "ArtIm023.png"
+			"file" : "artifactA023.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 24,
-			"file" : "ArtIm024.png"
+			"file" : "artifactA024.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 25,
-			"file" : "ArtIm025.png"
+			"file" : "artifactA025.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 26,
-			"file" : "ArtIm026.png"
+			"file" : "artifactA026.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 27,
-			"file" : "ArtIm027.png"
+			"file" : "artifactA027.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 28,
-			"file" : "ArtIm028.png"
+			"file" : "artifactA028.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 29,
-			"file" : "ArtIm029.png"
+			"file" : "artifactA029.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 30,
-			"file" : "ArtIm030.png"
+			"file" : "artifactA030.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 31,
-			"file" : "ArtIm031.png"
+			"file" : "artifactA031.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 32,
-			"file" : "ArtIm032.png"
+			"file" : "artifactA032.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 33,
-			"file" : "ArtIm033.png"
+			"file" : "artifactA033.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 34,
-			"file" : "ArtIm034.png"
+			"file" : "artifactA034.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 35,
-			"file" : "ArtIm035.png"
+			"file" : "artifactA035.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 36,
-			"file" : "ArtIm036.png"
+			"file" : "artifactA036.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 37,
-			"file" : "ArtIm037.png"
+			"file" : "artifactA037.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 38,
-			"file" : "ArtIm038.png"
+			"file" : "artifactA038.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 39,
-			"file" : "ArtIm039.png"
+			"file" : "artifactA039.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 40,
-			"file" : "ArtIm040.png"
+			"file" : "artifactA040.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 41,
-			"file" : "ArtIm041.png"
+			"file" : "artifactA041.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 42,
-			"file" : "ArtIm042.png"
+			"file" : "artifactA042.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 43,
-			"file" : "ArtIm043.png"
+			"file" : "artifactA043.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 44,
-			"file" : "ArtIm044.png"
+			"file" : "artifactA044.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 45,
-			"file" : "ArtIm045.png"
+			"file" : "artifactA045.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 46,
-			"file" : "ArtIm046.png"
+			"file" : "artifactA046.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 47,
-			"file" : "ArtIm047.png"
+			"file" : "artifactA047.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 48,
-			"file" : "ArtIm048.png"
+			"file" : "artifactA048.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 49,
-			"file" : "ArtIm049.png"
+			"file" : "artifactA049.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 50,
-			"file" : "ArtIm050.png"
+			"file" : "artifactA050.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 51,
-			"file" : "ArtIm051.png"
+			"file" : "artifactA051.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 52,
-			"file" : "ArtIm052.png"
+			"file" : "artifactA052.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 53,
-			"file" : "ArtIm053.png"
+			"file" : "artifactA053.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 54,
-			"file" : "ArtIm054.png"
+			"file" : "artifactA054.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 55,
-			"file" : "ArtIm055.png"
+			"file" : "artifactA055.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 56,
-			"file" : "ArtIm056.png"
+			"file" : "artifactA056.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 57,
-			"file" : "ArtIm057.png"
+			"file" : "artifactA057.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 58,
-			"file" : "ArtIm058.png"
+			"file" : "artifactA058.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 59,
-			"file" : "ArtIm059.png"
+			"file" : "artifactA059.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 60,
-			"file" : "ArtIm060.png"
+			"file" : "artifactA060.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 61,
-			"file" : "ArtIm061.png"
+			"file" : "artifactA061.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 62,
-			"file" : "ArtIm062.png"
+			"file" : "artifactA062.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 63,
-			"file" : "ArtIm063.png"
+			"file" : "artifactA063.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 64,
-			"file" : "ArtIm064.png"
+			"file" : "artifactA064.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 65,
-			"file" : "ArtIm065.png"
+			"file" : "artifactA065.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 66,
-			"file" : "ArtIm066.png"
+			"file" : "artifactA066.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 67,
-			"file" : "ArtIm067.png"
+			"file" : "artifactA067.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 68,
-			"file" : "ArtIm068.png"
+			"file" : "artifactA068.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 69,
-			"file" : "ArtIm069.png"
+			"file" : "artifactA069.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 70,
-			"file" : "ArtIm070.png"
+			"file" : "artifactA070.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 71,
-			"file" : "ArtIm071.png"
+			"file" : "artifactA071.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 72,
-			"file" : "ArtIm072.png"
+			"file" : "artifactA072.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 73,
-			"file" : "ArtIm073.png"
+			"file" : "artifactA073.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 74,
-			"file" : "ArtIm074.png"
+			"file" : "artifactA074.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 75,
-			"file" : "ArtIm075.png"
+			"file" : "artifactA075.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 76,
-			"file" : "ArtIm076.png"
+			"file" : "artifactA076.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 77,
-			"file" : "ArtIm077.png"
+			"file" : "artifactA077.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 78,
-			"file" : "ArtIm078.png"
+			"file" : "artifactA078.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 79,
-			"file" : "ArtIm079.png"
+			"file" : "artifactA079.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 80,
-			"file" : "ArtIm080.png"
+			"file" : "artifactA080.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 81,
-			"file" : "ArtIm081.png"
+			"file" : "artifactA081.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 82,
-			"file" : "ArtIm082.png"
+			"file" : "artifactA082.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 83,
-			"file" : "ArtIm083.png"
+			"file" : "artifactA083.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 84,
-			"file" : "ArtIm084.png"
+			"file" : "artifactA084.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 85,
-			"file" : "ArtIm085.png"
+			"file" : "artifactA085.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 86,
-			"file" : "ArtIm086.png"
+			"file" : "artifactA086.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 87,
-			"file" : "ArtIm087.png"
+			"file" : "artifactA087.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 88,
-			"file" : "ArtIm088.png"
+			"file" : "artifactA088.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 89,
-			"file" : "ArtIm089.png"
+			"file" : "artifactA089.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 90,
-			"file" : "ArtIm090.png"
+			"file" : "artifactA090.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 91,
-			"file" : "ArtIm091.png"
+			"file" : "artifactA091.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 92,
-			"file" : "ArtIm092.png"
+			"file" : "artifactA092.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 93,
-			"file" : "ArtIm093.png"
+			"file" : "artifactA093.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 94,
-			"file" : "ArtIm094.png"
+			"file" : "artifactA094.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 95,
-			"file" : "ArtIm095.png"
+			"file" : "artifactA095.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 96,
-			"file" : "ArtIm096.png"
+			"file" : "artifactA096.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 97,
-			"file" : "ArtIm097.png"
+			"file" : "artifactA097.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 98,
-			"file" : "ArtIm098.png"
+			"file" : "artifactA098.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 99,
-			"file" : "ArtIm099.png"
+			"file" : "artifactA099.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 100,
-			"file" : "ArtIm100.png"
+			"file" : "artifactA100.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 101,
-			"file" : "ArtIm101.png"
+			"file" : "artifactA101.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 102,
-			"file" : "ArtIm102.png"
+			"file" : "artifactA102.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 103,
-			"file" : "ArtIm103.png"
+			"file" : "artifactA103.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 104,
-			"file" : "ArtIm104.png"
+			"file" : "artifactA104.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 105,
-			"file" : "ArtIm105.png"
+			"file" : "artifactA105.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 106,
-			"file" : "ArtIm106.png"
+			"file" : "artifactA106.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 107,
-			"file" : "ArtIm107.png"
+			"file" : "artifactA107.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 108,
-			"file" : "ArtIm108.png"
+			"file" : "artifactA108.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 109,
-			"file" : "ArtIm109.png"
+			"file" : "artifactA109.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 110,
-			"file" : "ArtIm110.png"
+			"file" : "artifactA110.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 111,
-			"file" : "ArtIm111.png"
+			"file" : "artifactA111.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 112,
-			"file" : "ArtIm112.png"
+			"file" : "artifactA112.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 113,
-			"file" : "ArtIm113.png"
+			"file" : "artifactA113.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 114,
-			"file" : "ArtIm114.png"
+			"file" : "artifactA114.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 115,
-			"file" : "ArtIm115.png"
+			"file" : "artifactA115.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 116,
-			"file" : "ArtIm116.png"
+			"file" : "artifactA116.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 117,
-			"file" : "ArtIm117.png"
+			"file" : "artifactA117.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 118,
-			"file" : "ArtIm118.png"
+			"file" : "artifactA118.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 119,
-			"file" : "ArtIm119.png"
+			"file" : "artifactA119.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 120,
-			"file" : "ArtIm120.png"
+			"file" : "artifactA120.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 121,
-			"file" : "ArtIm121.png"
+			"file" : "artifactA121.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 122,
-			"file" : "ArtIm122.png"
+			"file" : "artifactA122.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 123,
-			"file" : "ArtIm123.png"
+			"file" : "artifactA123.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 124,
-			"file" : "ArtIm124.png"
+			"file" : "artifactA124.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 125,
-			"file" : "ArtIm125.png"
+			"file" : "artifactA125.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 126,
-			"file" : "ArtIm126.png"
+			"file" : "artifactA126.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 127,
-			"file" : "ArtIm127.png"
+			"file" : "artifactA127.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 128,
-			"file" : "ArtIm128.png"
+			"file" : "artifactA128.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 129,
-			"file" : "ArtIm129.png"
+			"file" : "artifactA129.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 130,
-			"file" : "ArtIm130.png"
+			"file" : "artifactA130.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 131,
-			"file" : "ArtIm131.png"
+			"file" : "artifactA131.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 132,
-			"file" : "ArtIm132.png"
+			"file" : "artifactA132.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 133,
-			"file" : "ArtIm133.png"
+			"file" : "artifactA133.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 134,
-			"file" : "ArtIm134.png"
+			"file" : "artifactA134.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 135,
-			"file" : "ArtIm135.png"
+			"file" : "artifactA135.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 136,
-			"file" : "ArtIm136.png"
+			"file" : "artifactA136.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 137,
-			"file" : "ArtIm137.png"
+			"file" : "artifactA137.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 138,
-			"file" : "ArtIm138.png"
+			"file" : "artifactA138.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 139,
-			"file" : "ArtIm139.png"
+			"file" : "artifactA139.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 140,
-			"file" : "ArtIm140.png"
+			"file" : "artifactA140.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 141,
-			"file" : "ArtIm141.png"
+			"file" : "artifactA141.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 142,
-			"file" : "ArtIm142.png"
+			"file" : "artifactA142.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 143,
-			"file" : "ArtIm143.png"
+			"file" : "artifactA143.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 144,
-			"file" : "ArtIm144.png"
+			"file" : "artifact_000.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 145,
-			"file" : "ArtIm145.png"
+			"file" : "artifactA145.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 146,
-			"file" : "ArtIm146.png"
+			"file" : "artifactA146.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 147,
-			"file" : "ArtIm147.png"
+			"file" : "artifactA147.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 148,
-			"file" : "ArtIm148.png"
+			"file" : "artifactA148.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 149,
-			"file" : "ArtIm149.png"
+			"file" : "artifactA149.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 150,
-			"file" : "ArtIm150.png"
+			"file" : "artifactA150.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 151,
-			"file" : "ArtIm151.png"
+			"file" : "artifactA151.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 152,
-			"file" : "ArtIm152.png"
+			"file" : "artifactA152.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 153,
-			"file" : "ArtIm153.png"
+			"file" : "artifactA153.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 154,
-			"file" : "ArtIm154.png"
+			"file" : "artifactA154.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 155,
-			"file" : "ArtIm155.png"
+			"file" : "artifactA155.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 156,
-			"file" : "ArtIm156.png"
+			"file" : "artifactA156.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 157,
-			"file" : "ArtIm157.png"
+			"file" : "artifactA157.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 158,
-			"file" : "ArtIm158.png"
+			"file" : "artifactA158.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 159,
-			"file" : "ArtIm159.png"
+			"file" : "artifactA159.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 160,
-			"file" : "ArtIm160.png"
+			"file" : "artifactA160.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 161,
-			"file" : "ArtIm161.png"
+			"file" : "artifactA161.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 162,
-			"file" : "ArtIm162.png"
+			"file" : "artifactA162.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 163,
-			"file" : "ArtIm163.png"
+			"file" : "artifactA163.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 164,
-			"file" : "ArtIm164.png"
+			"file" : "artifactA164.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 165,
-			"file" : "ArtIm165.png"
+			"file" : "artifactA165.png"
 		},
 		{
-			"group" : 0,
 			"frame" : 166,
-			"file" : "ArtIm166.png"
+			"file" : "artifact_000.png"
 		}
 	]
 }

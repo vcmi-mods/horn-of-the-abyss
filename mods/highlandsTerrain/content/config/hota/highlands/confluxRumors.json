@@ -1,0 +1,54 @@
+{
+	"confluxRumor0" : {
+		"text" : "Phoenixes are the most powerful creature of the Confluxes.",
+		"faction" : "conflux"
+	},
+	"confluxRumor1" : {
+		"text" : "I've heard the residents of the Conflux will summon an Aurora Borealis to honor any hero who brings them the Grail.",
+		"faction" : "conflux"
+	},
+	"confluxRumor2" : {
+		"text" : "Sprites are so fast that no one can hope to retaliate them.",
+		"faction" : "conflux"
+	},
+	"confluxRumor3" : {
+		"text" : "The most powerful Elementals can protect their allies from their very element.",
+		"faction" : "conflux"
+	},
+	"confluxRumor4" : {
+		"text" : "Those who fought Magic Elementals say magic cannot do them harm.",
+		"faction" : "conflux"
+	},
+	"confluxRumor5" : {
+		"text" : "It is said some spells are more effective against Elementals than other ones.",
+		"faction" : "conflux"
+	},
+	"confluxRumor6" : {
+		"text" : "Phoenixes are not the most powerful creatures, but they are the only ones who can rise from the ashes.",
+		"faction" : "conflux"
+	},
+	"confluxRumor7" : {
+		"text" : "Psychic and Magic Elementals are capable of fighting with a plenty of foes at once.",
+		"faction" : "conflux"
+	},
+	"confluxRumor8" : {
+		"text" : "The attacks of Elementals are particularly dangerous for the Elementals belonging to the opposite element.",
+		"faction" : "conflux"
+	},
+	"confluxRumor9" : {
+		"text" : "It can be hard to find teachers who are able to teach you elemental magic, but in the University of Conflux you can learn the magic of any element.",
+		"faction" : "conflux"
+	},
+	"confluxRumor10" : {
+		"text" : "Traveling the highlands, remember about the Hermits living there. It is said they can teach to striding heroes many things.",
+		"faction" : "conflux"
+	},
+	"confluxRumor11" : {
+		"text" : "The Conflux Elementals obey to the four Elemental Lords.",
+		"faction" : "conflux"
+	},
+	"confluxRumor12" : {
+		"text" : "I have heard many centuries ago Elementals invaded the lands of Erathia.",
+		"faction" : "conflux"
+	}
+}

@@ -36,33 +36,25 @@
 			"base" : {
 				"cost" : 5,
 				"range" : "0",
-				"power" : 1, //base dmg
+				"power" : 1,
 				"targetModifier" : {
 					"smart" : true
 				},
-				"description" : "IMMOLATION DAMAGE",
+				"description" : "",
 
 				"battleEffects" : {
 					"directDamage" : {
-						"type" : "core:damage",
+						"type" : "damage",
 						"killByCount" : true
-						//						"val" : 1,
-						//						"valueType" : "INDEPENDENT_MIN"
 					}
 				}
 			},
 			"none" : {
 				"description" : "IMMOLATION DAMAGE"
 			},
-			"basic" : {
-				"description" : "IMMOLATION DAMAGE"
-			},
-			"advanced" : {
-				"description" : "IMMOLATION DAMAGE"
-			},
-			"expert" : {
-				"description" : "IMMOLATION DAMAGE"
-			}
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

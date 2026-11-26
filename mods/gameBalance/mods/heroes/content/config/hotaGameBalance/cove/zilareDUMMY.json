@@ -1,5 +1,0 @@
-// [+] Increases the number of units affected by Forgetfulness in the target stack by 10% for every N hero levels, where N is the level of the target creature.
-// author's note: I think FORGETFULL is hard-coded :(
-{
-	"hota.cove:17zilare" : {}
-}

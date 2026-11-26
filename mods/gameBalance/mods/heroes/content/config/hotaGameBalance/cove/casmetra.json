@@ -1,5 +1,8 @@
 {
 	"hota.cove:12casmetra" : {
+		"specialty" : {
+			"stepSize" : 20
+		},
 		"texts" : {
 			"specialty" : {
 				"description" : "Increases the Speed of any Sea Witches or Sorceresses by 1 and their Attack and Defense skills by 20% for every 5 levels (rounded up)."

@@ -1,0 +1,9 @@
+{
+	"vcmi:Clash of Dragons" : {
+		"settings" : {
+			"artifacts" : {
+				"disabledCombinations" : []
+			}
+		}
+	}
+}

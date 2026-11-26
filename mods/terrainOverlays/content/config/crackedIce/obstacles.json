@@ -11,7 +11,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_ci002" : {
 		"specialBattlefields" : [
@@ -25,7 +26,8 @@
 		"blockedTiles" : [
 			0,
 			1
-		]
+		],
+		"foreground" : true
 	},
 	"ob_ci003" : {
 		"specialBattlefields" : [
@@ -40,6 +42,7 @@
 			1,
 			2,
 			3
-		]
+		],
+		"foreground" : true
 	}
 }

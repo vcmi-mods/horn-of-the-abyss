@@ -98,5 +98,15 @@
 		"translations" : [
 			"translation/vietnamese.json"
 		]
+	},
+	"tchinese" : {
+		"translations" : [
+			"translation/tchinese.json"
+		]
+	},
+	"faroese" : {
+		"translations" : [
+			"translation/faroese.json"
+		]
 	}
 }

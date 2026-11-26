@@ -1,0 +1,17 @@
+{
+	"hota.supplementary:fangOfTheLastScream" : {
+		"bonuses" : {
+			"spell" : {
+				"addInfo" : [
+					10,
+					10,
+					8,
+					8,
+					6,
+					6,
+					4
+				]
+			}
+		}
+	}
+}

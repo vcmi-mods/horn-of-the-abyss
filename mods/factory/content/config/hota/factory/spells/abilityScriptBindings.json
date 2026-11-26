@@ -1,0 +1,100 @@
+{
+	"automatonDetonation" : {
+		"implements" : "combatEvent",
+		"script" : "combat/automatonDetonation.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {},
+			"additionalProperties" : false
+		},
+		// Execute after resurrection handlers.
+		"priority" : 100,
+		"description" : ""
+	},
+	"heatStroke" : {
+		"implements" : "spellEffect",
+		"script" : "spells/heatstroke.lua",
+		"patches" : [],
+		"schema" : {
+			"required" : [
+				"hoverText",
+				"blockedText"
+			],
+			"properties" : {
+				"type" : {},
+				"hoverText" : {
+					"type" : "string"
+				},
+				"blockedText" : {
+					"type" : "string"
+				}
+			},
+			"additionalProperties" : false
+		},
+		"stringRegistrations" : [
+			"hoverText",
+			"blockedText"
+		]
+	},
+	"attachSelfCastAbility" : {
+		"implements" : "spellEffect",
+		"script" : "spells/attachSelfCastAbility.lua",
+		"patches" : [],
+		"schema" : {
+			"properties" : {
+				"type" : {},
+				"battleLogSingular" : {
+					"type" : "string"
+				},
+				"battleLogPlural" : {
+					"type" : "string"
+				},
+				"bonus" : {
+					"additionalProperties" : {
+						"$ref" : "bonusInstance.json"
+					}
+				}
+			},
+			"additionalProperties" : false
+		},
+		"stringRegistrations" : [
+			"battleLogSingular",
+			"battleLogPlural"
+		]
+	},
+	"hotaRepair" : {
+		"implements" : "spellEffect",
+		"script" : "spells/hotaRepair",
+		"patches" : [],
+		"stringRegistrations" : [
+			"messageSingular",
+			"messagePlural",
+			"messageResurrectSingular",
+			"messageResurrectPlural"
+		],
+		"schema" : {
+			"required" : [
+				"messageSingular",
+				"messagePlural",
+				"messageResurrectSingular",
+				"messageResurrectPlural"
+			],
+			"properties" : {
+				"type" : {},
+				"messageSingular" : {
+					"type" : "string"
+				},
+				"messagePlural" : {
+					"type" : "string"
+				},
+				"messageResurrectSingular" : {
+					"type" : "string"
+				},
+				"messageResurrectPlural" : {
+					"type" : "string"
+				}
+			},
+			"additionalProperties" : false
+		}
+	}
+}

@@ -84,6 +84,8 @@
 
 	// disable resistance
 	"core:resistance" : {
-		"special" : true
+		"tags" : {
+			"special" : true
+		}
 	}
 }

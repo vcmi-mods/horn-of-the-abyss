@@ -4,8 +4,7 @@
 			"lightningStorm" : {
 				"subtype" : "teslaLightning",
 				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
+				"addInfo" : 1,
 				"hidden" : true
 			}
 		}

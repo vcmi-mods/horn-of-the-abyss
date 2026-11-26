@@ -15,6 +15,13 @@
 	"softDepends" : [
 		"wake-of-gods.woggraphicfix.wf_mapobjects"
 	],
+	"biomes" : [
+		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
+		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
+	],
+	"factions" : [
+		"config/hotaMapDecorations/boatsToFactions.json"
+	],
 	"objects" : [
 		"config/hotaMapDecorations/hotaInteractive/boats.json",
 		"config/hotaMapDecorations/hotaInteractive/monolithOneWayEntrance.json",
@@ -77,7 +84,6 @@
 		"config/hotaMapDecorations/vanillaInteractive/treeOfKnowledge.json",
 		"config/hotaMapDecorations/vanillaInteractive/verticalGarrizon.json",
 		"config/hotaMapDecorations/vanillaInteractive/wagon.json",
-		"config/hotaMapDecorations/vanillaInteractive/waterWheel.json",
 		"config/hotaMapDecorations/vanillaInteractive/witchHut.json",
 		"config/hotaMapDecorations/vanillaStatic/bushes.json",
 		"config/hotaMapDecorations/vanillaStatic/cactus.json",
@@ -98,10 +104,6 @@
 		"config/hotaMapDecorations/vanillaStatic/shrub.json",
 		"config/hotaMapDecorations/vanillaStatic/trees.json",
 		"config/hotaMapDecorations/vanillaStatic/volcano.json"
-	],
-	"biomes" : [
-		"config/hotaMapDecorations/hotaStatic/hotaStaticBiomes.json",
-		"config/hotaMapDecorations/vanillaStatic/vanillaStaticBiomes.json"
 	],
 
 	"chinese" : {

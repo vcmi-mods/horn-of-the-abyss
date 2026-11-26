@@ -1,11 +1,7 @@
 {
 	"hota.cove:16manfred" : {
 		"specialty" : {
-			"bonuses" : {
-				"fireball" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

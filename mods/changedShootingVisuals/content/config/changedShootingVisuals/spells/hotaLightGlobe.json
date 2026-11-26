@@ -1,7 +1,7 @@
 {
 	"hotaLightGlobe" : {
 		"type" : "ability",
-		"name" : "Monk Visuals",
+		"name" : "",
 		"school" : {},
 		"targetType" : "CREATURE",
 		"flags" : {
@@ -24,17 +24,21 @@
 		},
 		"graphics" : {},
 		"levels" : {
-			"none" : {
+			"base" : {
 				"range" : "0",
 				"power" : 0,
 				"cost" : 0,
 				"battleEffects" : {
 					"damage" : {
-						"type" : "core:damage"
+						"type" : "damage"
 					}
 				},
-				"description" : "not shown"
-			}
+				"description" : ""
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

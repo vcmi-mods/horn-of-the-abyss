@@ -23,13 +23,13 @@
 						"limiter" : {
 							"daysPassed" : 8
 						},
-						"message" : "{Derrick}\n\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time - come for your share in a week.\"",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.8",
 						"resources" : {
 							"gold" : 1000
 						}
 					},
 					{
-						"message" : "{Derrick}\n\nThe drilling foreman rolls out a cart of valuables. \"We managed to sell our yield at a healthy profit. Hope we'll take in at least as much the next time - come for your share in a week.\"",
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.8",
 						"resources" : {
 							"gold" : 500
 						}
@@ -39,7 +39,7 @@
 				"visitMode" : "once",
 				"selectMode" : "selectFirst",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true
 				},
 				"templates" : {

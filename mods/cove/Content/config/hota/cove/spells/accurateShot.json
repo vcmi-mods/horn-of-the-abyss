@@ -22,18 +22,22 @@
 		},
 		"graphics" : {},
 		"levels" : {
-			"none" : {
+			"base" : {
 				"battleEffects" : {
 					"destruction" : {
-						"type" : "core:damage",
+						"type" : "damage",
 						"killByCount" : true
 					}
 				},
 				"range" : "0",
-				"description" : "not shown",
+				"description" : "",
 				"power" : 1,
 				"cost" : 0
-			}
+			},
+			"none" : {},
+			"basic" : {},
+			"advanced" : {},
+			"expert" : {}
 		}
 	}
 }

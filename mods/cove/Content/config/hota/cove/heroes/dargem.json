@@ -35,13 +35,7 @@
 			}
 		],
 		"specialty" : {
-			"bonuses" : {
-				"airShield" : {
-					"type" : "SPECIAL_PECULIAR_ENCHANT",
-					"subtype" : "spell.airShield",
-					"addInfo" : 0
-				}
-			}
+			"spellScalingPercentage" : "airShield"
 		},
 		"spellbook" : [
 			"airShield"

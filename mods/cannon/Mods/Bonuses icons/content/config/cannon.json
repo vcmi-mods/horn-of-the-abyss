@@ -2,16 +2,15 @@
 	"hota.cannon:cannon" : {
 		"abilities" : {
 			"warMachine" : {
-				"icon" : "bonuses/ballista.png",
+				"icon" : "hota/bonuses/ballista.png",
 				"description" : "{War Machine}\nA missile weapon that shoots projectiles towards enemy troops."
 			},
 			"canShootWalls" : {
 				"icon" : "bonuses/catapult.png"
 			},
-			"dummyIcon" : {
-				"type" : "NONE",
-				"icon" : "bonuses/noretaliation.png",
-				"description" : "{War Machine}\nWar machine is unable to retaliate against attacks."
+			"noRetaliation" : {
+				"icon" : "hota/bonuses/noretaliation.png",
+				"description" : "{Cannot Retaliate}\nWar machine is unable to retaliate against attacks."
 			}
 		}
 	}

@@ -79,7 +79,7 @@
 						"secondary" : {
 							"pathfinding" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -100,7 +100,7 @@
 						"secondary" : {
 							"archery" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -121,7 +121,7 @@
 						"secondary" : {
 							"logistics" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -142,7 +142,7 @@
 						"secondary" : {
 							"scouting" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -163,7 +163,7 @@
 						"secondary" : {
 							"diplomacy" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -184,7 +184,7 @@
 						"secondary" : {
 							"navigation" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -205,7 +205,7 @@
 						"secondary" : {
 							"leadership" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -226,7 +226,7 @@
 						"secondary" : {
 							"wisdom" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -247,7 +247,7 @@
 						"secondary" : {
 							"mysticism" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -268,7 +268,7 @@
 						"secondary" : {
 							"luck" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -289,7 +289,7 @@
 						"secondary" : {
 							"ballistics" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -310,7 +310,7 @@
 						"secondary" : {
 							"eagleEye" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -331,7 +331,7 @@
 						"secondary" : {
 							"necromancy" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -352,7 +352,7 @@
 						"secondary" : {
 							"estates" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -373,7 +373,7 @@
 						"secondary" : {
 							"fireMagic" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -394,7 +394,7 @@
 						"secondary" : {
 							"airMagic" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -415,7 +415,7 @@
 						"secondary" : {
 							"waterMagic" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -436,7 +436,7 @@
 						"secondary" : {
 							"earthMagic" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -457,7 +457,7 @@
 						"secondary" : {
 							"scholar" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -478,7 +478,7 @@
 						"secondary" : {
 							"tactics" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -499,7 +499,7 @@
 						"secondary" : {
 							"artillery" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -520,7 +520,7 @@
 						"secondary" : {
 							"learning" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -541,7 +541,7 @@
 						"secondary" : {
 							"offence" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -562,7 +562,7 @@
 						"secondary" : {
 							"armorer" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -583,7 +583,7 @@
 						"secondary" : {
 							"intelligence" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -604,7 +604,7 @@
 						"secondary" : {
 							"sorcery" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -625,7 +625,7 @@
 						"secondary" : {
 							"resistance" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					},
 					{
 						"limiter" : {
@@ -646,7 +646,7 @@
 						"secondary" : {
 							"firstAid" : 1
 						},
-						"message" : "{Hermit's Shack}\n\nOn entering the shack you see nobody home, but the walls appear lined with pages from scholarly books. You copy some useful informations from a sheet near the fireplace."
+						"message" : "@core.bonus.HOTA_STRING_LIBRARY.description.0"
 					}
 				]
 			}

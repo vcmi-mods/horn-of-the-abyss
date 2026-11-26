@@ -1,11 +1,7 @@
 {
 	"hota.factory:16ziph" : {
 		"specialty" : {
-			"bonuses" : {
-				"lightningBolt" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

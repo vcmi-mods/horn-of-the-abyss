@@ -17,8 +17,8 @@
 		"description" : "这个模组为元素城添加了一个新建筑：灰烬穹顶，使火鸟和凤凰的产量+1。"
 	},
 	"czech" : {
-		"name" : "Soutok - Síň uren",
-		"description" : "Tato modifikace přidává novou budovu do Soutoku. Síň uren zvyšuje produkci Ohniváků a Fénixů o 1 týdně."
+		"name" : "Síň uren",
+		"description" : "Přidává do Soutoku Síň uren, která zvyšuje týdenní přírůstek ohniváků a fénixů o 1."
 	},
 	"french" : {
 		"name" : "Conflux - Coffre-fort des cendres",

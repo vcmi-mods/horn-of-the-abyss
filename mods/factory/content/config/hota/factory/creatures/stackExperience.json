@@ -94,8 +94,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "slayer"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
@@ -113,7 +116,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
@@ -281,8 +284,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					1,
@@ -412,8 +418,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "airShield"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "airShield"
+					}
 				},
 				"values" : [
 					1,
@@ -1253,8 +1262,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "slayer"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
@@ -1272,7 +1284,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},
@@ -1423,8 +1435,11 @@
 			},
 			{
 				"bonus" : {
-					"type" : "ENCHANTED",
-					"subtype" : "slayer"
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"subtype" : "enchanted",
+					"addInfo" : {
+						"spell" : "slayer"
+					}
 				},
 				"values" : [
 					0,
@@ -1442,7 +1457,7 @@
 			{
 				"bonus" : {
 					"type" : "FEARFUL",
-					"valueType" : "INDEPENDENT_MIN",
+					"valueType" : "AT_MOST",
 					"description" : "PLACEHOLDER",
 					"val" : 0
 				},

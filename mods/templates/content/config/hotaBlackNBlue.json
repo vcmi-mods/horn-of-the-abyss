@@ -599,7 +599,7 @@
 								"value" : 750,
 								"zoneLimit" : 1
 							},
-							"subtype" : "waterWheel",
+							"subtype" : "hotaWaterWheel",
 							"type" : "core:waterWheel"
 						},
 						{
@@ -1138,7 +1138,7 @@
 								"value" : 750,
 								"zoneLimit" : 1
 							},
-							"subtype" : "waterWheel",
+							"subtype" : "hotaWaterWheel",
 							"type" : "core:waterWheel"
 						},
 						{

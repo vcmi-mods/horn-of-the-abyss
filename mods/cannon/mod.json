@@ -21,7 +21,8 @@
 		"config/hotaCannon/artillery.json"
 	],
 	"spells" : [
-		"config/hotaCannon/cannonSiegeShot.json"
+		"config/hotaCannon/cannonSiegeShot.json",
+		"config/hotaCannon/spellChanges.json"
 	],
 
 	"chinese" : {
@@ -30,7 +31,7 @@
 	},
 	"czech" : {
 		"name" : "Dělo",
-		"description" : "Přidává nový válečný stroj - Dělo. Dělo lze zakoupit ve Zbojovce"
+		"description" : "Přidává dělo, nový válečný stroj, který lze zakoupit ve Zbrojovce na mapě dobrodružství."
 	},
 	"french" : {
 		"name" : "Canon",

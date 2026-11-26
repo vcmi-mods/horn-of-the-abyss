@@ -1,0 +1,11 @@
+{
+	"core.bonus.GATLING_COUNTER.description" : "Pokud se zobrazuje tento text, došlo k chybě počítadla GATLING_COUNTER.",
+	"core.bonus.GATLING_COUNTER.description.0" : "{Rychlopalba}\nPočet útoků: {1}",
+	"core.bonus.GATLING_COUNTER.description.1" : "{Rychlopalba}\nPočet útoků: {2}",
+	"core.bonus.GATLING_COUNTER.description.2" : "{Rychlopalba}\nPočet útoků: {3}",
+	"core.bonus.GATLING_COUNTER.description.3" : "{Rychlopalba}\nPočet útoků: {4}",
+	"core.bonus.GATLING_COUNTER.description.4" : "{Rychlopalba}\nPočet útoků: {5}",
+	"hero.hota.factory.08morton.specialty.description" : "Zvyšuje útok a obranu všech balist o 5% za každých 5 úrovní hrdiny a všech Gatlingových kulometů o 5% za každých 6 úrovní hrdiny (zaokrouhleno nahoru).",
+	"hero.hota.factory.08morton.specialty.name" : "Válečné stroje",
+	"hero.hota.factory.08morton.specialty.tooltip" : "Artilerie bonus: Válečné stroje"
+}

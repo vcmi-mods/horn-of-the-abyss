@@ -2,7 +2,7 @@
 	"cannonSiegeShot" : {
 		"targetType" : "LOCATION",
 		"type" : "ability",
-		"name" : "Cannon",
+		"name" : "",
 		"school" : {},
 		"level" : 1,
 		"power" : 1,
@@ -14,7 +14,7 @@
 		"gainChance" : {},
 		"levels" : {
 			"base" : {
-				"description" : "Cannon Siege Shot",
+				"description" : "",
 				"power" : 1,
 				"cost" : 0,
 				"targetModifier" : {
@@ -23,7 +23,7 @@
 				"battleEffects" : {
 					"catapult" : {
 						"targetsToAttack" : 1,
-						"type" : "core:catapult"
+						"type" : "catapult"
 					}
 				},
 				"range" : "0"

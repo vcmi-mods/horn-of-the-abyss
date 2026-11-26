@@ -1,11 +1,7 @@
 {
 	"hota.bulwark:10glacius" : {
 		"specialty" : {
-			"bonuses" : {
-				"frostRing" : {
-					"val" : 10
-				}
-			}
+			"spellScalingVal" : 10
 		},
 		"texts" : {
 			"specialty" : {

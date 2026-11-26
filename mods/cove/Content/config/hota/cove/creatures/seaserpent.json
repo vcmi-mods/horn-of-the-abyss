@@ -32,7 +32,7 @@
 		"abilities" : {
 			"poisonous" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.poison",
+				"subtype" : "poison",
 				"val" : 30,
 				"addInfo" : [
 					0,

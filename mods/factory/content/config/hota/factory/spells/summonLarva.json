@@ -32,11 +32,13 @@
 					"demonSummon" : {
 						"id" : "sandwormLarva",
 						"permanent" : false,
-						"type" : "core:demonSummon"
+						"type" : "demonSummon"
 					}
 				}
 			},
-			"none" : {},
+			"none" : {
+				"description" : "{Devour Corpses}\n\nDevours a corpse and raises a Sandworm Larva in its place.\n"
+			},
 			"basic" : {},
 			"advanced" : {},
 			"expert" : {}

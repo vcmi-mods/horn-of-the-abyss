@@ -10,10 +10,7 @@
 			"Added all changed sounds"
 		]
 	},
-	"depends" : [
-		"hota.mapdecorations",
-		"hota.highlandsterrain"
-	],
+	"depends" : [],
 	"conflicts" : [
 		"hd-edition"
 	],
@@ -35,16 +32,13 @@
 		"tides-of-war"
 	],
 	"factions" : [
-		"config/heroes3DataPatch/confluxTerrain.json",
 		"config/heroes3DataPatch/necropolisPuzzle.json",
-		"config/heroes3DataPatch/structures.json",
-		"config/heroes3DataPatch/boats.json"
+		"config/heroes3DataPatch/structures.json"
 	],
 	"creatures" : [
 		"config/heroes3DataPatch/creatures.json"
 	],
 	"objects" : [
-		"config/heroes3DataPatch/objects.json",
 		"config/heroes3DataPatch/dwellings"
 	],
 
@@ -53,8 +47,8 @@
 		"description" : "修复改进一些死亡阴影图像和声音资源。"
 	},
 	"czech" : {
-		"name" : "Oprava grafiky pro Heroes 3",
-		"description" : "Opravy grafiky a zvuků pro některé herní prvky z Heroes 3."
+		"name" : "Oprava grafiky a zvuků",
+		"description" : "Opravuje grafiku a zvuky některých herních prvků z Heroes III."
 	},
 	"french" : {
 		"name" : "Patch de données de Heroes III",

@@ -31,7 +31,7 @@
 			},
 			"castsWeakness" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.weakness",
+				"subtype" : "weakness",
 				"val" : 100,
 				"addInfo" : [
 					2,
@@ -41,7 +41,7 @@
 			},
 			"castsDisruptingRay" : {
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.disruptingRay",
+				"subtype" : "disruptingRay",
 				"val" : 100,
 				"addInfo" : [
 					2,
