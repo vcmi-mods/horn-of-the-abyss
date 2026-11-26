@@ -80,23 +80,16 @@
 			"crates10"
 		]
 	},
-	"barrels" : {
+	"cratesAndBarrels" : {
 		"biome" : {
 			"terrain" : "sand",
-			"objectType" : "other"
-		},
-		"templates" : [
-			"crates02",
-			"crates03"
-		]
-	},
-	"crates" : {
-		"biome" : {
-			"terrain" : "sand",
-			"objectType" : "other"
+			"objectType" : "rock"
 		},
 		"templates" : [
 			"crates01",
+			"crates02",
+			"crates03",
+			"crates04",
 			"crates11",
 			"crates12",
 			"crates13"
