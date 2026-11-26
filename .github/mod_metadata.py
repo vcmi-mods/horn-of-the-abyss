@@ -288,7 +288,7 @@ def version_at_least(ref_name: str, major: int, minor: int) -> bool:
 
 
 # Languages added in VCMI 1.8; older versions reject them in mod.json.
-LANGUAGES_SINCE_1_8 = {"tchinese", "norwegian", "lithuanian"}
+LANGUAGES_SINCE_1_8 = {"tchinese", "norwegian", "lithuanian", "faroese"}
 
 
 def language_supported(language: str) -> bool:
