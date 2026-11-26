@@ -83,7 +83,7 @@
 	"cratesAndBarrels" : {
 		"biome" : {
 			"terrain" : "sand",
-			"objectType" : "other"
+			"objectType" : "rock"
 		},
 		"templates" : [
 			"crates01",
