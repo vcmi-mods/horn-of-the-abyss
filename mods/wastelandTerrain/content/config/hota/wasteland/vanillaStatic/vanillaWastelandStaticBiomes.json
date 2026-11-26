@@ -13,7 +13,6 @@
 			"AVLtRo09",
 			"AVLtRo04",
 			"AVLtRo05",
-			"AVLtRo06",
 			"AVLtRo08",
 			"AVLtRo10",
 			"AVLtRo11",
@@ -35,17 +34,6 @@
 		"biome" : {
 			"terrain" : "wasteland",
 			"objectType" : "rock"
-		},
-		"templates" : [
-			"AVLrws01",
-			"AVLrws02",
-			"AVLrws03"
-		]
-	},
-	"wastelandStone" : {
-		"biome" : {
-			"terrain" : "wasteland",
-			"objectType" : "other"
 		},
 		"templates" : [
 			"AVLrws01",

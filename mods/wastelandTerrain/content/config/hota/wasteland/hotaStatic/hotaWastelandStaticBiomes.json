@@ -21,6 +21,11 @@
 				"wasteland",
 				"sand"
 			],
+			"alignment" : [
+				"none",
+				"evil",
+				"good"
+			],
 			"objectType" : "other"
 		},
 		"templates" : [
