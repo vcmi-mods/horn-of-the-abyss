@@ -20,5 +20,10 @@
 	],
 	"heroes" : [
 		"config/gamebalanceCompat/morton.json"
-	]
+	],
+	"german" : {
+		"translations" : [
+			"translation/german.json"
+		]
+	}
 }
