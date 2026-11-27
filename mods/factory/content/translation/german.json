@@ -1,1 +1,3 @@
-{}
+{
+    "core.bonus.AUTOMATON_EXPLOSION_DAMAGE.description": "{Brisanzsprengstoffe}\nDiese Einheit verursacht bei der Detonation +${val}% Schaden."
+}
