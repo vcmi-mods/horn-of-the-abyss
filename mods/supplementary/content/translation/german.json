@@ -1,1 +1,11 @@
-{}
+{
+    "core.bonus.GATLING_COUNTER.description": "Wenn dies angezeigt wird, ist es ein Bug mit dem GATLING_COUNTER.",
+    "core.bonus.GATLING_COUNTER.description.0": "{Schnellfeuer}\nAktuelle Angriffe: {1}",
+    "core.bonus.GATLING_COUNTER.description.1": "{Schnellfeuer}\nAktuelle Angriffe: {2}",
+    "core.bonus.GATLING_COUNTER.description.2": "{Schnellfeuer}\nAktuelle Angriffe: {3}",
+    "core.bonus.GATLING_COUNTER.description.3": "{Schnellfeuer}\nAktuelle Angriffe: {4}",
+    "core.bonus.GATLING_COUNTER.description.4": "{Schnellfeuer}\nAktuelle Angriffe: {5}",
+    "hero.hota.factory.08morton.specialty.description": "Erhöht Angriff und Verteidigung der Balliste um 5% für je 5 Stufen und die der Gatling-Kanone um 5% für je 6 Stufen (aufgerundet).",
+    "hero.hota.factory.08morton.specialty.name": "Kriegsgeräte",
+    "hero.hota.factory.08morton.specialty.tooltip": "Artilleriebonus: Kriegsgeräte"
+}
