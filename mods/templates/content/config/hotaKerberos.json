@@ -14,6 +14,18 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
+		"customObjects" : {
+			"bannedObjects" : {
+				"core:shrineOfMagicLevel1" : {
+					"hota.mapobjects:shrineOfMagicMystery" : true
+				}
+			}
+		},
 		"zones" : {
 			"1" : {
 				"type" : "playerStart",
@@ -44,14 +56,7 @@
 						"density" : 9
 					}
 				],
-				"matchTerrainToTown" : true,
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					}
-				}
+				"matchTerrainToTown" : true
 			},
 			"2" : {
 				"type" : "playerStart",
@@ -62,7 +67,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -75,7 +79,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -88,7 +91,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -101,7 +103,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -114,7 +115,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -145,8 +145,7 @@
 						"density" : 9
 					}
 				],
-				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1
+				"matchTerrainToTown" : false
 			},
 			"8" : {
 				"type" : "treasure",
@@ -156,7 +155,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 7,
 				"treasureLikeZone" : 7
 			},
@@ -168,7 +166,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 7,
 				"treasureLikeZone" : 7
 			},
@@ -200,8 +197,7 @@
 						"density" : 9
 					}
 				],
-				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1
+				"matchTerrainToTown" : false
 			},
 			"11" : {
 				"type" : "treasure",
@@ -212,7 +208,6 @@
 				},
 				"townsAreSameType" : true,
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 10,
 				"treasureLikeZone" : 10
 			},
@@ -225,7 +220,6 @@
 				},
 				"townsAreSameType" : true,
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 10,
 				"treasureLikeZone" : 10
 			},
@@ -234,7 +228,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"mines" : {
 					"sulfur" : 2
 				},
@@ -245,7 +238,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"mines" : {
 					"gems" : 2
 				},
@@ -256,7 +248,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"mines" : {
 					"mercury" : 2
 				},
@@ -267,7 +258,6 @@
 				"size" : 10,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
 			"17" : {
@@ -275,7 +265,6 @@
 				"size" : 10,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
 			"18" : {
@@ -283,7 +272,6 @@
 				"size" : 10,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
 			"19" : {
@@ -294,7 +282,6 @@
 				"neutralTowns" : {
 					"towns" : 1
 				},
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 15,
 				"treasureLikeZone" : 1
 			},
@@ -306,7 +293,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"mines" : {
 					"crystal" : 2
 				},
@@ -320,7 +306,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 13,
 				"treasureLikeZone" : 1
 			},
@@ -329,7 +314,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 14,
 				"treasureLikeZone" : 1
 			},
@@ -338,7 +322,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 15,
 				"treasureLikeZone" : 1
 			},
@@ -347,7 +330,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 20,
 				"treasureLikeZone" : 1
 			},
@@ -356,7 +338,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -365,7 +346,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -374,7 +354,6 @@
 				"size" : 20,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -386,7 +365,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -398,7 +376,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -410,7 +387,6 @@
 					"towns" : 1
 				},
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 7
 			},
@@ -419,7 +395,6 @@
 				"size" : 15,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 14,
 				"treasureLikeZone" : 1
 			},
@@ -428,7 +403,6 @@
 				"size" : 15,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 20,
 				"treasureLikeZone" : 1
 			},
@@ -437,7 +411,6 @@
 				"size" : 15,
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 13,
 				"treasureLikeZone" : 1
 			}

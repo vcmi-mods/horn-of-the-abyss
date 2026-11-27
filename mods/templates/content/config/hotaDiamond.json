@@ -9,6 +9,28 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
+		"customObjects" : {
+			"bannedObjects" : {
+				"core:shrineOfMagicLevel1" : {
+					"hota.mapobjects:shrineOfMagicMystery" : true
+				}
+			},
+			"commonObjects" : [
+				{
+					"type" : "core:dragonUtopia",
+					"subtype" : "dragonUtopia",
+					"rmg" : {
+						"rarity" : 200,
+						"zoneLimit" : 1
+					}
+				}
+			]
+		},
 		"zones" : {
 			"1" : {
 				"type" : "playerStart",
@@ -39,25 +61,7 @@
 						"density" : 12
 					}
 				],
-				"matchTerrainToTown" : true,
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					},
-					"commonObjects" : [
-						{
-							"type" : "core:dragonUtopia",
-							"subtype" : "dragonUtopia",
-							"rmg" : {
-								"value" : 10000,
-								"rarity" : 200,
-								"zoneLimit" : 1
-							}
-						}
-					]
-				}
+				"matchTerrainToTown" : true
 			},
 			"2" : {
 				"type" : "playerStart",
@@ -68,7 +72,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -81,7 +84,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"mines" : {
 					"wood" : 1,
 					"ore" : 1,
@@ -114,7 +116,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
@@ -127,7 +128,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
@@ -140,7 +140,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
@@ -153,7 +152,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
@@ -166,7 +164,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 3,
 				"treasureLikeZone" : 3
 			},
@@ -200,18 +197,13 @@
 					}
 				],
 				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					},
 					"commonObjects" : [
 						{
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value" : 10000,
-								"rarity" : 200
+								"rarity" : 200,
+								"zoneLimit" : 0
 							}
 						}
 					]

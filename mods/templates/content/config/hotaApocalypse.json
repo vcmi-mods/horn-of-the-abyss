@@ -36,6 +36,24 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
+		"customObjects" : {
+			"bannedObjects" : {
+				"core:shrineOfMagicLevel1" : {
+					"hota.mapobjects:shrineOfMagicMystery" : true
+				},
+				"core:dragonUtopia" : {
+					"dragonUtopia" : true
+				},
+				"hota.mapobjects:skeletonTransformer" : {
+					"hota.mapobjects:skeletonTransformer" : true
+				}
+			}
+		},
 		"zones" : {
 			"1" : {
 				"type" : "treasure",
@@ -72,20 +90,7 @@
 						"max" : 3000,
 						"density" : 9
 					}
-				],
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						},
-						"core:dragonUtopia" : {
-							"dragonUtopia" : true
-						},
-						"hota.mapobjects:skeletonTransformer" : {
-							"hota.mapobjects:skeletonTransformer" : true
-						}
-					}
-				}
+				]
 			},
 			"2" : {
 				"type" : "treasure",
@@ -103,8 +108,7 @@
 					"towns" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"3" : {
 				"type" : "treasure",
@@ -123,7 +127,6 @@
 				},
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
 			},
 			"4" : {
 				"type" : "treasure",
@@ -141,8 +144,7 @@
 					"towns" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"5" : {
 				"type" : "treasure",
@@ -160,8 +162,7 @@
 					"towns" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"6" : {
 				"type" : "treasure",
@@ -179,8 +180,7 @@
 					"towns" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"7" : {
 				"type" : "playerStart",
@@ -206,8 +206,7 @@
 					"mercury" : 1,
 					"sulfur" : 1
 				},
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"8" : {
 				"type" : "playerStart",
@@ -226,8 +225,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 7,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"9" : {
 				"type" : "playerStart",
@@ -246,8 +244,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"10" : {
 				"type" : "playerStart",
@@ -266,8 +263,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"11" : {
 				"type" : "playerStart",
@@ -286,8 +282,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"12" : {
 				"type" : "playerStart",
@@ -306,8 +301,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"13" : {
 				"type" : "playerStart",
@@ -326,8 +320,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"14" : {
 				"type" : "playerStart",
@@ -346,8 +339,7 @@
 					"castles" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			}
 		},
 		"connections" : [
@@ -364,9 +356,63 @@
 				"road" : "true"
 			},
 			{
+				"a" : "1",
+				"b" : "7",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
 				"a" : "2",
 				"b" : "3",
 				"type" : "wide",
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "7",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "11",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "2",
+				"b" : "12",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "7",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "13",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "3",
+				"b" : "14",
+				"guard" : 6000,
 				"road" : "true"
 			},
 			{
@@ -379,6 +425,24 @@
 				"a" : "4",
 				"b" : "6",
 				"type" : "wide",
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "8",
+				"guard" : 3000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "9",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "4",
+				"b" : "11",
+				"guard" : 6000,
 				"road" : "true"
 			},
 			{
@@ -388,110 +452,38 @@
 				"road" : "true"
 			},
 			{
-				"a" : "7",
-				"b" : "1",
+				"a" : "5",
+				"b" : "8",
 				"guard" : 3000,
 				"road" : "true"
 			},
 			{
-				"a" : "7",
-				"b" : "2",
+				"a" : "5",
+				"b" : "10",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "5",
+				"b" : "13",
+				"guard" : 6000,
+				"road" : "true"
+			},
+			{
+				"a" : "6",
+				"b" : "8",
 				"guard" : 3000,
 				"road" : "true"
 			},
 			{
-				"a" : "7",
-				"b" : "3",
-				"guard" : 3000,
-				"road" : "true"
-			},
-			{
-				"a" : "8",
-				"b" : "4",
-				"guard" : 3000,
-				"road" : "true"
-			},
-			{
-				"a" : "8",
-				"b" : "5",
-				"guard" : 3000,
-				"road" : "true"
-			},
-			{
-				"a" : "8",
-				"b" : "6",
-				"guard" : 3000,
-				"road" : "true"
-			},
-			{
-				"a" : "9",
-				"b" : "1",
+				"a" : "6",
+				"b" : "12",
 				"guard" : 6000,
 				"road" : "true"
 			},
 			{
-				"a" : "9",
-				"b" : "4",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "10",
-				"b" : "1",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "10",
-				"b" : "5",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "11",
-				"b" : "2",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "11",
-				"b" : "4",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "12",
-				"b" : "2",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "12",
-				"b" : "6",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "13",
-				"b" : "3",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "13",
-				"b" : "5",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "14",
-				"b" : "3",
-				"guard" : 6000,
-				"road" : "true"
-			},
-			{
-				"a" : "14",
-				"b" : "6",
+				"a" : "6",
+				"b" : "14",
 				"guard" : 6000,
 				"road" : "true"
 			}
