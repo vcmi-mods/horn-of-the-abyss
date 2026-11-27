@@ -1,3 +1,4 @@
 {
-	"creatures.hota.cannon.cannon.bonus.warMachine": "{Kriegsmaschine}\nEine Fernkampfwaffe, die Geschosse auf feindliche Truppen abfeuert."
+	"creatures.hota.cannon.cannon.bonus.warMachine": "{Kriegsmaschine}\nEine Fernkampfwaffe, die Geschosse auf feindliche Truppen abfeuert.",
+	"creatures.hota.cannon.cannon.bonus.noRetaliation": "{Schlägt nicht zurück}\nDas Kriegsgerät kann nicht gegen Angriffe zurückschlagen."
 }

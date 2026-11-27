@@ -1,5 +1,5 @@
 {
-	"skill.core.eagleEye.description.advanced": "{Verbessert Adlerauge}\n\nVerbessert Adlerauge gibt Eurem Helden eine 50% Chance, jeden bis zur 3. Stufe verwendeten Zauber im Kampf zu erlernen.",
-	"skill.core.eagleEye.description.basic": "{Einfach Adlerauge}\n\nEinfach Adlerauge gibt Eurem Helden eine 40% Chance, jeden bis zur 1. oder 2. Stufe verwendeten Zauber im Kampf zu erlernen.",
-	"skill.core.eagleEye.description.expert": "{Meisterhaft Adlerauge}\n\nMeisterhaft Adlerauge gibt Eurem Helden eine 60% Chance, jeden bis zur 4. Stufe verwendeten Zauber im Kampf zu erlernen."
+	"skill.core.eagleEye.description.advanced": "{Verbessert Adlerauge}\n\nVerbessert Adlerauge gewährt dem Helden zu Kampfbeginn eine Chance von 40%, jeden dem Gegner bekannten Zauber der Stufen 1-4 zu erlernen und eine Chance von 100% ihn nach Kampfende zu erlernen, sollte er während des Kampfes benutzt werden.",
+	"skill.core.eagleEye.description.basic": "{Einfach Adlerauge}\n\nEinfach Adlerauge gewährt dem Helden zu Kampfbeginn eine Chance von 30%, jeden dem Gegner bekannten Zauber der Stufen 1-3 zu erlernen und eine Chance von 100% ihn nach Kampfende zu erlernen, sollte er während des Kampfes benutzt werden.",
+	"skill.core.eagleEye.description.expert": "{Meisterhaft Adlerauge}\n\nMeisterhaft Adlerauge gewährt dem Helden zu Kampfbeginn eine Chance von 50%, jeden dem Gegner bekannten Zauber der Stufen 1-5 zu erlernen und eine Chance von 100% ihn nach Kampfende zu erlernen, sollte er während des Kampfes benutzt werden."
 }
