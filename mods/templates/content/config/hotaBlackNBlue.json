@@ -243,7 +243,7 @@
 							"subtype" : "object",
 							"rmg" : {
 								"value" : 2500,
-								"rarity": 50
+								"rarity" : 50
 							}
 						},
 						{
@@ -666,7 +666,6 @@
 							"type" : "core:wagon",
 							"subtype" : "wagon",
 							"rmg" : {
-
 								"zoneLimit" : 3
 							}
 						}
@@ -1005,7 +1004,6 @@
 								"rarity" : 200,
 								"zoneLimit" : 3
 							}
-
 						}
 					],
 					"pandoraBoxes" : [

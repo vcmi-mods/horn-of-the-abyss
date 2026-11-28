@@ -126,7 +126,7 @@
 					"towns" : 1
 				},
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
+				"treasureLikeZone" : 1
 			},
 			"4" : {
 				"type" : "treasure",
