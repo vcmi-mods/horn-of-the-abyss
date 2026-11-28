@@ -1,5 +1,16 @@
 {
 	"core:tradingPost" : {
+		// snow version
+		"types" : {
+			"object" : {
+				"rmg" : {
+					"value" : 3000
+				}
+			}
+		}
+	},
+	"core:tradingPostDUPLICATE" : {
+		// normal version
 		"types" : {
 			"object" : {
 				"rmg" : {

@@ -45,7 +45,8 @@
 		"customObjects" : {
 			"bannedObjects" : {
 				"core:obelisk" : true,
-				"core:tradingPost" : true
+				"core:tradingPost" : true,
+				"core:tradingPostDUPLICATE" : true
 			}
 		},
 		"zones" : {

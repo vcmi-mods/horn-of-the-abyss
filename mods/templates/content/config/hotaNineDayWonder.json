@@ -65,6 +65,7 @@
 			],
 			"bannedObjects" : {
 				"core:tradingPost" : true,
+				"core:tradingPostDUPLICATE" : true,
 				"core:obelisk" : true,
 				"hota.mapobjects:templeOfLoyalty" : true,
 				"core:creatureBank" : {
