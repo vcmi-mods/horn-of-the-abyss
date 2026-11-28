@@ -1,4 +1,5 @@
 {
+	// NOTE: should be spawning up to one of these prisons in each zone (no mapLimit): 0xp, 5000xp, 15000xp
 	"[HotA] Nine-day Wonder" : {
 		"description" : "M-size template designed to use with 200% difficulty. Special object generation settings are used. The players are able to enter the grass zone with poor treasures and the dirt zone with Dragon Fly Hives and Wolf Raider Pickets. From these zones they may access the lava treasure.",
 		"minSize" : "m",
@@ -145,15 +146,6 @@
 					"subtype" : "hota.mapobjects:shrineOfMagicMystery",
 					"rmg" : {
 						"zoneLimit" : 1
-					}
-				},
-				{
-					// NOTE: should be 1 zoneLimit for each: 0xp, 5000xp, 15000xp
-					"type" : "core:prison",
-					"subtype" : "prison",
-					"rmg" : {
-						"mapLimit" : 0,
-						"zoneLimit" : 3
 					}
 				},
 				{
@@ -636,6 +628,11 @@
 				"b" : "5",
 				"guard" : 2000,
 				"road" : "true"
+			},
+			{
+				"a" : "1",
+				"b" : "4",
+				"type" : "repulsive"
 			}
 		]
 	}

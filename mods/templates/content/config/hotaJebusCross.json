@@ -191,6 +191,36 @@
 				"a" : "1",
 				"b" : "5",
 				"guard" : 45000
+			},
+			{
+				"a" : "2",
+				"b" : "3",
+				"type" : "repulsive"
+			},
+			{
+				"a" : "2",
+				"b" : "4",
+				"type" : "repulsive"
+			},
+			{
+				"a" : "2",
+				"b" : "5",
+				"type" : "repulsive"
+			},
+			{
+				"a" : "3",
+				"b" : "4",
+				"type" : "repulsive"
+			},
+			{
+				"a" : "3",
+				"b" : "5",
+				"type" : "repulsive"
+			},
+			{
+				"a" : "4",
+				"b" : "5",
+				"type" : "repulsive"
 			}
 		]
 	}

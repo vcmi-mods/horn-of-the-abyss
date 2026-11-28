@@ -8,7 +8,8 @@
 	"modType" : "Templates",
 	"version" : "1.4",
 	"depends" : [
-		"hota.mapobjects"
+		"hota.mapobjects",
+		"hota.neutralcreatures"
 	],
 	"changelog" : {
 		"1.0" : [
