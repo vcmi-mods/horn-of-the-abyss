@@ -4,8 +4,6 @@
 	// zone1 should contain prison 5k (4), prison 15k (2)
 	// zones 3-5 and 7-11 should only contain prison noexp (2)
 	// zones 3-5 and 7-11 should contain Spell Scrolls lvl 1 (5)
-	// zones 8-11 should contain boxes with vamp lords (3), skellies (rare:200, nolimit), 2 prisons without xp
-	// zones 8-11 should contain spell scrolls lvl 1-3
 	"[HotA] Black'n'Blue" : {
 		"description" : "This template makes use of non-standard objects. Each player has access to the snow zones with Ancient Lamps and Dragon Utopias; as well as Subterranean zones with Pandora Boxes. Player areas are connected via large and rich treasure zone with Ancient Lamps, Pandora Boxes, Dragon Utopias and Faerie Dragon Dwellings.",
 		"minSize" : "l+u",
