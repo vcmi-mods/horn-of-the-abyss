@@ -1019,19 +1019,6 @@
 								"zoneLimit" : 2
 							}
 						}
-					//	{
-					//		"creatures" : [
-					//			{
-					//				// NOTE: this is the correct id for Stone Golems. Issue lies with vanilla text files.
-					//				"type" : "ironGolem",
-					//				"amount" : 35
-					//			}
-					//		],
-					//		"rmg" : {
-					//			"value" : 25000,
-					//			"rarity" : 200
-					//		}
-					//	}
 					]
 				}
 			},
