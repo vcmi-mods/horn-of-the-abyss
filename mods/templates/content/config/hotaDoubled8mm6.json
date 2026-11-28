@@ -5,6 +5,11 @@
 		"minSize" : "xh+u",
 		"name" : "[HotA] Doubled 8mm6",
 		"players" : "8",
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
 		"zones" : {
 			"1" : {
 				"type" : "playerStart",

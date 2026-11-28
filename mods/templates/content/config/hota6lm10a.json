@@ -9,6 +9,28 @@
 				"allowRandomSpecialWeeks" : false
 			}
 		},
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
+		"customObjects" : {
+			"bannedObjects" : {
+				"core:shrineOfMagicLevel1" : {
+					"hota.mapobjects:shrineOfMagicMystery" : true
+				}
+			},
+			"commonObjects" : [
+				{
+					"type" : "core:dragonUtopia",
+					"subtype" : "dragonUtopia",
+					"rmg" : {
+						"rarity" : 200,
+						"zoneLimit" : 1
+					}
+				}
+			]
+		},
 		"zones" : {
 			"1" : {
 				"type" : "playerStart",
@@ -39,25 +61,7 @@
 						"density" : 9
 					}
 				],
-				"matchTerrainToTown" : true,
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					},
-					"commonObjects" : [
-						{
-							"type" : "core:dragonUtopia",
-							"subtype" : "dragonUtopia",
-							"rmg" : {
-								"value" : 10000,
-								"rarity" : 200,
-								"zoneLimit" : 1
-							}
-						}
-					]
-				}
+				"matchTerrainToTown" : true
 			},
 			"2" : {
 				"type" : "playerStart",
@@ -68,7 +72,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -81,7 +84,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -94,7 +96,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -107,7 +108,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -120,7 +120,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -153,17 +152,11 @@
 				],
 				"matchTerrainToTown" : true,
 				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					},
 					"commonObjects" : [
 						{
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value" : 10000,
 								"rarity" : 200,
 								"zoneLimit" : 2
 							}
@@ -222,7 +215,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -235,7 +227,6 @@
 					"castles" : 1
 				},
 				"matchTerrainToTown" : true,
-				"customObjectsLikeZone" : 1,
 				"minesLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
@@ -311,18 +302,13 @@
 					}
 				],
 				"customObjects" : {
-					"bannedObjects" : {
-						"core:shrineOfMagicLevel1" : {
-							"hota.mapobjects:shrineOfMagicMystery" : true
-						}
-					},
 					"commonObjects" : [
 						{
 							"type" : "core:dragonUtopia",
 							"subtype" : "dragonUtopia",
 							"rmg" : {
-								"value" : 10000,
-								"rarity" : 200
+								"rarity" : 200,
+								"zoneLimit" : 0
 							}
 						}
 					]
@@ -366,7 +352,6 @@
 					"crystal" : 1,
 					"gems" : 1
 				},
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
 			"22" : {
@@ -375,7 +360,6 @@
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 21,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
 			"23" : {
@@ -384,7 +368,6 @@
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 21,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
 			"24" : {
@@ -393,7 +376,6 @@
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 21,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			},
 			"25" : {
@@ -402,7 +384,6 @@
 				"monsters" : "normal",
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 21,
-				"customObjectsLikeZone" : 1,
 				"treasureLikeZone" : 1
 			}
 		},
@@ -651,12 +632,14 @@
 			{
 				"a" : "21",
 				"b" : "22",
-				"type" : "wide"
+				"type" : "wide",
+				"road" : "false"
 			},
 			{
 				"a" : "24",
 				"b" : "25",
-				"type" : "wide"
+				"type" : "wide",
+				"road" : "false"
 			}
 
 			// second road preset

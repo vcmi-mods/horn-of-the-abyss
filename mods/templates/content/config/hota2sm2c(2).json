@@ -37,6 +37,18 @@
 			"hota.factory:17victoria",
 			"hota.bulwark:10glacius"
 		],
+		"monsterJoining" : {
+			"character" : "hostile",
+			"joiningPercentage" : 50,
+			"joinOnlyForMoney" : true
+		},
+		"customObjects" : {
+			"bannedObjects" : {
+				"core:obelisk" : true,
+				"core:tradingPost" : true,
+				"core:tradingPostDUPLICATE" : true
+			}
+		},
 		"zones" : {
 			"1" : {
 				"type" : "playerStart",
@@ -71,17 +83,7 @@
 						"max" : 800,
 						"density" : 9
 					}
-				],
-				"customObjects" : {
-					"bannedObjects" : {
-						"core:obelisk" : {
-							"object" : true
-						},
-						"core:tradingPost" : {
-							"object" : true
-						}
-					}
-				}
+				]
 			},
 			"2" : {
 				"type" : "playerStart",
@@ -97,8 +99,7 @@
 					"conflux"
 				],
 				"minesLikeZone" : 1,
-				"treasureLikeZone" : 1,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 1
 			},
 			"3" : {
 				"type" : "treasure",
@@ -130,8 +131,7 @@
 						"max" : 2100,
 						"density" : 5
 					}
-				],
-				"customObjectsLikeZone" : 1
+				]
 			},
 			"4" : {
 				"type" : "treasure",
@@ -160,8 +160,7 @@
 						"max" : 2000,
 						"density" : 9
 					}
-				],
-				"customObjectsLikeZone" : 1
+				]
 			},
 			"5" : {
 				"type" : "treasure",
@@ -172,8 +171,7 @@
 					"dirt"
 				],
 				"minesLikeZone" : 4,
-				"treasureLikeZone" : 4,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 4
 			},
 			"6" : {
 				"type" : "treasure",
@@ -184,8 +182,7 @@
 				},
 				"matchTerrainToTown" : false,
 				"minesLikeZone" : 3,
-				"treasureLikeZone" : 3,
-				"customObjectsLikeZone" : 1
+				"treasureLikeZone" : 3
 			}
 		},
 		"connections" : [
